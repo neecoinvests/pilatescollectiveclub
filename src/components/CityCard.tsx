@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface CityCardProps {
   city: string;
@@ -7,15 +8,16 @@ interface CityCardProps {
   studioCount?: number;
 }
 
-const cityGradients: Record<string, string> = {
-  Zurich: "linear-gradient(135deg, #e8e2d6 0%, #cbc6ba 100%)",
-  London: "linear-gradient(135deg, #e4e2e1 0%, #d9c2ba 100%)",
-  "New York": "linear-gradient(135deg, #f0eded 0%, #dcd9d9 100%)",
-  Paris: "linear-gradient(135deg, #ffdbce 0%, #d9c2ba 100%)",
+const cityImages: Record<string, string> = {
+  Zurich: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=80",
+  London: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+  Paris: "https://images.unsplash.com/photo-1431274172761-fca41d930114?auto=format&fit=crop&w=800&q=80",
+  Geneva: "https://images.unsplash.com/photo-1611523757227-46ca1dd7d12e?auto=format&fit=crop&w=800&q=80",
+  Lausanne: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80",
 };
 
 export default function CityCard({ city, country, href, studioCount }: CityCardProps) {
-  const gradient = cityGradients[city] || "linear-gradient(135deg, #e4e2e1 0%, #d9c2ba 100%)";
+  const imageUrl = cityImages[city];
 
   return (
     <Link href={href} className="group block">
@@ -24,10 +26,22 @@ export default function CityCard({ city, country, href, studioCount }: CityCardP
         style={{ boxShadow: "0 2px 10px rgba(0,0,0,0.07)" }}
       >
         {/* Background */}
-        <div
-          className="absolute inset-0 transition-transform duration-500 group-hover:scale-105"
-          style={{ background: gradient }}
-        />
+        {imageUrl ? (
+          <div className="absolute inset-0">
+            <Image
+              src={imageUrl}
+              alt={city}
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              style={{ filter: "brightness(0.85)" }}
+            />
+          </div>
+        ) : (
+          <div
+            className="absolute inset-0 transition-transform duration-500 group-hover:scale-105"
+            style={{ background: "linear-gradient(135deg, #e4e2e1 0%, #d9c2ba 100%)" }}
+          />
+        )}
 
         {/* Subtle overlay on hover */}
         <div

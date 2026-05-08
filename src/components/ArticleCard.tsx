@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface ArticleCardProps {
   title: string;
@@ -7,6 +8,7 @@ interface ArticleCardProps {
   category: string;
   readTime: string;
   date?: string;
+  imageUrl?: string;
 }
 
 export default function ArticleCard({
@@ -16,6 +18,7 @@ export default function ArticleCard({
   category,
   readTime,
   date,
+  imageUrl,
 }: ArticleCardProps) {
   return (
     <Link href={href} className="group block">
@@ -27,23 +30,34 @@ export default function ArticleCard({
           boxShadow: "0 1px 6px rgba(0,0,0,0.04)",
         }}
       >
-        {/* Image placeholder */}
+        {/* Image */}
         <div className="relative overflow-hidden aspect-video">
-          <div
-            className="absolute inset-0 transition-transform duration-500 group-hover:scale-105"
-            style={{
-              background:
-                "linear-gradient(135deg, #e8e2d6 0%, #f0eded 50%, #d9c2ba 100%)",
-            }}
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <span
-              className="text-xs uppercase tracking-widest font-semibold"
-              style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              {category}
-            </span>
-          </div>
+          {imageUrl ? (
+            <Image
+              src={imageUrl}
+              alt={title}
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+          ) : (
+            <>
+              <div
+                className="absolute inset-0 transition-transform duration-500 group-hover:scale-105"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #e8e2d6 0%, #f0eded 50%, #d9c2ba 100%)",
+                }}
+              />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span
+                  className="text-xs uppercase tracking-widest font-semibold"
+                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                >
+                  {category}
+                </span>
+              </div>
+            </>
+          )}
         </div>
 
         {/* Content */}

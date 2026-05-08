@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SearchHero from "@/components/SearchHero";
@@ -59,9 +60,10 @@ const FEATURES = [
 
 const CITIES = [
   { city: "Zurich", country: "Switzerland", href: "/cities/zurich", studioCount: 5 },
-  { city: "London", country: "United Kingdom", href: "/cities/zurich", studioCount: 12 },
-  { city: "New York", country: "United States", href: "/cities/zurich", studioCount: 18 },
-  { city: "Paris", country: "France", href: "/cities/zurich", studioCount: 8 },
+  { city: "Geneva", country: "Switzerland", href: "/cities/geneva", studioCount: 5 },
+  { city: "Lausanne", country: "Switzerland", href: "/cities/lausanne", studioCount: 5 },
+  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
+  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
 ];
 
 const GUIDES = [
@@ -73,6 +75,7 @@ const GUIDES = [
     category: "City Guide",
     readTime: "8 min read",
     date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Best Pilates Equipment for Home Practice",
@@ -82,6 +85,7 @@ const GUIDES = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
   },
 ];
 
@@ -120,6 +124,16 @@ export default function Home() {
               "radial-gradient(ellipse 120% 80% at 50% -10%, rgba(255, 219, 206, 0.45) 0%, rgba(252, 249, 248, 0) 60%), #fcf9f8",
           }}
         >
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <Image
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1920&q=60"
+              alt="Pilates studio"
+              fill
+              className="object-cover opacity-[0.06]"
+              priority
+            />
+          </div>
+
           {/* Decorative rings */}
           <div
             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full pointer-events-none"
@@ -246,7 +260,7 @@ export default function Home() {
                 View all cities →
               </a>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+            <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">
               {CITIES.map((c) => (
                 <CityCard key={c.city} {...c} />
               ))}
