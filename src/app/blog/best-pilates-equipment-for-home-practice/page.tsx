@@ -136,7 +136,7 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="The Studio Mat Pro"
                 description="6mm thick, high-density closed-cell foam with a natural cork surface layer for superior grip. Lightweight, easy to wipe clean, and comes with a carry strap. Our top recommendation for serious home practitioners."
-                price="From £48"
+                price="From $52"
                 badge
               />
             </section>
@@ -169,7 +169,7 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="Premium Resistance Band Set"
                 description="Set of 3 fabric-covered bands (light, medium, heavy). Durable looped design with anti-slip inner layer. Ideal for Pilates footwork, chest expansion, and stretching series. Includes a mesh storage bag."
-                price="From £26"
+                price="From $28"
                 badge
               />
             </section>
@@ -203,7 +203,7 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="Precision Magic Circle"
                 description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
-                price="From £32"
+                price="From $35"
                 badge
               />
             </section>
@@ -236,7 +236,7 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="Adjustable Ankle Weights"
                 description="Neoprene-covered with adjustable fill pockets, 0.5–2kg per weight. Machine washable, secure velcro closure, and a slim profile that doesn't restrict movement range. A rare combination of quality and versatility."
-                price="From £34"
+                price="From $38"
                 badge
               />
             </section>
@@ -254,7 +254,7 @@ export default function BlogEquipmentPage() {
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
                 A full reformer is the gold standard for home Pilates, but it requires significant
-                space and investment (typically £1,500–£4,000 for a quality model). For most home
+                space and investment (typically $1,800–$4,500 for a quality model). For most home
                 practitioners, a Pilates board or fitness board offers the most accessible
                 reformer-like experience — spring-loaded resistance, a sliding surface, and enough
                 versatility to cover the majority of the classical reformer repertoire.
@@ -263,7 +263,7 @@ export default function BlogEquipmentPage() {
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                These boards are generally under £200, fold flat for storage, and can be used
+                These boards are generally under $220, fold flat for storage, and can be used
                 against any stable wall. They don&apos;t replicate the full reformer experience — the
                 carriage feel is quite different — but for footwork, leg press, and standing work,
                 they&apos;re genuinely useful.
@@ -271,7 +271,7 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="Home Pilates Board"
                 description="Spring-loaded sliding board with adjustable resistance. Foldable and wall-mountable. Covers footwork, squat series, and standing balance exercises. A smart option before committing to a full reformer."
-                price="From £165"
+                price="From $179"
                 badge
               />
             </section>
@@ -338,36 +338,36 @@ export default function BlogEquipmentPage() {
                       {
                         item: "Mat",
                         need: "Essential",
-                        budget: "Standard foam, ~£20",
-                        premium: "Cork/natural rubber, £80+",
+                        budget: "Standard foam, ~$22",
+                        premium: "Cork/natural rubber, $90+",
                         pick: "The Studio Mat Pro",
                       },
                       {
                         item: "Resistance Bands",
                         need: "Very useful",
-                        budget: "Latex loop bands, £8",
-                        premium: "Fabric set of 3, £30",
+                        budget: "Latex loop bands, $9",
+                        premium: "Fabric set of 3, $33",
                         pick: "Premium Resistance Band Set",
                       },
                       {
                         item: "Pilates Ring",
                         need: "Optional",
-                        budget: "Basic plastic, £12",
-                        premium: "Fibreglass with padding, £40",
+                        budget: "Basic plastic, $13",
+                        premium: "Fibreglass with padding, $44",
                         pick: "Precision Magic Circle",
                       },
                       {
                         item: "Ankle Weights",
                         need: "Optional",
-                        budget: "Fixed 1kg pair, £10",
-                        premium: "Adjustable neoprene, £40",
+                        budget: "Fixed 1kg pair, $11",
+                        premium: "Adjustable neoprene, $44",
                         pick: "Adjustable Ankle Weights",
                       },
                       {
                         item: "Reformer Alternative",
                         need: "Advanced",
-                        budget: "Second-hand reformer, £400",
-                        premium: "Full home reformer, £2,000+",
+                        budget: "Second-hand reformer, $450",
+                        premium: "Full home reformer, $2,200+",
                         pick: "Home Pilates Board",
                       },
                     ].map((row, i) => (

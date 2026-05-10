@@ -68,9 +68,17 @@ const CITIES = [
 
 const GUIDES = [
   {
+    title: "The Best Pilates Studios in London",
+    excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios.",
+    href: "/cities/london",
+    category: "City Guide",
+    readTime: "8 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+  },
+  {
     title: "The Best Pilates Studios in Zurich",
-    excerpt:
-      "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.",
+    excerpt: "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.",
     href: "/cities/zurich",
     category: "City Guide",
     readTime: "8 min read",
@@ -78,14 +86,40 @@ const GUIDES = [
     imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=80",
   },
   {
+    title: "The Beginner's Guide to Reformer Pilates",
+    excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence.",
+    href: "/blog/beginners-guide-to-reformer-pilates",
+    category: "Beginner Guide",
+    readTime: "8 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "Pilates for Back Pain: What the Research Shows",
+    excerpt: "A clear-eyed look at the evidence — what Pilates can and can't do for chronic back pain, and how to start safely.",
+    href: "/blog/pilates-for-back-pain",
+    category: "Wellness",
+    readTime: "9 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "Classical vs Contemporary Pilates",
+    excerpt: "Understanding the key differences between the original method and modern interpretations — and which is right for you.",
+    href: "/blog/classical-vs-contemporary-pilates",
+    category: "Method",
+    readTime: "7 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+  },
+  {
     title: "Best Pilates Equipment for Home Practice",
-    excerpt:
-      "Everything you actually need to build a consistent home practice, from a quality mat to the best reformer alternatives.",
+    excerpt: "Everything you actually need to build a consistent home practice, from a quality mat to the best reformer alternatives.",
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
   },
 ];
 
@@ -94,19 +128,19 @@ const PRODUCTS = [
     name: "Premium Pilates Mat",
     description:
       "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability. Our top pick for studio and home use.",
-    price: "From £48",
+    price: "From $52",
   },
   {
     name: "Pilates Grip Socks",
     description:
       "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping on the carriage.",
-    price: "From £14",
+    price: "From $16",
   },
   {
     name: "Resistance Ring (Magic Circle)",
     description:
       "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store in any corner. Targets inner thighs, arms, and core.",
-    price: "From £22",
+    price: "From $24",
   },
 ];
 
@@ -285,7 +319,7 @@ export default function Home() {
                 Latest Guides
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {GUIDES.map((g) => (
                 <ArticleCard key={g.href} {...g} />
               ))}
