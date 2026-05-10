@@ -64,6 +64,11 @@ const CITIES = [
   { city: "Lausanne", country: "Switzerland", href: "/cities/lausanne", studioCount: 5 },
   { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
   { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
+  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 5 },
+  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 5 },
+  { city: "Amsterdam", country: "Netherlands", href: "/cities/amsterdam", studioCount: 5 },
+  { city: "Berlin", country: "Germany", href: "/cities/berlin", studioCount: 5 },
+  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 5 },
 ];
 
 const GUIDES = [
@@ -120,6 +125,51 @@ const GUIDES = [
     readTime: "10 min read",
     date: "May 2026",
     imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "Pilates vs Yoga: Key Differences and How to Choose",
+    excerpt: "A clear, honest comparison of two of the world's most popular movement practices — and how to decide between them.",
+    href: "/blog/pilates-vs-yoga",
+    category: "Method",
+    readTime: "7 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "The Best Pilates Retreats in Europe",
+    excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.",
+    href: "/blog/best-pilates-retreats-europe",
+    category: "Travel",
+    readTime: "8 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "Pilates for Athletes",
+    excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.",
+    href: "/blog/pilates-for-athletes",
+    category: "Performance",
+    readTime: "7 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "How to Choose the Right Pilates Instructor",
+    excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.",
+    href: "/blog/how-to-choose-a-pilates-instructor",
+    category: "Guide",
+    readTime: "6 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "Pilates and Pregnancy: A Complete Guide",
+    excerpt: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist.",
+    href: "/blog/pilates-and-pregnancy",
+    category: "Health",
+    readTime: "8 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?auto=format&fit=crop&w=800&q=80",
   },
 ];
 
