@@ -137,6 +137,7 @@ const FURTHER_READING = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "The Beginner's Guide to Reformer Pilates",
@@ -145,6 +146,7 @@ const FURTHER_READING = [
     category: "Beginner Guide",
     readTime: "8 min read",
     date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
   },
 ];
 

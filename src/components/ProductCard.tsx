@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Badge from "./Badge";
 
 interface ProductCardProps {
@@ -6,6 +7,7 @@ interface ProductCardProps {
   price?: string;
   affiliateUrl?: string;
   imageAlt?: string;
+  imageUrl?: string;
   badge?: boolean;
 }
 
@@ -15,6 +17,7 @@ export default function ProductCard({
   price,
   affiliateUrl = "#",
   imageAlt,
+  imageUrl,
   badge = true,
 }: ProductCardProps) {
   return (
@@ -26,22 +29,28 @@ export default function ProductCard({
         boxShadow: "0 1px 3px rgba(0,0,0,0.06)",
       }}
     >
-      {/* Image placeholder */}
+      {/* Image */}
       <div className="relative overflow-hidden aspect-video">
-        <div
-          className="absolute inset-0"
-          style={{
-            background: "linear-gradient(135deg, #e4e2e1 0%, #f0eded 50%, #d9c2ba 100%)",
-          }}
-        />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span
-            className="text-sm font-medium"
-            style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
-          >
-            {imageAlt || name}
-          </span>
-        </div>
+        {imageUrl ? (
+          <Image src={imageUrl} alt={imageAlt || name} fill className="object-cover" />
+        ) : (
+          <>
+            <div
+              className="absolute inset-0"
+              style={{
+                background: "linear-gradient(135deg, #e4e2e1 0%, #f0eded 50%, #d9c2ba 100%)",
+              }}
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span
+                className="text-sm font-medium"
+                style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+              >
+                {imageAlt || name}
+              </span>
+            </div>
+          </>
+        )}
       </div>
 
       {/* Content */}

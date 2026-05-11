@@ -125,6 +125,14 @@ export default function BestPilatesBooksPage() {
           </div>
         </section>
 
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1400&q=80" alt="Pilates books for study" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
+          </div>
+        </section>
+
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
@@ -178,8 +186,8 @@ export default function BestPilatesBooksPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Classical vs Contemporary Pilates" excerpt="Understanding the key differences between the original method and modern interpretations." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="7 min read" date="May 2026" />
-                <ArticleCard title="The 6 Core Principles of Pilates, Explained" excerpt="Concentration, control, centering, precision, breath, and flow — what they actually mean in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="6 min read" date="May 2026" />
+                <ArticleCard title="Classical vs Contemporary Pilates" excerpt="Understanding the key differences between the original method and modern interpretations." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="7 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" />
+                <ArticleCard title="The 6 Core Principles of Pilates, Explained" excerpt="Concentration, control, centering, precision, breath, and flow — what they actually mean in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="6 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80" />
               </div>
             </div>
           </div>

@@ -137,6 +137,14 @@ export default function WhatToWearToPilatesPage() {
           </div>
         </section>
 
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=1400&q=80" alt="Pilates studio outfit and activewear" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
+          </div>
+        </section>
+
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
@@ -231,8 +239,8 @@ export default function WhatToWearToPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="Studio-tested grip socks ranked — from ToeSox to Tavi Noir and the best budget picks." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" />
-                <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" />
+                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="Studio-tested grip socks ranked — from ToeSox to Tavi Noir and the best budget picks." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?auto=format&fit=crop&w=800&q=80" />
+                <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" />
               </div>
             </div>
           </div>

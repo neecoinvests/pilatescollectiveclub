@@ -69,6 +69,14 @@ export default function PilatesForAthletesPage() {
           </div>
         </section>
 
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=1400&q=80" alt="Athlete training with Pilates" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
+          </div>
+        </section>
+
         <section className="px-6 pb-20 pt-12">
           <div className="max-w-3xl mx-auto">
             <Section title="Why elite athletes turn to Pilates">

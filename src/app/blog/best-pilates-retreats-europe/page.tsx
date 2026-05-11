@@ -78,6 +78,14 @@ export default function BestPilatesRetreatsEuropePage() {
           </div>
         </section>
 
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1400&q=80" alt="European wellness retreat landscape" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
+          </div>
+        </section>
+
         <section className="px-6 pb-20 pt-12">
           <div className="max-w-3xl mx-auto">
             <Section title="What makes a retreat worth attending">

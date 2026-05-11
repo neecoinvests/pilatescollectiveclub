@@ -137,6 +137,7 @@ const FURTHER_READING = [
     category: "Method",
     readTime: "6 min read",
     date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Best Pilates Equipment for Home Practice",
@@ -145,6 +146,7 @@ const FURTHER_READING = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80",
   },
 ];
 

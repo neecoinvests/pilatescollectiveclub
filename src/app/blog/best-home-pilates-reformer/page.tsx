@@ -119,6 +119,14 @@ export default function BestHomeReformerPage() {
           </div>
         </section>
 
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1400&q=80" alt="Home Pilates reformer machine" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
+          </div>
+        </section>
+
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
@@ -238,8 +246,8 @@ export default function BestHomeReformerPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Everything beyond the reformer — mats, bands, rings, and ankle weights." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" />
-                <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" />
+                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Everything beyond the reformer — mats, bands, rings, and ankle weights." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80" />
+                <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" />
               </div>
             </div>
           </div>
