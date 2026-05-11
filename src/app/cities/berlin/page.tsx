@@ -10,6 +10,19 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Berlin | Pilates Collective Club",
   description: "Our curated guide to Berlin's best Pilates studios — from Mitte to Prenzlauer Berg, the five studios leading the city's thriving wellness scene.",
+  openGraph: {
+    title: "The Best Pilates Studios in Berlin",
+    description: "Our curated guide to Berlin's best Pilates studios — five verified picks from Mitte to Prenzlauer Berg.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/cities/berlin",
+    images: [{ url: "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1200&q=80", width: 1200, height: 630, alt: "Berlin city guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Studios in Berlin",
+    description: "Our curated guide to Berlin's best Pilates studios — five verified picks.",
+    images: ["https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1200&q=80"],
+  },
 };
 
 const STUDIOS = [
@@ -93,8 +106,8 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "The Best Pilates Retreats in Europe", excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.", href: "/blog/best-pilates-retreats-europe", category: "Travel", readTime: "8 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80" },
-  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" },
+  { title: "The Best Pilates Retreats in Europe", excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.", href: "/blog/best-pilates-retreats-europe", category: "Travel", readTime: "8 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=800&q=80" },
+  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1573384666979-47b6a9b4b16d?w=800&q=80" },
 ];
 
 const jsonLd = {
@@ -158,7 +171,7 @@ export default function BerlinPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1400&q=80" alt="Berlin cityscape" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1400&q=80" alt="Berlin cityscape" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Berlin, Germany</p>

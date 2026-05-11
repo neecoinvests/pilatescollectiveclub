@@ -10,6 +10,19 @@ export const metadata: Metadata = {
   title: "Best Pilates Equipment for Home Practice | Pilates Collective Club",
   description:
     "Our definitive guide to home Pilates equipment. From quality mats to resistance bands and reformer alternatives — everything you actually need.",
+  openGraph: {
+    title: "Best Pilates Equipment for Home Practice",
+    description: "Our definitive guide to home Pilates equipment — from quality mats to resistance bands and reformer alternatives.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
+    images: [{ url: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200&q=80", width: 1200, height: 630, alt: "Pilates Equipment for Home Practice — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Pilates Equipment for Home Practice",
+    description: "Our definitive guide to home Pilates equipment.",
+    images: ["https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200&q=80"],
+  },
 };
 
 export default function BlogEquipmentPage() {
@@ -68,7 +81,7 @@ export default function BlogEquipmentPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
-              <Image src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1400&q=80" alt="Pilates home practice equipment" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1400&q=80" alt="Pilates home practice equipment" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -175,7 +188,7 @@ export default function BlogEquipmentPage() {
                 name="Precision Magic Circle"
                 description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
                 price="From $35"
-
+                affiliateUrl="https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20"
               />
             </section>
 
@@ -208,7 +221,7 @@ export default function BlogEquipmentPage() {
                 name="Adjustable Ankle Weights"
                 description="Neoprene-covered with adjustable fill pockets, 0.5–2kg per weight. Machine washable, secure velcro closure, and a slim profile that doesn't restrict movement range. A rare combination of quality and versatility."
                 price="From $38"
-
+                affiliateUrl="https://www.amazon.com/s?k=adjustable+ankle+weights+pilates+neoprene&tag=pilatescollective-20"
               />
             </section>
 
@@ -243,7 +256,7 @@ export default function BlogEquipmentPage() {
                 name="Home Pilates Board"
                 description="Spring-loaded sliding board with adjustable resistance. Foldable and wall-mountable. Covers footwork, squat series, and standing balance exercises. A smart option before committing to a full reformer."
                 price="From $179"
-
+                affiliateUrl="https://www.amazon.com/s?k=pilates+board+home+workout+sliding&tag=pilatescollective-20"
               />
             </section>
 
@@ -399,7 +412,7 @@ export default function BlogEquipmentPage() {
                 practice — it doesn&apos;t create one.
               </p>
               <a
-                href="/cities/zurich"
+                href="/blog"
                 className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
                 style={{
                   backgroundColor: "#ffffff",
@@ -407,7 +420,7 @@ export default function BlogEquipmentPage() {
                   fontFamily: "'Montserrat', sans-serif",
                 }}
               >
-                Find a studio near you →
+                Explore all guides →
               </a>
             </section>
 

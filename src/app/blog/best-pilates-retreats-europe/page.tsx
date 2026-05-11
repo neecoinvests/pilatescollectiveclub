@@ -7,6 +7,19 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Retreats in Europe | Pilates Collective Club",
   description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
+  openGraph: {
+    title: "The Best Pilates Retreats in Europe",
+    description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
+    images: [{ url: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=80", width: 1200, height: 630, alt: "Best Pilates Retreats in Europe — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Retreats in Europe",
+    description: "From Provence to Puglia — the European Pilates retreats worth planning your year around.",
+    images: ["https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=80"],
+  },
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -73,15 +86,7 @@ export default function BestPilatesRetreatsEuropePage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1400&q=80" alt="European wellness retreat landscape" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
-            </div>
-          </div>
-        </section>
-
-        <section className="px-6 mb-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1400&q=80" alt="European wellness retreat landscape" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1400&q=80" alt="European wellness retreat landscape" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

@@ -9,6 +9,19 @@ export const metadata: Metadata = {
   title: "The 6 Core Principles of Pilates, Explained | Pilates Collective Club",
   description:
     "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method and how to apply them in practice.",
+  openGraph: {
+    title: "The 6 Core Principles of Pilates, Explained",
+    description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method and how to apply them in practice.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
+    images: [{ url: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1200&q=80", width: 1200, height: 630, alt: "Pilates core principles — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The 6 Core Principles of Pilates, Explained",
+    description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method.",
+    images: ["https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1200&q=80"],
+  },
 };
 
 const PRINCIPLES = [
@@ -89,7 +102,7 @@ export default function SixPrinciplesPage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1400&q=80"
+                src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1400&q=80"
                 alt="Mindful movement practice"
                 fill className="object-cover" style={{ filter: "brightness(0.88)" }}
               />

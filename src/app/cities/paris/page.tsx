@@ -11,6 +11,19 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in Paris | Pilates Collective Club",
   description:
     "Our curated guide to the best Pilates studios in Paris — from The New Me and Les Ailes du Canal to Le Cercle Pilates in Saint-Germain. Five verified studios with booking tips.",
+  openGraph: {
+    title: "The Best Pilates Studios in Paris",
+    description: "Our curated guide to the best Pilates studios in Paris — five verified picks with booking tips.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/cities/paris",
+    images: [{ url: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80", width: 1200, height: 630, alt: "Paris city guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Studios in Paris",
+    description: "Our curated guide to the best Pilates studios in Paris — five verified picks with booking tips.",
+    images: ["https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80"],
+  },
 };
 
 const STUDIOS = [
@@ -137,7 +150,7 @@ const FURTHER_READING = [
     category: "Method",
     readTime: "7 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=800&q=80",
   },
   {
     title: "Best Pilates Equipment for Home Practice",
@@ -146,7 +159,7 @@ const FURTHER_READING = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1616279969862-6a5a367f9e2b?w=800&q=80",
   },
 ];
 
@@ -214,7 +227,7 @@ export default function ParisPage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1431274172761-fca41d930114?auto=format&fit=crop&w=1400&q=80"
+                src="https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1400&q=80"
                 alt="Paris cityscape"
                 fill
                 className="object-cover"

@@ -79,7 +79,7 @@ const GUIDES = [
     category: "City Guide",
     readTime: "8 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
   },
   {
     title: "The Best Pilates Studios in Zurich",
@@ -88,7 +88,7 @@ const GUIDES = [
     category: "City Guide",
     readTime: "8 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80",
   },
   {
     title: "The Beginner's Guide to Reformer Pilates",
@@ -97,7 +97,7 @@ const GUIDES = [
     category: "Beginner Guide",
     readTime: "8 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
   },
   {
     title: "Pilates for Back Pain: What the Research Shows",
@@ -106,7 +106,7 @@ const GUIDES = [
     category: "Wellness",
     readTime: "9 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
   },
   {
     title: "Classical vs Contemporary Pilates",
@@ -115,7 +115,7 @@ const GUIDES = [
     category: "Method",
     readTime: "7 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=800&q=80",
   },
   {
     title: "Best Pilates Equipment for Home Practice",
@@ -124,7 +124,7 @@ const GUIDES = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
   },
   {
     title: "Pilates vs Yoga: Key Differences and How to Choose",
@@ -133,7 +133,7 @@ const GUIDES = [
     category: "Method",
     readTime: "7 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
   },
   {
     title: "The Best Pilates Retreats in Europe",
@@ -142,7 +142,7 @@ const GUIDES = [
     category: "Travel",
     readTime: "8 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
   },
   {
     title: "Pilates for Athletes",
@@ -151,7 +151,7 @@ const GUIDES = [
     category: "Performance",
     readTime: "7 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80",
   },
   {
     title: "How to Choose the Right Pilates Instructor",
@@ -160,7 +160,7 @@ const GUIDES = [
     category: "Guide",
     readTime: "6 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?w=800&q=80",
   },
   {
     title: "Pilates and Pregnancy: A Complete Guide",
@@ -169,7 +169,7 @@ const GUIDES = [
     category: "Health",
     readTime: "8 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&q=80",
   },
 ];
 
@@ -213,8 +213,8 @@ export default function Home() {
         >
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <Image
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1920&q=60"
-              alt="Pilates studio"
+              src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1920&q=60"
+              alt="Pilates reformer studio"
               fill
               className="object-cover opacity-[0.06]"
               priority

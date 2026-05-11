@@ -7,6 +7,19 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "Pilates vs Yoga: Key Differences and How to Choose | Pilates Collective Club",
   description: "A clear, honest comparison of Pilates and yoga — what each practice develops, who each suits, and how to choose between them.",
+  openGraph: {
+    title: "Pilates vs Yoga: Key Differences and How to Choose",
+    description: "A clear, honest comparison of Pilates and yoga — what each practice develops, who each suits, and how to choose between them.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
+    images: [{ url: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1200&q=80", width: 1200, height: 630, alt: "Pilates vs Yoga — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pilates vs Yoga: Key Differences and How to Choose",
+    description: "A clear, honest comparison of Pilates and yoga — what each practice develops and how to choose between them.",
+    images: ["https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1200&q=80"],
+  },
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -64,15 +77,7 @@ export default function PilatesVsYogaPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1400&q=80" alt="Pilates and yoga practice comparison" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
-            </div>
-          </div>
-        </section>
-
-        <section className="px-6 mb-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1400&q=80" alt="Pilates and yoga practice comparison" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1400&q=80" alt="Pilates and yoga practice comparison" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

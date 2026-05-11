@@ -7,6 +7,19 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "How to Choose the Right Pilates Instructor | Pilates Collective Club",
   description: "What credentials, experience, and red flags to look for when selecting a Pilates teacher — a practical guide for new and experienced practitioners alike.",
+  openGraph: {
+    title: "How to Choose the Right Pilates Instructor",
+    description: "What credentials, experience, and red flags to look for when selecting a Pilates teacher — a practical guide for new and experienced practitioners alike.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
+    images: [{ url: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80", width: 1200, height: 630, alt: "Choosing a Pilates instructor — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Choose the Right Pilates Instructor",
+    description: "Credentials, experience, and red flags to look for when selecting a Pilates teacher.",
+    images: ["https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"],
+  },
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -66,15 +79,7 @@ export default function HowToChoosePilatesInstructorPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1400&q=80" alt="Pilates instructor teaching a class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
-            </div>
-          </div>
-        </section>
-
-        <section className="px-6 mb-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1400&q=80" alt="Pilates instructor teaching a class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1400&q=80" alt="Pilates instructor teaching a class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

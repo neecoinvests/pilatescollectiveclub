@@ -9,6 +9,19 @@ export const metadata: Metadata = {
   title: "Classical vs Contemporary Pilates: Which Style Is Right for You? | Pilates Collective Club",
   description:
     "Understanding the key differences between classical and contemporary Pilates — the original method, modern interpretations, and how to choose the right approach for your goals.",
+  openGraph: {
+    title: "Classical vs Contemporary Pilates: Which Style Is Right for You?",
+    description: "Understanding the key differences between classical and contemporary Pilates — the original method, modern interpretations, and how to choose the right approach.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
+    images: [{ url: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=1200&q=80", width: 1200, height: 630, alt: "Classical vs Contemporary Pilates — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Classical vs Contemporary Pilates: Which Style Is Right for You?",
+    description: "The original method vs modern interpretations — how to choose the right Pilates style for your goals.",
+    images: ["https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=1200&q=80"],
+  },
 };
 
 const RELATED = [
@@ -56,7 +69,7 @@ export default function ClassicalVsContemporaryPage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1400&q=80"
+                src="https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=1400&q=80"
                 alt="Pilates practice"
                 fill className="object-cover" style={{ filter: "brightness(0.88)" }}
               />

@@ -11,6 +11,19 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in Geneva | Pilates Collective Club",
   description:
     "Our curated guide to the best Pilates studios in Geneva — from Form Studio and Pilates Social Club to Swissbody®, the region's most established classical studio. Five verified picks.",
+  openGraph: {
+    title: "The Best Pilates Studios in Geneva",
+    description: "Our curated guide to the best Pilates studios in Geneva — five verified studios with booking tips.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/cities/geneva",
+    images: [{ url: "https://images.unsplash.com/photo-1574699870838-fd6df8d7c5e6?w=1200&q=80", width: 1200, height: 630, alt: "Geneva city guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Studios in Geneva",
+    description: "Our curated guide to the best Pilates studios in Geneva — five verified studios with booking tips.",
+    images: ["https://images.unsplash.com/photo-1574699870838-fd6df8d7c5e6?w=1200&q=80"],
+  },
 };
 
 const STUDIOS = [
@@ -137,7 +150,7 @@ const FURTHER_READING = [
     category: "Lifestyle",
     readTime: "7 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=800&q=80",
   },
   {
     title: "Best Pilates Equipment for Home Practice",
@@ -146,7 +159,7 @@ const FURTHER_READING = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=800&q=80",
   },
 ];
 
@@ -214,7 +227,7 @@ export default function GenevaPage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1537961048527-c838686bac4e?auto=format&fit=crop&w=1400&q=80"
+                src="https://images.unsplash.com/photo-1574699870838-fd6df8d7c5e6?w=1400&q=80"
                 alt="Geneva lake view"
                 fill
                 className="object-cover"

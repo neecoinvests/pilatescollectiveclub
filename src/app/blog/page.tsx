@@ -11,6 +11,14 @@ export const metadata: Metadata = {
     title: "Blog — Pilates Collective Club",
     description: "Guides, equipment reviews, and studio advice for every stage of your Pilates practice.",
     type: "website",
+    url: "https://pilatescollectiveclub.com/blog",
+    images: [{ url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80", width: 1200, height: 630, alt: "Pilates Collective Club Blog" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog — Pilates Collective Club",
+    description: "Guides, equipment reviews, and studio advice for every stage of your Pilates practice.",
+    images: ["https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80"],
   },
 };
 
@@ -31,7 +39,7 @@ const posts: Post[] = [
     href: "/blog/best-home-pilates-reformer",
     category: "Equipment",
     readTime: "11 min",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
     featured: true,
   },
   {
@@ -40,7 +48,7 @@ const posts: Post[] = [
     href: "/blog/best-pilates-grip-socks",
     category: "Equipment",
     readTime: "7 min",
-    imageUrl: "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?w=800&q=80",
   },
   {
     title: "Best Pilates Books (2026): Every Level",
@@ -48,7 +56,7 @@ const posts: Post[] = [
     href: "/blog/best-pilates-books",
     category: "Reading",
     readTime: "8 min",
-    imageUrl: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&q=80",
   },
   {
     title: "Best Pilates Ball (2026): Mini & Stability",
@@ -56,7 +64,7 @@ const posts: Post[] = [
     href: "/blog/best-pilates-ball",
     category: "Equipment",
     readTime: "8 min",
-    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
   },
   {
     title: "What to Wear to Pilates (2026)",
@@ -64,7 +72,7 @@ const posts: Post[] = [
     href: "/blog/what-to-wear-to-pilates",
     category: "Beginners",
     readTime: "6 min",
-    imageUrl: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80",
   },
   {
     title: "Best Pilates Equipment for Home Practice",
@@ -72,7 +80,7 @@ const posts: Post[] = [
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?w=800&q=80",
   },
   {
     title: "Beginner's Guide to Reformer Pilates",
@@ -80,7 +88,7 @@ const posts: Post[] = [
     href: "/blog/beginners-guide-to-reformer-pilates",
     category: "Beginners",
     readTime: "8 min",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
   },
   {
     title: "6 Core Principles of Pilates Explained",
@@ -88,7 +96,7 @@ const posts: Post[] = [
     href: "/blog/6-core-principles-of-pilates-explained",
     category: "Method",
     readTime: "7 min",
-    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
   },
   {
     title: "Pilates vs Yoga: Which Is Right for You?",
@@ -96,7 +104,7 @@ const posts: Post[] = [
     href: "/blog/pilates-vs-yoga",
     category: "Method",
     readTime: "9 min",
-    imageUrl: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
   },
   {
     title: "Pilates for Back Pain: What the Evidence Says",
@@ -104,7 +112,7 @@ const posts: Post[] = [
     href: "/blog/pilates-for-back-pain",
     category: "Health",
     readTime: "10 min",
-    imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80",
   },
   {
     title: "Pilates for Athletes",
@@ -112,7 +120,7 @@ const posts: Post[] = [
     href: "/blog/pilates-for-athletes",
     category: "Performance",
     readTime: "9 min",
-    imageUrl: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80",
   },
   {
     title: "Pilates and Pregnancy",
@@ -120,7 +128,7 @@ const posts: Post[] = [
     href: "/blog/pilates-and-pregnancy",
     category: "Health",
     readTime: "11 min",
-    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&q=80",
   },
   {
     title: "Classical vs Contemporary Pilates",
@@ -128,7 +136,7 @@ const posts: Post[] = [
     href: "/blog/classical-vs-contemporary-pilates",
     category: "Method",
     readTime: "8 min",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=800&q=80",
   },
   {
     title: "How to Choose a Pilates Instructor",
@@ -136,7 +144,7 @@ const posts: Post[] = [
     href: "/blog/how-to-choose-a-pilates-instructor",
     category: "Guide",
     readTime: "7 min",
-    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=80",
   },
   {
     title: "How to Build a Consistent Pilates Practice",
@@ -144,7 +152,7 @@ const posts: Post[] = [
     href: "/blog/how-to-build-a-consistent-pilates-practice",
     category: "Guide",
     readTime: "8 min",
-    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=800&q=80",
   },
   {
     title: "Best Pilates Retreats in Europe (2026)",
@@ -152,7 +160,7 @@ const posts: Post[] = [
     href: "/blog/best-pilates-retreats-europe",
     category: "Travel",
     readTime: "12 min",
-    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
   },
 ];
 

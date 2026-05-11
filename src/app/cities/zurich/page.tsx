@@ -11,6 +11,19 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in Zurich | Pilates Collective Club",
   description:
     "Our curated guide to the best Pilates studios in Zurich — from Form Studio and ilu move in Seefeld to ProPilates and PILATESwiss. Five verified studios with booking tips.",
+  openGraph: {
+    title: "The Best Pilates Studios in Zurich",
+    description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/cities/zurich",
+    images: [{ url: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=1200&q=80", width: 1200, height: 630, alt: "Zurich city guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Studios in Zurich",
+    description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
+    images: ["https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=1200&q=80"],
+  },
 };
 
 const STUDIOS = [
@@ -138,7 +151,7 @@ const FURTHER_READING = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1598300056393-4aac492f4344?w=800&q=80",
   },
 ];
 
@@ -246,7 +259,7 @@ export default function ZurichPage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1400&q=80"
+                src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=1400&q=80"
                 alt="Zurich city view"
                 fill
                 className="object-cover"

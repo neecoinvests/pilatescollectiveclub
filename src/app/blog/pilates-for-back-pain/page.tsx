@@ -9,6 +9,19 @@ export const metadata: Metadata = {
   title: "Pilates for Back Pain: What the Research Shows | Pilates Collective Club",
   description:
     "A clear-eyed look at the evidence for Pilates as a treatment for back pain — what it can and can't do, which exercises help most, and how to find the right instructor.",
+  openGraph: {
+    title: "Pilates for Back Pain: What the Research Shows",
+    description: "A clear-eyed look at the evidence for Pilates as a treatment for back pain — what it can and can't do, which exercises help most, and how to find the right instructor.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
+    images: [{ url: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80", width: 1200, height: 630, alt: "Pilates for back pain — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pilates for Back Pain: What the Research Shows",
+    description: "The evidence for Pilates as a treatment for back pain — what it can and can't do.",
+    images: ["https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80"],
+  },
 };
 
 const RELATED = [
@@ -69,7 +82,7 @@ export default function PilatesForBackPainPage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=1400&q=80"
+                src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=1400&q=80"
                 alt="Wellness and movement therapy"
                 fill className="object-cover" style={{ filter: "brightness(0.88)" }}
               />

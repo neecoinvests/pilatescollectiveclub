@@ -7,6 +7,19 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "Pilates and Pregnancy: A Complete Guide | Pilates Collective Club",
   description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist instructor.",
+  openGraph: {
+    title: "Pilates and Pregnancy: A Complete Guide",
+    description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist instructor.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy",
+    images: [{ url: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=1200&q=80", width: 1200, height: 630, alt: "Pilates and pregnancy guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pilates and Pregnancy: A Complete Guide",
+    description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid.",
+    images: ["https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=1200&q=80"],
+  },
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -73,15 +86,7 @@ export default function PilatesAndPregnancyPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1400&q=80" alt="Pregnancy Pilates practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
-            </div>
-          </div>
-        </section>
-
-        <section className="px-6 mb-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1400&q=80" alt="Pregnancy Pilates practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=1400&q=80" alt="Pregnancy Pilates practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

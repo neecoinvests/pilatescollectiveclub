@@ -10,6 +10,19 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Amsterdam | Pilates Collective Club",
   description: "Our curated guide to Amsterdam's best Pilates studios — from Jordaan to De Pijp, the five studios leading the city's growing wellness scene.",
+  openGraph: {
+    title: "The Best Pilates Studios in Amsterdam",
+    description: "Our curated guide to Amsterdam's best Pilates studios — five verified picks from Jordaan to De Pijp.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/cities/amsterdam",
+    images: [{ url: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80", width: 1200, height: 630, alt: "Amsterdam city guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Studios in Amsterdam",
+    description: "Our curated guide to Amsterdam's best Pilates studios — five verified picks.",
+    images: ["https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80"],
+  },
 };
 
 const STUDIOS = [
@@ -93,8 +106,8 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "The Best Pilates Retreats in Europe", excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.", href: "/blog/best-pilates-retreats-europe", category: "Travel", readTime: "8 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80" },
-  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" },
+  { title: "The Best Pilates Retreats in Europe", excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.", href: "/blog/best-pilates-retreats-europe", category: "Travel", readTime: "8 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1502224562085-639556652f33?w=800&q=80" },
+  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=800&q=80" },
 ];
 
 const jsonLd = {
@@ -158,7 +171,7 @@ export default function AmsterdamPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1400&q=80" alt="Amsterdam canals" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1400&q=80" alt="Amsterdam canals" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Amsterdam, Netherlands</p>

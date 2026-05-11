@@ -10,6 +10,19 @@ export const metadata: Metadata = {
   title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner | Pilates Collective Club",
   description:
     "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides and beginner programmes. Reviewed and ranked by our editorial team.",
+  openGraph: {
+    title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
+    description: "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/best-pilates-books",
+    images: [{ url: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&q=80", width: 1200, height: 630, alt: "Best Pilates Books — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
+    description: "The best Pilates books for every level — reviewed and ranked.",
+    images: ["https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&q=80"],
+  },
 };
 
 const BOOKS = [
@@ -116,15 +129,7 @@ export default function BestPilatesBooksPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1400&q=80" alt="Pilates books for study" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
-            </div>
-          </div>
-        </section>
-
-        <section className="px-6 mb-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1400&q=80" alt="Pilates books for study" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1400&q=80" alt="Pilates books for study" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -182,8 +187,8 @@ export default function BestPilatesBooksPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Classical vs Contemporary Pilates" excerpt="Understanding the key differences between the original method and modern interpretations." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="7 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" />
-                <ArticleCard title="The 6 Core Principles of Pilates, Explained" excerpt="Concentration, control, centering, precision, breath, and flow — what they actually mean in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="6 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80" />
+                <ArticleCard title="Classical vs Contemporary Pilates" excerpt="Understanding the key differences between the original method and modern interpretations." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="7 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=800&q=80" />
+                <ArticleCard title="The 6 Core Principles of Pilates, Explained" excerpt="Concentration, control, centering, precision, breath, and flow — what they actually mean in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="6 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" />
               </div>
             </div>
           </div>

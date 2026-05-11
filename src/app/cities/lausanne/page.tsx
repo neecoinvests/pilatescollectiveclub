@@ -11,6 +11,19 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in Lausanne | Pilates Collective Club",
   description:
     "Our curated guide to Lausanne's best Pilates studios. Overlooking Lake Geneva, this university city has a growing and quality-conscious wellness scene.",
+  openGraph: {
+    title: "The Best Pilates Studios in Lausanne",
+    description: "Our curated guide to Lausanne's best Pilates studios — five verified studios with booking tips.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/cities/lausanne",
+    images: [{ url: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80", width: 1200, height: 630, alt: "Lausanne city guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Studios in Lausanne",
+    description: "Our curated guide to Lausanne's best Pilates studios — five verified studios with booking tips.",
+    images: ["https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80"],
+  },
 };
 
 const STUDIOS = [
@@ -137,7 +150,7 @@ const FURTHER_READING = [
     category: "Method",
     readTime: "6 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&q=80",
   },
   {
     title: "Best Pilates Equipment for Home Practice",
@@ -146,7 +159,7 @@ const FURTHER_READING = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1567013127542-490d757e6349?w=800&q=80",
   },
 ];
 
@@ -214,8 +227,8 @@ export default function LausannePage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80"
-                alt="Swiss alpine lake view near Lausanne"
+                src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1400&q=80"
+                alt="Lausanne lakeside terrace view"
                 fill
                 className="object-cover"
                 style={{ filter: "brightness(0.88)" }}

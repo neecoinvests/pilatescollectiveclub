@@ -10,6 +10,19 @@ export const metadata: Metadata = {
   title: "Best Pilates Grip Socks (2026): Studio-Tested and Ranked | Pilates Collective Club",
   description:
     "The best grip socks for Pilates, tested across reformer, mat, and barre classes. From ToeSox to Tavi Noir — honest reviews, sizing notes, and our top pick.",
+  openGraph: {
+    title: "Best Pilates Grip Socks (2026): Studio-Tested and Ranked",
+    description: "The best grip socks for Pilates — from ToeSox to Tavi Noir. Honest reviews and our top pick.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
+    images: [{ url: "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?w=1200&q=80", width: 1200, height: 630, alt: "Best Pilates Grip Socks — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Pilates Grip Socks (2026)",
+    description: "The best grip socks for Pilates — honest reviews and our top pick.",
+    images: ["https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?w=1200&q=80"],
+  },
 };
 
 const PRODUCTS = [
@@ -206,8 +219,8 @@ export default function BestGripSocksPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=800&q=80" />
-                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Mats, resistance bands, rings, and reformer alternatives for your home setup." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80" />
+                <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80" />
+                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Mats, resistance bands, rings, and reformer alternatives for your home setup." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&q=80" />
               </div>
             </div>
           </div>

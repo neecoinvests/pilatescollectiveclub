@@ -11,6 +11,19 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in London | Pilates Collective Club",
   description:
     "Our curated guide to London's finest Pilates studios. From boutique reformer classes in Chelsea to community studios in Shoreditch — everything you need before booking.",
+  openGraph: {
+    title: "The Best Pilates Studios in London",
+    description: "Our curated guide to London's finest Pilates studios — five verified picks with booking tips.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/cities/london",
+    images: [{ url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80", width: 1200, height: 630, alt: "London city guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Studios in London",
+    description: "Our curated guide to London's finest Pilates studios — five verified picks with booking tips.",
+    images: ["https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80"],
+  },
 };
 
 const STUDIOS = [
@@ -137,7 +150,7 @@ const FURTHER_READING = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=800&q=80",
   },
   {
     title: "The Beginner's Guide to Reformer Pilates",
@@ -146,7 +159,7 @@ const FURTHER_READING = [
     category: "Beginner Guide",
     readTime: "8 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=800&q=80",
   },
 ];
 
@@ -220,7 +233,7 @@ export default function LondonPage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1400&q=80"
+                src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1400&q=80"
                 alt="London skyline"
                 fill
                 className="object-cover"

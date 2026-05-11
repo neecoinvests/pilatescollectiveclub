@@ -10,6 +10,19 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in New York City | Pilates Collective Club",
   description: "Our curated guide to NYC's finest Pilates studios — from classical powerhouses in Chelsea to boutique reformer rooms in SoHo, the West Village, and Gramercy. Book with confidence.",
+  openGraph: {
+    title: "The Best Pilates Studios in New York City",
+    description: "Our curated guide to NYC's finest Pilates studios — five verified picks from Chelsea to the West Village.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/cities/new-york",
+    images: [{ url: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80", width: 1200, height: 630, alt: "New York city guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Studios in New York City",
+    description: "Our curated guide to NYC's finest Pilates studios — five verified picks.",
+    images: ["https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80"],
+  },
 };
 
 const STUDIOS = [
@@ -93,8 +106,8 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class and how to choose a studio.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" },
-  { title: "How to Choose the Right Pilates Instructor", excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "6 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80" },
+  { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class and how to choose a studio.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1616439069669-66dbe74bcdad?w=800&q=80" },
+  { title: "How to Choose the Right Pilates Instructor", excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "6 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" },
 ];
 
 const jsonLd = {
@@ -159,7 +172,7 @@ export default function NewYorkPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1400&q=80" alt="New York City skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1400&q=80" alt="New York City skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>New York, United States</p>

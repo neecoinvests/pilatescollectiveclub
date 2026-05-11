@@ -7,6 +7,19 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "Pilates for Athletes | Pilates Collective Club",
   description: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers — and what recreational athletes can learn from them.",
+  openGraph: {
+    title: "Pilates for Athletes: Strength, Longevity, and the Competitive Edge",
+    description: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers — and what recreational athletes can learn from them.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
+    images: [{ url: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80", width: 1200, height: 630, alt: "Pilates for athletes — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pilates for Athletes: Strength, Longevity, and the Competitive Edge",
+    description: "How elite sports professionals use Pilates to build functional strength and prevent injury.",
+    images: ["https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80"],
+  },
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -64,15 +77,7 @@ export default function PilatesForAthletesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=1400&q=80" alt="Athlete training with Pilates" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
-            </div>
-          </div>
-        </section>
-
-        <section className="px-6 mb-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=1400&q=80" alt="Athlete training with Pilates" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1400&q=80" alt="Athlete training with Pilates" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
