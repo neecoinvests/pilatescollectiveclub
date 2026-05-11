@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
@@ -66,6 +67,14 @@ export default function PilatesAndPregnancyPage() {
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Pilates is one of the most widely recommended movement practices during pregnancy — by midwives, physiotherapists, and obstetricians who appreciate its low-impact nature, its focus on core and pelvic floor function, and its adaptability to a rapidly changing body. But &quot;prenatal Pilates&quot; done well is very different from regular Pilates. This guide explains the distinctions, the benefits, the necessary modifications, and what to look for in a specialist instructor.
             </p>
+          </div>
+        </section>
+
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1400&q=80" alt="Pregnancy Pilates practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
           </div>
         </section>
 

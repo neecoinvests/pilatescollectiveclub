@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -122,6 +123,14 @@ export default function BestPilatesBallPage() {
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The Pilates ball comes in two distinct forms with very different applications. The mini Pilates ball (8–10 inches) is a precision prop used in mat work to challenge pelvic stability, activate the inner thighs, and support thoracic mobility. The larger stability ball (55–75cm) opens up a wider repertoire of core and back extension exercises. This guide covers the best of both, with sizing guidance and a curated list of exercises to make immediate use of your purchase.
             </p>
+          </div>
+        </section>
+
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1400&q=80" alt="Pilates ball exercise" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
           </div>
         </section>
 

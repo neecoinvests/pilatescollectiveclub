@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
@@ -57,6 +58,14 @@ export default function PilatesForAthletesPage() {
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The list of elite athletes who have integrated Pilates into their training is long and growing: professional footballers, Olympic swimmers, NBA players, professional cyclists, touring tennis professionals. This isn&apos;t a trend — it&apos;s a considered response to what Pilates specifically offers that conventional athletic training does not. This guide explains the mechanism, the evidence, and the practical application for athletes at every level.
             </p>
+          </div>
+        </section>
+
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=1400&q=80" alt="Athlete training with Pilates" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
           </div>
         </section>
 

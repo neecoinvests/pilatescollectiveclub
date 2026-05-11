@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
@@ -57,6 +58,14 @@ export default function PilatesVsYogaPage() {
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               They share a studio, often share practitioners, and are frequently discussed in the same breath. But Pilates and yoga are fundamentally different practices with different origins, different physical demands, and different outcomes. If you&apos;re deciding between them — or wondering whether to combine both — this guide lays out the honest comparison.
             </p>
+          </div>
+        </section>
+
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1400&q=80" alt="Pilates and yoga practice comparison" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
           </div>
         </section>
 

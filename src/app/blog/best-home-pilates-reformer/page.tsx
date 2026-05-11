@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -107,6 +108,14 @@ export default function BestHomeReformerPage() {
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A quality home reformer changes your practice permanently. The ability to train consistently, on your schedule, without the cost and logistics of studio attendance compounds into meaningful results over months and years. But the reformer market spans an enormous price range — from $299 cord-based foldables to $4,500 professional spring machines — and the differences matter. This guide tells you exactly what you get at each level and which machines are genuinely worth the investment.
             </p>
+          </div>
+        </section>
+
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1400&q=80" alt="Home Pilates reformer machine" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
           </div>
         </section>
 

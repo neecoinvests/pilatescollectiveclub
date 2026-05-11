@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
@@ -59,6 +60,14 @@ export default function HowToChoosePilatesInstructorPage() {
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The instructor is the most important variable in your Pilates experience — more important than the studio, the equipment, or the location. A skilled, attentive teacher will transform your practice. An undertrained or inattentive one can waste your time or, in the worst cases, reinforce the movement patterns that Pilates is designed to correct. This guide tells you what to look for, what to ask, and what to walk away from.
             </p>
+          </div>
+        </section>
+
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1400&q=80" alt="Pilates instructor teaching a class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
           </div>
         </section>
 

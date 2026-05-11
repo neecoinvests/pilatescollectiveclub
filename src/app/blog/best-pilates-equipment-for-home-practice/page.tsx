@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -82,22 +83,8 @@ export default function BlogEquipmentPage() {
         {/* Hero image */}
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
-            <div
-              className="w-full rounded-2xl"
-              style={{
-                height: "380px",
-                background: "linear-gradient(135deg, #e8e2d6 0%, #f0eded 50%, #cbc6ba 100%)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <p
-                className="text-sm font-semibold uppercase tracking-widest"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                Home Practice Essentials
-              </p>
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
+              <Image src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1400&q=80" alt="Pilates home practice equipment" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

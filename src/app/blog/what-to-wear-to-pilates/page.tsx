@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -125,6 +126,14 @@ export default function WhatToWearToPilatesPage() {
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               What you wear to Pilates matters more than it does in most fitness contexts. Instructors need to see your body alignment — how your spine curves, where your shoulders are, whether your pelvis is neutral — to give you accurate corrections. Loose or baggy clothing obscures this and makes good instruction harder. Here&apos;s exactly what to wear, what to avoid, and the specific pieces that work best across reformer, mat, and barre classes.
             </p>
+          </div>
+        </section>
+
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=1400&q=80" alt="Pilates studio outfit and activewear" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
           </div>
         </section>
 
