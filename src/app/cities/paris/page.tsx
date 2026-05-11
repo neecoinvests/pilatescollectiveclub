@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Paris | Pilates Collective Club",
   description:
-    "Our curated guide to Parisian Pilates. From the Marais to Saint-Germain — the five studios we rate most highly, with everything you need to book with confidence.",
+    "Our curated guide to the best Pilates studios in Paris — from The New Me and Les Ailes du Canal to Le Cercle Pilates in Saint-Germain. Five verified studios with booking tips.",
 };
 
 const STUDIOS = [
@@ -148,9 +148,45 @@ const FURTHER_READING = [
   },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Paris", "item": "https://pilatescollectiveclub.com/cities/paris" },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pilates Studios in Paris",
+      "description": "Curated guide to the top 5 Pilates studios in Paris.",
+      "url": "https://pilatescollectiveclub.com/cities/paris",
+      "numberOfItems": 5,
+      "itemListElement": STUDIOS.map((s, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "ExerciseGym",
+          "name": s.name,
+          "description": s.review.slice(0, 200),
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": s.address,
+            "addressLocality": "Paris",
+            "addressCountry": "FR",
+          },
+        },
+      })),
+    },
+  ],
+};
+
 export default function ParisPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

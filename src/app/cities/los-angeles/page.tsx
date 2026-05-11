@@ -97,9 +97,46 @@ const FURTHER_READING = [
   { title: "How to Choose the Right Pilates Instructor", excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "6 min read", date: "May 2026" },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Los Angeles", "item": "https://pilatescollectiveclub.com/cities/los-angeles" },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pilates Studios in Los Angeles",
+      "description": "Curated guide to the top 5 Pilates studios in Los Angeles.",
+      "url": "https://pilatescollectiveclub.com/cities/los-angeles",
+      "numberOfItems": 5,
+      "itemListElement": STUDIOS.map((s, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "ExerciseGym",
+          "name": s.name,
+          "description": s.review.slice(0, 200),
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": s.address,
+            "addressLocality": "Los Angeles",
+            "addressRegion": "CA",
+            "addressCountry": "US",
+          },
+        },
+      })),
+    },
+  ],
+};
+
 export default function LosAngelesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

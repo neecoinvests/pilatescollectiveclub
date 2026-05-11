@@ -148,9 +148,45 @@ const FURTHER_READING = [
   },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "London", "item": "https://pilatescollectiveclub.com/cities/london" },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pilates Studios in London",
+      "description": "Curated guide to the top 5 Pilates studios in London.",
+      "url": "https://pilatescollectiveclub.com/cities/london",
+      "numberOfItems": 5,
+      "itemListElement": STUDIOS.map((s, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "ExerciseGym",
+          "name": s.name,
+          "description": s.review.slice(0, 200),
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": s.address,
+            "addressLocality": "London",
+            "addressCountry": "GB",
+          },
+        },
+      })),
+    },
+  ],
+};
+
 export default function LondonPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

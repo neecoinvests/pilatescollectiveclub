@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in New York City | Pilates Collective Club",
-  description: "Our curated guide to NYC's finest Pilates studios — from classical powerhouses on the Upper West Side to boutique reformer rooms in SoHo and the West Village.",
+  description: "Our curated guide to NYC's finest Pilates studios — from classical powerhouses in Chelsea to boutique reformer rooms in SoHo, the West Village, and Gramercy. Book with confidence.",
 };
 
 const STUDIOS = [
@@ -97,9 +97,46 @@ const FURTHER_READING = [
   { title: "How to Choose the Right Pilates Instructor", excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "6 min read", date: "May 2026" },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "New York", "item": "https://pilatescollectiveclub.com/cities/new-york" },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pilates Studios in New York City",
+      "description": "Curated guide to the top 5 Pilates studios in New York City.",
+      "url": "https://pilatescollectiveclub.com/cities/new-york",
+      "numberOfItems": 5,
+      "itemListElement": STUDIOS.map((s, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "ExerciseGym",
+          "name": s.name,
+          "description": s.review.slice(0, 200),
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": s.address,
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "addressCountry": "US",
+          },
+        },
+      })),
+    },
+  ],
+};
+
 export default function NewYorkPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

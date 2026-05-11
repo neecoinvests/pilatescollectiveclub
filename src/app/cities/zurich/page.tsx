@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Zurich | Pilates Collective Club",
   description:
-    "Our curated guide to the best Pilates studios in Zurich. Reformer classes, mat Pilates, private sessions — everything you need to know before booking.",
+    "Our curated guide to the best Pilates studios in Zurich — from Form Studio and ilu move in Seefeld to ProPilates and PILATESwiss. Five verified studios with booking tips.",
 };
 
 const STUDIOS = [
@@ -141,9 +141,45 @@ const FURTHER_READING = [
   },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Zurich", "item": "https://pilatescollectiveclub.com/cities/zurich" },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pilates Studios in Zurich",
+      "description": "Curated guide to the top 5 Pilates studios in Zurich.",
+      "url": "https://pilatescollectiveclub.com/cities/zurich",
+      "numberOfItems": 5,
+      "itemListElement": STUDIOS.map((s, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "ExerciseGym",
+          "name": s.name,
+          "description": s.review.slice(0, 200),
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": s.address,
+            "addressLocality": "Zürich",
+            "addressCountry": "CH",
+          },
+        },
+      })),
+    },
+  ],
+};
+
 export default function ZurichPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         {/* Article Header */}

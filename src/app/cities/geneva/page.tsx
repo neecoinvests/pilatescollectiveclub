@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Geneva | Pilates Collective Club",
   description:
-    "Our curated guide to Geneva's finest Pilates studios. Reformer classes, mat Pilates, and private sessions across the city's most accessible neighbourhoods.",
+    "Our curated guide to the best Pilates studios in Geneva — from Form Studio and Pilates Social Club to Swissbody®, the region's most established classical studio. Five verified picks.",
 };
 
 const STUDIOS = [
@@ -148,9 +148,45 @@ const FURTHER_READING = [
   },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Geneva", "item": "https://pilatescollectiveclub.com/cities/geneva" },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pilates Studios in Geneva",
+      "description": "Curated guide to the top 5 Pilates studios in Geneva.",
+      "url": "https://pilatescollectiveclub.com/cities/geneva",
+      "numberOfItems": 5,
+      "itemListElement": STUDIOS.map((s, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "ExerciseGym",
+          "name": s.name,
+          "description": s.review.slice(0, 200),
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": s.address,
+            "addressLocality": "Geneva",
+            "addressCountry": "CH",
+          },
+        },
+      })),
+    },
+  ],
+};
+
 export default function GenevaPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
