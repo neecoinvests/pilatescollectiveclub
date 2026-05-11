@@ -179,18 +179,21 @@ const PRODUCTS = [
     description:
       "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability. Our top pick for studio and home use.",
     price: "From $52",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Pilates Grip Socks",
     description:
       "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping on the carriage.",
     price: "From $16",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Resistance Ring (Magic Circle)",
     description:
       "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store in any corner. Targets inner thighs, arms, and core.",
     price: "From $24",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
 ];
 

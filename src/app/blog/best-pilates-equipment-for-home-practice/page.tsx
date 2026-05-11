@@ -108,7 +108,7 @@ export default function BlogEquipmentPage() {
                 name="The Studio Mat Pro"
                 description="6mm thick, high-density closed-cell foam with a natural cork surface layer for superior grip. Lightweight, easy to wipe clean, and comes with a carry strap. Our top recommendation for serious home practitioners."
                 price="From $52"
-
+                affiliateUrl="https://www.amazon.com/s?k=pilates+mat+6mm+cork+non+slip&tag=pilatescollective-20"
               />
             </section>
 
@@ -141,7 +141,7 @@ export default function BlogEquipmentPage() {
                 name="Premium Resistance Band Set"
                 description="Set of 3 fabric-covered bands (light, medium, heavy). Durable looped design with anti-slip inner layer. Ideal for Pilates footwork, chest expansion, and stretching series. Includes a mesh storage bag."
                 price="From $28"
-
+                affiliateUrl="https://www.amazon.com/s?k=pilates+resistance+band+set+fabric&tag=pilatescollective-20"
               />
             </section>
 

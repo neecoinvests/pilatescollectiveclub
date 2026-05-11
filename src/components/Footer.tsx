@@ -73,13 +73,10 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               {[
-                {
-                  label: "Blog",
-                  href: "/blog/best-pilates-equipment-for-home-practice",
-                },
+                { label: "Blog", href: "/blog" },
                 { label: "Zurich Guide", href: "/cities/zurich" },
                 { label: "Equipment Picks", href: "/blog/best-pilates-equipment-for-home-practice" },
-                { label: "Studio Reviews", href: "/cities/zurich" },
+                { label: "Studio Reviews", href: "/blog/how-to-choose-a-pilates-instructor" },
               ].map((link) => (
                 <li key={link.label}>
                   <Link
