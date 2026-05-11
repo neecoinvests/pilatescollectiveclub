@@ -108,7 +108,7 @@ export default function BlogEquipmentPage() {
                 name="The Studio Mat Pro"
                 description="6mm thick, high-density closed-cell foam with a natural cork surface layer for superior grip. Lightweight, easy to wipe clean, and comes with a carry strap. Our top recommendation for serious home practitioners."
                 price="From $52"
-                badge
+
               />
             </section>
 
@@ -141,7 +141,7 @@ export default function BlogEquipmentPage() {
                 name="Premium Resistance Band Set"
                 description="Set of 3 fabric-covered bands (light, medium, heavy). Durable looped design with anti-slip inner layer. Ideal for Pilates footwork, chest expansion, and stretching series. Includes a mesh storage bag."
                 price="From $28"
-                badge
+
               />
             </section>
 
@@ -175,7 +175,7 @@ export default function BlogEquipmentPage() {
                 name="Precision Magic Circle"
                 description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
                 price="From $35"
-                badge
+
               />
             </section>
 
@@ -208,7 +208,7 @@ export default function BlogEquipmentPage() {
                 name="Adjustable Ankle Weights"
                 description="Neoprene-covered with adjustable fill pockets, 0.5–2kg per weight. Machine washable, secure velcro closure, and a slim profile that doesn't restrict movement range. A rare combination of quality and versatility."
                 price="From $38"
-                badge
+
               />
             </section>
 
@@ -243,7 +243,7 @@ export default function BlogEquipmentPage() {
                 name="Home Pilates Board"
                 description="Spring-loaded sliding board with adjustable resistance. Foldable and wall-mountable. Covers footwork, squat series, and standing balance exercises. A smart option before committing to a full reformer."
                 price="From $179"
-                badge
+
               />
             </section>
 
