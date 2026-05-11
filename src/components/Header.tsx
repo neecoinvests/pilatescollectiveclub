@@ -44,14 +44,14 @@ export default function Header() {
             Finder
           </Link>
           <Link
-            href="/blog/best-pilates-equipment-for-home-practice"
+            href="/blog"
             className="text-sm font-medium transition-colors hover:text-[#8b4a31]"
             style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
           >
             Blog
           </Link>
           <Link
-            href="/cities/zurich"
+            href="/#cities"
             className="text-sm font-medium transition-colors hover:text-[#8b4a31]"
             style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
           >
@@ -129,7 +129,7 @@ export default function Header() {
             Finder
           </Link>
           <Link
-            href="/blog/best-pilates-equipment-for-home-practice"
+            href="/blog"
             onClick={() => setMenuOpen(false)}
             className="text-sm font-medium py-2"
             style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
@@ -137,7 +137,7 @@ export default function Header() {
             Blog
           </Link>
           <Link
-            href="/cities/zurich"
+            href="/#cities"
             onClick={() => setMenuOpen(false)}
             className="text-sm font-medium py-2"
             style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}

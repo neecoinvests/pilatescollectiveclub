@@ -99,23 +99,11 @@ export default function BestHomeReformerPage() {
               Best Home Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): Honestly Reviewed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 11 min read</p>
-            <div className="rounded-xl px-5 py-4 mb-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                <span className="font-semibold">Affiliate disclosure:</span> This article contains affiliate links. We earn a commission if you purchase through our links, at no extra cost to you. We only recommend equipment we have personally tested or evaluated against studio standards.
-              </p>
-            </div>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A quality home reformer changes your practice permanently. The ability to train consistently, on your schedule, without the cost and logistics of studio attendance compounds into meaningful results over months and years. But the reformer market spans an enormous price range — from $299 cord-based foldables to $4,500 professional spring machines — and the differences matter. This guide tells you exactly what you get at each level and which machines are genuinely worth the investment.
             </p>
-          </div>
-        </section>
-
-        <section className="px-6 mb-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1400&q=80" alt="Home Pilates reformer machine" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
-            </div>
           </div>
         </section>
 

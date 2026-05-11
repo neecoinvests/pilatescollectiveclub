@@ -48,23 +48,7 @@ export default function BlogEquipmentPage() {
               Updated May 2026 · 10 min read
             </p>
 
-            {/* Affiliate disclosure */}
-            <div
-              className="rounded-xl px-5 py-4 mb-8"
-              style={{
-                backgroundColor: "#f6f3f2",
-                border: "1px solid rgba(217, 194, 186, 0.5)",
-              }}
-            >
-              <p
-                className="text-xs leading-relaxed"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                <span className="font-semibold">Affiliate disclosure:</span> This article may
-                contain affiliate links. We may earn a commission if you buy through our links, at
-                no extra cost to you. We only recommend equipment we&apos;ve personally tested.
-              </p>
-            </div>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
 
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
 

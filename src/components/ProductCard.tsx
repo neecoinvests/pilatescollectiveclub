@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Badge from "./Badge";
 
 interface ProductCardProps {
   name: string;
@@ -8,7 +7,6 @@ interface ProductCardProps {
   affiliateUrl?: string;
   imageAlt?: string;
   imageUrl?: string;
-  badge?: boolean;
 }
 
 export default function ProductCard({
@@ -18,7 +16,6 @@ export default function ProductCard({
   affiliateUrl = "#",
   imageAlt,
   imageUrl,
-  badge = true,
 }: ProductCardProps) {
   return (
     <div
@@ -62,7 +59,6 @@ export default function ProductCard({
           >
             {name}
           </h3>
-          {badge && <Badge variant="affiliate" />}
         </div>
 
         <p
@@ -92,7 +88,7 @@ export default function ProductCard({
               fontFamily: "'Montserrat', sans-serif",
             }}
           >
-            Shop Now →
+            Buy on Amazon →
           </a>
         </div>
       </div>

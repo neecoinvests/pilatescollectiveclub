@@ -114,11 +114,7 @@ export default function BestPilatesBallPage() {
               Best Pilates Ball<br /><span style={{ color: "#8b4a31" }}>(2026): Mini & Stability</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <div className="rounded-xl px-5 py-4 mb-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                <span className="font-semibold">Affiliate disclosure:</span> This article contains affiliate links. We earn a commission if you purchase through our links, at no extra cost to you.
-              </p>
-            </div>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The Pilates ball comes in two distinct forms with very different applications. The mini Pilates ball (8–10 inches) is a precision prop used in mat work to challenge pelvic stability, activate the inner thighs, and support thoracic mobility. The larger stability ball (55–75cm) opens up a wider repertoire of core and back extension exercises. This guide covers the best of both, with sizing guidance and a curated list of exercises to make immediate use of your purchase.

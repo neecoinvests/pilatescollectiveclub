@@ -385,7 +385,7 @@ export default function Home() {
                 className="text-xs font-semibold uppercase tracking-[0.2em] mb-3"
                 style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}
               >
-                Affiliate Picks
+                Equipment
               </p>
               <h2
                 className="text-3xl md:text-4xl font-semibold mb-3"
@@ -397,8 +397,7 @@ export default function Home() {
                 className="text-sm max-w-lg mx-auto"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                Carefully selected equipment we actually use and recommend. Some links are affiliate
-                links — we may earn a small commission at no extra cost to you.
+                Carefully selected equipment we use and recommend, available on Amazon.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -476,8 +475,7 @@ export default function Home() {
               style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
             >
               Every studio in our guides has been personally vetted. Every equipment pick has been
-              tested. We earn a small affiliate commission on some purchases, which helps us keep
-              the lights on — but it never influences our recommendations.
+              tested. Every studio recommendation is independent — we are never paid to feature a studio.
             </p>
           </div>
         </section>
