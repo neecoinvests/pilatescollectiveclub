@@ -30,6 +30,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-pilates-retreats-europe",
     "how-to-build-a-consistent-pilates-practice",
     "6-core-principles-of-pilates-explained",
+    "best-home-pilates-reformer",
+    "best-pilates-grip-socks",
+    "best-pilates-books",
+    "best-pilates-ball",
+    "what-to-wear-to-pilates",
   ];
 
   return [
