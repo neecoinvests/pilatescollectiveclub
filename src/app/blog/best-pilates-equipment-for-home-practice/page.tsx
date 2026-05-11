@@ -122,6 +122,7 @@ export default function BlogEquipmentPage() {
                 description="6mm thick, high-density closed-cell foam with a natural cork surface layer for superior grip. Lightweight, easy to wipe clean, and comes with a carry strap. Our top recommendation for serious home practitioners."
                 price="From $52"
                 affiliateUrl="https://www.amazon.com/s?k=pilates+mat+6mm+cork+non+slip&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1574680178-02f8b1c66c21?w=800&q=80"
               />
             </section>
 
@@ -155,6 +156,7 @@ export default function BlogEquipmentPage() {
                 description="Set of 3 fabric-covered bands (light, medium, heavy). Durable looped design with anti-slip inner layer. Ideal for Pilates footwork, chest expansion, and stretching series. Includes a mesh storage bag."
                 price="From $28"
                 affiliateUrl="https://www.amazon.com/s?k=pilates+resistance+band+set+fabric&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1559595500-e15296bdbb48?w=800&q=80"
               />
             </section>
 
@@ -189,6 +191,7 @@ export default function BlogEquipmentPage() {
                 description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
                 price="From $35"
                 affiliateUrl="https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&q=80"
               />
             </section>
 
@@ -222,6 +225,7 @@ export default function BlogEquipmentPage() {
                 description="Neoprene-covered with adjustable fill pockets, 0.5–2kg per weight. Machine washable, secure velcro closure, and a slim profile that doesn't restrict movement range. A rare combination of quality and versatility."
                 price="From $38"
                 affiliateUrl="https://www.amazon.com/s?k=adjustable+ankle+weights+pilates+neoprene&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=80"
               />
             </section>
 
@@ -257,6 +261,7 @@ export default function BlogEquipmentPage() {
                 description="Spring-loaded sliding board with adjustable resistance. Foldable and wall-mountable. Covers footwork, squat series, and standing balance exercises. A smart option before committing to a full reformer."
                 price="From $179"
                 affiliateUrl="https://www.amazon.com/s?k=pilates+board+home+workout+sliding&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1534218152144-cf9de1a0d00e?w=800&q=80"
               />
             </section>
 

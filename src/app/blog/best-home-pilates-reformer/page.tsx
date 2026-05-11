@@ -34,6 +34,7 @@ const PRODUCTS = [
     description:
       "Four cords, a rebounder, and a foldable frame make the 287 the most accessible full-function reformer on the market. The cord-based resistance is softer than spring systems but perfectly usable for foundational footwork, stretching, and the rowing series. Folds flat and stores under a bed. A genuine reformer experience at a fraction of the cost.",
     affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287&tag=pilatescollective-20",
+    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
     pros: ["Foldable for small spaces", "Rebounder included", "Good for beginners"],
     cons: ["Cord resistance differs from spring feel", "Limited weight capacity", "Less stable than studio machines"],
   },
@@ -45,6 +46,7 @@ const PRODUCTS = [
     description:
       "The 557 is a meaningful step up — four cords, a smoother carriage, a full standing platform, and a rebounder built for cardio intervals. The adjustable footbar and shoulder rests accommodate a wider range of heights, and the frame is substantially more rigid than budget models. For practitioners who train four or more times per week, this is the sweet spot between cost and quality.",
     affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+557&tag=pilatescollective-20",
+    imageUrl: "https://images.unsplash.com/photo-1609899464726-209daa3fde40?w=800&q=80",
     pros: ["Standing platform included", "Smooth carriage action", "Adjustable for most heights"],
     cons: ["Still cord-based, not spring", "Heavier to move", "Assembly takes 90 minutes"],
   },
@@ -56,6 +58,7 @@ const PRODUCTS = [
     description:
       "The SPX Max is the machine you'll find in professional training studios worldwide — a full spring system, full-length rails, and a carriage that moves with the precision and weight you'll recognise from your best studio sessions. The jump board attachment, vertical stand, and tower options make this a complete apparatus investment. Built to last decades with proper maintenance.",
     affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+reformer&tag=pilatescollective-20",
+    imageUrl: "https://images.unsplash.com/photo-1518310952931-b1de897abd40?w=800&q=80",
     pros: ["True spring resistance", "Studio-equivalent quality", "Full accessory ecosystem"],
     cons: ["Significant investment", "Large footprint (requires dedicated space)", "Weighs 115lbs"],
   },
@@ -67,6 +70,7 @@ const PRODUCTS = [
     description:
       "The Allegro 2 is the gold standard for serious home practitioners. Used by professional dancers, physiotherapists, and elite instructors worldwide, it features Balanced Body's signature smooth-glide carriage, a full four-spring system, fold-flat option, and compatibility with the complete Balanced Body accessories range including the Tower, Cadillac, and Box. If you're committing to a serious home practice, this is the machine to buy once.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20",
+    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
     pros: ["Best carriage feel available", "Folds for storage", "Full Balanced Body accessory compatibility"],
     cons: ["Premium price", "Requires professional assembly", "Overkill for casual practitioners"],
   },
@@ -168,6 +172,7 @@ export default function BestHomeReformerPage() {
                       description={p.description}
                       price={p.price}
                       affiliateUrl={p.affiliateUrl}
+                      imageUrl={p.imageUrl}
                     />
                     <div className="mt-4 grid grid-cols-2 gap-4">
                       <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
