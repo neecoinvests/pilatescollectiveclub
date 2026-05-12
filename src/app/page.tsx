@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SearchHero from "@/components/SearchHero";
 import CityCard from "@/components/CityCard";
 import ArticleCard from "@/components/ArticleCard";
 import ProductCard from "@/components/ProductCard";
 import NewsletterInline from "@/components/NewsletterInline";
 
 export const metadata: Metadata = {
-  title: "Pilates Collective Club — Find Your Perfect Studio",
-  description: "Curated city guides, expert studio recommendations, and AI-powered search for Pilates lovers worldwide.",
+  title: "Pilates Collective Club — The Reference for Serious Practitioners",
+  description: "Curated city guides, expert studio recommendations, and in-depth editorial for Pilates lovers worldwide.",
 };
 
 const CITIES = [
@@ -25,8 +26,17 @@ const CITIES = [
   { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 5 },
 ];
 
+const FEATURED = {
+  title: "The Best Pilates Studios in London",
+  excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios. We visited every studio, tested every format, and ranked them honestly.",
+  href: "/cities/london",
+  category: "City Guide",
+  readTime: "8 min read",
+  date: "May 2026",
+  imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=85",
+};
+
 const GUIDES = [
-  { title: "The Best Pilates Studios in London", excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios.", href: "/cities/london", category: "City Guide", readTime: "8 min read", date: "May 2026" },
   { title: "The Best Pilates Studios in Zurich", excerpt: "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.", href: "/cities/zurich", category: "City Guide", readTime: "8 min read", date: "May 2026" },
   { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "May 2026" },
   { title: "Pilates for Back Pain: What the Research Shows", excerpt: "A clear-eyed look at the evidence — what Pilates can and can't do for chronic back pain, and how to start safely.", href: "/blog/pilates-for-back-pain", category: "Wellness", readTime: "9 min read", date: "May 2026" },
@@ -38,9 +48,27 @@ const GUIDES = [
 ];
 
 const PRODUCTS = [
-  { name: "Premium Pilates Mat", description: "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability.", price: "From $52", affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20" },
-  { name: "Pilates Grip Socks", description: "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping.", price: "From $16", affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20" },
-  { name: "Resistance Ring (Magic Circle)", description: "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store anywhere.", price: "From $24", affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20" },
+  {
+    name: "Premium Pilates Mat",
+    description: "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability.",
+    price: "From $52",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    imageUrl: "https://images.unsplash.com/photo-1518310952931-b1de897abd40?w=800&q=80",
+  },
+  {
+    name: "Pilates Grip Socks",
+    description: "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping.",
+    price: "From $16",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+  },
+  {
+    name: "Resistance Ring (Magic Circle)",
+    description: "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store anywhere.",
+    price: "From $24",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+  },
 ];
 
 const label = {
@@ -57,92 +85,151 @@ export default function Home() {
     <>
       <Header />
       <main>
+
         {/* Hero */}
-        <section
-          id="finder"
-          style={{
-            minHeight: "100vh",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: "140px 32px 80px",
-            textAlign: "center",
-            backgroundColor: "#ffffff",
-          }}
-        >
-          <p style={{ ...label, marginBottom: "28px" }}>The Pilates Discovery Platform</p>
+        <section style={{
+          padding: "160px 40px 100px",
+          backgroundColor: "#ffffff",
+        }}>
+          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+            <p style={{ ...label, marginBottom: "32px" }}>The Pilates Collective Club</p>
+            <h1 style={{
+              fontFamily: "var(--font-serif)",
+              fontSize: "clamp(52px, 8vw, 104px)",
+              fontWeight: 300,
+              lineHeight: 1.0,
+              color: "#0a0a0a",
+              maxWidth: "820px",
+              letterSpacing: "-0.01em",
+              marginBottom: "0",
+            }}>
+              The reference for<br />
+              <em>serious practitioners.</em>
+            </h1>
 
-          <h1 style={{
-            fontFamily: "var(--font-serif)",
-            fontSize: "clamp(48px, 8vw, 96px)",
-            fontWeight: 300,
-            lineHeight: 1.02,
-            color: "#0a0a0a",
-            marginBottom: "12px",
-            letterSpacing: "-0.01em",
-          }}>
-            Find your perfect
-          </h1>
-          <h1 style={{
-            fontFamily: "var(--font-serif)",
-            fontSize: "clamp(48px, 8vw, 96px)",
-            fontWeight: 300,
-            lineHeight: 1.02,
-            color: "#0a0a0a",
-            marginBottom: "40px",
-            letterSpacing: "-0.01em",
-            fontStyle: "italic",
-          }}>
-            Pilates studio.
-          </h1>
+            <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "52px 0" }} />
 
-          <p style={{
-            fontFamily: "var(--font-sans)",
-            fontSize: "15px",
-            fontWeight: 300,
-            color: "#9a9490",
-            lineHeight: 1.7,
-            maxWidth: "440px",
-            marginBottom: "52px",
-          }}>
-            Curated city guides, editorial studio reviews, and AI-powered search — all in one place.
-          </p>
-
-          <SearchHero />
-
-          <p style={{ ...label, marginTop: "48px", letterSpacing: "0.15em", fontSize: "10px", color: "#c8c3be" }}>
-            Practitioners in 20+ cities worldwide
-          </p>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "40px", flexWrap: "wrap" }}>
+              <p style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: "15px",
+                fontWeight: 300,
+                color: "#6b6560",
+                lineHeight: 1.75,
+                maxWidth: "480px",
+                margin: 0,
+              }}>
+                Curated city guides, editorial studio reviews, and the best in Pilates equipment — written by practitioners, for practitioners.
+              </p>
+              <div style={{ display: "flex", gap: "16px", flexShrink: 0 }}>
+                <Link href="/blog" style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: "10px",
+                  fontWeight: 500,
+                  letterSpacing: "0.18em",
+                  textTransform: "uppercase",
+                  color: "#ffffff",
+                  textDecoration: "none",
+                  backgroundColor: "#0a0a0a",
+                  padding: "14px 28px",
+                  display: "inline-block",
+                }}>
+                  Read the Journal
+                </Link>
+                <Link href="/#cities" style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: "10px",
+                  fontWeight: 500,
+                  letterSpacing: "0.18em",
+                  textTransform: "uppercase",
+                  color: "#0a0a0a",
+                  textDecoration: "none",
+                  border: "1px solid #0a0a0a",
+                  padding: "14px 28px",
+                  display: "inline-block",
+                }}>
+                  Browse Studios
+                </Link>
+              </div>
+            </div>
+          </div>
         </section>
 
-        {/* Thin divider */}
         <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
-        {/* City Guides */}
-        <section id="cities" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
+        {/* Featured Story */}
+        <section style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "52px" }}>
-              <div>
-                <p style={{ ...label, marginBottom: "12px" }}>City Guides</p>
-                <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
-                  Studio guides by city
-                </h2>
-              </div>
-              <a href="/cities/zurich" style={{
-                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
-                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
-                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
-              }}>
-                All cities
-              </a>
-            </div>
+            <p style={{ ...label, marginBottom: "40px" }}>Featured</p>
 
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "2px" }} className="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
-              {CITIES.map((c) => (
-                <CityCard key={c.city} {...c} />
-              ))}
-            </div>
+            <Link href={FEATURED.href} style={{ textDecoration: "none", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0", alignItems: "stretch" }} className="block md:grid">
+              <div style={{ position: "relative", overflow: "hidden", minHeight: "500px", backgroundColor: "#f0ece6" }}>
+                <Image
+                  src={FEATURED.imageUrl}
+                  alt={FEATURED.title}
+                  fill
+                  className="object-cover transition-transform duration-700 hover:scale-105"
+                />
+              </div>
+              <div style={{
+                backgroundColor: "#f7f4f0",
+                padding: "64px 56px",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+              }}>
+                <span style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: "10px",
+                  fontWeight: 500,
+                  letterSpacing: "0.22em",
+                  textTransform: "uppercase",
+                  color: "#c5a882",
+                  display: "block",
+                  marginBottom: "20px",
+                }}>
+                  {FEATURED.category}
+                </span>
+                <h2 style={{
+                  fontFamily: "var(--font-serif)",
+                  fontSize: "clamp(28px, 3vw, 42px)",
+                  fontWeight: 400,
+                  color: "#0a0a0a",
+                  lineHeight: 1.15,
+                  marginBottom: "24px",
+                  letterSpacing: "-0.01em",
+                }}>
+                  {FEATURED.title}
+                </h2>
+                <p style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: "14px",
+                  fontWeight: 300,
+                  color: "#6b6560",
+                  lineHeight: 1.75,
+                  marginBottom: "40px",
+                }}>
+                  {FEATURED.excerpt}
+                </p>
+                <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+                  <span style={{
+                    fontFamily: "var(--font-sans)",
+                    fontSize: "10px",
+                    fontWeight: 500,
+                    letterSpacing: "0.18em",
+                    textTransform: "uppercase",
+                    color: "#0a0a0a",
+                    borderBottom: "1px solid #0a0a0a",
+                    paddingBottom: "2px",
+                  }}>
+                    Read Guide →
+                  </span>
+                  <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "#9a9490" }}>
+                    {FEATURED.readTime}
+                  </span>
+                </div>
+              </div>
+            </Link>
           </div>
         </section>
 
@@ -158,13 +245,13 @@ export default function Home() {
                   Journal
                 </h2>
               </div>
-              <a href="/blog" style={{
+              <Link href="/blog" style={{
                 fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
                 letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
                 textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
               }}>
                 All articles
-              </a>
+              </Link>
             </div>
 
             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0 60px" }} className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -177,18 +264,51 @@ export default function Home() {
 
         <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
-        {/* Equipment */}
-        <section style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
-          <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-            <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
-            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", marginBottom: "8px" }}>
-              Editor&apos;s essentials
-            </h2>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#9a9490", marginBottom: "0", lineHeight: 1.7 }}>
-              Carefully selected equipment, available on Amazon.
-            </p>
+        {/* City Guides */}
+        <section id="cities" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
+          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "52px" }}>
+              <div>
+                <p style={{ ...label, marginBottom: "12px" }}>City Guides</p>
+                <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
+                  Studio guides by city
+                </h2>
+              </div>
+              <Link href="/cities/zurich" style={{
+                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
+                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
+                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
+              }}>
+                All cities
+              </Link>
+            </div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0 60px" }} className="grid-cols-1 md:grid-cols-3">
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "2px" }} className="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
+              {CITIES.map((c) => (
+                <CityCard key={c.city} {...c} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
+
+        {/* Equipment */}
+        <section id="equipment" style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
+          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "52px" }}>
+              <div>
+                <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
+                <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
+                  Editor&apos;s essentials
+                </h2>
+              </div>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#9a9490", margin: 0 }}>
+                Carefully selected. Available on Amazon.
+              </p>
+            </div>
+
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "2px" }} className="grid-cols-1 md:grid-cols-3">
               {PRODUCTS.map((p) => (
                 <ProductCard key={p.name} {...p} />
               ))}

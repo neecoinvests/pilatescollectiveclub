@@ -4,9 +4,9 @@ import Link from "next/link";
 import { useState } from "react";
 
 const NAV = [
-  { label: "Studio Finder", href: "/#finder" },
-  { label: "Cities", href: "/#cities" },
   { label: "Journal", href: "/blog" },
+  { label: "Cities", href: "/#cities" },
+  { label: "Equipment", href: "/#equipment" },
   { label: "About", href: "/#about" },
 ];
 
