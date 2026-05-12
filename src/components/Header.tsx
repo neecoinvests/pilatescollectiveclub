@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Header() {
@@ -17,12 +18,20 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 w-full flex items-center justify-between">
         {/* Logo */}
-        <Link
-          href="/"
-          className="text-xl font-semibold tracking-tight"
-          style={{ fontFamily: "'Playfair Display', serif", color: "#8b4a31" }}
-        >
-          Pilates Collective Club
+        <Link href="/" className="flex items-center gap-3">
+          <Image
+            src="/logo-mark.svg"
+            alt="Pilates Collective Club"
+            width={40}
+            height={28}
+            priority
+          />
+          <span
+            className="text-xl font-semibold tracking-tight"
+            style={{ fontFamily: "'Playfair Display', serif", color: "#8b4a31" }}
+          >
+            Pilates Collective Club
+          </span>
         </Link>
 
         {/* Desktop Nav */}
@@ -35,14 +44,14 @@ export default function Header() {
             Finder
           </Link>
           <Link
-            href="/blog/best-pilates-equipment-for-home-practice"
+            href="/blog"
             className="text-sm font-medium transition-colors hover:text-[#8b4a31]"
             style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
           >
             Blog
           </Link>
           <Link
-            href="/cities/zurich"
+            href="/#cities"
             className="text-sm font-medium transition-colors hover:text-[#8b4a31]"
             style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
           >
@@ -120,7 +129,7 @@ export default function Header() {
             Finder
           </Link>
           <Link
-            href="/blog/best-pilates-equipment-for-home-practice"
+            href="/blog"
             onClick={() => setMenuOpen(false)}
             className="text-sm font-medium py-2"
             style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
@@ -128,7 +137,7 @@ export default function Header() {
             Blog
           </Link>
           <Link
-            href="/cities/zurich"
+            href="/#cities"
             onClick={() => setMenuOpen(false)}
             className="text-sm font-medium py-2"
             style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}

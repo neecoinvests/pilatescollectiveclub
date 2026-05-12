@@ -8,6 +8,7 @@ interface StudioListingProps {
   bestFor: string;
   signatureClass: string;
   bookingTip: string;
+  websiteUrl?: string;
 }
 
 export default function StudioListing({
@@ -20,6 +21,7 @@ export default function StudioListing({
   bestFor,
   signatureClass,
   bookingTip,
+  websiteUrl,
 }: StudioListingProps) {
   return (
     <article
@@ -88,7 +90,7 @@ export default function StudioListing({
 
         {/* CTA */}
         <a
-          href="#"
+          href={websiteUrl || `https://www.google.com/search?q=${encodeURIComponent(name + " " + address)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-80"

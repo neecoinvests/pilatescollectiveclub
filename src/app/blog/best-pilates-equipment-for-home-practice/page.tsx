@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -9,6 +10,19 @@ export const metadata: Metadata = {
   title: "Best Pilates Equipment for Home Practice | Pilates Collective Club",
   description:
     "Our definitive guide to home Pilates equipment. From quality mats to resistance bands and reformer alternatives — everything you actually need.",
+  openGraph: {
+    title: "Best Pilates Equipment for Home Practice",
+    description: "Our definitive guide to home Pilates equipment — from quality mats to resistance bands and reformer alternatives.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
+    images: [{ url: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200&q=80", width: 1200, height: 630, alt: "Pilates Equipment for Home Practice — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Pilates Equipment for Home Practice",
+    description: "Our definitive guide to home Pilates equipment.",
+    images: ["https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200&q=80"],
+  },
 };
 
 export default function BlogEquipmentPage() {
@@ -47,23 +61,7 @@ export default function BlogEquipmentPage() {
               Updated May 2026 · 10 min read
             </p>
 
-            {/* Affiliate disclosure */}
-            <div
-              className="rounded-xl px-5 py-4 mb-8"
-              style={{
-                backgroundColor: "#f6f3f2",
-                border: "1px solid rgba(217, 194, 186, 0.5)",
-              }}
-            >
-              <p
-                className="text-xs leading-relaxed"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                <span className="font-semibold">Affiliate disclosure:</span> This article may
-                contain affiliate links. We may earn a commission if you buy through our links, at
-                no extra cost to you. We only recommend equipment we&apos;ve personally tested.
-              </p>
-            </div>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
 
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
 
@@ -82,22 +80,8 @@ export default function BlogEquipmentPage() {
         {/* Hero image */}
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
-            <div
-              className="w-full rounded-2xl"
-              style={{
-                height: "380px",
-                background: "linear-gradient(135deg, #e8e2d6 0%, #f0eded 50%, #cbc6ba 100%)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <p
-                className="text-sm font-semibold uppercase tracking-widest"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                Home Practice Essentials
-              </p>
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
+              <Image src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1400&q=80" alt="Pilates home practice equipment" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -136,8 +120,9 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="The Studio Mat Pro"
                 description="6mm thick, high-density closed-cell foam with a natural cork surface layer for superior grip. Lightweight, easy to wipe clean, and comes with a carry strap. Our top recommendation for serious home practitioners."
-                price="From £48"
-                badge
+                price="From $52"
+                affiliateUrl="https://www.amazon.com/s?k=pilates+mat+6mm+cork+non+slip&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1574680178-02f8b1c66c21?w=800&q=80"
               />
             </section>
 
@@ -169,8 +154,9 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="Premium Resistance Band Set"
                 description="Set of 3 fabric-covered bands (light, medium, heavy). Durable looped design with anti-slip inner layer. Ideal for Pilates footwork, chest expansion, and stretching series. Includes a mesh storage bag."
-                price="From £26"
-                badge
+                price="From $28"
+                affiliateUrl="https://www.amazon.com/s?k=pilates+resistance+band+set+fabric&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1559595500-e15296bdbb48?w=800&q=80"
               />
             </section>
 
@@ -203,8 +189,9 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="Precision Magic Circle"
                 description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
-                price="From £32"
-                badge
+                price="From $35"
+                affiliateUrl="https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&q=80"
               />
             </section>
 
@@ -236,8 +223,9 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="Adjustable Ankle Weights"
                 description="Neoprene-covered with adjustable fill pockets, 0.5–2kg per weight. Machine washable, secure velcro closure, and a slim profile that doesn't restrict movement range. A rare combination of quality and versatility."
-                price="From £34"
-                badge
+                price="From $38"
+                affiliateUrl="https://www.amazon.com/s?k=adjustable+ankle+weights+pilates+neoprene&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=80"
               />
             </section>
 
@@ -254,7 +242,7 @@ export default function BlogEquipmentPage() {
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
                 A full reformer is the gold standard for home Pilates, but it requires significant
-                space and investment (typically £1,500–£4,000 for a quality model). For most home
+                space and investment (typically $1,800–$4,500 for a quality model). For most home
                 practitioners, a Pilates board or fitness board offers the most accessible
                 reformer-like experience — spring-loaded resistance, a sliding surface, and enough
                 versatility to cover the majority of the classical reformer repertoire.
@@ -263,7 +251,7 @@ export default function BlogEquipmentPage() {
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                These boards are generally under £200, fold flat for storage, and can be used
+                These boards are generally under $220, fold flat for storage, and can be used
                 against any stable wall. They don&apos;t replicate the full reformer experience — the
                 carriage feel is quite different — but for footwork, leg press, and standing work,
                 they&apos;re genuinely useful.
@@ -271,8 +259,9 @@ export default function BlogEquipmentPage() {
               <ProductCard
                 name="Home Pilates Board"
                 description="Spring-loaded sliding board with adjustable resistance. Foldable and wall-mountable. Covers footwork, squat series, and standing balance exercises. A smart option before committing to a full reformer."
-                price="From £165"
-                badge
+                price="From $179"
+                affiliateUrl="https://www.amazon.com/s?k=pilates+board+home+workout+sliding&tag=pilatescollective-20"
+                imageUrl="https://images.unsplash.com/photo-1534218152144-cf9de1a0d00e?w=800&q=80"
               />
             </section>
 
@@ -338,36 +327,36 @@ export default function BlogEquipmentPage() {
                       {
                         item: "Mat",
                         need: "Essential",
-                        budget: "Standard foam, ~£20",
-                        premium: "Cork/natural rubber, £80+",
+                        budget: "Standard foam, ~$22",
+                        premium: "Cork/natural rubber, $90+",
                         pick: "The Studio Mat Pro",
                       },
                       {
                         item: "Resistance Bands",
                         need: "Very useful",
-                        budget: "Latex loop bands, £8",
-                        premium: "Fabric set of 3, £30",
+                        budget: "Latex loop bands, $9",
+                        premium: "Fabric set of 3, $33",
                         pick: "Premium Resistance Band Set",
                       },
                       {
                         item: "Pilates Ring",
                         need: "Optional",
-                        budget: "Basic plastic, £12",
-                        premium: "Fibreglass with padding, £40",
+                        budget: "Basic plastic, $13",
+                        premium: "Fibreglass with padding, $44",
                         pick: "Precision Magic Circle",
                       },
                       {
                         item: "Ankle Weights",
                         need: "Optional",
-                        budget: "Fixed 1kg pair, £10",
-                        premium: "Adjustable neoprene, £40",
+                        budget: "Fixed 1kg pair, $11",
+                        premium: "Adjustable neoprene, $44",
                         pick: "Adjustable Ankle Weights",
                       },
                       {
                         item: "Reformer Alternative",
                         need: "Advanced",
-                        budget: "Second-hand reformer, £400",
-                        premium: "Full home reformer, £2,000+",
+                        budget: "Second-hand reformer, $450",
+                        premium: "Full home reformer, $2,200+",
                         pick: "Home Pilates Board",
                       },
                     ].map((row, i) => (
@@ -428,7 +417,7 @@ export default function BlogEquipmentPage() {
                 practice — it doesn&apos;t create one.
               </p>
               <a
-                href="/cities/zurich"
+                href="/blog"
                 className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
                 style={{
                   backgroundColor: "#ffffff",
@@ -436,7 +425,7 @@ export default function BlogEquipmentPage() {
                   fontFamily: "'Montserrat', sans-serif",
                 }}
               >
-                Find a studio near you →
+                Explore all guides →
               </a>
             </section>
 

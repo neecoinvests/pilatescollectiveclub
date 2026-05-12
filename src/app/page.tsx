@@ -64,28 +64,112 @@ const CITIES = [
   { city: "Lausanne", country: "Switzerland", href: "/cities/lausanne", studioCount: 5 },
   { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
   { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
+  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 5 },
+  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 5 },
+  { city: "Amsterdam", country: "Netherlands", href: "/cities/amsterdam", studioCount: 5 },
+  { city: "Berlin", country: "Germany", href: "/cities/berlin", studioCount: 5 },
+  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 5 },
 ];
 
 const GUIDES = [
   {
+    title: "The Best Pilates Studios in London",
+    excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios.",
+    href: "/cities/london",
+    category: "City Guide",
+    readTime: "8 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
+  },
+  {
     title: "The Best Pilates Studios in Zurich",
-    excerpt:
-      "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.",
+    excerpt: "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.",
     href: "/cities/zurich",
     category: "City Guide",
     readTime: "8 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80",
+  },
+  {
+    title: "The Beginner's Guide to Reformer Pilates",
+    excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence.",
+    href: "/blog/beginners-guide-to-reformer-pilates",
+    category: "Beginner Guide",
+    readTime: "8 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
+  },
+  {
+    title: "Pilates for Back Pain: What the Research Shows",
+    excerpt: "A clear-eyed look at the evidence — what Pilates can and can't do for chronic back pain, and how to start safely.",
+    href: "/blog/pilates-for-back-pain",
+    category: "Wellness",
+    readTime: "9 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+  },
+  {
+    title: "Classical vs Contemporary Pilates",
+    excerpt: "Understanding the key differences between the original method and modern interpretations — and which is right for you.",
+    href: "/blog/classical-vs-contemporary-pilates",
+    category: "Method",
+    readTime: "7 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=800&q=80",
   },
   {
     title: "Best Pilates Equipment for Home Practice",
-    excerpt:
-      "Everything you actually need to build a consistent home practice, from a quality mat to the best reformer alternatives.",
+    excerpt: "Everything you actually need to build a consistent home practice, from a quality mat to the best reformer alternatives.",
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+  },
+  {
+    title: "Pilates vs Yoga: Key Differences and How to Choose",
+    excerpt: "A clear, honest comparison of two of the world's most popular movement practices — and how to decide between them.",
+    href: "/blog/pilates-vs-yoga",
+    category: "Method",
+    readTime: "7 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
+  },
+  {
+    title: "The Best Pilates Retreats in Europe",
+    excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.",
+    href: "/blog/best-pilates-retreats-europe",
+    category: "Travel",
+    readTime: "8 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
+  },
+  {
+    title: "Pilates for Athletes",
+    excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.",
+    href: "/blog/pilates-for-athletes",
+    category: "Performance",
+    readTime: "7 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80",
+  },
+  {
+    title: "How to Choose the Right Pilates Instructor",
+    excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.",
+    href: "/blog/how-to-choose-a-pilates-instructor",
+    category: "Guide",
+    readTime: "6 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?w=800&q=80",
+  },
+  {
+    title: "Pilates and Pregnancy: A Complete Guide",
+    excerpt: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist.",
+    href: "/blog/pilates-and-pregnancy",
+    category: "Health",
+    readTime: "8 min read",
+    date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&q=80",
   },
 ];
 
@@ -94,19 +178,22 @@ const PRODUCTS = [
     name: "Premium Pilates Mat",
     description:
       "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability. Our top pick for studio and home use.",
-    price: "From £48",
+    price: "From $52",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Pilates Grip Socks",
     description:
       "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping on the carriage.",
-    price: "From £14",
+    price: "From $16",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Resistance Ring (Magic Circle)",
     description:
       "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store in any corner. Targets inner thighs, arms, and core.",
-    price: "From £22",
+    price: "From $24",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
 ];
 
@@ -126,8 +213,8 @@ export default function Home() {
         >
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <Image
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1920&q=60"
-              alt="Pilates studio"
+              src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1920&q=60"
+              alt="Pilates reformer studio"
               fill
               className="object-cover opacity-[0.06]"
               priority
@@ -285,7 +372,7 @@ export default function Home() {
                 Latest Guides
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {GUIDES.map((g) => (
                 <ArticleCard key={g.href} {...g} />
               ))}
@@ -301,7 +388,7 @@ export default function Home() {
                 className="text-xs font-semibold uppercase tracking-[0.2em] mb-3"
                 style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}
               >
-                Affiliate Picks
+                Equipment
               </p>
               <h2
                 className="text-3xl md:text-4xl font-semibold mb-3"
@@ -313,8 +400,7 @@ export default function Home() {
                 className="text-sm max-w-lg mx-auto"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                Carefully selected equipment we actually use and recommend. Some links are affiliate
-                links — we may earn a small commission at no extra cost to you.
+                Carefully selected equipment we use and recommend, available on Amazon.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -392,8 +478,7 @@ export default function Home() {
               style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
             >
               Every studio in our guides has been personally vetted. Every equipment pick has been
-              tested. We earn a small affiliate commission on some purchases, which helps us keep
-              the lights on — but it never influences our recommendations.
+              tested. Every studio recommendation is independent — we are never paid to feature a studio.
             </p>
           </div>
         </section>

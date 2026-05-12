@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StudioListing from "@/components/StudioListing";
@@ -9,69 +10,82 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Zurich | Pilates Collective Club",
   description:
-    "Our curated guide to the best Pilates studios in Zurich. Reformer classes, mat Pilates, private sessions — everything you need to know before booking.",
+    "Our curated guide to the best Pilates studios in Zurich — from Form Studio and ilu move in Seefeld to ProPilates and PILATESwiss. Five verified studios with booking tips.",
+  openGraph: {
+    title: "The Best Pilates Studios in Zurich",
+    description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
+    type: "article",
+    url: "https://pilatescollectiveclub.com/cities/zurich",
+    images: [{ url: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1200&q=80", width: 1200, height: 630, alt: "Zurich city guide — Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Best Pilates Studios in Zurich",
+    description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
+    images: ["https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1200&q=80"],
+  },
 };
 
 const STUDIOS = [
   {
     number: "01",
-    name: "Coreform Zurich",
-    neighborhood: "Seefeld",
-    priceLevel: "€€€",
+    name: "Form Studio Zurich",
+    neighborhood: "Kreis 1 / City Centre",
+    priceLevel: "CHF ···",
     review:
-      "Coreform is the gold standard for reformer work in Zurich. Nestled in the leafy Seefeld neighbourhood, it draws a mix of serious practitioners and post-rehab clients who value precision over pace. The instructors here are among the most rigorously trained in the city — expect detailed anatomical cueing and class sizes capped at six.",
-    address: "Seefeldstrasse 45, 8008 Zürich",
-    bestFor: "Reformer enthusiasts and post-rehab clients",
-    signatureClass: "Precision Reformer Flow",
-    bookingTip: "Book 48 hours in advance — popular morning slots fill within minutes of release.",
+      "Form Studio brings a music-driven energy to Zurich's reformer scene that's unlike anything else in the city. Their carefully curated playlists, elegant interiors, and high-quality reformer equipment create a class that feels as much like a cultural experience as a workout. The Talstrasse studio is the Zurich flagship of a brand that also operates in Geneva, and it sets the standard for boutique reformer Pilates in the city. The instructors are consistently top-tier and the class formats scale well across experience levels.",
+    address: "Talstrasse 62A, 8001 Zürich",
+    bestFor: "Music-driven reformer classes, all levels",
+    signatureClass: "Form Flow Reformer",
+    bookingTip: "Book via their app at least 24 hours ahead. The Friday evening class sells out within an hour of opening.",
   },
   {
     number: "02",
-    name: "Studio Align",
-    neighborhood: "Kreis 6",
-    priceLevel: "€€",
+    name: "ilu move",
+    neighborhood: "Seefeld",
+    priceLevel: "CHF ···",
     review:
-      "Studio Align is the most approachable studio on this list — and one of the most consistently excellent. Its mat-first philosophy makes it ideal for beginners, but the progressive class structure means long-term practitioners keep coming back. The studio occupies a bright, airy space near the university district and has a warm community feel that's unusual in Zurich.",
-    address: "Universitätstrasse 91, 8006 Zürich",
-    bestFor: "Beginners and mat Pilates devotees",
-    signatureClass: "Foundations Mat",
-    bookingTip: "Drop-in friendly on weekday mornings. The 9am Tuesday class rarely fills before same-day.",
+      "ilu move has established itself as one of Seefeld's most popular reformer studios — a boutique offering contemporary, challenging, and soul-filled workouts focused on core and muscle balance. The Seefeldstrasse studio is beautifully designed, and the instruction is dynamic and precise. Pre- and postnatal classes make it one of the most inclusive studios in Zurich, and a second location near Zurich HB adds convenient accessibility for practitioners coming from across the city.",
+    address: "Seefeldstrasse 110, 8008 Zürich",
+    bestFor: "Dynamic reformer, all levels, pre- and postnatal",
+    signatureClass: "ilu Reformer Flow",
+    bookingTip: "Book through their website or app. Morning Seefeld classes are the most in-demand — secure them on Sunday for the week ahead.",
   },
   {
     number: "03",
-    name: "The Reformer Room",
-    neighborhood: "Wiedikon",
-    priceLevel: "€€€",
+    name: "Protagonist Zurich",
+    neighborhood: "Kreis 4",
+    priceLevel: "CHF ··",
     review:
-      "If Coreform is about precision, The Reformer Room is about athletic challenge. This Wiedikon studio attracts a younger, performance-oriented crowd and is known for its high-intensity reformer sequences that borrow from contemporary movement science. Don't let the stripped-back industrial décor fool you — the instruction quality is exceptional.",
-    address: "Birmensdorferstrasse 108, 8003 Zürich",
-    bestFor: "Advanced practitioners seeking athletic challenge",
-    signatureClass: "Athletic Reformer",
-    bookingTip: "Sign up for the monthly intensive — it sells out within hours of the newsletter drop.",
+      "Protagonist has earned a devoted following in Kreis 4 by combining serious reformer and strength training in a studio that reflects the neighbourhood's creative energy. The programme covers reformer Pilates and functional strength in a boutique setting — less polished than the premium Seefeld studios, but equally rigorous in its approach. It's a particular favourite with the city's creative and young-professional crowd, and the community feel is rare for Zurich.",
+    address: "Langstrasse 197, 8005 Zürich",
+    bestFor: "Reformer and strength, accessible quality, creative crowd",
+    signatureClass: "Protagonist Reformer Signature",
+    bookingTip: "The 7pm Monday and Wednesday classes are perennially popular. Book the full week on Sunday.",
   },
   {
     number: "04",
-    name: "Flow Pilates Kreis 4",
-    neighborhood: "Kreis 4",
-    priceLevel: "€€",
+    name: "ProPilates",
+    neighborhood: "Seefeld / Stadelhofen",
+    priceLevel: "CHF ···",
     review:
-      "Situated in Zurich's most vibrant neighbourhood, Flow Pilates hits the sweet spot between accessibility and ambition. It's particularly popular with young professionals who want an efficient, quality session without the formality of some of the city's more upscale offerings. Evening classes are lively; the studio has a genuine community energy.",
-    address: "Langstrasse 149, 8004 Zürich",
-    bestFor: "Young professionals, evening classes",
-    signatureClass: "Express Core 45",
-    bookingTip: "The 6pm Tuesday class fills within an hour of opening. Set a reminder for Monday evening.",
+      "ProPilates is one of Zurich's most fully equipped classical Pilates studios — a Seefeld institution with over 20 years of practice and a team that brings serious depth to the method. The studio offers private classes, duets, and small groups on mat and apparatus, with Kreuzstrasse placing it steps from the Stadelhofen railway station. The classical approach and experienced teaching team make this the natural choice for practitioners who want the method done properly, without contemporary modifications.",
+    address: "Kreuzstrasse 42, 8008 Zürich",
+    bestFor: "Classical method, private and small-group apparatus, experienced practitioners",
+    signatureClass: "Classical Apparatus Session",
+    bookingTip: "Private sessions with senior teachers require advance booking. New clients are encouraged to start with a private intake before joining group apparatus classes.",
   },
   {
     number: "05",
-    name: "Lakeview Pilates Studio",
-    neighborhood: "Enge",
-    priceLevel: "€€€€",
+    name: "PILATESwiss",
+    neighborhood: "Seefeld",
+    priceLevel: "CHF ···",
     review:
-      "Lakeview is in a category of its own. Perched above the lake in Enge with views of the Alps on clear days, it operates exclusively on a private-session basis. Your instructor learns your body over time — sessions here are genuinely bespoke. It's an investment, but for clients who work with chronic pain or want to deepen a long-term practice, it delivers results nothing else matches.",
-    address: "Mythenquai 10, 8002 Zürich",
-    bestFor: "Private sessions, long-term development, lake views",
-    signatureClass: "Lakeside Bespoke",
-    bookingTip: "Private sessions only. Enquire via their website — waitlist can be 2–3 weeks.",
+      "PILATESwiss is the oldest Pilates studio in Zurich — founded in 2004 on Lake Zurich in the Seefeld district, and still one of the most comprehensively equipped. The studio offers generous high ceilings, large windows, and the full range of classical apparatus including reformers, barrels, cadillacs, and wunda chairs. As the only studio in German-speaking Europe with both PILATES Method Alliance and Yoga Alliance accreditations for teacher training, the quality of instruction here is verifiable at the highest professional level.",
+    address: "Seefeldstrasse 225, 8008 Zürich",
+    bestFor: "Classical apparatus, teacher training, comprehensive equipment",
+    signatureClass: "Classical Apparatus Fundamentals",
+    bookingTip: "Check their schedule for group classes and mat sessions. Private apparatus sessions with senior instructors require advance enquiry.",
   },
 ];
 
@@ -93,8 +107,8 @@ const BOOKING_TIPS = [
     body: "Almost every reformer studio in Zurich requires grip socks. Some sell them on arrival, but it's cheaper to bring your own.",
   },
   {
-    heading: "German helps, but isn't necessary",
-    body: "All studios on this list teach in English upon request. Most sessions in Zurich are bilingual German/English by default.",
+    heading: "CHF 30–50 per class is standard",
+    body: "Drop-in rates at premium Zurich studios typically fall between CHF 30 and CHF 50. Monthly memberships and class packs offer meaningful savings.",
   },
 ];
 
@@ -105,26 +119,27 @@ const NEIGHBORHOODS = [
       "The upscale eastern lakeside district is home to Zurich's most polished studios. Expect pristine spaces, premium pricing, and a well-heeled clientele.",
   },
   {
-    name: "Kreis 6",
+    name: "Kreis 1 / Niederdorf",
     description:
-      "The university quarter has a more relaxed, intellectual energy. Studios here tend to be slightly more affordable and genuinely beginner-friendly.",
+      "The historic city centre is surprisingly well-served by boutique studios. Easy to access and perfect for combining a class with a day in the old town.",
   },
   {
-    name: "Wiedikon",
+    name: "Kreis 4 / Langstrasse",
     description:
-      "Increasingly popular with creatives and young professionals, Wiedikon has seen a wave of new studio openings in the past three years.",
+      "Increasingly popular with creatives and young professionals, Kreis 4 has seen a wave of new studio openings with accessible pricing and strong community energy.",
   },
   {
-    name: "Enge",
+    name: "Kreis 1 / Central",
     description:
-      "This quiet lakeside neighbourhood south of the centre is home to some of Zurich's most exclusive private studios and retreat spaces.",
+      "The area around Central station is a convenient choice for practitioners commuting from elsewhere in the city, with several quality studios within walking distance.",
   },
 ];
 
 const RELATED_CITIES = [
-  { city: "London", country: "United Kingdom", href: "/cities/zurich", studioCount: 12 },
-  { city: "Paris", country: "France", href: "/cities/zurich", studioCount: 8 },
-  { city: "New York", country: "United States", href: "/cities/zurich", studioCount: 18 },
+  { city: "Geneva", country: "Switzerland", href: "/cities/geneva", studioCount: 5 },
+  { city: "Lausanne", country: "Switzerland", href: "/cities/lausanne", studioCount: 5 },
+  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
+  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
 ];
 
 const FURTHER_READING = [
@@ -136,12 +151,49 @@ const FURTHER_READING = [
     category: "Equipment",
     readTime: "10 min read",
     date: "May 2026",
+    imageUrl: "https://images.unsplash.com/photo-1598300056393-4aac492f4344?w=800&q=80",
   },
 ];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Zurich", "item": "https://pilatescollectiveclub.com/cities/zurich" },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pilates Studios in Zurich",
+      "description": "Curated guide to the top 5 Pilates studios in Zurich.",
+      "url": "https://pilatescollectiveclub.com/cities/zurich",
+      "numberOfItems": 5,
+      "itemListElement": STUDIOS.map((s, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "ExerciseGym",
+          "name": s.name,
+          "description": s.review.slice(0, 200),
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": s.address,
+            "addressLocality": "Zürich",
+            "addressCountry": "CH",
+          },
+        },
+      })),
+    },
+  ],
+};
 
 export default function ZurichPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         {/* Article Header */}
@@ -202,27 +254,21 @@ export default function ZurichPage() {
           </div>
         </section>
 
-        {/* Hero image placeholder */}
+        {/* Hero image */}
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
-            <div
-              className="w-full rounded-2xl overflow-hidden"
-              style={{ height: "420px", background: "linear-gradient(135deg, #e8e2d6 0%, #cbc6ba 40%, #e4e2e1 100%)" }}
-            >
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="text-center">
-                  <p
-                    className="text-sm font-semibold uppercase tracking-widest mb-2"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-                  >
-                    Zurich, Switzerland
-                  </p>
-                  <p
-                    className="text-xs"
-                    style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
-                  >
-                    The lakeside city&apos;s thriving Pilates scene
-                  </p>
+            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image
+                src="https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1400&q=80"
+                alt="Zurich city view"
+                fill
+                className="object-cover"
+                style={{ filter: "brightness(0.9)" }}
+              />
+              <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.5) 0%, transparent 60%)" }}>
+                <div>
+                  <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Zürich, Switzerland</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>The lakeside city&apos;s thriving Pilates scene</p>
                 </div>
               </div>
             </div>
@@ -350,7 +396,7 @@ export default function ZurichPage() {
             >
               Explore our guides to other cities with thriving Pilates scenes.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">
               {RELATED_CITIES.map((c) => (
                 <CityCard key={c.city} {...c} />
               ))}
