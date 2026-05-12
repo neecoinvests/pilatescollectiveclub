@@ -53,21 +53,18 @@ const PRODUCTS = [
     description: "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability.",
     price: "From $52",
     affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
-    imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
   },
   {
     name: "Pilates Grip Socks",
     description: "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping.",
     price: "From $16",
     affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
-    imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
   },
   {
     name: "Resistance Ring (Magic Circle)",
     description: "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store anywhere.",
     price: "From $24",
     affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
-    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
   },
 ];
 
@@ -90,8 +87,23 @@ export default function Home() {
         <section style={{
           padding: "160px 40px 100px",
           backgroundColor: "#ffffff",
+          position: "relative",
+          overflow: "hidden",
         }}>
-          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+          <div style={{
+            position: "absolute",
+            inset: 0,
+            zIndex: 0,
+          }}>
+            <Image
+              src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"
+              alt=""
+              fill
+              style={{ objectFit: "cover", objectPosition: "center 30%", opacity: 0.07 }}
+              priority
+            />
+          </div>
+          <div style={{ maxWidth: "1200px", margin: "0 auto", position: "relative", zIndex: 1 }}>
             <p style={{ ...label, marginBottom: "32px" }}>The Pilates Collective Club</p>
             <h1 style={{
               fontFamily: "var(--font-serif)",
