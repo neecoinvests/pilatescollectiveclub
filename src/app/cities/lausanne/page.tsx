@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in Lausanne | Pilates Collective Club",
   description:
     "Our curated guide to Lausanne's best Pilates studios. Overlooking Lake Geneva, this university city has a growing and quality-conscious wellness scene.",
+  keywords: ["pilates lausanne", "reformer pilates lausanne", "best pilates lausanne", "pilates studios lausanne", "pilates vaud"],
   openGraph: {
     title: "The Best Pilates Studios in Lausanne",
     description: "Our curated guide to Lausanne's best Pilates studios — five verified studios with booking tips.",
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in Lausanne",
     description: "Our curated guide to Lausanne's best Pilates studios — five verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/lausanne",
   },
 };
 

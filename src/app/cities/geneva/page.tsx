@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in Geneva | Pilates Collective Club",
   description:
     "Our curated guide to the best Pilates studios in Geneva — from Form Studio and Pilates Social Club to Swissbody®, the region's most established classical studio. Five verified picks.",
+  keywords: ["pilates genève", "pilates geneva", "reformer pilates geneva", "best pilates geneva", "pilates studios geneva"],
   openGraph: {
     title: "The Best Pilates Studios in Geneva",
     description: "Our curated guide to the best Pilates studios in Geneva — five verified studios with booking tips.",
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in Geneva",
     description: "Our curated guide to the best Pilates studios in Geneva — five verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/geneva",
   },
 };
 

@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     description: "The evidence for Pilates as a treatment for back pain — what it can and can't do.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
+  },
 };
 
 const RELATED = [
@@ -43,9 +46,57 @@ const RELATED = [
   },
 ];
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain/#article",
+      "headline": "Pilates for Back Pain: What the Evidence Says",
+      "description": "Clinical research meets practical guidance on using Pilates to address chronic lower back pain.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
+      "articleSection": "Health",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Pilates for Back Pain: What the Evidence Says", "item": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain" },
+      ],
+    },
+  ],
+};
 export default function PilatesForBackPainPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

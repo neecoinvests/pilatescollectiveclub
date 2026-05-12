@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in Zurich | Pilates Collective Club",
   description:
     "Our curated guide to the best Pilates studios in Zurich — from Form Studio and ilu move in Seefeld to ProPilates and PILATESwiss. Five verified studios with booking tips.",
+  keywords: ["pilates zürich", "pilates zurich", "reformer pilates zurich", "best pilates zurich", "pilates studios zürich"],
   openGraph: {
     title: "The Best Pilates Studios in Zurich",
     description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in Zurich",
     description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/zurich",
   },
 };
 

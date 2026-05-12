@@ -20,11 +20,62 @@ export const metadata: Metadata = {
     description: "Credentials, experience, and red flags to look for when selecting a Pilates teacher.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
+  },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor/#article",
+      "headline": "How to Choose a Pilates Instructor",
+      "description": "Credentials, lineage, teaching style — what actually matters when selecting your teacher.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
+      "articleSection": "Guide",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "How to Choose a Pilates Instructor", "item": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor" },
+      ],
+    },
+  ],
+};
 export default function HowToChoosePilatesInstructorPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

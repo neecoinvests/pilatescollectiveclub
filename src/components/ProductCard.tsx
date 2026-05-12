@@ -17,7 +17,7 @@ export default function ProductCard({ name, description, price, affiliateUrl = "
         <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", marginBottom: "0", backgroundColor: "#f0ece6" }}>
           <Image
             src={imageUrl}
-            alt={name}
+            alt={`${name} — Pilates equipment`}
             fill
             className="object-cover"
           />

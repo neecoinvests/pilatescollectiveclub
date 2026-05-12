@@ -10,6 +10,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in New York City | Pilates Collective Club",
   description: "Our curated guide to NYC's finest Pilates studios — from classical powerhouses in Chelsea to boutique reformer rooms in SoHo, the West Village, and Gramercy. Book with confidence.",
+  keywords: ["pilates studios new york", "reformer pilates nyc", "best pilates new york", "pilates classes nyc", "pilates manhattan"],
   openGraph: {
     title: "The Best Pilates Studios in New York City",
     description: "Our curated guide to NYC's finest Pilates studios — five verified picks from Chelsea to the West Village.",
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in New York City",
     description: "Our curated guide to NYC's finest Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/new-york",
   },
 };
 

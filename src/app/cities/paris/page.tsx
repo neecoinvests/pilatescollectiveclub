@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in Paris | Pilates Collective Club",
   description:
     "Our curated guide to the best Pilates studios in Paris — from The New Me and Les Ailes du Canal to Le Cercle Pilates in Saint-Germain. Five verified studios with booking tips.",
+  keywords: ["pilates paris", "studios pilates paris", "reformer pilates paris", "best pilates paris", "pilates 16eme"],
   openGraph: {
     title: "The Best Pilates Studios in Paris",
     description: "Our curated guide to the best Pilates studios in Paris — five verified picks with booking tips.",
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in Paris",
     description: "Our curated guide to the best Pilates studios in Paris — five verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/paris",
   },
 };
 

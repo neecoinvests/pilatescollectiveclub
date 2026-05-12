@@ -20,11 +20,62 @@ export const metadata: Metadata = {
     description: "How elite sports professionals use Pilates to build functional strength and prevent injury.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
+  },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/pilates-for-athletes/#article",
+      "headline": "Pilates for Athletes",
+      "description": "How professional athletes use Pilates for injury prevention and performance enhancement.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
+      "articleSection": "Performance",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Pilates for Athletes", "item": "https://pilatescollectiveclub.com/blog/pilates-for-athletes" },
+      ],
+    },
+  ],
+};
 export default function PilatesForAthletesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

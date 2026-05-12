@@ -20,11 +20,62 @@ export const metadata: Metadata = {
     description: "From Provence to Puglia — the European Pilates retreats worth planning your year around.",
     images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
+  },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe/#article",
+      "headline": "Best Pilates Retreats in Europe (2026)",
+      "description": "Immersive studio retreats across Switzerland, France, Italy, and Portugal for serious practitioners.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
+      "articleSection": "Travel",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Best Pilates Retreats in Europe (2026)", "item": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe" },
+      ],
+    },
+  ],
+};
 export default function BestPilatesRetreatsEuropePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

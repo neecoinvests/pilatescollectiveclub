@@ -30,7 +30,7 @@ export default function CityCard({ city, country, href, studioCount }: CityCardP
         {imageUrl ? (
           <Image
             src={imageUrl}
-            alt={city}
+            alt={`Best Pilates studios in ${city}, ${country}`}
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-105"
           />

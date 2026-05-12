@@ -10,6 +10,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Los Angeles | Pilates Collective Club",
   description: "Our curated guide to LA's finest Pilates studios — from Brentwood to Silver Lake, the five studios leading the city's world-class wellness scene.",
+  keywords: ["pilates studios los angeles", "reformer pilates la", "best pilates los angeles", "pilates classes la", "pilates beverly hills"],
   openGraph: {
     title: "The Best Pilates Studios in Los Angeles",
     description: "Our curated guide to LA's finest Pilates studios — five verified picks from Santa Monica to West Hollywood.",
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in Los Angeles",
     description: "Our curated guide to LA's finest Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/los-angeles",
   },
 };
 

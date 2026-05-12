@@ -20,11 +20,62 @@ export const metadata: Metadata = {
     description: "A clear, honest comparison of Pilates and yoga — what each practice develops and how to choose between them.",
     images: ["https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
+  },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga/#article",
+      "headline": "Pilates vs Yoga: Which Is Right for You?",
+      "description": "An honest comparison of two movement disciplines that are often confused but serve different goals.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
+      "articleSection": "Method",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Pilates vs Yoga: Which Is Right for You?", "item": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga" },
+      ],
+    },
+  ],
+};
 export default function PilatesVsYogaPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

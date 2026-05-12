@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     description: "Practical strategies for making Pilates a lasting habit — even with a demanding schedule.",
     images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
+  },
 };
 
 const RELATED = [
@@ -43,9 +46,57 @@ const RELATED = [
   },
 ];
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice/#article",
+      "headline": "How to Build a Consistent Pilates Practice",
+      "description": "The habits and routines that separate practitioners who see results from those who plateau.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
+      "articleSection": "Guide",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "How to Build a Consistent Pilates Practice", "item": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice" },
+      ],
+    },
+  ],
+};
 export default function ConsistentPracticePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

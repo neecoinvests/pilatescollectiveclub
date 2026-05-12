@@ -20,11 +20,62 @@ export const metadata: Metadata = {
     description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid.",
     images: ["https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy",
+  },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy/#article",
+      "headline": "Pilates and Pregnancy",
+      "description": "Safe, effective Pilates throughout pregnancy — trimester by trimester.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy",
+      "articleSection": "Health",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Pilates and Pregnancy", "item": "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy" },
+      ],
+    },
+  ],
+};
 export default function PilatesAndPregnancyPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

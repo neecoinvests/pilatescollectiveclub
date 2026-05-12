@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     description: "The best Pilates balls for home practice — mini and stability balls tested and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-pilates-ball",
+  },
 };
 
 const PRODUCTS = [

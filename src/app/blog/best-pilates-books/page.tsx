@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     description: "The best Pilates books for every level — reviewed and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-pilates-books",
+  },
 };
 
 const BOOKS = [

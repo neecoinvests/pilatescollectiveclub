@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     description: "Exactly what to wear to Pilates — the best leggings, tops, and layers reviewed.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
+  },
 };
 
 const PRODUCTS = [

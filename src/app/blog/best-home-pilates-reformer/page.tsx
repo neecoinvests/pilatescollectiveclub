@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     description: "The best home Pilates reformers tested across every price point.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
+  },
 };
 
 const PRODUCTS = [

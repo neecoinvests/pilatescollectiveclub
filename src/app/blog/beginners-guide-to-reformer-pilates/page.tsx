@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     description: "Everything you need to know before your first reformer Pilates class.",
     images: ["https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates",
+  },
 };
 
 const RELATED = [
@@ -43,9 +46,57 @@ const RELATED = [
   },
 ];
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates/#article",
+      "headline": "The Beginner's Guide to Reformer Pilates",
+      "description": "Everything you need to know before your first reformer Pilates class: what to expect, how to choose a studio, what to wear, and how to progress.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates",
+      "articleSection": "Beginners",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "The Beginner's Guide to Reformer Pilates", "item": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates" },
+      ],
+    },
+  ],
+};
 export default function BeginnerGuideReformerPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

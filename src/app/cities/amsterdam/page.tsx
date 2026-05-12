@@ -10,6 +10,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Amsterdam | Pilates Collective Club",
   description: "Our curated guide to Amsterdam's best Pilates studios — from Jordaan to De Pijp, the five studios leading the city's growing wellness scene.",
+  keywords: ["pilates amsterdam", "reformer pilates amsterdam", "best pilates amsterdam", "pilates studios amsterdam", "pilates jordaan"],
   openGraph: {
     title: "The Best Pilates Studios in Amsterdam",
     description: "Our curated guide to Amsterdam's best Pilates studios — five verified picks from Jordaan to De Pijp.",
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in Amsterdam",
     description: "Our curated guide to Amsterdam's best Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/amsterdam",
   },
 };
 

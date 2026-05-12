@@ -5,20 +5,35 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog — Pilates Collective Club",
-  description: "Guides, equipment reviews, and studio advice for every stage of your Pilates practice.",
+  title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
+  description: "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips. Everything from choosing a reformer to classical vs contemporary Pilates.",
+  keywords: [
+    "pilates blog",
+    "pilates equipment reviews",
+    "pilates for beginners",
+    "reformer pilates guide",
+    "pilates vs yoga",
+    "classical pilates",
+    "best pilates mat",
+    "pilates grip socks",
+    "pilates instructor advice",
+    "pilates method explained",
+  ],
   openGraph: {
-    title: "Blog — Pilates Collective Club",
-    description: "Guides, equipment reviews, and studio advice for every stage of your Pilates practice.",
+    title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
+    description: "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",
     type: "website",
     url: "https://pilatescollectiveclub.com/blog",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club Blog" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club Journal" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog — Pilates Collective Club",
-    description: "Guides, equipment reviews, and studio advice for every stage of your Pilates practice.",
+    title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
+    description: "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog",
   },
 };
 

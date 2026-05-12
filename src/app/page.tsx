@@ -9,7 +9,22 @@ import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates Collective Club — Find Your Studio. Know Your Method.",
-  description: "Curated city guides, expert studio recommendations, and in-depth editorial for Pilates lovers worldwide.",
+  description: "Curated city guides and expert studio recommendations for Pilates practitioners worldwide. Find the best reformer studios in London, New York, Paris, Zurich and more.",
+  keywords: [
+    "best pilates studios",
+    "reformer pilates studios",
+    "pilates city guides",
+    "pilates london",
+    "pilates new york",
+    "pilates paris",
+    "pilates zurich",
+    "pilates equipment guide",
+    "find pilates studio",
+    "pilates collective club",
+  ],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com",
+  },
 };
 
 const CITIES = [

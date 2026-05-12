@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "The Best Pilates Studios in London | Pilates Collective Club",
   description:
     "Our curated guide to London's finest Pilates studios. From boutique reformer classes in Chelsea to community studios in Shoreditch — everything you need before booking.",
+  keywords: ["pilates studios london", "reformer pilates london", "best pilates london", "pilates classes london", "london pilates guide"],
   openGraph: {
     title: "The Best Pilates Studios in London",
     description: "Our curated guide to London's finest Pilates studios — five verified picks with booking tips.",
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in London",
     description: "Our curated guide to London's finest Pilates studios — five verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/london",
   },
 };
 

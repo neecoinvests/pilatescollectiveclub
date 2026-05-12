@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     description: "The original method vs modern interpretations — how to choose the right Pilates style for your goals.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
+  },
 };
 
 const RELATED = [
@@ -43,9 +46,57 @@ const RELATED = [
   },
 ];
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates/#article",
+      "headline": "Classical vs Contemporary Pilates",
+      "description": "The split between the original Contrology method and modern functional interpretations.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
+      "articleSection": "Method",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Classical vs Contemporary Pilates", "item": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates" },
+      ],
+    },
+  ],
+};
 export default function ClassicalVsContemporaryPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

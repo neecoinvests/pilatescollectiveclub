@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     description: "The best grip socks for Pilates — honest reviews and our top pick.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
+  },
 };
 
 const PRODUCTS = [

@@ -10,6 +10,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Barcelona | Pilates Collective Club",
   description: "Our curated guide to Barcelona's best Pilates studios — from Eixample to Gràcia, the five studios leading the city's vibrant wellness scene.",
+  keywords: ["pilates barcelona", "reformer pilates barcelona", "best pilates barcelona", "pilates studios barcelona", "pilates eixample"],
   openGraph: {
     title: "The Best Pilates Studios in Barcelona",
     description: "Our curated guide to Barcelona's best Pilates studios — five verified picks from Eixample to Poblenou.",
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in Barcelona",
     description: "Our curated guide to Barcelona's best Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/barcelona",
   },
 };
 

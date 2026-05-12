@@ -10,6 +10,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in Berlin | Pilates Collective Club",
   description: "Our curated guide to Berlin's best Pilates studios — from Mitte to Prenzlauer Berg, the five studios leading the city's thriving wellness scene.",
+  keywords: ["pilates berlin", "reformer pilates berlin", "best pilates berlin", "pilates studios berlin", "pilates mitte"],
   openGraph: {
     title: "The Best Pilates Studios in Berlin",
     description: "Our curated guide to Berlin's best Pilates studios — five verified picks from Mitte to Prenzlauer Berg.",
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
     title: "The Best Pilates Studios in Berlin",
     description: "Our curated guide to Berlin's best Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1200&q=80"],
+  },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/berlin",
   },
 };
 
