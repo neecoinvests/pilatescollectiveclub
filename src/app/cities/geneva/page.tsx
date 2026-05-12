@@ -227,7 +227,7 @@ export default function GenevaPage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1400&q=80"
+                src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"
                 alt="Geneva lake view"
                 fill
                 className="object-cover"

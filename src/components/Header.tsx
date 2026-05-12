@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const NAV = [
@@ -23,19 +24,15 @@ export default function Header() {
       }}
     >
       <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
-        <Link
-          href="/"
-          style={{
-            fontFamily: "var(--font-sans)",
-            fontSize: "11px",
-            fontWeight: 500,
-            letterSpacing: "0.22em",
-            textTransform: "uppercase",
-            color: "#0a0a0a",
-            textDecoration: "none",
-          }}
-        >
-          Pilates Collective Club
+        <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
+          <Image
+            src="/pictures/rhythmic_breath_logo.png"
+            alt="Pilates Collective Club"
+            width={160}
+            height={52}
+            style={{ objectFit: "contain", objectPosition: "left" }}
+            priority
+          />
         </Link>
 
         <nav className="hidden md:flex items-center gap-10">

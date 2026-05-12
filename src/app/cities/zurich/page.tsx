@@ -259,7 +259,7 @@ export default function ZurichPage() {
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1400&q=80"
+                src="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"
                 alt="Zurich city view"
                 fill
                 className="object-cover"

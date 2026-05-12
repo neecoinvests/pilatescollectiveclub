@@ -33,7 +33,7 @@ const FEATURED = {
   category: "City Guide",
   readTime: "8 min read",
   date: "May 2026",
-  imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=85",
+  imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg",
 };
 
 const GUIDES = [
@@ -53,21 +53,21 @@ const PRODUCTS = [
     description: "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability.",
     price: "From $52",
     affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1518310952931-b1de897abd40?w=800&q=80",
+    imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
   },
   {
     name: "Pilates Grip Socks",
     description: "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping.",
     price: "From $16",
     affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+    imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
   },
   {
     name: "Resistance Ring (Magic Circle)",
     description: "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store anywhere.",
     price: "From $24",
     affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
   },
 ];
 
