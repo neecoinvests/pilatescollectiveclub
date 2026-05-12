@@ -177,6 +177,46 @@ const posts: Post[] = [
     readTime: "12 min",
     imageUrl: "/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg",
   },
+  {
+    title: "Best Pilates Leggings (2026): Tested & Ranked",
+    excerpt: "From Lululemon Align to CRZ YOGA — the leggings that genuinely serve the method, tested for opacity, waistband stability, and reformer performance.",
+    href: "/blog/best-pilates-leggings",
+    category: "Equipment",
+    readTime: "9 min",
+    imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
+  },
+  {
+    title: "Pilates Reformer vs Mat: Key Differences Explained",
+    excerpt: "What's actually different between reformer and mat Pilates — which is harder, what you get from each, and how serious practitioners approach both.",
+    href: "/blog/pilates-reformer-vs-mat",
+    category: "Method",
+    readTime: "10 min",
+    imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
+  },
+  {
+    title: "Best Pilates Resistance Bands (2026)",
+    excerpt: "Long bands, loop bands, and fabric options — the resistance bands that actually perform in a serious Pilates context.",
+    href: "/blog/best-pilates-resistance-bands",
+    category: "Equipment",
+    readTime: "8 min",
+    imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
+  },
+  {
+    title: "Best Pilates Starter Kit (2026): What to Buy First",
+    excerpt: "Mat, grip socks, resistance bands, Pilates ring — exactly what to buy, in what order, when starting your Pilates practice.",
+    href: "/blog/best-pilates-starter-kit",
+    category: "Beginners",
+    readTime: "9 min",
+    imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
+  },
+  {
+    title: "Best Pilates Reformer Accessories (2026)",
+    excerpt: "Sticky pads, jump boards, long box, leather straps — the five accessories that most meaningfully upgrade your reformer practice.",
+    href: "/blog/best-pilates-reformer-accessories",
+    category: "Equipment",
+    readTime: "9 min",
+    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
+  },
 ];
 
 const featured = posts.find((p) => p.featured)!;

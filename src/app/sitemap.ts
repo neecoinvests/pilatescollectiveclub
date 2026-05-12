@@ -35,6 +35,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-pilates-books",
     "best-pilates-ball",
     "what-to-wear-to-pilates",
+    "best-pilates-leggings",
+    "pilates-reformer-vs-mat",
+    "best-pilates-resistance-bands",
+    "best-pilates-starter-kit",
+    "best-pilates-reformer-accessories",
   ];
 
   return [
