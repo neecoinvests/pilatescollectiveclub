@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import CityCard from "@/components/CityCard";
 import ArticleCard from "@/components/ArticleCard";
 import ProductCard from "@/components/ProductCard";
-import NewsletterInline from "@/components/NewsletterInline";
 
 export const metadata: Metadata = {
   title: "Pilates Collective Club — The Reference for Serious Practitioners",
@@ -103,6 +102,39 @@ export default function Home() {
               priority
             />
           </div>
+          {/* Floating decorative SVG */}
+          <div style={{ position: "absolute", right: 0, top: 0, bottom: 0, width: "52%", zIndex: 0, pointerEvents: "none", display: "flex", alignItems: "center" }} aria-hidden="true">
+            <svg width="560" height="620" viewBox="0 0 560 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+              {/* Large circle — magic circle reference */}
+              <circle cx="400" cy="310" r="210" stroke="#b87355" strokeWidth="1.2" opacity="0.11" fill="none"/>
+              <circle cx="400" cy="310" r="175" stroke="#b87355" strokeWidth="0.6" opacity="0.07" fill="none"/>
+              {/* Main flowing ribbon — echoes the logo wave mark */}
+              <path d="M 540 -10 C 460 80 300 100 350 230 C 400 360 560 380 460 510 C 400 590 230 610 280 700" stroke="#b87355" strokeWidth="2.5" strokeLinecap="round" opacity="0.36" fill="none"/>
+              {/* Secondary ribbon */}
+              <path d="M 570 20 C 490 110 330 130 380 260 C 430 390 590 410 490 540 C 430 620 260 640 310 730" stroke="#b87355" strokeWidth="1.2" strokeLinecap="round" opacity="0.2" fill="none"/>
+              {/* Tertiary ribbon — thin */}
+              <path d="M 510 -30 C 430 60 270 80 320 210 C 370 340 530 360 430 490 C 370 570 200 590 250 680" stroke="#b87355" strokeWidth="0.6" strokeLinecap="round" opacity="0.12" fill="none"/>
+              {/* Reformer spring lines */}
+              <line x1="155" y1="340" x2="205" y2="340" stroke="#b87355" strokeWidth="1.2" strokeLinecap="round" opacity="0.22"/>
+              <line x1="148" y1="354" x2="198" y2="354" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.16"/>
+              <line x1="155" y1="368" x2="205" y2="368" stroke="#b87355" strokeWidth="0.8" strokeLinecap="round" opacity="0.11"/>
+              {/* Dots */}
+              <circle cx="460" cy="100" r="4" fill="#b87355" opacity="0.28"/>
+              <circle cx="255" cy="215" r="2.5" fill="#b87355" opacity="0.22"/>
+              <circle cx="510" cy="400" r="3" fill="#b87355" opacity="0.26"/>
+              <circle cx="205" cy="475" r="2" fill="#b87355" opacity="0.18"/>
+              <circle cx="430" cy="540" r="4.5" fill="#b87355" opacity="0.2"/>
+              <circle cx="310" cy="140" r="2" fill="#b87355" opacity="0.19"/>
+              {/* Cross sparkles */}
+              <line x1="170" y1="158" x2="170" y2="172" stroke="#b87355" strokeWidth="1.5" strokeLinecap="round" opacity="0.26"/>
+              <line x1="163" y1="165" x2="177" y2="165" stroke="#b87355" strokeWidth="1.5" strokeLinecap="round" opacity="0.26"/>
+              <line x1="520" y1="480" x2="520" y2="491" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.2"/>
+              <line x1="514" y1="485" x2="526" y2="485" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.2"/>
+              <line x1="270" y1="570" x2="270" y2="579" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.17"/>
+              <line x1="265" y1="574" x2="275" y2="574" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.17"/>
+            </svg>
+          </div>
+
           <div style={{ maxWidth: "1200px", margin: "0 auto", position: "relative", zIndex: 1 }}>
             <p style={{ ...label, marginBottom: "32px" }}>The Pilates Collective Club</p>
             <h1 style={{
@@ -325,23 +357,6 @@ export default function Home() {
                 <ProductCard key={p.name} {...p} />
               ))}
             </div>
-          </div>
-        </section>
-
-        {/* Newsletter */}
-        <section style={{ padding: "100px 40px", backgroundColor: "#0a0a0a", textAlign: "center" }}>
-          <div style={{ maxWidth: "480px", margin: "0 auto" }}>
-            <p style={{ ...label, color: "rgba(255,255,255,0.3)", marginBottom: "20px" }}>Newsletter</p>
-            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#ffffff", marginBottom: "16px" }}>
-              Stay in the loop.
-            </h2>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "rgba(255,255,255,0.45)", lineHeight: 1.7, marginBottom: "40px" }}>
-              Weekly studio guides, class tips, and equipment picks — every Sunday.
-            </p>
-            <NewsletterInline />
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "rgba(255,255,255,0.2)", marginTop: "16px" }}>
-              No spam. Unsubscribe anytime.
-            </p>
           </div>
         </section>
 

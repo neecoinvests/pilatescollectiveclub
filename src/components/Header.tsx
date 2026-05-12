@@ -25,14 +25,15 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
         <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
-          <Image
-            src="/pictures/rhythmic_breath_logo.png"
-            alt="Pilates Collective Club"
-            width={160}
-            height={52}
-            style={{ objectFit: "contain", objectPosition: "left" }}
-            priority
-          />
+          <div style={{ position: "relative", width: 154, height: 50, overflow: "hidden", flexShrink: 0 }}>
+            <Image
+              src="/pictures/rhythmic_breath_logo.png"
+              alt="Pilates Collective Club"
+              fill
+              style={{ objectFit: "cover", objectPosition: "left 46%" }}
+              priority
+            />
+          </div>
         </Link>
 
         <nav className="hidden md:flex items-center gap-10">
