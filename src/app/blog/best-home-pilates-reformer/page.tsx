@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
-    images: [{ url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80", width: 1200, height: 630, alt: "Best Home Pilates Reformer — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Home Pilates Reformer — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Home Pilates Reformer (2026)",
     description: "The best home Pilates reformers tested across every price point.",
-    images: ["https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
 };
 
@@ -102,7 +102,7 @@ export default function BestHomeReformerPage() {
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1400&q=80"
+          imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"
           imageAlt="Home Pilates reformer machine"
           category="Equipment Guide"
           subcategory="Reformers"
@@ -236,17 +236,17 @@ export default function BestHomeReformerPage() {
               <div>
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Everything beyond the reformer — mats, bands, rings, and ankle weights." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1609899464726-209daa3fde40?w=800&q=80" />
-                  <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1518310952931-b1de897abd40?w=800&q=80" />
+                  <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Everything beyond the reformer — mats, bands, rings, and ankle weights." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                  <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
                 </div>
               </div>
             </section>
           </div>
 
           <BlogSidebar related={[
-            { title: "Best Pilates Equipment for Home Practice", href: "/blog/best-pilates-equipment-for-home-practice", readTime: "10 min read", imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&q=80" },
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "Best Pilates Grip Socks", href: "/blog/best-pilates-grip-socks", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?w=400&q=80" },
+            { title: "Best Pilates Equipment for Home Practice", href: "/blog/best-pilates-equipment-for-home-practice", readTime: "10 min read", imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Best Pilates Grip Socks", href: "/blog/best-pilates-grip-socks", readTime: "7 min read", imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg" },
           ]} />
         </div>
       </main>

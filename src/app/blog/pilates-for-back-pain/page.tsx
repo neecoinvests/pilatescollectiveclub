@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     description: "A clear-eyed look at the evidence for Pilates as a treatment for back pain — what it can and can't do, which exercises help most, and how to find the right instructor.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
-    images: [{ url: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80", width: 1200, height: 630, alt: "Pilates for back pain — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for back pain — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Back Pain: What the Research Shows",
     description: "The evidence for Pilates as a treatment for back pain — what it can and can't do.",
-    images: ["https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"],
   },
 };
 
@@ -49,7 +49,7 @@ export default function PilatesForBackPainPage() {
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1400&q=80"
+          imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"
           imageAlt="Pilates for back pain"
           category="Wellness"
           title={<>Pilates for Back Pain:<br /><span style={{ color: "#8b4a31" }}>What the Research Shows</span></>}
@@ -148,9 +148,9 @@ export default function PilatesForBackPainPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" },
-            { title: "Pilates for Athletes", href: "/blog/pilates-for-athletes", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
+            { title: "Pilates for Athletes", href: "/blog/pilates-for-athletes", readTime: "7 min read", imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" },
           ]} />
         </div>
       </main>

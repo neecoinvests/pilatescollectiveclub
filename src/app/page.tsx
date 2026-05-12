@@ -46,24 +46,119 @@ const GUIDES = [
   { title: "Pilates for Athletes", excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.", href: "/blog/pilates-for-athletes", category: "Performance", readTime: "7 min read", date: "May 2026" },
 ];
 
-const PRODUCTS = [
+const PRODUCT_CATEGORIES = [
   {
-    name: "Premium Pilates Mat",
-    description: "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability.",
-    price: "From $52",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    label: "Studio Essentials",
+    items: [
+      {
+        name: "Premium Pilates Mat",
+        description: "6mm closed-cell foam with non-slip texture on both sides. The reliable foundation of any home or travel practice.",
+        price: "From $52",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+        imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
+      },
+      {
+        name: "Pilates Grip Socks",
+        description: "Full-toe coverage, seamless construction. Non-negotiable for reformer work — keeps you connected to the foot bar.",
+        price: "From $16",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+        imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
+      },
+      {
+        name: "Magic Circle",
+        description: "The original Pilates prop. Firm but flexible resistance, dual foam handles. Essential for inner thigh and arm work.",
+        price: "From $24",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+        imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
+      },
+      {
+        name: "Foam Roller",
+        description: "High-density EVA foam. Doubles as a myofascial release tool and balance prop — one of the most versatile pieces in the kit.",
+        price: "From $32",
+        affiliateUrl: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+        imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
+      },
+    ],
   },
   {
-    name: "Pilates Grip Socks",
-    description: "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping.",
-    price: "From $16",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    label: "Props & Resistance",
+    items: [
+      {
+        name: "Mini Stability Ball",
+        description: "The 9-inch ball transforms mat work entirely. Adds tactile feedback, precise cueing, and progressive resistance to dozens of exercises.",
+        price: "From $18",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+mini+stability+ball+9+inch&tag=pilatescollective-20",
+        imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg",
+      },
+      {
+        name: "Resistance Bands Set",
+        description: "Fabric-wrapped loops in three resistance levels. Versatile, portable, and far more useful than basic latex therabands.",
+        price: "From $22",
+        affiliateUrl: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+        imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
+      },
+      {
+        name: "Pilates Ankle Weights",
+        description: "Neoprene-wrapped, 1–3 lb per leg. Adds meaningful load to the leg circle series, standing footwork, and arabesque variations.",
+        price: "From $28",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+ankle+weights+1+2+3+lb&tag=pilatescollective-20",
+        imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg",
+      },
+      {
+        name: "Stability Ball (55cm)",
+        description: "For practitioners 5'1\" to 5'7\". Ideal for spinal rolling, seated balance work, and open-chain leg exercises.",
+        price: "From $28",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+exercise+stability+ball+55cm&tag=pilatescollective-20",
+        imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
+      },
+      {
+        name: "Theraband Flexbar",
+        description: "For grip strength and wrist rehabilitation. Increasingly used in Pilates for hand and forearm conditioning in reformer prep work.",
+        price: "From $20",
+        affiliateUrl: "https://www.amazon.com/s?k=theraband+flexbar+resistance+bar&tag=pilatescollective-20",
+        imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
+      },
+      {
+        name: "Pilates Wedge",
+        description: "Slanted foam support for wrist protection during planks and push-ups. Reduces extension load — essential for practitioners with wrist sensitivity.",
+        price: "From $22",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+yoga+wedge+wrist+support&tag=pilatescollective-20",
+        imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
+      },
+    ],
   },
   {
-    name: "Resistance Ring (Magic Circle)",
-    description: "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store anywhere.",
-    price: "From $24",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    label: "Home Studio",
+    items: [
+      {
+        name: "Entry-Level Reformer",
+        description: "The AeroPilates 435 delivers 75% of a studio reformer's exercise range at home. The most recommended entry point in this price bracket.",
+        price: "From $399",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+home+aeropilates&tag=pilatescollective-20",
+        imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
+      },
+      {
+        name: "Pilates Barrel",
+        description: "The ladder barrel is the gateway to spinal articulation work that can't be replicated on a mat. A considered home studio investment.",
+        price: "From $185",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+ladder+barrel&tag=pilatescollective-20",
+        imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
+      },
+      {
+        name: "Spine Corrector",
+        description: "Brooke Siler's preferred prop for teaching spinal extension and opening the chest. More versatile than it appears and compact enough for any space.",
+        price: "From $95",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+spine+corrector&tag=pilatescollective-20",
+        imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg",
+      },
+      {
+        name: "Wunda Chair",
+        description: "Joseph Pilates' most underrated invention. Challenges every plane of movement in a compact footprint — ideal for a serious home practice.",
+        price: "From $320",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+wunda+chair&tag=pilatescollective-20",
+        imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+      },
+    ],
   },
 ];
 
@@ -340,7 +435,7 @@ export default function Home() {
         {/* Equipment */}
         <section id="equipment" style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "52px" }}>
+            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "64px" }}>
               <div>
                 <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
                 <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
@@ -352,11 +447,16 @@ export default function Home() {
               </p>
             </div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "2px" }} className="grid-cols-1 md:grid-cols-3">
-              {PRODUCTS.map((p) => (
-                <ProductCard key={p.name} {...p} />
-              ))}
-            </div>
+            {PRODUCT_CATEGORIES.map((cat, ci) => (
+              <div key={cat.label} style={{ marginBottom: ci < PRODUCT_CATEGORIES.length - 1 ? "72px" : 0 }}>
+                <p style={{ ...label, marginBottom: "28px", color: "#0a0a0a" }}>{cat.label}</p>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "24px" }} className="grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                  {cat.items.map((p) => (
+                    <ProductCard key={p.name} {...p} />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 

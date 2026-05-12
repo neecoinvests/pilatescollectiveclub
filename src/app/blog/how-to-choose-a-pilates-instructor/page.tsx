@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     description: "What credentials, experience, and red flags to look for when selecting a Pilates teacher — a practical guide for new and experienced practitioners alike.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
-    images: [{ url: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80", width: 1200, height: 630, alt: "Choosing a Pilates instructor — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Choosing a Pilates instructor — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "How to Choose the Right Pilates Instructor",
     description: "Credentials, experience, and red flags to look for when selecting a Pilates teacher.",
-    images: ["https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
 };
 
@@ -28,7 +28,7 @@ export default function HowToChoosePilatesInstructorPage() {
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1400&q=80"
+          imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"
           imageAlt="Pilates instructor teaching a class"
           category="Guide"
           subcategory="6 min read"
@@ -151,9 +151,9 @@ export default function HowToChoosePilatesInstructorPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&q=80" },
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
+            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
           ]} />
         </div>
       </main>

@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
-    images: [{ url: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=80", width: 1200, height: 630, alt: "Best Pilates Retreats in Europe — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Retreats in Europe — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Retreats in Europe",
     description: "From Provence to Puglia — the European Pilates retreats worth planning your year around.",
-    images: ["https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
 };
 
@@ -28,7 +28,7 @@ export default function BestPilatesRetreatsEuropePage() {
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1400&q=80"
+          imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"
           imageAlt="European wellness retreat landscape"
           category="Travel"
           subcategory="8 min read"
@@ -112,9 +112,9 @@ export default function BestPilatesRetreatsEuropePage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "Best Pilates Retreats in Europe", href: "/blog/best-pilates-retreats-europe", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=400&q=80" },
-            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" },
-            { title: "Pilates and Pregnancy", href: "/blog/pilates-and-pregnancy", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=400&q=80" },
+            { title: "Best Pilates Retreats in Europe", href: "/blog/best-pilates-retreats-europe", readTime: "8 min read", imageUrl: "/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" },
+            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
+            { title: "Pilates and Pregnancy", href: "/blog/pilates-and-pregnancy", readTime: "8 min read", imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" },
           ]} />
         </div>
       </main>

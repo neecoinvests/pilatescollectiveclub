@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist instructor.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy",
-    images: [{ url: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=1200&q=80", width: 1200, height: 630, alt: "Pilates and pregnancy guide — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg", width: 1200, height: 630, alt: "Pilates and pregnancy guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates and Pregnancy: A Complete Guide",
     description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid.",
-    images: ["https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"],
   },
 };
 
@@ -28,7 +28,7 @@ export default function PilatesAndPregnancyPage() {
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=1400&q=80"
+          imageUrl="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"
           imageAlt="Pregnancy Pilates practice"
           category="Health"
           subcategory="8 min read"
@@ -112,9 +112,9 @@ export default function PilatesAndPregnancyPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" },
-            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
+            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
+            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
           ]} />
         </div>
       </main>

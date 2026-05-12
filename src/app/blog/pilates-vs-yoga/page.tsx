@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     description: "A clear, honest comparison of Pilates and yoga — what each practice develops, who each suits, and how to choose between them.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
-    images: [{ url: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1200&q=80", width: 1200, height: 630, alt: "Pilates vs Yoga — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg", width: 1200, height: 630, alt: "Pilates vs Yoga — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates vs Yoga: Key Differences and How to Choose",
     description: "A clear, honest comparison of Pilates and yoga — what each practice develops and how to choose between them.",
-    images: ["https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"],
   },
 };
 
@@ -28,7 +28,7 @@ export default function PilatesVsYogaPage() {
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1400&q=80"
+          imageUrl="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"
           imageAlt="Pilates and yoga practice comparison"
           category="Method"
           subcategory="7 min read"
@@ -105,9 +105,9 @@ export default function PilatesVsYogaPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&q=80" },
-            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
+            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
           ]} />
         </div>
       </main>

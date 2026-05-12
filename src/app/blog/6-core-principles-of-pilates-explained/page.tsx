@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method and how to apply them in practice.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
-    images: [{ url: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1200&q=80", width: 1200, height: 630, alt: "Pilates core principles — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Pilates core principles — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The 6 Core Principles of Pilates, Explained",
     description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method.",
-    images: ["https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
 };
 
@@ -82,7 +82,7 @@ export default function SixPrinciplesPage() {
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1400&q=80"
+          imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"
           imageAlt="Pilates core principles"
           category="Method"
           title={<>The 6 Core Principles of Pilates,<br /><span style={{ color: "#8b4a31" }}>Explained</span></>}
@@ -140,9 +140,9 @@ export default function SixPrinciplesPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&q=80" },
-            { title: "How to Build a Consistent Pilates Practice", href: "/blog/how-to-build-a-consistent-pilates-practice", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
+            { title: "How to Build a Consistent Pilates Practice", href: "/blog/how-to-build-a-consistent-pilates-practice", readTime: "7 min read", imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" },
           ]} />
         </div>
       </main>
