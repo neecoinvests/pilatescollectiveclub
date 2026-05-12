@@ -9,10 +9,10 @@ interface CityCardProps {
 }
 
 const cityImages: Record<string, string> = {
-  Zurich: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80",
+  Zurich: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=800&q=80",
   London: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
   Paris: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=800&q=80",
-  Geneva: "https://images.unsplash.com/photo-1560179406-1add29e07a68?w=800&q=80",
+  Geneva: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&q=80",
   Lausanne: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=80",
   "New York": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80",
   "Los Angeles": "https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da?w=800&q=80",
