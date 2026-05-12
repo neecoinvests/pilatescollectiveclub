@@ -1,3 +1,5 @@
+"use client";
+
 interface ProductCardProps {
   name: string;
   description: string;

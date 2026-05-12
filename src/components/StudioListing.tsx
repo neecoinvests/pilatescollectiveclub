@@ -1,3 +1,5 @@
+"use client";
+
 interface StudioListingProps {
   number: string;
   name: string;

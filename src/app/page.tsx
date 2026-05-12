@@ -5,6 +5,7 @@ import SearchHero from "@/components/SearchHero";
 import CityCard from "@/components/CityCard";
 import ArticleCard from "@/components/ArticleCard";
 import ProductCard from "@/components/ProductCard";
+import NewsletterInline from "@/components/NewsletterInline";
 
 export const metadata: Metadata = {
   title: "Pilates Collective Club — Find Your Perfect Studio",
@@ -205,24 +206,7 @@ export default function Home() {
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "rgba(255,255,255,0.45)", lineHeight: 1.7, marginBottom: "40px" }}>
               Weekly studio guides, class tips, and equipment picks — every Sunday.
             </p>
-            <form onSubmit={(e) => e.preventDefault()} style={{ display: "flex" }}>
-              <input
-                type="email"
-                placeholder="Your email address"
-                style={{
-                  flex: 1, fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300,
-                  backgroundColor: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.12)",
-                  borderRight: "none", color: "#ffffff", padding: "14px 18px", outline: "none", minWidth: 0,
-                }}
-              />
-              <button type="submit" style={{
-                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
-                letterSpacing: "0.18em", textTransform: "uppercase", backgroundColor: "#c5a882",
-                color: "#0a0a0a", border: "none", padding: "14px 22px", cursor: "pointer", whiteSpace: "nowrap",
-              }}>
-                Subscribe
-              </button>
-            </form>
+            <NewsletterInline />
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "rgba(255,255,255,0.2)", marginTop: "16px" }}>
               No spam. Unsubscribe anytime.
             </p>

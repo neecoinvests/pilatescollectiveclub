@@ -32,10 +32,7 @@ export default function CityCard({ city, country, href, studioCount }: CityCardP
             src={imageUrl}
             alt={city}
             fill
-            className="object-cover"
-            style={{ transition: "transform 0.7s cubic-bezier(0.25,0.46,0.45,0.94)", transform: "scale(1)" }}
-            onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.06)")}
-            onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
           />
         ) : (
           <div style={{ position: "absolute", inset: 0, backgroundColor: "#ede9e3" }} />
