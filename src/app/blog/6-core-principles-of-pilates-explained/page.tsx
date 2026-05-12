@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
-import CTASection from "@/components/CTASection";
+import BlogHero from "@/components/BlogHero";
+import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "The 6 Core Principles of Pilates, Explained | Pilates Collective Club",
@@ -81,84 +81,70 @@ export default function SixPrinciplesPage() {
     <>
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Method</span>
-            </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              The 6 Core Principles of Pilates,<br />
-              <span style={{ color: "#8b4a31" }}>Explained</span>
-            </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 6 min read</p>
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Most people who discover Pilates do so through its physical results — better posture, stronger core, less back pain. These outcomes are real, but they are symptoms of something deeper. The Pilates method is built on six organising principles that transform a collection of exercises into a coherent system. Understanding them doesn&apos;t just make you a better practitioner — it changes how you move through the world.
-            </p>
-          </div>
-        </section>
+        <BlogHero
+          imageUrl="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1400&q=80"
+          imageAlt="Pilates core principles"
+          category="Method"
+          title={<>The 6 Core Principles of Pilates,<br /><span style={{ color: "#8b4a31" }}>Explained</span></>}
+          date="Updated May 2026"
+          readTime="6 min read"
+        />
 
-        <section className="px-6 mb-16">
-          <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
-              <Image
-                src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1400&q=80"
-                alt="Mindful movement practice"
-                fill className="object-cover" style={{ filter: "brightness(0.88)" }}
-              />
-            </div>
-          </div>
-        </section>
+        {/* Two-column layout */}
+        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 items-start">
+          {/* Main article column */}
+          <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
 
-        <article className="px-6 pb-24">
-          <div className="max-w-3xl mx-auto">
+            <article>
+              <div className="mb-10 rounded-xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
+                <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <strong style={{ color: "#1b1c1c" }}>A note on attribution:</strong> The six principles below — concentration, control, centering, precision, breath, and flow — were codified by Joseph Pilates&apos; students and successors as a framework for teaching the method. Pilates himself wrote about these ideas throughout his work, particularly in his books <em>Your Health</em> (1934) and <em>Return to Life Through Contrology</em> (1945).
+                </p>
+              </div>
 
-            <div className="mb-10 rounded-xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                <strong style={{ color: "#1b1c1c" }}>A note on attribution:</strong> The six principles below — concentration, control, centering, precision, breath, and flow — were codified by Joseph Pilates&apos; students and successors as a framework for teaching the method. Pilates himself wrote about these ideas throughout his work, particularly in his books <em>Your Health</em> (1934) and <em>Return to Life Through Contrology</em> (1945).
-              </p>
-            </div>
-
-            <div className="space-y-10 mb-16">
-              {PRINCIPLES.map((p) => (
-                <div key={p.number} className="flex gap-6 rounded-2xl p-7" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)", boxShadow: "0 1px 6px rgba(0,0,0,0.04)" }}>
-                  <div>
-                    <span className="text-4xl font-light block mb-1 leading-none" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.number}</span>
+              <div className="space-y-10 mb-16">
+                {PRINCIPLES.map((p) => (
+                  <div key={p.number} className="flex gap-6 rounded-2xl p-7" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)", boxShadow: "0 1px 6px rgba(0,0,0,0.04)" }}>
+                    <div>
+                      <span className="text-4xl font-light block mb-1 leading-none" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.number}</span>
+                    </div>
+                    <div>
+                      <h2 className="text-xl font-semibold mb-3" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{p.name}</h2>
+                      <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{p.body}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h2 className="text-xl font-semibold mb-3" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{p.name}</h2>
-                    <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{p.body}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
 
-            <div className="rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
-              <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to use the principles in your practice</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Don&apos;t try to consciously apply all six principles simultaneously in your early practice — that way lies paralysis. Instead, treat them as a hierarchy to work through over time.
-              </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                In your first few months, focus on centering and breath. These are the prerequisites for everything else. Once you can reliably find and maintain your powerhouse, and coordinate breath with movement, concentration and control will begin to emerge naturally.
-              </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Precision and flow are the last to arrive — and when they do, the experience of Pilates changes completely. You&apos;ll stop counting repetitions and start inhabiting them. That&apos;s when the practice becomes genuinely transformative.
-              </p>
-            </div>
+              <div className="rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
+                <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to use the principles in your practice</h2>
+                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  Don&apos;t try to consciously apply all six principles simultaneously in your early practice — that way lies paralysis. Instead, treat them as a hierarchy to work through over time.
+                </p>
+                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  In your first few months, focus on centering and breath. These are the prerequisites for everything else. Once you can reliably find and maintain your powerhouse, and coordinate breath with movement, concentration and control will begin to emerge naturally.
+                </p>
+                <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  Precision and flow are the last to arrive — and when they do, the experience of Pilates changes completely. You&apos;ll stop counting repetitions and start inhabiting them. That&apos;s when the practice becomes genuinely transformative.
+                </p>
+              </div>
+            </article>
 
-          </div>
-        </article>
-
-        <section className="py-16 px-6" style={{ backgroundColor: "#f6f3f2" }}>
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-2xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Continue reading</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">
-              {RELATED.map((a) => (<ArticleCard key={a.href} {...a} />))}
+            {/* Continue reading */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Continue reading</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                {RELATED.map((a) => (<ArticleCard key={a.href} {...a} />))}
+              </div>
             </div>
           </div>
-        </section>
 
-        <CTASection title="Deepen your practice" subtitle="Find studios that teach the method with depth and rigour — browse our city guides." showSearch searchPlaceholder="Ask: best classical Pilates studios…" />
+          <BlogSidebar related={[
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
+            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&q=80" },
+            { title: "How to Build a Consistent Pilates Practice", href: "/blog/how-to-build-a-consistent-pilates-practice", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" },
+          ]} />
+        </div>
       </main>
       <Footer />
     </>

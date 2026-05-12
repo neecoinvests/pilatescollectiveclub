@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     description: "The best Pilates balls for home practice — mini Pilates balls for mat work and stability balls for full-body exercises. Tested, compared, and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-ball",
-    images: [{ url: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&q=80", width: 1200, height: 630, alt: "Best Pilates Ball — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-Z7JbhHlnoak?w=1200&q=80", width: 1200, height: 630, alt: "Best Pilates Ball — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Ball (2026): Mini Ball and Exercise Ball Reviewed",
     description: "The best Pilates balls for home practice — mini and stability balls tested and ranked.",
-    images: ["https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&q=80"],
+    images: ["https://images.unsplash.com/photo-Z7JbhHlnoak?w=1200&q=80"],
   },
 };
 
@@ -46,7 +46,7 @@ const PRODUCTS = [
     description:
       "Gaiam&apos;s 65cm stability ball is the benchmark for mid-sized exercise balls used in Pilates, core training, and active sitting. The anti-burst material, non-slip surface, and consistent sizing make it reliable for balance exercises, back extension work, and the full range of ball-based Pilates exercises. The kit includes a pump, resistance band, and workout guide. At 65cm, it&apos;s appropriate for practitioners between 5&apos;4\" and 5&apos;11\".",
     affiliateUrl: "https://www.amazon.com/s?k=gaiam+total+body+balance+ball+65cm&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-Z7JbhHlnoak?w=800&q=80",
   },
   {
     rank: "03",
@@ -57,7 +57,7 @@ const PRODUCTS = [
     description:
       "The 55cm URBNFit ball is the right choice for practitioners under 5&apos;4\" — it brings the hips to proper height when seated and allows correct spinal alignment during back extension exercises. The material quality is comparable to Gaiam at a lower price point, and the anti-slip surface is particularly good. Inflates easily with a standard pump. The compact size also makes it easier to store in a small home practice space.",
     affiliateUrl: "https://www.amazon.com/s?k=urbnfit+exercise+ball+55cm&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1486218119243-13dde27eb0b7?w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-f4RBYsY2hxA?w=800&q=80",
   },
   {
     rank: "04",
@@ -143,7 +143,7 @@ export default function BestPilatesBallPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1400&q=80" alt="Pilates ball exercise" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="https://images.unsplash.com/photo-Z7JbhHlnoak?w=1400&q=80" alt="Pilates ball exercise" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
