@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Pilates Collective Club",
   },
   description:
-    "Curated city guides, expert studio recommendations, and the reference for serious practitioners worldwide. Discover the best reformer classes, mat studios, and home equipment.",
+    "Curated city guides, expert studio recommendations, and equipment picks for Pilates practitioners worldwide. Discover the best reformer classes, mat studios, and home equipment.",
   keywords: ["pilates", "pilates studios", "reformer pilates", "pilates classes", "pilates equipment", "best pilates studios"],
   robots: {
     index: true,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pilates Collective Club — Find Your Perfect Studio",
     description:
-      "Curated city guides, expert studio recommendations, and the reference for serious practitioners worldwide.",
+      "Curated city guides, expert studio recommendations, and expert guides and picks for Pilates practitioners worldwide.",
     siteName: "Pilates Collective Club",
     type: "website",
     url: BASE_URL,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Collective Club — Find Your Perfect Studio",
-    description: "Curated city guides, expert studio recommendations, and the reference for serious practitioners worldwide.",
+    description: "Curated city guides, expert studio recommendations, and expert guides and picks for Pilates practitioners worldwide.",
     images: ["/og-image.jpg"],
   },
 };

@@ -25,12 +25,12 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
         <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
-          <div style={{ position: "relative", width: 220, height: 74, overflow: "hidden", flexShrink: 0 }}>
+          <div style={{ position: "relative", width: 210, height: 70, flexShrink: 0 }}>
             <Image
-              src="/pictures/rhythmic_breath_logo.png"
+              src="/pictures/pcc-logo.png"
               alt="Pilates Collective Club"
               fill
-              style={{ objectFit: "cover", objectPosition: "left 46%" }}
+              style={{ objectFit: "contain", objectPosition: "left center" }}
               priority
             />
           </div>

@@ -8,7 +8,7 @@ import ArticleCard from "@/components/ArticleCard";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates Collective Club — The Reference for Serious Practitioners",
+  title: "Pilates Collective Club — Find Your Studio. Know Your Method.",
   description: "Curated city guides, expert studio recommendations, and in-depth editorial for Pilates lovers worldwide.",
 };
 
@@ -242,8 +242,8 @@ export default function Home() {
               letterSpacing: "-0.01em",
               marginBottom: "0",
             }}>
-              The reference for<br />
-              <em>serious practitioners.</em>
+              Find your studio.<br />
+              <em>Know your method.</em>
             </h1>
 
             <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "52px 0" }} />
