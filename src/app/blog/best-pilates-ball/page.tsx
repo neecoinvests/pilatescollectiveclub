@@ -35,7 +35,6 @@ const PRODUCTS = [
     description:
       "The Trideer 9-inch mini ball is the most consistently well-reviewed small Pilates ball on the market — and for good reason. The material is thick, burst-resistant PVC with a surface texture that grips lightly without being sticky. At 9 inches inflated it's the ideal size for inner thigh work, spine articulation support, and the spine corrector alternatives that benefit from a firmer, smaller prop. Comes with a hand pump and repair kit. Excellent value.",
     affiliateUrl: "https://www.amazon.com/s?k=trideer+mini+pilates+ball+9+inch&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1556816134-b4aba5ccea4a?w=800&q=80",
   },
   {
     rank: "02",
@@ -46,7 +45,6 @@ const PRODUCTS = [
     description:
       "Gaiam&apos;s 65cm stability ball is the benchmark for mid-sized exercise balls used in Pilates, core training, and active sitting. The anti-burst material, non-slip surface, and consistent sizing make it reliable for balance exercises, back extension work, and the full range of ball-based Pilates exercises. The kit includes a pump, resistance band, and workout guide. At 65cm, it&apos;s appropriate for practitioners between 5&apos;4\" and 5&apos;11\".",
     affiliateUrl: "https://www.amazon.com/s?k=gaiam+total+body+balance+ball+65cm&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=800&q=80",
   },
   {
     rank: "03",
@@ -57,7 +55,6 @@ const PRODUCTS = [
     description:
       "The 55cm URBNFit ball is the right choice for practitioners under 5&apos;4\" — it brings the hips to proper height when seated and allows correct spinal alignment during back extension exercises. The material quality is comparable to Gaiam at a lower price point, and the anti-slip surface is particularly good. Inflates easily with a standard pump. The compact size also makes it easier to store in a small home practice space.",
     affiliateUrl: "https://www.amazon.com/s?k=urbnfit+exercise+ball+55cm&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&q=80",
   },
   {
     rank: "04",
@@ -68,7 +65,6 @@ const PRODUCTS = [
     description:
       "The Live Pro 10-inch soft ball is slightly larger and softer than the Trideer — intentionally so. The semi-deflated feel makes it ideal for exercises where you want the ball to yield slightly under pressure: thoracic support in upper body work, between the knees during bridge variations, and under the sacrum for pelvic mobility exercises. A useful complement if you already have a firmer mini ball and want a different feel for different applications.",
     affiliateUrl: "https://www.amazon.com/s?k=live+pro+mini+soft+pilates+ball&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?w=800&q=80",
   },
   {
     rank: "05",
@@ -79,7 +75,6 @@ const PRODUCTS = [
     description:
       "TheraBand&apos;s Pro Series is the exercise ball of choice in physiotherapy clinics and professional Pilates studios — a step above consumer-grade balls in material quality, anti-burst rating, and sizing precision. The slow-deflate system means that if punctured, the ball loses air gradually rather than explosively, which is a meaningful safety advantage during loaded exercises. Worth the premium if you train with intensity or use the ball for rehabilitation work.",
     affiliateUrl: "https://www.amazon.com/s?k=theraband+exercise+ball+pro+series+65cm&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1604480132736-44c188fe4d20?w=800&q=80",
   },
 ];
 
@@ -193,7 +188,6 @@ export default function BestPilatesBallPage() {
                       description={p.description}
                       price={p.price}
                       affiliateUrl={p.affiliateUrl}
-                      imageUrl={p.imageUrl}
                     />
                   </div>
                 ))}

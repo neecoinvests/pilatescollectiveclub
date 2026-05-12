@@ -23,9 +23,9 @@ export default function Header() {
         borderBottom: "1px solid #ddd8d0",
       }}
     >
-      <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
         <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
-          <div style={{ position: "relative", width: 154, height: 50, overflow: "hidden", flexShrink: 0 }}>
+          <div style={{ position: "relative", width: 220, height: 74, overflow: "hidden", flexShrink: 0 }}>
             <Image
               src="/pictures/rhythmic_breath_logo.png"
               alt="Pilates Collective Club"
