@@ -1,62 +1,15 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SearchHero from "@/components/SearchHero";
 import CityCard from "@/components/CityCard";
 import ArticleCard from "@/components/ArticleCard";
 import ProductCard from "@/components/ProductCard";
-import NewsletterForm from "@/components/NewsletterForm";
 
 export const metadata: Metadata = {
   title: "Pilates Collective Club — Find Your Perfect Studio",
-  description:
-    "Curated city guides, expert studio recommendations, and AI-powered search for Pilates lovers worldwide.",
-  openGraph: {
-    title: "Pilates Collective Club",
-    description: "Find your perfect Pilates studio, class, or retreat.",
-    type: "website",
-  },
+  description: "Curated city guides, expert studio recommendations, and AI-powered search for Pilates lovers worldwide.",
 };
-
-const FEATURES = [
-  {
-    icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b4a31" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
-      </svg>
-    ),
-    title: "AI Pilates Finder",
-    description: "Describe what you're looking for and get curated studio matches instantly.",
-  },
-  {
-    icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b4a31" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
-      </svg>
-    ),
-    title: "City Guides",
-    description: "Deep-dive guides to the best studios in cities around the world.",
-  },
-  {
-    icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b4a31" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-      </svg>
-    ),
-    title: "Studio Reviews",
-    description: "Honest, editorial reviews by practitioners who've been there.",
-  },
-  {
-    icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b4a31" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <rect x="2" y="3" width="20" height="14" rx="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" />
-      </svg>
-    ),
-    title: "Equipment Picks",
-    description: "Carefully vetted gear and mat recommendations for every level.",
-  },
-];
 
 const CITIES = [
   { city: "Zurich", country: "Switzerland", href: "/cities/zurich", studioCount: 5 },
@@ -72,130 +25,31 @@ const CITIES = [
 ];
 
 const GUIDES = [
-  {
-    title: "The Best Pilates Studios in London",
-    excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios.",
-    href: "/cities/london",
-    category: "City Guide",
-    readTime: "8 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
-  },
-  {
-    title: "The Best Pilates Studios in Zurich",
-    excerpt: "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.",
-    href: "/cities/zurich",
-    category: "City Guide",
-    readTime: "8 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80",
-  },
-  {
-    title: "The Beginner's Guide to Reformer Pilates",
-    excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence.",
-    href: "/blog/beginners-guide-to-reformer-pilates",
-    category: "Beginner Guide",
-    readTime: "8 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
-  },
-  {
-    title: "Pilates for Back Pain: What the Research Shows",
-    excerpt: "A clear-eyed look at the evidence — what Pilates can and can't do for chronic back pain, and how to start safely.",
-    href: "/blog/pilates-for-back-pain",
-    category: "Wellness",
-    readTime: "9 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
-  },
-  {
-    title: "Classical vs Contemporary Pilates",
-    excerpt: "Understanding the key differences between the original method and modern interpretations — and which is right for you.",
-    href: "/blog/classical-vs-contemporary-pilates",
-    category: "Method",
-    readTime: "7 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=800&q=80",
-  },
-  {
-    title: "Best Pilates Equipment for Home Practice",
-    excerpt: "Everything you actually need to build a consistent home practice, from a quality mat to the best reformer alternatives.",
-    href: "/blog/best-pilates-equipment-for-home-practice",
-    category: "Equipment",
-    readTime: "10 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-  },
-  {
-    title: "Pilates vs Yoga: Key Differences and How to Choose",
-    excerpt: "A clear, honest comparison of two of the world's most popular movement practices — and how to decide between them.",
-    href: "/blog/pilates-vs-yoga",
-    category: "Method",
-    readTime: "7 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
-  },
-  {
-    title: "The Best Pilates Retreats in Europe",
-    excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.",
-    href: "/blog/best-pilates-retreats-europe",
-    category: "Travel",
-    readTime: "8 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
-  },
-  {
-    title: "Pilates for Athletes",
-    excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.",
-    href: "/blog/pilates-for-athletes",
-    category: "Performance",
-    readTime: "7 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80",
-  },
-  {
-    title: "How to Choose the Right Pilates Instructor",
-    excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.",
-    href: "/blog/how-to-choose-a-pilates-instructor",
-    category: "Guide",
-    readTime: "6 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?w=800&q=80",
-  },
-  {
-    title: "Pilates and Pregnancy: A Complete Guide",
-    excerpt: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist.",
-    href: "/blog/pilates-and-pregnancy",
-    category: "Health",
-    readTime: "8 min read",
-    date: "May 2026",
-    imageUrl: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&q=80",
-  },
+  { title: "The Best Pilates Studios in London", excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios.", href: "/cities/london", category: "City Guide", readTime: "8 min read", date: "May 2026" },
+  { title: "The Best Pilates Studios in Zurich", excerpt: "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.", href: "/cities/zurich", category: "City Guide", readTime: "8 min read", date: "May 2026" },
+  { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "May 2026" },
+  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "A clear-eyed look at the evidence — what Pilates can and can't do for chronic back pain, and how to start safely.", href: "/blog/pilates-for-back-pain", category: "Wellness", readTime: "9 min read", date: "May 2026" },
+  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations — and which is right for you.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read", date: "May 2026" },
+  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you actually need to build a consistent home practice, from a quality mat to the best reformer alternatives.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "May 2026" },
+  { title: "Pilates vs Yoga: Key Differences", excerpt: "A clear, honest comparison of two of the world's most popular movement practices — and how to decide between them.", href: "/blog/pilates-vs-yoga", category: "Method", readTime: "7 min read", date: "May 2026" },
+  { title: "The Best Pilates Retreats in Europe", excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.", href: "/blog/best-pilates-retreats-europe", category: "Travel", readTime: "8 min read", date: "May 2026" },
+  { title: "Pilates for Athletes", excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.", href: "/blog/pilates-for-athletes", category: "Performance", readTime: "7 min read", date: "May 2026" },
 ];
 
 const PRODUCTS = [
-  {
-    name: "Premium Pilates Mat",
-    description:
-      "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability. Our top pick for studio and home use.",
-    price: "From $52",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
-  },
-  {
-    name: "Pilates Grip Socks",
-    description:
-      "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping on the carriage.",
-    price: "From $16",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
-  },
-  {
-    name: "Resistance Ring (Magic Circle)",
-    description:
-      "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store in any corner. Targets inner thighs, arms, and core.",
-    price: "From $24",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
-  },
+  { name: "Premium Pilates Mat", description: "6mm non-slip surface, eco-friendly materials, and a dense closed-cell structure that cushions joints without compromising stability.", price: "From $52", affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20" },
+  { name: "Pilates Grip Socks", description: "Full-toe grip coverage with seamless construction. Essential for reformer work — keeps you stable on the foot bar and prevents slipping.", price: "From $16", affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20" },
+  { name: "Resistance Ring (Magic Circle)", description: "The classic Pilates prop. Dual padded handles, flexible yet firm resistance, and compact enough to store anywhere.", price: "From $24", affiliateUrl: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20" },
 ];
+
+const label = {
+  fontFamily: "var(--font-sans)",
+  fontSize: "10px",
+  fontWeight: 500,
+  letterSpacing: "0.25em",
+  textTransform: "uppercase" as const,
+  color: "#9a9490",
+};
 
 export default function Home() {
   return (
@@ -205,149 +59,85 @@ export default function Home() {
         {/* Hero */}
         <section
           id="finder"
-          className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-32 pb-24 text-center"
           style={{
-            background:
-              "radial-gradient(ellipse 120% 80% at 50% -10%, rgba(255, 219, 206, 0.45) 0%, rgba(252, 249, 248, 0) 60%), #fcf9f8",
+            minHeight: "100vh",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "140px 32px 80px",
+            textAlign: "center",
+            backgroundColor: "#ffffff",
           }}
         >
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <Image
-              src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1920&q=60"
-              alt="Pilates reformer studio"
-              fill
-              className="object-cover opacity-[0.06]"
-              priority
-            />
-          </div>
+          <p style={{ ...label, marginBottom: "28px" }}>The Pilates Discovery Platform</p>
 
-          {/* Decorative rings */}
-          <div
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full pointer-events-none"
-            style={{ border: "1px solid rgba(217, 194, 186, 0.25)" }}
-          />
-          <div
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full pointer-events-none"
-            style={{ border: "1px solid rgba(217, 194, 186, 0.18)" }}
-          />
+          <h1 style={{
+            fontFamily: "var(--font-serif)",
+            fontSize: "clamp(48px, 8vw, 96px)",
+            fontWeight: 300,
+            lineHeight: 1.02,
+            color: "#0a0a0a",
+            marginBottom: "12px",
+            letterSpacing: "-0.01em",
+          }}>
+            Find your perfect
+          </h1>
+          <h1 style={{
+            fontFamily: "var(--font-serif)",
+            fontSize: "clamp(48px, 8vw, 96px)",
+            fontWeight: 300,
+            lineHeight: 1.02,
+            color: "#0a0a0a",
+            marginBottom: "40px",
+            letterSpacing: "-0.01em",
+            fontStyle: "italic",
+          }}>
+            Pilates studio.
+          </h1>
 
-          <div className="relative z-10 max-w-4xl mx-auto">
-            <p
-              className="text-xs font-semibold uppercase tracking-[0.2em] mb-6"
-              style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              The Pilates Discovery Platform
-            </p>
-            <h1
-              className="text-4xl sm:text-5xl md:text-6xl font-semibold leading-[1.12] mb-6"
-              style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
-            >
-              Find your perfect Pilates
-              <br />
-              <em className="not-italic" style={{ color: "#8b4a31" }}>
-                studio, class, or retreat.
-              </em>
-            </h1>
-            <p
-              className="text-lg leading-relaxed mb-10 max-w-xl mx-auto"
-              style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
-            >
-              Curated city guides, expert recommendations, and AI-powered search — all in one place.
-            </p>
+          <p style={{
+            fontFamily: "var(--font-sans)",
+            fontSize: "15px",
+            fontWeight: 300,
+            color: "#9a9490",
+            lineHeight: 1.7,
+            maxWidth: "440px",
+            marginBottom: "52px",
+          }}>
+            Curated city guides, editorial studio reviews, and AI-powered search — all in one place.
+          </p>
 
-            <SearchHero />
+          <SearchHero />
 
-            <p
-              className="text-xs mt-8 opacity-60"
-              style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              Trusted by practitioners in 20+ cities
-            </p>
-          </div>
+          <p style={{ ...label, marginTop: "48px", letterSpacing: "0.15em", fontSize: "10px", color: "#c8c3be" }}>
+            Practitioners in 20+ cities worldwide
+          </p>
         </section>
 
-        {/* Feature Cards */}
-        <section
-          className="py-24 px-6"
-          style={{ backgroundColor: "#f6f3f2" }}
-        >
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-14">
-              <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-3"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                What We Do
-              </p>
-              <h2
-                className="text-3xl md:text-4xl font-semibold"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
-              >
-                Everything you need to find your practice
-              </h2>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {FEATURES.map((f) => (
-                <div
-                  key={f.title}
-                  className="rounded-2xl p-7"
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(217, 194, 186, 0.35)",
-                    boxShadow: "0 1px 6px rgba(0,0,0,0.04)",
-                  }}
-                >
-                  <div
-                    className="w-11 h-11 rounded-xl flex items-center justify-center mb-5"
-                    style={{ backgroundColor: "#fff7f3" }}
-                  >
-                    {f.icon}
-                  </div>
-                  <h3
-                    className="text-base font-semibold mb-2"
-                    style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
-                  >
-                    {f.title}
-                  </h3>
-                  <p
-                    className="text-sm leading-relaxed"
-                    style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-                  >
-                    {f.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        {/* Thin divider */}
+        <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
-        {/* Popular Cities */}
-        <section className="py-24 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-6xl mx-auto">
-            <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
+        {/* City Guides */}
+        <section id="cities" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
+          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "52px" }}>
               <div>
-                <p
-                  className="text-xs font-semibold uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-                >
-                  City Guides
-                </p>
-                <h2
-                  className="text-3xl md:text-4xl font-semibold"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
-                >
-                  Popular Cities
+                <p style={{ ...label, marginBottom: "12px" }}>City Guides</p>
+                <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
+                  Studio guides by city
                 </h2>
               </div>
-              <a
-                href="/cities/zurich"
-                className="text-sm font-semibold underline underline-offset-4 hover:opacity-70 transition-opacity"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                View all cities →
+              <a href="/cities/zurich" style={{
+                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
+                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
+                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
+              }}>
+                All cities
               </a>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">
+
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "2px" }} className="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
               {CITIES.map((c) => (
                 <CityCard key={c.city} {...c} />
               ))}
@@ -355,24 +145,28 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Latest Guides */}
-        <section className="py-24 px-6" style={{ backgroundColor: "#f6f3f2" }}>
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-3"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                Editorial
-              </p>
-              <h2
-                className="text-3xl md:text-4xl font-semibold"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
-              >
-                Latest Guides
-              </h2>
+        <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
+
+        {/* Journal */}
+        <section style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
+          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "8px" }}>
+              <div>
+                <p style={{ ...label, marginBottom: "12px" }}>Editorial</p>
+                <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
+                  Journal
+                </h2>
+              </div>
+              <a href="/blog" style={{
+                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
+                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
+                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
+              }}>
+                All articles
+              </a>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0 60px" }} className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {GUIDES.map((g) => (
                 <ArticleCard key={g.href} {...g} />
               ))}
@@ -380,30 +174,20 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Affiliate Products */}
-        <section className="py-24 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-3"
-                style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                Equipment
-              </p>
-              <h2
-                className="text-3xl md:text-4xl font-semibold mb-3"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
-              >
-                Editor&apos;s Pilates Essentials
-              </h2>
-              <p
-                className="text-sm max-w-lg mx-auto"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                Carefully selected equipment we use and recommend, available on Amazon.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
+
+        {/* Equipment */}
+        <section style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
+          <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+            <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", marginBottom: "8px" }}>
+              Editor&apos;s essentials
+            </h2>
+            <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#9a9490", marginBottom: "0", lineHeight: 1.7 }}>
+              Carefully selected equipment, available on Amazon.
+            </p>
+
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0 60px" }} className="grid-cols-1 md:grid-cols-3">
               {PRODUCTS.map((p) => (
                 <ProductCard key={p.name} {...p} />
               ))}
@@ -412,73 +196,51 @@ export default function Home() {
         </section>
 
         {/* Newsletter */}
-        <section
-          className="py-24 px-6"
-          style={{
-            background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)",
-          }}
-        >
-          <div className="max-w-xl mx-auto text-center">
-            <p
-              className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75"
-              style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              Newsletter
-            </p>
-            <h2
-              className="text-3xl font-semibold mb-4"
-              style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}
-            >
-              Stay in the loop
+        <section style={{ padding: "100px 40px", backgroundColor: "#0a0a0a", textAlign: "center" }}>
+          <div style={{ maxWidth: "480px", margin: "0 auto" }}>
+            <p style={{ ...label, color: "rgba(255,255,255,0.3)", marginBottom: "20px" }}>Newsletter</p>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#ffffff", marginBottom: "16px" }}>
+              Stay in the loop.
             </h2>
-            <p
-              className="text-base mb-8 opacity-85"
-              style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
-            >
-              Weekly studio guides, class tips, and equipment picks — delivered every Sunday morning.
+            <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "rgba(255,255,255,0.45)", lineHeight: 1.7, marginBottom: "40px" }}>
+              Weekly studio guides, class tips, and equipment picks — every Sunday.
             </p>
-            <NewsletterForm />
-            <p
-              className="text-xs mt-4 opacity-55"
-              style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}
-            >
+            <form onSubmit={(e) => e.preventDefault()} style={{ display: "flex" }}>
+              <input
+                type="email"
+                placeholder="Your email address"
+                style={{
+                  flex: 1, fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300,
+                  backgroundColor: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.12)",
+                  borderRight: "none", color: "#ffffff", padding: "14px 18px", outline: "none", minWidth: 0,
+                }}
+              />
+              <button type="submit" style={{
+                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
+                letterSpacing: "0.18em", textTransform: "uppercase", backgroundColor: "#c5a882",
+                color: "#0a0a0a", border: "none", padding: "14px 22px", cursor: "pointer", whiteSpace: "nowrap",
+              }}>
+                Subscribe
+              </button>
+            </form>
+            <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "rgba(255,255,255,0.2)", marginTop: "16px" }}>
               No spam. Unsubscribe anytime.
             </p>
           </div>
         </section>
 
-        {/* About anchor */}
-        <section
-          id="about"
-          className="py-24 px-6"
-          style={{ backgroundColor: "#f6f3f2" }}
-        >
-          <div className="max-w-3xl mx-auto text-center">
-            <p
-              className="text-xs font-semibold uppercase tracking-[0.2em] mb-4"
-              style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              About
-            </p>
-            <h2
-              className="text-3xl md:text-4xl font-semibold mb-6"
-              style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
-            >
-              About Pilates Collective Club
+        {/* About */}
+        <section id="about" style={{ padding: "120px 40px", backgroundColor: "#ffffff" }}>
+          <div style={{ maxWidth: "640px", margin: "0 auto", textAlign: "center" }}>
+            <p style={{ ...label, marginBottom: "20px" }}>About</p>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(28px, 3.5vw, 42px)", fontWeight: 400, color: "#0a0a0a", marginBottom: "32px", lineHeight: 1.2 }}>
+              Built by practitioners,<br />for practitioners.
             </h2>
-            <p
-              className="text-lg leading-relaxed mb-4"
-              style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
-            >
-              We are a small team of passionate Pilates practitioners who got tired of sifting
-              through generic fitness directories to find truly great studios. So we built our own.
+            <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#6b6560", lineHeight: 1.85, marginBottom: "20px" }}>
+              We are a small team of passionate Pilates practitioners who got tired of sifting through generic fitness directories to find truly great studios. So we built our own.
             </p>
-            <p
-              className="text-base leading-relaxed"
-              style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              Every studio in our guides has been personally vetted. Every equipment pick has been
-              tested. Every studio recommendation is independent — we are never paid to feature a studio.
+            <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.85 }}>
+              Every studio in our guides has been personally vetted. Every equipment pick has been tested. Every recommendation is independent — we are never paid to feature a studio.
             </p>
           </div>
         </section>

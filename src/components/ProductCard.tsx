@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 interface ProductCardProps {
   name: string;
   description: string;
@@ -9,89 +7,73 @@ interface ProductCardProps {
   imageUrl?: string;
 }
 
-export default function ProductCard({
-  name,
-  description,
-  price,
-  affiliateUrl = "#",
-  imageAlt,
-  imageUrl,
-}: ProductCardProps) {
+export default function ProductCard({ name, description, price, affiliateUrl = "#" }: ProductCardProps) {
   return (
-    <div
-      className="rounded-xl overflow-hidden flex flex-col"
-      style={{
-        backgroundColor: "#ffffff",
-        border: "1px solid rgba(217, 194, 186, 0.4)",
-        boxShadow: "0 1px 3px rgba(0,0,0,0.06)",
-      }}
-    >
-      {/* Image */}
-      <div className="relative overflow-hidden aspect-video">
-        {imageUrl ? (
-          <Image src={imageUrl} alt={imageAlt || name} fill className="object-cover" />
-        ) : (
-          <>
-            <div
-              className="absolute inset-0"
-              style={{
-                background: "linear-gradient(135deg, #e4e2e1 0%, #f0eded 50%, #d9c2ba 100%)",
-              }}
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span
-                className="text-sm font-medium"
-                style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                {imageAlt || name}
-              </span>
-            </div>
-          </>
+    <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "28px", paddingBottom: "28px" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", marginBottom: "12px" }}>
+        <h3 style={{
+          fontFamily: "var(--font-serif)",
+          fontSize: "20px",
+          fontWeight: 400,
+          color: "#0a0a0a",
+          lineHeight: 1.2,
+          margin: 0,
+        }}>
+          {name}
+        </h3>
+        {price && (
+          <span style={{
+            fontFamily: "var(--font-sans)",
+            fontSize: "12px",
+            fontWeight: 400,
+            color: "#9a9490",
+            whiteSpace: "nowrap",
+            letterSpacing: "0.05em",
+          }}>
+            {price}
+          </span>
         )}
       </div>
 
-      {/* Content */}
-      <div className="p-5 flex flex-col flex-1">
-        <div className="flex items-start justify-between gap-2 mb-2">
-          <h3
-            className="text-base font-semibold leading-snug"
-            style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
-          >
-            {name}
-          </h3>
-        </div>
+      <p style={{
+        fontFamily: "var(--font-sans)",
+        fontSize: "13px",
+        fontWeight: 300,
+        color: "#6b6560",
+        lineHeight: 1.75,
+        marginBottom: "18px",
+      }}>
+        {description}
+      </p>
 
-        <p
-          className="text-sm leading-relaxed mb-4 flex-1"
-          style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-        >
-          {description}
-        </p>
-
-        <div className="flex items-center justify-between mt-auto">
-          {price && (
-            <span
-              className="text-base font-semibold"
-              style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              {price}
-            </span>
-          )}
-          <a
-            href={affiliateUrl}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            className={`inline-block px-5 py-2.5 rounded-lg text-sm font-semibold transition-opacity hover:opacity-90 ${!price ? "ml-auto" : ""}`}
-            style={{
-              backgroundColor: "#8b4a31",
-              color: "#ffffff",
-              fontFamily: "'Montserrat', sans-serif",
-            }}
-          >
-            Buy on Amazon →
-          </a>
-        </div>
-      </div>
+      <a
+        href={affiliateUrl}
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        style={{
+          display: "inline-block",
+          fontFamily: "var(--font-sans)",
+          fontSize: "10px",
+          fontWeight: 500,
+          letterSpacing: "0.18em",
+          textTransform: "uppercase",
+          color: "#0a0a0a",
+          textDecoration: "none",
+          borderBottom: "1px solid #0a0a0a",
+          paddingBottom: "2px",
+          transition: "color 0.2s, border-color 0.2s",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.color = "#c5a882";
+          e.currentTarget.style.borderColor = "#c5a882";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.color = "#0a0a0a";
+          e.currentTarget.style.borderColor = "#0a0a0a";
+        }}
+      >
+        Shop on Amazon
+      </a>
     </div>
   );
 }
