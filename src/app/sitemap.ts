@@ -50,6 +50,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "pilates-for-menopause",
     "pilates-history",
     "how-to-find-a-good-pilates-studio",
+    "alo-yoga-pilates",
+    "lululemon-pilates",
+    "club-pilates-review",
+    "balanced-body-vs-merrithew",
+    "varley-pilates-activewear",
   ];
 
   return [

@@ -297,6 +297,46 @@ const posts: Post[] = [
     readTime: "10 min",
     imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
   },
+  {
+    title: "Alo Yoga for Pilates (2026): Best Pieces & Honest Review",
+    excerpt: "The Airbrush legging, Airlift bra, Alo Moves app — what works for Pilates, what doesn't, and an honest assessment of the brand that defines the boutique studio aesthetic.",
+    href: "/blog/alo-yoga-pilates",
+    category: "Brand Guide",
+    readTime: "10 min",
+    imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
+  },
+  {
+    title: "Lululemon for Pilates (2026): Best Pieces for Studio & Reformer",
+    excerpt: "The Align legging, Align bra, Flow Y, Define jacket — the Lululemon pieces that genuinely serve the method, and the ones to skip.",
+    href: "/blog/lululemon-pilates",
+    category: "Brand Guide",
+    readTime: "10 min",
+    imageUrl: "/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg",
+  },
+  {
+    title: "Club Pilates Review (2026): Is It Worth It?",
+    excerpt: "An honest assessment of the world's largest Pilates franchise — equipment, instructor training, class sizes, membership pricing, and who should look elsewhere.",
+    href: "/blog/club-pilates-review",
+    category: "Brand Guide",
+    readTime: "11 min",
+    imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
+  },
+  {
+    title: "Balanced Body vs Merrithew: Which Reformer Is Right for You?",
+    excerpt: "The most detailed head-to-head of the two dominant professional reformer brands — spring feel, accessories, price, training alignment, and the verdict by use case.",
+    href: "/blog/balanced-body-vs-merrithew",
+    category: "Brand Guide",
+    readTime: "13 min",
+    imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
+  },
+  {
+    title: "Varley for Pilates (2026): The Boutique Studio Brand Reviewed",
+    excerpt: "The Reeves legging, Stratford bra, and Paloma tank — the Varley pieces built for the boutique reformer studio, honestly reviewed.",
+    href: "/blog/varley-pilates-activewear",
+    category: "Brand Guide",
+    readTime: "9 min",
+    imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg",
+  },
 ];
 
 const featured = posts.find((p) => p.featured)!;
