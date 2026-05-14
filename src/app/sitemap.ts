@@ -40,6 +40,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-pilates-resistance-bands",
     "best-pilates-starter-kit",
     "best-pilates-reformer-accessories",
+    "best-pilates-mat",
+    "best-pilates-foam-roller",
+    "best-pilates-ring",
+    "best-pilates-reformer-brands",
+    "best-pilates-workout-tops",
+    "pilates-for-runners",
+    "pilates-for-scoliosis",
+    "pilates-for-menopause",
+    "pilates-history",
+    "how-to-find-a-good-pilates-studio",
   ];
 
   return [
