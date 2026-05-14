@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/varley-pilates-activewear",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -101,7 +102,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/varley-pilates-activewear",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/varley-pilates-activewear" },
     },
     {
       "@type": "BreadcrumbList",
@@ -111,6 +115,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Varley for Pilates", "item": "https://pilatescollectiveclub.com/blog/varley-pilates-activewear" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Is Varley worth the price for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — with the caveat that you buy the right pieces. The Reeves legging and Stratford bra are genuinely premium products with Pilates-specific design decisions. The durability is excellent — Varley pieces last through intensive studio use with proper care. The brand's less functional pieces (relaxed fits, mesh panels) are not worth the price for Pilates specifically. Buy selectively." } },
+      { "@type": "Question", "name": "How does Varley sizing compare to Lululemon?", "acceptedAnswer": { "@type": "Answer", "text": "Varley generally runs true to size across their legging range. The Reeves and Hinsdale both have slightly more compression than the equivalent Lululemon Align at the same size, which most practitioners find appropriate. If you are between sizes and usually size up in Lululemon, stay true to size in Varley. The waistband does not have significant give, so sizing accurately is important." } },
+      { "@type": "Question", "name": "Where can I buy Varley?", "acceptedAnswer": { "@type": "Answer", "text": "Varley is available through their own website, Net-a-Porter, Selfridges, Bloomingdale's, and selected boutique activewear retailers. Amazon carries some Varley pieces but the selection is inconsistent and not always current season. For the full range including new arrivals, the brand's own website is the most reliable source." } },
+      { "@type": "Question", "name": "Varley vs Alo vs Lululemon — which brand should I buy first?", "acceptedAnswer": { "@type": "Answer", "text": "For most practitioners starting a studio wardrobe: start with Lululemon Align (best value, widest availability, proven performance). Add Alo Airbrush if you prefer firmer compression. Add Varley if you want the European boutique aesthetic or find Alo's colourways too saturated. Varley is typically the third brand in a practitioner's wardrobe rather than the first, but those who start with it rarely leave it." } }
+    ]
+  },
   ],
 };
 
@@ -142,7 +155,7 @@ export default function VarleyPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="Pilates boutique studio activewear Varley" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="Varley Reeves legging and Stratford bra for Pilates — boutique studio activewear brand reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

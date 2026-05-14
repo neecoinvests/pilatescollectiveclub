@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-workout-tops",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -101,7 +102,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-workout-tops",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/best-pilates-workout-tops" },
     },
     {
       "@type": "BreadcrumbList",
@@ -111,6 +115,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Tops", "item": "https://pilatescollectiveclub.com/blog/best-pilates-workout-tops" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Should I wear a sports bra or a built-in tank for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Both work. A dedicated sports bra under a tank gives you the most flexibility — you can adjust layers based on studio temperature and preference. A built-in shelf bra tank is convenient for practitioners who don't need significant support. A padded built-in bra is rarely suitable as the sole layer during active reformer work." } },
+      { "@type": "Question", "name": "Why do Pilates instructors care what you wear?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates is a movement precision practice. Instructors observe spinal alignment, pelvic position, shoulder placement, and knee tracking in every exercise. Baggy or voluminous tops obscure the body landmarks they need to observe to give effective corrections. This is why fitted, body-conscious clothing is the norm in Pilates studios — it serves the instruction, not just aesthetics." } },
+      { "@type": "Question", "name": "Can I wear a regular gym top to a reformer class?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — any fitted top without loose fabric or hardware works. The only functional requirements are that it stays in place across all positions and allows full shoulder mobility. The premium brands recommended here go beyond minimum functionality, but any fitted athletic top without these problems is appropriate." } },
+      { "@type": "Question", "name": "What about wearing a hoodie or sweater over my top in class?", "acceptedAnswer": { "@type": "Answer", "text": "Layering for warmth before class is sensible. Most instructors will ask you to remove outer layers once class begins — a hoodie prevents the spinal observation that allows effective cueing. Keep a warm layer for the walk to and from the studio; plan to wear your studio top during the session itself." } }
+    ]
+  },
   ],
 };
 
@@ -142,7 +155,7 @@ export default function BestPilatesWorkoutTopsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Pilates practitioner in studio top" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Best Pilates workout tops and sports bras for studio and reformer — Lululemon, Alo, and Varley tested" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

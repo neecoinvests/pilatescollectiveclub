@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/club-pilates-review",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const jsonLd = {
@@ -47,7 +48,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/club-pilates-review",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/club-pilates-review" },
     },
     {
       "@type": "BreadcrumbList",
@@ -57,6 +61,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Club Pilates Review", "item": "https://pilatescollectiveclub.com/blog/club-pilates-review" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How much does Club Pilates cost per month?", "acceptedAnswer": { "@type": "Answer", "text": "Club Pilates memberships typically range from $149 to $199 per month depending on location and tier (8 classes/month vs unlimited). Drop-in rates run $35–45 per class. Annual prepayment discounts are available at most locations. Pricing varies by market — metropolitan areas are typically at the higher end of the range." } },
+      { "@type": "Question", "name": "Are Club Pilates instructors qualified?", "acceptedAnswer": { "@type": "Answer", "text": "Club Pilates instructors complete the brand's proprietary CPT certification — approximately 500 hours, which meets the minimum industry standard. This is a legitimate qualification, but less specialised than STOTT, BASI, or classical lineage certifications. Individual instructor quality varies significantly. The best instructors at Club Pilates often continue their education with additional certifications; the weakest are working with minimum credentials only." } },
+      { "@type": "Question", "name": "Can a complete beginner start at Club Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Club Pilates has a well-structured Foundations programme (typically a series of 101, 201, and 301 classes taken before joining general classes). This is one of the most accessible beginner pathways in the market. The structured onboarding is better than many independent boutique studios that put beginners directly into general intermediate classes." } },
+      { "@type": "Question", "name": "How does Club Pilates compare to CorePower Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "CorePower Yoga recently expanded into Pilates programming. Club Pilates has more reformer-specific programming depth and has been building reformer expertise longer. CorePower brings yoga sequencing influence that some practitioners enjoy and others find distracting from the Pilates method. Both are franchise environments with the same structural limitations relative to independent boutique studios." } }
+    ]
+  },
   ],
 };
 
@@ -126,7 +139,7 @@ export default function ClubPilatesReviewPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" alt="Pilates reformer class studio" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" alt="Club Pilates reformer studio — franchise Pilates class quality, instructor training, and membership value reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

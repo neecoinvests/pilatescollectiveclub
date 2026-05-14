@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-menopause",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const jsonLd = {
@@ -47,7 +48,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-menopause",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/pilates-for-menopause" },
     },
     {
       "@type": "BreadcrumbList",
@@ -57,6 +61,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Pilates for Menopause", "item": "https://pilatescollectiveclub.com/blog/pilates-for-menopause" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Is Pilates enough exercise during menopause?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates is an excellent component of a menopause exercise programme, but it is most effective when combined with cardiovascular exercise and some heavy resistance training. The current consensus from women's health specialists is that menopause requires a multi-modal approach: Pilates for core, balance, and pelvic floor; some form of cardiovascular exercise for heart and metabolic health; and heavier loading (weightlifting or impact activity) for bone density specifically." } },
+      { "@type": "Question", "name": "Can Pilates help with hot flushes?", "acceptedAnswer": { "@type": "Answer", "text": "Indirectly. Exercise generally does not reduce hot flush frequency, but regular exercise improves the physiological response to temperature dysregulation and significantly reduces the sleep disruption that hot flushes cause. Pilates practitioners who exercise consistently typically report better sleep quality and reduced fatigue compared to sedentary women going through the same hormonal transition." } },
+      { "@type": "Question", "name": "Should I tell my Pilates instructor I am in menopause or perimenopause?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — absolutely. A well-informed instructor will adjust their programming to prioritise pelvic floor integration, incorporate appropriate loading for bone density, extend warm-ups, and be aware of joint laxity changes that affect modification decisions. If your instructor does not engage meaningfully with this information, that tells you something about the quality of the instruction." } },
+      { "@type": "Question", "name": "I have osteoporosis — can I still do Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, with appropriate modifications. Pilates is one of the most recommended exercises for women with osteoporosis because it improves balance (reducing fall risk) and can provide bone-stimulating loads without high-impact movements. Avoid deep spinal flexion exercises (roll-up, rollover) and exercises that load the spine in flexion under load. Work with a Pilates instructor who has specific osteoporosis training and coordinate with your medical team." } }
+    ]
+  },
   ],
 };
 
@@ -87,7 +100,7 @@ export default function PilatesForMenopausePage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" alt="Pilates practice for women during menopause" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" alt="Pilates for menopause — bone density loading, pelvic floor work, and hormonal adaptation in practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

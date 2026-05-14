@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/lululemon-pilates",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -101,7 +102,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/lululemon-pilates",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/lululemon-pilates" },
     },
     {
       "@type": "BreadcrumbList",
@@ -111,6 +115,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Lululemon for Pilates", "item": "https://pilatescollectiveclub.com/blog/lululemon-pilates" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Lululemon Align vs Wunder Train for Pilates — which is better?", "acceptedAnswer": { "@type": "Answer", "text": "Align, without question. The Wunder Train is a compression legging designed for high-intensity training — firmer, more supportive, with a crisper fabric. For Pilates, where you're spending significant time lying on a mat or carriage and performing slow articulation work, the Align's soft Nulu fabric is far more appropriate. The Wunder Train's compression is also slightly restrictive for deep hip flexion and the rotational exercises that characterise the Pilates repertoire." } },
+      { "@type": "Question", "name": "Is Lululemon worth the price for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The Align Pant and Align Tank are among the best value premium Pilates pieces available — they consistently outlast cheaper alternatives, maintain their shape and opacity for years, and are covered by Lululemon's quality guarantee. The Flow Y and Define Jacket are good but not irreplaceable at the price. If budget is a constraint, prioritise the Align Pant and supplement with more affordable tops." } },
+      { "@type": "Question", "name": "What size should I buy for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For the Align range: size true to standard. The fabric stretches enough that sizing down creates too much compression for the sustained lying positions of Pilates; sizing up creates wrinkling that obscures alignment cues for your instructor. If you're between sizes, the standard size recommendation applies — most practitioners find true-to-size Align to be the most functional for Pilates specifically." } },
+      { "@type": "Question", "name": "Does Lululemon make Pilates-specific equipment?", "acceptedAnswer": { "@type": "Answer", "text": "Lululemon produces mats (The Mat 5mm and The Reversible Mat 5mm), resistance bands (available in multiple resistance levels), and a yoga block that some Pilates practitioners use as a prop. Their mat range is appropriate for Pilates — the 5mm density is firm enough for spinal feedback. Their bands are good quality but generic rather than Pilates-specific. The equipment range is secondary to their apparel in quality and differentiation." } }
+    ]
+  },
   ],
 };
 
@@ -142,7 +155,7 @@ export default function LululemonPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Pilates studio wear Lululemon" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Lululemon Align legging and Align tank for Pilates — best pieces for reformer and studio classes tested" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

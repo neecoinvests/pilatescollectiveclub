@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/how-to-find-a-good-pilates-studio",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const jsonLd = {
@@ -47,7 +48,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/how-to-find-a-good-pilates-studio",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/how-to-find-a-good-pilates-studio" },
     },
     {
       "@type": "BreadcrumbList",
@@ -57,6 +61,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "How to Find a Great Pilates Studio", "item": "https://pilatescollectiveclub.com/blog/how-to-find-a-good-pilates-studio" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Is a more expensive studio always better?", "acceptedAnswer": { "@type": "Answer", "text": "No — price correlates with location and aesthetic investment, not instruction quality. Some of the best Pilates instruction available is at studios in unfashionable locations with modest fit-outs. The instructors who genuinely know the method are sometimes found in exactly those places, because they are not competing on aesthetic." } },
+      { "@type": "Question", "name": "How do I know if I'm improving at the right studio?", "acceptedAnswer": { "@type": "Answer", "text": "After three months of regular attendance (2–3 times per week), you should be noticeably stronger, your instructor should know your body's specific patterns and be actively working to address them, and you should be progressing through a more challenging repertoire. If you're doing the same exercises at the same difficulty level as you were in your first month and no one has suggested progression, you are not at a studio that is actively teaching you." } },
+      { "@type": "Question", "name": "Should I stay local or travel to a better studio?", "acceptedAnswer": { "@type": "Answer", "text": "Proximity matters for consistency. A good studio you attend three times a week produces better results than an excellent studio you attend once because of travel time. Within your practical range, apply the quality criteria above. If there genuinely is no good studio within reasonable distance, a combination of online private sessions with a highly qualified remote instructor and in-person visits to better studios when travelling is a viable approach." } },
+      { "@type": "Question", "name": "What's the difference between a boutique studio and a gym Pilates class?", "acceptedAnswer": { "@type": "Answer", "text": "Reformer classes at gyms typically have larger class sizes (16–20+), less specialised instructors who may teach multiple fitness formats, and less individualised attention. The equipment is also often the less expensive tier. For beginners, a gym Pilates class can be a reasonable introduction. For practitioners who want genuine progression and instruction, a dedicated boutique studio with the quality criteria described in this article is the appropriate environment." } }
+    ]
+  },
   ],
 };
 
@@ -87,7 +100,7 @@ export default function HowToFindStudioPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Professional Pilates studio interior" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Inside a quality Pilates studio — what separates excellent reformer instruction from mediocre classes" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

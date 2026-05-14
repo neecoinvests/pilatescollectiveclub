@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-scoliosis",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const jsonLd = {
@@ -47,7 +48,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-scoliosis",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/pilates-for-scoliosis" },
     },
     {
       "@type": "BreadcrumbList",
@@ -57,6 +61,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Pilates for Scoliosis", "item": "https://pilatescollectiveclub.com/blog/pilates-for-scoliosis" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Can Pilates straighten scoliosis in adults?", "acceptedAnswer": { "@type": "Answer", "text": "No — Pilates cannot reduce Cobb angle in skeletally mature adults. The structural curve is determined by the bone morphology of each vertebra and cannot be changed through exercise. What Pilates can achieve is improved pain management, better postural awareness, stronger paraspinal stabilisers, and improved quality of life. These are clinically meaningful outcomes even without structural change." } },
+      { "@type": "Question", "name": "Is reformer or mat Pilates better for scoliosis?", "acceptedAnswer": { "@type": "Answer", "text": "One-on-one reformer sessions with a scoliosis-informed instructor are optimal — the spring resistance can be precisely calibrated to address asymmetric muscle weakness, and the instructor can monitor alignment throughout. Group mat classes are appropriate once you have an individualised programme and understand how to modify standard exercises for your curve pattern." } },
+      { "@type": "Question", "name": "Are there any Pilates exercises I should never do with scoliosis?", "acceptedAnswer": { "@type": "Answer", "text": "No universal contraindications apply to all scoliosis — it depends entirely on your specific curve pattern, its location, and your current capacity. Exercises that load into the concavity of your curve or that cause pain during or after the session should be avoided or modified. This is why individual assessment is essential rather than trying to self-navigate a generic exercise programme." } },
+      { "@type": "Question", "name": "How long before I see improvement?", "acceptedAnswer": { "@type": "Answer", "text": "Pain reduction typically begins within 6–8 weeks of consistent, appropriate Pilates practice. Meaningful improvements in posture and functional capacity generally emerge at 3–6 months. The condition requires ongoing management — Pilates works best as a long-term component of your routine rather than a finite course of treatment." } }
+    ]
+  },
   ],
 };
 
@@ -87,7 +100,7 @@ export default function PilatesForScoliosisPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" alt="Spinal care and Pilates for scoliosis" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" alt="Pilates for scoliosis — spinal curve management, safe exercises, and Schroth-informed practice guidance" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

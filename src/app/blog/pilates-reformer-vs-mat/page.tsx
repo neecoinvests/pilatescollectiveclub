@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-reformer-vs-mat",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const jsonLd = {
@@ -47,7 +48,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/pilates-reformer-vs-mat",
       "datePublished": "2026-05-12",
       "dateModified": "2026-05-12",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/pilates-reformer-vs-mat" },
     },
     {
       "@type": "BreadcrumbList",
@@ -57,6 +61,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Reformer vs Mat Pilates", "item": "https://pilatescollectiveclub.com/blog/pilates-reformer-vs-mat" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Which is better for weight loss: reformer or mat?", "acceptedAnswer": { "@type": "Answer", "text": "Neither format is primarily a weight-loss tool. Pilates builds strength, improves posture, and develops body awareness. Both formats contribute to body composition change when practised consistently alongside appropriate nutrition. The reformer's spring resistance allows more progressive overload over time, which can be advantageous for body composition goals." } },
+      { "@type": "Question", "name": "Can a complete beginner start with reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — reformer classes designed for beginners are the most common entry point for new practitioners at boutique studios. The spring assistance actually makes certain exercises more accessible than on a mat. Look for explicitly labelled 'Intro' or 'Fundamentals' reformer classes." } },
+      { "@type": "Question", "name": "Is mat Pilates useful if I already do reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Many of the reformer exercises originated as mat exercises, and practising both reveals gaps in your body that the apparatus may have been compensating for. Serious practitioners and instructors consistently recommend regular mat practice regardless of reformer experience level." } },
+      { "@type": "Question", "name": "What equipment do I need to practice mat Pilates at home?", "acceptedAnswer": { "@type": "Answer", "text": "A firm mat is the minimum requirement — a dedicated Pilates mat (slightly thicker and less grippy than a yoga mat) is preferable. Resistance bands and a Pilates ring can add significant variety and progressive challenge to a home mat practice without a large investment." } }
+    ]
+  },
   ],
 };
 
@@ -87,7 +100,7 @@ export default function ReformerVsMatPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" alt="Pilates reformer machine in studio" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" alt="Pilates reformer machine in studio — comparing reformer vs mat Pilates formats and key differences" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-foam-roller",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -101,7 +102,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-foam-roller",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/best-pilates-foam-roller" },
     },
     {
       "@type": "BreadcrumbList",
@@ -111,6 +115,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Best Foam Roller for Pilates", "item": "https://pilatescollectiveclub.com/blog/best-pilates-foam-roller" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What density foam roller should I use for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Standard or medium-high density is ideal for most Pilates applications. Soft foam rollers compress too easily to provide meaningful myofascial pressure or stable support. Extra-firm rollers (black) are appropriate for very dense musculature but can be unnecessarily aggressive for spinal work. OPTP standard white is the most broadly suitable choice." } },
+      { "@type": "Question", "name": "Do I need a 36-inch or 13-inch foam roller?", "acceptedAnswer": { "@type": "Answer", "text": "For Pilates specifically, 36 inches is strongly preferred. The key application — lying lengthwise along the full spine for thoracic extension — requires a roller long enough to support from coccyx to occiput simultaneously. A 13-inch roller forces you to shift position constantly and cannot deliver the same passive opening. Use the 13-inch for targeted myofascial work on specific areas." } },
+      { "@type": "Question", "name": "Can I use a foam roller if I have osteoporosis?", "acceptedAnswer": { "@type": "Answer", "text": "Use caution. The full-round roller can place the thoracic spine in significant extension. For practitioners with osteoporosis or vertebral fragility, the half-round roller (flat-side up) provides a gentler curve and reduces the risk of compression. Always consult with your Pilates instructor or physiotherapist before foam roller use with bone density concerns." } },
+      { "@type": "Question", "name": "How often should I use a foam roller in my Pilates practice?", "acceptedAnswer": { "@type": "Answer", "text": "The spinal opening sequence works well as a 5-minute warm-up before every session. Myofascial release on specific areas (hip flexors, thoracic paraspinals) can be performed 3–4 times per week. Daily use for spinal mobility is appropriate and beneficial for most practitioners without contraindications." } }
+    ]
+  },
   ],
 };
 
@@ -142,7 +155,7 @@ export default function BestFoamRollerPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Pilates practitioner using foam roller" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Best foam roller for Pilates spinal mobilisation and myofascial release — OPTP and TriggerPoint tested" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

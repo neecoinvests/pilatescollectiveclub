@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/balanced-body-vs-merrithew",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const jsonLd = {
@@ -47,7 +48,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/balanced-body-vs-merrithew",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/balanced-body-vs-merrithew" },
     },
     {
       "@type": "BreadcrumbList",
@@ -57,6 +61,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Balanced Body vs Merrithew", "item": "https://pilatescollectiveclub.com/blog/balanced-body-vs-merrithew" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Can I use Merrithew accessories on a Balanced Body reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Generally no — the proprietary dimensions of boxes, footbars, and jump boards are brand-specific. Universal accessories (foam rollers, general grip pads, bands) work across brands. Jump boards, long boxes, and short boxes are almost always brand-specific and should be confirmed with the manufacturer before purchasing." } },
+      { "@type": "Question", "name": "Which brand holds resale value better?", "acceptedAnswer": { "@type": "Answer", "text": "Balanced Body generally holds resale value more robustly in the used market — particularly the Allegro 2 and Studio Reformer models. Both brands maintain meaningful resale value relative to consumer-grade reformers. In metropolitan US markets, used Balanced Body equipment is easier to sell quickly due to the larger buyer pool." } },
+      { "@type": "Question", "name": "Is one brand harder to service than the other?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands have authorised service networks and readily available replacement parts. Balanced Body has a larger US dealer network; Merrithew has stronger international presence in parts of Europe and Asia-Pacific. Both brands offer direct purchase of springs, ropes, and pads — the components that require the most frequent replacement." } },
+      { "@type": "Question", "name": "Which brand do professional instructors prefer?", "acceptedAnswer": { "@type": "Answer", "text": "Preference divides largely along training lineage. STOTT-trained instructors nearly universally prefer Merrithew — they trained on it and the machine embodies their curriculum. Classical practitioners often prefer Balanced Body for its broader apparatus options. Instructors without a strong training system allegiance tend toward Balanced Body for the accessory ecosystem." } }
+    ]
+  },
   ],
 };
 
@@ -126,7 +139,7 @@ export default function BalancedBodyVsMerrithewPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Professional Pilates reformer equipment" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Balanced Body vs Merrithew STOTT Pilates reformer — professional equipment head-to-head comparison" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

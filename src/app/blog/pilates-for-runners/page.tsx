@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-runners",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const jsonLd = {
@@ -47,7 +48,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-runners",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/pilates-for-runners" },
     },
     {
       "@type": "BreadcrumbList",
@@ -57,6 +61,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Pilates for Runners", "item": "https://pilatescollectiveclub.com/blog/pilates-for-runners" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How often should runners do Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Once or twice per week is the most commonly recommended frequency for injury prevention — one reformer class and one mat session being the most effective combination. More than three sessions per week begins to compete with running recovery time. Consistency over months matters more than frequency in any given week." } },
+      { "@type": "Question", "name": "Will Pilates make me slower by adding muscle mass?", "acceptedAnswer": { "@type": "Answer", "text": "No. Pilates develops type I slow-twitch muscle fibres and neurological efficiency — neither of which adds significant mass. The strength gains are specific to stability and control patterns, not hypertrophy. Most runners who add Pilates report improved economy and pace at equivalent effort, not any weight or speed penalty." } },
+      { "@type": "Question", "name": "Should I do Pilates before or after my runs?", "acceptedAnswer": { "@type": "Answer", "text": "After easy runs or on dedicated rest days. Pilates sessions that include significant core work reduce the explosive reactivity of the core stabilisers temporarily — running immediately after a demanding Pilates session is not ideal. A short, gentle mat sequence (10 minutes) is appropriate as a post-run cooldown; a full 55-minute reformer session works best on a separate day." } },
+      { "@type": "Question", "name": "Can Pilates help with runner's knee?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — patellofemoral pain (runner's knee) is typically driven by hip abductor weakness causing the femur to internally rotate and the patella to track laterally. Pilates glute medius work directly addresses this. Significant improvement is typically reported within 6–8 weeks of consistent Pilates practice combined with appropriate running load modification." } }
+    ]
+  },
   ],
 };
 
@@ -87,7 +100,7 @@ export default function PilatesForRunnersPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" alt="Athletic Pilates training for runners" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" alt="Pilates for runners — glute medius activation, hip flexor lengthening, and running injury prevention exercises" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-leggings",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -101,7 +102,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-leggings",
       "datePublished": "2026-05-12",
       "dateModified": "2026-05-12",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/best-pilates-leggings" },
     },
     {
       "@type": "BreadcrumbList",
@@ -111,6 +115,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Leggings", "item": "https://pilatescollectiveclub.com/blog/best-pilates-leggings" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What length legging is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Full-length (7/8 or full) leggings are preferred in most studio environments because instructors can observe knee alignment and leg rotation clearly. Cropped styles work but reduce the visual reference points available to your teacher during footwork and standing exercises." } },
+      { "@type": "Question", "name": "Can I wear shorts to Pilates instead of leggings?", "acceptedAnswer": { "@type": "Answer", "text": "Shorts are acceptable for mat Pilates but less practical for reformer. Reformer work involves lying on a padded carriage and footbar contact — bare skin against equipment can be uncomfortable. Most practitioners prefer leggings for reformer classes." } },
+      { "@type": "Question", "name": "Do I need compression leggings or is any legging fine?", "acceptedAnswer": { "@type": "Answer", "text": "Any fully opaque, well-fitting legging works for Pilates. Compression is a preference, not a requirement. Some practitioners find compression helpful for proprioception; others find it restrictive. The Lululemon Align is low-compression and extremely popular precisely because it doesn't restrict movement." } },
+      { "@type": "Question", "name": "Are pocketed leggings worth it for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Side pockets are minimally useful during a Pilates class — you won't be checking your phone. A small hidden waistband pocket for a key or card is genuinely useful for getting to and from the studio. Avoid leggings with large cargo-style pockets as they can interfere with some reformer exercises." } }
+    ]
+  },
   ],
 };
 
@@ -142,7 +155,7 @@ export default function BestPilatesLeggingsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Pilates practitioner in studio wearing leggings" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Best Pilates leggings for reformer and mat classes — Lululemon Align, Alo Airbrush, and top options tested" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

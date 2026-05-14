@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/alo-yoga-pilates",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -101,7 +102,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/alo-yoga-pilates",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/alo-yoga-pilates" },
     },
     {
       "@type": "BreadcrumbList",
@@ -111,6 +115,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Alo Yoga for Pilates", "item": "https://pilatescollectiveclub.com/blog/alo-yoga-pilates" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Is Alo Yoga actually good for Pilates or is it just marketing?", "acceptedAnswer": { "@type": "Answer", "text": "Both. The Airbrush legging and Airlift bra are genuinely excellent for Pilates — not just aesthetically positioned. The fabric quality, opacity, and construction are among the best in the category. The marketing has made Alo synonymous with the boutique Pilates aesthetic, which has expanded awareness, but the core products earned that position on function." } },
+      { "@type": "Question", "name": "Alo vs Lululemon for Pilates — which is better?", "acceptedAnswer": { "@type": "Answer", "text": "Different strengths. Lululemon's Align legging is softer and more comfortable for extended mat work. Alo's Airbrush provides firmer compression that some practitioners prefer for reformer footwork. The Lululemon Align tank is better for coverage and stays down more reliably. Alo's bras have a slight edge for fit and comfort during reformer-specific positions. Most serious practitioners own both brands and choose based on what they're doing that day." } },
+      { "@type": "Question", "name": "Are Alo clothes worth the price for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For the specific pieces listed in this guide — yes. The Airbrush legging and Airlift bra are priced at a premium but provide exceptional durability and performance. For pieces at the periphery of the Alo range (bags, accessories, trend-driven styles), the value proposition is weaker. Buy Alo where the function justifies the premium; don't buy Alo as a lifestyle statement." } },
+      { "@type": "Question", "name": "How should I care for Alo Yoga pieces?", "acceptedAnswer": { "@type": "Answer", "text": "Cold wash, inside out, air dry. Never tumble dry — the Airbrush fabric's four-way stretch and compression properties degrade faster with heat exposure than almost any other premium activewear. The Airlift fabric can be machine washed but should also be air dried. Store flat or folded, not on hooks, which stretch the waistband over time." } }
+    ]
+  },
   ],
 };
 
@@ -142,7 +155,7 @@ export default function AloYogaPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Pilates practitioner in Alo Yoga studio wear" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Alo Yoga Airbrush legging and Airlift Intrigue bra for Pilates — boutique studio activewear reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

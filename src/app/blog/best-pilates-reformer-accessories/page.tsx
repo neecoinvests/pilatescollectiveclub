@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-accessories",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -101,7 +102,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-accessories",
       "datePublished": "2026-05-12",
       "dateModified": "2026-05-12",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-accessories" },
     },
     {
       "@type": "BreadcrumbList",
@@ -111,6 +115,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Reformer Accessories", "item": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-accessories" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Do I need accessories to use a reformer effectively?", "acceptedAnswer": { "@type": "Answer", "text": "The basic reformer without accessories covers a substantial portion of the classical repertoire. Grip socks and sticky pads genuinely improve carriage stability and are worth buying early. The box and jump board are meaningful additions once you're training regularly and want to expand your exercise vocabulary." } },
+      { "@type": "Question", "name": "Are jump board classes harder than standard reformer classes?", "acceptedAnswer": { "@type": "Answer", "text": "Jump board classes are typically higher in cardiovascular intensity but lower in pure strength demand than standard reformer sessions. The jumping element adds aerobic challenge while the springs reduce impact. Most practitioners find them energising rather than harder — a different quality of challenge rather than a greater one." } },
+      { "@type": "Question", "name": "Are Balanced Body and Merrithew accessories interchangeable?", "acceptedAnswer": { "@type": "Answer", "text": "Broadly, no. Both brands have proprietary dimensions that mean boxes and jump boards designed for one machine often don't fit the other. Universal accessories (sticky pads, general foam rollers, generic straps) work across brands. Always confirm compatibility with your specific machine model before purchasing any large accessory." } },
+      { "@type": "Question", "name": "What's the most important accessory for a home reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Sticky pads have the highest impact-to-cost ratio — they're inexpensive and immediately improve stability during standing and kneeling work. The long box is the most important accessory for opening the full classical repertoire, but it's a larger investment. Start with sticky pads." } }
+    ]
+  },
   ],
 };
 
@@ -142,7 +155,7 @@ export default function BestReformerAccessoriesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Pilates reformer in professional studio" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Best Pilates reformer accessories — sticky pads, jump board, long box, and leather straps" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

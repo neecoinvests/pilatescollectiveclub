@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-mat",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -101,7 +102,10 @@ const jsonLd = {
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-mat",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg", "width": 1200, "height": 630 },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/best-pilates-mat" },
     },
     {
       "@type": "BreadcrumbList",
@@ -111,6 +115,15 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Mat", "item": "https://pilatescollectiveclub.com/blog/best-pilates-mat" },
       ],
     },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Can I use a yoga mat for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — a yoga mat works for beginners and casual practice. The limitation becomes apparent as your practice develops: softer yoga mats reduce the proprioceptive feedback that makes Pilates articulation exercises effective. If you're practising Pilates more than twice a week, a dedicated firm mat improves the quality of your sessions meaningfully." } },
+      { "@type": "Question", "name": "What thickness mat is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "6mm is the most broadly suitable thickness — firm enough for spinal feedback, with enough cushioning for sustained floor contact. Practitioners with sensitive spines or vertebral conditions may prefer 8–10mm. Classical Pilates purists and experienced practitioners often prefer 4mm or less for maximum floor connection." } },
+      { "@type": "Question", "name": "Is natural rubber better than PVC for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Natural rubber has better grip-to-slip balance, is biodegradable, and has a more responsive surface feel. PVC is more durable, easier to clean, and less expensive. Both are appropriate for Pilates; the Manduka PRO (PVC) and Liforme (natural rubber) are both outstanding. Choose based on grip preference and environmental priority." } },
+      { "@type": "Question", "name": "How long should a Pilates mat last?", "acceptedAnswer": { "@type": "Answer", "text": "A quality mat (Manduka PRO, Liforme) should last 5–10 years with regular practice and proper care. Budget mats typically need replacement after 1–2 years. The Manduka PRO's lifetime guarantee means it's the most economical option over a long practice career despite the higher initial cost." } }
+    ]
+  },
   ],
 };
 
@@ -142,7 +155,7 @@ export default function BestPilatesMatPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="Pilates mat on studio floor" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="Best Pilates mat tested for firmness, grip, and spinal feedback — Manduka PRO and alternatives" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
