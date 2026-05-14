@@ -23,9 +23,11 @@ export const metadata: Metadata = {
     description: "The best Pilates balls for home practice — mini and stability balls tested and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg"],
   },
+  keywords: ["best pilates ball", "pilates mini ball exercises", "stability ball pilates", "pilates exercise ball review", "mini ball for pilates", "small pilates ball"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-ball",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -95,12 +97,36 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-pilates-ball/#article",
       "headline": "Best Pilates Ball (2026): Mini Ball and Exercise Ball Reviewed",
       "description": "The best Pilates balls for home practice — mini Pilates balls for mat work and stability balls for full-body exercises. Tested, compared, and ranked.",
-      "url": "https://pilatescollectiveclub.com/blog/best-pilates-ball",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg",
+        "width": 1200,
+        "height": 630,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-01",
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "dateModified": "2026-05-14",
+      "url": "https://pilatescollectiveclub.com/blog/best-pilates-ball",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-ball",
+      "articleSection": "Equipment",
+      "inLanguage": "en-US",
     },
     {
       "@type": "BreadcrumbList",
@@ -109,6 +135,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Ball", "item": "https://pilatescollectiveclub.com/blog/best-pilates-ball" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What size mini ball is best for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A 9-inch (23cm) mini ball is the standard for mat work. It fits comfortably between the knees, behind the lower back, or under the pelvis for hip-opening exercises." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a mini Pilates ball and a stability ball?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A mini Pilates ball (9 inches) is a prop for tactile feedback and precision cueing. A stability ball (55-65cm) is a larger surface for seated balance and core work. Both have distinct uses and are not interchangeable." }
+    },
+    {
+      "@type": "Question",
+      "name": "How inflated should a Pilates mini ball be?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Firm enough to maintain shape but soft enough to compress under pressure. Most practitioners inflate to about 80% of maximum capacity for the right resistance and comfort balance." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a regular small ball instead of a Pilates mini ball?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Standard sports balls are not designed for the grip and compression needs of Pilates. A purpose-made mini ball has the right density and surface texture. At $10-$20, it is one of the highest-value prop investments." }
+    }
+      ]
     },
   ],
 };

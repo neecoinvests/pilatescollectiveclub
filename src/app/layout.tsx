@@ -40,14 +40,14 @@ export const metadata: Metadata = {
     siteName: "Pilates Collective Club",
     type: "website",
     url: BASE_URL,
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Pilates Collective Club — Find Your Perfect Studio" }],
+    images: [{ url: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club — Find Your Perfect Studio" }],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates Collective Club — Find Your Perfect Studio",
     description: "Curated city guides, expert studio recommendations, and equipment picks for Pilates practitioners worldwide.",
-    images: ["/og-image.jpg"],
+    images: ["/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
     site: "@pilatescollective",
   },
   alternates: {

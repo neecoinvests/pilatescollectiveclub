@@ -23,9 +23,11 @@ export const metadata: Metadata = {
     description: "Exactly what to wear to Pilates — the best leggings, tops, and layers reviewed.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
+  keywords: ["what to wear to pilates", "pilates outfit", "pilates workout clothing", "what to wear reformer pilates", "pilates attire guide", "best leggings for pilates class"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -103,12 +105,36 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates/#article",
       "headline": "What to Wear to Pilates (2026): The Complete Outfit Guide",
       "description": "Exactly what to wear to Pilates — for reformer, mat, and barre classes. The best leggings, tops, and layers reviewed.",
-      "url": "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg",
+        "width": 1200,
+        "height": 630,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-01",
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "dateModified": "2026-05-14",
+      "url": "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
+      "articleSection": "Style",
+      "inLanguage": "en-US",
     },
     {
       "@type": "BreadcrumbList",
@@ -117,6 +143,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "What to Wear to Pilates", "item": "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I wear to my first Pilates class?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Fitted or tapered leggings and a fitted top. Nothing loose that can catch in springs. Grip socks are required at most reformer studios. Avoid jeans, very short shorts, and clothing with metal hardware." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to wear grip socks to Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Most reformer studios require grip socks for hygiene and safety. Some mat studios allow bare feet. Bring grip socks to be safe - they are available for purchase at most studios if you forget." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I wear yoga pants to Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes - full-length yoga leggings with good compression are ideal. Bootcut yoga pants can bunch around the footbar. High-waisted styles are comfortable for core work." }
+    },
+    {
+      "@type": "Question",
+      "name": "What colours are best for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Practicality first: darker colours on the lower body are more forgiving. The studio aesthetic tends toward neutral tones but there is no dress code beyond the fitted-clothing requirement." }
+    }
+      ]
     },
   ],
 };

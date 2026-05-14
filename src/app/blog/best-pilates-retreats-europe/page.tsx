@@ -20,9 +20,11 @@ export const metadata: Metadata = {
     description: "From Provence to Puglia — the European Pilates retreats worth planning your year around.",
     images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
+  keywords: ["pilates retreats europe", "pilates holiday europe", "pilates retreat italy", "best pilates retreat", "pilates immersion retreat", "pilates wellness holiday"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 
@@ -69,6 +71,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Retreats in Europe (2026)", "item": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a Pilates retreat in Europe cost?",
+      "acceptedAnswer": { "@type": "Answer", "text": "European Pilates retreats range from \u20ac800 to \u20ac3,500+ per person for a week. Budget options in Spain or Portugal include shared accommodation and group classes. Premium retreats in Tuscany or Provence with private instruction and luxury accommodation sit at the higher end." }
+    },
+    {
+      "@type": "Question",
+      "name": "What level do I need to be to attend a Pilates retreat?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Most European Pilates retreats welcome all levels. Programmes are structured with beginner, intermediate, and advanced classes, or are designed for mixed-ability groups. Check with the organiser if the programme suits your experience level." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in a typical Pilates retreat?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A typical retreat includes daily group classes (1\u20133 sessions), shared or private accommodation, meals (often full or half board), and sometimes additional wellness activities such as yoga, hiking, or spa treatments." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best time of year to do a Pilates retreat in Europe?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Spring (April\u2013June) and autumn (September\u2013October) are optimal for most European destinations. Coastal retreats in Greece, Spain, and Italy are best in June and September. Mountain retreats in the Alps are available year-round." }
+    }
+      ]
     },
   ],
 };

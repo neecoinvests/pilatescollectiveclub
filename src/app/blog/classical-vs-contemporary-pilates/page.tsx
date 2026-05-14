@@ -22,9 +22,11 @@ export const metadata: Metadata = {
     description: "The original method vs modern interpretations — how to choose the right Pilates style for your goals.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"],
   },
+  keywords: ["classical vs contemporary pilates", "classical pilates method", "contemporary pilates", "stott pilates", "contrology pilates", "pilates method comparison", "joseph pilates original method"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const RELATED = [
@@ -90,6 +92,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Classical vs Contemporary Pilates", "item": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is classical Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Classical Pilates follows the original repertoire developed by Joseph Pilates. Exercises are performed in the traditional order with original spring tensions and apparatus specifications. Lineages include Romana Kryzanowska, Kathy Grant, and Power Pilates." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is contemporary Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Contemporary Pilates draws from the original method but incorporates modern anatomical research, biomechanics, and injury rehabilitation principles. STOTT Pilates, Balanced Body, and BASI represent contemporary training organisations." }
+    },
+    {
+      "@type": "Question",
+      "name": "Which style is better for beginners?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Neither is categorically better. Contemporary studios often offer more structured beginner programmes. Classical studios tend to work from the full repertoire earlier. The most important factor is finding a qualified instructor regardless of lineage." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I practice both classical and contemporary Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Many practitioners and instructors draw from both traditions. Once you have a grounding in either approach, exploring the other deepens your understanding of the method as a whole." }
+    }
+      ]
     },
   ],
 };

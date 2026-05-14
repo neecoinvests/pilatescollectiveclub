@@ -20,9 +20,11 @@ export const metadata: Metadata = {
     description: "A clear, honest comparison of Pilates and yoga — what each practice develops and how to choose between them.",
     images: ["https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"],
   },
+  keywords: ["pilates vs yoga", "pilates or yoga", "difference pilates yoga", "pilates vs yoga for core strength", "should I do pilates or yoga", "pilates yoga benefits comparison"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 
@@ -69,6 +71,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Pilates vs Yoga: Which Is Right for You?", "item": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the main difference between Pilates and yoga?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates focuses on spinal alignment, core stability, and controlled precision movement \u2014 often using spring-resistance apparatus. Yoga combines movement, breathwork, and philosophy. Pilates tends to be more exercise-science informed; yoga carries spiritual and meditative dimensions." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Pilates or yoga better for back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Both have evidence for back pain relief, but Pilates has stronger research for lower back pain due to its emphasis on spinal articulation and core stabilisation. Yoga benefit depends on style \u2014 restorative yoga is gentler, dynamic vinyasa can aggravate certain conditions." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do both Pilates and yoga?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes \u2014 many practitioners do both. They complement each other well: Pilates builds the precision and core stability that makes yoga postures safer; yoga's flexibility and breath focus deepens Pilates practice." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Pilates harder than yoga?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Both have progressive difficulty curves. Reformer Pilates can be extremely challenging mechanically. For most people, reformer Pilates has a steeper initial learning curve due to unfamiliar equipment; yoga feels more accessible on the first day." }
+    }
+      ]
     },
   ],
 };

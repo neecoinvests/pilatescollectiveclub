@@ -22,9 +22,11 @@ export const metadata: Metadata = {
     description: "The evidence for Pilates as a treatment for back pain — what it can and can't do.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"],
   },
+  keywords: ["pilates for back pain", "pilates lower back pain", "pilates chronic back pain relief", "pilates spine health", "reformer pilates back pain", "pilates back rehabilitation"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const RELATED = [
@@ -90,6 +92,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Pilates for Back Pain: What the Evidence Says", "item": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Pilates good for lower back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Multiple systematic reviews show Pilates is effective for chronic lower back pain. It works through spinal articulation, deep core strengthening, and postural correction. Results typically require 6\u201312 weeks of consistent practice with qualified instructor guidance." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there Pilates exercises to avoid with back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "With acute or severe back pain, avoid full spinal flexion exercises like the roll-up or rolling like a ball, and high-load single-leg movements. A qualified instructor will modify the repertoire. If you have a disc injury, seek a Pilates instructor with rehabilitation experience first." }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I see a doctor before starting Pilates for back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For chronic back pain with a known cause, Pilates is generally safe after informing your instructor. For new, acute, or radiating pain \u2014 especially with numbness or weakness \u2014 see a doctor first to rule out pathological causes." }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take for Pilates to help back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Most practitioners report meaningful improvement in 4\u20138 weeks of twice-weekly practice. For chronic conditions, 12 weeks is a reasonable timeframe to assess whether Pilates is the right intervention." }
+    }
+      ]
     },
   ],
 };

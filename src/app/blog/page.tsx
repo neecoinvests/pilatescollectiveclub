@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 interface Post {
@@ -342,9 +343,37 @@ const posts: Post[] = [
 const featured = posts.find((p) => p.featured)!;
 const rest = posts.filter((p) => !p.featured);
 
+const blogJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://pilatescollectiveclub.com/blog/#webpage",
+      "url": "https://pilatescollectiveclub.com/blog",
+      "name": "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
+      "description": "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",
+      "isPartOf": { "@id": "https://pilatescollectiveclub.com/#website" },
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "ItemList",
+      "name": "Pilates Articles and Equipment Reviews",
+      "url": "https://pilatescollectiveclub.com/blog",
+      "numberOfItems": posts.length,
+      "itemListElement": posts.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "url": `https://pilatescollectiveclub.com${p.href}`,
+        "name": p.title,
+      })),
+    },
+  ],
+};
+
 export default function BlogPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }} />
       <Header />
       <main className="pt-20" style={{ backgroundColor: "#fcf9f8", minHeight: "100vh" }}>
 

@@ -22,9 +22,11 @@ export const metadata: Metadata = {
     description: "Practical strategies for making Pilates a lasting habit — even with a demanding schedule.",
     images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"],
   },
+  keywords: ["consistent pilates practice", "pilates habit building", "how to practice pilates regularly", "pilates practice schedule", "building pilates routine", "pilates consistency tips"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const RELATED = [
@@ -90,6 +92,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "How to Build a Consistent Pilates Practice", "item": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should I do Pilates to see results?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Two to three sessions per week produces visible results in 4\u20138 weeks for most practitioners. One session per week will maintain fitness but produces slower progress. Three or more sessions per week suits practitioners with specific rehabilitative or performance goals." }
+    },
+    {
+      "@type": "Question",
+      "name": "What time of day is best for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates can be done at any time. Morning practice suits those who prefer starting with movement; the body is slightly less flexible but less fatigued. Evening practice is good for stress reduction. Consistency of timing reinforces the habit." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I stay motivated to practice Pilates regularly?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The most reliable strategies: book classes in advance, find a studio or community you enjoy, track your progress, and vary the format \u2014 mixing reformer and mat, group and private sessions. Motivation follows results." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do Pilates every day?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Daily Pilates is possible but requires varying intensity. Intensive reformer sessions should be separated by at least one rest day. Mat work and gentle stretching can be done daily." }
+    }
+      ]
     },
   ],
 };

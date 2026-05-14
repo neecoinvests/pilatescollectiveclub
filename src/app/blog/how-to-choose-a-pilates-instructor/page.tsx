@@ -20,9 +20,11 @@ export const metadata: Metadata = {
     description: "Credentials, experience, and red flags to look for when selecting a Pilates teacher.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
+  keywords: ["how to choose pilates instructor", "pilates instructor credentials", "pilates teacher qualifications", "certified pilates instructor", "pilates instructor red flags", "pma certified pilates"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 
@@ -69,6 +71,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "How to Choose a Pilates Instructor", "item": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What qualifications should a Pilates instructor have?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Look for comprehensive training from recognised bodies such as STOTT Pilates, Balanced Body, BASI, or Pilates Method Alliance (PMA). These programmes require 450\u2013600+ hours covering anatomy, all apparatus, and supervised teaching. Weekend certifications are insufficient." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is PMA certification?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The Pilates Method Alliance PMA-CPT is a nationally accredited credential that tests knowledge across all Pilates apparatus and methodology. It requires prior comprehensive teacher training and is listed as a preferred qualification at many top studios." }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I tell if a Pilates instructor is good?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Strong instructors observe and cue rather than just demonstrate, adjust exercises to your individual body, ask about injuries before class, and give anatomically specific cues. Warning signs include applying the same sequence to every client and never modifying." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a weekend Pilates certification enough?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Weekend or 16-hour certifications are insufficient for teaching a safe, full Pilates practice. They may cover basic mat movements but exclude the anatomy and contraindication knowledge required for real clients. Seek instructors with 450-hour or higher comprehensive training." }
+    }
+      ]
     },
   ],
 };

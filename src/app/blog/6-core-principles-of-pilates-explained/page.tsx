@@ -22,9 +22,11 @@ export const metadata: Metadata = {
     description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
+  keywords: ["pilates principles", "6 principles of pilates", "pilates centring control concentration", "breathing in pilates", "joseph pilates contrology principles", "pilates precision flow"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRINCIPLES = [
@@ -123,6 +125,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "6 Core Principles of Pilates Explained", "item": "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the 6 principles of Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The six classical Pilates principles are: Centring (engaging the core powerhouse), Concentration (full mental focus), Control (muscular command), Precision (exactness of position), Breath (coordinating movement with inhalation and exhalation), and Flow (smooth, continuous transitions)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is breathing important in Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Breathing in Pilates is functional and intentional. Exhalation on exertion engages the deep abdominals and pelvic floor, supporting spinal stability. Lateral breathing keeps the ribcage stable during abdominal work. Proper breath prevents the Valsalva manoeuvre during loading." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the powerhouse in Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The powerhouse is Joseph Pilates' term for the deep muscular corset supporting the spine: the transverse abdominis, multifidus, pelvic floor, and diaphragm. Modern anatomical understanding describes this as the 'inner unit' or 'local stabilisers'. All Pilates movement initiates from this centre." }
+    },
+    {
+      "@type": "Question",
+      "name": "What does 'control' mean in Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Control in Pilates means every movement is directed by muscular effort \u2014 no momentum, no collapsing, no relying on joints rather than muscles. Joseph Pilates originally called his method 'Contrology' \u2014 the complete coordination of body, mind, and spirit." }
+    }
+      ]
     },
   ],
 };

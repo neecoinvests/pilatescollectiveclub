@@ -20,9 +20,11 @@ export const metadata: Metadata = {
     description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid.",
     images: ["https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"],
   },
+  keywords: ["pilates during pregnancy", "prenatal pilates", "pregnancy pilates exercises", "pilates pregnant women", "antenatal pilates", "safe pilates exercises pregnancy"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 
@@ -69,6 +71,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Pilates and Pregnancy", "item": "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Pilates safe during pregnancy?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates is one of the most recommended exercises during pregnancy when modified appropriately. From the second trimester, exercises lying on the back should be limited. Seek an instructor specifically trained in prenatal Pilates." }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I stop certain Pilates exercises during pregnancy?",
+      "acceptedAnswer": { "@type": "Answer", "text": "From around 16\u201320 weeks, avoid sustained back-lying exercises. High-load abdominal exercises should be modified to prevent diastasis recti strain. Your instructor will adapt the programme as pregnancy progresses." }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the benefits of Pilates during pregnancy?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Prenatal Pilates supports pelvic floor function, reduces lower back and hip pain, builds the core strength needed for labour, and helps maintain posture as the body's centre of gravity shifts." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I start Pilates for the first time while pregnant?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Starting Pilates during pregnancy is possible but requires a specialist prenatal instructor rather than a general class. Always consult your midwife or obstetrician before beginning any new exercise programme." }
+    }
+      ]
     },
   ],
 };

@@ -22,9 +22,23 @@ export const metadata: Metadata = {
     "find pilates studio",
     "pilates collective club",
   ],
+  openGraph: {
+    title: "Pilates Collective Club — Find Your Studio. Know Your Method.",
+    description: "Curated city guides and expert studio recommendations for Pilates practitioners worldwide. Find the best reformer studios in London, New York, Paris, Zurich and more.",
+    type: "website",
+    url: "https://pilatescollectiveclub.com",
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club — curated studio guides and equipment picks for Pilates practitioners" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pilates Collective Club — Find Your Studio. Know Your Method.",
+    description: "Curated city guides and expert studio recommendations for Pilates practitioners worldwide.",
+    images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
+  },
   alternates: {
     canonical: "https://pilatescollectiveclub.com",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const CITIES = [
@@ -177,6 +191,38 @@ const PRODUCT_CATEGORIES = [
   },
 ];
 
+const homeJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://pilatescollectiveclub.com/#webpage",
+      "url": "https://pilatescollectiveclub.com",
+      "name": "Pilates Collective Club — Find Your Studio. Know Your Method.",
+      "description": "Curated city guides, expert studio recommendations, and equipment picks for Pilates practitioners worldwide.",
+      "isPartOf": { "@id": "https://pilatescollectiveclub.com/#website" },
+      "about": { "@id": "https://pilatescollectiveclub.com/#organization" },
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "ItemList",
+      "name": "Featured Pilates Articles",
+      "url": "https://pilatescollectiveclub.com",
+      "numberOfItems": 8,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "url": "https://pilatescollectiveclub.com/cities/zurich", "name": "The Best Pilates Studios in Zurich" },
+        { "@type": "ListItem", "position": 2, "url": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates", "name": "The Beginner's Guide to Reformer Pilates" },
+        { "@type": "ListItem", "position": 3, "url": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain", "name": "Pilates for Back Pain: What the Research Shows" },
+        { "@type": "ListItem", "position": 4, "url": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates", "name": "Classical vs Contemporary Pilates" },
+        { "@type": "ListItem", "position": 5, "url": "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice", "name": "Best Pilates Equipment for Home Practice" },
+        { "@type": "ListItem", "position": 6, "url": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga", "name": "Pilates vs Yoga: Key Differences" },
+        { "@type": "ListItem", "position": 7, "url": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe", "name": "The Best Pilates Retreats in Europe" },
+        { "@type": "ListItem", "position": 8, "url": "https://pilatescollectiveclub.com/blog/pilates-for-athletes", "name": "Pilates for Athletes" },
+      ],
+    },
+  ],
+};
+
 const label = {
   fontFamily: "var(--font-sans)",
   fontSize: "10px",
@@ -189,6 +235,7 @@ const label = {
 export default function Home() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }} />
       <Header />
       <main>
 

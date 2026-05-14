@@ -23,9 +23,11 @@ export const metadata: Metadata = {
     description: "The best grip socks for Pilates — honest reviews and our top pick.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
+  keywords: ["best pilates grip socks", "pilates socks review", "toesox pilates socks", "tavi noir grip socks", "reformer pilates socks", "studio grip socks non-slip"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -86,12 +88,36 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks/#article",
       "headline": "Best Pilates Grip Socks (2026): Studio-Tested and Ranked",
       "description": "The best grip socks for Pilates, tested across reformer, mat, and barre classes. From ToeSox to Tavi Noir — honest reviews and our top pick.",
-      "url": "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
+        "width": 1200,
+        "height": 630,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-01",
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "dateModified": "2026-05-14",
+      "url": "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
+      "articleSection": "Equipment",
+      "inLanguage": "en-US",
     },
     {
       "@type": "BreadcrumbList",
@@ -100,6 +126,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Grip Socks", "item": "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need grip socks for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For studio reformer classes, yes — most studios require them for hygiene and safety reasons. For home mat practice, they're optional, but many practitioners find they genuinely improve balance and foot connection during standing and mat exercises." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use yoga socks for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yoga grip socks typically have a dot pattern only at the ball of the foot. This is insufficient for reformer footwork where the heel also needs grip on the footbar. Use Pilates-specific socks with full sole coverage for reformer classes." }
+    },
+    {
+      "@type": "Question",
+      "name": "What size should I buy?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Size true-to-foot for ToeSox and Tavi Noir. Shashi and Bellarina run slightly large — size down if you're between sizes. Most brands offer S/M (US W 5-8) and M/L (US W 8-11) as the two main options." }
+    },
+    {
+      "@type": "Question",
+      "name": "How many pairs do I need?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Two pairs minimum. If you practice three or more times per week, three pairs means you'll always have a fresh, dry pair available without rushing laundry." }
+    }
+      ]
     },
   ],
 };

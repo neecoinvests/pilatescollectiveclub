@@ -23,9 +23,11 @@ export const metadata: Metadata = {
     description: "Our definitive guide to home Pilates equipment.",
     images: ["https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg"],
   },
+  keywords: ["best pilates equipment for home", "home pilates equipment", "pilates home practice gear", "essential pilates props", "pilates home setup", "pilates equipment beginners"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 
@@ -72,6 +74,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Equipment for Home Practice", "item": "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What equipment do I need to start Pilates at home?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A quality mat, a magic circle, and a set of resistance bands are sufficient for most mat Pilates exercises at home. A mini stability ball and ankle weights extend the repertoire considerably. You don't need a reformer to build a serious home practice." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Pilates reformer worth buying for home use?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A home reformer is worthwhile if you practise three or more times per week, have space, and budget $400\u2013$3,000. Entry-level machines like the AeroPilates 435 cover around 75% of a studio reformer's repertoire. For occasional practice, mat work with props is the better investment." }
+    },
+    {
+      "@type": "Question",
+      "name": "What mat thickness is best for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A 6\u20138mm mat is the standard. Thinner mats (3\u20134mm) are too firm for spinal rolling. Thicker yoga mats (10mm+) can be too soft, reducing proprioceptive feedback during precision movements." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do Pilates at home without equipment?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Mat Pilates requires only floor space and a mat. The core mat repertoire \u2014 hundreds, roll-up, single leg circles, rolling like a ball \u2014 requires no equipment and constitutes a full workout when performed with precision." }
+    }
+      ]
     },
   ],
 };

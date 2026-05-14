@@ -22,9 +22,11 @@ export const metadata: Metadata = {
     description: "Everything you need to know before your first reformer Pilates class.",
     images: ["https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"],
   },
+  keywords: ["reformer pilates for beginners", "first reformer class", "how to start reformer pilates", "beginner reformer pilates guide", "what to expect reformer pilates", "pilates reformer beginner tips"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const RELATED = [
@@ -90,6 +92,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "The Beginner's Guide to Reformer Pilates", "item": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many times a week should a beginner do reformer Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Two sessions per week is the standard recommendation for beginners. This gives your body time to recover while building neuromuscular patterns. After 8\u201312 weeks, many practitioners move to three sessions per week." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is reformer Pilates hard for beginners?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Reformer Pilates has a learning curve \u2014 the equipment is unfamiliar and the repertoire can feel complex. Most practitioners feel comfortable with the basics after four to six classes. The first session is largely observational." }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I wear to my first reformer class?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Fitted or tapered trousers and a fitted top. Avoid loose clothing that can catch in the springs. Grip socks are required at most studios \u2014 bring a pair or purchase them on arrival." }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I eat before reformer Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Avoid large meals two hours before class. A light snack one hour before is fine for most practitioners. Core-intensive exercises are uncomfortable on a full stomach." }
+    }
+      ]
     },
   ],
 };

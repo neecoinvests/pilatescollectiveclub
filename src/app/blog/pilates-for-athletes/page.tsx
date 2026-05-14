@@ -20,9 +20,11 @@ export const metadata: Metadata = {
     description: "How elite sports professionals use Pilates to build functional strength and prevent injury.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
+  keywords: ["pilates for athletes", "sports pilates training", "pilates performance training", "pilates injury prevention athletes", "pilates for runners cyclists", "cross training pilates"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 
@@ -69,6 +71,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Pilates for Athletes", "item": "https://pilatescollectiveclub.com/blog/pilates-for-athletes" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should athletes do Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "One to two sessions per week is standard for athletes using Pilates as cross-training. This frequency builds core stability and corrects imbalances without compromising sport-specific training. During off-season, two to three sessions per week can accelerate gains." }
+    },
+    {
+      "@type": "Question",
+      "name": "What sports benefit most from Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Running, cycling, swimming, tennis, and golf show the strongest benefit. These sports involve repetitive single-plane movement that creates muscular imbalances \u2014 exactly what Pilates addresses through multi-plane core work and rotational control." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Pilates replace strength training for athletes?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates does not replace heavy resistance training for athletes needing maximum force production. It excels at stability, proprioception, and corrective work. The most effective programmes combine both: Pilates for control and injury prevention, resistance training for power." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Pilates good for injury recovery?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates is widely used in sports rehabilitation because its controlled, low-impact nature allows athletes to maintain conditioning while recovering. Many physiotherapists use Pilates-informed exercises for knee, hip, shoulder, and spinal rehabilitation." }
+    }
+      ]
     },
   ],
 };

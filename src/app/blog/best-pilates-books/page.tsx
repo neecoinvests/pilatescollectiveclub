@@ -23,9 +23,11 @@ export const metadata: Metadata = {
     description: "The best Pilates books for every level — reviewed and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
+  keywords: ["best pilates books", "pilates reading list", "return to life joseph pilates book", "pilates anatomy book", "pilates theory books", "books for pilates teachers"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-books",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const BOOKS = [
@@ -91,12 +93,36 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-pilates-books/#article",
       "headline": "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
       "description": "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
-      "url": "https://pilatescollectiveclub.com/blog/best-pilates-books",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+        "width": 1200,
+        "height": 630,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-01",
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "dateModified": "2026-05-14",
+      "url": "https://pilatescollectiveclub.com/blog/best-pilates-books",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-books",
+      "articleSection": "Reading",
+      "inLanguage": "en-US",
     },
     {
       "@type": "BreadcrumbList",
@@ -105,6 +131,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Books", "item": "https://pilatescollectiveclub.com/blog/best-pilates-books" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Joseph Pilates original book?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Joseph Pilates published two books: Your Health (1934) and Return to Life Through Contrology (1945), which describes the 34 original mat exercises. Both remain essential reading for serious practitioners." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best Pilates book for beginners?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The Pilates Body by Brooke Siler is widely recommended for beginners. Rael Isacowitz and Karen Clippinger's Pilates Anatomy is the best second purchase for anatomical depth." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there Pilates books for specific conditions?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates for Rehabilitation by Brent Anderson covers clinical applications. For back pain, specialised instructor-recommended texts address Pilates-informed care. Always cross-reference with a qualified instructor." }
+    },
+    {
+      "@type": "Question",
+      "name": "What should Pilates teachers read?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Beyond the classical texts, Anatomy of Movement by Blandine Calais-Germain provides biomechanics foundations. STOTT Pilates instructor manuals are valuable for those trained in the contemporary lineage." }
+    }
+      ]
     },
   ],
 };

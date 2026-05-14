@@ -23,9 +23,11 @@ export const metadata: Metadata = {
     description: "The best home Pilates reformers tested across every price point.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
+  keywords: ["best home pilates reformer", "home pilates reformer reviews", "aeropilates home reformer", "balanced body home reformer", "merrithew home reformer", "top pilates reformers for home"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
   },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -80,12 +82,36 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer/#article",
       "headline": "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
       "description": "The best home Pilates reformers tested across every price point — from budget AeroPilates to professional Merrithew and Balanced Body machines.",
-      "url": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
+        "width": 1200,
+        "height": 630,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-01",
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "dateModified": "2026-05-14",
+      "url": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
+      "articleSection": "Equipment",
+      "inLanguage": "en-US",
     },
     {
       "@type": "BreadcrumbList",
@@ -94,6 +120,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Best Home Pilates Reformer", "item": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a home Pilates reformer cost?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Home Pilates reformers range from $300 to $5,000+ for professional machines. A quality mid-range reformer costs $1,500-$2,500, equivalent to roughly 12-18 months of studio membership." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best entry-level home reformer?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The AeroPilates 435 is the most recommended entry-level home reformer. It includes a jumpboard and four springs, covers around 75% of the full repertoire, and retails at $500-$700." }
+    },
+    {
+      "@type": "Question",
+      "name": "How much space does a home Pilates reformer need?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A standard reformer requires approximately 8 feet (2.4m) of length and 3 feet (0.9m) of width. A minimum room footprint of 12 by 8 feet is comfortable for most reformers with clearance." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a home reformer as good as a studio reformer?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Mid-range home reformers like the Balanced Body Studio Reformer or Merrithew At Home SPX cover the full repertoire adequately. Professional studio machines are more robust but the difference is manageable for home practice." }
+    }
+      ]
     },
   ],
 };
