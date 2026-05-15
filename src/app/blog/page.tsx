@@ -6,19 +6,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
-  description: "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips. Everything from choosing a reformer to classical vs contemporary Pilates.",
-  keywords: [
-    "pilates blog",
-    "pilates equipment reviews",
-    "pilates for beginners",
-    "reformer pilates guide",
-    "pilates vs yoga",
-    "classical pilates",
-    "best pilates mat",
-    "pilates grip socks",
-    "pilates instructor advice",
-    "pilates method explained",
-  ],
+  description: "In-depth Pilates guides: equipment reviews, beginner advice, method comparisons, studio tips, and brand guides. Everything a serious practitioner needs to know.",
+  keywords: ["pilates blog", "pilates equipment reviews", "pilates for beginners", "reformer pilates guide", "pilates vs yoga", "classical pilates", "best pilates mat", "pilates advice", "pilates method", "pilates tips 2026", "pilates articles"],
   openGraph: {
     title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
     description: "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",

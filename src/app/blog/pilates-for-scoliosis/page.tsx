@@ -6,19 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Pilates for Scoliosis: What Actually Works | Pilates Collective Club",
-  description:
-    "An honest guide to Pilates for scoliosis — what the research shows, which exercises help, what to avoid, and how to work with an instructor who understands spinal curves.",
-  keywords: [
-    "pilates for scoliosis",
-    "scoliosis pilates exercises",
-    "pilates scoliosis adults",
-    "reformer pilates scoliosis",
-    "scoliosis exercise pilates",
-    "best exercise for scoliosis",
-    "pilates spinal curve",
-    "scoliosis treatment pilates",
-  ],
+  title: "Pilates for Scoliosis (2026): What Actually Works | Pilates Collective Club",
+  description: "The honest guide to Pilates and scoliosis — what the evidence shows, which exercises help your specific curve pattern, what to avoid, and how to find a qualified instructor.",
+  keywords: ["pilates for scoliosis", "scoliosis pilates exercises", "pilates spinal curve", "pilates schroth method", "pilates scoliosis safe exercises", "reformer pilates scoliosis", "pilates scoliosis instructor", "exercises to avoid scoliosis pilates", "pilates for spinal asymmetry", "scoliosis pilates guide 2026"],
   openGraph: {
     title: "Pilates for Scoliosis: What Actually Works",
     description: "An honest guide to Pilates for scoliosis — what the research shows and how to approach your practice safely.",

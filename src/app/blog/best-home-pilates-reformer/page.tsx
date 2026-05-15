@@ -7,9 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed | Pilates Collective Club",
-  description:
-    "The best home Pilates reformers tested across every price point — from budget-friendly AeroPilates to professional Merrithew and Balanced Body machines. Find the right one for your space and budget.",
+  title: "Best Home Pilates Reformer (2026): Every Budget Honestly Reviewed | Pilates Collective Club",
+  description: "The best home Pilates reformers tested at every price point — AeroPilates, Balanced Body, Merrithew At Home SPX. Find the right machine for your space and budget.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
     description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
     description: "The best home Pilates reformers tested across every price point.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
-  keywords: ["best home pilates reformer", "home pilates reformer reviews", "aeropilates home reformer", "balanced body home reformer", "merrithew home reformer", "top pilates reformers for home"],
+  keywords: ["best home pilates reformer", "home pilates reformer review", "pilates reformer for home use", "aeropilates reformer review", "balanced body home reformer", "merrithew at home reformer", "best pilates reformer under 500", "best pilates reformer under 2000", "home reformer pilates 2026", "pilates reformer vs mat pilates"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
   },

@@ -8,16 +8,8 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Splits59 for Pilates (2026): The Brand Built for the Method | Pilates Collective Club",
-  description:
-    "Splits59 is the activewear brand most explicitly designed for Pilates and barre. This guide covers the best Splits59 pieces for reformer and mat work — the Raquel legging, Sylvie bra, and what to prioritise.",
-  keywords: [
-    "splits59 pilates",
-    "splits59 for pilates",
-    "splits59 raquel legging",
-    "splits59 activewear review",
-    "best splits59 pilates",
-    "splits59 barre pilates",
-  ],
+  description: "Splits59 was designed explicitly for Pilates and barre. The Raquel legging, Sylvie bra, and Beckett jacket reviewed — and why the Raquel may be the finest Pilates legging made.",
+  keywords: ["splits59 pilates", "splits59 for pilates", "splits59 raquel legging review", "splits59 sylvie bra pilates", "splits59 activewear review", "splits59 vs lululemon pilates", "splits59 vs alo pilates", "best splits59 pilates pieces", "splits59 pilates barre", "splits59 pilates review 2026"],
   openGraph: {
     title: "Splits59 for Pilates (2026): The Brand Built for the Method",
     description: "Splits59 is the activewear brand most explicitly designed for Pilates and barre — the Raquel legging, Sylvie bra, and what to prioritise.",

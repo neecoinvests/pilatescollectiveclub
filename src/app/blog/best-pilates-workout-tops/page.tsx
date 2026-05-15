@@ -7,19 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Tops & Sports Bras (2026): Tested for Studio Wear | Pilates Collective Club",
-  description:
-    "The best workout tops and sports bras for Pilates in 2026 — tested for coverage during inversions, instructor visibility, and reformer comfort. Alo, Lululemon, Varley, and more.",
-  keywords: [
-    "best pilates tops",
-    "best sports bra pilates",
-    "pilates workout tops 2026",
-    "best tops for pilates class",
-    "pilates bra top",
-    "reformer pilates top",
-    "best pilates tank top",
-    "pilates activewear tops",
-  ],
+  title: "Best Pilates Tops & Sports Bras (2026): Studio-Tested | Pilates Collective Club",
+  description: "The best Pilates tops and sports bras tested for coverage, instructor visibility, and reformer comfort — Lululemon, Alo Yoga, Varley, and more honestly ranked.",
+  keywords: ["best pilates tops", "pilates sports bras", "best pilates workout top", "pilates top review", "pilates studio top", "best sports bra pilates", "lululemon pilates top", "alo yoga pilates bra", "varley pilates top", "pilates activewear top 2026"],
   openGraph: {
     title: "Best Pilates Tops & Sports Bras (2026): Tested for Studio Wear",
     description: "The best workout tops and sports bras for Pilates — tested for coverage, instructor visibility, and reformer comfort.",

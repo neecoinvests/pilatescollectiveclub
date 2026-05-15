@@ -6,21 +6,8 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Pilates Brand Guides — Activewear & Equipment Reviews | Pilates Collective Club",
-  description:
-    "Complete brand guides for Pilates activewear and equipment. Lululemon, Alo Yoga, Varley, Gymshark, Sweaty Betty, Splits59, Manduka and more — honest reviews for Pilates practitioners.",
-  keywords: [
-    "pilates activewear brands",
-    "best pilates brand",
-    "lululemon pilates",
-    "alo yoga pilates",
-    "varley pilates",
-    "gymshark pilates",
-    "sweaty betty pilates",
-    "splits59 pilates",
-    "manduka pilates mat",
-    "pilates brand comparison",
-    "pilates equipment brands",
-  ],
+  description: "Honest brand guides for every major Pilates activewear and equipment brand. Lululemon, Alo, Varley, Splits59, Manduka, Gymshark — tested by practitioners, not marketers.",
+  keywords: ["pilates activewear brands", "best pilates brand", "lululemon pilates review", "alo yoga pilates review", "varley pilates review", "splits59 pilates", "manduka pilates mat", "gymshark pilates", "sweaty betty pilates", "pilates brand comparison", "best pilates clothes", "pilates equipment brands"],
   openGraph: {
     title: "Pilates Brand Guides — Activewear & Equipment Reviews",
     description: "Complete brand guides for Pilates activewear and equipment. Honest reviews for every major brand.",

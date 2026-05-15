@@ -6,9 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "How to Build a Consistent Pilates Practice | Pilates Collective Club",
-  description:
-    "Practical strategies for making Pilates a lasting habit — even with a demanding schedule. Frequency, environment, mindset, and the habits that make the difference.",
+  title: "How to Build a Consistent Pilates Practice (2026) | Pilates Collective Club",
+  description: "The habits, scheduling strategies, and mindset shifts that separate practitioners who see results from those who plateau. A practical guide to making Pilates stick.",
   openGraph: {
     title: "How to Build a Consistent Pilates Practice",
     description: "Practical strategies for making Pilates a lasting habit — even with a demanding schedule. Frequency, environment, mindset, and the habits that make the difference.",
@@ -22,7 +21,7 @@ export const metadata: Metadata = {
     description: "Practical strategies for making Pilates a lasting habit — even with a demanding schedule.",
     images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"],
   },
-  keywords: ["consistent pilates practice", "pilates habit building", "how to practice pilates regularly", "pilates practice schedule", "building pilates routine", "pilates consistency tips"],
+  keywords: ["consistent pilates practice", "how to practice pilates regularly", "pilates habit building", "pilates practice schedule", "how often to do pilates", "pilates routine tips", "starting pilates routine", "pilates motivation tips", "how to stick to pilates", "pilates practice guide 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
   },

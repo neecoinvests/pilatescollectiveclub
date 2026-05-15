@@ -6,19 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Club Pilates Review (2026): Is It Worth It? An Honest Assessment | Pilates Collective Club",
-  description:
-    "An honest Club Pilates review — class quality, instructor training, equipment, membership pricing, and how it compares to boutique independent studios. Who it's right for and who should look elsewhere.",
-  keywords: [
-    "club pilates review",
-    "club pilates",
-    "is club pilates worth it",
-    "club pilates vs boutique pilates",
-    "club pilates membership",
-    "club pilates class review",
-    "club pilates instructor quality",
-    "club pilates pricing",
-  ],
+  title: "Club Pilates Review (2026): Is the Franchise Worth It? | Pilates Collective Club",
+  description: "An honest assessment of Club Pilates — equipment quality, instructor training, class sizes, membership cost, and who should look elsewhere. The franchise Pilates verdict.",
+  keywords: ["club pilates review", "club pilates worth it", "club pilates franchise", "club pilates membership cost", "club pilates class quality", "club pilates instructor training", "club pilates vs boutique studio", "club pilates reformer", "is club pilates good", "club pilates 2026 review"],
   openGraph: {
     title: "Club Pilates Review (2026): Is It Worth It? An Honest Assessment",
     description: "An honest review of Club Pilates — class quality, instructor training, equipment, and how it compares to boutique studios.",

@@ -7,19 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Foam Roller for Pilates (2026): Tested & Ranked | Pilates Collective Club",
-  description:
-    "The best foam rollers for Pilates practitioners in 2026 — tested for spinal mobility, myofascial release, and use as a balance prop. OPTP, TriggerPoint, and more.",
-  keywords: [
-    "best foam roller for pilates",
-    "pilates foam roller 2026",
-    "foam roller pilates",
-    "best foam roller spinal mobility",
-    "foam roller back pain pilates",
-    "half round foam roller pilates",
-    "trigger point foam roller",
-    "pilates foam roller exercises",
-  ],
+  title: "Best Foam Roller for Pilates (2026): Spinal Mobility Tested | Pilates Collective Club",
+  description: "The best foam rollers for Pilates spinal mobilisation and myofascial release — OPTP, TriggerPoint GRID, Balanced Body tested for density, size, and spinal feedback quality.",
+  keywords: ["best foam roller for pilates", "pilates foam roller review", "optp foam roller pilates", "triggerpoint grid foam roller", "foam roller spinal mobility", "foam roller myofascial release pilates", "half round foam roller pilates", "best foam roller for back pilates", "pilates foam roller exercises", "foam roller pilates 2026"],
   openGraph: {
     title: "Best Foam Roller for Pilates (2026): Tested & Ranked",
     description: "The best foam rollers for Pilates — tested for spinal mobility, myofascial release, and balance work.",

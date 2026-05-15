@@ -8,18 +8,8 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Lululemon for Pilates (2026): Best Pieces for Studio & Reformer | Pilates Collective Club",
-  description:
-    "The complete guide to the best Lululemon pieces for Pilates — Align legging, Align bra, Flow Y bra, Define jacket, and what to skip. Tested across reformer, mat, and barre.",
-  keywords: [
-    "lululemon pilates",
-    "lululemon for pilates",
-    "best lululemon for pilates",
-    "lululemon align pilates",
-    "lululemon pilates clothes",
-    "lululemon reformer pilates",
-    "lululemon align legging review",
-    "lululemon pilates outfit",
-  ],
+  description: "The definitive guide to Lululemon for Pilates — Align Pant, Align Bra, Flow Y, and Define Jacket reviewed for studio and reformer use. What to buy and what to skip.",
+  keywords: ["lululemon pilates", "lululemon for pilates", "lululemon align pilates", "lululemon align pant review", "lululemon align bra pilates", "lululemon flow y pilates", "lululemon vs alo pilates", "best lululemon for pilates", "lululemon reformer pilates", "lululemon pilates 2026"],
   openGraph: {
     title: "Lululemon for Pilates (2026): Best Pieces for Studio & Reformer",
     description: "The complete guide to the best Lululemon pieces for Pilates — tested across reformer, mat, and barre.",

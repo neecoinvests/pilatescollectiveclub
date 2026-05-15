@@ -7,19 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Alo Yoga for Pilates (2026): Best Pieces, Alo Moves & Honest Review | Pilates Collective Club",
-  description:
-    "Everything Alo Yoga makes that's worth buying for Pilates — the Airbrush legging, Airlift bra, Alo Moves app, and the pieces that don't live up to the brand. An honest review.",
-  keywords: [
-    "alo yoga pilates",
-    "alo yoga pilates clothes",
-    "alo moves pilates",
-    "alo yoga for pilates",
-    "alo airbrush legging pilates",
-    "alo yoga pilates review",
-    "alo yoga reformer pilates",
-    "best alo yoga for pilates",
-  ],
+  title: "Alo Yoga for Pilates (2026): Best Pieces & Honest Review | Pilates Collective Club",
+  description: "The Alo Airbrush legging, Airlift bra, and Alo Moves app — honestly reviewed for Pilates. Which Alo pieces actually work in the studio and which to skip.",
+  keywords: ["alo yoga pilates", "alo yoga for pilates", "alo airbrush legging pilates", "alo airlift bra pilates", "alo moves pilates", "best alo yoga pilates", "alo yoga leggings review", "alo yoga vs lululemon pilates", "alo yoga studio wear", "alo yoga activewear pilates 2026"],
   openGraph: {
     title: "Alo Yoga for Pilates (2026): Best Pieces, Alo Moves & Honest Review",
     description: "Everything Alo Yoga makes that's worth buying for Pilates — and an honest look at what doesn't deliver.",

@@ -8,16 +8,8 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Girlfriend Collective for Pilates (2026): Sustainable Activewear Reviewed | Pilates Collective Club",
-  description:
-    "The complete guide to Girlfriend Collective activewear for Pilates — the best leggings, bras, and sets from the sustainable activewear brand. Honest review for Pilates practitioners who care about both performance and ethics.",
-  keywords: [
-    "girlfriend collective pilates",
-    "girlfriend collective for pilates",
-    "girlfriend collective leggings pilates",
-    "sustainable pilates activewear",
-    "eco pilates activewear",
-    "girlfriend collective review pilates",
-  ],
+  description: "Girlfriend Collective Compressive Legging, Float Bra, and Bike Short reviewed for Pilates. The sustainable brand made from recycled materials — does performance match the ethics?",
+  keywords: ["girlfriend collective pilates", "girlfriend collective for pilates", "girlfriend collective leggings pilates", "sustainable pilates activewear", "eco pilates leggings", "girlfriend collective review", "girlfriend collective compressive legging", "ethical pilates activewear", "girlfriend collective vs lululemon", "sustainable activewear pilates 2026"],
   openGraph: {
     title: "Girlfriend Collective for Pilates (2026): Sustainable Activewear Reviewed",
     description: "The complete guide to Girlfriend Collective activewear for Pilates — honest review for practitioners who care about both performance and ethics.",

@@ -8,18 +8,8 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Leggings (2026): Studio-Tested & Ranked | Pilates Collective Club",
-  description:
-    "The best leggings for Pilates in 2026 — tested for compression, opacity, waistband stability, and reformer performance. From Alo Yoga to Lululemon and beyond.",
-  keywords: [
-    "best pilates leggings",
-    "pilates leggings 2026",
-    "reformer pilates leggings",
-    "high waist pilates leggings",
-    "best leggings for pilates",
-    "pilates workout leggings",
-    "opaque pilates leggings",
-    "compression leggings pilates",
-  ],
+  description: "The best Pilates leggings tested for opacity, waistband stability, and reformer performance — Lululemon Align, Alo Airbrush, CRZ YOGA, and more ranked honestly.",
+  keywords: ["best pilates leggings", "pilates leggings review", "lululemon align pilates", "alo airbrush legging pilates", "best leggings for reformer pilates", "most opaque pilates leggings", "high waist pilates leggings", "best leggings for pilates class", "pilates leggings 2026", "crz yoga pilates leggings"],
   openGraph: {
     title: "Best Pilates Leggings (2026): Studio-Tested & Ranked",
     description: "The best leggings for Pilates — tested for compression, opacity, and reformer performance.",

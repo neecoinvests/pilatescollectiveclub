@@ -5,8 +5,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Retreats in Europe | Pilates Collective Club",
-  description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
+  title: "Best Pilates Retreats in Europe (2026): Tested & Ranked | Pilates Collective Club",
+  description: "The best Pilates retreats across Europe — Switzerland, France, Italy, Portugal, and Greece. Immersive studio experiences for every level, honestly reviewed and ranked.",
   openGraph: {
     title: "The Best Pilates Retreats in Europe",
     description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "From Provence to Puglia — the European Pilates retreats worth planning your year around.",
     images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
-  keywords: ["pilates retreats europe", "pilates holiday europe", "pilates retreat italy", "best pilates retreat", "pilates immersion retreat", "pilates wellness holiday"],
+  keywords: ["pilates retreats europe", "best pilates retreat", "pilates holiday europe", "pilates retreat italy", "pilates retreat france", "pilates retreat portugal", "pilates retreat switzerland", "pilates immersion retreat", "pilates wellness holiday", "pilates retreat 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
   },

@@ -7,19 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ring / Magic Circle (2026): Tested & Ranked | Pilates Collective Club",
-  description:
-    "The best Pilates rings and magic circles in 2026 — tested for resistance, pad quality, and durability. STOTT, Balanced Body, ProBody, and more ranked honestly.",
-  keywords: [
-    "best pilates ring",
-    "best magic circle pilates",
-    "pilates ring 2026",
-    "pilates magic circle",
-    "best pilates toning ring",
-    "pilates ring review",
-    "magic circle pilates exercises",
-    "pilates ring for beginners",
-  ],
+  title: "Best Pilates Ring / Magic Circle (2026): 5 Options Tested | Pilates Collective Club",
+  description: "The best Pilates rings tested for resistance, pad quality, and durability — STOTT, Balanced Body, ProBody, and SISSEL ranked for home practice and studio use.",
+  keywords: ["best pilates ring", "pilates magic circle review", "stott pilates ring", "balanced body pilates ring", "pilates ring exercises", "magic circle pilates", "best magic circle pilates", "pilates ring resistance", "pilates prop review", "pilates magic circle 2026"],
   openGraph: {
     title: "Best Pilates Ring / Magic Circle (2026): Tested & Ranked",
     description: "The best Pilates rings — tested for resistance, pad quality, and durability.",

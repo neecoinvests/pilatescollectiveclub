@@ -5,8 +5,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates vs Yoga: Key Differences and How to Choose | Pilates Collective Club",
-  description: "A clear, honest comparison of Pilates and yoga — what each practice develops, who each suits, and how to choose between them.",
+  title: "Pilates vs Yoga (2026): Key Differences & How to Choose | Pilates Collective Club",
+  description: "The honest comparison of Pilates and yoga — core focus, equipment, philosophy, back pain evidence, and how to decide which practice is right for your body and goals.",
   openGraph: {
     title: "Pilates vs Yoga: Key Differences and How to Choose",
     description: "A clear, honest comparison of Pilates and yoga — what each practice develops, who each suits, and how to choose between them.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "A clear, honest comparison of Pilates and yoga — what each practice develops and how to choose between them.",
     images: ["https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"],
   },
-  keywords: ["pilates vs yoga", "pilates or yoga", "difference pilates yoga", "pilates vs yoga for core strength", "should I do pilates or yoga", "pilates yoga benefits comparison"],
+  keywords: ["pilates vs yoga", "pilates or yoga", "difference between pilates and yoga", "pilates vs yoga for core strength", "pilates vs yoga for back pain", "pilates vs yoga for weight loss", "should I do pilates or yoga", "pilates yoga comparison 2026", "pilates vs yoga flexibility", "pilates vs yoga beginners"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
   },

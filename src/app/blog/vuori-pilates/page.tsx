@@ -8,17 +8,8 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Vuori for Pilates (2026): Best Pieces for Men & Women | Pilates Collective Club",
-  description:
-    "The complete guide to Vuori activewear for Pilates — the best leggings, shorts, and layers for studio and reformer classes. The brand that works equally well for men, women, and everything else.",
-  keywords: [
-    "vuori pilates",
-    "vuori for pilates",
-    "vuori shorts pilates",
-    "vuori clothing pilates",
-    "vuori men pilates",
-    "vuori women pilates",
-    "best vuori for pilates",
-  ],
+  description: "Vuori is the only major activewear brand with genuinely great Pilates pieces for men. Performance Jogger, Daily Legging, and Banks Short reviewed for studio use.",
+  keywords: ["vuori pilates", "vuori for pilates", "vuori men pilates", "vuori women pilates", "vuori performance jogger pilates", "vuori daily legging pilates", "vuori banks short pilates", "vuori vs lululemon pilates", "best vuori for pilates", "vuori activewear pilates 2026"],
   openGraph: {
     title: "Vuori for Pilates (2026): Best Pieces for Men & Women",
     description: "The complete guide to Vuori activewear for Pilates — the best pieces for studio and reformer classes, including the only dedicated men's Pilates activewear guide on this site.",

@@ -7,9 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Equipment for Home Practice | Pilates Collective Club",
-  description:
-    "Our definitive guide to home Pilates equipment. From quality mats to resistance bands and reformer alternatives — everything you actually need.",
+  title: "Best Pilates Equipment for Home Practice (2026) | Pilates Collective Club",
+  description: "Exactly what to buy for a serious home Pilates practice — mats, resistance bands, magic circles, foam rollers, and when a reformer is actually worth the investment.",
   openGraph: {
     title: "Best Pilates Equipment for Home Practice",
     description: "Our definitive guide to home Pilates equipment — from quality mats to resistance bands and reformer alternatives.",
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
     description: "Our definitive guide to home Pilates equipment.",
     images: ["https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg"],
   },
-  keywords: ["best pilates equipment for home", "home pilates equipment", "pilates home practice gear", "essential pilates props", "pilates home setup", "pilates equipment beginners"],
+  keywords: ["best pilates equipment for home", "home pilates equipment", "pilates home practice gear", "essential pilates props", "pilates home setup guide", "what equipment for pilates at home", "pilates mat home practice", "pilates resistance band home", "pilates magic circle home", "home pilates equipment 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
   },

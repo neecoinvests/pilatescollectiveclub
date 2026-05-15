@@ -7,9 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Grip Socks (2026): Studio-Tested and Ranked | Pilates Collective Club",
-  description:
-    "The best grip socks for Pilates, tested across reformer, mat, and barre classes. From ToeSox to Tavi Noir — honest reviews, sizing notes, and our top pick.",
+  title: "Best Pilates Grip Socks (2026): 5 Options Studio-Tested & Ranked | Pilates Collective Club",
+  description: "The best grip socks for Pilates tested in reformer, mat, and barre classes — ToeSox, Tavi Noir, Shashi ranked by grip coverage, fabric quality, and reformer performance.",
   openGraph: {
     title: "Best Pilates Grip Socks (2026): Studio-Tested and Ranked",
     description: "The best grip socks for Pilates — from ToeSox to Tavi Noir. Honest reviews and our top pick.",
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
     description: "The best grip socks for Pilates — honest reviews and our top pick.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
-  keywords: ["best pilates grip socks", "pilates socks review", "toesox pilates socks", "tavi noir grip socks", "reformer pilates socks", "studio grip socks non-slip"],
+  keywords: ["best pilates grip socks", "pilates grip socks review", "toesox pilates socks", "tavi noir grip socks pilates", "shashi grip socks pilates", "best grip socks reformer pilates", "pilates studio socks", "non-slip pilates socks", "grip socks for pilates class", "pilates socks 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
   },

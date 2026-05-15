@@ -8,20 +8,9 @@ import ArticleCard from "@/components/ArticleCard";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates Collective Club — Find Your Studio. Know Your Method.",
-  description: "Curated city guides and expert studio recommendations for Pilates practitioners worldwide. Find the best reformer studios in London, New York, Paris, Zurich and more.",
-  keywords: [
-    "best pilates studios",
-    "reformer pilates studios",
-    "pilates city guides",
-    "pilates london",
-    "pilates new york",
-    "pilates paris",
-    "pilates zurich",
-    "pilates equipment guide",
-    "find pilates studio",
-    "pilates collective club",
-  ],
+  title: "Pilates Collective Club — Find the Best Pilates Studios Worldwide",
+  description: "Curated city guides, studio reviews, and equipment picks for Pilates practitioners. Find the best reformer studios in London, New York, Paris, Zurich and beyond.",
+  keywords: ["best pilates studios", "pilates studios near me", "reformer pilates studios", "pilates city guides", "pilates london", "pilates new york", "pilates paris", "pilates zurich", "find pilates studio", "pilates class near me", "best reformer pilates", "pilates studio guide"],
   openGraph: {
     title: "Pilates Collective Club — Find Your Studio. Know Your Method.",
     description: "Curated city guides and expert studio recommendations for Pilates practitioners worldwide. Find the best reformer studios in London, New York, Paris, Zurich and more.",

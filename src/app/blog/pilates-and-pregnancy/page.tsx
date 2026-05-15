@@ -5,8 +5,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates and Pregnancy: A Complete Guide | Pilates Collective Club",
-  description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist instructor.",
+  title: "Pilates During Pregnancy (2026): Trimester-by-Trimester Guide | Pilates Collective Club",
+  description: "Safe, effective Pilates throughout pregnancy — what changes by trimester, exercises to avoid after 16 weeks, pelvic floor work, and how to find a qualified prenatal instructor.",
   openGraph: {
     title: "Pilates and Pregnancy: A Complete Guide",
     description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist instructor.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid.",
     images: ["https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"],
   },
-  keywords: ["pilates during pregnancy", "prenatal pilates", "pregnancy pilates exercises", "pilates pregnant women", "antenatal pilates", "safe pilates exercises pregnancy"],
+  keywords: ["pilates during pregnancy", "prenatal pilates", "pregnancy pilates guide", "pilates when pregnant", "safe pilates exercises pregnancy", "pilates second trimester", "pilates third trimester", "pelvic floor pilates pregnancy", "antenatal pilates", "prenatal pilates 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy",
   },

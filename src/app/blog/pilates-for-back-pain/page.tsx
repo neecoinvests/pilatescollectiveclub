@@ -6,9 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Back Pain: What the Research Shows | Pilates Collective Club",
-  description:
-    "A clear-eyed look at the evidence for Pilates as a treatment for back pain — what it can and can't do, which exercises help most, and how to find the right instructor.",
+  title: "Pilates for Back Pain (2026): What the Research Actually Shows | Pilates Collective Club",
+  description: "A clear-eyed look at the clinical evidence for Pilates and lower back pain — what works, what to avoid with specific conditions, and how long results realistically take.",
   openGraph: {
     title: "Pilates for Back Pain: What the Research Shows",
     description: "A clear-eyed look at the evidence for Pilates as a treatment for back pain — what it can and can't do, which exercises help most, and how to find the right instructor.",
@@ -22,7 +21,7 @@ export const metadata: Metadata = {
     description: "The evidence for Pilates as a treatment for back pain — what it can and can't do.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"],
   },
-  keywords: ["pilates for back pain", "pilates lower back pain", "pilates chronic back pain relief", "pilates spine health", "reformer pilates back pain", "pilates back rehabilitation"],
+  keywords: ["pilates for back pain", "pilates lower back pain", "pilates chronic back pain", "pilates for lumbar pain", "reformer pilates back pain", "pilates spine health", "pilates for herniated disc", "pilates back pain research", "pilates vs physiotherapy back pain", "pilates back pain 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
   },

@@ -6,9 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Classical vs Contemporary Pilates: Which Style Is Right for You? | Pilates Collective Club",
-  description:
-    "Understanding the key differences between classical and contemporary Pilates — the original method, modern interpretations, and how to choose the right approach for your goals.",
+  title: "Classical vs Contemporary Pilates (2026): What's the Difference? | Pilates Collective Club",
+  description: "The honest breakdown of classical Pilates (Contrology) vs contemporary STOTT and Balanced Body methods — lineage, exercise order, equipment, and which suits your goals.",
   openGraph: {
     title: "Classical vs Contemporary Pilates: Which Style Is Right for You?",
     description: "Understanding the key differences between classical and contemporary Pilates — the original method, modern interpretations, and how to choose the right approach.",
@@ -22,7 +21,7 @@ export const metadata: Metadata = {
     description: "The original method vs modern interpretations — how to choose the right Pilates style for your goals.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"],
   },
-  keywords: ["classical vs contemporary pilates", "classical pilates method", "contemporary pilates", "stott pilates", "contrology pilates", "pilates method comparison", "joseph pilates original method"],
+  keywords: ["classical vs contemporary pilates", "classical pilates method", "contemporary pilates", "stott pilates vs classical", "contrology pilates", "romana pilates vs stott", "pilates method differences", "what is classical pilates", "what is contemporary pilates", "pilates lineage explained 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
   },

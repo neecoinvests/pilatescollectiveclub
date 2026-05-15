@@ -8,8 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "What to Wear to Pilates (2026): The Complete Outfit Guide | Pilates Collective Club",
-  description:
-    "Exactly what to wear to Pilates — for reformer, mat, and barre classes. The best leggings, tops, and layers reviewed, with what to avoid and why fit matters more than brand.",
+  description: "Exactly what to wear to Pilates — reformer, mat, and barre. The right leggings, tops, layers, and why grip socks matter. A clear guide for your first and every class.",
   openGraph: {
     title: "What to Wear to Pilates (2026): The Complete Outfit Guide",
     description: "Exactly what to wear to Pilates — for reformer, mat, and barre classes. The best leggings, tops, and layers reviewed, with what to avoid and why fit matters more than brand.",
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
     description: "Exactly what to wear to Pilates — the best leggings, tops, and layers reviewed.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
-  keywords: ["what to wear to pilates", "pilates outfit", "pilates workout clothing", "what to wear reformer pilates", "pilates attire guide", "best leggings for pilates class"],
+  keywords: ["what to wear to pilates", "pilates outfit guide", "what to wear reformer pilates", "pilates clothing", "pilates dress code", "pilates gym clothes", "grip socks pilates", "what not to wear pilates", "pilates first class outfit", "pilates outfit ideas 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
   },

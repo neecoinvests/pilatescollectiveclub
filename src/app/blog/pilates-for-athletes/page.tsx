@@ -5,8 +5,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Athletes | Pilates Collective Club",
-  description: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers — and what recreational athletes can learn from them.",
+  title: "Pilates for Athletes (2026): Cross-Training That Actually Works | Pilates Collective Club",
+  description: "How runners, cyclists, swimmers, and team sport athletes use Pilates for injury prevention and performance. The specific exercises and frequency that deliver real results.",
   openGraph: {
     title: "Pilates for Athletes: Strength, Longevity, and the Competitive Edge",
     description: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers — and what recreational athletes can learn from them.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "How elite sports professionals use Pilates to build functional strength and prevent injury.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
-  keywords: ["pilates for athletes", "sports pilates training", "pilates performance training", "pilates injury prevention athletes", "pilates for runners cyclists", "cross training pilates"],
+  keywords: ["pilates for athletes", "pilates cross training", "pilates for runners", "pilates for cyclists", "pilates injury prevention", "pilates sports performance", "pilates for swimmers", "pilates athlete training", "sports pilates programme", "pilates for athletes 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
   },

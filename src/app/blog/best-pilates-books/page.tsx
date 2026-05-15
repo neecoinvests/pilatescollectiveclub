@@ -7,9 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner | Pilates Collective Club",
-  description:
-    "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides and beginner programmes. Reviewed and ranked by our editorial team.",
+  title: "Best Pilates Books (2026): Every Level from Beginner to Teacher | Pilates Collective Club",
+  description: "The best Pilates books for every practitioner — from Joseph Pilates' original 1945 text to modern anatomy guides. Reading list for beginners and serious teachers alike.",
   openGraph: {
     title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
     description: "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
     description: "The best Pilates books for every level — reviewed and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
-  keywords: ["best pilates books", "pilates reading list", "return to life joseph pilates book", "pilates anatomy book", "pilates theory books", "books for pilates teachers"],
+  keywords: ["best pilates books", "pilates reading list", "return to life pilates book", "joseph pilates book", "pilates anatomy book", "pilates for beginners book", "best books for pilates teachers", "pilates method books", "pilates theory books 2026", "pilates instructor reading list"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-books",
   },

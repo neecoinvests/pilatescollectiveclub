@@ -6,19 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Brands (2026): Gratz vs Balanced Body vs Merrithew | Pilates Collective Club",
-  description:
-    "A detailed comparison of the best Pilates reformer brands in 2026 — Gratz, Balanced Body, Merrithew, Align-Pilates, and Peak Pilates. Which is right for home use, studios, and serious practitioners?",
-  keywords: [
-    "best pilates reformer brands",
-    "gratz vs balanced body vs merrithew",
-    "pilates reformer brands comparison",
-    "best pilates reformer 2026",
-    "balanced body reformer review",
-    "merrithew reformer review",
-    "gratz pilates reformer",
-    "align pilates reformer",
-  ],
+  title: "Best Pilates Reformer Brands (2026): Gratz, Balanced Body & More | Pilates Collective Club",
+  description: "Gratz, Balanced Body, Merrithew, Align-Pilates, Peak Pilates compared honestly — build quality, spring feel, price, and which brand suits home users vs studio owners.",
+  keywords: ["best pilates reformer brands", "gratz pilates reformer", "balanced body pilates", "merrithew stott pilates", "align-pilates reformer", "peak pilates reformer", "classical pilates reformer brands", "pilates reformer comparison 2026", "best reformer brand studio", "which pilates reformer brand"],
   openGraph: {
     title: "Best Pilates Reformer Brands (2026): Compared Honestly",
     description: "Gratz vs Balanced Body vs Merrithew vs Align-Pilates — which reformer brand is right for you?",

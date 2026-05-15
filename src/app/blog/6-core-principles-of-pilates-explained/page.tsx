@@ -6,9 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "The 6 Core Principles of Pilates, Explained | Pilates Collective Club",
-  description:
-    "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method and how to apply them in practice.",
+  title: "The 6 Core Principles of Pilates Explained | Pilates Collective Club",
+  description: "Centring, concentration, control, precision, breath, flow — the six principles that define the Pilates method explained clearly, with practical cues for each.",
   openGraph: {
     title: "The 6 Core Principles of Pilates, Explained",
     description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method and how to apply them in practice.",
@@ -22,7 +21,7 @@ export const metadata: Metadata = {
     description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
-  keywords: ["pilates principles", "6 principles of pilates", "pilates centring control concentration", "breathing in pilates", "joseph pilates contrology principles", "pilates precision flow"],
+  keywords: ["pilates principles", "6 principles of pilates", "pilates centring", "pilates control", "pilates concentration", "pilates breath", "pilates precision", "pilates flow", "contrology principles", "joseph pilates principles", "what are the principles of pilates", "pilates method explained"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
   },

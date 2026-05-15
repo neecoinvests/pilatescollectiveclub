@@ -6,19 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Pilates for Runners: The Specific Work That Actually Helps | Pilates Collective Club",
-  description:
-    "How Pilates specifically helps runners — hip stability, glute activation, spinal rotation, and the exercises that address the actual movement deficits that cause running injuries.",
-  keywords: [
-    "pilates for runners",
-    "pilates running injury prevention",
-    "pilates for marathon runners",
-    "reformer pilates for runners",
-    "pilates hip stability running",
-    "pilates glute activation runners",
-    "pilates for runners knee",
-    "running and pilates",
-  ],
+  title: "Pilates for Runners (2026): The Work That Actually Prevents Injury | Pilates Collective Club",
+  description: "How Pilates addresses glute medius weakness, hip flexor tightness, thoracic stiffness, and breathing economy — the specific deficits that cause running injuries.",
+  keywords: ["pilates for runners", "running pilates training", "pilates running injury prevention", "glute medius pilates runner", "pilates hip flexor runner", "pilates breathing running", "reformer pilates running", "pilates for marathon runners", "cross training pilates running", "pilates runner guide 2026"],
   openGraph: {
     title: "Pilates for Runners: The Specific Work That Actually Helps",
     description: "How Pilates addresses the actual movement deficits that cause running injuries — and what to prioritise in your practice.",
