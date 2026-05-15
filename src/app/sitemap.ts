@@ -55,6 +55,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "club-pilates-review",
     "balanced-body-vs-merrithew",
     "varley-pilates-activewear",
+    "gymshark-pilates",
+    "sweaty-betty-pilates",
+    "splits59-pilates",
+    "athleta-pilates",
+    "manduka-pilates-mat",
+    "vuori-pilates",
+    "free-people-movement-pilates",
+    "girlfriend-collective-pilates",
   ];
 
   return [
@@ -69,6 +77,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.85,
+    },
+    {
+      url: `${BASE_URL}/brands`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
     },
     ...cities.map((city) => ({
       url: `${BASE_URL}/cities/${city}`,
