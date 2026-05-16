@@ -91,6 +91,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "align-pilates-reformer-review",
     "best-pilates-reformer-for-beginners",
     "pilates-reformer-with-tower",
+    "balanced-body-allegro-2-review",
+    "merrithew-spx-max-review",
   ];
 
   return [
