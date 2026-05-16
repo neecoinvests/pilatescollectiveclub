@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import CityCard from "@/components/CityCard";
 import ArticleCard from "@/components/ArticleCard";
 import ProductCard from "@/components/ProductCard";
+import FeaturedRotator from "@/components/FeaturedRotator";
+import type { FeaturedItem } from "@/components/FeaturedRotator";
 
 export const metadata: Metadata = {
   title: "Pilates Collective Club — Find the Best Pilates Studios Worldwide",
@@ -58,15 +60,72 @@ const CITIES = [
   { city: "Lisbon", country: "Portugal", href: "/cities/lisbon", studioCount: 5 },
 ];
 
-const FEATURED = {
-  title: "The Best Pilates Studios in London",
-  excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios. We visited every studio, tested every format, and ranked them honestly.",
-  href: "/cities/london",
-  category: "City Guide",
-  readTime: "8 min read",
-  date: "May 2026",
-  imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg",
-};
+const FEATURED_ITEMS: FeaturedItem[] = [
+  {
+    title: "The Best Pilates Studios in London",
+    excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios. We visited every studio, tested every format, and ranked them honestly.",
+    href: "/cities/london",
+    category: "City Guide",
+    readTime: "8 min read",
+    imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg",
+  },
+  {
+    title: "The Best Pilates Studios in New York",
+    excerpt: "From Tribeca's classical powerhouses to the Upper East Side's boutique reformer rooms — the definitive guide to New York's five best Pilates studios, verified for 2026.",
+    href: "/cities/new-york",
+    category: "City Guide",
+    readTime: "9 min read",
+    imageUrl: "/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg",
+  },
+  {
+    title: "The Best Pilates Studios in Paris",
+    excerpt: "From the Marais to Saint-Germain — Paris has quietly built one of the most sophisticated Pilates scenes in Europe. Our curated guide to the five studios worth your time.",
+    href: "/cities/paris",
+    category: "City Guide",
+    readTime: "8 min read",
+    imageUrl: "/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg",
+  },
+  {
+    title: "Best Home Pilates Reformer (2026): Every Budget",
+    excerpt: "A quality home reformer changes your practice permanently. We tested every price tier — from the AeroPilates 435 to the Gratz — so you know exactly what you get at each level.",
+    href: "/blog/best-home-pilates-reformer",
+    category: "Equipment",
+    readTime: "11 min read",
+    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
+  },
+  {
+    title: "The Beginner's Guide to Reformer Pilates",
+    excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence. Everything a new practitioner needs to know before stepping on the carriage.",
+    href: "/blog/beginners-guide-to-reformer-pilates",
+    category: "Beginner Guide",
+    readTime: "8 min read",
+    imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
+  },
+  {
+    title: "Classical vs Contemporary Pilates",
+    excerpt: "The split between Joseph Pilates' original Contrology system and modern functional interpretations — what it means for your practice, and how to choose your lineage.",
+    href: "/blog/classical-vs-contemporary-pilates",
+    category: "Method",
+    readTime: "8 min read",
+    imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
+  },
+  {
+    title: "Pilates for Back Pain: What the Research Shows",
+    excerpt: "Clinical research meets practical guidance. What Pilates can and can't do for chronic lower back pain — and the specific exercises with the strongest evidence behind them.",
+    href: "/blog/pilates-for-back-pain",
+    category: "Health",
+    readTime: "10 min read",
+    imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
+  },
+  {
+    title: "Best Pilates Leggings (2026): Tested & Ranked",
+    excerpt: "From Lululemon Align to Splits59 Raquel — the leggings that genuinely serve the method, tested for opacity, waistband stability, and reformer performance across fifteen sessions.",
+    href: "/blog/best-pilates-leggings",
+    category: "Equipment",
+    readTime: "9 min read",
+    imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
+  },
+];
 
 const GUIDES = [
   { title: "The Best Pilates Studios in Zurich", excerpt: "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.", href: "/cities/zurich", category: "City Guide", readTime: "8 min read", date: "May 2026" },
@@ -110,6 +169,20 @@ const PRODUCT_CATEGORIES = [
         price: "From $32",
         affiliateUrl: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
         imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
+      },
+      {
+        name: "Pilates Cork Block",
+        description: "Firm cork support for seated modifications, spinal extension work, and elevated footwork. More stable than foam, better grip under load.",
+        price: "From $18",
+        affiliateUrl: "https://www.amazon.com/s?k=cork+yoga+block+pilates+support&tag=pilatescollective-20",
+        imageUrl: "/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg",
+      },
+      {
+        name: "Massage Ball Set",
+        description: "Dual lacrosse-style balls for targeted myofascial release. Indispensable for foot, glute, and thoracic work between sessions.",
+        price: "From $14",
+        affiliateUrl: "https://www.amazon.com/s?k=massage+ball+set+myofascial+release+pilates&tag=pilatescollective-20",
+        imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
       },
     ],
   },
@@ -158,6 +231,20 @@ const PRODUCT_CATEGORIES = [
         affiliateUrl: "https://www.amazon.com/s?k=pilates+yoga+wedge+wrist+support&tag=pilatescollective-20",
         imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
       },
+      {
+        name: "Long Resistance Band",
+        description: "2-metre looped band in light, medium, and heavy. Essential for the arm series, footwork variations, and full-body stretching sequences.",
+        price: "From $12",
+        affiliateUrl: "https://www.amazon.com/s?k=long+resistance+band+set+pilates+exercise&tag=pilatescollective-20",
+        imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
+      },
+      {
+        name: "Pilates Toning Balls",
+        description: "Weighted soft-grip balls (0.5–1 lb each) for arm, shoulder, and standing balance work. Adds meaningful load without disrupting the Pilates flow.",
+        price: "From $24",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+toning+balls+weighted&tag=pilatescollective-20",
+        imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
+      },
     ],
   },
   {
@@ -190,6 +277,27 @@ const PRODUCT_CATEGORIES = [
         price: "From $320",
         affiliateUrl: "https://www.amazon.com/s?k=pilates+wunda+chair&tag=pilatescollective-20",
         imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+      },
+      {
+        name: "Arc Barrel",
+        description: "The arc is the most compact barrel available — ideal for spinal extension, hip flexor opening, and side-lying work in smaller spaces.",
+        price: "From $130",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+arc+barrel&tag=pilatescollective-20",
+        imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
+      },
+      {
+        name: "Jump Board",
+        description: "Turns any home reformer into a cardio and plyometric platform. Low-impact vertical jumping sequences — the single best reformer add-on for circulation.",
+        price: "From $95",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+jump+board&tag=pilatescollective-20",
+        imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
+      },
+      {
+        name: "Balanced Body CoreAlign",
+        description: "The CoreAlign targets functional upright movement — standing balance, gait, and dynamic core stability — in ways the reformer alone cannot replicate.",
+        price: "From $1,200",
+        affiliateUrl: "https://www.amazon.com/s?k=balanced+body+corealign+pilates&tag=pilatescollective-20",
+        imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
       },
     ],
   },
@@ -308,8 +416,8 @@ export default function Home() {
               letterSpacing: "-0.01em",
               marginBottom: "0",
             }}>
-              Find your studio.<br />
-              <em>Know your method.</em>
+              From the powerhouse,<br />
+              <em>everything follows.</em>
             </h1>
 
             <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "52px 0" }} />
@@ -366,75 +474,7 @@ export default function Home() {
         <section style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
             <p style={{ ...label, marginBottom: "40px" }}>Featured</p>
-
-            <Link href={FEATURED.href} style={{ textDecoration: "none", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0", alignItems: "stretch" }} className="block md:grid">
-              <div style={{ position: "relative", overflow: "hidden", minHeight: "500px", backgroundColor: "#f0ece6" }}>
-                <Image
-                  src={FEATURED.imageUrl}
-                  alt={FEATURED.title}
-                  fill
-                  className="object-cover transition-transform duration-700 hover:scale-105"
-                />
-              </div>
-              <div style={{
-                backgroundColor: "#f7f4f0",
-                padding: "64px 56px",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-              }}>
-                <span style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "10px",
-                  fontWeight: 500,
-                  letterSpacing: "0.22em",
-                  textTransform: "uppercase",
-                  color: "#c5a882",
-                  display: "block",
-                  marginBottom: "20px",
-                }}>
-                  {FEATURED.category}
-                </span>
-                <h2 style={{
-                  fontFamily: "var(--font-serif)",
-                  fontSize: "clamp(28px, 3vw, 42px)",
-                  fontWeight: 400,
-                  color: "#0a0a0a",
-                  lineHeight: 1.15,
-                  marginBottom: "24px",
-                  letterSpacing: "-0.01em",
-                }}>
-                  {FEATURED.title}
-                </h2>
-                <p style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "14px",
-                  fontWeight: 300,
-                  color: "#6b6560",
-                  lineHeight: 1.75,
-                  marginBottom: "40px",
-                }}>
-                  {FEATURED.excerpt}
-                </p>
-                <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-                  <span style={{
-                    fontFamily: "var(--font-sans)",
-                    fontSize: "10px",
-                    fontWeight: 500,
-                    letterSpacing: "0.18em",
-                    textTransform: "uppercase",
-                    color: "#0a0a0a",
-                    borderBottom: "1px solid #0a0a0a",
-                    paddingBottom: "2px",
-                  }}>
-                    Read Guide →
-                  </span>
-                  <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "#9a9490" }}>
-                    {FEATURED.readTime}
-                  </span>
-                </div>
-              </div>
-            </Link>
+            <FeaturedRotator items={FEATURED_ITEMS} />
           </div>
         </section>
 
