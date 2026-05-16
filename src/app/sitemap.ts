@@ -95,6 +95,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "merrithew-spx-max-review",
     "best-pilates-barrel",
     "best-pilates-cadillac",
+    "how-much-does-a-pilates-reformer-cost",
   ];
 
   return [
