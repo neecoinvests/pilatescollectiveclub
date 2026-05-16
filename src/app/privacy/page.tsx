@@ -119,7 +119,7 @@ export default function PrivacyPage() {
 
             <h2 style={s.h2}>Contact</h2>
             <p style={s.p}>
-              For any privacy-related questions or requests, please contact us at: <a href="mailto:hello@pilatescollectiveclub.com" style={{ color: "#8b4a31", textDecoration: "underline" }}>hello@pilatescollectiveclub.com</a>
+              For any privacy-related questions or requests, please use the contact form on the Site.
             </p>
           </div>
         </section>

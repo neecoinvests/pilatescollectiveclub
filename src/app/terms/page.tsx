@@ -115,7 +115,7 @@ export default function TermsPage() {
 
             <h2 style={s.h2}>Contact</h2>
             <p style={s.p}>
-              For any questions about these Terms, please contact us at: <a href="mailto:hello@pilatescollectiveclub.com" style={{ color: "#8b4a31", textDecoration: "underline" }}>hello@pilatescollectiveclub.com</a>
+              For any questions about these Terms, please use the contact form on the Site.
             </p>
           </div>
         </section>

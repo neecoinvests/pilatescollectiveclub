@@ -99,7 +99,7 @@ export default function AffiliateDisclosurePage() {
 
             <h2 style={s.h2}>Questions</h2>
             <p style={s.p}>
-              If you have any questions about our affiliate relationships or editorial process, please contact us at: <a href="mailto:hello@pilatescollectiveclub.com" style={{ color: "#8b4a31", textDecoration: "underline" }}>hello@pilatescollectiveclub.com</a>
+              If you have any questions about our affiliate relationships or editorial process, please use the contact form on the Site.
             </p>
           </div>
         </section>
