@@ -4,17 +4,17 @@ const EXPLORE = [
   { label: "City Guides", href: "/cities" },
   { label: "Journal", href: "/blog" },
   { label: "Brands", href: "/brands" },
-  { label: "Equipment", href: "/blog?category=equipment" },
+  { label: "Equipment", href: "/blog?category=Equipment" },
   { label: "About", href: "/#about" },
 ];
 
 const JOURNAL = [
-  { label: "Equipment Reviews", href: "/blog?category=equipment" },
-  { label: "Brand Guides", href: "/blog?category=brand-guide" },
-  { label: "Method & History", href: "/blog?category=method" },
-  { label: "Health & Wellbeing", href: "/blog?category=health" },
-  { label: "Beginners", href: "/blog?category=beginners" },
-  { label: "Performance", href: "/blog?category=performance" },
+  { label: "Equipment Reviews", href: "/blog?category=Equipment" },
+  { label: "Brand Guides", href: "/blog?category=Brand+Guide" },
+  { label: "Method & History", href: "/blog?category=Method" },
+  { label: "Health & Wellbeing", href: "/blog?category=Health" },
+  { label: "Beginners", href: "/blog?category=Beginners" },
+  { label: "Performance", href: "/blog?category=Performance" },
 ];
 
 const CITIES = [

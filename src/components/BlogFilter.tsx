@@ -14,7 +14,7 @@ export interface Post {
   featured?: boolean;
 }
 
-const CATEGORIES = [
+export const CATEGORIES = [
   "All",
   "Equipment",
   "Brand Guide",
@@ -44,8 +44,8 @@ const btn = (active: boolean) => ({
   whiteSpace: "nowrap" as const,
 });
 
-export default function BlogFilter({ posts }: { posts: Post[] }) {
-  const [active, setActive] = useState("All");
+export default function BlogFilter({ posts, initialCategory = "All" }: { posts: Post[]; initialCategory?: string }) {
+  const [active, setActive] = useState(initialCategory);
 
   const featured = posts.find((p) => p.featured)!;
   const rest = posts.filter((p) => !p.featured);

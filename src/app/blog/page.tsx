@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import BlogFilter from "@/components/BlogFilter";
+import BlogFilter, { CATEGORIES } from "@/components/BlogFilter";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -425,7 +425,9 @@ const blogJsonLd = {
   ],
 };
 
-export default function BlogPage() {
+export default async function BlogPage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {
+  const { category } = await searchParams;
+  const initialCategory = CATEGORIES.find((c) => c.toLowerCase() === (category ?? "").toLowerCase()) ?? "All";
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }} />
@@ -445,7 +447,7 @@ export default function BlogPage() {
           </div>
         </section>
 
-        <BlogFilter posts={posts} />
+        <BlogFilter posts={posts} initialCategory={initialCategory} />
 
       </main>
       <Footer />
