@@ -86,6 +86,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "aeropilates-review",
     "balanced-body-pilates",
     "merrithew-pilates",
+    "best-pilates-reformer-under-500",
+    "best-foldable-pilates-reformer",
+    "align-pilates-reformer-review",
+    "best-pilates-reformer-for-beginners",
+    "pilates-reformer-with-tower",
   ];
 
   return [
