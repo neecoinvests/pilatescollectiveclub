@@ -16,6 +16,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "amsterdam",
     "geneva",
     "lausanne",
+    "sydney",
+    "dubai",
+    "singapore",
+    "miami",
+    "chicago",
+    "san-francisco",
+    "milan",
+    "rome",
+    "stockholm",
+    "copenhagen",
+    "hong-kong",
+    "tokyo",
+    "melbourne",
+    "toronto",
+    "lisbon",
   ];
 
   const blogPosts = [
@@ -63,6 +78,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "vuori-pilates",
     "free-people-movement-pilates",
     "girlfriend-collective-pilates",
+    "lululemon-align-vs-alo-airbrush",
+    "pilates-vs-barre",
   ];
 
   return [

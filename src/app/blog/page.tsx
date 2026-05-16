@@ -391,6 +391,22 @@ const posts: Post[] = [
     readTime: "8 min",
     imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg",
   },
+  {
+    title: "Lululemon Align vs Alo Airbrush Leggings (2026): The Honest Verdict",
+    excerpt: "The two most-discussed Pilates leggings go head-to-head — fabric feel, compression, opacity, reformer performance, and which one is actually worth your money.",
+    href: "/blog/lululemon-align-vs-alo-airbrush",
+    category: "Comparison",
+    readTime: "10 min",
+    imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
+  },
+  {
+    title: "Pilates vs Barre (2026): Which Workout Is Right for You?",
+    excerpt: "Both are low-impact, studio-based, and devoted to precision. Here's how they actually differ — and which one suits your goals, fitness level, and lifestyle.",
+    href: "/blog/pilates-vs-barre",
+    category: "Guide",
+    readTime: "8 min",
+    imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
+  },
 ];
 
 const featured = posts.find((p) => p.featured)!;

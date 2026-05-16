@@ -31,16 +31,31 @@ export const metadata: Metadata = {
 };
 
 const CITIES = [
+  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
+  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 5 },
+  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
+  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 5 },
+  { city: "Sydney", country: "Australia", href: "/cities/sydney", studioCount: 5 },
+  { city: "Tokyo", country: "Japan", href: "/cities/tokyo", studioCount: 5 },
+  { city: "Dubai", country: "United Arab Emirates", href: "/cities/dubai", studioCount: 5 },
+  { city: "Singapore", country: "Singapore", href: "/cities/singapore", studioCount: 5 },
+  { city: "Miami", country: "United States", href: "/cities/miami", studioCount: 5 },
+  { city: "Chicago", country: "United States", href: "/cities/chicago", studioCount: 5 },
+  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 5 },
+  { city: "Berlin", country: "Germany", href: "/cities/berlin", studioCount: 5 },
+  { city: "Amsterdam", country: "Netherlands", href: "/cities/amsterdam", studioCount: 5 },
   { city: "Zurich", country: "Switzerland", href: "/cities/zurich", studioCount: 5 },
   { city: "Geneva", country: "Switzerland", href: "/cities/geneva", studioCount: 5 },
   { city: "Lausanne", country: "Switzerland", href: "/cities/lausanne", studioCount: 5 },
-  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
-  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
-  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 5 },
-  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 5 },
-  { city: "Amsterdam", country: "Netherlands", href: "/cities/amsterdam", studioCount: 5 },
-  { city: "Berlin", country: "Germany", href: "/cities/berlin", studioCount: 5 },
-  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 5 },
+  { city: "Milan", country: "Italy", href: "/cities/milan", studioCount: 5 },
+  { city: "Rome", country: "Italy", href: "/cities/rome", studioCount: 5 },
+  { city: "Stockholm", country: "Sweden", href: "/cities/stockholm", studioCount: 5 },
+  { city: "Copenhagen", country: "Denmark", href: "/cities/copenhagen", studioCount: 5 },
+  { city: "Hong Kong", country: "Hong Kong SAR", href: "/cities/hong-kong", studioCount: 5 },
+  { city: "Melbourne", country: "Australia", href: "/cities/melbourne", studioCount: 5 },
+  { city: "Toronto", country: "Canada", href: "/cities/toronto", studioCount: 5 },
+  { city: "San Francisco", country: "United States", href: "/cities/san-francisco", studioCount: 5 },
+  { city: "Lisbon", country: "Portugal", href: "/cities/lisbon", studioCount: 5 },
 ];
 
 const FEATURED = {

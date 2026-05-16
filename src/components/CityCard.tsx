@@ -19,6 +19,21 @@ const cityImages: Record<string, string> = {
   Barcelona: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80",
   Amsterdam: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800&q=80",
   Berlin: "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&q=80",
+  Sydney: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800&q=80",
+  Dubai: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
+  Singapore: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800&q=80",
+  Miami: "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?w=800&q=80",
+  Chicago: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80",
+  "San Francisco": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+  Milan: "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800&q=80",
+  Rome: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+  Stockholm: "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800&q=80",
+  Copenhagen: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800&q=80",
+  "Hong Kong": "https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=800&q=80",
+  Tokyo: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
+  Melbourne: "https://images.unsplash.com/photo-1514395462185-c2de918e8ab9?w=800&q=80",
+  Toronto: "https://images.unsplash.com/photo-1517090186835-e348b621c9ca?w=800&q=80",
+  Lisbon: "https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?w=800&q=80",
 };
 
 export default function CityCard({ city, country, href, studioCount }: CityCardProps) {
