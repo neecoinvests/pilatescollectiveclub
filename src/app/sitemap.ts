@@ -96,6 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-pilates-barrel",
     "best-pilates-cadillac",
     "how-much-does-a-pilates-reformer-cost",
+    "home-pilates-studio-setup",
   ];
 
   return [
