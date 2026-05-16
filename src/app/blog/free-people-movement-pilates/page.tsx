@@ -123,7 +123,7 @@ export default function FreePeopleMovementPilatesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/free-people-movement-pilates" />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price }))} pageUrl="https://pilatescollectiveclub.com/blog/free-people-movement-pilates" />
       <Header />
       <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Free People Movement for Pilates (2026): Best Pieces & Honest Review" }]} />
       <main>

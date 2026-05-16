@@ -111,7 +111,7 @@ export default function BestPilatesBarrelPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/best-pilates-barrel" />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price }))} pageUrl="https://pilatescollectiveclub.com/blog/best-pilates-barrel" />
       <Header />
       <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Best Pilates Barrel (2026): Arc, Spine Corrector & Ladder Barrel Compared" }]} />
       <main>

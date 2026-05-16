@@ -116,7 +116,7 @@ export default function BestFoldablePilatesReformerPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/best-foldable-pilates-reformer" />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price }))} pageUrl="https://pilatescollectiveclub.com/blog/best-foldable-pilates-reformer" />
       <Header />
       <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Best Foldable Pilates Reformer (2026): Space-Saving Machines Reviewed" }]} />
       <main>

@@ -111,7 +111,7 @@ export default function BestPilatesReformerUnder500Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500" />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price }))} pageUrl="https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500" />
       <Header />
       <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Best Pilates Reformer Under $500 (2026): Honest Budget Guide" }]} />
       <main>

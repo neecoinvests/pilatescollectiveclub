@@ -123,7 +123,7 @@ export default function BestReformerAccessoriesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/best-pilates-reformer-accessories" />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price }))} pageUrl="https://pilatescollectiveclub.com/blog/best-pilates-reformer-accessories" />
       <Header />
       <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Best Pilates Reformer Accessories (2026): Upgrade Your Machine" }]} />
       <main>
