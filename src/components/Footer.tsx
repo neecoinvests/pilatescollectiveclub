@@ -1,24 +1,35 @@
 import Link from "next/link";
 
 const EXPLORE = [
-  { label: "City Guides", href: "/#cities" },
+  { label: "City Guides", href: "/cities" },
   { label: "Journal", href: "/blog" },
-  { label: "Equipment", href: "/#equipment" },
+  { label: "Brands", href: "/brands" },
+  { label: "Equipment", href: "/blog?category=equipment" },
   { label: "About", href: "/#about" },
 ];
 
 const JOURNAL = [
-  { label: "Best Home Reformer", href: "/blog/best-home-pilates-reformer" },
-  { label: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain" },
-  { label: "Classical vs Contemporary", href: "/blog/classical-vs-contemporary-pilates" },
-  { label: "Pilates for Athletes", href: "/blog/pilates-for-athletes" },
+  { label: "Equipment Reviews", href: "/blog?category=equipment" },
+  { label: "Brand Guides", href: "/blog?category=brand-guide" },
+  { label: "Method & History", href: "/blog?category=method" },
+  { label: "Health & Wellbeing", href: "/blog?category=health" },
+  { label: "Beginners", href: "/blog?category=beginners" },
+  { label: "Performance", href: "/blog?category=performance" },
 ];
 
 const CITIES = [
-  { label: "Zurich", href: "/cities/zurich" },
-  { label: "Geneva", href: "/cities/geneva" },
   { label: "London", href: "/cities/london" },
+  { label: "New York", href: "/cities/new-york" },
   { label: "Paris", href: "/cities/paris" },
+  { label: "Los Angeles", href: "/cities/los-angeles" },
+  { label: "Sydney", href: "/cities/sydney" },
+  { label: "Dubai", href: "/cities/dubai" },
+];
+
+const LEGAL = [
+  { label: "Privacy Policy", href: "/privacy" },
+  { label: "Terms & Conditions", href: "/terms" },
+  { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
 ];
 
 const s = {
@@ -41,20 +52,54 @@ const s = {
     display: "block",
     marginBottom: "10px",
   },
+  accentLink: {
+    fontFamily: "var(--font-sans)",
+    fontSize: "11px",
+    fontWeight: 400,
+    color: "rgba(197,168,130,0.7)",
+    textDecoration: "none",
+    display: "inline-block",
+    marginTop: "6px",
+    letterSpacing: "0.05em",
+  },
 };
 
 export default function Footer() {
   return (
     <footer style={{ backgroundColor: "#0a0a0a" }}>
       <div className="max-w-7xl mx-auto px-8 pt-20 pb-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 pb-16" style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
-
+        <div
+          className="grid grid-cols-1 md:grid-cols-4 gap-12 pb-16"
+          style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}
+        >
           {/* Brand */}
           <div>
-            <Link href="/" style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.22em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", display: "block", marginBottom: "20px" }}>
+            <Link
+              href="/"
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: "11px",
+                fontWeight: 500,
+                letterSpacing: "0.22em",
+                textTransform: "uppercase",
+                color: "#ffffff",
+                textDecoration: "none",
+                display: "block",
+                marginBottom: "20px",
+              }}
+            >
               Pilates Collective Club
             </Link>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "rgba(255,255,255,0.45)", lineHeight: 1.8, maxWidth: "260px" }}>
+            <p
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: "13px",
+                fontWeight: 300,
+                color: "rgba(255,255,255,0.45)",
+                lineHeight: 1.8,
+                maxWidth: "260px",
+              }}
+            >
               Curated studio guides, expert recommendations, and editorial content for the global Pilates community.
             </p>
           </div>
@@ -63,15 +108,19 @@ export default function Footer() {
           <div>
             <span style={s.label}>Explore</span>
             {EXPLORE.map((l) => (
-              <Link key={l.href} href={l.href} style={s.link}>{l.label}</Link>
+              <Link key={l.href} href={l.href} style={s.link}>
+                {l.label}
+              </Link>
             ))}
           </div>
 
-          {/* Journal */}
+          {/* Journal by category */}
           <div>
             <span style={s.label}>Journal</span>
             {JOURNAL.map((l) => (
-              <Link key={l.href} href={l.href} style={s.link}>{l.label}</Link>
+              <Link key={l.href} href={l.href} style={s.link}>
+                {l.label}
+              </Link>
             ))}
           </div>
 
@@ -79,22 +128,46 @@ export default function Footer() {
           <div>
             <span style={s.label}>Cities</span>
             {CITIES.map((l) => (
-              <Link key={l.href} href={l.href} style={s.link}>{l.label}</Link>
+              <Link key={l.href} href={l.href} style={s.link}>
+                {l.label}
+              </Link>
             ))}
-            <div style={{ marginTop: "24px" }}>
+            <Link href="/cities" style={s.accentLink}>
+              All cities →
+            </Link>
+
+            <div style={{ marginTop: "28px" }}>
               <span style={s.label}>Legal</span>
-              {[{ label: "Privacy Policy", href: "/privacy" }, { label: "Terms & Conditions", href: "/terms" }, { label: "Affiliate Disclosure", href: "/affiliate-disclosure" }].map((l) => (
-                <Link key={l.label} href={l.href} style={s.link}>{l.label}</Link>
+              {LEGAL.map((l) => (
+                <Link key={l.label} href={l.href} style={s.link}>
+                  {l.label}
+                </Link>
               ))}
             </div>
           </div>
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row justify-between gap-4">
-          <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "rgba(255,255,255,0.25)", letterSpacing: "0.05em" }}>
+          <p
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "11px",
+              fontWeight: 300,
+              color: "rgba(255,255,255,0.25)",
+              letterSpacing: "0.05em",
+            }}
+          >
             © 2026 Pilates Collective Club. All rights reserved.
           </p>
-          <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "rgba(255,255,255,0.25)", letterSpacing: "0.05em" }}>
+          <p
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "11px",
+              fontWeight: 300,
+              color: "rgba(255,255,255,0.25)",
+              letterSpacing: "0.05em",
+            }}
+          >
             Made for the global Pilates community.
           </p>
         </div>

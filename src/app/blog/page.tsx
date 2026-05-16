@@ -1,7 +1,6 @@
-import Link from "next/link";
-import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BlogFilter from "@/components/BlogFilter";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -27,17 +26,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
-interface Post {
-  title: string;
-  excerpt: string;
-  href: string;
-  category: string;
-  readTime: string;
-  imageUrl: string;
-  featured?: boolean;
-}
-
-const posts: Post[] = [
+const posts = [
   {
     title: "Best Home Pilates Reformer (2026): Every Budget",
     excerpt: "A quality home reformer changes your practice permanently. We tested every price tier so you know exactly what you get.",
@@ -409,9 +398,6 @@ const posts: Post[] = [
   },
 ];
 
-const featured = posts.find((p) => p.featured)!;
-const rest = posts.filter((p) => !p.featured);
-
 const blogJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -459,46 +445,7 @@ export default function BlogPage() {
           </div>
         </section>
 
-        {/* Featured post */}
-        <section className="px-6 mb-16">
-          <div className="max-w-5xl mx-auto">
-            <Link href={featured.href} className="group block">
-              <div className="grid md:grid-cols-2 gap-8 rounded-2xl overflow-hidden" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-                <div className="relative aspect-[4/3] md:aspect-auto overflow-hidden">
-                  <Image src={featured.imageUrl} alt={featured.title} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
-                </div>
-                <div className="p-8 flex flex-col justify-center">
-                  <span className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 inline-block" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{featured.category} · Featured</span>
-                  <h2 className="text-3xl font-semibold leading-snug mb-4 group-hover:text-[#8b4a31] transition-colors" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{featured.title}</h2>
-                  <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{featured.excerpt}</p>
-                  <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Read article →</span>
-                </div>
-              </div>
-            </Link>
-          </div>
-        </section>
-
-        {/* All posts grid */}
-        <section className="px-6 pb-24">
-          <div className="max-w-5xl mx-auto">
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {rest.map((post) => (
-                <Link key={post.href} href={post.href} className="group block">
-                  <div className="rounded-xl overflow-hidden h-full flex flex-col" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)", boxShadow: "0 1px 4px rgba(0,0,0,0.05)" }}>
-                    <div className="relative aspect-video overflow-hidden">
-                      <Image src={post.imageUrl} alt={post.title} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
-                    </div>
-                    <div className="p-5 flex flex-col flex-1">
-                      <span className="text-xs font-semibold uppercase tracking-[0.15em] mb-2 block" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{post.category} · {post.readTime}</span>
-                      <h3 className="text-base font-semibold leading-snug mb-2 group-hover:text-[#8b4a31] transition-colors" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{post.title}</h3>
-                      <p className="text-xs leading-relaxed mt-auto pt-2" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{post.excerpt}</p>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
+        <BlogFilter posts={posts} />
 
       </main>
       <Footer />
