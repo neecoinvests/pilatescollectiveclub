@@ -80,6 +80,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "girlfriend-collective-pilates",
     "lululemon-align-vs-alo-airbrush",
     "pilates-vs-barre",
+    "best-pilates-chair",
+    "gratz-pilates",
+    "lagree-vs-pilates",
+    "aeropilates-review",
+    "balanced-body-pilates",
+    "merrithew-pilates",
   ];
 
   return [
