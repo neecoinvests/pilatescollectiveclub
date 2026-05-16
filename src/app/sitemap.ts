@@ -93,6 +93,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "pilates-reformer-with-tower",
     "balanced-body-allegro-2-review",
     "merrithew-spx-max-review",
+    "best-pilates-barrel",
+    "best-pilates-cadillac",
   ];
 
   return [
