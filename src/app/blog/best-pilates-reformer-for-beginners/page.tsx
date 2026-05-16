@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "From $799",
     verdict: "Best overall reformer for beginners",
     description: "The AeroPilates 557 is the clearest recommendation for most beginners who have had at least a few studio sessions and are ready to practice at home. The four-cord resistance system is forgiving for learners — cord resistance is more linear and predictable than spring resistance, which reduces the risk of uncontrolled movement during unfamiliar exercises. The included rebounder adds cardio intervals that keep home sessions engaging. The fold-flat mechanism means it stores under a bed. The standing platform is included, expanding the exercise repertoire as your practice develops. For practitioners who have not yet trained in a studio and want to start on a home machine, the 557's included instructional content is genuinely useful. The cord system differs from spring reformers, but for a beginner learning positions and movement patterns, this difference is largely imperceptible.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $299",
     verdict: "Best budget entry for absolute beginners",
     description: "For an absolute beginner who wants to try reformer Pilates at home before committing to a studio or a higher investment machine, the AeroPilates 287 is the most accessible starting point. Four cords, foldable frame, rebounder included. The limitations are real — shorter rail, nylon-wheel carriage, cord resistance — but for a practitioner at session one who needs to learn basic footwork positions and breathing, these limitations do not matter. Buy the 287 as an exploration tool. If you practise on it for three months and the reformer has become central to your practice, upgrade to a spring machine. If you practise twice and it becomes a clothes rack, you've spent $299 rather than $3,500.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287+reformer&tag=matchaspot-20",
     tag: "Safest First Buy",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: "From $2,199",
     verdict: "Best premium first reformer",
     description: "For a beginner who has already done significant studio work (six months or more), knows the reformer is central to their practice, and wants to invest once correctly, the Merrithew At Home SPX is the premium recommendation. The spring system is identical to what they've trained on in STOTT PILATES studios; the fold-flat mechanism stores it efficiently; the Merrithew instructional ecosystem (videos, certified instructor network) means excellent support for continued self-teaching. This is not a machine for someone who has never tried a reformer — it is for someone who knows they love the reformer and is ready to invest in doing it properly at home.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=matchaspot-20",
     tag: "Best If You Know You're Committed",
   },
   {
@@ -56,7 +56,7 @@ const PRODUCTS = [
     price: "From $2,995",
     verdict: "Best non-folding beginner investment",
     description: "If a beginner has dedicated floor space and a serious commitment to the practice, the Balanced Body Studio Reformer offers the best long-term value for a non-folding machine. The spring system, carriage quality, and accessory compatibility set the standard for home equipment. What makes it appropriate for a beginner rather than a distraction: the machine grows with the practitioner — the same reformer supports beginner footwork and the most advanced classical exercises without ever feeling limiting. Buy this once and don't upgrade. The risk is the same as all premium first-machine purchases: it assumes the practice will stick. For practitioners with studio experience who are confident the reformer is for them, the risk is worth taking.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+studio+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+studio+reformer&tag=matchaspot-20",
     tag: "Long-Term Investment",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "From $1,499",
     verdict: "Best mid-range first spring reformer",
     description: "For a beginner ready for a real spring reformer but not yet committed to the Balanced Body or Merrithew investment, the Align-Pilates C2 Pro is the smart middle ground. Five springs, sealed bearing carriage, adjustable footbar — everything a beginner needs for the full foundational repertoire. The price advantage over the major brands is genuine; the spring quality and carriage smoothness are comparable to machines costing twice as much. The C2 Pro also folds upright for storage. For a beginner who has trained in a studio, is confident in the practice, and wants real spring resistance without a $3,000+ outlay, the C2 Pro is the clearest value recommendation in the market.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=matchaspot-20",
     tag: "Best Value Spring",
   },
 ];

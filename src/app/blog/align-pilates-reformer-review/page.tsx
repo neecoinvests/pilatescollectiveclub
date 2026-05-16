@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "From $2,200",
     verdict: "Best overall Align-Pilates reformer",
     description: "The C8 Pro is Align-Pilates' flagship home and semi-professional reformer — and the model that has most effectively broken into the Balanced Body and Merrithew market. Five springs (blue, red, green, yellow, and a half spring), sealed ball-bearing carriage rollers, an adjustable three-position footbar, padded shoulder rests with height adjustment, and a full-length aluminum and steel frame. The carriage action is genuinely smooth — indistinguishable from machines costing twice as much in everyday use. The spring colour system matches the STOTT PILATES convention, which makes it immediately familiar to instructors trained in that method. The C8 Pro ships in a single box requiring professional assembly; budget approximately two hours. The machine does not fold, but the build quality justifies permanent placement. A serious reformer at a meaningful price advantage over the major American brands.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $1,499",
     verdict: "Best entry into professional-grade reformers",
     description: "The C2 Pro is Align-Pilates' entry professional model — the first Align machine to earn genuine endorsement from working instructors rather than casual home users. Five springs, sealed bearings, adjustable footbar, and an aluminium frame that matches the structural rigidity of machines in a significantly higher price bracket. The primary difference from the C8 Pro is refinement of components: the C2 Pro's footbar adjustment is two-position (vs three), the shoulder rest padding is slightly thinner, and the overall polish is a step below the flagship. For practitioners and instructors who want a credible professional machine at an accessible price, the C2 Pro is exceptional value. It also folds upright — a meaningful advantage over the non-folding C8 Pro for home studios.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=matchaspot-20",
     tag: "Best Entry Pro",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: "From $2,800",
     verdict: "Best complete home studio setup",
     description: "The H1 with Tower is the most compelling proposition in the Align-Pilates range — a full reformer plus an integrated tower system that attaches to the foot end of the machine, giving access to the complete reformer and tower repertoire without needing a separate Cadillac. For home practitioners who want to progress beyond the reformer into trapeze work, push-through bar exercises, and leg spring exercises, the H1 bundle eliminates the need for a separate $1,500+ tower purchase. The reformer component matches the C2 Pro in build quality; the tower adds springs, a push-through bar, and a roll-down bar. The full assembly requires approximately three hours but results in a genuinely complete apparatus that covers most of what a full studio Cadillac offers.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+reformer+tower&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+reformer+tower&tag=matchaspot-20",
     tag: "Reformer + Tower",
   },
   {
@@ -56,7 +56,7 @@ const PRODUCTS = [
     price: "From $149",
     verdict: "Essential accessory for the full repertoire",
     description: "The Align-Pilates Box is compatible with both the C2 Pro and C8 Pro and is required for a significant portion of the reformer repertoire — the Long Box and Short Box series, the Pulling Straps exercises, and several of the seated rowing series cannot be performed without it. The Box is constructed from padded plywood with aluminium reinforcement; it sits stably on the reformer carriage and handles bodyweight in prone and seated positions without flex. This is not an optional upgrade — it is a necessary accessory for anyone intending to perform the full reformer program. Purchase it at the same time as the reformer.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+reformer+box&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+reformer+box&tag=matchaspot-20",
     tag: "Essential Accessory",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "From $199",
     verdict: "Best accessory for cardio intervals",
     description: "The Align-Pilates Jumpboard attaches to the foot end of the C2 Pro and C8 Pro reformers and converts footwork into a low-impact cardio sequence — a particularly valuable addition for practitioners who want a complete workout without the joint impact of running or traditional aerobics. The board is padded, stable, and sized to accommodate both parallel and turned-out foot positions across the standard jump repertoire. Jumpboard work requires the reformer to be in a suitable position (springs relatively light) and is contraindicated during certain phases of pregnancy and for some knee conditions. For practitioners without contraindications, the jumpboard meaningfully extends the workout variety available from a home reformer.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+jumpboard+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+jumpboard+reformer&tag=matchaspot-20",
     tag: "Cardio Add-On",
   },
 ];

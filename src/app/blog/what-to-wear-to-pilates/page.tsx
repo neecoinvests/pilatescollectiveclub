@@ -37,7 +37,7 @@ const PRODUCTS = [
     tag: "Best Leggings",
     description:
       "CRZ YOGA's Naked Feeling fabric has become a genuine cult choice among Pilates practitioners who want the performance of Lululemon Align at a fraction of the price. The fabric is buttery-soft, squat-proof, and has enough compression to stay put during leg circles and side-lying work without feeling restrictive. The high waist stays up through all inversions and doesn't roll. Available in 20+ colours. Consistently one of the highest-rated Pilates leggings on Amazon.",
-    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+high+waist+leggings&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+high+waist+leggings&tag=matchaspot-20",
     imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     tag: "Best for Reformer",
     description:
       "Halara's Cloudful leggings are specifically praised by reformer practitioners for their four-way stretch and close fit that doesn't bunch on the carriage. The fabric doesn't pill, the colour holds through repeated washing, and the waistband has a hidden pocket large enough for a key or card. The lack of seams at the inner thigh prevents the irritation some practitioners experience during footwork and side-splits work.",
-    affiliateUrl: "https://www.amazon.com/s?k=halara+cloudful+leggings+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=halara+cloudful+leggings+pilates&tag=matchaspot-20",
     imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     tag: "Best Warm-Up Layer",
     description:
       "A studio-appropriate warm-up layer is essential for Pilates — you want to keep your core warm during setup and rest periods, and remove it for the active work. This cropped terry sweatshirt hits the right length (doesn't bunch when lying down), is lightweight enough to pack into a bag without adding bulk, and the relaxed fit accommodates full arm movement. One of the best-value warm-up pieces available, and the neutral colourway works over any legging.",
-    affiliateUrl: "https://www.amazon.com/s?k=amazon+essentials+studio+terry+cropped+sweatshirt&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=amazon+essentials+studio+terry+cropped+sweatshirt&tag=matchaspot-20",
     imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     tag: "Best Sports Bra",
     description:
       "Pilates demands a bra that stays put during rolling exercises, inversions, and all the transitions where a traditional sports bra can shift. The ODODOS cross-back design distributes the load evenly across the back, the racerback cut allows complete arm and shoulder mobility, and the medium-to-high support level is appropriate for the dynamic range of reformer and mat work without over-compressing. Available from XS to 3XL.",
-    affiliateUrl: "https://www.amazon.com/s?k=ododos+cross+back+sports+bra&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=ododos+cross+back+sports+bra&tag=matchaspot-20",
     imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     tag: "Essential Accessory",
     description:
       "Required at most reformer studios and genuinely useful for mat work — grip socks are as much a part of your Pilates outfit as the leggings. ToeSox individual-toe design allows the foot to function naturally on the footbar, improving the proprioceptive feedback that makes Pilates effective. See our full grip sock guide for alternatives and detailed comparisons.",
-    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+low+rise&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+low+rise&tag=matchaspot-20",
     imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
   },
 ];

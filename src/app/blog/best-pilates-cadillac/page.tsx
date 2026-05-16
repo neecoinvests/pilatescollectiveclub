@@ -30,7 +30,7 @@ const PRODUCTS = [
     verdict: "Best Cadillac for professional and serious home studios",
     description:
       "The Balanced Body Cadillac is the standard against which all other Trapeze Tables are measured in contemporary studios worldwide. The full overhead frame carries a push-through bar (top and bottom loaded), roll-down bar, trapeze, fuzzy loops, and arm and leg springs — the complete Cadillac configuration. The table base provides a full mat working surface and integrates with Balanced Body's spring color system. Build quality is commercial grade; the machine is designed for multi-session daily studio use and has a lifespan measured in decades with proper maintenance. At approximately $8,000–$9,500 before accessories, it is a significant investment appropriate for working instructors, clinical Pilates facilities, and serious home practitioners with dedicated studio space. Sold through Balanced Body authorized dealers; the Amazon search link is for price reference only.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+cadillac+pilates+trapeze+table&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+cadillac+pilates+trapeze+table&tag=matchaspot-20",
     tag: "Industry Standard",
   },
   {
@@ -40,7 +40,7 @@ const PRODUCTS = [
     verdict: "Best Cadillac for STOTT PILATES studios",
     description:
       "Merrithew's Cadillac is the reference apparatus for the STOTT PILATES Cadillac repertoire — instructors certified in the STOTT method train on this machine and the exercise programming aligns precisely with the SPX reformer's spring conventions. The full frame includes push-through bars (top and bottom), roll-down bar, trapeze bar, arm springs, and leg springs. Build quality matches Balanced Body; the decision between the two is primarily about methodological ecosystem and accessory compatibility. For studios where all equipment is Merrithew, the Cadillac completes the system without mixing brands. Purchased through Merrithew authorized dealers.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+cadillac+pilates+trapeze&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+cadillac+pilates+trapeze&tag=matchaspot-20",
     tag: "STOTT PILATES",
   },
   {
@@ -50,7 +50,7 @@ const PRODUCTS = [
     verdict: "Best value Cadillac for smaller studios",
     description:
       "Align-Pilates has entered the Cadillac market with a more accessible price point — approximately $3,500–$5,000 versus $8,000+ for Balanced Body and Merrithew equivalents. The Align Cadillac includes the full overhead frame, push-through bar, roll-down bar, trapeze, and spring configuration of a professional Cadillac at a price that makes it feasible for smaller boutique studios and private instructors. Build quality is professional grade (sealed bearings, aluminum frame, commercial upholstery), consistent with their reformer line. For a studio not requiring the established brand recognition of Balanced Body or Merrithew for marketing purposes, the Align Cadillac represents a compelling value. Growing availability through specialist dealers in the UK, EU, and US.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+cadillac+trapeze+table&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+cadillac+trapeze+table&tag=matchaspot-20",
     tag: "Best Value",
   },
   {
@@ -60,7 +60,7 @@ const PRODUCTS = [
     verdict: "Best for classical Pilates studios",
     description:
       "The Gratz Trapeze Table is the classical standard — manufactured to Joseph Pilates' original specifications in New York. The spring configuration, frame proportions, and table dimensions match the apparatus Pilates used in his 8th Avenue studio. For classical lineage teachers and studios where the original exercises are taught as designed, the Gratz Trapeze Table is the only appropriate choice — the spring tensions and attachment points are calibrated to the classical exercises in ways that contemporary versions approximate but do not replicate exactly. Purchased directly from Gratz (gratzpilates.com) at approximately $10,000–$12,000+. Not available on Amazon. A generational purchase for serious classical studios.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+trapeze+table+pilates+cadillac&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gratz+trapeze+table+pilates+cadillac&tag=matchaspot-20",
     tag: "Classical Standard",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     verdict: "Best home alternative to a full Cadillac",
     description:
       "For home practitioners who want Cadillac-style exercises without the $8,000+ investment and 230cm+ ceiling clearance requirement, a Balanced Body Allegro 2 with Tower bundle covers approximately 60–70% of the Cadillac repertoire — including push-through bar work, roll-down bar, arm springs, and leg springs. What it cannot provide: the trapeze bar (suspension/hanging exercises), the full overhead frame, and the complete horizontal mat surface of a true Cadillac table. For private home practitioners who are not full-time instructors, this compromise is almost always the more practical and proportionate choice. The linked search surfaces the Allegro 2 + Tower configuration as a starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer+tower+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer+tower+pilates&tag=matchaspot-20",
     tag: "Home Alternative",
   },
 ];

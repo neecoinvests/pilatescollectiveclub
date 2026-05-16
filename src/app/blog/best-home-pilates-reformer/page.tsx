@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best budget entry point",
     description:
       "Four cords, a rebounder, and a foldable frame make the 287 the most accessible full-function reformer on the market. The cord-based resistance is softer than spring systems but perfectly usable for foundational footwork, stretching, and the rowing series. Folds flat and stores under a bed. A genuine reformer experience at a fraction of the cost.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287&tag=matchaspot-20",
     pros: ["Foldable for small spaces", "Rebounder included", "Good for beginners"],
     cons: ["Cord resistance differs from spring feel", "Limited weight capacity", "Less stable than studio machines"],
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     verdict: "Best mid-range reformer",
     description:
       "The 557 is a meaningful step up — four cords, a smoother carriage, a full standing platform, and a rebounder built for cardio intervals. The adjustable footbar and shoulder rests accommodate a wider range of heights, and the frame is substantially more rigid than budget models. For practitioners who train four or more times per week, this is the sweet spot between cost and quality.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+557&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+557&tag=matchaspot-20",
     pros: ["Standing platform included", "Smooth carriage action", "Adjustable for most heights"],
     cons: ["Still cord-based, not spring", "Heavier to move", "Assembly takes 90 minutes"],
   },
@@ -59,7 +59,7 @@ const PRODUCTS = [
     verdict: "Best professional-grade home reformer",
     description:
       "The SPX Max is the machine you'll find in professional training studios worldwide — a full spring system, full-length rails, and a carriage that moves with the precision and weight you'll recognise from your best studio sessions. The jump board attachment, vertical stand, and tower options make this a complete apparatus investment. Built to last decades with proper maintenance.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+reformer&tag=matchaspot-20",
     pros: ["True spring resistance", "Studio-equivalent quality", "Full accessory ecosystem"],
     cons: ["Significant investment", "Large footprint (requires dedicated space)", "Weighs 115lbs"],
   },
@@ -70,7 +70,7 @@ const PRODUCTS = [
     verdict: "Best overall home reformer",
     description:
       "The Allegro 2 is the gold standard for serious home practitioners. Used by professional dancers, physiotherapists, and elite instructors worldwide, it features Balanced Body's signature smooth-glide carriage, a full four-spring system, fold-flat option, and compatibility with the complete Balanced Body accessories range including the Tower, Cadillac, and Box. If you're committing to a serious home practice, this is the machine to buy once.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=matchaspot-20",
     pros: ["Best carriage feel available", "Folds for storage", "Full Balanced Body accessory compatibility"],
     cons: ["Premium price", "Requires professional assembly", "Overkill for casual practitioners"],
   },
@@ -280,7 +280,7 @@ export default function BestHomeReformerPage() {
                 <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
                   If budget is genuinely no constraint, the Allegro 2 is the machine you will never need to replace. If you&apos;re working with a tighter budget but want a real spring reformer, the Merrithew SPX Max is the professional-grade entry point. For beginners testing the water, the AeroPilates 557 delivers a credible reformer-like experience at a fraction of the cost.
                 </p>
-                <a href="https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                <a href="https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=matchaspot-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
                   Shop Balanced Body on Amazon →
                 </a>
               </div>

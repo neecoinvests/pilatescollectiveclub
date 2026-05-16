@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best mat for serious beginners",
     description:
       "A quality mat is the single most important Pilates purchase. The Manduka PRO is denser and firmer than standard yoga mats — essential for Pilates, where a spongy mat undermines spinal articulation exercises and destabilises footwork. The 6mm thickness cushions the spine adequately without compromising the grounded feeling that Pilates requires. The surface has appropriate grip without being overly sticky. Crucially, it will last a decade with regular use, making the upfront cost genuinely economical over time.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+mat+6mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+mat+6mm&tag=matchaspot-20",
     tag: "First Purchase",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Essential for studio attendance",
     description:
       "Grip socks are required at virtually every reformer studio and strongly recommended for mat classes. ToeSox are the industry standard — individual toe pockets improve proprioception and grip on the footbar, and the quality holds up to intensive regular washing. Buy two pairs immediately so you always have a clean pair available. Don't underestimate this purchase: studios often refuse entry without grip socks, and going to a class without them wastes your time and money.",
-    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+grip+socks+2+pack&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+grip+socks+2+pack&tag=matchaspot-20",
     tag: "Studio Essential",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best band set for home practice",
     description:
       "A set of TheraBand long flat bands in light, medium, and heavy resistance opens up a significant range of mat-based Pilates exercises that bridge between bodyweight work and reformer-level challenge. Wrap the light band around your feet for leg press and footwork variations; use the medium for arm work and stretching; progress to heavy as your strength develops. This is the piece of equipment that most closely mimics reformer spring resistance during home mat practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+band+set+3+pack&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+band+set+3+pack&tag=matchaspot-20",
     tag: "Home Essential",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Pilates ring for beginners",
     description:
       "The Pilates ring (magic circle) is a signature piece of the method — an 13-inch flexible ring with padded handles used for inner thigh work, arm exercises, and adding isometric resistance to mat sequences. The STOTT ring has the correct firmness: enough resistance to be challenging without being so stiff it's unusable for beginners. Lighter than it looks, takes up almost no storage space, and adds considerable variety to a home mat practice. Start using it once you've established a basic mat routine.",
-    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+toning+ring+magic+circle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+toning+ring+magic+circle&tag=matchaspot-20",
     tag: "Method Staple",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best all-in-one beginner bundle",
     description:
       "Balanced Body is the most respected equipment brand in the professional Pilates world — their starter set containing a mat, resistance band, and ring is the highest-quality beginner bundle available. Each individual item is better than most standalone products at comparable price points. The mat is appropriately firm, the band is correctly calibrated, and the ring has the right resistance. For a beginner who wants to buy once and not revisit equipment decisions for years, this bundle is the most efficient path.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+starter+set&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+starter+set&tag=matchaspot-20",
     tag: "Best Bundle",
   },
 ];

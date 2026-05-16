@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best Pilates Legging Available",
     description:
       "The Raquel is the legging most serious Pilates practitioners reference when asked what they actually wear — and the reason is specific. The wide, flat waistband was engineered for the repeated hip flexion of reformer footwork: it does not fold, roll, or create pressure points through hundreds of repetitions in a bent-knee position. The fabric has a precise compression level — held but not restricted — that provides proprioceptive feedback on leg alignment without limiting spinal articulation or rotation. Full opacity in every position, including the deep hip flexion of standing split-squat balance work. The price is significant but the Raquel outlasts almost everything else in terms of wash cycles and maintained compression quality. If you practise four or more times per week, this is the economically rational choice.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+raquel+high+waist+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=splits59+raquel+high+waist+legging&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best Bra / Top",
     description:
       "The Sylvie is not strictly a bra — it is a fitted crop top with a built-in shelf bra, which makes it the correct choice for Pilates practitioners who want more coverage than a standalone bra provides without the bulk of a layered bra-plus-tank combination. The integrated shelf bra provides light-to-medium support that is appropriate for all Pilates except jump board; for vigorous jump board, wear the Sylvie over a higher-support bra. The back is fully covered, which eliminates the visibility concern some practitioners have with racerback bras during spinal extension work. The crop length sits at the high hip — correct for reformer work, clears the waistband during standing sequences.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+sylvie+shelf+bra+crop&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=splits59+sylvie+shelf+bra+crop&tag=matchaspot-20",
     tag: "Best Top",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Layer",
     description:
       "The most overlooked Splits59 piece for regular studio practitioners. The Beckett is a fitted jacket — not a hoodie, not a zip-up sweatshirt — designed for the transition from street to studio and back. It sits close to the body without restricting movement, which means it can be worn during warm-up sequences on the mat before removing for the main class. The construction is substantial enough for UK and European climates. The price is high for a jacket, but it is made to the same standard as the Raquel and wears accordingly. For practitioners who arrive from outside to a cold studio, the difference between a well-fitting jacket and a baggy sweatshirt is worth paying for.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+beckett+jacket+activewear&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=splits59+beckett+jacket+activewear&tag=matchaspot-20",
     tag: "Best Layer",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Value Option",
     description:
       "The Hartley uses a lighter-weight fabric than the Raquel and sits at a lower price point — the entry to the Splits59 range for practitioners who want to test the brand before committing to Raquel pricing. The waistband is similarly engineered, wide and flat, and performs comparably to the Raquel for mat work. The difference shows in the fabric compression: the Hartley is softer and less structured, which some practitioners actively prefer for gentle mat practice, prenatal Pilates, or sessions that are more restorative than dynamic. For vigorous reformer classes, the Raquel is meaningfully better; for lighter mat work, the Hartley closes most of that gap at $30 less.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+hartley+high+waist+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=splits59+hartley+high+waist+legging&tag=matchaspot-20",
     tag: "Best Value",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Shorts",
     description:
       "Splits59 makes the best Pilates-specific shorts in the market because they understand exactly what the reformer requires: a fitted mid-thigh cut with no inner-seam bulk, a waistband that does not create pressure at the hip crease in deep flexion, and opacity in all positions including the internally-rotated hip positions common in footwork. The Airweight fabric is the brand&apos;s lightest, which makes these appropriate for warm studios and summer mat practice. The distinction from Gymshark or generic athletic shorts is immediate in wear — the construction is specifically calibrated for the movement patterns of Pilates rather than adapted from a gym or running context.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+airweight+shorts&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=splits59+airweight+shorts&tag=matchaspot-20",
     tag: "Best Shorts",
   },
 ];

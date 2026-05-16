@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best overall grip sock",
     description:
       "ToeSox are the industry standard for good reason. The individual toe pockets allow your toes to splay naturally on the footbar and mat, improving proprioception and balance during footwork. The half-toe design means your actual toe tips are exposed, which most practitioners prefer for tactile feedback. The grip pattern extends across the full sole and up the heel — essential for exercises like elephant and down-stretch on the reformer.",
-    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+low+rise+grip+socks&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+low+rise+grip+socks&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best for reformer classes",
     description:
       "Tavi Noir's Nola is a studio favourite with a full-toe design and one of the most aggressive grip patterns on the market — small silicone dots covering the full sole and heel. The compression fit keeps the sock perfectly positioned during dynamic movements, and the bamboo-blend fabric is noticeably softer than standard grip sock materials. Preferred by practitioners who find individual toe pockets uncomfortable.",
-    affiliateUrl: "https://www.amazon.com/s?k=tavi+noir+nola+grip+socks+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=tavi+noir+nola+grip+socks+pilates&tag=matchaspot-20",
     tag: "Most Popular",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best for style-conscious practitioners",
     description:
       "Shashi grip socks have become a fixture of boutique studio culture — recognisable, well-made, and available in an enormous range of colours and prints. The grip pattern is reliable without being as aggressive as Tavi Noir, which some practitioners prefer for mat work where you want some slip for transitions. The loop detail at the ankle is distinctive and prevents the sock from sliding down during class.",
-    affiliateUrl: "https://www.amazon.com/s?k=shashi+loop+grip+socks&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=shashi+loop+grip+socks&tag=matchaspot-20",
     tag: "Style Pick",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best budget grip sock",
     description:
       "Bellarina occupies the upper end of the budget tier — meaningfully cheaper than ToeSox or Tavi Noir but with a grip pattern and fabric quality that holds up to regular studio use. The full-toe design is well-constructed, and the sizing is true-to-size. For practitioners who go through socks quickly or want a multi-pack for a lower per-pair cost, Bellarina is the strongest option in its price bracket.",
-    affiliateUrl: "https://www.amazon.com/s?k=bellarina+grip+socks+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=bellarina+grip+socks+pilates&tag=matchaspot-20",
     tag: "Best Value",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best for mat and barre",
     description:
       "Sticky Be Socks started in the yoga and barre community and their mat grip is exceptional — the dot pattern is denser than most reformer-focused socks, which makes them outstanding for standing, balancing, and any mat work where foot placement and lateral stability matter. Slightly less ideal for footbar use than individual-toe options, but among the best-feeling socks for studio mat classes.",
-    affiliateUrl: "https://www.amazon.com/s?k=sticky+be+socks+grip&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=sticky+be+socks+grip&tag=matchaspot-20",
     tag: "Mat & Barre",
   },
 ];

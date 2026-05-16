@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best Alo piece for reformer Pilates",
     description:
       "The Airbrush is the Alo legging most Pilates practitioners actually wear — firmer compression than the Alo Matte, fully opaque at every angle, and a high waistband that does not move through any exercise in the Pilates repertoire. The smoothing effect is significant without being restrictive. For reformer work specifically, the Airbrush outperforms the softer Alo options because the compression provides proprioceptive feedback on leg position — useful during footwork series where you want to feel your legs working symmetrically. Available in an excellent range of neutral colours appropriate for studio environments.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+high+waist+airbrush+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+high+waist+airbrush+legging&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best Alo sports bra for Pilates",
     description:
       "The Airlift Intrigue is the correct Alo bra for Pilates — medium support that holds cleanly through dynamic movement without the chest compression that high-impact bras create during sustained floor work. The racerback design allows the shoulder mobility that the Pilates repertoire requires. The Airlift fabric is more comfortable lying down than most sports bras — a significant practical advantage in a method where half your time is spent supine or prone on a mat or reformer carriage. The cups provide light shaping without underwire or uncomfortable seam placement.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airlift+intrigue+bra&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airlift+intrigue+bra&tag=matchaspot-20",
     tag: "Best Bra",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Alo piece for mat Pilates",
     description:
       "The Alosoft Lounge bra is lighter and softer than the Airlift — appropriate for mat Pilates, private sessions, and home practice where a full-compression bra is unnecessary. The fabric's buttery quality is the closest Alo gets to the Lululemon Align sensation. For practitioners who alternate between reformer classes (where they'd use the Airlift) and home mat work, the Lounge bra provides a different-feeling option for the lower-intensity sessions. The coverage is appropriate for solo practice without layering.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+alosoft+lounge+bra&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+alosoft+lounge+bra&tag=matchaspot-20",
     tag: "Mat Practice",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Alo piece for warm studios",
     description:
       "The Matte legging is lighter than the Airbrush — less compression, softer fabric, more breathable. For heated Pilates studios or practitioners who run warm during intense reformer sessions, the Matte is the better choice. The opacity is full. The waistband is high-rise and stays in place, though it provides less of the firm 'held' feeling that Airbrush practitioners prefer. If you know you always overheat in group reformer classes, start with the Matte. If temperature isn't an issue, the Airbrush is the more functional Pilates legging.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+high+waist+matte+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+high+waist+matte+legging&tag=matchaspot-20",
     tag: "Warm Studios",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Alo studio bag",
     description:
       "The practical Alo purchase that most brand reviews overlook: a bag that holds grip socks, a change of clothes, a water bottle, and a mat strap while looking appropriate in a boutique studio environment. The Ritual Runner is a structured tote with enough interior organisation to keep grip socks separate from everything else — a small but genuinely useful detail for regular studio-goers. The aesthetic is consistent with the brand's clean, luxury-adjacent positioning. An honest addition to a Pilates kit that solves a real practical problem.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+ritual+runner+bag&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+ritual+runner+bag&tag=matchaspot-20",
     tag: "Studio Bag",
   },
 ];

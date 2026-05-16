@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best overall Pilates tank top",
     description:
       "The Align tank is the top equivalent of the Align legging — the same buttery Nulu fabric in a fitted, racerback silhouette with a built-in shelf bra. The coverage is full front and back, with no riding up during arm-overhead exercises or shoulder stand prep. The shelf bra provides light support suitable for low-impact work; practitioners who need more support should layer it over a dedicated sports bra. The fabric does not retain odour or pill with regular washing. A wardrobe staple for most regular Pilates practitioners — the neutral colours make it a versatile base layer for any studio.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+tank+top&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+tank+top&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best sports bra for reformer Pilates",
     description:
       "Alo's Airlift Intrigue is the benchmark for sports bras in the Pilates studio environment. The medium-impact support is exactly right for reformer work — secure enough to be stable during dynamic movements, with none of the compression that makes high-impact bras uncomfortable during sustained floor-based work. The racerback design allows full shoulder mobility. The Airlift fabric is notably comfortable during the lying positions that characterise reformer Pilates — no underwire, no seams in uncomfortable positions, no bunching when the body changes orientation from supine to prone to side-lying.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airlift+intrigue+bra&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airlift+intrigue+bra&tag=matchaspot-20",
     tag: "Best Sports Bra",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best boutique studio top",
     description:
       "Varley has become the defining aesthetic of the upscale Pilates studio — their pieces are what you see at boutique reformer studios in London, New York, and Los Angeles. The Stratford bra top combines medium support with an elevated, tailored look that reads as appropriate in a luxury studio context without sacrificing function. The thick strap construction sits cleanly on the shoulders without sliding during dynamic arm work. The fabric handles the transition from reformer to post-class street wear without looking like activewear in the conventional sense.",
-    affiliateUrl: "https://www.amazon.com/s?k=varley+stratford+bra+top&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=varley+stratford+bra+top&tag=matchaspot-20",
     tag: "Boutique Studio",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best sustainable option",
     description:
       "Girlfriend Collective makes their activewear from recycled plastic bottles, and the Paloma bralette is the most functional piece in their Pilates-relevant range. Light support (appropriate for smaller busts or layering under a tank), clean lines that don't interfere with instructor observation of spinal alignment, and a fabric quality that improves with washing rather than degrading. The brand's commitment to inclusive sizing — up to 6XL — makes it the only premium sustainable option that genuinely works across a wide range of body types and cup sizes.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bralette&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bralette&tag=matchaspot-20",
     tag: "Sustainable",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best budget top",
     description:
       "For colder studios or practitioners who prefer more coverage, CRZ YOGA's seamless long sleeve is the best budget option. The fitted, four-way stretch construction moves without restriction through the full Pilates movement vocabulary, and the seamless construction eliminates the pressure points that standard seamed tops create when lying on a mat or reformer carriage. The thumb holes keep the sleeve in place during overhead work. Coverage and warmth with no compromise on mobility — at a price point that makes having multiple options practical.",
-    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+seamless+long+sleeve+top&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+seamless+long+sleeve+top&tag=matchaspot-20",
     tag: "Best Budget",
   },
 ];

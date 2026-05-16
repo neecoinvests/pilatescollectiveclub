@@ -30,7 +30,7 @@ const PRODUCTS = [
     verdict: "Best Wunda Chair for most practitioners",
     description:
       "The Balanced Body Wunda Chair is the most widely recommended chair for studio and serious home use. The adjustable spring system accommodates the widest range of exercises from beginner modifications to advanced classical work. The padded top surface has sufficient cushioning for the kneeling exercises and the elevated pedal height is calibrated to the classical Chair exercises. The frame is stable and quiet — important during balance-intensive standing work. Balanced Body accessories (handles, additional springs) are compatible, and the chair works alongside their reformer and barrel as a complete apparatus system. Typically purchased from authorised dealers; Amazon search may show results from resellers.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+wunda+chair+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+wunda+chair+pilates&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -40,7 +40,7 @@ const PRODUCTS = [
     verdict: "Best for rehabilitation and asymmetrical work",
     description:
       "Merrithew's Split-Pedal design is a functional innovation over the classical single-pedal approach — the two independent pedals allow practitioners to work each leg or arm independently, which is particularly valuable for rehabilitation, sports conditioning, and identifying strength asymmetries. The STOTT PILATES Chair repertoire is specifically designed around the split-pedal. For studios offering physiotherapy-adjacent services, the Merrithew chair's split pedal is a meaningful clinical tool. For classical practitioners, the split pedal changes the exercise feel compared to single-pedal tradition. The frame quality is comparable to Balanced Body; the decision is primarily about pedal design philosophy.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+split+pedal+stability+chair&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+split+pedal+stability+chair&tag=matchaspot-20",
     tag: "Rehab-Friendly",
   },
   {
@@ -50,7 +50,7 @@ const PRODUCTS = [
     verdict: "Best for classical Pilates practitioners",
     description:
       "The Gratz Wunda Chair maintains the original single-pedal design that Joseph Pilates specified — a single sprung pedal with stepped spring heights rather than the adjustable system of contemporary chairs. For classical practitioners whose teacher works on Gratz equipment, the Gratz Chair is the only appropriate tool for the traditional Chair exercises as originally designed. The wood construction, spring tension, and pedal geometry differ from contemporary versions in ways that matter for classical precision. Purchased directly from Gratz (gratzpilates.com); not typically available on Amazon. A generational purchase for serious classical studios.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+wunda+chair&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gratz+wunda+chair&tag=matchaspot-20",
     tag: "Classical",
   },
   {
@@ -60,7 +60,7 @@ const PRODUCTS = [
     verdict: "Essential Chair accessory",
     description:
       "Chair work includes exercises performed kneeling on the top surface of the chair, and the standard upholstered pad provided is adequate but not always sufficient for long sessions. A supplementary non-slip kneeling pad protects the knees during exercises like the Pumping series and provides additional grip security on the pedal end of the chair. A standard thick yoga knee pad (at least 15mm) works well and is available on Amazon. This is a practical addition to any Chair practice, particularly for practitioners new to the apparatus who are still developing the strength for the more demanding kneeling positions.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+kneeling+pad+yoga+knee+cushion&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+kneeling+pad+yoga+knee+cushion&tag=matchaspot-20",
     tag: "Essential Accessory",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     verdict: "Prevents chair movement during standing work",
     description:
       "Standing exercises on the Pilates Chair — stepping on and off the pedal, single-leg standing work — require the chair frame to be absolutely stable. On smooth or hardwood floors, chairs can shift during dynamic weight transfers. A non-slip exercise mat placed beneath the chair base prevents movement without adhesive products that might mark the floor. A 6mm non-slip yoga mat cut to size or a purpose-made equipment non-slip pad works equally well. This is a small practical investment that significantly improves the safety and quality of standing Chair work, particularly for home practitioners without studio rubber flooring.",
-    affiliateUrl: "https://www.amazon.com/s?k=non+slip+exercise+mat+pilates+equipment&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=non+slip+exercise+mat+pilates+equipment&tag=matchaspot-20",
     tag: "Safety",
   },
 ];

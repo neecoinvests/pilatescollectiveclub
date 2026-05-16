@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best overall magic circle",
     description:
       "STOTT Pilates produces the most widely used professional-grade Pilates ring outside of custom apparatus brands. The resistance is correctly calibrated — firm enough to provide meaningful challenge for inner thigh, glute, and arm work, but not so stiff that it cannot be compressed by a practitioner with average upper body strength. The dual pad system (inner and outer handles with firm foam pads) allows the ring to be used in multiple orientations without discomfort. At 13 inches this is the standard size appropriate for both inner thigh squeezing and palm-press arm exercises.",
-    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+toning+ring+magic+circle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+toning+ring+magic+circle&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best professional-grade ring",
     description:
       "Balanced Body is the reformer manufacturer that most professional studios trust — their Pilates ring reflects the same quality standard. The resistance is slightly firmer than the STOTT ring, which more experienced practitioners often prefer for adductor and glute work. The pad construction is durable enough for studio use with multiple clients daily. If you've used a ring in a well-equipped studio and found it substantially more effective than rings you've used at home, it was almost certainly either a Balanced Body or a Gratz — this is the accessible version of that quality.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+ring&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+ring&tag=matchaspot-20",
     tag: "Professional Grade",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best value for home use",
     description:
       "ProBody's ring is the strongest budget option available — good resistance calibration, decent pad quality, and a construction that holds up to regular home use without the premium studio price. The 12-inch diameter is slightly smaller than the standard 13-inch, which makes it marginally better for arm and upper body work and marginally worse for inner thigh work in wide stance. For beginners building their first home Pilates kit or practitioners who want a second ring for travel, this is a credible choice at a price that's hard to argue with.",
-    affiliateUrl: "https://www.amazon.com/s?k=probody+pilates+ring+magic+circle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=probody+pilates+ring+magic+circle&tag=matchaspot-20",
     tag: "Best Value",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best for beginners and rehabilitation",
     description:
       "SISSEL produces a light-resistance ring that is specifically suited to beginners, post-natal practitioners, and rehabilitation contexts where standard ring resistance is too demanding. The reduced firmness allows practitioners to maintain correct form during inner thigh and abductor work without compensation patterns from over-recruitment. For experienced practitioners this ring is too easy for lower body work, but it's appropriate for arm and upper body exercises where a standard ring can be overpowering for smaller frames or weaker anterior deltoids.",
-    affiliateUrl: "https://www.amazon.com/s?k=sissel+pilates+ring+light+resistance&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=sissel+pilates+ring+light+resistance&tag=matchaspot-20",
     tag: "For Beginners",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best flexible ring for flow work",
     description:
       "Merrithew's Flex ring has a softer, more responsive compression profile than traditional rigid rings — it flexes more gradually and returns resistance in a way that suits dynamic, flowing use rather than sustained isometric holds. Contemporary STOTT-method classes that incorporate ring work in movement sequences (rather than isolated exercises) benefit from this characteristic. The quality of the pads is exceptional — no slipping during sweaty sessions. A more specialised choice than the standard STOTT ring but superior for the specific way contemporary Pilates studios use the prop.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+fitness+circle+flex+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+fitness+circle+flex+pilates&tag=matchaspot-20",
     tag: "Best for Flow",
   },
 ];

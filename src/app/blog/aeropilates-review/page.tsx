@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "From $699",
     verdict: "Best AeroPilates model overall",
     description: "The 557 is the AeroPilates model to buy if you're committed to the brand. The standing platform inclusion is a meaningful upgrade — it expands the exercise repertoire considerably beyond what the 287 offers, particularly for standing balance and leg work. The carriage action is noticeably smoother than the entry models, and the frame is substantially more rigid, which matters for exercises that require precise feedback. The four-cord system provides adequate resistance for most foundational and intermediate Pilates exercises. The rebounder is included, as with all AeroPilates models, making this a genuinely versatile home fitness machine that goes beyond Pilates into cardio conditioning. Assembly takes 60-90 minutes.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $299",
     verdict: "Best entry-level home reformer",
     description: "The 287 is the most accessible full-function reformer available — and for what it is, it delivers. The four-cord system covers foundational footwork, the rowing series, stretching, and the majority of the beginner Pilates repertoire. The rebounder adds a cardio dimension that studio reformers don't offer. The fold-flat design means it stores under a standard bed. The limitations are clear: the frame is lighter, the carriage is less smooth, and the cord feel is noticeably different from spring tension. For a practitioner who wants to learn the basic reformer vocabulary at home before deciding whether to invest in a studio practice, the 287 is a sensible starting point. Not a substitute for studio quality; a genuine entry to the method.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+reformer+287&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+reformer+287&tag=matchaspot-20",
     tag: "Best Entry",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: "From $699",
     verdict: "Best for cardio-focused home practice",
     description: "The 4195 is AeroPilates' five-cord model — the additional cord provides more resistance options than the four-cord 287 and 557, making it appropriate for practitioners who have outgrown lighter resistance settings. The rebounder is included and works well with the five-cord configuration for high-intensity cardio intervals. The 4195 has a similar frame weight to the 557 but without the standing platform, which makes it slightly less versatile for standing exercise. If your primary use case is combining Pilates mat work with rebounder cardio, the 4195 is the better choice; if standing work matters, choose the 557.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+4195+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+4195+reformer&tag=matchaspot-20",
     tag: "5-Cord System",
   },
   {
@@ -56,7 +56,7 @@ const PRODUCTS = [
     price: "From $79",
     verdict: "Best rebounder upgrade",
     description: "If you already own an older AeroPilates model or one that doesn't include a rebounder, the standalone rebounder attachment is the most practical AeroPilates accessory to add. The rebounder attaches to the footbar end of the reformer and provides a low-impact cardio interval option — jogging in place, jumping, and bouncing patterns that elevate heart rate significantly without the joint impact of floor-based cardio. The AeroPilates rebounder workout, when combined with the reformer exercises, creates a full-body session appropriate for weight management, cardiovascular conditioning, and rehabilitation.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+cardio+rebounder&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+cardio+rebounder&tag=matchaspot-20",
     tag: "Cardio Add-On",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "From $39",
     verdict: "Best accessory add-on",
     description: "AeroPilates sells a range of replacement cords, grip handles, and mat pads for their reformers. The accessories bundle (which typically includes a replacement cord set and exercise DVD/digital content) is worth purchasing when you buy the machine — cords do wear over time and having replacements on hand avoids downtime in your practice. The grip handles and shoulder rest pads can also be replaced as they compress with use. AeroPilates accessories are available on Amazon and directly from Stamina Products; always verify compatibility with your specific model number before purchasing.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+reformer+accessories&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+reformer+accessories&tag=matchaspot-20",
     tag: "Accessories",
   },
 ];

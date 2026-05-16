@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best Varley legging for Pilates",
     description:
       "The Reeves is Varley&apos;s most Pilates-appropriate legging — high waist, minimal seaming, and their signature LUXE-fit fabric which achieves a similar buttery quality to the Lululemon Align while providing marginally more compression. Fully opaque at every angle, including deep hip flexion on the reformer. The waistband is one of the most stable in the premium category — flat-edged construction that sits cleanly against the skin without digging during roll-ups or the hundred. The tonal aesthetic — available in muted, sophisticated neutrals — is exactly what the boutique studio environment demands.",
-    affiliateUrl: "https://www.amazon.com/s?k=varley+reeves+high+waist+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=varley+reeves+high+waist+legging&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best Varley bra for studio wear",
     description:
       "The Stratford bra top is the piece that made Varley recognisable in boutique studios — a medium-support, wide-strap design that provides genuine hold for reformer movement while looking sophisticated enough for the luxury studio context. The thick straps at the back create a distinctive aesthetic detail that is also functionally important: they sit cleanly on the shoulders without sliding during overhead arm work. The medium support level is exactly appropriate for Pilates — secure without the compression that restricts movement during lying-based exercises.",
-    affiliateUrl: "https://www.amazon.com/s?k=varley+stratford+bra+top&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=varley+stratford+bra+top&tag=matchaspot-20",
     tag: "Brand Signature",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Varley fitted tank",
     description:
       "The Paloma is Varley&apos;s fitted tank — longer than most activewear tanks, with a hem that genuinely stays in place through the entire Pilates repertoire. The extra length is deliberate: Varley understands that their customer is on a reformer carriage, not standing upright. The LUXE-fit fabric has the same comfortable, soft quality as the Reeves legging. Worn over the Stratford bra, the Paloma tank creates one of the most complete and functional Pilates studio outfits available. The clean, minimal aesthetic means no external hardware, pockets, or panels that could interfere with equipment.",
-    affiliateUrl: "https://www.amazon.com/s?k=varley+paloma+long+tank+top&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=varley+paloma+long+tank+top&tag=matchaspot-20",
     tag: "Best Tank",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Varley legging for warmer studios",
     description:
       "The Hinsdale uses Varley&apos;s lighter Move-Fit fabric — designed for movement with less compression and better breathability than the LUXE-fit Reeves. For practitioners in heated studios or those who overheat during dynamic reformer classes, the Hinsdale provides the same Varley aesthetic and waistband quality with meaningfully more airflow. Still fully opaque. The 7/8 length hits at the mid-calf — a proportion that works well on both the reformer and in the streets post-class. A secondary legging purchase after the Reeves, not a replacement.",
-    affiliateUrl: "https://www.amazon.com/s?k=varley+hinsdale+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=varley+hinsdale+legging&tag=matchaspot-20",
     tag: "Warm Studios",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Varley layer for post-class",
     description:
       "Varley understands the transition problem — from reformer class to the rest of the day — better than most activewear brands. The Oatlands pullover sits cleanly over a bra and legging without looking like activewear. The fabric is warm enough for London or New York winters while remaining breathable enough to wear immediately after a session. The cut is designed to wear over activewear specifically — slightly longer in the back, with a silhouette that accommodates legging and bra without bunching. For practitioners who go directly from class to other commitments, this is one of the most practical pieces in the Varley range.",
-    affiliateUrl: "https://www.amazon.com/s?k=varley+oatlands+pullover&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=varley+oatlands+pullover&tag=matchaspot-20",
     tag: "Post-Class Layer",
   },
 ];

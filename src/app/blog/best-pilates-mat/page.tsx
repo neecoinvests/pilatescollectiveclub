@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best overall Pilates mat",
     description:
       "The Manduka PRO is the standard against which all other mats are measured. Its 6mm dense PVC construction is firm enough to provide real spinal feedback during articulation exercises — you can feel each vertebra make contact distinctly, which is essential for developing body awareness in the classical sequence. The surface texture grips bare hands and feet without being aggressively sticky. It doesn't compress under sustained weight, which means the cushioning is consistent after years of daily use. Manduka backs this with a lifetime guarantee. If you own one quality mat for Pilates, this is it.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+pilates+mat+6mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+pilates+mat+6mm&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best mid-range Pilates mat",
     description:
       "Gaiam's Performance mat punches significantly above its price point. The dry-grip top layer handles sweaty hands better than standard PVC mats — relevant for dynamic Pilates sessions where pushing up from prone requires palm grip. At 6mm it has appropriate firmness for mat work without the minimal cushioning of a 4mm travel mat. The mat doesn't slide on hardwood floors (a common complaint with cheaper mats). For practitioners who want a step up from a basic starter mat without the Manduka investment, this is the clearest recommendation.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+performance+dry+grip+yoga+mat+6mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gaiam+performance+dry+grip+yoga+mat+6mm&tag=matchaspot-20",
     tag: "Best Value",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best for alignment-focused practice",
     description:
       "Liforme's mat is unique in offering alignment guide markings etched into the surface — a central line, angle markers, and foot placement guides that are genuinely useful for Pilates practitioners focused on precise symmetry. The GripForMe surface is outstanding: tacky in dry conditions, impressively grippy when wet. The 4.2mm thickness is thinner than the Manduka but the denser rubber construction provides comparable spinal feedback. A premium choice for practitioners who use their mat as a teaching tool as much as a surface.",
-    affiliateUrl: "https://www.amazon.com/s?k=liforme+original+yoga+mat&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=liforme+original+yoga+mat&tag=matchaspot-20",
     tag: "Alignment Pick",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best for spinal sensitivity",
     description:
       "A 10mm mat is not the classical Pilates choice — Joseph Pilates worked on thin mats — but it is the practical choice for practitioners with spinal sensitivity, osteoporosis, or those returning from injury who find standard mats too unforgiving on the vertebrae. The REEHUT mat provides substantial cushioning without fully absorbing into foam compression during sustained use. The compromise is marginally reduced proprioceptive feedback during footwork. For rehabilitation contexts and practitioners who need genuine cushioning, the extra thickness is the correct trade-off.",
-    affiliateUrl: "https://www.amazon.com/s?k=reehut+pilates+mat+10mm+extra+thick&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=reehut+pilates+mat+10mm+extra+thick&tag=matchaspot-20",
     tag: "For Spinal Sensitivity",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best travel mat",
     description:
       "When travelling, carrying a full Pilates mat is impractical. The Manduka eKO Superlite folds flat, weighs under 1kg, and rolls to the size of a water bottle. It provides no cushioning — this is a hygiene and grip surface, not a support surface — but the natural tree rubber construction grips hotel room floors and studio surfaces reliably. For practitioners attending studios that provide mats but prefer their own surface for hygiene reasons, or for hotel-room home practice during travel, this is the only travel mat worth recommending.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+eko+superlite+travel+yoga+mat&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+eko+superlite+travel+yoga+mat&tag=matchaspot-20",
     tag: "Best Travel",
   },
 ];

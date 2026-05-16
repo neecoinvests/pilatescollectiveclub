@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "From $4,195",
     verdict: "Best complete home studio setup",
     description: "The Balanced Body Allegro 2 with Tower bundle is the most complete home studio apparatus available short of a full Cadillac. The Allegro 2 is the gold-standard home reformer; the Tower attachment adds a push-through bar, roll-down bar, arm springs, and leg springs at the foot end — giving access to the full tower repertoire in a configuration that doesn't require permanent wall installation. The tower folds with the reformer when not in use. The full spring configuration (four reformer springs plus four tower springs in two pairs) covers the complete reformer and tower exercise library. For serious practitioners who train daily and want the deepest possible home practice, this is the benchmark. Typically purchased as separate components from Balanced Body authorised dealers; combined pricing varies.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer+tower&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer+tower&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $2,800",
     verdict: "Best value reformer + tower bundle",
     description: "The Align-Pilates H1 is the most compelling value in the reformer-with-tower category — a complete reformer and integrated tower system sold as a single bundle at significantly less than the equivalent Balanced Body or Merrithew combination. The reformer component matches the Align-Pilates C2 Pro in build quality (five springs, sealed bearings, adjustable footbar); the tower adds push-through bar, roll-down bar, and arm and leg springs. The H1 does not fold as compactly as the Allegro 2 but represents meaningful savings — approximately $1,400 less than the Balanced Body equivalent for comparable functionality. For practitioners who want the reformer and tower repertoire without the premium price of the major American brands, the H1 is the strongest recommendation in the market.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+reformer+tower&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+reformer+tower&tag=matchaspot-20",
     tag: "Best Value",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: "From $799",
     verdict: "Best tower add-on for existing Merrithew owners",
     description: "The Merrithew SPX Vertical Stand is the tower system designed specifically for the At Home SPX and SPX Max reformers. It attaches to the foot end of the reformer, adding a push-through bar (top-loaded and bottom-loaded), arm springs, and leg springs for the STOTT PILATES tower repertoire. For practitioners who already own a Merrithew reformer, the Vertical Stand is the natural expansion — all STOTT PILATES tower exercises are designed around this specific combination, and the spring colours match the reformer's system for familiar cuing. For practitioners who don't yet own a reformer, note that the Vertical Stand is not a standalone product — it requires a compatible Merrithew base machine.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+vertical+stand+tower&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+vertical+stand+tower&tag=matchaspot-20",
     tag: "For Merrithew Owners",
   },
   {
@@ -56,7 +56,7 @@ const PRODUCTS = [
     price: "From $1,195",
     verdict: "Most space-efficient tower solution",
     description: "The Balanced Body Wall Tower mounts directly to wall studs and operates completely independently of a reformer — making it the most space-efficient professional tower solution for home studios. It includes a full push-through bar, roll-down bar, arm springs, and leg springs, and can be used for the complete tower repertoire without a reformer in the room. The wall-mount installation is permanent (requires two wall studs 16\" or 24\" apart); professional installation is recommended. For studios where floor space is extremely limited, the Wall Tower serves as both a dedicated tower and a mat-work station. Compatible with Balanced Body reformers when positioned correctly. A serious piece of apparatus for a serious home studio.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+wall+tower+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+wall+tower+pilates&tag=matchaspot-20",
     tag: "Wall-Mounted",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "From $699",
     verdict: "Best affordable tower add-on for Allegro 2 owners",
     description: "The Balanced Body Tower Conversion Kit is the add-on for existing Allegro 2 owners who want to extend into tower work without purchasing the full bundle. The kit includes the vertical frame, push-through bar assembly, roll-down bar, and the arm and leg springs needed for the full Balanced Body tower repertoire. Installation attaches to the existing Allegro 2 foot platform. The kit effectively converts the Allegro 2 into the complete reformer-and-tower system without replacing the existing machine — the most economical path to the complete setup for practitioners who already own the reformer. Compatibility: designed specifically for Balanced Body Allegro 2 and Studio Reformer. Not compatible with other brand reformers.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+tower+conversion+kit+allegro&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+tower+conversion+kit+allegro&tag=matchaspot-20",
     tag: "Upgrade Path",
   },
 ];

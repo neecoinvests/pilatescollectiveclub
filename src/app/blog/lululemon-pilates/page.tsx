@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "The definitive Pilates legging",
     description:
       "The Align pant is not the most technically advanced Lululemon legging — it is the most appropriate for Pilates. The Nulu fabric is soft enough that sustained contact with a mat or reformer carriage is comfortable during the extended lying work the method requires. The four-way stretch is completely unrestricted through every position in the classical repertoire. The high-rise waistband is the most stable Lululemon offers — it does not roll, dig, or move through roll-ups, the hundred, or spine stretch. The 25-inch inseam hits at the ankle for most heights; 28-inch for taller practitioners. This is the legging that studio owners recommend to new clients without hesitation.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+pant+25+inch&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+pant+25+inch&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best Lululemon bra for Pilates",
     description:
       "The Align Bra is the bra counterpart to the legging — same Nulu fabric, same minimal construction philosophy. The light support level is appropriate for Pilates because the method is low-impact and the bra's primary requirement is stability of position, not compression. The wide-strap design sits cleanly on the shoulders without the narrow straps that dig during reformer carriage work. The interior seaming is minimal and flat — important when lying on a carriage for extended periods. For practitioners who need more support, the Align Bra works as a second layer under the Align Tank, which provides additional coverage and light additional support.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+bra+light+support&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+bra+light+support&tag=matchaspot-20",
     tag: "Best Bra",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Lululemon tank for Pilates",
     description:
       "The Align Tank is the solution to the coverage problem that affects most Pilates practitioners at some point: a top that stays in place through roll-ups, leg raises, and spine articulation, with no riding up or bunching. The built-in shelf bra adds a layer over whatever bra you choose beneath. The Nulu fabric means the hem moves with the body rather than pulling up as a separate layer. The racerback keeps straps away from the shoulder mobility required for long stretch and overhead arm work. Available in the same colour palette as the Align Pant — buying matching sets is straightforward and the tonal aesthetic is appropriate for any studio environment.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+tank+top&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+tank+top&tag=matchaspot-20",
     tag: "Best Tank",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Lululemon bra for dynamic classes",
     description:
       "For practitioners who find the Align Bra insufficient during jump board sessions, more dynamic reformer classes, or mat work with significant movement variation, the Flow Y provides medium support without sacrificing the comfort required for lying positions. The Y-shaped back allows the same shoulder mobility as the Align Bra while providing meaningfully more hold. The wider band sits comfortably at the ribcage without the digging that narrower-band medium-support bras often cause during bridge and shoulder work. The Flow Y is the Lululemon bra that active reformer practitioners choose when the Align Bra doesn't quite hold enough.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+flow+y+bra+medium+support&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=lululemon+flow+y+bra+medium+support&tag=matchaspot-20",
     tag: "Dynamic Classes",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Lululemon piece for between-class wear",
     description:
       "The Define Jacket solves the transition problem elegantly: from reformer class to the street without a full outfit change. The fitted silhouette is appropriate over a tank and leggings without looking like a sports jacket. The fabric is substantial enough for cool weather but breathable enough to wear immediately post-class without overheating. The full zip and clean exterior design means it works over Pilates studio wear in contexts where activewear alone reads as underdressed. For practitioners who go directly to work, lunch, or other commitments after a morning class, the Define is the piece that makes this transition practical.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+define+jacket&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=lululemon+define+jacket&tag=matchaspot-20",
     tag: "Studio to Street",
   },
 ];

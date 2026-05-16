@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best all-round Pilates band",
     description:
       "TheraBand is the clinical and studio standard for good reason. The 6-foot long band is the correct format for classical Pilates exercises — it wraps around the feet for footwork variations, can be held with both hands for arm work, and provides the long lever that the original apparatus exercises were designed around. Available in eight resistance levels with a consistent colour-coding system used in physiotherapy and Pilates studios worldwide. The latex construction has a smooth, controlled stretch quality that loop bands can't replicate.",
-    affiliateUrl: "https://www.amazon.com/s?k=theraband+professional+resistance+band+6+foot&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=theraband+professional+resistance+band+6+foot&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best loop band for Pilates",
     description:
       "Loop bands are particularly useful for lower-body Pilates work — lateral walks, clamshells, bridges, and leg circles with added resistance. The Perform Better Superband is more durable than generic loop bands and comes in a genuine range of resistance levels (not just colour variations of identical tension). The 41-inch circumference is the right size for most Pilates applications. These are the loop bands you see in clinical Pilates studios and rehabilitation settings, not the cheap flat latex tubes that snap within weeks.",
-    affiliateUrl: "https://www.amazon.com/s?k=perform+better+superband+resistance+loop+band&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=perform+better+superband+resistance+loop+band&tag=matchaspot-20",
     tag: "Best Loop Band",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best fabric loop band set",
     description:
       "Lululemon's fabric resistance bands are the best premium fabric loop option for Pilates. Unlike latex loop bands, fabric bands don't roll up the thigh during leg work, don't slip against leggings, and don't pinch skin at the edges. The set of three covers light, medium, and heavy resistance — enough range for most lower-body and hip-focused Pilates exercises. The stitched construction is noticeably more durable than cheaper fabric band sets. Particularly recommended for practitioners who find latex bands uncomfortable during extended banded leg work.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+fabric+resistance+bands&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=lululemon+fabric+resistance+bands&tag=matchaspot-20",
     tag: "Best Fabric",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best tube band with handles",
     description:
       "Tube bands with handles open up a set of Pilates-inspired exercises that flat bands don't easily accommodate — bicep curls, rows, overhead presses, and standing work that builds on the Pilates method's emphasis on arm and upper body integration. SPRI's Braided Xertube is far more durable than single-layer tubes and the D-ring handles are high quality. The braided construction means the band won't snap without warning — it frays visibly before failing, which is both safer and gives you time to replace it.",
-    affiliateUrl: "https://www.amazon.com/s?k=spri+braided+xertube+resistance+band&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=spri+braided+xertube+resistance+band&tag=matchaspot-20",
     tag: "Best Tube Band",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best starter set",
     description:
       "Gaiam's Restore kit contains a long flat band, a loop band, and a door anchor in a compact carry bag — everything a beginner needs to add resistance work to their mat Pilates practice without having to research compatible equipment. The resistance levels are moderate (suitable for most beginners and intermediates) and the quality is reliable without being premium. For someone building their first home Pilates setup alongside a mat, this kit covers the bases efficiently.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+restore+resistance+band+kit&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gaiam+restore+resistance+band+kit&tag=matchaspot-20",
     tag: "Best Starter Kit",
   },
 ];

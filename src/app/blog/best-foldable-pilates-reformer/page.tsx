@@ -30,7 +30,7 @@ const PRODUCTS = [
     verdict: "Best premium foldable reformer",
     description:
       "The Balanced Body Allegro 2 is the gold standard for serious home practitioners who need storage flexibility without compromising on practice quality. The folding mechanism reduces the machine to approximately half its working footprint — stand it upright against a wall and it occupies roughly the space of a large wardrobe. In working position it is a full-function studio reformer: four springs, full-length 110cm rails, sealed bearing carriage, and compatibility with the complete Balanced Body accessories range including Box, Tower, Pole, and Jump Board. The fold is stable and the machine locks securely upright. For practitioners committed to a long-term home practice in a space-constrained home, the Allegro 2 is the machine to buy once.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer+folding&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer+folding&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -40,7 +40,7 @@ const PRODUCTS = [
     verdict: "Best mid-premium foldable reformer",
     description:
       "The Merrithew At Home SPX is the machine Merrithew designed specifically for home use — a full spring system in a fold-flat frame. At working length it is a complete reformer with four springs, adjustable footbar, shoulder rests, and the standard Merrithew carriage quality you'll recognise from STOTT PILATES studios. Folded, it reduces to approximately 20cm depth and can be stored under a bed or in a closet on casters. The At Home SPX is compatible with the Vertical Stand (sold separately), which converts it to a semi-tower system for additional exercise range. For practitioners who have trained in STOTT PILATES studios and want the same feel at home without dedicating permanent floor space, this is the clearest recommendation.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=matchaspot-20",
     tag: "STOTT PILATES Quality",
   },
   {
@@ -50,7 +50,7 @@ const PRODUCTS = [
     verdict: "Best mid-range foldable reformer",
     description:
       "The AeroPilates 557 is the strongest mid-range foldable option — four resistance cords, a standing platform, rebounder, and a fold-flat aluminium frame that stores under a standard bed. While the cord resistance differs from springs (more linear, less progressive), the fold mechanism is excellent: it releases with a single lever, folds in under 30 seconds, and rolls on built-in wheels. For practitioners who want a genuine full-function foldable machine without the premium investment, the 557 represents the best balance of quality, footprint, and price in this category. Suitable for beginners through to confident intermediate practitioners.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=matchaspot-20",
     tag: "Best Mid-Range",
   },
   {
@@ -60,7 +60,7 @@ const PRODUCTS = [
     verdict: "Best budget foldable reformer",
     description:
       "The AeroPilates 287 is the best budget foldable option — and the most accessible entry point into reformer Pilates. The four-cord system folds flat and rolls for storage; the full machine fits under a standard bed. At this price point the trade-offs are real: nylon wheel carriage (noisier than bearings), shorter rail length (limiting for taller practitioners), and cord resistance rather than springs. But for beginners exploring reformer Pilates or practitioners with genuine space and budget constraints, the 287 delivers the core reformer exercises in a storable form. The rebounder is included, making it also useful for cardio intervals.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287+folding+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287+folding+reformer&tag=matchaspot-20",
     tag: "Best Budget",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     verdict: "Best mid-tier spring reformer with folding option",
     description:
       "The Align-Pilates C2 Pro offers studio-grade spring resistance in a frame that folds upright for storage. Five springs, adjustable footbar, sealed roller carriage, and a solid aluminium and steel construction that matches the build quality of machines costing twice as much. Align-Pilates is a UK brand with growing distribution in the US and EU; their machines are manufactured to professional specifications and have earned serious endorsement from working Pilates instructors. The C2 Pro's folding mechanism is less compact than the AeroPilates (it folds upright, not flat), but the spring system and carriage quality are in a different tier entirely. An excellent choice for practitioners ready for real spring resistance in a storable form.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=matchaspot-20",
     tag: "Spring + Fold",
   },
 ];

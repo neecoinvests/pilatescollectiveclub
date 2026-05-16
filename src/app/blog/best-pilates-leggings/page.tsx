@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best overall Pilates legging",
     description:
       "The Align is the benchmark for studio leggings — buttery Nulu fabric that feels like a second skin, a high-rise waistband that never rolls or digs during roll-ups and spine stretches, and complete opacity even in deep hip flexion on the reformer. The four-way stretch moves with you through every Pilates exercise without restriction or bunching at the knee. Available in 25\" and 28\" inseams. If you only own one pair of dedicated Pilates leggings, make it these.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+pant&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+pant&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best for reformer classes",
     description:
       "Alo's Airbrush leggings have become a staple in reformer studios worldwide. The compression is firmer than the Align — which some practitioners prefer for the supported feeling during footwork and long-spine stretches — while still allowing full range of motion. The high-waist construction stays completely in place during inversion-adjacent exercises. The matte finish and clean aesthetic makes them as appropriate in a boutique studio as they are functional.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airbrush+high+waist+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airbrush+high+waist+legging&tag=matchaspot-20",
     tag: "Studio Favourite",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best breathable option",
     description:
       "Vuori's Performance legging is the best option for practitioners who run hot or live in warm climates. The four-way stretch fabric is lighter than Align or Airbrush while remaining fully opaque and supportive. The wide waistband is flat-seamed with no rough edges — important for exercises performed on your back on a mat or carriage. The streamlined design without external seams down the leg is particularly appropriate for Pilates where instructors observe alignment closely.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+performance+legging+women&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=vuori+performance+legging+women&tag=matchaspot-20",
     tag: "Best Breathability",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best budget legging",
     description:
       "CRZ YOGA's Naked Feeling legging is the strongest budget option by a significant margin. The fabric genuinely approaches the Align's softness at less than a third of the price. Four-way stretch, squat-proof, and with a waistband that stays up reliably through dynamic movement. Multiple practitioners have reported using these as their daily studio pair after comparing them side-by-side with leggings costing three times as much. An exceptional value for anyone building their first studio wardrobe.",
-    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+legging&tag=matchaspot-20",
     tag: "Best Value",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best for longer inseams",
     description:
       "Sweaty Betty's Power legging offers one of the best size and length ranges in premium activewear — available up to a 31\" inseam, which makes them exceptional for taller practitioners who struggle to find leggings that reach the ankle. The PowerForm fabric provides firm compression comparable to Alo Airbrush, with a smoothing effect that many practitioners appreciate during barre and mat work. The high waistband includes a hidden pocket for a key or card.",
-    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+power+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+power+legging&tag=matchaspot-20",
     tag: "Best for Tall",
   },
 ];

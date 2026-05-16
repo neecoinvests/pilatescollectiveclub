@@ -30,7 +30,7 @@ const PRODUCTS = [
     verdict: "Best professional home reformer",
     description:
       "The Allegro 2 is the reformer most serious home practitioners should buy — if their budget extends to it. The fold-flat design means it can be stored upright against a wall in a bedroom or home studio. Four springs with interchangeable colour-coded resistance levels, a smooth-glide carriage, adjustable footbar with multiple positions, and compatibility with the full Balanced Body accessory range (jump board, standing platform, tower, box). The carriage feel is noticeably smoother than budget cord-based alternatives — a difference that matters during long-spring and short-spring exercises. This is a machine built for decades of serious practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -40,7 +40,7 @@ const PRODUCTS = [
     verdict: "Best Balanced Body accessory",
     description:
       "The Pilates Arc is the most practical Balanced Body accessory for home practitioners who don't yet have a full reformer. It functions as a spine corrector, a barrel substitute, and a prop for mat exercises that require spinal extension over a curve. The arc shape matches the natural curvature of the spine, making it excellent for thoracic mobility, hip flexor release, and the classical over-the-barrel exercises. At roughly a quarter of the price of a barrel, the Arc is a genuine piece of equipment rather than a prop — it belongs in any serious home practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+arc&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+arc&tag=matchaspot-20",
     tag: "Best Accessory",
   },
   {
@@ -50,7 +50,7 @@ const PRODUCTS = [
     verdict: "Best magic circle available",
     description:
       "Balanced Body's magic circle is built to the specifications used in professional training studios — dual foam pad handles, correct spring tension for inner thigh and arm press work, and a diameter calibrated to the Pilates repertoire. The difference between this and cheaper alternatives is immediately apparent: the tension is consistent throughout the range of motion, the handles don't compress unevenly, and the ring doesn't develop a permanent bend after a few months of use. If you're purchasing a magic circle, buy it once from Balanced Body rather than replacing a cheaper option twice.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+ring+magic+circle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+ring+magic+circle&tag=matchaspot-20",
     tag: "Best Ring",
   },
   {
@@ -60,7 +60,7 @@ const PRODUCTS = [
     verdict: "Best foam roller for Pilates",
     description:
       "Balanced Body's 36-inch foam roller is the full-length version used in instructor training programs for spinal alignment, balance, and proprioception work. The density is calibrated for Pilates use — firm enough to provide stability during spine-balancing exercises, not so hard that it becomes a pain management exercise. The roller can be used beneath the length of the spine (full-length is essential for this), along the calves for myofascial release, and as a balance challenge for standing Pilates exercises. A versatile tool that earns its place in a home studio.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+foam+roller+36+inch&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+foam+roller+36+inch&tag=matchaspot-20",
     tag: "Best Roller",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     verdict: "Best for instructor use",
     description:
       "The Fitness Circle Pro is the heavier-resistance version of the standard magic circle — designed for practitioners with more developed strength in the inner thigh and arm press exercises. The dual soft-touch handles and increased spring tension make it appropriate for advanced practitioners and instructors who need a more demanding option. For studios offering private and semi-private sessions, having both the standard ring and the Pro provides appropriate resistance options across all client fitness levels. The Pro is not recommended for beginners.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+fitness+circle+pro&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+fitness+circle+pro&tag=matchaspot-20",
     tag: "Advanced",
   },
 ];

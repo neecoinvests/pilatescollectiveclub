@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best Versatile Bottom",
     description:
       "The Performance Jogger is Vuori&apos;s most universally useful Pilates piece because it sits precisely at the intersection of technical and presentable. The tapered cut is narrow enough at the ankle to avoid any contact with the reformer footbar or shoulder blocks, while the fabric — Vuori&apos;s signature Coast Fleece blend — provides stretch without the cling of compression tights. For practitioners who move directly from a reformer class to the rest of their day, this is the piece that handles both without a wardrobe change. Available for men and women in a range of neutral and coastal colours.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+performance+jogger+pants&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=vuori+performance+jogger+pants&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best Women&apos;s Short",
     description:
       "The Limitless Short sits high at the waist and long enough at the hem to provide full coverage through every Pilates movement including hip bridges, single leg circles, and reformer footwork. The four-way stretch is generous without being flimsy, and the waistband width is sufficient to stay in place without rolling during abdominal series. The fabric weight is medium — not so light that it shifts, not so heavy that it restricts. This is the short that Vuori&apos;s women&apos;s Pilates customers consistently reorder rather than experimenting with other options.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+limitless+short+women&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=vuori+limitless+short+women&tag=matchaspot-20",
     tag: "Best Women&apos;s Short",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Men&apos;s Short for Pilates",
     description:
       "The Banks Short is the correct men&apos;s choice for Pilates because of what it does not have: no internal liner, no excessive length, no loose fabric to catch on equipment. The 7-inch inseam provides enough coverage for reformer work without excess fabric bunching at the hip flexors during leg spring exercises. The fabric is Vuori&apos;s Performance Stretch woven — more structured than jersey, moves cleanly through the full range of hip and knee exercises in the Pilates repertoire. This is not a running short repurposed for the studio; it is proportioned correctly for the demands of the method.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+banks+short+men&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=vuori+banks+short+men&tag=matchaspot-20",
     tag: "Best Men&apos;s Pick",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Women&apos;s Legging",
     description:
       "The Daily Legging is Vuori&apos;s answer to the Lululemon Align — a softer, more lifestyle-oriented legging than the brand&apos;s compression options, but with a Pilates-appropriate high waist and full opacity. The fabric is buttery rather than firm, which makes it better for mat and barre work than for reformer sessions where compression feedback is useful. For practitioners who alternate between methods or prefer a softer feel throughout, the Daily Legging is excellent value at a meaningfully lower price than comparable Lululemon options. The waistband does not roll.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+daily+legging+women&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=vuori+daily+legging+women&tag=matchaspot-20",
     tag: "Best Legging",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Tank",
     description:
       "The Halo tank is Vuori&apos;s most versatile top for Pilates — fitted enough not to shift during inversions or prone exercises, but not so structured that it constrains shoulder mobility. The fabric wicks moisture efficiently, which matters during reformer classes that run at a pace sufficient to create heat. The cut works on both men and women, and the length is long enough to stay tucked when worn with high-waisted bottoms — a practical consideration during any exercise that requires the practitioner to be horizontal. Available in a range of colours with the brand&apos;s characteristic clean aesthetic.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+halo+performance+tank&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=vuori+halo+performance+tank&tag=matchaspot-20",
     tag: "Best Tank",
   },
 ];

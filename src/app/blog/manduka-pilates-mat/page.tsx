@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best for Serious Home Practice",
     description:
       "The PRO is the mat that serious practitioners buy once and keep for a decade. The 6mm density is the critical spec for Pilates: dense enough to provide clear spinal feedback during rolling exercises, articulation work, and seated positions — without the spongy absorption that thinner mats create against hard floors. The weight (7.5 lbs) is the only meaningful drawback for studio commuters, but for a home practice setup it is irrelevant. The lifetime guarantee is genuine — Manduka replaces defective PRO mats regardless of age. At this price point, the PRO is the benchmark against which every other mat is measured.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+PRO+yoga+mat+6mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+PRO+yoga+mat+6mm&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best Natural Rubber Mat",
     description:
       "The eKO is Manduka&apos;s natural rubber mat and it offers a meaningfully different surface from the PRO. The rubber provides slightly more grip — particularly relevant for the standing-adjacent footwork on a mat, or for practitioners who run warm. At 5mm it is one millimetre thinner than the PRO, which most practitioners find indistinguishable in practice. The eco credentials are genuine: natural tree rubber, no PVC, no toxic foaming agents. The eKO is the right choice if you prioritise grip and natural materials over the PRO&apos;s closed-cell surface and lifetime guarantee.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+eKO+yoga+mat+5mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+eKO+yoga+mat+5mm&tag=matchaspot-20",
     tag: "Best Natural Rubber",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Travel/Studio Bag Mat",
     description:
       "The PRO Lite is the answer to the PRO&apos;s weight problem. At 4.7mm and 4.6 lbs, it uses the same closed-cell PVC surface as the PRO but in a thinner, lighter construction that fits into most studio bags without issue. The cushioning reduction from 6mm to 4.7mm is minimal — most practitioners cannot distinguish the two surfaces in a mat class. The PRO Lite does not carry the lifetime guarantee of the full PRO, but the warranty is still among the best in the category. For practitioners who attend studio classes regularly and carry their mat on foot, the PRO Lite is the pragmatic choice.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+PRO+lite+yoga+mat&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+PRO+lite+yoga+mat&tag=matchaspot-20",
     tag: "Best Carry Mat",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Travel Mat",
     description:
       "The Superlite is not a standalone practice mat — it is a travel overlay designed to be placed over studio equipment or hotel gym mats. At 1.5mm and under 2 lbs, it folds to the size of a small towel. The natural rubber surface provides excellent hygiene separation from shared studio mats and reformer pads, and the grip layer performs well enough for mat work and stretching. For practitioners who travel frequently and refuse to practise on unfamiliar shared surfaces, the Superlite is the one accessory that solves the problem completely.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+eKO+superlite+travel+mat&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+eKO+superlite+travel+mat&tag=matchaspot-20",
     tag: "Best Travel",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Mat Care",
     description:
       "The PRO&apos;s closed-cell surface is the reason it outlasts every other mat on the market — sweat and bacteria cannot penetrate it. But surface residue still accumulates, and the wrong cleaning products (anything with essential oils or harsh detergents) will degrade the top layer over time. Manduka&apos;s pH-balanced spray is formulated specifically for the PRO surface: it removes post-class residue without breaking down the material. A bottle lasts months. If you&apos;re spending $120+ on a PRO mat, the cleaning spray is a sensible addition to the initial purchase.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+mat+cleaning+spray&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+mat+cleaning+spray&tag=matchaspot-20",
     tag: "Mat Care",
   },
 ];

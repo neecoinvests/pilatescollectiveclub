@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "From $245",
     verdict: "Best first barrel for home practice",
     description: "The Balanced Body Arc is the most versatile entry point into barrel work — a half-round foam and upholstered apparatus that serves simultaneously as a spine support, a backbend prop, an abdominal challenge tool, and a hip flexor opener. Placed with the curved side down, it supports backbend extensions (Cobra, Swan variations) and hip flexor stretches. Flipped with the flat side down it becomes a balance and core challenge surface. It is small enough to store upright in a wardrobe and light enough to carry in one hand. The Arc is distinct from the Spine Corrector — it is a lower curve, better suited to supported extension work and less suited to the deep classical Spine Corrector exercises. For practitioners who want barrel work without the price or storage footprint of a Spine Corrector or Ladder Barrel, the Arc is the correct first purchase.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+arc+barrel+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+arc+barrel+pilates&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $395",
     verdict: "Best classical barrel for advanced back work",
     description: "The Spine Corrector is one of Joseph Pilates' original apparatus — a stepped barrel designed specifically to support and articulate the spine through the full classical Spine Corrector series. The Balanced Body version maintains the classical proportions (a taller, more pronounced curve than the Arc) while using durable foam and upholstery that withstands regular studio use. The Spine Corrector exercises — Side Stretch, Twist, Back Extension, Hip Circles, and the full classical series — target spinal mobility, hip flexor flexibility, and deep abdominal control in ways that mat work and the reformer cannot fully replicate. It is a meaningful upgrade from the Arc for practitioners ready for the dedicated classical series. The Balanced Body Spine Corrector is available through authorized dealers and on Amazon.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+spine+corrector+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+spine+corrector+pilates&tag=matchaspot-20",
     tag: "Classical",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: "From $265",
     verdict: "Best Arc for STOTT PILATES practitioners",
     description: "The Merrithew Arc Barrel is the STOTT PILATES equivalent of the Balanced Body Arc — a half-round barrel designed for the STOTT PILATES arc repertoire of extension, flexion, and lateral support exercises. The spring color-coded approach carries over: STOTT-trained instructors program the Arc work with the same movement vocabulary they use on the reformer, making the Merrithew Arc the natural complement to an SPX Max setup. Build quality is comparable to Balanced Body; the main distinction is which methodological ecosystem the practitioner works within. For practitioners whose teacher is STOTT-certified, the Merrithew Arc is the straightforward recommendation. Both arcs perform comparably; choose based on your instructor's brand preference.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+arc+barrel+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+arc+barrel+pilates&tag=matchaspot-20",
     tag: "STOTT PILATES",
   },
   {
@@ -56,7 +56,7 @@ const PRODUCTS = [
     price: "From $1,295",
     verdict: "Best advanced barrel for the complete repertoire",
     description: "The Ladder Barrel is a full apparatus — a large rounded barrel mounted on a base with a horizontal ladder extending from one side. It is not a beginner purchase: the Ladder Barrel exercises (Side Stretch over the barrel, Back Extension, Hanging, and the advanced gymnastics-adjacent sequences) require significant baseline strength, flexibility, and body awareness. For practitioners ready for advanced work or instructors equipping a complete home studio, the Ladder Barrel adds a dimension of extension and lateral flexibility training unavailable on any other apparatus. The Balanced Body Ladder Barrel has an adjustable barrel distance from the ladder — important for accommodating different body proportions and exercise intensities. Purchased through Balanced Body authorized dealers; the Amazon search link may show reseller results.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+ladder+barrel+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+ladder+barrel+pilates&tag=matchaspot-20",
     tag: "Advanced",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "From $800",
     verdict: "Best classical Spine Corrector for purists",
     description: "The Gratz Spine Corrector is the original — manufactured to Joseph Pilates' specifications, with the precise curve height and proportions of the classical apparatus. For classical practitioners whose training follows the original Pilates exercises as designed, the Gratz Spine Corrector is the only version that performs the classical series as intended. The wood construction and upholstery are simple and durable; the curve geometry differs meaningfully from contemporary versions in ways that classical teachers describe as producing more authentic exercise outcomes. Purchased directly from Gratz (gratzpilates.com); not typically available on Amazon. The Amazon link may surface reseller results for reference.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+spine+corrector+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gratz+spine+corrector+pilates&tag=matchaspot-20",
     tag: "Classical",
   },
 ];

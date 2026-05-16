@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best all-round Pilates foam roller",
     description:
       "OPTP is the foam roller brand used in most clinical Pilates and physiotherapy settings — which tells you everything about the quality. The standard density (white) is the correct choice for Pilates: firm enough to provide real myofascial pressure and spinal extension, but not so aggressive as to cause bruising or hyperextend thoracic segments. The 36-inch length allows full spinal placement from coccyx to occiput in one position, which is essential for the classic Pilates foam roller opening sequence. OPTP rollers maintain their density for years — cheap foam rollers compress and lose effectiveness within months.",
-    affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best for targeted myofascial release",
     description:
       "TriggerPoint's GRID roller has a multi-density surface — flat areas, ridges, and knobs — that simulate different hand pressures during massage. For Pilates practitioners using the roller for myofascial release of the ITB, thoracic paraspinals, and hip flexors between sessions, the GRID provides more specific pressure than a smooth roller. The 13-inch size is less useful for full spinal placement but highly portable and practical for targeted work on specific areas. The hollow core construction means it doesn't compress over time.",
-    affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+GRID+foam+roller&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+GRID+foam+roller&tag=matchaspot-20",
     tag: "Myofascial Release",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Pilates-specific foam roller",
     description:
       "Balanced Body makes the only foam roller designed specifically for Pilates — same brand that produces the professional-grade reformer. The Unplugged Roller has a slightly firmer density than standard rollers and is available in both full-round and half-round configurations. The full-round (36-inch) is ideal for spinal mobilisation and the balance challenges that are a distinctive feature of Pilates foam roller work. Lying lengthwise on this roller while performing arm reaches and hip drops is a core component of many contemporary Pilates classes.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+foam+roller+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+foam+roller+pilates&tag=matchaspot-20",
     tag: "Pilates-Specific",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best half-round for balance work",
     description:
       "The half-round foam roller is a distinct Pilates tool — placed flat-side down, it creates an unstable surface for standing balance challenges; placed flat-side up, it supports the spine in extension for gentle thoracic opening. The Gaiam Restore is the best value half-round available, with consistent density and a non-slip bottom that prevents the roller from sliding during footwork. An essential prop for studios and home practitioners who want the proprioceptive challenge of the half-round without the full price of a Balanced Body unit.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+restore+half+round+foam+roller&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gaiam+restore+half+round+foam+roller&tag=matchaspot-20",
     tag: "Best Half-Round",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best budget option",
     description:
       "LuxFit's high-density foam roller is the best budget option for practitioners who want to try foam roller work before committing to a premium product. The density is higher than most budget rollers, which means it compresses less quickly under regular use. At 36 inches it covers full-spine placement. The trade-off versus OPTP is that density varies slightly along the length and the surface has less texture. For beginners or practitioners who use the roller primarily for spinal extension and opening (rather than intense myofascial work), this is a sensible starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=luxfit+high+density+foam+roller+36+inch&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=luxfit+high+density+foam+roller+36+inch&tag=matchaspot-20",
     tag: "Best Budget",
   },
 ];

@@ -30,7 +30,7 @@ const PRODUCTS = [
     verdict: "Best home reformer under $1,500",
     description:
       "The At Home SPX is the most accessible full-spring reformer from a serious professional brand. Unlike cord-based home alternatives, the SPX uses a genuine spring system — five springs of varying tension — giving you the authentic reformer feel that mat-plus-resistance machines cannot replicate. The frame is lighter than the studio SPX Max but maintains the precision that STOTT Pilates instruction demands. The footbar adjusts to three positions, the shoulder rests fold flat, and the machine can be stored vertically. For practitioners who want a genuine professional-grade spring system without the studio reformer footprint or price, the At Home SPX is the clearest recommendation in its segment.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -40,7 +40,7 @@ const PRODUCTS = [
     verdict: "Best professional studio reformer",
     description:
       "The SPX Max is the machine you find in professional training facilities and STOTT Pilates certification programmes worldwide. The heavier frame, longer rails, and more substantial carriage provide the stability and precision that advanced work requires. The five-spring system covers a wider resistance range than the At Home SPX, and the accessories ecosystem (jump board, vertical stand, tower) makes this a complete apparatus platform. Built to last decades of daily multi-client use. For home practitioners who want studio-quality equipment and have the space for a fixed machine, the SPX Max is as serious as home Pilates equipment gets.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=matchaspot-20",
     tag: "Studio Grade",
   },
   {
@@ -50,7 +50,7 @@ const PRODUCTS = [
     verdict: "Best resistance band for Pilates",
     description:
       "The STOTT Pilates Flex Band is the resistance band used in certified STOTT instructor training programmes and sold in a resistance range appropriate for Pilates work — Light, Medium, and Heavy in standard Pilates colours. Unlike generic exercise bands, these are calibrated to the specific resistance required for Pilates exercises including the Rowing series, arm circles, and standing work. The latex construction provides smooth, consistent resistance throughout the range of motion. For home practitioners, these bands bridge the gap between mat work and equipment work, adding resistance to exercises that typically require a reformer.",
-    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+flex+band&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+flex+band&tag=matchaspot-20",
     tag: "Best Band",
   },
   {
@@ -60,7 +60,7 @@ const PRODUCTS = [
     verdict: "Best stability ball for Pilates",
     description:
       "Merrithew's Stability Ball is used in STOTT Pilates programming as a proprioception and core challenge tool — specifically for exercises in the Stability Ball repertoire taught in Level 1 and 2 certifications. The 65cm size is appropriate for practitioners of average height; the burst-resistant construction and anti-roll base make it safe for spinal exercises over the ball. The material quality is noticeably superior to generic exercise balls — it holds its shape and pressure consistently, which matters for exercises where the ball is used as a spine support. An honest, functional piece of equipment rather than a trend accessory.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+stability+ball+65cm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+stability+ball+65cm&tag=matchaspot-20",
     tag: "Best Ball",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     verdict: "Best prop for advanced mat work",
     description:
       "The Mini Stability Ball (approximately 23cm when inflated) is used in STOTT Pilates programming to modify and challenge mat exercises — placed beneath the lumbar spine during supine exercises to increase proprioceptive demand, or between the knees during footwork to activate the inner thighs. Small, inexpensive, and genuinely useful for practitioners looking to add challenge to a home mat practice without equipment. The inflation level affects the difficulty level — slightly deflated for beginners, fully inflated for a more demanding surface. One of the most cost-effective Pilates accessories available.",
-    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+mini+stability+ball&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+mini+stability+ball&tag=matchaspot-20",
     tag: "Home Practice",
   },
 ];

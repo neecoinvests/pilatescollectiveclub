@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "From $3,495",
     verdict: "The best home reformer available",
     description: "The Allegro 2 is the machine against which all other home reformers are measured. The sealed ball-bearing carriage delivers a smoothness that practitioners trained in professional studios recognise immediately — it is the same quality they worked on before buying for home. Four color-coded springs cover the full resistance range from rehabilitation-light to advanced-heavy. The foldable upright mechanism with integrated casters makes daily set-up and storage a 60-second operation rather than a commitment. The full Balanced Body accessory ecosystem (Box, Tower, Jump Board, Pole) means the machine grows with the practitioner indefinitely. At $3,495 it is not a casual purchase. It is, however, the correct purchase for a practitioner serious about a long-term home reformer practice — the one machine worth buying once.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=matchaspot-20",
     tag: "The Benchmark",
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $259",
     verdict: "Non-optional — buy it with the machine",
     description: "The Balanced Body Box is not an optional accessory. The Long Box and Short Box series form a substantial and distinct portion of the classical and contemporary reformer repertoire — Pulling Straps, Backstroke, Teaser on the Box, Horseback, and the complete Short Box series (Round Back, Flat Back, Twist, Side Reach, Tree) all require the Box. Without it, you own a reformer capable of roughly 60% of the repertoire. The Balanced Body Box is designed specifically for the Allegro 2 carriage dimensions and sits without movement during dynamic exercises. Purchase it at the same time as the reformer — it is part of the essential setup cost.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+reformer+box&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+reformer+box&tag=matchaspot-20",
     tag: "Essential",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: "From $219",
     verdict: "Best cardio addition to the Allegro 2",
     description: "The Balanced Body Jump Board attaches to the foot end of the Allegro 2 and converts footwork into a low-impact cardio jumping sequence. The board is padded and sized to accommodate parallel, Pilates stance, and wide-stance jump positions. Jumpboard work runs on lighter spring settings and keeps the heart rate elevated for the duration — a meaningful cardio addition for practitioners who want a complete workout without leaving the reformer. The board is compatible with the Allegro 2 specifically; check compatibility if you own an earlier Balanced Body model. Not appropriate during pregnancy or certain post-surgical recovery phases without instructor guidance.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+jump+board+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+jump+board+reformer&tag=matchaspot-20",
     tag: "Cardio Add-On",
   },
   {
@@ -56,7 +56,7 @@ const PRODUCTS = [
     price: "From $89",
     verdict: "Essential for upper body and advanced exercises",
     description: "The Balanced Body Pole (also called the Dowel or Stick) is used in several exercises to extend the arm reach and connect the practitioner's upper body to the strap system — particularly in the advanced rowing series and some standing exercises. It is a simple accessory but necessary for a complete practice. The Balanced Body Pole is the correct diameter and length for Allegro 2 straps. Generic poles from hardware stores are sometimes used by practitioners as a cost alternative; the Balanced Body version is the precise fit.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+reformer+pole&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+reformer+pole&tag=matchaspot-20",
     tag: "Complete the Setup",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "From $35",
     verdict: "Prevents movement on smooth floors",
     description: "On hardwood, tile, or polished concrete floors, the Allegro 2's casters can drift during dynamic exercises — particularly the standing exercises and jump board sequences that involve significant weight transfer. A non-slip equipment mat placed under the reformer's end feet (not under the casters) anchors the machine without adhesive products. A purpose-made equipment pad or a large non-slip yoga mat cut to size works equally well. At $35 this is a small investment that meaningfully improves safety and machine stability for home practitioners without studio rubber flooring.",
-    affiliateUrl: "https://www.amazon.com/s?k=non+slip+exercise+equipment+mat+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=non+slip+exercise+equipment+mat+reformer&tag=matchaspot-20",
     tag: "Safety Essential",
   },
 ];

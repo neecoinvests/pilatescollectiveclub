@@ -37,7 +37,7 @@ const BOOKS = [
     tag: "The Original",
     description:
       "Written by Joseph Pilates himself in 1945, this is the foundational text of the entire method. It contains the complete original mat repertoire — 34 exercises photographed and described in Pilates' own words — alongside his philosophy of health, breathing, and the relationship between mind and body. Every serious practitioner should read it at least once. The exercises are harder than they look; the philosophy is more modern than you'd expect from an 80-year-old text.",
-    affiliateUrl: "https://www.amazon.com/s?k=return+to+life+through+contrology+joseph+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=return+to+life+through+contrology+joseph+pilates&tag=matchaspot-20",
     bestFor: "All practitioners",
     imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
   },
@@ -48,7 +48,7 @@ const BOOKS = [
     tag: "Best for Beginners",
     description:
       "Brooke Siler studied directly under Romana Kryzanowska — one of Joseph Pilates' original students — and wrote what remains the clearest, most accessible introduction to the classical mat method. The photography is exceptional, the cueing is precise, and the progression from beginner to advanced is intelligently structured. If you recommend one Pilates book to a new practitioner, this is it. Siler understands both the technical and philosophical dimensions of the work.",
-    affiliateUrl: "https://www.amazon.com/s?k=the+pilates+body+brooke+siler&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=the+pilates+body+brooke+siler&tag=matchaspot-20",
     bestFor: "Beginners and intermediate practitioners",
     imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
   },
@@ -59,7 +59,7 @@ const BOOKS = [
     tag: "Best for Understanding the Body",
     description:
       "The definitive anatomy reference for Pilates practitioners and teachers. Isacowitz and Clippinger map each classical exercise to the muscles it targets, the joints it mobilises, and the common alignment errors that compromise its effectiveness. Full-colour anatomical illustrations show exactly what's happening beneath the surface during the hundred, spine stretch, and side-lying series. Essential reading for anyone who wants to understand why Pilates works, not just how to do it.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+anatomy+rael+isacowitz+karen+clippinger&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+anatomy+rael+isacowitz+karen+clippinger&tag=matchaspot-20",
     bestFor: "Intermediate to advanced practitioners and teachers",
     imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
   },
@@ -70,7 +70,7 @@ const BOOKS = [
     tag: "Best Reference",
     description:
       "A comprehensive, well-photographed reference covering the full breadth of the Pilates method — mat, reformer, Cadillac, chair, and barrel. Robinson's approach is more contemporary than Siler's but rooted in classical principles, and the book's format makes it genuinely useful as an ongoing reference rather than a one-time read. The sections on modifications for injury and pregnancy are particularly strong. The most complete single-volume Pilates reference available.",
-    affiliateUrl: "https://www.amazon.com/s?k=the+pilates+bible+lynne+robinson&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=the+pilates+bible+lynne+robinson&tag=matchaspot-20",
     bestFor: "Practitioners wanting a comprehensive ongoing reference",
     imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
   },
@@ -81,7 +81,7 @@ const BOOKS = [
     tag: "Best for Injury & Rehabilitation",
     description:
       "Mccook's book addresses a gap in the Pilates literature — how to adapt the method intelligently for bodies with structural variation, injury history, and chronic pain. Drawing on his background in movement science and somatics, Mccook explains how spinal mechanics, breathing, and deep core function interact, and how to modify classical exercises when the standard form isn't working. Required reading for practitioners dealing with back pain, hip issues, or post-surgical recovery.",
-    affiliateUrl: "https://www.amazon.com/s?k=your+body+your+pilates+tom+mccook&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=your+body+your+pilates+tom+mccook&tag=matchaspot-20",
     bestFor: "Practitioners with injuries, chronic pain, or structural limitations",
     imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
   },

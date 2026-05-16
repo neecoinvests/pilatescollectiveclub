@@ -198,7 +198,7 @@ export default function BlogEquipmentPage() {
                 name="The Studio Mat Pro"
                 description="6mm thick, high-density closed-cell foam with a natural cork surface layer for superior grip. Lightweight, easy to wipe clean, and comes with a carry strap. Our top recommendation for serious home practitioners."
                 price="From $52"
-                affiliateUrl="https://www.amazon.com/s?k=pilates+mat+6mm+cork+non+slip&tag=pilatescollective-20"
+                affiliateUrl="https://www.amazon.com/s?k=pilates+mat+6mm+cork+non+slip&tag=matchaspot-20"
                 imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"
               />
             </section>
@@ -232,7 +232,7 @@ export default function BlogEquipmentPage() {
                 name="Premium Resistance Band Set"
                 description="Set of 3 fabric-covered bands (light, medium, heavy). Durable looped design with anti-slip inner layer. Ideal for Pilates footwork, chest expansion, and stretching series. Includes a mesh storage bag."
                 price="From $28"
-                affiliateUrl="https://www.amazon.com/s?k=pilates+resistance+band+set+fabric&tag=pilatescollective-20"
+                affiliateUrl="https://www.amazon.com/s?k=pilates+resistance+band+set+fabric&tag=matchaspot-20"
                 imageUrl="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg"
               />
             </section>
@@ -267,7 +267,7 @@ export default function BlogEquipmentPage() {
                 name="Precision Magic Circle"
                 description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
                 price="From $35"
-                affiliateUrl="https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20"
+                affiliateUrl="https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=matchaspot-20"
                 imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg"
               />
             </section>
@@ -301,7 +301,7 @@ export default function BlogEquipmentPage() {
                 name="Adjustable Ankle Weights"
                 description="Neoprene-covered with adjustable fill pockets, 0.5–2kg per weight. Machine washable, secure velcro closure, and a slim profile that doesn't restrict movement range. A rare combination of quality and versatility."
                 price="From $38"
-                affiliateUrl="https://www.amazon.com/s?k=adjustable+ankle+weights+pilates+neoprene&tag=pilatescollective-20"
+                affiliateUrl="https://www.amazon.com/s?k=adjustable+ankle+weights+pilates+neoprene&tag=matchaspot-20"
                 imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"
               />
             </section>
@@ -337,7 +337,7 @@ export default function BlogEquipmentPage() {
                 name="Home Pilates Board"
                 description="Spring-loaded sliding board with adjustable resistance. Foldable and wall-mountable. Covers footwork, squat series, and standing balance exercises. A smart option before committing to a full reformer."
                 price="From $179"
-                affiliateUrl="https://www.amazon.com/s?k=pilates+board+home+workout+sliding&tag=pilatescollective-20"
+                affiliateUrl="https://www.amazon.com/s?k=pilates+board+home+workout+sliding&tag=matchaspot-20"
                 imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"
               />
             </section>

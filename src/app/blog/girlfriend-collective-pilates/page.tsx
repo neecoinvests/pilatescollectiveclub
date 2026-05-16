@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best Overall Legging",
     description:
       "The Compressive High-Rise is Girlfriend Collective&apos;s most technically accomplished piece — made from RPET fabric (recycled post-consumer plastic bottles), it provides medium-to-firm compression that holds position through the full Pilates mat repertoire without restricting the deep hip and spinal flexion the method requires. The fabric is fully opaque from every angle, which matters on a mat or reformer carriage where the instructor views your legs from below. The high waistband is wide, structured, and does not roll during abdominal series. At this price, it competes directly with Lululemon&apos;s Wunder Train — and outperforms it on ethics.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+compressive+high+rise+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+compressive+high+rise+legging&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best Bra for Pilates",
     description:
       "The Float is Girlfriend Collective&apos;s low-impact bra — the correct support level for a Pilates practice, which requires unrestricted ribcage expansion for breathing and does not need the heavy-duty support of a running bra. The recycled fabric is soft against skin during the prolonged floor sequences that characterise mat and reformer work, and the bra lies flat when prone, which is more than can be said for bras with structured cups or thick padding. The back closure is clean and sits below the shoulder blade, which prevents the discomfort of lying on hardware during supine exercises.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+float+sports+bra&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+float+sports+bra&tag=matchaspot-20",
     tag: "Best Bra",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Bra Top",
     description:
       "The Paloma is a bralette-style top that provides more coverage than the Float — appropriate for studio classes where a sports bra alone is insufficient for the practitioner&apos;s comfort level. The wide band sits firmly at the ribcage without digging during deep breathing exercises, and the straight neckline provides consistent coverage through every reformer exercise including those that require the torso to be horizontal or inverted. The recycled fabric quality is excellent — the Paloma is the piece that Girlfriend Collective customers most frequently cite as matching the feel of comparable Lululemon pieces at a lower price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bra+top&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bra+top&tag=matchaspot-20",
     tag: "Best Bra Top",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Short for Pilates",
     description:
       "The Girlfriend Collective Bike Short has a 5-inch inseam — long enough to provide full coverage during all reformer exercises including those where the legs are elevated, and short enough not to bunch behind the knee during seated or bent-leg positions. The fabric is the same recycled RPET construction as the Compressive Legging, which means the opacity and compression hold up wash after wash. No ride-up on the reformer carriage, which is the specific functional test a studio short needs to pass. At under $40, this is excellent value for a performance short.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+bike+short&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+bike+short&tag=matchaspot-20",
     tag: "Best Short",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Value Set",
     description:
       "Buying the Topanga Bra and Legging as a set saves approximately $20 versus purchasing separately, which makes it one of the most straightforward value propositions in sustainable activewear. The set coordinates across Girlfriend Collective&apos;s full colour range — from clean neutral tones to the brand&apos;s more distinctive pigmented options. The matched set also ensures consistent fabric behaviour, which matters when you want the bra and legging to stay in position relative to each other during movement. For a new customer to the brand, the set is the correct entry point.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+topanga+set+activewear&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+topanga+set+activewear&tag=matchaspot-20",
     tag: "Best Value",
   },
 ];

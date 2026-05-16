@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "From $299",
     verdict: "Best overall under $500",
     description: "The AeroPilates 287 is the clearest recommendation in the under-$500 category — a genuine full-function reformer that delivers the foundational Pilates repertoire at an accessible price. Four adjustable cord levels replace the traditional spring system; the resistance feel is softer and more elastic than springs, which is a real difference but not a fatal one for beginners and casual practitioners. The foldable aluminium frame stores flat under most beds. The rebounder attachment — rare at this price — adds cardio intervals to the workout. The carriage glides on nylon wheels rather than sealed bearings, which is noisier and slightly less smooth, but functionally adequate. For anyone testing whether reformer Pilates suits them before committing to a studio-grade investment, this is the rational starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287+reformer&tag=matchaspot-20",
     tag: "Editor's Pick",
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $349",
     verdict: "Best for taller practitioners",
     description: "The 4-Cord Sport extends the AeroPilates platform with a longer rail length — an important consideration for practitioners over 5'10\" who find the 287's carriage travel limiting during full-extension footwork. The resistance system is the same four-cord design, but the additional frame length gives the exercises more range of motion at the top of the movement. The Sport model also includes a monitor for basic workout tracking (time, reps, calories) which some practitioners find useful for structure. The rebounder is compatible but sold separately at this tier. A meaningful upgrade over the 287 specifically for height.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+4+cord+sport+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+4+cord+sport+reformer&tag=matchaspot-20",
     tag: "Best for Height",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: "From $449 (on sale)",
     verdict: "Best upgrade path if budget stretches",
     description: "The 557 sits at the upper edge of the sub-$500 window and represents a meaningful step up from the 287. The four-cord system is the same, but the carriage runs on sealed nylon bearings, the footbar has five adjustment positions, and the standing platform is included — which unlocks the full AeroPilates standing repertoire unavailable on the base models. When on sale (Black Friday, Prime Day) it frequently drops to $399–$449. If you can reach this price point, the 557 is meaningfully better than the 287, not just incrementally. The rebounder is included, assembly takes about 90 minutes, and the overall stability is noticeably better than the entry model.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=matchaspot-20",
     tag: "Best Value Stretch",
   },
   {
@@ -56,7 +56,7 @@ const PRODUCTS = [
     price: "From $229",
     verdict: "Best bare-minimum entry point",
     description: "The Stamina Premier is the lowest-cost entry into reformer-style Pilates — a two-cord system with a simple carriage on a basic steel frame. At this price, expectations must be calibrated accordingly: the resistance range is narrow, the carriage travel is shorter than a full reformer, and the frame flexes slightly under load. What it does offer is a functional, storable machine for complete beginners who want to learn the basic positions and movements before investing more. The included DVD instruction is genuinely useful for self-teaching. Buy this if the question is 'does reformer Pilates work for me?' — not if the question is 'how do I get better at reformer Pilates?'",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+pilates+premier+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+pilates+premier+reformer&tag=matchaspot-20",
     tag: "True Budget",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "From $389",
     verdict: "Best spring-based machine under $500",
     description: "Unlike the AeroPilates cord systems, the BalanceFrom reformer uses actual coil springs — five in total — which gives it a resistance feel closer to studio equipment than any cord-based machine at this price. The spring tension and the way resistance builds through the movement arc is fundamentally different and more familiar to practitioners who have trained in studios. The carriage, footbar, and shoulder rests are all steel construction; the machine weighs 66lbs and does not fold. The trade-off for the spring system is storage: this is a dedicated, semi-permanent piece of home equipment. For practitioners who have already trained in studios and want authentic spring resistance at home, this is the only sub-$500 option worth considering.",
-    affiliateUrl: "https://www.amazon.com/s?k=balancefrom+pilates+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=balancefrom+pilates+reformer&tag=matchaspot-20",
     tag: "Spring-Based Pick",
   },
 ];

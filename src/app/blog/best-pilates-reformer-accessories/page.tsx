@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best upgrade for immediate impact",
     description:
       "Sticky pads are the single most useful reformer accessory. They adhere to the carriage platform and prevent the feet and hands from slipping during standing work, kneeling exercises, and any movement where grip on the carriage matters. The Balanced Body set fits all their reformer models and most third-party machines. The difference in stability — particularly during elephant, down-stretch, and standing side splits — is immediate and significant. For home reformer owners especially, sticky pads are a near-essential addition.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+sticky+pad+carriage&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+sticky+pad+carriage&tag=matchaspot-20",
     tag: "First Accessory",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best for cardiovascular variation",
     description:
       "The jump board replaces the footbar and allows jumping and running exercises on the reformer — a high-cardio addition to the method that builds fast-twitch leg power while remaining low-impact (the springs absorb the landing force). Jump board classes have become a feature of many boutique reformer studios. For home reformer owners who want to add cardiovascular intensity without the joint impact of running, this is a genuinely transformative accessory. Verify compatibility with your specific reformer model before purchasing.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+jump+board+balanced+body&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+jump+board+balanced+body&tag=matchaspot-20",
     tag: "Cardio Upgrade",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best for exercise variety",
     description:
       "The long box is used for supine arm work, prone swimming series, and the long stretch series — exercises that require lying lengthwise on a raised platform. It is a standard piece of apparatus in classical Pilates and opens up a significant portion of the reformer repertoire that is inaccessible without one. Merrithew boxes are well-constructed and fit their STOTT reformers precisely; they also fit most standard-width reformers from other manufacturers. Foam-padded with a removable, washable cover.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+pilates+reformer+long+box&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+pilates+reformer+long+box&tag=matchaspot-20",
     tag: "Repertoire Expander",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best strap upgrade",
     description:
       "Most home reformers ship with nylon loop straps that are functional but uninspiring. Leather reformer straps are the traditional choice and have genuine practical advantages: they have less stretch than nylon, providing crisper resistance feedback during arm exercises; they're more comfortable against bare hands; and they develop a patina with use. If you've been training on nylon straps and switch to quality leather, the difference in tactile feedback during footwork and arm series is immediately noticeable. Fits most reformers via standard D-ring attachment.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+leather+straps&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+leather+straps&tag=matchaspot-20",
     tag: "Quality Upgrade",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best recovery accessory",
     description:
       "A high-density foam roller is the most useful non-machine accessory for reformer practitioners. Used lengthwise along the spine, it opens the chest and decompresses thoracic vertebrae — particularly beneficial for practitioners who find their thoracic mobility limiting their reformer performance on exercises like short box or swan. Used crosswise under the shoulders or hips for myofascial release. OPTP and TriggerPoint make the most durable rollers; avoid soft foam versions that compress completely and lose effectiveness within months.",
-    affiliateUrl: "https://www.amazon.com/s?k=foam+roller+36+inch+high+density+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=foam+roller+36+inch+high+density+pilates&tag=matchaspot-20",
     tag: "Recovery Essential",
   },
 ];

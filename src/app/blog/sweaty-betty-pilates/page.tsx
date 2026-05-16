@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best Overall Legging",
     description:
       "The Power is Sweaty Betty&apos;s most versatile Pilates legging and the piece most consistently recommended by UK studio instructors. The fabric has a firm, smooth compression that holds through spinal articulation and dynamic reformer sequences without the stiff, gym-adjacent feel of over-engineered compression leggings. The high waistband uses a double-layer construction that provides genuine hold through roll-ups and spine stretch without folding at the front — a failure mode that affects many mid-range leggings. Fully opaque in all Pilates positions, including the deep hip flexion of footwork. The Power sits at a price point below Lululemon Align ($98 vs SB&apos;s $120) in the US market, though the quality is comparable.",
-    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+power+workout+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+power+workout+legging&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best for Mat Work",
     description:
       "Named for an eagle-pose yoga posture and designed for the full range of hip external rotation and spinal extension that yoga demands — which overlaps almost entirely with what classical mat Pilates requires. The Garudasana fabric is softer and lighter than the Power, sitting closer to a Lululemon Align in hand feel while maintaining full opacity. The waistband is wider and flatter than the Power, which distributes pressure more evenly during prone prone exercises and side-lying sequences. For practitioners who divide their time between mat Pilates and yoga — a common combination — the Garudasana is the legging that works authentically in both contexts rather than compromising in either.",
-    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+garudasana+yoga+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+garudasana+yoga+legging&tag=matchaspot-20",
     tag: "Best for Mat Work",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Bra",
     description:
       "The Super Sculpt is Sweaty Betty&apos;s most technically accomplished bra for Pilates. The medium-support construction holds cleanly through reformer dynamic sequences without the chest compression of high-impact bras that can restrict the lateral ribcage expansion Pilates breathing demands. The racerback geometry is cut generously enough that the shoulder straps do not obstruct the scapular mobility required for arm series and straps work. The bra band sits below the ribcage without digging into the spine during bridge or the dead bug positions common in reformer core work. The fabric quality is noticeably above Gymshark and comparable to Lululemon&apos;s Energy Bra at roughly the same price.",
-    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+super+sculpt+sports+bra&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+super+sculpt+sports+bra&tag=matchaspot-20",
     tag: "Best Bra",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Lightweight",
     description:
       "Designed primarily for running but worth attention for Pilates practitioners who run warm or train in heated studios. The Zero Gravity fabric is noticeably lighter and more breathable than the Power, with a four-way stretch that accommodates the full hip flexion range without restriction. The trade-off is a slightly softer waistband — it holds well for a 55-minute Pilates class but does not have the fortress-like hold of the Power during more vigorous reformer sequences. For morning mat practice in a warm home studio, private sessions where temperature control matters more than maximum waistband security, or practitioners who genuinely overheat in standard compression fabric, the Zero Gravity is a well-considered lightweight option.",
-    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+zero+gravity+run+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+zero+gravity+run+legging&tag=matchaspot-20",
     tag: "Best Lightweight",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Tank",
     description:
       "Sweaty Betty&apos;s layering tanks are consistently better than their standalone counterparts for Pilates because the fabric weight and construction are designed for close-to-body wear rather than as a fashion outer layer. The Blossom sits at hip length — correct for reformer work where longer tanks catch on shoulder blocks — and the fabric has enough drape to move with the body rather than restricting it. The back construction allows full scapular mobility. It layers cleanly over the Super Sculpt bra without bunching at the waist during seated or standing work. For practitioners who want coverage beyond a bra but find cropped tanks too short for their comfort, the Blossom provides a proportioned middle option.",
-    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+blossom+layer+tank&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+blossom+layer+tank&tag=matchaspot-20",
     tag: "Best Tank",
   },
 ];

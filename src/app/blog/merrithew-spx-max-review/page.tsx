@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "From $2,199",
     verdict: "Best flat-folding professional reformer",
     description: "The Merrithew SPX Max is the reference machine for STOTT PILATES certified instructor training — the machine that teachers learn on, and the machine that replicates the studio experience most precisely for practitioners trained in the STOTT method. Five color-coded springs (Blue, Red, Green, Yellow, and a half-spring) provide the finest resistance gradation of any home reformer, with particular precision in the light-resistance range that rehabilitation and pregnancy Pilates require. The flat-fold mechanism is the SPX Max's defining practical advantage: the machine folds completely flat on integrated casters and rolls under a standard bed, eliminating the wall space requirement of the Balanced Body Allegro 2. At approximately $2,199–$2,599 before accessories, it represents the strongest value proposition in the professional home reformer category.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=matchaspot-20",
     tag: "The Benchmark",
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $249",
     verdict: "Non-optional — buy it with the machine",
     description: "The Merrithew Box is required for the Long Box and Short Box series — Pulling Straps, Swan, the complete Short Box rotation, side stretches, and Teaser on the Box. These exercises form a substantial and distinct portion of the reformer repertoire; without the Box you are working with an incomplete apparatus. The Merrithew Box is sized for SPX carriage dimensions and remains stable during prone and seated loading. Budget this into the total purchase cost: the complete SPX Max setup (reformer + box) runs approximately $2,450–$2,850.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+reformer+box&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+reformer+box&tag=matchaspot-20",
     tag: "Essential",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     price: "From $799",
     verdict: "Tower system designed for the SPX Max",
     description: "The Merrithew SPX Vertical Stand is the tower attachment designed specifically for the At Home SPX and SPX Max reformers. It attaches to the foot end of the reformer and adds a push-through bar (top and bottom loaded), roll-down bar, and arm and leg springs for the full STOTT PILATES tower repertoire. The spring color system matches the reformer, making resistance programming seamless across both. For practitioners who have progressed past the reformer repertoire and want to add tower work, the Vertical Stand is the natural SPX Max expansion — it converts the machine into a near-complete apparatus station without needing a separate floor footprint.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+vertical+stand+tower&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+vertical+stand+tower&tag=matchaspot-20",
     tag: "Tower Add-On",
   },
   {
@@ -56,7 +56,7 @@ const PRODUCTS = [
     price: "From $199",
     verdict: "Low-impact cardio on the SPX Max",
     description: "The Merrithew Jump Board attaches to the foot end of the SPX Max and converts footwork into a low-impact jumping sequence. Jumpboard work on the Merrithew uses lighter spring settings (typically Blue or a single Red) and keeps the heart rate elevated without joint impact — a particularly useful addition for practitioners who want a cardiovascular component in their home sessions. The board accommodates parallel, Pilates stance, and turned-out positions. The STOTT PILATES jump board repertoire is well-documented in the Merrithew instructional library, making self-directed jumpboard training more accessible on this machine than on non-STOTT reformers.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+jump+board&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+jump+board&tag=matchaspot-20",
     tag: "Cardio Add-On",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "From $35",
     verdict: "Prevents drift on smooth floors",
     description: "The SPX Max's flat-fold casters make it easy to position and reposition — but on hardwood, tile, or polished concrete, the casters can drift during dynamic loading (particularly jump board sequences and standing exercises). A non-slip equipment pad placed under the reformer's base feet (not under the casters — place it so the machine rolls onto it when unfolded) anchors the machine securely without floor adhesives. A large non-slip yoga mat or purpose-made equipment pad works. This is a minor investment that removes a real safety variable for home practitioners without rubber studio flooring.",
-    affiliateUrl: "https://www.amazon.com/s?k=non+slip+exercise+equipment+mat+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=non+slip+exercise+equipment+mat+reformer&tag=matchaspot-20",
     tag: "Safety Essential",
   },
 ];

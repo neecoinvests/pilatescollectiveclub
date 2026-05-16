@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best Legging",
     description:
       "The Good Karma is Free People Movement&apos;s flagship legging for a reason — buttery-soft fabric with a high waist that genuinely stays in place through the full Pilates mat repertoire. The compression is light to medium, which suits mat work and private session formats where proprioceptive feedback matters less than comfort over a long class. Fully opaque at every angle, which is non-negotiable in a method where you are frequently horizontal with an instructor present. The range of muted, earthy tones is exactly what the FP Movement customer expects from the brand — and it delivers on that aesthetic consistently.",
-    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+good+karma+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+good+karma+legging&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best for Flow/Mat",
     description:
       "The Sunny is lighter in weight than the Good Karma — designed for warmer studios and practitioners who run hot. The fabric is still fully opaque and provides enough structure to stay up without rolling, but the breathability is meaningfully better than the Good Karma in a heated environment. For studios that run their mat classes warm, or for summer practice, the Sunny is the correct FP Movement choice. The lighter construction does make it slightly less suitable for reformer work, where the extra contact with the carriage surface demands a more substantial fabric.",
-    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+sunny+yoga+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+sunny+yoga+legging&tag=matchaspot-20",
     tag: "Warm Studios",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Light-Support Bra",
     description:
       "The Barely There is named precisely for what it feels like to wear — minimal structure, soft fabric, barely perceptible when you&apos;re working through a mat series. The support level is appropriate for Pilates, which is low-impact enough that a full sports bra is unnecessary and often uncomfortable during prone and supine exercises. The bra sits flat against the body without bulging at the back, which matters when you are lying on a reformer carriage. For practitioners transitioning from yoga or barre, the Barely There will feel immediately familiar.",
-    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+barely+there+bra&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+barely+there+bra&tag=matchaspot-20",
     tag: "Best Bra",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Short",
     description:
       "The 3-inch inseam Hot Shot Short is shorter than most Pilates practitioners are used to, but the cut is clean and non-restrictive through every hip and knee position in the mat repertoire. The fabric is compact — no excess material to bunch at the groin during teaser or roll-up variations. The waistband is wide and high enough to stay in position without rolling. FP Movement&apos;s aesthetic shows clearly in the Hot Shot — this is a short that looks deliberately designed rather than functional-by-accident, which is part of its appeal to the brand&apos;s core customer.",
-    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+hot+shot+short&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+hot+shot+short&tag=matchaspot-20",
     tag: "Best Short",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Post-Class Layer",
     description:
       "The Roll With It Hoodie has become the defining piece of the Pilates girl aesthetic for a reason: it is exactly the right weight, silhouette, and texture for the post-class transition. The oversized cut wears over any legging or short without looking sloppy, the fabric is soft enough to wear directly against post-workout skin, and the range of neutral tones photograph well — a consideration that is not irrelevant to a significant portion of the brand&apos;s customer base. As a functional product it is excellent; as a signal of the lifestyle associated with dedicated studio practice, it is unmatched.",
-    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+roll+with+it+hoodie&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+roll+with+it+hoodie&tag=matchaspot-20",
     tag: "Post-Class Layer",
   },
 ];

@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best Overall",
     description:
       "The Flex legging is the piece that proves Gymshark can make genuinely good Pilates-specific apparel. The fabric has enough four-way stretch for the full range of hip and spinal articulation the method requires, and the high-waist construction sits securely through roll-ups and spinal mobility work without folding or rolling. Crucially, the Flex does not have the over-compressed, bodybuilding-adjacent feel of Gymshark&apos;s gym-specific leggings — it sits closer to the Lululemon Align in feel at roughly half the price. The seam placement avoids the inner thigh, which matters during reformer footwork. At $55–65, this is the best entry point into Pilates-appropriate activewear.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+flex+high+waist+legging+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gymshark+flex+high+waist+legging+pilates&tag=matchaspot-20",
     tag: "Top Pick",
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     verdict: "Best Seamless",
     description:
       "Seamless construction is functionally important for Pilates, not just aesthetically — the absence of seams at the inner thigh and glute eliminates friction against the reformer carriage during footwork, long-box work, and the extended lying sequences of the classical repertoire. The Vital Seamless 2.0 uses a marled knit that is more opaque than the first generation and has a softer hand feel that works well for mat classes. The waistband is the weakest element — it is not as secure as the Flex — but for lighter mat-focused practice or practitioners who prioritise freedom of movement over waistband hold, this is a legitimate option at a lower price than comparable seamless leggings from Alo or Lululemon.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+vital+seamless+2.0+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gymshark+vital+seamless+2.0+legging&tag=matchaspot-20",
     tag: "Best Seamless",
   },
   {
@@ -57,7 +57,7 @@ const PRODUCTS = [
     verdict: "Best Bra",
     description:
       "The matching piece to the Vital Seamless 2.0 Legging, and the stronger of the two. The seamless construction matters most here — there are no underwire channels, no rigid seaming, and no hardware to press against the reformer headrest during supine work or against the mat during prone exercises. The light-to-medium support level is appropriate for the low-impact demands of Pilates; practitioners who need more hold during jump board or vigorous reformer work should layer a second bra or choose a higher-support option. The wide band sits below the ribcage without digging into the spine during bridge work. Buying the Vital Seamless set is sensible — the tonal colour match is exact and the combined cost is around $85–100.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+vital+seamless+sports+bra&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gymshark+vital+seamless+sports+bra&tag=matchaspot-20",
     tag: "Best Bra",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best Tank",
     description:
       "Gymshark&apos;s most Pilates-appropriate top. The cropped length stays clear of the waistband during standing work, and the fabric weight is light enough not to trap heat in a warm studio while remaining substantial enough to stay in place through the lying sequences. The minimal construction — no back cutouts, no mesh panels, no branded hardware — means nothing digs into the reformer carriage headrest or mat surface. The fit is slightly looser than the Vital Seamless bra, which creates a useful layering option: bra underneath, tank on top, and the longer-torso coverage works well for practitioners who prefer not to wear just a bra in class. At $30–40, this is exceptional value.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+training+cropped+tank+top&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gymshark+training+cropped+tank+top&tag=matchaspot-20",
     tag: "Best Tank",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best Shorts",
     description:
       "Shorts for Pilates are a specific sub-category: they need to be short enough not to bunch at the inner thigh during footwork, secure enough at the leg hem not to ride up through inversion preparation exercises, and opaque enough at the seat for confidence during standing balance work observed from the rear. The Gymshark Flex Shorts meet all three criteria. The mid-thigh length is the correct choice for reformer work — longer cycling-length shorts create inner-thigh friction; wide-leg shorts are impractical on the carriage. The flat waistband does not fold during the deep forward flexion of spine stretch. A practical, well-priced option for practitioners who prefer shorts, particularly in warmer studios.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+flex+shorts+women&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/s?k=gymshark+flex+shorts+women&tag=matchaspot-20",
     tag: "Best Shorts",
   },
 ];
