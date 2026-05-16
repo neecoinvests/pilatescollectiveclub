@@ -11,6 +11,8 @@ export interface FeaturedItem {
   category: string;
   readTime: string;
   imageUrl: string;
+  affiliateUrl?: string;
+  affiliateLabel?: string;
 }
 
 const INTERVAL_MS = 6000;
@@ -33,13 +35,12 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
   }, [index, items.length, goTo]);
 
   const item = items[index];
+  const isCity = item.category === "City Guide";
 
   return (
     <div>
-      <Link
-        href={item.href}
+      <div
         style={{
-          textDecoration: "none",
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
           gap: "0",
@@ -48,14 +49,19 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
           transition: "opacity 0.28s ease",
         }}
       >
-        <div style={{ position: "relative", overflow: "hidden", minHeight: "500px", backgroundColor: "#f0ece6" }}>
-          <Image
-            src={item.imageUrl}
-            alt={item.title}
-            fill
-            className="object-cover transition-transform duration-700 hover:scale-105"
-          />
-        </div>
+        {/* Image — clicks through to article */}
+        <Link href={item.href} style={{ textDecoration: "none", display: "block" }}>
+          <div style={{ position: "relative", overflow: "hidden", minHeight: "500px", height: "100%", backgroundColor: "#f0ece6" }}>
+            <Image
+              src={item.imageUrl}
+              alt={item.title}
+              fill
+              className="object-cover transition-transform duration-700 hover:scale-105"
+            />
+          </div>
+        </Link>
+
+        {/* Text panel */}
         <div style={{
           backgroundColor: "#f7f4f0",
           padding: "64px 56px",
@@ -75,17 +81,21 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
           }}>
             {item.category}
           </span>
-          <h2 style={{
-            fontFamily: "var(--font-serif)",
-            fontSize: "clamp(28px, 3vw, 42px)",
-            fontWeight: 400,
-            color: "#0a0a0a",
-            lineHeight: 1.15,
-            marginBottom: "24px",
-            letterSpacing: "-0.01em",
-          }}>
-            {item.title}
-          </h2>
+
+          <Link href={item.href} style={{ textDecoration: "none" }}>
+            <h2 style={{
+              fontFamily: "var(--font-serif)",
+              fontSize: "clamp(28px, 3vw, 42px)",
+              fontWeight: 400,
+              color: "#0a0a0a",
+              lineHeight: 1.15,
+              marginBottom: "24px",
+              letterSpacing: "-0.01em",
+            }}>
+              {item.title}
+            </h2>
+          </Link>
+
           <p style={{
             fontFamily: "var(--font-sans)",
             fontSize: "14px",
@@ -96,25 +106,53 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
           }}>
             {item.excerpt}
           </p>
-          <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-            <span style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: "10px",
-              fontWeight: 500,
-              letterSpacing: "0.18em",
-              textTransform: "uppercase" as const,
-              color: "#0a0a0a",
-              borderBottom: "1px solid #0a0a0a",
-              paddingBottom: "2px",
-            }}>
-              Read {item.category === "City Guide" ? "Guide" : "Article"} →
-            </span>
+
+          <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
+            <Link href={item.href} style={{ textDecoration: "none" }}>
+              <span style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: "10px",
+                fontWeight: 500,
+                letterSpacing: "0.18em",
+                textTransform: "uppercase" as const,
+                color: "#0a0a0a",
+                borderBottom: "1px solid #0a0a0a",
+                paddingBottom: "2px",
+              }}>
+                Read {isCity ? "Guide" : "Article"} →
+              </span>
+            </Link>
+
+            {item.affiliateUrl && (
+              <a
+                href={item.affiliateUrl}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                onClick={(e) => e.stopPropagation()}
+                style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: "10px",
+                  fontWeight: 500,
+                  letterSpacing: "0.18em",
+                  textTransform: "uppercase" as const,
+                  color: "#ffffff",
+                  textDecoration: "none",
+                  backgroundColor: "#8b4a31",
+                  padding: "9px 18px",
+                  display: "inline-block",
+                  whiteSpace: "nowrap" as const,
+                }}
+              >
+                {item.affiliateLabel ?? "Shop on Amazon →"}
+              </a>
+            )}
+
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "#9a9490" }}>
               {item.readTime}
             </span>
           </div>
         </div>
-      </Link>
+      </div>
 
       {/* Dot indicators */}
       <div style={{ display: "flex", gap: "8px", justifyContent: "center", marginTop: "28px" }}>
