@@ -83,7 +83,7 @@ export default function Footer() {
             ))}
             <div style={{ marginTop: "24px" }}>
               <span style={s.label}>Legal</span>
-              {[{ label: "Privacy", href: "#" }, { label: "Terms", href: "#" }, { label: "Affiliate Disclosure", href: "#" }].map((l) => (
+              {[{ label: "Privacy Policy", href: "/privacy" }, { label: "Terms & Conditions", href: "/terms" }, { label: "Affiliate Disclosure", href: "/affiliate-disclosure" }].map((l) => (
                 <Link key={l.label} href={l.href} style={s.link}>{l.label}</Link>
               ))}
             </div>

@@ -29,10 +29,10 @@ const cityImages: Record<string, string> = {
   Rome: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
   Stockholm: "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800&q=80",
   Copenhagen: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800&q=80",
-  "Hong Kong": "https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=800&q=80",
+  "Hong Kong": "https://images.unsplash.com/photo-1507941097613-9f2157b69235?w=800&q=80",
   Tokyo: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
-  Melbourne: "https://images.unsplash.com/photo-1514395462185-c2de918e8ab9?w=800&q=80",
-  Toronto: "https://images.unsplash.com/photo-1517090186835-e348b621c9ca?w=800&q=80",
+  Melbourne: "https://images.unsplash.com/photo-1546268060-2592ff93ee24?w=800&q=80",
+  Toronto: "https://images.unsplash.com/photo-1569144157591-c60f3f82f1c2?w=800&q=80",
   Lisbon: "https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?w=800&q=80",
 };
 
