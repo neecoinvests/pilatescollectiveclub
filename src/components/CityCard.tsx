@@ -32,7 +32,7 @@ const cityImages: Record<string, string> = {
   "Hong Kong": "https://images.unsplash.com/photo-1507941097613-9f2157b69235?w=800&q=80",
   Tokyo: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
   Melbourne: "https://images.unsplash.com/photo-1546268060-2592ff93ee24?w=800&q=80",
-  Toronto: "https://images.unsplash.com/photo-1569144157591-c60f3f82f1c2?w=800&q=80",
+  Toronto: "https://images.unsplash.com/photo-1609630903780-b4f1e9cf0c13?w=800&q=80",
   Lisbon: "https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?w=800&q=80",
 };
 
