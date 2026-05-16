@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Classical vs Contemporary Pilates (2026): What's the Difference? | Pilates Collective Club",
@@ -124,6 +125,7 @@ export default function ClassicalVsContemporaryPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Classical vs Contemporary Pilates (2026): What" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"

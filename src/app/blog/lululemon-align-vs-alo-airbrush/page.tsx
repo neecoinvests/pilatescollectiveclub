@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Lululemon Align vs Alo Airbrush Leggings (2026): The Honest Verdict | Pilates Collective Club",
@@ -135,6 +136,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Lululemon Align vs Alo Airbrush Leggings (2026): The Honest Verdict" }]} />
       <main>
 
         {/* Hero */}

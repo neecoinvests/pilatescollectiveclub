@@ -6,6 +6,7 @@ import StudioListing from "@/components/StudioListing";
 import CityCard from "@/components/CityCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "The Best Pilates Studios in London | Pilates Collective Club",
@@ -174,7 +175,8 @@ const jsonLd = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
-        { "@type": "ListItem", "position": 2, "name": "London", "item": "https://pilatescollectiveclub.com/cities/london" },
+        { "@type": "ListItem", "position": 2, "name": "Studio Guides", "item": "https://pilatescollectiveclub.com/cities" },
+        { "@type": "ListItem", "position": 3, "name": "London", "item": "https://pilatescollectiveclub.com/cities/london" },
       ],
     },
     {
@@ -187,7 +189,7 @@ const jsonLd = {
         "@type": "ListItem",
         "position": i + 1,
         "item": {
-          "@type": "ExerciseGym",
+          "@type": "LocalBusiness",
           "name": s.name,
           "description": s.review.slice(0, 200),
           "address": {
@@ -196,6 +198,7 @@ const jsonLd = {
             "addressLocality": "London",
             "addressCountry": "GB",
           },
+          "priceRange": s.priceLevel,
         },
       })),
     },
@@ -207,6 +210,7 @@ export default function LondonPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Studio Guides", href: "/cities" }, { label: "London" }]} />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">

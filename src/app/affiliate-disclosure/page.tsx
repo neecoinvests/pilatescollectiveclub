@@ -7,6 +7,19 @@ export const metadata: Metadata = {
   description: "Affiliate Disclosure for Pilates Collective Club — how we use affiliate links and how it affects our editorial recommendations.",
   alternates: { canonical: "https://pilatescollectiveclub.com/affiliate-disclosure" },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: "Affiliate Disclosure | Pilates Collective Club",
+    description: "Affiliate Disclosure for Pilates Collective Club — how we use affiliate links and how it affects our editorial recommendations.",
+    type: "website",
+    url: "https://pilatescollectiveclub.com/affiliate-disclosure",
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Affiliate Disclosure | Pilates Collective Club",
+    description: "Affiliate Disclosure for Pilates Collective Club — how we use affiliate links and how it affects our editorial recommendations.",
+    images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
+  },
 };
 
 const s = {

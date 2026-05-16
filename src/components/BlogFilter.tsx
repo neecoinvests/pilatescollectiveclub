@@ -28,6 +28,8 @@ export const CATEGORIES = [
   "Travel",
 ];
 
+const PAGE_SIZE = 12;
+
 const btn = (active: boolean) => ({
   fontFamily: "'Montserrat', sans-serif" as const,
   fontSize: "10px",
@@ -46,10 +48,19 @@ const btn = (active: boolean) => ({
 
 export default function BlogFilter({ posts, initialCategory = "All" }: { posts: Post[]; initialCategory?: string }) {
   const [active, setActive] = useState(initialCategory);
+  const [page, setPage] = useState(1);
 
   const featured = posts.find((p) => p.featured)!;
   const rest = posts.filter((p) => !p.featured);
   const filtered = active === "All" ? rest : rest.filter((p) => p.category === active);
+
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  function handleCategoryChange(cat: string) {
+    setActive(cat);
+    setPage(1);
+  }
 
   return (
     <>
@@ -58,7 +69,7 @@ export default function BlogFilter({ posts, initialCategory = "All" }: { posts: 
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-wrap gap-2">
             {CATEGORIES.map((cat) => (
-              <button key={cat} onClick={() => setActive(cat)} style={btn(active === cat)}>
+              <button key={cat} onClick={() => handleCategoryChange(cat)} style={btn(active === cat)}>
                 {cat}
               </button>
             ))}
@@ -111,7 +122,7 @@ export default function BlogFilter({ posts, initialCategory = "All" }: { posts: 
             <p style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif", fontSize: "14px" }}>No articles in this category yet.</p>
           ) : (
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filtered.map((post) => (
+              {paginated.map((post) => (
                 <Link key={post.href} href={post.href} className="group block">
                   <div
                     className="rounded-xl overflow-hidden h-full flex flex-col"
@@ -144,6 +155,76 @@ export default function BlogFilter({ posts, initialCategory = "All" }: { posts: 
           )}
         </div>
       </section>
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="px-6 pb-12">
+          <div className="max-w-5xl mx-auto flex items-center justify-center gap-2">
+            <button
+              onClick={() => setPage((p) => Math.max(1, p - 1))}
+              disabled={page === 1}
+              style={{
+                fontFamily: "'Montserrat', sans-serif",
+                fontSize: "10px",
+                fontWeight: 500,
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                padding: "8px 16px",
+                border: "1px solid rgba(217,194,186,0.7)",
+                backgroundColor: "transparent",
+                color: page === 1 ? "#c5bdb9" : "#86736d",
+                cursor: page === 1 ? "default" : "pointer",
+                borderRadius: "2px",
+              }}
+            >
+              ← Prev
+            </button>
+
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+              <button
+                key={p}
+                onClick={() => setPage(p)}
+                style={{
+                  fontFamily: "'Montserrat', sans-serif",
+                  fontSize: "10px",
+                  fontWeight: p === page ? 600 : 400,
+                  padding: "8px 14px",
+                  border: p === page ? "1px solid #8b4a31" : "1px solid rgba(217,194,186,0.7)",
+                  backgroundColor: p === page ? "#8b4a31" : "transparent",
+                  color: p === page ? "#ffffff" : "#86736d",
+                  cursor: "pointer",
+                  borderRadius: "2px",
+                }}
+              >
+                {p}
+              </button>
+            ))}
+
+            <button
+              onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+              disabled={page === totalPages}
+              style={{
+                fontFamily: "'Montserrat', sans-serif",
+                fontSize: "10px",
+                fontWeight: 500,
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                padding: "8px 16px",
+                border: "1px solid rgba(217,194,186,0.7)",
+                backgroundColor: "transparent",
+                color: page === totalPages ? "#c5bdb9" : "#86736d",
+                cursor: page === totalPages ? "default" : "pointer",
+                borderRadius: "2px",
+              }}
+            >
+              Next →
+            </button>
+          </div>
+          <p className="text-center mt-3" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", color: "#9a9490" }}>
+            Page {page} of {totalPages}
+          </p>
+        </div>
+      )}
     </>
   );
 }

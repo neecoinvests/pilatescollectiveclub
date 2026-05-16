@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Pilates for Athletes (2026): Cross-Training That Actually Works | Pilates Collective Club",
@@ -104,6 +105,7 @@ export default function PilatesForAthletesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Pilates for Athletes (2026): Cross-Training That Actually Works" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"

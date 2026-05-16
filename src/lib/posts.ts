@@ -1,32 +1,30 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import BlogFilter, { CATEGORIES } from "@/components/BlogFilter";
-import type { Metadata } from "next";
+export interface Post {
+  title: string;
+  excerpt: string;
+  href: string;
+  category: string;
+  readTime: string;
+  imageUrl: string;
+  featured?: boolean;
+}
 
-export const metadata: Metadata = {
-  title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
-  description: "In-depth Pilates guides: equipment reviews, beginner advice, method comparisons, studio tips, and brand guides. Everything a serious practitioner needs to know.",
-  keywords: ["pilates blog", "pilates equipment reviews", "pilates for beginners", "reformer pilates guide", "pilates vs yoga", "classical pilates", "best pilates mat", "pilates advice", "pilates method", "pilates tips 2026", "pilates articles"],
-  openGraph: {
-    title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
-    description: "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",
-    type: "website",
-    url: "https://pilatescollectiveclub.com/blog",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club Journal" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
-    description: "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",
-    images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
-  },
-  alternates: {
-    canonical: "https://pilatescollectiveclub.com/blog",
-  },
-  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
-};
+export const CATEGORIES = [
+  "All",
+  "Equipment",
+  "Brand Guide",
+  "Method",
+  "Health",
+  "Guide",
+  "Beginners",
+  "Performance",
+  "Comparison",
+  "Reading",
+  "Travel",
+] as const;
 
-const posts = [
+export type Category = (typeof CATEGORIES)[number];
+
+export const posts: Post[] = [
   {
     title: "Best Home Pilates Reformer (2026): Every Budget",
     excerpt: "A quality home reformer changes your practice permanently. We tested every price tier so you know exactly what you get.",
@@ -397,65 +395,3 @@ const posts = [
     imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
   },
 ];
-
-const blogJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "CollectionPage",
-      "@id": "https://pilatescollectiveclub.com/blog/#webpage",
-      "url": "https://pilatescollectiveclub.com/blog",
-      "name": "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
-      "description": "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",
-      "isPartOf": { "@id": "https://pilatescollectiveclub.com/#website" },
-      "inLanguage": "en-US",
-    },
-    {
-      "@type": "ItemList",
-      "name": "Pilates Articles and Equipment Reviews",
-      "url": "https://pilatescollectiveclub.com/blog",
-      "numberOfItems": posts.length,
-      "itemListElement": posts.map((p, i) => ({
-        "@type": "ListItem",
-        "position": i + 1,
-        "url": `https://pilatescollectiveclub.com${p.href}`,
-        "name": p.title,
-      })),
-    },
-  ],
-};
-
-export default async function BlogPage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {
-  const { category } = await searchParams;
-  const initialCategory = CATEGORIES.find((c) => c.toLowerCase() === (category ?? "").toLowerCase()) ?? "All";
-  return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }} />
-      <Header />
-      <main className="pt-20" style={{ backgroundColor: "#fcf9f8", minHeight: "100vh" }}>
-
-        {/* Hero */}
-        <section className="px-6 pt-16 pb-12">
-          <div className="max-w-5xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Journal</p>
-            <h1 className="text-5xl md:text-6xl font-semibold leading-tight mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              The Blog
-            </h1>
-            <p className="text-lg max-w-xl" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Guides, equipment reviews, and studio advice for every stage of your practice.
-            </p>
-          </div>
-        </section>
-
-        <div className="px-6 mb-2">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="sr-only">Browse Articles by Category</h2>
-          </div>
-        </div>
-        <BlogFilter posts={posts} initialCategory={initialCategory} />
-
-      </main>
-      <Footer />
-    </>
-  );
-}

@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Balanced Body vs Merrithew (2026): Which Reformer Is Right for You? | Pilates Collective Club",
@@ -107,6 +108,7 @@ export default function BalancedBodyVsMerrithewPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Balanced Body vs Merrithew (2026): Which Reformer Is Right for You?" }]} />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">

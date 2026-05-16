@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "How Much Does a Pilates Reformer Cost? (2026 Complete Price Guide) | Pilates Collective Club",
@@ -156,6 +157,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "How Much Does a Pilates Reformer Cost? (2026 Complete Price Guide)" }]} />
       <main>
 
         {/* ── Hero ── */}

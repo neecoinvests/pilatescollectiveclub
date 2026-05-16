@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
+import ProductListSchema from "@/components/ProductListSchema";
 
 export const metadata: Metadata = {
   title: "Merrithew SPX Max Review (2026): Flat-Folding Professional Reformer | Pilates Collective Club",
@@ -142,7 +144,9 @@ export default function MerrithewSPXMaxReviewPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/merrithew-spx-max-review" />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Merrithew SPX Max Review (2026): Flat-Folding Professional Reformer" }]} />
       <main>
         {/* Hero text */}
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

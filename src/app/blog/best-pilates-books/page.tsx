@@ -5,6 +5,7 @@ import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Best Pilates Books (2026): Every Level from Beginner to Teacher | Pilates Collective Club",
@@ -164,6 +165,7 @@ export default function BestPilatesBooksPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Best Pilates Books (2026): Every Level from Beginner to Teacher" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"

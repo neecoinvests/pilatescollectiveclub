@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "The 6 Core Principles of Pilates Explained | Pilates Collective Club",
@@ -157,6 +158,7 @@ export default function SixPrinciplesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "The 6 Core Principles of Pilates Explained" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"

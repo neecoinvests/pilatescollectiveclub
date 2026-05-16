@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
+import ProductListSchema from "@/components/ProductListSchema";
 
 export const metadata: Metadata = {
   title: "Align-Pilates Reformer Review (2026): C2 Pro, C8 Pro & H1 Compared | Pilates Collective Club",
@@ -109,7 +111,9 @@ export default function AlignPilatesReformerReviewPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/align-pilates-reformer-review" />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Align-Pilates Reformer Review (2026): C2 Pro, C8 Pro & H1 Compared" }]} />
       <main>
         {/* Hero section */}
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

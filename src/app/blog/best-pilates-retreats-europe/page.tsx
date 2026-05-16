@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Best Pilates Retreats in Europe (2026): Tested & Ranked | Pilates Collective Club",
@@ -104,6 +105,7 @@ export default function BestPilatesRetreatsEuropePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Best Pilates Retreats in Europe (2026): Tested & Ranked" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"

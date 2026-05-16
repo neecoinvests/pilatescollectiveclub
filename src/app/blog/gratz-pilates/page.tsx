@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
+import ProductListSchema from "@/components/ProductListSchema";
 
 export const metadata: Metadata = {
   title: "Gratz Pilates (2026): Classical Apparatus, Honest Review & Who It's For | Pilates Collective Club",
@@ -142,7 +144,9 @@ export default function GratzPilatesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/gratz-pilates" />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Gratz Pilates (2026): Classical Apparatus, Honest Review & Who It" }]} />
       <main>
         {/* Hero */}
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

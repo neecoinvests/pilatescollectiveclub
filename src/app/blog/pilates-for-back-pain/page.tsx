@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Pilates for Back Pain (2026): What the Research Actually Shows | Pilates Collective Club",
@@ -124,6 +125,7 @@ export default function PilatesForBackPainPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Pilates for Back Pain (2026): What the Research Actually Shows" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"

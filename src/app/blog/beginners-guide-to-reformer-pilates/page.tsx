@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Beginner's Guide to Reformer Pilates (2026): What to Expect | Pilates Collective Club",
@@ -124,6 +125,7 @@ export default function BeginnerGuideReformerPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Beginner" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"

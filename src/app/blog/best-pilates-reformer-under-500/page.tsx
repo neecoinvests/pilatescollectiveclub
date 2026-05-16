@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
+import ProductListSchema from "@/components/ProductListSchema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Under $500 (2026): Honest Budget Guide | Pilates Collective Club",
@@ -109,7 +111,9 @@ export default function BestPilatesReformerUnder500Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500" />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Best Pilates Reformer Under $500 (2026): Honest Budget Guide" }]} />
       <main>
 
         {/* Hero section */}

@@ -6,6 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Pilates vs Barre (2026): Which Workout Is Right for You? | Pilates Collective Club",
@@ -136,6 +137,7 @@ export default function PilatesVsBarrePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Pilates vs Barre (2026): Which Workout Is Right for You?" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"

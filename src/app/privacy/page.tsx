@@ -7,6 +7,19 @@ export const metadata: Metadata = {
   description: "Privacy Policy for Pilates Collective Club — how we collect, use, and protect your information.",
   alternates: { canonical: "https://pilatescollectiveclub.com/privacy" },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: "Privacy Policy | Pilates Collective Club",
+    description: "Privacy Policy for Pilates Collective Club — how we collect, use, and protect your information.",
+    type: "website",
+    url: "https://pilatescollectiveclub.com/privacy",
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy | Pilates Collective Club",
+    description: "Privacy Policy for Pilates Collective Club — how we collect, use, and protect your information.",
+    images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
+  },
 };
 
 const s = {

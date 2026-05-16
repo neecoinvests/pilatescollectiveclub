@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "How to Build a Consistent Pilates Practice (2026) | Pilates Collective Club",
@@ -124,6 +125,7 @@ export default function ConsistentPracticePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "How to Build a Consistent Pilates Practice (2026)" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"

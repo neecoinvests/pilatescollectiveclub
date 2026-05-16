@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
+import ProductListSchema from "@/components/ProductListSchema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Accessories (2026): Upgrade Your Machine | Pilates Collective Club",
@@ -121,7 +123,9 @@ export default function BestReformerAccessoriesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <ProductListSchema products={PRODUCTS.map(p => ({ name: p.name, description: p.description, price: p.price })} pageUrl="https://pilatescollectiveclub.com/blog/best-pilates-reformer-accessories" />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Best Pilates Reformer Accessories (2026): Upgrade Your Machine" }]} />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">

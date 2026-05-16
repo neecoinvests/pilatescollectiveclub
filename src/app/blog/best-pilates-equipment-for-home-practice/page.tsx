@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Best Pilates Equipment for Home Practice (2026) | Pilates Collective Club",
@@ -106,6 +107,7 @@ export default function BlogEquipmentPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Best Pilates Equipment for Home Practice (2026)" }]} />
       <main>
         {/* Article Header */}
         <section

@@ -1,104 +1,37 @@
 import type { MetadataRoute } from "next";
+import fs from "fs";
+import path from "path";
+import { CATEGORIES } from "@/lib/posts";
 
 const BASE_URL = "https://pilatescollectiveclub.com";
+
+function getDirectories(dir: string): string[] {
+  try {
+    return fs
+      .readdirSync(dir, { withFileTypes: true })
+      .filter((d) => d.isDirectory())
+      .map((d) => d.name);
+  } catch {
+    return [];
+  }
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  const cities = [
-    "new-york",
-    "london",
-    "paris",
-    "zurich",
-    "los-angeles",
-    "barcelona",
-    "berlin",
-    "amsterdam",
-    "geneva",
-    "lausanne",
-    "sydney",
-    "dubai",
-    "singapore",
-    "miami",
-    "chicago",
-    "san-francisco",
-    "milan",
-    "rome",
-    "stockholm",
-    "copenhagen",
-    "hong-kong",
-    "tokyo",
-    "melbourne",
-    "toronto",
-    "lisbon",
-  ];
+  const appDir = path.join(process.cwd(), "src/app");
 
-  const blogPosts = [
-    "beginners-guide-to-reformer-pilates",
-    "how-to-choose-a-pilates-instructor",
-    "classical-vs-contemporary-pilates",
-    "best-pilates-equipment-for-home-practice",
-    "pilates-vs-yoga",
-    "pilates-for-athletes",
-    "pilates-for-back-pain",
-    "pilates-and-pregnancy",
-    "best-pilates-retreats-europe",
-    "how-to-build-a-consistent-pilates-practice",
-    "6-core-principles-of-pilates-explained",
-    "best-home-pilates-reformer",
-    "best-pilates-grip-socks",
-    "best-pilates-books",
-    "best-pilates-ball",
-    "what-to-wear-to-pilates",
-    "best-pilates-leggings",
-    "pilates-reformer-vs-mat",
-    "best-pilates-resistance-bands",
-    "best-pilates-starter-kit",
-    "best-pilates-reformer-accessories",
-    "best-pilates-mat",
-    "best-pilates-foam-roller",
-    "best-pilates-ring",
-    "best-pilates-reformer-brands",
-    "best-pilates-workout-tops",
-    "pilates-for-runners",
-    "pilates-for-scoliosis",
-    "pilates-for-menopause",
-    "pilates-history",
-    "how-to-find-a-good-pilates-studio",
-    "alo-yoga-pilates",
-    "lululemon-pilates",
-    "club-pilates-review",
-    "balanced-body-vs-merrithew",
-    "varley-pilates-activewear",
-    "gymshark-pilates",
-    "sweaty-betty-pilates",
-    "splits59-pilates",
-    "athleta-pilates",
-    "manduka-pilates-mat",
-    "vuori-pilates",
-    "free-people-movement-pilates",
-    "girlfriend-collective-pilates",
-    "lululemon-align-vs-alo-airbrush",
-    "pilates-vs-barre",
-    "best-pilates-chair",
-    "gratz-pilates",
-    "lagree-vs-pilates",
-    "aeropilates-review",
-    "balanced-body-pilates",
-    "merrithew-pilates",
-    "best-pilates-reformer-under-500",
-    "best-foldable-pilates-reformer",
-    "align-pilates-reformer-review",
-    "best-pilates-reformer-for-beginners",
-    "pilates-reformer-with-tower",
-    "balanced-body-allegro-2-review",
-    "merrithew-spx-max-review",
-    "best-pilates-barrel",
-    "best-pilates-cadillac",
-    "how-much-does-a-pilates-reformer-cost",
-    "home-pilates-studio-setup",
-    "pilates-apparatus-guide",
-  ];
+  const cities = getDirectories(path.join(appDir, "cities")).filter(
+    (d) => !d.startsWith("(") && d !== "page.tsx"
+  );
+
+  const blogPosts = getDirectories(path.join(appDir, "blog")).filter(
+    (d) => !d.startsWith("(") && d !== "category"
+  );
+
+  const categories = CATEGORIES.filter((c) => c !== "All").map((c) =>
+    c.toLowerCase().replace(/\s+/g, "-")
+  );
 
   return [
     {
@@ -119,6 +52,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/cities`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+    ...categories.map((cat) => ({
+      url: `${BASE_URL}/blog/category/${cat}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
+    })),
     ...cities.map((city) => ({
       url: `${BASE_URL}/cities/${city}`,
       lastModified: now,

@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Pilates During Pregnancy (2026): Trimester-by-Trimester Guide | Pilates Collective Club",
@@ -104,6 +105,7 @@ export default function PilatesAndPregnancyPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Pilates During Pregnancy (2026): Trimester-by-Trimester Guide" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"

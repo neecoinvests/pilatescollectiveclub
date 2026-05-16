@@ -112,9 +112,9 @@ export default function CitiesPage() {
                 <div key={region}>
                   <div className="flex items-center gap-4 mb-8">
                     <div className="w-8 h-px" style={{ backgroundColor: "#d9c2ba" }} />
-                    <p className="text-xs font-semibold uppercase tracking-[0.25em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                    <h2 className="text-xs font-semibold uppercase tracking-[0.25em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
                       {region}
-                    </p>
+                    </h2>
                   </div>
                   <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     {regionCities.map((c) => (

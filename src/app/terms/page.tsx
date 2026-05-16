@@ -7,6 +7,19 @@ export const metadata: Metadata = {
   description: "Terms and Conditions for use of pilatescollectiveclub.com.",
   alternates: { canonical: "https://pilatescollectiveclub.com/terms" },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: "Terms & Conditions | Pilates Collective Club",
+    description: "Terms and Conditions for use of pilatescollectiveclub.com.",
+    type: "website",
+    url: "https://pilatescollectiveclub.com/terms",
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms & Conditions | Pilates Collective Club",
+    description: "Terms and Conditions for use of pilatescollectiveclub.com.",
+    images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
+  },
 };
 
 const s = {

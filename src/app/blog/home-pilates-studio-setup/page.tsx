@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "How to Set Up a Home Pilates Studio (2026): Equipment, Space & Budget | Pilates Collective Club",
@@ -188,6 +189,7 @@ export default function HomePilatesStudioSetupPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "How to Set Up a Home Pilates Studio (2026): Equipment, Space & Budget" }]} />
       <main>
 
         {/* ── Hero section ── */}

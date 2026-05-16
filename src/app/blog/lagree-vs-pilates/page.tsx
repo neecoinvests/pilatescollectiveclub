@@ -6,6 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import BlogSidebar from "@/components/BlogSidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Lagree vs Pilates (2026): What's the Difference and Which Is Right for You? | Pilates Collective Club",
@@ -136,6 +137,7 @@ export default function LagreevsPilatesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Journal", href: "/blog" }, { label: "Lagree vs Pilates (2026): What" }]} />
       <main>
         <BlogHero
           imageUrl="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg"
