@@ -134,7 +134,6 @@ export default function BestStarterKitPage() {
               Best Pilates Starter Kit<br /><span style={{ color: "#8b4a31" }}>(2026): What to Buy First</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               When you start Pilates, the equipment question is genuinely confusing. Studio classes require grip socks. Home practice needs a mat. But once you look further, the range of available equipment — rings, bands, foam rollers, chairs, towers — can feel overwhelming. This guide cuts through it: here is what to buy first, what to add once you have a consistent practice, and what to skip entirely when you&apos;re starting out.

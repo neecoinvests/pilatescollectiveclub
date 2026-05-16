@@ -134,7 +134,6 @@ export default function MandukaMatPage() {
               Manduka Pilates Mat (2026):<br /><span style={{ color: "#8b4a31" }}>PRO, eKO, and PRO Lite Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Founded in 1997, Manduka has spent nearly three decades making the case that a mat is a long-term investment rather than a commodity purchase. The PRO mat — their flagship — remains the reference point for serious practitioners worldwide. But navigating the range requires clarity: the PRO, eKO, PRO Lite, and Superlite serve genuinely different needs, and choosing the wrong one means either overspending on weight you don&apos;t need, or undershooting on the density that makes Pilates mat work effective. This guide clarifies the decision.

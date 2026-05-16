@@ -123,7 +123,6 @@ export default function AeroPilatesReviewPage() {
               AeroPilates Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Budget Home Reformer, Honestly Assessed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               AeroPilates is the most purchased home reformer on Amazon — a consistent bestseller in a category that ranges from $299 to over $4,000. It uses bungee cord resistance rather than the spring system found in studio machines, which is not a minor distinction. This review is honest about what that difference means, which models are worth buying, and who this machine genuinely suits.

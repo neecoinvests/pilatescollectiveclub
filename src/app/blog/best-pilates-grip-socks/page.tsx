@@ -171,7 +171,6 @@ export default function BestGripSocksPage() {
               Best Pilates Grip Socks<br /><span style={{ color: "#8b4a31" }}>(2026): Tested & Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Grip socks are required at virtually every reformer and mat Pilates studio — and for good reason. They prevent slipping on the footbar and carriage, protect the studio&apos;s equipment, and genuinely improve proprioception during footwork by allowing the foot to grip actively rather than slide passively. But not all grip socks are equal. This guide covers the five best options across every use case, price point, and preference.

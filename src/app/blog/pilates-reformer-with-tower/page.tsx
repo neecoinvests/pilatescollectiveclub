@@ -123,7 +123,6 @@ export default function PilatesReformerWithTowerPage() {
               Best Pilates Reformer with Tower (2026):<br /><span style={{ color: "#8b4a31" }}>The Complete Home Studio Guide</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A reformer is the foundation of a home Pilates studio. A tower is what transforms that foundation into a complete apparatus practice. This guide explains what a Pilates tower actually adds to your practice, who needs one, and which reformer-and-tower combination represents the best investment at each price point.

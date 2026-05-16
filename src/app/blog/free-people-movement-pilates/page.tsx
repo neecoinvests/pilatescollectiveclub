@@ -134,7 +134,6 @@ export default function FreePeopleMovementPilatesPage() {
               Free People Movement<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): Honest Review</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Free People Movement is Free People&apos;s activewear sub-brand — and it occupies a specific niche in the Pilates market that neither Lululemon nor Alo fully serves. The aesthetic is softer, more romantic, and more lifestyle-oriented than the technical-luxe positioning of its main competitors. For a significant segment of the Pilates market, that is precisely what they want. The honest question is whether the clothes perform as well as they look — and the answer is mostly yes.

@@ -128,7 +128,6 @@ export default function BestFoldablePilatesReformerPage() {
               Best Foldable Pilates Reformer (2026):<br /><span style={{ color: "#8b4a31" }}>Space-Saving Machines That Don&apos;t Compromise</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The single biggest barrier to home reformer Pilates is not cost — it is space. A standard reformer is approximately 2.4m long and 60cm wide; in a one- or two-bedroom apartment, that is a permanent fixture. Foldable reformers solve this with varying degrees of compromise. This guide covers the best foldable options from $299 to $3,495 and explains exactly how compact each machine gets and what (if anything) is sacrificed for the fold.

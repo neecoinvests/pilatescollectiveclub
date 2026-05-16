@@ -134,7 +134,6 @@ export default function GirlfriendCollectivePilatesPage() {
               Girlfriend Collective<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): Honest Review</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Girlfriend Collective is the Seattle-based brand making activewear from recycled plastic bottles and fishing nets — and unlike most brands with a strong ethics story, the performance genuinely stands on its own. B Corp certified, XXS to 6X sizing, and a Compressive Legging that competes directly with Lululemon&apos;s Wunder Train at a lower price. This guide separates the ethics story from the performance review, then brings them back together.

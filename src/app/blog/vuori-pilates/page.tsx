@@ -134,7 +134,6 @@ export default function VuoriPilatesPage() {
               Vuori for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces for Men &amp; Women</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Vuori launched in San Diego in 2015 with a proposition that most activewear brands miss: make clothes that look good outside the gym without sacrificing what you need inside it. For Pilates, that positioning is useful. The brand&apos;s men&apos;s range in particular fills a gap that every other premium activewear brand leaves open — and this is the only guide on this site that covers men&apos;s Pilates activewear in any depth.

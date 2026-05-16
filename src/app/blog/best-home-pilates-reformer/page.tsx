@@ -170,7 +170,6 @@ export default function BestHomeReformerPage() {
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
 
             {/* Affiliate disclaimer */}
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
 
             <section className="pb-20">
               {/* What to look for */}

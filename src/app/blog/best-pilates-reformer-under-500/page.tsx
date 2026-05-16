@@ -124,7 +124,6 @@ export default function BestPilatesReformerUnder500Page() {
               Best Pilates Reformer Under $500 (2026):<br /><span style={{ color: "#8b4a31" }}>The Honest Budget Guide</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Under $500, you are buying a cord-based or entry-level spring machine — not a studio reformer. That is not a disqualifying fact for the right practitioner. This guide explains exactly what you get, what you sacrifice, and which machine is the best choice at each price point.

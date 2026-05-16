@@ -123,7 +123,6 @@ export default function BestPilatesReformerForBeginnersPage() {
               Best Pilates Reformer for Beginners (2026):<br /><span style={{ color: "#8b4a31" }}>What to Buy (and When to Buy It)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Most beginner reformer guides start with the machine. This one starts with an honest question: are you ready to buy? Buying a home reformer before you understand the machine is one of the most reliable ways to spend $300–$3,500 on something that collects dust — this guide tells you when to buy, what to buy, and which beginner mistake to avoid at every price point.

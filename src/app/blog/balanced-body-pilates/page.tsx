@@ -128,7 +128,6 @@ export default function BalancedBodyPilatesPage() {
               Balanced Body for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Equipment, Quality &amp; Honest Guide</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Balanced Body is the world&apos;s largest Pilates equipment manufacturer — a company founded in 1976 that has shaped what professional Pilates equipment looks and performs like for five decades. Practitioners choose Balanced Body because their machines represent the clearest path from entry-level practice to professional-grade work without changing brands. This guide covers their most important equipment, who it is actually for, and what to understand before committing to a purchase at any price point.

@@ -134,7 +134,6 @@ export default function VarleyPilatesPage() {
               Varley for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>The Boutique Studio Brand Reviewed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Varley was founded in London in 2012 with a specific vision: activewear designed for the boutique fitness environment — Pilates, barre, and yoga studios where the aesthetic matters as much as the performance. The brand has earned its position at the premium end of the Pilates wardrobe through consistent quality and a deep understanding of the specific demands the method places on clothing. This guide covers the pieces worth buying and the honest limitations of the brand.

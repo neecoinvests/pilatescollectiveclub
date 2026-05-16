@@ -138,7 +138,6 @@ export default function BlogEquipmentPage() {
               Updated May 2026 · 10 min read
             </p>
 
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
 
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
 

@@ -123,7 +123,6 @@ export default function AlignPilatesReformerReviewPage() {
               Align-Pilates Reformer Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Mid-Tier Machine Earning Studio Endorsement</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Align-Pilates is not the brand you find in Pilates textbooks or on the walls of established studios. They are the brand that working instructors — the ones equipping private teaching rooms and small boutique spaces — are increasingly buying instead of Balanced Body or Merrithew, because the machines perform comparably at 20–40% lower cost. This is an honest review of their main models, who each is for, and where the savings show up (and where they don&apos;t).

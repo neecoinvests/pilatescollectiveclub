@@ -134,7 +134,6 @@ export default function BestReformerAccessoriesPage() {
               Best Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>Accessories (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A reformer is only the beginning. The classical Pilates apparatus system was designed to be used with additional attachments — the box, jump board, tower, and pole that expand the exercise vocabulary well beyond what the basic machine allows. For home reformer owners especially, the right accessories transform a capable but limited machine into a comprehensive training system. These are the five accessories that deliver the most meaningful improvement to your reformer practice.

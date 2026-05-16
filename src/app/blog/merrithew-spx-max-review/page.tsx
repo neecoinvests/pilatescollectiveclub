@@ -156,7 +156,6 @@ export default function MerrithewSPXMaxReviewPage() {
               Merrithew SPX Max Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Flat-Folding Professional Reformer, Honestly Assessed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 12 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The Merrithew SPX Max is the machine that STOTT PILATES instructors train on, teach on, and recommend to serious home practitioners — a full professional spring reformer that folds completely flat and stores under a bed. At approximately $2,199–$2,599 before accessories, it costs meaningfully less than the Balanced Body Allegro 2 while matching it in almost every functional category. This review explains where the SPX Max genuinely leads, where it concedes, and exactly who should choose it over the Allegro 2.
