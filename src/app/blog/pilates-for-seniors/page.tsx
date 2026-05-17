@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Seniors (2026): Safe, Effective & Backed by Evidence | Pilates Collective Club",
-  description: "Why Pilates is one of the most effective exercises for over-60s — bone density, balance, fall prevention, and joint health. A practical guide to getting started safely.",
+  title: "Pilates for Seniors (2026): Safe, Effective & Evidence-Based",
+  description: "Why Pilates works so well for over-60s — bone density, balance, fall prevention, and joint health. A practical guide to getting started safely.",
   openGraph: {
     title: "Pilates for Seniors: Safe, Effective & Evidence-Based",
     description: "Why Pilates is one of the best exercises for over-60s — fall prevention, bone density, and balance, covered.",

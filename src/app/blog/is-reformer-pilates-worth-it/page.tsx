@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Is Reformer Pilates Worth It? An Honest Assessment | Pilates Collective Club",
-  description: "Is reformer Pilates worth the cost? An honest look at what you actually get from reformer classes, the real difference vs mat Pilates, and who should (and shouldn't) invest.",
+  title: "Is Reformer Pilates Worth It? (2026) Honest Guide",
+  description: "Is reformer Pilates worth the cost? An honest look at what you get from reformer classes vs mat Pilates, and exactly who should (and shouldn't) invest.",
   openGraph: {
     title: "Is Reformer Pilates Worth It? An Honest Assessment",
     description: "The real cost of reformer Pilates, what you actually get, and whether a home reformer makes financial sense.",

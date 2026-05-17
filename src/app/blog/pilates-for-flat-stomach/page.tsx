@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for a Flat Stomach: What Works and What Doesn't | Pilates Collective Club",
-  description: "Does Pilates flatten your stomach? An honest, evidence-based guide to how Pilates changes the core — what to expect, which exercises work, and realistic timelines.",
+  title: "Pilates for a Flat Stomach (2026): What Actually Works",
+  description: "Does Pilates flatten your stomach? An honest evidence-based guide to how Pilates changes the core — what to expect, which exercises work, and timelines.",
   openGraph: {
     title: "Pilates for a Flat Stomach: What Works and What Doesn't",
     description: "The honest truth about Pilates and the abdomen — and the exercises that actually change your core shape.",

@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Weight Loss (2026): What the Evidence Actually Says | Pilates Collective Club",
-  description: "Can Pilates help you lose weight? An honest, evidence-based guide to what Pilates does and doesn't do for body composition, plus how to structure your practice for results.",
+  title: "Pilates for Weight Loss (2026): What the Evidence Says",
+  description: "Can Pilates help you lose weight? An honest evidence-based look at what Pilates does for body composition and how to structure your practice for results.",
   openGraph: {
     title: "Pilates for Weight Loss: What the Evidence Says",
     description: "Does Pilates actually help you lose weight? An honest evidence-based answer with realistic expectations.",

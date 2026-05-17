@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "10 Pilates Exercises for Beginners: The Essential Starting Point | Pilates Collective Club",
-  description: "The 10 foundational Pilates exercises every beginner should master first — with correct technique, common mistakes, and how long to practice each before progressing.",
+  title: "10 Essential Pilates Exercises for Beginners (2026)",
+  description: "The 10 foundational Pilates exercises every beginner should master first — correct technique, common mistakes, and how long to practice each.",
   openGraph: {
     title: "10 Pilates Exercises for Beginners: The Essential Foundation",
     description: "The Hundred, Roll Up, Single Leg Stretch — the 10 exercises every beginner should master before anything else.",

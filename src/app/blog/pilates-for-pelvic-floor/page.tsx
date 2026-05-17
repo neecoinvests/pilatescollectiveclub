@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates and the Pelvic Floor: What Instructors and Research Say | Pilates Collective Club",
+  title: "Pilates for Pelvic Floor (2026): What the Research Says",
   description: "How Pilates supports pelvic floor health — which exercises engage the pelvic floor correctly, what to avoid, and how to work with dysfunction safely.",
   openGraph: {
     title: "Pilates and the Pelvic Floor: What Actually Works",

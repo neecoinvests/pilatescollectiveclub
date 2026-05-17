@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Sports Bras for Pilates (2026): Coverage, Support & Studio-Ready Style | Pilates Collective Club",
+  title: "Best Pilates Sports Bra (2026): Studio-Tested Coverage",
   description: "The best sports bras for Pilates tested for instructor visibility, reformer comfort, and coverage in inversions — from Lululemon Free to Be to Alo Airlift.",
   openGraph: {
     title: "Best Sports Bras for Pilates (2026): Coverage & Studio Style",

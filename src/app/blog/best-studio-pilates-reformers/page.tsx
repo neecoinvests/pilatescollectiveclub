@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Studio-Grade Pilates Reformers (2026): Align, BASI, Balanced Body & More | Pilates Collective Club",
-  description: "Studio-grade Pilates reformers beyond the usual suspects — Align Pilates A8 Pro, Balanced Body Metro IQ, BASI Systems, Balanced Body Studio Reformer, and Gratz Maple. Verified specs, honest assessments.",
+  title: "Best Studio Pilates Reformers (2026): 5 Pro Machines",
+  description: "Studio Pilates reformers the standard guides overlook — Align A8 Pro, Metro IQ, BASI Systems, BB Studio Reformer, and Gratz Maple. Verified specs.",
   openGraph: {
     title: "Best Studio-Grade Pilates Reformers (2026): Align, BASI, Balanced Body & More",
     description: "Five studio-grade reformers that serious home practitioners and studio owners often overlook — with verified specs and honest trade-offs.",

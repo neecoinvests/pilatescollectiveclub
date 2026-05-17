@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ankle Weights (2026): Light, Adjustable & Studio-Tested | Pilates Collective Club",
+  title: "Best Pilates Ankle Weights (2026): Studio-Tested Picks",
   description: "The best ankle weights for Pilates — 0.5lb to 5lb options tested for balance, leg spring work, and side-lying series. Bala Bangles vs. Peloton vs. BWSS ranked.",
   openGraph: {
     title: "Best Pilates Ankle Weights (2026): Bala Bangles & Alternatives",

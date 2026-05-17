@@ -7,11 +7,11 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Premium Pilates Reformers (2026): $2,000–$5,000+ Honestly Reviewed | Pilates Collective Club",
-  description: "The best premium Pilates reformers for serious home practitioners — Balanced Body Allegro 2, Merrithew V2 Max, Gratz, Elina, and Peak Pilates MVe. Verified prices, honest assessments.",
+  title: "Best Premium Pilates Reformers (2026): $2K–$5K+ Reviewed",
+  description: "The best premium Pilates reformers for home practitioners — Allegro 2, Merrithew V2 Max, Gratz, Elina, and Peak MVe. Verified prices and honest assessments.",
   openGraph: {
-    title: "Best Premium Pilates Reformers (2026): $2,000–$5,000+ Honestly Reviewed",
-    description: "Balanced Body Allegro 2, Merrithew V2 Max, Gratz, Elina Elite Wood, and Peak Pilates MVe — the definitive premium reformer guide for serious home practitioners.",
+    title: "Best Premium Pilates Reformers (2026): $2K–$5K+",
+    description: "Allegro 2, Merrithew V2 Max, Gratz, Elina Elite Wood, and Peak MVe — the definitive premium reformer guide for serious home practitioners.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-premium-pilates-reformer",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Premium Pilates Reformers — Pilates Collective Club" }],

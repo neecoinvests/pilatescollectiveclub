@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Mini Pilates Reformer (2026): Compact Machines That Actually Work | Pilates Collective Club",
+  title: "Best Mini Pilates Reformer (2026): Compact Machines Reviewed",
   description: "The best mini Pilates reformers for small spaces — portable, fold-flat, and apartment-friendly machines tested for resistance quality and exercise range.",
   openGraph: {
     title: "Best Mini Pilates Reformer (2026): Compact Machines Reviewed",

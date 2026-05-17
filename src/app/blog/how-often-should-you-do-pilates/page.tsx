@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "How Often Should You Do Pilates? The Evidence-Based Answer | Pilates Collective Club",
-  description: "How many times per week should you do Pilates? Evidence and instructor guidance on optimal frequency for beginners, intermediate practitioners, and those with specific goals.",
+  title: "How Often Should You Do Pilates? (2026 Guide)",
+  description: "How many times per week should you do Pilates? Evidence-based guidance on optimal frequency for beginners, intermediate, and goal-specific practitioners.",
   openGraph: {
     title: "How Often Should You Do Pilates? The Evidence-Based Answer",
     description: "Beginner or advanced, daily or twice weekly — exactly how much Pilates you need for your specific goals.",

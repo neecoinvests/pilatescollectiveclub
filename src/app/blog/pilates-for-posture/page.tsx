@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Posture: The Exercises That Actually Work | Pilates Collective Club",
-  description: "How Pilates corrects posture — the exercises that address forward head position, rounded shoulders, anterior pelvic tilt, and lumbar hyperlordosis. Evidence and practice guide.",
+  title: "Pilates for Posture (2026): Exercises That Actually Work",
+  description: "How Pilates corrects posture — targeting forward head position, rounded shoulders, pelvic tilt, and lumbar hyperlordosis. An evidence-backed practice guide.",
   openGraph: {
     title: "Pilates for Better Posture: The Exercises That Work",
     description: "Forward head, rounded shoulders, anterior pelvic tilt — the Pilates exercises that specifically correct each pattern.",

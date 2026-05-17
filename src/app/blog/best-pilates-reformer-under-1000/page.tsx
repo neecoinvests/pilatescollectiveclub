@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Under $1,000 (2026): Honest Reviews | Pilates Collective Club",
+  title: "Best Pilates Reformer Under $1,000 (2026): Honest Reviews",
   description: "The best Pilates reformers under $1,000 tested honestly — AeroPilates, Stamina, and Merrithew entry-level machines ranked by resistance quality and build.",
   openGraph: {
     title: "Best Pilates Reformer Under $1,000 (2026)",
