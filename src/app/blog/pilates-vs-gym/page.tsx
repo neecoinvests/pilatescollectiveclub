@@ -168,7 +168,7 @@ export default function PilatesVsGymPage() {
                     <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.25)" }}>
                       <h3 className="text-lg font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.category}</h3>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x" style={{ divideColor: "rgba(217,194,186,0.25)" }}>
+                    <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x" style={{ borderColor: "rgba(217,194,186,0.25)" }}>
                       <div className="px-5 py-4 bg-white">
                         <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pilates</p>
                         <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.pilates}</p>
