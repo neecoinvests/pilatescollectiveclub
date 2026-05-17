@@ -561,8 +561,10 @@ const blogJsonLd = {
   ],
 };
 
-export default async function BlogPage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {
-  const { category } = await searchParams;
+export default async function BlogPage({ searchParams }: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }) {
+  const params = await searchParams;
+  const raw = params.category;
+  const category = Array.isArray(raw) ? raw[0] : raw;
   const initialCategory = CATEGORIES.find((c) => c.toLowerCase() === (category ?? "").toLowerCase()) ?? "All";
   return (
     <>
