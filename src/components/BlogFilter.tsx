@@ -47,7 +47,7 @@ const btn = (active: boolean) => ({
 export default function BlogFilter({ posts, initialCategory = "All" }: { posts: Post[]; initialCategory?: string }) {
   const [active, setActive] = useState(initialCategory);
 
-  const featured = posts.find((p) => p.featured)!;
+  const featured = posts.find((p) => p.featured) ?? null;
   const rest = posts.filter((p) => !p.featured);
   const filtered = active === "All" ? rest : rest.filter((p) => p.category === active);
 
@@ -67,7 +67,7 @@ export default function BlogFilter({ posts, initialCategory = "All" }: { posts: 
       </div>
 
       {/* Featured post — only shown on "All" */}
-      {active === "All" && (
+      {active === "All" && featured && (
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <Link href={featured.href} className="group block">

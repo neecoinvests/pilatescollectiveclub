@@ -28,6 +28,22 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    title: "Best Premium Pilates Reformers (2026): $2,000–$5,000+ Reviewed",
+    excerpt: "Balanced Body Allegro 2, Merrithew V2 Max, Gratz, Elina Elite Wood, Peak MVe — verified prices and honest assessments for serious home practitioners.",
+    href: "/blog/best-premium-pilates-reformer",
+    category: "Equipment",
+    readTime: "14 min",
+    imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
+  },
+  {
+    title: "Merrithew V2 Max Review (2026): Worth the Upgrade?",
+    excerpt: "Patented retractable ropes, 24-inch carriage, high-precision springs — a detailed assessment of Merrithew's most advanced reformer vs the SPX Max.",
+    href: "/blog/merrithew-v2-max-review",
+    category: "Equipment",
+    readTime: "11 min",
+    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
+  },
+  {
     title: "Best Sports Bras for Pilates (2026): Coverage & Studio Style",
     excerpt: "The bra your instructor is wearing — and the four alternatives worth considering across every price point.",
     href: "/blog/best-pilates-sports-bra",
