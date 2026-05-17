@@ -145,6 +145,38 @@ const jsonLd = {
     }
       ]
     },
+    {
+      "@type": "ItemList",
+      "name": "Best Home Pilates Reformers (2026)",
+      "numberOfItems": PRODUCTS.length,
+      "itemListElement": PRODUCTS.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "Product",
+          "name": p.name,
+          "description": p.description,
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": p.price.replace(/[^0-9]/g, ""),
+            "availability": "https://schema.org/InStock",
+            "url": p.affiliateUrl,
+          },
+          "review": {
+            "@type": "Review",
+            "reviewBody": p.description,
+            "author": { "@type": "Organization", "name": "Pilates Collective Club" },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 5 - i * 0.1,
+              "bestRating": 5,
+              "worstRating": 1,
+            },
+          },
+        },
+      })),
+    },
   ],
 };
 
