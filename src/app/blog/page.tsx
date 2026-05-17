@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import BlogFilter, { CATEGORIES } from "@/components/BlogFilter";
+import BlogFilter from "@/components/BlogFilter";
+import { CATEGORIES } from "@/lib/categories";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

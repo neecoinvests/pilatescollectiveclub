@@ -3,6 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { CATEGORIES } from "@/lib/categories";
+
+export { CATEGORIES };
 
 export interface Post {
   title: string;
@@ -14,19 +17,6 @@ export interface Post {
   featured?: boolean;
 }
 
-export const CATEGORIES = [
-  "All",
-  "Equipment",
-  "Brand Guide",
-  "Method",
-  "Health",
-  "Guide",
-  "Beginners",
-  "Performance",
-  "Comparison",
-  "Reading",
-  "Travel",
-];
 
 const btn = (active: boolean) => ({
   fontFamily: "'Montserrat', sans-serif" as const,
