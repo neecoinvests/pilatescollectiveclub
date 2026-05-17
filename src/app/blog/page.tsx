@@ -36,6 +36,14 @@ const posts = [
     imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
   },
   {
+    title: "Best Studio-Grade Pilates Reformers (2026): Align, BASI, Balanced Body & More",
+    excerpt: "Five studio-grade reformers the standard guides miss — Align A8 Pro, Balanced Body Metro IQ, BASI Systems, BB Studio Reformer, and Gratz Maple.",
+    href: "/blog/best-studio-pilates-reformers",
+    category: "Equipment",
+    readTime: "13 min",
+    imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
+  },
+  {
     title: "Merrithew V2 Max Review (2026): Worth the Upgrade?",
     excerpt: "Patented retractable ropes, 24-inch carriage, high-precision springs — a detailed assessment of Merrithew's most advanced reformer vs the SPX Max.",
     href: "/blog/merrithew-v2-max-review",
