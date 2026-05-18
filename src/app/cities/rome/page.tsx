@@ -61,7 +61,7 @@ const STUDIOS = [
     name: "Gaia Pilates Roma",
     neighborhood: "Trastevere",
     priceLevel: "€€€",
-    review: "Gaia Pilates Roma is tucked into the cobblestoned streets of Trastevere and has become the neighbourhood&apos;s most trusted Pilates address, drawing both Roman professionals and informed visiting practitioners who have done their research before arriving. The studio offers reformer and mat classes taught by instructors with international training backgrounds, and the teaching reflects an understanding of the body that goes beyond the surface-level corrections common in newer studios. The Trastevere setting lends the experience a particular quality — arriving through the neighbourhood&apos;s medieval lanes and entering a calm, well-equipped studio is one of Rome&apos;s more unexpected pleasures. It suits clients who want genuine Pilates rather than a wellness-branded workout.",
+    review: "Gaia Pilates Roma is tucked into the cobblestoned streets of Trastevere and has become the neighbourhood's most trusted Pilates address, drawing both Roman professionals and informed visiting practitioners who have done their research before arriving. The studio offers reformer and mat classes taught by instructors with international training backgrounds, and the teaching reflects an understanding of the body that goes beyond the surface-level corrections common in newer studios. The Trastevere setting lends the experience a particular quality — arriving through the neighbourhood's medieval lanes and entering a calm, well-equipped studio is one of Rome's more unexpected pleasures. It suits clients who want genuine Pilates rather than a wellness-branded workout.",
     address: "—",
     bestFor: "Reformer and mat, internationally trained instructors, Trastevere neighbourhood",
     signatureClass: "Reformer Group (open level)",
@@ -70,20 +70,20 @@ const STUDIOS = [
   {
     number: "02",
     name: "Plexus",
-    neighborhood: "Campo de&apos; Fiori",
+    neighborhood: "Campo de' Fiori",
     priceLevel: "€€€",
-    review: "Plexus occupies a considered space in the Campo de&apos; Fiori area and has built a reputation in Rome&apos;s discerning wellness community for instruction that is anatomically sophisticated and thoughtfully sequenced. The studio works across reformer and functional movement disciplines, and the instructors bring a level of individual attention to group classes that keeps the teaching quality high even as the space fills. The clientele is a mix of Roman professionals, expats, and visiting practitioners from other European cities who treat a Plexus session as a fixed point in their Rome itinerary. The location, close to some of Rome&apos;s most frequented piazzas, makes scheduling around sightseeing straightforward.",
+    review: "Plexus occupies a considered space in the Campo de' Fiori area and has built a reputation in Rome's discerning wellness community for instruction that is anatomically sophisticated and thoughtfully sequenced. The studio works across reformer and functional movement disciplines, and the instructors bring a level of individual attention to group classes that keeps the teaching quality high even as the space fills. The clientele is a mix of Roman professionals, expats, and visiting practitioners from other European cities who treat a Plexus session as a fixed point in their Rome itinerary. The location, close to some of Rome's most frequented piazzas, makes scheduling around sightseeing straightforward.",
     address: "—",
     bestFor: "Reformer, functional movement, experienced practitioners, central Rome location",
     signatureClass: "Reformer Flow",
-    bookingTip: "Booking online in advance is strongly recommended as the studio&apos;s central location attracts consistent demand. English-language instruction is available — confirm when booking.",
+    bookingTip: "Booking online in advance is strongly recommended as the studio's central location attracts consistent demand. English-language instruction is available — confirm when booking.",
   },
   {
     number: "03",
     name: "Pilates Muse",
     neighborhood: "Parioli",
     priceLevel: "€€€",
-    review: "Pilates Muse is one of Parioli&apos;s most established wellness addresses, serving the neighbourhood&apos;s affluent and well-travelled clientele with reformer and apparatus instruction that matches the expectations of clients who also train when they visit London, New York, or Milan. The teaching is precise and classical in orientation, and the studio&apos;s small class caps ensure that individual attention remains consistent regardless of the format. The atmosphere is elegant without formality — Parioli in miniature — and the instructors are known for building genuine relationships with regular clients that deepen the quality of the teaching over time. Practitioners who live or stay in the northern residential quarters of Rome need look no further.",
+    review: "Pilates Muse is one of Parioli's most established wellness addresses, serving the neighbourhood's affluent and well-travelled clientele with reformer and apparatus instruction that matches the expectations of clients who also train when they visit London, New York, or Milan. The teaching is precise and classical in orientation, and the studio's small class caps ensure that individual attention remains consistent regardless of the format. The atmosphere is elegant without formality — Parioli in miniature — and the instructors are known for building genuine relationships with regular clients that deepen the quality of the teaching over time. Practitioners who live or stay in the northern residential quarters of Rome need look no further.",
     address: "—",
     bestFor: "Classical reformer and apparatus, experienced practitioners, Parioli residents",
     signatureClass: "Classical Reformer (small group)",
@@ -105,7 +105,7 @@ const STUDIOS = [
     name: "Aletheia Studio Pilates",
     neighborhood: "Prati",
     priceLevel: "€€€",
-    review: "Aletheia Studio Pilates sits in the orderly, residential Prati neighbourhood within easy reach of the Vatican and Castel Sant&apos;Angelo, and the studio&apos;s atmosphere has the same composed quality as its surroundings. The instruction draws from classical Pilates lineage and is delivered with the kind of unhurried attention that marks a studio more interested in long-term client development than class throughput. The equipment is well-maintained and the space is calm, attracting Prati residents and Vatican-area professionals who treat their sessions here as a weekly anchor. Visitors staying in Prati — one of Rome&apos;s most practical bases for first-time visitors — will find it a genuinely world-class local option.",
+    review: "Aletheia Studio Pilates sits in the orderly, residential Prati neighbourhood within easy reach of the Vatican and Castel Sant'Angelo, and the studio's atmosphere has the same composed quality as its surroundings. The instruction draws from classical Pilates lineage and is delivered with the kind of unhurried attention that marks a studio more interested in long-term client development than class throughput. The equipment is well-maintained and the space is calm, attracting Prati residents and Vatican-area professionals who treat their sessions here as a weekly anchor. Visitors staying in Prati — one of Rome's most practical bases for first-time visitors — will find it a genuinely world-class local option.",
     address: "—",
     bestFor: "Classical reformer, Prati and Vatican area, serious practitioners",
     signatureClass: "Classical Reformer",
@@ -116,7 +116,7 @@ const STUDIOS = [
     name: "True Pilates Parioli",
     neighborhood: "Parioli",
     priceLevel: "€€€€",
-    review: "True Pilates Parioli operates within the global True Pilates network — the direct lineage studio system descended from Romana Kryzanowska — and is Rome&apos;s most authoritative address for the classical method as Joseph Pilates originally codified it, taught on authentic Gratz apparatus by certified instructors who have trained within the lineage. The studio attracts a client base that has typically trained extensively before arriving here, often including professional dancers, athletes, and practitioners who have specifically sought out True Pilates certification globally. Sessions are unhurried, deeply technical, and genuinely transformative for clients prepared to engage at that level. For the serious practitioner visiting Rome, it is not optional.",
+    review: "True Pilates Parioli operates within the global True Pilates network — the direct lineage studio system descended from Romana Kryzanowska — and is Rome's most authoritative address for the classical method as Joseph Pilates originally codified it, taught on authentic Gratz apparatus by certified instructors who have trained within the lineage. The studio attracts a client base that has typically trained extensively before arriving here, often including professional dancers, athletes, and practitioners who have specifically sought out True Pilates certification globally. Sessions are unhurried, deeply technical, and genuinely transformative for clients prepared to engage at that level. For the serious practitioner visiting Rome, it is not optional.",
     address: "—",
     bestFor: "True classical Pilates, Gratz apparatus, lineage instruction, advanced practitioners",
     signatureClass: "True Pilates Classical Session",
@@ -127,15 +127,15 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Expect to pay €20–60 per class",
-    body: "Rome&apos;s Pilates pricing varies considerably by model and neighbourhood. Group reformer classes at accessible studios run €20–35; semi-private sessions at premium addresses reach €50–70 per person. Carnet packages of eight to ten sessions typically save 15–20% versus drop-in rates.",
+    body: "Rome's Pilates pricing varies considerably by model and neighbourhood. Group reformer classes at accessible studios run €20–35; semi-private sessions at premium addresses reach €50–70 per person. Carnet packages of eight to ten sessions typically save 15–20% versus drop-in rates.",
   },
   {
     heading: "August closures are universal",
-    body: "Like Milan and most of Italy, Rome&apos;s independent wellness studios close for two to four weeks in August. Larger gyms with Pilates programmes may stay open, but boutique studios will be shut. Plan around this — September sees very high demand as regulars return.",
+    body: "Like Milan and most of Italy, Rome's independent wellness studios close for two to four weeks in August. Larger gyms with Pilates programmes may stay open, but boutique studios will be shut. Plan around this — September sees very high demand as regulars return.",
   },
   {
     heading: "Private sessions first — everywhere",
-    body: "The majority of Rome&apos;s dedicated Pilates studios require at least one private intake session before you join group classes. This isn&apos;t just bureaucracy — it&apos;s part of how the method works, and studios that skip it generally deliver lower-quality group instruction as a result.",
+    body: "The majority of Rome's dedicated Pilates studios require at least one private intake session before you join group classes. This isn't just bureaucracy — it's part of how the method works, and studios that skip it generally deliver lower-quality group instruction as a result.",
   },
   {
     heading: "English is increasingly available",
@@ -143,7 +143,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are non-negotiable",
-    body: "Every studio in Rome requires grip socks. Bring your own — the studio-sold options are typically €14–18 and you can find better value online. A few studios offer loaner pairs for first visits, but don&apos;t count on it.",
+    body: "Every studio in Rome requires grip socks. Bring your own — the studio-sold options are typically €14–18 and you can find better value online. A few studios offer loaner pairs for first visits, but don't count on it.",
   },
 ];
 
@@ -151,17 +151,17 @@ const NEIGHBORHOODS = [
   {
     name: "Prati",
     description:
-      "Rome&apos;s most coherent modern neighbourhood — wide boulevards, good transport links, and a density of professional services that includes several excellent Pilates studios. Prati is the most practical base for consistent Pilates practice in central Rome, with studios that attract a serious, committed clientele.",
+      "Rome's most coherent modern neighbourhood — wide boulevards, good transport links, and a density of professional services that includes several excellent Pilates studios. Prati is the most practical base for consistent Pilates practice in central Rome, with studios that attract a serious, committed clientele.",
   },
   {
     name: "Parioli",
     description:
-      "The capital&apos;s most affluent residential area rewards patient exploration. The studios here operate quietly — minimal marketing, word-of-mouth reputation — but the instruction quality is among the highest in the city. Expect premium pricing and an equally premium experience.",
+      "The capital's most affluent residential area rewards patient exploration. The studios here operate quietly — minimal marketing, word-of-mouth reputation — but the instruction quality is among the highest in the city. Expect premium pricing and an equally premium experience.",
   },
   {
     name: "Trastevere",
     description:
-      "Characterful, expat-friendly, and increasingly well-served for wellness. Trastevere&apos;s studios tend toward the community-oriented and accessible, which makes the neighbourhood an excellent starting point for visitors or newcomers to the city looking to establish a practice.",
+      "Characterful, expat-friendly, and increasingly well-served for wellness. Trastevere's studios tend toward the community-oriented and accessible, which makes the neighbourhood an excellent starting point for visitors or newcomers to the city looking to establish a practice.",
   },
   {
     name: "Flaminio & Testaccio",
@@ -259,7 +259,7 @@ export default function RomePage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Rome may not have the density of Milan&apos;s studio scene, but what the capital offers is something different: a Pilates culture with genuine depth, built slowly over two decades and now producing some of the most technically serious instruction in Italy. From the elegant semi-private studios of Parioli to the community-minded reformer spaces of Trastevere, this guide identifies the five studios that represent Rome&apos;s Pilates landscape at its best.
+              Rome may not have the density of Milan's studio scene, but what the capital offers is something different: a Pilates culture with genuine depth, built slowly over two decades and now producing some of the most technically serious instruction in Italy. From the elegant semi-private studios of Parioli to the community-minded reformer spaces of Trastevere, this guide identifies the five studios that represent Rome's Pilates landscape at its best.
             </p>
           </div>
         </section>
@@ -322,7 +322,7 @@ export default function RomePage() {
               Best neighbourhoods for Pilates in Rome
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Rome&apos;s Pilates landscape is shaped by its neighbourhoods.
+              Rome's Pilates landscape is shaped by its neighbourhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

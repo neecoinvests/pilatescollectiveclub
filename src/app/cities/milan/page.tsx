@@ -61,7 +61,7 @@ const STUDIOS = [
     name: "Attimo Pilates",
     neighborhood: "Brera",
     priceLevel: "€€€",
-    review: "Tucked into one of Brera&apos;s most sought-after streets, Attimo has become the studio of choice for Milan&apos;s fashion and design set who take their bodies as seriously as their work. The space itself is considered and spare — white walls, natural light, Balanced Body equipment arranged with the precision of a gallery installation. Instructors hold international certifications and teach with a rigour that rewards clients willing to genuinely commit. Classes are deliberately small, rarely exceeding six on the reformer, which keeps the instruction personal and the energy focused. Attimo suits the intermediate-to-advanced practitioner who values depth over pace and is prepared to invest accordingly.",
+    review: "Tucked into one of Brera's most sought-after streets, Attimo has become the studio of choice for Milan's fashion and design set who take their bodies as seriously as their work. The space itself is considered and spare — white walls, natural light, Balanced Body equipment arranged with the precision of a gallery installation. Instructors hold international certifications and teach with a rigour that rewards clients willing to genuinely commit. Classes are deliberately small, rarely exceeding six on the reformer, which keeps the instruction personal and the energy focused. Attimo suits the intermediate-to-advanced practitioner who values depth over pace and is prepared to invest accordingly.",
     address: "—",
     bestFor: "Fashion-industry regulars and design-district devotees",
     signatureClass: "Attimo Signature Reformer",
@@ -72,7 +72,7 @@ const STUDIOS = [
     name: "CoreWork Fitness Pilates",
     neighborhood: "Porta Romana",
     priceLevel: "€€",
-    review: "CoreWork occupies the practical, results-driven end of Milan&apos;s Pilates spectrum, drawing a clientele of athletes, dancers, and fitness-minded professionals from the Porta Romana and Lodi neighbourhoods. The studio runs a full fleet of reformers alongside a dedicated mat space and functional training area, allowing instructors to blend classical Pilates with conditioning work in ways that genuinely challenge the body. Programming is structured and progressive — there are real levels here, and instructors hold clients to them. The atmosphere is warm rather than precious, with a regulars culture that makes newcomers feel quickly at home. A ten-class card represents excellent value by Milan standards and is the preferred entry point for anyone planning more than a single visit.",
+    review: "CoreWork occupies the practical, results-driven end of Milan's Pilates spectrum, drawing a clientele of athletes, dancers, and fitness-minded professionals from the Porta Romana and Lodi neighbourhoods. The studio runs a full fleet of reformers alongside a dedicated mat space and functional training area, allowing instructors to blend classical Pilates with conditioning work in ways that genuinely challenge the body. Programming is structured and progressive — there are real levels here, and instructors hold clients to them. The atmosphere is warm rather than precious, with a regulars culture that makes newcomers feel quickly at home. A ten-class card represents excellent value by Milan standards and is the preferred entry point for anyone planning more than a single visit.",
     address: "—",
     bestFor: "Athletes and fitness-first practitioners seeking honest conditioning",
     signatureClass: "CoreWork Power Reformer",
@@ -83,7 +83,7 @@ const STUDIOS = [
     name: "Hey Pilates",
     neighborhood: "Isola",
     priceLevel: "€€€",
-    review: "Hey Pilates has made Isola — Milan&apos;s most energetically transforming neighbourhood — a credible destination on the city&apos;s reformer circuit. The studio aesthetic leans into the area&apos;s creative independence: exposed brick, curated playlists, and a visual identity that feels more downtown New York than northern Italian. Instruction quality is high, with a young teaching team that trained largely abroad and brings an international fluency to cuing and correction. Classes run at pace without sacrificing form, which attracts a crowd of creative professionals and design studio workers in their late twenties and thirties who want efficiency alongside technique. Online-only booking keeps logistics clean; a 24-hour cancellation policy keeps classes full and the energy consistent.",
+    review: "Hey Pilates has made Isola — Milan's most energetically transforming neighbourhood — a credible destination on the city's reformer circuit. The studio aesthetic leans into the area's creative independence: exposed brick, curated playlists, and a visual identity that feels more downtown New York than northern Italian. Instruction quality is high, with a young teaching team that trained largely abroad and brings an international fluency to cuing and correction. Classes run at pace without sacrificing form, which attracts a crowd of creative professionals and design studio workers in their late twenties and thirties who want efficiency alongside technique. Online-only booking keeps logistics clean; a 24-hour cancellation policy keeps classes full and the energy consistent.",
     address: "—",
     bestFor: "Creative professionals and reformer-comfortable practitioners",
     signatureClass: "Hey Reformer Flow",
@@ -94,7 +94,7 @@ const STUDIOS = [
     name: "THE Studio Pilates Italia",
     neighborhood: "CityLife",
     priceLevel: "€€€",
-    review: "Positioned within the CityLife complex against the backdrop of Zaha Hadid&apos;s extraordinary curved towers, THE Studio Pilates Italia brings an international brand framework to one of Milan&apos;s most architecturally ambitious districts. The space is large, immaculately maintained, and equipped to a standard that genuinely impresses — multiple reformer rooms, tower units, and a cadillac suite for private sessions. Teaching follows the structured THE Studio method, which prioritises muscular balance, postural correction, and progressive loading over novelty. The clientele skews toward corporate professionals and well-travelled residents who want reliable quality without the unpredictability of smaller independent studios. Corporate memberships are available for CityLife business tenants, which speaks to the studio&apos;s primary community.",
+    review: "Positioned within the CityLife complex against the backdrop of Zaha Hadid's extraordinary curved towers, THE Studio Pilates Italia brings an international brand framework to one of Milan's most architecturally ambitious districts. The space is large, immaculately maintained, and equipped to a standard that genuinely impresses — multiple reformer rooms, tower units, and a cadillac suite for private sessions. Teaching follows the structured THE Studio method, which prioritises muscular balance, postural correction, and progressive loading over novelty. The clientele skews toward corporate professionals and well-travelled residents who want reliable quality without the unpredictability of smaller independent studios. Corporate memberships are available for CityLife business tenants, which speaks to the studio's primary community.",
     address: "—",
     bestFor: "Corporate professionals and internationally experienced practitioners",
     signatureClass: "THE Studio Reformer Signature",
@@ -116,7 +116,7 @@ const STUDIOS = [
     name: "Ceresio 7",
     neighborhood: "Porta Nuova",
     priceLevel: "€€€€",
-    review: "Ceresio 7 operates at an altitude few wellness spaces in Europe match — physically, the rooftop position above the Dsquared2 headquarters affords extraordinary views over Porta Nuova&apos;s skyline; experientially, it delivers a calibre of private instruction that justifies its position as Milan&apos;s most exclusive Pilates address. Equipment is top-specification throughout, spaces are arranged for maximum privacy, and sessions are conducted with the unhurried intensity of one-to-one work where the instructor&apos;s full attention never wavers. The clientele is fashion-adjacent and internationally wealthy; English is spoken without prompting. This is not a studio for beginners or those simply curious about reformer work — it is a serious training environment for serious practitioners who expect the environment to match their level of investment.",
+    review: "Ceresio 7 operates at an altitude few wellness spaces in Europe match — physically, the rooftop position above the Dsquared2 headquarters affords extraordinary views over Porta Nuova's skyline; experientially, it delivers a calibre of private instruction that justifies its position as Milan's most exclusive Pilates address. Equipment is top-specification throughout, spaces are arranged for maximum privacy, and sessions are conducted with the unhurried intensity of one-to-one work where the instructor's full attention never wavers. The clientele is fashion-adjacent and internationally wealthy; English is spoken without prompting. This is not a studio for beginners or those simply curious about reformer work — it is a serious training environment for serious practitioners who expect the environment to match their level of investment.",
     address: "—",
     bestFor: "High-net-worth clients seeking elite private instruction",
     signatureClass: "Ceresio Reformer Private",
@@ -151,7 +151,7 @@ const NEIGHBORHOODS = [
   {
     name: "Brera",
     description:
-      "Milan&apos;s most artistically prestigious quarter is also home to its most sophisticated wellness offering. Studios here tend toward the boutique and considered — small class sizes, carefully sourced equipment, and an instructor quality that matches the neighbourhood&apos;s exacting standards. The premium for a Brera address is real but justified.",
+      "Milan's most artistically prestigious quarter is also home to its most sophisticated wellness offering. Studios here tend toward the boutique and considered — small class sizes, carefully sourced equipment, and an instructor quality that matches the neighbourhood's exacting standards. The premium for a Brera address is real but justified.",
   },
   {
     name: "Porta Venezia & Corso Buenos Aires",
@@ -161,7 +161,7 @@ const NEIGHBORHOODS = [
   {
     name: "Moscova",
     description:
-      "Quiet, residential, and home to several of Milan&apos;s best private instruction studios. Moscova suits clients seeking a more personal, appointment-based approach to Pilates rather than the group class model. Expect excellent instruction in intimate settings.",
+      "Quiet, residential, and home to several of Milan's best private instruction studios. Moscova suits clients seeking a more personal, appointment-based approach to Pilates rather than the group class model. Expect excellent instruction in intimate settings.",
   },
   {
     name: "Navigli",
@@ -259,7 +259,7 @@ export default function MilanPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Milan&apos;s wellness culture has matured considerably in recent years, and the city&apos;s Pilates scene is one of the most compelling in southern Europe. The same instinct for quality and aesthetics that drives Milan&apos;s fashion and design industries is increasingly visible in its studios — from the intimate private instruction ateliers of Moscova to the polished reformer boutiques of Brera. This guide covers the five studios that best represent the range and quality of what the city currently offers.
+              Milan's wellness culture has matured considerably in recent years, and the city's Pilates scene is one of the most compelling in southern Europe. The same instinct for quality and aesthetics that drives Milan's fashion and design industries is increasingly visible in its studios — from the intimate private instruction ateliers of Moscova to the polished reformer boutiques of Brera. This guide covers the five studios that best represent the range and quality of what the city currently offers.
             </p>
           </div>
         </section>
@@ -322,7 +322,7 @@ export default function MilanPage() {
               Best neighbourhoods for Pilates in Milan
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Milan&apos;s Pilates landscape is shaped by its neighbourhoods.
+              Milan's Pilates landscape is shaped by its neighbourhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

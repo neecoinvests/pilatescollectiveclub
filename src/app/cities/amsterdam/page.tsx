@@ -41,7 +41,7 @@ const STUDIOS = [
     name: "PILAT3S De Pijp",
     neighborhood: "De Pijp",
     priceLevel: "€€€",
-    review: "PILAT3S has chosen De Pijp for its Amsterdam flagship, and the neighbourhood — dense, international, and full of the kind of young professionals who treat fitness as a serious part of their week — fits the brand&apos;s proposition precisely. The studio design is bold and intentional: dark interiors, dramatic lighting, and an equipment floor that communicates investment in both the reformer experience and the aesthetic around it. Classes run to a tight 45-minute format, music-driven and efficiently choreographed, which suits De Pijp&apos;s working population. Instruction quality is consistent and the app-based booking system is one of the slickest in the city. It suits practitioners who want a reliable, high-energy reformer session without the variability of a smaller independent studio.",
+    review: "PILAT3S has chosen De Pijp for its Amsterdam flagship, and the neighbourhood — dense, international, and full of the kind of young professionals who treat fitness as a serious part of their week — fits the brand's proposition precisely. The studio design is bold and intentional: dark interiors, dramatic lighting, and an equipment floor that communicates investment in both the reformer experience and the aesthetic around it. Classes run to a tight 45-minute format, music-driven and efficiently choreographed, which suits De Pijp's working population. Instruction quality is consistent and the app-based booking system is one of the slickest in the city. It suits practitioners who want a reliable, high-energy reformer session without the variability of a smaller independent studio.",
     address: "—",
     bestFor: "High-production reformer boutique, efficient format",
     signatureClass: "PILAT3S Signature 45",
@@ -52,7 +52,7 @@ const STUDIOS = [
     name: "Studio 191",
     neighborhood: "Jordaan",
     priceLevel: "€€€",
-    review: "Studio 191 is the kind of studio that Amsterdam does particularly well: small, serious, beautifully located, and built around a genuine teaching philosophy rather than a brand concept. Positioned in the Jordaan — the city&apos;s most architecturally beautiful and intellectually engaged neighbourhood — the studio draws a clientele of artists, academics, and quietly affluent professionals who want depth over spectacle. Classes are capped at very small numbers, allowing instructors to provide the kind of individual attention that makes real progress possible, and the programming spans classical mat and apparatus work with unusual rigour. The physical space is warm and considered, making excellent use of the Dutch light that floods through canal-house windows. It suits practitioners at intermediate to advanced level who want to be genuinely challenged.",
+    review: "Studio 191 is the kind of studio that Amsterdam does particularly well: small, serious, beautifully located, and built around a genuine teaching philosophy rather than a brand concept. Positioned in the Jordaan — the city's most architecturally beautiful and intellectually engaged neighbourhood — the studio draws a clientele of artists, academics, and quietly affluent professionals who want depth over spectacle. Classes are capped at very small numbers, allowing instructors to provide the kind of individual attention that makes real progress possible, and the programming spans classical mat and apparatus work with unusual rigour. The physical space is warm and considered, making excellent use of the Dutch light that floods through canal-house windows. It suits practitioners at intermediate to advanced level who want to be genuinely challenged.",
     address: "—",
     bestFor: "Classical method, small groups, architectural setting",
     signatureClass: "Studio 191 Classical Reformer",
@@ -63,7 +63,7 @@ const STUDIOS = [
     name: "BASI Pilates Academy Amsterdam",
     neighborhood: "Oud-Zuid",
     priceLevel: "€€€",
-    review: "BASI Amsterdam carries the full weight of one of the world&apos;s most respected Pilates teacher-training organisations, and the studio practice reflects that pedigree in every session. Located in Oud-Zuid — Amsterdam&apos;s most established residential quarter, home to the Concertgebouw and Rijksmuseum — the studio attracts both serious practitioners and movement professionals seeking continuing education. The method is taught comprehensively, covering mat, reformer, cadillac, chair, and barrel work to a standard that makes this one of the few studios in the Netherlands where advanced practitioners can genuinely progress. Instructors hold BASI certification and the teaching culture is rigorous without being austere. It suits practitioners who understand that Pilates is a lifelong discipline and want to train somewhere that treats it as such.",
+    review: "BASI Amsterdam carries the full weight of one of the world's most respected Pilates teacher-training organisations, and the studio practice reflects that pedigree in every session. Located in Oud-Zuid — Amsterdam's most established residential quarter, home to the Concertgebouw and Rijksmuseum — the studio attracts both serious practitioners and movement professionals seeking continuing education. The method is taught comprehensively, covering mat, reformer, cadillac, chair, and barrel work to a standard that makes this one of the few studios in the Netherlands where advanced practitioners can genuinely progress. Instructors hold BASI certification and the teaching culture is rigorous without being austere. It suits practitioners who understand that Pilates is a lifelong discipline and want to train somewhere that treats it as such.",
     address: "—",
     bestFor: "Comprehensive apparatus work, teacher-level rigour",
     signatureClass: "BASI Comprehensive Reformer",
@@ -74,7 +74,7 @@ const STUDIOS = [
     name: "Pilates 13",
     neighborhood: "Amsterdam-Noord",
     priceLevel: "€€",
-    review: "Pilates 13 has positioned itself well in Amsterdam-Noord, the post-industrial neighbourhood across the IJ that has become the city&apos;s most interesting creative quarter over the past decade. The studio is refreshingly straightforward — no concept branding, no elaborate retail, just well-taught reformer classes in a clean, comfortable space at prices that reflect Noord&apos;s more accessible rental environment. Instructors are personable and technically sound, class sizes are moderate, and the scheduling is thoughtfully constructed for a neighbourhood that still has a working-day rhythm rather than a flexible freelance one. The ferry connection makes it viable even for practitioners based in Centrum, and the North Amsterdam demographic adds a genuinely local energy to each session. It suits practitioners looking for excellent value who are open to crossing the water.",
+    review: "Pilates 13 has positioned itself well in Amsterdam-Noord, the post-industrial neighbourhood across the IJ that has become the city's most interesting creative quarter over the past decade. The studio is refreshingly straightforward — no concept branding, no elaborate retail, just well-taught reformer classes in a clean, comfortable space at prices that reflect Noord's more accessible rental environment. Instructors are personable and technically sound, class sizes are moderate, and the scheduling is thoughtfully constructed for a neighbourhood that still has a working-day rhythm rather than a flexible freelance one. The ferry connection makes it viable even for practitioners based in Centrum, and the North Amsterdam demographic adds a genuinely local energy to each session. It suits practitioners looking for excellent value who are open to crossing the water.",
     address: "—",
     bestFor: "Honest reformer, Noord creative community",
     signatureClass: "Pilates 13 Reformer Classic",
@@ -185,7 +185,7 @@ export default function AmsterdamPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Amsterdam&apos;s wellness culture has evolved considerably in recent years — and Pilates has been among the primary beneficiaries. The city&apos;s international population, strong cycling culture, and general openness to quality movement practices have produced a studio scene that punches well above its geographic size. This guide covers the five studios we rate most highly across the city&apos;s distinct neighbourhoods.
+              Amsterdam's wellness culture has evolved considerably in recent years — and Pilates has been among the primary beneficiaries. The city's international population, strong cycling culture, and general openness to quality movement practices have produced a studio scene that punches well above its geographic size. This guide covers the five studios we rate most highly across the city's distinct neighbourhoods.
             </p>
           </div>
         </section>
@@ -196,7 +196,7 @@ export default function AmsterdamPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Amsterdam, Netherlands</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>A growing Pilates scene in Europe&apos;s most liveable city</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>A growing Pilates scene in Europe's most liveable city</p>
                 </div>
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function AmsterdamPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Amsterdam</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Amsterdam&apos;s neighbourhoods each have a distinct character that shapes the studios within them.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Amsterdam's neighbourhoods each have a distinct character that shapes the studios within them.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

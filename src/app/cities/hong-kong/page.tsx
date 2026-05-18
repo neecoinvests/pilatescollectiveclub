@@ -41,7 +41,7 @@ const STUDIOS = [
     name: "FLEX Studio",
     neighborhood: "Wan Chai",
     priceLevel: "HK$$$$",
-    review: "FLEX Studio has been among Hong Kong&apos;s most technically serious Pilates addresses for well over a decade, and the Wan Chai flagship continues to operate at a standard that other studios in the city benchmark against. The teaching faculty is trained across classical and contemporary lineages, and the depth of the programme — from beginner mat to advanced apparatus work — gives clients room to develop over years rather than plateauing after a few months. The studio&apos;s Wan Chai location places it comfortably between the CBD and the mid-levels, accessible to a wide cross-section of the city&apos;s international professional population. Regular workshops with visiting international teachers keep both clients and instructors engaged, and the studio&apos;s teacher training programme has produced some of Hong Kong&apos;s most respected independent instructors. Practitioners who take the method seriously will find FLEX consistently worth the premium.",
+    review: "FLEX Studio has been among Hong Kong's most technically serious Pilates addresses for well over a decade, and the Wan Chai flagship continues to operate at a standard that other studios in the city benchmark against. The teaching faculty is trained across classical and contemporary lineages, and the depth of the programme — from beginner mat to advanced apparatus work — gives clients room to develop over years rather than plateauing after a few months. The studio's Wan Chai location places it comfortably between the CBD and the mid-levels, accessible to a wide cross-section of the city's international professional population. Regular workshops with visiting international teachers keep both clients and instructors engaged, and the studio's teacher training programme has produced some of Hong Kong's most respected independent instructors. Practitioners who take the method seriously will find FLEX consistently worth the premium.",
     address: "—",
     bestFor: "Technically rigorous Pilates across classical and contemporary lineages",
     signatureClass: "FLEX Signature Apparatus",
@@ -52,7 +52,7 @@ const STUDIOS = [
     name: "Iso Fit",
     neighborhood: "Central",
     priceLevel: "HK$$$$",
-    review: "Iso Fit occupies an elevated position in Central&apos;s wellness market, attracting clients for whom the distinction between rehabilitation and elite physical conditioning is the central question of their training life. The studio&apos;s approach is strongly influenced by physiotherapy principles, and several instructors hold dual qualifications that allow them to work with complex cases — post-surgical recovery, hypermobility, structural asymmetries — with the kind of confidence that purely fitness-oriented studios cannot match. The Central location is intentional: the clientele includes private equity partners, surgeons, and executives who have arrived at Pilates through injury and stayed because the results are non-negotiable. Sessions are predominantly private and semi-private, maintaining the individualised attention that the methodology&apos;s therapeutic applications demand. It is not a studio for those seeking social group classes, but for serious practitioners it is among the most intelligent options in the city.",
+    review: "Iso Fit occupies an elevated position in Central's wellness market, attracting clients for whom the distinction between rehabilitation and elite physical conditioning is the central question of their training life. The studio's approach is strongly influenced by physiotherapy principles, and several instructors hold dual qualifications that allow them to work with complex cases — post-surgical recovery, hypermobility, structural asymmetries — with the kind of confidence that purely fitness-oriented studios cannot match. The Central location is intentional: the clientele includes private equity partners, surgeons, and executives who have arrived at Pilates through injury and stayed because the results are non-negotiable. Sessions are predominantly private and semi-private, maintaining the individualised attention that the methodology's therapeutic applications demand. It is not a studio for those seeking social group classes, but for serious practitioners it is among the most intelligent options in the city.",
     address: "—",
     bestFor: "Rehabilitation-informed Pilates for complex cases and injury recovery",
     signatureClass: "Iso Precision Private",
@@ -63,18 +63,18 @@ const STUDIOS = [
     name: "Absolute Boutique Fitness HK",
     neighborhood: "Sheung Wan",
     priceLevel: "HK$$$",
-    review: "Absolute&apos;s Sheung Wan studio has grown into a genuine neighbourhood fixture in one of Hong Kong Island&apos;s most interesting creative and culinary precincts. The programming covers reformer Pilates, yoga, and cycle in a single-site format that suits the diverse wellness needs of Sheung Wan&apos;s mixed professional and creative population. Pilates classes are taught by instructors who combine technical accuracy with the motivating energy necessary to sustain the higher class frequencies that the studio&apos;s membership model encourages. The social texture of the studio is notably strong — the booking waitlists for popular instructors are sustained by real loyalty rather than marketing — and the post-class coffee culture in the surrounding neighbourhood reinforces the sense that training here is part of a broader lifestyle rather than an isolated transaction. Accessible pricing relative to Central makes it an intelligent choice for regular practitioners.",
+    review: "Absolute's Sheung Wan studio has grown into a genuine neighbourhood fixture in one of Hong Kong Island's most interesting creative and culinary precincts. The programming covers reformer Pilates, yoga, and cycle in a single-site format that suits the diverse wellness needs of Sheung Wan's mixed professional and creative population. Pilates classes are taught by instructors who combine technical accuracy with the motivating energy necessary to sustain the higher class frequencies that the studio's membership model encourages. The social texture of the studio is notably strong — the booking waitlists for popular instructors are sustained by real loyalty rather than marketing — and the post-class coffee culture in the surrounding neighbourhood reinforces the sense that training here is part of a broader lifestyle rather than an isolated transaction. Accessible pricing relative to Central makes it an intelligent choice for regular practitioners.",
     address: "—",
     bestFor: "Multi-discipline boutique fitness with a strong neighbourhood community",
     signatureClass: "Absolute Reformer",
-    bookingTip: "Book popular instructors&apos; classes at least 48 hours ahead; walk-ins rarely available",
+    bookingTip: "Book popular instructors' classes at least 48 hours ahead; walk-ins rarely available",
   },
   {
     number: "04",
     name: "H-Kore",
     neighborhood: "Wong Chuk Hang",
     priceLevel: "HK$$$",
-    review: "H-Kore has become one of the most talked-about studios in Hong Kong&apos;s rapidly developing Wong Chuk Hang arts and wellness district, offering a Pilates programme that sits within a broader strength and conditioning framework unusual for the format. The studio&apos;s methodology emphasises functional movement patterns — the Pilates work connects explicitly to everyday load-bearing and postural demands, rather than treating the method as an isolated discipline. Instructors come from varied backgrounds including dance, sports science, and physiotherapy, and the teaching reflects that breadth. The Wong Chuk Hang location, once considered inconvenient, has become an asset as the neighbourhood has filled with quality restaurants, galleries, and wellness studios that collectively constitute a destination worth travelling across the harbour for. Athletic clients and practitioners tired of purely aesthetic-focused Pilates programming will find H-Kore&apos;s approach genuinely refreshing.",
+    review: "H-Kore has become one of the most talked-about studios in Hong Kong's rapidly developing Wong Chuk Hang arts and wellness district, offering a Pilates programme that sits within a broader strength and conditioning framework unusual for the format. The studio's methodology emphasises functional movement patterns — the Pilates work connects explicitly to everyday load-bearing and postural demands, rather than treating the method as an isolated discipline. Instructors come from varied backgrounds including dance, sports science, and physiotherapy, and the teaching reflects that breadth. The Wong Chuk Hang location, once considered inconvenient, has become an asset as the neighbourhood has filled with quality restaurants, galleries, and wellness studios that collectively constitute a destination worth travelling across the harbour for. Athletic clients and practitioners tired of purely aesthetic-focused Pilates programming will find H-Kore's approach genuinely refreshing.",
     address: "—",
     bestFor: "Functional strength-integrated Pilates for athletic and active clients",
     signatureClass: "H-Kore Functional Reformer",
@@ -85,7 +85,7 @@ const STUDIOS = [
     name: "Defin8 Fitness",
     neighborhood: "Sai Ying Pun",
     priceLevel: "HK$$$",
-    review: "Defin8 Fitness has established a loyal following in Sai Ying Pun, a neighbourhood whose rapid gentrification has attracted exactly the young, fitness-literate professional population that the studio&apos;s dynamic reformer format suits. Classes run at a pace that challenges without punishing — the programming is informed by sports conditioning principles but the Pilates integrity is maintained through careful attention to alignment and spring load selection. The studio is small enough that instructors learn clients&apos; bodies over time, allowing programming to evolve alongside the client rather than remaining static. Sai Ying Pun&apos;s excellent cafe and restaurant culture means sessions here slot naturally into a morning or afternoon that unfolds enjoyably across the neighbourhood. For mid-range Pilates on Hong Kong Island&apos;s western corridor, Defin8 has few obvious competitors.",
+    review: "Defin8 Fitness has established a loyal following in Sai Ying Pun, a neighbourhood whose rapid gentrification has attracted exactly the young, fitness-literate professional population that the studio's dynamic reformer format suits. Classes run at a pace that challenges without punishing — the programming is informed by sports conditioning principles but the Pilates integrity is maintained through careful attention to alignment and spring load selection. The studio is small enough that instructors learn clients' bodies over time, allowing programming to evolve alongside the client rather than remaining static. Sai Ying Pun's excellent cafe and restaurant culture means sessions here slot naturally into a morning or afternoon that unfolds enjoyably across the neighbourhood. For mid-range Pilates on Hong Kong Island's western corridor, Defin8 has few obvious competitors.",
     address: "—",
     bestFor: "Dynamic reformer Pilates for young professionals in a rising neighbourhood",
     signatureClass: "Defin8 Power Reformer",
@@ -96,7 +96,7 @@ const STUDIOS = [
     name: "HANN Pilates",
     neighborhood: "Causeway Bay",
     priceLevel: "HK$$$",
-    review: "HANN Pilates occupies a clean, purpose-designed studio in Causeway Bay, bringing a refreshingly focused programme to a shopping district better known for retail intensity than wellness contemplation. The studio teaches classical Pilates methodology with a commitment to sequencing and progression that is rarer in Hong Kong than the city&apos;s saturated fitness market might suggest. Clients are guided through the repertoire systematically — beginners are not dropped into advanced reformer sequences, and the pathway from foundation work to more complex programming is clearly structured. The Causeway Bay location makes it genuinely convenient for clients based in Happy Valley, Tin Hau, or across the harbour who need a central studio to anchor their training schedule. Those who have found other studios in the area aesthetically bland or technically superficial will find HANN a considered, reliable alternative.",
+    review: "HANN Pilates occupies a clean, purpose-designed studio in Causeway Bay, bringing a refreshingly focused programme to a shopping district better known for retail intensity than wellness contemplation. The studio teaches classical Pilates methodology with a commitment to sequencing and progression that is rarer in Hong Kong than the city's saturated fitness market might suggest. Clients are guided through the repertoire systematically — beginners are not dropped into advanced reformer sequences, and the pathway from foundation work to more complex programming is clearly structured. The Causeway Bay location makes it genuinely convenient for clients based in Happy Valley, Tin Hau, or across the harbour who need a central studio to anchor their training schedule. Those who have found other studios in the area aesthetically bland or technically superficial will find HANN a considered, reliable alternative.",
     address: "—",
     bestFor: "Classical Pilates methodology with structured progression pathways",
     signatureClass: "HANN Classical Reformer",
@@ -185,7 +185,7 @@ export default function HongKongPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Hong Kong&apos;s Pilates scene is one of Asia&apos;s most sophisticated — shaped by a large expatriate community, a high-performance culture, and the city&apos;s characteristic appetite for premium wellness experiences. Studios here compete fiercely on instructor quality and equipment, and the best venues stand comfortably alongside their counterparts in London or New York. This guide covers the five we rate most highly across the Island&apos;s distinct districts.
+              Hong Kong's Pilates scene is one of Asia's most sophisticated — shaped by a large expatriate community, a high-performance culture, and the city's characteristic appetite for premium wellness experiences. Studios here compete fiercely on instructor quality and equipment, and the best venues stand comfortably alongside their counterparts in London or New York. This guide covers the five we rate most highly across the Island's distinct districts.
             </p>
           </div>
         </section>
@@ -197,7 +197,7 @@ export default function HongKongPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Hong Kong, Hong Kong SAR</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Asia&apos;s most dynamic city, and one of its finest Pilates destinations</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Asia's most dynamic city, and one of its finest Pilates destinations</p>
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@ export default function HongKongPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Hong Kong</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Hong Kong&apos;s Pilates landscape is shaped by its neighbourhoods.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Hong Kong's Pilates landscape is shaped by its neighbourhoods.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

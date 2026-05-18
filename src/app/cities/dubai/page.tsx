@@ -50,7 +50,7 @@ const STUDIOS = [
     name: "Reform Athletica",
     neighborhood: "DIFC",
     priceLevel: "AED ···",
-    review: "Reform Athletica has positioned itself as the defining premium Pilates address in Dubai&apos;s financial quarter, drawing a clientele of international executives, athletes, and wellness professionals who treat training here as a non-negotiable investment in performance. The studio occupies a beautifully designed space within DIFC&apos;s constellation of high-end wellness addresses, and the environment communicates quality before a class has begun. Instruction is delivered by a carefully curated faculty with international training backgrounds, and the programming extends from classical reformer work through to specialised athletic conditioning formats. The client base tends to be knowledgeable and demanding, which pushes the teaching standard consistently upward. For practitioners who want the most polished, results-oriented Pilates experience available in the city, Reform Athletica is the straightforward first answer.",
+    review: "Reform Athletica has positioned itself as the defining premium Pilates address in Dubai's financial quarter, drawing a clientele of international executives, athletes, and wellness professionals who treat training here as a non-negotiable investment in performance. The studio occupies a beautifully designed space within DIFC's constellation of high-end wellness addresses, and the environment communicates quality before a class has begun. Instruction is delivered by a carefully curated faculty with international training backgrounds, and the programming extends from classical reformer work through to specialised athletic conditioning formats. The client base tends to be knowledgeable and demanding, which pushes the teaching standard consistently upward. For practitioners who want the most polished, results-oriented Pilates experience available in the city, Reform Athletica is the straightforward first answer.",
     address: "—",
     bestFor: "Premium performance-oriented Pilates for executives and athletes",
     signatureClass: "Reform Athletica Signature",
@@ -61,7 +61,7 @@ const STUDIOS = [
     name: "11 Pilates",
     neighborhood: "Jumeirah",
     priceLevel: "AED ··",
-    review: "11 Pilates has built one of Dubai&apos;s most coherent Pilates communities in the Jumeirah residential corridor, where a large population of wellness-committed residents has sustained a studio that prioritises teaching depth over format novelty. The studio&apos;s name references the aspiration to teach as if there were eleven of you in every session — individual attention even within group class formats. In practice, small class caps and instructors who circulate actively through reformer lines make this more than a marketing promise. The Jumeirah clientele skews toward experienced practitioners — many members have trained here for years and treat 11 Pilates as the anchor of a considered movement practice rather than a fitness fad. Newcomers are welcomed but quickly oriented toward the technical standards the studio&apos;s regulars maintain.",
+    review: "11 Pilates has built one of Dubai's most coherent Pilates communities in the Jumeirah residential corridor, where a large population of wellness-committed residents has sustained a studio that prioritises teaching depth over format novelty. The studio's name references the aspiration to teach as if there were eleven of you in every session — individual attention even within group class formats. In practice, small class caps and instructors who circulate actively through reformer lines make this more than a marketing promise. The Jumeirah clientele skews toward experienced practitioners — many members have trained here for years and treat 11 Pilates as the anchor of a considered movement practice rather than a fitness fad. Newcomers are welcomed but quickly oriented toward the technical standards the studio's regulars maintain.",
     address: "—",
     bestFor: "Community-driven classical Pilates for experienced practitioners",
     signatureClass: "11 Reformer Foundation",
@@ -72,7 +72,7 @@ const STUDIOS = [
     name: "Studio14",
     neighborhood: "JLT",
     priceLevel: "AED ··",
-    review: "Studio14 serves the Jumeirah Lakes Towers residential community with a Pilates programme that has grown significantly in reputation since the studio&apos;s opening, driven by instructor quality that exceeds what the address might initially suggest. The multi-tower JLT district is densely residential and the studio benefits from a built-in catchment of internationally mobile professionals and families who compare it directly against studios in DIFC and Downtown. Teaching here is strong on anatomical detail — instructors explain the intention behind exercises rather than simply cueing shape — which produces clients who understand their practice and progress more intelligently over time. The pricing positions Studio14 as a value proposition against its luxury-district competitors, but the quality gap is narrower than the price difference implies. For JLT residents, it is an exceptional local option; for practitioners willing to commute, it is worth the journey.",
+    review: "Studio14 serves the Jumeirah Lakes Towers residential community with a Pilates programme that has grown significantly in reputation since the studio's opening, driven by instructor quality that exceeds what the address might initially suggest. The multi-tower JLT district is densely residential and the studio benefits from a built-in catchment of internationally mobile professionals and families who compare it directly against studios in DIFC and Downtown. Teaching here is strong on anatomical detail — instructors explain the intention behind exercises rather than simply cueing shape — which produces clients who understand their practice and progress more intelligently over time. The pricing positions Studio14 as a value proposition against its luxury-district competitors, but the quality gap is narrower than the price difference implies. For JLT residents, it is an exceptional local option; for practitioners willing to commute, it is worth the journey.",
     address: "—",
     bestFor: "Technical reformer Pilates with strong instructional depth in a residential hub",
     signatureClass: "Studio14 Reformer Flow",
@@ -83,7 +83,7 @@ const STUDIOS = [
     name: "Tula Studios",
     neighborhood: "Umm Suqeim",
     priceLevel: "AED ··",
-    review: "Tula Studios has cultivated a distinctive identity in the Umm Suqeim neighbourhood that runs against the grain of Dubai&apos;s tendency toward high-gloss, brand-forward wellness culture. The studio feels considered and human in scale — a place where the atmosphere is genuinely calm rather than performatively serene. The Pilates programme draws on both classical and contemporary influences, with instructors who are comfortable working across the full spectrum from complete beginners to practitioners with years of practice. Umm Suqeim&apos;s proximity to Jumeirah Beach and the broader Madinat district places Tula within a pocket of the city that has always prioritised residential quality over commercial intensity, and the studio reflects that. It is the kind of place where clients arrive slightly early because the atmosphere is worth experiencing before the session begins.",
+    review: "Tula Studios has cultivated a distinctive identity in the Umm Suqeim neighbourhood that runs against the grain of Dubai's tendency toward high-gloss, brand-forward wellness culture. The studio feels considered and human in scale — a place where the atmosphere is genuinely calm rather than performatively serene. The Pilates programme draws on both classical and contemporary influences, with instructors who are comfortable working across the full spectrum from complete beginners to practitioners with years of practice. Umm Suqeim's proximity to Jumeirah Beach and the broader Madinat district places Tula within a pocket of the city that has always prioritised residential quality over commercial intensity, and the studio reflects that. It is the kind of place where clients arrive slightly early because the atmosphere is worth experiencing before the session begins.",
     address: "—",
     bestFor: "Mindful Pilates practice with a calm, community-rooted atmosphere",
     signatureClass: "Tula Signature Reformer",
@@ -94,7 +94,7 @@ const STUDIOS = [
     name: "CIMA Pilates",
     neighborhood: "Business Bay",
     priceLevel: "AED ··",
-    review: "CIMA Pilates has carved out a strong position in Business Bay&apos;s competitive wellness market by combining technically rigorous instruction with a programming schedule that genuinely accommodates the erratic hours of a district defined by finance and project delivery deadlines. Early morning sessions before seven and evening classes after eight fill reliably with professionals who cannot commit to fixed training windows. The studio&apos;s reformer programme is well-structured for progressive development, and the instructor team maintains consistency in cueing standards across different teachers — a harder achievement than it appears in a city with high instructor turnover. CIMA attracts a clientele that is serious about results and appreciates a studio that delivers without unnecessary theatrical energy. The Business Bay canal views from the studio add an aesthetic dimension that genuinely enhances the experience.",
+    review: "CIMA Pilates has carved out a strong position in Business Bay's competitive wellness market by combining technically rigorous instruction with a programming schedule that genuinely accommodates the erratic hours of a district defined by finance and project delivery deadlines. Early morning sessions before seven and evening classes after eight fill reliably with professionals who cannot commit to fixed training windows. The studio's reformer programme is well-structured for progressive development, and the instructor team maintains consistency in cueing standards across different teachers — a harder achievement than it appears in a city with high instructor turnover. CIMA attracts a clientele that is serious about results and appreciates a studio that delivers without unnecessary theatrical energy. The Business Bay canal views from the studio add an aesthetic dimension that genuinely enhances the experience.",
     address: "—",
     bestFor: "Results-driven reformer Pilates for Business Bay professionals",
     signatureClass: "CIMA Power Reformer",
@@ -105,9 +105,9 @@ const STUDIOS = [
     name: "REVIVE Pilates Studio",
     neighborhood: "Al Quoz",
     priceLevel: "AED ·",
-    review: "REVIVE occupies Al Quoz&apos;s creative and industrial landscape with the pragmatic honesty of a studio that has never been interested in charging for design aesthetic when the money is better spent on instruction quality. The neighbourhood — home to galleries, independent restaurants, and workshops — has attracted a Pilates clientele that tends to be curious, fitness-literate, and sceptical of premium-brand wellness theatre. The teaching reflects this: straightforward, technically grounded, and genuinely focused on client progress rather than retaining attention through format novelty. Pricing is the most accessible among the studios featured in this guide, making REVIVE the natural entry point for practitioners new to Dubai or testing reformer Pilates before committing to a higher-price-point membership elsewhere. Long-term clients often stay precisely because the no-frills directness of the teaching suits them better than any boutique alternative.",
+    review: "REVIVE occupies Al Quoz's creative and industrial landscape with the pragmatic honesty of a studio that has never been interested in charging for design aesthetic when the money is better spent on instruction quality. The neighbourhood — home to galleries, independent restaurants, and workshops — has attracted a Pilates clientele that tends to be curious, fitness-literate, and sceptical of premium-brand wellness theatre. The teaching reflects this: straightforward, technically grounded, and genuinely focused on client progress rather than retaining attention through format novelty. Pricing is the most accessible among the studios featured in this guide, making REVIVE the natural entry point for practitioners new to Dubai or testing reformer Pilates before committing to a higher-price-point membership elsewhere. Long-term clients often stay precisely because the no-frills directness of the teaching suits them better than any boutique alternative.",
     address: "—",
-    bestFor: "Accessible, technically honest Pilates in Dubai&apos;s creative district",
+    bestFor: "Accessible, technically honest Pilates in Dubai's creative district",
     signatureClass: "REVIVE Reformer Fundamentals",
     bookingTip: "Best value per session in Dubai; introductory packages offer excellent entry pricing",
   }
@@ -116,7 +116,7 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Book at least 48–72 hours ahead for peak slots",
-    body: "Dubai&apos;s top Pilates studios fill quickly, particularly morning slots before 9am and evening slots from 6pm. Weekend classes at premium studios in DIFC and City Walk can book out within minutes of opening.",
+    body: "Dubai's top Pilates studios fill quickly, particularly morning slots before 9am and evening slots from 6pm. Weekend classes at premium studios in DIFC and City Walk can book out within minutes of opening.",
   },
   {
     heading: "Tipping is not customary but always appreciated",
@@ -136,7 +136,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Summer scheduling shifts significantly",
-    body: "Many Dubai residents travel in July and August, and some studios reduce scheduling or run summer-only promotions. If you&apos;re visiting in summer, confirm class availability in advance.",
+    body: "Many Dubai residents travel in July and August, and some studios reduce scheduling or run summer-only promotions. If you're visiting in summer, confirm class availability in advance.",
   },
 ];
 
@@ -144,12 +144,12 @@ const NEIGHBORHOODS = [
   {
     name: "DIFC & Downtown Dubai",
     description:
-      "The financial heart of Dubai is also its premium wellness hub. Studios in DIFC target the city&apos;s international professional class — well-equipped, highly priced, and consistently excellent. Expect polished interiors, top-tier equipment, and a client base that knows exactly what it wants.",
+      "The financial heart of Dubai is also its premium wellness hub. Studios in DIFC target the city's international professional class — well-equipped, highly priced, and consistently excellent. Expect polished interiors, top-tier equipment, and a client base that knows exactly what it wants.",
   },
   {
     name: "Jumeirah & Al Safa",
     description:
-      "Jumeirah&apos;s villa-lined streets house some of Dubai&apos;s most established and community-rooted studios. The clientele skews towards long-term residents and wellness-oriented families. Studios here tend to be calmer, more holistic, and more integrative in their approach.",
+      "Jumeirah's villa-lined streets house some of Dubai's most established and community-rooted studios. The clientele skews towards long-term residents and wellness-oriented families. Studios here tend to be calmer, more holistic, and more integrative in their approach.",
   },
   {
     name: "Dubai Marina & JBR",
@@ -159,7 +159,7 @@ const NEIGHBORHOODS = [
   {
     name: "City Walk & Business Bay",
     description:
-      "Dubai&apos;s newer mixed-use districts host the city&apos;s most design-forward boutique studios. If you want premium reformer in a setting that looks as good as it performs, City Walk and Business Bay are where to look.",
+      "Dubai's newer mixed-use districts host the city's most design-forward boutique studios. If you want premium reformer in a setting that looks as good as it performs, City Walk and Business Bay are where to look.",
   },
 ];
 
@@ -252,7 +252,7 @@ export default function DubaiPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Dubai has transformed into one of the Middle East&apos;s most ambitious wellness destinations, and its Pilates scene reflects that ambition fully. A city of high expectations and high standards, Dubai has attracted instructors and studio concepts from London, New York, and Sydney — producing a reformer market that is simultaneously premium, diverse, and competitive. From the financial towers of DIFC to the waterfront studios of Bluewaters Island, the city now offers world-class Pilates across neighbourhoods. This guide covers the five studios we rate most highly, with everything you need to know before booking.
+              Dubai has transformed into one of the Middle East's most ambitious wellness destinations, and its Pilates scene reflects that ambition fully. A city of high expectations and high standards, Dubai has attracted instructors and studio concepts from London, New York, and Sydney — producing a reformer market that is simultaneously premium, diverse, and competitive. From the financial towers of DIFC to the waterfront studios of Bluewaters Island, the city now offers world-class Pilates across neighbourhoods. This guide covers the five studios we rate most highly, with everything you need to know before booking.
             </p>
           </div>
         </section>
@@ -270,7 +270,7 @@ export default function DubaiPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Dubai, United Arab Emirates</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>The Middle East&apos;s most ambitious wellness destination</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>The Middle East's most ambitious wellness destination</p>
                 </div>
               </div>
             </div>
@@ -315,7 +315,7 @@ export default function DubaiPage() {
               Best neighbourhoods for Pilates in Dubai
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Dubai&apos;s Pilates landscape is shaped by its neighbourhoods. Here&apos;s where to look depending on where you&apos;re based.
+              Dubai's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

@@ -42,7 +42,7 @@ const STUDIOS = [
     name: "PILAT3S Marterey",
     neighborhood: "Centre-ville",
     priceLevel: "CHF ··",
-    review: "PILAT3S Marterey is Lausanne&apos;s most recognisable reformer address, operating from the city centre with the confident assurance of a brand that has refined its formula across multiple Swiss locations and understands precisely what its clients expect. The studio&apos;s central position makes it accessible from both the old town and the lake-facing districts, drawing a broad professional clientele that values consistency of delivery as much as technical depth. Classes follow the PILAT3S method — structured, progressive, and demanding enough to be credible as a primary training discipline — with instructors who apply the framework intelligently rather than mechanically. Equipment is premium and immaculately maintained throughout, and the booking system is efficient and bilingual. For practitioners new to Lausanne and wanting a reliable, high-quality reformer experience without the research burden of navigating an unfamiliar city, PILAT3S Marterey is the logical first call.",
+    review: "PILAT3S Marterey is Lausanne's most recognisable reformer address, operating from the city centre with the confident assurance of a brand that has refined its formula across multiple Swiss locations and understands precisely what its clients expect. The studio's central position makes it accessible from both the old town and the lake-facing districts, drawing a broad professional clientele that values consistency of delivery as much as technical depth. Classes follow the PILAT3S method — structured, progressive, and demanding enough to be credible as a primary training discipline — with instructors who apply the framework intelligently rather than mechanically. Equipment is premium and immaculately maintained throughout, and the booking system is efficient and bilingual. For practitioners new to Lausanne and wanting a reliable, high-quality reformer experience without the research burden of navigating an unfamiliar city, PILAT3S Marterey is the logical first call.",
     address: "—",
     bestFor: "Practitioners new to Lausanne and those wanting consistent, method-driven reformer work",
     signatureClass: "PILAT3S Signature Reformer",
@@ -53,7 +53,7 @@ const STUDIOS = [
     name: "JOIA Studio Lausanne",
     neighborhood: "Ouchy",
     priceLevel: "CHF ··",
-    review: "JOIA Studio sits in Ouchy — Lausanne&apos;s lakefront district, where the Léman opens wide and the pace drops perceptibly from the city above — and the studio inhabits its setting with an intelligence that elevates it above a simple wellness offering. The interior is calm and generously proportioned, with views that on clear days extend to the French Alps across the water, which creates a training environment of uncommon quality. Instruction is thoughtful and personalised, with a teaching team that takes the time to understand each client&apos;s body history before advancing the work. JOIA appeals particularly to practitioners in their thirties and forties who have some movement background and are looking for a studio that offers both physical challenge and genuine restoration. The post-session quality — that particular calm that follows genuinely well-instructed Pilates — is reliably present here.",
+    review: "JOIA Studio sits in Ouchy — Lausanne's lakefront district, where the Léman opens wide and the pace drops perceptibly from the city above — and the studio inhabits its setting with an intelligence that elevates it above a simple wellness offering. The interior is calm and generously proportioned, with views that on clear days extend to the French Alps across the water, which creates a training environment of uncommon quality. Instruction is thoughtful and personalised, with a teaching team that takes the time to understand each client's body history before advancing the work. JOIA appeals particularly to practitioners in their thirties and forties who have some movement background and are looking for a studio that offers both physical challenge and genuine restoration. The post-session quality — that particular calm that follows genuinely well-instructed Pilates — is reliably present here.",
     address: "—",
     bestFor: "Experienced practitioners seeking a restorative and technically demanding lakefront studio",
     signatureClass: "JOIA Lakefront Reformer",
@@ -64,9 +64,9 @@ const STUDIOS = [
     name: "Vivid Pilates",
     neighborhood: "Flon",
     priceLevel: "CHF ·",
-    review: "Vivid Pilates has positioned itself intelligently in Flon — the former industrial district that now functions as Lausanne&apos;s cultural and nightlife hub — where it serves a young, energetic clientele that takes its physical training seriously but does not want its wellness to feel precious or inaccessible. The studio&apos;s design reflects the neighbourhood: industrial materials softened with warmth, an atmosphere that feels lived-in rather than aspirationally staged. Instruction emphasises movement quality and body awareness, with classes that build genuine challenge over time rather than recycling the same beginner-appropriate sequences indefinitely. Pricing is the most accessible in central Lausanne for the level of instruction offered, which has built a strong base of regulars — students, young professionals, and creative workers — who treat Vivid as a cornerstone of their weekly routine. A consistently excellent all-rounder.",
+    review: "Vivid Pilates has positioned itself intelligently in Flon — the former industrial district that now functions as Lausanne's cultural and nightlife hub — where it serves a young, energetic clientele that takes its physical training seriously but does not want its wellness to feel precious or inaccessible. The studio's design reflects the neighbourhood: industrial materials softened with warmth, an atmosphere that feels lived-in rather than aspirationally staged. Instruction emphasises movement quality and body awareness, with classes that build genuine challenge over time rather than recycling the same beginner-appropriate sequences indefinitely. Pricing is the most accessible in central Lausanne for the level of instruction offered, which has built a strong base of regulars — students, young professionals, and creative workers — who treat Vivid as a cornerstone of their weekly routine. A consistently excellent all-rounder.",
     address: "—",
-    bestFor: "Young professionals and beginners to intermediate practitioners in Lausanne&apos;s creative community",
+    bestFor: "Young professionals and beginners to intermediate practitioners in Lausanne's creative community",
     signatureClass: "Vivid Flow Reformer",
     bookingTip: "Monthly memberships represent outstanding value; introductory pack is the best entry point",
   },
@@ -75,22 +75,22 @@ const STUDIOS = [
     name: "Studio Rituels",
     neighborhood: "Montriond",
     priceLevel: "CHF ··",
-    review: "Studio Rituels occupies a quiet corner of Montriond — one of Lausanne&apos;s most pleasantly residential neighbourhoods, where the city&apos;s characteristic hills provide a backdrop of green even in the studio&apos;s immediate surroundings — and operates with the intentional, ritual-driven philosophy its name suggests. Sessions here are not rushed. Classes are small, instruction is detailed, and the studio&apos;s founders have been deliberate about building a space where Pilates is practised as a considered discipline rather than consumed as a fitness product. The teaching team has international training backgrounds and a shared commitment to classical methodology adapted thoughtfully for contemporary bodies. Studio Rituels suits practitioners who have moved beyond curiosity about Pilates and are ready to build a genuine long-term practice, ideally with consistent instructors who will come to know their bodies over time.",
+    review: "Studio Rituels occupies a quiet corner of Montriond — one of Lausanne's most pleasantly residential neighbourhoods, where the city's characteristic hills provide a backdrop of green even in the studio's immediate surroundings — and operates with the intentional, ritual-driven philosophy its name suggests. Sessions here are not rushed. Classes are small, instruction is detailed, and the studio's founders have been deliberate about building a space where Pilates is practised as a considered discipline rather than consumed as a fitness product. The teaching team has international training backgrounds and a shared commitment to classical methodology adapted thoughtfully for contemporary bodies. Studio Rituels suits practitioners who have moved beyond curiosity about Pilates and are ready to build a genuine long-term practice, ideally with consistent instructors who will come to know their bodies over time.",
     address: "—",
     bestFor: "Dedicated practitioners seeking long-term studio relationships and classical rigour",
     signatureClass: "Rituels Reformer & Apparatus",
-    bookingTip: "Enrol in a class series rather than booking ad hoc — the studio&apos;s depth rewards consistency",
+    bookingTip: "Enrol in a class series rather than booking ad hoc — the studio's depth rewards consistency",
   },
   {
     number: "05",
     name: "Sculpt Pilates Studio",
     neighborhood: "Chailly",
     priceLevel: "CHF ·",
-    review: "Sculpt Pilates Studio operates from Chailly — a calm, upper-residential neighbourhood above the city centre with a community-oriented character — where it has built a reputation as Lausanne&apos;s most approachable quality studio for practitioners who find the city-centre options either too expensive or too pressured. The programming balances reformer work with mat-based classes and occasional barre fusion formats, giving clients variety without losing the technical core that distinguishes proper Pilates instruction from general fitness classes. Instructors are personable and genuinely invested in client progress, with a teaching approach that meets people where they are rather than assuming a baseline that many newcomers do not have. Sculpt suits families, retirees, and neighbourhood regulars as much as it suits younger fitness-oriented clients — and the scheduling reflects that breadth.",
+    review: "Sculpt Pilates Studio operates from Chailly — a calm, upper-residential neighbourhood above the city centre with a community-oriented character — where it has built a reputation as Lausanne's most approachable quality studio for practitioners who find the city-centre options either too expensive or too pressured. The programming balances reformer work with mat-based classes and occasional barre fusion formats, giving clients variety without losing the technical core that distinguishes proper Pilates instruction from general fitness classes. Instructors are personable and genuinely invested in client progress, with a teaching approach that meets people where they are rather than assuming a baseline that many newcomers do not have. Sculpt suits families, retirees, and neighbourhood regulars as much as it suits younger fitness-oriented clients — and the scheduling reflects that breadth.",
     address: "—",
     bestFor: "All levels, particularly families and neighbourhood regulars seeking quality without pressure",
     signatureClass: "Sculpt Reformer & Mat",
-    bookingTip: "Morning classes suit the neighbourhood&apos;s family schedule; evening sessions are popular with commuters",
+    bookingTip: "Morning classes suit the neighbourhood's family schedule; evening sessions are popular with commuters",
   }
 ];
 
@@ -277,7 +277,7 @@ export default function LausannePage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Lausanne</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Lausanne&apos;s hills shape its neighbourhoods as much as its culture. Here&apos;s where to look.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Lausanne's hills shape its neighbourhoods as much as its culture. Here's where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

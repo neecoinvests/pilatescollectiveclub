@@ -50,7 +50,7 @@ const STUDIOS = [
     name: "ABSOLUTE Boutique Fitness",
     neighborhood: "Raffles Place",
     priceLevel: "S$$$",
-    review: "ABSOLUTE has anchored itself in the Raffles Place financial district with the confidence of a studio that understands its clientele: time-pressed executives who need structured, efficient movement programming delivered without fuss. The reformer classes run to a tight format that maximises the fifty-minute session window, with instructors who know how to scale intensity for clients arriving straight from a board meeting or a cross-border flight. The studio&apos;s central location and reliable programming have made it a fixture for Singapore&apos;s international banking and legal community, many of whom have held memberships for years. Equipment is well-maintained, the air conditioning is appropriately aggressive for the city&apos;s climate, and the front-of-house team operates with the efficiency the postcode demands. For practitioners who value consistency and convenience above boutique atmosphere, ABSOLUTE delivers both.",
+    review: "ABSOLUTE has anchored itself in the Raffles Place financial district with the confidence of a studio that understands its clientele: time-pressed executives who need structured, efficient movement programming delivered without fuss. The reformer classes run to a tight format that maximises the fifty-minute session window, with instructors who know how to scale intensity for clients arriving straight from a board meeting or a cross-border flight. The studio's central location and reliable programming have made it a fixture for Singapore's international banking and legal community, many of whom have held memberships for years. Equipment is well-maintained, the air conditioning is appropriately aggressive for the city's climate, and the front-of-house team operates with the efficiency the postcode demands. For practitioners who value consistency and convenience above boutique atmosphere, ABSOLUTE delivers both.",
     address: "—",
     bestFor: "Time-efficient reformer Pilates for CBD professionals",
     signatureClass: "ABSOLUTE Reformer",
@@ -61,7 +61,7 @@ const STUDIOS = [
     name: "PURE Yoga & Pilates",
     neighborhood: "Orchard Road",
     priceLevel: "S$$$$",
-    review: "PURE&apos;s Singapore flagship occupies a generous floor plate on Orchard Road, positioning itself as the premium all-practice destination for a clientele that takes both yoga and Pilates seriously as complementary disciplines. The Pilates programme is taught by instructors with international training backgrounds, and the studio&apos;s investment in Balanced Body and Peak Pilates equipment reflects a commitment that goes beyond aesthetic. The atmosphere is polished without being cold — there is genuine community here, built over years among a membership base that includes diplomats, regional executives, and wellness professionals. Group classes maintain small ratios by Singapore standards, and the workshop calendar brings in international master teachers with enough regularity to keep long-term practitioners engaged. It is the obvious choice for those who want a single, high-quality studio address that can serve all their movement needs.",
+    review: "PURE's Singapore flagship occupies a generous floor plate on Orchard Road, positioning itself as the premium all-practice destination for a clientele that takes both yoga and Pilates seriously as complementary disciplines. The Pilates programme is taught by instructors with international training backgrounds, and the studio's investment in Balanced Body and Peak Pilates equipment reflects a commitment that goes beyond aesthetic. The atmosphere is polished without being cold — there is genuine community here, built over years among a membership base that includes diplomats, regional executives, and wellness professionals. Group classes maintain small ratios by Singapore standards, and the workshop calendar brings in international master teachers with enough regularity to keep long-term practitioners engaged. It is the obvious choice for those who want a single, high-quality studio address that can serve all their movement needs.",
     address: "—",
     bestFor: "Premium studio integrating Pilates and yoga under one roof",
     signatureClass: "PURE Reformer Flow",
@@ -72,7 +72,7 @@ const STUDIOS = [
     name: "Lab Studios Duxton",
     neighborhood: "Tanjong Pagar",
     priceLevel: "S$$$",
-    review: "Lab Studios has established itself in the Duxton Hill conservation shophouse belt with an aesthetic and teaching philosophy that feels genuinely considered rather than trend-chasing. The studio combines reformer Pilates with barre and sculpt formats, creating a programming menu that retains clients across different energy states and goals throughout the week. Instructors are carefully selected and the cueing is notably specific — this is not a studio where generic motivational language substitutes for technical correction. Tanjong Pagar&apos;s creative and professional demographic has adopted Lab as a neighbourhood institution, and the post-class social energy on Duxton Hill&apos;s restaurant strip gives the experience a social dimension that purely functional studios lack. The boutique scale means the front desk knows regulars by name, which counts for something in a city with no shortage of impersonal wellness chains.",
+    review: "Lab Studios has established itself in the Duxton Hill conservation shophouse belt with an aesthetic and teaching philosophy that feels genuinely considered rather than trend-chasing. The studio combines reformer Pilates with barre and sculpt formats, creating a programming menu that retains clients across different energy states and goals throughout the week. Instructors are carefully selected and the cueing is notably specific — this is not a studio where generic motivational language substitutes for technical correction. Tanjong Pagar's creative and professional demographic has adopted Lab as a neighbourhood institution, and the post-class social energy on Duxton Hill's restaurant strip gives the experience a social dimension that purely functional studios lack. The boutique scale means the front desk knows regulars by name, which counts for something in a city with no shortage of impersonal wellness chains.",
     address: "—",
     bestFor: "Reformer, barre, and sculpt in a creative neighbourhood setting",
     signatureClass: "Lab Reformer Sculpt",
@@ -83,7 +83,7 @@ const STUDIOS = [
     name: "Breathe Pilates",
     neighborhood: "Holland Village",
     priceLevel: "S$$$",
-    review: "Breathe Pilates occupies a particular niche in Singapore&apos;s studio landscape: a studio that prioritises the therapeutic and rehabilitative dimensions of the method alongside physical conditioning, drawing a clientele that includes postnatal clients, people managing chronic pain, and practitioners returning from injury. The Holland Village location suits this emphasis — the neighbourhood has a settled, residential quality that attracts long-term expat families and locally rooted professionals who want a studio that will adapt to their bodies over time rather than simply loading them harder each week. Instructors hold certifications across multiple Pilates lineages and the teaching is characterised by patience, anatomical literacy, and genuine interest in long-term client outcomes. Small class sizes are maintained deliberately, and the studio&apos;s reputation for intelligent, body-aware instruction has sustained a committed membership for over a decade.",
+    review: "Breathe Pilates occupies a particular niche in Singapore's studio landscape: a studio that prioritises the therapeutic and rehabilitative dimensions of the method alongside physical conditioning, drawing a clientele that includes postnatal clients, people managing chronic pain, and practitioners returning from injury. The Holland Village location suits this emphasis — the neighbourhood has a settled, residential quality that attracts long-term expat families and locally rooted professionals who want a studio that will adapt to their bodies over time rather than simply loading them harder each week. Instructors hold certifications across multiple Pilates lineages and the teaching is characterised by patience, anatomical literacy, and genuine interest in long-term client outcomes. Small class sizes are maintained deliberately, and the studio's reputation for intelligent, body-aware instruction has sustained a committed membership for over a decade.",
     address: "—",
     bestFor: "Therapeutic and rehabilitative Pilates; postnatal and injury recovery",
     signatureClass: "Breathe Therapeutic Reformer",
@@ -94,7 +94,7 @@ const STUDIOS = [
     name: "STRONG Pilates",
     neighborhood: "Buona Vista",
     priceLevel: "S$$$",
-    review: "STRONG Pilates brings the Australian brand&apos;s performance-oriented reformer format to the Buona Vista one-north district, where the research and biomedical community has proven a natural audience for data-informed, results-driven training. The methodology is built around progressive overload on the reformer — heavier springs, compound movements, and a class structure that produces the kind of fatigue associated with genuine strength training rather than light conditioning work. Instructors coach intensity with confidence and the programming is specific enough that clients track meaningful physical progress over weeks and months. The studio suits athletes and fitness-literate clients who have historically dismissed Pilates as insufficiently demanding, and it has converted a number of sceptics among its membership. For practitioners who want the joint safety of the reformer without sacrificing training stimulus, STRONG makes a compelling case.",
+    review: "STRONG Pilates brings the Australian brand's performance-oriented reformer format to the Buona Vista one-north district, where the research and biomedical community has proven a natural audience for data-informed, results-driven training. The methodology is built around progressive overload on the reformer — heavier springs, compound movements, and a class structure that produces the kind of fatigue associated with genuine strength training rather than light conditioning work. Instructors coach intensity with confidence and the programming is specific enough that clients track meaningful physical progress over weeks and months. The studio suits athletes and fitness-literate clients who have historically dismissed Pilates as insufficiently demanding, and it has converted a number of sceptics among its membership. For practitioners who want the joint safety of the reformer without sacrificing training stimulus, STRONG makes a compelling case.",
     address: "—",
     bestFor: "Performance reformer Pilates for athletic and fitness-oriented clients",
     signatureClass: "STRONG 50",
@@ -105,7 +105,7 @@ const STUDIOS = [
     name: "SG Pilates",
     neighborhood: "Tiong Bahru",
     priceLevel: "S$$",
-    review: "SG Pilates has made Tiong Bahru&apos;s beloved conservation estate its home, and the studio carries the neighbourhood&apos;s characteristic blend of community warmth and quiet independence. Pricing is deliberately accessible by Singapore standards, driven by a founding philosophy that quality Pilates instruction should not be available only to premium membership holders. The teaching draws on a classical foundation and the studio attracts a genuinely mixed clientele — retirees working on mobility, young professionals building body awareness, and experienced practitioners who appreciate the unhurried pace and instructors who take technical corrections seriously. Equipment is well-chosen and well-maintained, and the intimate studio size means sessions rarely feel anonymous. For visitors to Singapore or those priced out of the CBD studio market, SG Pilates offers one of the city&apos;s most honest and considered training experiences.",
+    review: "SG Pilates has made Tiong Bahru's beloved conservation estate its home, and the studio carries the neighbourhood's characteristic blend of community warmth and quiet independence. Pricing is deliberately accessible by Singapore standards, driven by a founding philosophy that quality Pilates instruction should not be available only to premium membership holders. The teaching draws on a classical foundation and the studio attracts a genuinely mixed clientele — retirees working on mobility, young professionals building body awareness, and experienced practitioners who appreciate the unhurried pace and instructors who take technical corrections seriously. Equipment is well-chosen and well-maintained, and the intimate studio size means sessions rarely feel anonymous. For visitors to Singapore or those priced out of the CBD studio market, SG Pilates offers one of the city's most honest and considered training experiences.",
     address: "—",
     bestFor: "Accessible classical Pilates in a beloved conservation neighbourhood",
     signatureClass: "SG Fundamentals Reformer",
@@ -116,7 +116,7 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Book 5–7 days ahead — Singapore studios fill fast",
-    body: "Singapore&apos;s premium Pilates studios run tight schedules and fill well in advance. Premium studios typically open bookings 7 days ahead; set a reminder and book immediately when slots open for popular morning and evening classes.",
+    body: "Singapore's premium Pilates studios run tight schedules and fill well in advance. Premium studios typically open bookings 7 days ahead; set a reminder and book immediately when slots open for popular morning and evening classes.",
   },
   {
     heading: "ClassPass is widely used and well-supported",
@@ -124,7 +124,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "GST applies to all studio fees",
-    body: "Singapore&apos;s 9% GST applies to all wellness and studio services. Published prices may or may not include GST — check before booking to avoid surprises at payment.",
+    body: "Singapore's 9% GST applies to all wellness and studio services. Published prices may or may not include GST — check before booking to avoid surprises at payment.",
   },
   {
     heading: "Grip socks are mandatory everywhere",
@@ -140,17 +140,17 @@ const NEIGHBORHOODS = [
   {
     name: "CBD & Tanjong Pagar",
     description:
-      "Singapore&apos;s financial district has a high density of studios catering to the lunchtime and early-morning professional crowd. Scheduling density is high, and studios here are optimised for convenience and efficiency. Some of the city&apos;s most classical and technically rigorous studios are also found here.",
+      "Singapore's financial district has a high density of studios catering to the lunchtime and early-morning professional crowd. Scheduling density is high, and studios here are optimised for convenience and efficiency. Some of the city's most classical and technically rigorous studios are also found here.",
   },
   {
     name: "Orchard & River Valley",
     description:
-      "The Orchard corridor is home to several of Singapore&apos;s most established premium studios. Convenient, well-connected, and with a loyal residential and hotel-staying clientele, this is a reliable area to find high-quality reformer Pilates in clean, well-maintained facilities.",
+      "The Orchard corridor is home to several of Singapore's most established premium studios. Convenient, well-connected, and with a loyal residential and hotel-staying clientele, this is a reliable area to find high-quality reformer Pilates in clean, well-maintained facilities.",
   },
   {
     name: "Holland Village & Buona Vista",
     description:
-      "Holland Village is a long-time expat enclave and has one of Singapore&apos;s most consistent concentrations of independent wellness studios. The atmosphere is relaxed and community-oriented, and studios here tend to have particularly loyal, long-term client bases.",
+      "Holland Village is a long-time expat enclave and has one of Singapore's most consistent concentrations of independent wellness studios. The atmosphere is relaxed and community-oriented, and studios here tend to have particularly loyal, long-term client bases.",
   },
   {
     name: "Dempsey Hill & Tanglin",
@@ -248,7 +248,7 @@ export default function SingaporePage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Singapore has quietly become one of Asia&apos;s most sophisticated Pilates markets. A city that takes health seriously, and with a large international professional population accustomed to quality, Singapore has nurtured both classical lineage studios and forward-thinking reformer boutiques that hold their own against the best in London or New York. From the conservation shophouses of Duxton Hill to the waterfront studios of VivoCity, the standard of instruction is consistently high. This guide covers the five studios we rate most highly, with everything you need before booking your first session.
+              Singapore has quietly become one of Asia's most sophisticated Pilates markets. A city that takes health seriously, and with a large international professional population accustomed to quality, Singapore has nurtured both classical lineage studios and forward-thinking reformer boutiques that hold their own against the best in London or New York. From the conservation shophouses of Duxton Hill to the waterfront studios of VivoCity, the standard of instruction is consistently high. This guide covers the five studios we rate most highly, with everything you need before booking your first session.
             </p>
           </div>
         </section>
@@ -266,7 +266,7 @@ export default function SingaporePage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Singapore</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Asia&apos;s most sophisticated Pilates market</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Asia's most sophisticated Pilates market</p>
                 </div>
               </div>
             </div>
@@ -311,7 +311,7 @@ export default function SingaporePage() {
               Best neighbourhoods for Pilates in Singapore
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Singapore&apos;s Pilates landscape is shaped by its neighbourhoods. Here&apos;s where to look depending on where you&apos;re based.
+              Singapore's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

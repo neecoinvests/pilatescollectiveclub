@@ -72,7 +72,7 @@ const STUDIOS = [
     name: "Lincoln Park Pilates",
     neighborhood: "Lincoln Park",
     priceLevel: "$$$",
-    review: "Lincoln Park Pilates is one of Chicago&apos;s most comprehensively equipped boutique studios, housing reformer, mat, barre, and yoga classes alongside an infrared sauna in a handsomely designed Southport Corridor space. The instructor roster is carefully curated — classes are genuinely challenging with intelligent progressions, and modifications are offered without condescension. It draws a committed crowd of Lincoln Park locals who treat it as a full weekly wellness practice rather than a drop-in habit. Monthly unlimited memberships make the economics work for regulars, while flexible drop-in pricing keeps the door open for visitors.",
+    review: "Lincoln Park Pilates is one of Chicago's most comprehensively equipped boutique studios, housing reformer, mat, barre, and yoga classes alongside an infrared sauna in a handsomely designed Southport Corridor space. The instructor roster is carefully curated — classes are genuinely challenging with intelligent progressions, and modifications are offered without condescension. It draws a committed crowd of Lincoln Park locals who treat it as a full weekly wellness practice rather than a drop-in habit. Monthly unlimited memberships make the economics work for regulars, while flexible drop-in pricing keeps the door open for visitors.",
     address: "—",
     bestFor: "Full-service reformer, barre, yoga, and infrared sauna; ideal for committed regulars",
     signatureClass: "Reformer Flow",
@@ -83,7 +83,7 @@ const STUDIOS = [
     name: "The Pilates Advantage",
     neighborhood: "Wrigleyville",
     priceLevel: "$$",
-    review: "The Pilates Advantage is Chicago&apos;s clearest address for classical Pilates in the Romana lineage, staffed entirely by Romana&apos;s Pilates-certified instructors working on authentic Gratz apparatus — a combination rare anywhere in the Midwest. The studio has served the Lakeview and Wrigleyville community for over twelve years and earns consistent recognition in the Gratz Pilates Studio Series. Reformer classes are capped at three clients and tower classes at seven, guaranteeing individualized attention that group-format studios simply cannot replicate. Practitioners who have plateaued elsewhere consistently describe their first session here as a recalibration.",
+    review: "The Pilates Advantage is Chicago's clearest address for classical Pilates in the Romana lineage, staffed entirely by Romana's Pilates-certified instructors working on authentic Gratz apparatus — a combination rare anywhere in the Midwest. The studio has served the Lakeview and Wrigleyville community for over twelve years and earns consistent recognition in the Gratz Pilates Studio Series. Reformer classes are capped at three clients and tower classes at seven, guaranteeing individualized attention that group-format studios simply cannot replicate. Practitioners who have plateaued elsewhere consistently describe their first session here as a recalibration.",
     address: "—",
     bestFor: "Classical method purists, Gratz apparatus, Romana-certified instruction",
     signatureClass: "Classical Reformer Semi-Private",
@@ -105,7 +105,7 @@ const STUDIOS = [
     name: "ONYX Heated Reformer Pilates",
     neighborhood: "River North",
     priceLevel: "$$$",
-    review: "Co-founded by former Chicago Bear Christian Jones and his wife Liz, ONYX holds the distinction of being Chicago&apos;s original heated reformer studio and a certified Black- and LGBTQ-owned fitness business with a genuinely inclusive culture. The patent-pending reformer design places clients facing the instructor throughout the session, a layout that sharpens form feedback and creates unusual camaraderie for a reformer class. The warmth amplifies muscle engagement and flexibility in ways that convert sceptics quickly, and the energy in the room — driven by a diverse and motivated clientele — is consistently described as the best in the city. A Wicker Park location offers the same programme for clients on the west side.",
+    review: "Co-founded by former Chicago Bear Christian Jones and his wife Liz, ONYX holds the distinction of being Chicago's original heated reformer studio and a certified Black- and LGBTQ-owned fitness business with a genuinely inclusive culture. The patent-pending reformer design places clients facing the instructor throughout the session, a layout that sharpens form feedback and creates unusual camaraderie for a reformer class. The warmth amplifies muscle engagement and flexibility in ways that convert sceptics quickly, and the energy in the room — driven by a diverse and motivated clientele — is consistently described as the best in the city. A Wicker Park location offers the same programme for clients on the west side.",
     address: "—",
     bestFor: "Heated reformer, athletes, diverse and inclusive community",
     signatureClass: "ONYX Heated Reformer (55 min)",
@@ -116,7 +116,7 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Book 5–7 days in advance for sought-after slots",
-    body: "Chicago&apos;s busiest Pilates studios release bookings 7 days ahead, and morning and evening slots at Lincoln Park, River North, and Gold Coast studios fill quickly. Monday morning is the most reliable time to book your week.",
+    body: "Chicago's busiest Pilates studios release bookings 7 days ahead, and morning and evening slots at Lincoln Park, River North, and Gold Coast studios fill quickly. Monday morning is the most reliable time to book your week.",
   },
   {
     heading: "Introductory packages are the smartest way to start",
@@ -124,7 +124,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "ClassPass works well across Chicago",
-    body: "ClassPass has strong coverage in Chicago and is useful for sampling studios across neighbourhoods — from Lincoln Park to the West Loop — before settling. It&apos;s also a practical solution for visitors staying in the city for a week or two.",
+    body: "ClassPass has strong coverage in Chicago and is useful for sampling studios across neighbourhoods — from Lincoln Park to the West Loop — before settling. It's also a practical solution for visitors staying in the city for a week or two.",
   },
   {
     heading: "Tipping is standard practice",
@@ -140,22 +140,22 @@ const NEIGHBORHOODS = [
   {
     name: "Lincoln Park & Old Town",
     description:
-      "Chicago&apos;s most established neighbourhood for serious Pilates. Lincoln Park has a high concentration of quality studios, from classical practices to modern reformer boutiques, serving a residential population that prioritises health and wellness. The area rewards those looking to build a long-term practice rather than sample what&apos;s new.",
+      "Chicago's most established neighbourhood for serious Pilates. Lincoln Park has a high concentration of quality studios, from classical practices to modern reformer boutiques, serving a residential population that prioritises health and wellness. The area rewards those looking to build a long-term practice rather than sample what's new.",
   },
   {
     name: "River North & Gold Coast",
     description:
-      "The premium heart of Chicago&apos;s downtown wellness scene. Studios in River North are typically design-forward, premium-priced, and well-suited to professionals working in the surrounding offices. Gold Coast offers a slightly calmer alternative with some of the city&apos;s most experienced independent instructors.",
+      "The premium heart of Chicago's downtown wellness scene. Studios in River North are typically design-forward, premium-priced, and well-suited to professionals working in the surrounding offices. Gold Coast offers a slightly calmer alternative with some of the city's most experienced independent instructors.",
   },
   {
     name: "West Loop & Fulton Market",
     description:
-      "Chicago&apos;s fastest-growing neighbourhood has attracted a new generation of studios targeting the tech and creative professional community. Studios here are modern, schedule-dense, and increasingly sophisticated — and the neighbourhood&apos;s rapid growth means new openings are frequent.",
+      "Chicago's fastest-growing neighbourhood has attracted a new generation of studios targeting the tech and creative professional community. Studios here are modern, schedule-dense, and increasingly sophisticated — and the neighbourhood's rapid growth means new openings are frequent.",
   },
   {
     name: "Wicker Park & Bucktown",
     description:
-      "The north-west&apos;s creative heart has a growing Pilates scene that reflects its neighbourhood energy — younger, more eclectic, and less corporate than the Gold Coast or River North. Studios here tend to be more affordable and community-oriented, with a mix of beginners and intermediate practitioners.",
+      "The north-west's creative heart has a growing Pilates scene that reflects its neighbourhood energy — younger, more eclectic, and less corporate than the Gold Coast or River North. Studios here tend to be more affordable and community-oriented, with a mix of beginners and intermediate practitioners.",
   },
 ];
 
@@ -266,7 +266,7 @@ export default function ChicagoPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Chicago, United States</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Serious instruction and lasting community — Chicago&apos;s Pilates scene</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Serious instruction and lasting community — Chicago's Pilates scene</p>
                 </div>
               </div>
             </div>
@@ -311,7 +311,7 @@ export default function ChicagoPage() {
               Best neighbourhoods for Pilates in Chicago
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Chicago&apos;s Pilates landscape is shaped by its neighbourhoods. Here&apos;s where to look depending on where you&apos;re based.
+              Chicago's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

@@ -50,7 +50,7 @@ const STUDIOS = [
     name: "JETSET Pilates",
     neighborhood: "Brickell",
     priceLevel: "$$$",
-    review: "JETSET Pilates built its reputation in Miami before expanding nationally, and the Brickell flagship still carries the energy of a studio with something to prove. The proprietary reformer is designed for a faster-paced, rhythm-driven workout that splits the difference between classical Pilates and boutique fitness, drawing a clientele that is equally at home in a cycling studio or a traditional apparatus room. Instructors are trained in-house to an exacting standard, and the music programming is treated with the same seriousness as the movement cues. It suits results-focused practitioners who want the postural benefits of Pilates delivered at a tempo that matches Miami&apos;s pace.",
+    review: "JETSET Pilates built its reputation in Miami before expanding nationally, and the Brickell flagship still carries the energy of a studio with something to prove. The proprietary reformer is designed for a faster-paced, rhythm-driven workout that splits the difference between classical Pilates and boutique fitness, drawing a clientele that is equally at home in a cycling studio or a traditional apparatus room. Instructors are trained in-house to an exacting standard, and the music programming is treated with the same seriousness as the movement cues. It suits results-focused practitioners who want the postural benefits of Pilates delivered at a tempo that matches Miami's pace.",
     address: "—",
     bestFor: "Rhythm-driven reformer, high-energy atmosphere, results-focused clients",
     signatureClass: "JETSET Reformer (50 min)",
@@ -61,7 +61,7 @@ const STUDIOS = [
     name: "Reforming Pilates",
     neighborhood: "South Beach",
     priceLevel: "$$$",
-    review: "Reforming Pilates sits in the heart of South Beach and has cultivated a following that spans visiting athletes, local dancers, and year-round Miami residents who treat it as the backbone of their training. The instruction is precise without being rigid — teachers bring genuine anatomical knowledge to every session and adapt intelligently to what they observe in the room. The studio&apos;s aesthetic is warm and unintimidating despite its South Beach address, which is part of why its community has proven so durable. Clients who have trained at studios across the country regularly rate it among the best they&apos;ve encountered.",
+    review: "Reforming Pilates sits in the heart of South Beach and has cultivated a following that spans visiting athletes, local dancers, and year-round Miami residents who treat it as the backbone of their training. The instruction is precise without being rigid — teachers bring genuine anatomical knowledge to every session and adapt intelligently to what they observe in the room. The studio's aesthetic is warm and unintimidating despite its South Beach address, which is part of why its community has proven so durable. Clients who have trained at studios across the country regularly rate it among the best they've encountered.",
     address: "—",
     bestFor: "Precision reformer, experienced practitioners, visiting athletes",
     signatureClass: "Reformer Group (open level)",
@@ -72,7 +72,7 @@ const STUDIOS = [
     name: "The Pilates Place",
     neighborhood: "South Beach",
     priceLevel: "$$",
-    review: "The Pilates Place has been a South Beach fixture long enough to have trained multiple generations of Miami residents, and its staying power comes from consistent, unhurried instruction that prioritises form over volume. The studio offers both mat and reformer classes in a space that feels deliberately calm against the frenzy of the surrounding neighbourhood. Instructors have long tenures here — an unusual quality in Miami&apos;s fitness market — and the continuity shows in the depth of the teaching. It is the natural choice for practitioners who want to build a real foundation rather than a fast-moving class experience.",
+    review: "The Pilates Place has been a South Beach fixture long enough to have trained multiple generations of Miami residents, and its staying power comes from consistent, unhurried instruction that prioritises form over volume. The studio offers both mat and reformer classes in a space that feels deliberately calm against the frenzy of the surrounding neighbourhood. Instructors have long tenures here — an unusual quality in Miami's fitness market — and the continuity shows in the depth of the teaching. It is the natural choice for practitioners who want to build a real foundation rather than a fast-moving class experience.",
     address: "—",
     bestFor: "Classical reformer and mat, foundational instruction, all levels",
     signatureClass: "Reformer Fundamentals",
@@ -83,7 +83,7 @@ const STUDIOS = [
     name: "Fuze House",
     neighborhood: "Edgewater",
     priceLevel: "$$$",
-    review: "Fuze House sits in Edgewater&apos;s design district corridor and has established itself as one of Miami&apos;s most thoughtfully constructed wellness spaces, combining Pilates reformer programming with a broader movement philosophy that draws from yoga and functional training. The studio&apos;s design is considered — materials, light, and acoustics have all been attended to — and the atmosphere rewards the kind of client who thinks of their practice as a long-term relationship rather than a transaction. Instructors hold certifications across multiple disciplines and bring genuine versatility to their cuing. The Edgewater location makes it convenient to Wynwood and Midtown without the South Beach premium.",
+    review: "Fuze House sits in Edgewater's design district corridor and has established itself as one of Miami's most thoughtfully constructed wellness spaces, combining Pilates reformer programming with a broader movement philosophy that draws from yoga and functional training. The studio's design is considered — materials, light, and acoustics have all been attended to — and the atmosphere rewards the kind of client who thinks of their practice as a long-term relationship rather than a transaction. Instructors hold certifications across multiple disciplines and bring genuine versatility to their cuing. The Edgewater location makes it convenient to Wynwood and Midtown without the South Beach premium.",
     address: "—",
     bestFor: "Cross-disciplinary movement, reformer, design-conscious practitioners",
     signatureClass: "Reformer Fusion (55 min)",
@@ -94,7 +94,7 @@ const STUDIOS = [
     name: "Kenergy Pilates",
     neighborhood: "Wynwood",
     priceLevel: "$$",
-    review: "Kenergy Pilates occupies a bright, well-ventilated space in Wynwood that feels at home in the neighbourhood&apos;s creative, community-oriented energy. The studio runs small-group reformer classes with a strong emphasis on breath work and postural awareness, and the instruction has a clear classical grounding even when the format is contemporary. The clientele skews younger than South Beach studios and includes many first-generation Pilates practitioners who come for the accessible pricing and stay for the quality of teaching. It is the kind of studio where regulars know each other&apos;s names, a rarity in Miami&apos;s transient fitness market.",
+    review: "Kenergy Pilates occupies a bright, well-ventilated space in Wynwood that feels at home in the neighbourhood's creative, community-oriented energy. The studio runs small-group reformer classes with a strong emphasis on breath work and postural awareness, and the instruction has a clear classical grounding even when the format is contemporary. The clientele skews younger than South Beach studios and includes many first-generation Pilates practitioners who come for the accessible pricing and stay for the quality of teaching. It is the kind of studio where regulars know each other's names, a rarity in Miami's transient fitness market.",
     address: "—",
     bestFor: "Small-group reformer, accessible pricing, community-focused atmosphere",
     signatureClass: "Reformer Small Group",
@@ -105,7 +105,7 @@ const STUDIOS = [
     name: "Pilatay",
     neighborhood: "Little Havana",
     priceLevel: "$$",
-    review: "Pilatay brings disciplined reformer instruction to Little Havana at price points that reflect the neighbourhood rather than the beachfront, making it one of the most genuinely accessible quality studios in Miami. The teaching is rooted in classical method principles, and the instructors take time with new clients to ensure technique is established before progressing to more demanding work. The studio is compact and personal — there is no anonymity here, which suits practitioners who want accountability alongside expertise. For visitors wanting to experience a local, non-tourist-facing side of Miami&apos;s wellness scene, Pilatay is the honest answer.",
+    review: "Pilatay brings disciplined reformer instruction to Little Havana at price points that reflect the neighbourhood rather than the beachfront, making it one of the most genuinely accessible quality studios in Miami. The teaching is rooted in classical method principles, and the instructors take time with new clients to ensure technique is established before progressing to more demanding work. The studio is compact and personal — there is no anonymity here, which suits practitioners who want accountability alongside expertise. For visitors wanting to experience a local, non-tourist-facing side of Miami's wellness scene, Pilatay is the honest answer.",
     address: "—",
     bestFor: "Classical reformer, accessible pricing, neighbourhood community",
     signatureClass: "Reformer Foundations",
@@ -116,7 +116,7 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Book 5–7 days in advance for premium morning slots",
-    body: "Miami&apos;s most popular studios — especially South Beach and Brickell — fill their early morning and lunchtime slots within hours of opening. Most apps allow 7-day advance booking; treat Monday morning as your booking window for the full week.",
+    body: "Miami's most popular studios — especially South Beach and Brickell — fill their early morning and lunchtime slots within hours of opening. Most apps allow 7-day advance booking; treat Monday morning as your booking window for the full week.",
   },
   {
     heading: "Introductory offers are widely available",
@@ -145,7 +145,7 @@ const NEIGHBORHOODS = [
   {
     name: "Brickell & Downtown",
     description:
-      "Miami&apos;s financial district has seen rapid wellness studio growth, driven by a large professional population needing convenient, high-quality lunchtime and early-morning options. Studios here are sleek, modern, and optimised for efficiency — ideal for time-pressed professionals.",
+      "Miami's financial district has seen rapid wellness studio growth, driven by a large professional population needing convenient, high-quality lunchtime and early-morning options. Studios here are sleek, modern, and optimised for efficiency — ideal for time-pressed professionals.",
   },
   {
     name: "Coconut Grove & Coral Gables",
@@ -155,7 +155,7 @@ const NEIGHBORHOODS = [
   {
     name: "Wynwood & Design District",
     description:
-      "Miami&apos;s creative quarter has attracted a younger, more experimental wellness crowd, and the studios that have opened here reflect that — more concept-driven, atmospheric, and design-forward than traditional Pilates boutiques. The neighbourhood is ideal for practitioners who want their workout to feel like an experience.",
+      "Miami's creative quarter has attracted a younger, more experimental wellness crowd, and the studios that have opened here reflect that — more concept-driven, atmospheric, and design-forward than traditional Pilates boutiques. The neighbourhood is ideal for practitioners who want their workout to feel like an experience.",
   },
 ];
 
@@ -248,7 +248,7 @@ export default function MiamiPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Miami has always taken fitness seriously — but the city&apos;s Pilates scene has matured well beyond the beach-body culture of its past. A city that attracts international residents, professional athletes, and wellness-conscious visitors year-round has built a reformer studio market that is simultaneously premium, diverse, and surprisingly deep. From the classical lineage practices of Coconut Grove to the design-forward boutiques of Wynwood, Miami now offers serious Pilates across every neighbourhood and every level. This guide covers the five studios we rate most highly, with everything you need before booking.
+              Miami has always taken fitness seriously — but the city's Pilates scene has matured well beyond the beach-body culture of its past. A city that attracts international residents, professional athletes, and wellness-conscious visitors year-round has built a reformer studio market that is simultaneously premium, diverse, and surprisingly deep. From the classical lineage practices of Coconut Grove to the design-forward boutiques of Wynwood, Miami now offers serious Pilates across every neighbourhood and every level. This guide covers the five studios we rate most highly, with everything you need before booking.
             </p>
           </div>
         </section>
@@ -311,7 +311,7 @@ export default function MiamiPage() {
               Best neighbourhoods for Pilates in Miami
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Miami&apos;s Pilates landscape is shaped by its neighbourhoods. Here&apos;s where to look depending on where you&apos;re based.
+              Miami's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

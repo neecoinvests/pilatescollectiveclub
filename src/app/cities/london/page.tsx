@@ -42,7 +42,7 @@ const STUDIOS = [
     name: "Heartcore Chelsea",
     neighborhood: "Chelsea",
     priceLevel: "£££",
-    review: "Heartcore Chelsea occupies a sleek, light-filled space on the King&apos;s Road that feels more like a high-end wellness retreat than a gym. The studio is best known for its Reformer Ignite classes — high-intensity reformer sessions that draw a devoted following of Chelsea regulars who want serious results without the testosterone of a box gym. Instructors are rigorously trained and the programming rotates intelligently to prevent plateau. The clientele skews professional and thirties-plus, and the atmosphere is focused but never intimidating. It suits anyone who wants choreographed, music-driven reformer work delivered at a premium level.",
+    review: "Heartcore Chelsea occupies a sleek, light-filled space on the King's Road that feels more like a high-end wellness retreat than a gym. The studio is best known for its Reformer Ignite classes — high-intensity reformer sessions that draw a devoted following of Chelsea regulars who want serious results without the testosterone of a box gym. Instructors are rigorously trained and the programming rotates intelligently to prevent plateau. The clientele skews professional and thirties-plus, and the atmosphere is focused but never intimidating. It suits anyone who wants choreographed, music-driven reformer work delivered at a premium level.",
     address: "—",
     bestFor: "High-intensity reformer",
     signatureClass: "Reformer Ignite",
@@ -53,7 +53,7 @@ const STUDIOS = [
     name: "Exhale Pilates London",
     neighborhood: "Fitzrovia",
     priceLevel: "£££",
-    review: "Exhale sits quietly on a Fitzrovia backstreet and operates with the confidence of a studio that has nothing to prove. The teaching here leans toward a rigorous contemporary method — precise cueing, anatomical awareness, and a refusal to rush through the fundamentals. Classes are small by design, which means instructors can give individual corrections that most larger studios simply can&apos;t. The studio attracts dancers, physio patients returning to movement, and practitioners who have grown bored of aesthetic-led workouts. Its introductory offer is one of the better entry points to serious Pilates in central London.",
+    review: "Exhale sits quietly on a Fitzrovia backstreet and operates with the confidence of a studio that has nothing to prove. The teaching here leans toward a rigorous contemporary method — precise cueing, anatomical awareness, and a refusal to rush through the fundamentals. Classes are small by design, which means instructors can give individual corrections that most larger studios simply can't. The studio attracts dancers, physio patients returning to movement, and practitioners who have grown bored of aesthetic-led workouts. Its introductory offer is one of the better entry points to serious Pilates in central London.",
     address: "—",
     bestFor: "Classical & contemporary method",
     signatureClass: "Full-Body Reformer",
@@ -64,7 +64,7 @@ const STUDIOS = [
     name: "Kinetic Pilates",
     neighborhood: "Notting Hill",
     priceLevel: "££",
-    review: "Kinetic has quietly become one of Notting Hill&apos;s most trusted movement studios, earning loyalty from a neighbourhood that has no shortage of wellness options. The small-group reformer format — rarely more than eight people per class — allows for a level of personal attention that feels almost like a private session. The Dynamic Flow class is the signature draw: a flowing, moderately-paced session that builds genuine core strength without ever feeling mechanical. Pricing is refreshingly honest by west London standards, and the monthly membership structure rewards regulars. A strong choice for practitioners at any level who value quality over spectacle.",
+    review: "Kinetic has quietly become one of Notting Hill's most trusted movement studios, earning loyalty from a neighbourhood that has no shortage of wellness options. The small-group reformer format — rarely more than eight people per class — allows for a level of personal attention that feels almost like a private session. The Dynamic Flow class is the signature draw: a flowing, moderately-paced session that builds genuine core strength without ever feeling mechanical. Pricing is refreshingly honest by west London standards, and the monthly membership structure rewards regulars. A strong choice for practitioners at any level who value quality over spectacle.",
     address: "—",
     bestFor: "Small-group reformer",
     signatureClass: "Dynamic Flow",
@@ -75,7 +75,7 @@ const STUDIOS = [
     name: "Ten Health & Fitness",
     neighborhood: "Marylebone",
     priceLevel: "£££",
-    review: "Ten on Marylebone High Street occupies a unique position in London&apos;s Pilates landscape: it bridges the gap between clinical rehabilitation and performance training with genuine credibility. The studio employs physiotherapists alongside Pilates instructors, and the programming reflects that dual expertise — expect careful loading progressions, thorough intake assessments, and classes that adapt intelligently to injury histories. The Reformer & Tower sessions are the standout offering, using the full equipment suite to build strength from the ground up. Marylebone regulars tend to be health-literate and demanding, and Ten meets that standard consistently. Ideal for post-rehab clients, athletes, and anyone serious about long-term movement quality.",
+    review: "Ten on Marylebone High Street occupies a unique position in London's Pilates landscape: it bridges the gap between clinical rehabilitation and performance training with genuine credibility. The studio employs physiotherapists alongside Pilates instructors, and the programming reflects that dual expertise — expect careful loading progressions, thorough intake assessments, and classes that adapt intelligently to injury histories. The Reformer & Tower sessions are the standout offering, using the full equipment suite to build strength from the ground up. Marylebone regulars tend to be health-literate and demanding, and Ten meets that standard consistently. Ideal for post-rehab clients, athletes, and anyone serious about long-term movement quality.",
     address: "—",
     bestFor: "Physio-led Pilates",
     signatureClass: "Reformer & Tower",
@@ -303,7 +303,7 @@ export default function LondonPage() {
               Best neighbourhoods for Pilates in London
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              London&apos;s Pilates landscape is shaped by its neighbourhoods. Here&apos;s where to look depending on where you&apos;re based.
+              London's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

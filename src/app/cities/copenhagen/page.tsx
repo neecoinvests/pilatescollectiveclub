@@ -61,7 +61,7 @@ const STUDIOS = [
     name: "Studio 41 Pilates",
     neighborhood: "Frederiksberg",
     priceLevel: "kr ··",
-    review: "Studio 41 has positioned itself as Frederiksberg&apos;s most considered reformer studio, serving the quiet, affluent borough-within-a-city that has always maintained a slightly different sensibility from Copenhagen proper. The studio is beautifully fitted out — Frederiksberg standards demand it — with quality equipment, genuine care in the physical design of the space, and an atmosphere that prioritises focus over social energy. Instruction draws on classical foundations taught with contemporary anatomical understanding, and the teacher roster is notably stable, which allows regular clients to develop a genuine training relationship rather than navigating a rotating cast of instructors. Programming includes a well-constructed progression for serious practitioners. It suits Frederiksberg residents and anyone willing to make the short journey for what is consistently among the finest instruction in greater Copenhagen.",
+    review: "Studio 41 has positioned itself as Frederiksberg's most considered reformer studio, serving the quiet, affluent borough-within-a-city that has always maintained a slightly different sensibility from Copenhagen proper. The studio is beautifully fitted out — Frederiksberg standards demand it — with quality equipment, genuine care in the physical design of the space, and an atmosphere that prioritises focus over social energy. Instruction draws on classical foundations taught with contemporary anatomical understanding, and the teacher roster is notably stable, which allows regular clients to develop a genuine training relationship rather than navigating a rotating cast of instructors. Programming includes a well-constructed progression for serious practitioners. It suits Frederiksberg residents and anyone willing to make the short journey for what is consistently among the finest instruction in greater Copenhagen.",
     address: "—",
     bestFor: "Classical reformer, stable teaching team",
     signatureClass: "Studio 41 Signature Reformer",
@@ -72,7 +72,7 @@ const STUDIOS = [
     name: "Copenhagen Pilates Studio",
     neighborhood: "Østerbro",
     priceLevel: "kr ··",
-    review: "Copenhagen Pilates Studio is the closest thing the city has to a classical institution: long-established, seriously taught, and deeply trusted by the Østerbro community of professionals, parents, and movement practitioners who have trained there over years and decades. The studio works across the full apparatus — mat, reformer, cadillac, chair, barrel — with a comprehensiveness that is rare in Denmark and reflects genuine investment in the breadth of the Pilates system. Østerbro&apos;s educated, health-conscious residential population provides the perfect audience: committed, consistent, and sophisticated enough to appreciate instruction that prioritises long-term development over short-term intensity. The space is calm and well-maintained without being ostentatious. It suits any practitioner who wants to take the method seriously in a city where that option is more limited than it should be.",
+    review: "Copenhagen Pilates Studio is the closest thing the city has to a classical institution: long-established, seriously taught, and deeply trusted by the Østerbro community of professionals, parents, and movement practitioners who have trained there over years and decades. The studio works across the full apparatus — mat, reformer, cadillac, chair, barrel — with a comprehensiveness that is rare in Denmark and reflects genuine investment in the breadth of the Pilates system. Østerbro's educated, health-conscious residential population provides the perfect audience: committed, consistent, and sophisticated enough to appreciate instruction that prioritises long-term development over short-term intensity. The space is calm and well-maintained without being ostentatious. It suits any practitioner who wants to take the method seriously in a city where that option is more limited than it should be.",
     address: "—",
     bestFor: "Full apparatus work, long-established method",
     signatureClass: "CPS Comprehensive Apparatus",
@@ -83,7 +83,7 @@ const STUDIOS = [
     name: "Pilates CPH",
     neighborhood: "Vesterbro",
     priceLevel: "kr ·",
-    review: "Pilates CPH has found its place in Vesterbro — Copenhagen&apos;s most demographically diverse and creatively energetic district — by offering honest, well-taught reformer instruction at pricing that is genuinely competitive for the Danish market. The studio has a relaxed, inclusive atmosphere that reflects its neighbourhood, and the instructors bring a warmth to their teaching that makes classes feel welcoming for practitioners at all levels of experience. Programming leans contemporary rather than strictly classical, incorporating functional movement principles in a way that suits Vesterbro&apos;s active, fitness-literate clientele. The space is unfussy and well-kept, and the scheduling includes early-morning and lunchtime options that work for the neighbourhood&apos;s working population. It suits practitioners who want quality without the premium price tag that Frederiksberg or Østerbro studios typically carry.",
+    review: "Pilates CPH has found its place in Vesterbro — Copenhagen's most demographically diverse and creatively energetic district — by offering honest, well-taught reformer instruction at pricing that is genuinely competitive for the Danish market. The studio has a relaxed, inclusive atmosphere that reflects its neighbourhood, and the instructors bring a warmth to their teaching that makes classes feel welcoming for practitioners at all levels of experience. Programming leans contemporary rather than strictly classical, incorporating functional movement principles in a way that suits Vesterbro's active, fitness-literate clientele. The space is unfussy and well-kept, and the scheduling includes early-morning and lunchtime options that work for the neighbourhood's working population. It suits practitioners who want quality without the premium price tag that Frederiksberg or Østerbro studios typically carry.",
     address: "—",
     bestFor: "Accessible pricing, contemporary reformer",
     signatureClass: "CPH Reformer Flow",
@@ -105,7 +105,7 @@ const STUDIOS = [
     name: "Fusion Pilates",
     neighborhood: "Indre By",
     priceLevel: "kr ··",
-    review: "Fusion Pilates occupies a well-chosen location in Indre By — Copenhagen&apos;s historic centre, where office workers, tourists, and the city&apos;s cultural institutions coexist in the densest urban fabric the Danish capital offers. The studio has built its programme around the idea of integration: Pilates fundamentals fused with barre, yoga-informed movement, and functional training to produce a cross-disciplinary offer that suits practitioners who want variety alongside technical development. The space is polished and central, the instruction bilingual Danish-English, and the scheduling dense enough to accommodate both regulars and visitors with limited windows. Class sizes are managed attentively. It suits professionals working in or near the city centre who want a serious practice that can flex around a demanding schedule.",
+    review: "Fusion Pilates occupies a well-chosen location in Indre By — Copenhagen's historic centre, where office workers, tourists, and the city's cultural institutions coexist in the densest urban fabric the Danish capital offers. The studio has built its programme around the idea of integration: Pilates fundamentals fused with barre, yoga-informed movement, and functional training to produce a cross-disciplinary offer that suits practitioners who want variety alongside technical development. The space is polished and central, the instruction bilingual Danish-English, and the scheduling dense enough to accommodate both regulars and visitors with limited windows. Class sizes are managed attentively. It suits professionals working in or near the city centre who want a serious practice that can flex around a demanding schedule.",
     address: "—",
     bestFor: "Cross-disciplinary programming, central location",
     signatureClass: "Fusion Signature Reformer",
@@ -127,11 +127,11 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Expect to pay €25–55 per class",
-    body: "Copenhagen&apos;s Pilates pricing is comparable to Stockholm and London. Group reformer classes run approximately 250–450 DKK (€33–60); private sessions at classical studios reach 600–750 DKK. Monthly membership packages — typically four to eight sessions — provide the best per-class economics for regular practitioners.",
+    body: "Copenhagen's Pilates pricing is comparable to Stockholm and London. Group reformer classes run approximately 250–450 DKK (€33–60); private sessions at classical studios reach 600–750 DKK. Monthly membership packages — typically four to eight sessions — provide the best per-class economics for regular practitioners.",
   },
   {
     heading: "Book early — demand consistently outstrips supply",
-    body: "Copenhagen&apos;s boutique fitness market is mature and competitive, which means popular classes at quality studios fill quickly. Most studios release their schedule one week ahead; setting a booking reminder is not excessive — it&apos;s genuinely necessary for prime morning slots.",
+    body: "Copenhagen's boutique fitness market is mature and competitive, which means popular classes at quality studios fill quickly. Most studios release their schedule one week ahead; setting a booking reminder is not excessive — it's genuinely necessary for prime morning slots.",
   },
   {
     heading: "English is universal in Copenhagen studios",
@@ -143,7 +143,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Introductory offers — use them before committing",
-    body: "The instruction style and community culture vary considerably across Copenhagen studios. All major studios offer new-client deals; using intro offers at two or three studios before committing to a membership is the best way to find your fit. Don&apos;t rush the choice.",
+    body: "The instruction style and community culture vary considerably across Copenhagen studios. All major studios offer new-client deals; using intro offers at two or three studios before committing to a membership is the best way to find your fit. Don't rush the choice.",
   },
 ];
 
@@ -151,22 +151,22 @@ const NEIGHBORHOODS = [
   {
     name: "Frederiksberg",
     description:
-      "Technically its own municipality, Frederiksberg sits at the heart of Copenhagen&apos;s premium wellness offer. The boulevard-lined streets and affluent residential character have produced a cluster of serious, well-equipped studios. Studio CPH is the landmark address, and several excellent independents operate nearby.",
+      "Technically its own municipality, Frederiksberg sits at the heart of Copenhagen's premium wellness offer. The boulevard-lined streets and affluent residential character have produced a cluster of serious, well-equipped studios. Studio CPH is the landmark address, and several excellent independents operate nearby.",
   },
   {
     name: "Østerbro",
     description:
-      "A prosperous, family-oriented neighbourhood east of the centre with a strong wellness culture and growing studio infrastructure. The Reformery represents the best of what Østerbro offers — community warmth combined with genuine instruction quality at pricing that doesn&apos;t require Frederiksberg budgets.",
+      "A prosperous, family-oriented neighbourhood east of the centre with a strong wellness culture and growing studio infrastructure. The Reformery represents the best of what Østerbro offers — community warmth combined with genuine instruction quality at pricing that doesn't require Frederiksberg budgets.",
   },
   {
     name: "Nørrebro",
     description:
-      "Copenhagen&apos;s most culturally diverse and creatively animated neighbourhood has developed an unexpectedly coherent wellness scene. Nørrebro studios are typically more accessible in both price and atmosphere than the western districts, without making significant compromises on instruction.",
+      "Copenhagen's most culturally diverse and creatively animated neighbourhood has developed an unexpectedly coherent wellness scene. Nørrebro studios are typically more accessible in both price and atmosphere than the western districts, without making significant compromises on instruction.",
   },
   {
     name: "Vesterbro & Indre By",
     description:
-      "Two distinct but complementary options. Vesterbro&apos;s studios reflect the neighbourhood&apos;s creative and independent character — innovative, energetic, and community-minded. Indre By, the historic city centre, is home to the Copenhagen Pilates Centre — the city&apos;s most classically rigorous and long-established address.",
+      "Two distinct but complementary options. Vesterbro's studios reflect the neighbourhood's creative and independent character — innovative, energetic, and community-minded. Indre By, the historic city centre, is home to the Copenhagen Pilates Centre — the city's most classically rigorous and long-established address.",
   },
 ];
 
@@ -259,7 +259,7 @@ export default function CopenhagenPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Copenhagen has emerged as one of northern Europe&apos;s most compelling destinations for Pilates, combining the Scandinavian instinct for considered design and purposeful movement with a studio culture that takes instruction seriously. The city&apos;s wellness market is relatively compact but remarkably coherent — from the classical rigour of Indre By to the community-driven accessibility of Nørrebro. This guide identifies the five studios that represent the full range of what Copenhagen currently offers.
+              Copenhagen has emerged as one of northern Europe's most compelling destinations for Pilates, combining the Scandinavian instinct for considered design and purposeful movement with a studio culture that takes instruction seriously. The city's wellness market is relatively compact but remarkably coherent — from the classical rigour of Indre By to the community-driven accessibility of Nørrebro. This guide identifies the five studios that represent the full range of what Copenhagen currently offers.
             </p>
           </div>
         </section>
@@ -322,7 +322,7 @@ export default function CopenhagenPage() {
               Best neighbourhoods for Pilates in Copenhagen
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Copenhagen&apos;s Pilates landscape is shaped by its neighbourhoods.
+              Copenhagen's Pilates landscape is shaped by its neighbourhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

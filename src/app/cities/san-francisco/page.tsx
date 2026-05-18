@@ -61,7 +61,7 @@ const STUDIOS = [
     name: "Mighty Pilates",
     neighborhood: "Presidio Heights",
     priceLevel: "$$$",
-    review: "Mighty Pilates has become one of San Francisco&apos;s most recognisable boutique fitness brands, and the Presidio Heights location reflects the neighbourhood&apos;s understated affluence — clean lines, quality equipment, and instruction that is polished without being performative. The studio attracts a clientele of professionals and long-term practitioners who expect precise teaching and get it, with instructors who adjust to the room rather than running a fixed script. Group reformer classes are programmed with enough variety to challenge regulars without disorientating beginners, and the community has a loyalty that speaks to consistency over time. Multiple SF locations make it practical across the city.",
+    review: "Mighty Pilates has become one of San Francisco's most recognisable boutique fitness brands, and the Presidio Heights location reflects the neighbourhood's understated affluence — clean lines, quality equipment, and instruction that is polished without being performative. The studio attracts a clientele of professionals and long-term practitioners who expect precise teaching and get it, with instructors who adjust to the room rather than running a fixed script. Group reformer classes are programmed with enough variety to challenge regulars without disorientating beginners, and the community has a loyalty that speaks to consistency over time. Multiple SF locations make it practical across the city.",
     address: "—",
     bestFor: "Group reformer, consistent quality across locations, experienced practitioners",
     signatureClass: "Mighty Reformer (50 min)",
@@ -72,18 +72,18 @@ const STUDIOS = [
     name: "Bright Star Pilates",
     neighborhood: "Castro/Noe Valley",
     priceLevel: "$$",
-    review: "Bright Star Pilates occupies a thoughtful position in the Castro and Noe Valley community — a studio where the instruction is classical in foundation but delivered with the warmth and accessibility that the neighbourhood&apos;s longtime residents have come to expect. The instructors here have deep roots in the method and are known for hands-on adjustments that reveal something new about a movement pattern even for experienced practitioners. Class sizes are deliberately kept small, ensuring that every session functions closer to a semi-private than a group class in terms of individual attention. It is the kind of studio that creates practitioners rather than fitness clients.",
+    review: "Bright Star Pilates occupies a thoughtful position in the Castro and Noe Valley community — a studio where the instruction is classical in foundation but delivered with the warmth and accessibility that the neighbourhood's longtime residents have come to expect. The instructors here have deep roots in the method and are known for hands-on adjustments that reveal something new about a movement pattern even for experienced practitioners. Class sizes are deliberately kept small, ensuring that every session functions closer to a semi-private than a group class in terms of individual attention. It is the kind of studio that creates practitioners rather than fitness clients.",
     address: "—",
     bestFor: "Classical reformer and mat, small group instruction, all levels",
     signatureClass: "Classical Reformer",
-    bookingTip: "Early morning slots are popular with the neighbourhood&apos;s working professionals — book a week ahead. The studio offers a genuine introductory rate for new clients that is worth using before committing to a package.",
+    bookingTip: "Early morning slots are popular with the neighbourhood's working professionals — book a week ahead. The studio offers a genuine introductory rate for new clients that is worth using before committing to a package.",
   },
   {
     number: "03",
     name: "NICE Pilates",
     neighborhood: "Inner Richmond",
     priceLevel: "$$$",
-    review: "NICE Pilates has carved out a distinctive identity in the Inner Richmond by combining high-production reformer classes with an emphasis on genuine mindfulness — a combination that sounds obvious but is rarely executed well. The studio&apos;s design is intentional and calming, and instructors are selected as much for their ability to teach presence as for their physical cuing. The clientele includes a notable number of practitioners who have migrated from louder, more performance-oriented studios and found they prefer the quieter intensity here. For those training in the Richmond or visiting from the Sunset, it is the area&apos;s most compelling premium option.",
+    review: "NICE Pilates has carved out a distinctive identity in the Inner Richmond by combining high-production reformer classes with an emphasis on genuine mindfulness — a combination that sounds obvious but is rarely executed well. The studio's design is intentional and calming, and instructors are selected as much for their ability to teach presence as for their physical cuing. The clientele includes a notable number of practitioners who have migrated from louder, more performance-oriented studios and found they prefer the quieter intensity here. For those training in the Richmond or visiting from the Sunset, it is the area's most compelling premium option.",
     address: "—",
     bestFor: "Mindful reformer, experienced practitioners, design-forward atmosphere",
     signatureClass: "NICE Reformer (50 min)",
@@ -94,7 +94,7 @@ const STUDIOS = [
     name: "Blue Sparrow Pilates",
     neighborhood: "North Beach",
     priceLevel: "$$$",
-    review: "Blue Sparrow Pilates sits in the North Beach neighbourhood with the quiet confidence of a studio that has earned its reputation through instruction rather than marketing. The teaching draws on classical Pilates lineage and is delivered by instructors with comprehensive apparatus training — reformer, Cadillac, chair, and barrel work all feature in the programme, which is unusual for a group-format studio. The clientele is a mix of longtime San Francisco residents and North Beach locals who discovered Pilates here and have never felt the need to look elsewhere. Visitors staying in or around North Beach, Fisherman&apos;s Wharf, or Telegraph Hill will find it a genuinely world-class local option.",
+    review: "Blue Sparrow Pilates sits in the North Beach neighbourhood with the quiet confidence of a studio that has earned its reputation through instruction rather than marketing. The teaching draws on classical Pilates lineage and is delivered by instructors with comprehensive apparatus training — reformer, Cadillac, chair, and barrel work all feature in the programme, which is unusual for a group-format studio. The clientele is a mix of longtime San Francisco residents and North Beach locals who discovered Pilates here and have never felt the need to look elsewhere. Visitors staying in or around North Beach, Fisherman's Wharf, or Telegraph Hill will find it a genuinely world-class local option.",
     address: "—",
     bestFor: "Full classical apparatus, serious practitioners, North Beach location",
     signatureClass: "Classical Reformer (60 min)",
@@ -105,11 +105,11 @@ const STUDIOS = [
     name: "CORE MVMT",
     neighborhood: "Castro",
     priceLevel: "$$",
-    review: "CORE MVMT has become a Castro neighbourhood staple by offering well-taught reformer classes at price points that feel honest for the quality delivered, which is a notable achievement in San Francisco&apos;s fitness market. The studio runs a tight programme focused on reformer work, and the instructors maintain standards that would hold up at studios charging considerably more. The atmosphere is inclusive and unpretentious — a reflection of its neighbourhood — and the regular crowd is diverse in age, background, and experience level. For Castro and Mission residents who want rigorous instruction without the premium boutique surcharge, CORE MVMT is the clear choice.",
+    review: "CORE MVMT has become a Castro neighbourhood staple by offering well-taught reformer classes at price points that feel honest for the quality delivered, which is a notable achievement in San Francisco's fitness market. The studio runs a tight programme focused on reformer work, and the instructors maintain standards that would hold up at studios charging considerably more. The atmosphere is inclusive and unpretentious — a reflection of its neighbourhood — and the regular crowd is diverse in age, background, and experience level. For Castro and Mission residents who want rigorous instruction without the premium boutique surcharge, CORE MVMT is the clear choice.",
     address: "—",
     bestFor: "Reformer, value for quality, Castro community",
     signatureClass: "Reformer Group",
-    bookingTip: "Evening classes fill quickly with after-work bookings — aim to reserve 48–72 hours ahead. The studio&apos;s intro offer is the most economical way to assess fit before committing to a package.",
+    bookingTip: "Evening classes fill quickly with after-work bookings — aim to reserve 48–72 hours ahead. The studio's intro offer is the most economical way to assess fit before committing to a package.",
   },
   {
     number: "06",
@@ -259,7 +259,7 @@ export default function SanFranciscoPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              San Francisco has cultivated one of the most discerning wellness cultures in the United States. The city&apos;s Pilates scene reflects that — ranging from classical studios with Gratz apparatus and lineage credentials to sleek SoMa boutiques built for high-achieving professionals. Whether you&apos;re looking for private instruction in Noe Valley or a rigorous group reformer class in Pacific Heights, this guide covers the five studios that consistently deliver on both instruction quality and experience.
+              San Francisco has cultivated one of the most discerning wellness cultures in the United States. The city's Pilates scene reflects that — ranging from classical studios with Gratz apparatus and lineage credentials to sleek SoMa boutiques built for high-achieving professionals. Whether you're looking for private instruction in Noe Valley or a rigorous group reformer class in Pacific Heights, this guide covers the five studios that consistently deliver on both instruction quality and experience.
             </p>
           </div>
         </section>
@@ -322,7 +322,7 @@ export default function SanFranciscoPage() {
               Best neighbourhoods for Pilates in San Francisco
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              San Francisco&apos;s Pilates landscape is shaped by its neighbourhoods.
+              San Francisco's Pilates landscape is shaped by its neighbourhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

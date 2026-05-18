@@ -38,10 +38,10 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Carrie&apos;s Pilates Plus",
+    name: "Carrie's Pilates Plus",
     neighborhood: "West Hollywood",
     priceLevel: "$$$$",
-    review: "Carrie&apos;s Pilates Plus is one of Los Angeles&apos;s foundational studios — the kind of place that has shaped the city&apos;s collective understanding of what serious reformer Pilates looks like. Founded by Carrie Macy Samper, the West Hollywood studio has trained some of the most respected Pilates instructors working in LA today, and the lineage is evident in every class. The clientele is precisely what you&apos;d expect from WeHo: entertainment industry professionals, dancers, and wellness obsessives who regard a 7 a.m. reformer session as non-negotiable. The teaching is classically rooted but athletically calibrated, and the space itself has the kind of lived-in authority that comes only with genuine longevity. For anyone serious about the method in Los Angeles, this is a pilgrimage stop.",
+    review: "Carrie's Pilates Plus is one of Los Angeles's foundational studios — the kind of place that has shaped the city's collective understanding of what serious reformer Pilates looks like. Founded by Carrie Macy Samper, the West Hollywood studio has trained some of the most respected Pilates instructors working in LA today, and the lineage is evident in every class. The clientele is precisely what you'd expect from WeHo: entertainment industry professionals, dancers, and wellness obsessives who regard a 7 a.m. reformer session as non-negotiable. The teaching is classically rooted but athletically calibrated, and the space itself has the kind of lived-in authority that comes only with genuine longevity. For anyone serious about the method in Los Angeles, this is a pilgrimage stop.",
     address: "—",
     bestFor: "Classical method, advanced practitioners",
     signatureClass: "Reformer & Tower",
@@ -52,7 +52,7 @@ const STUDIOS = [
     name: "Love for Pilates",
     neighborhood: "Brentwood",
     priceLevel: "$$$",
-    review: "Love for Pilates occupies a bright, considered space in Brentwood that reflects the neighbourhood&apos;s blend of family life and genuine fitness commitment. The studio is known for its warm atmosphere and genuinely supportive instruction — this is a place where beginners are made to feel immediately capable and experienced practitioners are given room to develop. The teaching is contemporary and well-grounded, with a particular strength in prenatal and postnatal programming that has made it a go-to for Brentwood&apos;s young families. Classes are small enough to guarantee individual attention without feeling clinical. A loyal, multi-generational clientele is the clearest evidence of the studio&apos;s lasting quality.",
+    review: "Love for Pilates occupies a bright, considered space in Brentwood that reflects the neighbourhood's blend of family life and genuine fitness commitment. The studio is known for its warm atmosphere and genuinely supportive instruction — this is a place where beginners are made to feel immediately capable and experienced practitioners are given room to develop. The teaching is contemporary and well-grounded, with a particular strength in prenatal and postnatal programming that has made it a go-to for Brentwood's young families. Classes are small enough to guarantee individual attention without feeling clinical. A loyal, multi-generational clientele is the clearest evidence of the studio's lasting quality.",
     address: "—",
     bestFor: "All levels, prenatal & postnatal specialists",
     signatureClass: "Reformer Essentials",
@@ -74,7 +74,7 @@ const STUDIOS = [
     name: "DR Pilates",
     neighborhood: "Larchmont",
     priceLevel: "$$$",
-    review: "DR Pilates has become the quiet favourite of the Larchmont Village crowd — a studio with serious credentials that doesn&apos;t feel the need to broadcast them. The instruction quality here is among the most consistent in Los Angeles, with a team that has collectively trained for thousands of hours and teaches accordingly. The studio&apos;s programming takes a periodisation approach unusual in the boutique fitness world: clients progress through structured levels rather than attending undifferentiated drop-in classes. Larchmont regulars are health-literate and value this rigour, returning session after session with the kind of loyalty that sustains genuinely excellent small businesses. Best suited to practitioners who want to be taught rather than entertained.",
+    review: "DR Pilates has become the quiet favourite of the Larchmont Village crowd — a studio with serious credentials that doesn't feel the need to broadcast them. The instruction quality here is among the most consistent in Los Angeles, with a team that has collectively trained for thousands of hours and teaches accordingly. The studio's programming takes a periodisation approach unusual in the boutique fitness world: clients progress through structured levels rather than attending undifferentiated drop-in classes. Larchmont regulars are health-literate and value this rigour, returning session after session with the kind of loyalty that sustains genuinely excellent small businesses. Best suited to practitioners who want to be taught rather than entertained.",
     address: "—",
     bestFor: "Progressive, level-based reformer",
     signatureClass: "Reformer Level II & III",
@@ -96,7 +96,7 @@ const STUDIOS = [
     name: "Pilates Plus LA",
     neighborhood: "Los Feliz",
     priceLevel: "$$$",
-    review: "Pilates Plus LA in Los Feliz brings the Lagree method — Megaformer training — to one of the city&apos;s most characterful neighbourhoods, and the fit is natural. The studio is efficient, no-nonsense, and designed around a workout that is significantly harder than it looks: the Megaformer&apos;s resistance system creates time-under-tension challenges that leave even experienced athletes surprised. Instructors are well-versed in the method and skilled at modifying for different ability levels within a shared class. The Los Feliz clientele is creative and community-minded, and the studio has cultivated a corresponding atmosphere — competitive enough to push you, friendly enough to keep you coming back. A strong gateway into the Lagree world for west-of-Silver-Lake practitioners.",
+    review: "Pilates Plus LA in Los Feliz brings the Lagree method — Megaformer training — to one of the city's most characterful neighbourhoods, and the fit is natural. The studio is efficient, no-nonsense, and designed around a workout that is significantly harder than it looks: the Megaformer's resistance system creates time-under-tension challenges that leave even experienced athletes surprised. Instructors are well-versed in the method and skilled at modifying for different ability levels within a shared class. The Los Feliz clientele is creative and community-minded, and the studio has cultivated a corresponding atmosphere — competitive enough to push you, friendly enough to keep you coming back. A strong gateway into the Lagree world for west-of-Silver-Lake practitioners.",
     address: "—",
     bestFor: "Lagree Megaformer method",
     signatureClass: "Megaformer 50",
@@ -228,7 +228,7 @@ export default function LosAngelesPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Los Angeles</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>LA&apos;s sheer size means neighbourhood choice significantly affects your experience. Here&apos;s a guide.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>LA's sheer size means neighbourhood choice significantly affects your experience. Here's a guide.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

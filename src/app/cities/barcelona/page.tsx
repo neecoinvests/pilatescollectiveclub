@@ -52,7 +52,7 @@ const STUDIOS = [
     name: "Estudio 3 Pilates Reformer",
     neighborhood: "Gràcia",
     priceLevel: "€€",
-    review: "Tucked into one of Gràcia&apos;s quieter side streets, Estudio 3 has the warm, unhurried atmosphere that neighbourhood studios elsewhere only aspire to. The space is small by design — classes are capped to keep the teacher-to-student ratio genuinely useful — and the reformer fleet is well-maintained and thoughtfully arranged. Instructors here have a gift for making the method feel accessible without dumbing it down, which is why the studio attracts a loyal local following of all ages and fitness levels. Pricing is honest and the bono system is flexible, making it a sensible choice for anyone based in the upper part of the city who trains regularly. It suits independent movers who prefer character over corporate polish.",
+    review: "Tucked into one of Gràcia's quieter side streets, Estudio 3 has the warm, unhurried atmosphere that neighbourhood studios elsewhere only aspire to. The space is small by design — classes are capped to keep the teacher-to-student ratio genuinely useful — and the reformer fleet is well-maintained and thoughtfully arranged. Instructors here have a gift for making the method feel accessible without dumbing it down, which is why the studio attracts a loyal local following of all ages and fitness levels. Pricing is honest and the bono system is flexible, making it a sensible choice for anyone based in the upper part of the city who trains regularly. It suits independent movers who prefer character over corporate polish.",
     address: "—",
     bestFor: "Small-group reformer in a boutique space",
     signatureClass: "Estudio 3 Flow",
@@ -63,7 +63,7 @@ const STUDIOS = [
     name: "SimplyBe Pilates",
     neighborhood: "Sant Pere",
     priceLevel: "€€€",
-    review: "SimplyBe occupies a considered space in Sant Pere — the neighbourhood where Barcelona&apos;s creative and international residents have settled in growing numbers — and the studio has calibrated itself accordingly. Instruction is conducted entirely in English, which makes it the most reliably accessible choice for expatriates and visiting practitioners who want to train without a language barrier. The atmosphere is calm and considered, the equipment is well-maintained, and the programming draws on a clean, contemporary interpretation of the classical method. Class sizes are deliberately kept small, allowing instructors to offer hands-on attention that justifies the premium price point. It particularly suits professionals relocating to Barcelona who want a studio that feels familiar from day one.",
+    review: "SimplyBe occupies a considered space in Sant Pere — the neighbourhood where Barcelona's creative and international residents have settled in growing numbers — and the studio has calibrated itself accordingly. Instruction is conducted entirely in English, which makes it the most reliably accessible choice for expatriates and visiting practitioners who want to train without a language barrier. The atmosphere is calm and considered, the equipment is well-maintained, and the programming draws on a clean, contemporary interpretation of the classical method. Class sizes are deliberately kept small, allowing instructors to offer hands-on attention that justifies the premium price point. It particularly suits professionals relocating to Barcelona who want a studio that feels familiar from day one.",
     address: "—",
     bestFor: "English-friendly reformer studio",
     signatureClass: "Be Flow Reformer",
@@ -74,7 +74,7 @@ const STUDIOS = [
     name: "MUDRA Pilates Reformer",
     neighborhood: "Sarrià-Sant Gervasi",
     priceLevel: "€€€",
-    review: "MUDRA occupies a serene, well-appointed studio in Sarrià-Sant Gervasi, the residential district above the city where Barcelona&apos;s most established families and senior professionals tend to live. The studio brings a mindfulness dimension to reformer work that is uncommon in Barcelona — sessions are slower, more somatic, and more attuned to the connection between breath, posture, and long-term physical health. Instructors are credentialed and calm, the equipment immaculate, and the overall atmosphere one of quiet seriousness rather than boutique-fitness energy. Private and semi-private sessions are the preferred format here, and the studio does them exceptionally well. It suits practitioners dealing with rehabilitation, chronic tension, or simply a preference for depth over pace.",
+    review: "MUDRA occupies a serene, well-appointed studio in Sarrià-Sant Gervasi, the residential district above the city where Barcelona's most established families and senior professionals tend to live. The studio brings a mindfulness dimension to reformer work that is uncommon in Barcelona — sessions are slower, more somatic, and more attuned to the connection between breath, posture, and long-term physical health. Instructors are credentialed and calm, the equipment immaculate, and the overall atmosphere one of quiet seriousness rather than boutique-fitness energy. Private and semi-private sessions are the preferred format here, and the studio does them exceptionally well. It suits practitioners dealing with rehabilitation, chronic tension, or simply a preference for depth over pace.",
     address: "—",
     bestFor: "Upscale Pilates & mindfulness",
     signatureClass: "MUDRA Reformer Deep",
@@ -85,7 +85,7 @@ const STUDIOS = [
     name: "Sinergia BCN",
     neighborhood: "Poblenou",
     priceLevel: "€€",
-    review: "Sinergia BCN reflects the character of Poblenou itself — energetic, unpretentious, and a little more experimental than what you find in the established central districts. The studio has built its reputation on athletic, fast-paced reformer classes that borrow from functional training and HIIT without abandoning the Pilates fundamentals, and the clientele skews younger and more fitness-oriented as a result. Instructors here are energetic and motivating without being performatively so, and the class atmosphere has a communal quality that regulars clearly value. Pricing is well below the city average for the quality on offer, and the drop-in policy is genuinely flexible. It suits active movers who want a serious physical challenge in a studio that doesn&apos;t take itself too seriously.",
+    review: "Sinergia BCN reflects the character of Poblenou itself — energetic, unpretentious, and a little more experimental than what you find in the established central districts. The studio has built its reputation on athletic, fast-paced reformer classes that borrow from functional training and HIIT without abandoning the Pilates fundamentals, and the clientele skews younger and more fitness-oriented as a result. Instructors here are energetic and motivating without being performatively so, and the class atmosphere has a communal quality that regulars clearly value. Pricing is well below the city average for the quality on offer, and the drop-in policy is genuinely flexible. It suits active movers who want a serious physical challenge in a studio that doesn't take itself too seriously.",
     address: "—",
     bestFor: "Athletic reformer & HIIT fusion",
     signatureClass: "Sinergia Power 45",
@@ -96,7 +96,7 @@ const STUDIOS = [
     name: "PILAT3S Sagrada Família",
     neighborhood: "Sagrada Família",
     priceLevel: "€€€",
-    review: "PILAT3S is the most polished of Barcelona&apos;s boutique reformer chains, and the Sagrada Família location — positioned in the broad residential belt that surrounds Gaudí&apos;s cathedral — is among its best-executed outposts. The studio design is striking: dark finishes, dramatic lighting, and rows of equipment that signal a serious commitment to the reformer experience as a visual as well as physical proposition. Classes are fast-moving, music-driven, and structured for maximum efficiency within a 45-minute format, which suits professionals with tight schedules. The app-based booking system is slick and the cancellation policy is enforced, both signs of an operation that runs at genuine scale. It suits practitioners who want a consistent, high-production-value experience without the variability of independent studios.",
+    review: "PILAT3S is the most polished of Barcelona's boutique reformer chains, and the Sagrada Família location — positioned in the broad residential belt that surrounds Gaudí's cathedral — is among its best-executed outposts. The studio design is striking: dark finishes, dramatic lighting, and rows of equipment that signal a serious commitment to the reformer experience as a visual as well as physical proposition. Classes are fast-moving, music-driven, and structured for maximum efficiency within a 45-minute format, which suits professionals with tight schedules. The app-based booking system is slick and the cancellation policy is enforced, both signs of an operation that runs at genuine scale. It suits practitioners who want a consistent, high-production-value experience without the variability of independent studios.",
     address: "—",
     bestFor: "Tech-enabled reformer boutique chain",
     signatureClass: "PILAT3S Signature 45",
@@ -185,7 +185,7 @@ export default function BarcelonaPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Barcelona&apos;s relationship with wellness is deeply embedded in its culture — the city&apos;s climate, its architecture, its café rhythms all encourage a certain attentiveness to physical wellbeing. The Pilates scene here reflects this: studios tend to be beautifully housed, thoughtfully run, and staffed by teachers who treat the method seriously. This guide covers the five studios we rate most highly across the city&apos;s distinct neighbourhoods.
+              Barcelona's relationship with wellness is deeply embedded in its culture — the city's climate, its architecture, its café rhythms all encourage a certain attentiveness to physical wellbeing. The Pilates scene here reflects this: studios tend to be beautifully housed, thoughtfully run, and staffed by teachers who treat the method seriously. This guide covers the five studios we rate most highly across the city's distinct neighbourhoods.
             </p>
           </div>
         </section>
@@ -227,7 +227,7 @@ export default function BarcelonaPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Barcelona</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Barcelona&apos;s diverse neighbourhoods each offer a distinct studio culture and price point.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Barcelona's diverse neighbourhoods each offer a distinct studio culture and price point.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

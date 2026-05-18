@@ -63,7 +63,7 @@ const STUDIOS = [
     name: "Core Studio Pilates",
     neighborhood: "Queen West",
     priceLevel: "C$$$",
-    review: "Core Studio Pilates anchors the Queen West wellness corridor with a programme that matches the neighbourhood&apos;s design sensibility — considered, precise, and worth the investment. The studio runs reformer and apparatus classes in a beautifully appointed space, and the instruction is drawn from classical lineage with an intelligence that shows in the way teachers adapt to what is happening in the room rather than delivering a fixed routine. The clientele is predominantly creative professionals and Queen West regulars who regard their practice here as a non-negotiable part of the week. It is one of the most consistently praised studios in the city for the quality of its teaching staff.",
+    review: "Core Studio Pilates anchors the Queen West wellness corridor with a programme that matches the neighbourhood's design sensibility — considered, precise, and worth the investment. The studio runs reformer and apparatus classes in a beautifully appointed space, and the instruction is drawn from classical lineage with an intelligence that shows in the way teachers adapt to what is happening in the room rather than delivering a fixed routine. The clientele is predominantly creative professionals and Queen West regulars who regard their practice here as a non-negotiable part of the week. It is one of the most consistently praised studios in the city for the quality of its teaching staff.",
     address: "—",
     bestFor: "Classical-informed reformer, apparatus variety, Queen West professionals",
     signatureClass: "Core Reformer (55 min)",
@@ -85,7 +85,7 @@ const STUDIOS = [
     name: "Body Harmonics",
     neighborhood: "Dupont",
     priceLevel: "C$$$",
-    review: "Body Harmonics is one of Canada&apos;s most respected Pilates institutions — its teacher training programme has produced instructors working across the country, and the Dupont studio reflects the depth of that educational commitment in every class it offers. The teaching is rooted in functional anatomy and movement science, and instructors here think in terms of long-term structural change rather than short-term aesthetic outcomes, which produces a different quality of result for clients willing to engage at that level. Private and semi-private sessions allow the full scope of the Body Harmonics method to be applied to individual movement histories, and the results are consistently described as transformative by clients who have trained extensively elsewhere. It is Toronto&apos;s essential address for practitioners who regard Pilates as a therapeutic and developmental practice.",
+    review: "Body Harmonics is one of Canada's most respected Pilates institutions — its teacher training programme has produced instructors working across the country, and the Dupont studio reflects the depth of that educational commitment in every class it offers. The teaching is rooted in functional anatomy and movement science, and instructors here think in terms of long-term structural change rather than short-term aesthetic outcomes, which produces a different quality of result for clients willing to engage at that level. Private and semi-private sessions allow the full scope of the Body Harmonics method to be applied to individual movement histories, and the results are consistently described as transformative by clients who have trained extensively elsewhere. It is Toronto's essential address for practitioners who regard Pilates as a therapeutic and developmental practice.",
     address: "—",
     bestFor: "Movement science-grounded Pilates, rehabilitation, serious practitioners, teacher training",
     signatureClass: "Private and Semi-Private Apparatus",
@@ -96,7 +96,7 @@ const STUDIOS = [
     name: "Imprint Pilates",
     neighborhood: "Kensington Market",
     priceLevel: "C$$",
-    review: "Imprint Pilates brings rigorous reformer instruction to Kensington Market at pricing that reflects the neighbourhood&apos;s anti-premium sensibility, making it one of the more refreshing studios in a city where boutique fitness can feel aspirationally priced. The teaching is grounded and attentive — instructors make real adjustments and ask real questions about how clients are feeling in their bodies, which is rarer than it should be. The studio attracts a diverse mix of practitioners including many who discovered Pilates here and have no desire to train anywhere else. For practitioners based in the Annex, Harbord Village, or Kensington itself, it is the neighbourhood option with nothing to apologise for.",
+    review: "Imprint Pilates brings rigorous reformer instruction to Kensington Market at pricing that reflects the neighbourhood's anti-premium sensibility, making it one of the more refreshing studios in a city where boutique fitness can feel aspirationally priced. The teaching is grounded and attentive — instructors make real adjustments and ask real questions about how clients are feeling in their bodies, which is rarer than it should be. The studio attracts a diverse mix of practitioners including many who discovered Pilates here and have no desire to train anywhere else. For practitioners based in the Annex, Harbord Village, or Kensington itself, it is the neighbourhood option with nothing to apologise for.",
     address: "—",
     bestFor: "Reformer, accessible pricing, Kensington and Annex community",
     signatureClass: "Reformer Group",
@@ -185,7 +185,7 @@ export default function TorontoPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Toronto&apos;s Pilates scene is defined by depth — a city with serious instructor talent, a health-conscious professional class, and a studio culture that has evolved well beyond the boutique fitness wave of the 2010s. From the classical institutions of Midtown to the progressive boutique studios of Queen West and the community-rooted independents of the east end, the city&apos;s five best studios represent a genuinely diverse and high-quality landscape.
+              Toronto's Pilates scene is defined by depth — a city with serious instructor talent, a health-conscious professional class, and a studio culture that has evolved well beyond the boutique fitness wave of the 2010s. From the classical institutions of Midtown to the progressive boutique studios of Queen West and the community-rooted independents of the east end, the city's five best studios represent a genuinely diverse and high-quality landscape.
             </p>
           </div>
         </section>
@@ -197,7 +197,7 @@ export default function TorontoPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Toronto, Canada</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>A deep, diverse Pilates scene in North America&apos;s most multicultural city</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>A deep, diverse Pilates scene in North America's most multicultural city</p>
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@ export default function TorontoPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Toronto</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Toronto&apos;s Pilates landscape is shaped by its neighbourhoods.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Toronto's Pilates landscape is shaped by its neighbourhoods.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

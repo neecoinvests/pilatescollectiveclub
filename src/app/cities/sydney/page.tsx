@@ -50,7 +50,7 @@ const STUDIOS = [
     name: "Fluidform Pilates",
     neighborhood: "Paddington",
     priceLevel: "A$$$",
-    review: "Fluidform Pilates has earned a national reputation that extends well beyond its Paddington home, built on a distinctive method that integrates classical Pilates with contemporary movement science and a genuine commitment to intelligent body awareness. Founder Kirsten King&apos;s influence is felt throughout the studio — in the quality of the instructors she has trained, the programming architecture, and the considered way the space is designed and managed. The clientele is predominantly women in their thirties and forties who are serious about how they move and willing to invest accordingly. Paddington suits the brand: upscale without being ostentatious, neighbourhood-rooted without being provincial. The online platform has extended the method globally, but the studio sessions carry something extra.",
+    review: "Fluidform Pilates has earned a national reputation that extends well beyond its Paddington home, built on a distinctive method that integrates classical Pilates with contemporary movement science and a genuine commitment to intelligent body awareness. Founder Kirsten King's influence is felt throughout the studio — in the quality of the instructors she has trained, the programming architecture, and the considered way the space is designed and managed. The clientele is predominantly women in their thirties and forties who are serious about how they move and willing to invest accordingly. Paddington suits the brand: upscale without being ostentatious, neighbourhood-rooted without being provincial. The online platform has extended the method globally, but the studio sessions carry something extra.",
     address: "—",
     bestFor: "Signature Fluidform method, all levels",
     signatureClass: "Fluidform Reformer",
@@ -61,7 +61,7 @@ const STUDIOS = [
     name: "BodyMindLife",
     neighborhood: "Surry Hills",
     priceLevel: "A$$$",
-    review: "BodyMindLife in Surry Hills is Sydney&apos;s most philosophically ambitious wellness studio — a space that takes the mind-body connection seriously as a teaching framework rather than using it as branding. The Pilates programme sits alongside yoga and meditation offerings in an integrated way that reflects genuine institutional conviction, and the instructors are selected for their capacity to work within that broader context. The Surry Hills space is beautiful in the way Sydney&apos;s best creative businesses tend to be: natural light, considered materials, and an atmosphere that encourages you to slow down and attend carefully. The clientele is educated, eclectic, and health-committed. Best for practitioners who want their Pilates to be part of something larger.",
+    review: "BodyMindLife in Surry Hills is Sydney's most philosophically ambitious wellness studio — a space that takes the mind-body connection seriously as a teaching framework rather than using it as branding. The Pilates programme sits alongside yoga and meditation offerings in an integrated way that reflects genuine institutional conviction, and the instructors are selected for their capacity to work within that broader context. The Surry Hills space is beautiful in the way Sydney's best creative businesses tend to be: natural light, considered materials, and an atmosphere that encourages you to slow down and attend carefully. The clientele is educated, eclectic, and health-committed. Best for practitioners who want their Pilates to be part of something larger.",
     address: "—",
     bestFor: "Integrated mind-body Pilates",
     signatureClass: "Reformer & Restore",
@@ -72,7 +72,7 @@ const STUDIOS = [
     name: "Studio Mouvoir",
     neighborhood: "Potts Point",
     priceLevel: "A$$$",
-    review: "Studio Mouvoir occupies a refined Potts Point space and operates with the quiet intensity of a studio that knows exactly what it is doing. The teaching draws from a classical foundation with a strong dance influence — several instructors have professional performance backgrounds — and the emphasis on movement quality over volume is immediately apparent. Classes are small and sessions are sequenced with care, creating a coherent experience from warm-up through to completion that larger studios rarely manage. The Potts Point clientele is cosmopolitan and aesthetically attuned, and the studio&apos;s clean, European-influenced design sensibility resonates with them. A particularly good choice for practitioners who have plateaued elsewhere and need more sophisticated instruction.",
+    review: "Studio Mouvoir occupies a refined Potts Point space and operates with the quiet intensity of a studio that knows exactly what it is doing. The teaching draws from a classical foundation with a strong dance influence — several instructors have professional performance backgrounds — and the emphasis on movement quality over volume is immediately apparent. Classes are small and sessions are sequenced with care, creating a coherent experience from warm-up through to completion that larger studios rarely manage. The Potts Point clientele is cosmopolitan and aesthetically attuned, and the studio's clean, European-influenced design sensibility resonates with them. A particularly good choice for practitioners who have plateaued elsewhere and need more sophisticated instruction.",
     address: "—",
     bestFor: "Classical Pilates with dance influence",
     signatureClass: "Reformer Classique",
@@ -83,7 +83,7 @@ const STUDIOS = [
     name: "Mode Pilates",
     neighborhood: "Newtown",
     priceLevel: "A$$",
-    review: "Mode Pilates has become one of Newtown&apos;s most reliable fitness institutions — unpretentious, technically solid, and priced for a neighbourhood that values substance over status. The reformer classes are well-structured and the instructors are genuinely invested in client progression, which creates a loyalty loop that keeps the studio consistently full without needing to oversell itself. The atmosphere is relaxed and inclusive in the way the inner west tends to be: different bodies, different ages, different levels, all working in the same room without hierarchy. Mode suits people who want excellent Pilates without the premium-boutique theatre. An honest, high-quality studio that more than earns its strong local reputation.",
+    review: "Mode Pilates has become one of Newtown's most reliable fitness institutions — unpretentious, technically solid, and priced for a neighbourhood that values substance over status. The reformer classes are well-structured and the instructors are genuinely invested in client progression, which creates a loyalty loop that keeps the studio consistently full without needing to oversell itself. The atmosphere is relaxed and inclusive in the way the inner west tends to be: different bodies, different ages, different levels, all working in the same room without hierarchy. Mode suits people who want excellent Pilates without the premium-boutique theatre. An honest, high-quality studio that more than earns its strong local reputation.",
     address: "—",
     bestFor: "Accessible, quality reformer for all levels",
     signatureClass: "Reformer Fundamentals & Flow",
@@ -94,7 +94,7 @@ const STUDIOS = [
     name: "KX Pilates",
     neighborhood: "Bondi Junction",
     priceLevel: "A$$$",
-    review: "KX Pilates is Australia&apos;s most recognisable reformer brand and the Bondi Junction studio is one of its strongest performing locations, serving a demographic that demands intensity and efficiency in roughly equal measure. The KX method is high-energy, music-led, and deliberately demanding — 50-minute classes designed to be metabolically challenging as well as Pilates-grounded. The instructors are uniformly upbeat and technically competent, managing large class sizes without allowing standards to slip. The Bondi Junction location draws from both the eastern suburbs fitness community and the CBD-adjacent professional crowd, creating a lively and motivating atmosphere. Best suited to practitioners who want their Pilates to double as cardio conditioning.",
+    review: "KX Pilates is Australia's most recognisable reformer brand and the Bondi Junction studio is one of its strongest performing locations, serving a demographic that demands intensity and efficiency in roughly equal measure. The KX method is high-energy, music-led, and deliberately demanding — 50-minute classes designed to be metabolically challenging as well as Pilates-grounded. The instructors are uniformly upbeat and technically competent, managing large class sizes without allowing standards to slip. The Bondi Junction location draws from both the eastern suburbs fitness community and the CBD-adjacent professional crowd, creating a lively and motivating atmosphere. Best suited to practitioners who want their Pilates to double as cardio conditioning.",
     address: "—",
     bestFor: "High-energy group reformer",
     signatureClass: "KX Reformer 50",
@@ -105,7 +105,7 @@ const STUDIOS = [
     name: "Bodylove Pilates",
     neighborhood: "Manly",
     priceLevel: "A$$",
-    review: "Bodylove Pilates has established itself as Manly&apos;s most trusted reformer studio, earning a devoted following in a neighbourhood where outdoor fitness culture could easily crowd out indoor movement practice. The studio&apos;s strength is its consistency: the instruction quality is reliably high, the programming is sensibly progressive, and the atmosphere is warm without being saccharine. It draws a cross-generational clientele — young professionals who surf and want complementary conditioning, as well as clients in their fifties and sixties who have discovered Pilates as a long-term physical investment. The pricing reflects the studio&apos;s community-minded positioning: competitive enough to encourage regularity. A genuine neighbourhood asset in the best sense.",
+    review: "Bodylove Pilates has established itself as Manly's most trusted reformer studio, earning a devoted following in a neighbourhood where outdoor fitness culture could easily crowd out indoor movement practice. The studio's strength is its consistency: the instruction quality is reliably high, the programming is sensibly progressive, and the atmosphere is warm without being saccharine. It draws a cross-generational clientele — young professionals who surf and want complementary conditioning, as well as clients in their fifties and sixties who have discovered Pilates as a long-term physical investment. The pricing reflects the studio's community-minded positioning: competitive enough to encourage regularity. A genuine neighbourhood asset in the best sense.",
     address: "—",
     bestFor: "Community-focused reformer, all ages",
     signatureClass: "Reformer Flow",
@@ -248,7 +248,7 @@ export default function SydneyPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Sydney has one of the most developed Pilates cultures in the southern hemisphere. The city&apos;s appetite for high-quality movement, outdoor living, and physical wellness has produced a reformer studio scene that punches well above its weight globally. From harbourside boutiques in Mosman to high-energy reformer studios in Bondi, the standard of instruction is consistently impressive. This guide covers the five studios we rate most highly, from the CBD to the eastern suburbs, along with everything you need to know before booking your first class.
+              Sydney has one of the most developed Pilates cultures in the southern hemisphere. The city's appetite for high-quality movement, outdoor living, and physical wellness has produced a reformer studio scene that punches well above its weight globally. From harbourside boutiques in Mosman to high-energy reformer studios in Bondi, the standard of instruction is consistently impressive. This guide covers the five studios we rate most highly, from the CBD to the eastern suburbs, along with everything you need to know before booking your first class.
             </p>
           </div>
         </section>
@@ -266,7 +266,7 @@ export default function SydneyPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Sydney, Australia</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>One of the southern hemisphere&apos;s most vibrant Pilates markets</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>One of the southern hemisphere's most vibrant Pilates markets</p>
                 </div>
               </div>
             </div>
@@ -311,7 +311,7 @@ export default function SydneyPage() {
               Best neighbourhoods for Pilates in Sydney
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Sydney&apos;s Pilates landscape is shaped by its neighbourhoods. Here&apos;s where to look depending on where you&apos;re based.
+              Sydney's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

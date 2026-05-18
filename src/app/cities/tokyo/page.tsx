@@ -41,9 +41,9 @@ const STUDIOS = [
     name: "Re-Juvenate Pilates",
     neighborhood: "Minami-Aoyama",
     priceLevel: "¥¥¥¥",
-    review: "Re-Juvenate occupies a discreet upper-floor studio in the heart of Minami-Aoyama, where the neighbourhood&apos;s appetite for understated excellence translates directly into the teaching. The approach is rooted in classical Pilates methodology, but instructors here have the depth to adapt intelligently for each client — whether a recovering dancer or a first-time practitioner navigating chronic back pain. Equipment is immaculate, sessions are unhurried, and the atmosphere carries the particular calm of a studio that has never needed to advertise. It draws a loyal clientele of architects, gallery owners, and international residents who treat it as a non-negotiable part of their week. Serious practitioners who want precision over novelty will find it difficult to train anywhere else after experiencing the standard set here.",
+    review: "Re-Juvenate occupies a discreet upper-floor studio in the heart of Minami-Aoyama, where the neighbourhood's appetite for understated excellence translates directly into the teaching. The approach is rooted in classical Pilates methodology, but instructors here have the depth to adapt intelligently for each client — whether a recovering dancer or a first-time practitioner navigating chronic back pain. Equipment is immaculate, sessions are unhurried, and the atmosphere carries the particular calm of a studio that has never needed to advertise. It draws a loyal clientele of architects, gallery owners, and international residents who treat it as a non-negotiable part of their week. Serious practitioners who want precision over novelty will find it difficult to train anywhere else after experiencing the standard set here.",
     address: "—",
-    bestFor: "Classical Pilates precision in Tokyo&apos;s design quarter",
+    bestFor: "Classical Pilates precision in Tokyo's design quarter",
     signatureClass: "Re-Juvenate Signature Reformer",
     bookingTip: "English-friendly staff; book at least 3 days ahead for peak slots",
   },
@@ -52,7 +52,7 @@ const STUDIOS = [
     name: "My Body My Pilates",
     neighborhood: "Omotesando",
     priceLevel: "¥¥¥¥",
-    review: "Tucked into one of Omotesando&apos;s quieter side streets, My Body My Pilates has built its reputation on the kind of individualised attention that group-class culture cannot replicate. Every session begins with a short dialogue about the body&apos;s current state — injuries, energy levels, goals — and the programming adjusts accordingly. The studio attracts professionals in their thirties and forties who have moved past the group-fitness phase and want training that actually changes their body composition and posture over time. Instructors hold international certifications and several have backgrounds in physical therapy, which lends the cueing a clinical precision that clients quickly come to depend on. The minimalist interior, quality Balanced Body equipment, and near-silent atmosphere make each visit feel restorative rather than merely functional.",
+    review: "Tucked into one of Omotesando's quieter side streets, My Body My Pilates has built its reputation on the kind of individualised attention that group-class culture cannot replicate. Every session begins with a short dialogue about the body's current state — injuries, energy levels, goals — and the programming adjusts accordingly. The studio attracts professionals in their thirties and forties who have moved past the group-fitness phase and want training that actually changes their body composition and posture over time. Instructors hold international certifications and several have backgrounds in physical therapy, which lends the cueing a clinical precision that clients quickly come to depend on. The minimalist interior, quality Balanced Body equipment, and near-silent atmosphere make each visit feel restorative rather than merely functional.",
     address: "—",
     bestFor: "Semi-private reformer and postural correction work",
     signatureClass: "Body Composition Reformer",
@@ -63,7 +63,7 @@ const STUDIOS = [
     name: "Sky Pilates Tokyo",
     neighborhood: "Shibuya",
     priceLevel: "¥¥¥",
-    review: "Sky Pilates earns its name with a studio floor positioned high above Shibuya&apos;s perpetual motion, offering the unusual experience of training with city panoramas stretching in every direction. The instruction blends reformer fundamentals with aerial apparatus work, making it genuinely distinctive in a market where most studios adhere to conventional formats. Classes are energetic without being aggressive, and the teaching team is notably strong at motivating clients who are still building their Pilates vocabulary. It suits urban practitioners who need the efficiency of a well-run group class but want something more inspiring than a basement box room. The combination of views, varied programming, and accessible pricing for the neighbourhood makes Sky one of the more straightforward recommendations in central Tokyo.",
+    review: "Sky Pilates earns its name with a studio floor positioned high above Shibuya's perpetual motion, offering the unusual experience of training with city panoramas stretching in every direction. The instruction blends reformer fundamentals with aerial apparatus work, making it genuinely distinctive in a market where most studios adhere to conventional formats. Classes are energetic without being aggressive, and the teaching team is notably strong at motivating clients who are still building their Pilates vocabulary. It suits urban practitioners who need the efficiency of a well-run group class but want something more inspiring than a basement box room. The combination of views, varied programming, and accessible pricing for the neighbourhood makes Sky one of the more straightforward recommendations in central Tokyo.",
     address: "—",
     bestFor: "Aerial and reformer Pilates with panoramic city views",
     signatureClass: "Sky Aerial Reformer",
@@ -74,7 +74,7 @@ const STUDIOS = [
     name: "KX Pilates Higashi-Shinjuku",
     neighborhood: "Shinjuku",
     priceLevel: "¥¥¥",
-    review: "The Tokyo outpost of the Australian KX Pilates network brings the brand&apos;s signature high-intensity reformer methodology to Shinjuku with notable fidelity to the original concept. Classes are fifty minutes of structured, progressive work — heavier spring loads, faster transitions, and a cardio underpinning that separates it clearly from studios emphasising slow, corrective movement. The studio is popular with younger professionals and athletes who want the physical challenge of a proper workout alongside the joint-safe benefits of reformer work. Instructors are certified through KX&apos;s own training pipeline and maintain consistent cueing standards across the class lineup. For practitioners who find conventional Pilates too gentle, this is the logical answer in a neighbourhood that otherwise has limited premium options.",
+    review: "The Tokyo outpost of the Australian KX Pilates network brings the brand's signature high-intensity reformer methodology to Shinjuku with notable fidelity to the original concept. Classes are fifty minutes of structured, progressive work — heavier spring loads, faster transitions, and a cardio underpinning that separates it clearly from studios emphasising slow, corrective movement. The studio is popular with younger professionals and athletes who want the physical challenge of a proper workout alongside the joint-safe benefits of reformer work. Instructors are certified through KX's own training pipeline and maintain consistent cueing standards across the class lineup. For practitioners who find conventional Pilates too gentle, this is the logical answer in a neighbourhood that otherwise has limited premium options.",
     address: "—",
     bestFor: "High-intensity Australian reformer method for athletic clients",
     signatureClass: "KX50 Power",
@@ -85,7 +85,7 @@ const STUDIOS = [
     name: "LAGREE MICRO Studio",
     neighborhood: "Daikanyama",
     priceLevel: "¥¥¥¥",
-    review: "LAGREE MICRO Studio operates at the extreme end of the boutique spectrum: maximum four clients per class, Megaformer machines, and a format that has nothing in common with the loosely branded &apos;Lagree-inspired&apos; classes proliferating elsewhere in the city. The studio&apos;s Daikanyama address signals its positioning — this is a neighbourhood of concept stores and independent coffee roasters, and the clientele matches that sensibility in their approach to wellness. Instructors coach each client through every transition, maintaining the slow-twitch muscular fatigue that the Lagree method depends on for its results. Regular clients often describe a noticeable change in body composition within six to eight weeks, which drives the strong word-of-mouth that keeps the booking calendar perpetually full. Those willing to invest in the higher per-session cost will find the results-to-effort ratio among the best in Tokyo.",
+    review: "LAGREE MICRO Studio operates at the extreme end of the boutique spectrum: maximum four clients per class, Megaformer machines, and a format that has nothing in common with the loosely branded 'Lagree-inspired' classes proliferating elsewhere in the city. The studio's Daikanyama address signals its positioning — this is a neighbourhood of concept stores and independent coffee roasters, and the clientele matches that sensibility in their approach to wellness. Instructors coach each client through every transition, maintaining the slow-twitch muscular fatigue that the Lagree method depends on for its results. Regular clients often describe a noticeable change in body composition within six to eight weeks, which drives the strong word-of-mouth that keeps the booking calendar perpetually full. Those willing to invest in the higher per-session cost will find the results-to-effort ratio among the best in Tokyo.",
     address: "—",
     bestFor: "Lagree Megaformer method in an ultra-intimate setting",
     signatureClass: "LAGREE MICRO 50",
@@ -96,7 +96,7 @@ const STUDIOS = [
     name: "zen place pilates",
     neighborhood: "Ebisu",
     priceLevel: "¥¥¥",
-    review: "zen place pilates is Japan&apos;s most significant Pilates operator, and the Ebisu location exemplifies why the brand has succeeded where many boutique competitors have struggled to scale without diluting quality. The studios are spacious, the Stott-certified equipment is maintained to a high standard, and the instructor development programme is rigorous enough to produce genuinely skilled teachers across a large network. The Ebisu branch draws a mixed clientele — local executives, expat families, and committed practitioners who appreciate the reliability of consistent, technically grounded instruction. The membership structure allows clients to train across multiple city locations, which is a practical advantage in a metropolitan area where commuting patterns change week to week. For those new to Tokyo or new to Pilates, zen place offers the best combination of accessibility, quality, and logistical flexibility in the city.",
+    review: "zen place pilates is Japan's most significant Pilates operator, and the Ebisu location exemplifies why the brand has succeeded where many boutique competitors have struggled to scale without diluting quality. The studios are spacious, the Stott-certified equipment is maintained to a high standard, and the instructor development programme is rigorous enough to produce genuinely skilled teachers across a large network. The Ebisu branch draws a mixed clientele — local executives, expat families, and committed practitioners who appreciate the reliability of consistent, technically grounded instruction. The membership structure allows clients to train across multiple city locations, which is a practical advantage in a metropolitan area where commuting patterns change week to week. For those new to Tokyo or new to Pilates, zen place offers the best combination of accessibility, quality, and logistical flexibility in the city.",
     address: "—",
     bestFor: "Reliable, technically grounded Pilates across multiple locations",
     signatureClass: "zen place Signature Reformer",
@@ -185,7 +185,7 @@ export default function TokyoPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Tokyo&apos;s Pilates scene reflects the city itself: meticulous, quietly excellent, and far deeper than its international profile suggests. Concentrated in the upscale neighbourhoods of Minami-Aoyama, Ebisu, and Nishi-Azabu, the city&apos;s best studios combine Japanese precision with instructors trained across Europe, the US, and Australia — producing a practice culture that is technical, disciplined, and increasingly sophisticated. This guide covers the five studios we rate most highly across the city.
+              Tokyo's Pilates scene reflects the city itself: meticulous, quietly excellent, and far deeper than its international profile suggests. Concentrated in the upscale neighbourhoods of Minami-Aoyama, Ebisu, and Nishi-Azabu, the city's best studios combine Japanese precision with instructors trained across Europe, the US, and Australia — producing a practice culture that is technical, disciplined, and increasingly sophisticated. This guide covers the five studios we rate most highly across the city.
             </p>
           </div>
         </section>
@@ -233,7 +233,7 @@ export default function TokyoPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Tokyo</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Tokyo&apos;s Pilates landscape is shaped by its neighbourhoods.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Tokyo's Pilates landscape is shaped by its neighbourhoods.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

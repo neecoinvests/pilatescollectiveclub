@@ -58,13 +58,13 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Tim&apos;s Pilates",
+    name: "Tim's Pilates",
     neighborhood: "Östermalm",
     priceLevel: "kr ··",
-    review: "Tim&apos;s Pilates has earned a reputation as Stockholm&apos;s most technically demanding reformer studio, and its location in Östermalm — the quietly aristocratic district east of the city centre — is entirely fitting for a practice that values precision over performance. The studio is run with genuine rigour: class sizes are small, progressions are tracked, and the instruction reflects a deep understanding of both the classical lineage and contemporary movement science. Östermalm&apos;s clientele of diplomats, executives, and seriously health-conscious residents provides a naturally committed audience, and the atmosphere is one of focused effort rather than boutique spectacle. Equipment is premium and maintained to a high standard. It suits experienced practitioners who want to be genuinely challenged by instruction that meets them at their level.",
+    review: "Tim's Pilates has earned a reputation as Stockholm's most technically demanding reformer studio, and its location in Östermalm — the quietly aristocratic district east of the city centre — is entirely fitting for a practice that values precision over performance. The studio is run with genuine rigour: class sizes are small, progressions are tracked, and the instruction reflects a deep understanding of both the classical lineage and contemporary movement science. Östermalm's clientele of diplomats, executives, and seriously health-conscious residents provides a naturally committed audience, and the atmosphere is one of focused effort rather than boutique spectacle. Equipment is premium and maintained to a high standard. It suits experienced practitioners who want to be genuinely challenged by instruction that meets them at their level.",
     address: "—",
     bestFor: "Technical depth, advanced programming",
-    signatureClass: "Tim&apos;s Advanced Reformer",
+    signatureClass: "Tim's Advanced Reformer",
     bookingTip: "New clients must complete an intro assessment session",
   },
   {
@@ -72,7 +72,7 @@ const STUDIOS = [
     name: "Pilates Via",
     neighborhood: "Södermalm",
     priceLevel: "kr ··",
-    review: "Pilates Via has become a fixture in Södermalm&apos;s well-developed wellness landscape, sitting comfortably alongside the island district&apos;s culture of independent studios, independent thinking, and a healthy suspicion of anything too corporate. The studio has a strong aesthetic identity — considered interiors, natural materials, restrained branding — that reflects Söder&apos;s design sensibility without feeling contrived. Instruction is contemporary and intelligent, drawing on classical Pilates principles with a somatic awareness that suits a neighbourhood clientele accustomed to thoughtful, evidence-based wellness practice. Class sizes are appropriately small and the scheduling accommodates the island&apos;s mix of early risers and flexible creatives. It suits practitioners who want a premium experience that still feels human-scale and genuinely rooted in its neighbourhood.",
+    review: "Pilates Via has become a fixture in Södermalm's well-developed wellness landscape, sitting comfortably alongside the island district's culture of independent studios, independent thinking, and a healthy suspicion of anything too corporate. The studio has a strong aesthetic identity — considered interiors, natural materials, restrained branding — that reflects Söder's design sensibility without feeling contrived. Instruction is contemporary and intelligent, drawing on classical Pilates principles with a somatic awareness that suits a neighbourhood clientele accustomed to thoughtful, evidence-based wellness practice. Class sizes are appropriately small and the scheduling accommodates the island's mix of early risers and flexible creatives. It suits practitioners who want a premium experience that still feels human-scale and genuinely rooted in its neighbourhood.",
     address: "—",
     bestFor: "Design-forward studio, somatic approach",
     signatureClass: "Via Reformer Essentials",
@@ -94,7 +94,7 @@ const STUDIOS = [
     name: "Stockholm Pilates Center",
     neighborhood: "Kungsholmen",
     priceLevel: "kr ··",
-    review: "Stockholm Pilates Center occupies a prominent position on Kungsholmen — the island west of the old town where City Hall stands and a dense residential population of professionals and families has established one of the city&apos;s strongest studio cultures. The centre operates across the full Pilates apparatus with a seriousness that few Stockholm studios match: mat, reformer, cadillac, and chair are all taught to a consistently high standard, and the studio has the depth of programming to support practitioners across a multi-year trajectory. Instructors are credentialed and committed, and the overall atmosphere is one of informed seriousness without the austerity that sometimes accompanies classical training environments. It suits practitioners ready to invest in a long-term relationship with the method rather than a series of standalone sessions.",
+    review: "Stockholm Pilates Center occupies a prominent position on Kungsholmen — the island west of the old town where City Hall stands and a dense residential population of professionals and families has established one of the city's strongest studio cultures. The centre operates across the full Pilates apparatus with a seriousness that few Stockholm studios match: mat, reformer, cadillac, and chair are all taught to a consistently high standard, and the studio has the depth of programming to support practitioners across a multi-year trajectory. Instructors are credentialed and committed, and the overall atmosphere is one of informed seriousness without the austerity that sometimes accompanies classical training environments. It suits practitioners ready to invest in a long-term relationship with the method rather than a series of standalone sessions.",
     address: "—",
     bestFor: "Full apparatus, multi-year progression",
     signatureClass: "SPC Comprehensive Reformer",
@@ -105,7 +105,7 @@ const STUDIOS = [
     name: "The Place Stockholm",
     neighborhood: "Norrmalm",
     priceLevel: "kr ··",
-    review: "The Place Stockholm has established itself in Norrmalm — the commercial heart of the city, where Stockholm&apos;s major offices, hotels, and cultural institutions are concentrated — as the natural choice for professionals who want a premium reformer session before or after the working day. The studio is polished and well-resourced, the scheduling intensive, and the instruction delivered by a team that understands the particular needs of clients arriving from and returning to demanding professional contexts: efficiency, precision, and visible results. The class formats are clean and well-defined, making it easy for new clients to navigate the programme without extensive orientation. The bilingual instruction (Swedish-English) is a practical advantage in an international business district. It suits high-performing professionals who want their training to match the standard they set in everything else.",
+    review: "The Place Stockholm has established itself in Norrmalm — the commercial heart of the city, where Stockholm's major offices, hotels, and cultural institutions are concentrated — as the natural choice for professionals who want a premium reformer session before or after the working day. The studio is polished and well-resourced, the scheduling intensive, and the instruction delivered by a team that understands the particular needs of clients arriving from and returning to demanding professional contexts: efficiency, precision, and visible results. The class formats are clean and well-defined, making it easy for new clients to navigate the programme without extensive orientation. The bilingual instruction (Swedish-English) is a practical advantage in an international business district. It suits high-performing professionals who want their training to match the standard they set in everything else.",
     address: "—",
     bestFor: "Professional clientele, central scheduling, bilingual instruction",
     signatureClass: "The Place Reformer Express",
@@ -131,7 +131,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Book well in advance — particularly in winter",
-    body: "Stockholm&apos;s indoor wellness culture intensifies in the darker months. January through March sees peak demand across all studios. During this period, prime-time classes can sell out within hours of the weekly booking window opening. Set a calendar reminder for your preferred studio&apos;s release day.",
+    body: "Stockholm's indoor wellness culture intensifies in the darker months. January through March sees peak demand across all studios. During this period, prime-time classes can sell out within hours of the weekly booking window opening. Set a calendar reminder for your preferred studio's release day.",
   },
   {
     heading: "Most studios use MindBody or proprietary apps",
@@ -151,7 +151,7 @@ const NEIGHBORHOODS = [
   {
     name: "Östermalm",
     description:
-      "Stockholm&apos;s most prestigious residential district sets the standard for premium Pilates in Sweden. Studios here are beautifully designed, meticulously operated, and priced accordingly. The clientele is discerning and the instruction consistently strong. Pilates Östermalm is the landmark address.",
+      "Stockholm's most prestigious residential district sets the standard for premium Pilates in Sweden. Studios here are beautifully designed, meticulously operated, and priced accordingly. The clientele is discerning and the instruction consistently strong. Pilates Östermalm is the landmark address.",
   },
   {
     name: "Vasastan",
@@ -161,12 +161,12 @@ const NEIGHBORHOODS = [
   {
     name: "Norrmalm",
     description:
-      "Stockholm&apos;s commercial centre has become an increasingly viable location for boutique wellness thanks to studios like Studio Norr, which prove that quality and central convenience aren&apos;t mutually exclusive. Excellent for visitors and professionals without time to travel to residential neighbourhoods.",
+      "Stockholm's commercial centre has become an increasingly viable location for boutique wellness thanks to studios like Studio Norr, which prove that quality and central convenience aren't mutually exclusive. Excellent for visitors and professionals without time to travel to residential neighbourhoods.",
   },
   {
     name: "Södermalm",
     description:
-      "The island south of the city centre is Stockholm&apos;s creative quarter — and it&apos;s produced a Pilates culture to match. Studios here tend to be more accessible in price and more progressive in programming, with a community culture that&apos;s warmer and less scene-driven than the northern neighbourhoods.",
+      "The island south of the city centre is Stockholm's creative quarter — and it's produced a Pilates culture to match. Studios here tend to be more accessible in price and more progressive in programming, with a community culture that's warmer and less scene-driven than the northern neighbourhoods.",
   },
 ];
 
@@ -259,7 +259,7 @@ export default function StockholmPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Stockholm has developed one of northern Europe&apos;s most coherent wellness cultures, and its Pilates scene is a reflection of that. The city&apos;s instinct for quality design, combined with a population that takes movement seriously, has produced a group of studios that compare favourably with anything in London or Paris. From the premium reformer boutiques of Östermalm to the community-minded spaces of Södermalm, this guide covers the five studios that best represent Stockholm&apos;s considerable Pilates offering.
+              Stockholm has developed one of northern Europe's most coherent wellness cultures, and its Pilates scene is a reflection of that. The city's instinct for quality design, combined with a population that takes movement seriously, has produced a group of studios that compare favourably with anything in London or Paris. From the premium reformer boutiques of Östermalm to the community-minded spaces of Södermalm, this guide covers the five studios that best represent Stockholm's considerable Pilates offering.
             </p>
           </div>
         </section>
@@ -322,7 +322,7 @@ export default function StockholmPage() {
               Best neighbourhoods for Pilates in Stockholm
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Stockholm&apos;s Pilates landscape is shaped by its neighbourhoods.
+              Stockholm's Pilates landscape is shaped by its neighbourhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
