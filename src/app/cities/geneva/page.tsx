@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Geneva | Pilates Collective Club",
+  title: "The Best Pilates Studios in Geneva",
   description:
-    "Our curated guide to the best Pilates studios in Geneva — from Form Studio and Pilates Social Club to Swissbody®, the region's most established classical studio. Five verified picks.",
+    "The best Pilates studios in Geneva — classical reformer near the lake, expat-friendly English classes, and wellness retreats. Curated & verified picks.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates genève", "pilates geneva", "reformer pilates geneva", "best pilates geneva", "pilates studios geneva"],
   openGraph: {
     title: "The Best Pilates Studios in Geneva",

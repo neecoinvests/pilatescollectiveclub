@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Dubai (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Dubai (2026)",
   description:
     "Find the best Pilates studios in Dubai — from luxury reformer boutiques in DIFC to community studios in Jumeirah. Our curated guide to Dubai Pilates in 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: [
     "pilates studios dubai",
     "reformer pilates dubai",

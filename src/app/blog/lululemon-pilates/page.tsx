@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Lululemon for Pilates (2026): Best Pieces for Studio & Reformer | Pilates Collective Club",
-  description: "The definitive guide to Lululemon for Pilates — Align Pant, Align Bra, Flow Y, and Define Jacket reviewed for studio and reformer use. What to buy and what to skip.",
+  description: "Lululemon Pilates wear reviewed: Align, Wunder Train, and Studio leggings tested for reformer and mat. The best Lululemon pieces for Pilates in 2026.",
   keywords: ["lululemon pilates", "lululemon for pilates", "lululemon align pilates", "lululemon align pant review", "lululemon align bra pilates", "lululemon flow y pilates", "lululemon vs alo pilates", "best lululemon for pilates", "lululemon reformer pilates", "lululemon pilates 2026"],
   openGraph: {
     title: "Lululemon for Pilates (2026): Best Pieces for Studio & Reformer",

@@ -9,7 +9,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Pilates vs Barre (2026): Which Workout Is Right for You? | Pilates Collective Club",
-  description: "Pilates vs barre — a clear breakdown of their differences in core focus, equipment, injury benefit, cardio, and cost, so you can choose the right discipline for your goals.",
+  description: "Pilates vs. barre: muscle focus, equipment, intensity, and results compared. Which class is better for your goals, schedule, and fitness level?",
   keywords: [
     "pilates vs barre",
     "barre vs pilates differences",

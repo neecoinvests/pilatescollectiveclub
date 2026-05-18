@@ -8,8 +8,14 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Hong Kong (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Hong Kong",
   description: "Pilates studios in Hong Kong: our curated guide to the five best reformer and mat studios across Central, Wan Chai, and the Southside — verified for 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates studios hong kong", "reformer pilates hong kong", "best pilates hong kong", "pilates central hong kong", "pilates wan chai", "boutique pilates hk", "pilates classes hong kong", "hong kong wellness studios"],
   openGraph: {
     title: "Best Pilates Studios in Hong Kong (2026)",

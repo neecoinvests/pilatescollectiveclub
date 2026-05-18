@@ -8,8 +8,14 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Toronto (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Toronto (2026)",
   description: "Pilates studios in Toronto: our curated guide to the five best reformer and mat studios across Yorkville, Queen West, and the Annex — verified for 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates studios toronto", "reformer pilates toronto", "best pilates toronto", "pilates yorkville toronto", "pilates queen west", "boutique pilates toronto", "pilates classes toronto", "toronto wellness studios"],
   openGraph: {
     title: "Best Pilates Studios in Toronto (2026)",

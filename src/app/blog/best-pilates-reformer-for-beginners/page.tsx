@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer for Beginners (2026): What to Buy and When | Pilates Collective Club",
-  description: "The best Pilates reformer for beginners — honest advice on which machine to start on, what specs matter when you're new, and when NOT to buy before you're ready.",
+  description: "The best Pilates reformers for beginners in 2026: entry-level machines with easy spring adjustments, clear footbars, and safety features. Reviewed.",
   keywords: ["best pilates reformer for beginners", "pilates reformer beginner", "which pilates reformer to buy", "beginner pilates reformer guide", "aeropilates for beginners", "starting pilates reformer at home", "pilates reformer first buy", "how to choose a pilates reformer beginner", "best starter pilates reformer", "pilates reformer 2026 beginner"],
   openGraph: {
     title: "Best Pilates Reformer for Beginners (2026)",

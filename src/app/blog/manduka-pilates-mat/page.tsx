@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Manduka Pilates Mat (2026): PRO vs eKO vs PRO Lite Compared | Pilates Collective Club",
-  description: "Which Manduka mat is right for Pilates — PRO (6mm, lifetime guarantee), eKO (natural rubber), or PRO Lite (travel-ready)? Tested for spinal feedback and grip quality.",
+  description: "Manduka Pilates mats reviewed: PRO, eKO, and PROlite compared on thickness, grip, and durability for mat Pilates and reformer work. Full guide.",
   keywords: ["manduka pilates mat", "manduka pro mat pilates", "manduka eko mat pilates", "manduka pro lite pilates", "manduka mat review 2026", "best manduka for pilates", "manduka pro vs eko pilates", "manduka mat comparison", "manduka superlite travel mat", "manduka pilates review"],
   openGraph: {
     title: "Manduka Pilates Mat (2026): PRO, eKO, and PRO Lite Compared",

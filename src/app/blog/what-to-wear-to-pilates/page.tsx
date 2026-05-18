@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "What to Wear to Pilates (2026): The Complete Outfit Guide | Pilates Collective Club",
-  description: "Exactly what to wear to Pilates — reformer, mat, and barre. The right leggings, tops, layers, and why grip socks matter. A clear guide for your first and every class.",
+  description: "What to wear to Pilates: leggings, grip socks, sports bras, and tops that work for reformer and mat. Best brands and what to avoid. 2026 guide.",
   openGraph: {
     title: "What to Wear to Pilates (2026): The Complete Outfit Guide",
     description: "Exactly what to wear to Pilates — for reformer, mat, and barre classes. The best leggings, tops, and layers reviewed, with what to avoid and why fit matters more than brand.",

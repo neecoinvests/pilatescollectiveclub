@@ -7,7 +7,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "How to Build a Consistent Pilates Practice (2026) | Pilates Collective Club",
-  description: "The habits, scheduling strategies, and mindset shifts that separate practitioners who see results from those who plateau. A practical guide to making Pilates stick.",
+  description: "How to build a consistent Pilates practice: scheduling, progressive programming, home vs. studio balance, and plateau-busting tips from instructors.",
   openGraph: {
     title: "How to Build a Consistent Pilates Practice",
     description: "Practical strategies for making Pilates a lasting habit — even with a demanding schedule. Frequency, environment, mindset, and the habits that make the difference.",

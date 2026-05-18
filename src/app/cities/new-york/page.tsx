@@ -8,8 +8,14 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in New York City | Pilates Collective Club",
-  description: "Our curated guide to NYC's finest Pilates studios — from classical powerhouses in Chelsea to boutique reformer rooms in SoHo, the West Village, and Gramercy. Book with confidence.",
+  title: "Best Pilates Studios in New York City",
+  description: "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Top-rated picks for every level and neighborhood.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates studios new york", "reformer pilates nyc", "best pilates new york", "pilates classes nyc", "pilates manhattan"],
   openGraph: {
     title: "The Best Pilates Studios in New York City",

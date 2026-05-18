@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Singapore (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Singapore",
   description:
     "Discover the best Pilates studios in Singapore — from CBD reformer boutiques to Dempsey Hill wellness retreats. Our curated guide to Singapore Pilates in 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: [
     "pilates studios singapore",
     "reformer pilates singapore",

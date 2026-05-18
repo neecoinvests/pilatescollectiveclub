@@ -8,8 +8,14 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Tokyo (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Tokyo (2026)",
   description: "Pilates studios in Tokyo: our curated guide to the five best reformer and mat studios across Minami-Aoyama, Ebisu, and Shinjuku — verified for 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates studios tokyo", "reformer pilates tokyo", "best pilates tokyo", "pilates aoyama tokyo", "pilates ebisu", "boutique pilates tokyo", "pilates classes tokyo", "tokyo wellness studios"],
   openGraph: {
     title: "Best Pilates Studios in Tokyo (2026)",

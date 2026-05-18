@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Sweaty Betty for Pilates (2026): Best Pieces & Honest Review | Pilates Collective Club",
-  description: "The original UK boutique fitness brand reviewed for Pilates — Power Workout Legging, Garudasana, and Super Sculpt Bra tested in London studio and reformer environments.",
+  description: "Sweaty Betty Pilates wear reviewed: Power leggings, bras, and shorts tested for reformer and mat. UK-based activewear brand compared vs. Lululemon.",
   keywords: ["sweaty betty pilates", "sweaty betty for pilates", "sweaty betty power workout legging", "sweaty betty garudasana legging", "sweaty betty pilates review", "sweaty betty vs lululemon pilates", "sweaty betty uk pilates", "sweaty betty activewear pilates 2026", "best sweaty betty leggings", "sweaty betty pilates clothes"],
   openGraph: {
     title: "Sweaty Betty for Pilates (2026): Best Pieces & Honest Review",

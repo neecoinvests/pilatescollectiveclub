@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Sydney (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Sydney (2026)",
   description:
     "Discover the best Pilates studios in Sydney — from harbourside reformer boutiques in Bondi to method-focused studios in the CBD. Our curated 2026 guide.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: [
     "pilates studios sydney",
     "reformer pilates sydney",

@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Pilates During Pregnancy (2026): Trimester-by-Trimester Guide | Pilates Collective Club",
-  description: "Safe, effective Pilates throughout pregnancy — what changes by trimester, exercises to avoid after 16 weeks, pelvic floor work, and how to find a qualified prenatal instructor.",
+  description: "Pilates and pregnancy: safe exercises by trimester, modifications to avoid, and prenatal reformer guidelines from certified instructors. Full guide.",
   openGraph: {
     title: "Pilates and Pregnancy: A Complete Guide",
     description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist instructor.",

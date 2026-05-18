@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Mat (2026): Firmness, Grip & Spinal Feedback Tested | Pilates Collective Club",
-  description: "The five best Pilates mats tested for firmness, grip, and spinal rolling feedback — Manduka PRO, Gaiam Performance, Liforme, and more ranked for home and studio use.",
+  description: "The best Pilates mats of 2026: thickness, grip, and cushion compared for home and studio. Manduka, Liforme, Lululemon, and budget picks reviewed.",
   keywords: ["best pilates mat", "pilates mat review", "manduka pro pilates mat", "gaiam pilates mat", "best mat for pilates at home", "thick pilates mat", "pilates mat vs yoga mat", "best non-slip pilates mat", "pilates mat 6mm", "best pilates mat 2026"],
   openGraph: {
     title: "Best Pilates Mat (2026): Tested for Firmness, Grip & Durability",

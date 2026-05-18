@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in London | Pilates Collective Club",
+  title: "The Best Pilates Studios in London",
   description:
-    "Our curated guide to London's finest Pilates studios. From boutique reformer classes in Chelsea to community studios in Shoreditch — everything you need before booking.",
+    "The best Pilates studios in London — reformer boutiques, classical method, and Lagree across Chelsea, Shoreditch, and Marylebone. Curated & verified.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates studios london", "reformer pilates london", "best pilates london", "pilates classes london", "london pilates guide"],
   openGraph: {
     title: "The Best Pilates Studios in London",

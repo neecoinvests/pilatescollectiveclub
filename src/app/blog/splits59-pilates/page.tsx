@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Splits59 for Pilates (2026): The Brand Built for the Method | Pilates Collective Club",
-  description: "Splits59 was designed explicitly for Pilates and barre. The Raquel legging, Sylvie bra, and Beckett jacket reviewed — and why the Raquel may be the finest Pilates legging made.",
+  description: "Splits59 Pilates wear reviewed: Airweight and Racer leggings tested in reformer and mat classes. Compression, breathability, and fit compared.",
   keywords: ["splits59 pilates", "splits59 for pilates", "splits59 raquel legging review", "splits59 sylvie bra pilates", "splits59 activewear review", "splits59 vs lululemon pilates", "splits59 vs alo pilates", "best splits59 pilates pieces", "splits59 pilates barre", "splits59 pilates review 2026"],
   openGraph: {
     title: "Splits59 for Pilates (2026): The Brand Built for the Method",

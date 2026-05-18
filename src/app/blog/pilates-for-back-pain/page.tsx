@@ -7,7 +7,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Pilates for Back Pain (2026): What the Research Actually Shows | Pilates Collective Club",
-  description: "A clear-eyed look at the clinical evidence for Pilates and lower back pain — what works, what to avoid with specific conditions, and how long results realistically take.",
+  description: "Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain. Evidence-based guidance from physios.",
   openGraph: {
     title: "Pilates for Back Pain: What the Research Shows",
     description: "A clear-eyed look at the evidence for Pilates as a treatment for back pain — what it can and can't do, which exercises help most, and how to find the right instructor.",

@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Accessories (2026): Upgrade Your Machine | Pilates Collective Club",
-  description: "The five reformer accessories that genuinely upgrade your practice — sticky pads, jump boards, long box, leather straps, and foot correctors. Tested for fit and function.",
+  description: "The best Pilates reformer accessories of 2026: boxes, straps, jump boards, and spring kits reviewed for Balanced Body, Merrithew, and Align machines.",
   keywords: ["best pilates reformer accessories", "pilates reformer accessories review", "pilates jump board", "reformer sticky pads", "pilates long box", "reformer foot corrector", "leather pilates straps", "reformer accessories upgrade", "pilates machine accessories 2026", "reformer add-ons"],
   openGraph: {
     title: "Best Pilates Reformer Accessories (2026): Upgrade Your Machine",

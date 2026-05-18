@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Ball (2026): Mini Ball & Stability Ball Reviewed | Pilates Collective Club",
-  description: "Mini Pilates ball or stability ball — what is the difference and which do you need? Five options across sizes and budgets tested for grip, firmness, and durability.",
+  description: "The best Pilates balls of 2026: stability balls, mini exercise balls, and overball picks tested for reformer, mat, and barre workouts. Full comparison.",
   openGraph: {
     title: "Best Pilates Ball (2026): Mini Ball and Exercise Ball Reviewed",
     description: "The best Pilates balls for home practice — mini Pilates balls for mat work and stability balls for full-body exercises. Tested, compared, and ranked.",

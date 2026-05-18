@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Pilates for Athletes (2026): Cross-Training That Actually Works | Pilates Collective Club",
-  description: "How runners, cyclists, swimmers, and team sport athletes use Pilates for injury prevention and performance. The specific exercises and frequency that deliver real results.",
+  description: "Pilates for athletes: reformer and mat exercises that build stability, correct imbalances, and improve performance for runners, cyclists, and team sports.",
   openGraph: {
     title: "Pilates for Athletes: Strength, Longevity, and the Competitive Edge",
     description: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers — and what recreational athletes can learn from them.",

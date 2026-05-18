@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Pilates During Menopause (2026): Bone Density, Hormones & Practice | Pilates Collective Club",
-  description: "How oestrogen decline affects the musculoskeletal system and why Pilates is particularly well-suited to menopause — bone loading, pelvic floor work, and adapting your practice.",
+  description: "Pilates for menopause: bone density, core stability, and hormone-supportive exercises for perimenopause and post-menopause. Instructor-guided guide.",
   keywords: ["pilates for menopause", "pilates during menopause", "pilates bone density", "pilates pelvic floor menopause", "menopause exercise pilates", "pilates hormonal changes", "pilates for osteoporosis", "pilates perimenopause", "pilates postmenopause", "pilates menopause guide 2026"],
   openGraph: {
     title: "Pilates During Menopause: Bone Density, Hormones & Practice",

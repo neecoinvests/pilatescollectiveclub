@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Athleta for Pilates (2026): Best Leggings & Honest Review | Pilates Collective Club",
-  description: "The best Athleta pieces for Pilates — Salutation Stash Tight, Transcend, Elation reviewed. Gap's B Corp brand offers premium quality at a meaningful discount to Lululemon.",
+  description: "Athleta Pilates leggings, tops, and bras reviewed: Salutation Stash, Venice Tight, and more. Performance, feel, and value compared for studio & home.",
   keywords: ["athleta pilates", "athleta for pilates", "athleta pilates leggings", "athleta salutation tight pilates", "athleta vs lululemon pilates", "athleta b corp activewear", "best athleta leggings pilates", "athleta transcend tight", "athleta activewear pilates 2026", "athleta pilates review"],
   openGraph: {
     title: "Athleta for Pilates (2026): Best Pieces & Honest Review",

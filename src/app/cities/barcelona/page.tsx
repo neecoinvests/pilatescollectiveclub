@@ -8,8 +8,14 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Barcelona | Pilates Collective Club",
+  title: "The Best Pilates Studios in Barcelona",
   description: "Our curated guide to Barcelona's best Pilates studios — from Eixample to Gràcia, the five studios leading the city's vibrant wellness scene.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates barcelona", "reformer pilates barcelona", "best pilates barcelona", "pilates studios barcelona", "pilates eixample"],
   openGraph: {
     title: "The Best Pilates Studios in Barcelona",

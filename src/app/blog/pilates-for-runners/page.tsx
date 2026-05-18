@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Pilates for Runners (2026): The Work That Actually Prevents Injury | Pilates Collective Club",
-  description: "How Pilates addresses glute medius weakness, hip flexor tightness, thoracic stiffness, and breathing economy — the specific deficits that cause running injuries.",
+  description: "Pilates for runners: hip stability, IT band relief, and cadence work via reformer and mat exercises. Training plans for 5K to marathon runners.",
   keywords: ["pilates for runners", "running pilates training", "pilates running injury prevention", "glute medius pilates runner", "pilates hip flexor runner", "pilates breathing running", "reformer pilates running", "pilates for marathon runners", "cross training pilates running", "pilates runner guide 2026"],
   openGraph: {
     title: "Pilates for Runners: The Specific Work That Actually Helps",

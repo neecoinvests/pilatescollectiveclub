@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Gratz Pilates (2026): Classical Apparatus, Honest Review & Who It's For | Pilates Collective Club",
-  description: "Gratz Pilates makes classical apparatus to Joseph Pilates' original specifications. An honest guide to their reformer, cadillac, chair — and whether the price premium is justified.",
+  description: "Gratz Pilates equipment reviewed: Maple Classic Reformer, Cadillac, Wunda Chair, and barrels. The original equipment maker for classical studios.",
   keywords: ["gratz pilates", "gratz pilates reformer", "classical pilates equipment", "gratz pilates review", "gratz vs balanced body", "classical pilates apparatus", "gratz reformer price", "joseph pilates equipment", "classical pilates reformer", "gratz pilates 2026"],
   openGraph: {
     title: "Gratz Pilates (2026): Classical Apparatus Honestly Reviewed",

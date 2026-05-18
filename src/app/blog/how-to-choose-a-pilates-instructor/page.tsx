@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "How to Choose a Pilates Instructor (2026): Credentials & Red Flags | Pilates Collective Club",
-  description: "What credentials to look for, red flags to avoid, and the right questions to ask before booking. A practical guide to finding a qualified Pilates teacher you can trust.",
+  description: "How to choose a Pilates instructor: certifications, teaching styles, class formats, and red flags. A complete guide for beginners and experienced students.",
   openGraph: {
     title: "How to Choose the Right Pilates Instructor",
     description: "What credentials, experience, and red flags to look for when selecting a Pilates teacher — a practical guide for new and experienced practitioners alike.",

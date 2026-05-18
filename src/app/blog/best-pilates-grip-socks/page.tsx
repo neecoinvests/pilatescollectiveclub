@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Grip Socks (2026): 5 Options Studio-Tested & Ranked | Pilates Collective Club",
-  description: "The best grip socks for Pilates tested in reformer, mat, and barre classes — ToeSox, Tavi Noir, Shashi ranked by grip coverage, fabric quality, and reformer performance.",
+  description: "The best Pilates grip socks of 2026: ToeSox, Tavi Noir, Lululemon, and more compared for grip, comfort, and toe-box fit. Reformer & studio tested.",
   openGraph: {
     title: "Best Pilates Grip Socks (2026): Studio-Tested and Ranked",
     description: "The best grip socks for Pilates — from ToeSox to Tavi Noir. Honest reviews and our top pick.",

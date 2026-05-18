@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Pilates vs Yoga (2026): Key Differences & How to Choose | Pilates Collective Club",
-  description: "The honest comparison of Pilates and yoga — core focus, equipment, philosophy, back pain evidence, and how to decide which practice is right for your body and goals.",
+  description: "Pilates vs. yoga: core focus, flexibility, mindfulness, and physical demands compared. Which practice suits your body, goals, and weekly schedule?",
   openGraph: {
     title: "Pilates vs Yoga: Key Differences and How to Choose",
     description: "A clear, honest comparison of Pilates and yoga — what each practice develops, who each suits, and how to choose between them.",

@@ -8,7 +8,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Best Home Pilates Reformer (2026): Every Budget Honestly Reviewed | Pilates Collective Club",
-  description: "The best home Pilates reformers tested at every price point — AeroPilates, Balanced Body, Merrithew At Home SPX. Find the right machine for your space and budget.",
+  description: "The best home Pilates reformers of 2026 — Balanced Body, Merrithew, Align, and budget picks tested. Find the right machine for your space and budget.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
     description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",

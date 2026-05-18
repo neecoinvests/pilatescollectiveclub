@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Chicago (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Chicago (2026)",
   description:
     "Find the best Pilates studios in Chicago — from Lincoln Park reformer boutiques to River North wellness studios. Our curated guide to Chicago Pilates in 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: [
     "pilates studios chicago",
     "reformer pilates chicago",

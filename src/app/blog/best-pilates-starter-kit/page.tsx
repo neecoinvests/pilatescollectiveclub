@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Starter Kit (2026): What to Buy First & in What Order | Pilates Collective Club",
-  description: "Exactly what to buy when starting Pilates — mat, grip socks, resistance band, magic circle ranked by priority. A starter kit guide that prevents wasted first purchases.",
+  description: "The best Pilates starter kits of 2026: mat, ring, ball, and band bundles for beginners. What to buy first and what to skip. Complete buyer's guide.",
   keywords: ["pilates starter kit", "pilates beginner equipment", "what to buy for pilates", "pilates starter set", "best pilates kit for beginners", "pilates equipment starter guide", "first pilates purchase", "pilates beginner props", "pilates mat kit", "pilates starter kit 2026"],
   openGraph: {
     title: "Best Pilates Starter Kit (2026): Everything You Need to Begin",

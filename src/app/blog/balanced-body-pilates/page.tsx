@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Balanced Body for Pilates (2026): Equipment Review & Complete Guide | Pilates Collective Club",
-  description: "The definitive guide to Balanced Body equipment — Allegro 2, Pilates Arc, accessories, and who the brand is actually for. Honest review from a practitioner perspective.",
+  description: "Balanced Body reformers reviewed: Allegro 2, Studio Reformer, Rialto, and Contrology compared for home studios and commercial spaces. Full guide.",
   keywords: ["balanced body pilates", "balanced body reformer review", "balanced body allegro 2", "balanced body equipment", "balanced body pilates machine", "balanced body vs merrithew", "balanced body reformer price", "balanced body pilates ring", "balanced body pilates arc", "balanced body pilates 2026"],
   openGraph: {
     title: "Balanced Body for Pilates (2026): Equipment Review & Guide",

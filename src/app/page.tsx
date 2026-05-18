@@ -148,14 +148,14 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateLabel: "Shop Grip Socks →",
   },
   {
-    title: "Best Home Pilates Reformer (2026): Every Budget",
-    excerpt: "A quality home reformer changes your practice permanently. We tested every price tier — from the AeroPilates 435 to studio-grade Gratz — so you know exactly what you get.",
-    href: "/blog/best-home-pilates-reformer",
+    title: "Best Premium Pilates Reformers (2026): $2K–$5K+",
+    excerpt: "Merrithew V2 Max, Balanced Body Studio Reformer, and Gratz Maple Classic tested side by side. Which professional-grade machine is worth the investment?",
+    href: "/blog/best-premium-pilates-reformer",
     category: "Best For · Home Studio",
-    readTime: "11 min read",
+    readTime: "12 min read",
     imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
-    affiliateUrl: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates&tag=pilatescollective-20",
-    affiliateLabel: "Shop Reformers →",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+balanced+body+reformer+premium&tag=pilatescollective-20",
+    affiliateLabel: "Shop Premium Reformers →",
   },
   {
     title: "Best Pilates Magic Circle (2026): Tested",
@@ -487,7 +487,7 @@ export default function Home() {
           }}>
             <Image
               src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"
-              alt=""
+              alt="Pilates studio reformer background"
               fill
               style={{ objectFit: "cover", objectPosition: "center 30%", opacity: 0.07 }}
               priority

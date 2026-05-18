@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Rome (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Rome (2026)",
   description:
     "Discover the best Pilates studios in Rome — from Prati reformer boutiques to Parioli wellness centres. Five curated picks for serious practitioners in 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: [
     "pilates studios rome",
     "reformer pilates rome",
@@ -23,7 +29,7 @@ export const metadata: Metadata = {
     "pilates roma 2026",
   ],
   openGraph: {
-    title: "Best Pilates Studios in Rome (2026) | Pilates Collective Club",
+    title: "Best Pilates Studios in Rome (2026)",
     description:
       "Discover the best Pilates studios in Rome — five curated picks with booking tips for 2026.",
     type: "article",
@@ -39,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Rome (2026) | Pilates Collective Club",
+    title: "Best Pilates Studios in Rome (2026)",
     description:
       "Discover the best Pilates studios in Rome — five curated picks with booking tips for 2026.",
     images: ["https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80"],

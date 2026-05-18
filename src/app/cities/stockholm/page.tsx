@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Stockholm (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Stockholm",
   description:
     "Find the best Pilates studios in Stockholm — from Östermalm reformer boutiques to Södermalm wellness spaces. Five expert picks for 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: [
     "pilates studios stockholm",
     "reformer pilates stockholm",
@@ -23,7 +29,7 @@ export const metadata: Metadata = {
     "stockholm pilates 2026",
   ],
   openGraph: {
-    title: "Best Pilates Studios in Stockholm (2026) | Pilates Collective Club",
+    title: "Best Pilates Studios in Stockholm (2026)",
     description:
       "Find the best Pilates studios in Stockholm — five curated picks with booking tips for 2026.",
     type: "article",
@@ -39,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Stockholm (2026) | Pilates Collective Club",
+    title: "Best Pilates Studios in Stockholm (2026)",
     description:
       "Find the best Pilates studios in Stockholm — five curated picks with booking tips for 2026.",
     images: ["https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=1200&q=80"],

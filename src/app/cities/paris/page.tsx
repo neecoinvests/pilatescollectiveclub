@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Paris | Pilates Collective Club",
+  title: "The Best Pilates Studios in Paris",
   description:
-    "Our curated guide to the best Pilates studios in Paris — from The New Me and Les Ailes du Canal to Le Cercle Pilates in Saint-Germain. Five verified studios with booking tips.",
+    "The best Pilates studios in Paris — reformer boutiques and Lagree studios from the Marais to Saint-Germain. Curated & verified picks for every level.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates paris", "studios pilates paris", "reformer pilates paris", "best pilates paris", "pilates 16eme"],
   openGraph: {
     title: "The Best Pilates Studios in Paris",

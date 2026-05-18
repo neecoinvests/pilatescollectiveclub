@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Equipment for Home Practice (2026) | Pilates Collective Club",
-  description: "Exactly what to buy for a serious home Pilates practice — mats, resistance bands, magic circles, foam rollers, and when a reformer is actually worth the investment.",
+  description: "The best Pilates equipment for home in 2026: reformers, mats, rings, and accessories reviewed. Build a complete home studio at any budget.",
   openGraph: {
     title: "Best Pilates Equipment for Home Practice",
     description: "Our definitive guide to home Pilates equipment — from quality mats to resistance bands and reformer alternatives.",

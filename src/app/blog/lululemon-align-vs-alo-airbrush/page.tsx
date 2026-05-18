@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Lululemon Align vs Alo Airbrush Leggings (2026): The Honest Verdict | Pilates Collective Club",
-  description: "Lululemon Align vs Alo Airbrush tested head-to-head for reformer Pilates. Fabric, compression, opacity, and waistband stability — our honest verdict after studio testing.",
+  description: "Lululemon Align vs. Alo Airbrush leggings compared: fabric, compression, waistband, and durability tested in reformer Pilates and yoga. Full review.",
   keywords: [
     "lululemon align vs alo airbrush",
     "lululemon align review",

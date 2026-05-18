@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Best Pilates Retreats in Europe (2026): Tested & Ranked | Pilates Collective Club",
-  description: "The best Pilates retreats across Europe — Switzerland, France, Italy, Portugal, and Greece. Immersive studio experiences for every level, honestly reviewed and ranked.",
+  description: "The best Pilates retreats in Europe for 2026: reformer immersions in Portugal, Mallorca, Tuscany, and the Swiss Alps. Prices and inclusions compared.",
   openGraph: {
     title: "The Best Pilates Retreats in Europe",
     description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",

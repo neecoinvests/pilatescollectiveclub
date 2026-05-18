@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Pilates Apparatus Guide (2026): Every Piece of Equipment Explained | Pilates Collective Club",
-  description: "The complete Pilates apparatus guide — Reformer, Cadillac, Wunda Chair, barrels, mat, and more. What each apparatus does, who it's for, and how the full system fits together.",
+  description: "The complete Pilates apparatus guide: reformer, Cadillac, Wunda Chair, barrel, and ladder explained. How each piece works and what exercises it enables.",
   keywords: ["pilates apparatus guide", "pilates equipment explained", "what is pilates cadillac", "pilates reformer explained", "pilates wunda chair", "pilates apparatus list", "pilates equipment types", "classical pilates apparatus", "what does pilates reformer do", "pilates apparatus 2026"],
   openGraph: {
     title: "Pilates Apparatus Guide (2026): Every Piece of Equipment Explained",

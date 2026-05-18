@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in San Francisco (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in San Francisco",
   description:
     "Discover the best Pilates studios in San Francisco — from Pacific Heights reformer boutiques to SoMa functional fitness hybrids. Five curated picks for 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: [
     "pilates studios san francisco",
     "reformer pilates san francisco",
@@ -23,7 +29,7 @@ export const metadata: Metadata = {
     "sf pilates 2026",
   ],
   openGraph: {
-    title: "Best Pilates Studios in San Francisco (2026) | Pilates Collective Club",
+    title: "Best Pilates Studios in San Francisco (2026)",
     description:
       "Discover the best Pilates studios in San Francisco — five curated picks with booking tips for 2026.",
     type: "article",
@@ -39,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in San Francisco (2026) | Pilates Collective Club",
+    title: "Best Pilates Studios in San Francisco (2026)",
     description:
       "Discover the best Pilates studios in San Francisco — five curated picks with booking tips for 2026.",
     images: ["https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&q=80"],

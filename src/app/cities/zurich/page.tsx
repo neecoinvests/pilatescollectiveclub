@@ -8,9 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Zurich | Pilates Collective Club",
+  title: "The Best Pilates Studios in Zurich",
   description:
-    "Our curated guide to the best Pilates studios in Zurich — from Form Studio and ilu move in Seefeld to ProPilates and PILATESwiss. Five verified studios with booking tips.",
+    "The best Pilates studios in Zurich — from Seefeld lake-view reformer to physio-Pilates in Hottingen. Curated & verified picks for every level.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates zürich", "pilates zurich", "reformer pilates zurich", "best pilates zurich", "pilates studios zürich"],
   openGraph: {
     title: "The Best Pilates Studios in Zurich",

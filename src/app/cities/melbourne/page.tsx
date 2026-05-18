@@ -8,8 +8,14 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Melbourne (2026) | Pilates Collective Club",
+  title: "Best Pilates Studios in Melbourne",
   description: "Pilates studios in Melbourne: our curated guide to the five best reformer and mat studios across Fitzroy, South Yarra, and St Kilda — verified for 2026.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
   keywords: ["pilates studios melbourne", "reformer pilates melbourne", "best pilates melbourne", "pilates fitzroy", "pilates south yarra", "boutique pilates melbourne", "pilates classes melbourne", "melbourne wellness studios"],
   openGraph: {
     title: "Best Pilates Studios in Melbourne (2026)",

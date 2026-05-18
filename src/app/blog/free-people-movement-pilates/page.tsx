@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Free People Movement for Pilates (2026): Best Pieces & Honest Review | Pilates Collective Club",
-  description: "FP Movement Good Karma Legging, Sunny Yoga, and Roll With It Hoodie honestly reviewed for Pilates. The lifestyle-first brand that holds up in a real studio environment.",
+  description: "Free People Movement Pilates wear reviewed: FP Movement leggings, bras, and tops tested for comfort, grip, and style in reformer and mat classes.",
   keywords: ["free people movement pilates", "fp movement pilates", "free people pilates leggings", "fp movement good karma legging", "free people movement review", "fp movement vs lululemon pilates", "free people movement activewear pilates", "fp movement studio", "free people pilates clothes 2026", "fp movement pilates review"],
   openGraph: {
     title: "Free People Movement for Pilates (2026): Best Pieces & Honest Review",

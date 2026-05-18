@@ -8,7 +8,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Best Pilates Books (2026): Every Level from Beginner to Teacher | Pilates Collective Club",
-  description: "The best Pilates books for every practitioner — from Joseph Pilates' original 1945 text to modern anatomy guides. Reading list for beginners and serious teachers alike.",
+  description: "The best Pilates books of 2026 — classical method, contemporary anatomy, and teacher training guides reviewed. From Joseph Pilates to modern authors.",
   openGraph: {
     title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
     description: "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
