@@ -16,6 +16,7 @@ interface StudioListingProps {
 export default function StudioListing({
   number, name, neighborhood, priceLevel, review, address, bestFor, signatureClass, bookingTip, websiteUrl,
 }: StudioListingProps) {
+  void address;
   return (
     <article style={{ borderTop: "1px solid #ede9e3", paddingTop: "48px", paddingBottom: "48px" }}>
       <div style={{ display: "flex", alignItems: "flex-start", gap: "32px", marginBottom: "24px" }}>
@@ -71,14 +72,13 @@ export default function StudioListing({
         padding: "28px 32px",
         marginBottom: "28px",
       }}>
-        <Detail label="Address" value={address} />
         <Detail label="Best For" value={bestFor} />
         <Detail label="Signature Class" value={signatureClass} />
         <Detail label="Booking Tip" value={bookingTip} />
       </div>
 
       <a
-        href={websiteUrl || `https://www.google.com/search?q=${encodeURIComponent(name + " " + address)}`}
+        href={websiteUrl || `https://www.google.com/search?q=${encodeURIComponent(name)}`}
         target="_blank"
         rel="noopener noreferrer"
         style={{
