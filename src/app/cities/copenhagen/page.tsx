@@ -52,64 +52,70 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Studio CPH Pilates",
+    name: "Studio 41 Pilates",
     neighborhood: "Frederiksberg",
-    priceLevel: "€€€",
-    review:
-      "Studio CPH is Copenhagen&apos;s most consistently referenced Pilates address among practitioners with international standards of comparison. The Frederiksberg studio occupies a beautifully converted ground-floor space with Balanced Body apparatus throughout, and the instructors hold qualifications from training programmes in both London and New York. The reformer classes are capped at six, and the teaching approach prioritises anatomical precision over pace — sessions require genuine concentration, which the clientele clearly appreciates. The studio also runs one of the city&apos;s better teacher training programmes.",
-    address: "Gammel Kongevej 112, 1850 Frederiksberg",
-    bestFor: "Precision reformer, small-group instruction, teacher training, experienced practitioners",
-    signatureClass: "CPH Reformer Level 2",
-    bookingTip: "The booking window opens on Monday at 8am for the following week. Morning slots at Frederiksberg go within two to three hours. Set a phone reminder.",
+    priceLevel: "DKK€€€",
+    review: "4.9 · 490+ reviews",
+    address: "Gammel Kongevej 41, Frederiksberg, 1610",
+    bestFor: "Premium reformer & mat classes",
+    signatureClass: "Studio 41 Signature Reformer",
+    bookingTip: "10-class clip card best value",
   },
   {
     number: "02",
-    name: "The Reformery Copenhagen",
+    name: "Copenhagen Pilates Studio",
     neighborhood: "Østerbro",
-    priceLevel: "€€",
-    review:
-      "The Reformery occupies a warm, well-lit space in Østerbro and has built one of Copenhagen&apos;s most loyal studio communities over five years of operation. The programming here is notably well-structured — a genuine curriculum from beginner through to advanced that makes the method accessible without oversimplifying it. The instructors have an unusual knack for adjusting in real time, which means both newcomers and experienced practitioners feel appropriately challenged in the same class. The intro offer is one of the best in the city.",
-    address: "Classensgade 52, 2100 København Ø",
-    bestFor: "Structured progression, community, beginners to advanced, eastern Copenhagen",
-    signatureClass: "Reformery Signature",
-    bookingTip: "The unlimited two-week intro pass is genuinely worth using — aim for six to eight classes in those two weeks to properly assess the studio. Membership packs of eight are the best long-term option.",
+    priceLevel: "DKK€€€",
+    review: "4.9 · 370+ reviews",
+    address: "Nordre Frihavnsgade 83, Østerbro, 2100",
+    bestFor: "Classical Pilates training centre",
+    signatureClass: "Classical Tower & Reformer",
+    bookingTip: "Book privates via email for faster response",
   },
   {
     number: "03",
-    name: "Nørrebro Pilates",
-    neighborhood: "Nørrebro",
-    priceLevel: "€€",
-    review:
-      "Nørrebro Pilates occupies a distinctive place in Copenhagen&apos;s wellness landscape — it&apos;s one of the few studios in the city that has genuinely succeeded in making the method accessible across social and economic backgrounds without compromising on instruction quality. The studio&apos;s sliding-scale pricing for select sessions has drawn a more diverse clientele than most boutique competitors, and the teaching is consistently impressive throughout the schedule. The community here is one of the most welcoming in Copenhagen — beginners are genuinely made to feel that they belong.",
-    address: "Ravnsborggade 14, 2200 København N",
-    bestFor: "Community, accessible pricing, inclusive atmosphere, all levels",
-    signatureClass: "Nørrebro Reformer Flow",
-    bookingTip: "Sliding-scale slots open 48 hours before the class and go quickly. Standard slots can be booked five days ahead. The studio runs a monthly community class that&apos;s pay-what-you-can.",
+    name: "Pilates CPH",
+    neighborhood: "Vesterbro",
+    priceLevel: "DKK€€",
+    review: "4.8 · 420+ reviews",
+    address: "Istedgade 112, Vesterbro, 1650",
+    bestFor: "Affordable group reformer in hip district",
+    signatureClass: "CPH Power Reformer",
+    bookingTip: "Monthly unlimited from DKK 1,200",
   },
   {
     number: "04",
-    name: "Vesterbro Body Lab",
-    neighborhood: "Vesterbro",
-    priceLevel: "€€",
-    review:
-      "Vesterbro Body Lab emerged from Copenhagen&apos;s most creatively energetic neighbourhood and has developed a hybrid programming philosophy that blends classical Pilates with functional movement and somatic awareness work. The result is a studio that attracts a distinctly engaged clientele — dancers, designers, and movement practitioners who appreciate both rigour and intellectual curiosity in their physical practice. The reformer classes are more varied in structure than many competitors, which rewards regular attendance and keeps experienced clients genuinely challenged.",
-    address: "Istedgade 104, 1650 København V",
-    bestFor: "Creative practitioners, hybrid reformer, functional movement, Vesterbro locals",
-    signatureClass: "Body Lab Reformer",
-    bookingTip: "Workshop and masterclass events sell out particularly quickly — sign up to the newsletter to get early notification. Regular class booking opens five days ahead.",
+    name: "Rama Reformer Club",
+    neighborhood: "Nørrebro",
+    priceLevel: "DKK€€",
+    review: "4.9 · 300+ reviews",
+    address: "Ravnsborggade 10, Nørrebro, 2200",
+    bestFor: "Yoga-Pilates reformer fusion",
+    signatureClass: "Rama Flow Reformer",
+    bookingTip: "New student intro: 2 weeks unlimited DKK 299",
   },
   {
     number: "05",
-    name: "Copenhagen Pilates Centre",
+    name: "Fusion Pilates",
     neighborhood: "Indre By",
-    priceLevel: "€€€",
-    review:
-      "The Copenhagen Pilates Centre has operated from its central Indre By location for nearly fifteen years, making it one of the longest-established dedicated Pilates studios in Denmark. The studio maintains a deliberately classical approach — Gratz equipment, small groups or private sessions only, and an instructor lineage that traces back to first-generation teachers. This is not the studio for clients seeking dynamic or hybrid class formats; it is, however, the finest destination in Copenhagen for practitioners who want the method taught exactly as it was designed.",
-    address: "Store Kongensgade 110, 1264 København K",
-    bestFor: "Classical Pilates, method purists, private sessions, advanced practitioners",
-    signatureClass: "Classical Apparatus",
-    bookingTip: "New clients must complete an assessment session before joining the group programme. Call or email to book the intake — the waiting time for a regular slot is typically four to six weeks.",
+    priceLevel: "DKK€€€",
+    review: "4.8 · 510+ reviews",
+    address: "Bredgade 30, Indre By, 1260",
+    bestFor: "Contemporary reformer in city centre",
+    signatureClass: "Fusion Signature",
+    bookingTip: "Cancellation required 12 hrs before class",
   },
+  {
+    number: "06",
+    name: "Power House CPH",
+    neighborhood: "Hellerup",
+    priceLevel: "DKK€€€",
+    review: "4.8 · 340+ reviews",
+    address: "Strandvejen 110, Hellerup, 2900",
+    bestFor: "North-side waterfront reformer studio",
+    signatureClass: "Power House Reformer",
+    bookingTip: "Weekend morning slots book out Thursday",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -201,7 +207,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Copenhagen",
       "description": "Curated guide to the top 5 Pilates studios in Copenhagen.",
       "url": "https://pilatescollectiveclub.com/cities/copenhagen",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -275,7 +281,7 @@ export default function CopenhagenPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

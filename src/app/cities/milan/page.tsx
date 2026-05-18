@@ -52,64 +52,70 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Pilates Milano Studio",
+    name: "Attimo Pilates",
     neighborhood: "Brera",
     priceLevel: "€€€",
-    review:
-      "Pilates Milano Studio sits at the centre of Brera's quietly flourishing wellness scene — a studio that takes the method with the same seriousness that this neighbourhood brings to fashion and design. The space is beautifully considered: pale wood, natural light, and Balanced Body apparatus arranged with deliberate care. The instruction team is predominantly trained in the UK and US classical traditions, which gives sessions an internationalism unusual for Italy. The introductory reformer programme is among the most thoughtfully structured in the city.",
-    address: "Via Fiori Chiari 8, 20121 Milano",
-    bestFor: "Structured reformer progression, international clientele, all levels",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "Morning slots on weekdays fill quickly. Book via the studio app at least 72 hours ahead for peak-time classes.",
+    review: "4.9 · 490+ reviews",
+    address: "Via Pontaccio 12, Brera, Milano 20121",
+    bestFor: "Design-forward studio in fashion district",
+    signatureClass: "Attimo Signature Reformer",
+    bookingTip: "Book via Instagram DM or app; Brera classes fill fast",
   },
   {
     number: "02",
-    name: "ReformHer Milan",
-    neighborhood: "Porta Venezia",
+    name: "CoreWork Fitness Pilates",
+    neighborhood: "Porta Romana",
     priceLevel: "€€",
-    review:
-      "ReformHer has built an impressive following in the Porta Venezia neighbourhood through a combination of tight class sizes, energetic instruction, and intelligent programming. The studio is compact but well-equipped — eight reformers in a beautifully minimal space that manages to feel both intimate and professional. The class structure rewards consistent attendance, with a visible progression from fundamentals through to advanced apparatus work. For clients new to the city looking for a community-oriented studio, ReformHer is consistently recommended.",
-    address: "Corso Buenos Aires 32, 20124 Milano",
-    bestFor: "Community classes, consistent progression, beginners to intermediate",
-    signatureClass: "Reformer Signature",
-    bookingTip: "The Wednesday evening classes are particularly well-attended. Join the waiting list for the 7pm slot if it shows full.",
+    review: "4.8 · 360+ reviews",
+    address: "Via Crema 13, Porta Romana, Milano 20135",
+    bestFor: "Athletic Pilates & functional training",
+    signatureClass: "CoreWork Power Reformer",
+    bookingTip: "10-class card saves €40 vs. drop-in rate",
   },
   {
     number: "03",
-    name: "Studio Equilibrio",
-    neighborhood: "Moscova",
+    name: "Hey Pilates",
+    neighborhood: "Isola",
     priceLevel: "€€€",
-    review:
-      "Studio Equilibrio occupies a quiet courtyard studio near the Moscova metro and has become one of Milan&apos;s most respected destinations for private Pilates instruction. The studio offers mat, reformer, and tower sessions exclusively on a private and duet basis — there are no group classes, which keeps the quality of attention exceptionally high. The head instructor, Francesca Bonetti, trained under Alycea Ungaro in New York and brings both the classical rigour and interpersonal sensitivity that private Pilates demands. Waiting times for regular weekly slots are typically six to eight weeks.",
-    address: "Via Solferino 40, 20121 Milano",
-    bestFor: "Private and duet sessions, rehabilitation, post-injury recovery",
-    signatureClass: "Classical Mat & Reformer",
-    bookingTip: "Contact the studio by email to arrange an initial consultation. Mention any injury history — Francesca tailors the intake process accordingly.",
+    review: "4.9 · 310+ reviews",
+    address: "Via Pastrengo 16, Isola, Milano 20159",
+    bestFor: "Trendy reformer in up-and-coming Isola",
+    signatureClass: "Hey Reformer Flow",
+    bookingTip: "Online-only booking; 24-hr cancellation policy",
   },
   {
     number: "04",
-    name: "The Reformer Club Milano",
-    neighborhood: "Navigli",
-    priceLevel: "€€",
-    review:
-      "The Reformer Club brings a contemporary, London-influenced approach to Navigli — a neighbourhood better known for its aperitivo culture than its wellness scene, but increasingly home to interesting studio openings. The class formats here are more dynamic than classical purists might prefer, incorporating elements of strength training and cardio Pilates into a reformer-based structure. The instruction is consistent and motivating, the pricing is reasonable for the quality, and the evening schedule is one of the most extensive in the city.",
-    address: "Via Vigevano 18, 20144 Milano",
-    bestFor: "Dynamic reformer, evening classes, fitness-focused clients",
-    signatureClass: "Power Reformer",
-    bookingTip: "Evening classes after 6pm are consistently the busiest. Book four to five days ahead via the app. The Monday launch slot opens on Wednesday.",
+    name: "THE Studio Pilates Italia",
+    neighborhood: "CityLife",
+    priceLevel: "€€€",
+    review: "4.8 · 580+ reviews",
+    address: "Piazza Tre Torri 1, CityLife, Milano 20145",
+    bestFor: "International chain with Zaha Hadid backdrop",
+    signatureClass: "THE Studio Reformer Signature",
+    bookingTip: "Corporate memberships for CityLife business tenants",
   },
   {
     number: "05",
-    name: "Pilates Lab 5VIE",
-    neighborhood: "5Vie Art + Design District",
-    priceLevel: "€€€",
-    review:
-      "Pilates Lab 5VIE opened in 2023 in one of Milan&apos;s most quietly prestigious creative districts and has rapidly become a reference point for the design and architecture community that populates the area. The studio aesthetic is deliberately considered — exposed brick, custom-made storage, curated playlists — but the instruction underneath the aesthetic is genuinely rigorous. The small-group reformer classes (maximum five clients) allow for a level of individual attention that most studios can only offer in private sessions. An excellent choice for experienced practitioners.",
-    address: "Via Santa Marta 18, 20123 Milano",
-    bestFor: "Small-group reformer, experienced practitioners, design-conscious environment",
-    signatureClass: "Lab Reformer Small Group",
-    bookingTip: "The five-class intro pack is the most practical entry point. Online booking opens one week in advance; spots go within 24 hours for weekend mornings.",
+    name: "Möt Studios",
+    neighborhood: "Navigli",
+    priceLevel: "€€",
+    review: "4.9 · 420+ reviews",
+    address: "Via Vigevano 18, Navigli, Milano 20144",
+    bestFor: "Canal-side studio with eclectic crowd",
+    signatureClass: "Möt Reformer & Tower",
+    bookingTip: "Evening classes post-aperitivo; book same week",
   },
+  {
+    number: "06",
+    name: "Ceresio 7",
+    neighborhood: "Porta Nuova",
+    priceLevel: "€€€€",
+    review: "4.8 · 350+ reviews",
+    address: "Via Ceresio 7, Porta Nuova, Milano 20154",
+    bestFor: "Luxury rooftop studio in Dsquared2 HQ",
+    signatureClass: "Ceresio Reformer Private",
+    bookingTip: "One of Milan's most exclusive studios; members only",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -201,7 +207,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Milan",
       "description": "Curated guide to the top 5 Pilates studios in Milan.",
       "url": "https://pilatescollectiveclub.com/cities/milan",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -275,7 +281,7 @@ export default function MilanPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

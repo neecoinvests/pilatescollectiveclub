@@ -41,63 +41,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Anatomy at 1220",
-    neighborhood: "South Beach",
+    name: "JETSET Pilates",
+    neighborhood: "Downtown Miami / Brickell",
     priceLevel: "$$$",
     review:
-      "Anatomy at 1220 is South Beach&apos;s most serious wellness destination — a sprawling, multi-discipline space that includes one of Miami&apos;s finest Pilates programmes. The reformer studio within Anatomy is impeccably equipped with Balanced Body apparatus, and the instructors are drawn from the upper tier of Miami&apos;s teaching community. The atmosphere is sophisticated without being exclusionary, attracting everyone from professional athletes to retirees. The integration with other modalities — physical therapy, nutrition, massage — makes it genuinely valuable for holistic health.",
-    address: "1220 16th Street, Miami Beach, FL 33139",
-    bestFor: "Premium holistic wellness, athlete recovery, all levels",
-    signatureClass: "Anatomy Reformer Intensive",
-    bookingTip: "Book the introductory assessment before your first group class — the staff use it to stream you correctly. Morning slots fill fast; the app allows 7-day advance booking.",
+      "JETSET Pilates is the Miami-born studio that turned reformer Pilates into a fitness phenomenon across Florida and beyond. The 50-minute sessions cycle through fast, punchy sequences set to DJ-curated playlists on custom JETSET reformers, keeping heart rate elevated throughout. Reviewers describe it as the P90X of the Pilates world — a challenging, low-impact, high-energy workout with city views and a polished boutique experience. Multiple Miami metro locations including Downtown, Miami Beach, and North Miami mean convenient access from almost anywhere in the city.",
+    address: "40 SW 13th St, Miami, FL 33130",
+    bestFor: "High-energy cardio-reformer, music-driven classes, fitness-focused clients",
+    signatureClass: "JETSET 50 (50-min full-body reformer)",
+    bookingTip: "Book through the JETSET app at least 24 hours ahead — evening classes in Brickell sell out quickly after work hours. Check for multi-class intro packs for new members on their website.",
   },
   {
     number: "02",
-    name: "Pilates Miami",
-    neighborhood: "Coconut Grove",
-    priceLevel: "$$",
+    name: "Reforming Pilates",
+    neighborhood: "Miami Beach / Bay Harbor Islands",
+    priceLevel: "$$$",
     review:
-      "Pilates Miami in Coconut Grove is the city&apos;s most respected classical studio — a genuine lineage practice run by instructors trained in the New York tradition. The studio is small, focused, and uninterested in trends: Gratz equipment, classical order, and a student-teacher ratio that allows for real instruction. The Coconut Grove setting is leafy and calm, a deliberate contrast to the high-energy boutiques elsewhere in the city. For practitioners who want to understand the method rather than just work out, this is Miami&apos;s essential destination.",
-    address: "2901 Florida Avenue, Suite 7, Coconut Grove, FL 33133",
-    bestFor: "Classical Pilates method, advanced and intermediate practitioners, private work",
-    signatureClass: "Classical Reformer & Mat",
-    bookingTip: "Private sessions with the senior instructors are limited. Contact the studio directly — the website booking system is for group classes only.",
+      "Consistently described as the most wait-listed Pilates studio in South Florida, Reforming Pilates maintains a 94% recommendation rate and is the studio Miami insiders recommend to each other. The atmosphere is welcoming and semi-private even in group settings. Instructor Tatiana is frequently singled out for clear, precise instruction and the personal attention she gives each client. A second location at Bay Harbor Islands serves those in northern Miami Beach.",
+    address: "1560 Lenox Ave, Miami Beach, FL 33139",
+    bestFor: "Classical boutique reformer, proper technique, tight-knit Pilates community",
+    signatureClass: "Classical Reformer Group",
+    bookingTip: "Join the waitlist proactively — popular slots are often fully booked weeks in advance. Following their Instagram gives the earliest notice when spots open due to cancellations.",
   },
   {
     number: "03",
-    name: "SoulBody Miami",
-    neighborhood: "Brickell",
+    name: "The Pilates Place",
+    neighborhood: "South Beach",
     priceLevel: "$$$",
     review:
-      "SoulBody brings a high-energy, design-forward reformer experience to Brickell&apos;s wellness market. The studio is beautifully designed — bright, airy, with views of the Brickell skyline — and the programming leans toward dynamic, cardio-inflected reformer work that suits Miami&apos;s fitness-oriented culture. The instructors are energetic and well-cued, and the class format is demanding in the best possible way. For professionals in the financial district looking for a premium lunchtime or early-morning reformer session, SoulBody is the natural choice.",
-    address: "801 Brickell Avenue, Suite 100, Miami, FL 33131",
-    bestFor: "Dynamic reformer, fitness-focused professionals, Brickell convenience",
-    signatureClass: "Power Reformer Flow",
-    bookingTip: "The 6:30am Brickell slots are popular with the finance crowd and go fast. Book via the app Monday morning for the full week ahead.",
+      "With over 18 years in Miami Beach and a stellar 4.9-star rating from more than 4,000 ClassPass reviews, The Pilates Place is one of the most trusted studios in South Florida. Small class sizes and fully certified instructors make every session feel more like a semi-private than a group class. The studio is known for a polished, traditional approach to the reformer that emphasizes proper alignment and progressive skill development. A second location at 5400 NE 4th Court serves clients in the MiMo/Biscayne corridor.",
+    address: "1253 Washington Ave, Suite 302, Miami Beach, FL 33139",
+    bestFor: "Traditional reformer, all levels, consistency over 18+ years",
+    signatureClass: "Classical Reformer (all levels)",
+    bookingTip: "The Washington Ave location is steps from the beach — easy to combine with a morning walk. Book at least a week ahead for weekend classes, which fill especially fast in winter tourist season.",
   },
   {
     number: "04",
-    name: "Y7 Pilates",
-    neighborhood: "Wynwood",
-    priceLevel: "$$",
+    name: "Fuze House",
+    neighborhood: "Sunset Harbour, Miami Beach",
+    priceLevel: "$$$",
     review:
-      "Y7 brings its candlelit reformer concept to Wynwood&apos;s arts district with a format that feels unique in Miami&apos;s studio landscape. The low-lit, music-driven reformer sessions offer a genuinely different atmosphere from the sunlit boutiques elsewhere in the city — more immersive, more focused, and appealing to a younger, creatively-minded clientele. Technically the instruction is solid, and the class structure is well-designed for intermediate practitioners. Not classical Pilates, but an excellent workout in a setting that Miami makes its own.",
-    address: "2750 NW 3rd Avenue, Wynwood, Miami, FL 33127",
-    bestFor: "Atmospheric reformer experience, intermediate level, Wynwood arts crowd",
-    signatureClass: "Candlelit Reformer",
-    bookingTip: "Evenings at Wynwood have an electric atmosphere. The 7pm and 8pm classes are particularly popular — book mid-week for the following week.",
+      "Named Best Pilates Studio in Miami by Miami New Times, Fuze House operates at over 95°F using infrared heat panels to intensify mat-work and sculpt formats. The studio&apos;s aesthetic is jaw-dropping — clean minimal luxury with premium Bala equipment and organic amenities — and classes are tailored to all levels. Reviewers consistently note the heat makes the workout dramatically more effective for flexibility and muscle activation. A second location in South Miami serves those on the mainland.",
+    address: "1201 20th St, CU-8, Miami Beach, FL 33139",
+    bestFor: "Infrared-heated mat Pilates sculpt, luxury wellness experience",
+    signatureClass: "Infrared Mat Pilates Sculpt",
+    bookingTip: "Hydrate aggressively before class — the infrared heat is genuine and intense, especially in summer. First-timers can access an intro class for $32. Wear minimal, moisture-wicking clothing.",
   },
   {
     number: "05",
-    name: "Club Pilates Coral Gables",
-    neighborhood: "Coral Gables",
-    priceLevel: "$",
+    name: "Kenergy Pilates",
+    neighborhood: "Allapattah / Little River",
+    priceLevel: "$$",
     review:
-      "Club Pilates in Coral Gables offers the most accessible entry point to reformer Pilates in Miami&apos;s upscale residential neighbourhoods. The studio is clean, consistent, and well-run, with a level-based class structure that makes progression clear and motivating. The membership model encourages the kind of regularity that the Pilates method demands, and the pricing is genuinely approachable for Miami. Not the most exciting studio in the city, but one of the most reliably dependable for building a consistent weekly practice.",
-    address: "258 Miracle Mile, Coral Gables, FL 33134",
-    bestFor: "Beginner-to-intermediate structured progression, membership value, Coral Gables residents",
-    signatureClass: "CP Signature Reformer",
-    bookingTip: "The intro series is a genuine requirement here before group classes — complete the three introductory sessions and you&apos;ll be streamed correctly into the right level.",
+      "Founded by instructor Karina Ramirez, Kenergy Pilates is known across Miami&apos;s fitness community for its unusually small class sizes that feel semi-private, brand-new top-of-the-line reformers, and a rehabilitation philosophy that treats Pilates as post-injury recovery and performance enhancement. Reviewers call it the best studio with the best instructor in Miami, and its off-the-tourist-path location in Allapattah keeps the atmosphere local and unpretentious. The studio draws both professional athletes and clients recovering from surgeries or chronic pain.",
+    address: "3404 NW 7th Ave, Miami, FL 33127",
+    bestFor: "Athletic reformer, post-injury rehabilitation, personalized instruction",
+    signatureClass: "Reformer Athletic",
+    bookingTip: "Book directly through their website or by calling ahead — availability is limited due to small class sizes. Mention any injuries or physical limitations when booking so the instructor can prepare modifications.",
+  },
+  {
+    number: "06",
+    name: "Pilatay",
+    neighborhood: "Coral Way",
+    priceLevel: "$$$",
+    review:
+      "Pilatay is run by dual-certified Pilates teacher Tracy Belcher and is one of the most equipment-complete classical studios in Miami, offering sessions on the Cadillac, Reformer, Wunda Chair, High Chair, and a full range of barrels in true classical sequence. The clientele ranges from professional athletes to clients in their 90s. Semi-private classes are capped at four people, maintaining the quality of a private session. Located on historic Coral Way, it is centrally accessible from Coconut Grove, Brickell, and Little Havana.",
+    address: "2357 SW 22nd St, Miami, FL 33145",
+    bestFor: "Full classical apparatus Pilates, semi-private sessions, all ages",
+    signatureClass: "Classical Circuit Private Session",
+    bookingTip: "Sessions are by appointment only. Contact via Studio@pilatay.com or call (305) 417-8223. There is a 24-hour cancellation policy, and first-time clients should arrive 10 minutes early for a brief intake conversation.",
   },
 ];
 
@@ -190,7 +202,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Miami",
       "description": "Curated guide to the top 5 Pilates studios in Miami.",
       "url": "https://pilatescollectiveclub.com/cities/miami",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -264,7 +276,7 @@ export default function MiamiPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

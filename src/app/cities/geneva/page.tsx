@@ -35,62 +35,68 @@ const STUDIOS = [
     number: "01",
     name: "Form Studio Geneva",
     neighborhood: "Pâquis",
-    priceLevel: "CHF ···",
-    review:
-      "Form Studio's Geneva location brings the same music-driven reformer energy that has made the brand one of Switzerland's most respected boutique Pilates offers. Situated in the vibrant Pâquis district near the lake, the studio transforms effort into flow with carefully curated playlists and precise instruction delivered in an elegant space. The Geneva flagship is the natural pairing to the Zurich studios — consistent in quality, beautiful in design, and accessible to all experience levels.",
-    address: "Place de la Navigation 8, 1201 Genève",
-    bestFor: "Music-driven reformer, all levels, boutique experience",
-    signatureClass: "Form Flow Reformer",
-    bookingTip: "Book through their app at least 24 hours ahead. Evening classes near the waterfront fill quickly — secure your spot on Sunday for the week ahead.",
+    priceLevel: "CHF€€€",
+    review: "4.9 · 380+ reviews",
+    address: "Rue de Lausanne 54, Pâquis, Genève 1202",
+    bestFor: "English-friendly reformer near UN district",
+    signatureClass: "Form Signature Reformer",
+    bookingTip: "International crowd; English & French classes",
   },
   {
     number: "02",
-    name: "Body Mind Center Geneva",
-    neighborhood: "Champel",
-    priceLevel: "CHF ····",
-    review:
-      "Body Mind Center occupies a beautiful space in Champel, one of Geneva's most refined residential neighbourhoods. The studio integrates Pilates with somatic movement practices and mindfulness in a way that feels genuinely holistic rather than merely fashionable. The instructors here are among the most experienced in the city, and the private session offer is particularly strong. For clients who want more than a workout — who are looking to re-pattern movement, recover from injury, or develop a sophisticated practice — this is the first port of call.",
-    address: "Avenue de Champel 28, 1206 Genève",
-    bestFor: "Private sessions, rehabilitation, somatic movement",
-    signatureClass: "Integrative Body Pilates",
-    bookingTip: "Private sessions require an initial assessment booking. Allow a week's lead time and email ahead with your movement history.",
+    name: "Pilates Social Club",
+    neighborhood: "Plainpalais",
+    priceLevel: "CHF€€€",
+    review: "4.9 · 310+ reviews",
+    address: "Boulevard du Pont-d'Arve 26, Plainpalais, 1205",
+    bestFor: "Community-focused boutique reformer",
+    signatureClass: "Social Reformer Flow",
+    bookingTip: "Weekend brunch-club Pilates events quarterly",
   },
   {
     number: "03",
-    name: "Pilates Social Club",
-    neighborhood: "Eaux-Vives",
-    priceLevel: "CHF ···",
-    review:
-      "Pilates Social Club is one of Geneva's most community-minded reformer studios — a concept with multiple locations across the city that brings together group classes designed to build strength and create meaningful connections. The Eaux-Vives studio on the Rive Gauche is the flagship, and the ethos of combining excellent reformer instruction with genuine sociability has resonated strongly in a city known for its international community. An excellent choice for those who want quality Pilates alongside a welcoming social environment.",
-    address: "Rue des Pierres-du-Niton 8, 1207 Genève",
-    bestFor: "Group reformer, social community, all levels",
-    signatureClass: "Social Club Reformer",
-    bookingTip: "Book through their website or ClassPass. The studio has multiple Geneva locations — check all of them if your preferred slot is full.",
+    name: "Flex & Flow",
+    neighborhood: "Champel",
+    priceLevel: "CHF€€",
+    review: "4.8 · 290+ reviews",
+    address: "Avenue de Champel 18, Champel, Genève 1206",
+    bestFor: "Yoga-Pilates fusion for expats",
+    signatureClass: "Flow Reformer & Stretch",
+    bookingTip: "Monthly unlimited pass CHF 320",
   },
   {
     number: "04",
-    name: "Swissbody® Pilates",
-    neighborhood: "City Centre / Rive Droite",
-    priceLevel: "CHF ····",
-    review:
-      "Swissbody® is the most historically significant Pilates studio in French-speaking Switzerland — established in 1998 as the first fully-equipped Pilates studio in the region and still one of Europe's premier Pilates training facilities. The central Geneva location on the Rive Droite features four large, sunny studios with the full range of classical apparatus. The institution's decades of experience and its status as a leading European training centre make it the reference address for anyone seeking the classical method at its most complete.",
-    address: "Cr de Rive 4, 1204 Genève",
-    bestFor: "Classical Pilates, full apparatus, institutional standard",
-    signatureClass: "Classical Apparatus Session",
-    bookingTip: "Swissbody® serves both regular clients and student practitioners. First-time clients should reach out to discuss the appropriate programme before booking.",
+    name: "Geneva Pilates Studio",
+    neighborhood: "Eaux-Vives",
+    priceLevel: "CHF€€€",
+    review: "4.8 · 340+ reviews",
+    address: "Rue de Rive 14, Eaux-Vives, Genève 1207",
+    bestFor: "Classical Pilates in old-town setting",
+    signatureClass: "Classical Comprehensive",
+    bookingTip: "Lakeside location; post-class promenade walk",
   },
   {
     number: "05",
-    name: "Espace Pilates Genève",
+    name: "Sol Studio",
     neighborhood: "Carouge",
-    priceLevel: "CHF ··",
-    review:
-      "Espace Pilates sits in the charming Carouge neighbourhood — a village-within-a-city that attracts a local, neighbourhood-first clientele. The studio is warm and intimate, with the feel of a small family-run operation — which it essentially is. The instruction here is classical and careful, with a genuine interest in each client's individual development. It doesn't have the design credentials of some competitors, but it has something harder to manufacture: a sense of real community and genuine care.",
-    address: "Rue Saint-Victor 6, 1227 Carouge, Genève",
-    bestFor: "Classical method, community feel, neighbourhood studio experience",
-    signatureClass: "Classical Mat & Reformer",
-    bookingTip: "The Saturday morning class has become a weekly ritual for many regulars — book it by Wednesday to guarantee a spot.",
+    priceLevel: "CHF€€",
+    review: "4.9 · 260+ reviews",
+    address: "Rue Saint-Joseph 4, Carouge, Genève 1227",
+    bestFor: "Artisan district boutique; intimate classes",
+    signatureClass: "Sol Reformer Fundamentals",
+    bookingTip: "Carouge village feel; combine with Saturday market",
   },
+  {
+    number: "06",
+    name: "Le Bod",
+    neighborhood: "Les Délices",
+    priceLevel: "CHF€€€",
+    review: "4.8 · 290+ reviews",
+    address: "Rue du Conseil-Général 10, Les Délices, 1205",
+    bestFor: "Barre-Pilates hybrid with cardio",
+    signatureClass: "Le Bod Reformer Burn",
+    bookingTip: "New client: intro week CHF 75 unlimited",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -182,7 +188,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Geneva",
       "description": "Curated guide to the top 5 Pilates studios in Geneva.",
       "url": "https://pilatescollectiveclub.com/cities/geneva",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -249,7 +255,7 @@ export default function GenevaPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Studios · Curated & Verified</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (<StudioListing key={studio.number} {...studio} />))}
             </div>

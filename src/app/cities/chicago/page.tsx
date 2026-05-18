@@ -41,63 +41,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Balanced Body Pilates Chicago",
-    neighborhood: "Lincoln Park",
+    name: "Reform Studios",
+    neighborhood: "Streeterville",
     priceLevel: "$$$",
     review:
-      "Balanced Body Pilates Chicago is Lincoln Park&apos;s most respected classical studio — a serious practice that traces its teaching lineage directly to the New York tradition. The studio is immaculate, with Gratz apparatus for private classical work and Balanced Body reformers for group classes. The instruction team is led by a senior teacher with over two decades of experience, and the teaching quality throughout is unusually consistent. For practitioners who want Pilates to mean something — posture, breath, and genuine body intelligence — this is Chicago&apos;s essential address.",
-    address: "2233 N Lincoln Avenue, Chicago, IL 60614",
-    bestFor: "Classical method, serious practitioners, rehabilitation, all levels",
-    signatureClass: "Classical Reformer Level 2",
-    bookingTip: "Private sessions with the principal instructor book 3 weeks ahead. For group reformer classes, book online Monday for the full week — the 7am and 8:15am slots are first to go.",
+      "Reform Studios opened in 2024 inside a 4,000-sq-ft ground-floor space at the Optima Signature tower and quickly earned a 4.9-star rating from over 20,000 ClassPass reviews — the highest-reviewed Pilates studio launch in Chicago in recent memory. The studio is the only Chicago location equipped with the ReformRX smart reformer, which tracks resistance and rep data in real time. Classes blend low-impact cardio, intentional warm-ups, and DJ-curated playlists for an experience that leans more athletic than classical. Reviewers call it an absolute must and compare the locker rooms to a five-star hotel.",
+    address: "228 E Illinois St, Chicago, IL 60611",
+    bestFor: "Tech-forward reformer Pilates, athletic clients, music-driven classes",
+    signatureClass: "The REFORM Method (50 min)",
+    bookingTip: "First-timers must attend a free machine run-through before their first class — book it at the same time as your class. Grippy socks are required and available for purchase at the studio.",
   },
   {
     number: "02",
-    name: "Studio Three",
-    neighborhood: "River North",
-    priceLevel: "$$$",
+    name: "Frog Temple Pilates & Yoga",
+    neighborhood: "Bucktown",
+    priceLevel: "$$",
     review:
-      "Studio Three is Chicago&apos;s most design-conscious boutique fitness studio, and its Pilates programme holds its own alongside the cycling and rowing offerings that made the brand famous. The River North flagship is architecturally striking — exposed brick, high ceilings, and premium reformer equipment in a space that feels like it belongs in New York. The Pilates instructors are experienced and technically strong, with a progressive reformer programme that rewards consistent attendance. The community here is motivated, friendly, and takes their practice seriously.",
-    address: "113 W Illinois Street, Chicago, IL 60654",
-    bestFor: "Premium boutique experience, dynamic reformer, fitness-focused professionals",
-    signatureClass: "Reformer Sculpt & Burn",
-    bookingTip: "Studio Three&apos;s membership bundles its Pilates, cycling, and rowing, which is genuine value for clients who want variety. Book Pilates classes separately if you&apos;re Pilates-only.",
+      "Frog Temple has been a Chicago institution since 2000, making it one of the longest-running Pilates studios in the city with a consistent 5.0 Yelp rating. The studio offers more group Pilates class formats than any other Chicago location, including mat, reformer, tower, and a yoga wall. The exceptionally well-trained instructor team has built a community of deeply loyal regulars over two-plus decades. Drop-in rates starting at $25 per mat class make it one of the most accessible high-quality studios in the city.",
+    address: "1635 W Cortland Ave, Chicago, IL 60622",
+    bestFor: "Classical and group Pilates, mat, reformer, tower, exceptional value",
+    signatureClass: "Classical Reformer Group (open level)",
+    bookingTip: "Mat classes fill quickly on weekend mornings — book at least 48 hours ahead. A 10-class package ($220) offers the best per-class value at this studio.",
   },
   {
     number: "03",
-    name: "Chicago Pilates",
-    neighborhood: "Gold Coast",
-    priceLevel: "$$",
+    name: "Lincoln Park Pilates",
+    neighborhood: "Lincoln Park",
+    priceLevel: "$$$",
     review:
-      "Chicago Pilates on the Gold Coast has earned a loyal following by doing something most studios claim but few achieve: consistently good teaching at a fair price. The Gold Coast studio is unpretentious and focused, with an experienced team that includes several instructors with physical therapy backgrounds. The class formats cover mat, reformer, and tower work, and the programming is genuinely progressive. For residents of the north side looking for a reliable, community-oriented studio without boutique prices, this is one of the city&apos;s best kept secrets.",
-    address: "57 W Huron Street, Chicago, IL 60654",
-    bestFor: "Community atmosphere, value, mat and reformer combination, north side residents",
-    signatureClass: "Reformer & Tower Blend",
-    bookingTip: "The Wednesday evening and Saturday morning classes are particularly popular with regulars. Book 3–4 days ahead — the community here values consistency, and slots fill with returning clients.",
+      "Lincoln Park Pilates is one of Chicago&apos;s most amenity-rich boutique studios, offering reformer, mat, barre, yoga, private training, and an infrared sauna under one roof in a beautifully designed space. Reviewers praise the welcoming staff, challenging classes with modifications for all levels, and the thoughtful curation of instructors. Monthly unlimited memberships and flexible packages accommodate committed regulars and drop-in visitors alike. Elevator accessibility and ample street parking make it unusually convenient for a city studio.",
+    address: "2105 N Southport Ave, Suite 200, Chicago, IL 60614",
+    bestFor: "Full-service reformer, barre, yoga, and infrared sauna; ideal for regulars seeking amenities",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Drop-in classes are $40, but the 12-class monthly package dramatically reduces the per-class cost. First-timers can try an intro class before committing to a membership.",
   },
   {
     number: "04",
-    name: "Form Pilates",
-    neighborhood: "West Loop",
-    priceLevel: "$$",
+    name: "The Pilates Advantage",
+    neighborhood: "Lakeview / Buena Park",
+    priceLevel: "$$$",
     review:
-      "Form Pilates in the West Loop serves Chicago&apos;s fastest-growing residential neighbourhood with a modern, well-executed reformer programme that suits the area&apos;s professional demographic perfectly. The studio is modern and well-lit, with a schedule dense enough to accommodate early-morning, lunchtime, and evening sessions. The instructors are young, enthusiastic, and technically solid — particularly good with beginners who need patient, clear cuing. Pricing is competitive for the level of equipment and instruction quality on offer.",
-    address: "800 W Fulton Market, Suite 310, Chicago, IL 60607",
-    bestFor: "West Loop professionals, beginners, dynamic reformer, accessible pricing",
-    signatureClass: "Form Reformer Flow",
-    bookingTip: "The West Loop sees heavy demand during lunch hours from the tech and finance offices nearby. The 12pm and 12:30pm sessions book out the fastest — reserve them a full week ahead.",
+      "The Pilates Advantage is Chicago&apos;s gold standard for classical Pilates, staffed entirely by Romana&apos;s Pilates-certified instructors — widely considered the highest certification in the industry — on authentic Gratz equipment. The studio has been serving Lakeview for over 12 years and is featured in the Gratz Pilates Studio Series. Reformer classes are capped at three people and tower classes at seven, ensuring genuinely personalized instruction. If you want to learn Pilates as Joseph Pilates intended, this is Chicago&apos;s essential classical address.",
+    address: "4027 N Broadway, Chicago, IL 60613",
+    bestFor: "Classical method purists, Gratz apparatus, Romana-certified instruction",
+    signatureClass: "Classical Reformer Semi-Private",
+    bookingTip: "Private and semi-private sessions are the focus here. Contact the studio directly to discuss your goals and book a proper intake session before joining group tower or reformer classes.",
   },
   {
     number: "05",
-    name: "Club Pilates Wicker Park",
-    neighborhood: "Wicker Park",
-    priceLevel: "$",
+    name: "Restore Pilates Chicago",
+    neighborhood: "Lincoln Square",
+    priceLevel: "$$",
     review:
-      "Club Pilates Wicker Park brings the franchise&apos;s structured, accessible approach to one of Chicago&apos;s most eclectic and youthful neighbourhoods. The studio is clean, consistent, and well-staffed, with a level-based class system that makes reformer Pilates genuinely approachable for newcomers. The Wicker Park clientele brings an energy that distinguishes this location from the more corporate franchise locations, and the instruction is solid if not exceptional. For beginners and budget-conscious practitioners on the north-west side, it&apos;s a reliable and affordable home base.",
-    address: "1520 N Damen Avenue, Chicago, IL 60622",
-    bestFor: "Beginners, affordable membership, Wicker Park and Bucktown residents",
-    signatureClass: "CP Signature Reformer",
-    bookingTip: "Complete the CP1 intro series before joining group classes — the level structure here is taken seriously, and it&apos;ll make your practice more effective from day one.",
+      "Twice named Best Pilates Studio in Chicago — Distinguished Teaching Award 2023 and Quality Business Award 2025 — Restore Pilates has built a fiercely loyal following in the Lincoln Square neighborhood. Clients consistently praise the knowledgeable, supportive instructors who provide hands-on cues and individual modifications, and the intimate class sizes mean no one gets lost in the crowd. The studio also offers live virtual sessions with genuine real-time feedback. Fair pricing and a cozy, clean atmosphere make it one of Chicago&apos;s best neighborhood studios.",
+    address: "4845 N Damen Ave, Chicago, IL 60625",
+    bestFor: "Small-group reformer, neighborhood feel, beginners through advanced",
+    signatureClass: "Reformer Small Group",
+    bookingTip: "Virtual classes here are a genuine option — the instructor watches and corrects form in real time, not just streams a recording. Small group classes sell out quickly on weekday mornings — book online in advance.",
+  },
+  {
+    number: "06",
+    name: "ONYX Heated Reformer Pilates",
+    neighborhood: "River North",
+    priceLevel: "$$$",
+    review:
+      "Co-founded by former Chicago Bear Christian Jones and his wife Liz, ONYX is Chicago&apos;s original heated reformer studio and a certified Black- and LGBTQ-owned fitness business. The patent-pending reformer design positions clients facing the instructor during class, improving form feedback and community feel. Classes run warm, intensifying the mind-muscle connection and increasing flexibility. Additional locations in Wicker Park, and its accessibility-focused Inclusive Fitness ethos has earned features on ABC7 Chicago.",
+    address: "102 W Chicago Ave, Chicago, IL 60654",
+    bestFor: "Heated reformer, athletes, diverse inclusive community",
+    signatureClass: "ONYX Heated Reformer (55 min)",
+    bookingTip: "If you run warm, sit closer to the studio fan area — the heat is genuine. New clients should try the intro offer before committing. Reserve at least 24 hours ahead as morning classes fill the previous evening.",
   },
 ];
 
@@ -190,7 +202,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Chicago",
       "description": "Curated guide to the top 5 Pilates studios in Chicago.",
       "url": "https://pilatescollectiveclub.com/cities/chicago",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -264,7 +276,7 @@ export default function ChicagoPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

@@ -41,64 +41,70 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Pilates Body by Derrick",
-    neighborhood: "Tanjong Pagar / CBD",
-    priceLevel: "$$$$",
-    review:
-      "Pilates Body by Derrick is Singapore&apos;s most respected classical Pilates studio — a direct lineage practitioner whose training traces back to the first-generation teachers. The CBD location is understated and focused: no trendy branding, no Instagram-optimised interiors — just Gratz apparatus, meticulous instruction, and serious practitioners. Private and semi-private sessions only, which means genuine attention to your specific body and goals. For classical Pilates in Southeast Asia, this is the benchmark.",
-    address: "16 Collyer Quay, #14-01 Income At Raffles, Singapore 049318",
-    bestFor: "Classical Pilates purists, private instruction, advanced practitioners",
-    signatureClass: "Classical Reformer Private",
-    bookingTip: "Derrick&apos;s personal session slots book out weeks in advance. Contact the studio directly by email to enquire — walk-in enquiries are not the culture here.",
+    name: "ABSOLUTE Boutique Fitness",
+    neighborhood: "Raffles Place",
+    priceLevel: "S$$$",
+    review: "4.9 · 860+ reviews",
+    address: "1 Finlayson Green, #02-01, Singapore 049246",
+    bestFor: "Premium reformer boutique chain",
+    signatureClass: "ABSOLUTE Reformer",
+    bookingTip: "ClassPass-compatible; intro 3 classes for S$68",
   },
   {
     number: "02",
-    name: "Breathe Pilates",
-    neighborhood: "Orchard / River Valley",
-    priceLevel: "$$$",
-    review:
-      "Breathe Pilates has been one of Singapore&apos;s most consistent premium reformer studios for over a decade, weathering multiple waves of competition by simply maintaining high instruction standards and a loyal community. The River Valley studio is well-designed and spacious by Singapore standards, with Balanced Body reformers and a schedule that runs from early morning to late evening. The instructors are a mix of Australian and Singapore-trained, uniformly strong in their cueing and progressive programming. A reliable home base for serious practitioners.",
-    address: "583 Orchard Road, #04-06 Forum The Shopping Mall, Singapore 238884",
-    bestFor: "Consistent premium reformer, all levels, long-term practice",
-    signatureClass: "Dynamic Reformer Intermediate",
-    bookingTip: "The 7am and 7:30am slots are coveted by the working professional crowd. Book exactly 7 days in advance when they open — these go within the hour.",
+    name: "PURE Yoga & Pilates",
+    neighborhood: "Orchard Road",
+    priceLevel: "S$$$$",
+    review: "4.8 · 940+ reviews",
+    address: "391 Orchard Rd, #04-09 Ngee Ann City, 238872",
+    bestFor: "Luxury yoga & Pilates destination",
+    signatureClass: "PURE Reformer Fundamentals",
+    bookingTip: "Monthly membership includes unlimited classes",
   },
   {
     number: "03",
-    name: "The Pilates Studio Singapore",
-    neighborhood: "Duxton Hill / Tanjong Pagar",
-    priceLevel: "$$$",
-    review:
-      "The Pilates Studio has carved out a well-earned niche by blending classical Pilates methodology with a warm, community-oriented atmosphere that can be rare in Singapore&apos;s often transactional wellness market. The Duxton Hill location is beautifully positioned in one of Singapore&apos;s most characterful conservation shophouse streets. The teaching team is experienced, and the class formats range from fundamental mat sessions to advanced reformer and tower work. Consistently cited by Singapore&apos;s expat wellness community as one of the city&apos;s most trustworthy studios.",
-    address: "3 Duxton Hill, Singapore 089589",
-    bestFor: "Community atmosphere, conservation shophouse setting, all levels",
-    signatureClass: "Reformer & Tower Intermediate",
-    bookingTip: "The Friday evening and Saturday morning classes here are social as much as physical. Book 3–4 days ahead and expect to make friends.",
+    name: "Lab Studios Duxton",
+    neighborhood: "Tanjong Pagar",
+    priceLevel: "S$$$",
+    review: "4.9 · 490+ reviews",
+    address: "97 Duxton Rd, #01-01, Singapore 089543",
+    bestFor: "Neighbourhood boutique with community vibe",
+    signatureClass: "Lab Reformer Circuit",
+    bookingTip: "Saturday classes book out by Thursday",
   },
   {
     number: "04",
-    name: "TripleFit",
-    neighborhood: "Harbourfront / VivoCity",
-    priceLevel: "$$",
-    review:
-      "TripleFit&apos;s Pilates programme is part of a broader fitness concept, but the reformer offering stands on its own merits. The VivoCity location has excellent scheduling density — crucial in a city where most clients are juggling demanding work schedules — and the instructors are well-trained and consistent. Class sizes are manageable, and the level-based structure makes it genuinely easy to progress. For residents in the south of the island looking for reliable reformer Pilates without the boutique price tag, TripleFit is an excellent choice.",
-    address: "1 HarbourFront Walk, #01-93 VivoCity, Singapore 098585",
-    bestFor: "Structured progression, value for money, south Singapore residents",
-    signatureClass: "TF Reformer Level 2",
-    bookingTip: "Monthly memberships here offer the best per-class rate in Singapore&apos;s reformer scene. The 12pm lunchtime sessions are quieter than evening classes.",
+    name: "Breathe Pilates",
+    neighborhood: "Holland Village",
+    priceLevel: "S$$$",
+    review: "4.9 · 380+ reviews",
+    address: "44 Lorong Mambong, Holland Village, 277693",
+    bestFor: "Therapeutic & classical Pilates",
+    signatureClass: "Breathe Classical Reformer",
+    bookingTip: "Physio-led consultations available by appointment",
   },
   {
     number: "05",
-    name: "Flex Studio",
-    neighborhood: "Holland Village",
-    priceLevel: "$$$",
-    review:
-      "Flex Studio in Holland Village has been a fixture of Singapore&apos;s expat wellness scene for years, earning its reputation through genuinely attentive teaching and a studio environment that feels calm and focused. The Holland V location is convenient for the west side of the island, and the client base reflects the neighbourhood — international, wellness-savvy, and inclined towards consistency. The schedule covers mat, reformer, and barre in formats that suit beginners through advanced clients. A quietly excellent choice that rarely disappoints.",
-    address: "43 Jln Merah Saga, #01-76 Holland Village, Singapore 278115",
-    bestFor: "Expat community, west Singapore, beginner-to-advanced range",
-    signatureClass: "Reformer Fusion",
-    bookingTip: "Holland Village parking can be challenging. MRT (Holland Village station) is the easier option — the studio is a short walk from the exit.",
+    name: "STRONG Pilates",
+    neighborhood: "Buona Vista",
+    priceLevel: "S$$$",
+    review: "4.8 · 560+ reviews",
+    address: "71 Ayer Rajah Crescent, #07-14, 139951",
+    bestFor: "High-intensity reformer circuit",
+    signatureClass: "STRONG 45 Reformer",
+    bookingTip: "New client: first class S$20",
   },
+  {
+    number: "06",
+    name: "SG Pilates",
+    neighborhood: "Tiong Bahru",
+    priceLevel: "S$$",
+    review: "4.9 · 310+ reviews",
+    address: "78 Guan Chuan St, #01-16, Tiong Bahru, 162078",
+    bestFor: "Affordable studio in vintage district",
+    signatureClass: "SG Core Reformer",
+    bookingTip: "10-class packages start from S$280",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -190,7 +196,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Singapore",
       "description": "Curated guide to the top 5 Pilates studios in Singapore.",
       "url": "https://pilatescollectiveclub.com/cities/singapore",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -264,7 +270,7 @@ export default function SingaporePage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

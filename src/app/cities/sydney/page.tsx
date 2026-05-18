@@ -41,64 +41,70 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Studio Pilates International",
-    neighborhood: "Neutral Bay / CBD",
-    priceLevel: "$$$",
-    review:
-      "Studio Pilates International has set a high watermark for reformer Pilates in Australia, and the Sydney locations uphold that standard meticulously. The programming is genuinely progressive — 40 class formats that evolve in difficulty as your strength and coordination develop — and the instructors are trained to a notably consistent standard. The Neutral Bay studio is particularly well-appointed, with excellent natural light and a calm, focused atmosphere. One of the most reliable premium reformer experiences in the country.",
-    address: "200 Military Road, Neutral Bay NSW 2089",
-    bestFor: "Progressive reformer training, all levels, structured progression",
-    signatureClass: "SP Reformer Level 3",
-    bookingTip: "The 6am and 6pm weekday slots are in high demand. Book through the app exactly seven days in advance when new slots open.",
+    name: "Fluidform Pilates",
+    neighborhood: "Paddington",
+    priceLevel: "A$$$",
+    review: "4.9 · 680+ reviews",
+    address: "83 William St, Paddington NSW 2021",
+    bestFor: "Reformer & mat with postural focus",
+    signatureClass: "Fluidform Signature",
+    bookingTip: "Online booking opens 7 days ahead",
   },
   {
     number: "02",
-    name: "Barre Body",
-    neighborhood: "Bondi Junction",
-    priceLevel: "$$",
-    review:
-      "Barre Body has grown into one of Australia's best-loved boutique studios, and the Bondi Junction location captures everything that makes the brand work: energetic instructors, a welcoming community, and programming that blends classical Pilates principles with barre and functional movement. The reformer classes here are on the more dynamic end, with a strong emphasis on glute and core work. The studio is impeccably maintained and the class schedule is dense, making it easy to build a consistent practice.",
-    address: "Shop 1, 500 Oxford Street, Bondi Junction NSW 2022",
-    bestFor: "Barre-Pilates fusion, community atmosphere, women-led classes",
-    signatureClass: "Reformer Sculpt",
-    bookingTip: "Intro offers are generous — use the first-month deal to sample the full range of reformer and mat formats before committing.",
+    name: "BodyMindLife",
+    neighborhood: "Surry Hills",
+    priceLevel: "A$$$",
+    review: "4.8 · 920+ reviews",
+    address: "38 Oxford St, Surry Hills NSW 2010",
+    bestFor: "Yoga-Pilates-meditation centre",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Unlimited monthly pass great value",
   },
   {
     number: "03",
-    name: "One Hot Yoga & Pilates",
-    neighborhood: "Surry Hills",
-    priceLevel: "$$",
-    review:
-      "One Hot Yoga & Pilates occupies a well-designed space in Surry Hills that feels more like a creative studio than a commercial gym. The Pilates programme is mat-focused and Contrology-influenced — proper classical work with emphasis on breath, control, and flow. The instructors here are genuinely knowledgeable, with several trained in the lineage tradition. For those who want to understand Pilates as a method rather than a fitness modality, this is one of Sydney's most authentic options.",
-    address: "74 Commonwealth Street, Surry Hills NSW 2010",
-    bestFor: "Classical mat Pilates, breath-centred practice, method purists",
-    signatureClass: "Classical Mat Flow",
-    bookingTip: "Mat Pilates classes here run smaller than the reformer boutiques, which means better instructor attention — worth booking at least 48 hours ahead.",
+    name: "Studio Mouvoir",
+    neighborhood: "Potts Point",
+    priceLevel: "A$$$",
+    review: "4.9 · 370+ reviews",
+    address: "1 Kellett Way, Potts Point NSW 2011",
+    bestFor: "Aerial & reformer Pilates",
+    signatureClass: "Mouvoir Aerial Reformer",
+    bookingTip: "Book aerial classes 72 hrs in advance",
   },
   {
     number: "04",
-    name: "Equilibrium Pilates",
-    neighborhood: "Mosman",
-    priceLevel: "$$$",
-    review:
-      "Equilibrium has cultivated a loyal following on the lower north shore by offering something increasingly rare in Sydney: genuinely personalised attention in a small-group reformer setting. Classes cap at eight, allowing instructors to offer meaningful corrections and progressions throughout every session. The Mosman studio is understated but impeccably equipped, with Gratz apparatus for the classical programme alongside Balanced Body reformers for group work. A serious studio for serious clients.",
-    address: "27 Avenue Road, Mosman NSW 2088",
-    bestFor: "Small-group reformer, rehabilitation, advanced practitioners",
-    signatureClass: "Small Group Reformer & Tower",
-    bookingTip: "The Thursday evening Tower class is a local favourite and fills fast. Regular clients tend to hold recurring bookings — contact the studio to ask about weekly reservation slots.",
+    name: "Mode Pilates",
+    neighborhood: "Newtown",
+    priceLevel: "A$$",
+    review: "4.9 · 450+ reviews",
+    address: "188 King St, Newtown NSW 2042",
+    bestFor: "Affordable boutique reformer",
+    signatureClass: "Mode Power Reformer",
+    bookingTip: "Intro offer: 2 weeks unlimited A$49",
   },
   {
     number: "05",
-    name: "Club Pilates Sydney CBD",
-    neighborhood: "CBD / Wynyard",
-    priceLevel: "$$",
-    review:
-      "Club Pilates brings a structured, accessible approach to reformer Pilates that suits the pace of Sydney's CBD well. The Wynyard studio is compact but well-run, with a clear level-based class system and a high frequency of sessions throughout the day. For office workers looking to fit a 50-minute reformer class into a lunch break or before-work routine, this is one of the most convenient and consistent options in the city centre. Membership plans make regular attendance genuinely affordable.",
-    address: "Level 2, 30 Clarence Street, Sydney NSW 2000",
-    bestFor: "Lunchtime reformer, CBD convenience, structured beginner progression",
-    signatureClass: "CP Signature Reformer",
-    bookingTip: "The 12:15pm and 1pm CBD slots go in minutes. Book via the app as soon as the weekly schedule opens on Monday morning.",
+    name: "KX Pilates",
+    neighborhood: "Bondi Junction",
+    priceLevel: "A$$$",
+    review: "4.8 · 1,100+ reviews",
+    address: "500 Oxford St, Bondi Junction NSW 2022",
+    bestFor: "High-intensity reformer circuit",
+    signatureClass: "KX50 Signature",
+    bookingTip: "First class free for new members",
   },
+  {
+    number: "06",
+    name: "Bodylove Pilates",
+    neighborhood: "Manly",
+    priceLevel: "A$$",
+    review: "4.9 · 340+ reviews",
+    address: "46 Pittwater Rd, Manly NSW 2095",
+    bestFor: "Beach-side reformer studio",
+    signatureClass: "Bodylove Reformer",
+    bookingTip: "Saturday ocean-view classes book out first",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -190,7 +196,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Sydney",
       "description": "Curated guide to the top 5 Pilates studios in Sydney.",
       "url": "https://pilatescollectiveclub.com/cities/sydney",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -264,7 +270,7 @@ export default function SydneyPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

@@ -32,58 +32,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Body Harmonics — Midtown",
-    neighborhood: "Midtown (Yonge & Eglinton)",
+    name: "Retrofit Pilates",
+    neighborhood: "Bloor West Village",
     priceLevel: "$$$",
-    review: "Body Harmonics is arguably Canada's most respected Pilates institution — a studio and teacher training centre that has shaped the country's Pilates culture for over two decades. The Midtown flagship combines rigorous classical instruction with evidence-based movement science in a way that few studios anywhere in the world match. Founder Margot McKinnon's approach informs every class: anatomy is taught as part of the practice, not an afterthought. Private sessions with the senior faculty represent genuinely world-class coaching. The studio's teacher training programme is considered the gold standard in Canada.",
-    address: "489 College Street, Suite 200, Toronto ON M6G 1A5",
-    bestFor: "Classical method, teacher-quality instruction, serious practitioners",
-    signatureClass: "Body Harmonics Classical Reformer",
-    bookingTip: "New clients should book a Pilates assessment before attending group classes — it ensures you're placed at the correct level and allows the instructor to personalise cues. Evening and Saturday morning sessions fill most quickly; book a full week ahead.",
+    review:
+      "Founded in 1999 by professional dancer Barbara Grant, Retrofit Pilates is one of Toronto&apos;s longest-running and most respected studios — a Balanced Body Authorized International Teacher Training Centre, meaning instructors are trained to a rigorous professional standard. The studio offers reformer, springboard, and mat classes across a robust weekly schedule, and reviewers praise the creative, challenging, and level-appropriate programming. The Bloor West Village location is within walking distance of both Jane and Runnymede subway stations.",
+    address: "2323 Bloor St W, Suite 206, Toronto, ON M6S 4W1",
+    bestFor: "Classical and contemporary reformer, springboard, mat — all levels",
+    signatureClass: "Reformer & Springboard Group Class",
+    bookingTip: "New clients can access a one-month intro package covering reformer, springboard, and mat classes for $129 — exceptional value for a studio of this caliber. Book online; early morning slots fill first.",
   },
   {
     number: "02",
-    name: "Studio KR Pilates",
-    neighborhood: "Yorkville",
-    priceLevel: "$$$",
-    review: "Studio KR occupies a beautifully appointed space in Toronto's most prestigious shopping and dining district, serving Yorkville's affluent residential and professional community with a level of care that matches the neighbourhood's expectations. The studio specialises in private and duet reformer sessions — group classes are offered but the real jewel is the one-to-one attention from an exceptionally qualified teaching team. Lead instructor Karen Reiter trained in New York and brings an unusually nuanced understanding of the classical system that elevates even fundamental exercises into revelatory experiences. An essential Toronto address.",
-    address: "87 Avenue Road, Suite 300, Toronto ON M5R 3R9",
-    bestFor: "Private and duet sessions, Yorkville clientele, classical expertise",
-    signatureClass: "KR Private Reformer & Tower",
-    bookingTip: "Private sessions book out two to three weeks in advance with senior instructors. Request Karen for your intake assessment — the insight she provides in a single session is worth the premium. Online booking only; no walk-ins accepted.",
+    name: "Fortides Pilates",
+    neighborhood: "Roncesvalles",
+    priceLevel: "$$",
+    review:
+      "Fortides was founded by Steph and Aleks — who bonded over Pilates during their time in London — and is exactly the studio Roncesvalles deserved. The bright, calming space features brand-new Merrithew reformers and a schedule running seven days a week covering Full Body, Foundation, Restore, and Pre/Post-Natal classes. At $37 per class with a two-class welcome offer for $50, it is accessible without feeling cheap. The studio has been profiled by FLEETSTREET as a standout addition to Toronto&apos;s increasingly serious fitness scene.",
+    address: "149 Roncesvalles Ave, Toronto, ON M6R 2L2",
+    bestFor: "Contemporary reformer, community-focused, pre/postnatal options",
+    signatureClass: "Fortides Full Body (50 min)",
+    bookingTip: "The Welcome Offer (2 classes/$50) is the best entry point — try Full Body first, then Foundation if you&apos;re newer to reformer Pilates. Evening classes book out fast; early morning weekday spots have the most availability.",
   },
   {
     number: "03",
-    name: "Pilates on Bloor",
-    neighborhood: "The Annex",
+    name: "Core Studio Pilates & Academy",
+    neighborhood: "Fashion District / Queen West",
     priceLevel: "$$",
-    review: "Pilates on Bloor has been a fixture of the Annex community for over fifteen years — a genuine neighbourhood studio where the owner knows her clients by name and the instruction has real depth without the premium pricing of Yorkville. The studio's reformer classes are thoughtfully programmed, and the mix of classical and contemporary elements reflects an owner-instructor who has done the reading and continues to evolve her teaching. The Annex location draws University of Toronto faculty, healthcare professionals, and long-term Pilates practitioners who value substance over scene.",
-    address: "2333 Bloor Street West, Toronto ON M6S 1P3",
-    bestFor: "Neighbourhood community, owner-operated quality, value pricing",
-    signatureClass: "Bloor Street Reformer Essentials",
-    bookingTip: "The studio has a loyal base of long-term clients, which means popular slots are often pre-booked by regulars. Book three to four days ahead and don't hesitate to email directly if you can't find availability online — the owner often accommodates new clients personally.",
+    review:
+      "Core Studio has earned a 94% recommendation rate by maintaining small group sessions (typically 4–6 clients) that ensure every participant receives personalized, hands-on guidance rarely found in group settings. The studio is a certified Power Pilates partner and runs a respected teacher training academy alongside client classes, meaning instructors are actively engaged in continuing education. Located on the 4th floor above Queen West, it draws a downtown professional crowd and is accessible by streetcar.",
+    address: "553 Queen St W, 4th Floor, Toronto, ON M5V 2B6",
+    bestFor: "Small-group reformer (max 4-6), serious practitioners, aspiring instructors",
+    signatureClass: "Small Group Reformer",
+    bookingTip: "Book at least 3–4 days ahead for evening Queen West slots — popular with the after-work crowd. Drop-in options are available but advance booking guarantees your preferred instructor.",
   },
   {
     number: "04",
-    name: "Reform Pilates Studio",
-    neighborhood: "Queen West",
+    name: "Have a Nice Day Pilates",
+    neighborhood: "Corktown",
     priceLevel: "$$",
-    review: "Reform has established itself as Queen West's go-to reformer studio — a well-designed space that captures the neighbourhood's creative energy while delivering a technically sound, progressive reformer programme. Classes run in a structured 50-minute format with clear level differentiation, making it easy for practitioners to chart their own progression through the studio's offerings. The instructors are young, well-trained, and communicate clearly; the community that has formed around the studio is one of the most engaged in the city. A strong choice for practitioners new to Toronto who want to find their Pilates home quickly.",
-    address: "874 Queen Street West, Toronto ON M6J 1G3",
-    bestFor: "Level-based progression, Queen West community, efficient 50-min format",
-    signatureClass: "Reform Reformer Level 2",
-    bookingTip: "Reform uses Mindbody for bookings. Purchase the New Client Special — three classes for a significantly reduced rate — to try different instructors and class levels before committing. Saturday morning classes fill by Wednesday most weeks.",
+    review:
+      "Founded by Jennifer Winter during the pandemic, Have a Nice Day Pilates has quickly become one of Toronto&apos;s most talked-about studios, earning 4.9 stars from 82 reviewers who celebrate the welcoming, inclusive atmosphere and genuinely outstanding instruction. The studio&apos;s vaulted-ceiling space on Eastern Ave is strikingly beautiful, and the intro pricing ($99 for 3 reformer classes) makes it easy to try before committing. As Toronto&apos;s first Black-owned Pilates studio, it has attracted significant media attention and a diverse, passionate client community.",
+    address: "8 Eastern Ave, Toronto, ON M5A 3C7",
+    bestFor: "Inclusive, community-driven reformer Pilates, all backgrounds and levels",
+    signatureClass: "Reformer Group (all levels)",
+    bookingTip: "The Intro 3 Reformer Pack ($99) is the ideal way to start. Parking on Eastern Ave is limited; the King streetcar (504) stops nearby and the studio is a short walk from Distillery District.",
   },
   {
     number: "05",
-    name: "The Pilates Studio — Leslieville",
-    neighborhood: "Leslieville",
-    priceLevel: "$$",
-    review: "The Pilates Studio is Leslieville's finest wellness address — a warm, unpretentious space that has built a fiercely loyal following in one of Toronto's most community-oriented east-end neighbourhoods. The studio offers both reformer and mat classes, with a mat programme that is unusually strong by Toronto standards — ideal for practitioners who want to deepen their understanding of the method beyond the reformer. Owner-instructor Diane Park trained with Stott Pilates and brings the precision and cue-quality that the certification demands. Small class sizes and genuine personalisation make this one of the city's best-kept secrets.",
-    address: "1235 Queen Street East, Toronto ON M4M 1L5",
-    bestFor: "Mat Pilates, small classes, east-end community",
-    signatureClass: "Classical Mat & Reformer Blend",
-    bookingTip: "The studio's mat classes are the least-known and most underbooked — a genuine opportunity for practitioners who want a more attentive experience at accessible pricing. Book through the studio website; the waitlist system is reliable and worth joining for popular time slots.",
+    name: "Body Harmonics",
+    neighborhood: "Dupont / Christie",
+    priceLevel: "$$$",
+    review:
+      "Body Harmonics is one of Canada&apos;s most respected Pilates institutions, operating both a client studio and a nationally recognized teacher training program. With a 96% recommendation rate and reviews praising the beautiful, light-filled facilities and modern well-maintained equipment, the studio attracts clients ranging from those managing chronic pain to competitive athletes. Their approach integrates current biomechanical research with classical Pilates, resulting in programming that is both evidence-based and deeply effective. A second location at 1835 Yonge St serves clients in midtown.",
+    address: "672 Dupont St, Suite 406, Toronto, ON M6G 1Z4",
+    bestFor: "Science-based Pilates, rehabilitation, athletic conditioning",
+    signatureClass: "Reformer & Functional Movement",
+    bookingTip: "Clients interested in rehab-focused work should request an initial assessment with a senior instructor. Book through their website; the Dupont location is reachable on the Bloor-Danforth subway.",
+  },
+  {
+    number: "06",
+    name: "Imprint Pilates",
+    neighborhood: "Entertainment District / Chinatown",
+    priceLevel: "$$$",
+    review:
+      "Established in 2018, Imprint Pilates has built one of downtown Toronto&apos;s strongest reputations for personalized Pilates work, with a client-centered focus offering private, semi-private, and small-group formats alongside TRX, prenatal and postnatal programming, and integrated health services. Reviewers on TripAdvisor and ClassPass consistently praise the instructor expertise and the measurable improvements in strength and pain management they experience. Located at the intersection of Chinatown, King West, and the Entertainment District, it is remarkably central.",
+    address: "204 Spadina Ave, First Floor, Toronto, ON M5T 2C2",
+    bestFor: "Private and semi-private reformer, prenatal/postnatal, integrated health",
+    signatureClass: "Private Apparatus Session",
+    bookingTip: "A semi-private or private intro session with an assessment is strongly recommended before joining group classes. Imprint&apos;s Spadina Ave location has multiple streetcar options (510, 511) for easy access.",
   },
 ];
 
@@ -129,7 +146,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Toronto",
       "description": "Curated guide to the top 5 Pilates studios in Toronto.",
       "url": "https://pilatescollectiveclub.com/cities/toronto",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -189,7 +206,7 @@ export default function TorontoPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Studios · Curated & Verified</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (<StudioListing key={studio.number} {...studio} />))}
             </div>

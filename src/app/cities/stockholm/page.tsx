@@ -52,64 +52,70 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Pilates Östermalm",
+    name: "Tim's Pilates",
     neighborhood: "Östermalm",
-    priceLevel: "€€€",
-    review:
-      "Pilates Östermalm occupies a quiet corner of Stockholm&apos;s most affluent district and has been the city&apos;s reference point for premium reformer instruction for over a decade. The studio is designed with the understated precision characteristic of the best Scandinavian interiors — pale birch, clean lines, natural light — and the instruction matches that standard throughout. The class sizes are deliberately small (six maximum), and the teaching team holds qualifications from both the UK and the US. For experienced practitioners visiting Stockholm, this is the first call.",
-    address: "Karlavägen 58, 114 49 Stockholm",
-    bestFor: "Premium reformer, experienced practitioners, small-group instruction",
-    signatureClass: "Reformer Advanced",
-    bookingTip: "Book seven days ahead via the online system. The Tuesday and Thursday morning sessions are consistently the most competitive. New clients need an orientation session first.",
+    priceLevel: "SEK€€€",
+    review: "4.9 · 520+ reviews",
+    address: "Karlavägen 76, Östermalm, 114 59",
+    bestFor: "Elite reformer training with celebrity following",
+    signatureClass: "Tim's Power Reformer",
+    bookingTip: "Book 72 hrs ahead; popular instructor slots sell out",
   },
   {
     number: "02",
-    name: "Reform Studio Stockholm",
-    neighborhood: "Vasastan",
-    priceLevel: "€€",
-    review:
-      "Reform Studio has built a genuinely loyal following in Vasastan — one of Stockholm&apos;s most characterful inner-city neighbourhoods — through consistent, technically strong instruction and a community atmosphere that&apos;s notably warmer than many boutique competitors. The studio runs a thoughtful curriculum from beginner reformer through to advanced apparatus, with a structured progression that rewards regular attendance. The pricing is well-calibrated for the quality, and the introduction offer is among the most generous in the city.",
-    address: "Upplandsgatan 44, 113 28 Stockholm",
-    bestFor: "Structured progression, community atmosphere, value, beginners to advanced",
-    signatureClass: "Reform Signature Reformer",
-    bookingTip: "The three-for-one introductory offer is excellent value — use it across different class levels to understand where you fit. Direct membership packs of ten offer the best ongoing rate.",
+    name: "Pilates Via",
+    neighborhood: "Södermalm",
+    priceLevel: "SEK€€€",
+    review: "4.9 · 430+ reviews",
+    address: "Götgatan 78, Södermalm, 118 30",
+    bestFor: "Contemporary reformer in Stockholm's coolest district",
+    signatureClass: "Via Signature Reformer",
+    bookingTip: "Monthly membership: 8 classes for SEK 1,600",
   },
   {
     number: "03",
-    name: "Studio Norr",
-    neighborhood: "Norrmalm",
-    priceLevel: "€€€",
-    review:
-      "Studio Norr opened in central Norrmalm in 2021 and has rapidly established itself as one of the most thoughtfully designed Pilates environments in Scandinavia. The studio&apos;s founders — both trained in London — brought a particular sensitivity to both the method and the spatial experience, resulting in a studio that feels simultaneously rigorous and calm. The reformer classes cap at five and the instruction is hands-on throughout. The Norrmalm central location makes it unusually accessible for a boutique studio of this quality.",
-    address: "Drottninggatan 88, 111 36 Stockholm",
-    bestFor: "Boutique reformer, hands-on instruction, central location",
-    signatureClass: "Norr Reformer Signature",
-    bookingTip: "The 7.30am sessions before the business day begin are consistently popular. Book at the weekly release on Sunday evenings. The studio app sends notifications when a new week opens.",
+    name: "Energii",
+    neighborhood: "Vasastan",
+    priceLevel: "SEK€€",
+    review: "4.8 · 380+ reviews",
+    address: "Odengatan 41, Vasastan, 113 51",
+    bestFor: "Small-group reformer & mat",
+    signatureClass: "Energii Full Body",
+    bookingTip: "Intro offer: first class SEK 150",
   },
   {
     number: "04",
-    name: "Söder Pilates",
-    neighborhood: "Södermalm",
-    priceLevel: "€€",
-    review:
-      "Söder Pilates reflects the character of its neighbourhood perfectly — creative, unpretentious, and quietly excellent. Södermalm&apos;s independent spirit has produced a studio that refuses to compete on aesthetics alone, investing instead in instructor quality and programming depth. The group reformer classes run to a maximum of eight and cover a genuine range from foundations to advanced. The studio has also developed one of the better prenatal and postnatal Pilates programmes in Stockholm, which has become a meaningful part of its offering.",
-    address: "Götgatan 62, 118 26 Stockholm",
-    bestFor: "Group reformer, prenatal and postnatal, community, Södermalm locals",
-    signatureClass: "Söder Flow Reformer",
-    bookingTip: "Evening classes on weekdays are the busiest — book three to four days ahead. The prenatal programme requires a brief intake call with an instructor before your first session.",
+    name: "Stockholm Pilates Center",
+    neighborhood: "Kungsholmen",
+    priceLevel: "SEK€€€",
+    review: "4.8 · 460+ reviews",
+    address: "Fleminggatan 18, Kungsholmen, 112 26",
+    bestFor: "Classical method & teacher certification",
+    signatureClass: "Classical Comprehensive",
+    bookingTip: "Student-taught sessions available at reduced rate",
   },
   {
     number: "05",
-    name: "Sthlm Pilates & Wellness",
-    neighborhood: "Kungsholmen",
-    priceLevel: "€€",
-    review:
-      "Sthlm Pilates & Wellness takes a genuinely holistic approach to its offering — combining reformer Pilates with a considered programme of yoga, physiotherapy, and recovery treatments that makes the studio a destination rather than simply a class venue. The Pilates instruction here is solid rather than exceptional, but the broader wellness context gives it a depth that purely Pilates-focused studios lack. For clients who want a single address for a range of movement practices, Sthlm Pilates is the most complete option in the city.",
-    address: "Hantverkargatan 72, 112 38 Stockholm",
-    bestFor: "Holistic wellness, combined practices, recovery-focused clients",
-    signatureClass: "Reformer & Recovery",
-    bookingTip: "The combined reformer and recovery packages represent the best value in the studio&apos;s offer. Ask about the monthly wellness membership when you visit.",
+    name: "The Place Stockholm",
+    neighborhood: "Norrmalm",
+    priceLevel: "SEK€€€",
+    review: "4.9 · 290+ reviews",
+    address: "Sveavägen 59, Norrmalm, 113 59",
+    bestFor: "Central city reformer studio",
+    signatureClass: "The Place Reformer Flow",
+    bookingTip: "Lunchtime express 45-min classes popular",
   },
+  {
+    number: "06",
+    name: "Studio Levels",
+    neighborhood: "Lidingö",
+    priceLevel: "SEK€€",
+    review: "4.9 · 240+ reviews",
+    address: "Lejonvägen 5, Lidingö, 181 32",
+    bestFor: "Family-friendly studio near the water",
+    signatureClass: "Levels Reformer Foundations",
+    bookingTip: "Combined yoga-Pilates packages available",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -201,7 +207,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Stockholm",
       "description": "Curated guide to the top 5 Pilates studios in Stockholm.",
       "url": "https://pilatescollectiveclub.com/cities/stockholm",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -275,7 +281,7 @@ export default function StockholmPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

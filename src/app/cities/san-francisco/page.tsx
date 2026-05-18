@@ -52,63 +52,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Alchemy Pilates",
-    neighborhood: "Pacific Heights",
+    name: "Mighty Pilates",
+    neighborhood: "Presidio Heights / Laurel Heights",
     priceLevel: "$$$",
     review:
-      "Alchemy has quietly established itself as Pacific Heights' most serious Pilates address. The studio occupies a beautifully converted Victorian space on Sacramento Street, where Balanced Body Reformers and a meticulous cueing philosophy sit side by side. The instructors bring a rare combination of anatomical knowledge and genuine warmth — classes never feel clinical. The small class sizes (six per reformer session) ensure every client receives meaningful attention throughout.",
-    address: "2325 Sacramento Street, San Francisco, CA 94115",
-    bestFor: "Precision reformer, small-group sessions, all levels",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "Early-morning Pacific Heights slots fill within hours of the weekly release. Book via their app on Sunday evening for the best selection.",
+      "Mighty Pilates is consistently one of the top-reviewed Pilates studios in San Francisco, with a strong reputation for instructor quality — all instructors maintain 5-star client ratings. The Sacramento Street location on the Presidio Heights / Laurel Heights border is surrounded by excellent cafes and close to the park. An intro offer of 5 classes for $99 makes it accessible for new clients. A second SF location at 2022 Polk St in Russian Hill provides another option for the north side of the city.",
+    address: "3654 Sacramento St, San Francisco, CA 94118",
+    bestFor: "High-quality group reformer, consistent 5-star instructors, all levels",
+    signatureClass: "Reformer Pilates (all levels, 55 min)",
+    bookingTip: "Use the intro offer (5 classes/$99) to find your favorite instructor before committing to a package. The Presidio Heights location has limited street parking — arriving along the 1-California Muni line is recommended.",
   },
   {
     number: "02",
-    name: "Cardio Barre & Pilates",
-    neighborhood: "Lower Pacific Heights",
-    priceLevel: "$$",
+    name: "Bright Star Pilates & Gyrotonic",
+    neighborhood: "Castro / Mission Dolores",
+    priceLevel: "$$$",
     review:
-      "Cardio Barre occupies an important middle ground in San Francisco's fitness landscape — accessible pricing, energetic instruction, and a genuine commitment to the Pilates method beneath the branded exterior. The Lower Pacific Heights studio is well-equipped and efficiently run. The reformer programme here is structured clearly from introductory to advanced, which makes it an excellent entry point for newcomers to the method who want a proper foundation without the intimidation of a luxury boutique.",
-    address: "2166 Market Street, San Francisco, CA 94114",
-    bestFor: "Beginners to intermediate, structured progression, value",
-    signatureClass: "Reformer Level 1 Series",
-    bookingTip: "Class packs of ten offer the best per-class rate. The 6am slots are almost always available mid-week.",
+      "Established in 2013 and built specifically to offer premium group classes at a competitive price, Bright Star Pilates is led by owner and instructor Artemis, repeatedly cited in reviews as one of the best Pilates teachers in San Francisco. The studio is bright, spacious, and well-equipped with reformers, Cadillacs, and Gyrotonic equipment. Reviewers call it a Pilates gem with a level of teaching quality that rivals private sessions. The Castro-adjacent location has solid public transit access.",
+    address: "493 Sanchez St, San Francisco, CA 94117",
+    bestFor: "Premium group reformer and Gyrotonic, experienced practitioners",
+    signatureClass: "Group Reformer (small group, 55 min)",
+    bookingTip: "Private Gyrotonic sessions with Artemis book out weeks in advance — reserve early. Group reformer classes have more availability and are easier to drop into with 24 hours notice.",
   },
   {
     number: "03",
-    name: "Studio Vitae",
-    neighborhood: "Noe Valley",
+    name: "NICE Pilates",
+    neighborhood: "Central Richmond",
     priceLevel: "$$$",
     review:
-      "Studio Vitae is the kind of neighbourhood gem that San Francisco does particularly well. Tucked into a quiet Noe Valley street, it operates on a semi-private and private basis only — no group reformer classes, which means every session is genuinely bespoke. The head instructor brings fifteen years of classical Pilates training and has a particular strength in postpartum and spinal rehabilitation work. For clients with specific goals or injury histories, this is among the most thoughtful studios in the city.",
-    address: "3982 24th Street, San Francisco, CA 94114",
-    bestFor: "Private and semi-private sessions, rehabilitation, postpartum",
-    signatureClass: "Bespoke Reformer & Mat",
-    bookingTip: "Wait times for a regular slot can be four to six weeks. Join the cancellation list immediately and be flexible on timing.",
+      "NICE Pilates (Nourishing, Integrative, Classical, Experience) is recognized as the best classical Pilates studio in San Francisco. Owner Diana is certified in the Romana Kryzanowska lineage and caps every class at five participants, making each session function like a semi-private. The studio serves the Richmond neighborhood with a warm, community-oriented atmosphere. Reviewers love the detailed attention to alignment and the studio&apos;s structured progression from foundational to advanced classical work.",
+    address: "412 15th Ave, San Francisco, CA 94118",
+    bestFor: "Classical Pilates in the Romana lineage, max 5 students per class",
+    signatureClass: "Integrative Classical Reformer",
+    bookingTip: "With a max of 5 students per class, spots disappear fast — weekly recurring bookings are the best way to secure your preferred slot. Easily reachable on the 1-California or 38-Geary bus lines.",
   },
   {
     number: "04",
-    name: "The Pilates Studio SF",
-    neighborhood: "Russian Hill",
-    priceLevel: "$$$",
+    name: "Blue Sparrow Pilates",
+    neighborhood: "North Beach",
+    priceLevel: "$$$$",
     review:
-      "One of the city's longest-running dedicated Pilates studios, The Pilates Studio SF maintains the classical lineage with uncommon seriousness. The Russian Hill location is compact but thoughtfully equipped — Gratz apparatus throughout, which tells you everything about the studio's commitment to traditional methodology. The teaching is disciplined and demanding, and the instructor roster includes several who trained directly with first-generation Pilates teachers. An essential stop for anyone with a serious interest in the classical system.",
-    address: "1020 Hyde Street, San Francisco, CA 94109",
-    bestFor: "Classical Pilates, advanced practitioners, method purists",
-    signatureClass: "Classical Reformer",
-    bookingTip: "New clients must complete a private intake session before joining group apparatus classes. Budget two sessions before the group schedule opens up.",
+      "Blue Sparrow Pilates is the only STOTT Pilates Licensed Training Center in San Francisco, established in 2007 by veteran trainer Holly. The studio is renowned for attracting elite athletes and clients recovering from complex injuries, and the quartet format (maximum 4 clients) means instruction feels genuinely personal. Yelp reviewers give it 5 stars and note that class content goes above and beyond expectations, with customer service and attention to individual needs setting a very high bar.",
+    address: "1441 Grant Ave, San Francisco, CA 94133",
+    bestFor: "STOTT method, elite athletes, injury rehabilitation, highly individualized",
+    signatureClass: "STOTT Pilates Reformer Quartet",
+    bookingTip: "Blue Sparrow is particularly well-suited for post-surgical or injury recovery — mention your history when booking so Holly&apos;s team can prepare. The North Beach location is easiest via BART or Muni Line 8.",
   },
   {
     number: "05",
-    name: "Forge Pilates",
-    neighborhood: "SoMa",
+    name: "CORE MVMT",
+    neighborhood: "Castro",
     priceLevel: "$$",
     review:
-      "Forge emerged from SoMa's tech-adjacent wellness scene and has matured into one of the most coherent value offerings in the city. The studio is sleek and modern, with Merrithew equipment and a class structure that rewards regulars — the level system here is genuinely rigorous, not just marketing. The instructors skew younger than many SF competitors but bring real technical depth. Forge is a strong choice for tech-industry professionals who want measurable progress in limited weekly hours.",
-    address: "340 Brannan Street, San Francisco, CA 94107",
-    bestFor: "Intermediate to advanced, structured progression, professionals",
-    signatureClass: "Forge Reformer Signature",
-    bookingTip: "Membership tiers allow two to four classes per week. The Tuesday and Thursday evening classes at 7pm are consistently the most popular — book three days out.",
+      "CORE MVMT is one of the Castro&apos;s most beloved fitness fixtures with a welcoming atmosphere for both Pilates newbies and veterans. The 45-minute reformer format is fast, efficient, and high-intensity without being high-impact — reviewers call instructors challenging but supportive. A beginner-track class is offered at a slower pace to introduce new movers to the machine and MVMT philosophy before graduating to regular classes. The Market Street location sits on multiple Muni lines, making it among the most transit-accessible Pilates studios in San Francisco.",
+    address: "2349 Market St, San Francisco, CA 94114",
+    bestFor: "Fast, efficient 45-min reformer, beginners and intermediates, great transit access",
+    signatureClass: "MVMT Reformer (45 min, all levels)",
+    bookingTip: "The intro class is genuinely recommended — the MVMT reformer style is faster than classical Pilates and the intro session prevents frustration in your first general class. Book online or through ClassPass.",
+  },
+  {
+    number: "06",
+    name: "Pilates Vita SF",
+    neighborhood: "Russian Hill",
+    priceLevel: "$$$",
+    review:
+      "Opened in 2018 on Russian Hill&apos;s quiet Vallejo Street, Pilates Vita is an award-winning boutique studio built almost entirely on word-of-mouth referrals. Every session is individually designed around each client&apos;s body, history, and goals — there are no generic group classes. Reviewers consistently describe leaving feeling better both physically and mentally, and praise the instructors&apos; genuine knowledge of biomechanics and their warm, encouraging manner. If you&apos;re willing to invest in truly personalized work, this is one of San Francisco&apos;s finest.",
+    address: "1488 Vallejo St, San Francisco, CA 94109",
+    bestFor: "Award-winning private reformer and functional movement, one-on-one transformation",
+    signatureClass: "Private Reformer & Functional Movement Session",
+    bookingTip: "Pilates Vita is appointment-only and prioritizes ongoing client relationships over drop-ins. Contact Greg or Mauricio directly through the website to discuss your goals and schedule an initial assessment.",
   },
 ];
 
@@ -201,7 +213,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in San Francisco",
       "description": "Curated guide to the top 5 Pilates studios in San Francisco.",
       "url": "https://pilatescollectiveclub.com/cities/san-francisco",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -275,7 +287,7 @@ export default function SanFranciscoPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

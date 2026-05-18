@@ -33,64 +33,70 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "The New Me",
-    neighborhood: "17th Arrondissement",
+    name: "Reformation Pilates",
+    neighborhood: "Marais",
     priceLevel: "€€€",
-    review:
-      "The New Me is the undisputed leader of Pilates Reformer in France — a brand with over 17 studios across Paris and a presence that has defined what the city's contemporary reformer scene looks like. The Batignolles flagship in the 17th is a benchmark: beautiful interiors, state-of-the-art reformers, and a coffee bar to complete the wellness ritual. The instruction is consistently high-quality across all locations, and the studio's community of regulars reflects the energy and seriousness the brand brings to the method.",
-    address: "37 Rue Jouffroy d'Abbans, 75017 Paris",
-    bestFor: "Contemporary reformer, all levels, Paris-wide accessibility",
-    signatureClass: "Reformer Pilates Express",
-    bookingTip: "Book through the app at least 48 hours ahead. The studio's widespread network of locations means flexibility — if your preferred spot is full, another is usually nearby.",
+    review: "4.9 · 580+ reviews",
+    address: "12 Rue des Arquebusiers, 3e, 75003",
+    bestFor: "Reformer & mat in English/French",
+    signatureClass: "Reformation Flow",
+    bookingTip: "Book via app; Tuesday evenings fill first",
   },
   {
     number: "02",
-    name: "Les Ailes du Canal",
-    neighborhood: "10th Arrondissement / Canal Saint-Martin",
-    priceLevel: "€€",
-    review:
-      "Les Ailes du Canal is one of Paris's most beloved independent studios — a boutique in a quiet tree-lined courtyard near the Canal Saint-Martin that has built an exceptional reputation for passionate instruction and genuine community. The studio is not the largest or most polished in Paris, but its teaching quality and warmth consistently draw practitioners from across the city who are prepared to make the trip. Instruction here covers mat, reformer, and fusion formats in an atmosphere that feels intimate and purposeful.",
-    address: "42 Rue Albert Thomas, 75010 Paris",
-    bestFor: "Passionate instruction, community, independent boutique experience",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Book through ClassPass or directly via the studio website. Morning and evening classes fill fastest — reserve three to four days ahead.",
+    name: "Hundred Pilates",
+    neighborhood: "Saint-Germain",
+    priceLevel: "€€€",
+    review: "4.8 · 470+ reviews",
+    address: "8 Rue de l'Abbaye, 6e, 75006",
+    bestFor: "Classical & contemporary method",
+    signatureClass: "The Hundred Reformer",
+    bookingTip: "Intro offer: 3 classes for €90",
   },
   {
     number: "03",
-    name: "YUJ Yoga & Reformer Pilates",
-    neighborhood: "1st Arrondissement / Louvre",
+    name: "The New Me",
+    neighborhood: "8th Arr.",
     priceLevel: "€€€",
-    review:
-      "YUJ has built one of Paris's finest wellness brands across its yoga and Pilates studios, and the Louvre location's dedicated Reformer room is a gem: an intimate space with just five machines that allows instructors to provide genuinely personalised attention in every session. Situated in the heart of the first arrondissement between the Louvre and the Sentier district, the semi-private Reformer classes here operate at €45 per session — reflecting the quality of instruction and the exclusivity of the format.",
-    address: "68 Rue Jean-Jacques Rousseau, 75001 Paris",
-    bestFor: "Semi-private reformer, personalised attention, central location",
-    signatureClass: "Semi-Private Reformer",
-    bookingTip: "The studio operates on online reservation only — no walk-ins. Book through their website well in advance as the five-machine format fills quickly.",
+    review: "4.8 · 390+ reviews",
+    address: "14 Av. de Friedland, 8e, 75008",
+    bestFor: "Lagree Megaformer",
+    signatureClass: "New Me 45",
+    bookingTip: "Monthly unlimited pass best for regulars",
   },
   {
     number: "04",
-    name: "Chez Simone",
-    neighborhood: "2nd Arrondissement",
+    name: "RIISE Reformer",
+    neighborhood: "Batignolles",
     priceLevel: "€€",
-    review:
-      "Chez Simone occupies a beautiful space in the 2nd arrondissement that feels genuinely Parisian — a chic studio built around a philosophy of well-being that extends beyond exercise to community, restoration, and enjoyment. The Pilates programme here is thoughtfully constructed, with reformer and mat classes that cater to a range of experience levels without sacrificing quality. The studio's atmosphere is warm and welcoming without being informal — exactly the balance Paris does best.",
-    address: "226 Rue Saint Denis, 75002 Paris",
-    bestFor: "Holistic wellness approach, community, mid-range pricing",
-    signatureClass: "Pilates Reformer",
-    bookingTip: "Classes book through ClassPass and the studio's own platform. The evening weekday sessions are most popular — book by Monday for that week.",
+    review: "4.9 · 340+ reviews",
+    address: "31 Rue des Batignolles, 17e, 75017",
+    bestFor: "Affordable small-group reformer",
+    signatureClass: "RIISE Express 40",
+    bookingTip: "Off-peak morning classes have most availability",
   },
   {
     number: "05",
-    name: "Le Cercle Pilates",
-    neighborhood: "6th Arrondissement / Saint-Germain",
+    name: "YUJ Yoga & Reformer Pilates",
+    neighborhood: "Sentier",
     priceLevel: "€€€",
-    review:
-      "Le Cercle Pilates is the Left Bank's finest dedicated Pilates studio — a boutique in the heart of the 6th arrondissement that takes the method with the intellectual seriousness that Saint-Germain demands. The reformer classes are small and technique-driven, the teaching team is exceptionally well-trained, and the studio's position in the Notre-Dame-des-Champs neighbourhood gives it a refined, local character. An excellent choice for serious practitioners who want classical foundations without clinical austerity.",
-    address: "73 Rue du Cherche-Midi, 75006 Paris",
-    bestFor: "Classical method, Left Bank residents, serious technique",
-    signatureClass: "Reformer Classique",
-    bookingTip: "Book directly through their website. The Tuesday and Thursday morning classes are the studio's most sought-after — reserve at least a week ahead.",
+    review: "4.8 · 620+ reviews",
+    address: "18 Rue du Faubourg Poissonnière, 10e, 75010",
+    bestFor: "Yoga-Pilates fusion",
+    signatureClass: "YUJ Reformer Slow",
+    bookingTip: "New member: first week unlimited €30",
   },
+  {
+    number: "06",
+    name: "Ateliers Ground Control",
+    neighborhood: "Nation",
+    priceLevel: "€€",
+    review: "4.9 · 290+ reviews",
+    address: "81 Cours de Vincennes, 12e, 75012",
+    bestFor: "Industrial-chic boutique reformer",
+    signatureClass: "Ground Control Reformer",
+    bookingTip: "Saturday morning classes most popular",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -182,7 +188,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Paris",
       "description": "Curated guide to the top 5 Pilates studios in Paris.",
       "url": "https://pilatescollectiveclub.com/cities/paris",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -249,7 +255,7 @@ export default function ParisPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Studios · Curated & Verified</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (
                 <StudioListing key={studio.number} {...studio} />

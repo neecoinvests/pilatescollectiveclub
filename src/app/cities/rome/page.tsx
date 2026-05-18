@@ -52,63 +52,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Roma Pilates Studio",
-    neighborhood: "Prati",
+    name: "Gaia Pilates Roma",
+    neighborhood: "Trastevere",
     priceLevel: "€€€",
     review:
-      "Roma Pilates Studio is the reference point for serious practitioners in the capital. Located on a quiet residential street in Prati — the neighbourhood directly opposite the Vatican — the studio has operated for over a decade and accumulated both a loyal client base and a reputation for instruction that stands up to European comparison. The apparatus room features eight Balanced Body reformers and a full cadillac, and the instruction team holds qualifications from institutions in both Italy and the UK. The classical programme is demanding in the best possible way.",
-    address: "Via Candia 52, 00192 Roma",
-    bestFor: "Classical reformer, experienced practitioners, all levels",
-    signatureClass: "Reformer Classic",
-    bookingTip: "The Saturday morning sessions are the studio&apos;s most sought-after. Book a full week ahead through the online system. New clients must complete an introductory private session first.",
+      "Gaia Pilates Roma is one of the most critically important classical Pilates studios in Italy. Owner Gaia Faggiani studied directly under Romana Kryzanowska — Joseph Pilates&apos; chosen successor — making her a second-generation classical teacher. The studio operates entirely on original Gratz apparatus, the same brand used in the original Pilates studio in New York, and has been operating since 2007. Featured in the Gratz Pilates Studio Series, it draws Pilates professionals and purists from across Europe. Gaia is fluent in English and Italian, making the studio fully accessible to international visitors.",
+    address: "Via della Lungara 26, 00165 Roma RM",
+    bestFor: "Second-generation classical Pilates, Gratz apparatus, serious practitioners",
+    signatureClass: "Classical Pilates Private Session (Gratz apparatus)",
+    bookingTip: "Sessions are by appointment only and fill quickly, especially in tourist season. Contact the studio via gaiapilatesroma.it well in advance. Trastevere is easily reached by tram 8 from Largo Argentina.",
   },
   {
     number: "02",
-    name: "Pilates Parioli",
-    neighborhood: "Parioli",
+    name: "Plexus",
+    neighborhood: "Campo de Fiori / Jewish Ghetto",
     priceLevel: "€€€",
     review:
-      "Parioli is Rome&apos;s most affluent residential neighbourhood, and Pilates Parioli matches the postcode&apos;s standard for quality and discretion. The studio operates on a semi-private model — groups of no more than four — which maintains the quality of instruction while keeping pricing accessible relative to fully private sessions. The head instructor, Elena Marchetti, has trained extensively in New York and brings a thoroughness to her teaching that the neighbourhood&apos;s professional clientele clearly values. The waiting list for regular weekly slots reflects the demand.",
-    address: "Viale dei Parioli 78, 00197 Roma",
-    bestFor: "Semi-private instruction, professional clientele, consistent results",
-    signatureClass: "Semi-Private Reformer & Tower",
-    bookingTip: "Contact the studio directly by phone or email. The consultation process takes a week — plan accordingly if you have a short visit.",
+      "Plexus is Rome&apos;s most internationally oriented wellness studio, founded by Jonathan and Teresa with a team of multilingual, internationally certified instructors. The Plexus Method combines third-generation classical Pilates with yoga and orthopedic biomechanics into a demanding, highly effective fusion methodology. Beyond Pilates, the studio offers physiotherapy, chiropractic care, massage, and dietology under one roof. Reviewers describe it as beautiful, professional, and special — and its location on Via Arenula, minutes from Campo de&apos; Fiori and the Pantheon, makes it easy to combine with sightseeing.",
+    address: "Via Arenula 53, 00186 Roma RM",
+    bestFor: "Pilates-yoga fusion, multilingual instruction, expats and visitors",
+    signatureClass: "Plexus Method Session (Pilates + Yoga fusion)",
+    bookingTip: "English-language sessions are available — specify when booking. Contact via plexus@theplexus.it. The studio is open Monday through Saturday, 9am–8pm. Advance booking strongly recommended.",
   },
   {
     number: "03",
-    name: "Studio Core Roma",
-    neighborhood: "Trastevere",
-    priceLevel: "€€",
+    name: "Pilates Muse",
+    neighborhood: "Parioli",
+    priceLevel: "€€€€",
     review:
-      "Studio Core brings a refreshingly unpretentious energy to Rome&apos;s Pilates scene without sacrificing instructional rigour. The Trastevere location — in the city&apos;s most characterful medieval neighbourhood — draws a mix of expats, creative professionals, and long-term residents who appreciate the studio&apos;s combination of genuine quality and accessible pricing. Group reformer classes run to a maximum of eight, and the teaching is notably more hands-on than at many competitors. The evening schedule is one of the most extensive in the city, making it a practical option for working clients.",
-    address: "Via della Lungara 14, 00165 Roma",
-    bestFor: "Group reformer, expats, value, evening classes",
-    signatureClass: "Core Reformer",
-    bookingTip: "ClassPass coverage is available for group classes. Direct membership packs offer better value for regular practitioners — ask about the eight-class option.",
+      "Pilates Muse is a garden studio tucked into the elegant Parioli neighborhood, offering only private classical Pilates sessions on a complete Gratz apparatus suite — Reformer, Cadillac, Wunda Chair, High Chair, and barrels. Lead instructor Cara is praised by reviewers as one of the best professionals encountered in over 20 years of Pilates practice, for her mastery of authentic technique and her ability to deliver results. The studio carries a 5-star Yelp rating. Sessions run 55 minutes by appointment, Monday through Friday.",
+    address: "Via Eleonora Duse 4, 00197 Roma RM",
+    bestFor: "Private classical Pilates on full Gratz suite, discerning clients",
+    signatureClass: "Classical Apparatus Private Session (55 min)",
+    bookingTip: "Email info@pilatesmuse.com or call +39 338 109 6895 to schedule. Sessions are exclusively private. Street parking is available on Via Salvini and two hourly garages are nearby.",
   },
   {
     number: "04",
-    name: "Movimento Pilates",
-    neighborhood: "Flaminio",
+    name: "Postural Pilates Academy",
+    neighborhood: "Porta Pia / Salario",
     priceLevel: "€€",
     review:
-      "Movimento Pilates has built a loyal following in the Flaminio district — a neighbourhood of galleries, residential streets, and the Renzo Piano-designed MAXXI museum — by offering a consistently high standard of group instruction at mid-market pricing. The studio&apos;s programming is well-structured from beginner to advanced, and the instructor team has the rare quality of being technically strong while remaining genuinely encouraging. It&apos;s the kind of studio where beginners feel welcome and advanced practitioners feel challenged.",
-    address: "Via Guido Reni 4, 00196 Roma",
-    bestFor: "Structured beginner to advanced progression, group classes, community",
-    signatureClass: "Movimento Flow Reformer",
-    bookingTip: "The beginner reformer series runs in four-week blocks — enrol at the start of a new cycle for the best experience. Dates are posted on the website monthly.",
+      "The Postural Pilates Academy&apos;s Porta Pia location is described by Rome-based fitness writers as a Pilates purist&apos;s dream, offering mat, reformer, and Cadillac classes with a strong emphasis on postural correction and classical method. The studio is on the 4th floor of a beautiful historic building near the Repubblica metro (Line A), making it among the most transit-accessible serious Pilates studios in Rome. Evening classes are particularly well-subscribed by Rome&apos;s after-work professional crowd. A second location at Via Tigre 52–54 serves the Libia neighborhood.",
+    address: "Via Collina 36, 00187 Roma RM",
+    bestFor: "Postural correction, classical mat/reformer/Cadillac, after-work classes",
+    signatureClass: "Reformer & Cadillac Group Class",
+    bookingTip: "Accessible in 7 minutes from Repubblica metro (Line A). Contact via info@pilatesroma.it or call +39 06 95 219 189. Evening classes book out fastest — reserve at least a week ahead.",
   },
   {
     number: "05",
-    name: "The Pilates Room Rome",
-    neighborhood: "Testaccio",
+    name: "Aletheia Studio Pilates",
+    neighborhood: "Flaminio / Prati",
     priceLevel: "€€",
     review:
-      "The Pilates Room arrived in Testaccio in 2022 and has become one of the more talked-about new openings in the city&apos;s fitness scene. The studio is modern and well-designed, with Merrithew reformers and a programming philosophy that blends classical Pilates with functional movement principles. The clientele skews younger than the Parioli and Prati studios, and the atmosphere is more social — which suits certain practitioners perfectly. The pricing is competitive, and the online booking system is one of the most user-friendly in Rome.",
-    address: "Via Marmorata 39, 00153 Roma",
-    bestFor: "Younger clientele, functional reformer, social atmosphere, value",
-    signatureClass: "Functional Reformer",
-    bookingTip: "Online booking opens seven days in advance. Evening classes on Tuesday and Thursday fill within 24 hours. Weekend slots are more reliably available.",
+      "Aletheia is one of Rome&apos;s most comprehensive movement studios, with three locations across the city and a team of over 10 certified instructors covering Pilates, Yoga, Gyrotonic, Gyrokinesis, Mezières method, Blackroll, physical therapy, and osteopathy. Classes are capped at five people and the studio has a 96% recommendation rate. The Via del Vantaggio location near Flaminio — close to the MAXXI museum and Piazza del Popolo — is the most centrally convenient. All classes prioritize small group dynamics for personalized guidance.",
+    address: "Via del Vantaggio 1/c, 00186 Roma RM",
+    bestFor: "Multi-disciplinary movement, Gyrotonic, Pilates, yoga, small groups",
+    signatureClass: "Reformer Group (max 5 students)",
+    bookingTip: "Book through the Aletheia website or Fresha platform. With over 70 weekly group classes across three locations, finding a convenient slot is easier here than at most Rome studios. Flaminio location served by tram 2.",
+  },
+  {
+    number: "06",
+    name: "True Pilates Parioli",
+    neighborhood: "Parioli",
+    priceLevel: "€€€",
+    review:
+      "True Pilates Parioli is Rome&apos;s outpost of the prestigious True Pilates New York school, offering sessions on original Gratz machines and teaching the classical method through instructors authorized by the New York program. The studio also incorporates the Mezières method and osteopathy, broadening its appeal to those seeking integrated postural and therapeutic work. With a 93% TripAdvisor recommendation rate and a loyal local following in the affluent Parioli neighborhood, it is one of Rome&apos;s most credentialed Pilates destinations. Instruction is available in Italian and English.",
+    address: "Viale dei Parioli 72, 00197 Roma RM",
+    bestFor: "True Pilates New York lineage, Gratz apparatus, classical with therapeutic integration",
+    signatureClass: "Classical Pilates on Gratz Equipment (private/duet)",
+    bookingTip: "Contact the studio at pilatesparioli@gmail.com or call +39 329 109 7400. Private and duet sessions are the primary format. The Parioli neighborhood is best reached by the 360 bus line or a short taxi from Spagna metro.",
   },
 ];
 
@@ -201,7 +213,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Rome",
       "description": "Curated guide to the top 5 Pilates studios in Rome.",
       "url": "https://pilatescollectiveclub.com/cities/rome",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -275,7 +287,7 @@ export default function RomePage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

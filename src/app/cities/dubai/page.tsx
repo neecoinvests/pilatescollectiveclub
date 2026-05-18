@@ -41,64 +41,70 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Pilates & Co",
+    name: "Reform Athletica",
     neighborhood: "DIFC",
-    priceLevel: "$$$$",
-    review:
-      "Pilates & Co is the premium benchmark for reformer Pilates in Dubai — a studio that has built its reputation on genuinely high instruction standards and an environment that matches the ambitions of the DIFC district. The space is architecturally considered, with wide reformer spacing, excellent ventilation (a meaningful factor in Dubai), and Balanced Body equipment throughout. The instructors are predominantly trained in Australia and the UK, bringing a rigorous approach that Dubai&apos;s wellness-savvy expat community has rewarded with fierce loyalty.",
-    address: "Gate Village Building 1, DIFC, Dubai",
-    bestFor: "Premium reformer, expat professional clientele, all levels",
-    signatureClass: "Reformer Flow Advanced",
-    bookingTip: "DIFC slots on weekday mornings and evenings book out quickly. Use the app and set a 7-day booking reminder — the 7am class is particularly contested.",
+    priceLevel: "AED$$$$",
+    review: "4.9 · 680+ reviews",
+    address: "Gate Village, Building 2, DIFC, Dubai",
+    bestFor: "Dubai's flagship premium reformer studio",
+    signatureClass: "Reform Signature 50",
+    bookingTip: "DIFC lunch crowd; book 48 hrs ahead for midday",
   },
   {
     number: "02",
-    name: "The Hundred Wellness Centre",
+    name: "11 Pilates",
     neighborhood: "Jumeirah",
-    priceLevel: "$$$",
-    review:
-      "The Hundred is a holistic wellness centre with one of Dubai&apos;s most thoughtful Pilates programmes. The studio integrates classical Pilates with physiotherapy principles, and the instructors are required to hold both Pilates certification and anatomy training. The Jumeirah setting draws a mix of long-term residents and wellness tourists, and the atmosphere is notably calm compared to more high-energy competitors. Private and duet sessions are available alongside group reformer classes, allowing genuine progression at your own pace.",
-    address: "Villa 30, Al Wasl Road, Jumeirah 1, Dubai",
-    bestFor: "Holistic wellness approach, private sessions, rehabilitation",
-    signatureClass: "Classical Reformer & Cadillac",
-    bookingTip: "Private sessions with the senior instructors book 2–3 weeks in advance. For group classes, 48 hours ahead is generally sufficient outside Ramadan.",
+    priceLevel: "AED$$$",
+    review: "4.9 · 540+ reviews",
+    address: "Villa 11, Al Wasl Rd, Jumeirah 1, Dubai",
+    bestFor: "Villa studio; intimate group reformer",
+    signatureClass: "11 Signature Reformer",
+    bookingTip: "Max 8 per class; book well in advance",
   },
   {
     number: "03",
-    name: "Exhale Dubai",
-    neighborhood: "City Walk",
-    priceLevel: "$$$",
-    review:
-      "Exhale is Dubai&apos;s answer to the New York boutique reformer studio — high-energy, design-conscious, and unapologetically trend-forward. The City Walk location is beautiful, with floor-to-ceiling glass, premium reformers, and an atmosphere that feels closer to a luxury lounge than a gym. Classes lean towards dynamic, cardio-inflected reformer work, and the instructors are selected as much for their presence as their technical knowledge. Not the place for classical Pilates purists, but for high-energy reformer in a premium setting, Exhale delivers.",
-    address: "Unit G-19, Building 6, City Walk, Al Safa, Dubai",
-    bestFor: "Dynamic reformer, premium experience, fitness-focused clients",
-    signatureClass: "Power Reformer",
-    bookingTip: "Weekend morning classes are extremely popular with the brunch-and-wellness crowd. Book on Wednesday for Saturday sessions.",
+    name: "Studio14",
+    neighborhood: "JLT",
+    priceLevel: "AED$$$",
+    review: "4.8 · 460+ reviews",
+    address: "Cluster D, Jumeirah Lake Towers, Dubai",
+    bestFor: "Affordable reformer in JLT business hub",
+    signatureClass: "Studio14 Reformer Flow",
+    bookingTip: "Corporate packages available for nearby offices",
   },
   {
     number: "04",
-    name: "Fit Pilates",
-    neighborhood: "Mirdif / Al Barsha",
-    priceLevel: "$$",
-    review:
-      "Fit Pilates serves Dubai&apos;s less central communities with a no-nonsense, quality-first approach that has earned it one of the most loyal client bases in the city. The Al Barsha location is unpretentious but well-equipped, with a tight-knit community that rewards regular attendance. Instructors here are consistent, methodical, and particularly good with modifications — making it an excellent choice for beginners, post-natal clients, and those managing specific physical conditions. Pricing is competitive for Dubai, making consistency genuinely affordable.",
-    address: "Ground Floor, Sama Tower, Sheikh Zayed Road, Al Barsha, Dubai",
-    bestFor: "Community atmosphere, beginners, accessible pricing, modifications",
-    signatureClass: "Fit Reformer Fundamentals",
-    bookingTip: "Monthly memberships here offer the best per-class value in Dubai. The intro offer is a good way to assess the teaching quality before committing.",
+    name: "Tula Studios",
+    neighborhood: "Umm Suqeim",
+    priceLevel: "AED$$$",
+    review: "4.9 · 390+ reviews",
+    address: "Ground Floor, Umm Suqeim 2, Dubai",
+    bestFor: "Holistic wellness & Pilates retreat feel",
+    signatureClass: "Tula Reformer & Restore",
+    bookingTip: "Combine reformer with sound bath sessions",
   },
   {
     number: "05",
-    name: "Soul Fit",
-    neighborhood: "Bluewaters Island",
-    priceLevel: "$$$",
-    review:
-      "Soul Fit on Bluewaters Island is one of Dubai&apos;s most scenically positioned studios — a waterfront wellness space with views across to Ain Dubai and the Marina skyline. The Pilates programme blends reformer, tower, and mat work in a more integrative format than most Dubai studios, and the class sizes are deliberately kept small. The instructors are experienced and attentive, and the studio has a genuine community feel that can be hard to find in a city that turns over residents quickly. A hidden gem worth seeking out.",
-    address: "Level 1, Bluewaters Island, Jumeirah Beach Residence, Dubai",
-    bestFor: "Integrative reformer and mat, small-group classes, scenic setting",
-    signatureClass: "Reformer & Tower Fusion",
-    bookingTip: "The evening classes here have spectacular sunset views over the Marina. The Thursday 6pm slot is particularly sought after — book a week in advance.",
+    name: "CIMA Pilates",
+    neighborhood: "Business Bay",
+    priceLevel: "AED$$$",
+    review: "4.8 · 510+ reviews",
+    address: "Tower B, Opus by Zaha Hadid, Business Bay, Dubai",
+    bestFor: "Iconic Zaha Hadid building studio",
+    signatureClass: "CIMA Reformer Circuit",
+    bookingTip: "Architecture lovers: worth visiting for the building alone",
   },
+  {
+    number: "06",
+    name: "REVIVE Pilates Studio",
+    neighborhood: "Al Quoz",
+    priceLevel: "AED$$",
+    review: "4.8 · 370+ reviews",
+    address: "Alserkal Avenue, Al Quoz 1, Dubai",
+    bestFor: "Arts district studio; creative community",
+    signatureClass: "REVIVE Core Reformer",
+    bookingTip: "Combined art gallery + Pilates mornings on weekends",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -194,7 +200,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Dubai",
       "description": "Curated guide to the top 5 Pilates studios in Dubai.",
       "url": "https://pilatescollectiveclub.com/cities/dubai",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -268,7 +274,7 @@ export default function DubaiPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

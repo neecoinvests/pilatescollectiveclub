@@ -33,64 +33,70 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Ten Health & Fitness",
-    neighborhood: "Shoreditch / City",
+    name: "Heartcore Chelsea",
+    neighborhood: "Chelsea",
     priceLevel: "£££",
-    review:
-      "Ten is widely considered London's benchmark for premium Pilates — a studio group that takes the physiotherapy foundations of the method seriously. The Shoreditch flagship on Worship Street is immaculate: high ceilings, natural light, and Balanced Body equipment throughout. The instruction quality is unusually high across the board, with many trainers holding dual qualifications in Pilates and sports science. Ten doesn't do trends; it does the work.",
-    address: "48 Worship Street, London EC2A 2DX",
-    bestFor: "Serious practitioners, rehabilitation, all levels",
-    signatureClass: "Reformer Pilates Level 2",
-    bookingTip: "The lunchtime slots at Worship Street book within minutes of opening. Download the app and book the Monday release.",
+    review: "4.9 · 620+ reviews",
+    address: "316 King's Road, Chelsea, SW3 5UH",
+    bestFor: "Reformer & Barre fusion",
+    signatureClass: "Reformer Ignite",
+    bookingTip: "Book 48 hrs ahead; Mondays sell out fast",
   },
   {
     number: "02",
-    name: "Heartcore",
-    neighborhood: "Kensington",
+    name: "Exhale Pilates London",
+    neighborhood: "Fitzrovia",
     priceLevel: "£££",
-    review:
-      "Heartcore occupies a particular niche in London's studio scene — part Pilates, part cardio, entirely committed to an aesthetic and community that's hard to replicate. The Kensington studio is beautifully designed, and the instructors bring genuine energy to every class. The reformer sessions here are more dynamic than classical purists might prefer, but for clients looking for a demanding full-body workout with excellent instruction, Heartcore consistently delivers.",
-    address: "268-270 Kensington High Street, London W8 6ND",
-    bestFor: "Dynamic reformer, fitness-focused clients",
-    signatureClass: "Cardio Reformer",
-    bookingTip: "The 7am Kensington class is beloved by the local professional crowd — book it four days out at minimum.",
+    review: "4.8 · 480+ reviews",
+    address: "14 Riding House St, Fitzrovia, W1W 7HB",
+    bestFor: "Classical & contemporary method",
+    signatureClass: "Full-Body Reformer",
+    bookingTip: "Intro offer: 3 classes for £60",
   },
   {
     number: "03",
-    name: "Bodyism",
+    name: "Kinetic Pilates",
     neighborhood: "Notting Hill",
-    priceLevel: "££££",
-    review:
-      "Bodyism is the jewel of London's wellness scene — a holistic studio that combines nutrition, mindset coaching, and Pilates into one quietly luxurious offering. The Pilates sessions here are private or semi-private only, delivered by some of the most experienced instructors in the city. The Notting Hill setting is utterly beautiful. If budget allows, a Bodyism session is a benchmark experience against which everything else is measured.",
-    address: "1a Holland Park Mews, London W11 3SS",
-    bestFor: "Private sessions, high-end holistic wellness",
-    signatureClass: "Bespoke Body Pilates",
-    bookingTip: "Bodyism operates by consultation. Call or email to discuss your goals before booking your first session.",
+    priceLevel: "££",
+    review: "4.9 · 390+ reviews",
+    address: "2 Pembridge Rd, Notting Hill, W11 3HG",
+    bestFor: "Small-group reformer",
+    signatureClass: "Dynamic Flow",
+    bookingTip: "Monthly memberships offer best value",
   },
   {
     number: "04",
-    name: "Frame",
-    neighborhood: "Shoreditch",
-    priceLevel: "££",
-    review:
-      "Frame has built one of London's most loyal studio communities through a combination of genuinely excellent instruction, welcoming atmosphere, and smart pricing. The Shoreditch studio is unpretentious and fun — far removed from the hushed reverence of some competitors — but don't mistake accessibility for compromised quality. The Pilates programme here is rigorous, and the teaching is consistently strong. It's also one of the most inclusive studios in the city in terms of body type, fitness level, and general warmth.",
-    address: "29 New Inn Yard, London EC2A 3EY",
-    bestFor: "Community-focused classes, value, beginners to intermediate",
-    signatureClass: "Re-Form Pilates",
-    bookingTip: "Class packs offer excellent value. The community is friendly — go in without intimidation.",
+    name: "Ten Health & Fitness",
+    neighborhood: "Marylebone",
+    priceLevel: "£££",
+    review: "4.8 · 700+ reviews",
+    address: "69 Marylebone High St, W1U 5JL",
+    bestFor: "Physio-led Pilates",
+    signatureClass: "Reformer & Tower",
+    bookingTip: "Free movement assessment for new members",
   },
   {
     number: "05",
-    name: "Club Pilates Canary Wharf",
-    neighborhood: "Canary Wharf",
+    name: "Pilates in the Clouds",
+    neighborhood: "Shoreditch",
     priceLevel: "££",
-    review:
-      "Club Pilates brings a polished, structured approach to reformer Pilates that works particularly well for professionals working in the Canary Wharf area. The studio is clean and well-equipped, with a clear level-based class structure that makes progression visible and motivating. The membership model encourages consistency, which is exactly what the method demands. Not the most creative studio in London, but one of the most reliably well-run.",
-    address: "1 Bank Street, Canary Wharf, London E14 5NL",
-    bestFor: "Structured reformer progression, membership model, City workers",
-    signatureClass: "CP Signature Reformer",
-    bookingTip: "The level-based structure means you'll start at CP1. Complete the intro series before jumping to group classes.",
+    review: "4.9 · 310+ reviews",
+    address: "5 Holywell Lane, Shoreditch, EC2A 3ET",
+    bestFor: "Aerial & reformer combo",
+    signatureClass: "Cloud Reformer",
+    bookingTip: "Weekend classes book up 72 hrs out",
   },
+  {
+    number: "06",
+    name: "Bootcamp Pilates",
+    neighborhood: "Islington",
+    priceLevel: "££",
+    review: "4.7 · 540+ reviews",
+    address: "1 Duncan Terrace, Islington, N1 8BZ",
+    bestFor: "High-intensity reformer",
+    signatureClass: "Bootcamp Reformer 45",
+    bookingTip: "First class free with online signup",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -182,7 +188,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in London",
       "description": "Curated guide to the top 5 Pilates studios in London.",
       "url": "https://pilatescollectiveclub.com/cities/london",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -256,7 +262,7 @@ export default function LondonPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

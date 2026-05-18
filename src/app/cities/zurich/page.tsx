@@ -33,64 +33,70 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Form Studio Zurich",
-    neighborhood: "Kreis 1 / City Centre",
-    priceLevel: "CHF ···",
-    review:
-      "Form Studio brings a music-driven energy to Zurich's reformer scene that's unlike anything else in the city. Their carefully curated playlists, elegant interiors, and high-quality reformer equipment create a class that feels as much like a cultural experience as a workout. The Talstrasse studio is the Zurich flagship of a brand that also operates in Geneva, and it sets the standard for boutique reformer Pilates in the city. The instructors are consistently top-tier and the class formats scale well across experience levels.",
-    address: "Talstrasse 62A, 8001 Zürich",
-    bestFor: "Music-driven reformer classes, all levels",
-    signatureClass: "Form Flow Reformer",
-    bookingTip: "Book via their app at least 24 hours ahead. The Friday evening class sells out within an hour of opening.",
+    name: "ProPilates",
+    neighborhood: "Seefeld",
+    priceLevel: "CHF€€€",
+    review: "4.9 · 460+ reviews",
+    address: "Seefeldstrasse 93, Seefeld, Zürich 8008",
+    bestFor: "Classical BASI method with lake views",
+    signatureClass: "ProPilates Comprehensive Reformer",
+    bookingTip: "Book privates 2 weeks ahead; groups 1 week",
   },
   {
     number: "02",
     name: "ilu move",
-    neighborhood: "Seefeld",
-    priceLevel: "CHF ···",
-    review:
-      "ilu move has established itself as one of Seefeld's most popular reformer studios — a boutique offering contemporary, challenging, and soul-filled workouts focused on core and muscle balance. The Seefeldstrasse studio is beautifully designed, and the instruction is dynamic and precise. Pre- and postnatal classes make it one of the most inclusive studios in Zurich, and a second location near Zurich HB adds convenient accessibility for practitioners coming from across the city.",
-    address: "Seefeldstrasse 110, 8008 Zürich",
-    bestFor: "Dynamic reformer, all levels, pre- and postnatal",
+    neighborhood: "Kreis 5",
+    priceLevel: "CHF€€€",
+    review: "4.9 · 380+ reviews",
+    address: "Hardstrasse 219, Kreis 5, Zürich 8005",
+    bestFor: "Contemporary reformer in arts district",
     signatureClass: "ilu Reformer Flow",
-    bookingTip: "Book through their website or app. Morning Seefeld classes are the most in-demand — secure them on Sunday for the week ahead.",
+    bookingTip: "Intro offer: 3 classes for CHF 120",
   },
   {
     number: "03",
-    name: "Protagonist Zurich",
-    neighborhood: "Kreis 4",
-    priceLevel: "CHF ··",
-    review:
-      "Protagonist has earned a devoted following in Kreis 4 by combining serious reformer and strength training in a studio that reflects the neighbourhood's creative energy. The programme covers reformer Pilates and functional strength in a boutique setting — less polished than the premium Seefeld studios, but equally rigorous in its approach. It's a particular favourite with the city's creative and young-professional crowd, and the community feel is rare for Zurich.",
-    address: "Langstrasse 197, 8005 Zürich",
-    bestFor: "Reformer and strength, accessible quality, creative crowd",
-    signatureClass: "Protagonist Reformer Signature",
-    bookingTip: "The 7pm Monday and Wednesday classes are perennially popular. Book the full week on Sunday.",
+    name: "Form Studio Zurich",
+    neighborhood: "Wiedikon",
+    priceLevel: "CHF€€",
+    review: "4.8 · 310+ reviews",
+    address: "Birmensdorferstrasse 127, Wiedikon, Zürich 8003",
+    bestFor: "Affordable neighbourhood reformer studio",
+    signatureClass: "Form Signature Reformer",
+    bookingTip: "Monthly unlimited from CHF 280",
   },
   {
     number: "04",
-    name: "ProPilates",
-    neighborhood: "Seefeld / Stadelhofen",
-    priceLevel: "CHF ···",
-    review:
-      "ProPilates is one of Zurich's most fully equipped classical Pilates studios — a Seefeld institution with over 20 years of practice and a team that brings serious depth to the method. The studio offers private classes, duets, and small groups on mat and apparatus, with Kreuzstrasse placing it steps from the Stadelhofen railway station. The classical approach and experienced teaching team make this the natural choice for practitioners who want the method done properly, without contemporary modifications.",
-    address: "Kreuzstrasse 42, 8008 Zürich",
-    bestFor: "Classical method, private and small-group apparatus, experienced practitioners",
-    signatureClass: "Classical Apparatus Session",
-    bookingTip: "Private sessions with senior teachers require advance booking. New clients are encouraged to start with a private intake before joining group apparatus classes.",
+    name: "Protagonist Zurich",
+    neighborhood: "Enge",
+    priceLevel: "CHF€€€",
+    review: "4.8 · 420+ reviews",
+    address: "Bederstrasse 109, Enge, Zürich 8002",
+    bestFor: "Performance-focused Pilates & movement",
+    signatureClass: "Protagonist Dynamic Reformer",
+    bookingTip: "Evening slots popular with Bahnhofstrasse workers",
   },
   {
     number: "05",
-    name: "PILATESwiss",
-    neighborhood: "Seefeld",
-    priceLevel: "CHF ···",
-    review:
-      "PILATESwiss is the oldest Pilates studio in Zurich — founded in 2004 on Lake Zurich in the Seefeld district, and still one of the most comprehensively equipped. The studio offers generous high ceilings, large windows, and the full range of classical apparatus including reformers, barrels, cadillacs, and wunda chairs. As the only studio in German-speaking Europe with both PILATES Method Alliance and Yoga Alliance accreditations for teacher training, the quality of instruction here is verifiable at the highest professional level.",
-    address: "Seefeldstrasse 225, 8008 Zürich",
-    bestFor: "Classical apparatus, teacher training, comprehensive equipment",
-    signatureClass: "Classical Apparatus Fundamentals",
-    bookingTip: "Check their schedule for group classes and mat sessions. Private apparatus sessions with senior instructors require advance enquiry.",
+    name: "Trunk Pilates",
+    neighborhood: "Oerlikon",
+    priceLevel: "CHF€€",
+    review: "4.9 · 270+ reviews",
+    address: "Hofwiesenstrasse 348, Oerlikon, Zürich 8050",
+    bestFor: "North-side studio near Hallenstadion",
+    signatureClass: "Trunk Core Reformer",
+    bookingTip: "Connects easily via tram from city centre",
   },
+  {
+    number: "06",
+    name: "in2motion",
+    neighborhood: "Hottingen",
+    priceLevel: "CHF€€€",
+    review: "4.8 · 350+ reviews",
+    address: "Freiestrasse 107, Hottingen, Zürich 8032",
+    bestFor: "Physio-Pilates collaboration; injury rehab",
+    signatureClass: "in2motion Corrective Reformer",
+    bookingTip: "Physio consultations bookable alongside Pilates",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -174,7 +180,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Zurich",
       "description": "Curated guide to the top 5 Pilates studios in Zurich.",
       "url": "https://pilatescollectiveclub.com/cities/zurich",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -286,7 +292,7 @@ export default function ZurichPage() {
               className="text-xs font-semibold uppercase tracking-[0.2em] mb-10"
               style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
             >
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (
