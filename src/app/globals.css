@@ -31,6 +31,11 @@ h1, h2, h3, h4 {
   font-weight: 400;
 }
 
+/* ─── Homepage grid columns (desktop — overridden on mobile below) ──────────── */
+.pcc-grid-journal  { grid-template-columns: repeat(3, 1fr); }
+.pcc-grid-cities   { grid-template-columns: repeat(5, 1fr); }
+.pcc-grid-products { grid-template-columns: repeat(4, 1fr); }
+
 /* ─── Mobile (≤ 768px) ─────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
 
@@ -100,4 +105,28 @@ h1, h2, h3, h4 {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
+
+  /* ── Homepage ────────────────────────────────────── */
+
+  /* Hero */
+  .pcc-hero-section  { padding: 96px 20px 56px !important; }
+  .pcc-hero-svg      { display: none !important; }
+  .pcc-hero-divider  { margin: 0 !important; }
+  .pcc-hero-ctas     { flex-direction: column !important; width: 100% !important; flex-shrink: unset !important; }
+  .pcc-hero-ctas a   { text-align: center !important; width: 100% !important; box-sizing: border-box !important; }
+  .pcc-hero-body     { flex-direction: column !important; align-items: flex-start !important; gap: 24px !important; }
+
+  /* Section padding */
+  .pcc-hp-section { padding: 52px 20px !important; }
+
+  /* Section header (label + title + "see all" link) */
+  .pcc-section-header { flex-direction: column !important; align-items: flex-start !important; gap: 12px !important; margin-bottom: 32px !important; }
+
+  /* Grids */
+  .pcc-grid-journal  { grid-template-columns: 1fr !important; gap: 0 !important; }
+  .pcc-grid-cities   { grid-template-columns: repeat(2, 1fr) !important; }
+  .pcc-grid-products { grid-template-columns: repeat(2, 1fr) !important; gap: 16px !important; }
+
+  /* Section dividers */
+  .pcc-divider { margin: 0 !important; }
 }

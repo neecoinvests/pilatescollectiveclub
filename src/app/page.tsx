@@ -474,7 +474,7 @@ export default function Home() {
       <main>
 
         {/* Hero */}
-        <section style={{
+        <section className="pcc-hero-section" style={{
           padding: "160px 40px 100px",
           backgroundColor: "#ffffff",
           position: "relative",
@@ -494,7 +494,7 @@ export default function Home() {
             />
           </div>
           {/* Floating decorative SVG */}
-          <div style={{ position: "absolute", right: 0, top: 0, bottom: 0, width: "52%", zIndex: 0, pointerEvents: "none", display: "flex", alignItems: "center" }} aria-hidden="true">
+          <div className="pcc-hero-svg" style={{ position: "absolute", right: 0, top: 0, bottom: 0, width: "52%", zIndex: 0, pointerEvents: "none", display: "flex", alignItems: "center" }} aria-hidden="true">
             <svg width="560" height="620" viewBox="0 0 560 620" fill="none" xmlns="http://www.w3.org/2000/svg">
               {/* Large circle — magic circle reference */}
               <circle cx="400" cy="310" r="210" stroke="#b87355" strokeWidth="1.2" opacity="0.11" fill="none"/>
@@ -544,7 +544,7 @@ export default function Home() {
 
             <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "52px 0" }} />
 
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "40px", flexWrap: "wrap" }}>
+            <div className="pcc-hero-body" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "40px", flexWrap: "wrap" }}>
               <p style={{
                 fontFamily: "var(--font-sans)",
                 fontSize: "15px",
@@ -556,7 +556,7 @@ export default function Home() {
               }}>
                 Curated city guides, editorial studio reviews, and the best in Pilates equipment — written by practitioners, for practitioners.
               </p>
-              <div style={{ display: "flex", gap: "16px", flexShrink: 0 }}>
+              <div className="pcc-hero-ctas" style={{ display: "flex", gap: "16px", flexShrink: 0 }}>
                 <Link href="/blog" style={{
                   fontFamily: "var(--font-sans)",
                   fontSize: "10px",
@@ -590,22 +590,22 @@ export default function Home() {
           </div>
         </section>
 
-        <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
+        <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
         {/* Featured Story */}
-        <section style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
+        <section className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
             <p style={{ ...label, marginBottom: "40px" }}>Featured</p>
             <FeaturedRotator items={FEATURED_ITEMS} />
           </div>
         </section>
 
-        <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
+        <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
         {/* Journal */}
-        <section style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
+        <section className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "8px" }}>
+            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "8px" }}>
               <div>
                 <p style={{ ...label, marginBottom: "12px" }}>Editorial</p>
                 <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
@@ -621,7 +621,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0 60px" }} className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="pcc-grid-journal" style={{ display: "grid", gap: "0 60px" }}>
               {GUIDES.map((g) => (
                 <ArticleCard key={g.href} {...g} />
               ))}
@@ -629,12 +629,12 @@ export default function Home() {
           </div>
         </section>
 
-        <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
+        <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
         {/* City Guides */}
-        <section id="cities" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
+        <section id="cities" className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "52px" }}>
+            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "52px" }}>
               <div>
                 <p style={{ ...label, marginBottom: "12px" }}>City Guides</p>
                 <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
@@ -650,7 +650,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "2px" }} className="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
+            <div className="pcc-grid-cities" style={{ display: "grid", gap: "2px" }}>
               {CITIES.map((c) => (
                 <CityCard key={c.city} {...c} />
               ))}
@@ -658,12 +658,12 @@ export default function Home() {
           </div>
         </section>
 
-        <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
+        <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
         {/* Equipment */}
-        <section id="equipment" style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
+        <section id="equipment" className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "64px" }}>
+            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "64px" }}>
               <div>
                 <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
                 <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
@@ -678,7 +678,7 @@ export default function Home() {
             {PRODUCT_CATEGORIES.map((cat, ci) => (
               <div key={cat.label} style={{ marginBottom: ci < PRODUCT_CATEGORIES.length - 1 ? "72px" : 0 }}>
                 <p style={{ ...label, marginBottom: "28px", color: "#0a0a0a" }}>{cat.label}</p>
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "24px" }} className="grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div className="pcc-grid-products" style={{ display: "grid", gap: "24px" }}>
                   {cat.items.map((p) => (
                     <ProductCard key={p.name} {...p} />
                   ))}
@@ -689,7 +689,7 @@ export default function Home() {
         </section>
 
         {/* About */}
-        <section id="about" style={{ padding: "120px 40px", backgroundColor: "#ffffff" }}>
+        <section id="about" className="pcc-hp-section" style={{ padding: "120px 40px", backgroundColor: "#ffffff" }}>
           <div style={{ maxWidth: "640px", margin: "0 auto", textAlign: "center" }}>
             <p style={{ ...label, marginBottom: "20px" }}>About</p>
             <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(28px, 3.5vw, 42px)", fontWeight: 400, color: "#0a0a0a", marginBottom: "32px", lineHeight: 1.2 }}>
