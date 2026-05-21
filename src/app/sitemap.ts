@@ -129,6 +129,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-pilates-mat-bag",
     "peak-pilates",
     "elina-pilates",
+    "basi-systems-pilates",
+    "your-reformer-pilates",
+    "personalhour-pilates",
   ];
 
   return [
