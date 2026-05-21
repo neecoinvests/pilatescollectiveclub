@@ -230,6 +230,8 @@ export default function BestPilatesBikerShortsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings" excerpt="Five studio-tested leggings for when biker shorts aren't enough coverage." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Sets" excerpt="Six coordinated two-piece sets for a complete studio wardrobe." href="/blog/best-pilates-sets" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
+                <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo's biker shorts are consistently ranked among the best for studio practice — full brand review." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Splits59 Pilates Activewear" excerpt="Splits59 makes the most technical biker shorts specifically designed for Pilates movement." href="/blog/splits59-pilates" category="Brand Review" readTime="9 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>
           </div>

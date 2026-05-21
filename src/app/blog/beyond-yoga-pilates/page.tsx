@@ -193,6 +193,8 @@ export default function BeyondYogaPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings" excerpt="Five studio-tested leggings including Beyond Yoga, ranked across all price points." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Lululemon Align Review" excerpt="An honest review of the most popular Pilates legging — is it worth it?" href="/blog/lululemon-align-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Sets" excerpt="Six coordinated sets — see how Beyond Yoga's Spacedye set compares." href="/blog/best-pilates-sets" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Bodysuits" excerpt="One-piece options for Pilates practice — an alternative to Beyond Yoga's legging-led line." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
               </div>
             </div>
           </div>

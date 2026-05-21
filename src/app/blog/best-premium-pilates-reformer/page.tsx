@@ -392,6 +392,8 @@ export default function BestPremiumReformerPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Merrithew V2 Max Reformer: In-Depth Review" excerpt="The most detailed assessment of Merrithew's most advanced professional machine." href="/blog/merrithew-v2-max-review" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                   <ArticleCard title="Balanced Body vs Merrithew" excerpt="The definitive head-to-head of the two dominant professional reformer brands." href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="13 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                  <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's MVe reformer is a top-tier premium machine favoured by classical studios worldwide." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
+                  <ArticleCard title="Elina Pilates Brand Guide" excerpt="Elina's handcrafted wood and aluminum reformers compete directly with Balanced Body and Merrithew." href="/blog/elina-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
                 </div>
               </div>
             </section>

@@ -220,6 +220,8 @@ export default function BestPilatesReformerSmallSpacesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformers" excerpt="The complete buyer's guide to home reformers across all price points." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Foldable Pilates Reformers" excerpt="Foldable reformers specifically — the best options if storage is your priority." href="/blog/best-foldable-pilates-reformer" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
+                <ArticleCard title="Align Pilates Reformer Review" excerpt="Align-Pilates makes some of the most compact full-featured reformers on the market." href="/blog/align-pilates-reformer-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Your Reformer Pilates Review" excerpt="The most compact foldable reformer for apartment living — honest assessment." href="/blog/your-reformer-pilates" category="Brand Guide" readTime="9 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
               </div>
             </div>
           </div>

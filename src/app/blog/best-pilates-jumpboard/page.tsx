@@ -217,6 +217,8 @@ export default function BestPilatesJumpboardPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformers" excerpt="The complete guide to buying a reformer for home practice." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer Accessories" excerpt="Everything worth adding to your home reformer beyond the jumpboard." href="/blog/best-pilates-reformer-accessories" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Balanced Body Pilates Brand Guide" excerpt="Balanced Body makes the most widely compatible jumpboard — here's everything they build." href="/blog/balanced-body-pilates" category="Brand Guide" readTime="11 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
+                <ArticleCard title="AeroPilates Review" excerpt="AeroPilates reformers include their own jumpboard system — here's how it performs." href="/blog/aeropilates-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
               </div>
             </div>
           </div>

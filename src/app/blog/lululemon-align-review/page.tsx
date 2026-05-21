@@ -213,6 +213,8 @@ export default function LululemonAlignReviewPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lululemon Align vs Alo Airbrush" excerpt="The two most popular Pilates leggings compared head-to-head." href="/blog/lululemon-align-vs-alo-airbrush" category="Comparison" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings" excerpt="Five studio-tested leggings ranked across all price points." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Bodysuits" excerpt="Lululemon Align makes our #1 bodysuit pick — see how the full lineup compares." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Lululemon Pilates Activewear" excerpt="Our complete guide to every Lululemon piece worth owning for Pilates." href="/blog/lululemon-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
               </div>
             </div>
           </div>

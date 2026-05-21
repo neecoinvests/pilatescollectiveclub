@@ -256,6 +256,8 @@ export default function PeakPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Balanced Body vs Merrithew" excerpt="The two dominant studio brands compared head-to-head." href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="The top-tier reformers for serious practitioners across all brands." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Best Studio Pilates Reformers" excerpt="How Peak compares against Balanced Body, Merrithew, Gratz, and BASI for professional studio use." href="/blog/best-studio-pilates-reformers" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformers for Tall People" excerpt="Peak's MVe and Fit reformers are among the longest-carriage options available." href="/blog/best-pilates-reformer-for-tall-people" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
               </div>
             </div>
           </div>

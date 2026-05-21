@@ -442,6 +442,8 @@ export default function BestStudioReformersPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Best Premium Pilates Reformers ($2,000–$5,000+)" excerpt="Our first premium reformer guide: Allegro 2, V2 Max, Gratz Aluminum, Elina, and Peak MVe compared." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                   <ArticleCard title="Balanced Body vs Merrithew: Which Should You Buy?" excerpt="The definitive head-to-head of the two dominant professional reformer brands — compared on carriage, springs, accessories, and value." href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="13 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
+                  <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's studio reformers are in tens of thousands of professional studios — here's what sets them apart." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                  <ArticleCard title="BASI Systems Pilates Review" excerpt="The brand behind BASI's world-famous certification programme — and the equipment they build to match it." href="/blog/basi-systems-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 </div>
               </div>
             </section>

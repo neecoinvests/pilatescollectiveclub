@@ -228,6 +228,8 @@ export default function PersonalHourPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Elina Pilates Review" excerpt="Another wood-construction brand at a similar price — compared honestly." href="/blog/elina-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformers for Tall People" excerpt="Extended carriage options for practitioners over 6 feet." href="/blog/best-pilates-reformer-for-tall-people" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Best Premium Pilates Reformers" excerpt="How PersonalHour compares against Elina, Peak, and Balanced Body at the premium tier." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Best Studio Pilates Reformers" excerpt="Professional-grade reformers for studio owners — including high-spec Asian-manufactured machines." href="/blog/best-studio-pilates-reformers" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
               </div>
             </div>
           </div>

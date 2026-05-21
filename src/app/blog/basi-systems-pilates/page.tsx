@@ -228,6 +228,8 @@ export default function BasiSystemsPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Reformers for Tall People" excerpt="Long-carriage options across all brands — BASI, Balanced Body, Gratz, and more." href="/blog/best-pilates-reformer-for-tall-people" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="The top-tier reformers for serious practitioners across all brands." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Best Studio Pilates Reformers" excerpt="How BASI Systems compares against Peak, Balanced Body, and Gratz for professional studio use." href="/blog/best-studio-pilates-reformers" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Cadillac" excerpt="BASI builds one of the most respected cadillac/tower combos available for studio purchase." href="/blog/best-pilates-cadillac" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
               </div>
             </div>
           </div>

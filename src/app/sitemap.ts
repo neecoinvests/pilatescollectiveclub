@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPosts = [
     "beginners-guide-to-reformer-pilates",
+    "6-core-principles-of-pilates-explained",
     "how-to-choose-a-pilates-instructor",
     "classical-vs-contemporary-pilates",
     "best-pilates-equipment-for-home-practice",

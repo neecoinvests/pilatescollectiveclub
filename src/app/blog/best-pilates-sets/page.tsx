@@ -230,6 +230,8 @@ export default function BestPilatesSetsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Bodysuits" excerpt="The clean one-piece alternative to sets — six tested options for the studio." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings" excerpt="Five studio-tested leggings for reformer and mat practice." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo makes our top-ranked set in this guide — here's our full brand deep-dive." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Sweaty Betty Pilates Activewear" excerpt="The UK brand that dominates Pilates wardrobes — full brand review and buying guide." href="/blog/sweaty-betty-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>
           </div>

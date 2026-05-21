@@ -213,6 +213,8 @@ export default function YourReformerPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformers" excerpt="The complete buyer's guide across all price points and brands." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Online Pilates Classes" excerpt="The top platforms for guided Pilates at home — including reformer programmes." href="/blog/best-online-pilates-classes" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformers for Small Spaces" excerpt="How Your Reformer compares against Align and AeroPilates for compact apartment living." href="/blog/best-pilates-reformer-for-small-spaces" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Foldable Pilates Reformers" excerpt="The best foldable options — including Your Reformer's collapsible design." href="/blog/best-foldable-pilates-reformer" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
               </div>
             </div>
           </div>

@@ -220,6 +220,8 @@ export default function BestPilatesReformerTallPeoplePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="The top-tier reformers for serious practitioners at any height." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Balanced Body Allegro 2 Review" excerpt="An in-depth review of the most popular studio reformer for home use." href="/blog/balanced-body-allegro-2-review" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
+                <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's MVe and Fit reformers are purpose-built for tall practitioners — long carriages and precision engineering." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Elina Pilates Brand Guide" excerpt="Elina's Elite Wood and Elite Aluminum reformers offer extra-long rails ideal for taller bodies." href="/blog/elina-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
               </div>
             </div>
           </div>

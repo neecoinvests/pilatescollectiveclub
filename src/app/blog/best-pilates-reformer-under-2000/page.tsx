@@ -220,6 +220,8 @@ export default function BestPilatesReformerUnder2000Page() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformers" excerpt="The complete guide across all budgets — from entry-level to premium." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformers Under $1,000" excerpt="The best entry-level reformers for practitioners starting out." href="/blog/best-pilates-reformer-under-1000" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Align Pilates Reformer Review" excerpt="Align-Pilates makes two of the top picks in this price range — in-depth brand review." href="/blog/align-pilates-reformer-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Premium Pilates Reformers" excerpt="If budget isn't a constraint, these are the machines worth stepping up to." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
               </div>
             </div>
           </div>
