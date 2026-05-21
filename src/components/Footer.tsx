@@ -4,7 +4,7 @@ const EXPLORE = [
   { label: "City Guides", href: "/cities" },
   { label: "Journal", href: "/blog" },
   { label: "Brands", href: "/brands" },
-  { label: "Equipment", href: "/blog?category=Equipment" },
+  { label: "Equipment", href: "/blog/best-pilates-reformer-brands" },
   { label: "About", href: "/#about" },
 ];
 

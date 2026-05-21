@@ -133,6 +133,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "basi-systems-pilates",
     "your-reformer-pilates",
     "personalhour-pilates",
+    "best-pilates-clothes-for-men",
+    "best-pilates-equipment-for-men",
   ];
 
   return [

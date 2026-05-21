@@ -385,9 +385,21 @@ export default function BrandsPage() {
               <div className="w-8 h-px" style={{ backgroundColor: "#d9c2ba" }} />
               <p className="text-xs font-semibold uppercase tracking-[0.25em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
             </div>
-            <h2 className="text-3xl font-semibold mb-12" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Equipment brand guides
             </h2>
+
+            {/* Hub CTA */}
+            <Link href="/blog/best-pilates-reformer-brands" style={{ textDecoration: "none" }}>
+              <div className="rounded-2xl p-6 mb-10 flex items-center justify-between gap-6 hover:opacity-90 transition-opacity" style={{ backgroundColor: "#1b1c1c" }}>
+                <div>
+                  <span className="text-xs font-semibold uppercase tracking-[0.2em] mb-2 block" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Comparison Guide</span>
+                  <p className="text-xl font-semibold" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>All 10 reformer Pilates brands ranked</p>
+                  <p className="text-sm mt-1" style={{ color: "rgba(255,255,255,0.55)", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>Balanced Body, Gratz, Merrithew, Peak, Elina, BASI, Align, AeroPilates, Your Reformer, PersonalHour — compared honestly in one guide.</p>
+                </div>
+                <span className="text-xs font-semibold uppercase tracking-widest whitespace-nowrap" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Read guide →</span>
+              </div>
+            </Link>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {EQUIPMENT_BRANDS.map((brand) => (
