@@ -127,6 +127,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-pilates-reformer-for-tall-people",
     "best-pilates-reformer-under-2000",
     "best-pilates-mat-bag",
+    "peak-pilates",
+    "elina-pilates",
   ];
 
   return [
