@@ -116,6 +116,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "pilates-for-seniors",
     "pilates-for-weight-loss",
     "pilates-vs-gym",
+    "best-pilates-bodysuits",
+    "best-pilates-sets",
+    "best-pilates-biker-shorts",
+    "best-pilates-bag",
+    "lululemon-align-review",
+    "beyond-yoga-pilates",
+    "best-pilates-jumpboard",
+    "best-pilates-reformer-for-small-spaces",
+    "best-pilates-reformer-for-tall-people",
+    "best-pilates-reformer-under-2000",
+    "best-pilates-mat-bag",
   ];
 
   return [
