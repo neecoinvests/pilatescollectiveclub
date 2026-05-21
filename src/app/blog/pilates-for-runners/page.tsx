@@ -89,7 +89,7 @@ export default function PilatesForRunnersPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" alt="Pilates for runners — glute medius activation, hip flexor lengthening, and running injury prevention exercises" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

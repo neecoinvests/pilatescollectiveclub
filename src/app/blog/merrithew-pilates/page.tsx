@@ -139,7 +139,7 @@ export default function MerrithewPilatesPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
                 src="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"
                 alt="Merrithew Pilates reformer equipment — STOTT Pilates studio setup reviewed"

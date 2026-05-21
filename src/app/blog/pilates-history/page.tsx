@@ -80,7 +80,7 @@ export default function PilatesHistoryPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" alt="History of Pilates — from Joseph Pilates and Contrology origins to today's global boutique reformer studios" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

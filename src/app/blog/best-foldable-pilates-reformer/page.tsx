@@ -139,7 +139,7 @@ export default function BestFoldablePilatesReformerPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Best foldable Pilates reformer — space-saving machines compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

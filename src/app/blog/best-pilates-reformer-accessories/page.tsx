@@ -144,7 +144,7 @@ export default function BestReformerAccessoriesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Best Pilates reformer accessories — sticky pads, jump board, long box, and leather straps" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

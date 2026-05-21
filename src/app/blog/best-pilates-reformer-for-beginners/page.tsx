@@ -134,7 +134,7 @@ export default function BestPilatesReformerForBeginnersPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" alt="Best Pilates reformer for beginners — Pilates Collective Club" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

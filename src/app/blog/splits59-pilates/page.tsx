@@ -144,7 +144,7 @@ export default function Splits59PilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Splits59 Raquel legging for Pilates — the best activewear brand designed specifically for reformer and mat work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

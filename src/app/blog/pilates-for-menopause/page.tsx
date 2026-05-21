@@ -89,7 +89,7 @@ export default function PilatesForMenopausePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" alt="Pilates for menopause — bone density loading, pelvic floor work, and hormonal adaptation in practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

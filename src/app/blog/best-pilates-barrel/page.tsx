@@ -134,7 +134,7 @@ export default function BestPilatesBarrelPage() {
         {/* Hero Image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" alt="Best Pilates barrel guide — Arc, Spine Corrector and Ladder Barrel compared — Pilates Collective Club" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

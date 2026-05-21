@@ -243,7 +243,7 @@ export default function BestHomeReformerPage() {
                         price={p.price}
                         affiliateUrl={p.affiliateUrl}
                       />
-                      <div className="mt-4 grid grid-cols-2 gap-4">
+                      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
                           <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
                           <ul className="space-y-1">

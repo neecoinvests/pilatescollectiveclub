@@ -12,7 +12,7 @@ interface BlogHeroProps {
 
 export default function BlogHero({ imageUrl, imageAlt, category, subcategory, title, date, readTime }: BlogHeroProps) {
   return (
-    <section style={{ position: "relative", width: "100%", height: "620px", overflow: "hidden" }}>
+    <section className="pcc-blog-hero" style={{ position: "relative", width: "100%", height: "620px", overflow: "hidden" }}>
       <Image src={imageUrl} alt={imageAlt} fill className="object-cover" priority style={{ filter: "brightness(0.55)" }} />
       <div style={{
         position: "absolute",
@@ -20,7 +20,7 @@ export default function BlogHero({ imageUrl, imageAlt, category, subcategory, ti
         background: "linear-gradient(to top, rgba(10,10,10,0.85) 0%, rgba(10,10,10,0.4) 50%, rgba(10,10,10,0.15) 100%)",
       }} />
 
-      <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0 40px 56px" }}>
+      <div className="pcc-blog-hero-content" style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0 40px 56px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
             <span style={{

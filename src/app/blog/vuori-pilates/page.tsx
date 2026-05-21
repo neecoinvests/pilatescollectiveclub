@@ -144,7 +144,7 @@ export default function VuoriPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" alt="Vuori activewear for Pilates — the coastal brand with the best men's offering in the category" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

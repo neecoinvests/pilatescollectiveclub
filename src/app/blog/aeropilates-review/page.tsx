@@ -134,7 +134,7 @@ export default function AeroPilatesReviewPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
                 src="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"
                 alt="AeroPilates reformer review — honest assessment of cord resistance and budget home Pilates machines"

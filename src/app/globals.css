@@ -129,4 +129,8 @@ h1, h2, h3, h4 {
 
   /* Section dividers */
   .pcc-divider { margin: 0 !important; }
+
+  /* Blog hero */
+  .pcc-blog-hero { height: 340px !important; }
+  .pcc-blog-hero-content { padding: 0 20px 32px !important; }
 }

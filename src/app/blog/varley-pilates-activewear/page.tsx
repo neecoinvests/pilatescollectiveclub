@@ -144,7 +144,7 @@ export default function VarleyPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="Varley Reeves legging and Stratford bra for Pilates — boutique studio activewear brand reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>

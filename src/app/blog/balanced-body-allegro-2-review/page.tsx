@@ -167,7 +167,7 @@ export default function BalancedBodyAllegro2ReviewPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
                 src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"
                 alt="Balanced Body Allegro 2 reformer — professional home Pilates equipment review"

@@ -144,7 +144,7 @@ export default function BestPilatesRingPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Best Pilates ring and magic circle — STOTT, Balanced Body, and ProBody tested for resistance and pad quality" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
