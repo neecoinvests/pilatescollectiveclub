@@ -40,6 +40,7 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
   return (
     <div>
       <div
+        className="pcc-featured-grid"
         style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
@@ -51,7 +52,7 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
       >
         {/* Image — clicks through to article */}
         <Link href={item.href} style={{ textDecoration: "none", display: "block" }}>
-          <div style={{ position: "relative", overflow: "hidden", minHeight: "500px", height: "100%", backgroundColor: "#f0ece6" }}>
+          <div className="pcc-featured-image" style={{ position: "relative", overflow: "hidden", minHeight: "500px", height: "100%", backgroundColor: "#f0ece6" }}>
             <Image
               src={item.imageUrl}
               alt={item.title}
@@ -62,7 +63,7 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
         </Link>
 
         {/* Text panel */}
-        <div style={{
+        <div className="pcc-featured-text" style={{
           backgroundColor: "#f7f4f0",
           padding: "64px 56px",
           display: "flex",
@@ -83,7 +84,7 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
           </span>
 
           <Link href={item.href} style={{ textDecoration: "none" }}>
-            <h2 style={{
+            <h2 className="pcc-featured-title" style={{
               fontFamily: "var(--font-serif)",
               fontSize: "clamp(28px, 3vw, 42px)",
               fontWeight: 400,
@@ -107,7 +108,7 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
             {item.excerpt}
           </p>
 
-          <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
+          <div className="pcc-featured-actions" style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
             <Link href={item.href} style={{ textDecoration: "none" }}>
               <span style={{
                 fontFamily: "var(--font-sans)",

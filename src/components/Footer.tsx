@@ -67,7 +67,7 @@ const s = {
 export default function Footer() {
   return (
     <footer style={{ backgroundColor: "#0a0a0a" }}>
-      <div className="max-w-7xl mx-auto px-8 pt-20 pb-10">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 pt-12 md:pt-20 pb-10">
         <div
           className="grid grid-cols-1 md:grid-cols-4 gap-12 pb-16"
           style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}

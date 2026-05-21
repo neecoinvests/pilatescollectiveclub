@@ -273,7 +273,7 @@ export default function ZurichPage() {
         {/* Hero image */}
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
                 src="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"
                 alt="Zurich city view"
@@ -324,7 +324,7 @@ export default function ZurichPage() {
               {BOOKING_TIPS.map((tip) => (
                 <div
                   key={tip.heading}
-                  className="flex gap-5 rounded-xl p-6"
+                  className="pcc-booking-tip flex gap-5 rounded-xl p-6"
                   style={{
                     backgroundColor: "#ffffff",
                     border: "1px solid rgba(217, 194, 186, 0.3)",

@@ -24,9 +24,9 @@ export default function Header() {
         borderBottom: "1px solid #ddd8d0",
       }}
     >
-      <div className="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
+      <div className="pcc-header-inner max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
         <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
-          <div style={{ position: "relative", width: 210, height: 70, flexShrink: 0 }}>
+          <div className="pcc-logo" style={{ position: "relative", width: 210, height: 70, flexShrink: 0 }}>
             <Image
               src="/pictures/pcc-logo.png"
               alt="Pilates Collective Club"

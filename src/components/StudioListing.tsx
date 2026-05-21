@@ -19,8 +19,8 @@ export default function StudioListing({
   void address;
   return (
     <article style={{ borderTop: "1px solid #ede9e3", paddingTop: "48px", paddingBottom: "48px" }}>
-      <div style={{ display: "flex", alignItems: "flex-start", gap: "32px", marginBottom: "24px" }}>
-        <span style={{
+      <div className="pcc-studio-header" style={{ display: "flex", alignItems: "flex-start", gap: "32px", marginBottom: "24px" }}>
+        <span className="pcc-studio-number" style={{
           fontFamily: "var(--font-serif)",
           fontSize: "60px",
           fontWeight: 300,
@@ -64,7 +64,7 @@ export default function StudioListing({
         {review}
       </p>
 
-      <div style={{
+      <div className="pcc-studio-details" style={{
         display: "grid",
         gridTemplateColumns: "repeat(2, 1fr)",
         gap: "24px 40px",

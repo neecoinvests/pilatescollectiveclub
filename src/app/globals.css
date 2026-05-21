@@ -30,3 +30,74 @@ h1, h2, h3, h4 {
   font-family: var(--font-serif);
   font-weight: 400;
 }
+
+/* ─── Mobile (≤ 768px) ─────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* Header */
+  .pcc-header-inner {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    height: 3.75rem !important;
+  }
+  .pcc-logo {
+    width: 120px !important;
+    height: 40px !important;
+  }
+
+  /* Featured Rotator — stack vertically */
+  .pcc-featured-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .pcc-featured-image {
+    min-height: 240px !important;
+    height: 240px !important;
+  }
+  .pcc-featured-text {
+    padding: 32px 24px !important;
+  }
+  .pcc-featured-title {
+    font-size: 26px !important;
+  }
+  .pcc-featured-actions {
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+  }
+
+  /* Studio Listing */
+  .pcc-studio-header {
+    gap: 14px !important;
+  }
+  .pcc-studio-number {
+    font-size: 36px !important;
+    min-width: 32px !important;
+  }
+  .pcc-studio-details {
+    grid-template-columns: 1fr !important;
+    padding: 20px !important;
+    gap: 16px !important;
+  }
+
+  /* City page hero image */
+  .pcc-city-hero-image {
+    height: 220px !important;
+  }
+
+  /* City page booking tips */
+  .pcc-booking-tip {
+    padding: 16px !important;
+    gap: 12px !important;
+  }
+
+  /* Blog/city page heading sections */
+  .pcc-page-header {
+    padding-top: 6rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Generic content padding on small screens */
+  .pcc-content-section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
