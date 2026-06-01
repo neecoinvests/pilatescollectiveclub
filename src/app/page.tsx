@@ -68,6 +68,11 @@ const CITIES = [
   { city: "Dallas", country: "United States", href: "/cities/dallas", studioCount: 6 },
   { city: "Houston", country: "United States", href: "/cities/houston", studioCount: 6 },
   { city: "Philadelphia", country: "United States", href: "/cities/philadelphia", studioCount: 6 },
+  { city: "Portland", country: "United States", href: "/cities/portland", studioCount: 6 },
+  { city: "Minneapolis", country: "United States", href: "/cities/minneapolis", studioCount: 6 },
+  { city: "San Diego", country: "United States", href: "/cities/san-diego", studioCount: 6 },
+  { city: "Phoenix", country: "United States", href: "/cities/phoenix", studioCount: 6 },
+  { city: "Charlotte", country: "United States", href: "/cities/charlotte", studioCount: 6 },
 ];
 
 const FEATURED_ITEMS: FeaturedItem[] = [
@@ -180,6 +185,8 @@ const FEATURED_ITEMS: FeaturedItem[] = [
 ];
 
 const GUIDES = [
+  { title: "The Best Pilates Studios in Charlotte, NC", excerpt: "From South End's reformer boutiques to Myers Park's classical studios — six verified picks across Charlotte's vibrant Pilates scene.", href: "/cities/charlotte", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Portland, OR", excerpt: "From the Pearl District's warehouse studios to Lake Oswego's serene spaces — the definitive guide to Portland's best Pilates studios.", href: "/cities/portland", category: "City Guide", readTime: "9 min read", date: "June 2026" },
   { title: "The Best Pilates Studios in Austin, TX", excerpt: "From classical Rosedale studios to community-focused East Austin practices — our complete guide to Austin's growing Pilates scene.", href: "/cities/austin", category: "City Guide", readTime: "9 min read", date: "June 2026" },
   { title: "The Best Pilates Studios in Washington DC", excerpt: "From Georgetown's classical depth to Arlington's professional reformer rooms — six verified picks across the DC metro area.", href: "/cities/washington-dc", category: "City Guide", readTime: "9 min read", date: "June 2026" },
   { title: "The Best Pilates Studios in Dallas, TX", excerpt: "From Highland Park classical studios to Deep Ellum's movement-forward independents — the definitive guide to Dallas's best Pilates studios.", href: "/cities/dallas", category: "City Guide", readTime: "9 min read", date: "June 2026" },

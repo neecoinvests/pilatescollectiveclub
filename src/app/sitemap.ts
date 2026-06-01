@@ -41,6 +41,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "dallas",
     "houston",
     "philadelphia",
+    "portland",
+    "minneapolis",
+    "san-diego",
+    "phoenix",
+    "charlotte",
   ];
 
   const blogPosts = [
