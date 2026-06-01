@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Pilates Studio Guides by City | Pilates Collective Club",
-  description: "Curated guides to the best Pilates studios in 25 cities worldwide — London, New York, Paris, Tokyo, Sydney and more. Find the right studio before you book.",
+  description: "Curated guides to the best Pilates studios in 30 cities worldwide — London, New York, Paris, Austin, Seattle, Boston, Denver, Washington DC and more. Find the right studio before you book.",
   keywords: ["pilates studios by city", "best pilates studios worldwide", "pilates city guides", "reformer pilates cities", "pilates london paris new york"],
   openGraph: {
     title: "Pilates Studio Guides by City — Pilates Collective Club",
@@ -44,6 +44,11 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Chicago", country: "United States", region: "Americas", href: "/cities/chicago" },
   { city: "San Francisco", country: "United States", region: "Americas", href: "/cities/san-francisco" },
   { city: "Toronto", country: "Canada", region: "Americas", href: "/cities/toronto" },
+  { city: "Austin", country: "United States", region: "Americas", href: "/cities/austin" },
+  { city: "Seattle", country: "United States", region: "Americas", href: "/cities/seattle" },
+  { city: "Boston", country: "United States", region: "Americas", href: "/cities/boston" },
+  { city: "Denver", country: "United States", region: "Americas", href: "/cities/denver" },
+  { city: "Washington DC", country: "United States", region: "Americas", href: "/cities/washington-dc" },
   { city: "Dubai", country: "United Arab Emirates", region: "Middle East & Asia", href: "/cities/dubai" },
   { city: "Singapore", country: "Singapore", region: "Middle East & Asia", href: "/cities/singapore" },
   { city: "Hong Kong", country: "Hong Kong SAR", region: "Middle East & Asia", href: "/cities/hong-kong" },
@@ -62,7 +67,7 @@ const citiesJsonLd = {
       "@id": "https://pilatescollectiveclub.com/cities/#webpage",
       "url": "https://pilatescollectiveclub.com/cities",
       "name": "Pilates Studio Guides by City",
-      "description": "Curated guides to the best Pilates studios in 25 cities worldwide.",
+      "description": "Curated guides to the best Pilates studios in 30 cities worldwide.",
       "isPartOf": { "@id": "https://pilatescollectiveclub.com/#website" },
       "inLanguage": "en-US",
     },
@@ -98,7 +103,7 @@ export default function CitiesPage() {
               Studios worldwide.
             </h1>
             <p className="text-lg max-w-xl" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Curated picks in {CITIES.length} cities — the studios worth booking, with advice on what to expect before you arrive.
+              Curated picks in {CITIES.length} cities across the US and worldwide — the studios worth booking, with advice on what to expect before you arrive.
             </p>
           </div>
         </section>

@@ -58,6 +58,11 @@ const CITIES = [
   { city: "Toronto", country: "Canada", href: "/cities/toronto", studioCount: 5 },
   { city: "San Francisco", country: "United States", href: "/cities/san-francisco", studioCount: 5 },
   { city: "Lisbon", country: "Portugal", href: "/cities/lisbon", studioCount: 5 },
+  { city: "Austin", country: "United States", href: "/cities/austin", studioCount: 6 },
+  { city: "Seattle", country: "United States", href: "/cities/seattle", studioCount: 6 },
+  { city: "Boston", country: "United States", href: "/cities/boston", studioCount: 6 },
+  { city: "Denver", country: "United States", href: "/cities/denver", studioCount: 6 },
+  { city: "Washington DC", country: "United States", href: "/cities/washington-dc", studioCount: 6 },
 ];
 
 const FEATURED_ITEMS: FeaturedItem[] = [
@@ -170,6 +175,8 @@ const FEATURED_ITEMS: FeaturedItem[] = [
 ];
 
 const GUIDES = [
+  { title: "The Best Pilates Studios in Austin, TX", excerpt: "From classical Rosedale studios to community-focused East Austin practices — our complete guide to Austin's growing Pilates scene.", href: "/cities/austin", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Washington DC", excerpt: "From Georgetown's classical depth to Arlington's professional reformer rooms — six verified picks across the DC metro area.", href: "/cities/washington-dc", category: "City Guide", readTime: "9 min read", date: "June 2026" },
   { title: "The Best Pilates Studios in Zurich", excerpt: "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.", href: "/cities/zurich", category: "City Guide", readTime: "8 min read", date: "May 2026" },
   { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "May 2026" },
   { title: "Pilates for Back Pain: What the Research Shows", excerpt: "A clear-eyed look at the evidence — what Pilates can and can't do for chronic back pain, and how to start safely.", href: "/blog/pilates-for-back-pain", category: "Wellness", readTime: "9 min read", date: "May 2026" },

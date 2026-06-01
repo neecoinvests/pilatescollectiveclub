@@ -31,6 +31,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "melbourne",
     "toronto",
     "lisbon",
+    "austin",
+    "seattle",
+    "boston",
+    "denver",
+    "washington-dc",
   ];
 
   const blogPosts = [
