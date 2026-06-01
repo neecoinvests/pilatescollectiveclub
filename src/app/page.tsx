@@ -73,6 +73,11 @@ const CITIES = [
   { city: "San Diego", country: "United States", href: "/cities/san-diego", studioCount: 6 },
   { city: "Phoenix", country: "United States", href: "/cities/phoenix", studioCount: 6 },
   { city: "Charlotte", country: "United States", href: "/cities/charlotte", studioCount: 6 },
+  { city: "Las Vegas", country: "United States", href: "/cities/las-vegas", studioCount: 6 },
+  { city: "New Orleans", country: "United States", href: "/cities/new-orleans", studioCount: 6 },
+  { city: "Salt Lake City", country: "United States", href: "/cities/salt-lake-city", studioCount: 6 },
+  { city: "Tampa", country: "United States", href: "/cities/tampa", studioCount: 6 },
+  { city: "Raleigh", country: "United States", href: "/cities/raleigh", studioCount: 6 },
 ];
 
 const FEATURED_ITEMS: FeaturedItem[] = [
@@ -185,6 +190,8 @@ const FEATURED_ITEMS: FeaturedItem[] = [
 ];
 
 const GUIDES = [
+  { title: "The Best Pilates Studios in Tampa, FL", excerpt: "From Hyde Park's upscale reformer studios to Seminole Heights' independent scene — six verified picks across the Tampa Bay area.", href: "/cities/tampa", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Raleigh, NC", excerpt: "From North Hills classics to Durham's creative movement studios — the definitive Pilates guide for the Research Triangle.", href: "/cities/raleigh", category: "City Guide", readTime: "9 min read", date: "June 2026" },
   { title: "The Best Pilates Studios in Charlotte, NC", excerpt: "From South End's reformer boutiques to Myers Park's classical studios — six verified picks across Charlotte's vibrant Pilates scene.", href: "/cities/charlotte", category: "City Guide", readTime: "9 min read", date: "June 2026" },
   { title: "The Best Pilates Studios in Portland, OR", excerpt: "From the Pearl District's warehouse studios to Lake Oswego's serene spaces — the definitive guide to Portland's best Pilates studios.", href: "/cities/portland", category: "City Guide", readTime: "9 min read", date: "June 2026" },
   { title: "The Best Pilates Studios in Austin, TX", excerpt: "From classical Rosedale studios to community-focused East Austin practices — our complete guide to Austin's growing Pilates scene.", href: "/cities/austin", category: "City Guide", readTime: "9 min read", date: "June 2026" },

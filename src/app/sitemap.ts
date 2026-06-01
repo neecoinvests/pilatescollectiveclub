@@ -46,6 +46,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "san-diego",
     "phoenix",
     "charlotte",
+    "las-vegas",
+    "new-orleans",
+    "salt-lake-city",
+    "tampa",
+    "raleigh",
   ];
 
   const blogPosts = [

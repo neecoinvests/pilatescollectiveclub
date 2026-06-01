@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Pilates Studio Guides by City | Pilates Collective Club",
-  description: "Curated guides to the best Pilates studios in 40 cities worldwide — London, New York, Paris, Austin, Seattle, Charlotte, Portland, San Diego and more. Find the right studio before you book.",
+  description: "Curated guides to the best Pilates studios in 45 cities worldwide — London, New York, Paris, Charlotte, Tampa, Las Vegas, Raleigh, Salt Lake City and more. Find the right studio before you book.",
   keywords: ["pilates studios by city", "best pilates studios worldwide", "pilates city guides", "reformer pilates cities", "pilates london paris new york"],
   openGraph: {
     title: "Pilates Studio Guides by City — Pilates Collective Club",
@@ -59,6 +59,11 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "San Diego", country: "United States", region: "Americas", href: "/cities/san-diego" },
   { city: "Phoenix", country: "United States", region: "Americas", href: "/cities/phoenix" },
   { city: "Charlotte", country: "United States", region: "Americas", href: "/cities/charlotte" },
+  { city: "Las Vegas", country: "United States", region: "Americas", href: "/cities/las-vegas" },
+  { city: "New Orleans", country: "United States", region: "Americas", href: "/cities/new-orleans" },
+  { city: "Salt Lake City", country: "United States", region: "Americas", href: "/cities/salt-lake-city" },
+  { city: "Tampa", country: "United States", region: "Americas", href: "/cities/tampa" },
+  { city: "Raleigh", country: "United States", region: "Americas", href: "/cities/raleigh" },
   { city: "Dubai", country: "United Arab Emirates", region: "Middle East & Asia", href: "/cities/dubai" },
   { city: "Singapore", country: "Singapore", region: "Middle East & Asia", href: "/cities/singapore" },
   { city: "Hong Kong", country: "Hong Kong SAR", region: "Middle East & Asia", href: "/cities/hong-kong" },
@@ -77,7 +82,7 @@ const citiesJsonLd = {
       "@id": "https://pilatescollectiveclub.com/cities/#webpage",
       "url": "https://pilatescollectiveclub.com/cities",
       "name": "Pilates Studio Guides by City",
-      "description": "Curated guides to the best Pilates studios in 40 cities worldwide.",
+      "description": "Curated guides to the best Pilates studios in 45 cities worldwide.",
       "isPartOf": { "@id": "https://pilatescollectiveclub.com/#website" },
       "inLanguage": "en-US",
     },
