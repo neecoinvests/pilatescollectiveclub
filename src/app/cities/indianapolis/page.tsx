@@ -125,7 +125,7 @@ const STUDIOS = [
     priceLevel: "$$$",
     review:
       "Club Pilates Carmel serves one of Indiana's most affluent and wellness-invested suburban cities with a franchise reformer studio that consistently meets Carmel's high expectations. The studio draws from Carmel, Westfield, and Zionsville — a demographic that is health-literate, fitness-experienced, and holds studios to real standards. The instructor team is experienced and professional, the schedule is wide, and membership tiers make regular attendance financially practical. One of the most reliably high-quality Club Pilates locations in the Indiana market.",
-    address: "1 N Range Line Rd, Carmel, IN 46032",
+    address: "2482 E 146th St, Carmel, IN 46033",
     bestFor: "Carmel and north-suburb residents, experienced practitioners, memberships",
     signatureClass: "Flow",
     bookingTip: "Monthly memberships cut per-class costs significantly — exhaust the intro offer before committing.",

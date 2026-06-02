@@ -72,8 +72,8 @@ const STUDIOS = [
   },
   {
     number: "2",
-    name: "Club Pilates Fair Oaks",
-    neighborhood: "Fair Oaks / Carmichael",
+    name: "Club Pilates Loehmann's Plaza",
+    neighborhood: "Arden-Arcade / Fair Oaks Blvd",
     priceLevel: "$$$",
     review:
       "Club Pilates Fair Oaks serves Sacramento's northeast suburban corridor with a well-run franchise studio that consistently meets the community's health-conscious expectations. The Fair Oaks Boulevard location draws from the surrounding Carmichael, Orangevale, and Fair Oaks residential neighborhoods — a wellness-invested, family-oriented demographic that holds the studio to real standards. The schedule is wide, the instructor team is experienced, and membership pricing makes regular attendance financially practical for suburban families and professionals.",
