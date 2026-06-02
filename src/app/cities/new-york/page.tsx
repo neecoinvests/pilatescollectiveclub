@@ -39,7 +39,7 @@ const STUDIOS = [
   {
     number: "01",
     name: "New York Pilates",
-    neighborhood: "SoHo / Flatiron",
+    neighborhood: "SoHo",
     priceLevel: "$$$$",
     review: "New York Pilates is perhaps the most photographed studio in the city, and yet the substance behind the aesthetic is real. Founded by Heather Andersen, the studio operates with a rigorous classical foundation that gets expressed through high-energy group reformer classes with carefully curated playlists. The SoHo and Flatiron locations attract a fashion-adjacent crowd — models, stylists, magazine editors — but the instruction is serious enough to satisfy purists. Andersen's teacher-training programme has seeded talent across the New York scene, which means the quality floor is unusually high. For anyone wanting to understand why group reformer took over Manhattan, this is the originating address.",
     address: "—",
