@@ -9,6 +9,7 @@ interface CityCardProps {
 }
 
 const cityImages: Record<string, string> = {
+  // International
   Zurich: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
   London: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
   Paris: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=800&q=80",
@@ -34,6 +35,37 @@ const cityImages: Record<string, string> = {
   Melbourne: "https://images.unsplash.com/photo-1546268060-2592ff93ee24?w=800&q=80",
   Toronto: "https://images.unsplash.com/photo-1517935706615-2717063c2225?w=800&q=80",
   Lisbon: "https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?w=800&q=80",
+  // United States
+  Austin: "https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=800&q=80",
+  Seattle: "https://images.unsplash.com/photo-1502175353174-a7a70e73b362?w=800&q=80",
+  Boston: "https://images.unsplash.com/photo-1501979376754-e1b564b25ed6?w=800&q=80",
+  Denver: "https://images.unsplash.com/photo-1546156929-a4c0ac411f47?w=800&q=80",
+  "Washington DC": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800&q=80",
+  Atlanta: "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=800&q=80",
+  Nashville: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+  Dallas: "https://images.unsplash.com/photo-1545158535-c3f7168c28b6?w=800&q=80",
+  Houston: "https://images.unsplash.com/photo-1575517111839-3a3843ee7f5d?w=800&q=80",
+  Philadelphia: "https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=800&q=80",
+  Portland: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80",
+  Minneapolis: "https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?w=800&q=80",
+  "San Diego": "https://images.unsplash.com/photo-iLi4U0eskGk?w=800&q=80",
+  Phoenix: "https://images.unsplash.com/photo-RcDEbNQsjHU?w=800&q=80",
+  Charlotte: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=80",
+  "Las Vegas": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=800&q=80",
+  "New Orleans": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&q=80",
+  "Salt Lake City": "https://images.unsplash.com/photo-1601933470096-0e34634ffcde?w=800&q=80",
+  Tampa: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+  Raleigh: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80",
+  "San Antonio": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+  Sacramento: "https://images.unsplash.com/photo-AZmK9nSaQIk?w=800&q=80",
+  Baltimore: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+  Indianapolis: "https://images.unsplash.com/photo-3tWrSC2pEuQ?w=800&q=80",
+  Orlando: "https://images.unsplash.com/photo-XTiutgITEAI?w=800&q=80",
+  Pittsburgh: "https://images.unsplash.com/photo-_PwUa6vMgEI?w=800&q=80",
+  Columbus: "https://images.unsplash.com/photo--Uev8KKQQI8?w=800&q=80",
+  "St. Louis": "https://images.unsplash.com/photo-E27qyMgymcA?w=800&q=80",
+  Cincinnati: "https://images.unsplash.com/photo-Qll2HurFq8M?w=800&q=80",
+  "Kansas City": "https://images.unsplash.com/photo-rMaKy1DdcbI?w=800&q=80",
 };
 
 export default function CityCard({ city, country, href, studioCount }: CityCardProps) {
