@@ -56,6 +56,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "baltimore",
     "indianapolis",
     "orlando",
+    "pittsburgh",
+    "columbus",
+    "st-louis",
+    "cincinnati",
+    "kansas-city",
   ];
 
   const blogPosts = [
