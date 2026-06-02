@@ -51,6 +51,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "salt-lake-city",
     "tampa",
     "raleigh",
+    "san-antonio",
+    "sacramento",
+    "baltimore",
+    "indianapolis",
+    "orlando",
   ];
 
   const blogPosts = [
