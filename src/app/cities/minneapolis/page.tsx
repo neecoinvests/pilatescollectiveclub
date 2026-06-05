@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     description: "Six curated, verified Pilates studios in Minneapolis — from Linden Hills classical practices to contemporary reformer rooms in Uptown.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/minneapolis",
-    images: [{ url: "https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?w=1200&q=80", width: 1200, height: 630, alt: "Minneapolis Minnesota city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-q8g2ccskR2A?w=1200&q=80", width: 1200, height: 630, alt: "Minneapolis Minnesota city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Studios in Minneapolis, MN (2026)",
     description: "Six curated Pilates studios in Minneapolis — verified picks for every level.",
-    images: ["https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?w=1200&q=80"],
+    images: ["https://images.unsplash.com/photo-q8g2ccskR2A?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/minneapolis" },
 };
@@ -193,7 +193,7 @@ export default function MinneapolisPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?w=1400&q=80" alt="Minneapolis Minnesota skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-q8g2ccskR2A?w=1400&q=80" alt="Minneapolis Minnesota skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Minneapolis, Minnesota</p>

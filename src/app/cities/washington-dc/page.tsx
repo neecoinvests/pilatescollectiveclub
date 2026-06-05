@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     description: "Six curated, verified Pilates studios across Washington DC, Arlington, and Bethesda — the best picks for every level and neighbourhood.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/washington-dc",
-    images: [{ url: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1200&q=80", width: 1200, height: 630, alt: "Washington DC city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-bzXCVIkZ_4M?w=1200&q=80", width: 1200, height: 630, alt: "Washington DC city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Studios in Washington DC (2026)",
     description: "Six curated Pilates studios in Washington DC — verified picks for every level.",
-    images: ["https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1200&q=80"],
+    images: ["https://images.unsplash.com/photo-bzXCVIkZ_4M?w=1200&q=80"],
   },
   alternates: {
     canonical: "https://pilatescollectiveclub.com/cities/washington-dc",
@@ -239,7 +239,7 @@ export default function WashingtonDCPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1400&q=80" alt="Washington DC" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-bzXCVIkZ_4M?w=1400&q=80" alt="Washington DC" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Washington, DC</p>

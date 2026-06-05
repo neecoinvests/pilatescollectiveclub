@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: "https://pilatescollectiveclub.com/cities/new-orleans",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&h=630&fit=crop",
+        url: "https://images.unsplash.com/photo-gCCTBz8nXSA?w=1200&h=630&fit=crop",
         width: 1200,
         height: 630,
         alt: "Pilates studio in New Orleans, LA",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description:
       "The 6 best Pilates studios in New Orleans — curated, verified, and reviewed for 2026.",
     images: [
-      "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&h=630&fit=crop",
+      "https://images.unsplash.com/photo-gCCTBz8nXSA?w=1200&h=630&fit=crop",
     ],
   },
   alternates: {
@@ -333,7 +333,7 @@ export default function NewOrleansPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1400&h=840&fit=crop"
+              src="https://images.unsplash.com/photo-gCCTBz8nXSA?w=1400&h=840&fit=crop"
               alt="Pilates studio in New Orleans, LA"
               fill
               className="object-cover"
