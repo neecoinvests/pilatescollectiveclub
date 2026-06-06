@@ -81,7 +81,18 @@ const CITIES = [
 ];
 
 const FEATURED_ITEMS: FeaturedItem[] = [
-  // 1 — City
+  // 1 — Product
+  {
+    title: "Best Pilates Reformer Under $1,000 (2026): Honest Reviews",
+    excerpt: "The best mid-range reformers tested honestly — AeroPilates, Stamina, and Merrithew entry-level machines ranked by resistance quality, build, and long-term value.",
+    href: "/blog/best-pilates-reformer-under-1000",
+    category: "Best For · Equipment",
+    readTime: "10 min read",
+    imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+reformer+under+1000&tag=pilatescollective-20",
+    affiliateLabel: "Shop Reformers →",
+  },
+  // 2 — City
   {
     title: "The Best Pilates Studios in London",
     excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios. We visited every studio, tested every format, and ranked them honestly.",
@@ -90,7 +101,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     readTime: "8 min read",
     imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg",
   },
-  // 2 — Article
+  // 3 — Article
   {
     title: "The Beginner's Guide to Reformer Pilates",
     excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence. Everything a new practitioner needs to know before stepping on the carriage.",
@@ -99,16 +110,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     readTime: "8 min read",
     imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
   },
-  // 3 — City
-  {
-    title: "The Best Pilates Studios in New York",
-    excerpt: "From Tribeca's classical powerhouses to the Upper East Side's boutique reformer rooms — the definitive guide to New York's five best Pilates studios, verified for 2026.",
-    href: "/cities/new-york",
-    category: "City Guide",
-    readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1400&q=80",
-  },
-  // 4 — Products article
+  // 4 — Product
   {
     title: "Best Home Pilates Reformer (2026): Every Budget",
     excerpt: "A quality home reformer changes your practice permanently. We tested every price tier — from the AeroPilates 435 to the Gratz — so you know exactly what you get at each level.",
@@ -119,12 +121,12 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   },
   // 5 — City
   {
-    title: "The Best Pilates Studios in Paris",
-    excerpt: "From the Marais to Saint-Germain — Paris has quietly built one of the most sophisticated Pilates scenes in Europe. Our curated guide to the five studios worth your time.",
-    href: "/cities/paris",
+    title: "The Best Pilates Studios in New York",
+    excerpt: "From Tribeca's classical powerhouses to the Upper East Side's boutique reformer rooms — the definitive guide to New York's five best Pilates studios, verified for 2026.",
+    href: "/cities/new-york",
     category: "City Guide",
-    readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1400&q=80",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1400&q=80",
   },
   // 6 — Article
   {
@@ -135,16 +137,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     readTime: "8 min read",
     imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
   },
-  // 7 — City
-  {
-    title: "The Best Pilates Studios in Zurich",
-    excerpt: "From lakeside private studios to Seefeld reformer boutiques — our complete guide to Zurich's refined, results-driven Pilates scene. Six studios worth your time.",
-    href: "/cities/zurich",
-    category: "City Guide",
-    readTime: "8 min read",
-    imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
-  },
-  // 8 — Products article
+  // 7 — Product
   {
     title: "Best Pilates Leggings (2026): Tested & Ranked",
     excerpt: "From Lululemon Align to Splits59 Raquel — the leggings that genuinely serve the method, tested for opacity, waistband stability, and reformer performance across fifteen sessions.",
@@ -155,16 +148,16 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/s?k=best+pilates+leggings+lululemon+splits59&tag=pilatescollective-20",
     affiliateLabel: "Shop Leggings →",
   },
-  // 9 — City
+  // 8 — City
   {
-    title: "The Best Pilates Studios in Tokyo",
-    excerpt: "From Minami-Aoyama's precision reformer studios to Daikanyama's boutique movement spaces — the definitive guide to Tokyo's most respected Pilates studios.",
-    href: "/cities/tokyo",
+    title: "The Best Pilates Studios in Paris",
+    excerpt: "From the Marais to Saint-Germain — Paris has quietly built one of the most sophisticated Pilates scenes in Europe. Our curated guide to the five studios worth your time.",
+    href: "/cities/paris",
     category: "City Guide",
     readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1400&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1400&q=80",
   },
-  // 10 — Article
+  // 9 — Article
   {
     title: "Pilates for Back Pain: What the Research Shows",
     excerpt: "Clinical research meets practical guidance. What Pilates can and can't do for chronic lower back pain — and the specific exercises with the strongest evidence behind them.",
@@ -173,16 +166,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     readTime: "10 min read",
     imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
   },
-  // 11 — City
-  {
-    title: "The Best Pilates Studios in Sydney",
-    excerpt: "From Bondi's beachside reformer studios to the CBD's executive wellness spaces — our curated guide to Sydney's best Pilates studios, verified for 2026.",
-    href: "/cities/sydney",
-    category: "City Guide",
-    readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1400&q=80",
-  },
-  // 12 — Products article
+  // 10 — Product
   {
     title: "Best Pilates Grip Socks (2026): Tested & Ranked",
     excerpt: "Required at virtually every reformer studio worldwide. We tested five options across grip, durability, and comfort — from ToeSox to Tavi Noir — so you don't have to.",
@@ -193,7 +177,25 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox+tavi&tag=pilatescollective-20",
     affiliateLabel: "Shop Grip Socks →",
   },
-  // 13 — Products article
+  // 11 — City
+  {
+    title: "The Best Pilates Studios in Zurich",
+    excerpt: "From lakeside private studios to Seefeld reformer boutiques — our complete guide to Zurich's refined, results-driven Pilates scene. Six studios worth your time.",
+    href: "/cities/zurich",
+    category: "City Guide",
+    readTime: "8 min read",
+    imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
+  },
+  // 12 — Article
+  {
+    title: "Pilates vs Yoga: Key Differences",
+    excerpt: "A clear, honest comparison of two of the world's most popular movement practices — how they differ in method, intent, and outcome, and how to decide which is right for you.",
+    href: "/blog/pilates-vs-yoga",
+    category: "Method",
+    readTime: "7 min read",
+    imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+  },
+  // 13 — Product
   {
     title: "Best Pilates Mat (2026): Firmness, Grip & Durability",
     excerpt: "The mat is your most important equipment purchase. We tested five across firmness, grip, and spinal feedback — from the Manduka PRO to travel-friendly options under $40.",
@@ -204,7 +206,16 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/s?k=manduka+pilates+mat+pro&tag=pilatescollective-20",
     affiliateLabel: "Shop Mats →",
   },
-  // 14 — Products article
+  // 14 — City
+  {
+    title: "The Best Pilates Studios in Tokyo",
+    excerpt: "From Minami-Aoyama's precision reformer studios to Daikanyama's boutique movement spaces — the definitive guide to Tokyo's most respected Pilates studios.",
+    href: "/cities/tokyo",
+    category: "City Guide",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1400&q=80",
+  },
+  // 15 — Product
   {
     title: "Best Premium Pilates Reformers (2026): $2K–$5K+",
     excerpt: "Merrithew V2 Max, Balanced Body Studio Reformer, and Gratz Maple Classic tested side by side. Which professional-grade machine is worth the investment?",
@@ -215,7 +226,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/s?k=merrithew+balanced+body+reformer+premium&tag=pilatescollective-20",
     affiliateLabel: "Shop Premium Reformers →",
   },
-  // 15 — Products article
+  // 16 — Product
   {
     title: "Best Pilates Magic Circle (2026): Tested",
     excerpt: "Joseph Pilates invented it. We tested five versions — from STOTT to Balanced Body — for resistance feel, pad quality, and durability across 30 sessions of inner thigh and arm work.",
