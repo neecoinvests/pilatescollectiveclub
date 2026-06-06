@@ -336,6 +336,7 @@ export default function NewOrleansPage() {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/New_Orleans_skyline-02.jpg/1200px-New_Orleans_skyline-02.jpg"
               alt="Pilates studio in New Orleans, LA"
               fill
+              unoptimized
               className="object-cover"
               priority
             />

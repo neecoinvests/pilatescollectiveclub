@@ -79,6 +79,7 @@ export default function CityCard({ city, country, href, studioCount }: CityCardP
             src={imageUrl}
             alt={`Best Pilates studios in ${city}, ${country}`}
             fill
+            unoptimized
             className="object-cover transition-transform duration-700 group-hover:scale-105"
           />
         ) : (

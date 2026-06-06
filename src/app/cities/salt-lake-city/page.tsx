@@ -337,6 +337,7 @@ export default function SaltLakeCityPage() {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Salt_Lake_City_skyline_banner.jpg/1200px-Salt_Lake_City_skyline_banner.jpg"
               alt="Pilates studio in Salt Lake City, UT"
               fill
+              unoptimized
               className="object-cover"
               priority
             />

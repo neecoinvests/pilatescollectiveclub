@@ -193,7 +193,7 @@ export default function SanDiegoPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Sandiego_skyline_at_night.JPG/1200px-Sandiego_skyline_at_night.JPG" alt="San Diego California coastline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Sandiego_skyline_at_night.JPG/1200px-Sandiego_skyline_at_night.JPG" alt="San Diego California coastline" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>San Diego, California</p>

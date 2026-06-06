@@ -336,6 +336,7 @@ export default function CharlottePage() {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Charlotte_night_skyline_2016_02.jpg/1200px-Charlotte_night_skyline_2016_02.jpg"
               alt="Pilates studio in Charlotte, NC"
               fill
+              unoptimized
               className="object-cover"
               priority
             />

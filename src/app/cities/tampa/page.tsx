@@ -336,6 +336,7 @@ export default function TampaPage() {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG/1200px-Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG"
               alt="Pilates studio in Tampa, FL"
               fill
+              unoptimized
               className="object-cover"
               priority
             />

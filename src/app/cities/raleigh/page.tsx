@@ -336,6 +336,7 @@ export default function RaleighPage() {
               src="https://images.unsplash.com/photo-1676934556859-624fa21e2588"
               alt="Pilates studio in Raleigh, NC"
               fill
+              unoptimized
               className="object-cover"
               priority
             />

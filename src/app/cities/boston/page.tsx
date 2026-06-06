@@ -239,7 +239,7 @@ export default function BostonPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Boston%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg" alt="Boston Massachusetts skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Boston%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg" alt="Boston Massachusetts skyline" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Boston, Massachusetts</p>
