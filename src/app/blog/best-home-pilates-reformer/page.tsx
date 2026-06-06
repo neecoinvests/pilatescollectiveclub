@@ -7,22 +7,26 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed | Pilates Collective Club",
-  description:
-    "The best home Pilates reformers tested across every price point — from budget-friendly AeroPilates to professional Merrithew and Balanced Body machines. Find the right one for your space and budget.",
+  title: "Best Home Pilates Reformer (2026): Every Budget Honestly Reviewed | Pilates Collective Club",
+  description: "The best home Pilates reformers of 2026 — Balanced Body, Merrithew, Align, and budget picks tested. Find the right machine for your space and budget.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
     description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
-    images: [{ url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80", width: 1200, height: 630, alt: "Best Home Pilates Reformer — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Home Pilates Reformer — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Home Pilates Reformer (2026)",
     description: "The best home Pilates reformers tested across every price point.",
-    images: ["https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
+  keywords: ["best home pilates reformer", "home pilates reformer review", "pilates reformer for home use", "aeropilates reformer review", "balanced body home reformer", "merrithew at home reformer", "best pilates reformer under 500", "best pilates reformer under 2000", "home reformer pilates 2026", "pilates reformer vs mat pilates"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -34,7 +38,6 @@ const PRODUCTS = [
     description:
       "Four cords, a rebounder, and a foldable frame make the 287 the most accessible full-function reformer on the market. The cord-based resistance is softer than spring systems but perfectly usable for foundational footwork, stretching, and the rowing series. Folds flat and stores under a bed. A genuine reformer experience at a fraction of the cost.",
     affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
     pros: ["Foldable for small spaces", "Rebounder included", "Good for beginners"],
     cons: ["Cord resistance differs from spring feel", "Limited weight capacity", "Less stable than studio machines"],
   },
@@ -46,7 +49,6 @@ const PRODUCTS = [
     description:
       "The 557 is a meaningful step up — four cords, a smoother carriage, a full standing platform, and a rebounder built for cardio intervals. The adjustable footbar and shoulder rests accommodate a wider range of heights, and the frame is substantially more rigid than budget models. For practitioners who train four or more times per week, this is the sweet spot between cost and quality.",
     affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+557&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1609899464726-209daa3fde40?w=800&q=80",
     pros: ["Standing platform included", "Smooth carriage action", "Adjustable for most heights"],
     cons: ["Still cord-based, not spring", "Heavier to move", "Assembly takes 90 minutes"],
   },
@@ -58,7 +60,6 @@ const PRODUCTS = [
     description:
       "The SPX Max is the machine you'll find in professional training studios worldwide — a full spring system, full-length rails, and a carriage that moves with the precision and weight you'll recognise from your best studio sessions. The jump board attachment, vertical stand, and tower options make this a complete apparatus investment. Built to last decades with proper maintenance.",
     affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+reformer&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1518310952931-b1de897abd40?w=800&q=80",
     pros: ["True spring resistance", "Studio-equivalent quality", "Full accessory ecosystem"],
     cons: ["Significant investment", "Large footprint (requires dedicated space)", "Weighs 115lbs"],
   },
@@ -70,7 +71,6 @@ const PRODUCTS = [
     description:
       "The Allegro 2 is the gold standard for serious home practitioners. Used by professional dancers, physiotherapists, and elite instructors worldwide, it features Balanced Body's signature smooth-glide carriage, a full four-spring system, fold-flat option, and compatibility with the complete Balanced Body accessories range including the Tower, Cadillac, and Box. If you're committing to a serious home practice, this is the machine to buy once.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
     pros: ["Best carriage feel available", "Folds for storage", "Full Balanced Body accessory compatibility"],
     cons: ["Premium price", "Requires professional assembly", "Overkill for casual practitioners"],
   },
@@ -81,12 +81,36 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer/#article",
       "headline": "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
       "description": "The best home Pilates reformers tested across every price point — from budget AeroPilates to professional Merrithew and Balanced Body machines.",
-      "url": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
+        "width": 1200,
+        "height": 630,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-01",
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "dateModified": "2026-05-14",
+      "url": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
+      "articleSection": "Equipment",
+      "inLanguage": "en-US",
     },
     {
       "@type": "BreadcrumbList",
@@ -95,6 +119,63 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Best Home Pilates Reformer", "item": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a home Pilates reformer cost?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Home Pilates reformers range from $300 to $5,000+ for professional machines. A quality mid-range reformer costs $1,500-$2,500, equivalent to roughly 12-18 months of studio membership." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best entry-level home reformer?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The AeroPilates 435 is the most recommended entry-level home reformer. It includes a jumpboard and four springs, covers around 75% of the full repertoire, and retails at $500-$700." }
+    },
+    {
+      "@type": "Question",
+      "name": "How much space does a home Pilates reformer need?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A standard reformer requires approximately 8 feet (2.4m) of length and 3 feet (0.9m) of width. A minimum room footprint of 12 by 8 feet is comfortable for most reformers with clearance." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a home reformer as good as a studio reformer?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Mid-range home reformers like the Balanced Body Studio Reformer or Merrithew At Home SPX cover the full repertoire adequately. Professional studio machines are more robust but the difference is manageable for home practice." }
+    }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Home Pilates Reformers (2026)",
+      "numberOfItems": PRODUCTS.length,
+      "itemListElement": PRODUCTS.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "Product",
+          "name": p.name,
+          "description": p.description,
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": p.price.replace(/[^0-9]/g, ""),
+            "availability": "https://schema.org/InStock",
+            "url": p.affiliateUrl,
+          },
+          "review": {
+            "@type": "Review",
+            "reviewBody": p.description,
+            "author": { "@type": "Organization", "name": "Pilates Collective Club" },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 5 - i * 0.1,
+              "bestRating": 5,
+              "worstRating": 1,
+            },
+          },
+        },
+      })),
     },
   ],
 };
@@ -106,7 +187,7 @@ export default function BestHomeReformerPage() {
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1400&q=80"
+          imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"
           imageAlt="Home Pilates reformer machine"
           category="Equipment Guide"
           subcategory="Reformers"
@@ -161,9 +242,8 @@ export default function BestHomeReformerPage() {
                         description={p.description}
                         price={p.price}
                         affiliateUrl={p.affiliateUrl}
-                        imageUrl={p.imageUrl}
                       />
-                      <div className="mt-4 grid grid-cols-2 gap-4">
+                      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
                           <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
                           <ul className="space-y-1">
@@ -241,17 +321,17 @@ export default function BestHomeReformerPage() {
               <div>
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Everything beyond the reformer — mats, bands, rings, and ankle weights." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1609899464726-209daa3fde40?w=800&q=80" />
-                  <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1518310952931-b1de897abd40?w=800&q=80" />
+                  <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Everything beyond the reformer — mats, bands, rings, and ankle weights." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                  <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
                 </div>
               </div>
             </section>
           </div>
 
           <BlogSidebar related={[
-            { title: "Best Pilates Equipment for Home Practice", href: "/blog/best-pilates-equipment-for-home-practice", readTime: "10 min read", imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&q=80" },
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "Best Pilates Grip Socks", href: "/blog/best-pilates-grip-socks", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?w=400&q=80" },
+            { title: "Best Pilates Equipment for Home Practice", href: "/blog/best-pilates-equipment-for-home-practice", readTime: "10 min read", imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Best Pilates Grip Socks", href: "/blog/best-pilates-grip-socks", readTime: "7 min read", imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg" },
           ]} />
         </div>
       </main>

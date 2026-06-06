@@ -1,183 +1,174 @@
-"use client";
-
 import Link from "next/link";
-import { useState } from "react";
+
+const EXPLORE = [
+  { label: "City Guides", href: "/cities" },
+  { label: "Journal", href: "/blog" },
+  { label: "Brands", href: "/brands" },
+  { label: "Equipment", href: "/blog/best-pilates-reformer-brands" },
+  { label: "About", href: "/#about" },
+];
+
+const JOURNAL = [
+  { label: "Equipment Reviews", href: "/blog?category=Equipment" },
+  { label: "Brand Guides", href: "/blog?category=Brand+Guide" },
+  { label: "Method & History", href: "/blog?category=Method" },
+  { label: "Health & Wellbeing", href: "/blog?category=Health" },
+  { label: "Beginners", href: "/blog?category=Beginners" },
+  { label: "Performance", href: "/blog?category=Performance" },
+];
+
+const CITIES = [
+  { label: "London", href: "/cities/london" },
+  { label: "New York", href: "/cities/new-york" },
+  { label: "Paris", href: "/cities/paris" },
+  { label: "Los Angeles", href: "/cities/los-angeles" },
+  { label: "Sydney", href: "/cities/sydney" },
+  { label: "Dubai", href: "/cities/dubai" },
+];
+
+const LEGAL = [
+  { label: "Privacy Policy", href: "/privacy" },
+  { label: "Terms & Conditions", href: "/terms" },
+  { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
+];
+
+const s = {
+  label: {
+    fontFamily: "var(--font-sans)",
+    fontSize: "10px",
+    fontWeight: 500,
+    letterSpacing: "0.2em",
+    textTransform: "uppercase" as const,
+    color: "#9a9490",
+    marginBottom: "20px",
+    display: "block",
+  },
+  link: {
+    fontFamily: "var(--font-sans)",
+    fontSize: "13px",
+    fontWeight: 300,
+    color: "rgba(255,255,255,0.55)",
+    textDecoration: "none",
+    display: "block",
+    marginBottom: "10px",
+  },
+  accentLink: {
+    fontFamily: "var(--font-sans)",
+    fontSize: "11px",
+    fontWeight: 400,
+    color: "rgba(197,168,130,0.7)",
+    textDecoration: "none",
+    display: "inline-block",
+    marginTop: "6px",
+    letterSpacing: "0.05em",
+  },
+};
 
 export default function Footer() {
-  const [email, setEmail] = useState("");
-  const [subscribed, setSubscribed] = useState(false);
-
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email) {
-      setSubscribed(true);
-    }
-  };
-
   return (
-    <footer style={{ backgroundColor: "#e4e2e1" }}>
-      <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-          {/* Brand Column */}
-          <div className="md:col-span-1">
+    <footer style={{ backgroundColor: "#0a0a0a" }}>
+      <div className="max-w-7xl mx-auto px-4 md:px-8 pt-12 md:pt-20 pb-10">
+        <div
+          className="grid grid-cols-1 md:grid-cols-4 gap-12 pb-16"
+          style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}
+        >
+          {/* Brand */}
+          <div>
             <Link
               href="/"
-              className="text-xl font-semibold tracking-tight block mb-3"
-              style={{ fontFamily: "'Playfair Display', serif", color: "#8b4a31" }}
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: "11px",
+                fontWeight: 500,
+                letterSpacing: "0.22em",
+                textTransform: "uppercase",
+                color: "#ffffff",
+                textDecoration: "none",
+                display: "block",
+                marginBottom: "20px",
+              }}
             >
               Pilates Collective Club
             </Link>
             <p
-              className="text-sm leading-relaxed"
-              style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: "13px",
+                fontWeight: 300,
+                color: "rgba(255,255,255,0.45)",
+                lineHeight: 1.8,
+                maxWidth: "260px",
+              }}
             >
-              Curated city guides, expert studio recommendations, and AI-powered search for Pilates
-              lovers worldwide.
+              Curated studio guides, expert recommendations, and editorial content for the global Pilates community.
             </p>
           </div>
 
-          {/* Navigation Columns */}
+          {/* Explore */}
           <div>
-            <h3
-              className="text-xs font-semibold uppercase tracking-[0.15em] mb-4"
-              style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              Explore
-            </h3>
-            <ul className="space-y-3">
-              {[
-                { label: "Home", href: "/" },
-                { label: "AI Finder", href: "/#finder" },
-                { label: "City Guides", href: "/cities/zurich" },
-                { label: "About", href: "/#about" },
-              ].map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm transition-colors hover:text-[#8b4a31]"
-                    style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <span style={s.label}>Explore</span>
+            {EXPLORE.map((l) => (
+              <Link key={l.href} href={l.href} style={s.link}>
+                {l.label}
+              </Link>
+            ))}
           </div>
 
+          {/* Journal by category */}
           <div>
-            <h3
-              className="text-xs font-semibold uppercase tracking-[0.15em] mb-4"
-              style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              Content
-            </h3>
-            <ul className="space-y-3">
-              {[
-                { label: "Blog", href: "/blog" },
-                { label: "Zurich Guide", href: "/cities/zurich" },
-                { label: "Equipment Picks", href: "/blog/best-pilates-equipment-for-home-practice" },
-                { label: "Studio Reviews", href: "/blog/how-to-choose-a-pilates-instructor" },
-              ].map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-sm transition-colors hover:text-[#8b4a31]"
-                    style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <span style={s.label}>Journal</span>
+            {JOURNAL.map((l) => (
+              <Link key={l.href} href={l.href} style={s.link}>
+                {l.label}
+              </Link>
+            ))}
           </div>
 
+          {/* Cities + Legal */}
           <div>
-            <h3
-              className="text-xs font-semibold uppercase tracking-[0.15em] mb-4"
-              style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              Legal
-            </h3>
-            <ul className="space-y-3 mb-8">
-              {[
-                { label: "Privacy Policy", href: "#" },
-                { label: "Terms of Use", href: "#" },
-                { label: "Affiliate Disclosure", href: "#" },
-              ].map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-sm transition-colors hover:text-[#8b4a31]"
-                    style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <span style={s.label}>Cities</span>
+            {CITIES.map((l) => (
+              <Link key={l.href} href={l.href} style={s.link}>
+                {l.label}
+              </Link>
+            ))}
+            <Link href="/cities" style={s.accentLink}>
+              All cities →
+            </Link>
 
-            {/* Newsletter */}
-            <h3
-              className="text-xs font-semibold uppercase tracking-[0.15em] mb-3"
-              style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-            >
-              Newsletter
-            </h3>
-            {subscribed ? (
-              <p
-                className="text-sm"
-                style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                Thanks for subscribing!
-              </p>
-            ) : (
-              <form onSubmit={handleSubscribe} className="flex flex-col gap-2">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="your@email.com"
-                  className="px-3 py-2 text-sm rounded-lg border outline-none focus:ring-2 focus:ring-[#8b4a31]/30"
-                  style={{
-                    borderColor: "#d9c2ba",
-                    backgroundColor: "#fcf9f8",
-                    color: "#1b1c1c",
-                    fontFamily: "'Montserrat', sans-serif",
-                  }}
-                  required
-                />
-                <button
-                  type="submit"
-                  className="px-4 py-2 text-sm font-medium rounded-lg transition-opacity hover:opacity-90"
-                  style={{
-                    backgroundColor: "#8b4a31",
-                    color: "#ffffff",
-                    fontFamily: "'Montserrat', sans-serif",
-                  }}
-                >
-                  Subscribe
-                </button>
-              </form>
-            )}
+            <div style={{ marginTop: "28px" }}>
+              <span style={s.label}>Legal</span>
+              {LEGAL.map((l) => (
+                <Link key={l.label} href={l.href} style={s.link}>
+                  {l.label}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* Bottom bar */}
-        <div
-          className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4"
-          style={{ borderTop: "1px solid rgba(139, 74, 49, 0.15)" }}
-        >
+        <div className="pt-8 flex flex-col sm:flex-row justify-between gap-4">
           <p
-            className="text-xs"
-            style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "11px",
+              fontWeight: 300,
+              color: "rgba(255,255,255,0.25)",
+              letterSpacing: "0.05em",
+            }}
           >
             © 2026 Pilates Collective Club. All rights reserved.
           </p>
           <p
-            className="text-xs"
-            style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "11px",
+              fontWeight: 300,
+              color: "rgba(255,255,255,0.25)",
+              letterSpacing: "0.05em",
+            }}
           >
-            Made with care for the Pilates community
+            Made for the global Pilates community.
           </p>
         </div>
       </div>

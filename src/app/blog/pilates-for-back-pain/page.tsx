@@ -6,22 +6,26 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Back Pain: What the Research Shows | Pilates Collective Club",
-  description:
-    "A clear-eyed look at the evidence for Pilates as a treatment for back pain — what it can and can't do, which exercises help most, and how to find the right instructor.",
+  title: "Pilates for Back Pain (2026): What the Research Actually Shows | Pilates Collective Club",
+  description: "Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain. Evidence-based guidance from physios.",
   openGraph: {
     title: "Pilates for Back Pain: What the Research Shows",
     description: "A clear-eyed look at the evidence for Pilates as a treatment for back pain — what it can and can't do, which exercises help most, and how to find the right instructor.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
-    images: [{ url: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80", width: 1200, height: 630, alt: "Pilates for back pain — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for back pain — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Back Pain: What the Research Shows",
     description: "The evidence for Pilates as a treatment for back pain — what it can and can't do.",
-    images: ["https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"],
   },
+  keywords: ["pilates for back pain", "pilates lower back pain", "pilates chronic back pain", "pilates for lumbar pain", "reformer pilates back pain", "pilates spine health", "pilates for herniated disc", "pilates back pain research", "pilates vs physiotherapy back pain", "pilates back pain 2026"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const RELATED = [
@@ -43,13 +47,86 @@ const RELATED = [
   },
 ];
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain/#article",
+      "headline": "Pilates for Back Pain: What the Evidence Says",
+      "description": "Clinical research meets practical guidance on using Pilates to address chronic lower back pain.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
+      "articleSection": "Health",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Pilates for Back Pain: What the Evidence Says", "item": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Pilates good for lower back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Multiple systematic reviews show Pilates is effective for chronic lower back pain. It works through spinal articulation, deep core strengthening, and postural correction. Results typically require 6\u201312 weeks of consistent practice with qualified instructor guidance." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there Pilates exercises to avoid with back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "With acute or severe back pain, avoid full spinal flexion exercises like the roll-up or rolling like a ball, and high-load single-leg movements. A qualified instructor will modify the repertoire. If you have a disc injury, seek a Pilates instructor with rehabilitation experience first." }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I see a doctor before starting Pilates for back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For chronic back pain with a known cause, Pilates is generally safe after informing your instructor. For new, acute, or radiating pain \u2014 especially with numbness or weakness \u2014 see a doctor first to rule out pathological causes." }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take for Pilates to help back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Most practitioners report meaningful improvement in 4\u20138 weeks of twice-weekly practice. For chronic conditions, 12 weeks is a reasonable timeframe to assess whether Pilates is the right intervention." }
+    }
+      ]
+    },
+  ],
+};
 export default function PilatesForBackPainPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1400&q=80"
+          imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"
           imageAlt="Pilates for back pain"
           category="Wellness"
           title={<>Pilates for Back Pain:<br /><span style={{ color: "#8b4a31" }}>What the Research Shows</span></>}
@@ -148,9 +225,9 @@ export default function PilatesForBackPainPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" },
-            { title: "Pilates for Athletes", href: "/blog/pilates-for-athletes", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
+            { title: "Pilates for Athletes", href: "/blog/pilates-for-athletes", readTime: "7 min read", imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" },
           ]} />
         </div>
       </main>

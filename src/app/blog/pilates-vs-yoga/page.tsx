@@ -5,30 +5,108 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates vs Yoga: Key Differences and How to Choose | Pilates Collective Club",
-  description: "A clear, honest comparison of Pilates and yoga — what each practice develops, who each suits, and how to choose between them.",
+  title: "Pilates vs Yoga (2026): Key Differences & How to Choose | Pilates Collective Club",
+  description: "Pilates vs. yoga: core focus, flexibility, mindfulness, and physical demands compared. Which practice suits your body, goals, and weekly schedule?",
   openGraph: {
     title: "Pilates vs Yoga: Key Differences and How to Choose",
     description: "A clear, honest comparison of Pilates and yoga — what each practice develops, who each suits, and how to choose between them.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
-    images: [{ url: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1200&q=80", width: 1200, height: 630, alt: "Pilates vs Yoga — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg", width: 1200, height: 630, alt: "Pilates vs Yoga — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates vs Yoga: Key Differences and How to Choose",
     description: "A clear, honest comparison of Pilates and yoga — what each practice develops and how to choose between them.",
-    images: ["https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"],
   },
+  keywords: ["pilates vs yoga", "pilates or yoga", "difference between pilates and yoga", "pilates vs yoga for core strength", "pilates vs yoga for back pain", "pilates vs yoga for weight loss", "should I do pilates or yoga", "pilates yoga comparison 2026", "pilates vs yoga flexibility", "pilates vs yoga beginners"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga/#article",
+      "headline": "Pilates vs Yoga: Which Is Right for You?",
+      "description": "An honest comparison of two movement disciplines that are often confused but serve different goals.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
+      "articleSection": "Method",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Pilates vs Yoga: Which Is Right for You?", "item": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the main difference between Pilates and yoga?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates focuses on spinal alignment, core stability, and controlled precision movement \u2014 often using spring-resistance apparatus. Yoga combines movement, breathwork, and philosophy. Pilates tends to be more exercise-science informed; yoga carries spiritual and meditative dimensions." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Pilates or yoga better for back pain?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Both have evidence for back pain relief, but Pilates has stronger research for lower back pain due to its emphasis on spinal articulation and core stabilisation. Yoga benefit depends on style \u2014 restorative yoga is gentler, dynamic vinyasa can aggravate certain conditions." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do both Pilates and yoga?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes \u2014 many practitioners do both. They complement each other well: Pilates builds the precision and core stability that makes yoga postures safer; yoga's flexibility and breath focus deepens Pilates practice." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Pilates harder than yoga?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Both have progressive difficulty curves. Reformer Pilates can be extremely challenging mechanically. For most people, reformer Pilates has a steeper initial learning curve due to unfamiliar equipment; yoga feels more accessible on the first day." }
+    }
+      ]
+    },
+  ],
+};
 export default function PilatesVsYogaPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1400&q=80"
+          imageUrl="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"
           imageAlt="Pilates and yoga practice comparison"
           category="Method"
           subcategory="7 min read"
@@ -105,9 +183,9 @@ export default function PilatesVsYogaPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&q=80" },
-            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
+            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
           ]} />
         </div>
       </main>

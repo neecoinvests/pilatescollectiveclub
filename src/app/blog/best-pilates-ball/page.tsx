@@ -7,22 +7,26 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ball (2026): Mini Ball and Exercise Ball Reviewed | Pilates Collective Club",
-  description:
-    "The best Pilates balls for home practice — mini Pilates balls for mat work and stability balls for full-body exercises. Tested, compared, and ranked.",
+  title: "Best Pilates Ball (2026): Mini Ball & Stability Ball Reviewed | Pilates Collective Club",
+  description: "The best Pilates balls of 2026: stability balls, mini exercise balls, and overball picks tested for reformer, mat, and barre workouts. Full comparison.",
   openGraph: {
     title: "Best Pilates Ball (2026): Mini Ball and Exercise Ball Reviewed",
     description: "The best Pilates balls for home practice — mini Pilates balls for mat work and stability balls for full-body exercises. Tested, compared, and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-ball",
-    images: [{ url: "https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?w=1200&q=80", width: 1200, height: 630, alt: "Best Pilates Ball — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Ball — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Ball (2026): Mini Ball and Exercise Ball Reviewed",
     description: "The best Pilates balls for home practice — mini and stability balls tested and ranked.",
-    images: ["https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg"],
   },
+  keywords: ["best pilates ball", "pilates mini ball", "stability ball pilates", "pilates exercise ball review", "mini ball for pilates exercises", "pilates ball size guide", "best mini pilates ball 9 inch", "stability ball for pilates mat work", "pilates ball exercises", "pilates props review 2026"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-pilates-ball",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRODUCTS = [
@@ -35,7 +39,6 @@ const PRODUCTS = [
     description:
       "The Trideer 9-inch mini ball is the most consistently well-reviewed small Pilates ball on the market — and for good reason. The material is thick, burst-resistant PVC with a surface texture that grips lightly without being sticky. At 9 inches inflated it's the ideal size for inner thigh work, spine articulation support, and the spine corrector alternatives that benefit from a firmer, smaller prop. Comes with a hand pump and repair kit. Excellent value.",
     affiliateUrl: "https://www.amazon.com/s?k=trideer+mini+pilates+ball+9+inch&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1556816134-b4aba5ccea4a?w=800&q=80",
   },
   {
     rank: "02",
@@ -46,7 +49,6 @@ const PRODUCTS = [
     description:
       "Gaiam&apos;s 65cm stability ball is the benchmark for mid-sized exercise balls used in Pilates, core training, and active sitting. The anti-burst material, non-slip surface, and consistent sizing make it reliable for balance exercises, back extension work, and the full range of ball-based Pilates exercises. The kit includes a pump, resistance band, and workout guide. At 65cm, it&apos;s appropriate for practitioners between 5&apos;4\" and 5&apos;11\".",
     affiliateUrl: "https://www.amazon.com/s?k=gaiam+total+body+balance+ball+65cm&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=800&q=80",
   },
   {
     rank: "03",
@@ -57,7 +59,6 @@ const PRODUCTS = [
     description:
       "The 55cm URBNFit ball is the right choice for practitioners under 5&apos;4\" — it brings the hips to proper height when seated and allows correct spinal alignment during back extension exercises. The material quality is comparable to Gaiam at a lower price point, and the anti-slip surface is particularly good. Inflates easily with a standard pump. The compact size also makes it easier to store in a small home practice space.",
     affiliateUrl: "https://www.amazon.com/s?k=urbnfit+exercise+ball+55cm&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&q=80",
   },
   {
     rank: "04",
@@ -68,7 +69,6 @@ const PRODUCTS = [
     description:
       "The Live Pro 10-inch soft ball is slightly larger and softer than the Trideer — intentionally so. The semi-deflated feel makes it ideal for exercises where you want the ball to yield slightly under pressure: thoracic support in upper body work, between the knees during bridge variations, and under the sacrum for pelvic mobility exercises. A useful complement if you already have a firmer mini ball and want a different feel for different applications.",
     affiliateUrl: "https://www.amazon.com/s?k=live+pro+mini+soft+pilates+ball&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?w=800&q=80",
   },
   {
     rank: "05",
@@ -79,7 +79,6 @@ const PRODUCTS = [
     description:
       "TheraBand&apos;s Pro Series is the exercise ball of choice in physiotherapy clinics and professional Pilates studios — a step above consumer-grade balls in material quality, anti-burst rating, and sizing precision. The slow-deflate system means that if punctured, the ball loses air gradually rather than explosively, which is a meaningful safety advantage during loaded exercises. Worth the premium if you train with intensity or use the ball for rehabilitation work.",
     affiliateUrl: "https://www.amazon.com/s?k=theraband+exercise+ball+pro+series+65cm&tag=pilatescollective-20",
-    imageUrl: "https://images.unsplash.com/photo-1604480132736-44c188fe4d20?w=800&q=80",
   },
 ];
 
@@ -97,12 +96,36 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-pilates-ball/#article",
       "headline": "Best Pilates Ball (2026): Mini Ball and Exercise Ball Reviewed",
       "description": "The best Pilates balls for home practice — mini Pilates balls for mat work and stability balls for full-body exercises. Tested, compared, and ranked.",
-      "url": "https://pilatescollectiveclub.com/blog/best-pilates-ball",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg",
+        "width": 1200,
+        "height": 630,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-01",
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "dateModified": "2026-05-14",
+      "url": "https://pilatescollectiveclub.com/blog/best-pilates-ball",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-ball",
+      "articleSection": "Equipment",
+      "inLanguage": "en-US",
     },
     {
       "@type": "BreadcrumbList",
@@ -111,6 +134,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Ball", "item": "https://pilatescollectiveclub.com/blog/best-pilates-ball" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What size mini ball is best for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A 9-inch (23cm) mini ball is the standard for mat work. It fits comfortably between the knees, behind the lower back, or under the pelvis for hip-opening exercises." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a mini Pilates ball and a stability ball?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A mini Pilates ball (9 inches) is a prop for tactile feedback and precision cueing. A stability ball (55-65cm) is a larger surface for seated balance and core work. Both have distinct uses and are not interchangeable." }
+    },
+    {
+      "@type": "Question",
+      "name": "How inflated should a Pilates mini ball be?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Firm enough to maintain shape but soft enough to compress under pressure. Most practitioners inflate to about 80% of maximum capacity for the right resistance and comfort balance." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a regular small ball instead of a Pilates mini ball?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Standard sports balls are not designed for the grip and compression needs of Pilates. A purpose-made mini ball has the right density and surface texture. At $10-$20, it is one of the highest-value prop investments." }
+    }
+      ]
     },
   ],
 };
@@ -142,8 +190,8 @@ export default function BestPilatesBallPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?w=1400&q=80" alt="Pilates ball exercise" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" alt="Pilates ball exercise" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -193,7 +241,6 @@ export default function BestPilatesBallPage() {
                       description={p.description}
                       price={p.price}
                       affiliateUrl={p.affiliateUrl}
-                      imageUrl={p.imageUrl}
                     />
                   </div>
                 ))}
@@ -253,8 +300,8 @@ export default function BestPilatesBallPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="The complete guide to building a home practice — mats, bands, rings, and more." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?w=800&q=80" />
-                <ArticleCard title="Best Home Pilates Reformer" excerpt="Every budget covered — from AeroPilates entry models to Balanced Body professional machines." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80" />
+                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="The complete guide to building a home practice — mats, bands, rings, and more." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Home Pilates Reformer" excerpt="Every budget covered — from AeroPilates entry models to Balanced Body professional machines." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
               </div>
             </div>
           </div>

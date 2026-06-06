@@ -1,75 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 @import "tailwindcss";
 
-@theme inline {
-  --color-surface-variant: #e4e2e1;
-  --color-inverse-surface: #303030;
-  --color-on-surface-variant: #53433e;
-  --color-on-background: #1b1c1c;
-  --color-surface: #fcf9f8;
-  --color-on-surface: #1b1c1c;
-  --color-surface-dim: #dcd9d9;
-  --color-surface-container: #f0eded;
-  --color-outline-variant: #d9c2ba;
-  --color-inverse-on-surface: #f3f0f0;
-  --color-surface-bright: #fcf9f8;
-  --color-on-primary-container: #fffbff;
-  --color-tertiary-container: #78746a;
-  --color-outline: #86736d;
-  --color-background: #fcf9f8;
-  --color-primary-fixed-dim: #ffb59a;
-  --color-on-tertiary-container: #fffbff;
-  --color-primary-container: #a86247;
-  --color-surface-tint: #8e4d33;
-  --color-on-primary: #ffffff;
-  --color-primary-fixed: #ffdbce;
-  --color-tertiary-fixed: #e8e2d6;
-  --color-secondary-fixed: #d6e7d9;
-  --color-secondary-container: #d6e7d9;
-  --color-secondary: #536257;
-  --color-on-primary-fixed: #380d00;
-  --color-tertiary: #5f5c52;
-  --color-on-secondary-container: #59685d;
-  --color-surface-container-low: #f6f3f2;
-  --color-on-secondary: #ffffff;
-  --color-primary: #8b4a31;
-  --color-surface-container-lowest: #ffffff;
-  --color-on-primary-fixed-variant: #71361e;
-  --color-error: #ba1a1a;
-  --color-surface-container-high: #eae7e7;
-  --color-surface-container-highest: #e4e2e1;
-  --color-on-tertiary: #ffffff;
-  --color-on-tertiary-fixed: #1e1c14;
-  --color-secondary-fixed-dim: #bacbbe;
-  --color-on-error: #ffffff;
-  --color-on-secondary-fixed: #111e16;
-  --color-on-secondary-fixed-variant: #3b4a40;
-  --color-on-tertiary-fixed-variant: #4a473e;
-  --color-error-container: #ffdad6;
-  --color-on-error-container: #93000a;
-  --color-inverse-primary: #ffb59a;
-  --color-tertiary-fixed-dim: #cbc6ba;
+:root {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Jost', system-ui, sans-serif;
 
-  --font-display: 'Playfair Display', serif;
-  --font-heading: 'Playfair Display', serif;
-  --font-body: 'Montserrat', sans-serif;
+  --black: #0a0a0a;
+  --white: #ffffff;
+  --off-white: #f7f4f0;
+  --cream: #ede9e3;
+  --mid: #9a9490;
+  --dark: #3a3530;
+  --gold: #c5a882;
 }
 
-:root {
-  --font-playfair: 'Playfair Display', serif;
-  --font-montserrat: 'Montserrat', sans-serif;
+* {
+  box-sizing: border-box;
 }
 
 body {
-  font-family: var(--font-montserrat);
-  background-color: #fcf9f8;
-  color: #1b1c1c;
+  font-family: var(--font-sans);
+  background-color: #ffffff;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.font-playfair {
-  font-family: var(--font-playfair);
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 400;
 }
 
-.font-montserrat {
-  font-family: var(--font-montserrat);
+/* ─── Homepage grid columns (desktop — overridden on mobile below) ──────────── */
+.pcc-grid-journal  { grid-template-columns: repeat(3, 1fr); }
+.pcc-grid-cities   { grid-template-columns: repeat(5, 1fr); }
+.pcc-grid-products { grid-template-columns: repeat(4, 1fr); }
+
+/* ─── Mobile (≤ 768px) ─────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* Header */
+  .pcc-header-inner {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    height: 3.75rem !important;
+  }
+  .pcc-logo {
+    width: 120px !important;
+    height: 40px !important;
+  }
+
+  /* Featured Rotator — stack vertically */
+  .pcc-featured-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .pcc-featured-image {
+    min-height: 240px !important;
+    height: 240px !important;
+  }
+  .pcc-featured-text {
+    padding: 32px 24px !important;
+  }
+  .pcc-featured-title {
+    font-size: 26px !important;
+  }
+  .pcc-featured-actions {
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+  }
+
+  /* Studio Listing */
+  .pcc-studio-header {
+    gap: 14px !important;
+  }
+  .pcc-studio-number {
+    font-size: 36px !important;
+    min-width: 32px !important;
+  }
+  .pcc-studio-details {
+    grid-template-columns: 1fr !important;
+    padding: 20px !important;
+    gap: 16px !important;
+  }
+
+  /* City page hero image */
+  .pcc-city-hero-image {
+    height: 220px !important;
+  }
+
+  /* City page booking tips */
+  .pcc-booking-tip {
+    padding: 16px !important;
+    gap: 12px !important;
+  }
+
+  /* Blog/city page heading sections */
+  .pcc-page-header {
+    padding-top: 6rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Generic content padding on small screens */
+  .pcc-content-section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* ── Homepage ────────────────────────────────────── */
+
+  /* Hero */
+  .pcc-hero-section  { padding: 96px 20px 56px !important; }
+  .pcc-hero-svg      { display: none !important; }
+  .pcc-hero-divider  { margin: 0 !important; }
+  .pcc-hero-ctas     { flex-direction: column !important; width: 100% !important; flex-shrink: unset !important; }
+  .pcc-hero-ctas a   { text-align: center !important; width: 100% !important; box-sizing: border-box !important; }
+  .pcc-hero-body     { flex-direction: column !important; align-items: flex-start !important; gap: 24px !important; }
+
+  /* Section padding */
+  .pcc-hp-section { padding: 52px 20px !important; }
+
+  /* Section header (label + title + "see all" link) */
+  .pcc-section-header { flex-direction: column !important; align-items: flex-start !important; gap: 12px !important; margin-bottom: 32px !important; }
+
+  /* Grids */
+  .pcc-grid-journal  { grid-template-columns: 1fr !important; gap: 0 !important; }
+  .pcc-grid-cities   { grid-template-columns: repeat(2, 1fr) !important; }
+  .pcc-grid-products { grid-template-columns: repeat(2, 1fr) !important; gap: 16px !important; }
+
+  /* Section dividers */
+  .pcc-divider { margin: 0 !important; }
+
+  /* Blog hero */
+  .pcc-blog-hero { height: 340px !important; }
+  .pcc-blog-hero-content { padding: 0 20px 32px !important; }
 }

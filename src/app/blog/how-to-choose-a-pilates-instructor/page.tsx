@@ -5,30 +5,108 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "How to Choose the Right Pilates Instructor | Pilates Collective Club",
-  description: "What credentials, experience, and red flags to look for when selecting a Pilates teacher — a practical guide for new and experienced practitioners alike.",
+  title: "How to Choose a Pilates Instructor (2026): Credentials & Red Flags | Pilates Collective Club",
+  description: "How to choose a Pilates instructor: certifications, teaching styles, class formats, and red flags. A complete guide for beginners and experienced students.",
   openGraph: {
     title: "How to Choose the Right Pilates Instructor",
     description: "What credentials, experience, and red flags to look for when selecting a Pilates teacher — a practical guide for new and experienced practitioners alike.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
-    images: [{ url: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80", width: 1200, height: 630, alt: "Choosing a Pilates instructor — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Choosing a Pilates instructor — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "How to Choose the Right Pilates Instructor",
     description: "Credentials, experience, and red flags to look for when selecting a Pilates teacher.",
-    images: ["https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
+  keywords: ["how to choose pilates instructor", "pilates instructor credentials", "pilates teacher qualifications", "certified pilates instructor", "pilates instructor red flags", "pma certified pilates", "best pilates instructor qualifications", "pilates teacher training hours", "how to find a good pilates teacher", "pilates instructor guide 2026"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor/#article",
+      "headline": "How to Choose a Pilates Instructor",
+      "description": "Credentials, lineage, teaching style — what actually matters when selecting your teacher.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
+      "articleSection": "Guide",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "How to Choose a Pilates Instructor", "item": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What qualifications should a Pilates instructor have?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Look for comprehensive training from recognised bodies such as STOTT Pilates, Balanced Body, BASI, or Pilates Method Alliance (PMA). These programmes require 450\u2013600+ hours covering anatomy, all apparatus, and supervised teaching. Weekend certifications are insufficient." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is PMA certification?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The Pilates Method Alliance PMA-CPT is a nationally accredited credential that tests knowledge across all Pilates apparatus and methodology. It requires prior comprehensive teacher training and is listed as a preferred qualification at many top studios." }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I tell if a Pilates instructor is good?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Strong instructors observe and cue rather than just demonstrate, adjust exercises to your individual body, ask about injuries before class, and give anatomically specific cues. Warning signs include applying the same sequence to every client and never modifying." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a weekend Pilates certification enough?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Weekend or 16-hour certifications are insufficient for teaching a safe, full Pilates practice. They may cover basic mat movements but exclude the anatomy and contraindication knowledge required for real clients. Seek instructors with 450-hour or higher comprehensive training." }
+    }
+      ]
+    },
+  ],
+};
 export default function HowToChoosePilatesInstructorPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1400&q=80"
+          imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"
           imageAlt="Pilates instructor teaching a class"
           category="Guide"
           subcategory="6 min read"
@@ -151,9 +229,9 @@ export default function HowToChoosePilatesInstructorPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&q=80" },
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
+            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
           ]} />
         </div>
       </main>

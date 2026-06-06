@@ -5,30 +5,108 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Athletes | Pilates Collective Club",
-  description: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers — and what recreational athletes can learn from them.",
+  title: "Pilates for Athletes (2026): Cross-Training That Actually Works | Pilates Collective Club",
+  description: "Pilates for athletes: reformer and mat exercises that build stability, correct imbalances, and improve performance for runners, cyclists, and team sports.",
   openGraph: {
     title: "Pilates for Athletes: Strength, Longevity, and the Competitive Edge",
     description: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers — and what recreational athletes can learn from them.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
-    images: [{ url: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80", width: 1200, height: 630, alt: "Pilates for athletes — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for athletes — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Athletes: Strength, Longevity, and the Competitive Edge",
     description: "How elite sports professionals use Pilates to build functional strength and prevent injury.",
-    images: ["https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
+  keywords: ["pilates for athletes", "pilates cross training", "pilates for runners", "pilates for cyclists", "pilates injury prevention", "pilates sports performance", "pilates for swimmers", "pilates athlete training", "sports pilates programme", "pilates for athletes 2026"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/pilates-for-athletes/#article",
+      "headline": "Pilates for Athletes",
+      "description": "How professional athletes use Pilates for injury prevention and performance enhancement.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
+      "articleSection": "Performance",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Pilates for Athletes", "item": "https://pilatescollectiveclub.com/blog/pilates-for-athletes" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should athletes do Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "One to two sessions per week is standard for athletes using Pilates as cross-training. This frequency builds core stability and corrects imbalances without compromising sport-specific training. During off-season, two to three sessions per week can accelerate gains." }
+    },
+    {
+      "@type": "Question",
+      "name": "What sports benefit most from Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Running, cycling, swimming, tennis, and golf show the strongest benefit. These sports involve repetitive single-plane movement that creates muscular imbalances \u2014 exactly what Pilates addresses through multi-plane core work and rotational control." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Pilates replace strength training for athletes?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates does not replace heavy resistance training for athletes needing maximum force production. It excels at stability, proprioception, and corrective work. The most effective programmes combine both: Pilates for control and injury prevention, resistance training for power." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Pilates good for injury recovery?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates is widely used in sports rehabilitation because its controlled, low-impact nature allows athletes to maintain conditioning while recovering. Many physiotherapists use Pilates-informed exercises for knee, hip, shoulder, and spinal rehabilitation." }
+    }
+      ]
+    },
+  ],
+};
 export default function PilatesForAthletesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1400&q=80"
+          imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"
           imageAlt="Pilates for athletes"
           category="Performance"
           subcategory="7 min read"
@@ -112,9 +190,9 @@ export default function PilatesForAthletesPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
-            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" },
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
+            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
+            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
           ]} />
         </div>
       </main>

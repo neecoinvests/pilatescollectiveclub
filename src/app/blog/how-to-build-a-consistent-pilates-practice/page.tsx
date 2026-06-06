@@ -6,22 +6,26 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "How to Build a Consistent Pilates Practice | Pilates Collective Club",
-  description:
-    "Practical strategies for making Pilates a lasting habit — even with a demanding schedule. Frequency, environment, mindset, and the habits that make the difference.",
+  title: "How to Build a Consistent Pilates Practice (2026) | Pilates Collective Club",
+  description: "How to build a consistent Pilates practice: scheduling, progressive programming, home vs. studio balance, and plateau-busting tips from instructors.",
   openGraph: {
     title: "How to Build a Consistent Pilates Practice",
     description: "Practical strategies for making Pilates a lasting habit — even with a demanding schedule. Frequency, environment, mindset, and the habits that make the difference.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
-    images: [{ url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80", width: 1200, height: 630, alt: "Building a consistent Pilates practice — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", width: 1200, height: 630, alt: "Building a consistent Pilates practice — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "How to Build a Consistent Pilates Practice",
     description: "Practical strategies for making Pilates a lasting habit — even with a demanding schedule.",
-    images: ["https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"],
   },
+  keywords: ["consistent pilates practice", "how to practice pilates regularly", "pilates habit building", "pilates practice schedule", "how often to do pilates", "pilates routine tips", "starting pilates routine", "pilates motivation tips", "how to stick to pilates", "pilates practice guide 2026"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const RELATED = [
@@ -43,13 +47,86 @@ const RELATED = [
   },
 ];
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice/#article",
+      "headline": "How to Build a Consistent Pilates Practice",
+      "description": "The habits and routines that separate practitioners who see results from those who plateau.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
+      "articleSection": "Guide",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "How to Build a Consistent Pilates Practice", "item": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should I do Pilates to see results?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Two to three sessions per week produces visible results in 4\u20138 weeks for most practitioners. One session per week will maintain fitness but produces slower progress. Three or more sessions per week suits practitioners with specific rehabilitative or performance goals." }
+    },
+    {
+      "@type": "Question",
+      "name": "What time of day is best for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates can be done at any time. Morning practice suits those who prefer starting with movement; the body is slightly less flexible but less fatigued. Evening practice is good for stress reduction. Consistency of timing reinforces the habit." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I stay motivated to practice Pilates regularly?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The most reliable strategies: book classes in advance, find a studio or community you enjoy, track your progress, and vary the format \u2014 mixing reformer and mat, group and private sessions. Motivation follows results." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do Pilates every day?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Daily Pilates is possible but requires varying intensity. Intensive reformer sessions should be separated by at least one rest day. Mat work and gentle stretching can be done daily." }
+    }
+      ]
+    },
+  ],
+};
 export default function ConsistentPracticePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1400&q=80"
+          imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"
           imageAlt="Building a consistent Pilates practice"
           category="Lifestyle"
           title={<>How to Build a Consistent<br /><span style={{ color: "#8b4a31" }}>Pilates Practice</span></>}
@@ -108,9 +185,9 @@ export default function ConsistentPracticePage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "Best Pilates Equipment for Home Practice", href: "/blog/best-pilates-equipment-for-home-practice", readTime: "10 min read", imageUrl: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&q=80" },
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
+            { title: "Best Pilates Equipment for Home Practice", href: "/blog/best-pilates-equipment-for-home-practice", readTime: "10 min read", imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
           ]} />
         </div>
       </main>

@@ -8,8 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Barcelona | Pilates Collective Club",
+  title: "The Best Pilates Studios in Barcelona",
   description: "Our curated guide to Barcelona's best Pilates studios — from Eixample to Gràcia, the five studios leading the city's vibrant wellness scene.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
+  keywords: ["pilates barcelona", "reformer pilates barcelona", "best pilates barcelona", "pilates studios barcelona", "pilates eixample"],
   openGraph: {
     title: "The Best Pilates Studios in Barcelona",
     description: "Our curated guide to Barcelona's best Pilates studios — five verified picks from Eixample to Poblenou.",
@@ -23,64 +30,78 @@ export const metadata: Metadata = {
     description: "Our curated guide to Barcelona's best Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200&q=80"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/barcelona",
+  },
 };
 
 const STUDIOS = [
   {
     number: "01",
-    name: "Pilates Studio Barcelona",
+    name: "PilatesBCN",
     neighborhood: "Eixample",
     priceLevel: "€€€",
-    review: "Pilates Studio Barcelona is the city's most respected classical Pilates address — an Eixample studio that occupies a stunning modernist apartment with the kind of natural light and architectural beauty that makes practising here genuinely memorable. The instruction is classical and meticulous, the teachers are among Barcelona's most experienced, and the studio's small class sizes (maximum six) ensure that individual form and progression are never sacrificed to throughput. The studio's reputation draws both local regulars and visiting practitioners from across Europe.",
-    address: "Carrer de Mallorca 237, 08008 Barcelona",
-    bestFor: "Classical method, small groups, beautiful setting",
-    signatureClass: "Classical Reformer & Tower",
-    bookingTip: "New clients must complete an introductory private session before joining group apparatus classes. Book it at least a week ahead — the studio is popular with expats and visiting practitioners.",
+    review: "PilatesBCN has quietly become the benchmark for classical reformer instruction in Eixample, drawing a sophisticated mix of local professionals and expats who take their practice seriously. The spacious studio occupies a beautifully converted apartment floor in the heart of the grid, with high ceilings, natural light, and a fleet of Balanced Body reformers that are kept in meticulous condition. Instruction is bilingual Spanish-English as standard, delivered by teachers with genuine conservatory-level training — corrections are precise, cues are thoughtful, and sessions rarely feel rushed. The programming moves logically from foundational mat work through to advanced equipment combinations, making it equally rewarding for first-timers and experienced movers. It suits the kind of practitioner who values rigour over trend, and is willing to pay accordingly.",
+    address: "—",
+    bestFor: "Balanced Body reformers, bilingual classes",
+    signatureClass: "BCN Reformer Signature",
+    bookingTip: "Monthly pass offers 20% discount vs. drop-in",
   },
   {
     number: "02",
-    name: "SimplybePilates",
-    neighborhood: "Eixample Dreta",
+    name: "Estudio 3 Pilates Reformer",
+    neighborhood: "Gràcia",
     priceLevel: "€€",
-    review: "SimplybePilates has become one of Barcelona's most trusted English-language reformer studios — a boutique in the heart of the Eixample that caters to the city's large international community with two reformer rooms (maximum five per class) and teaching that spans all fitness levels, pregnancy, injuries, and rehabilitation. Open seven days a week and bilingual throughout, it's the most accessible starting point for visiting or newly relocated practitioners who want quality instruction without a language barrier.",
-    address: "Carrer Pau Claris 83, 3-3, 08010 Barcelona",
-    bestFor: "English instruction, all levels, expat and visiting practitioners",
-    signatureClass: "Reformer Fundamentals",
-    bookingTip: "Book online directly or via ClassPass. The studio's flexible scheduling and open-level classes make it easy to slot in around a busy itinerary.",
+    review: "Tucked into one of Gràcia's quieter side streets, Estudio 3 has the warm, unhurried atmosphere that neighbourhood studios elsewhere only aspire to. The space is small by design — classes are capped to keep the teacher-to-student ratio genuinely useful — and the reformer fleet is well-maintained and thoughtfully arranged. Instructors here have a gift for making the method feel accessible without dumbing it down, which is why the studio attracts a loyal local following of all ages and fitness levels. Pricing is honest and the bono system is flexible, making it a sensible choice for anyone based in the upper part of the city who trains regularly. It suits independent movers who prefer character over corporate polish.",
+    address: "—",
+    bestFor: "Small-group reformer in a boutique space",
+    signatureClass: "Estudio 3 Flow",
+    bookingTip: "Afternoon classes most available mid-week",
   },
   {
     number: "03",
-    name: "INTUÉ Pilates",
-    neighborhood: "Les Corts / Upper Eixample",
+    name: "SimplyBe Pilates",
+    neighborhood: "Sant Pere",
     priceLevel: "€€€",
-    review: "INTUÉ Pilates is one of Barcelona's most highly rated reformer studios — a beautifully equipped space with state-of-the-art reformers, tower, and chair, where certified trainers personalise each session to the client's needs and condition. With a 5-star rating backed by over 124 reviews on Google, INTUÉ's combination of precision instruction and premium equipment has earned it a loyal following among serious practitioners in the upper Eixample. The studio's approach is methodical and anatomy-focused throughout.",
-    address: "Carrer Beethoven 13, 08021 Barcelona",
-    bestFor: "Personalised instruction, full apparatus, experienced practitioners",
-    signatureClass: "INTUÉ Signature Reformer",
-    bookingTip: "First-time clients are assessed before joining group classes. Book the intake session well ahead — the studio's strong reputation keeps availability tight.",
+    review: "SimplyBe occupies a considered space in Sant Pere — the neighbourhood where Barcelona's creative and international residents have settled in growing numbers — and the studio has calibrated itself accordingly. Instruction is conducted entirely in English, which makes it the most reliably accessible choice for expatriates and visiting practitioners who want to train without a language barrier. The atmosphere is calm and considered, the equipment is well-maintained, and the programming draws on a clean, contemporary interpretation of the classical method. Class sizes are deliberately kept small, allowing instructors to offer hands-on attention that justifies the premium price point. It particularly suits professionals relocating to Barcelona who want a studio that feels familiar from day one.",
+    address: "—",
+    bestFor: "English-friendly reformer studio",
+    signatureClass: "Be Flow Reformer",
+    bookingTip: "New client intro: 3 classes for €75",
   },
   {
     number: "04",
-    name: "Reforma Pilates",
-    neighborhood: "Poblenou",
-    priceLevel: "€€",
-    review: "Reforma Pilates has developed a strong following in the rapidly gentrifying Poblenou district — a studio that combines excellent contemporary reformer instruction with the neighbourhood's characteristic creative energy. The space is industrial-chic in the best sense, the teaching is contemporary and well-structured, and the client base of designers, architects, and tech workers creates a stimulating community atmosphere. One of the most energetic and well-run mid-range studios in the city.",
-    address: "Carrer del Pallars 193, 08005 Barcelona",
-    bestFor: "Contemporary reformer, creative professional crowd, Poblenou community",
-    signatureClass: "Reforma Signature Reformer",
-    bookingTip: "The monthly unlimited pass is excellent value for those living or working in Poblenou. Lunchtime classes book fastest among the neighbourhood's professional crowd.",
+    name: "MUDRA Pilates Reformer",
+    neighborhood: "Sarrià-Sant Gervasi",
+    priceLevel: "€€€",
+    review: "MUDRA occupies a serene, well-appointed studio in Sarrià-Sant Gervasi, the residential district above the city where Barcelona's most established families and senior professionals tend to live. The studio brings a mindfulness dimension to reformer work that is uncommon in Barcelona — sessions are slower, more somatic, and more attuned to the connection between breath, posture, and long-term physical health. Instructors are credentialed and calm, the equipment immaculate, and the overall atmosphere one of quiet seriousness rather than boutique-fitness energy. Private and semi-private sessions are the preferred format here, and the studio does them exceptionally well. It suits practitioners dealing with rehabilitation, chronic tension, or simply a preference for depth over pace.",
+    address: "—",
+    bestFor: "Upscale Pilates & mindfulness",
+    signatureClass: "MUDRA Reformer Deep",
+    bookingTip: "Private sessions available by appointment",
   },
   {
     number: "05",
-    name: "Laura Ceppelli Pilates",
-    neighborhood: "Ciutat Vella / El Born",
-    priceLevel: "€€€",
-    review: "Laura Ceppelli Pilates is one of Barcelona's most elegant reformer studios — an English-speaking boutique in the Ciutat Vella neighbourhood equipped with eight Balanced Body Allegro 2 Reformers in a light-filled, beautifully designed space. Founded by Laura Ceppelli, one of Barcelona's most respected Pilates instructors, the studio specialises in technically demanding reformer classes taught primarily in English, making it an exceptional choice for international clients seeking advanced-level work in a refined environment.",
-    address: "Via Laietana 54, 2º-205, 08003 Barcelona",
-    bestFor: "English instruction, advanced reformer, technical precision",
-    signatureClass: "Advanced Reformer",
-    bookingTip: "Book through their website. Advanced classes require prior reformer experience — check class descriptions carefully before booking.",
+    name: "Sinergia BCN",
+    neighborhood: "Poblenou",
+    priceLevel: "€€",
+    review: "Sinergia BCN reflects the character of Poblenou itself — energetic, unpretentious, and a little more experimental than what you find in the established central districts. The studio has built its reputation on athletic, fast-paced reformer classes that borrow from functional training and HIIT without abandoning the Pilates fundamentals, and the clientele skews younger and more fitness-oriented as a result. Instructors here are energetic and motivating without being performatively so, and the class atmosphere has a communal quality that regulars clearly value. Pricing is well below the city average for the quality on offer, and the drop-in policy is genuinely flexible. It suits active movers who want a serious physical challenge in a studio that doesn't take itself too seriously.",
+    address: "—",
+    bestFor: "Athletic reformer & HIIT fusion",
+    signatureClass: "Sinergia Power 45",
+    bookingTip: "Drop-in friendly; no advance booking required",
   },
+  {
+    number: "06",
+    name: "PILAT3S Sagrada Família",
+    neighborhood: "Sagrada Família",
+    priceLevel: "€€€",
+    review: "PILAT3S is the most polished of Barcelona's boutique reformer chains, and the Sagrada Família location — positioned in the broad residential belt that surrounds Gaudí's cathedral — is among its best-executed outposts. The studio design is striking: dark finishes, dramatic lighting, and rows of equipment that signal a serious commitment to the reformer experience as a visual as well as physical proposition. Classes are fast-moving, music-driven, and structured for maximum efficiency within a 45-minute format, which suits professionals with tight schedules. The app-based booking system is slick and the cancellation policy is enforced, both signs of an operation that runs at genuine scale. It suits practitioners who want a consistent, high-production-value experience without the variability of independent studios.",
+    address: "—",
+    bestFor: "Tech-enabled reformer boutique chain",
+    signatureClass: "PILAT3S Signature 45",
+    bookingTip: "App-based booking; early cancellation policy 8 hrs",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -125,7 +146,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Barcelona",
       "description": "Curated guide to the top 5 Pilates studios in Barcelona.",
       "url": "https://pilatescollectiveclub.com/cities/barcelona",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -164,13 +185,13 @@ export default function BarcelonaPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Barcelona&apos;s relationship with wellness is deeply embedded in its culture — the city&apos;s climate, its architecture, its café rhythms all encourage a certain attentiveness to physical wellbeing. The Pilates scene here reflects this: studios tend to be beautifully housed, thoughtfully run, and staffed by teachers who treat the method seriously. This guide covers the five studios we rate most highly across the city&apos;s distinct neighbourhoods.
+              Barcelona's relationship with wellness is deeply embedded in its culture — the city's climate, its architecture, its café rhythms all encourage a certain attentiveness to physical wellbeing. The Pilates scene here reflects this: studios tend to be beautifully housed, thoughtfully run, and staffed by teachers who treat the method seriously. This guide covers the five studios we rate most highly across the city's distinct neighbourhoods.
             </p>
           </div>
         </section>
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1400&q=80" alt="Barcelona architecture" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
@@ -183,7 +204,7 @@ export default function BarcelonaPage() {
         </section>
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Studios · Curated & Verified</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
             <div className="space-y-8">{STUDIOS.map((s) => <StudioListing key={s.number} {...s} />)}</div>
           </div>
         </section>
@@ -192,7 +213,7 @@ export default function BarcelonaPage() {
             <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Tips for booking Pilates in Barcelona</h2>
             <div className="space-y-6">
               {BOOKING_TIPS.map((t) => (
-                <div key={t.heading} className="flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                <div key={t.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                   <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
                   <div>
                     <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.heading}</h3>
@@ -206,7 +227,7 @@ export default function BarcelonaPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Barcelona</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Barcelona&apos;s diverse neighbourhoods each offer a distinct studio culture and price point.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Barcelona's diverse neighbourhoods each offer a distinct studio culture and price point.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

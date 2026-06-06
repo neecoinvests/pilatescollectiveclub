@@ -1,3 +1,5 @@
+"use client";
+
 interface StudioListingProps {
   number: string;
   name: string;
@@ -12,102 +14,97 @@ interface StudioListingProps {
 }
 
 export default function StudioListing({
-  number,
-  name,
-  neighborhood,
-  priceLevel,
-  review,
-  address,
-  bestFor,
-  signatureClass,
-  bookingTip,
-  websiteUrl,
+  number, name, neighborhood, priceLevel, review, address, bestFor, signatureClass, bookingTip, websiteUrl,
 }: StudioListingProps) {
+  void address;
   return (
-    <article
-      className="rounded-2xl overflow-hidden"
-      style={{
-        backgroundColor: "#ffffff",
-        border: "1px solid rgba(217, 194, 186, 0.35)",
-        boxShadow: "0 2px 12px -4px rgba(27,28,28,0.06)",
-      }}
-    >
-      <div className="p-8 md:p-10">
-        {/* Number + Name row */}
-        <div className="flex items-start gap-6 mb-6">
-          <span
-            className="text-5xl font-light leading-none shrink-0"
-            style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}
-          >
-            {number}
-          </span>
-          <div className="flex-1 min-w-0">
-            <h2
-              className="text-2xl font-semibold mb-1 leading-snug"
-              style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
-            >
-              {name}
-            </h2>
-            <div className="flex flex-wrap items-center gap-3">
-              <span
-                className="flex items-center gap-1.5 text-sm"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#8b4a31" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
-                {neighborhood}
-              </span>
-              <span
-                className="text-sm font-semibold"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-              >
-                {priceLevel}
-              </span>
-            </div>
+    <article style={{ borderTop: "1px solid #ede9e3", paddingTop: "48px", paddingBottom: "48px" }}>
+      <div className="pcc-studio-header" style={{ display: "flex", alignItems: "flex-start", gap: "32px", marginBottom: "24px" }}>
+        <span className="pcc-studio-number" style={{
+          fontFamily: "var(--font-serif)",
+          fontSize: "60px",
+          fontWeight: 300,
+          color: "#ede9e3",
+          lineHeight: 1,
+          flexShrink: 0,
+        }}>
+          {number}
+        </span>
+        <div style={{ flex: 1 }}>
+          <h2 style={{
+            fontFamily: "var(--font-serif)",
+            fontSize: "28px",
+            fontWeight: 400,
+            color: "#0a0a0a",
+            lineHeight: 1.1,
+            marginBottom: "8px",
+          }}>
+            {name}
+          </h2>
+          <div style={{ display: "flex", alignItems: "center", gap: "16px", flexWrap: "wrap" }}>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "#9a9490", letterSpacing: "0.05em" }}>
+              {neighborhood}
+            </span>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, color: "#c5a882", letterSpacing: "0.1em" }}>
+              {priceLevel}
+            </span>
           </div>
         </div>
-
-        {/* Review */}
-        <p
-          className="text-base leading-relaxed mb-8"
-          style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-        >
-          {review}
-        </p>
-
-        {/* Details grid */}
-        <div
-          className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 rounded-xl p-6 mb-6"
-          style={{ backgroundColor: "#f6f3f2" }}
-        >
-          <Detail label="Address" value={address} />
-          <Detail label="Best For" value={bestFor} />
-          <Detail label="Signature Class" value={signatureClass} />
-          <Detail label="Booking Tip" value={bookingTip} />
-        </div>
-
-        {/* CTA */}
-        <a
-          href={websiteUrl || `https://www.google.com/search?q=${encodeURIComponent(name + " " + address)}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-80"
-          style={{
-            backgroundColor: "#8b4a31",
-            color: "#ffffff",
-            fontFamily: "'Montserrat', sans-serif",
-          }}
-        >
-          Visit Website
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-            <polyline points="15 3 21 3 21 9" />
-            <line x1="10" y1="14" x2="21" y2="3" />
-          </svg>
-        </a>
       </div>
+
+      <p style={{
+        fontFamily: "var(--font-sans)",
+        fontSize: "15px",
+        fontWeight: 300,
+        color: "#3a3530",
+        lineHeight: 1.8,
+        marginBottom: "32px",
+        maxWidth: "680px",
+      }}>
+        {review}
+      </p>
+
+      <div className="pcc-studio-details" style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(2, 1fr)",
+        gap: "24px 40px",
+        backgroundColor: "#f7f4f0",
+        padding: "28px 32px",
+        marginBottom: "28px",
+      }}>
+        <Detail label="Best For" value={bestFor} />
+        <Detail label="Signature Class" value={signatureClass} />
+        <Detail label="Booking Tip" value={bookingTip} />
+      </div>
+
+      <a
+        href={websiteUrl || `https://www.google.com/search?q=${encodeURIComponent(name)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: "inline-block",
+          fontFamily: "var(--font-sans)",
+          fontSize: "10px",
+          fontWeight: 500,
+          letterSpacing: "0.18em",
+          textTransform: "uppercase",
+          color: "#0a0a0a",
+          textDecoration: "none",
+          borderBottom: "1px solid #0a0a0a",
+          paddingBottom: "2px",
+          transition: "color 0.2s, border-color 0.2s",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.color = "#c5a882";
+          e.currentTarget.style.borderColor = "#c5a882";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.color = "#0a0a0a";
+          e.currentTarget.style.borderColor = "#0a0a0a";
+        }}
+      >
+        Visit Website
+      </a>
     </article>
   );
 }
@@ -115,16 +112,24 @@ export default function StudioListing({
 function Detail({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt
-        className="text-xs font-semibold uppercase tracking-widest mb-0.5"
-        style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
-      >
+      <dt style={{
+        fontFamily: "var(--font-sans)",
+        fontSize: "10px",
+        fontWeight: 500,
+        letterSpacing: "0.18em",
+        textTransform: "uppercase",
+        color: "#9a9490",
+        marginBottom: "4px",
+      }}>
         {label}
       </dt>
-      <dd
-        className="text-sm"
-        style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
-      >
+      <dd style={{
+        fontFamily: "var(--font-sans)",
+        fontSize: "13px",
+        fontWeight: 300,
+        color: "#3a3530",
+        lineHeight: 1.6,
+      }}>
         {value}
       </dd>
     </div>

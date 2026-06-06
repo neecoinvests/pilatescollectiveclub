@@ -6,22 +6,26 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Classical vs Contemporary Pilates: Which Style Is Right for You? | Pilates Collective Club",
-  description:
-    "Understanding the key differences between classical and contemporary Pilates — the original method, modern interpretations, and how to choose the right approach for your goals.",
+  title: "Classical vs Contemporary Pilates (2026): What's the Difference? | Pilates Collective Club",
+  description: "Classical vs. contemporary Pilates: repertoire, equipment, and teaching philosophy compared. Which method is right for your body and goals?",
   openGraph: {
     title: "Classical vs Contemporary Pilates: Which Style Is Right for You?",
     description: "Understanding the key differences between classical and contemporary Pilates — the original method, modern interpretations, and how to choose the right approach.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
-    images: [{ url: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=1200&q=80", width: 1200, height: 630, alt: "Classical vs Contemporary Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg", width: 1200, height: 630, alt: "Classical vs Contemporary Pilates — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Classical vs Contemporary Pilates: Which Style Is Right for You?",
     description: "The original method vs modern interpretations — how to choose the right Pilates style for your goals.",
-    images: ["https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"],
   },
+  keywords: ["classical vs contemporary pilates", "classical pilates method", "contemporary pilates", "stott pilates vs classical", "contrology pilates", "romana pilates vs stott", "pilates method differences", "what is classical pilates", "what is contemporary pilates", "pilates lineage explained 2026"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const RELATED = [
@@ -43,13 +47,86 @@ const RELATED = [
   },
 ];
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates/#article",
+      "headline": "Classical vs Contemporary Pilates",
+      "description": "The split between the original Contrology method and modern functional interpretations.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
+      "articleSection": "Method",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Classical vs Contemporary Pilates", "item": "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is classical Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Classical Pilates follows the original repertoire developed by Joseph Pilates. Exercises are performed in the traditional order with original spring tensions and apparatus specifications. Lineages include Romana Kryzanowska, Kathy Grant, and Power Pilates." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is contemporary Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Contemporary Pilates draws from the original method but incorporates modern anatomical research, biomechanics, and injury rehabilitation principles. STOTT Pilates, Balanced Body, and BASI represent contemporary training organisations." }
+    },
+    {
+      "@type": "Question",
+      "name": "Which style is better for beginners?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Neither is categorically better. Contemporary studios often offer more structured beginner programmes. Classical studios tend to work from the full repertoire earlier. The most important factor is finding a qualified instructor regardless of lineage." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I practice both classical and contemporary Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Many practitioners and instructors draw from both traditions. Once you have a grounding in either approach, exploring the other deepens your understanding of the method as a whole." }
+    }
+      ]
+    },
+  ],
+};
 export default function ClassicalVsContemporaryPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=1400&q=80"
+          imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"
           imageAlt="Classical vs Contemporary Pilates"
           category="Method"
           title={<>Classical vs Contemporary Pilates:<br /><span style={{ color: "#8b4a31" }}>Which Style Is Right for You?</span></>}
@@ -137,9 +214,9 @@ export default function ClassicalVsContemporaryPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
-            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
+            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
           ]} />
         </div>
       </main>

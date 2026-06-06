@@ -6,22 +6,26 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "The 6 Core Principles of Pilates, Explained | Pilates Collective Club",
-  description:
-    "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method and how to apply them in practice.",
+  title: "The 6 Core Principles of Pilates Explained | Pilates Collective Club",
+  description: "Centring, concentration, control, precision, breath, flow — the six principles that define the Pilates method explained clearly, with practical cues for each.",
   openGraph: {
     title: "The 6 Core Principles of Pilates, Explained",
     description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method and how to apply them in practice.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
-    images: [{ url: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1200&q=80", width: 1200, height: 630, alt: "Pilates core principles — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Pilates core principles — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The 6 Core Principles of Pilates, Explained",
     description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method.",
-    images: ["https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
+  keywords: ["pilates principles", "6 principles of pilates", "pilates centring", "pilates control", "pilates concentration", "pilates breath", "pilates precision", "pilates flow", "contrology principles", "joseph pilates principles", "what are the principles of pilates", "pilates method explained"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const PRINCIPLES = [
@@ -76,13 +80,86 @@ const RELATED = [
   },
 ];
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained/#article",
+      "headline": "6 Core Principles of Pilates Explained",
+      "description": "Breath, concentration, control, centring, precision, flow — understanding the method's foundations.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
+      "articleSection": "Method",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "6 Core Principles of Pilates Explained", "item": "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the 6 principles of Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The six classical Pilates principles are: Centring (engaging the core powerhouse), Concentration (full mental focus), Control (muscular command), Precision (exactness of position), Breath (coordinating movement with inhalation and exhalation), and Flow (smooth, continuous transitions)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is breathing important in Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Breathing in Pilates is functional and intentional. Exhalation on exertion engages the deep abdominals and pelvic floor, supporting spinal stability. Lateral breathing keeps the ribcage stable during abdominal work. Proper breath prevents the Valsalva manoeuvre during loading." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the powerhouse in Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The powerhouse is Joseph Pilates' term for the deep muscular corset supporting the spine: the transverse abdominis, multifidus, pelvic floor, and diaphragm. Modern anatomical understanding describes this as the 'inner unit' or 'local stabilisers'. All Pilates movement initiates from this centre." }
+    },
+    {
+      "@type": "Question",
+      "name": "What does 'control' mean in Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Control in Pilates means every movement is directed by muscular effort \u2014 no momentum, no collapsing, no relying on joints rather than muscles. Joseph Pilates originally called his method 'Contrology' \u2014 the complete coordination of body, mind, and spirit." }
+    }
+      ]
+    },
+  ],
+};
 export default function SixPrinciplesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1400&q=80"
+          imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"
           imageAlt="Pilates core principles"
           category="Method"
           title={<>The 6 Core Principles of Pilates,<br /><span style={{ color: "#8b4a31" }}>Explained</span></>}
@@ -140,9 +217,9 @@ export default function SixPrinciplesPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&q=80" },
-            { title: "How to Build a Consistent Pilates Practice", href: "/blog/how-to-build-a-consistent-pilates-practice", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" },
+            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
+            { title: "How to Build a Consistent Pilates Practice", href: "/blog/how-to-build-a-consistent-pilates-practice", readTime: "7 min read", imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" },
           ]} />
         </div>
       </main>

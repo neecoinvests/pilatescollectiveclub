@@ -8,9 +8,16 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Geneva | Pilates Collective Club",
+  title: "The Best Pilates Studios in Geneva",
   description:
-    "Our curated guide to the best Pilates studios in Geneva — from Form Studio and Pilates Social Club to Swissbody®, the region's most established classical studio. Five verified picks.",
+    "The best Pilates studios in Geneva — classical reformer near the lake, expat-friendly English classes, and wellness retreats. Curated & verified picks.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
+  keywords: ["pilates genève", "pilates geneva", "reformer pilates geneva", "best pilates geneva", "pilates studios geneva"],
   openGraph: {
     title: "The Best Pilates Studios in Geneva",
     description: "Our curated guide to the best Pilates studios in Geneva — five verified studios with booking tips.",
@@ -24,6 +31,9 @@ export const metadata: Metadata = {
     description: "Our curated guide to the best Pilates studios in Geneva — five verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&q=80"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/geneva",
+  },
 };
 
 const STUDIOS = [
@@ -31,62 +41,68 @@ const STUDIOS = [
     number: "01",
     name: "Form Studio Geneva",
     neighborhood: "Pâquis",
-    priceLevel: "CHF ···",
-    review:
-      "Form Studio's Geneva location brings the same music-driven reformer energy that has made the brand one of Switzerland's most respected boutique Pilates offers. Situated in the vibrant Pâquis district near the lake, the studio transforms effort into flow with carefully curated playlists and precise instruction delivered in an elegant space. The Geneva flagship is the natural pairing to the Zurich studios — consistent in quality, beautiful in design, and accessible to all experience levels.",
-    address: "Place de la Navigation 8, 1201 Genève",
-    bestFor: "Music-driven reformer, all levels, boutique experience",
-    signatureClass: "Form Flow Reformer",
-    bookingTip: "Book through their app at least 24 hours ahead. Evening classes near the waterfront fill quickly — secure your spot on Sunday for the week ahead.",
+    priceLevel: "CHF ··",
+    review: "Form Studio has transplanted its clean, considered aesthetic from its Zurich original to a Geneva address in the Pâquis neighbourhood — a lakeside district with a cosmopolitan, slightly louche energy that provides an interesting contrast to the studio's precise interior. The reformer suite is immaculate and the instruction quality is consistent with the brand's established reputation: technically rigorous, internationally trained, and genuinely attentive to individual clients rather than performing to a room. The programming here suits intermediate practitioners who have moved past the basics and want to be genuinely challenged in a well-resourced environment. Geneva's expatriate community — substantial and wellness-literate — has taken to Form quickly, and the waiting list for prime-time slots reflects the studio's standing. English is the working language as often as French.",
+    address: "—",
+    bestFor: "Expatriate professionals and intermediate-to-advanced practitioners",
+    signatureClass: "Form Reformer Signature",
+    bookingTip: "Prime-time slots book out fast; register and set notification alerts for new availability",
   },
   {
     number: "02",
-    name: "Body Mind Center Geneva",
-    neighborhood: "Champel",
-    priceLevel: "CHF ····",
-    review:
-      "Body Mind Center occupies a beautiful space in Champel, one of Geneva's most refined residential neighbourhoods. The studio integrates Pilates with somatic movement practices and mindfulness in a way that feels genuinely holistic rather than merely fashionable. The instructors here are among the most experienced in the city, and the private session offer is particularly strong. For clients who want more than a workout — who are looking to re-pattern movement, recover from injury, or develop a sophisticated practice — this is the first port of call.",
-    address: "Avenue de Champel 28, 1206 Genève",
-    bestFor: "Private sessions, rehabilitation, somatic movement",
-    signatureClass: "Integrative Body Pilates",
-    bookingTip: "Private sessions require an initial assessment booking. Allow a week's lead time and email ahead with your movement history.",
+    name: "Pilates Social Club",
+    neighborhood: "Plainpalais",
+    priceLevel: "CHF ··",
+    review: "Pilates Social Club brings a genuinely social dimension to Geneva's Pilates scene — operating from Plainpalais, the city's most characterful and student-adjacent quarter, in a studio that manages to be both technically serious and noticeably enjoyable to train in. The social dimension here is real: the studio hosts occasional community evenings, workshops, and informal events that create a membership culture rather than a transactional class-booking relationship. Instruction is delivered by a teaching team with strong contemporary Pilates credentials, and the programming reflects a genuine interest in keeping long-term clients progressing rather than simply cycling newcomers through an introductory format. The clientele is younger on average than most Swiss Pilates studios and noticeably more diverse in background. A strong social media presence has driven awareness, but the studio's in-person quality is what keeps people coming back.",
+    address: "—",
+    bestFor: "Community-minded practitioners and those new to Geneva seeking a studio home",
+    signatureClass: "Social Club Reformer",
+    bookingTip: "Follow on Instagram for workshop announcements; community events often include class discounts",
   },
   {
     number: "03",
-    name: "Pilates Social Club",
-    neighborhood: "Eaux-Vives",
-    priceLevel: "CHF ···",
-    review:
-      "Pilates Social Club is one of Geneva's most community-minded reformer studios — a concept with multiple locations across the city that brings together group classes designed to build strength and create meaningful connections. The Eaux-Vives studio on the Rive Gauche is the flagship, and the ethos of combining excellent reformer instruction with genuine sociability has resonated strongly in a city known for its international community. An excellent choice for those who want quality Pilates alongside a welcoming social environment.",
-    address: "Rue des Pierres-du-Niton 8, 1207 Genève",
-    bestFor: "Group reformer, social community, all levels",
-    signatureClass: "Social Club Reformer",
-    bookingTip: "Book through their website or ClassPass. The studio has multiple Geneva locations — check all of them if your preferred slot is full.",
+    name: "Flex & Flow",
+    neighborhood: "Champel",
+    priceLevel: "CHF ·",
+    review: "Flex & Flow serves the residential Champel neighbourhood — one of Geneva's most quietly affluent — with a pragmatic, accessible approach to Pilates that offers genuine quality at a price point that does not assume its clients are indifferent to what they spend. The studio runs a mixed schedule of reformer, mat, and stretch-focused classes, with an emphasis on functional movement and muscular balance that appeals equally to those recovering from overuse injuries and those simply wanting to move better through daily life. Instructors are warm and unpretentious, with a particular skill for meeting clients exactly where they are rather than pushing them toward a predetermined template. The studio is compact but thoughtfully organised, and the neighbourhood's calm extends naturally into the training environment. Flex & Flow is the kind of reliable, relationship-driven studio that Geneva's long-term residents return to for years.",
+    address: "—",
+    bestFor: "Local residents and those seeking accessible, functional Pilates without the premium price",
+    signatureClass: "Flex & Flow Reformer Mix",
+    bookingTip: "Monthly packages offer the strongest value; ask about the studio's referral scheme",
   },
   {
     number: "04",
-    name: "Swissbody® Pilates",
-    neighborhood: "City Centre / Rive Droite",
-    priceLevel: "CHF ····",
-    review:
-      "Swissbody® is the most historically significant Pilates studio in French-speaking Switzerland — established in 1998 as the first fully-equipped Pilates studio in the region and still one of Europe's premier Pilates training facilities. The central Geneva location on the Rive Droite features four large, sunny studios with the full range of classical apparatus. The institution's decades of experience and its status as a leading European training centre make it the reference address for anyone seeking the classical method at its most complete.",
-    address: "Cr de Rive 4, 1204 Genève",
-    bestFor: "Classical Pilates, full apparatus, institutional standard",
-    signatureClass: "Classical Apparatus Session",
-    bookingTip: "Swissbody® serves both regular clients and student practitioners. First-time clients should reach out to discuss the appropriate programme before booking.",
+    name: "Geneva Pilates Studio",
+    neighborhood: "Eaux-Vives",
+    priceLevel: "CHF ··",
+    review: "Geneva Pilates Studio occupies a settled, established position in the Eaux-Vives neighbourhood — a lakeside quarter of outdoor café culture and easy elegance — where it has been developing its reputation long enough to have trained multiple generations of the same family in some cases. The studio offers the full spectrum of apparatus work: reformer, cadillac, tower, chair, and barrel, which is rare in Geneva and speaks to the seriousness of both the facility and the teaching team. Instruction here follows a classical lineage with contemporary sensitivity to anatomy and individual variance — the instructors have seen enough bodies to know that no two need precisely the same thing. The studio is particularly respected for its private and duet session work, which delivers a level of personalisation that group classes cannot replicate. A consistently high-demand address that rewards clients who invest in an ongoing relationship with the studio.",
+    address: "—",
+    bestFor: "Classical Pilates enthusiasts and clients committed to long-term private instruction",
+    signatureClass: "Geneva Full Apparatus Session",
+    bookingTip: "Private and duet sessions are the studio's strength; commit to a series for best pricing",
   },
   {
     number: "05",
-    name: "Espace Pilates Genève",
-    neighborhood: "Carouge",
-    priceLevel: "CHF ··",
-    review:
-      "Espace Pilates sits in the charming Carouge neighbourhood — a village-within-a-city that attracts a local, neighbourhood-first clientele. The studio is warm and intimate, with the feel of a small family-run operation — which it essentially is. The instruction here is classical and careful, with a genuine interest in each client's individual development. It doesn't have the design credentials of some competitors, but it has something harder to manufacture: a sense of real community and genuine care.",
-    address: "Rue Saint-Victor 6, 1227 Carouge, Genève",
-    bestFor: "Classical method, community feel, neighbourhood studio experience",
-    signatureClass: "Classical Mat & Reformer",
-    bookingTip: "The Saturday morning class has become a weekly ritual for many regulars — book it by Wednesday to guarantee a spot.",
+    name: "Sol Studio",
+    neighborhood: "Eaux-Vives",
+    priceLevel: "CHF ·",
+    review: "Sol Studio sits in the Eaux-Vives quarter on Geneva's right bank — a neighbourhood of independent shops, neighbourhood restaurants, and a relaxed, non-corporate energy that suits the studio's personality exactly. The programming spans reformer, mat, and occasional specialty workshops, with instructors who bring genuine enthusiasm to classes that rarely feel formulaic or rushed. Sol is notably welcoming of practitioners at every level, from complete beginners to experienced movers, without making anyone feel like a logistical afterthought. The pricing is the most accessible of any studio operating at this quality level in central Geneva, which has built a devoted following among the neighbourhood's young professionals, local creatives, and expat families. It is the kind of studio that people stumble into once and then book monthly memberships without being asked.",
+    address: "—",
+    bestFor: "All levels, especially beginners and those seeking a welcoming community studio",
+    signatureClass: "Sol Reformer & Mat",
+    bookingTip: "Drop-in rates are reasonable; a monthly card offers the best combination of flexibility and value",
   },
+  {
+    number: "06",
+    name: "Le Bod",
+    neighborhood: "Les Délices",
+    priceLevel: "CHF ··",
+    review: "Le Bod occupies a refined niche in the Les Délices quarter, delivering a high-production reformer Pilates experience that draws heavily on the contemporary London and New York boutique model while grounding itself firmly in Geneva's specific wellness culture. The studio is visually striking — high ceilings, premium equipment, and a lighting scheme that manages to be both energising and flattering — and the instruction quality matches the setting. Classes tend to run at pace, with instructors who maintain momentum without losing technical precision, making Le Bod particularly well-suited to clients with existing fitness backgrounds who want reformer work to constitute a genuine training stimulus rather than gentle rehabilitation. The clientele skews toward Geneva's international banking and legal community. Booking fills reliably; advance planning is necessary for premium time slots.",
+    address: "—",
+    bestFor: "Fitness-forward practitioners and international professionals wanting a high-energy studio",
+    signatureClass: "Le Bod Power Reformer",
+    bookingTip: "Book weekend slots at least four to five days in advance; weekday mornings have more availability",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -178,7 +194,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in Geneva",
       "description": "Curated guide to the top 5 Pilates studios in Geneva.",
       "url": "https://pilatescollectiveclub.com/cities/geneva",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -218,16 +234,16 @@ export default function GenevaPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Geneva&apos;s status as one of Europe&apos;s most international cities has shaped a Pilates scene of real quality and diversity. The city&apos;s affluent, health-conscious population has driven demand for premium instruction, while a growing community of younger practitioners has opened space for more accessible, community-led studios. This guide navigates both worlds — from lakeside private sessions in Champel to energised group classes in Plainpalais.
+              Geneva's status as one of Europe's most international cities has shaped a Pilates scene of real quality and diversity. The city's affluent, health-conscious population has driven demand for premium instruction, while a growing community of younger practitioners has opened space for more accessible, community-led studios. This guide navigates both worlds — from lakeside private sessions in Champel to energised group classes in Plainpalais.
             </p>
           </div>
         </section>
 
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
-                src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1400&q=80"
+                src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"
                 alt="Geneva lake view"
                 fill
                 className="object-cover"
@@ -245,7 +261,7 @@ export default function GenevaPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Studios · Curated & Verified</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (<StudioListing key={studio.number} {...studio} />))}
             </div>
@@ -257,7 +273,7 @@ export default function GenevaPage() {
             <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Tips for booking Pilates in Geneva</h2>
             <div className="space-y-6">
               {BOOKING_TIPS.map((tip) => (
-                <div key={tip.heading} className="flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
+                <div key={tip.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
                   <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
                   <div>
                     <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{tip.heading}</h3>
@@ -272,7 +288,7 @@ export default function GenevaPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Geneva</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Geneva&apos;s neighbourhoods each have a distinct character. Here&apos;s where to look.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Geneva's neighbourhoods each have a distinct character. Here's where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

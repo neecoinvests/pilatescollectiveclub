@@ -6,22 +6,26 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "The Beginner's Guide to Reformer Pilates | Pilates Collective Club",
-  description:
-    "Everything you need to know before your first reformer Pilates class: what to expect, how to choose a studio, what to wear, and how to progress.",
+  title: "Beginner's Guide to Reformer Pilates (2026): What to Expect | Pilates Collective Club",
+  description: "Everything before your first reformer class — what to wear, what to expect, how to choose a studio, and how to progress. The guide we wish we had on day one.",
   openGraph: {
     title: "The Beginner's Guide to Reformer Pilates",
     description: "Everything you need to know before your first reformer Pilates class: what to expect, how to choose a studio, what to wear, and how to progress.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates",
-    images: [{ url: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1200&q=80", width: 1200, height: 630, alt: "Beginner's guide to reformer Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg", width: 1200, height: 630, alt: "Beginner's guide to reformer Pilates — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Beginner's Guide to Reformer Pilates",
     description: "Everything you need to know before your first reformer Pilates class.",
-    images: ["https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"],
   },
+  keywords: ["reformer pilates for beginners", "beginner reformer pilates guide", "first reformer pilates class", "what to expect reformer pilates", "how to start reformer pilates", "reformer pilates tips beginners", "pilates reformer beginner workout", "is reformer pilates hard for beginners", "reformer pilates studio what to know", "beginner pilates 2026"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const RELATED = [
@@ -43,13 +47,86 @@ const RELATED = [
   },
 ];
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates/#article",
+      "headline": "The Beginner's Guide to Reformer Pilates",
+      "description": "Everything you need to know before your first reformer Pilates class: what to expect, how to choose a studio, what to wear, and how to progress.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates",
+      "articleSection": "Beginners",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "The Beginner's Guide to Reformer Pilates", "item": "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many times a week should a beginner do reformer Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Two sessions per week is the standard recommendation for beginners. This gives your body time to recover while building neuromuscular patterns. After 8\u201312 weeks, many practitioners move to three sessions per week." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is reformer Pilates hard for beginners?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Reformer Pilates has a learning curve \u2014 the equipment is unfamiliar and the repertoire can feel complex. Most practitioners feel comfortable with the basics after four to six classes. The first session is largely observational." }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I wear to my first reformer class?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Fitted or tapered trousers and a fitted top. Avoid loose clothing that can catch in the springs. Grip socks are required at most studios \u2014 bring a pair or purchase them on arrival." }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I eat before reformer Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Avoid large meals two hours before class. A light snack one hour before is fine for most practitioners. Core-intensive exercises are uncomfortable on a full stomach." }
+    }
+      ]
+    },
+  ],
+};
 export default function BeginnerGuideReformerPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1400&q=80"
+          imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"
           imageAlt="Beginner's guide to reformer Pilates"
           category="Beginner Guide"
           title={<>The Beginner&apos;s Guide to<br /><span style={{ color: "#8b4a31" }}>Reformer Pilates</span></>}
@@ -120,9 +197,9 @@ export default function BeginnerGuideReformerPage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&q=80" },
-            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&q=80" },
-            { title: "How to Build a Consistent Pilates Practice", href: "/blog/how-to-build-a-consistent-pilates-practice", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" },
+            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
+            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
+            { title: "How to Build a Consistent Pilates Practice", href: "/blog/how-to-build-a-consistent-pilates-practice", readTime: "7 min read", imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" },
           ]} />
         </div>
       </main>

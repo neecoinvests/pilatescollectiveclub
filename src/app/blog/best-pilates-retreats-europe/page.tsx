@@ -5,30 +5,108 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Retreats in Europe | Pilates Collective Club",
-  description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
+  title: "Best Pilates Retreats in Europe (2026): Tested & Ranked | Pilates Collective Club",
+  description: "The best Pilates retreats in Europe for 2026: reformer immersions in Portugal, Mallorca, Tuscany, and the Swiss Alps. Prices and inclusions compared.",
   openGraph: {
     title: "The Best Pilates Retreats in Europe",
     description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
-    images: [{ url: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=80", width: 1200, height: 630, alt: "Best Pilates Retreats in Europe — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Retreats in Europe — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Retreats in Europe",
     description: "From Provence to Puglia — the European Pilates retreats worth planning your year around.",
-    images: ["https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
+  keywords: ["pilates retreats europe", "best pilates retreat", "pilates holiday europe", "pilates retreat italy", "pilates retreat france", "pilates retreat portugal", "pilates retreat switzerland", "pilates immersion retreat", "pilates wellness holiday", "pilates retreat 2026"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe/#article",
+      "headline": "Best Pilates Retreats in Europe (2026)",
+      "description": "Immersive studio retreats across Switzerland, France, Italy, and Portugal for serious practitioners.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
+      "articleSection": "Travel",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Best Pilates Retreats in Europe (2026)", "item": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a Pilates retreat in Europe cost?",
+      "acceptedAnswer": { "@type": "Answer", "text": "European Pilates retreats range from \u20ac800 to \u20ac3,500+ per person for a week. Budget options in Spain or Portugal include shared accommodation and group classes. Premium retreats in Tuscany or Provence with private instruction and luxury accommodation sit at the higher end." }
+    },
+    {
+      "@type": "Question",
+      "name": "What level do I need to be to attend a Pilates retreat?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Most European Pilates retreats welcome all levels. Programmes are structured with beginner, intermediate, and advanced classes, or are designed for mixed-ability groups. Check with the organiser if the programme suits your experience level." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in a typical Pilates retreat?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A typical retreat includes daily group classes (1\u20133 sessions), shared or private accommodation, meals (often full or half board), and sometimes additional wellness activities such as yoga, hiking, or spa treatments." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best time of year to do a Pilates retreat in Europe?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Spring (April\u2013June) and autumn (September\u2013October) are optimal for most European destinations. Coastal retreats in Greece, Spain, and Italy are best in June and September. Mountain retreats in the Alps are available year-round." }
+    }
+      ]
+    },
+  ],
+};
 export default function BestPilatesRetreatsEuropePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1400&q=80"
+          imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"
           imageAlt="European wellness retreat landscape"
           category="Travel"
           subcategory="8 min read"
@@ -112,9 +190,9 @@ export default function BestPilatesRetreatsEuropePage() {
           </div>
 
           <BlogSidebar related={[
-            { title: "Best Pilates Retreats in Europe", href: "/blog/best-pilates-retreats-europe", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=400&q=80" },
-            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" },
-            { title: "Pilates and Pregnancy", href: "/blog/pilates-and-pregnancy", readTime: "8 min read", imageUrl: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=400&q=80" },
+            { title: "Best Pilates Retreats in Europe", href: "/blog/best-pilates-retreats-europe", readTime: "8 min read", imageUrl: "/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" },
+            { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
+            { title: "Pilates and Pregnancy", href: "/blog/pilates-and-pregnancy", readTime: "8 min read", imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" },
           ]} />
         </div>
       </main>

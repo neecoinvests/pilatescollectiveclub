@@ -8,9 +8,16 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in London | Pilates Collective Club",
+  title: "The Best Pilates Studios in London",
   description:
-    "Our curated guide to London's finest Pilates studios. From boutique reformer classes in Chelsea to community studios in Shoreditch — everything you need before booking.",
+    "The best Pilates studios in London — reformer boutiques, classical method, and Lagree across Chelsea, Shoreditch, and Marylebone. Curated & verified.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
+  keywords: ["pilates studios london", "reformer pilates london", "best pilates london", "pilates classes london", "london pilates guide"],
   openGraph: {
     title: "The Best Pilates Studios in London",
     description: "Our curated guide to London's finest Pilates studios — five verified picks with booking tips.",
@@ -24,69 +31,78 @@ export const metadata: Metadata = {
     description: "Our curated guide to London's finest Pilates studios — five verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/london",
+  },
 };
 
 const STUDIOS = [
   {
     number: "01",
-    name: "Ten Health & Fitness",
-    neighborhood: "Shoreditch / City",
+    name: "Heartcore Chelsea",
+    neighborhood: "Chelsea",
     priceLevel: "£££",
-    review:
-      "Ten is widely considered London's benchmark for premium Pilates — a studio group that takes the physiotherapy foundations of the method seriously. The Shoreditch flagship on Worship Street is immaculate: high ceilings, natural light, and Balanced Body equipment throughout. The instruction quality is unusually high across the board, with many trainers holding dual qualifications in Pilates and sports science. Ten doesn't do trends; it does the work.",
-    address: "48 Worship Street, London EC2A 2DX",
-    bestFor: "Serious practitioners, rehabilitation, all levels",
-    signatureClass: "Reformer Pilates Level 2",
-    bookingTip: "The lunchtime slots at Worship Street book within minutes of opening. Download the app and book the Monday release.",
+    review: "Heartcore Chelsea occupies a sleek, light-filled space on the King's Road that feels more like a high-end wellness retreat than a gym. The studio is best known for its Reformer Ignite classes — high-intensity reformer sessions that draw a devoted following of Chelsea regulars who want serious results without the testosterone of a box gym. Instructors are rigorously trained and the programming rotates intelligently to prevent plateau. The clientele skews professional and thirties-plus, and the atmosphere is focused but never intimidating. It suits anyone who wants choreographed, music-driven reformer work delivered at a premium level.",
+    address: "—",
+    bestFor: "High-intensity reformer",
+    signatureClass: "Reformer Ignite",
+    bookingTip: "Book 48 hrs ahead; Monday morning slots sell out within minutes of opening",
   },
   {
     number: "02",
-    name: "Heartcore",
-    neighborhood: "Kensington",
+    name: "Exhale Pilates London",
+    neighborhood: "Fitzrovia",
     priceLevel: "£££",
-    review:
-      "Heartcore occupies a particular niche in London's studio scene — part Pilates, part cardio, entirely committed to an aesthetic and community that's hard to replicate. The Kensington studio is beautifully designed, and the instructors bring genuine energy to every class. The reformer sessions here are more dynamic than classical purists might prefer, but for clients looking for a demanding full-body workout with excellent instruction, Heartcore consistently delivers.",
-    address: "268-270 Kensington High Street, London W8 6ND",
-    bestFor: "Dynamic reformer, fitness-focused clients",
-    signatureClass: "Cardio Reformer",
-    bookingTip: "The 7am Kensington class is beloved by the local professional crowd — book it four days out at minimum.",
+    review: "Exhale sits quietly on a Fitzrovia backstreet and operates with the confidence of a studio that has nothing to prove. The teaching here leans toward a rigorous contemporary method — precise cueing, anatomical awareness, and a refusal to rush through the fundamentals. Classes are small by design, which means instructors can give individual corrections that most larger studios simply can't. The studio attracts dancers, physio patients returning to movement, and practitioners who have grown bored of aesthetic-led workouts. Its introductory offer is one of the better entry points to serious Pilates in central London.",
+    address: "—",
+    bestFor: "Classical & contemporary method",
+    signatureClass: "Full-Body Reformer",
+    bookingTip: "Intro offer available; midweek daytime classes have the best availability",
   },
   {
     number: "03",
-    name: "Bodyism",
+    name: "Kinetic Pilates",
     neighborhood: "Notting Hill",
-    priceLevel: "££££",
-    review:
-      "Bodyism is the jewel of London's wellness scene — a holistic studio that combines nutrition, mindset coaching, and Pilates into one quietly luxurious offering. The Pilates sessions here are private or semi-private only, delivered by some of the most experienced instructors in the city. The Notting Hill setting is utterly beautiful. If budget allows, a Bodyism session is a benchmark experience against which everything else is measured.",
-    address: "1a Holland Park Mews, London W11 3SS",
-    bestFor: "Private sessions, high-end holistic wellness",
-    signatureClass: "Bespoke Body Pilates",
-    bookingTip: "Bodyism operates by consultation. Call or email to discuss your goals before booking your first session.",
+    priceLevel: "££",
+    review: "Kinetic has quietly become one of Notting Hill's most trusted movement studios, earning loyalty from a neighbourhood that has no shortage of wellness options. The small-group reformer format — rarely more than eight people per class — allows for a level of personal attention that feels almost like a private session. The Dynamic Flow class is the signature draw: a flowing, moderately-paced session that builds genuine core strength without ever feeling mechanical. Pricing is refreshingly honest by west London standards, and the monthly membership structure rewards regulars. A strong choice for practitioners at any level who value quality over spectacle.",
+    address: "—",
+    bestFor: "Small-group reformer",
+    signatureClass: "Dynamic Flow",
+    bookingTip: "Monthly memberships offer the best per-class value; book online 5 days ahead",
   },
   {
     number: "04",
-    name: "Frame",
-    neighborhood: "Shoreditch",
-    priceLevel: "££",
-    review:
-      "Frame has built one of London's most loyal studio communities through a combination of genuinely excellent instruction, welcoming atmosphere, and smart pricing. The Shoreditch studio is unpretentious and fun — far removed from the hushed reverence of some competitors — but don't mistake accessibility for compromised quality. The Pilates programme here is rigorous, and the teaching is consistently strong. It's also one of the most inclusive studios in the city in terms of body type, fitness level, and general warmth.",
-    address: "29 New Inn Yard, London EC2A 3EY",
-    bestFor: "Community-focused classes, value, beginners to intermediate",
-    signatureClass: "Re-Form Pilates",
-    bookingTip: "Class packs offer excellent value. The community is friendly — go in without intimidation.",
+    name: "Ten Health & Fitness",
+    neighborhood: "Marylebone",
+    priceLevel: "£££",
+    review: "Ten on Marylebone High Street occupies a unique position in London's Pilates landscape: it bridges the gap between clinical rehabilitation and performance training with genuine credibility. The studio employs physiotherapists alongside Pilates instructors, and the programming reflects that dual expertise — expect careful loading progressions, thorough intake assessments, and classes that adapt intelligently to injury histories. The Reformer & Tower sessions are the standout offering, using the full equipment suite to build strength from the ground up. Marylebone regulars tend to be health-literate and demanding, and Ten meets that standard consistently. Ideal for post-rehab clients, athletes, and anyone serious about long-term movement quality.",
+    address: "—",
+    bestFor: "Physio-led Pilates",
+    signatureClass: "Reformer & Tower",
+    bookingTip: "New members receive a complimentary movement assessment — book it first",
   },
   {
     number: "05",
-    name: "Club Pilates Canary Wharf",
-    neighborhood: "Canary Wharf",
+    name: "Pilates in the Clouds",
+    neighborhood: "Shoreditch",
     priceLevel: "££",
-    review:
-      "Club Pilates brings a polished, structured approach to reformer Pilates that works particularly well for professionals working in the Canary Wharf area. The studio is clean and well-equipped, with a clear level-based class structure that makes progression visible and motivating. The membership model encourages consistency, which is exactly what the method demands. Not the most creative studio in London, but one of the most reliably well-run.",
-    address: "1 Bank Street, Canary Wharf, London E14 5NL",
-    bestFor: "Structured reformer progression, membership model, City workers",
-    signatureClass: "CP Signature Reformer",
-    bookingTip: "The level-based structure means you'll start at CP1. Complete the intro series before jumping to group classes.",
+    review: "Pilates in the Clouds brings a distinctly east London energy to the practice — creative, unpretentious, and refreshingly experimental. The studio combines aerial hammock work with reformer Pilates in a way that feels genuinely innovative rather than gimmicky, and the Cloud Reformer class has developed a cult following among Shoreditch creatives. The space itself is dramatically lit and high-ceilinged, which adds to the sense that each session is slightly out of the ordinary. Instructors have strong movement backgrounds — many come from dance or contemporary performance — and they bring genuine curiosity to the teaching. Best suited to practitioners who are comfortable with their fundamentals and ready to explore.",
+    address: "—",
+    bestFor: "Aerial & reformer fusion",
+    signatureClass: "Cloud Reformer",
+    bookingTip: "Weekend classes book up 72 hrs out; weekday evenings are the hidden gem",
   },
+  {
+    number: "06",
+    name: "Bootcamp Pilates",
+    neighborhood: "Islington",
+    priceLevel: "££",
+    review: "Bootcamp Pilates does exactly what the name suggests — it takes the reformer and strips away all the ambient softness to deliver a genuinely challenging 45-minute cardiovascular and strength session. The Islington studio draws a fitness-first crowd: people who have left traditional gyms behind but still want to work hard and see measurable results. The programming is interval-based, the reformer springs are loaded, and the instructors push without patronising. It is not the place to come for meditative breath-work or classical training, but as a weekly conditioning session it is hard to beat at this price point. First-timers are welcome and the learning curve is shorter than it looks.",
+    address: "—",
+    bestFor: "High-intensity reformer conditioning",
+    signatureClass: "Bootcamp Reformer 45",
+    bookingTip: "First class free with online signup; pack a towel — you will need it",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -178,7 +194,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in London",
       "description": "Curated guide to the top 5 Pilates studios in London.",
       "url": "https://pilatescollectiveclub.com/cities/london",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -231,7 +247,7 @@ export default function LondonPage() {
 
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
                 src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1400&q=80"
                 alt="London skyline"
@@ -252,7 +268,7 @@ export default function LondonPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-              5 Studios · Curated & Verified
+              6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (
@@ -269,7 +285,7 @@ export default function LondonPage() {
             </h2>
             <div className="space-y-6">
               {BOOKING_TIPS.map((tip) => (
-                <div key={tip.heading} className="flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
+                <div key={tip.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
                   <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
                   <div>
                     <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{tip.heading}</h3>
@@ -287,7 +303,7 @@ export default function LondonPage() {
               Best neighbourhoods for Pilates in London
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              London&apos;s Pilates landscape is shaped by its neighbourhoods. Here&apos;s where to look depending on where you&apos;re based.
+              London's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

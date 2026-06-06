@@ -7,22 +7,26 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner | Pilates Collective Club",
-  description:
-    "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides and beginner programmes. Reviewed and ranked by our editorial team.",
+  title: "Best Pilates Books (2026): Every Level from Beginner to Teacher | Pilates Collective Club",
+  description: "The best Pilates books of 2026 — classical method, contemporary anatomy, and teacher training guides reviewed. From Joseph Pilates to modern authors.",
   openGraph: {
     title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
     description: "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-books",
-    images: [{ url: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&q=80", width: 1200, height: 630, alt: "Best Pilates Books — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Books — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
     description: "The best Pilates books for every level — reviewed and ranked.",
-    images: ["https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
+  keywords: ["best pilates books", "pilates reading list", "return to life pilates book", "joseph pilates book", "pilates anatomy book", "pilates for beginners book", "best books for pilates teachers", "pilates method books", "pilates theory books 2026", "pilates instructor reading list"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-pilates-books",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
 const BOOKS = [
@@ -35,7 +39,7 @@ const BOOKS = [
       "Written by Joseph Pilates himself in 1945, this is the foundational text of the entire method. It contains the complete original mat repertoire — 34 exercises photographed and described in Pilates' own words — alongside his philosophy of health, breathing, and the relationship between mind and body. Every serious practitioner should read it at least once. The exercises are harder than they look; the philosophy is more modern than you'd expect from an 80-year-old text.",
     affiliateUrl: "https://www.amazon.com/s?k=return+to+life+through+contrology+joseph+pilates&tag=pilatescollective-20",
     bestFor: "All practitioners",
-    imageUrl: "https://images.unsplash.com/photo-1481627834876-b7833e8f5882?w=800&q=80",
+    imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
   },
   {
     rank: "02",
@@ -46,7 +50,7 @@ const BOOKS = [
       "Brooke Siler studied directly under Romana Kryzanowska — one of Joseph Pilates' original students — and wrote what remains the clearest, most accessible introduction to the classical mat method. The photography is exceptional, the cueing is precise, and the progression from beginner to advanced is intelligently structured. If you recommend one Pilates book to a new practitioner, this is it. Siler understands both the technical and philosophical dimensions of the work.",
     affiliateUrl: "https://www.amazon.com/s?k=the+pilates+body+brooke+siler&tag=pilatescollective-20",
     bestFor: "Beginners and intermediate practitioners",
-    imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
   },
   {
     rank: "03",
@@ -57,7 +61,7 @@ const BOOKS = [
       "The definitive anatomy reference for Pilates practitioners and teachers. Isacowitz and Clippinger map each classical exercise to the muscles it targets, the joints it mobilises, and the common alignment errors that compromise its effectiveness. Full-colour anatomical illustrations show exactly what's happening beneath the surface during the hundred, spine stretch, and side-lying series. Essential reading for anyone who wants to understand why Pilates works, not just how to do it.",
     affiliateUrl: "https://www.amazon.com/s?k=pilates+anatomy+rael+isacowitz+karen+clippinger&tag=pilatescollective-20",
     bestFor: "Intermediate to advanced practitioners and teachers",
-    imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=80",
+    imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
   },
   {
     rank: "04",
@@ -68,7 +72,7 @@ const BOOKS = [
       "A comprehensive, well-photographed reference covering the full breadth of the Pilates method — mat, reformer, Cadillac, chair, and barrel. Robinson's approach is more contemporary than Siler's but rooted in classical principles, and the book's format makes it genuinely useful as an ongoing reference rather than a one-time read. The sections on modifications for injury and pregnancy are particularly strong. The most complete single-volume Pilates reference available.",
     affiliateUrl: "https://www.amazon.com/s?k=the+pilates+bible+lynne+robinson&tag=pilatescollective-20",
     bestFor: "Practitioners wanting a comprehensive ongoing reference",
-    imageUrl: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80",
+    imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
   },
   {
     rank: "05",
@@ -79,7 +83,7 @@ const BOOKS = [
       "Mccook's book addresses a gap in the Pilates literature — how to adapt the method intelligently for bodies with structural variation, injury history, and chronic pain. Drawing on his background in movement science and somatics, Mccook explains how spinal mechanics, breathing, and deep core function interact, and how to modify classical exercises when the standard form isn't working. Required reading for practitioners dealing with back pain, hip issues, or post-surgical recovery.",
     affiliateUrl: "https://www.amazon.com/s?k=your+body+your+pilates+tom+mccook&tag=pilatescollective-20",
     bestFor: "Practitioners with injuries, chronic pain, or structural limitations",
-    imageUrl: "https://images.unsplash.com/photo-1543002588-359bbed0c201?w=800&q=80",
+    imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
   },
 ];
 
@@ -88,12 +92,36 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-pilates-books/#article",
       "headline": "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
       "description": "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
-      "url": "https://pilatescollectiveclub.com/blog/best-pilates-books",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+        "width": 1200,
+        "height": 630,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-01",
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "dateModified": "2026-05-14",
+      "url": "https://pilatescollectiveclub.com/blog/best-pilates-books",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-books",
+      "articleSection": "Reading",
+      "inLanguage": "en-US",
     },
     {
       "@type": "BreadcrumbList",
@@ -102,6 +130,31 @@ const jsonLd = {
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
         { "@type": "ListItem", "position": 3, "name": "Best Pilates Books", "item": "https://pilatescollectiveclub.com/blog/best-pilates-books" },
       ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Joseph Pilates original book?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Joseph Pilates published two books: Your Health (1934) and Return to Life Through Contrology (1945), which describes the 34 original mat exercises. Both remain essential reading for serious practitioners." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best Pilates book for beginners?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The Pilates Body by Brooke Siler is widely recommended for beginners. Rael Isacowitz and Karen Clippinger's Pilates Anatomy is the best second purchase for anatomical depth." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there Pilates books for specific conditions?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates for Rehabilitation by Brent Anderson covers clinical applications. For back pain, specialised instructor-recommended texts address Pilates-informed care. Always cross-reference with a qualified instructor." }
+    },
+    {
+      "@type": "Question",
+      "name": "What should Pilates teachers read?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Beyond the classical texts, Anatomy of Movement by Blandine Calais-Germain provides biomechanics foundations. STOTT Pilates instructor manuals are valuable for those trained in the contemporary lineage." }
+    }
+      ]
     },
   ],
 };
@@ -113,7 +166,7 @@ export default function BestPilatesBooksPage() {
       <Header />
       <main>
         <BlogHero
-          imageUrl="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1400&q=80"
+          imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"
           imageAlt="Pilates books for study"
           category="Reading List"
           subcategory="Method & Practice"
@@ -182,17 +235,17 @@ export default function BestPilatesBooksPage() {
               <div>
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Classical vs Contemporary Pilates" excerpt="Understanding the key differences between the original method and modern interpretations." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="7 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=800&q=80" />
-                  <ArticleCard title="The 6 Core Principles of Pilates, Explained" excerpt="Concentration, control, centering, precision, breath, and flow — what they actually mean in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="6 min read" date="May 2026" imageUrl="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" />
+                  <ArticleCard title="Classical vs Contemporary Pilates" excerpt="Understanding the key differences between the original method and modern interpretations." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="7 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
+                  <ArticleCard title="The 6 Core Principles of Pilates, Explained" excerpt="Concentration, control, centering, precision, breath, and flow — what they actually mean in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="6 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 </div>
               </div>
             </section>
           </div>
 
           <BlogSidebar related={[
-            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&q=80" },
-            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
-            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
+            { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
+            { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
+            { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
           ]} />
         </div>
       </main>

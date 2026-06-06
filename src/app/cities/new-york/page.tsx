@@ -8,8 +8,15 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in New York City | Pilates Collective Club",
-  description: "Our curated guide to NYC's finest Pilates studios — from classical powerhouses in Chelsea to boutique reformer rooms in SoHo, the West Village, and Gramercy. Book with confidence.",
+  title: "Best Pilates Studios in New York City",
+  description: "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Top-rated picks for every level and neighborhood.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
+  keywords: ["pilates studios new york", "reformer pilates nyc", "best pilates new york", "pilates classes nyc", "pilates manhattan"],
   openGraph: {
     title: "The Best Pilates Studios in New York City",
     description: "Our curated guide to NYC's finest Pilates studios — five verified picks from Chelsea to the West Village.",
@@ -23,64 +30,78 @@ export const metadata: Metadata = {
     description: "Our curated guide to NYC's finest Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80"],
   },
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/cities/new-york",
+  },
 };
 
 const STUDIOS = [
   {
     number: "01",
     name: "New York Pilates",
-    neighborhood: "West Village",
-    priceLevel: "$$$",
-    review: "New York Pilates has become one of the city's most talked-about reformer studios since launching in the West Village — a studio that brings downtown energy and serious technique together in a way that's difficult to replicate. The West Village flagship on Houston Street is beautifully designed, the instructors are excellent, and the brand's signature Arms Abs Ass class has developed a loyal following among practitioners who want results alongside their method. Multiple Manhattan locations make it highly accessible.",
-    address: "124 W Houston St, New York, NY 10012",
-    bestFor: "Contemporary reformer, fitness-forward clients, all levels",
-    signatureClass: "Arms Abs Ass Reformer",
-    bookingTip: "Book through the app. West Village morning slots go within the first hour of release — set notifications for Monday.",
+    neighborhood: "SoHo",
+    priceLevel: "$$$$",
+    review: "New York Pilates is perhaps the most photographed studio in the city, and yet the substance behind the aesthetic is real. Founded by Heather Andersen, the studio operates with a rigorous classical foundation that gets expressed through high-energy group reformer classes with carefully curated playlists. The SoHo and Flatiron locations attract a fashion-adjacent crowd — models, stylists, magazine editors — but the instruction is serious enough to satisfy purists. Andersen's teacher-training programme has seeded talent across the New York scene, which means the quality floor is unusually high. For anyone wanting to understand why group reformer took over Manhattan, this is the originating address.",
+    address: "—",
+    bestFor: "Music-driven group reformer",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Slots open 7 days ahead and disappear within hours; set a booking alarm",
   },
   {
     number: "02",
-    name: "Kinected Center for Movement",
-    neighborhood: "Chelsea",
-    priceLevel: "$$$",
-    review: "Kinected is widely regarded as one of the finest classical Pilates studios in New York — a studio that has maintained extraordinary standards through decades of change in the city's fitness landscape. The teaching here is rigorous and lineage-connected, with several instructors who trained under Romana Kryzanowska. Group apparatus classes are small (maximum six), private sessions are deeply personalised, and the studio's commitment to the original method is absolute. Not for those seeking a trends-forward experience — exactly for those who want the real thing.",
-    address: "255 West 23rd Street, New York, NY 10011",
-    bestFor: "Classical purists, private apparatus work, advanced practitioners",
-    signatureClass: "Romana's Pilates Apparatus",
-    bookingTip: "First-time clients must complete an intake session before joining group apparatus classes. It's well worth doing — the assessment shapes every subsequent session.",
+    name: "Real Pilates",
+    neighborhood: "Tribeca",
+    priceLevel: "$$$$",
+    review: "Real Pilates in Tribeca is the closest thing New York has to a classical Pilates conservatory. The studio houses an exceptional breadth of apparatus — Reformer, Cadillac, Wunda Chair, Ladder Barrel, and more — and the teaching draws directly from the Romana Kryzanowska lineage without being doctrinaire about it. Instructors here have typically trained for years before being let near a paying client, and the depth of anatomical knowledge in the room is palpable. The loft-like Tribeca space suits the neighbourhood: understated, serious, quietly impressive. It draws dancers, serious athletes, and those who have done enough beginner reformer to know they want the real thing.",
+    address: "—",
+    bestFor: "Classical apparatus training",
+    signatureClass: "Classical Reformer & Cadillac",
+    bookingTip: "Privates book weeks out; inquire about semi-private availability for better access",
   },
   {
     number: "03",
-    name: "Gramercy Pilates NYC",
-    neighborhood: "Gramercy / Flatiron",
-    priceLevel: "$$",
-    review: "Gramercy Pilates NYC has earned a devoted following in the Flatiron district through exceptional instruction and a certification school that keeps its teaching talent at the highest level. Named 2025 Pilates Studio of the Year by The Pilates Journal, the studio offers reformer, tower, chair, and mat Pilates in small group and private formats. The combination of Certified Pilates Teachers, dynamic Reformer work, and deep Tower stretching makes this one of the most technically rigorous — and rewarding — studios in the city.",
-    address: "39 E 20th St, New York, NY 10003",
-    bestFor: "Classical method, technique-focused, all equipment formats",
-    signatureClass: "Reformer & Tower",
-    bookingTip: "Book online at least 48 hours ahead for group classes. Private sessions with senior instructors benefit from a waitlist — add yourself and check cancellations.",
+    name: "Power Pilates",
+    neighborhood: "Upper West Side",
+    priceLevel: "$$$",
+    review: "Power Pilates on the Upper West Side has been a neighbourhood anchor for serious Pilates practitioners since before the boutique fitness boom made the practice fashionable. The studio is classically oriented — Romana lineage — and the teaching prioritises precision, sequencing, and progression over novelty. The Upper West Side location draws professionals in their thirties and forties, many of whom have been training here for years and consider it their movement home. Group classes are relatively affordable by Manhattan standards, making this one of the better entry points for practitioners who want classical training without committing immediately to private sessions. The no-frills aesthetic keeps the focus exactly where it belongs.",
+    address: "—",
+    bestFor: "Classical group reformer",
+    signatureClass: "Group Reformer",
+    bookingTip: "Long-term members often hold standing bookings; join the waitlist for peak times",
   },
   {
     number: "04",
-    name: "Body Evolutions",
-    neighborhood: "Greenwich Village",
+    name: "Solidcore",
+    neighborhood: "Midtown East",
     priceLevel: "$$$",
-    review: "Body Evolutions occupies a beautiful studio in the Village and has developed a reputation for exceptional private instruction in the classical method. Owner and director Jennifer DeLuca is among New York's most decorated classical teachers, and the studio's culture reflects her standards throughout. The group classes here are excellent, but the private session programme is where Body Evolutions truly distinguishes itself — patient, precise, and transformatively effective for clients willing to invest in the work.",
-    address: "18 West 18th Street, New York, NY 10011",
-    bestFor: "Private sessions, classical method, serious commitment",
-    signatureClass: "Classical Private Apparatus",
-    bookingTip: "The studio maintains a waitlist for new private clients with senior teachers. Group classes are more immediately accessible — start there to get acquainted.",
+    review: "Solidcore is not classical Pilates — and it is completely transparent about that. What it offers is a slow-twitch, time-under-tension reformer experience engineered for maximum muscular fatigue, delivered in a darkened room with bass-heavy music and instructors who function as enthusiastic coaches. The Midtown East location serves office workers who want an efficient, results-oriented workout at lunch or after work, and the model delivers on that promise reliably. The [solidcore] method builds genuine strength and the community around it is motivating without being cult-like. Best for fitness-focused practitioners who want the reformer as a tool for body composition rather than movement education.",
+    address: "—",
+    bestFor: "Strength-focused reformer conditioning",
+    signatureClass: "[solidcore] 50-min",
+    bookingTip: "ClassPass credits work here; first-timers should arrive 10 minutes early for orientation",
   },
   {
     number: "05",
-    name: "SLT (Strengthen Lengthen Tone)",
-    neighborhood: "SoHo / Multiple Locations",
-    priceLevel: "$$$",
-    review: "SLT is New York's most successful Pilates-adjacent boutique — a Megaformer-based workout that borrows the reformer's architecture and Pilates vocabulary while delivering something closer to slow-burn strength training. It's not classical Pilates, and serious method practitioners will note the difference. But SLT is exceptionally well-run, the Megaformer classes are genuinely challenging, and the teaching quality across their New York locations is high. For clients who want an intense, reformer-based workout in a premium environment, SLT is a consistent choice.",
-    address: "18 Spring Street, New York, NY 10012",
-    bestFor: "Megaformer training, fitness-forward clients, boutique experience",
-    signatureClass: "SLT Megaformer",
-    bookingTip: "Book through the app up to five days in advance. Weekday morning slots in SoHo go within an hour of opening.",
+    name: "Erika Bloom Wellness",
+    neighborhood: "West Village",
+    priceLevel: "$$$$",
+    review: "Erika Bloom Wellness occupies a calm, plant-filled townhouse in the West Village that signals immediately this is not a volume-driven studio. The practice here is deeply integrative — combining classical Pilates with somatic awareness, breathwork, and a genuine interest in each client's nervous system as much as their musculature. Sessions are predominantly private or semi-private, which makes this one of the more expensive addresses in the city, but the depth of transformation on offer justifies the investment for the right client. Bloom has built a reputation working with performers, executives, and people recovering from complex injuries. For practitioners who have exhausted what group reformer can offer and want something more fundamental, this is the destination.",
+    address: "—",
+    bestFor: "Integrative private sessions",
+    signatureClass: "Private Integrative Pilates",
+    bookingTip: "Book at least two weeks out; the intake process is thorough and worth completing carefully",
   },
+  {
+    number: "06",
+    name: "Physique 57",
+    neighborhood: "Midtown",
+    priceLevel: "$$$",
+    review: "Physique 57 is a New York original — the barre method studio that helped define the category — and its Midtown flagship retains the electric energy that made it famous. Classes combine barre, light weights, and mat Pilates in a choreographed sequence that never repeats exactly, keeping both the body and the mind engaged. The instructors are among the most charismatic in the city, and the soundtrack is impeccable. It draws a broad clientele: first-timers who have seen it on social media, loyal regulars who have been coming for a decade, and visiting professionals who know exactly what they're signing up for. Not the deepest Pilates training available in Manhattan, but one of the most enjoyable hours you can spend moving.",
+    address: "—",
+    bestFor: "Barre-Pilates fusion",
+    signatureClass: "Physique 57 Signature",
+    bookingTip: "Intro packages offer significant savings; book evening classes a week ahead",
+  }
 ];
 
 const BOOKING_TIPS = [
@@ -125,7 +146,7 @@ const jsonLd = {
       "name": "Best Pilates Studios in New York City",
       "description": "Curated guide to the top 5 Pilates studios in New York City.",
       "url": "https://pilatescollectiveclub.com/cities/new-york",
-      "numberOfItems": 5,
+      "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -171,7 +192,7 @@ export default function NewYorkPage() {
         </section>
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
-            <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1400&q=80" alt="New York City skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
@@ -184,7 +205,7 @@ export default function NewYorkPage() {
         </section>
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Studios · Curated & Verified</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
             <div className="space-y-8">{STUDIOS.map((s) => <StudioListing key={s.number} {...s} />)}</div>
           </div>
         </section>
@@ -193,7 +214,7 @@ export default function NewYorkPage() {
             <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Tips for booking Pilates in New York</h2>
             <div className="space-y-6">
               {BOOKING_TIPS.map((t) => (
-                <div key={t.heading} className="flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                <div key={t.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                   <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
                   <div>
                     <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.heading}</h3>

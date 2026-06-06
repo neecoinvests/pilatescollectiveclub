@@ -7,27 +7,104 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Equipment for Home Practice | Pilates Collective Club",
-  description:
-    "Our definitive guide to home Pilates equipment. From quality mats to resistance bands and reformer alternatives — everything you actually need.",
+  title: "Best Pilates Equipment for Home Practice (2026) | Pilates Collective Club",
+  description: "The best Pilates equipment for home in 2026: reformers, mats, rings, and accessories reviewed. Build a complete home studio at any budget.",
   openGraph: {
     title: "Best Pilates Equipment for Home Practice",
     description: "Our definitive guide to home Pilates equipment — from quality mats to resistance bands and reformer alternatives.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
-    images: [{ url: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200&q=80", width: 1200, height: 630, alt: "Pilates Equipment for Home Practice — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Equipment for Home Practice — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Equipment for Home Practice",
     description: "Our definitive guide to home Pilates equipment.",
-    images: ["https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200&q=80"],
+    images: ["https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg"],
   },
+  keywords: ["best pilates equipment for home", "home pilates equipment", "pilates home practice gear", "essential pilates props", "pilates home setup guide", "what equipment for pilates at home", "pilates mat home practice", "pilates resistance band home", "pilates magic circle home", "home pilates equipment 2026"],
+  alternates: {
+    canonical: "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
+  },
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice/#article",
+      "headline": "Best Pilates Equipment for Home Practice",
+      "description": "The essential kit for a serious home setup, from mats to resistance rings to foam rollers.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
+        "width": 1200,
+        "height": 800,
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "url": "https://pilatescollectiveclub.com",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pilatescollectiveclub.com/#organization",
+        "name": "Pilates Collective Club",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png",
+        },
+      },
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-12",
+      "url": "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
+      "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
+      "articleSection": "Equipment",
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://pilatescollectiveclub.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Best Pilates Equipment for Home Practice", "item": "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What equipment do I need to start Pilates at home?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A quality mat, a magic circle, and a set of resistance bands are sufficient for most mat Pilates exercises at home. A mini stability ball and ankle weights extend the repertoire considerably. You don't need a reformer to build a serious home practice." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Pilates reformer worth buying for home use?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A home reformer is worthwhile if you practise three or more times per week, have space, and budget $400\u2013$3,000. Entry-level machines like the AeroPilates 435 cover around 75% of a studio reformer's repertoire. For occasional practice, mat work with props is the better investment." }
+    },
+    {
+      "@type": "Question",
+      "name": "What mat thickness is best for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A 6\u20138mm mat is the standard. Thinner mats (3\u20134mm) are too firm for spinal rolling. Thicker yoga mats (10mm+) can be too soft, reducing proprioceptive feedback during precision movements." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do Pilates at home without equipment?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Mat Pilates requires only floor space and a mat. The core mat repertoire \u2014 hundreds, roll-up, single leg circles, rolling like a ball \u2014 requires no equipment and constitutes a full workout when performed with precision." }
+    }
+      ]
+    },
+  ],
+};
 export default function BlogEquipmentPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         {/* Article Header */}
@@ -81,7 +158,7 @@ export default function BlogEquipmentPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
-              <Image src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1400&q=80" alt="Pilates home practice equipment" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Pilates home practice equipment" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -122,7 +199,7 @@ export default function BlogEquipmentPage() {
                 description="6mm thick, high-density closed-cell foam with a natural cork surface layer for superior grip. Lightweight, easy to wipe clean, and comes with a carry strap. Our top recommendation for serious home practitioners."
                 price="From $52"
                 affiliateUrl="https://www.amazon.com/s?k=pilates+mat+6mm+cork+non+slip&tag=pilatescollective-20"
-                imageUrl="https://images.unsplash.com/photo-1574680178-02f8b1c66c21?w=800&q=80"
+                imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"
               />
             </section>
 
@@ -156,7 +233,7 @@ export default function BlogEquipmentPage() {
                 description="Set of 3 fabric-covered bands (light, medium, heavy). Durable looped design with anti-slip inner layer. Ideal for Pilates footwork, chest expansion, and stretching series. Includes a mesh storage bag."
                 price="From $28"
                 affiliateUrl="https://www.amazon.com/s?k=pilates+resistance+band+set+fabric&tag=pilatescollective-20"
-                imageUrl="https://images.unsplash.com/photo-1559595500-e15296bdbb48?w=800&q=80"
+                imageUrl="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg"
               />
             </section>
 
@@ -191,7 +268,7 @@ export default function BlogEquipmentPage() {
                 description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
                 price="From $35"
                 affiliateUrl="https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20"
-                imageUrl="https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&q=80"
+                imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg"
               />
             </section>
 
@@ -225,7 +302,7 @@ export default function BlogEquipmentPage() {
                 description="Neoprene-covered with adjustable fill pockets, 0.5–2kg per weight. Machine washable, secure velcro closure, and a slim profile that doesn't restrict movement range. A rare combination of quality and versatility."
                 price="From $38"
                 affiliateUrl="https://www.amazon.com/s?k=adjustable+ankle+weights+pilates+neoprene&tag=pilatescollective-20"
-                imageUrl="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=80"
+                imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"
               />
             </section>
 
@@ -261,7 +338,7 @@ export default function BlogEquipmentPage() {
                 description="Spring-loaded sliding board with adjustable resistance. Foldable and wall-mountable. Covers footwork, squat series, and standing balance exercises. A smart option before committing to a full reformer."
                 price="From $179"
                 affiliateUrl="https://www.amazon.com/s?k=pilates+board+home+workout+sliding&tag=pilatescollective-20"
-                imageUrl="https://images.unsplash.com/photo-1534218152144-cf9de1a0d00e?w=800&q=80"
+                imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"
               />
             </section>
 
