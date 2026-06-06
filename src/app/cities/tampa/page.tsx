@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: "https://pilatescollectiveclub.com/cities/tampa",
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG/1200px-Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG?w=1200&h=630&fit=crop",
+        url: "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80",
         width: 1200,
         height: 630,
         alt: "Pilates studio in Tampa, FL",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description:
       "The 6 best Pilates studios in Tampa — curated, verified, and reviewed for 2026.",
     images: [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG/1200px-Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG?w=1200&h=630&fit=crop",
+      "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80",
     ],
   },
   alternates: {
@@ -248,7 +248,7 @@ const FURTHER_READING = [
     readTime: "8 min read",
     date: "2026-03-10",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG/1200px-Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG",
+      "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80",
   },
   {
     title: "How to Choose a Pilates Instructor",
@@ -259,7 +259,7 @@ const FURTHER_READING = [
     readTime: "7 min read",
     date: "2026-01-14",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG/1200px-Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG",
+      "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80",
   },
 ];
 
@@ -333,7 +333,7 @@ export default function TampaPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG/1200px-Tampa_Skyline_With_Boat_Dock_at_Ballast_Point_Park.JPG"
+              src="https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80"
               alt="Pilates studio in Tampa, FL"
               fill
               unoptimized

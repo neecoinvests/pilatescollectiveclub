@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     description: "Six curated, verified Pilates studios in Nashville — from Green Hills classical studios to contemporary reformer rooms in 12 South.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/nashville",
-    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nashville_skyline_from_Fort_Negley_2018.jpg/1200px-Nashville_skyline_from_Fort_Negley_2018.jpg?w=1200&q=80", width: 1200, height: 630, alt: "Nashville Tennessee city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=1200&q=80", width: 1200, height: 630, alt: "Nashville Tennessee city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Studios in Nashville, TN (2026)",
     description: "Six curated Pilates studios in Nashville — verified picks for every level.",
-    images: ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nashville_skyline_from_Fort_Negley_2018.jpg/1200px-Nashville_skyline_from_Fort_Negley_2018.jpg?w=1200&q=80"],
+    images: ["https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=1200&q=80"],
   },
   alternates: {
     canonical: "https://pilatescollectiveclub.com/cities/nashville",
@@ -155,8 +155,8 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "Classical vs Contemporary Pilates", excerpt: "The split between Joseph Pilates' original system and modern interpretations — what it means for your practice.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "8 min read", date: "June 2026", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nashville_skyline_from_Fort_Negley_2018.jpg/1200px-Nashville_skyline_from_Fort_Negley_2018.jpg" },
-  { title: "How to Build a Consistent Pilates Practice", excerpt: "The habits, scheduling strategies, and mindset shifts that separate occasional students from committed practitioners.", href: "/blog/how-to-build-a-consistent-pilates-practice", category: "Guide", readTime: "7 min read", date: "June 2026", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nashville_skyline_from_Fort_Negley_2018.jpg/1200px-Nashville_skyline_from_Fort_Negley_2018.jpg" },
+  { title: "Classical vs Contemporary Pilates", excerpt: "The split between Joseph Pilates' original system and modern interpretations — what it means for your practice.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "8 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=1200&q=80" },
+  { title: "How to Build a Consistent Pilates Practice", excerpt: "The habits, scheduling strategies, and mindset shifts that separate occasional students from committed practitioners.", href: "/blog/how-to-build-a-consistent-pilates-practice", category: "Guide", readTime: "7 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=1200&q=80" },
 ];
 
 const jsonLd = {
@@ -226,7 +226,7 @@ export default function NashvillePage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nashville_skyline_from_Fort_Negley_2018.jpg/1200px-Nashville_skyline_from_Fort_Negley_2018.jpg" alt="Nashville Tennessee skyline" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=1200&q=80" alt="Nashville Tennessee skyline" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Nashville, Tennessee</p>
