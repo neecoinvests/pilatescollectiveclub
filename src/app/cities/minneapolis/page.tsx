@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     description: "Six curated, verified Pilates studios in Minneapolis — from Linden Hills classical practices to contemporary reformer rooms in Uptown.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/minneapolis",
-    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Minneapolis_skyline_51.JPG/1200px-Minneapolis_skyline_51.JPG?w=1200&q=80", width: 1200, height: 630, alt: "Minneapolis Minnesota city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80", width: 1200, height: 630, alt: "Minneapolis Minnesota city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Studios in Minneapolis, MN (2026)",
     description: "Six curated Pilates studios in Minneapolis — verified picks for every level.",
-    images: ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Minneapolis_skyline_51.JPG/1200px-Minneapolis_skyline_51.JPG?w=1200&q=80"],
+    images: ["https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/minneapolis" },
 };
@@ -148,8 +148,8 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "How to Build a Consistent Pilates Practice", excerpt: "The habits, scheduling strategies, and mindset shifts that separate occasional students from committed practitioners.", href: "/blog/how-to-build-a-consistent-pilates-practice", category: "Guide", readTime: "7 min read", date: "June 2026", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Minneapolis_skyline_51.JPG/1200px-Minneapolis_skyline_51.JPG" },
-  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you actually need to build a consistent home practice — especially useful for Minneapolis winters.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "June 2026", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Minneapolis_skyline_51.JPG/1200px-Minneapolis_skyline_51.JPG" },
+  { title: "How to Build a Consistent Pilates Practice", excerpt: "The habits, scheduling strategies, and mindset shifts that separate occasional students from committed practitioners.", href: "/blog/how-to-build-a-consistent-pilates-practice", category: "Guide", readTime: "7 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80" },
+  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you actually need to build a consistent home practice — especially useful for Minneapolis winters.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80" },
 ];
 
 const jsonLd = {
@@ -193,7 +193,7 @@ export default function MinneapolisPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Minneapolis_skyline_51.JPG/1200px-Minneapolis_skyline_51.JPG" alt="Minneapolis Minnesota skyline" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80" alt="Minneapolis Minnesota skyline" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Minneapolis, Minnesota</p>
