@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: "https://pilatescollectiveclub.com/cities/charlotte",
     images: [
       {
-        url: "https://images.unsplash.com/photo-XkyoIiDQWYU?w=1200&h=630&fit=crop",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Charlotte_night_skyline_2016_02.jpg/1200px-Charlotte_night_skyline_2016_02.jpg?w=1200&h=630&fit=crop",
         width: 1200,
         height: 630,
         alt: "Pilates studio in Charlotte, NC",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description:
       "The 6 best Pilates studios in Charlotte — curated, verified, and reviewed for 2026.",
     images: [
-      "https://images.unsplash.com/photo-XkyoIiDQWYU?w=1200&h=630&fit=crop",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Charlotte_night_skyline_2016_02.jpg/1200px-Charlotte_night_skyline_2016_02.jpg?w=1200&h=630&fit=crop",
     ],
   },
   alternates: {
@@ -248,7 +248,7 @@ const FURTHER_READING = [
     readTime: "7 min read",
     date: "2026-01-14",
     imageUrl:
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&h=450&fit=crop",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Charlotte_night_skyline_2016_02.jpg/1200px-Charlotte_night_skyline_2016_02.jpg",
   },
   {
     title: "Classical vs Contemporary Pilates",
@@ -259,7 +259,7 @@ const FURTHER_READING = [
     readTime: "6 min read",
     date: "2026-02-05",
     imageUrl:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=450&fit=crop",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Charlotte_night_skyline_2016_02.jpg/1200px-Charlotte_night_skyline_2016_02.jpg",
   },
 ];
 
@@ -333,7 +333,7 @@ export default function CharlottePage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-XkyoIiDQWYU?w=1400&h=840&fit=crop"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Charlotte_night_skyline_2016_02.jpg/1200px-Charlotte_night_skyline_2016_02.jpg"
               alt="Pilates studio in Charlotte, NC"
               fill
               className="object-cover"

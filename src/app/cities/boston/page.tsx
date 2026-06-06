@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     description: "Six curated, verified Pilates studios in Boston — from South End classical practices to high-performance reformer rooms in Back Bay.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/boston",
-    images: [{ url: "https://images.unsplash.com/photo-SFsKWydc7qY?w=1200&q=80", width: 1200, height: 630, alt: "Boston Massachusetts city guide — Pilates Collective Club" }],
+    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Boston%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg?w=1200&q=80", width: 1200, height: 630, alt: "Boston Massachusetts city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Studios in Boston, MA (2026)",
     description: "Six curated Pilates studios in Boston — verified picks for every level.",
-    images: ["https://images.unsplash.com/photo-SFsKWydc7qY?w=1200&q=80"],
+    images: ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Boston%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg?w=1200&q=80"],
   },
   alternates: {
     canonical: "https://pilatescollectiveclub.com/cities/boston",
@@ -161,8 +161,8 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "Classical vs Contemporary Pilates", excerpt: "The split between Joseph Pilates' original system and modern interpretations — what it means for your practice.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "8 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80" },
-  { title: "How to Choose the Right Pilates Instructor", excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "6 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" },
+  { title: "Classical vs Contemporary Pilates", excerpt: "The split between Joseph Pilates' original system and modern interpretations — what it means for your practice.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "8 min read", date: "June 2026", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Boston%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg" },
+  { title: "How to Choose the Right Pilates Instructor", excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "6 min read", date: "June 2026", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Boston%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg" },
 ];
 
 const jsonLd = {
@@ -239,7 +239,7 @@ export default function BostonPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-SFsKWydc7qY?w=1400&q=80" alt="Boston Massachusetts skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Boston%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg%2C_Massachusetts_skyline_20_June_2021.jpg/1200px-Boston%2C_Massachusetts_skyline_20_June_2021.jpg" alt="Boston Massachusetts skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Boston, Massachusetts</p>

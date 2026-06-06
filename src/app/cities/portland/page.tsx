@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     description: "Six curated, verified Pilates studios in Portland — from Pearl District classical practices to community-oriented studios in NE Portland.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/portland",
-    images: [{ url: "https://images.unsplash.com/photo-Ff4BbI31Czg?w=1200&q=80", width: 1200, height: 630, alt: "Portland Oregon city guide — Pilates Collective Club" }],
+    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg/1200px-Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg?w=1200&q=80", width: 1200, height: 630, alt: "Portland Oregon city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Studios in Portland, OR (2026)",
     description: "Six curated Pilates studios in Portland — verified picks for every level.",
-    images: ["https://images.unsplash.com/photo-Ff4BbI31Czg?w=1200&q=80"],
+    images: ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg/1200px-Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/portland" },
 };
@@ -154,8 +154,8 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "Pilates for Athletes", excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.", href: "/blog/pilates-for-athletes", category: "Performance", readTime: "7 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80" },
-  { title: "How to Build a Consistent Pilates Practice", excerpt: "The habits, scheduling strategies, and mindset shifts that separate occasional students from committed practitioners.", href: "/blog/how-to-build-a-consistent-pilates-practice", category: "Guide", readTime: "7 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80" },
+  { title: "Pilates for Athletes", excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.", href: "/blog/pilates-for-athletes", category: "Performance", readTime: "7 min read", date: "June 2026", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg/1200px-Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg" },
+  { title: "How to Build a Consistent Pilates Practice", excerpt: "The habits, scheduling strategies, and mindset shifts that separate occasional students from committed practitioners.", href: "/blog/how-to-build-a-consistent-pilates-practice", category: "Guide", readTime: "7 min read", date: "June 2026", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg/1200px-Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg" },
 ];
 
 const jsonLd = {
@@ -199,7 +199,7 @@ export default function PortlandPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-Ff4BbI31Czg?w=1400&q=80" alt="Portland Oregon" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg/1200px-Portland_skyline_from_Pittock_Mansion_May_2021_cropped.jpg" alt="Portland Oregon" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Portland, Oregon</p>
