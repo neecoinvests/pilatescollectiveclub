@@ -630,30 +630,31 @@ export default function Home() {
 
         <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
-        {/* Journal */}
-        <section className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
+        {/* Equipment */}
+        <section id="equipment" className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "8px" }}>
+            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "64px" }}>
               <div>
-                <p style={{ ...label, marginBottom: "12px" }}>Editorial</p>
+                <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
                 <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
-                  Journal
+                  Editor&apos;s essentials
                 </h2>
               </div>
-              <Link href="/blog" style={{
-                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
-                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
-                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
-              }}>
-                All articles
-              </Link>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#9a9490", margin: 0 }}>
+                Carefully selected. Available on Amazon.
+              </p>
             </div>
 
-            <div className="pcc-grid-journal" style={{ display: "grid", gap: "0 60px" }}>
-              {GUIDES.map((g) => (
-                <ArticleCard key={g.href} {...g} />
-              ))}
-            </div>
+            {PRODUCT_CATEGORIES.map((cat, ci) => (
+              <div key={cat.label} style={{ marginBottom: ci < PRODUCT_CATEGORIES.length - 1 ? "72px" : 0 }}>
+                <p style={{ ...label, marginBottom: "28px", color: "#0a0a0a" }}>{cat.label}</p>
+                <div className="pcc-grid-products" style={{ display: "grid", gap: "24px" }}>
+                  {cat.items.map((p) => (
+                    <ProductCard key={p.name} {...p} />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -688,31 +689,30 @@ export default function Home() {
 
         <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
-        {/* Equipment */}
-        <section id="equipment" className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
+        {/* Journal */}
+        <section className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "64px" }}>
+            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "8px" }}>
               <div>
-                <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
+                <p style={{ ...label, marginBottom: "12px" }}>Editorial</p>
                 <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
-                  Editor&apos;s essentials
+                  Journal
                 </h2>
               </div>
-              <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#9a9490", margin: 0 }}>
-                Carefully selected. Available on Amazon.
-              </p>
+              <Link href="/blog" style={{
+                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
+                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
+                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
+              }}>
+                All articles
+              </Link>
             </div>
 
-            {PRODUCT_CATEGORIES.map((cat, ci) => (
-              <div key={cat.label} style={{ marginBottom: ci < PRODUCT_CATEGORIES.length - 1 ? "72px" : 0 }}>
-                <p style={{ ...label, marginBottom: "28px", color: "#0a0a0a" }}>{cat.label}</p>
-                <div className="pcc-grid-products" style={{ display: "grid", gap: "24px" }}>
-                  {cat.items.map((p) => (
-                    <ProductCard key={p.name} {...p} />
-                  ))}
-                </div>
-              </div>
-            ))}
+            <div className="pcc-grid-journal" style={{ display: "grid", gap: "0 60px" }}>
+              {GUIDES.map((g) => (
+                <ArticleCard key={g.href} {...g} />
+              ))}
+            </div>
           </div>
         </section>
 
