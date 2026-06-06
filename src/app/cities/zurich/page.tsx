@@ -151,6 +151,40 @@ const NEIGHBORHOODS = [
   },
 ];
 
+const GEAR = [
+  {
+    name: "Pilates Grip Socks",
+    note: "Required at most reformer studios. Full-toe grip socks are the standard.",
+    price: "From $16",
+    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+  },
+  {
+    name: "Pilates Mat",
+    note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
+    price: "From $52",
+    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+  },
+  {
+    name: "Magic Circle",
+    note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    price: "From $24",
+    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+  },
+  {
+    name: "Resistance Bands",
+    note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
+    price: "From $22",
+    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Foam Roller",
+    note: "Essential for fascial release and spinal mobility work before and after class.",
+    price: "From $32",
+    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+  },
+];
+
+
 const RELATED_CITIES = [
   { city: "Geneva", country: "Switzerland", href: "/cities/geneva", studioCount: 5 },
   { city: "Lausanne", country: "Switzerland", href: "/cities/lausanne", studioCount: 5 },

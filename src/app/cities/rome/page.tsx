@@ -170,6 +170,40 @@ const NEIGHBORHOODS = [
   },
 ];
 
+const GEAR = [
+  {
+    name: "Pilates Grip Socks",
+    note: "Required at most reformer studios. Full-toe grip socks are the standard.",
+    price: "From $16",
+    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+  },
+  {
+    name: "Pilates Mat",
+    note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
+    price: "From $52",
+    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+  },
+  {
+    name: "Magic Circle",
+    note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    price: "From $24",
+    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+  },
+  {
+    name: "Resistance Bands",
+    note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
+    price: "From $22",
+    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Foam Roller",
+    note: "Essential for fascial release and spinal mobility work before and after class.",
+    price: "From $32",
+    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+  },
+];
+
+
 const RELATED_CITIES = [
   { city: "Milan", country: "Italy", href: "/cities/milan", studioCount: 5 },
   { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
@@ -334,6 +368,34 @@ export default function RomePage() {
             </div>
           </div>
         </section>
+
+        {/* Studio Gear */}
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              Grip socks are required at most reformer studios in Rome. These are our recommended picks — all available on Amazon.{" "}
+              <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {GEAR.map((g) => (
+                <a key={g.name} href={g.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div className="rounded-xl p-5 h-full flex flex-col justify-between" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", transition: "border-color 0.2s" }}>
+                    <div>
+                      <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{g.name}</h3>
+                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{g.note}</p>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.price}</span>
+                      <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-5xl mx-auto">
