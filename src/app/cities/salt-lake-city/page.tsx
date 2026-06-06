@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: "https://pilatescollectiveclub.com/cities/salt-lake-city",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1581474588563-e4a3e2ef0234?w=1200&h=630&fit=crop",
+        url: "https://images.unsplash.com/photo-noonH7_yqmg?w=1200&h=630&fit=crop",
         width: 1200,
         height: 630,
         alt: "Pilates studio in Salt Lake City, UT",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description:
       "The 6 best Pilates studios in Salt Lake City — curated, verified, and reviewed for 2026.",
     images: [
-      "https://images.unsplash.com/photo-1581474588563-e4a3e2ef0234?w=1200&h=630&fit=crop",
+      "https://images.unsplash.com/photo-noonH7_yqmg?w=1200&h=630&fit=crop",
     ],
   },
   alternates: {
@@ -334,7 +334,7 @@ export default function SaltLakeCityPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-1581474588563-e4a3e2ef0234?w=1400&h=840&fit=crop"
+              src="https://images.unsplash.com/photo-noonH7_yqmg?w=1400&h=840&fit=crop"
               alt="Pilates studio in Salt Lake City, UT"
               fill
               className="object-cover"
