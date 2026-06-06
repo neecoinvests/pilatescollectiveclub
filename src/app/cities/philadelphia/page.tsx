@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     description: "Six curated, verified Pilates studios in Philadelphia — from Rittenhouse Square classical studios to community-oriented reformer rooms in Fishtown.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/philadelphia",
-    images: [{ url: "https://images.unsplash.com/photo-1KHE6ER4hcI?w=1200&q=80", width: 1200, height: 630, alt: "Philadelphia Pennsylvania city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=1200&q=80", width: 1200, height: 630, alt: "Philadelphia Pennsylvania city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Studios in Philadelphia, PA (2026)",
     description: "Six curated Pilates studios in Philadelphia — verified picks for every level.",
-    images: ["https://images.unsplash.com/photo-1KHE6ER4hcI?w=1200&q=80"],
+    images: ["https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=1200&q=80"],
   },
   alternates: {
     canonical: "https://pilatescollectiveclub.com/cities/philadelphia",
@@ -232,7 +232,7 @@ export default function PhiladelphiaPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1KHE6ER4hcI?w=1400&q=80" alt="Philadelphia Pennsylvania skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=1400&q=80" alt="Philadelphia Pennsylvania skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Philadelphia, Pennsylvania</p>

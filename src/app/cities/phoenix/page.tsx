@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     description: "Six curated, verified Pilates studios in Phoenix and Scottsdale — from classical practices in Paradise Valley to athletic reformer rooms in Arcadia.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/phoenix",
-    images: [{ url: "https://images.unsplash.com/photo-RcDEbNQsjHU?w=1200&q=80", width: 1200, height: 630, alt: "Phoenix Arizona city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80", width: 1200, height: 630, alt: "Phoenix Arizona city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Studios in Phoenix, AZ (2026)",
     description: "Six curated Pilates studios in Phoenix and Scottsdale — verified picks for every level.",
-    images: ["https://images.unsplash.com/photo-RcDEbNQsjHU?w=1200&q=80"],
+    images: ["https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/phoenix" },
 };
@@ -193,7 +193,7 @@ export default function PhoenixPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-RcDEbNQsjHU?w=1400&q=80" alt="Phoenix Arizona desert skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80" alt="Phoenix Arizona desert skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Phoenix, Arizona</p>

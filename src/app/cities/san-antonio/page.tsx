@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: "https://pilatescollectiveclub.com/cities/san-antonio",
     images: [
       {
-        url: "https://images.unsplash.com/photo-lEe9ak4ADBs?w=1200&h=630&fit=crop",
+        url: "https://images.unsplash.com/photo-1469344804473-ce7d7a5b6086?w=1200&h=630&fit=crop",
         width: 1200,
         height: 630,
         alt: "Pilates studio in San Antonio, TX",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description:
       "The 6 best Pilates studios in San Antonio — curated, verified, and reviewed for 2026.",
     images: [
-      "https://images.unsplash.com/photo-lEe9ak4ADBs?w=1200&h=630&fit=crop",
+      "https://images.unsplash.com/photo-1469344804473-ce7d7a5b6086?w=1200&h=630&fit=crop",
     ],
   },
   alternates: {
@@ -239,7 +239,7 @@ const FURTHER_READING = [
     readTime: "7 min read",
     date: "2026-01-20",
     imageUrl:
-      "https://images.unsplash.com/photo-lEe9ak4ADBs?w=800&h=450&fit=crop",
+      "https://images.unsplash.com/photo-1469344804473-ce7d7a5b6086?w=800&h=450&fit=crop",
   },
 ];
 
@@ -312,7 +312,7 @@ export default function SanAntonioPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-lEe9ak4ADBs?w=1400&h=840&fit=crop"
+              src="https://images.unsplash.com/photo-1469344804473-ce7d7a5b6086?w=1400&h=840&fit=crop"
               alt="Pilates studio in San Antonio, TX"
               fill
               className="object-cover"
