@@ -551,164 +551,161 @@ export default function Home() {
       <Header />
       <main>
 
-        {/* Hero — editorial split */}
+        {/* Hero */}
         <section style={{
-          display: "flex",
+          position: "relative",
           height: "100vh",
-          minHeight: "640px",
+          minHeight: "680px",
           maxHeight: "1000px",
           overflow: "hidden",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "flex-end",
         }}>
-          {/* Left: image panel (60%) */}
-          <div style={{ position: "relative", flex: "0 0 60%", overflow: "hidden" }}>
-            <Image
-              src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"
-              alt="Pilates reformer studio"
-              fill
-              unoptimized
-              style={{ objectFit: "cover", objectPosition: "center center" }}
-              priority
-            />
-            {/* Subtle left vignette for depth */}
-            <div style={{
-              position: "absolute",
-              inset: 0,
-              background: "linear-gradient(to right, rgba(0,0,0,0.18) 0%, transparent 40%)",
-              pointerEvents: "none",
-            }} />
-            {/* Issue label pinned bottom-left */}
-            <div style={{
-              position: "absolute",
-              bottom: "36px",
-              left: "40px",
-              display: "flex",
-              flexDirection: "column" as const,
-              gap: "6px",
+          {/* Full-bleed background image */}
+          <Image
+            src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"
+            alt="Pilates studio"
+            fill
+            style={{ objectFit: "cover", objectPosition: "center 20%" }}
+            priority
+          />
+          {/* Cinematic gradient overlay — dark at bottom for legibility */}
+          <div style={{
+            position: "absolute",
+            inset: 0,
+            background: "linear-gradient(to top, rgba(8,8,8,0.90) 0%, rgba(8,8,8,0.45) 45%, rgba(8,8,8,0.10) 100%)",
+          }} />
+          {/* Top bar — logo label */}
+          <div style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            padding: "32px 52px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            zIndex: 2,
+          }}>
+            <p style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "10px",
+              fontWeight: 500,
+              letterSpacing: "0.22em",
+              textTransform: "uppercase" as const,
+              color: "rgba(255,255,255,0.55)",
+              margin: 0,
             }}>
-              <p style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: "9px",
-                fontWeight: 400,
-                letterSpacing: "0.22em",
-                textTransform: "uppercase" as const,
-                color: "rgba(255,255,255,0.45)",
-                margin: 0,
-              }}>No. 01 — Est. 2026</p>
-              <div style={{ width: "32px", height: "1px", backgroundColor: "rgba(255,255,255,0.3)" }} />
-            </div>
+              Pilates Collective Club
+            </p>
+            <p style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "10px",
+              fontWeight: 400,
+              letterSpacing: "0.15em",
+              textTransform: "uppercase" as const,
+              color: "rgba(255,255,255,0.35)",
+              margin: 0,
+            }}>
+              Est. 2026
+            </p>
           </div>
 
-          {/* Right: editorial text panel (40%) */}
+          {/* Main content — pinned to bottom */}
           <div style={{
-            flex: "0 0 40%",
-            backgroundColor: "#f7f3ee",
-            display: "flex",
-            flexDirection: "column" as const,
-            justifyContent: "space-between",
-            padding: "48px 52px",
+            position: "relative",
+            zIndex: 2,
+            padding: "0 52px 64px",
+            maxWidth: "1300px",
+            width: "100%",
           }}>
-            {/* Top row */}
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
-              <p style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: "9px",
-                fontWeight: 500,
-                letterSpacing: "0.22em",
-                textTransform: "uppercase" as const,
-                color: "#9e8e7e",
-                margin: 0,
-              }}>
-                Pilates Collective Club
-              </p>
-              <p style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: "9px",
-                fontWeight: 400,
-                letterSpacing: "0.15em",
-                textTransform: "uppercase" as const,
-                color: "#c5b5a5",
-                margin: 0,
-              }}>
-                Est. 2026
-              </p>
-            </div>
+            {/* Thin gold rule */}
+            <div style={{ width: "48px", height: "1px", backgroundColor: "#c5a882", marginBottom: "28px" }} />
 
-            {/* Centre: headline block */}
-            <div>
-              {/* Gold rule */}
-              <div style={{ width: "40px", height: "1px", backgroundColor: "#c5a882", marginBottom: "32px" }} />
-              <h1 style={{
-                fontFamily: "var(--font-serif)",
-                fontSize: "clamp(38px, 4.2vw, 72px)",
-                fontWeight: 300,
-                lineHeight: 1.0,
-                color: "#1a1510",
-                letterSpacing: "-0.02em",
-                margin: "0 0 28px",
-              }}>
-                From the<br />
-                powerhouse,<br />
-                <em style={{ color: "#c5a882", fontStyle: "italic" }}>everything<br />follows.</em>
-              </h1>
+            <h1 style={{
+              fontFamily: "var(--font-serif)",
+              fontSize: "clamp(48px, 7.5vw, 112px)",
+              fontWeight: 300,
+              lineHeight: 0.98,
+              color: "#ffffff",
+              letterSpacing: "-0.02em",
+              marginBottom: "36px",
+              maxWidth: "780px",
+            }}>
+              From the<br />
+              powerhouse,<br />
+              <em style={{ color: "#c5a882" }}>everything follows.</em>
+            </h1>
+
+            <div style={{ display: "flex", alignItems: "center", gap: "32px", flexWrap: "wrap" }}>
               <p style={{
                 fontFamily: "var(--font-sans)",
-                fontSize: "12px",
+                fontSize: "13px",
                 fontWeight: 300,
-                color: "#7a6e64",
-                lineHeight: 1.8,
-                margin: "0 0 40px",
-                maxWidth: "300px",
+                color: "rgba(255,255,255,0.55)",
+                lineHeight: 1.7,
+                maxWidth: "380px",
+                margin: 0,
                 letterSpacing: "0.01em",
               }}>
-                Curated studio guides, editorial reviews, and the finest in Pilates equipment — written by practitioners.
+                Curated studio guides, editorial reviews, and the best in Pilates equipment — written by practitioners.
               </p>
-              <div style={{ display: "flex", flexDirection: "column" as const, gap: "10px", maxWidth: "240px" }}>
-                <Link href="/#cities" style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "9px",
-                  fontWeight: 500,
-                  letterSpacing: "0.2em",
-                  textTransform: "uppercase" as const,
-                  color: "#f7f3ee",
-                  textDecoration: "none",
-                  backgroundColor: "#1a1510",
-                  padding: "14px 28px",
-                  display: "block",
-                  textAlign: "center" as const,
-                }}>
-                  Browse Studios
-                </Link>
+              <div style={{ display: "flex", gap: "12px", flexShrink: 0 }}>
                 <Link href="/blog" style={{
                   fontFamily: "var(--font-sans)",
-                  fontSize: "9px",
+                  fontSize: "10px",
                   fontWeight: 500,
-                  letterSpacing: "0.2em",
+                  letterSpacing: "0.18em",
                   textTransform: "uppercase" as const,
-                  color: "#1a1510",
+                  color: "#0a0a0a",
                   textDecoration: "none",
-                  border: "1px solid #c5b5a5",
-                  padding: "13px 28px",
-                  display: "block",
-                  textAlign: "center" as const,
+                  backgroundColor: "#ffffff",
+                  padding: "13px 26px",
+                  display: "inline-block",
                 }}>
                   Read the Journal
                 </Link>
+                <Link href="/#cities" style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: "10px",
+                  fontWeight: 500,
+                  letterSpacing: "0.18em",
+                  textTransform: "uppercase" as const,
+                  color: "#ffffff",
+                  textDecoration: "none",
+                  border: "1px solid rgba(255,255,255,0.4)",
+                  padding: "13px 26px",
+                  display: "inline-block",
+                }}>
+                  Browse Studios
+                </Link>
               </div>
             </div>
+          </div>
 
-            {/* Bottom: scroll cue */}
-            <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-              <div style={{ width: "1px", height: "36px", backgroundColor: "#c5b5a5" }} />
-              <p style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: "9px",
-                fontWeight: 400,
-                letterSpacing: "0.2em",
-                textTransform: "uppercase" as const,
-                color: "#c5b5a5",
-                margin: 0,
-              }}>Scroll</p>
-            </div>
+          {/* Scroll cue */}
+          <div style={{
+            position: "absolute",
+            bottom: "36px",
+            right: "52px",
+            zIndex: 2,
+            display: "flex",
+            flexDirection: "column" as const,
+            alignItems: "center",
+            gap: "8px",
+          }}>
+            <p style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "9px",
+              fontWeight: 400,
+              letterSpacing: "0.2em",
+              textTransform: "uppercase" as const,
+              color: "rgba(255,255,255,0.3)",
+              margin: 0,
+              writingMode: "vertical-rl" as const,
+            }}>Scroll</p>
+            <div style={{ width: "1px", height: "40px", backgroundColor: "rgba(255,255,255,0.2)" }} />
           </div>
         </section>
 
