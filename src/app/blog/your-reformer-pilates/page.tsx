@@ -35,7 +35,7 @@ const PRODUCTS = [
     verdict: "Best connected home reformer",
     description:
       "Your Reformer's The Original is one of the most thoughtfully designed home reformers on the market — a machine that takes the Peloton-era principle of hardware plus content and applies it with genuine quality to Pilates. The reformer itself is a full-specification spring machine: a five-spring system, sealed carriage bearings, three-position footbar, and a wood-accented frame that genuinely reads as furniture in a living space rather than gym equipment in a spare room. The YR app integration is the differentiator — an on-demand and live class library built by Your Reformer's team of instructors, accessible through a tablet mount that attaches to the machine. Class lengths range from 20 to 55 minutes across beginner, intermediate, and advanced levels. For home practitioners who want both a quality machine and the guidance structure of a studio without the studio commute, The Original is a compelling and coherent package.",
-    affiliateUrl: "https://www.amazon.com/s?k=your+reformer+pilates+original&tag=pilatescollective-20",
+    affiliateUrl: "https://yourreformer.com",
     tag: "Editor's Pick",
   },
   {
@@ -45,7 +45,7 @@ const PRODUCTS = [
     verdict: "Best Your Reformer for advanced practitioners",
     description:
       "The Studio is Your Reformer's premium machine — an extended version of The Original with a longer carriage, additional spring configuration options, and a larger platform end for standing work. The most significant upgrade from The Original is the extended footbar reach, which accommodates practitioners up to approximately 6'3\" through the full repertoire. The Studio also features a more comprehensive YR app subscription tier with advanced programming, class packs, and instructor-led progressions that build over weeks. For practitioners who have outgrown The Original or who are taller, The Studio is the appropriate choice within the Your Reformer ecosystem. The wood and aluminium construction is consistent with The Original — same quality standards, larger specification.",
-    affiliateUrl: "https://www.amazon.com/s?k=your+reformer+the+studio+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://yourreformer.com",
     tag: "Premium Model",
   },
   {
@@ -55,7 +55,7 @@ const PRODUCTS = [
     verdict: "The content ecosystem",
     description:
       "The YR app is the component of Your Reformer that most distinguishes the brand from conventional reformer manufacturers. The subscription provides access to a library of reformer classes filmed specifically for Your Reformer machines, taught by instructors trained in the Your Reformer method. Classes are structured into progressive programmes rather than standalone sessions, which is important for practitioners without a live instructor — progression without guidance is one of the most common failure modes in home reformer practice. The app also includes guided warm-up and cool-down sequences, mobility work, and challenge programmes for experienced practitioners. The subscription is not required to use the reformer itself, but the hardware and content are designed as a unified system.",
-    affiliateUrl: "https://www.amazon.com/s?k=your+reformer+pilates+app&tag=pilatescollective-20",
+    affiliateUrl: "https://yourreformer.com",
     tag: "App Platform",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     verdict: "Best Your Reformer add-ons",
     description:
       "Your Reformer's accessories range includes reformer-specific add-ons designed to match the aesthetic and functional quality of the machine: a box set, additional spring options, the standing platform, and a mat that fits the carriage dimensions exactly. The accessories are sold as individual items and as bundles. The box set is the most functionally important addition — it unlocks exercises in the short box, long box, and kneeling series that cannot be performed without it. Your Reformer's accessories are designed specifically for their machines and match the wood-and-aluminium aesthetic precisely, which matters for practitioners who care about the home studio environment as a whole.",
-    affiliateUrl: "https://www.amazon.com/s?k=your+reformer+pilates+accessories&tag=pilatescollective-20",
+    affiliateUrl: "https://yourreformer.com",
     tag: "Accessories",
   },
 ];

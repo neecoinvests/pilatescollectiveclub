@@ -35,7 +35,7 @@ const PRODUCTS = [
     verdict: "The flagship — longest carriage in the industry",
     description:
       "The BASI Systems Reformer is one of the most engineered pieces of Pilates apparatus available, designed in direct collaboration with Rael Isacowitz — the founder of BASI Pilates and one of the most influential figures in contemporary Pilates education globally. The defining specification is carriage travel: the BASI reformer offers the longest carriage excursion in the production reformer market, which is why the machine has become a reference choice for working with professional athletes, dancers, and practitioners over 6'2\". The frame is constructed from solid beechwood and aerospace-grade aluminium — a combination that provides structural rigidity comparable to steel while maintaining the warmth and resonance of wood. The carriage glides on custom-milled bearings that give it a distinctive, weighted feel that experienced practitioners describe as having more presence and resistance character than lighter-framed competitors. The five-spring system uses BASI's colour-coded calibration. A genuine investment piece for serious studios.",
-    affiliateUrl: "https://www.amazon.com/s?k=basi+systems+pilates+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://basisystems.com/product-category/reformers/",
     tag: "Editor's Pick",
   },
   {
@@ -45,7 +45,7 @@ const PRODUCTS = [
     verdict: "Best complete BASI apparatus",
     description:
       "The BASI Systems Reformer with the F2 modular tower is the complete BASI apparatus — the reformer platform combined with the F2's push-through bar, arm spring system, leg springs, and roll-down bar. The F2 System is engineered as a modular attachment rather than a fixed addition, which means the tower can be reconfigured or removed as the studio's needs change. This modularity extends to the multi-angle pulley system that is unique to the BASI F2 — a mechanism that changes the line of pull for arm and leg spring exercises, expanding the functional repertoire beyond what fixed-tower attachments offer. For instructors who teach the BASI method curriculum, the F2 tower is the intended apparatus that exercises are sequenced around. At $6,200+, this is a professional-grade investment appropriate for dedicated studios and very serious home practitioners.",
-    affiliateUrl: "https://www.amazon.com/s?k=basi+systems+reformer+f2+tower&tag=pilatescollective-20",
+    affiliateUrl: "https://basisystems.com/product-category/reformers/",
     tag: "Complete Apparatus",
   },
   {
@@ -55,7 +55,7 @@ const PRODUCTS = [
     verdict: "Best BASI small apparatus",
     description:
       "The BASI Systems Arc is the brand's Pilates Arc — a small apparatus that provides thoracic extension support, hip flexor stretching, and abdominal strengthening that mat work cannot replicate. What distinguishes the BASI Arc from competing arcs (Balanced Body Arc, Merrithew Arc) is the density and curvature calibration: Rael Isacowitz designed the curve geometry specifically for the spinal articulation exercises in the BASI curriculum. The construction is denser and more stable than budget arcs, maintaining its shape and resistance through years of regular use. For BASI-trained practitioners and instructors who want the apparatus that the curriculum was designed around, this is the appropriate choice. For general practitioners, Balanced Body's Arc is a practical and significantly cheaper alternative.",
-    affiliateUrl: "https://www.amazon.com/s?k=basi+systems+arc+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://basisystems.com/product-category/arc/",
     tag: "Best Small Apparatus",
   },
   {
@@ -65,7 +65,7 @@ const PRODUCTS = [
     verdict: "Best BASI chair for advanced work",
     description:
       "The BASI Systems Stability Chair is the brand's take on the Wunda Chair — a split-pedal design with a four-spring configuration that covers the complete BASI chair curriculum. The construction standards match the reformer line: beechwood and aluminium frame, dense upholstery, and the precision spring calibration that defines BASI's approach. The Stability Chair is particularly favoured by instructors who work with clinical populations and professional athletes, where the precise resistance control of the BASI spring system matters more than it does in general fitness contexts. The pedal geometry and spring attachment points are designed around the biomechanical principles that Rael Isacowitz codified in the BASI curriculum.",
-    affiliateUrl: "https://www.amazon.com/s?k=basi+systems+stability+chair+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://basisystems.com/product-category/chairs/",
     tag: "Best Chair",
   },
 ];

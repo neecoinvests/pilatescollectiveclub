@@ -446,7 +446,7 @@ const PRODUCT_CATEGORIES = [
         name: "Gratz Universal Reformer",
         description: "The original. Built since 1965 under Joseph Pilates' direction, handmade in New York. Four springs, 3-gear bar, unchanged in six decades. $4,995–$5,295.",
         price: "From $4,995",
-        affiliateUrl: "https://www.amazon.com/s?k=gratz+pilates+universal+reformer&tag=pilatescollective-20",
+        affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
         imageUrl: "/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg",
       },
     ],

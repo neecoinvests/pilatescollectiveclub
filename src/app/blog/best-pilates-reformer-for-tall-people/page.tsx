@@ -45,7 +45,7 @@ const PRODUCTS = [
     verdict: "Best classical reformer for tall practitioners",
     description:
       "The Gratz Universal Reformer is the gold standard of classical Pilates equipment and features one of the longest carriages in the market — accommodating the full classical repertoire as intended by Joseph Pilates himself. For tall practitioners who study in the classical tradition, the Gratz is the reference point: the carriage dimensions are generous, the rope length is adjustable across a wider range than most contemporary reformers, and the spring resistance has a progressive feel that rewards control and precision over raw force. The upholstered carriage and lacquered steel frame are built to last decades with basic maintenance. This is an investment in permanent equipment, not a consumer product with a planned replacement cycle.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+universal+reformer+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
     tag: "Best Classical",
   },
   {

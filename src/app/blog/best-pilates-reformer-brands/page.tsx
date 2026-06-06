@@ -137,7 +137,7 @@ const BRANDS = [
     summary: "Gratz is the original. The company manufactured reformers for Joseph Pilates himself in his New York studio and has continued making them largely unchanged for nearly a century. A Gratz machine is a precision instrument: lighter, faster spring response than any modern machine, traditional canvas and leather finishing, and dimensions that match exactly what Pilates designed his exercises around. If you practise classical Pilates — Romana's Pilates, New York Pilates, or the Contrology lineage — there is no substitute. The investment is significant, but Gratz reformers from the 1960s are still in active studio use.",
     pros: ["Historically accurate spring tensions the entire classical repertoire is built on", "Lifetime durability — original 1960s machines still performing", "Every classical apparatus available from a single source", "The tactile feedback the method was designed around"],
     cons: ["Most expensive reformers on the market ($6,000+ standard model)", "Not designed for contemporary method modifications", "Limited dealer network outside the US", "Traditional finishing — less comfortable padding than modern machines"],
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+pilates+universal+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
     affiliateLabel: "Shop Gratz →",
   },
   {
@@ -182,7 +182,7 @@ const BRANDS = [
     summary: "BASI Systems is the equipment brand built to match the BASI Pilates education programme — founded by Rael Isacowitz, one of the world's most respected Pilates educators. What distinguishes the BASI Systems reformer is engineering designed for athletic and dance populations: the longest standard carriage available in the industry (critical for practitioners over 6 feet and for the full lunge and split repertoire), and a spring system calibrated for the demands of the BASI curriculum. Machines are used in elite sports performance centres, conservatories, and premium boutique studios where the BASI method is central. A serious choice for serious practitioners.",
     pros: ["Longest standard carriage in the industry — essential for tall practitioners and athletic repertoire", "Built to support the full BASI curriculum from beginner to performance", "Used in elite sports performance and dance institutions", "Exceptional durability for intensive commercial use"],
     cons: ["Premium pricing — significantly above Merrithew and Balanced Body for comparable models", "Less widely available — boutique dealer network", "Over-engineered for general home use"],
-    affiliateUrl: "https://www.amazon.com/s?k=basi+systems+pilates+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://basisystems.com/product-category/reformers/",
     affiliateLabel: "Shop BASI Systems →",
   },
   {
@@ -242,7 +242,7 @@ const BRANDS = [
     summary: "Your Reformer is the best reformer Pilates at home brand for practitioners who want more than just a machine — they want a complete home studio experience. The Original reformer is a beautiful solid oak construction with genuine calibrated springs and a fold-flat design that collapses in under 30 seconds without tools. What makes Your Reformer genuinely distinct is the paired on-demand app: a world-class library of reformer classes ranging from beginner to advanced, updated weekly, and optimised to work with the machine's specific spring resistances. If the quality of your programming matters as much as the quality of your equipment, nothing else in this price range comes close.",
     pros: ["Paired on-demand app is the best in the home reformer category", "Solid oak construction — aesthetically premium, built to last", "Fold-flat in 30 seconds without tools — ideal for apartment living", "Spring calibration matches the app's resistance cues precisely"],
     cons: ["App subscription is an ongoing cost", "Spring feel is brand-specific — different from studio machines", "Accessories range still developing compared to Balanced Body"],
-    affiliateUrl: "https://www.amazon.com/s?k=your+reformer+pilates+original&tag=pilatescollective-20",
+    affiliateUrl: "https://yourreformer.com",
     affiliateLabel: "Shop Your Reformer →",
   },
   {

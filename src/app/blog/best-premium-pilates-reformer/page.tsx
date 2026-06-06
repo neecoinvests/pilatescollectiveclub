@@ -144,7 +144,7 @@ const PRODUCTS = [
     tier: "Heritage",
     description:
       "The Gratz Universal Reformer is the original — first built in 1965 under the direct guidance of Joseph Pilates and Romana Kryzanowska, and essentially unchanged since. The 86-inch aluminum reformer uses four identical heavy-gauge springs and a 3-gear bar that adjusts spring angle (not just tension), creating a resistance curve unlike any modern competitor. Classical lineage practitioners consistently describe the Gratz spring feel as the standard against which all other reformers are measured. Current retail: $4,995 for the aluminum (80″, 86″, 89″), $5,295 for maple wood — verified at gratzpilates.com, updated May 2026. Available with lead times that reflect handcraft production in New York.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+pilates+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
     specs: [
       { label: "Rail lengths", value: "80″, 86″, 89″" },
       { label: "Springs", value: "4 identical springs + 3-gear bar" },

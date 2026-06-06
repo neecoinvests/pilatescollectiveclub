@@ -60,7 +60,7 @@ const PRODUCTS = [
     verdict: "Best for classical Pilates studios",
     description:
       "The Gratz Trapeze Table is the classical standard — manufactured to Joseph Pilates' original specifications in New York. The spring configuration, frame proportions, and table dimensions match the apparatus Pilates used in his 8th Avenue studio. For classical lineage teachers and studios where the original exercises are taught as designed, the Gratz Trapeze Table is the only appropriate choice — the spring tensions and attachment points are calibrated to the classical exercises in ways that contemporary versions approximate but do not replicate exactly. Purchased directly from Gratz (gratzpilates.com) at approximately $10,000–$12,000+. Not available on Amazon. A generational purchase for serious classical studios.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+trapeze+table+pilates+cadillac&tag=pilatescollective-20",
+    affiliateUrl: "https://www.gratzpilates.com/collections/trapeze-table",
     tag: "Classical Standard",
   },
   {

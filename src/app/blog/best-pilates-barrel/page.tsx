@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "From $800",
     verdict: "Best classical Spine Corrector for purists",
     description: "The Gratz Spine Corrector is the original — manufactured to Joseph Pilates' specifications, with the precise curve height and proportions of the classical apparatus. For classical practitioners whose training follows the original Pilates exercises as designed, the Gratz Spine Corrector is the only version that performs the classical series as intended. The wood construction and upholstery are simple and durable; the curve geometry differs meaningfully from contemporary versions in ways that classical teachers describe as producing more authentic exercise outcomes. Purchased directly from Gratz (gratzpilates.com); not typically available on Amazon. The Amazon link may surface reseller results for reference.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+spine+corrector+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.gratzpilates.com/collections/barrels",
     tag: "Classical",
   },
 ];

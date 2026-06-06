@@ -109,7 +109,7 @@ const PRODUCTS = [
     tier: "Professional",
     description:
       "BASI Systems — the equipment arm of Rael Isacowitz's Body Arts and Science International — builds professional reformers with two features not found on any other machine in this guide. The first is the patented EPS (Enhanced Pulley System), which increases mechanical advantage through the strap system and creates a more linear resistance curve throughout the full range of motion, particularly noticeable in long-spine massage, stomach massage series, and any exercise where the carriage reaches near-full extension. The second is the widest and longest carriage dimensions offered by any major manufacturer — BASI prioritised practitioner comfort and variation in carriage width specifications before any other brand followed. The frame is aerospace-grade aluminium with organic beech wood end caps, and the Lifetime Frame Warranty is among the strongest in the industry. Lead times can be significant (the reformers are handcrafted to order), and the price for a standard reformer unit is approximately $3,900–$4,500 before accessories. The BASI Combo (reformer + full Cadillac tower) retails at $10,590 — exceptional value if a studio-grade Cadillac is also on your list.",
-    affiliateUrl: "https://www.amazon.com/s?k=basi+systems+pilates+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://basisystems.com/product-category/reformers/",
     specs: [
       { label: "Frame", value: "Aerospace-grade aluminium + organic beech wood" },
       { label: "Pulley system", value: "Patented EPS (Enhanced Pulley System)" },
@@ -169,7 +169,7 @@ const PRODUCTS = [
     tier: "Heritage",
     description:
       "The Gratz Maple Classic is the wood-frame companion to the Gratz Universal Aluminum Reformer ($4,995, reviewed in our first premium guide). Where the aluminum version prioritises durability and weight stability, the maple reformer is built from the same solid maple that Romana Kryzanowska and Joseph Pilates specified — a material choice that affects both the feel of the machine and the acoustic character of the carriage movement. The Gratz spring system is identical across both models: four identical heavy-gauge springs and a 3-gear bar that adjusts spring angle rather than merely spring tension — creating a resistance curve that every competitor's graduated-spring system is, in some sense, trying to approximate. The maple frame adds approximately 15 lbs over the aluminum model and requires the same care as any solid hardwood furniture — annual conditioning, protection from moisture, appropriate climate storage. Available in 80-inch, 86-inch, and 89-inch rail lengths. Current retail: $5,295 at gratzpilates.com, verified May 2026. Lead times vary; Gratz produces in small batches in New York.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+pilates+maple+reformer&tag=pilatescollective-20",
+    affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
     specs: [
       { label: "Construction", value: "Solid maple wood" },
       { label: "Springs", value: "4 identical springs + 3-gear angle bar" },

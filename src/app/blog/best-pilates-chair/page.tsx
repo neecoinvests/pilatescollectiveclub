@@ -50,7 +50,7 @@ const PRODUCTS = [
     verdict: "Best for classical Pilates practitioners",
     description:
       "The Gratz Wunda Chair maintains the original single-pedal design that Joseph Pilates specified — a single sprung pedal with stepped spring heights rather than the adjustable system of contemporary chairs. For classical practitioners whose teacher works on Gratz equipment, the Gratz Chair is the only appropriate tool for the traditional Chair exercises as originally designed. The wood construction, spring tension, and pedal geometry differ from contemporary versions in ways that matter for classical precision. Purchased directly from Gratz (gratzpilates.com); not typically available on Amazon. A generational purchase for serious classical studios.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+wunda+chair&tag=pilatescollective-20",
+    affiliateUrl: "https://www.gratzpilates.com/collections/chairs",
     tag: "Classical",
   },
   {
