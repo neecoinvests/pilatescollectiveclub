@@ -38,7 +38,7 @@ const cityImages: Record<string, string> = {
   // United States
   Austin: "https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=800&q=80",
   Seattle: "/pictures/seattle.jpg",
-  Boston: "https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=800&q=80",
+  Boston: "/pictures/boston.jpg",
   Denver: "https://images.unsplash.com/photo-1546156929-a4c0ac411f47?w=800&q=80",
   "Washington DC": "https://images.unsplash.com/photo-1574365379583-54937ea00cb8?w=800&q=80",
   Atlanta: "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=800&q=80",
