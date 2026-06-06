@@ -564,7 +564,7 @@ export default function Home() {
         }}>
           {/* Full-bleed background image */}
           <Image
-            src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"
+            src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"
             alt="Pilates studio"
             fill
             style={{ objectFit: "cover", objectPosition: "center 20%" }}
