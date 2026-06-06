@@ -333,7 +333,7 @@ export default function NewOrleansPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80"
+              src="/pictures/neworleans.jpg"
               alt="Pilates studio in New Orleans, LA"
               fill
               unoptimized

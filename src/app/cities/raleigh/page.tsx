@@ -333,7 +333,7 @@ export default function RaleighPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-1676934556859-624fa21e2588"
+              src="/pictures/raleigh.jpg"
               alt="Pilates studio in Raleigh, NC"
               fill
               unoptimized

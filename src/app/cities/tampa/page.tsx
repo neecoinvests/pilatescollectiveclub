@@ -333,7 +333,7 @@ export default function TampaPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80"
+              src="/pictures/tampa.jpg"
               alt="Pilates studio in Tampa, FL"
               fill
               unoptimized

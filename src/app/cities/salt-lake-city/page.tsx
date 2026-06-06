@@ -334,7 +334,7 @@ export default function SaltLakeCityPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-1581474588563-e4a3e2ef0234?w=1200&q=80"
+              src="/pictures/saltlakecity.jpg"
               alt="Pilates studio in Salt Lake City, UT"
               fill
               unoptimized
