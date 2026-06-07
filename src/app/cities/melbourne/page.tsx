@@ -20,8 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates melbourne", "reformer pilates melbourne", "best pilates studios melbourne", "pilates studio melbourne", "pilates classes melbourne", "south yarra pilates", "fitzroy pilates", "st kilda pilates", "pilates victoria australia", "best reformer pilates melbourne"],
   openGraph: {
     title: "Best Pilates Studios in Melbourne (2026)",
-    description: "Five curated Pilates studios in Melbourne — South Yarra, Fitzroy, and St Kilda reformer picks. Verified 2026."s five best Pilates studios — from Fitzroy to South Yarra, verified for 2026.",
-    type: "article",
+    description: "Five curated Pilates studios in Melbourne — South Yarra, Fitzroy, and St Kilda reformer picks. Verified 2026.",
     url: "https://pilatescollectiveclub.com/cities/melbourne",
     images: [{ url: "https://images.unsplash.com/photo-1514395462185-c2de918e8ab9?w=1200&q=80", width: 1200, height: 630, alt: "Melbourne city guide — Pilates Collective Club" }],
   },

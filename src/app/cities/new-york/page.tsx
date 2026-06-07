@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates new york", "pilates nyc", "reformer pilates new york", "best pilates studios nyc", "pilates studio manhattan", "pilates classes new york", "soho pilates", "tribeca pilates", "upper east side pilates", "best reformer pilates nyc"],
   openGraph: {
     title: "Best Pilates Studios in New York City (2026)",
-    description: "Five curated Pilates studios in New York — SoHo, Tribeca, and uptown reformer picks. Verified June 2026."s finest Pilates studios — five verified picks from Chelsea to the West Village.",
+    description: "Five curated Pilates studios in New York — SoHo, Tribeca, and uptown reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/new-york",
     images: [{ url: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80", width: 1200, height: 630, alt: "New York city guide — Pilates Collective Club" }],

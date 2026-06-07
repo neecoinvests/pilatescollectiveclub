@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates dubai", "reformer pilates dubai", "best pilates studios dubai", "pilates studio dubai", "pilates difc", "pilates jumeirah", "pilates marina dubai", "pilates uae", "best reformer pilates dubai", "pilates classes dubai"],
   openGraph: {
     title: "Best Pilates Studios in Dubai (2026)",
-    description: "Five curated Pilates studios in Dubai — DIFC, Jumeirah, and Marina reformer picks. Verified June 2026."s finest Pilates studios — five verified picks with booking tips.",
+    description: "Five curated Pilates studios in Dubai — DIFC, Jumeirah, and Marina reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/dubai",
     images: [{ url: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80", width: 1200, height: 630, alt: "Dubai city guide — Pilates Collective Club" }],

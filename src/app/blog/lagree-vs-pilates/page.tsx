@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Lagree vs Pilates (2026): Key Differences Explained | Pilates Collective Club"s the Difference and Which Is Right for You? | Pilates Collective Club",
+  title: "Lagree vs Pilates (2026): Key Differences Explained | Pilates Collective Club",
   description: "Lagree vs Pilates compared — spring loading, tempo, muscle activation, intensity, and which method is better for your training goals explained clearly.",
   keywords: ["lagree vs pilates", "lagree vs reformer pilates", "difference between lagree and pilates", "lagree method explained 2026", "is lagree better than pilates", "megaformer vs reformer", "lagree pilates intensity comparison", "lagree fitness vs pilates"],
   openGraph: {

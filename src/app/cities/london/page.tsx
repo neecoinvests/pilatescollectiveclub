@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates london", "reformer pilates london", "best pilates studios london", "pilates studio london", "pilates classes london", "chelsea pilates", "notting hill pilates", "pilates marylebone", "pilates shoreditch", "best reformer pilates london"],
   openGraph: {
     title: "Best Pilates Studios in London (2026)",
-    description: "Five curated Pilates studios in London — Chelsea, Marylebone, and Shoreditch reformer picks. Verified June 2026."s finest Pilates studios — five verified picks with booking tips.",
+    description: "Five curated Pilates studios in London — Chelsea, Marylebone, and Shoreditch reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/london",
     images: [{ url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80", width: 1200, height: 630, alt: "London city guide — Pilates Collective Club" }],

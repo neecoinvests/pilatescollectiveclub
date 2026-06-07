@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates singapore", "reformer pilates singapore", "best pilates studios singapore", "pilates studio singapore", "pilates classes singapore", "pilates orchard singapore", "pilates dempsey", "pilates tiong bahru", "best reformer pilates singapore", "pilates cbd singapore"],
   openGraph: {
     title: "Best Pilates Studios in Singapore (2026)",
-    description: "Five curated Pilates studios in Singapore — Orchard, Dempsey, and Tiong Bahru reformer picks. Verified June 2026."s finest Pilates studios — five verified picks with booking tips.",
+    description: "Five curated Pilates studios in Singapore — Orchard, Dempsey, and Tiong Bahru reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/singapore",
     images: [{ url: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1200&q=80", width: 1200, height: 630, alt: "Singapore city guide — Pilates Collective Club" }],

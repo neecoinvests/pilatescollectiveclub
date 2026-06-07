@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates amsterdam", "reformer pilates amsterdam", "best pilates studios amsterdam", "pilates studio amsterdam", "pilates classes amsterdam", "amsterdam reformer studio", "pilates jordaan amsterdam", "pilates de pijp", "pilates netherlands"],
   openGraph: {
     title: "Best Pilates Studios in Amsterdam (2026)",
-    description: "Five curated Pilates studios in Amsterdam — reformer, classical, and Lagree across the Jordaan, De Pijp, and Zuid."s best Pilates studios — five verified picks from Jordaan to De Pijp.",
+    description: "Five curated Pilates studios in Amsterdam — reformer, classical, and Lagree across the Jordaan, De Pijp, and Zuid.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/amsterdam",
     images: [{ url: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80", width: 1200, height: 630, alt: "Amsterdam city guide — Pilates Collective Club" }],

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates lausanne", "reformer pilates lausanne", "best pilates studios lausanne", "pilates studio lausanne", "pilates ouchy", "pilates suisse romande", "pilates switzerland", "best pilates lausanne", "pilates classes lausanne", "pilates vaud"],
   openGraph: {
     title: "Best Pilates Studios in Lausanne (2026)",
-    description: "Five curated Pilates studios in Lausanne — reformer and classical method picks from Ouchy to the city centre. Verified 2026."s best Pilates studios — five verified studios with booking tips.",
+    description: "Five curated Pilates studios in Lausanne — reformer and classical method picks from Ouchy to the city centre. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/lausanne",
     images: [{ url: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80", width: 1200, height: 630, alt: "Lausanne city guide — Pilates Collective Club" }],

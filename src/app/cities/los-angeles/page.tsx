@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates los angeles", "reformer pilates los angeles", "best pilates studios la", "pilates studio los angeles", "pilates classes la", "west hollywood pilates", "santa monica pilates", "pilates brentwood la", "best reformer pilates los angeles", "pilates california"],
   openGraph: {
     title: "Best Pilates Studios in Los Angeles (2026)",
-    description: "Five curated Pilates studios in LA — West Hollywood, Santa Monica, and Brentwood reformer picks. Verified 2026."s finest Pilates studios — five verified picks from Santa Monica to West Hollywood.",
+    description: "Five curated Pilates studios in LA — West Hollywood, Santa Monica, and Brentwood reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/los-angeles",
     images: [{ url: "https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da?w=1200&q=80", width: 1200, height: 630, alt: "Los Angeles city guide — Pilates Collective Club" }],

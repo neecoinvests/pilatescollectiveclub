@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates berlin", "reformer pilates berlin", "best pilates studios berlin", "pilates studio berlin", "pilates mitte", "pilates prenzlauer berg", "pilates charlottenburg", "pilates germany", "best reformer pilates berlin", "pilates kurs berlin"],
   openGraph: {
     title: "Best Pilates Studios in Berlin (2026)",
-    description: "Five curated Pilates studios in Berlin — reformer picks from Mitte to Prenzlauer Berg. Verified June 2026."s best Pilates studios — five verified picks from Mitte to Prenzlauer Berg.",
+    description: "Five curated Pilates studios in Berlin — reformer picks from Mitte to Prenzlauer Berg. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/berlin",
     images: [{ url: "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1200&q=80", width: 1200, height: 630, alt: "Berlin city guide — Pilates Collective Club" }],

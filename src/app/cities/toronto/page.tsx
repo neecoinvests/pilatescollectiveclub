@@ -20,8 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates toronto", "reformer pilates toronto", "best pilates studios toronto", "pilates studio toronto", "pilates classes toronto", "yorkville pilates", "leslieville pilates", "pilates canada", "best reformer pilates toronto", "pilates rosedale toronto"],
   openGraph: {
     title: "Best Pilates Studios in Toronto (2026)",
-    description: "Five curated Pilates studios in Toronto — Yorkville, Leslieville, and Rosedale reformer picks. Verified 2026."s five best Pilates studios — from Yorkville to Queen West, verified for 2026.",
-    type: "article",
+    description: "Five curated Pilates studios in Toronto — Yorkville, Leslieville, and Rosedale reformer picks. Verified 2026.",
     url: "https://pilatescollectiveclub.com/cities/toronto",
     images: [{ url: "https://images.unsplash.com/photo-1517090186835-e348b621c9ca?w=1200&q=80", width: 1200, height: 630, alt: "Toronto city guide — Pilates Collective Club" }],
   },

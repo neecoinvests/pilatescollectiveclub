@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Beginner's Guide to Reformer Pilates (2026): Everything to Know | Pilates Collective Club"s Guide to Reformer Pilates (2026): What to Expect | Pilates Collective Club",
+  title: "Beginner's Guide to Reformer Pilates (2026): Everything to Know | Pilates Collective Club",
   description: "What to expect in your first reformer Pilates class — how to choose a studio, what to wear, how to use springs, and how to progress with confidence.",
   openGraph: {
     title: "The Beginner's Guide to Reformer Pilates",

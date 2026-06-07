@@ -20,8 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates lisbon", "pilates lisboa", "reformer pilates lisbon", "best pilates studios lisbon", "pilates studio lisboa", "pilates principe real", "pilates chiado", "pilates portugal", "best reformer pilates lisbon", "pilates classes lisbon"],
   openGraph: {
     title: "Best Pilates Studios in Lisbon (2026)",
-    description: "Five curated Pilates studios in Lisbon — Príncipe Real and Chiado reformer picks. Verified June 2026."s five best Pilates studios — from Príncipe Real to Alcântara, verified for 2026.",
-    type: "article",
+    description: "Five curated Pilates studios in Lisbon — Príncipe Real and Chiado reformer picks. Verified June 2026.",
     url: "https://pilatescollectiveclub.com/cities/lisbon",
     images: [{ url: "https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?w=1200&q=80", width: 1200, height: 630, alt: "Lisbon city guide — Pilates Collective Club" }],
   },

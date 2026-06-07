@@ -20,8 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates tokyo", "reformer pilates tokyo", "best pilates studios tokyo", "pilates studio tokyo", "pilates omotesando", "pilates ebisu", "pilates daikanyama", "pilates japan", "best reformer pilates tokyo", "pilates classes tokyo"],
   openGraph: {
     title: "Best Pilates Studios in Tokyo (2026)",
-    description: "Five curated Pilates studios in Tokyo — Omotesando, Ebisu, and Daikanyama reformer picks. Verified June 2026."s five best Pilates studios — from Minami-Aoyama to Ebisu, verified for 2026.",
-    type: "article",
+    description: "Five curated Pilates studios in Tokyo — Omotesando, Ebisu, and Daikanyama reformer picks. Verified June 2026.",
     url: "https://pilatescollectiveclub.com/cities/tokyo",
     images: [{ url: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80", width: 1200, height: 630, alt: "Tokyo city guide — Pilates Collective Club" }],
   },

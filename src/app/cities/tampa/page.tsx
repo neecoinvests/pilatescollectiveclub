@@ -21,8 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Tampa, FL (2026)",
     description:
-      "Six curated Pilates studios in Tampa — South Tampa and Hyde Park reformer boutiques. Verified 2026."s arts-district energy — expert picks, honest reviews, and booking tips.",
-    type: "article",
+      "Six curated Pilates studios in Tampa — South Tampa and Hyde Park reformer boutiques. Verified 2026.",
     url: "https://pilatescollectiveclub.com/cities/tampa",
     images: [
       {

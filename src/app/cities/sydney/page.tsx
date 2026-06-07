@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates sydney", "reformer pilates sydney", "best pilates studios sydney", "pilates studio sydney", "pilates classes sydney", "bondi pilates", "surry hills pilates", "pilates sydney cbd", "best reformer pilates sydney", "pilates eastern suburbs sydney"],
   openGraph: {
     title: "Best Pilates Studios in Sydney (2026)",
-    description: "Five curated Pilates studios in Sydney — Bondi, Surry Hills, and CBD reformer picks. Verified June 2026."s finest Pilates studios — five verified picks with booking tips.",
+    description: "Five curated Pilates studios in Sydney — Bondi, Surry Hills, and CBD reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/sydney",
     images: [{ url: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80", width: 1200, height: 630, alt: "Sydney city guide — Pilates Collective Club" }],

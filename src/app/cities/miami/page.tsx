@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates miami", "reformer pilates miami", "best pilates studios miami", "pilates studio miami fl", "pilates classes miami", "brickell pilates", "south beach pilates", "pilates coral gables", "pilates coconut grove", "best reformer pilates miami"],
   openGraph: {
     title: "Best Pilates Studios in Miami, FL (2026)",
-    description: "Six curated Pilates studios in Miami — Brickell, South Beach, and Coconut Grove reformer picks. Verified 2026."s finest Pilates studios — five verified picks with booking tips.",
+    description: "Six curated Pilates studios in Miami — Brickell, South Beach, and Coconut Grove reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/miami",
     images: [{ url: "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?w=1200&q=80", width: 1200, height: 630, alt: "Miami city guide — Pilates Collective Club" }],

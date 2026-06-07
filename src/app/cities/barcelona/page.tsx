@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates barcelona", "reformer pilates barcelona", "best pilates studios barcelona", "pilates studio barcelona", "pilates clases barcelona", "pilates eixample", "pilates gracia barcelona", "pilates spain", "best reformer pilates barcelona", "estudio pilates barcelona"],
   openGraph: {
     title: "Best Pilates Studios in Barcelona (2026)",
-    description: "Five curated Pilates studios in Barcelona — reformer and classical picks from Eixample to Gràcia. Verified June 2026."s best Pilates studios — five verified picks from Eixample to Poblenou.",
+    description: "Five curated Pilates studios in Barcelona — reformer and classical picks from Eixample to Gràcia. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/barcelona",
     images: [{ url: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200&q=80", width: 1200, height: 630, alt: "Barcelona city guide — Pilates Collective Club" }],
