@@ -7,20 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Reformer Pilates Brands (2026): All 10 Compared | Pilates Collective Club",
-  description: "The 10 best reformer Pilates brands ranked and compared for 2026 — Balanced Body, Gratz, Merrithew, Peak, Elina, BASI, Align, AeroPilates, Your Reformer, and PersonalHour.",
-  keywords: [
-    "best reformer pilates brands",
-    "best pilates machine brands",
-    "best pilates at home brand",
-    "best reformer pilates",
-    "pilates reformer brands compared",
-    "which pilates reformer brand",
-    "best pilates reformer 2026",
-    "balanced body vs merrithew vs gratz",
-    "professional pilates reformer brands",
-    "home pilates reformer brands",
-  ],
+  title: "Best Pilates Reformer Brands (2026): Complete Brand Guide | Pilates Collective Club",
+  description: "The best Pilates reformer brands of 2026 — Balanced Body, Merrithew, Gratz, Align, and more compared on spring quality, carriage feel, and price range.",
+  keywords: ["best pilates reformer brands", "pilates reformer brand comparison 2026", "balanced body vs merrithew vs gratz", "best reformer brand for home", "top pilates equipment brands", "merrithew pilates brand", "gratz pilates brand", "pilates reformer brand guide"],
   openGraph: {
     title: "Best Reformer Pilates Brands (2026): All 10 Ranked",
     description: "Every major reformer Pilates brand compared honestly — for home practitioners, studio owners, and serious athletes.",

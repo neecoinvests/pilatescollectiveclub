@@ -9,30 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in San Francisco",
-  description:
-    "Discover the best Pilates studios in San Francisco — from Pacific Heights reformer boutiques to SoMa functional fitness hybrids. Five curated picks for 2026.",
+  title: "Best Pilates Studios in San Francisco (2026) — Curated Guide",
+  description: "The best Pilates studios in San Francisco — from Pacific Heights reformer boutiques to classical practices in the Marina and Noe Valley. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios san francisco",
-    "reformer pilates san francisco",
-    "best pilates san francisco",
-    "pilates classes sf",
-    "san francisco pilates guide",
-    "boutique pilates sf",
-    "pilates pacific heights",
-    "pilates soma san francisco",
-    "sf pilates 2026",
-  ],
+  keywords: ["pilates san francisco", "reformer pilates san francisco", "best pilates studios sf", "pilates studio san francisco", "pilates classes sf", "pacific heights pilates", "marina pilates sf", "noe valley pilates", "pilates california", "best reformer pilates san francisco"],
   openGraph: {
     title: "Best Pilates Studios in San Francisco (2026)",
     description:
-      "Discover the best Pilates studios in San Francisco — five curated picks with booking tips for 2026.",
+      "Six curated Pilates studios in San Francisco — Pacific Heights, Marina, and Noe Valley reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/san-francisco",
     images: [

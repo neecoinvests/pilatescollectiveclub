@@ -8,20 +8,9 @@ import CTASection from "@/components/CTASection";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Lagree vs Pilates (2026): What's the Difference and Which Is Right for You? | Pilates Collective Club",
-  description: "Lagree vs. Pilates: Megaformer vs. reformer, intensity, muscle activation, and injury risk compared. Which method is better for your fitness goals?",
-  keywords: [
-    "lagree vs pilates",
-    "lagree fitness vs pilates",
-    "megaformer vs reformer",
-    "lagree method vs pilates",
-    "lagree pilates difference",
-    "lagree workout review",
-    "pilates vs lagree for weight loss",
-    "lagree vs pilates reformer",
-    "sebastien lagree pilates",
-    "lagree fitness 2026",
-  ],
+  title: "Lagree vs Pilates (2026): Key Differences Explained | Pilates Collective Club"s the Difference and Which Is Right for You? | Pilates Collective Club",
+  description: "Lagree vs Pilates compared — spring loading, tempo, muscle activation, intensity, and which method is better for your training goals explained clearly.",
+  keywords: ["lagree vs pilates", "lagree vs reformer pilates", "difference between lagree and pilates", "lagree method explained 2026", "is lagree better than pilates", "megaformer vs reformer", "lagree pilates intensity comparison", "lagree fitness vs pilates"],
   openGraph: {
     title: "Lagree vs Pilates (2026): What's Actually Different?",
     description: "Both use reformer-style machines. But Lagree and Pilates are fundamentally different methods — this guide explains the real distinctions.",

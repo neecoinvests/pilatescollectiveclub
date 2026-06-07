@@ -9,26 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Lausanne",
-  description:
-    "Our curated guide to Lausanne's best Pilates studios. Overlooking Lake Geneva, this university city has a growing and quality-conscious wellness scene.",
+  title: "Best Pilates Studios in Lausanne (2026) — Curated Guide",
+  description: "The best Pilates studios in Lausanne — reformer boutiques and classical method in Ouchy, Pully, and the city centre. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates lausanne", "reformer pilates lausanne", "best pilates lausanne", "pilates studios lausanne", "pilates vaud"],
+  keywords: ["pilates lausanne", "reformer pilates lausanne", "best pilates studios lausanne", "pilates studio lausanne", "pilates ouchy", "pilates suisse romande", "pilates switzerland", "best pilates lausanne", "pilates classes lausanne", "pilates vaud"],
   openGraph: {
-    title: "The Best Pilates Studios in Lausanne",
-    description: "Our curated guide to Lausanne's best Pilates studios — five verified studios with booking tips.",
+    title: "Best Pilates Studios in Lausanne (2026)",
+    description: "Five curated Pilates studios in Lausanne — reformer and classical method picks from Ouchy to the city centre. Verified 2026."s best Pilates studios — five verified studios with booking tips.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/lausanne",
     images: [{ url: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80", width: 1200, height: 630, alt: "Lausanne city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Lausanne",
+    title: "Best Pilates Studios in Lausanne (2026)",
     description: "Our curated guide to Lausanne's best Pilates studios — five verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80"],
   },

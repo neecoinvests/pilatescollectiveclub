@@ -9,29 +9,18 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Chicago (2026)",
-  description:
-    "Find the best Pilates studios in Chicago — from Lincoln Park reformer boutiques to River North wellness studios. Our curated guide to Chicago Pilates in 2026.",
+  title: "Best Pilates Studios in Chicago, IL (2026) — Curated Guide",
+  description: "The best Pilates studios in Chicago — from Lincoln Park reformer boutiques to River North classical practices. Six curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios chicago",
-    "reformer pilates chicago",
-    "best pilates chicago",
-    "pilates classes chicago",
-    "chicago pilates 2026",
-    "pilates lincoln park",
-    "pilates river north chicago",
-    "chicago reformer studios",
-    "best reformer pilates chicago",
-  ],
+  keywords: ["pilates chicago", "reformer pilates chicago", "best pilates studios chicago", "pilates studio chicago il", "pilates classes chicago", "lincoln park pilates", "river north pilates chicago", "pilates illinois", "best reformer pilates chicago", "pilates wicker park"],
   openGraph: {
-    title: "Best Pilates Studios in Chicago (2026)",
-    description: "Our curated guide to Chicago's finest Pilates studios — five verified picks with booking tips.",
+    title: "Best Pilates Studios in Chicago, IL (2026)",
+    description: "Six curated Pilates studios in Chicago — Lincoln Park reformer boutiques to River North classical practices. Verified 2026."s finest Pilates studios — five verified picks with booking tips.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/chicago",
     images: [{ url: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80", width: 1200, height: 630, alt: "Chicago city guide — Pilates Collective Club" }],

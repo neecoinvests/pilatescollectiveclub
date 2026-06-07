@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Elina Pilates (2026): Equipment Review — Elite & Essence Reformers",
-  description: "Elina Pilates reviewed — the Elite and Essence reformers tested for boutique studios and serious home practitioners. Studio-grade quality at a more accessible price.",
-  keywords: ["elina pilates", "elina pilates reformer", "elina pilates elite reformer", "elina pilates essence", "elina pilates review", "elina pilates wood reformer", "best boutique studio reformer", "elina pilates 2026", "elina pilates vs balanced body"],
+  title: "Elina Pilates Reformer Review (2026): Is It Worth It? | Pilates Collective Club",
+  description: "Elina Pilates reformer honestly reviewed — spring quality, carriage travel, frame stability, and how Elina compares to Balanced Body and Merrithew at similar price points.",
+  keywords: ["elina pilates review", "elina pilates reformer 2026", "elina pilates vs balanced body", "is elina pilates good", "elina pilates elite reformer review", "elina pilates buy", "elina pilates wood reformer", "elina pilates price"],
   openGraph: {
     title: "Elina Pilates (2026): Equipment Review — Elite & Essence Reformers",
     description: "Elina Pilates reviewed — Elite and Essence reformers tested for studios and serious home practitioners.",

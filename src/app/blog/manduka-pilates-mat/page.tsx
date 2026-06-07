@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Manduka Pilates Mat (2026): PRO vs eKO vs PRO Lite Compared | Pilates Collective Club",
-  description: "Manduka Pilates mats reviewed: PRO, eKO, and PROlite compared on thickness, grip, and durability for mat Pilates and reformer work. Full guide.",
-  keywords: ["manduka pilates mat", "manduka pro mat pilates", "manduka eko mat pilates", "manduka pro lite pilates", "manduka mat review 2026", "best manduka for pilates", "manduka pro vs eko pilates", "manduka mat comparison", "manduka superlite travel mat", "manduka pilates review"],
+  title: "Manduka PRO Pilates Mat Review (2026): Worth the Price? | Pilates Collective Club",
+  description: "Manduka PRO and eKO Pilates mat reviewed — thickness, grip, weight, and whether the premium price is justified for Pilates practitioners over cheaper alternatives.",
+  keywords: ["manduka pilates mat review", "manduka pro pilates 2026", "manduka eko pilates mat", "is manduka worth it for pilates", "manduka pro vs lululemon mat pilates", "best thick pilates mat manduka", "manduka 6mm pilates review"],
   openGraph: {
     title: "Manduka Pilates Mat (2026): PRO, eKO, and PRO Lite Compared",
     description: "The complete guide to Manduka mats for Pilates — PRO vs eKO vs PRO Lite vs eKO Superlite. Which Manduka mat is best for Pilates practice, home studio, and travel.",

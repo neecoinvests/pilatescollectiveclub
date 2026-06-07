@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Shorts (2026): For Reformer, Mat & Studio",
-  description: "The best shorts for Pilates — biker shorts, flowy shorts, and compression options tested for reformer coverage, mat grip, and studio comfort.",
+  title: "Best Pilates Shorts (2026): High-Waist & Biker Options Reviewed | Pilates Collective Club",
+  description: "The best shorts for Pilates class — biker shorts, high-waist options, and performance shorts reviewed for reformer coverage, compression, and fit.",
   openGraph: {
     title: "Best Pilates Shorts (2026): Biker Shorts & Beyond",
     description: "Instructors need to see your knee and hip alignment. Here's what the best-dressed reformer regulars are wearing.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "The best shorts for Pilates — biker shorts and compression options ranked honestly.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"],
   },
-  keywords: ["best pilates shorts", "pilates shorts", "biker shorts pilates", "reformer pilates shorts", "best shorts for pilates class", "pilates biker shorts", "pilates workout shorts", "compression shorts pilates", "pilates shorts 2026", "studio pilates shorts"],
+  keywords: ["best pilates shorts", "pilates shorts 2026", "high waist shorts pilates", "best biker shorts pilates", "lululemon shorts pilates", "alo airlift shorts pilates", "pilates class shorts women", "shorts for reformer pilates"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-shorts",
   },

@@ -9,26 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Paris",
-  description:
-    "The best Pilates studios in Paris — reformer boutiques and Lagree studios from the Marais to Saint-Germain. Curated & verified picks for every level.",
+  title: "Best Pilates Studios in Paris (2026) — Curated Guide",
+  description: "The best Pilates studios in Paris — reformer boutiques in the Marais, Saint-Germain, and the 16th arrondissement. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates paris", "studios pilates paris", "reformer pilates paris", "best pilates paris", "pilates 16eme"],
+  keywords: ["pilates paris", "studio pilates paris", "reformer pilates paris", "best pilates studios paris", "pilates paris 16", "pilates marais paris", "pilates saint-germain", "pilates france", "cours pilates paris", "best reformer pilates paris"],
   openGraph: {
-    title: "The Best Pilates Studios in Paris",
-    description: "Our curated guide to the best Pilates studios in Paris — five verified picks with booking tips.",
+    title: "Best Pilates Studios in Paris (2026)",
+    description: "Five curated Pilates studios in Paris — Marais, Saint-Germain, and 16th arrondissement reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/paris",
     images: [{ url: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80", width: 1200, height: 630, alt: "Paris city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Paris",
+    title: "Best Pilates Studios in Paris (2026)",
     description: "Our curated guide to the best Pilates studios in Paris — five verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80"],
   },

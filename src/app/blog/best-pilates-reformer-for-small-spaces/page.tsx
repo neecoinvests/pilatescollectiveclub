@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformers for Small Spaces (2026): Compact & Foldable",
-  description: "The best compact Pilates reformers for apartments and small spaces — foldable, wall-mounted, and short-footprint options tested for performance and storage.",
-  keywords: ["best pilates reformer for small spaces", "compact pilates reformer", "foldable pilates reformer", "pilates reformer apartment", "small pilates reformer", "best mini pilates reformer", "pilates reformer small room", "pilates reformer storage", "pilates reformer 2026 small space"],
+  title: "Best Pilates Reformer for Small Spaces (2026): Compact Picks | Pilates Collective Club",
+  description: "The best Pilates reformers for small spaces — foldable, compact, and wall-mounted options reviewed for footprint, storage ease, and full-workout capability.",
+  keywords: ["best pilates reformer for small spaces", "compact pilates reformer 2026", "small space reformer pilates", "foldable reformer small apartment", "best folding pilates reformer", "pilates reformer small room", "portable pilates reformer", "pilates reformer apartment"],
   openGraph: {
     title: "Best Pilates Reformers for Small Spaces (2026): Compact & Foldable",
     description: "The best compact Pilates reformers for apartments — foldable and short-footprint options ranked.",

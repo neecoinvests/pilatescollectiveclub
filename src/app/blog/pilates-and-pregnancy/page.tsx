@@ -5,8 +5,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates During Pregnancy (2026): Trimester-by-Trimester Guide | Pilates Collective Club",
-  description: "Pilates and pregnancy: safe exercises by trimester, modifications to avoid, and prenatal reformer guidelines from certified instructors. Full guide.",
+  title: "Pilates and Pregnancy (2026): Safe Exercises & What to Avoid | Pilates Collective Club",
+  description: "Pilates during pregnancy — safe reformer and mat exercises by trimester, modifications to make, and what to avoid with guidance from prenatal specialists.",
   openGraph: {
     title: "Pilates and Pregnancy: A Complete Guide",
     description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid, and how to find a specialist instructor.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "How to safely practise Pilates during pregnancy and postpartum — what to do, what to avoid.",
     images: ["https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"],
   },
-  keywords: ["pilates during pregnancy", "prenatal pilates", "pregnancy pilates guide", "pilates when pregnant", "safe pilates exercises pregnancy", "pilates second trimester", "pilates third trimester", "pelvic floor pilates pregnancy", "antenatal pilates", "prenatal pilates 2026"],
+  keywords: ["pilates and pregnancy", "prenatal pilates 2026", "pilates during pregnancy safe", "pilates exercises pregnant", "reformer pilates pregnancy", "prenatal reformer pilates", "pilates first trimester", "pilates second trimester", "pilates third trimester modifications"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy",
   },

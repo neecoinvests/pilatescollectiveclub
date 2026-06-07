@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Balanced Body for Pilates (2026): Equipment Review & Complete Guide | Pilates Collective Club",
-  description: "Balanced Body reformers reviewed: Allegro 2, Studio Reformer, Rialto, and Contrology compared for home studios and commercial spaces. Full guide.",
-  keywords: ["balanced body pilates", "balanced body reformer review", "balanced body allegro 2", "balanced body equipment", "balanced body pilates machine", "balanced body vs merrithew", "balanced body reformer price", "balanced body pilates ring", "balanced body pilates arc", "balanced body pilates 2026"],
+  title: "Balanced Body Pilates Equipment Review (2026) | Pilates Collective Club",
+  description: "Balanced Body reformers, cadillacs, and accessories reviewed — the full lineup compared on quality, durability, and value for studio and home use.",
+  keywords: ["balanced body pilates review", "balanced body reformer", "balanced body pilates equipment", "balanced body vs gratz", "balanced body vs merrithew", "balanced body studio reformer", "balanced body pilates 2026"],
   openGraph: {
     title: "Balanced Body for Pilates (2026): Equipment Review & Guide",
     description: "Everything Balanced Body makes — Allegro 2, accessories, and who their equipment is for. An honest practitioner review.",

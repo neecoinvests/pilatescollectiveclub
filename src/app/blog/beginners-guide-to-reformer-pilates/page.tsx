@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Beginner's Guide to Reformer Pilates (2026): What to Expect | Pilates Collective Club",
-  description: "Everything before your first reformer class — what to wear, what to expect, how to choose a studio, and how to progress. The guide we wish we had on day one.",
+  title: "Beginner's Guide to Reformer Pilates (2026): Everything to Know | Pilates Collective Club"s Guide to Reformer Pilates (2026): What to Expect | Pilates Collective Club",
+  description: "What to expect in your first reformer Pilates class — how to choose a studio, what to wear, how to use springs, and how to progress with confidence.",
   openGraph: {
     title: "The Beginner's Guide to Reformer Pilates",
     description: "Everything you need to know before your first reformer Pilates class: what to expect, how to choose a studio, what to wear, and how to progress.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Everything you need to know before your first reformer Pilates class.",
     images: ["https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"],
   },
-  keywords: ["reformer pilates for beginners", "beginner reformer pilates guide", "first reformer pilates class", "what to expect reformer pilates", "how to start reformer pilates", "reformer pilates tips beginners", "pilates reformer beginner workout", "is reformer pilates hard for beginners", "reformer pilates studio what to know", "beginner pilates 2026"],
+  keywords: ["beginners guide to reformer pilates", "reformer pilates for beginners", "what to expect reformer pilates", "first reformer pilates class", "how to start pilates reformer", "reformer pilates tips beginners", "reformer pilates what to know", "beginner pilates studio guide"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/beginners-guide-to-reformer-pilates",
   },

@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Biker Shorts (2026): Studio-Tested & Ranked",
-  description: "The best biker shorts for Pilates tested across reformer, mat, and tower sessions — Lululemon Align, Alo Yoga, Vuori, CRZ YOGA, and more ranked honestly.",
-  keywords: ["best pilates biker shorts", "pilates biker shorts", "lululemon align biker shorts pilates", "alo yoga biker shorts pilates", "best biker shorts for reformer", "high waist biker shorts pilates", "best shorts for pilates class", "pilates biker shorts 2026"],
+  title: "Best Pilates Biker Shorts (2026): Studio-Tested Picks | Pilates Collective Club",
+  description: "The best biker shorts for Pilates — Lululemon Align, Alo Airlift, and more tested for compression, waistband stability, and reformer performance.",
+  keywords: ["best pilates biker shorts", "pilates biker shorts 2026", "best shorts for reformer pilates", "lululemon align shorts pilates", "alo airlift shorts pilates", "high waist biker shorts pilates", "pilates bike shorts review", "best activewear shorts pilates"],
   openGraph: {
     title: "Best Pilates Biker Shorts (2026): Studio-Tested & Ranked",
     description: "The best biker shorts for Pilates — tested for reformer performance and studio comfort.",

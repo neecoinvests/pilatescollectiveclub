@@ -9,30 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Copenhagen",
-  description:
-    "Find the best Pilates studios in Copenhagen — from Frederiksberg reformer boutiques to Vesterbro wellness spaces. Five curated picks for 2026.",
+  title: "Best Pilates Studios in Copenhagen (2026) — Curated Guide",
+  description: "The best Pilates studios in Copenhagen — reformer boutiques in Østerbro, Frederiksberg, and the city centre. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios copenhagen",
-    "reformer pilates copenhagen",
-    "best pilates copenhagen",
-    "pilates classes copenhagen",
-    "copenhagen pilates guide",
-    "boutique pilates copenhagen",
-    "pilates frederiksberg",
-    "pilates vesterbro",
-    "copenhagen pilates 2026",
-  ],
+  keywords: ["pilates copenhagen", "reformer pilates copenhagen", "best pilates studios copenhagen", "pilates studio copenhagen", "pilates denmark", "pilates østerbro", "pilates frederiksberg", "pilates classes copenhagen", "best reformer pilates denmark"],
   openGraph: {
     title: "Best Pilates Studios in Copenhagen (2026)",
     description:
-      "Find the best Pilates studios in Copenhagen — five curated picks with booking tips for 2026.",
+      "Five curated Pilates studios in Copenhagen — reformer picks from Østerbro to Frederiksberg. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/copenhagen",
     images: [

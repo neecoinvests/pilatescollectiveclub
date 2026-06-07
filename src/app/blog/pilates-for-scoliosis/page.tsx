@@ -6,9 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Pilates for Scoliosis (2026): What Actually Works | Pilates Collective Club",
-  description: "Pilates for scoliosis: curvature-specific exercises, contraindications, and instructor qualifications to look for. Guidance from BASI-certified teachers.",
-  keywords: ["pilates for scoliosis", "scoliosis pilates exercises", "pilates spinal curve", "pilates schroth method", "pilates scoliosis safe exercises", "reformer pilates scoliosis", "pilates scoliosis instructor", "exercises to avoid scoliosis pilates", "pilates for spinal asymmetry", "scoliosis pilates guide 2026"],
+  title: "Pilates for Scoliosis (2026): Safe Exercises & What to Avoid | Pilates Collective Club",
+  description: "Pilates for scoliosis — safe reformer and mat exercises, the modifications that support spinal curves, and what scoliosis patients should avoid in standard classes.",
+  keywords: ["pilates for scoliosis", "pilates scoliosis exercises 2026", "is pilates safe for scoliosis", "pilates spine correction scoliosis", "reformer pilates scoliosis", "best pilates for scoliosis", "pilates scoliosis modifications", "pilates curved spine"],
   openGraph: {
     title: "Pilates for Scoliosis: What Actually Works",
     description: "An honest guide to Pilates for scoliosis — what the research shows and how to approach your practice safely.",

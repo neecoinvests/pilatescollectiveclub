@@ -6,9 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Pilates Reformer vs Mat (2026): Key Differences Explained | Pilates Collective Club",
-  description: "Pilates reformer vs. mat: resistance, muscle activation, cost, and accessibility compared. Which format is better for beginners vs. advanced students?",
-  keywords: ["pilates reformer vs mat", "reformer vs mat pilates differences", "is reformer pilates better than mat", "reformer pilates benefits", "mat pilates benefits", "reformer pilates at home vs studio", "reformer pilates cost", "should I do reformer or mat pilates", "pilates reformer vs mat 2026", "which pilates is best"],
+  title: "Pilates Reformer vs Mat (2026): Which is Better? | Pilates Collective Club",
+  description: "Reformer vs mat Pilates compared — resistance, exercise range, cost, and which format is better for beginners, injury recovery, and long-term fitness goals.",
+  keywords: ["pilates reformer vs mat", "reformer vs mat pilates 2026", "which pilates is better reformer or mat", "mat pilates vs reformer pilates", "difference reformer and mat pilates", "pilates reformer benefits vs mat", "should I do reformer or mat pilates"],
   openGraph: {
     title: "Pilates Reformer vs Mat: Key Differences Explained",
     description: "What's actually different between reformer and mat Pilates — and how to choose the right format for your goals.",

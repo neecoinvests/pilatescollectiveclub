@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Peak Pilates (2026): Equipment Review & Best Models Ranked",
-  description: "Peak Pilates reviewed — the MVe, casa, and Afina reformers tested for classical practitioners and home studios. Beautiful wood construction meets modern engineering.",
-  keywords: ["peak pilates", "peak pilates reformer", "peak pilates review", "peak pilates casa reformer", "peak pilates afina", "peak pilates mve reformer", "classical pilates equipment", "peak pilates wood reformer", "peak pilates 2026", "best classical pilates reformer"],
+  title: "Peak Pilates Equipment Review (2026): MVe & Fit Reformers | Pilates Collective Club",
+  description: "Peak Pilates MVe and Fit reformers reviewed — spring resistance, carriage construction, and how Peak Pilates compares to Merrithew and Balanced Body.",
+  keywords: ["peak pilates review", "peak pilates reformer 2026", "peak pilates mve review", "peak pilates fit reformer", "peak pilates vs merrithew", "peak pilates equipment buy", "peak pilates cadillac review"],
   openGraph: {
     title: "Peak Pilates (2026): Equipment Review & Best Models Ranked",
     description: "Peak Pilates reviewed — classical wood reformers tested for home studios and serious practitioners.",

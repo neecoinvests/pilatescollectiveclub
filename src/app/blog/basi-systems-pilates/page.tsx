@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "BASI Systems Pilates (2026): Equipment Review & Brand Guide",
-  description: "BASI Systems reviewed — the luxury reformer designed by Rael Isacowitz, with the longest carriage travel in the industry. Premium beechwood and aerospace aluminium tested.",
-  keywords: ["basi systems pilates", "basi systems reformer", "basi pilates equipment", "rael isacowitz reformer", "basi systems review", "basi pilates reformer", "luxury pilates reformer", "basi f2 system", "basi systems 2026", "longest carriage pilates reformer"],
+  title: "BASI Systems Pilates Review (2026): Equipment & Method | Pilates Collective Club",
+  description: "BASI Systems pilates equipment and method reviewed — reformer quality, certification programme, and how BASI compares to Balanced Body and Merrithew.",
+  keywords: ["basi pilates review", "basi systems pilates reformer", "basi pilates equipment", "basi vs balanced body", "basi pilates certification", "best pilates reformer basi", "basi pilates 2026"],
   openGraph: {
     title: "BASI Systems Pilates (2026): Equipment Review & Brand Guide",
     description: "BASI Systems reviewed — the luxury reformer by Rael Isacowitz with the longest carriage in the industry.",

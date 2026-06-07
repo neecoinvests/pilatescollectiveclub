@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Align-Pilates Reformer Review (2026): C2 Pro, C8 Pro & H1 Compared | Pilates Collective Club",
-  description: "Align-Pilates reformers reviewed honestly — C2 Pro, C8 Pro, and H1 with tower compared against Balanced Body and Merrithew at a significantly lower price.",
-  keywords: ["align pilates reformer review", "align pilates c2 pro", "align pilates c8 pro", "align pilates h1 reformer", "align pilates vs balanced body", "align pilates vs merrithew", "best pilates reformer mid range", "align pilates 2026", "align pilates uk reformer", "studio quality home reformer"],
+  title: "Align Pilates Reformer Review (2026): C8, F3, A8 Compared | Pilates Collective Club",
+  description: "Align Pilates C8, F3, and A8 reformers reviewed and compared — build quality, spring resistance, frame stability, and value for home and studio use.",
+  keywords: ["align pilates reformer review", "align pilates c8 review", "align pilates a8 review", "align pilates f3 review", "align pilates vs merrithew", "best align pilates reformer", "align pilates home reformer", "align pilates 2026"],
   openGraph: {
     title: "Align-Pilates Reformer Review (2026): C2 Pro, C8 Pro & H1",
     description: "Align-Pilates makes studio-grade reformers at mid-tier prices. Here's an honest review of their main machines.",

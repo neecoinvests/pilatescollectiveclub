@@ -5,8 +5,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "How to Choose a Pilates Instructor (2026): Credentials & Red Flags | Pilates Collective Club",
-  description: "How to choose a Pilates instructor: certifications, teaching styles, class formats, and red flags. A complete guide for beginners and experienced students.",
+  title: "How to Choose a Pilates Instructor (2026): What to Look For | Pilates Collective Club",
+  description: "How to choose a Pilates instructor — certifications to look for, red flags to avoid, and the questions to ask before committing to private sessions or a studio.",
   openGraph: {
     title: "How to Choose the Right Pilates Instructor",
     description: "What credentials, experience, and red flags to look for when selecting a Pilates teacher — a practical guide for new and experienced practitioners alike.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "Credentials, experience, and red flags to look for when selecting a Pilates teacher.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
-  keywords: ["how to choose pilates instructor", "pilates instructor credentials", "pilates teacher qualifications", "certified pilates instructor", "pilates instructor red flags", "pma certified pilates", "best pilates instructor qualifications", "pilates teacher training hours", "how to find a good pilates teacher", "pilates instructor guide 2026"],
+  keywords: ["how to choose a pilates instructor", "pilates instructor qualifications 2026", "what certification should pilates instructor have", "finding a good pilates teacher", "pilates instructor red flags", "stott vs balanced body certification", "best pilates instructor near me", "how to find good pilates teacher"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
   },

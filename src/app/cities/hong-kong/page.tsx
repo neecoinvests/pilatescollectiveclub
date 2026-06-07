@@ -9,18 +9,18 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Hong Kong",
-  description: "Pilates studios in Hong Kong: our curated guide to the five best reformer and mat studios across Central, Wan Chai, and the Southside — verified for 2026.",
+  title: "Best Pilates Studios in Hong Kong (2026) — Curated Guide",
+  description: "The best Pilates studios in Hong Kong — from Central reformer boutiques to studios in Wan Chai and Causeway Bay. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios hong kong", "reformer pilates hong kong", "best pilates hong kong", "pilates central hong kong", "pilates wan chai", "boutique pilates hk", "pilates classes hong kong", "hong kong wellness studios"],
+  keywords: ["pilates hong kong", "reformer pilates hong kong", "best pilates studios hong kong", "pilates studio hong kong", "pilates central hk", "pilates wan chai", "pilates causeway bay", "pilates hk", "best reformer pilates hong kong", "pilates classes hong kong"],
   openGraph: {
     title: "Best Pilates Studios in Hong Kong (2026)",
-    description: "Our curated guide to Hong Kong's five best Pilates studios — from Central to Stanley, verified for 2026.",
+    description: "Five curated Pilates studios in Hong Kong — Central, Wan Chai, and Causeway Bay reformer picks. Verified 2026."s five best Pilates studios — from Central to Stanley, verified for 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/hong-kong",
     images: [{ url: "https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=1200&q=80", width: 1200, height: 630, alt: "Hong Kong city guide — Pilates Collective Club" }],

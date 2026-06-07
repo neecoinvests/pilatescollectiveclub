@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Mini Pilates Reformer (2026): Compact Machines Reviewed",
-  description: "The best mini Pilates reformers for small spaces — portable, fold-flat, and apartment-friendly machines tested for resistance quality and exercise range.",
+  title: "Best Mini Pilates Reformer (2026): Compact Picks Reviewed | Pilates Collective Club",
+  description: "The best mini Pilates reformers for home use — compact machines reviewed for resistance quality, stability, and size versus full-length reformers.",
   openGraph: {
     title: "Best Mini Pilates Reformer (2026): Compact Machines Reviewed",
     description: "Full reformer experience in a smaller footprint — the compact machines that genuinely work.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "Compact Pilates reformers for small spaces — ranked by resistance quality and exercise range.",
     images: ["https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg"],
   },
-  keywords: ["best mini pilates reformer", "mini pilates reformer", "portable pilates reformer", "small pilates reformer", "compact pilates reformer", "foldable pilates reformer review", "mini reformer pilates 2026", "pilates reformer small space", "best portable reformer", "mini reformer review"],
+  keywords: ["best mini pilates reformer", "mini pilates reformer review 2026", "compact pilates reformer", "small pilates reformer home", "mini reformer pilates workout", "best mini reformer pilates", "pilates mini reformer vs full size"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-mini-pilates-reformer",
   },

@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Free People Movement for Pilates (2026): Best Pieces & Honest Review | Pilates Collective Club",
-  description: "Free People Movement Pilates wear reviewed: FP Movement leggings, bras, and tops tested for comfort, grip, and style in reformer and mat classes.",
-  keywords: ["free people movement pilates", "fp movement pilates", "free people pilates leggings", "fp movement good karma legging", "free people movement review", "fp movement vs lululemon pilates", "free people movement activewear pilates", "fp movement studio", "free people pilates clothes 2026", "fp movement pilates review"],
+  title: "Free People Movement for Pilates (2026): Best Pieces Reviewed | Pilates Collective Club",
+  description: "Free People Movement for Pilates — Good Karma leggings, bra tops, and sets reviewed for reformer coverage, softness, and how they compare to Alo and Lululemon.",
+  keywords: ["free people movement pilates", "free people pilates leggings review", "free people movement activewear pilates", "good karma legging pilates", "free people vs lululemon pilates", "free people movement pilates outfit 2026"],
   openGraph: {
     title: "Free People Movement for Pilates (2026): Best Pieces & Honest Review",
     description: "The complete guide to Free People Movement activewear for Pilates — the best pieces that combine lifestyle aesthetic with genuine studio performance.",

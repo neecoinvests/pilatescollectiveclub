@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Bags (2026): Studio Totes & Carry-Alls Ranked",
-  description: "The best bags for Pilates studio sessions — Lululemon, Alo Yoga, Manduka, and more tested for size, organisation, and everyday carry from studio to street.",
-  keywords: ["best pilates bag", "pilates studio bag", "best bag for pilates class", "pilates tote bag", "pilates gym bag", "lululemon pilates bag", "alo yoga bag", "manduka bag", "best bag for reformer pilates", "pilates carry bag 2026"],
+  title: "Best Pilates Bag (2026): Studio & Mat Totes Reviewed | Pilates Collective Club",
+  description: "The best bags for Pilates — mat totes, studio bags, and gym-to-work options reviewed for size, mat fit, material quality, and style.",
+  keywords: ["best pilates bag", "pilates mat bag 2026", "best bag for pilates studio", "pilates tote bag review", "mat carrier pilates bag", "yoga mat bag pilates", "best pilates gym bag", "pilates bag with mat carrier"],
   openGraph: {
     title: "Best Pilates Bags (2026): Studio Totes & Carry-Alls Ranked",
     description: "The best bags for Pilates — tested for studio organisation and everyday carry.",

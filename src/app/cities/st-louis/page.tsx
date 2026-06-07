@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in St. Louis, MO (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in St. Louis, MO. From Ladue and Tower Grove South to Central West End and Lindenwood Park — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in St. Louis, MO (2026) — Curated Guide",
+  description: "The best Pilates studios in St. Louis — reformer boutiques in Clayton, Webster Groves, and the Central West End. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios St Louis MO",
-    "best pilates St Louis",
-    "reformer pilates St Louis",
-    "Ladue pilates studio",
-    "Central West End pilates",
-    "Tower Grove pilates studio",
-    "St Louis pilates classes 2026",
-    "Club Pilates St Louis",
-  ],
+  keywords: ["pilates st louis", "reformer pilates st louis", "best pilates studios st louis mo", "pilates studio saint louis", "pilates classes st louis", "clayton pilates stl", "central west end pilates", "pilates missouri", "best reformer pilates st louis"],
   openGraph: {
-    title: "Best Pilates Studios in St. Louis, MO (2026) — Curated & Verified",
+    title: "Best Pilates Studios in St. Louis, MO (2026)",
     description:
-      "Discover the 6 best Pilates studios in St. Louis, MO. From Ladue to Tower Grove — expert picks and booking tips for 2026.",
+      "Six curated Pilates studios in St. Louis — Clayton and Central West End reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/st-louis",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in St. Louis, MO (2026)",
+    title: "Best Pilates Studios in St. Louis (2026)",
     description:
       "The 6 best Pilates studios in St. Louis — curated, verified, and reviewed for 2026.",
     images: [

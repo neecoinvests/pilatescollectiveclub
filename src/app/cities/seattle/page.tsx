@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Seattle, WA (2026) — Curated & Verified",
-  description: "The best Pilates studios in Seattle, Washington — from classical reformer practices in Capitol Hill to athletic conditioning studios in Bellevue. Six verified picks for every level.",
+  title: "Best Pilates Studios in Seattle, WA (2026) — Curated Guide",
+  description: "The best Pilates studios in Seattle — from Capitol Hill reformer boutiques to classical practices in Queen Anne and Bellevue. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios seattle", "reformer pilates seattle", "best pilates seattle", "pilates classes seattle wa", "pilates capitol hill seattle", "pilates bellevue", "pilates fremont seattle"],
+  keywords: ["pilates seattle", "reformer pilates seattle", "best pilates studios seattle wa", "pilates studio seattle", "pilates classes seattle", "capitol hill pilates", "queen anne pilates seattle", "pilates washington state", "best reformer pilates seattle", "pilates bellevue wa"],
   openGraph: {
-    title: "The Best Pilates Studios in Seattle, WA (2026)",
-    description: "Six curated, verified Pilates studios in Seattle — from Capitol Hill classical practices to athletic conditioning rooms on the Eastside.",
+    title: "Best Pilates Studios in Seattle, WA (2026)",
+    description: "Six curated Pilates studios in Seattle — Capitol Hill, Queen Anne, and Bellevue reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/seattle",
     images: [{ url: "https://images.unsplash.com/photo-1502175353174-a7a70e73b362?w=1200&q=80", width: 1200, height: 630, alt: "Seattle Washington city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Seattle, WA (2026)",
+    title: "Best Pilates Studios in Seattle (2026)",
     description: "Six curated Pilates studios in Seattle — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1502175353174-a7a70e73b362?w=1200&q=80"],
   },

@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Your Reformer Review (2026): The Connected Home Studio",
-  description: "Your Reformer reviewed — the premium Australian wood reformer with integrated app and on-demand classes. Is it the Peloton of Pilates? An honest assessment.",
-  keywords: ["your reformer review", "your reformer pilates", "your reformer app", "connected pilates reformer", "your reformer original", "yr studio pilates", "best home pilates reformer app", "your reformer australia", "premium wood pilates reformer", "your reformer 2026"],
+  title: "Your Reformer Pilates Review (2026): Online Platform Tested | Pilates Collective Club",
+  description: "Your Reformer Pilates reviewed — online class library, instructor quality, beginner to advanced content depth, and how it compares to Pilates Anytime and Alo Moves.",
+  keywords: ["your reformer pilates review", "your reformer pilates online 2026", "is your reformer pilates worth it", "online reformer pilates platform", "your reformer pilates vs pilates anytime", "best online reformer pilates classes"],
   openGraph: {
     title: "Your Reformer Review (2026): The Connected Home Studio",
     description: "Your Reformer — the premium wood reformer with integrated app reviewed for home studio practitioners.",

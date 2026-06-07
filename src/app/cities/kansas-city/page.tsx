@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Kansas City (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Kansas City, MO and KS. From Country Club Plaza and Waldo to Overland Park and Prairie Village — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Kansas City, MO (2026) — Curated Guide",
+  description: "The best Pilates studios in Kansas City — reformer boutiques in the Plaza, Westport, and Leawood. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Kansas City MO",
-    "best pilates Kansas City",
-    "reformer pilates Kansas City",
-    "Country Club Plaza pilates",
-    "Overland Park pilates studio",
-    "Kansas City pilates classes 2026",
-    "Club Pilates Kansas City",
-    "BODYBAR Pilates Kansas City",
-  ],
+  keywords: ["pilates kansas city", "reformer pilates kansas city", "best pilates studios kansas city", "pilates studio kc", "pilates classes kansas city", "plaza pilates kc", "westport pilates", "pilates missouri", "best reformer pilates kansas city", "pilates leawood ks"],
   openGraph: {
-    title: "Best Pilates Studios in Kansas City (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Kansas City, MO (2026)",
     description:
-      "Discover the 6 best Pilates studios in Kansas City. From Country Club Plaza to Overland Park — expert picks and booking tips for 2026.",
+      "Curated Pilates studios in Kansas City — Plaza and Westport reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/kansas-city",
     images: [

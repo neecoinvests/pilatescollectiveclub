@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Is Reformer Pilates Worth It? (2026) Honest Guide",
-  description: "Is reformer Pilates worth the cost? An honest look at what you get from reformer classes vs mat Pilates, and exactly who should (and shouldn't) invest.",
+  title: "Is Reformer Pilates Worth It? (2026 Honest Answer) | Pilates Collective Club",
+  description: "Is reformer Pilates worth the cost? Honest 2026 analysis of physical benefits, price per class, and how reformer Pilates compares to mat and gym training.",
   openGraph: {
     title: "Is Reformer Pilates Worth It? An Honest Assessment",
     description: "The real cost of reformer Pilates, what you actually get, and whether a home reformer makes financial sense.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "An honest assessment of the cost and value of reformer Pilates.",
     images: ["https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"],
   },
-  keywords: ["is reformer pilates worth it", "reformer pilates worth the cost", "reformer pilates benefits", "is reformer pilates effective", "reformer pilates results", "reformer pilates vs mat cost", "reformer pilates expensive", "should i try reformer pilates", "reformer pilates beginner worth it", "reformer pilates what to expect"],
+  keywords: ["is reformer pilates worth it", "is pilates worth the money 2026", "reformer pilates results", "reformer pilates benefits", "is pilates expensive worth it", "pilates reformer vs gym", "reformer pilates cost vs benefit", "should I try reformer pilates"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/is-reformer-pilates-worth-it",
   },

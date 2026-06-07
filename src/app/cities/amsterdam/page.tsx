@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Amsterdam",
-  description: "Our curated guide to Amsterdam's best Pilates studios — from Jordaan to De Pijp, the five studios leading the city's growing wellness scene.",
+  title: "Best Pilates Studios in Amsterdam (2026) — Curated Guide",
+  description: "The best Pilates studios in Amsterdam — reformer boutiques in the Jordaan, De Pijp, and Zuid. Five curated picks verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates amsterdam", "reformer pilates amsterdam", "best pilates amsterdam", "pilates studios amsterdam", "pilates jordaan"],
+  keywords: ["pilates amsterdam", "reformer pilates amsterdam", "best pilates studios amsterdam", "pilates studio amsterdam", "pilates classes amsterdam", "amsterdam reformer studio", "pilates jordaan amsterdam", "pilates de pijp", "pilates netherlands"],
   openGraph: {
-    title: "The Best Pilates Studios in Amsterdam",
-    description: "Our curated guide to Amsterdam's best Pilates studios — five verified picks from Jordaan to De Pijp.",
+    title: "Best Pilates Studios in Amsterdam (2026)",
+    description: "Five curated Pilates studios in Amsterdam — reformer, classical, and Lagree across the Jordaan, De Pijp, and Zuid."s best Pilates studios — five verified picks from Jordaan to De Pijp.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/amsterdam",
     images: [{ url: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80", width: 1200, height: 630, alt: "Amsterdam city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Amsterdam",
+    title: "Best Pilates Studios in Amsterdam (2026)",
     description: "Our curated guide to Amsterdam's best Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80"],
   },

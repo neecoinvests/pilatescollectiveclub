@@ -8,8 +8,8 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Vuori for Pilates (2026): Best Pieces for Men & Women | Pilates Collective Club",
-  description: "Vuori Pilates wear reviewed: Performance Jogger, Ponto, and Daily leggings tested for comfort, mobility, and style in reformer and mat classes.",
-  keywords: ["vuori pilates", "vuori for pilates", "vuori men pilates", "vuori women pilates", "vuori performance jogger pilates", "vuori daily legging pilates", "vuori banks short pilates", "vuori vs lululemon pilates", "best vuori for pilates", "vuori activewear pilates 2026"],
+  description: "Vuori for Pilates — Clementine leggings, Performance Jogger, and bra tops reviewed for reformer performance, feel, and how Vuori compares to Lululemon.",
+  keywords: ["vuori pilates", "vuori pilates review 2026", "best vuori for pilates", "vuori clementine legging pilates", "vuori vs lululemon pilates", "vuori men pilates", "vuori pilates activewear"],
   openGraph: {
     title: "Vuori for Pilates (2026): Best Pieces for Men & Women",
     description: "The complete guide to Vuori activewear for Pilates — the best pieces for studio and reformer classes, including the only dedicated men's Pilates activewear guide on this site.",

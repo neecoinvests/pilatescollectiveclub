@@ -6,9 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "How to Find a Great Pilates Studio (2026): Green Flags & Red Flags | Pilates Collective Club",
-  description: "The specific green flags, red flags, and questions that separate excellent Pilates studios from mediocre ones — before you commit to a class pack or membership.",
-  keywords: ["how to find a good pilates studio", "best pilates studio near me", "pilates studio green flags", "pilates studio red flags", "pilates studio what to look for", "choosing a pilates studio", "questions to ask pilates studio", "pilates studio review criteria", "how to evaluate pilates studio", "finding pilates studio 2026"],
+  title: "How to Find a Good Pilates Studio (2026): Complete Checklist | Pilates Collective Club",
+  description: "How to find a good Pilates studio — what equipment to look for, instructor credentials to check, and the questions every new student should ask before booking.",
+  keywords: ["how to find a good pilates studio", "what to look for in pilates studio 2026", "pilates studio checklist", "finding best pilates studio near me", "pilates studio red flags", "how to choose a pilates studio", "what makes a good pilates studio"],
   openGraph: {
     title: "How to Find a Great Pilates Studio (Before You Commit)",
     description: "The specific questions, red flags, and non-obvious signals that separate excellent Pilates studios from mediocre ones.",

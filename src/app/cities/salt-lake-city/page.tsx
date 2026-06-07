@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Salt Lake City, UT (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Salt Lake City, UT. From Sugar House reformer boutiques to classical studios in the Avenues — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Salt Lake City, UT (2026) — Curated Guide",
+  description: "The best Pilates studios in Salt Lake City — reformer boutiques in Sugar House, the Avenues, and Murray. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Salt Lake City UT",
-    "best pilates Salt Lake City",
-    "reformer pilates SLC",
-    "Sugar House pilates",
-    "Avenues pilates",
-    "9th and 9th pilates studio",
-    "Salt Lake City pilates classes 2026",
-    "SLC fitness studios",
-  ],
+  keywords: ["pilates salt lake city", "reformer pilates salt lake city", "best pilates studios slc", "pilates studio salt lake city ut", "pilates classes utah", "sugar house pilates slc", "pilates avenues slc", "pilates utah", "best reformer pilates salt lake city"],
   openGraph: {
-    title: "Best Pilates Studios in Salt Lake City, UT (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Salt Lake City, UT (2026)",
     description:
-      "Discover the 6 best Pilates studios in Salt Lake City, UT. From Sugar House reformer boutiques to classical studios in the Avenues — expert picks, honest reviews, and booking tips.",
+      "Six curated Pilates studios in Salt Lake City — Sugar House and Avenues reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/salt-lake-city",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Salt Lake City, UT (2026)",
+    title: "Best Pilates Studios in Salt Lake City (2026)",
     description:
       "The 6 best Pilates studios in Salt Lake City — curated, verified, and reviewed for 2026.",
     images: [

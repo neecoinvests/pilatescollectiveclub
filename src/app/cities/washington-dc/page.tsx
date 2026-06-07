@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Washington DC (2026) — Curated & Verified",
-  description: "The best Pilates studios in Washington DC — from Georgetown classical practices to Capitol Hill reformer boutiques. Six verified picks across DC, Arlington, and Bethesda.",
+  title: "Best Pilates Studios in Washington DC (2026) — Curated Guide",
+  description: "The best Pilates studios in Washington DC — from Georgetown reformer boutiques to classical practices in Dupont Circle and Bethesda. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios washington dc", "reformer pilates dc", "best pilates washington dc", "pilates classes dc", "pilates georgetown dc", "pilates capitol hill dc", "pilates bethesda maryland", "pilates arlington virginia"],
+  keywords: ["pilates washington dc", "reformer pilates washington dc", "best pilates studios dc", "pilates studio dc", "pilates classes washington dc", "georgetown pilates dc", "dupont circle pilates", "pilates bethesda md", "best reformer pilates dc", "pilates arlington va"],
   openGraph: {
-    title: "The Best Pilates Studios in Washington DC (2026)",
-    description: "Six curated, verified Pilates studios across Washington DC, Arlington, and Bethesda — the best picks for every level and neighbourhood.",
+    title: "Best Pilates Studios in Washington DC (2026)",
+    description: "Six curated Pilates studios in DC — Georgetown, Dupont Circle, and Bethesda reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/washington-dc",
     images: [{ url: "https://images.unsplash.com/photo-1574365379583-54937ea00cb8?w=1200&q=80", width: 1200, height: 630, alt: "Washington DC city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Washington DC (2026)",
+    title: "Best Pilates Studios in Washington DC (2026)",
     description: "Six curated Pilates studios in Washington DC — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1574365379583-54937ea00cb8?w=1200&q=80"],
   },

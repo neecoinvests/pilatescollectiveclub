@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in San Antonio, TX (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in San Antonio, TX. From Alamo Heights boutiques to North Side reformer studios — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in San Antonio, TX (2026) — Curated Guide",
+  description: "The best Pilates studios in San Antonio — reformer boutiques in Alamo Heights, Stone Oak, and the Pearl District. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios San Antonio TX",
-    "best pilates San Antonio",
-    "reformer pilates San Antonio",
-    "Alamo Heights pilates",
-    "Stone Oak pilates studio",
-    "San Antonio pilates classes 2026",
-    "SATX fitness studios",
-    "Club Pilates San Antonio",
-  ],
+  keywords: ["pilates san antonio", "reformer pilates san antonio", "best pilates studios san antonio tx", "pilates studio san antonio", "pilates classes san antonio", "alamo heights pilates", "pilates stone oak tx", "pilates texas", "best reformer pilates san antonio"],
   openGraph: {
-    title: "Best Pilates Studios in San Antonio, TX (2026) — Curated & Verified",
+    title: "Best Pilates Studios in San Antonio, TX (2026)",
     description:
-      "Discover the 6 best Pilates studios in San Antonio, TX. From Alamo Heights to the Dominion corridor — expert picks and booking tips for 2026.",
+      "Six curated Pilates studios in San Antonio — Alamo Heights and Pearl District reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/san-antonio",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in San Antonio, TX (2026)",
+    title: "Best Pilates Studios in San Antonio (2026)",
     description:
       "The 6 best Pilates studios in San Antonio — curated, verified, and reviewed for 2026.",
     images: [

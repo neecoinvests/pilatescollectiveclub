@@ -8,20 +8,9 @@ import CTASection from "@/components/CTASection";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates vs Barre (2026): Which Workout Is Right for You? | Pilates Collective Club",
-  description: "Pilates vs. barre: muscle focus, equipment, intensity, and results compared. Which class is better for your goals, schedule, and fitness level?",
-  keywords: [
-    "pilates vs barre",
-    "barre vs pilates differences",
-    "pilates or barre for beginners",
-    "pilates vs barre for weight loss",
-    "pilates vs barre for toning",
-    "reformer pilates vs barre",
-    "barre pilates comparison",
-    "pilates vs barre which is better",
-    "pilates barre difference",
-    "pilates vs barre for back pain",
-  ],
+  title: "Pilates vs Barre (2026): Key Differences & Which to Choose | Pilates Collective Club",
+  description: "Pilates vs barre compared — core engagement, muscle activation patterns, intensity, and how to choose between the two methods for your fitness goals.",
+  keywords: ["pilates vs barre", "pilates versus barre 2026", "difference between pilates and barre", "is barre or pilates better", "barre vs reformer pilates", "pilates barre comparison", "which is better pilates or barre", "barre pilates similarities"],
   openGraph: {
     title: "Pilates vs Barre (2026): Which Is Right for You?",
     description: "Pilates vs barre — how they differ in core focus, equipment, rehabilitation, cardio, and cost. Everything you need to choose the right discipline.",

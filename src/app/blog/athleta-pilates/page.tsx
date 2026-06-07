@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Athleta for Pilates (2026): Best Leggings & Honest Review | Pilates Collective Club",
-  description: "Athleta Pilates leggings, tops, and bras reviewed: Salutation Stash, Venice Tight, and more. Performance, feel, and value compared for studio & home.",
-  keywords: ["athleta pilates", "athleta for pilates", "athleta pilates leggings", "athleta salutation tight pilates", "athleta vs lululemon pilates", "athleta b corp activewear", "best athleta leggings pilates", "athleta transcend tight", "athleta activewear pilates 2026", "athleta pilates review"],
+  title: "Athleta for Pilates (2026): Best Leggings & Tops Reviewed | Pilates Collective Club",
+  description: "Best Athleta pieces for Pilates — Salutation, Elation, and Brooklyn leggings reviewed for reformer class compression, opacity, and waistband hold.",
+  keywords: ["athleta pilates", "best athleta leggings for pilates", "athleta salutation tight pilates", "athleta vs lululemon pilates", "athleta reformer pilates", "athleta activewear pilates review", "athleta brooklyn tight pilates"],
   openGraph: {
     title: "Athleta for Pilates (2026): Best Pieces & Honest Review",
     description: "The complete guide to Athleta activewear for Pilates — the best leggings, bras, and layers for studio and reformer classes.",

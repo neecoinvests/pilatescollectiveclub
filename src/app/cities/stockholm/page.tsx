@@ -9,30 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Stockholm",
-  description:
-    "Find the best Pilates studios in Stockholm — from Östermalm reformer boutiques to Södermalm wellness spaces. Five expert picks for 2026.",
+  title: "Best Pilates Studios in Stockholm (2026) — Curated Guide",
+  description: "The best Pilates studios in Stockholm — reformer boutiques on Östermalm, Södermalm, and in Vasastan. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios stockholm",
-    "reformer pilates stockholm",
-    "best pilates stockholm",
-    "pilates classes stockholm",
-    "stockholm pilates guide",
-    "boutique pilates stockholm",
-    "pilates östermalm stockholm",
-    "pilates södermalm",
-    "stockholm pilates 2026",
-  ],
+  keywords: ["pilates stockholm", "reformer pilates stockholm", "best pilates studios stockholm", "pilates studio stockholm", "pilates sweden", "pilates östermalm", "pilates södermalm", "pilates vasastan", "best reformer pilates stockholm", "pilates classes stockholm"],
   openGraph: {
     title: "Best Pilates Studios in Stockholm (2026)",
     description:
-      "Find the best Pilates studios in Stockholm — five curated picks with booking tips for 2026.",
+      "Five curated Pilates studios in Stockholm — Östermalm, Södermalm, and Vasastan reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/stockholm",
     images: [

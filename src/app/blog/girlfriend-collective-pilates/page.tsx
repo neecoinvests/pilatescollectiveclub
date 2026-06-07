@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Girlfriend Collective for Pilates (2026): Sustainable Activewear Reviewed | Pilates Collective Club",
-  description: "Girlfriend Collective Pilates wear reviewed: compression leggings, bras, and shorts tested for reformer and mat. Sustainable activewear compared.",
-  keywords: ["girlfriend collective pilates", "girlfriend collective for pilates", "girlfriend collective leggings pilates", "sustainable pilates activewear", "eco pilates leggings", "girlfriend collective review", "girlfriend collective compressive legging", "ethical pilates activewear", "girlfriend collective vs lululemon", "sustainable activewear pilates 2026"],
+  title: "Girlfriend Collective for Pilates (2026): Compressive Picks Reviewed | Pilates Collective Club",
+  description: "Girlfriend Collective leggings and sets reviewed for Pilates — compression level, sustainability, opacity on the reformer, and fit compared to Lululemon and Alo.",
+  keywords: ["girlfriend collective pilates", "girlfriend collective leggings pilates review", "girlfriend collective vs lululemon pilates", "is girlfriend collective good for pilates", "girlfriend collective activewear pilates 2026", "eco pilates activewear"],
   openGraph: {
     title: "Girlfriend Collective for Pilates (2026): Sustainable Activewear Reviewed",
     description: "The complete guide to Girlfriend Collective activewear for Pilates — honest review for practitioners who care about both performance and ethics.",

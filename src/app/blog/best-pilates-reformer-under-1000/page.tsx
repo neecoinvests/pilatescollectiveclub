@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Under $1,000 (2026): Honest Reviews",
-  description: "The best Pilates reformers under $1,000 tested honestly — AeroPilates, Stamina, and Merrithew entry-level machines ranked by resistance quality and build.",
+  title: "Best Pilates Reformer Under $1,000 (2026): Honest Reviews | Pilates Collective Club",
+  description: "The best Pilates reformers under $1,000 — AeroPilates, Stamina, and Merrithew entry-level machines honestly reviewed on spring resistance, build, and value.",
   openGraph: {
     title: "Best Pilates Reformer Under $1,000 (2026)",
     description: "The honest guide to every reformer under four figures — spring vs cord, what you sacrifice, and our pick.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "Honest reviews of every reformer under $1,000 — spring vs cord and what you actually get.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
-  keywords: ["best pilates reformer under 1000", "pilates reformer under 1000", "cheap pilates reformer", "affordable pilates reformer", "pilates reformer 1000 dollars", "home pilates reformer budget", "best budget reformer pilates 2026", "pilates reformer price", "entry level pilates reformer", "pilates reformer $500 $1000"],
+  keywords: ["best pilates reformer under 1000", "pilates reformer under 1000 dollars", "affordable pilates reformer 2026", "aeropilates review under 1000", "stamina aeropilates reformer review", "budget pilates reformer", "best cheap pilates reformer", "pilates reformer under $1000 buy"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-1000",
   },

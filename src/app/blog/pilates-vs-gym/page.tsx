@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates vs Gym (2026): Which Is Better for You?",
-  description: "An honest comparison of Pilates and gym training — strength, body composition, flexibility, cost, injury risk, and which one is actually right for your goals.",
+  title: "Pilates vs Gym (2026): Which is Right for You? | Pilates Collective Club",
+  description: "Pilates vs gym training compared — muscle building, core strength, cost per session, and which approach better fits different fitness goals and lifestyles.",
   openGraph: {
     title: "Pilates vs Gym: An Honest Comparison",
     description: "Strength, cost, body composition, injury risk — an evidence-based assessment of both, and who should choose what.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "An honest comparison of Pilates and gym training for strength, body composition, and overall fitness.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"],
   },
-  keywords: ["pilates vs gym", "pilates or gym", "is pilates better than the gym", "pilates vs weight training", "pilates vs strength training", "pilates gym comparison", "should i do pilates or gym", "pilates vs lifting weights", "pilates results vs gym results", "pilates for gym people"],
+  keywords: ["pilates vs gym", "pilates versus gym workout 2026", "is pilates better than gym", "pilates vs weight training", "pilates gym comparison", "pilates for strength vs gym", "which is better pilates or gym", "pilates gym hybrid training"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-vs-gym",
   },

@@ -9,30 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Rome (2026)",
-  description:
-    "Discover the best Pilates studios in Rome — from Prati reformer boutiques to Parioli wellness centres. Five curated picks for serious practitioners in 2026.",
+  title: "Best Pilates Studios in Rome (2026) — Curated Guide",
+  description: "The best Pilates studios in Rome — reformer boutiques in Prati, Parioli, and Trastevere. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios rome",
-    "reformer pilates rome",
-    "best pilates rome",
-    "pilates classes roma",
-    "rome pilates guide",
-    "boutique pilates rome",
-    "pilates prati rome",
-    "pilates parioli rome",
-    "pilates roma 2026",
-  ],
+  keywords: ["pilates rome", "pilates roma", "reformer pilates rome", "best pilates studios rome", "pilates studio roma", "pilates prati rome", "pilates parioli", "pilates italy", "best reformer pilates rome", "pilates classes rome"],
   openGraph: {
     title: "Best Pilates Studios in Rome (2026)",
     description:
-      "Discover the best Pilates studios in Rome — five curated picks with booking tips for 2026.",
+      "Five curated Pilates studios in Rome — Prati, Parioli, and Trastevere reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/rome",
     images: [

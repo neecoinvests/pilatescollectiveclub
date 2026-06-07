@@ -6,9 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Pilates for Runners (2026): The Work That Actually Prevents Injury | Pilates Collective Club",
-  description: "Pilates for runners: hip stability, IT band relief, and cadence work via reformer and mat exercises. Training plans for 5K to marathon runners.",
-  keywords: ["pilates for runners", "running pilates training", "pilates running injury prevention", "glute medius pilates runner", "pilates hip flexor runner", "pilates breathing running", "reformer pilates running", "pilates for marathon runners", "cross training pilates running", "pilates runner guide 2026"],
+  title: "Pilates for Runners (2026): Hip Stability, Stride & Injury Prevention | Pilates Collective Club",
+  description: "Pilates for runners — the best reformer and mat exercises for hip stability, hamstring flexibility, and preventing IT band, knee, and lower back injuries.",
+  keywords: ["pilates for runners", "pilates running performance 2026", "reformer pilates runners", "pilates hip stability running", "pilates for marathon runners", "pilates it band runners", "pilates knee injury prevention running", "running pilates cross training"],
   openGraph: {
     title: "Pilates for Runners: The Specific Work That Actually Helps",
     description: "How Pilates addresses the actual movement deficits that cause running injuries — and what to prioritise in your practice.",

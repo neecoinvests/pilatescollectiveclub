@@ -9,29 +9,18 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Singapore",
-  description:
-    "Discover the best Pilates studios in Singapore — from CBD reformer boutiques to Dempsey Hill wellness retreats. Our curated guide to Singapore Pilates in 2026.",
+  title: "Best Pilates Studios in Singapore (2026) — Curated Guide",
+  description: "The best Pilates studios in Singapore — reformer boutiques in Orchard, Dempsey, Tiong Bahru, and the CBD. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios singapore",
-    "reformer pilates singapore",
-    "best pilates singapore",
-    "pilates classes singapore",
-    "singapore pilates 2026",
-    "pilates cbd singapore",
-    "pilates orchard singapore",
-    "singapore reformer studios",
-    "best reformer pilates singapore",
-  ],
+  keywords: ["pilates singapore", "reformer pilates singapore", "best pilates studios singapore", "pilates studio singapore", "pilates classes singapore", "pilates orchard singapore", "pilates dempsey", "pilates tiong bahru", "best reformer pilates singapore", "pilates cbd singapore"],
   openGraph: {
     title: "Best Pilates Studios in Singapore (2026)",
-    description: "Our curated guide to Singapore's finest Pilates studios — five verified picks with booking tips.",
+    description: "Five curated Pilates studios in Singapore — Orchard, Dempsey, and Tiong Bahru reformer picks. Verified June 2026."s finest Pilates studios — five verified picks with booking tips.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/singapore",
     images: [{ url: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1200&q=80", width: 1200, height: 630, alt: "Singapore city guide — Pilates Collective Club" }],

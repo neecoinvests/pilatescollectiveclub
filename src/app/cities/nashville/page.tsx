@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Nashville, TN (2026) — Curated & Verified",
-  description: "The best Pilates studios in Nashville, Tennessee — from classical Green Hills practices to contemporary reformer studios in 12 South and The Gulch. Six verified picks for every level.",
+  title: "Best Pilates Studios in Nashville, TN (2026) — Curated Guide",
+  description: "The best Pilates studios in Nashville — from Green Hills reformer boutiques to classical practices in 12 South and East Nashville. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios nashville", "reformer pilates nashville", "best pilates nashville", "pilates classes nashville tn", "pilates green hills nashville", "pilates 12 south nashville", "pilates the gulch nashville"],
+  keywords: ["pilates nashville", "reformer pilates nashville", "best pilates studios nashville tn", "pilates studio nashville", "pilates classes nashville", "green hills pilates", "12 south pilates", "pilates tennessee", "best reformer pilates nashville", "east nashville pilates"],
   openGraph: {
-    title: "The Best Pilates Studios in Nashville, TN (2026)",
-    description: "Six curated, verified Pilates studios in Nashville — from Green Hills classical studios to contemporary reformer rooms in 12 South.",
+    title: "Best Pilates Studios in Nashville, TN (2026)",
+    description: "Six curated Pilates studios in Nashville — Green Hills and 12 South reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/nashville",
     images: [{ url: "https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=1200&q=80", width: 1200, height: 630, alt: "Nashville Tennessee city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Nashville, TN (2026)",
+    title: "Best Pilates Studios in Nashville (2026)",
     description: "Six curated Pilates studios in Nashville — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=1200&q=80"],
   },

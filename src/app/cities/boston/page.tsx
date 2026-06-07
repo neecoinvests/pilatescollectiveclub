@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Boston, MA (2026) — Curated & Verified",
-  description: "The best Pilates studios in Boston, Massachusetts — from South End classical studios to Beacon Hill reformer boutiques. Six verified picks for every level and neighbourhood.",
+  title: "Best Pilates Studios in Boston, MA (2026) — Curated Guide",
+  description: "The best Pilates studios in Boston — from Back Bay reformer boutiques to South End classical practices. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios boston", "reformer pilates boston", "best pilates boston", "pilates classes boston ma", "pilates south end boston", "pilates back bay boston", "pilates beacon hill"],
+  keywords: ["pilates boston", "reformer pilates boston", "best pilates studios boston", "pilates studio boston ma", "pilates classes boston", "back bay pilates", "south end pilates boston", "pilates massachusetts", "best reformer pilates boston", "pilates cambridge ma"],
   openGraph: {
-    title: "The Best Pilates Studios in Boston, MA (2026)",
-    description: "Six curated, verified Pilates studios in Boston — from South End classical practices to high-performance reformer rooms in Back Bay.",
+    title: "Best Pilates Studios in Boston, MA (2026)",
+    description: "Six curated Pilates studios in Boston — Back Bay reformer boutiques to South End classical method. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/boston",
     images: [{ url: "https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80", width: 1200, height: 630, alt: "Boston Massachusetts city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Boston, MA (2026)",
+    title: "Best Pilates Studios in Boston (2026)",
     description: "Six curated Pilates studios in Boston — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80"],
   },

@@ -9,30 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Milan (2026)",
-  description:
-    "Find the best Pilates studios in Milan — from Brera reformer boutiques to Navigli wellness centres. Five expert picks for discerning practitioners in 2026.",
+  title: "Best Pilates Studios in Milan (2026) — Curated Guide",
+  description: "The best Pilates studios in Milan — reformer boutiques in Brera, Navigli, and Porta Venezia. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios milan",
-    "reformer pilates milan",
-    "best pilates milan",
-    "pilates classes milano",
-    "milan pilates guide",
-    "boutique pilates milan",
-    "pilates brera milan",
-    "wellness milan",
-    "pilates milano 2026",
-  ],
+  keywords: ["pilates milan", "pilates milano", "reformer pilates milan", "best pilates studios milan", "pilates studio milano", "pilates brera", "pilates navigli", "pilates italy", "best reformer pilates milan", "pilates classes milan"],
   openGraph: {
     title: "Best Pilates Studios in Milan (2026)",
     description:
-      "Find the best Pilates studios in Milan — five curated picks with booking tips for 2026.",
+      "Five curated Pilates studios in Milan — Brera, Navigli, and Porta Venezia reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/milan",
     images: [

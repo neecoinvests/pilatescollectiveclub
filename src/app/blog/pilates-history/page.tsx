@@ -6,9 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The History of Pilates: From Joseph Pilates to Today (2026) | Pilates Collective Club",
-  description: "The history of Pilates: Joseph Pilates, the evolution from Contrology to modern reformer, and how the method spread from New York to the world.",
-  keywords: ["history of pilates", "joseph pilates history", "contrology history", "pilates method history", "who invented pilates", "pilates origin story", "pilates elders lineage", "romana pilates history", "pilates new york history", "history of reformer pilates 2026"],
+  title: "The History of Pilates (2026): From Joseph Pilates to Today | Pilates Collective Club",
+  description: "The history of Pilates — from Joseph Pilates' early life and Contrology origins in New York to the global modern Pilates movement. A complete chronological guide.",
+  keywords: ["history of pilates", "joseph pilates history", "contrology pilates origin", "who invented pilates", "pilates history timeline", "pilates new york history", "classical pilates history", "joseph pilates biography", "pilates evolution history 2026"],
   openGraph: {
     title: "The History of Pilates: From Joseph Pilates to Today",
     description: "The complete history of Pilates — from Joseph Pilates' origins to the global boutique studios of today.",

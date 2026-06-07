@@ -6,9 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Pilates During Menopause (2026): Bone Density, Hormones & Practice | Pilates Collective Club",
-  description: "Pilates for menopause: bone density, core stability, and hormone-supportive exercises for perimenopause and post-menopause. Instructor-guided guide.",
-  keywords: ["pilates for menopause", "pilates during menopause", "pilates bone density", "pilates pelvic floor menopause", "menopause exercise pilates", "pilates hormonal changes", "pilates for osteoporosis", "pilates perimenopause", "pilates postmenopause", "pilates menopause guide 2026"],
+  title: "Pilates for Menopause (2026): Bone Density, Core & Balance | Pilates Collective Club",
+  description: "Pilates for menopause — how reformer and mat Pilates supports bone density, reduces back pain, improves balance, and maintains muscle tone during and after menopause.",
+  keywords: ["pilates for menopause", "pilates menopause benefits 2026", "reformer pilates menopause", "pilates bone density menopause", "pilates hormonal changes", "pilates for women over 50", "pilates perimenopause", "best exercise menopause pilates"],
   openGraph: {
     title: "Pilates During Menopause: Bone Density, Hormones & Practice",
     description: "How Pilates supports women through perimenopause and menopause — and how to adapt your practice as your body changes.",

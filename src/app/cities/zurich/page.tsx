@@ -9,26 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Zurich",
-  description:
-    "The best Pilates studios in Zurich — from Seefeld lake-view reformer to physio-Pilates in Hottingen. Curated & verified picks for every level.",
+  title: "Best Pilates Studios in Zurich (2026) — Curated Guide",
+  description: "The best Pilates studios in Zurich — reformer boutiques in Seefeld, Hottingen, and the city centre. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates zürich", "pilates zurich", "reformer pilates zurich", "best pilates zurich", "pilates studios zürich"],
+  keywords: ["pilates zürich", "pilates zurich", "reformer pilates zurich", "best pilates studios zurich", "pilates studio zürich", "pilates seefeld zürich", "pilates hottingen", "pilates switzerland", "best reformer pilates zurich", "pilates classes zurich"],
   openGraph: {
-    title: "The Best Pilates Studios in Zurich",
-    description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
+    title: "Best Pilates Studios in Zurich (2026)",
+    description: "Five curated Pilates studios in Zurich — Seefeld, Hottingen, and city centre reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/zurich",
     images: [{ url: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1200&q=80", width: 1200, height: 630, alt: "Zurich city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Zurich",
+    title: "Best Pilates Studios in Zurich (2026)",
     description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1200&q=80"],
   },

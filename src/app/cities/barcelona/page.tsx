@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Barcelona",
-  description: "Our curated guide to Barcelona's best Pilates studios — from Eixample to Gràcia, the five studios leading the city's vibrant wellness scene.",
+  title: "Best Pilates Studios in Barcelona (2026) — Curated Guide",
+  description: "The best Pilates studios in Barcelona — reformer boutiques in Eixample, Gràcia, and the Gothic Quarter. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates barcelona", "reformer pilates barcelona", "best pilates barcelona", "pilates studios barcelona", "pilates eixample"],
+  keywords: ["pilates barcelona", "reformer pilates barcelona", "best pilates studios barcelona", "pilates studio barcelona", "pilates clases barcelona", "pilates eixample", "pilates gracia barcelona", "pilates spain", "best reformer pilates barcelona", "estudio pilates barcelona"],
   openGraph: {
-    title: "The Best Pilates Studios in Barcelona",
-    description: "Our curated guide to Barcelona's best Pilates studios — five verified picks from Eixample to Poblenou.",
+    title: "Best Pilates Studios in Barcelona (2026)",
+    description: "Five curated Pilates studios in Barcelona — reformer and classical picks from Eixample to Gràcia. Verified June 2026."s best Pilates studios — five verified picks from Eixample to Poblenou.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/barcelona",
     images: [{ url: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200&q=80", width: 1200, height: 630, alt: "Barcelona city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Barcelona",
+    title: "Best Pilates Studios in Barcelona (2026)",
     description: "Our curated guide to Barcelona's best Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200&q=80"],
   },

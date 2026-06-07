@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Philadelphia, PA (2026) — Curated & Verified",
-  description: "The best Pilates studios in Philadelphia, Pennsylvania — from classical Rittenhouse Square practices to community reformer studios in Fishtown and Manayunk. Six verified picks.",
+  title: "Best Pilates Studios in Philadelphia, PA (2026) — Curated Guide",
+  description: "The best Pilates studios in Philadelphia — reformer boutiques in Rittenhouse Square, Fishtown, and the Main Line. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios philadelphia", "reformer pilates philadelphia", "best pilates philadelphia", "pilates classes philly", "pilates rittenhouse square", "pilates fishtown philadelphia", "pilates main line philadelphia"],
+  keywords: ["pilates philadelphia", "reformer pilates philadelphia", "best pilates studios philadelphia", "pilates studio philly", "pilates classes philadelphia", "rittenhouse square pilates", "fishtown pilates", "pilates main line pa", "pilates pennsylvania", "best reformer pilates philly"],
   openGraph: {
-    title: "The Best Pilates Studios in Philadelphia, PA (2026)",
-    description: "Six curated, verified Pilates studios in Philadelphia — from Rittenhouse Square classical studios to community-oriented reformer rooms in Fishtown.",
+    title: "Best Pilates Studios in Philadelphia, PA (2026)",
+    description: "Six curated Pilates studios in Philadelphia — Rittenhouse Square and Fishtown reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/philadelphia",
     images: [{ url: "https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=1200&q=80", width: 1200, height: 630, alt: "Philadelphia Pennsylvania city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Philadelphia, PA (2026)",
+    title: "Best Pilates Studios in Philadelphia (2026)",
     description: "Six curated Pilates studios in Philadelphia — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=1200&q=80"],
   },

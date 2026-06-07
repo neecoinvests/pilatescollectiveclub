@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Seniors (2026): Safe, Effective & Evidence-Based",
-  description: "Why Pilates works so well for over-60s — bone density, balance, fall prevention, and joint health. A practical guide to getting started safely.",
+  title: "Pilates for Seniors (2026): Safe Exercises & Beginner Guide | Pilates Collective Club",
+  description: "Pilates for seniors — the safest reformer and mat exercises for older adults, modifications for joint concerns, and guidance for practitioners over 60.",
   openGraph: {
     title: "Pilates for Seniors: Safe, Effective & Evidence-Based",
     description: "Why Pilates is one of the best exercises for over-60s — fall prevention, bone density, and balance, covered.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The evidence-based guide to Pilates for over-60s — fall prevention, bone density, and how to start.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
-  keywords: ["pilates for seniors", "pilates for older adults", "pilates over 60", "pilates for elderly", "senior pilates exercises", "pilates for over 65", "pilates bone density seniors", "gentle pilates seniors", "pilates balance elderly", "pilates aging"],
+  keywords: ["pilates for seniors", "pilates older adults 2026", "pilates for 60 year olds", "reformer pilates seniors", "gentle pilates for seniors", "pilates for over 65", "senior pilates class", "pilates mobility elderly", "pilates arthritis seniors"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-seniors",
   },

@@ -9,20 +9,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Minneapolis, MN (2026) — Curated & Verified",
-  description: "The best Pilates studios in Minneapolis, Minnesota — from classical Linden Hills practices to contemporary reformer studios in Uptown and NE Minneapolis. Six verified picks.",
+  title: "Best Pilates Studios in Minneapolis, MN (2026) — Curated Guide",
+  description: "The best Pilates studios in Minneapolis — reformer boutiques in Uptown, Edina, and Northeast Minneapolis. Six verified picks for every level, 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
-  keywords: ["pilates studios minneapolis", "reformer pilates minneapolis", "best pilates minneapolis", "pilates classes minneapolis mn", "pilates uptown minneapolis", "pilates linden hills", "pilates ne minneapolis", "pilates st paul"],
+  keywords: ["pilates minneapolis", "reformer pilates minneapolis", "best pilates studios minneapolis", "pilates studio minneapolis mn", "pilates classes minneapolis", "uptown pilates minneapolis", "edina pilates mn", "pilates minnesota", "best reformer pilates minneapolis"],
   openGraph: {
-    title: "The Best Pilates Studios in Minneapolis, MN (2026)",
-    description: "Six curated, verified Pilates studios in Minneapolis — from Linden Hills classical practices to contemporary reformer rooms in Uptown.",
+    title: "Best Pilates Studios in Minneapolis, MN (2026)",
+    description: "Six curated Pilates studios in Minneapolis — Uptown and Edina reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/minneapolis",
     images: [{ url: "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80", width: 1200, height: 630, alt: "Minneapolis Minnesota city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Minneapolis, MN (2026)",
+    title: "Best Pilates Studios in Minneapolis (2026)",
     description: "Six curated Pilates studios in Minneapolis — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80"],
   },

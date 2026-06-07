@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Charlotte, NC (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Charlotte, NC. From South End reformer boutiques to Myers Park classical studios — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Charlotte, NC (2026) — Curated Guide",
+  description: "The best Pilates studios in Charlotte — reformer boutiques in South End, Myers Park, and Ballantyne. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Charlotte NC",
-    "best pilates Charlotte",
-    "reformer pilates Charlotte",
-    "South End pilates",
-    "Myers Park pilates",
-    "NoDa pilates studio",
-    "Charlotte pilates classes 2026",
-    "Charlotte NC fitness studios",
-  ],
+  keywords: ["pilates charlotte", "reformer pilates charlotte", "best pilates studios charlotte nc", "pilates studio charlotte", "pilates classes charlotte", "south end pilates charlotte", "myers park pilates", "pilates north carolina", "best reformer pilates charlotte"],
   openGraph: {
-    title: "Best Pilates Studios in Charlotte, NC (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Charlotte, NC (2026)",
     description:
-      "Discover the 6 best Pilates studios in Charlotte, NC. From South End reformer boutiques to Myers Park classical studios — expert picks, honest reviews, and booking tips.",
+      "Six curated Pilates studios in Charlotte — South End reformer boutiques to Myers Park classical method. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/charlotte",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Charlotte, NC (2026)",
+    title: "Best Pilates Studios in Charlotte (2026)",
     description:
       "The 6 best Pilates studios in Charlotte — curated, verified, and reviewed for 2026.",
     images: [

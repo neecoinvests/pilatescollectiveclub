@@ -9,18 +9,18 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Tokyo (2026)",
-  description: "Pilates studios in Tokyo: our curated guide to the five best reformer and mat studios across Minami-Aoyama, Ebisu, and Shinjuku — verified for 2026.",
+  title: "Best Pilates Studios in Tokyo (2026) — Curated Guide",
+  description: "The best Pilates studios in Tokyo — reformer boutiques in Omotesando, Ebisu, and Daikanyama. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios tokyo", "reformer pilates tokyo", "best pilates tokyo", "pilates aoyama tokyo", "pilates ebisu", "boutique pilates tokyo", "pilates classes tokyo", "tokyo wellness studios"],
+  keywords: ["pilates tokyo", "reformer pilates tokyo", "best pilates studios tokyo", "pilates studio tokyo", "pilates omotesando", "pilates ebisu", "pilates daikanyama", "pilates japan", "best reformer pilates tokyo", "pilates classes tokyo"],
   openGraph: {
     title: "Best Pilates Studios in Tokyo (2026)",
-    description: "Our curated guide to Tokyo's five best Pilates studios — from Minami-Aoyama to Ebisu, verified for 2026.",
+    description: "Five curated Pilates studios in Tokyo — Omotesando, Ebisu, and Daikanyama reformer picks. Verified June 2026."s five best Pilates studios — from Minami-Aoyama to Ebisu, verified for 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/tokyo",
     images: [{ url: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80", width: 1200, height: 630, alt: "Tokyo city guide — Pilates Collective Club" }],

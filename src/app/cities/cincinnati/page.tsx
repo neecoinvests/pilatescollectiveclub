@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Cincinnati, OH (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Cincinnati, OH. From Hyde Park and OTR to Oakley and College Hill — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Cincinnati, OH (2026) — Curated Guide",
+  description: "The best Pilates studios in Cincinnati — reformer boutiques and classical method practices across Hyde Park, Mount Lookout, and Downtown. Verified 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Cincinnati OH",
-    "best pilates Cincinnati",
-    "reformer pilates Cincinnati",
-    "Hyde Park pilates studio",
-    "Over the Rhine pilates",
-    "Oakley pilates studio",
-    "Cincinnati pilates classes 2026",
-    "Club Pilates Cincinnati",
-  ],
+  keywords: ["pilates cincinnati", "reformer pilates cincinnati", "best pilates studios cincinnati", "pilates studio cincinnati oh", "pilates classes cincinnati", "hyde park pilates", "pilates ohio", "best reformer pilates cincinnati"],
   openGraph: {
-    title: "Best Pilates Studios in Cincinnati, OH (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Cincinnati, OH (2026)",
     description:
-      "Discover the 6 best Pilates studios in Cincinnati, OH. From Hyde Park to Over-the-Rhine — expert picks and booking tips for 2026.",
+      "Curated Pilates studios in Cincinnati — reformer and classical picks across Hyde Park and Downtown. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/cincinnati",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Cincinnati, OH (2026)",
+    title: "Best Pilates Studios in Cincinnati (2026)",
     description:
       "The 6 best Pilates studios in Cincinnati — curated, verified, and reviewed for 2026.",
     images: [

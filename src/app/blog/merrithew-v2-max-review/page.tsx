@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Merrithew V2 Max Review (2026): Worth the Upgrade?",
-  description: "An in-depth review of the Merrithew V2 Max Reformer — specs, spring feel, retractable rope system, and honest comparison with the SPX Max. Who should buy it?",
+  title: "Merrithew V2 Max Reformer Review (2026): Is It Worth It? | Pilates Collective Club",
+  description: "Merrithew V2 Max reformer reviewed honestly — spring range, carriage feel, vertical frame attachment, and value compared to Balanced Body Allegro 2 and Gratz.",
   openGraph: {
     title: "Merrithew V2 Max Reformer Review (2026): Is It Worth the Upgrade?",
     description: "The Merrithew V2 Max reviewed in detail — patented rope system, wider carriage, high-precision springs, and the honest answer on whether it justifies the price over the SPX Max.",
@@ -21,18 +21,7 @@ export const metadata: Metadata = {
     description: "In-depth review of the Merrithew V2 Max — specs, spring feel, and whether it justifies the upgrade over the SPX Max.",
     images: ["https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg"],
   },
-  keywords: [
-    "merrithew v2 max review",
-    "merrithew v2 max reformer",
-    "v2 max vs spx max",
-    "merrithew v2 max price",
-    "merrithew v2 max specs",
-    "best merrithew reformer home",
-    "merrithew professional reformer review",
-    "merrithew v2 max worth it",
-    "v2 max pilates reformer 2026",
-    "merrithew reformer comparison",
-  ],
+  keywords: ["merrithew v2 max review", "merrithew v2 max reformer 2026", "stott pilates v2 max review", "v2 max plus merrithew review", "merrithew v2 max price", "is merrithew v2 max worth it", "merrithew v2 max vs balanced body", "best premium home reformer"],
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/merrithew-v2-max-review" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };

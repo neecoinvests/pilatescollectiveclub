@@ -9,29 +9,18 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Dubai (2026)",
-  description:
-    "Find the best Pilates studios in Dubai — from luxury reformer boutiques in DIFC to community studios in Jumeirah. Our curated guide to Dubai Pilates in 2026.",
+  title: "Best Pilates Studios in Dubai (2026) — Curated Guide",
+  description: "The best Pilates studios in Dubai — reformer boutiques in DIFC, Jumeirah, Dubai Marina, and Downtown. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios dubai",
-    "reformer pilates dubai",
-    "best pilates dubai",
-    "pilates classes dubai",
-    "dubai pilates 2026",
-    "pilates difc",
-    "pilates jumeirah",
-    "dubai reformer studios",
-    "best reformer pilates dubai",
-  ],
+  keywords: ["pilates dubai", "reformer pilates dubai", "best pilates studios dubai", "pilates studio dubai", "pilates difc", "pilates jumeirah", "pilates marina dubai", "pilates uae", "best reformer pilates dubai", "pilates classes dubai"],
   openGraph: {
     title: "Best Pilates Studios in Dubai (2026)",
-    description: "Our curated guide to Dubai's finest Pilates studios — five verified picks with booking tips.",
+    description: "Five curated Pilates studios in Dubai — DIFC, Jumeirah, and Marina reformer picks. Verified June 2026."s finest Pilates studios — five verified picks with booking tips.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/dubai",
     images: [{ url: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80", width: 1200, height: 630, alt: "Dubai city guide — Pilates Collective Club" }],

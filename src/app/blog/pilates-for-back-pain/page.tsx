@@ -7,7 +7,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Pilates for Back Pain (2026): What the Research Actually Shows | Pilates Collective Club",
-  description: "Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain. Evidence-based guidance from physios.",
+  description: "Pilates for back pain — the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain with evidence-based guidance from physios.",
   openGraph: {
     title: "Pilates for Back Pain: What the Research Shows",
     description: "A clear-eyed look at the evidence for Pilates as a treatment for back pain — what it can and can't do, which exercises help most, and how to find the right instructor.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The evidence for Pilates as a treatment for back pain — what it can and can't do.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"],
   },
-  keywords: ["pilates for back pain", "pilates lower back pain", "pilates chronic back pain", "pilates for lumbar pain", "reformer pilates back pain", "pilates spine health", "pilates for herniated disc", "pilates back pain research", "pilates vs physiotherapy back pain", "pilates back pain 2026"],
+  keywords: ["pilates for back pain", "pilates back pain relief 2026", "reformer pilates lower back pain", "pilates lumbar pain", "pilates disc herniation", "pilates for sciatica", "pilates spine health", "does pilates help back pain", "best pilates exercises back pain"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
   },

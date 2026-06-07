@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Gratz Pilates (2026): Classical Apparatus, Honest Review & Who It's For | Pilates Collective Club",
-  description: "Gratz Pilates equipment reviewed: Maple Classic Reformer, Cadillac, Wunda Chair, and barrels. The original equipment maker for classical studios.",
-  keywords: ["gratz pilates", "gratz pilates reformer", "classical pilates equipment", "gratz pilates review", "gratz vs balanced body", "classical pilates apparatus", "gratz reformer price", "joseph pilates equipment", "classical pilates reformer", "gratz pilates 2026"],
+  title: "Gratz Pilates Equipment Review (2026): Classical Standard | Pilates Collective Club"s For | Pilates Collective Club",
+  description: "Gratz Pilates equipment reviewed — the classical universal reformer, cadillac, and accessories assessed for build quality, spring tension, and classical method adherence.",
+  keywords: ["gratz pilates review", "gratz universal reformer review 2026", "gratz vs balanced body", "gratz pilates equipment", "classical pilates reformer gratz", "gratz pilates buy", "best classical pilates reformer", "gratz pilates price"],
   openGraph: {
     title: "Gratz Pilates (2026): Classical Apparatus Honestly Reviewed",
     description: "Gratz makes classical apparatus to Joseph Pilates' original specs. Is the premium worth it?",

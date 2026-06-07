@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Classical vs Contemporary Pilates (2026): What's the Difference? | Pilates Collective Club",
-  description: "Classical vs. contemporary Pilates: repertoire, equipment, and teaching philosophy compared. Which method is right for your body and goals?",
+  title: "Classical vs Contemporary Pilates (2026): Key Differences | Pilates Collective Club"s the Difference? | Pilates Collective Club",
+  description: "Classical vs contemporary Pilates compared — exercise order, spring loading, apparatus, and instructor training philosophy explained clearly for practitioners.",
   openGraph: {
     title: "Classical vs Contemporary Pilates: Which Style Is Right for You?",
     description: "Understanding the key differences between classical and contemporary Pilates — the original method, modern interpretations, and how to choose the right approach.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The original method vs modern interpretations — how to choose the right Pilates style for your goals.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"],
   },
-  keywords: ["classical vs contemporary pilates", "classical pilates method", "contemporary pilates", "stott pilates vs classical", "contrology pilates", "romana pilates vs stott", "pilates method differences", "what is classical pilates", "what is contemporary pilates", "pilates lineage explained 2026"],
+  keywords: ["classical vs contemporary pilates", "classical pilates difference", "contemporary pilates explained", "joseph pilates original method", "stott vs gratz pilates", "classical pilates order", "contemporary reformer pilates difference", "pilates method comparison 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
   },

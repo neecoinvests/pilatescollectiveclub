@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in New York City",
-  description: "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Top-rated picks for every level and neighborhood.",
+  title: "Best Pilates Studios in New York City (2026) — Curated Guide",
+  description: "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Five curated picks across Manhattan, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios new york", "reformer pilates nyc", "best pilates new york", "pilates classes nyc", "pilates manhattan"],
+  keywords: ["pilates new york", "pilates nyc", "reformer pilates new york", "best pilates studios nyc", "pilates studio manhattan", "pilates classes new york", "soho pilates", "tribeca pilates", "upper east side pilates", "best reformer pilates nyc"],
   openGraph: {
-    title: "The Best Pilates Studios in New York City",
-    description: "Our curated guide to NYC's finest Pilates studios — five verified picks from Chelsea to the West Village.",
+    title: "Best Pilates Studios in New York City (2026)",
+    description: "Five curated Pilates studios in New York — SoHo, Tribeca, and uptown reformer picks. Verified June 2026."s finest Pilates studios — five verified picks from Chelsea to the West Village.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/new-york",
     images: [{ url: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80", width: 1200, height: 630, alt: "New York city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in New York City",
+    title: "Best Pilates Studios in NYC (2026)",
     description: "Our curated guide to NYC's finest Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80"],
   },

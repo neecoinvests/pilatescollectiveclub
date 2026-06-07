@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Home Pilates Reformer (2026): Every Budget Honestly Reviewed | Pilates Collective Club",
-  description: "The best home Pilates reformers of 2026 — Balanced Body, Merrithew, Align, and budget picks tested. Find the right machine for your space and budget.",
+  title: "Best Home Pilates Reformer (2026): Every Budget Reviewed | Pilates Collective Club",
+  description: "The best home Pilates reformers of 2026 — from budget AeroPilates to premium Balanced Body, reviewed on spring quality, carriage glide, and durability.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
     description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "The best home Pilates reformers tested across every price point.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
-  keywords: ["best home pilates reformer", "home pilates reformer review", "pilates reformer for home use", "aeropilates reformer review", "balanced body home reformer", "merrithew at home reformer", "best pilates reformer under 500", "best pilates reformer under 2000", "home reformer pilates 2026", "pilates reformer vs mat pilates"],
+  keywords: ["best home pilates reformer", "best home pilates reformer 2026", "pilates reformer for home use", "home reformer pilates review", "best pilates reformer to buy", "top rated home pilates reformer", "pilates reformer home workout", "best reformer for beginners at home"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
   },

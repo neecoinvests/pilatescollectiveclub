@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "How Often Should You Do Pilates? (2026 Guide)",
-  description: "How many times per week should you do Pilates? Evidence-based guidance on optimal frequency for beginners, intermediate, and goal-specific practitioners.",
+  title: "How Often Should You Do Pilates? (2026 Expert Guide) | Pilates Collective Club",
+  description: "How often to do Pilates for results — frequency recommendations for beginners, intermediates, and advanced practitioners, with recovery and consistency guidance.",
   openGraph: {
     title: "How Often Should You Do Pilates? The Evidence-Based Answer",
     description: "Beginner or advanced, daily or twice weekly — exactly how much Pilates you need for your specific goals.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The evidence-based answer — beginners, intermediate, and goal-specific frequency guidance.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
   },
-  keywords: ["how often should you do pilates", "how many times a week pilates", "pilates frequency", "how often pilates", "pilates sessions per week", "pilates how many times week", "is daily pilates too much", "pilates schedule beginner", "optimal pilates frequency", "pilates training frequency"],
+  keywords: ["how often should you do pilates", "pilates frequency 2026", "how many times a week pilates", "pilates 3 times a week results", "pilates daily is it ok", "best pilates schedule", "how often reformer pilates", "pilates frequency beginners"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/how-often-should-you-do-pilates",
   },

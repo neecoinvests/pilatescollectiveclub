@@ -9,26 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Geneva",
-  description:
-    "The best Pilates studios in Geneva — classical reformer near the lake, expat-friendly English classes, and wellness retreats. Curated & verified picks.",
+  title: "Best Pilates Studios in Geneva (2026) — Curated Guide",
+  description: "The best Pilates studios in Geneva — reformer boutiques and classical method in Eaux-Vives, Champel, and Carouge. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates genève", "pilates geneva", "reformer pilates geneva", "best pilates geneva", "pilates studios geneva"],
+  keywords: ["pilates geneve", "pilates geneva", "reformer pilates geneva", "best pilates studios geneva", "pilates studio geneve", "pilates eaux-vives", "pilates carouge", "pilates switzerland", "best pilates suisse", "pilates classes geneva"],
   openGraph: {
-    title: "The Best Pilates Studios in Geneva",
-    description: "Our curated guide to the best Pilates studios in Geneva — five verified studios with booking tips.",
+    title: "Best Pilates Studios in Geneva (2026)",
+    description: "Five curated Pilates studios in Geneva — reformer and classical method picks from Eaux-Vives to Carouge. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/geneva",
     images: [{ url: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&q=80", width: 1200, height: 630, alt: "Geneva city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Geneva",
+    title: "Best Pilates Studios in Geneva (2026)",
     description: "Our curated guide to the best Pilates studios in Geneva — five verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&q=80"],
   },

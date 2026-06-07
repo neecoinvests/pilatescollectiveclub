@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Berlin",
-  description: "Our curated guide to Berlin's best Pilates studios — from Mitte to Prenzlauer Berg, the five studios leading the city's thriving wellness scene.",
+  title: "Best Pilates Studios in Berlin (2026) — Curated Guide",
+  description: "The best Pilates studios in Berlin — reformer boutiques in Mitte, Prenzlauer Berg, and Charlottenburg. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates berlin", "reformer pilates berlin", "best pilates berlin", "pilates studios berlin", "pilates mitte"],
+  keywords: ["pilates berlin", "reformer pilates berlin", "best pilates studios berlin", "pilates studio berlin", "pilates mitte", "pilates prenzlauer berg", "pilates charlottenburg", "pilates germany", "best reformer pilates berlin", "pilates kurs berlin"],
   openGraph: {
-    title: "The Best Pilates Studios in Berlin",
-    description: "Our curated guide to Berlin's best Pilates studios — five verified picks from Mitte to Prenzlauer Berg.",
+    title: "Best Pilates Studios in Berlin (2026)",
+    description: "Five curated Pilates studios in Berlin — reformer picks from Mitte to Prenzlauer Berg. Verified June 2026."s best Pilates studios — five verified picks from Mitte to Prenzlauer Berg.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/berlin",
     images: [{ url: "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1200&q=80", width: 1200, height: 630, alt: "Berlin city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Berlin",
+    title: "Best Pilates Studios in Berlin (2026)",
     description: "Our curated guide to Berlin's best Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1200&q=80"],
   },

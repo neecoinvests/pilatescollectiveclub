@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "10 Essential Pilates Exercises for Beginners (2026)",
-  description: "The 10 foundational Pilates exercises every beginner should master first — correct technique, common mistakes, and how long to practice each.",
+  title: "Pilates Exercises for Beginners (2026): 15 Moves to Start | Pilates Collective Club",
+  description: "15 foundational Pilates exercises for beginners — reformer and mat moves explained with modifications, spring settings, and progression tips for new practitioners.",
   openGraph: {
     title: "10 Pilates Exercises for Beginners: The Essential Foundation",
     description: "The Hundred, Roll Up, Single Leg Stretch — the 10 exercises every beginner should master before anything else.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The 10 foundational Pilates exercises every beginner should master first.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
-  keywords: ["pilates exercises for beginners", "beginner pilates exercises", "pilates for beginners", "basic pilates exercises", "pilates beginner routine", "easy pilates exercises", "pilates moves for beginners", "pilates beginner workout", "pilates exercises at home", "start pilates beginner"],
+  keywords: ["pilates exercises for beginners", "beginner pilates moves 2026", "easy pilates exercises", "pilates starter exercises", "pilates reformer exercises beginners", "simple pilates mat moves", "foundational pilates exercises", "pilates workout beginners"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-exercises-for-beginners",
   },

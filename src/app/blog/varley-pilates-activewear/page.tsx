@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Varley for Pilates (2026): Best Pieces for the Boutique Studio | Pilates Collective Club",
-  description: "The Varley Reeves Legging, Stratford Bra, and Paloma Tank reviewed for Pilates — the British boutique brand trusted in London, Paris, and Zurich studio circles.",
-  keywords: ["varley pilates", "varley for pilates", "varley reeves legging pilates", "varley stratford bra pilates", "varley activewear review", "varley vs lululemon pilates", "varley vs alo pilates", "varley boutique studio", "best varley pilates pieces", "varley pilates review 2026"],
+  title: "Varley for Pilates (2026): Activewear Reviewed | Pilates Collective Club",
+  description: "Varley activewear reviewed for Pilates — the best Varley leggings, sets, and tops for reformer and mat class performance, compression, and studio-to-street style.",
+  keywords: ["varley pilates activewear review", "varley pilates leggings 2026", "best varley for reformer pilates", "varley vs lululemon pilates", "varley activewear pilates review", "varley sets pilates"],
   openGraph: {
     title: "Varley for Pilates (2026): Best Pieces for the Boutique Studio",
     description: "The best Varley pieces for Pilates — honest review of the brand that defines the boutique studio aesthetic.",

@@ -9,18 +9,18 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Toronto (2026)",
-  description: "Pilates studios in Toronto: our curated guide to the five best reformer and mat studios across Yorkville, Queen West, and the Annex — verified for 2026.",
+  title: "Best Pilates Studios in Toronto (2026) — Curated Guide",
+  description: "The best Pilates studios in Toronto — from Yorkville reformer boutiques to classical practices in Leslieville and Rosedale. Five curated picks, verified 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios toronto", "reformer pilates toronto", "best pilates toronto", "pilates yorkville toronto", "pilates queen west", "boutique pilates toronto", "pilates classes toronto", "toronto wellness studios"],
+  keywords: ["pilates toronto", "reformer pilates toronto", "best pilates studios toronto", "pilates studio toronto", "pilates classes toronto", "yorkville pilates", "leslieville pilates", "pilates canada", "best reformer pilates toronto", "pilates rosedale toronto"],
   openGraph: {
     title: "Best Pilates Studios in Toronto (2026)",
-    description: "Our curated guide to Toronto's five best Pilates studios — from Yorkville to Queen West, verified for 2026.",
+    description: "Five curated Pilates studios in Toronto — Yorkville, Leslieville, and Rosedale reformer picks. Verified 2026."s five best Pilates studios — from Yorkville to Queen West, verified for 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/toronto",
     images: [{ url: "https://images.unsplash.com/photo-1517090186835-e348b621c9ca?w=1200&q=80", width: 1200, height: 630, alt: "Toronto city guide — Pilates Collective Club" }],

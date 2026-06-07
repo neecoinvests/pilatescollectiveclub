@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ankle Weights (2026): Studio-Tested Picks",
-  description: "The best ankle weights for Pilates — 0.5lb to 5lb options tested for balance, leg spring work, and side-lying series. Bala Bangles vs. Peloton vs. BWSS ranked.",
+  title: "Best Pilates Ankle Weights (2026): Studio-Tested Picks | Pilates Collective Club",
+  description: "The best ankle weights for Pilates — fabric loops, neoprene, and adjustable options tested for reformer and mat Pilates comfort and secure fit.",
   openGraph: {
     title: "Best Pilates Ankle Weights (2026): Bala Bangles & Alternatives",
     description: "The accessory that defines the boutique Pilates aesthetic — and the four alternatives that also deliver.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "Bala Bangles vs. BWSS vs. Alo — the best ankle weights for Pilates ranked honestly.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
-  keywords: ["best pilates ankle weights", "pilates ankle weights", "ankle weights pilates", "bala bangles pilates", "best ankle weights for pilates class", "ankle weights reformer pilates", "light ankle weights pilates", "adjustable ankle weights pilates", "pilates weights 2026", "ankle weights barre pilates"],
+  keywords: ["best pilates ankle weights", "ankle weights for pilates 2026", "pilates ankle weight review", "best ankle weights reformer pilates", "fabric ankle weights pilates", "adjustable ankle weights pilates", "pilates leg weights"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-ankle-weights",
   },

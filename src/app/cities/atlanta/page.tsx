@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Atlanta, GA (2026) — Curated & Verified",
-  description: "The best Pilates studios in Atlanta, Georgia — from classical Buckhead practices to athletic reformer studios in Midtown and Decatur. Six verified picks for every level.",
+  title: "Best Pilates Studios in Atlanta, GA (2026) — Curated Guide",
+  description: "The best Pilates studios in Atlanta — from Buckhead reformer boutiques to Midtown method studios. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios atlanta", "reformer pilates atlanta", "best pilates atlanta", "pilates classes atlanta ga", "pilates buckhead atlanta", "pilates midtown atlanta", "pilates decatur ga"],
+  keywords: ["pilates atlanta", "reformer pilates atlanta", "best pilates studios atlanta", "pilates studio atlanta ga", "pilates classes atlanta", "buckhead pilates", "midtown atlanta pilates", "pilates georgia", "best reformer pilates atlanta"],
   openGraph: {
-    title: "The Best Pilates Studios in Atlanta, GA (2026)",
-    description: "Six curated, verified Pilates studios in Atlanta — from Buckhead classical practices to athletic reformer rooms in Midtown.",
+    title: "Best Pilates Studios in Atlanta, GA (2026)",
+    description: "Six curated Pilates studios in Atlanta — Buckhead reformer boutiques to Midtown method practices. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/atlanta",
     images: [{ url: "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1200&q=80", width: 1200, height: 630, alt: "Atlanta Georgia city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Atlanta, GA (2026)",
+    title: "Best Pilates Studios in Atlanta (2026)",
     description: "Six curated Pilates studios in Atlanta — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1200&q=80"],
   },

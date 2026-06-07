@@ -5,8 +5,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Retreats in Europe (2026): Tested & Ranked | Pilates Collective Club",
-  description: "The best Pilates retreats in Europe for 2026: reformer immersions in Portugal, Mallorca, Tuscany, and the Swiss Alps. Prices and inclusions compared.",
+  title: "Best Pilates Retreats in Europe (2026): Top Picks by Country | Pilates Collective Club",
+  description: "The best Pilates retreats in Europe — reformer and classical method retreats in Portugal, Spain, Italy, and beyond, curated for 2026.",
   openGraph: {
     title: "The Best Pilates Retreats in Europe",
     description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "From Provence to Puglia — the European Pilates retreats worth planning your year around.",
     images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
-  keywords: ["pilates retreats europe", "best pilates retreat", "pilates holiday europe", "pilates retreat italy", "pilates retreat france", "pilates retreat portugal", "pilates retreat switzerland", "pilates immersion retreat", "pilates wellness holiday", "pilates retreat 2026"],
+  keywords: ["best pilates retreats europe", "pilates retreat europe 2026", "pilates holiday europe", "reformer pilates retreat", "pilates retreat portugal", "pilates retreat spain", "pilates retreat italy", "pilates wellness retreat europe", "best pilates getaway europe"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
   },

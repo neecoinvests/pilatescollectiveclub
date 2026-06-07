@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Pelvic Floor (2026): What the Research Says",
-  description: "How Pilates supports pelvic floor health — which exercises engage the pelvic floor correctly, what to avoid, and how to work with dysfunction safely.",
+  title: "Pilates for Pelvic Floor (2026): Exercises & Guidance | Pilates Collective Club",
+  description: "Pilates for pelvic floor health — the best reformer and mat exercises for pelvic floor strengthening, the connection to the deep core, and guidance for postpartum practitioners.",
   openGraph: {
     title: "Pilates and the Pelvic Floor: What Actually Works",
     description: "The evidence on Pilates for pelvic floor health — which exercises help, which to avoid, and postpartum considerations.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Which Pilates exercises help pelvic floor health, which to avoid, and postpartum guidance.",
     images: ["https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"],
   },
-  keywords: ["pilates for pelvic floor", "pelvic floor pilates exercises", "pilates pelvic floor dysfunction", "pilates pelvic floor postpartum", "pilates strengthen pelvic floor", "pilates and incontinence", "pilates for pelvic health", "pelvic floor pilates 2026", "pilates pelvic floor women", "pilates core pelvic floor"],
+  keywords: ["pilates for pelvic floor", "pilates pelvic floor exercises 2026", "reformer pilates pelvic floor", "pilates pelvic floor strengthening", "pilates postpartum pelvic floor", "pilates kegel alternative", "pilates deep core pelvic floor", "pelvic floor pilates guide"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-pelvic-floor",
   },

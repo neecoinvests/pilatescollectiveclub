@@ -9,26 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in London",
-  description:
-    "The best Pilates studios in London — reformer boutiques, classical method, and Lagree across Chelsea, Shoreditch, and Marylebone. Curated & verified.",
+  title: "Best Pilates Studios in London (2026) — Curated Guide",
+  description: "The best Pilates studios in London — reformer boutiques in Chelsea, Notting Hill, Marylebone, and Shoreditch. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios london", "reformer pilates london", "best pilates london", "pilates classes london", "london pilates guide"],
+  keywords: ["pilates london", "reformer pilates london", "best pilates studios london", "pilates studio london", "pilates classes london", "chelsea pilates", "notting hill pilates", "pilates marylebone", "pilates shoreditch", "best reformer pilates london"],
   openGraph: {
-    title: "The Best Pilates Studios in London",
-    description: "Our curated guide to London's finest Pilates studios — five verified picks with booking tips.",
+    title: "Best Pilates Studios in London (2026)",
+    description: "Five curated Pilates studios in London — Chelsea, Marylebone, and Shoreditch reformer picks. Verified June 2026."s finest Pilates studios — five verified picks with booking tips.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/london",
     images: [{ url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80", width: 1200, height: 630, alt: "London city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in London",
+    title: "Best Pilates Studios in London (2026)",
     description: "Our curated guide to London's finest Pilates studios — five verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80"],
   },

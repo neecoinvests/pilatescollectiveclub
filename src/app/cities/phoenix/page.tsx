@@ -9,20 +9,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Phoenix, AZ (2026) — Curated & Verified",
-  description: "The best Pilates studios in Phoenix, Arizona — from classical Scottsdale practices to contemporary reformer studios in Arcadia and Paradise Valley. Six verified picks.",
+  title: "Best Pilates Studios in Phoenix, AZ (2026) — Curated Guide",
+  description: "The best Pilates studios in Phoenix — reformer boutiques in Scottsdale, Arcadia, and Paradise Valley. Six verified picks for every level, 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
-  keywords: ["pilates studios phoenix", "reformer pilates phoenix", "best pilates phoenix", "pilates classes phoenix az", "pilates scottsdale", "pilates arcadia phoenix", "pilates paradise valley az"],
+  keywords: ["pilates phoenix", "reformer pilates phoenix", "best pilates studios phoenix az", "pilates studio phoenix", "pilates classes phoenix", "arcadia pilates phoenix", "paradise valley pilates", "pilates arizona", "best reformer pilates phoenix", "pilates scottsdale az"],
   openGraph: {
-    title: "The Best Pilates Studios in Phoenix, AZ (2026)",
-    description: "Six curated, verified Pilates studios in Phoenix and Scottsdale — from classical practices in Paradise Valley to athletic reformer rooms in Arcadia.",
+    title: "Best Pilates Studios in Phoenix, AZ (2026)",
+    description: "Six curated Pilates studios in Phoenix — Arcadia, Scottsdale, and Paradise Valley reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/phoenix",
     images: [{ url: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80", width: 1200, height: 630, alt: "Phoenix Arizona city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Phoenix, AZ (2026)",
+    title: "Best Pilates Studios in Phoenix (2026)",
     description: "Six curated Pilates studios in Phoenix and Scottsdale — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80"],
   },

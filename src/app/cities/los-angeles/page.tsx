@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Los Angeles",
-  description: "Our curated guide to LA's finest Pilates studios — from Brentwood to Silver Lake, the five studios leading the city's world-class wellness scene.",
+  title: "Best Pilates Studios in Los Angeles (2026) — Curated Guide",
+  description: "The best Pilates studios in Los Angeles — from West Hollywood reformer boutiques to classical practices in Brentwood and Santa Monica. Five verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios los angeles", "reformer pilates la", "best pilates los angeles", "pilates classes la", "pilates beverly hills"],
+  keywords: ["pilates los angeles", "reformer pilates los angeles", "best pilates studios la", "pilates studio los angeles", "pilates classes la", "west hollywood pilates", "santa monica pilates", "pilates brentwood la", "best reformer pilates los angeles", "pilates california"],
   openGraph: {
-    title: "The Best Pilates Studios in Los Angeles",
-    description: "Our curated guide to LA's finest Pilates studios — five verified picks from Santa Monica to West Hollywood.",
+    title: "Best Pilates Studios in Los Angeles (2026)",
+    description: "Five curated Pilates studios in LA — West Hollywood, Santa Monica, and Brentwood reformer picks. Verified 2026."s finest Pilates studios — five verified picks from Santa Monica to West Hollywood.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/los-angeles",
     images: [{ url: "https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da?w=1200&q=80", width: 1200, height: 630, alt: "Los Angeles city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Los Angeles",
+    title: "Best Pilates Studios in Los Angeles (2026)",
     description: "Our curated guide to LA's finest Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da?w=1200&q=80"],
   },

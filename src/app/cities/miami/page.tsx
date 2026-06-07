@@ -9,29 +9,18 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Miami (2026)",
-  description:
-    "Find the best Pilates studios in Miami — from South Beach reformer boutiques to Brickell wellness studios. Our curated guide to Miami Pilates in 2026.",
+  title: "Best Pilates Studios in Miami, FL (2026) — Curated Guide",
+  description: "The best Pilates studios in Miami — reformer boutiques in Brickell, Coconut Grove, South Beach, and Coral Gables. Six curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios miami",
-    "reformer pilates miami",
-    "best pilates miami",
-    "pilates classes miami",
-    "miami pilates 2026",
-    "pilates south beach",
-    "pilates brickell",
-    "miami reformer studios",
-    "best reformer pilates miami",
-  ],
+  keywords: ["pilates miami", "reformer pilates miami", "best pilates studios miami", "pilates studio miami fl", "pilates classes miami", "brickell pilates", "south beach pilates", "pilates coral gables", "pilates coconut grove", "best reformer pilates miami"],
   openGraph: {
-    title: "Best Pilates Studios in Miami (2026)",
-    description: "Our curated guide to Miami's finest Pilates studios — five verified picks with booking tips.",
+    title: "Best Pilates Studios in Miami, FL (2026)",
+    description: "Six curated Pilates studios in Miami — Brickell, South Beach, and Coconut Grove reformer picks. Verified 2026."s finest Pilates studios — five verified picks with booking tips.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/miami",
     images: [{ url: "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?w=1200&q=80", width: 1200, height: 630, alt: "Miami city guide — Pilates Collective Club" }],

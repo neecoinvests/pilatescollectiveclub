@@ -9,20 +9,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in San Diego, CA (2026) — Curated & Verified",
-  description: "The best Pilates studios in San Diego, California — from classical La Jolla practices to athletic reformer studios in Mission Hills and North Park. Six verified picks.",
+  title: "Best Pilates Studios in San Diego, CA (2026) — Curated Guide",
+  description: "The best Pilates studios in San Diego — reformer boutiques in La Jolla, Encinitas, and Mission Hills. Six verified picks for every level, 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
-  keywords: ["pilates studios san diego", "reformer pilates san diego", "best pilates san diego", "pilates classes san diego ca", "pilates la jolla", "pilates north park san diego", "pilates mission hills san diego"],
+  keywords: ["pilates san diego", "reformer pilates san diego", "best pilates studios san diego ca", "pilates studio san diego", "pilates classes san diego", "la jolla pilates", "encinitas pilates", "pilates california", "best reformer pilates san diego", "pilates mission hills san diego"],
   openGraph: {
-    title: "The Best Pilates Studios in San Diego, CA (2026)",
-    description: "Six curated, verified Pilates studios in San Diego — from La Jolla classical practices to athletic reformer rooms in North Park.",
+    title: "Best Pilates Studios in San Diego, CA (2026)",
+    description: "Six curated Pilates studios in San Diego — La Jolla and Encinitas reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/san-diego",
     images: [{ url: "https://images.unsplash.com/photo-1538689621163-f0aa0c3db346?w=1200&q=80", width: 1200, height: 630, alt: "San Diego California city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in San Diego, CA (2026)",
+    title: "Best Pilates Studios in San Diego (2026)",
     description: "Six curated Pilates studios in San Diego — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1538689621163-f0aa0c3db346?w=1200&q=80"],
   },

@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Posture (2026): Exercises That Actually Work",
-  description: "How Pilates corrects posture — targeting forward head position, rounded shoulders, pelvic tilt, and lumbar hyperlordosis. An evidence-backed practice guide.",
+  title: "Pilates for Posture (2026): Best Exercises for Alignment | Pilates Collective Club",
+  description: "Pilates for posture improvement — the best reformer and mat exercises to correct forward head posture, rounded shoulders, and anterior pelvic tilt. Evidence-based 2026 guide.",
   openGraph: {
     title: "Pilates for Better Posture: The Exercises That Work",
     description: "Forward head, rounded shoulders, anterior pelvic tilt — the Pilates exercises that specifically correct each pattern.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The Pilates exercises that specifically address the most common postural deviations.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"],
   },
-  keywords: ["pilates for posture", "pilates posture correction", "pilates improve posture", "pilates forward head posture", "pilates rounded shoulders", "pilates anterior pelvic tilt", "pilates spinal alignment", "pilates for desk workers", "pilates fix posture 2026", "best pilates exercises posture"],
+  keywords: ["pilates for posture", "pilates posture improvement 2026", "reformer pilates posture", "pilates for rounded shoulders", "pilates for forward head posture", "pilates alignment exercises", "pilates posture correction", "best pilates posture exercises"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-posture",
   },

@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Barrel (2026): Arc, Spine Corrector & Ladder Barrel Compared | Pilates Collective Club",
-  description: "The best Pilates barrels in 2026 — Arc Barrel, Spine Corrector, and Ladder Barrel compared. What each does, who needs it, and which to buy first.",
-  keywords: ["best pilates barrel", "pilates arc barrel", "pilates spine corrector", "pilates ladder barrel", "balanced body arc barrel", "merrithew arc barrel", "pilates barrel review", "pilates barrel 2026", "pilates spine corrector review", "best pilates barrel for home"],
+  title: "Best Pilates Barrel (2026): Arc, Spine & Ladder Barrels Compared | Pilates Collective Club",
+  description: "The best Pilates barrels of 2026 — spine corrector, arc barrel, and ladder barrel compared for home and studio use, build quality, and spinal mobility benefits.",
+  keywords: ["best pilates barrel", "pilates spine corrector review 2026", "pilates arc barrel", "ladder barrel pilates", "pilates barrel for home use", "best pilates barrel buy", "spine corrector pilates review", "pilates barrel exercises"],
   openGraph: {
     title: "Best Pilates Barrel (2026): Arc, Spine Corrector & Ladder Barrel",
     description: "Three types of Pilates barrel — what each does, who needs it, and which brands make the best ones.",

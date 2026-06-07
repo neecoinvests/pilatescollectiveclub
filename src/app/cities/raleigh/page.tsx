@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Raleigh, NC (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Raleigh, NC. From North Hills reformer boutiques to Chapel Hill university-adjacent studios — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Raleigh, NC (2026) — Curated Guide",
+  description: "The best Pilates studios in Raleigh — reformer boutiques in North Hills, Five Points, and Cary. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Raleigh NC",
-    "best pilates Raleigh",
-    "reformer pilates Raleigh",
-    "North Hills pilates",
-    "Five Points pilates",
-    "Glenwood South pilates studio",
-    "Raleigh pilates classes 2026",
-    "Research Triangle pilates studios",
-  ],
+  keywords: ["pilates raleigh", "reformer pilates raleigh", "best pilates studios raleigh nc", "pilates studio raleigh", "pilates classes raleigh", "north hills pilates raleigh", "pilates cary nc", "pilates north carolina", "best reformer pilates raleigh", "pilates durham nc"],
   openGraph: {
-    title: "Best Pilates Studios in Raleigh, NC (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Raleigh, NC (2026)",
     description:
-      "Discover the 6 best Pilates studios in Raleigh, NC. From North Hills reformer boutiques to Chapel Hill university-adjacent studios — expert picks, honest reviews, and booking tips.",
+      "Six curated Pilates studios in Raleigh — North Hills and Five Points reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/raleigh",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Raleigh, NC (2026)",
+    title: "Best Pilates Studios in Raleigh (2026)",
     description:
       "The 6 best Pilates studios in Raleigh — curated, verified, and reviewed for 2026.",
     images: [

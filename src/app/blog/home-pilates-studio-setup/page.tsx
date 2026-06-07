@@ -6,9 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "How to Set Up a Home Pilates Studio (2026): Equipment, Space & Budget | Pilates Collective Club",
-  description: "The complete guide to setting up a home Pilates studio — what equipment to buy, in what order, for what budget, and how much space you actually need.",
-  keywords: ["home pilates studio setup", "how to set up pilates at home", "home pilates studio equipment", "pilates home studio guide", "pilates studio at home", "home pilates room setup", "pilates equipment setup home", "build home pilates studio", "pilates home gym", "home pilates setup 2026"],
+  title: "How to Set Up a Home Pilates Studio (2026): Complete Guide | Pilates Collective Club",
+  description: "How to set up a home Pilates studio — space planning, reformer selection, flooring, lighting, and essential accessories covered in a complete 2026 guide.",
+  keywords: ["home pilates studio setup", "home pilates studio guide 2026", "how to set up pilates room", "home reformer pilates room", "pilates studio at home", "best home pilates equipment", "pilates studio room design", "home pilates space setup"],
   openGraph: {
     title: "How to Set Up a Home Pilates Studio (2026)",
     description: "What equipment to buy, in what order, for what budget — the complete home Pilates studio guide.",

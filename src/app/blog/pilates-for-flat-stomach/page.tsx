@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for a Flat Stomach (2026): What Actually Works",
-  description: "Does Pilates flatten your stomach? An honest evidence-based guide to how Pilates changes the core — what to expect, which exercises work, and timelines.",
+  title: "Pilates for a Flat Stomach (2026): What Actually Works | Pilates Collective Club",
+  description: "Pilates for a flatter stomach — the exercises that actually strengthen the deep core, how Pilates shapes the waist, and realistic expectations for body composition.",
   openGraph: {
     title: "Pilates for a Flat Stomach: What Works and What Doesn't",
     description: "The honest truth about Pilates and the abdomen — and the exercises that actually change your core shape.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The honest answer to whether Pilates flattens your stomach — and the exercises that actually work.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"],
   },
-  keywords: ["pilates for flat stomach", "pilates stomach exercises", "pilates flat tummy", "pilates core exercises", "pilates for belly fat", "does pilates flatten your stomach", "pilates waist", "pilates core results", "pilates stomach results", "pilates abdominal exercises"],
+  keywords: ["pilates for flat stomach", "pilates stomach exercises 2026", "pilates for core toning", "does pilates flatten stomach", "pilates waist exercises", "pilates ab workout", "reformer pilates flat stomach", "pilates for weight loss stomach"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-flat-stomach",
   },

@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Orlando, FL (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Orlando, FL. From Winter Park and Dr. Phillips to Downtown and SoDo — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Orlando, FL (2026) — Curated Guide",
+  description: "The best Pilates studios in Orlando — reformer boutiques in Winter Park, College Park, and Dr. Phillips. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Orlando FL",
-    "best pilates Orlando",
-    "reformer pilates Orlando",
-    "Winter Park pilates",
-    "Dr Phillips pilates studio",
-    "downtown Orlando pilates",
-    "Orlando pilates classes 2026",
-    "Club Pilates Orlando",
-  ],
+  keywords: ["pilates orlando", "reformer pilates orlando", "best pilates studios orlando fl", "pilates studio orlando", "pilates classes orlando", "winter park pilates fl", "pilates dr phillips", "pilates florida", "best reformer pilates orlando"],
   openGraph: {
-    title: "Best Pilates Studios in Orlando, FL (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Orlando, FL (2026)",
     description:
-      "Discover the 6 best Pilates studios in Orlando, FL. From Winter Park to Dr. Phillips — expert picks and booking tips for 2026.",
+      "Six curated Pilates studios in Orlando — Winter Park and College Park reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/orlando",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Orlando, FL (2026)",
+    title: "Best Pilates Studios in Orlando (2026)",
     description:
       "The 6 best Pilates studios in Orlando — curated, verified, and reviewed for 2026.",
     images: [

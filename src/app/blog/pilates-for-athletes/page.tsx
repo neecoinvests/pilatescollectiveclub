@@ -5,8 +5,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Athletes (2026): Cross-Training That Actually Works | Pilates Collective Club",
-  description: "Pilates for athletes: reformer and mat exercises that build stability, correct imbalances, and improve performance for runners, cyclists, and team sports.",
+  title: "Pilates for Athletes (2026): Performance Benefits & Training Guide | Pilates Collective Club",
+  description: "Pilates for athletes — how reformer and mat Pilates improves core stability, injury prevention, and movement efficiency for runners, swimmers, and team sport players.",
   openGraph: {
     title: "Pilates for Athletes: Strength, Longevity, and the Competitive Edge",
     description: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers — and what recreational athletes can learn from them.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "How elite sports professionals use Pilates to build functional strength and prevent injury.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
-  keywords: ["pilates for athletes", "pilates cross training", "pilates for runners", "pilates for cyclists", "pilates injury prevention", "pilates sports performance", "pilates for swimmers", "pilates athlete training", "sports pilates programme", "pilates for athletes 2026"],
+  keywords: ["pilates for athletes", "pilates sport performance 2026", "pilates for runners", "pilates for swimmers", "pilates injury prevention athletes", "reformer pilates athletes", "pilates athletic conditioning", "pilates cross training athletes"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
   },
