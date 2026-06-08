@@ -8,9 +8,10 @@ const NAV = [
   { label: "Journal", href: "/blog" },
   { label: "Brands", href: "/brands" },
   { label: "Cities", href: "/cities" },
-  { label: "Equipment", href: "/blog/best-pilates-reformer-brands" },
   { label: "About", href: "/#about" },
 ];
+
+const SHOP_HREF = "/blog/best-pilates-equipment-for-home-practice";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -58,6 +59,26 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
+          <Link
+            href={SHOP_HREF}
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "10px",
+              fontWeight: 600,
+              letterSpacing: "0.18em",
+              textTransform: "uppercase",
+              color: "#ffffff",
+              textDecoration: "none",
+              backgroundColor: "#8b4a31",
+              padding: "10px 20px",
+              display: "inline-block",
+              transition: "background-color 0.2s",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#7a3f29")}
+            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#8b4a31")}
+          >
+            Shop Gear →
+          </Link>
         </nav>
 
         <button
@@ -106,6 +127,25 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
+          <Link
+            href={SHOP_HREF}
+            onClick={() => setOpen(false)}
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "13px",
+              fontWeight: 600,
+              letterSpacing: "0.15em",
+              textTransform: "uppercase",
+              color: "#ffffff",
+              textDecoration: "none",
+              backgroundColor: "#8b4a31",
+              padding: "14px 20px",
+              display: "inline-block",
+              alignSelf: "flex-start",
+            }}
+          >
+            Shop Gear →
+          </Link>
         </div>
       )}
     </header>

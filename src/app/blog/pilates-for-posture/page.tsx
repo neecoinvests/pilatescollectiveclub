@@ -102,7 +102,7 @@ const postureIssues = [
     name: "Forward Head Position",
     cause: "Prolonged screen use, poor sitting habits, weakened deep neck flexors",
     exercises: ["Chin tucks with neck elongation", "Spine Stretch Forward (elongating cervical spine)", "Swan (developing upper back extension)", "Standing wall work (corrective alignment cues)"],
-    equipment: "Foam roller (lengthways for thoracic extension)",
+    equipment: "foam roller (lengthways for thoracic extension)",
   },
   {
     name: "Rounded Shoulders (Kyphosis)",
@@ -180,16 +180,16 @@ export default function PilatesForPosturePage() {
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment that supports postural work</h2>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   A{" "}
-                  <a href="https://www.amazon.com/s?k=foam+roller+pilates+posture&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>foam roller</a>{" "}
+                  foam roller{" "}
                   placed lengthways along the spine is one of the most effective tools for thoracic extension — it passively opens the chest and stretches the anterior chain that prolonged sitting compresses. Use it for 5-10 minutes before any Pilates session for immediate postural improvement.
                 </p>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  <a href="https://www.amazon.com/s?k=pilates+resistance+bands+long&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Long resistance bands</a>{" "}
+                  Long resistance bands{" "}
                   substitute for the reformer straps in chest expansion, rowing, and backstroke exercises — all of which directly target rounded shoulders and thoracic kyphosis. For home practice, they're the most versatile postural correction tool available.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For a full review of foam rollers, see our{" "}
-                  <a href="/blog/best-pilates-foam-roller" style={{ color: "#8b4a31", fontWeight: 600 }}>foam roller guide</a>.
+                  foam roller guide.
                 </p>
               </div>
 

@@ -180,14 +180,14 @@ export default function PilatesForWeightLossPage() {
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment recommendations for home practice</h2>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For weight management through Pilates, a quality mat is the starting point. The{" "}
-                  <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Manduka PRO mat</a>{" "}
+                  Manduka PRO mat{" "}
                   provides the firm surface needed for the abdominal series and footwork. Adding{" "}
-                  <a href="https://www.amazon.com/s?k=pilates+resistance+bands+set&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>resistance bands</a>{" "}
+                  resistance bands{" "}
                   increases the metabolic demand of mat exercises significantly — arm work with bands adds load that mat Pilates alone can't provide.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For serious home practice, the{" "}
-                  <a href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", fontWeight: 600 }}>AeroPilates 557 reformer</a>{" "}
+                  AeroPilates 557 reformer{" "}
                   is the most cost-effective way to access the caloric burn of reformer work at home. At $799, it pays for itself within a year for practitioners who would otherwise attend studio classes.
                 </p>
               </div>

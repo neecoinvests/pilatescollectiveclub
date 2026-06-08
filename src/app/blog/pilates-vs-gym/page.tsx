@@ -191,9 +191,9 @@ export default function PilatesVsGymPage() {
               </p>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 For those who want to combine both, the practical structure is: 2-3 gym sessions per week (strength focus) plus 2-3 Pilates sessions (mobility, stability, body awareness). If you need a home reformer for Pilates work, see our{" "}
-                <a href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", fontWeight: 600 }}>home reformer guide</a>.{" "}
+                home reformer guide.{" "}
                 For home Pilates alongside a gym membership, a quality{" "}
-                <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>mat</a>{" "}
+                mat{" "}
                 and{" "}
                 <a href="https://www.amazon.com/s?k=pilates+resistance+bands&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>resistance bands</a>{" "}
                 extend your home practice considerably.

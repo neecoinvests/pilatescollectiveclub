@@ -172,15 +172,15 @@ export default function PilatesForFlatStomachPage() {
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment recommendations for core training at home</h2>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For home abdominal work, a{" "}
-                  <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>quality firm mat</a>{" "}
+                  quality firm mat{" "}
                   is the foundation — too soft a mat allows the pelvis to sink, reducing the precision of spinal positioning. The{" "}
-                  <a href="https://www.amazon.com/s?k=pilates+magic+circle+ring&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Pilates magic circle</a>{" "}
+                  Pilates magic circle{" "}
                   adds inner thigh and arm resistance that increases the demand on the deep core during abdominal exercises.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  <a href="https://www.amazon.com/s?k=pilates+resistance+bands+long&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Long resistance bands</a>{" "}
+                  Long resistance bands{" "}
                   can simulate the footbar straps for the rowing and seated abdominal series. For the most targeted core work in the repertoire, a{" "}
-                  <a href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", fontWeight: 600 }}>home reformer</a>{" "}
+                  home reformer{" "}
                   provides access to the stomach massage, short box, and abdominal series that mat Pilates cannot replicate.
                 </p>
               </div>

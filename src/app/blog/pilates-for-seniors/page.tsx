@@ -172,16 +172,16 @@ export default function PilatesForSeniorsPage() {
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended equipment for senior home practice</h2>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   A quality mat is essential — the{" "}
-                  <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Manduka PRO</a>{" "}
+                  Manduka PRO{" "}
                   at 6mm provides excellent spinal cushioning for older adults. A{" "}
-                  <a href="https://www.amazon.com/s?k=pilates+foam+roller+half+round&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>half-round foam roller</a>{" "}
+                  half-round foam roller{" "}
                   is invaluable for spinal mobilisation and proprioceptive training. The{" "}
-                  <a href="https://www.amazon.com/s?k=pilates+magic+circle+ring&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Pilates magic circle</a>{" "}
+                  Pilates magic circle{" "}
                   adds light resistance for inner thigh and arm work without loading the joints excessively.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For serious home practice, the reformer's spring assistance is genuinely beneficial for older adults — it assists movement through difficult ranges rather than loading against them. See our{" "}
-                  <a href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", fontWeight: 600 }}>home reformer guide</a>{" "}
+                  home reformer guide{" "}
                   for options at every price point.
                 </p>
               </div>

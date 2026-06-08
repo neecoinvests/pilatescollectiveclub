@@ -162,9 +162,9 @@ export default function HowOftenShouldYouDoPilatesPage() {
               </p>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 For modern practitioners with studio memberships at $25-40 per class, daily Pilates is a financial impossibility for most. The practical solution is a combination approach: 2-3 studio sessions per week supplemented by home mat practice. For home mat practice, a quality{" "}
-                <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>mat</a>{" "}
+                mat{" "}
                 and a{" "}
-                <a href="/blog/best-online-pilates-classes" style={{ color: "#8b4a31", fontWeight: 600 }}>streaming platform</a>{" "}
+                streaming platform{" "}
                 like Pilates Anytime ($22/month) provide accessible daily practice.
               </p>
 

@@ -174,7 +174,7 @@ export default function PilatesForPelvicFloorPage() {
               </p>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 A pelvic floor physiotherapist assessment before returning to Pilates is strongly recommended postpartum — it provides a baseline measurement and personalized guidance that no general guide can replace. Equipment for postpartum home practice should be minimal: a{" "}
-                <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>quality mat</a>{" "}
+                quality mat{" "}
                 is sufficient for the initial months of recovery work.
               </p>
 

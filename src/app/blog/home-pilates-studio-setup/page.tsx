@@ -81,7 +81,7 @@ const EQUIPMENT_STAGES = [
   },
   {
     stage: "02",
-    item: "Grip socks + resistance bands + magic circle",
+    item: "grip socks + resistance bands + magic circle",
     cost: "$80–$150 total",
     unlocks: "Extended mat work with resistance: hip abductor and adductor work with the ring, shoulder and leg resistance band exercises, and the grip socks you will need for safe reformer footwork later. These three items represent the most cost-efficient expansion of any Pilates practice.",
   },
@@ -692,7 +692,7 @@ export default function HomePilatesStudioSetupPage() {
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>Equipment</p>
             <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "28px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Everything you need to build your home studio</h2>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", color: "#53433e", marginBottom: "32px", lineHeight: 1.7 }}>
-              The core equipment list for a functional home Pilates space, from essential to aspirational.{" "}<a href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>Affiliate disclosure.</a>
+              The core equipment list for a functional home Pilates space, from essential to aspirational.{" "}Affiliate disclosure.
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
               
