@@ -7,17 +7,17 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Align Pilates Reformer Review (2026): H1, C2 Pro, F2, A8 & C8-S Compared | Pilates Collective Club",
-  description: "Align Pilates reformers reviewed honestly — H1, C2 Pro, F2 Folding, A8, and C8-S with Tower compared against Balanced Body and Merrithew at a meaningful price advantage.",
-  keywords: ["align pilates reformer review", "align pilates reformer", "align pilates c2 pro", "align pilates f2 folding reformer", "align pilates a8 reformer", "align pilates c8-s tower", "align pilates h1 reformer", "align pilates vs balanced body", "align pilates vs merrithew", "best pilates reformer 2026"],
+  title: "Align-Pilates Reformer Review (2026): C2 Pro, C8 Pro & H1 Compared | Pilates Collective Club",
+  description: "Align-Pilates reformers reviewed honestly — C2 Pro, C8 Pro, and H1 with tower compared against Balanced Body and Merrithew at a significantly lower price.",
+  keywords: ["align pilates reformer review", "align pilates c2 pro", "align pilates c8 pro", "align pilates h1 reformer", "align pilates vs balanced body", "align pilates vs merrithew", "best pilates reformer mid range", "align pilates 2026", "align pilates uk reformer", "studio quality home reformer"],
   openGraph: {
-    title: "Align Pilates Reformer Review (2026): H1, C2 Pro, F2, A8 & C8-S",
-    description: "Align Pilates makes studio-quality reformers at mid-tier prices. An honest review of their full range — from entry-level to professional studio.",
+    title: "Align-Pilates Reformer Review (2026): C2 Pro, C8 Pro & H1",
+    description: "Align-Pilates makes studio-grade reformers at mid-tier prices. Here's an honest review of their main machines.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/align-pilates-reformer-review",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-white-reformer-plaster.png", width: 1200, height: 630, alt: "Align Pilates reformer review — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg", width: 1200, height: 630, alt: "Align-Pilates reformer review — Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "Align Pilates Reformer Review (2026)", description: "H1 vs C2 Pro vs F2 vs A8 vs C8-S — an honest review of the full Align Pilates range.", images: ["https://pilatescollectiveclub.com/pictures/stitch-white-reformer-plaster.png"] },
+  twitter: { card: "summary_large_image", title: "Align-Pilates Reformer Review (2026)", description: "C2 Pro vs C8 Pro vs H1 — an honest review of Align-Pilates' reformer range.", images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/align-pilates-reformer-review" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -25,48 +25,48 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Align Pilates H1 Home Reformer",
-    price: "From $799",
-    verdict: "Best entry-level Align Pilates reformer",
-    description: "The H1 is Align Pilates' entry point into home reformer practice — a folding machine designed around the constraints of a shared home space. The folding footbar allows the machine to be stored flat against a wall, and the carriage rides on nylon rollers rather than the sealed ball bearings found on professional models. For a practitioner new to reformer work who is not yet certain of their long-term commitment to the apparatus, or who needs a machine that genuinely disappears into a spare room when not in use, the H1 makes the reformer accessible. The four-spring system covers the core reformer repertoire. Expect a smooth but not silky carriage — it performs correctly without the refined feel of the C2 Pro or above. A practical, honest entry-level machine at an accessible price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+home+reformer&tag=pilatescollective-20",
-    tag: "Entry Level",
+    name: "Align-Pilates C8 Pro Reformer",
+    price: "From $2,200",
+    verdict: "Best overall Align-Pilates reformer",
+    description: "The C8 Pro is Align-Pilates' flagship home and semi-professional reformer — and the model that has most effectively broken into the Balanced Body and Merrithew market. Five springs (blue, red, green, yellow, and a half spring), sealed ball-bearing carriage rollers, an adjustable three-position footbar, padded shoulder rests with height adjustment, and a full-length aluminum and steel frame. The carriage action is genuinely smooth — indistinguishable from machines costing twice as much in everyday use. The spring colour system matches the STOTT PILATES convention, which makes it immediately familiar to instructors trained in that method. The C8 Pro ships in a single box requiring professional assembly; budget approximately two hours. The machine does not fold, but the build quality justifies permanent placement. A serious reformer at a meaningful price advantage over the major American brands.",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20",
+    tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Align Pilates C2 Pro Reformer",
-    price: "From $1,199",
-    verdict: "Best mid-range Align Pilates reformer",
-    description: "The C2 Pro is Align Pilates' most popular home model and the first in the range to earn genuine endorsement from working instructors rather than casual home users. Five springs, sealed ball-bearing carriage rollers, an adjustable two-position footbar, and padded shoulder rests make this a professionally capable machine. The carriage action is meaningfully smoother than the H1 — the difference is perceptible on the first use and becomes important across years of practice. The C2 Pro folds upright for wall storage, which separates it from the non-folding professional models above it. Carriage dimensions are approximately 86cm × 60cm, consistent with professional standards. For most home practitioners who want a credible machine without requiring permanent floor space, the C2 Pro is the strongest value point in the Align range.",
+    name: "Align-Pilates C2 Pro Reformer",
+    price: "From $1,499",
+    verdict: "Best entry into professional-grade reformers",
+    description: "The C2 Pro is Align-Pilates' entry professional model — the first Align machine to earn genuine endorsement from working instructors rather than casual home users. Five springs, sealed bearings, adjustable footbar, and an aluminium frame that matches the structural rigidity of machines in a significantly higher price bracket. The primary difference from the C8 Pro is refinement of components: the C2 Pro's footbar adjustment is two-position (vs three), the shoulder rest padding is slightly thinner, and the overall polish is a step below the flagship. For practitioners and instructors who want a credible professional machine at an accessible price, the C2 Pro is exceptional value. It also folds upright — a meaningful advantage over the non-folding C8 Pro for home studios.",
     affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=pilatescollective-20",
-    tag: "Most Popular",
+    tag: "Best Entry Pro",
   },
   {
     rank: "03",
-    name: "Align Pilates F2 Folding Reformer",
-    price: "From $1,699",
-    verdict: "Best folding reformer with professional springs",
-    description: "The F2 is the most compelling proposition in the Align range for practitioners who need professional spring quality in a machine that can be stored upright. Unlike the C2 Pro's two-position footbar, the F2 has a three-position adjustable footbar — the same as professional studio machines — and uses the same professional-grade springs as the A8. The folding mechanism is robust and designed for regular use rather than occasional storage. For private instructors who teach in client homes, or practitioners who want full studio spring quality without permanently surrendering floor space, the F2 occupies a uniquely practical position. Carriage dimensions match the A8 at approximately 86cm × 60cm. A professional machine that folds — a genuine rarity in the market.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+f2+folding+reformer&tag=pilatescollective-20",
-    tag: "Best Folding",
+    name: "Align-Pilates H1 Reformer with Tower",
+    price: "From $2,800",
+    verdict: "Best complete home studio setup",
+    description: "The H1 with Tower is the most compelling proposition in the Align-Pilates range — a full reformer plus an integrated tower system that attaches to the foot end of the machine, giving access to the complete reformer and tower repertoire without needing a separate Cadillac. For home practitioners who want to progress beyond the reformer into trapeze work, push-through bar exercises, and leg spring exercises, the H1 bundle eliminates the need for a separate $1,500+ tower purchase. The reformer component matches the C2 Pro in build quality; the tower adds springs, a push-through bar, and a roll-down bar. The full assembly requires approximately three hours but results in a genuinely complete apparatus that covers most of what a full studio Cadillac offers.",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+reformer+tower&tag=pilatescollective-20",
+    tag: "Reformer + Tower",
   },
   {
     rank: "04",
-    name: "Align Pilates A8 Reformer",
-    price: "From $2,499",
-    verdict: "Best professional studio-grade Align Pilates reformer",
-    description: "The A8 is Align Pilates' professional studio machine — the model found in commercial Pilates studios across the UK, Europe, and increasingly in North America and Australia. Five professional springs matching the STOTT PILATES colour convention (Blue, Red, Green, Yellow, and a half spring), sealed ball-bearing carriage rollers, a three-position adjustable footbar, and full aluminium-and-steel construction throughout. The carriage action on the A8 is the smoothest in the Align range — a difference that becomes significant when running a full teaching schedule on the machine day after day. The A8 does not fold, which is appropriate: it is built for permanent studio placement. Instructors trained in the Merrithew method will find the spring colour system immediately familiar. The A8 competes directly with the Merrithew SPX Max on specification and is priced meaningfully below the Balanced Body Allegro 2.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+a8+reformer&tag=pilatescollective-20",
-    tag: "Studio Grade",
+    name: "Align-Pilates Reformer Box",
+    price: "From $149",
+    verdict: "Essential accessory for the full repertoire",
+    description: "The Align-Pilates Box is compatible with both the C2 Pro and C8 Pro and is required for a significant portion of the reformer repertoire — the Long Box and Short Box series, the Pulling Straps exercises, and several of the seated rowing series cannot be performed without it. The Box is constructed from padded plywood with aluminium reinforcement; it sits stably on the reformer carriage and handles bodyweight in prone and seated positions without flex. This is not an optional upgrade — it is a necessary accessory for anyone intending to perform the full reformer program. Purchase it at the same time as the reformer.",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+reformer+box&tag=pilatescollective-20",
+    tag: "Essential Accessory",
   },
   {
     rank: "05",
-    name: "Align Pilates C8-S Reformer with Tower",
-    price: "From $3,199",
-    verdict: "Best complete Align Pilates studio setup",
-    description: "The C8-S with Tower is the most complete apparatus in the Align Pilates range — a full professional reformer with an integrated tower system that attaches to the foot end of the machine, giving access to the combined reformer and tower repertoire without a separate Cadillac. The tower adds springs, a push-through bar, and a roll-down bar, enabling the full classical tower exercises that sit between the reformer and the Cadillac in traditional studio programming. For practitioners who want to progress into trapeze and push-through bar work, or instructors building a complete teaching setup, the C8-S bundle eliminates a separate tower purchase. The reformer component matches the A8 in build quality and spring specification. Assembly requires approximately three hours; the result is a genuinely complete apparatus covering the majority of what a full Cadillac offers.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+reformer+tower&tag=pilatescollective-20",
-    tag: "Reformer + Tower",
+    name: "Align-Pilates Reformer Jumpboard",
+    price: "From $199",
+    verdict: "Best accessory for cardio intervals",
+    description: "The Align-Pilates Jumpboard attaches to the foot end of the C2 Pro and C8 Pro reformers and converts footwork into a low-impact cardio sequence — a particularly valuable addition for practitioners who want a complete workout without the joint impact of running or traditional aerobics. The board is padded, stable, and sized to accommodate both parallel and turned-out foot positions across the standard jump repertoire. Jumpboard work requires the reformer to be in a suitable position (springs relatively light) and is contraindicated during certain phases of pregnancy and for some knee conditions. For practitioners without contraindications, the jumpboard meaningfully extends the workout variety available from a home reformer.",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+jumpboard+reformer&tag=pilatescollective-20",
+    tag: "Cardio Add-On",
   },
 ];
 
@@ -75,12 +75,12 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Align Pilates Reformer Review (2026): H1, C2 Pro, F2, A8 & C8-S Compared",
-      "description": "Align Pilates reformers reviewed honestly — H1, C2 Pro, F2 Folding, A8, and C8-S with Tower compared against Balanced Body and Merrithew at a meaningful price advantage.",
+      "headline": "Align-Pilates Reformer Review (2026): The Mid-Tier Machine Earning Studio Endorsement",
+      "description": "Align-Pilates reformers reviewed honestly — C2 Pro, C8 Pro, and H1 with tower compared against Balanced Body and Merrithew at a significantly lower price.",
       "url": "https://pilatescollectiveclub.com/blog/align-pilates-reformer-review",
-      "datePublished": "2026-06-14",
-      "dateModified": "2026-06-14",
-      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-white-reformer-plaster.png", "width": 1200, "height": 630 },
+      "datePublished": "2026-05-16",
+      "dateModified": "2026-05-16",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/align-pilates-reformer-review" },
@@ -90,16 +90,16 @@ const jsonLd = {
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Align Pilates Reformer Review", "item": "https://pilatescollectiveclub.com/blog/align-pilates-reformer-review" },
+        { "@type": "ListItem", "position": 3, "name": "Align-Pilates Reformer Review", "item": "https://pilatescollectiveclub.com/blog/align-pilates-reformer-review" },
       ],
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Align Pilates good enough for professional teaching?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The A8 and C8-S are used by working instructors in commercial studios. The spring system, sealed-bearing carriage, and structural construction meet professional standards. They are a value choice at a comparable quality level to the major American brands, not a compromise." } },
-        { "@type": "Question", "name": "How does Align Pilates compare to Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Spring feel and long-term brand reputation slightly favour Balanced Body; price and value favour Align Pilates. Both produce professionally capable machines. The Allegro 2 is widely considered to have the finest carriage feel in its class; the Align A8 is excellent but not quite at that level. For most instructors, the functional gap does not justify the price difference." } },
-        { "@type": "Question", "name": "How does Align Pilates compare to Merrithew?", "acceptedAnswer": { "@type": "Answer", "text": "Very closely matched. The spring colour convention is identical, making Align machines immediately familiar to STOTT PILATES-trained instructors. The A8 competes directly with the SPX Max on specification. Merrithew's main advantages are a more established North American service network and a deeper accessories ecosystem." } },
-        { "@type": "Question", "name": "Which Align Pilates model should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "The H1 for a first reformer with budget and storage constraints. The C2 Pro for the best value in the range — professional springs, sealed bearings, fold-up storage. The F2 if you need professional spring quality in a machine that still folds. The A8 for a permanent studio machine. The C8-S with Tower to add the full tower and Cadillac repertoire without a separate purchase." } },
+        { "@type": "Question", "name": "Is Align-Pilates good enough for professional teaching?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The C2 Pro and C8 Pro are used by working instructors in commercial settings. The spring system, carriage quality, and structural integrity meet professional standards." } },
+        { "@type": "Question", "name": "How does Align-Pilates compare to Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Spring feel and long-term reputation slightly favour Balanced Body; price and value favour Align-Pilates. Both are professional-grade. The Allegro 2 is widely considered the best carriage feel available; the C8 Pro is excellent but not quite at that level." } },
+        { "@type": "Question", "name": "Is Align-Pilates available in the United States?", "acceptedAnswer": { "@type": "Answer", "text": "Available through specialist dealers and on Amazon. The brand is US-available but the service network is less established than Balanced Body or Merrithew's. Factor in shipping costs and servicing access when comparing prices." } },
+        { "@type": "Question", "name": "Which Align-Pilates model should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "The C8 Pro for a dedicated home studio or professional teaching room. The C2 Pro for a home practitioner who wants professional spring quality at a lower price. The H1 with Tower if you want the reformer + tower repertoire without purchasing two separate pieces of equipment." } },
       ],
     },
   ],
@@ -120,13 +120,13 @@ export default function AlignPilatesReformerReviewPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Align Pilates Reformer Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Brand Earning Studio Endorsement</span>
+              Align-Pilates Reformer Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Mid-Tier Machine Earning Studio Endorsement</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 10 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Align Pilates is not a brand you find cited in classical Pilates textbooks or printed on the walls of long-established studios. They are the brand that working instructors — the ones equipping private teaching rooms and small boutique spaces — are increasingly buying instead of Balanced Body or Merrithew, because the machines perform comparably at 20–40% lower cost. This is an honest review of their full range: what each model is for, where the savings show up, and where they don&apos;t.
+              Align-Pilates is not the brand you find in Pilates textbooks or on the walls of established studios. They are the brand that working instructors — the ones equipping private teaching rooms and small boutique spaces — are increasingly buying instead of Balanced Body or Merrithew, because the machines perform comparably at 20–40% lower cost. This is an honest review of their main models, who each is for, and where the savings show up (and where they don&apos;t).
             </p>
           </div>
         </section>
@@ -135,7 +135,7 @@ export default function AlignPilatesReformerReviewPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-white-reformer-plaster.png" alt="Align Pilates reformer — sleek white machine against plaster wall" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" alt="Align-Pilates reformer review — C2 Pro, C8 Pro, and H1 compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -144,40 +144,40 @@ export default function AlignPilatesReformerReviewPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Who is Align Pilates */}
+            {/* Who is Align-Pilates */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who is Align Pilates?</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who is Align-Pilates and why should you consider them?</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Founded in the UK, Align Pilates entered the market as a lower-cost alternative to the dominant American brands. Their machines are manufactured to professional specifications — sealed-bearing carriages on professional models, colour-coded spring systems, and aluminium-and-steel construction throughout — and are used in commercial Pilates studios across the UK, Europe, and increasingly in North America and Australia.
+                Founded in the UK, Align-Pilates entered the market as a lower-cost alternative to the dominant American brands. Their machines are manufactured to professional specifications — sealed-bearing carriages, colour-coded spring systems, and aluminium-and-steel construction throughout — and are used in commercial Pilates studios in the UK, Europe, and increasingly in the US and Australia.
               </p>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The spring colour system maps directly to the STOTT PILATES convention used by Merrithew-trained instructors: Blue for light resistance, Red for medium, Green for heavy, Yellow for extra heavy. Any instructor trained in the Merrithew method can pick up an Align Pilates machine and work without relearning spring conventions — a deliberate design decision that has made Align a credible choice in communities where BASI and Merrithew instructors are prevalent.
+                The colour-coded spring system — Blue for light resistance, Red for medium, Green for heavy, Yellow for extra heavy — directly maps to the STOTT PILATES convention. Any instructor trained in the Merrithew method can pick up an Align-Pilates machine and work without relearning spring conventions. That compatibility is not accidental; it is a deliberate design decision that has made Align-Pilates a credible choice for working instructors.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The range runs from the entry-level H1 at $799 to the studio C8-S with Tower at $3,199, with each step up bringing a meaningful improvement: from nylon to sealed-bearing carriage rollers, from a two-position to three-position footbar, from folding to permanent construction, and finally to the full reformer-plus-tower combination.
+                The brand&apos;s credibility has grown significantly in the UK and European market. They are not yet the default recommendation for large commercial studios — where Balanced Body and Merrithew still dominate — but for the growing private instructor market, small boutique studios, and serious home practitioners, Align-Pilates represents a legitimate and increasingly respected choice.
               </p>
             </div>
 
-            {/* Comparison criteria */}
+            {/* Comparison criteria cards */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes Align Pilates different: four criteria</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How Align-Pilates compares: four criteria</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   {
-                    heading: "Spring quality",
-                    body: "Professional models (C2 Pro and above) use colour-coded springs matching the STOTT PILATES convention. The five-spring system — including a half spring — covers the full reformer repertoire. The entry-level H1 uses a four-spring system without the half spring.",
+                    heading: "Spring system",
+                    body: "Five springs, colour-coded matching the STOTT PILATES convention. Comparable to Merrithew's system in feel and familiarity; Balanced Body uses a different but equally professional approach. No meaningful functional difference in everyday use.",
                   },
                   {
-                    heading: "Carriage bearings",
-                    body: "This is the most significant quality dividing line in the range. The H1 uses nylon rollers; the C2 Pro and all models above use sealed ball bearings. The difference in carriage smoothness is perceptible immediately and becomes important across years of regular practice.",
+                    heading: "Carriage quality",
+                    body: "Sealed ball-bearing rollers on all professional models (C2 Pro upward). Smooth, consistent action comparable to Balanced Body and Merrithew. Entry-level models below the C2 Pro use nylon rollers — a meaningful distinction when selecting a machine.",
                   },
                   {
-                    heading: "Carriage dimensions",
-                    body: "Professional models (C2 Pro and above) maintain approximately 86cm × 60cm carriage dimensions, consistent with professional studio standards. This accommodates a full range of body types for the standard reformer repertoire, including long-box and short-box series.",
+                    heading: "Build durability",
+                    body: "Aluminium frame with steel hardware throughout. Commercial studio-grade construction. Align&apos;s track record is shorter than Balanced Body&apos;s decades-long history, but no significant failure patterns have emerged in professional use.",
                   },
                   {
                     heading: "Price vs alternatives",
-                    body: "The A8 at $2,499 competes with the Merrithew SPX Max at approximately $2,199 and is priced meaningfully below the Balanced Body Allegro 2 at approximately $3,495. At every level of the range, Align Pilates delivers a genuine price advantage over the major American brands.",
+                    body: "C8 Pro at $2,200 vs Merrithew SPX Max at $2,199 and Balanced Body Allegro 2 at $3,495. Align-Pilates offers comparable functionality at either parity with Merrithew or a meaningful 37% discount against Balanced Body.",
                   },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -190,7 +190,7 @@ export default function AlignPilatesReformerReviewPage() {
 
             {/* Products section */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-8" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Align Pilates Models · Full Range Reviewed</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-8" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Align-Pilates Products · Expert-Reviewed</p>
 
               {/* Quick reference table */}
               <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
@@ -226,38 +226,38 @@ export default function AlignPilatesReformerReviewPage() {
               </div>
             </div>
 
-            {/* Align vs Balanced Body vs Merrithew comparison */}
+            {/* Honest comparison editorial */}
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Align Pilates vs Balanced Body vs Merrithew: honest comparison</h2>
+              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Align-Pilates vs Balanced Body vs Merrithew: honest comparison</h2>
               <div className="space-y-5">
                 {[
                   {
                     label: "Build quality",
-                    body: "All three are professionally built. Align Pilates is comparable in structural quality to Merrithew; Balanced Body edges ahead on carriage smoothness and the long-term component track record of a brand with decades of commercial studio presence. For most practitioners and instructors, the functional difference is not meaningful in everyday use.",
+                    body: "All three are professionally built. Align-Pilates is comparable in structural quality to Merrithew; Balanced Body edges ahead on carriage smoothness and long-term component quality. For most practitioners and instructors, the difference is not meaningful in everyday use.",
                   },
                   {
                     label: "Spring feel",
-                    body: "Balanced Body springs have a specific feel that experienced practitioners often prefer — a slightly more progressive tension through the range of motion. Merrithew and Align Pilates springs are comparable in resistance profile and responsiveness. Beginners and intermediate practitioners will not notice a meaningful difference between the three brands.",
+                    body: "Balanced Body springs have a specific feel that experienced practitioners often prefer. Merrithew and Align-Pilates springs are comparable in resistance profile and responsiveness. Beginners will not notice the difference between any of the three.",
                   },
                   {
-                    label: "Instructor familiarity",
-                    body: "Align Pilates uses the Merrithew spring colour convention (Blue/Red/Green/Yellow/Half), making machines immediately familiar to STOTT PILATES-trained instructors. BASI-trained instructors who primarily work on Balanced Body will need a brief orientation. Classical instructors will find all three brands require some familiarisation.",
-                  },
-                  {
-                    label: "Accessories",
-                    body: "Balanced Body has the widest accessories ecosystem — boxes, jumpboards, towers, and specialty springs are widely stocked. Merrithew's is comprehensive. Align Pilates' accessories range covers the core items (box, jumpboard, tower for C8-S) but is not yet as deep. For practitioners who want a full accessories ecosystem, Balanced Body leads.",
+                    label: "Accessories ecosystem",
+                    body: "Balanced Body has the widest accessory range — boxes, jumpboards, tower attachments, and specialty springs are all available and widely stocked. Merrithew&apos;s is comprehensive. Align-Pilates&apos; accessory range is growing but not yet as deep; the core accessories (box, jumpboard) are available.",
                   },
                   {
                     label: "Price",
-                    body: "At every level of the range, Align Pilates offers a genuine price advantage. The C2 Pro at $1,199 delivers sealed-bearing quality that requires a significantly higher spend from either American brand. The A8 at $2,499 is priced below the Balanced Body Allegro 2 and near the Merrithew SPX Max on comparable specification.",
+                    body: "Align-Pilates C8 Pro ($2,200) vs Balanced Body Allegro 2 ($3,495) vs Merrithew SPX Max ($2,199). Align-Pilates is at parity with Merrithew and 37% less than Balanced Body. The price difference between Align and Balanced Body is real and significant.",
+                  },
+                  {
+                    label: "Resale value",
+                    body: "Balanced Body has the strongest resale market in the US — used Allegro 2s hold value well and sell readily. Merrithew is second. Align-Pilates resale is growing but less established, particularly outside the UK and Europe.",
                   },
                   {
                     label: "Verdict",
-                    body: "In the UK or Europe, Align Pilates is the straightforward recommendation for a professional-quality machine at a fair price, with an established service network. In the US, Balanced Body and Merrithew have stronger service networks and resale markets — but the price gap is real and significant. For instructors equipping a private teaching room rather than a large commercial studio, that gap matters.",
+                    body: "In the UK or Europe, Align-Pilates is the straightforward recommendation for a professional-quality machine at a fair price. In the US, Balanced Body and Merrithew still have stronger service networks and resale markets, but the price gap is real — and for instructors equipping a private teaching room rather than a commercial studio, that gap matters.",
                   },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-4">
-                    <p className="text-sm font-semibold shrink-0 w-36" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
+                    <p className="text-sm font-semibold shrink-0 w-32" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
                   </div>
                 ))}
@@ -270,20 +270,20 @@ export default function AlignPilatesReformerReviewPage() {
               <div className="space-y-6">
                 {[
                   {
-                    q: "Is Align Pilates good enough for professional teaching?",
-                    a: "Yes. The A8 and C8-S are used by working instructors in commercial settings. The spring system, sealed-bearing carriage, and structural construction meet professional standards. They are a value choice at a comparable quality level to the major American brands, not a compromise.",
+                    q: "Is Align-Pilates good enough for professional teaching?",
+                    a: "Yes. The C2 Pro and C8 Pro are used by working instructors in commercial settings. The spring system, carriage quality, and structural integrity meet professional standards. They are not a compromise choice — they are a value choice at a comparable quality level to the major American brands.",
                   },
                   {
-                    q: "How does Align Pilates compare to Balanced Body?",
-                    a: "Spring feel and long-term brand reputation slightly favour Balanced Body; price and value favour Align Pilates. Both produce professionally capable machines. The Allegro 2 is widely considered to have the finest carriage feel in its class; the Align A8 is excellent but not quite at that level. For most instructors, the functional gap does not justify the price difference.",
+                    q: "How does Align-Pilates compare to Balanced Body?",
+                    a: "Spring feel and long-term reputation slightly favour Balanced Body; price and value favour Align-Pilates. Both are professional-grade. The Allegro 2 is widely considered the best carriage feel available at its price point; the C8 Pro is excellent but not quite at that level. For most instructors, the functional difference does not justify the price difference.",
                   },
                   {
-                    q: "How does Align Pilates compare to Merrithew?",
-                    a: "Very closely matched. The spring colour convention is identical, making Align machines immediately familiar to STOTT PILATES-trained instructors. The A8 competes directly with the SPX Max on specification. Merrithew's main advantages are a more established North American service network and a deeper accessories ecosystem.",
+                    q: "Is Align-Pilates available in the United States?",
+                    a: "Available through specialist dealers and on Amazon. The brand is US-available but the service network is less established than Balanced Body or Merrithew's. Factor in shipping costs and servicing access when comparing prices — the sticker price advantage can narrow once those variables are included.",
                   },
                   {
-                    q: "Which Align Pilates model should I buy?",
-                    a: "The H1 for a first reformer with budget and storage constraints. The C2 Pro for the best value in the range — professional springs, sealed bearings, fold-up storage. The F2 if you need professional spring quality in a machine that still folds. The A8 for a permanent studio machine. The C8-S with Tower to add the full tower and Cadillac repertoire without a separate purchase.",
+                    q: "Which Align-Pilates model should I buy?",
+                    a: "The C8 Pro for a dedicated home studio or professional teaching room where the machine will be in permanent use. The C2 Pro for a home practitioner who wants professional spring quality at a lower price and values the fold-up storage option. The H1 with Tower if you want the reformer and tower repertoire without purchasing two separate pieces of equipment.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -298,8 +298,8 @@ export default function AlignPilatesReformerReviewPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Balanced Body vs Merrithew (2026)" excerpt="The two dominant Pilates equipment brands compared honestly — spring feel, build quality, price, and resale value." href="/blog/balanced-body-vs-merrithew" category="Equipment Guide" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
-                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point — from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
+                <ArticleCard title="Balanced Body vs Merrithew (2026)" excerpt="The two dominant Pilates equipment brands compared honestly — spring feel, build quality, price, and resale." href="/blog/balanced-body-vs-merrithew" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
+                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point — from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
               </div>
             </div>
 
