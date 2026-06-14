@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Raw asset folders checked out from main (clean copies live in public/pictures/)
+/pictures/
+/.claude/
