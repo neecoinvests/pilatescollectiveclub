@@ -7,20 +7,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Gymshark for Pilates (2026): Best Pieces & Honest Review | Pilates Collective Club",
-  description: "Gymshark Flex Legging, Vital Seamless set and sports bras reviewed for Pilates — honest verdict on whether the bodybuilding brand delivers in a reformer studio.",
+  title: "Gymshark for Pilates (2026): Which Pieces Actually Work in the Studio?",
+  description: "Gymshark Flex Legging, Vital Seamless, and training bras — tested in a reformer studio. Honest verdict: 3 pieces worth buying, 2 to skip. Read before you order.",
   keywords: ["gymshark pilates", "gymshark for pilates", "gymshark pilates leggings", "gymshark flex legging pilates", "gymshark vital seamless pilates", "gymshark vs lululemon pilates", "gymshark activewear pilates", "gymshark studio wear", "is gymshark good for pilates", "gymshark pilates review 2026"],
   openGraph: {
-    title: "Gymshark for Pilates (2026): Best Pieces & Honest Review",
-    description: "The best Gymshark pieces for Pilates — training leggings, seamless sets, and sports bras tested for reformer and mat classes.",
+    title: "Gymshark for Pilates (2026): Which Pieces Actually Work in the Studio?",
+    description: "Gymshark Flex Legging, Vital Seamless, and training bras tested in a reformer studio — honest verdict on what's worth buying.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/gymshark-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "Gymshark for Pilates — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gymshark for Pilates (2026): Best Pieces & Honest Review",
-    description: "The best Gymshark pieces for Pilates — tested for reformer and mat classes.",
+    title: "Gymshark for Pilates (2026): Which Pieces Work in Studio?",
+    description: "Gymshark tested in a reformer studio — honest verdict on what to buy.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"],
   },
   alternates: {

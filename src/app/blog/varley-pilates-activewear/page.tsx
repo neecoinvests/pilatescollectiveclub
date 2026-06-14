@@ -7,20 +7,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Varley for Pilates (2026): Best Pieces for the Boutique Studio | Pilates Collective Club",
-  description: "The Varley Reeves Legging, Stratford Bra, and Paloma Tank reviewed for Pilates — the British boutique brand trusted in London, Paris, and Zurich studio circles.",
+  title: "Varley for Pilates (2026): Is the Reeves Legging Worth the Price?",
+  description: "Varley Reeves Legging, Stratford Bra, and Paloma Tank tested for reformer Pilates. Worn in London and Paris studios — here's whether the premium price is justified.",
   keywords: ["varley pilates", "varley for pilates", "varley reeves legging pilates", "varley stratford bra pilates", "varley activewear review", "varley vs lululemon pilates", "varley vs alo pilates", "varley boutique studio", "best varley pilates pieces", "varley pilates review 2026"],
   openGraph: {
-    title: "Varley for Pilates (2026): Best Pieces for the Boutique Studio",
-    description: "The best Varley pieces for Pilates — honest review of the brand that defines the boutique studio aesthetic.",
+    title: "Varley for Pilates (2026): Is the Reeves Legging Worth the Price?",
+    description: "Varley Reeves Legging, Stratford Bra, and Paloma Tank tested in London and Paris studios — is the premium price justified?",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/varley-pilates-activewear",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", width: 1200, height: 630, alt: "Varley for Pilates — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Varley for Pilates (2026): Best Pieces",
-    description: "The best Varley pieces for Pilates — honest review of the boutique studio brand.",
+    title: "Varley for Pilates (2026): Is the Reeves Legging Worth It?",
+    description: "Varley Reeves Legging, Stratford Bra, and Paloma Tank tested for reformer Pilates.",
     images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"],
   },
   alternates: {

@@ -215,6 +215,7 @@ export default function IsReformerPilatesWorthItPage() {
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="Every budget from $299 to $3,500+ — the complete guide to home reformers." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                  <ArticleCard title="Best Pilates Equipment for Home Practice (2026)" excerpt="The complete home Pilates equipment list — mat, ring, bands, roller, and reformer options ranked." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
                   <ArticleCard title="Pilates Reformer vs Mat" excerpt="What's actually different — which is harder, and what you get from each." href="/blog/pilates-reformer-vs-mat" category="Method" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
                 </div>
               </div>

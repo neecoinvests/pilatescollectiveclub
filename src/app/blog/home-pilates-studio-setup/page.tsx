@@ -667,6 +667,15 @@ export default function HomePilatesStudioSetupPage() {
                   imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"
                 />
                 <ArticleCard
+                  title="Best Pilates Equipment for Home Practice (2026)"
+                  excerpt="The complete equipment list for home Pilates — mat, ring, bands, roller, and reformer options ranked."
+                  href="/blog/best-pilates-equipment-for-home-practice"
+                  category="Equipment Guide"
+                  readTime="10 min read"
+                  date="May 2026"
+                  imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"
+                />
+                <ArticleCard
                   title="Best Pilates Starter Kit (2026)"
                   excerpt="Everything a beginner needs — mat, grip socks, bands, and ring, in the right order."
                   href="/blog/best-pilates-starter-kit"

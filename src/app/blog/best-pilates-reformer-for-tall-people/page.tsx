@@ -7,20 +7,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformers for Tall People (2026): Long Carriage Options",
-  description: "The best Pilates reformers for tall practitioners (6ft+) — long carriage reformers from Balanced Body, Gratz, Merrithew, and more tested for reach and comfort.",
+  title: "Best Pilates Reformers for Tall People (2026) — 7 Long-Carriage Picks Ranked",
+  description: "If you're 6ft+ and struggling to find a reformer that fits, here are the 7 machines with the longest carriages — tested and ranked by carriage length, spring feel, and value.",
   keywords: ["best pilates reformer for tall people", "pilates reformer tall person", "long carriage pilates reformer", "pilates reformer 6 feet tall", "balanced body reformer tall", "gratz pilates reformer tall", "pilates reformer extended carriage", "best reformer for tall practitioners 2026"],
   openGraph: {
-    title: "Best Pilates Reformers for Tall People (2026): Long Carriage Options",
-    description: "The best Pilates reformers for tall practitioners — long carriage options tested and ranked.",
+    title: "Best Pilates Reformers for Tall People (2026) — 7 Long-Carriage Picks Ranked",
+    description: "If you're 6ft+ and struggling to find a reformer that fits, here are the 7 machines with the longest carriages — tested and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-tall-people",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Reformers for Tall People — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Reformers for Tall People (2026)",
-    description: "The best Pilates reformers for tall practitioners — long carriage options ranked.",
+    title: "Best Pilates Reformers for Tall People (2026) — 7 Long-Carriage Picks",
+    description: "7 reformers ranked by carriage length for practitioners 6ft and over.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-tall-people" },

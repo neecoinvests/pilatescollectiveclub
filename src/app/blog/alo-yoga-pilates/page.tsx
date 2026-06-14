@@ -7,20 +7,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Alo Yoga for Pilates (2026): Best Pieces & Honest Review | Pilates Collective Club",
-  description: "The Alo Airbrush legging, Airlift bra, and Alo Moves app — honestly reviewed for Pilates. Which Alo pieces actually work in the studio and which to skip.",
+  title: "Alo Yoga for Pilates (2026): Airbrush, Airlift & Alo Moves — Studio-Tested",
+  description: "Alo Airbrush legging, Airlift bra, and Alo Moves reviewed by a Pilates instructor. Which Alo pieces earn a place in your studio bag — and which are overhyped.",
   keywords: ["alo yoga pilates", "alo yoga for pilates", "alo airbrush legging pilates", "alo airlift bra pilates", "alo moves pilates", "best alo yoga pilates", "alo yoga leggings review", "alo yoga vs lululemon pilates", "alo yoga studio wear", "alo yoga activewear pilates 2026"],
   openGraph: {
-    title: "Alo Yoga for Pilates (2026): Best Pieces, Alo Moves & Honest Review",
-    description: "Everything Alo Yoga makes that's worth buying for Pilates — and an honest look at what doesn't deliver.",
+    title: "Alo Yoga for Pilates (2026): Airbrush, Airlift & Alo Moves — Studio-Tested",
+    description: "Alo Airbrush legging, Airlift bra, and Alo Moves reviewed for Pilates — what earns a place in your studio bag and what's overhyped.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/alo-yoga-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", width: 1200, height: 630, alt: "Alo Yoga for Pilates — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alo Yoga for Pilates (2026): Best Pieces & Honest Review",
-    description: "Everything Alo Yoga makes that's worth buying for Pilates — an honest review.",
+    title: "Alo Yoga for Pilates (2026): Airbrush, Airlift & Alo Moves Reviewed",
+    description: "Alo Airbrush legging, Airlift bra, and Alo Moves — studio-tested for Pilates.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"],
   },
   alternates: {
