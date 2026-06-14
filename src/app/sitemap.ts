@@ -175,6 +175,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "pilates-for-office-workers",
     "pilates-for-knee-pain",
     "pilates-morning-routine",
+    "best-leggings-for-reformer-pilates",
+    "pilates-studio-bag-essentials",
   ];
 
   return [
