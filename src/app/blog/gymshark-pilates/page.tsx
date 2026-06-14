@@ -8,11 +8,11 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Gymshark for Pilates (2026): Which Pieces Actually Work in the Studio?",
-  description: "Gymshark Flex Legging, Vital Seamless, and training bras — tested in a reformer studio. Honest verdict: 3 pieces worth buying, 2 to skip. Read before you order.",
+  description: "Gymshark Flex Legging, Vital Seamless set, and training bras — honestly reviewed in a reformer studio. Does Gymshark hold up against Alo and Lululemon? Here's the verdict.",
   keywords: ["gymshark pilates", "gymshark for pilates", "gymshark pilates leggings", "gymshark flex legging pilates", "gymshark vital seamless pilates", "gymshark vs lululemon pilates", "gymshark activewear pilates", "gymshark studio wear", "is gymshark good for pilates", "gymshark pilates review 2026"],
   openGraph: {
     title: "Gymshark for Pilates (2026): Which Pieces Actually Work in the Studio?",
-    description: "Gymshark Flex Legging, Vital Seamless, and training bras tested in a reformer studio — honest verdict on what's worth buying.",
+    description: "Gymshark Flex Legging, Vital Seamless set, and training bras tested in a reformer studio — does Gymshark hold up against Alo and Lululemon?",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/gymshark-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "Gymshark for Pilates — Pilates Collective Club" }],
