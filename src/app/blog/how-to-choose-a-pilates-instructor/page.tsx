@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "How to Choose a Pilates Instructor (2026): Credentials & Red Flags | Pilates Collective Club",
@@ -99,6 +100,14 @@ const jsonLd = {
     },
   ],
 };
+const PRODUCTS = [
+  { name: "ToeSox Grip Socks", description: "The first equipment purchase before trialling a new instructor. Arriving with your own grip socks signals preparation and allows you to focus the introductory session on assessing the instructor, not logistics.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "For the home sessions your instructor recommends between studio visits. A mat at home enables the practice continuity that makes the instructor relationship most productive.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Return to Life Through Contrology", description: "Reading the original Pilates text gives you a reference point for evaluating whether an instructor is grounded in the method or merely using the name. Useful context for any serious student.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=joseph+pilates+return+to+life+through+contrology&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For the home exercises your instructor prescribes. Most good instructors provide between-session exercises — having resistance bands at home allows you to follow through on the programme.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Pilates Studio Bag", description: "A dedicated bag for your instructor sessions — grip socks, mat, water, and whatever props your instructor recommends bringing. Being organised demonstrates commitment and respects the instructor's time.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+studio+bag+tote&tag=pilatescollective-20" },
+];
+
 export default function HowToChoosePilatesInstructorPage() {
   return (
     <>
@@ -227,6 +236,18 @@ export default function HowToChoosePilatesInstructorPage() {
               </Section>
             </section>
           </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
           <BlogSidebar related={[
             { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },

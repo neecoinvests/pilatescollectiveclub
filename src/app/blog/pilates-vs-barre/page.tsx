@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
@@ -130,6 +131,14 @@ const jsonLd = {
     },
   ],
 };
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "Both Pilates and barre use a mat for floor work. The PRO handles the sustained floor sequences in both disciplines — its density protects the knees during the kneeling and side-lying work common to both methods.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "The standard footwear for both Pilates and barre studios. Individual toe pockets improve the balance and proprioception that both methods emphasise.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Light resistance bands bridge the two disciplines — used in barre for standing arm work and in Pilates for reformer-style resistance exercises at home.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Pilates-only — the magic circle has no barre equivalent and is the piece of equipment most likely to push a barre practitioner towards Pilates. The inner thigh and arm integration it teaches is distinctive.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Used in Pilates more than barre, the foam roller provides the thoracic opening that makes Pilates particularly effective as a postural corrective — a meaningful advantage over barre for desk workers.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+];
 
 export default function PilatesVsBarrePage() {
   return (
@@ -470,6 +479,19 @@ export default function PilatesVsBarrePage() {
                 ))}
               </div>
             </Section>
+
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
             {/* Further reading */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>

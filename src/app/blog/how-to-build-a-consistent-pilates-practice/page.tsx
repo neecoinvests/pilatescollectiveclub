@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "How to Build a Consistent Pilates Practice (2026) | Pilates Collective Club",
@@ -119,6 +120,14 @@ const jsonLd = {
     },
   ],
 };
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "A mat you're proud to own makes home practice easier to maintain. The quality signals commitment — and the non-degrading foam means it performs identically in session 500 as in session 1.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands make meaningful home sessions possible in 15-20 minutes — the minimum viable practice length for maintaining consistency between studio classes.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "A full-length foam roller stays out of the way when not in use but enables a 10-minute spinal opening session at any time. Low barrier to entry makes it the consistency tool of choice.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+  { name: "Fitness Journal", description: "Tracking Pilates sessions, progress, and how each session feels builds the self-awareness that sustains long-term practice. Even brief notes create the feedback loop that habit formation requires.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=fitness+journal+workout+log&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Compact, immediately available, and instantly challenging. A magic circle on the living room floor is more likely to get used than equipment that requires assembly or setup.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+];
+
 export default function ConsistentPracticePage() {
   return (
     <>
@@ -174,6 +183,18 @@ export default function ConsistentPracticePage() {
               </Section>
 
             </article>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
             {/* Continue reading */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>

@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates for Anxiety & Stress (2026): The Science of How It Helps | Pilates Collective Club",
@@ -60,6 +61,14 @@ const jsonLd = {
     },
   ],
 };
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "The quality of your mat affects how easily you settle into focused practice. A firm, non-slip surface removes the micro-distractions of sliding or uneven support — useful when the goal is mental stillness.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "The supine thoracic opening on a full-length foam roller activates the parasympathetic nervous system via diaphragmatic stretch and chest opening — a direct physiological intervention for anxiety.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For home practice between sessions. Resistance band Pilates exercises maintain the somatic focus and breath regulation that make studio Pilates effective for anxiety management.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ball (9-inch)", description: "Placed on the abdomen or ribs during breathing exercises, the small ball provides proprioceptive feedback that improves breath awareness during Pilates practice.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Light resistance work for home sessions — the rhythmic engagement and release pattern of magic circle exercises builds the mind-body connection that Pilates is most valued for in stress management.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+];
 
 export default function PilatesForAnxietyPage() {
   return (
@@ -187,6 +196,18 @@ export default function PilatesForAnxietyPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

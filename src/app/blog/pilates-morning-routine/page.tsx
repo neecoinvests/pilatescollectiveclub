@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates Morning Routine (2026): 10, 20 & 30-Minute Options | Pilates Collective Club",
@@ -66,6 +67,14 @@ const EQUIPMENT = [
   { name: "Full-length foam roller (90cm)", use: "Thoracic extension and spinal decompression first thing in the morning", url: "https://www.amazon.co.uk/s?k=foam+roller+full+90cm+pilates&tag=pilatescollective-20" },
   { name: "Pilates ball (25cm)", use: "Inner thigh, pelvic floor, and core activation across all three routines", url: "https://www.amazon.co.uk/s?k=pilates+ball+25cm+small+morning&tag=pilatescollective-20" },
   { name: "Fabric resistance band (light–medium)", use: "Progressive resistance for glute and hip work without a reformer", url: "https://www.amazon.co.uk/s?k=fabric+resistance+band+light+pilates+home&tag=pilatescollective-20" },
+];
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "A mat you leave unrolled the night before removes the friction of morning practice. The quality makes the routine feel like a considered ritual rather than a chore — relevant when willpower is lowest.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "The ideal morning Pilates opener. Two minutes of thoracic extension on a full-length roller wakes the spine and nervous system more effectively than stretching alone.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Light resistance band work in the morning activates the postural muscles before a day of desk work. 10 minutes provides more lasting postural benefit than the same time spent stretching.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Requires no space to set up and adds meaningful resistance to the morning core and hip work that makes reformer Pilates results replicable at home.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ball (9-inch)", description: "Used in breathing and proprioception exercises at the start of the morning routine. The ball's tactile feedback helps establish body awareness before the more demanding exercises.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
 ];
 
 export default function PilatesMorningRoutinePage() {
@@ -241,6 +250,18 @@ export default function PilatesMorningRoutinePage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

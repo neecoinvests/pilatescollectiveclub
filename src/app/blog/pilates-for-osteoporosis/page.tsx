@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates for Osteoporosis (2026): Safe Exercises & What to Avoid | Pilates Collective Club",
@@ -60,6 +61,14 @@ const jsonLd = {
     },
   ],
 };
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "A firm, supportive mat for osteoporosis Pilates work — joint protection and surface stability are more important here than cushioning. The density prevents wrist and hip sinking during weight-bearing exercises.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Progressive resistance loading for bone density — the mechanical stimulus that drives osteoblast activity. Light-to-medium bands allow progressive loading appropriate for osteoporotic bone.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "For thoracic extension and mobility work. Note: spinal flexion over the roller is contraindicated with osteoporosis — extension work only.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Light resistance for hip and arm strengthening in standing positions — weight-bearing exercises with the magic circle provide bone-loading stimulus without fracture risk.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "Pilates Arc Barrel", description: "Supports safe spinal extension exercises for osteoporosis — extension strengthens the posterior spinal muscles that protect vertebral bodies from compression fracture.", price: "From $120", affiliateUrl: "https://www.amazon.com/s?k=pilates+arc+barrel+spine+corrector&tag=pilatescollective-20" },
+];
 
 export default function PilatesForOsteoporosisPage() {
   return (
@@ -196,6 +205,18 @@ export default function PilatesForOsteoporosisPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

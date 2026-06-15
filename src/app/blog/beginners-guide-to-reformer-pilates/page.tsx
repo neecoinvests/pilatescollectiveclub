@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Beginner's Guide to Reformer Pilates (2026): What to Expect | Pilates Collective Club",
@@ -119,6 +120,14 @@ const jsonLd = {
     },
   ],
 };
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "Your mat practice between reformer sessions is as important as the sessions themselves. A high-quality mat makes home practice sustainable — the regularity that actually builds the strength reformer classes demand.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "Non-negotiable for reformer class — grip socks prevent sliding on the footbar and carriage. Individual toe pockets improve proprioception and are required by most studios for hygiene.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands allow beginners to practise reformer-style movements at home between classes. Many foundational reformer exercises can be replicated with bands during the early weeks of practice.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Introduced in most beginner reformer progressions by the third or fourth session. Having your own allows home reinforcement of the inner thigh and arm activation patterns learned in class.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "Pilates Studio Bag", description: "A dedicated bag for grip socks, mat, water, and a change of clothes keeps studio logistics simple — removing friction from the habit of getting to class consistently.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+studio+bag+tote&tag=pilatescollective-20" },
+];
+
 export default function BeginnerGuideReformerPage() {
   return (
     <>
@@ -186,6 +195,18 @@ export default function BeginnerGuideReformerPage() {
               </Section>
 
             </article>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
             {/* Continue reading */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>

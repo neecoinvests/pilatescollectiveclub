@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates During Pregnancy (2026): Trimester-by-Trimester Guide | Pilates Collective Club",
@@ -99,6 +100,14 @@ const jsonLd = {
     },
   ],
 };
+const PRODUCTS = [
+  { name: "Exercise Ball for Pregnancy Pilates", description: "A 65cm stability ball is the most versatile piece of prenatal Pilates equipment — used for seated pelvic circles, supported squats, and gentle core work throughout all trimesters.", price: "From $28", affiliateUrl: "https://www.amazon.com/s?k=exercise+ball+pregnancy+pilates+65cm&tag=pilatescollective-20" },
+  { name: "Manduka eKO Pilates Mat", description: "Natural rubber construction provides grip without chemical off-gassing — relevant during pregnancy. The 5mm thickness balances cushioning with stability for prenatal floor work.", price: "From $85", affiliateUrl: "https://www.amazon.com/s?k=manduka+eko+pilates+mat&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Light and medium resistance bands for arm, shoulder, and back strengthening during pregnancy. Maintains upper body strength when reformer access is limited.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Pregnancy Wedge Pillow", description: "A positioning wedge for side-lying Pilates exercises in the second and third trimesters — supports the abdomen and pelvis in the positions recommended for safe prenatal movement.", price: "From $30", affiliateUrl: "https://www.amazon.com/s?k=pregnancy+wedge+pillow+exercise+support&tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ring", description: "Gentle inner thigh and pelvic floor resistance work throughout pregnancy. The magic circle is one of the few pieces of equipment appropriate across all three trimesters.", price: "From $20", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ring+magic+circle&tag=pilatescollective-20" },
+];
+
 export default function PilatesAndPregnancyPage() {
   return (
     <>
@@ -188,6 +197,18 @@ export default function PilatesAndPregnancyPage() {
               </Section>
             </section>
           </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
           <BlogSidebar related={[
             { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },

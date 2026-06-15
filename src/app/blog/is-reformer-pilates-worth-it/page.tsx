@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Is Reformer Pilates Worth It? (2026) Honest Guide",
@@ -96,6 +97,14 @@ const jsonLd = {
     },
   ],
 };
+
+const PRODUCTS = [
+  { name: "Home Pilates Reformer", description: "If the studio cost is your main concern, a home reformer pays for itself in 12-18 months of equivalent studio sessions. Entry-level machines from AeroPilates and Merrithew are the starting point.", price: "From $299", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+home+studio&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "If you are deciding between reformer and mat practice, a high-quality mat is the lower-cost starting point. Many practitioners begin with mat, add studio reformer work, and build from there.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands provide spring-like resistance for mat practice — useful for assessing whether resistance-based Pilates work suits you before committing to studio fees or a home reformer.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "The most cost-effective way to add resistance to mat practice. Many intermediate practitioners use a mat, magic circle, and resistance bands for a complete home programme that complements studio reformer work.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "The entry cost of reformer Pilates. Required by virtually every studio — a small investment that enables full participation in any reformer class regardless of studio.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
+];
 
 export default function IsReformerPilatesWorthItPage() {
   return (
@@ -212,6 +221,19 @@ export default function IsReformerPilatesWorthItPage() {
               </div>
 
               <div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
+
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="Every budget from $299 to $3,500+ — the complete guide to home reformers." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />

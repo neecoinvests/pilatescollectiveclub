@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "How Long to See Results from Pilates? (2026) — Realistic Timelines | Pilates Collective Club",
@@ -114,6 +115,14 @@ const TIMELINE = [
     ],
     note: "Long-term Pilates practice is where the method's potential fully realises. Practitioners with 6+ months of consistent practice typically describe it as a permanent shift in how they inhabit their bodies, not just an exercise habit.",
   },
+];
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "The home mat that makes between-session practice possible — and between-session practice is what accelerates the timeline to visible Pilates results.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Progressive resistance loading at home compounds the studio work. The combination of twice-weekly studio sessions and two home band sessions per week is the fastest route to measurable results.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Daily foam rolling reduces recovery time between sessions and maintains the thoracic mobility that Pilates develops — keeping the results accumulating rather than resetting between classes.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "For the home sessions that bridge studio classes. The magic circle enables real Pilates work — not just stretching — in the time between studio sessions that determines the pace of progress.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "Fitness Journal", description: "Tracking sessions and weekly observations is the most accurate way to notice Pilates results as they happen — before they are visible in the mirror. The data motivates continued practice.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=fitness+journal+workout+log&tag=pilatescollective-20" },
 ];
 
 export default function HowLongToSeeResultsPage() {
@@ -228,6 +237,18 @@ export default function HowLongToSeeResultsPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Wall Pilates: Complete Guide (2026) — What It Is, Does It Work & Best Equipment | Pilates Collective Club",
@@ -94,6 +95,14 @@ const EQUIPMENT = [
     affiliateUrl: "https://www.amazon.co.uk/s?k=pilates+grip+socks+non+slip&tag=pilatescollective-20",
     tag: "Safety",
   },
+];
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "Wall Pilates exercises combine mat positioning with wall support — a quality mat is still the primary surface. The PRO provides the grip and density that wall-assisted exercises require.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands anchored to a door or attached to the wall add the spring resistance that makes wall Pilates closer to studio reformer work — the most meaningful equipment upgrade.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ball (9-inch)", description: "Used between the knees or feet during wall exercises for adductor activation and proprioceptive feedback. A small ball enhances the effectiveness of wall squat, bridge, and standing balance exercises.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
+  { name: "Cork Yoga Blocks (Set of 2)", description: "Used in wall Pilates for modified standing exercises and to prop the body when wall space is limited. Cork blocks provide stable, non-slip support for the range of positions wall Pilates uses.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=yoga+blocks+cork+set+of+2&tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "Non-slip grip socks are more important for wall Pilates than for studio reformer work — standing exercises against a wall on a mat benefit significantly from foot grip.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
 ];
 
 export default function WallPilatesGuidePage() {
@@ -246,6 +255,18 @@ export default function WallPilatesGuidePage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

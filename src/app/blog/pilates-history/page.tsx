@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "The History of Pilates: From Joseph Pilates to Today (2026) | Pilates Collective Club",
@@ -53,6 +54,14 @@ const jsonLd = {
     },
   ],
 };
+
+const PRODUCTS = [
+  { name: "Return to Life Through Contrology", description: "The 1945 original text — Joseph Pilates' complete mat programme with photographs. The historical foundation of every contemporary Pilates class. Essential reading for understanding where the method came from.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=joseph+pilates+return+to+life+through+contrology&tag=pilatescollective-20" },
+  { name: "Your Health by Joseph Pilates", description: "Pilates' first published book (1934), predating Return to Life. Contains his philosophical framework and the theoretical basis for Contrology — the original name for what we now call Pilates.", price: "From $20", affiliateUrl: "https://www.amazon.com/s?k=joseph+pilates+your+health+1934&tag=pilatescollective-20" },
+  { name: "Pilates Anatomy by Rael Isacowitz", description: "The definitive modern anatomy reference for Pilates practitioners. Written by BASI Systems founder Rael Isacowitz — bridges the historical method with contemporary anatomical understanding.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=pilates+anatomy+book+rael+isacowitz&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "The mat where the original 34 exercises are performed. Return to Life is a mat-only programme — a high-quality mat is the only equipment required to practise Pilates exactly as Joseph Pilates taught it.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Joseph Pilates invented the magic circle — reportedly from a beer keg ring — to teach lateral body integration. Owning one connects practitioners directly to the history and ingenuity of the original method.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+];
 
 export default function PilatesHistoryPage() {
   return (
@@ -149,6 +158,18 @@ export default function PilatesHistoryPage() {
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Both communities agree on the essential things: the primacy of breath, the integration of the whole body, the importance of precision and control, and the understanding that Pilates is a practice that deepens over years, not weeks. The debate between them — often heated, occasionally petty — is ultimately a sign of the method&apos;s vitality. A practice that no one cares enough about to argue over is not a practice worth having.
               </p>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
             </div>
 
             <div>

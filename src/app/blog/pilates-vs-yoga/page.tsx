@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates vs Yoga (2026): Key Differences & How to Choose | Pilates Collective Club",
@@ -99,6 +100,14 @@ const jsonLd = {
     },
   ],
 };
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "Works equally well for both Pilates and yoga — the 6mm density balances cushioning for yoga's floor postures with the firmness that Pilates precision requires. One mat that serves both practices.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands distinguish Pilates from yoga in home practice — adding the spring-resistance element that yoga lacks and that makes Pilates particularly effective for strength and body composition.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Cork Yoga Blocks (Set of 2)", description: "Used in both disciplines — yoga for alignment support, Pilates for elevated footwork and modified standing exercises. Cork provides better grip and durability than foam for sustained practice.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=yoga+blocks+cork+set+of+2&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Pilates-specific and has no yoga equivalent — the magic circle delivers the lateral resistance and activation training that makes Pilates distinctly effective for core and hip development.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "Useful for both Pilates studio sessions and yoga classes on slippery floors. The individual toe pockets that ToeSox uses improve balance and proprioception in both practices.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
+];
+
 export default function PilatesVsYogaPage() {
   return (
     <>
@@ -181,6 +190,18 @@ export default function PilatesVsYogaPage() {
               </div>
             </section>
           </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
           <BlogSidebar related={[
             { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },

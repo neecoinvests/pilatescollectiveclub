@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "How Much Does a Pilates Reformer Cost? (2026 Complete Price Guide) | Pilates Collective Club",
@@ -150,6 +151,14 @@ const jsonLd = {
     },
   ],
 };
+
+const PRODUCTS = [
+  { name: "AeroPilates Reformer (Budget Tier)", description: "The entry point — cord resistance rather than springs, but it provides real Pilates movement patterns at a fraction of the mid-range price. Appropriate for anyone testing whether home reformer practice suits them.", price: "From $299", affiliateUrl: "https://www.amazon.com/s?k=aeropilates+reformer+287&tag=pilatescollective-20" },
+  { name: "Merrithew At Home SPX Reformer", description: "The mid-range benchmark — real spring system, flat-fold storage, and studio-comparable exercise range. The point at which the home reformer becomes a serious practice tool rather than a fitness machine.", price: "From $2,395", affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+SPX+reformer&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "If a reformer is outside the current budget, a quality mat is the correct starting point. The mat system is complete in itself — and reveals whether the practice is right for you before the reformer investment.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands provide spring-like loading at minimal cost — the most useful budget alternative to reformer resistance work while saving towards a machine.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "At $35, the magic circle delivers more resistance training per dollar than any other Pilates equipment. A useful bridge between mat-only practice and a full reformer purchase.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+];
 
 export default function HowMuchDoesAPilatesReformerCostPage() {
   return (

@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates for Runners (2026): The Work That Actually Prevents Injury | Pilates Collective Club",
@@ -62,6 +63,14 @@ const jsonLd = {
   },
   ],
 };
+
+const PRODUCTS = [
+  { name: "TriggerPoint GRID Foam Roller", description: "The standard myofascial release tool for runners using Pilates. IT band, calf, quad, and hip flexor rolling before Pilates sessions improves the quality of the movement work and accelerates recovery.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+GRID+foam+roller&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Hip abductor and glute strengthening between sessions. The glute medius weakness that causes most running injuries is precisely what Pilates resistance band work targets.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "Runners need a stable, high-density mat for the hip and core work that makes Pilates most effective as a running complement. A non-slip surface matters during single-leg balance work.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Hip adductor and abductor resistance work to complement the unilateral strength that running develops. Efficient for the lateral hip work runners most commonly neglect.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ball (9-inch)", description: "Used for hip and glute activation during mat Pilates — between the knees during bridging, it activates the adductor-glute chain that stabilises the pelvis during running gait.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
+];
 
 export default function PilatesForRunnersPage() {
   return (
@@ -187,6 +196,18 @@ export default function PilatesForRunnersPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates for Neck & Shoulder Pain (2026): Exercises That Relieve and Strengthen | Pilates Collective Club",
@@ -60,6 +61,14 @@ const jsonLd = {
     },
   ],
 };
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "The firm, supportive surface matters for neck-pain practice — unstable mats cause compensatory tension. The PRO provides the stable base that allows neck and shoulder work to be done correctly.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Used lengthwise under the spine to open the thoracic region — the primary driver of neck and upper shoulder tension in most desk workers and Pilates practitioners.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ball (9-inch)", description: "Placed under the head during supine exercises for gentle cervical decompression — a useful adjunct to Pilates for acute neck tension.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For scapular stabilisation and rotator cuff strengthening — the shoulder girdle work that directly reduces the compensatory neck tension common in Pilates beginners.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Posture Corrector Back Brace", description: "Worn during desk work to reinforce the scapular retraction that Pilates builds — useful during the hours between sessions.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=posture+corrector+back+brace+adjustable&tag=pilatescollective-20" },
+];
 
 export default function PilatesForNeckPainPage() {
   return (
@@ -194,6 +203,18 @@ export default function PilatesForNeckPainPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

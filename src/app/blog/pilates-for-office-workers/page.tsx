@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates for Office Workers & Desk Jobs (2026): Fix Posture, Reduce Pain | Pilates Collective Club",
@@ -66,6 +67,14 @@ const PRODUCTS = [
   { name: "Resistance bands set", desc: "Scapular rows and hip strengthening at home", url: "https://www.amazon.co.uk/s?k=resistance+bands+set+fabric+pilates&tag=pilatescollective-20" },
   { name: "Non-slip Pilates mat", desc: "For the daily 10-minute desk worker routine", url: "https://www.amazon.co.uk/s?k=non+slip+pilates+mat+thick&tag=pilatescollective-20" },
   { name: "Cork yoga block", desc: "Head support during supine exercises and seated forward bends", url: "https://www.amazon.co.uk/s?k=cork+yoga+block+pilates+head+support&tag=pilatescollective-20" },
+];
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "For the home practice that desk workers need between studio sessions. A high-quality mat makes the 20-minute morning routine sustainable — the surface quality affects the practice quality.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "The single most effective tool for undoing the damage of 8 hours at a desk. 10 minutes of thoracic mobilisation on a full-length foam roller restores range of motion that sitting removes.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Desk-break resistance band exercises for the rhomboids, lower trapezius, and rotator cuff — the muscles most weakened by sustained forward-arm posture. 10 reps per side, twice a day, makes a measurable difference.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Posture Corrector Back Brace", description: "Worn for 1-2 hours during desk work to reinforce the scapular retraction that Pilates builds. Not a substitute for the practice — a reminder during the hours between sessions.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=posture+corrector+back+brace+adjustable&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Quick desk-side exercises for hip flexor and adductor activation — the muscles that switch off during prolonged sitting and contribute directly to lower back and hip pain in office workers.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
 ];
 
 export default function PilatesForOfficeWorkersPage() {
@@ -211,6 +220,18 @@ export default function PilatesForOfficeWorkersPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

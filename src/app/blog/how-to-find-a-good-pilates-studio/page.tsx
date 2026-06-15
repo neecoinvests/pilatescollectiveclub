@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "How to Find a Great Pilates Studio (2026): Green Flags & Red Flags | Pilates Collective Club",
@@ -62,6 +63,14 @@ const jsonLd = {
   },
   ],
 };
+
+const PRODUCTS = [
+  { name: "ToeSox Grip Socks", description: "The first thing to buy before your first studio session. Most studios require grip socks for hygiene and safety on the reformer — arriving prepared signals you're serious.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "Bringing your own mat to studio sessions is always an option and avoids studio rental fees. A personal mat also means consistent surface quality regardless of which studio you attend.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Pilates Studio Bag", description: "A dedicated studio bag keeps grip socks, mat, water, and a change of clothes organised. Reducing friction is how consistent studio attendance becomes a lasting habit.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+studio+bag+tote&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For the home sessions between studio visits. Consistency matters more than frequency — resistance bands allow meaningful practice on the days when studio attendance isn't possible.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "The piece of equipment most instructors recommend buying first. Having a magic circle at home allows reinforcement of class exercises without needing the full studio setup.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+];
 
 export default function HowToFindStudioPage() {
   return (
@@ -192,6 +201,18 @@ export default function HowToFindStudioPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

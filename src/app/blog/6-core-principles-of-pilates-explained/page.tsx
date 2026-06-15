@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "The 6 Core Principles of Pilates Explained | Pilates Collective Club",
@@ -152,6 +153,14 @@ const jsonLd = {
     },
   ],
 };
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "The six principles are most fully expressed on a stable, consistent surface. The PRO's density and grip allow the concentration and precision that the method demands without distraction.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Designed specifically to teach the activation connections that embody the Pilates principles — centring, control, and integration of the whole body in every exercise.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Spinal articulation — one of the most central expressions of the Pilates principles — is developed through consistent thoracic mobilisation. The foam roller supports this foundational work.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Home practice resistance work that applies the six principles outside the studio. Using bands with full concentration and control develops the somatic intelligence that Pilates is designed to build.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Return to Life Through Contrology", description: "The original text by Joseph Pilates — the primary source for understanding what the principles meant in their original context. Essential reading for any serious practitioner.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=joseph+pilates+return+to+life+through+contrology&tag=pilatescollective-20" },
+];
+
 export default function SixPrinciplesPage() {
   return (
     <>
@@ -206,6 +215,18 @@ export default function SixPrinciplesPage() {
                 </p>
               </div>
             </article>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
             {/* Continue reading */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>

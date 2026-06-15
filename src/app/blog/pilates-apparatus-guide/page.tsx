@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates Apparatus Guide (2026): Every Piece of Equipment Explained | Pilates Collective Club",
@@ -213,6 +214,14 @@ const apparatusData = [
     ),
     who: "All levels — an excellent and affordable home accessory",
   },
+];
+
+const PRODUCTS = [
+  { name: "Balanced Body Magic Circle", description: "The most accessible piece of Pilates apparatus for home practice. Used in mat, standing, and reformer work, it teaches the lateral body connections central to the full apparatus system.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "Where most practitioners begin — the mat is the foundation of the Pilates system. Joseph Pilates developed the mat repertoire as the complete method; the apparatus was designed to teach what the mat demands.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Pilates Arc Barrel", description: "The most accessible full apparatus piece for home studios. Supports spinal extension and hip flexor lengthening — exercises impossible to replicate on the mat alone.", price: "From $120", affiliateUrl: "https://www.amazon.com/s?k=pilates+arc+barrel+balanced+body&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands approximate the spring resistance of the reformer for home practice. Not a substitute for the machine, but useful for maintaining resistance-based work between studio sessions.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ball (9-inch)", description: "Adds proprioceptive challenge to mat work and approximates some instability training achieved on the Cadillac and chair. A versatile addition to a home mat practice.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
 ];
 
 export default function PilatesApparatusGuidePage() {

@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates for Athletes (2026): Cross-Training That Actually Works | Pilates Collective Club",
@@ -99,6 +100,14 @@ const jsonLd = {
     },
   ],
 };
+const PRODUCTS = [
+  { name: "TriggerPoint GRID Foam Roller", description: "The standard recovery and myofascial release tool for athletes using Pilates as a complement to their primary sport. Used pre-session for tissue preparation and post-session for recovery.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+GRID+foam+roller&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Sport-specific strength work between Pilates sessions. Resistance bands allow targeted hip, shoulder, and rotator cuff work that translates directly to athletic performance.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "A high-density mat built for athletes who practice with intensity. The PRO handles repeated high-load exercises and provides consistent surface quality across years of use.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "The magic circle adds loading to hip adductor and glute work — muscle groups that directly support athletic power and reduce injury risk in lateral movement sports.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "Pilates Arc Barrel", description: "The arc barrel supports spinal extension and hip flexor lengthening — the mobility work most athletes need but most training programmes neglect.", price: "From $120", affiliateUrl: "https://www.amazon.com/s?k=pilates+arc+barrel+balanced+body&tag=pilatescollective-20" },
+];
+
 export default function PilatesForAthletesPage() {
   return (
     <>
@@ -188,6 +197,18 @@ export default function PilatesForAthletesPage() {
               </Section>
             </section>
           </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
           <BlogSidebar related={[
             { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },

@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Club Pilates Review (2026): Is the Franchise Worth It? | Pilates Collective Club",
@@ -100,6 +101,14 @@ const criteria = [
     ratingColor: "#8b4a31",
     detail: "This is Club Pilates' most significant limitation. In a franchise model with revolving instructors and classes of 12, there is limited tracking of individual progress, rare one-on-one attention to specific postural patterns, and minimal custom progression planning. Members who plateau often need to supplement with private sessions at independent studios.",
   },
+];
+
+const PRODUCTS = [
+  { name: "ToeSox Grip Socks", description: "Required for all Club Pilates classes. Grip socks are mandatory for reformer and equipment sessions — ToeSox are the most widely used brand across studios globally.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "For home practice between Club Pilates sessions. A mat at home makes the consistency between studio classes achievable — and consistency is what produces results.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Pilates Studio Bag", description: "A dedicated bag for your Club Pilates kit — grip socks, mat, water, and a change of clothes. Simple organisational tools are underrated for making studio attendance a sustainable habit.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+studio+bag+tote&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Club Pilates uses resistance-based reformer work extensively. A set of resistance bands at home allows you to replicate many of the class exercises on rest days.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Used in many Club Pilates class formats. Having your own magic circle allows home reinforcement of the adductor and arm activation work that appears regularly in group classes.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
 ];
 
 export default function ClubPilatesReviewPage() {
@@ -222,6 +231,18 @@ export default function ClubPilatesReviewPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

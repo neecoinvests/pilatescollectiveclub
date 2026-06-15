@@ -105,6 +105,14 @@ const jsonLd = {
   ],
 };
 
+const PRODUCTS = [
+  { name: "Your Reformer Pilates Machine", description: "The premium connected wood reformer — integrated app, real-time feedback, and studio-quality spring system. Available in multiple configurations for home studio setups.", price: "From $1,200", affiliateUrl: "https://www.amazon.com/s?k=your+reformer+pilates+machine&tag=pilatescollective-20" },
+  { name: "Pilates Reformer Accessories Kit", description: "Box, long box, and straps accessories that extend the Your Reformer exercise repertoire. The accessory system is what separates a reformer from a full studio setup.", price: "From $45", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+accessories+box+straps&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For between-session home work and warm-up routines before Your Reformer sessions. Resistance bands are the most practical bridge between full reformer sessions.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Thoracic mobilisation before Your Reformer sessions improves the quality of the exercises, particularly the extension work and overhead arm series.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "Non-negotiable for all reformer work — grip socks prevent sliding on the footbar and carriage during footwork, jumping, and standing series.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
+];
+
 export default function YourReformerPilatesPage() {
   return (
     <>
@@ -204,6 +212,18 @@ export default function YourReformerPilatesPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

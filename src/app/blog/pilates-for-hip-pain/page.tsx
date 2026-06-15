@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Pilates for Hip Pain (2026): Exercises That Actually Help | Pilates Collective Club",
@@ -60,6 +61,14 @@ const jsonLd = {
     },
   ],
 };
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "Adequate density for hip and glute work in side-lying and supine positions. A firm, stable surface matters more than cushioning when hip mobility is the goal.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "TriggerPoint GRID Foam Roller", description: "For hip flexor, glute, and IT band release before Pilates sessions. Rolling the glute medius and piriformis before practice significantly improves the quality of hip-focused exercises.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+GRID+foam+roller&tag=pilatescollective-20" },
+  { name: "TheraBand Mini Loop Resistance Bands", description: "Mini loops for hip abductor strengthening — clamshells, side-lying leg lifts, and standing hip work. Light resistance builds the glute medius strength that reduces hip pain long-term.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=theraband+mini+loop+resistance+bands&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Inner thigh and adductor resistance to complement the abductor work — both sides of the hip need loading for balanced function.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Full-length roller for spinal mobilisation and thoracic work that complements hip-focused Pilates. Thoracic stiffness often contributes to hip restriction.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+];
 
 export default function PilatesForHipPainPage() {
   return (
@@ -205,6 +214,18 @@ export default function PilatesForHipPainPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

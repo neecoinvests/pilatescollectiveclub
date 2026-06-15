@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Balanced Body vs Merrithew (2026): Which Reformer Is Right for You? | Pilates Collective Club",
@@ -100,6 +101,14 @@ const comparisons = [
     m: "The Merrithew At Home SPX Reformer folds vertically and is one of the best-designed space-saving professional reformers available. For practitioners in apartments or shared spaces who need the machine to fold when not in use, Merrithew has a significant practical advantage.",
     verdict: "Merrithew for space-constrained home studios",
   },
+];
+
+const PRODUCTS = [
+  { name: "Balanced Body Allegro 2 Reformer", description: "The flagship Balanced Body home reformer — wider carriage, fold-flat storage, and the smoothest spring system at this price point. The benchmark that most alternatives are compared against.", price: "From $3,495", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" },
+  { name: "Merrithew At Home SPX Reformer", description: "Merrithew's home-market reformer — flat-folding, 5-spring system, and purpose-built for practitioners without dedicated studio space. The main Allegro 2 alternative.", price: "From $2,395", affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+SPX+reformer&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Consistent with the Balanced Body system and compatible with all their reformers. A useful home accessory regardless of which brand's reformer you ultimately choose.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For home practice while deciding between reformer brands. Resistance bands allow meaningful Pilates work without a reformer — useful during the research and decision period.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "The foundation of any home Pilates setup regardless of brand. A quality mat is the first purchase — the reformer follows once you know the practice suits you.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
 ];
 
 export default function BalancedBodyVsMerrithewPage() {
@@ -209,6 +218,18 @@ export default function BalancedBodyVsMerrithewPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import ProductCard from "@/components/ProductCard";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
@@ -130,6 +131,14 @@ const jsonLd = {
     },
   ],
 };
+
+const PRODUCTS = [
+  { name: "Manduka PRO Pilates Mat", description: "If you are considering Pilates alongside or instead of Lagree, a high-quality mat is where mat Pilates begins. The PRO provides the stable surface that classical and contemporary Pilates mat work requires.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands allow Pilates-specific spring resistance work at home — the element most similar to what the Megaformer offers in Lagree sessions, without the machine.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Pilates-specific and has no Lagree equivalent. The magic circle teaches the lateral integration and centring that distinguishes Pilates most clearly from the Lagree method.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "Required for both Pilates and Lagree reformer work. The grip prevents sliding on footbars and carriages — a non-negotiable safety item for either method.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "The thoracic mobility work that complements both Pilates and Lagree. The Megaformer does not develop thoracic extension; the foam roller fills that gap in either practice.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
+];
 
 export default function LagreevsPilatesPage() {
   return (
@@ -460,6 +469,19 @@ export default function LagreevsPilatesPage() {
                 ))}
               </div>
             </Section>
+
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
             {/* Further reading */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>

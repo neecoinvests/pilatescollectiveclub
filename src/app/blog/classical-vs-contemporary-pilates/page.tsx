@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Classical vs Contemporary Pilates (2026): What's the Difference? | Pilates Collective Club",
@@ -119,6 +120,14 @@ const jsonLd = {
     },
   ],
 };
+const PRODUCTS = [
+  { name: "Return to Life Through Contrology", description: "The classical canon — 34 exercises in sequence as Joseph Pilates designed them. Reading it alongside modern instruction reveals exactly what has changed and what has stayed the same.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=joseph+pilates+return+to+life+through+contrology&tag=pilatescollective-20" },
+  { name: "Pilates Anatomy by Rael Isacowitz", description: "Contemporary perspective on Pilates biomechanics from the BASI Systems founder. Represents the thoughtful, evidence-informed approach of the contemporary school — grounded in the original method.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=pilates+anatomy+book+rael+isacowitz&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "Both schools begin here. Classical and contemporary practitioners agree on one thing: a quality mat is non-negotiable. The PRO handles both rolling exercises and stability work equally well.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Used in both traditions — classical as Joseph Pilates designed it, contemporary with modifications. One of the few apparatus pieces that crosses the classical-contemporary divide without controversy.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "More associated with contemporary STOTT-influenced approaches than classical practice. Bands allow the progressive, rehabilitation-informed resistance work that distinguishes contemporary from classical protocols.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+];
+
 export default function ClassicalVsContemporaryPage() {
   return (
     <>
@@ -203,6 +212,18 @@ export default function ClassicalVsContemporaryPage() {
               </Section>
 
             </article>
+
+
+            {/* Equipment */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <div className="space-y-8">
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
 
             {/* Continue reading */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
