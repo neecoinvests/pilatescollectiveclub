@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
-const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl?: string; featured?: boolean }[] = [
+const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
     title: "Best Premium Pilates Reformers (2026): $2,000–$5,000+ Reviewed",
     excerpt: "Balanced Body Allegro 2, Merrithew V2 Max, Gratz, Elina Elite Wood, Peak MVe — verified prices and honest assessments for serious home practitioners.",
