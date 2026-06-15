@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "What to Wear to Pilates (2026): The Complete Outfit Guide | Pilates Collective Club",
-  description: "What to wear to Pilates: leggings, grip socks, sports bras, and tops that work for reformer and mat. Best brands and what to avoid. 2026 guide.",
+  title: "What to Wear to Pilates (2026): Complete Studio Outfit Guide | Pilates Collective Club",
+  description: "What to wear to Pilates class — the best leggings, tops, bras, and socks for reformer and mat studios, with outfit tips for beginners and regulars.",
   openGraph: {
     title: "What to Wear to Pilates (2026): The Complete Outfit Guide",
     description: "Exactly what to wear to Pilates — for reformer, mat, and barre classes. The best leggings, tops, and layers reviewed, with what to avoid and why fit matters more than brand.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "Exactly what to wear to Pilates — the best leggings, tops, and layers reviewed.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
-  keywords: ["what to wear to pilates", "pilates outfit guide", "what to wear reformer pilates", "pilates clothing", "pilates dress code", "pilates gym clothes", "grip socks pilates", "what not to wear pilates", "pilates first class outfit", "pilates outfit ideas 2026"],
+  keywords: ["what to wear to pilates", "pilates outfit guide 2026", "what to wear reformer pilates", "pilates class outfit women", "best pilates outfit", "pilates outfit beginner", "pilates studio dress code", "pilates clothes guide", "what do you wear to pilates class"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
   },

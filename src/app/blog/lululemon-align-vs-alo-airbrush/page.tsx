@@ -6,20 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Lululemon Align vs Alo Airbrush Leggings (2026): The Honest Verdict | Pilates Collective Club",
-  description: "Lululemon Align vs. Alo Airbrush leggings compared: fabric, compression, waistband, and durability tested in reformer Pilates and yoga. Full review.",
-  keywords: [
-    "lululemon align vs alo airbrush",
-    "lululemon align review",
-    "alo airbrush legging review",
-    "best pilates leggings 2026",
-    "lululemon vs alo pilates",
-    "align vs airbrush",
-    "lululemon align pilates",
-    "alo airbrush reformer",
-    "best leggings for reformer pilates",
-    "lululemon align nulu fabric",
-  ],
+  title: "Lululemon Align vs Alo Airbrush (2026): Which is Better for Pilates? | Pilates Collective Club",
+  description: "Lululemon Align vs Alo Airbrush legging compared for Pilates — fabric feel, compression, opacity on the reformer, waistband stability, and price value.",
+  keywords: ["lululemon align vs alo airbrush", "align vs airbrush pilates 2026", "best legging for pilates lululemon vs alo", "alo airbrush vs lululemon align comparison", "which is better lululemon or alo pilates", "pilates legging showdown lululemon alo"],
   openGraph: {
     title: "Lululemon Align vs Alo Airbrush (2026): Tested for Pilates",
     description: "Lululemon Align vs Alo Airbrush — tested head-to-head across 8 criteria for reformer and mat Pilates. Fabric, compression, opacity, and our honest pick.",

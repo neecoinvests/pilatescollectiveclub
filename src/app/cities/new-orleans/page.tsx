@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in New Orleans, LA (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in New Orleans, LA. From Garden District premier reformer boutiques to Mid-City accessible studios — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in New Orleans, LA (2026) — Curated Guide",
+  description: "The best Pilates studios in New Orleans — reformer boutiques in the Garden District, Uptown, and Mid-City. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios New Orleans LA",
-    "best pilates New Orleans",
-    "reformer pilates New Orleans",
-    "Garden District pilates",
-    "Uptown pilates studio",
-    "Marigny pilates",
-    "New Orleans pilates classes 2026",
-    "New Orleans LA fitness studios",
-  ],
+  keywords: ["pilates new orleans", "reformer pilates new orleans", "best pilates studios new orleans", "pilates studio nola", "pilates classes new orleans", "garden district pilates", "uptown pilates new orleans", "pilates louisiana", "best reformer pilates new orleans"],
   openGraph: {
-    title: "Best Pilates Studios in New Orleans, LA (2026) — Curated & Verified",
+    title: "Best Pilates Studios in New Orleans, LA (2026)",
     description:
-      "Discover the 6 best Pilates studios in New Orleans, LA. From Garden District premier reformer boutiques to Mid-City accessible studios — expert picks, honest reviews, and booking tips.",
+      "Six curated Pilates studios in New Orleans — Garden District and Uptown reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/new-orleans",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in New Orleans, LA (2026)",
+    title: "Best Pilates Studios in New Orleans (2026)",
     description:
       "The 6 best Pilates studios in New Orleans — curated, verified, and reviewed for 2026.",
     images: [
@@ -333,7 +323,7 @@ export default function NewOrleansPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80"
+              src="/pictures/neworleans.jpg"
               alt="Pilates studio in New Orleans, LA"
               fill
               unoptimized

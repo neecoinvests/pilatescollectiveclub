@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in New York City",
-  description: "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Top-rated picks for every level and neighborhood.",
+  title: "Best Pilates Studios in New York City (2026) — Curated Guide",
+  description: "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Five curated picks across Manhattan, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios new york", "reformer pilates nyc", "best pilates new york", "pilates classes nyc", "pilates manhattan"],
+  keywords: ["pilates new york", "pilates nyc", "reformer pilates new york", "best pilates studios nyc", "pilates studio manhattan", "pilates classes new york", "soho pilates", "tribeca pilates", "upper east side pilates", "best reformer pilates nyc"],
   openGraph: {
-    title: "The Best Pilates Studios in New York City",
-    description: "Our curated guide to NYC's finest Pilates studios — five verified picks from Chelsea to the West Village.",
+    title: "Best Pilates Studios in New York City (2026)",
+    description: "Five curated Pilates studios in New York — SoHo, Tribeca, and uptown reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/new-york",
     images: [{ url: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80", width: 1200, height: 630, alt: "New York city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in New York City",
+    title: "Best Pilates Studios in NYC (2026)",
     description: "Our curated guide to NYC's finest Pilates studios — five verified picks.",
     images: ["https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80"],
   },
@@ -118,6 +119,46 @@ const NEIGHBORHOODS = [
   { name: "SoHo & West Village", description: "Downtown's most design-conscious neighbourhoods attract the city's premium fitness offerings. Expect beautiful interiors, social atmospheres, and correspondingly higher price points." },
   { name: "Brooklyn (Williamsburg & Park Slope)", description: "Brooklyn's growing Pilates scene has produced several excellent independent studios with strong community cultures and more accessible pricing than Manhattan. Worth the subway ride if you're based in the borough." },
 ];
+
+const GEAR = [
+  {
+    name: "Pilates Grip Socks",
+    note: "Required at most reformer studios. Full-toe grip socks are the standard.",
+    price: "From $16",
+    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+  },
+  {
+    name: "Pilates Mat",
+    note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
+    price: "From $52",
+    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+  },
+  {
+    name: "Magic Circle",
+    note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    price: "From $24",
+    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+  },
+  {
+    name: "Resistance Bands",
+    note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
+    price: "From $22",
+    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Foam Roller",
+    note: "Essential for fascial release and spinal mobility work before and after class.",
+    price: "From $32",
+    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Home Pilates Reformer",
+    note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    price: "From $450",
+    url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
+  },
+];
+
 
 const RELATED_CITIES = [
   { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 5 },
@@ -239,6 +280,34 @@ export default function NewYorkPage() {
             </div>
           </div>
         </section>
+        {/* Studio Gear */}
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              Grip socks are required at most reformer studios in New York. These are our recommended picks — all available on Amazon.{" "}
+              <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {GEAR.map((g) => (
+                <a key={g.name} href={g.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div className="rounded-xl p-5 h-full flex flex-col justify-between" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", transition: "border-color 0.2s" }}>
+                    <div>
+                      <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{g.name}</h3>
+                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{g.note}</p>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.price}</span>
+                      <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
+
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Related city guides</h2>

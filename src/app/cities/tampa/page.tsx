@@ -9,30 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Tampa, FL (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Tampa, FL. From Hyde Park upscale reformer boutiques to Ybor City's arts-district energy — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Tampa, FL (2026) — Curated Guide",
+  description: "The best Pilates studios in Tampa — reformer boutiques in South Tampa, Hyde Park, and Westchase. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Tampa FL",
-    "best pilates Tampa",
-    "reformer pilates Tampa",
-    "Hyde Park pilates",
-    "South Tampa pilates",
-    "Seminole Heights pilates studio",
-    "Tampa pilates classes 2026",
-    "Tampa FL fitness studios",
-  ],
+  keywords: ["pilates tampa", "reformer pilates tampa", "best pilates studios tampa fl", "pilates studio tampa", "pilates classes tampa", "south tampa pilates", "hyde park pilates tampa", "pilates florida", "best reformer pilates tampa", "pilates westchase fl"],
   openGraph: {
-    title: "Best Pilates Studios in Tampa, FL (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Tampa, FL (2026)",
     description:
-      "Discover the 6 best Pilates studios in Tampa, FL. From Hyde Park upscale reformer boutiques to Ybor City's arts-district energy — expert picks, honest reviews, and booking tips.",
-    type: "article",
+      "Six curated Pilates studios in Tampa — South Tampa and Hyde Park reformer boutiques. Verified 2026.",
     url: "https://pilatescollectiveclub.com/cities/tampa",
     images: [
       {
@@ -45,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Tampa, FL (2026)",
+    title: "Best Pilates Studios in Tampa (2026)",
     description:
       "The 6 best Pilates studios in Tampa — curated, verified, and reviewed for 2026.",
     images: [
@@ -333,7 +322,7 @@ export default function TampaPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto relative rounded-2xl overflow-hidden" style={{ height: "420px" }}>
             <Image
-              src="https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80"
+              src="/pictures/tampa.jpg"
               alt="Pilates studio in Tampa, FL"
               fill
               unoptimized

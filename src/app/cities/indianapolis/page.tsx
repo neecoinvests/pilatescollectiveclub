@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Indianapolis, IN (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Indianapolis, IN. From Mass Ave and Broad Ripple to Carmel and the north side — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Indianapolis, IN (2026) — Curated Guide",
+  description: "The best Pilates studios in Indianapolis — reformer boutiques and classical method practices in Broad Ripple, Carmel, and Downtown Indy. Verified 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Indianapolis IN",
-    "best pilates Indianapolis",
-    "reformer pilates Indianapolis",
-    "Mass Ave pilates",
-    "Broad Ripple pilates studio",
-    "Carmel Indiana pilates",
-    "Indianapolis pilates classes 2026",
-    "Club Pilates Indianapolis",
-  ],
+  keywords: ["pilates indianapolis", "reformer pilates indianapolis", "best pilates studios indianapolis", "pilates studio indy", "pilates classes indianapolis", "broad ripple pilates", "pilates carmel in", "pilates indiana", "best reformer pilates indianapolis"],
   openGraph: {
-    title: "Best Pilates Studios in Indianapolis, IN (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Indianapolis, IN (2026)",
     description:
-      "Discover the 6 best Pilates studios in Indianapolis, IN. From Mass Ave to Carmel — expert picks and booking tips for 2026.",
+      "Curated Pilates studios in Indianapolis — Broad Ripple and Carmel reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/indianapolis",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Indianapolis, IN (2026)",
+    title: "Best Pilates Studios in Indianapolis (2026)",
     description:
       "The 6 best Pilates studios in Indianapolis — curated, verified, and reviewed for 2026.",
     images: [

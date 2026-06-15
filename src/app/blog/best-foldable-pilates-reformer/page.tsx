@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Foldable Pilates Reformer (2026): Space-Saving Machines Reviewed | Pilates Collective Club",
-  description: "The best foldable Pilates reformers — AeroPilates, Balanced Body Allegro 2, and Merrithew At Home SPX compared. How to get a full practice in a small space.",
-  keywords: ["best foldable pilates reformer", "folding pilates reformer", "pilates reformer small space", "balanced body allegro 2 foldable", "aeropilates foldable reformer", "merrithew at home spx", "pilates reformer apartment", "storable pilates reformer", "foldable reformer 2026", "best home pilates reformer storage"],
+  title: "Best Foldable Pilates Reformer (2026): Top Picks for Small Spaces | Pilates Collective Club",
+  description: "The best foldable Pilates reformers of 2026 — AeroPilates, Align Pilates, and Stamina folding models reviewed for stability, storage size, and spring quality.",
+  keywords: ["best foldable pilates reformer", "foldable pilates reformer 2026", "folding pilates reformer review", "pilates reformer small space", "compact folding reformer", "best portable pilates reformer", "aeropilates folding reformer", "align pilates foldable"],
   openGraph: {
     title: "Best Foldable Pilates Reformer (2026): Space-Saving Machines",
     description: "Full-function Pilates reformers that fold and store — compared across budget, mid-range, and premium tiers.",

@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Under $500 (2026): Honest Budget Guide | Pilates Collective Club",
-  description: "The best Pilates reformers under $500 — AeroPilates, Stamina, and what you actually get at this price point. Honest about the trade-offs.",
-  keywords: ["best pilates reformer under 500", "budget pilates reformer", "cheap pilates reformer", "aeropilates under 500", "stamina pilates reformer", "pilates reformer for small budget", "best affordable pilates reformer", "pilates reformer under 500 dollars", "cord pilates reformer", "pilates reformer 2026"],
+  title: "Best Pilates Reformer Under $500 (2026): Budget Picks Reviewed | Pilates Collective Club",
+  description: "The best Pilates reformers under $500 — budget entry machines reviewed for spring quality, stability, and whether they are worth the investment.",
+  keywords: ["best pilates reformer under 500", "cheap pilates reformer 2026", "budget reformer pilates buy", "pilates reformer under 500 dollars", "affordable home reformer pilates", "best budget pilates reformer", "entry level pilates reformer review"],
   openGraph: {
     title: "Best Pilates Reformer Under $500 (2026)",
     description: "An honest guide to budget Pilates reformers — what you get, what you sacrifice, and which machine is worth buying.",

@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "10 Essential Pilates Exercises for Beginners (2026)",
-  description: "The 10 foundational Pilates exercises every beginner should master first — correct technique, common mistakes, and how long to practice each.",
+  title: "Pilates Exercises for Beginners (2026): 15 Moves to Start | Pilates Collective Club",
+  description: "15 foundational Pilates exercises for beginners — reformer and mat moves explained with modifications, spring settings, and progression tips for new practitioners.",
   openGraph: {
     title: "10 Pilates Exercises for Beginners: The Essential Foundation",
     description: "The Hundred, Roll Up, Single Leg Stretch — the 10 exercises every beginner should master before anything else.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The 10 foundational Pilates exercises every beginner should master first.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
-  keywords: ["pilates exercises for beginners", "beginner pilates exercises", "pilates for beginners", "basic pilates exercises", "pilates beginner routine", "easy pilates exercises", "pilates moves for beginners", "pilates beginner workout", "pilates exercises at home", "start pilates beginner"],
+  keywords: ["pilates exercises for beginners", "beginner pilates moves 2026", "easy pilates exercises", "pilates starter exercises", "pilates reformer exercises beginners", "simple pilates mat moves", "foundational pilates exercises", "pilates workout beginners"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-exercises-for-beginners",
   },
@@ -208,11 +208,11 @@ export default function PilatesExercisesForBeginnersPage() {
 
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 For home practice, all you need is a quality mat — the{" "}
-                <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Manduka PRO</a>{" "}
+                Manduka PRO{" "}
                 or{" "}
-                <a href="https://www.amazon.com/s?k=liforme+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Liforme</a>{" "}
+                Liforme{" "}
                 are the two most recommended options for beginners. A 6mm thickness provides adequate spinal cushioning for the roll-down exercises. See our{" "}
-                <a href="/blog/best-pilates-mat" style={{ color: "#8b4a31", fontWeight: 600 }}>full mat guide here</a>.
+                full mat guide here.
               </p>
 
               <div className="space-y-12 mb-16">
@@ -248,9 +248,9 @@ export default function PilatesExercisesForBeginnersPage() {
                   These 10 exercises require only a mat. But as you build consistency, a few accessories enhance the experience significantly:
                 </p>
                 <ul className="space-y-2 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  <li>A{" "}<a href="https://www.amazon.com/s?k=pilates+magic+circle+ring&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Pilates magic circle</a>{" "}adds resistance to the inner thigh, arm, and abdominal work.</li>
-                  <li><a href="https://www.amazon.com/s?k=pilates+resistance+bands+long&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Long resistance bands</a>{" "}extend the arm and leg work and substitute for a reformer in some rowing exercises.</li>
-                  <li>A{" "}<a href="https://www.amazon.com/s?k=pilates+small+ball+mini&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Pilates small ball</a>{" "}adds proprioceptive challenge and supports the lower back in some exercises.</li>
+                  <li>A{" "}Pilates magic circle{" "}adds resistance to the inner thigh, arm, and abdominal work.</li>
+                  <li>Long resistance bands{" "}extend the arm and leg work and substitute for a reformer in some rowing exercises.</li>
+                  <li>A{" "}Pilates small ball{" "}adds proprioceptive challenge and supports the lower back in some exercises.</li>
                 </ul>
               </div>
 

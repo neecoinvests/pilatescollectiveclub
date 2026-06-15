@@ -6,20 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Clothes for Men (2026): Shorts, Tights & Tops | Pilates Collective Club",
-  description: "The best Pilates clothes for men in 2026 — tested shorts, compression tights, and tops from Lululemon, Vuori, Rhone, Gymshark, CRZ, and Nike. What actually works in the studio.",
-  keywords: [
-    "best pilates clothes for men",
-    "mens pilates clothing",
-    "pilates shorts for men",
-    "mens pilates leggings",
-    "pilates outfit men",
-    "best mens workout clothes pilates",
-    "lululemon mens pilates",
-    "vuori pilates shorts men",
-    "mens compression tights pilates",
-    "what to wear to pilates men",
-  ],
+  title: "Best Pilates Clothes for Men (2026): What to Wear | Pilates Collective Club",
+  description: "The best Pilates clothes for men — fitted shorts, tanks, and joggers reviewed for reformer grip, stretch range, and non-bunching coverage during class.",
+  keywords: ["best pilates clothes for men", "men pilates outfit 2026", "what to wear pilates men", "men reformer pilates outfit", "best mens activewear pilates", "men pilates shorts", "men pilates leggings", "lululemon pilates men", "vuori pilates men"],
   openGraph: {
     title: "Best Pilates Clothes for Men (2026): Tested Shorts, Tights & Tops",
     description: "What men should actually wear to Pilates — six tested pieces across every budget.",

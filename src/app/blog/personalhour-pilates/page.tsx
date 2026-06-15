@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "PersonalHour Pilates (2026): Janet Elite & Zous Pro Reviewed",
-  description: "PersonalHour Pilates reviewed — the Janet Elite Plus and Zous Pro oak wood reformers tested for advanced home practice. Heavy-duty, foldable, and beautiful.",
-  keywords: ["personalhour pilates", "personalhour reformer review", "personalhour janet elite", "personalhour zous pro", "oak wood pilates reformer", "personalhour pilates 2026", "hybrid foldable pilates reformer", "personalhour review", "best oak pilates reformer"],
+  title: "Personal Hour Pilates Reformer Review (2026) | Pilates Collective Club",
+  description: "Personal Hour Pilates reformer reviewed — build quality, spring system, carriage glide, and honest value assessment for home practitioners on a budget.",
+  keywords: ["personal hour pilates review", "personalhour reformer review 2026", "personal hour pilates reformer", "is personal hour pilates good", "personal hour vs aeropilates", "personal hour pilates buy"],
   openGraph: {
     title: "PersonalHour Pilates (2026): Janet Elite & Zous Pro Reviewed",
     description: "PersonalHour Pilates reviewed — solid oak reformers for advanced home practitioners.",

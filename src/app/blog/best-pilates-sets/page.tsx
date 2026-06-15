@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Sets (2026): Matching Two-Piece Outfits Ranked",
-  description: "The best matching Pilates sets tested for reformer performance — Alo Yoga, Lululemon, Vuori, Sweaty Betty, and more ranked for fabric, fit, and studio style.",
-  keywords: ["best pilates sets", "matching pilates outfit", "pilates two piece set", "alo yoga pilates set", "lululemon pilates set", "pilates matching set 2026", "reformer pilates outfit", "best workout sets for pilates"],
+  title: "Best Pilates Sets & Matching Outfits (2026) | Pilates Collective Club",
+  description: "The best matching Pilates sets of 2026 — legging and bra sets from Lululemon, Alo, and Varley reviewed for reformer class performance and colour range.",
+  keywords: ["best pilates sets", "pilates matching sets 2026", "pilates outfit set", "lululemon pilates set", "alo yoga pilates set", "matching pilates leggings bra", "pilates activewear sets", "best workout set pilates"],
   openGraph: {
     title: "Best Pilates Sets (2026): Matching Two-Piece Outfits Ranked",
     description: "The best matching sets for Pilates — tested for reformer performance and studio style.",

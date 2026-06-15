@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Bodysuits (2026): Tested & Ranked",
-  description: "The best Pilates bodysuits tested for reformer performance — Alo Yoga, Lululemon, Girlfriend Collective, and more ranked for comfort, coverage, and studio style.",
-  keywords: ["best pilates bodysuits", "pilates bodysuit", "pilates leotard", "alo yoga bodysuit pilates", "lululemon bodysuit pilates", "reformer pilates bodysuit", "pilates one piece", "best bodysuit for pilates class", "pilates bodysuit 2026"],
+  title: "Best Pilates Bodysuits (2026): Studio-Tested Picks | Pilates Collective Club",
+  description: "The best bodysuits for Pilates — tested for snap security on the reformer, stretch quality, and coverage during inversions and leg circles.",
+  keywords: ["best pilates bodysuits", "pilates bodysuit 2026", "best bodysuit for reformer pilates", "alo yoga bodysuit pilates", "lululemon bodysuit pilates", "pilates activewear bodysuit review", "best workout bodysuit pilates"],
   openGraph: {
     title: "Best Pilates Bodysuits (2026): Tested & Ranked",
     description: "The best bodysuits for Pilates — tested for reformer performance and studio style.",

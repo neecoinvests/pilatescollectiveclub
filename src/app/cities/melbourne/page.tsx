@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,19 +9,18 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Melbourne",
-  description: "Pilates studios in Melbourne: our curated guide to the five best reformer and mat studios across Fitzroy, South Yarra, and St Kilda — verified for 2026.",
+  title: "Best Pilates Studios in Melbourne (2026) — Curated Guide",
+  description: "The best Pilates studios in Melbourne — from South Yarra reformer boutiques to classical method in Fitzroy and St Kilda. Five curated picks, verified 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios melbourne", "reformer pilates melbourne", "best pilates melbourne", "pilates fitzroy", "pilates south yarra", "boutique pilates melbourne", "pilates classes melbourne", "melbourne wellness studios"],
+  keywords: ["pilates melbourne", "reformer pilates melbourne", "best pilates studios melbourne", "pilates studio melbourne", "pilates classes melbourne", "south yarra pilates", "fitzroy pilates", "st kilda pilates", "pilates victoria australia", "best reformer pilates melbourne"],
   openGraph: {
     title: "Best Pilates Studios in Melbourne (2026)",
-    description: "Our curated guide to Melbourne's five best Pilates studios — from Fitzroy to South Yarra, verified for 2026.",
-    type: "article",
+    description: "Five curated Pilates studios in Melbourne — South Yarra, Fitzroy, and St Kilda reformer picks. Verified 2026.",
     url: "https://pilatescollectiveclub.com/cities/melbourne",
     images: [{ url: "https://images.unsplash.com/photo-1514395462185-c2de918e8ab9?w=1200&q=80", width: 1200, height: 630, alt: "Melbourne city guide — Pilates Collective Club" }],
   },
@@ -119,6 +119,46 @@ const NEIGHBORHOODS = [
   { name: "St Kilda & Albert Park", description: "The bayside suburbs have nurtured a Pilates scene that reflects the area's relaxed, health-conscious lifestyle. Studios here combine quality instruction with an inclusive, welcoming atmosphere that makes them popular with both newcomers and experienced practitioners. The proximity to the foreshore adds a lifestyle dimension that purely urban studios can't replicate." },
 ];
 
+const GEAR = [
+  {
+    name: "Pilates Grip Socks",
+    note: "Required at most reformer studios. Full-toe grip socks are the standard.",
+    price: "From $16",
+    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+  },
+  {
+    name: "Pilates Mat",
+    note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
+    price: "From $52",
+    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+  },
+  {
+    name: "Magic Circle",
+    note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    price: "From $24",
+    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+  },
+  {
+    name: "Resistance Bands",
+    note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
+    price: "From $22",
+    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Foam Roller",
+    note: "Essential for fascial release and spinal mobility work before and after class.",
+    price: "From $32",
+    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Home Pilates Reformer",
+    note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    price: "From $450",
+    url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
+  },
+];
+
+
 const RELATED_CITIES = [
   { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
   { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 5 },
@@ -193,7 +233,7 @@ export default function MelbournePage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1514395462725-fb4566210144?w=1400&q=80" alt="Melbourne city guide — Pilates Collective Club" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/melbourne.jpg" alt="Melbourne city guide — Pilates Collective Club" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Melbourne, Australia</p>
@@ -244,6 +284,34 @@ export default function MelbournePage() {
             </div>
           </div>
         </section>
+
+        {/* Studio Gear */}
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              Grip socks are required at most reformer studios in Melbourne. These are our recommended picks — all available on Amazon.{" "}
+              <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {GEAR.map((g) => (
+                <a key={g.name} href={g.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div className="rounded-xl p-5 h-full flex flex-col justify-between" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", transition: "border-color 0.2s" }}>
+                    <div>
+                      <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{g.name}</h3>
+                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{g.note}</p>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.price}</span>
+                      <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-5xl mx-auto">

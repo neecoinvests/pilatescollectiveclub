@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Equipment for Home Practice (2026) | Pilates Collective Club",
-  description: "The best Pilates equipment for home in 2026: reformers, mats, rings, and accessories reviewed. Build a complete home studio at any budget.",
+  description: "The best Pilates equipment for home — reformers, mats, rings, and resistance bands reviewed for durability, value, and genuine home workout effectiveness.",
   openGraph: {
     title: "Best Pilates Equipment for Home Practice",
     description: "Our definitive guide to home Pilates equipment — from quality mats to resistance bands and reformer alternatives.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "Our definitive guide to home Pilates equipment.",
     images: ["https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg"],
   },
-  keywords: ["best pilates equipment for home", "home pilates equipment", "pilates home practice gear", "essential pilates props", "pilates home setup guide", "what equipment for pilates at home", "pilates mat home practice", "pilates resistance band home", "pilates magic circle home", "home pilates equipment 2026"],
+  keywords: ["best pilates equipment for home", "home pilates equipment 2026", "pilates home workout equipment", "best pilates home setup", "pilates equipment to buy", "home pilates reformer mat ring", "best pilates gear home practice"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
   },

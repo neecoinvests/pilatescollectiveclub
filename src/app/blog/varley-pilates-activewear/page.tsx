@@ -7,20 +7,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Varley for Pilates (2026): Is the Reeves Legging Worth the Price?",
-  description: "Varley Reeves Legging, Stratford Bra, and Paloma Tank tested for reformer Pilates. Worn in London and Paris studios — here's whether the premium price is justified.",
-  keywords: ["varley pilates", "varley for pilates", "varley reeves legging pilates", "varley stratford bra pilates", "varley activewear review", "varley vs lululemon pilates", "varley vs alo pilates", "varley boutique studio", "best varley pilates pieces", "varley pilates review 2026"],
+  title: "Varley for Pilates (2026): Activewear Reviewed | Pilates Collective Club",
+  description: "Varley activewear reviewed for Pilates — the best Varley leggings, sets, and tops for reformer and mat class performance, compression, and studio-to-street style.",
+  keywords: ["varley pilates activewear review", "varley pilates leggings 2026", "best varley for reformer pilates", "varley vs lululemon pilates", "varley activewear pilates review", "varley sets pilates"],
   openGraph: {
-    title: "Varley for Pilates (2026): Is the Reeves Legging Worth the Price?",
-    description: "Varley Reeves Legging, Stratford Bra, and Paloma Tank tested in London and Paris studios — is the premium price justified?",
+    title: "Varley for Pilates (2026): Best Pieces for the Boutique Studio",
+    description: "The best Varley pieces for Pilates — honest review of the brand that defines the boutique studio aesthetic.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/varley-pilates-activewear",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", width: 1200, height: 630, alt: "Varley for Pilates — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Varley for Pilates (2026): Is the Reeves Legging Worth It?",
-    description: "Varley Reeves Legging, Stratford Bra, and Paloma Tank tested for reformer Pilates.",
+    title: "Varley for Pilates (2026): Best Pieces",
+    description: "The best Varley pieces for Pilates — honest review of the boutique studio brand.",
     images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"],
   },
   alternates: {

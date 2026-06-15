@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Pittsburgh, PA (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Pittsburgh, PA. From Shadyside and the Strip District to Mt. Lebanon and Point Breeze — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Pittsburgh, PA (2026) — Curated Guide",
+  description: "The best Pilates studios in Pittsburgh — reformer boutiques in Shadyside, Squirrel Hill, and the Strip District. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Pittsburgh PA",
-    "best pilates Pittsburgh",
-    "reformer pilates Pittsburgh",
-    "Shadyside pilates studio",
-    "Strip District pilates",
-    "Mt Lebanon pilates",
-    "Pittsburgh pilates classes 2026",
-    "Club Pilates Pittsburgh",
-  ],
+  keywords: ["pilates pittsburgh", "reformer pilates pittsburgh", "best pilates studios pittsburgh", "pilates studio pittsburgh pa", "pilates classes pittsburgh", "shadyside pilates", "squirrel hill pilates", "pilates pennsylvania", "best reformer pilates pittsburgh"],
   openGraph: {
-    title: "Best Pilates Studios in Pittsburgh, PA (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Pittsburgh, PA (2026)",
     description:
-      "Discover the 6 best Pilates studios in Pittsburgh, PA. From Shadyside to Mt. Lebanon — expert picks and booking tips for 2026.",
+      "Six curated Pilates studios in Pittsburgh — Shadyside and Squirrel Hill reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/pittsburgh",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Pittsburgh, PA (2026)",
+    title: "Best Pilates Studios in Pittsburgh (2026)",
     description:
       "The 6 best Pilates studios in Pittsburgh — curated, verified, and reviewed for 2026.",
     images: [

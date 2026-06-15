@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Balanced Body Allegro 2 Review (2026): The Gold Standard Home Reformer | Pilates Collective Club",
-  description: "Balanced Body Allegro 2 reformer review: spring system, footbar, carriage, and frame build quality tested. Is it worth $3,000+ for home or studio use?",
-  keywords: ["balanced body allegro 2 review", "balanced body allegro 2", "allegro 2 reformer review", "balanced body reformer review", "best pilates reformer home", "allegro 2 vs merrithew", "balanced body allegro 2 price", "allegro 2 2026", "balanced body reformer 2026", "is the allegro 2 worth it"],
+  title: "Balanced Body Allegro 2 Review (2026): Is It Worth It? | Pilates Collective Club",
+  description: "Balanced Body Allegro 2 reformer reviewed in full — spring resistance, carriage glide, footbar precision, and value compared to Merrithew SPX and STOTT.",
+  keywords: ["balanced body allegro 2 review", "allegro 2 reformer review", "balanced body reformer review 2026", "allegro 2 vs merrithew spx", "balanced body allegro 2 price", "best studio reformer balanced body", "allegro 2 reformer buy"],
   openGraph: {
     title: "Balanced Body Allegro 2 Review (2026): Honestly Assessed",
     description: "Deep review of the Balanced Body Allegro 2 — carriage, springs, fold mechanism, and whether $3,495 is justified.",

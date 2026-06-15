@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates vs Gym (2026): Which Is Better for You?",
-  description: "An honest comparison of Pilates and gym training — strength, body composition, flexibility, cost, injury risk, and which one is actually right for your goals.",
+  title: "Pilates vs Gym (2026): Which is Right for You? | Pilates Collective Club",
+  description: "Pilates vs gym training compared — muscle building, core strength, cost per session, and which approach better fits different fitness goals and lifestyles.",
   openGraph: {
     title: "Pilates vs Gym: An Honest Comparison",
     description: "Strength, cost, body composition, injury risk — an evidence-based assessment of both, and who should choose what.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "An honest comparison of Pilates and gym training for strength, body composition, and overall fitness.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"],
   },
-  keywords: ["pilates vs gym", "pilates or gym", "is pilates better than the gym", "pilates vs weight training", "pilates vs strength training", "pilates gym comparison", "should i do pilates or gym", "pilates vs lifting weights", "pilates results vs gym results", "pilates for gym people"],
+  keywords: ["pilates vs gym", "pilates versus gym workout 2026", "is pilates better than gym", "pilates vs weight training", "pilates gym comparison", "pilates for strength vs gym", "which is better pilates or gym", "pilates gym hybrid training"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-vs-gym",
   },
@@ -191,9 +191,9 @@ export default function PilatesVsGymPage() {
               </p>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 For those who want to combine both, the practical structure is: 2-3 gym sessions per week (strength focus) plus 2-3 Pilates sessions (mobility, stability, body awareness). If you need a home reformer for Pilates work, see our{" "}
-                <a href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", fontWeight: 600 }}>home reformer guide</a>.{" "}
+                home reformer guide.{" "}
                 For home Pilates alongside a gym membership, a quality{" "}
-                <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>mat</a>{" "}
+                mat{" "}
                 and{" "}
                 <a href="https://www.amazon.com/s?k=pilates+resistance+bands&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>resistance bands</a>{" "}
                 extend your home practice considerably.

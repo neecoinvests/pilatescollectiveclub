@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Las Vegas, NV (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Las Vegas, NV. From Summerlin reformer boutiques to Henderson classical studios — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Las Vegas, NV (2026) — Curated Guide",
+  description: "The best Pilates studios in Las Vegas — reformer boutiques in Summerlin, Henderson, and near the Strip. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Las Vegas NV",
-    "best pilates Las Vegas",
-    "reformer pilates Las Vegas",
-    "Summerlin pilates",
-    "Henderson pilates",
-    "Arts District pilates studio",
-    "Las Vegas pilates classes 2026",
-    "Las Vegas NV fitness studios",
-  ],
+  keywords: ["pilates las vegas", "reformer pilates las vegas", "best pilates studios las vegas", "pilates studio las vegas nv", "pilates classes las vegas", "summerlin pilates", "henderson pilates nv", "pilates nevada", "best reformer pilates las vegas"],
   openGraph: {
-    title: "Best Pilates Studios in Las Vegas, NV (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Las Vegas, NV (2026)",
     description:
-      "Discover the 6 best Pilates studios in Las Vegas, NV. From Summerlin reformer boutiques to Henderson classical studios — expert picks, honest reviews, and booking tips.",
+      "Six curated Pilates studios in Las Vegas — Summerlin and Henderson reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/las-vegas",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Las Vegas, NV (2026)",
+    title: "Best Pilates Studios in Las Vegas (2026)",
     description:
       "The 6 best Pilates studios in Las Vegas — curated, verified, and reviewed for 2026.",
     images: [

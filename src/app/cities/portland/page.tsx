@@ -9,20 +9,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Portland, OR (2026) — Curated & Verified",
-  description: "The best Pilates studios in Portland, Oregon — from classical Pearl District practices to community reformer studios in NE Portland and Lake Oswego. Six verified picks.",
+  title: "Best Pilates Studios in Portland, OR (2026) — Curated Guide",
+  description: "The best Pilates studios in Portland — reformer boutiques in the Pearl District, NW Portland, and Lake Oswego. Six verified picks for every level, 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
-  keywords: ["pilates studios portland", "reformer pilates portland", "best pilates portland", "pilates classes portland or", "pilates pearl district portland", "pilates ne portland", "pilates lake oswego"],
+  keywords: ["pilates portland", "reformer pilates portland", "best pilates studios portland or", "pilates studio portland", "pilates classes portland", "pearl district pilates", "nw portland pilates", "pilates oregon", "best reformer pilates portland", "pilates lake oswego"],
   openGraph: {
-    title: "The Best Pilates Studios in Portland, OR (2026)",
-    description: "Six curated, verified Pilates studios in Portland — from Pearl District classical practices to community-oriented studios in NE Portland.",
+    title: "Best Pilates Studios in Portland, OR (2026)",
+    description: "Six curated Pilates studios in Portland — Pearl District and NW Portland reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/portland",
     images: [{ url: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80", width: 1200, height: 630, alt: "Portland Oregon city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Portland, OR (2026)",
+    title: "Best Pilates Studios in Portland (2026)",
     description: "Six curated Pilates studios in Portland — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80"],
   },
@@ -199,7 +199,7 @@ export default function PortlandPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80" alt="Portland Oregon" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/portland.jpg" alt="Portland Oregon" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Portland, Oregon</p>

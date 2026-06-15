@@ -7,20 +7,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Gymshark for Pilates (2026): Which Pieces Actually Work in the Studio?",
-  description: "Gymshark Flex Legging, Vital Seamless set, and training bras — honestly reviewed in a reformer studio. Does Gymshark hold up against Alo and Lululemon? Here's the verdict.",
-  keywords: ["gymshark pilates", "gymshark for pilates", "gymshark pilates leggings", "gymshark flex legging pilates", "gymshark vital seamless pilates", "gymshark vs lululemon pilates", "gymshark activewear pilates", "gymshark studio wear", "is gymshark good for pilates", "gymshark pilates review 2026"],
+  title: "Gymshark for Pilates (2026): Best Leggings & Sets Reviewed | Pilates Collective Club",
+  description: "Gymshark for Pilates — Vital, Whitney, and FLX leggings reviewed for reformer grip, compression, opacity, and value compared to Lululemon and Alo.",
+  keywords: ["gymshark pilates", "gymshark leggings pilates review", "gymshark vital legging pilates", "gymshark vs lululemon pilates", "best gymshark for reformer pilates", "gymshark activewear pilates 2026", "gymshark training leggings pilates"],
   openGraph: {
-    title: "Gymshark for Pilates (2026): Which Pieces Actually Work in the Studio?",
-    description: "Gymshark Flex Legging, Vital Seamless set, and training bras tested in a reformer studio — does Gymshark hold up against Alo and Lululemon?",
+    title: "Gymshark for Pilates (2026): Best Pieces & Honest Review",
+    description: "The best Gymshark pieces for Pilates — training leggings, seamless sets, and sports bras tested for reformer and mat classes.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/gymshark-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "Gymshark for Pilates — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gymshark for Pilates (2026): Which Pieces Work in Studio?",
-    description: "Gymshark tested in a reformer studio — honest verdict on what to buy.",
+    title: "Gymshark for Pilates (2026): Best Pieces & Honest Review",
+    description: "The best Gymshark pieces for Pilates — tested for reformer and mat classes.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"],
   },
   alternates: {

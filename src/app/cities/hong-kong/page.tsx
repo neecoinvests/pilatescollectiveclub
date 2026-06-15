@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,19 +9,18 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Hong Kong",
-  description: "Pilates studios in Hong Kong: our curated guide to the five best reformer and mat studios across Central, Wan Chai, and the Southside — verified for 2026.",
+  title: "Best Pilates Studios in Hong Kong (2026) — Curated Guide",
+  description: "The best Pilates studios in Hong Kong — from Central reformer boutiques to studios in Wan Chai and Causeway Bay. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios hong kong", "reformer pilates hong kong", "best pilates hong kong", "pilates central hong kong", "pilates wan chai", "boutique pilates hk", "pilates classes hong kong", "hong kong wellness studios"],
+  keywords: ["pilates hong kong", "reformer pilates hong kong", "best pilates studios hong kong", "pilates studio hong kong", "pilates central hk", "pilates wan chai", "pilates causeway bay", "pilates hk", "best reformer pilates hong kong", "pilates classes hong kong"],
   openGraph: {
     title: "Best Pilates Studios in Hong Kong (2026)",
-    description: "Our curated guide to Hong Kong's five best Pilates studios — from Central to Stanley, verified for 2026.",
-    type: "article",
+    description: "Five curated Pilates studios in Hong Kong — Central, Wan Chai, and Causeway Bay reformer picks. Verified 2026.",
     url: "https://pilatescollectiveclub.com/cities/hong-kong",
     images: [{ url: "https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=1200&q=80", width: 1200, height: 630, alt: "Hong Kong city guide — Pilates Collective Club" }],
   },
@@ -118,6 +118,46 @@ const NEIGHBORHOODS = [
   { name: "Sai Ying Pun & Kennedy Town", description: "The western end of Hong Kong Island has developed a thriving independent wellness scene over the past decade. Studios here tend to be owner-operated, smaller in scale, and more community-focused — with pricing that's more accessible than the Central corridor. The neighbourhood's young professional population has created a loyal studio clientele." },
   { name: "The Southside (Stanley & Repulse Bay)", description: "Hong Kong's southern peninsula is home to a quieter, more residential studio scene. Venues here prioritise quality over volume — small class sizes, beautiful natural settings, and a pace that feels distinct from the frenetic city centre. Worth the commute for those seeking a more unhurried practice." },
 ];
+
+const GEAR = [
+  {
+    name: "Pilates Grip Socks",
+    note: "Required at most reformer studios. Full-toe grip socks are the standard.",
+    price: "From $16",
+    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+  },
+  {
+    name: "Pilates Mat",
+    note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
+    price: "From $52",
+    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+  },
+  {
+    name: "Magic Circle",
+    note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    price: "From $24",
+    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+  },
+  {
+    name: "Resistance Bands",
+    note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
+    price: "From $22",
+    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Foam Roller",
+    note: "Essential for fascial release and spinal mobility work before and after class.",
+    price: "From $32",
+    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Home Pilates Reformer",
+    note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    price: "From $450",
+    url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
+  },
+];
+
 
 const RELATED_CITIES = [
   { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
@@ -244,6 +284,34 @@ export default function HongKongPage() {
             </div>
           </div>
         </section>
+
+        {/* Studio Gear */}
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              Grip socks are required at most reformer studios in Hong Kong. These are our recommended picks — all available on Amazon.{" "}
+              <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {GEAR.map((g) => (
+                <a key={g.name} href={g.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div className="rounded-xl p-5 h-full flex flex-col justify-between" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", transition: "border-color 0.2s" }}>
+                    <div>
+                      <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{g.name}</h3>
+                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{g.note}</p>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.price}</span>
+                      <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-5xl mx-auto">

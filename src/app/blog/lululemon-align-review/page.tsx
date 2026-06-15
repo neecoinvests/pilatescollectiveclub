@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Lululemon Align Review (2026): Is It Worth It for Pilates?",
-  description: "An honest Lululemon Align review for Pilates — the legging, biker short, bodysuit, and high-rise pant tested across reformer and mat sessions. Is the price justified?",
-  keywords: ["lululemon align review", "lululemon align pilates review", "are lululemon align worth it", "lululemon align legging review", "best lululemon for pilates", "lululemon align reformer pilates", "lululemon align biker short review", "lululemon align 2026"],
+  title: "Lululemon Align Review (2026): Best Pilates Legging? | Pilates Collective Club",
+  description: "Lululemon Align legging reviewed for Pilates — Nulu fabric softness, reformer opacity, waistband hold, and honest comparison to Alo Airbrush and CRZ YOGA.",
+  keywords: ["lululemon align review", "lululemon align pilates review 2026", "lululemon align legging pilates", "lululemon align opacity", "lululemon align vs alo airbrush", "best lululemon legging for pilates", "lululemon align 25 inch review", "lululemon pilates legging"],
   openGraph: {
     title: "Lululemon Align Review (2026): Is It Worth It for Pilates?",
     description: "Honest Lululemon Align review for Pilates — tested across reformer, mat, and tower sessions.",

@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "AeroPilates Review (2026): The Budget Home Reformer, Honestly Assessed | Pilates Collective Club",
-  description: "The honest AeroPilates review: cord vs spring resistance, the rebounder, which model to buy (287 vs 557), and who this budget reformer actually suits.",
-  keywords: ["aeropilates review", "aeropilates reformer review", "aeropilates 287 review", "aeropilates 557 review", "best budget home pilates reformer", "aeropilates vs spring reformer", "stamina aeropilates", "aeropilates rebounder", "aeropilates cord resistance", "aeropilates 2026"],
+  title: "AeroPilates Reformer Review (2026): Honest Verdict | Pilates Collective Club",
+  description: "AeroPilates reformer reviewed honestly — build quality, cord resistance, price vs value, and how it compares to Merrithew and Balanced Body entry-level machines.",
+  keywords: ["aeropilates review", "aeropilates reformer review 2026", "aeropilates vs merrithew", "best aeropilates reformer", "aeropilates 651 review", "is aeropilates worth it", "aeropilates home reformer", "aeropilates cord resistance"],
   openGraph: {
     title: "AeroPilates Review (2026): Honest Assessment of the Budget Reformer",
     description: "Cord vs spring resistance, the rebounder, which model to choose — an honest AeroPilates review.",

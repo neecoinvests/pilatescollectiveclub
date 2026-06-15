@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Resistance Bands (2026): Tested & Ranked | Pilates Collective Club",
-  description: "The best resistance bands for Pilates in 2026: loop bands, long bands, and therapy bands tested for footwork, arm springs, and mat exercises.",
-  keywords: ["best pilates resistance bands", "pilates resistance band review", "theraband pilates", "fabric resistance bands pilates", "loop resistance bands pilates", "pilates resistance band exercises", "long resistance bands pilates", "pilates band exercises", "resistance bands for mat pilates", "pilates bands 2026"],
+  title: "Best Pilates Resistance Bands (2026): Fabric & Tube Options Reviewed | Pilates Collective Club",
+  description: "The best resistance bands for Pilates — fabric loops, tube bands, and long resistance bands reviewed for tension range, durability, and Pilates-specific exercises.",
+  keywords: ["best pilates resistance bands", "pilates resistance bands 2026", "fabric resistance bands pilates", "best resistance bands reformer pilates", "pilates tube bands", "long resistance bands pilates", "resistance band pilates exercises"],
   openGraph: {
     title: "Best Pilates Resistance Bands (2026): Tested & Ranked",
     description: "The best resistance bands for Pilates — tested for mat work, home practice, and reformer supplementation.",

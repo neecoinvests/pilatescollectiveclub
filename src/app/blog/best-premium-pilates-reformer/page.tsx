@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Premium Pilates Reformers (2026): $2K–$5K+ Reviewed",
-  description: "The best premium Pilates reformers for home practitioners — Allegro 2, Merrithew V2 Max, Gratz, Elina, and Peak MVe. Verified prices and honest assessments.",
+  title: "Best Premium Pilates Reformer (2026): Luxury Machines Reviewed | Pilates Collective Club",
+  description: "The best premium Pilates reformers — Gratz, Balanced Body Allegro 2, and Merrithew V2 Max reviewed for professional-grade spring systems, carriage glide, and longevity.",
   openGraph: {
     title: "Best Premium Pilates Reformers (2026): $2K–$5K+",
     description: "Allegro 2, Merrithew V2 Max, Gratz, Elina Elite Wood, and Peak MVe — the definitive premium reformer guide for serious home practitioners.",
@@ -22,20 +22,7 @@ export const metadata: Metadata = {
     description: "The definitive guide to premium home Pilates reformers — $2,000 to $5,000+.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
-  keywords: [
-    "best premium pilates reformer",
-    "premium pilates reformer home",
-    "professional pilates reformer home use",
-    "balanced body allegro 2 review",
-    "merrithew v2 max review",
-    "gratz pilates reformer review",
-    "elina pilates reformer review",
-    "peak pilates mve review",
-    "best pilates reformer 2000 dollars",
-    "best pilates reformer 5000 dollars",
-    "studio quality pilates reformer home",
-    "pilates reformer investment 2026",
-  ],
+  keywords: ["best premium pilates reformer", "luxury pilates reformer 2026", "professional pilates reformer buy", "gratz pilates reformer review", "balanced body allegro 2 premium", "merrithew v2 max review", "best high-end pilates reformer", "top pilates reformer brand"],
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-premium-pilates-reformer" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };

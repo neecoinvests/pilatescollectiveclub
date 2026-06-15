@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Denver, CO (2026) — Curated & Verified",
-  description: "The best Pilates studios in Denver, Colorado — from classical Cherry Creek practices to athletic conditioning studios in the Highlands. Six verified picks for every level.",
+  title: "Best Pilates Studios in Denver, CO (2026) — Curated Guide",
+  description: "The best Pilates studios in Denver — from Cherry Creek reformer boutiques to RiNo classical practices. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios denver", "reformer pilates denver", "best pilates denver", "pilates classes denver co", "pilates cherry creek denver", "pilates highlands denver", "pilates lowry denver"],
+  keywords: ["pilates denver", "reformer pilates denver", "best pilates studios denver co", "pilates studio denver", "pilates classes denver", "cherry creek pilates", "rino pilates denver", "pilates colorado", "best reformer pilates denver", "pilates boulder co"],
   openGraph: {
-    title: "The Best Pilates Studios in Denver, CO (2026)",
-    description: "Six curated, verified Pilates studios in Denver — from Cherry Creek classical practices to athletic reformer rooms in the Highlands.",
+    title: "Best Pilates Studios in Denver, CO (2026)",
+    description: "Six curated Pilates studios in Denver — Cherry Creek reformer boutiques to RiNo classical method. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/denver",
     images: [{ url: "https://images.unsplash.com/photo-1546156929-a4c0ac411f47?w=1200&q=80", width: 1200, height: 630, alt: "Denver Colorado city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Denver, CO (2026)",
+    title: "Best Pilates Studios in Denver (2026)",
     description: "Six curated Pilates studios in Denver — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1546156929-a4c0ac411f47?w=1200&q=80"],
   },

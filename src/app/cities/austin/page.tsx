@@ -10,24 +10,24 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Austin, TX (2026) — Curated & Verified",
-  description: "The best Pilates studios in Austin, Texas — from classical reformer boutiques in South Lamar to athletic conditioning studios near the Domain. Six verified picks for every level.",
+  description: "The best Pilates studios in Austin — from classical reformer boutiques on South Lamar to athletic Lagree studios near the Domain. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios austin", "reformer pilates austin tx", "best pilates austin", "pilates classes austin", "pilates south lamar", "pilates domain austin", "pilates downtown austin"],
+  keywords: ["pilates austin", "reformer pilates austin", "best pilates studios austin tx", "pilates studio austin", "pilates classes austin", "south lamar pilates", "lagree austin", "pilates texas", "best reformer pilates austin", "pilates east austin"],
   openGraph: {
-    title: "The Best Pilates Studios in Austin, TX (2026)",
-    description: "Six curated, verified Pilates studios in Austin — from classical South Lamar boutiques to athletic conditioning rooms near the Domain.",
+    title: "Best Pilates Studios in Austin, TX (2026)",
+    description: "Six curated Pilates studios in Austin — South Lamar boutiques to East Austin Lagree rooms. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/austin",
     images: [{ url: "https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=1200&q=80", width: 1200, height: 630, alt: "Austin Texas city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Austin, TX (2026)",
+    title: "Best Pilates Studios in Austin (2026)",
     description: "Six curated Pilates studios in Austin — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=1200&q=80"],
   },

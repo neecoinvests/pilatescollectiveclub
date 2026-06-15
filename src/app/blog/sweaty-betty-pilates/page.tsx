@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Sweaty Betty for Pilates (2026): Best Pieces & Honest Review | Pilates Collective Club",
-  description: "Sweaty Betty Pilates wear reviewed: Power leggings, bras, and shorts tested for reformer and mat. UK-based activewear brand compared vs. Lululemon.",
-  keywords: ["sweaty betty pilates", "sweaty betty for pilates", "sweaty betty power workout legging", "sweaty betty garudasana legging", "sweaty betty pilates review", "sweaty betty vs lululemon pilates", "sweaty betty uk pilates", "sweaty betty activewear pilates 2026", "best sweaty betty leggings", "sweaty betty pilates clothes"],
+  title: "Sweaty Betty for Pilates (2026): Best Leggings & Tops | Pilates Collective Club",
+  description: "Sweaty Betty for Pilates — Power Legging, Zero Gravity tight, and bra tops reviewed for reformer compression, opacity, and UK sizing fit.",
+  keywords: ["sweaty betty pilates", "sweaty betty pilates leggings review 2026", "sweaty betty power legging pilates", "sweaty betty vs lululemon pilates", "best sweaty betty for reformer pilates", "sweaty betty activewear pilates uk"],
   openGraph: {
     title: "Sweaty Betty for Pilates (2026): Best Pieces & Honest Review",
     description: "The complete guide to Sweaty Betty activewear for Pilates — the best leggings, bras, and layers for studio and reformer classes.",

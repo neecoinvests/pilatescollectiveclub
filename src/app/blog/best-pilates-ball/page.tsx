@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ball (2026): Mini Ball & Stability Ball Reviewed | Pilates Collective Club",
-  description: "The best Pilates balls of 2026: stability balls, mini exercise balls, and overball picks tested for reformer, mat, and barre workouts. Full comparison.",
+  title: "Best Pilates Ball (2026): Stability & Mini Balls Reviewed | Pilates Collective Club",
+  description: "The best Pilates balls of 2026 — mini stability balls and over balls reviewed for grip, burst resistance, and usefulness in reformer and mat class.",
   openGraph: {
     title: "Best Pilates Ball (2026): Mini Ball and Exercise Ball Reviewed",
     description: "The best Pilates balls for home practice — mini Pilates balls for mat work and stability balls for full-body exercises. Tested, compared, and ranked.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "The best Pilates balls for home practice — mini and stability balls tested and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg"],
   },
-  keywords: ["best pilates ball", "pilates mini ball", "stability ball pilates", "pilates exercise ball review", "mini ball for pilates exercises", "pilates ball size guide", "best mini pilates ball 9 inch", "stability ball for pilates mat work", "pilates ball exercises", "pilates props review 2026"],
+  keywords: ["best pilates ball", "pilates over ball review 2026", "mini stability ball pilates", "best small ball for pilates", "pilates soft ball review", "pilates exercise ball", "best pilates overbaall"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-ball",
   },

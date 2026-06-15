@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Seattle, WA (2026) — Curated & Verified",
-  description: "The best Pilates studios in Seattle, Washington — from classical reformer practices in Capitol Hill to athletic conditioning studios in Bellevue. Six verified picks for every level.",
+  title: "Best Pilates Studios in Seattle, WA (2026) — Curated Guide",
+  description: "The best Pilates studios in Seattle — from Capitol Hill reformer boutiques to classical practices in Queen Anne and Bellevue. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios seattle", "reformer pilates seattle", "best pilates seattle", "pilates classes seattle wa", "pilates capitol hill seattle", "pilates bellevue", "pilates fremont seattle"],
+  keywords: ["pilates seattle", "reformer pilates seattle", "best pilates studios seattle wa", "pilates studio seattle", "pilates classes seattle", "capitol hill pilates", "queen anne pilates seattle", "pilates washington state", "best reformer pilates seattle", "pilates bellevue wa"],
   openGraph: {
-    title: "The Best Pilates Studios in Seattle, WA (2026)",
-    description: "Six curated, verified Pilates studios in Seattle — from Capitol Hill classical practices to athletic conditioning rooms on the Eastside.",
+    title: "Best Pilates Studios in Seattle, WA (2026)",
+    description: "Six curated Pilates studios in Seattle — Capitol Hill, Queen Anne, and Bellevue reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/seattle",
     images: [{ url: "https://images.unsplash.com/photo-1502175353174-a7a70e73b362?w=1200&q=80", width: 1200, height: 630, alt: "Seattle Washington city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Seattle, WA (2026)",
+    title: "Best Pilates Studios in Seattle (2026)",
     description: "Six curated Pilates studios in Seattle — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1502175353174-a7a70e73b362?w=1200&q=80"],
   },
@@ -145,6 +145,12 @@ const GEAR = [
     price: "From $24",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
+  {
+    name: "Home Pilates Reformer",
+    note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    price: "From $450",
+    url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
+  },
 ];
 
 const RELATED_CITIES = [
@@ -233,7 +239,7 @@ export default function SeattlePage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1502175353174-a7a70e73b362?w=1400&q=80" alt="Seattle Washington skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/seattle.jpg" alt="Seattle Washington skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Seattle, Washington</p>

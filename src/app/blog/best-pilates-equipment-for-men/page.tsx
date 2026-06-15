@@ -6,20 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Equipment for Men (2026): Mat, Reformer & More | Pilates Collective Club",
-  description: "The best Pilates equipment for men in 2026 — mats, foam rollers, magic circles, resistance bands, arc barrels, and home reformers. What men actually need and why.",
-  keywords: [
-    "best pilates equipment for men",
-    "pilates equipment men",
-    "pilates for men gear",
-    "mens pilates mat",
-    "pilates reformer men",
-    "pilates ring men",
-    "best foam roller pilates men",
-    "pilates at home men",
-    "pilates resistance bands men",
-    "pilates arc barrel men",
-  ],
+  title: "Best Pilates Equipment for Men (2026): Reformers, Mats & Gear | Pilates Collective Club",
+  description: "The best Pilates equipment for men — reformers, mats, resistance bands, and accessories reviewed for male practitioners at every experience level.",
+  keywords: ["best pilates equipment for men", "men pilates equipment 2026", "pilates reformer for men", "men home pilates setup", "pilates gear men", "best pilates mat for men", "pilates resistance bands men"],
   openGraph: {
     title: "Best Pilates Equipment for Men (2026): Tested and Ranked",
     description: "Six essential Pilates equipment picks for men — mat, foam roller, magic circle, resistance bands, arc barrel, and home reformer.",

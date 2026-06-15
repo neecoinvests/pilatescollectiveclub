@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Houston, TX (2026) — Curated & Verified",
-  description: "The best Pilates studios in Houston, Texas — from classical River Oaks practices to contemporary reformer studios in Montrose and the Heights. Six verified picks for every level.",
+  title: "Best Pilates Studios in Houston, TX (2026) — Curated Guide",
+  description: "The best Pilates studios in Houston — from River Oaks reformer boutiques to classical method in the Heights and Midtown. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios houston", "reformer pilates houston", "best pilates houston", "pilates classes houston tx", "pilates river oaks houston", "pilates montrose houston", "pilates the heights houston"],
+  keywords: ["pilates houston", "reformer pilates houston", "best pilates studios houston tx", "pilates studio houston", "pilates classes houston", "river oaks pilates", "heights pilates houston", "pilates texas", "best reformer pilates houston", "pilates midtown houston"],
   openGraph: {
-    title: "The Best Pilates Studios in Houston, TX (2026)",
-    description: "Six curated, verified Pilates studios in Houston — from River Oaks classical practices to contemporary reformer rooms in Montrose.",
+    title: "Best Pilates Studios in Houston, TX (2026)",
+    description: "Six curated Pilates studios in Houston — River Oaks reformer boutiques to the Heights. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/houston",
     images: [{ url: "https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?w=1200&q=80", width: 1200, height: 630, alt: "Houston Texas city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Houston, TX (2026)",
+    title: "Best Pilates Studios in Houston (2026)",
     description: "Six curated Pilates studios in Houston — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?w=1200&q=80"],
   },

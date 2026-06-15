@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,26 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "The Best Pilates Studios in Zurich",
-  description:
-    "The best Pilates studios in Zurich — from Seefeld lake-view reformer to physio-Pilates in Hottingen. Curated & verified picks for every level.",
+  title: "Best Pilates Studios in Zurich (2026) — Curated Guide",
+  description: "The best Pilates studios in Zurich — reformer boutiques in Seefeld, Hottingen, and the city centre. Five curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates zürich", "pilates zurich", "reformer pilates zurich", "best pilates zurich", "pilates studios zürich"],
+  keywords: ["pilates zürich", "pilates zurich", "reformer pilates zurich", "best pilates studios zurich", "pilates studio zürich", "pilates seefeld zürich", "pilates hottingen", "pilates switzerland", "best reformer pilates zurich", "pilates classes zurich"],
   openGraph: {
-    title: "The Best Pilates Studios in Zurich",
-    description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
+    title: "Best Pilates Studios in Zurich (2026)",
+    description: "Five curated Pilates studios in Zurich — Seefeld, Hottingen, and city centre reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/zurich",
     images: [{ url: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1200&q=80", width: 1200, height: 630, alt: "Zurich city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Zurich",
+    title: "Best Pilates Studios in Zurich (2026)",
     description: "Our curated guide to the best Pilates studios in Zurich — five verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1200&q=80"],
   },
@@ -150,6 +150,46 @@ const NEIGHBORHOODS = [
       "The area around Central station is a convenient choice for practitioners commuting from elsewhere in the city, with several quality studios within walking distance.",
   },
 ];
+
+const GEAR = [
+  {
+    name: "Pilates Grip Socks",
+    note: "Required at most reformer studios. Full-toe grip socks are the standard.",
+    price: "From $16",
+    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+  },
+  {
+    name: "Pilates Mat",
+    note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
+    price: "From $52",
+    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+  },
+  {
+    name: "Magic Circle",
+    note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    price: "From $24",
+    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+  },
+  {
+    name: "Resistance Bands",
+    note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
+    price: "From $22",
+    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Foam Roller",
+    note: "Essential for fascial release and spinal mobility work before and after class.",
+    price: "From $32",
+    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+  },
+  {
+    name: "Home Pilates Reformer",
+    note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    price: "From $450",
+    url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
+  },
+];
+
 
 const RELATED_CITIES = [
   { city: "Geneva", country: "Switzerland", href: "/cities/geneva", studioCount: 5 },

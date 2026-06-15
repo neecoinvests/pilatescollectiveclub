@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Beyond Yoga for Pilates (2026): Brand Review & Best Pieces",
-  description: "Beyond Yoga reviewed for Pilates — the Spacedye leggings, bras, and sets tested for reformer and mat performance. Is it the right brand for your studio wardrobe?",
-  keywords: ["beyond yoga pilates", "beyond yoga review", "beyond yoga spacedye legging pilates", "best beyond yoga for pilates", "beyond yoga reformer pilates", "beyond yoga vs lululemon pilates", "beyond yoga activewear review 2026"],
+  title: "Beyond Yoga for Pilates (2026): Spacedye Leggings & Sets Reviewed | Pilates Collective Club",
+  description: "Beyond Yoga Spacedye leggings and sets reviewed for Pilates — softness, opacity on the reformer, and how Beyond Yoga compares to Lululemon and Alo.",
+  keywords: ["beyond yoga pilates", "beyond yoga leggings pilates review", "beyond yoga spacedye pilates", "beyond yoga vs lululemon pilates", "best beyond yoga for reformer", "beyond yoga activewear pilates", "beyond yoga 2026 pilates"],
   openGraph: {
     title: "Beyond Yoga for Pilates (2026): Brand Review & Best Pieces",
     description: "Beyond Yoga reviewed for Pilates — Spacedye leggings, bras, and sets tested for studio performance.",

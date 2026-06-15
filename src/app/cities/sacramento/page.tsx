@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Sacramento, CA (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Sacramento, CA. From Midtown boutiques to Natomas and Fair Oaks reformer studios — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Sacramento, CA (2026) — Curated Guide",
+  description: "The best Pilates studios in Sacramento — reformer boutiques in Midtown, East Sacramento, and Roseville. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Sacramento CA",
-    "best pilates Sacramento",
-    "reformer pilates Sacramento",
-    "Midtown Sacramento pilates",
-    "Fair Oaks pilates studio",
-    "Sacramento pilates classes 2026",
-    "Club Pilates Sacramento",
-    "East Sacramento pilates",
-  ],
+  keywords: ["pilates sacramento", "reformer pilates sacramento", "best pilates studios sacramento ca", "pilates studio sacramento", "pilates classes sacramento", "midtown pilates sacramento", "east sacramento pilates", "pilates california", "best reformer pilates sacramento", "pilates roseville ca"],
   openGraph: {
-    title: "Best Pilates Studios in Sacramento, CA (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Sacramento, CA (2026)",
     description:
-      "Discover the 6 best Pilates studios in Sacramento, CA. From Midtown to Natomas — expert picks and booking tips for 2026.",
+      "Six curated Pilates studios in Sacramento — Midtown and East Sacramento reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/sacramento",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Sacramento, CA (2026)",
+    title: "Best Pilates Studios in Sacramento (2026)",
     description:
       "The 6 best Pilates studios in Sacramento — curated, verified, and reviewed for 2026.",
     images: [

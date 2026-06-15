@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Weight Loss (2026): What the Evidence Says",
-  description: "Can Pilates help you lose weight? An honest evidence-based look at what Pilates does for body composition and how to structure your practice for results.",
+  title: "Pilates for Weight Loss (2026): Honest Expectations | Pilates Collective Club",
+  description: "Pilates for weight loss — what the research shows, how reformer Pilates supports body composition, and realistic expectations for practitioners training 3x per week.",
   openGraph: {
     title: "Pilates for Weight Loss: What the Evidence Says",
     description: "Does Pilates actually help you lose weight? An honest evidence-based answer with realistic expectations.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The honest, evidence-based answer to whether Pilates helps you lose weight.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
-  keywords: ["pilates for weight loss", "does pilates help you lose weight", "pilates weight loss", "reformer pilates weight loss", "pilates calories burned", "pilates for fat loss", "is pilates good for weight loss", "pilates body transformation", "pilates before and after", "pilates metabolism"],
+  keywords: ["pilates for weight loss", "does pilates help lose weight 2026", "reformer pilates weight loss", "pilates calories burned", "pilates body composition", "can you lose weight doing pilates", "pilates vs gym weight loss", "pilates diet weight loss"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-weight-loss",
   },
@@ -180,14 +180,14 @@ export default function PilatesForWeightLossPage() {
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment recommendations for home practice</h2>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For weight management through Pilates, a quality mat is the starting point. The{" "}
-                  <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>Manduka PRO mat</a>{" "}
+                  Manduka PRO mat{" "}
                   provides the firm surface needed for the abdominal series and footwork. Adding{" "}
-                  <a href="https://www.amazon.com/s?k=pilates+resistance+bands+set&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>resistance bands</a>{" "}
+                  resistance bands{" "}
                   increases the metabolic demand of mat exercises significantly — arm work with bands adds load that mat Pilates alone can't provide.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For serious home practice, the{" "}
-                  <a href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", fontWeight: 600 }}>AeroPilates 557 reformer</a>{" "}
+                  AeroPilates 557 reformer{" "}
                   is the most cost-effective way to access the caloric burn of reformer work at home. At $799, it pays for itself within a year for practitioners who would otherwise attend studio classes.
                 </p>
               </div>

@@ -7,20 +7,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Lululemon for Pilates (2026): Align Pant, Flow Y & Define — Studio-Tested",
-  description: "Align Pant, Align Bra, Flow Y, and the Define Jacket — tested in reformer and mat classes. Here's which Lululemon pieces Pilates instructors actually wear, and why.",
-  keywords: ["lululemon pilates", "lululemon for pilates", "lululemon align pilates", "lululemon align pant review", "lululemon align bra pilates", "lululemon flow y pilates", "lululemon vs alo pilates", "best lululemon for pilates", "lululemon reformer pilates", "lululemon pilates 2026"],
+  title: "Lululemon for Pilates (2026): Best Pieces & Honest Reviews | Pilates Collective Club",
+  description: "The best Lululemon pieces for Pilates — Align leggings, Energy bra, and Define jacket reviewed for reformer and mat class performance, opacity, and fit.",
+  keywords: ["lululemon pilates", "best lululemon for pilates 2026", "lululemon pilates outfit", "lululemon align pilates review", "lululemon energy bra pilates", "lululemon define jacket pilates", "lululemon pilates activewear review"],
   openGraph: {
-    title: "Lululemon for Pilates (2026): Align Pant, Flow Y & Define — Studio-Tested",
-    description: "Align Pant, Align Bra, Flow Y, and Define Jacket tested in reformer class — which Lululemon pieces Pilates instructors actually wear.",
+    title: "Lululemon for Pilates (2026): Best Pieces for Studio & Reformer",
+    description: "The complete guide to the best Lululemon pieces for Pilates — tested across reformer, mat, and barre.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/lululemon-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Lululemon for Pilates — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lululemon for Pilates (2026): Align, Flow Y & Define Reviewed",
-    description: "Which Lululemon pieces are best for Pilates — Align Pant, Flow Y, or Define?",
+    title: "Lululemon for Pilates (2026): Best Pieces",
+    description: "The best Lululemon pieces for Pilates — tested and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
   alternates: {

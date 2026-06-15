@@ -6,9 +6,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "How to Set Up a Home Pilates Studio (2026): Equipment, Space & Budget | Pilates Collective Club",
-  description: "The complete guide to setting up a home Pilates studio — what equipment to buy, in what order, for what budget, and how much space you actually need.",
-  keywords: ["home pilates studio setup", "how to set up pilates at home", "home pilates studio equipment", "pilates home studio guide", "pilates studio at home", "home pilates room setup", "pilates equipment setup home", "build home pilates studio", "pilates home gym", "home pilates setup 2026"],
+  title: "How to Set Up a Home Pilates Studio (2026): Complete Guide | Pilates Collective Club",
+  description: "How to set up a home Pilates studio — space planning, reformer selection, flooring, lighting, and essential accessories covered in a complete 2026 guide.",
+  keywords: ["home pilates studio setup", "home pilates studio guide 2026", "how to set up pilates room", "home reformer pilates room", "pilates studio at home", "best home pilates equipment", "pilates studio room design", "home pilates space setup"],
   openGraph: {
     title: "How to Set Up a Home Pilates Studio (2026)",
     description: "What equipment to buy, in what order, for what budget — the complete home Pilates studio guide.",
@@ -81,7 +81,7 @@ const EQUIPMENT_STAGES = [
   },
   {
     stage: "02",
-    item: "Grip socks + resistance bands + magic circle",
+    item: "grip socks + resistance bands + magic circle",
     cost: "$80–$150 total",
     unlocks: "Extended mat work with resistance: hip abductor and adductor work with the ring, shoulder and leg resistance band exercises, and the grip socks you will need for safe reformer footwork later. These three items represent the most cost-efficient expansion of any Pilates practice.",
   },
@@ -667,15 +667,6 @@ export default function HomePilatesStudioSetupPage() {
                   imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"
                 />
                 <ArticleCard
-                  title="Best Pilates Equipment for Home Practice (2026)"
-                  excerpt="The complete equipment list for home Pilates — mat, ring, bands, roller, and reformer options ranked."
-                  href="/blog/best-pilates-equipment-for-home-practice"
-                  category="Equipment Guide"
-                  readTime="10 min read"
-                  date="May 2026"
-                  imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"
-                />
-                <ArticleCard
                   title="Best Pilates Starter Kit (2026)"
                   excerpt="Everything a beginner needs — mat, grip socks, bands, and ring, in the right order."
                   href="/blog/best-pilates-starter-kit"
@@ -694,6 +685,80 @@ export default function HomePilatesStudioSetupPage() {
           title="Find a studio to train before building your home setup"
           subtitle="Our city guides help you find the best Pilates studios to learn on first."
         />
+
+        {/* Gear Section */}
+        <section style={{ backgroundColor: "#fcf9f8", padding: "60px 24px" }}>
+          <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>Equipment</p>
+            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "28px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Everything you need to build your home studio</h2>
+            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", color: "#53433e", marginBottom: "32px", lineHeight: 1.7 }}>
+              The core equipment list for a functional home Pilates space, from essential to aspirational.{" "}Affiliate disclosure.
+            </p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
+              
+                <a href="https://www.amazon.com/s?k=stamina+aeropilates+reformer+home+use&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Budget Reformer (Under $1,000)</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>AeroPilates and Stamina models deliver a genuine full-body session without the studio price.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $450</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.amazon.com/s?k=align+pilates+reformer+home&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Mid-Range Reformer ($1,000–$2,000)</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Align Pilates and Merrithew entry-level machines offer markedly better spring feel and stability.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $999</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Mat (6mm)</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A quality non-slip mat for mat class and home practice. Thicker than a standard yoga mat.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $45</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Magic Circle</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>One of Pilates&apos; most versatile props — adds resistance to dozens of reformer and mat exercises.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $24</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Foam Roller</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Essential for spinal mobility, fascial release, and warm-up before class.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $28</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>

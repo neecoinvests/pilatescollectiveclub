@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Studio Pilates Reformers (2026): 5 Pro Machines",
-  description: "Studio Pilates reformers the standard guides overlook — Align A8 Pro, Metro IQ, BASI Systems, BB Studio Reformer, and Gratz Maple. Verified specs.",
+  title: "Best Studio Pilates Reformers (2026): Commercial Grade Guide | Pilates Collective Club",
+  description: "The best studio-grade Pilates reformers for commercial use — Balanced Body, Merrithew, and Gratz commercial models reviewed on durability, spring range, and ROI.",
   openGraph: {
     title: "Best Studio-Grade Pilates Reformers (2026): Align, BASI, Balanced Body & More",
     description: "Five studio-grade reformers that serious home practitioners and studio owners often overlook — with verified specs and honest trade-offs.",
@@ -22,20 +22,7 @@ export const metadata: Metadata = {
     description: "Align Pilates A8 Pro, Balanced Body Metro IQ, BASI Systems, BB Studio Reformer, and Gratz Maple — the deeper premium guide.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
-  keywords: [
-    "best studio pilates reformer",
-    "align pilates a8 pro review",
-    "balanced body studio reformer",
-    "balanced body metro iq review",
-    "basi systems reformer review",
-    "gratz maple reformer",
-    "professional pilates reformer 2026",
-    "studio grade pilates reformer home",
-    "best pilates reformer brands",
-    "pilates reformer comparison 2026",
-    "premium pilates equipment",
-    "high end pilates reformer review",
-  ],
+  keywords: ["best studio pilates reformer", "commercial pilates reformer 2026", "studio grade pilates reformer", "pilates studio equipment buy", "balanced body studio reformer", "merrithew commercial reformer", "gratz studio reformer", "best reformer for pilates studio"],
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-studio-pilates-reformers" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };

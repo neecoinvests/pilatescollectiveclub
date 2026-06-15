@@ -9,25 +9,25 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Boston, MA (2026) — Curated & Verified",
-  description: "The best Pilates studios in Boston, Massachusetts — from South End classical studios to Beacon Hill reformer boutiques. Six verified picks for every level and neighbourhood.",
+  title: "Best Pilates Studios in Boston, MA (2026) — Curated Guide",
+  description: "The best Pilates studios in Boston — from Back Bay reformer boutiques to South End classical practices. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates studios boston", "reformer pilates boston", "best pilates boston", "pilates classes boston ma", "pilates south end boston", "pilates back bay boston", "pilates beacon hill"],
+  keywords: ["pilates boston", "reformer pilates boston", "best pilates studios boston", "pilates studio boston ma", "pilates classes boston", "back bay pilates", "south end pilates boston", "pilates massachusetts", "best reformer pilates boston", "pilates cambridge ma"],
   openGraph: {
-    title: "The Best Pilates Studios in Boston, MA (2026)",
-    description: "Six curated, verified Pilates studios in Boston — from South End classical practices to high-performance reformer rooms in Back Bay.",
+    title: "Best Pilates Studios in Boston, MA (2026)",
+    description: "Six curated Pilates studios in Boston — Back Bay reformer boutiques to South End classical method. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/boston",
     images: [{ url: "https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80", width: 1200, height: 630, alt: "Boston Massachusetts city guide — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Best Pilates Studios in Boston, MA (2026)",
+    title: "Best Pilates Studios in Boston (2026)",
     description: "Six curated Pilates studios in Boston — verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80"],
   },
@@ -151,6 +151,12 @@ const GEAR = [
     price: "From $22",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
+  {
+    name: "Home Pilates Reformer",
+    note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    price: "From $450",
+    url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
+  },
 ];
 
 const RELATED_CITIES = [
@@ -239,7 +245,7 @@ export default function BostonPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80" alt="Boston Massachusetts skyline" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/boston.jpg" alt="Boston Massachusetts skyline" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Boston, Massachusetts</p>

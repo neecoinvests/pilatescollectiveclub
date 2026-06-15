@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Cadillac & Trapeze Table (2026): Brands Compared | Pilates Collective Club",
-  description: "The Pilates Cadillac (Trapeze Table) explained — Balanced Body, Merrithew, and Gratz compared. What it does, who needs one, and what a full setup costs.",
-  keywords: ["best pilates cadillac", "pilates trapeze table", "pilates cadillac review", "balanced body cadillac", "merrithew cadillac", "gratz trapeze table", "pilates cadillac price", "pilates trapeze table 2026", "what is a pilates cadillac", "home pilates cadillac"],
+  title: "Best Pilates Cadillac (2026): Top Trapeze Tables Reviewed | Pilates Collective Club",
+  description: "The best Pilates cadillac tables of 2026 — Balanced Body, Gratz, and Merrithew trapeze tables compared on spring configuration, build quality, and price.",
+  keywords: ["best pilates cadillac", "pilates trapeze table review 2026", "pilates cadillac buy", "best pilates trapeze table", "balanced body cadillac review", "gratz cadillac pilates", "pilates cadillac vs reformer", "pilates cadillac table home"],
   openGraph: {
     title: "Best Pilates Cadillac & Trapeze Table (2026)",
     description: "The Pilates Cadillac — what it does, who needs one, and which brand to buy. Balanced Body vs Merrithew vs Gratz.",

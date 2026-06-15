@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Wunda Chair (2026): Balanced Body, Merrithew & Gratz Compared | Pilates Collective Club",
-  description: "The Pilates Wunda Chair guide — Balanced Body vs Merrithew vs Gratz, what the chair does, who it's for, and whether it belongs in your home studio.",
-  keywords: ["pilates wunda chair", "best pilates chair", "wunda chair review", "balanced body wunda chair", "merrithew stability chair", "pilates chair exercise", "gratz wunda chair", "pilates chair vs reformer", "wunda chair for home", "pilates chair 2026"],
+  title: "Best Pilates Chair (2026): Wunda & High Chairs Reviewed | Pilates Collective Club",
+  description: "The best Pilates chairs of 2026 — Wunda Chair, High Chair, and Combo Chair compared on pedal resistance, stability, and value for home and studio use.",
+  keywords: ["best pilates chair", "pilates wunda chair review 2026", "pilates high chair review", "pilates combo chair", "balanced body pilates chair", "merrithew pilates chair", "pilates chair buy", "pilates chair exercises"],
   openGraph: {
     title: "Best Pilates Wunda Chair (2026): Balanced Body, Merrithew & Gratz",
     description: "The definitive guide to the Pilates Wunda Chair — what it does, who makes the best one, and who should buy it.",

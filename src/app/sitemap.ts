@@ -165,18 +165,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "personalhour-pilates",
     "best-pilates-clothes-for-men",
     "best-pilates-equipment-for-men",
-    "wall-pilates-guide",
-    "pilates-for-hip-pain",
-    "pilates-for-anxiety",
-    "pilates-for-neck-pain",
-    "how-long-to-see-results-pilates",
-    "best-portable-pilates-reformer",
-    "pilates-for-osteoporosis",
-    "pilates-for-office-workers",
-    "pilates-for-knee-pain",
-    "pilates-morning-routine",
-    "best-leggings-for-reformer-pilates",
-    "pilates-studio-bag-essentials",
   ];
 
   return [

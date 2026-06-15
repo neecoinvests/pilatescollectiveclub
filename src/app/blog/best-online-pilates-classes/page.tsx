@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Online Pilates Classes (2026): Top Platforms Compared",
-  description: "Best online Pilates platforms ranked — Pilates Anytime, Alo Moves, Classical Pilates Online. Rated on repertoire depth, instructor quality, and value.",
+  title: "Best Online Pilates Classes (2026): Platforms Compared & Reviewed | Pilates Collective Club",
+  description: "The best online Pilates class platforms of 2026 — Pilates Anytime, Alo Moves, Move With Nicole, and others compared on content depth, instructor quality, and price.",
   openGraph: {
     title: "Best Online Pilates Classes (2026): Platforms Compared",
     description: "Pilates Anytime, Alo Moves, and more — the platforms worth a subscription for home and travel practice.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "The best Pilates streaming platforms compared — Pilates Anytime, Alo Moves, Classical Pilates Online and more.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
-  keywords: ["best online pilates classes", "online pilates platform", "pilates anytime review", "alo moves pilates", "online reformer pilates", "pilates streaming subscription", "best pilates app 2026", "online pilates subscription", "pilates videos online", "best pilates for home"],
+  keywords: ["best online pilates classes", "best pilates streaming 2026", "online pilates platform review", "pilates anytime review", "alo moves pilates", "move with nicole pilates", "online reformer pilates classes", "best pilates youtube channel", "pilates online subscription"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-online-pilates-classes",
   },

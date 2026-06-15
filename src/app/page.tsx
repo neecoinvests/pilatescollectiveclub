@@ -81,6 +81,18 @@ const CITIES = [
 ];
 
 const FEATURED_ITEMS: FeaturedItem[] = [
+  // 1 — Product
+  {
+    title: "Best Pilates Reformer Under $1,000 (2026): Honest Reviews",
+    excerpt: "The best mid-range reformers tested honestly — AeroPilates, Stamina, and Merrithew entry-level machines ranked by resistance quality, build, and long-term value.",
+    href: "/blog/best-pilates-reformer-under-1000",
+    category: "Best For · Equipment",
+    readTime: "10 min read",
+    imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+reformer+under+1000&tag=pilatescollective-20",
+    affiliateLabel: "Shop Reformers →",
+  },
+  // 2 — City
   {
     title: "The Best Pilates Studios in London",
     excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios. We visited every studio, tested every format, and ranked them honestly.",
@@ -89,30 +101,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     readTime: "8 min read",
     imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg",
   },
-  {
-    title: "The Best Pilates Studios in New York",
-    excerpt: "From Tribeca's classical powerhouses to the Upper East Side's boutique reformer rooms — the definitive guide to New York's five best Pilates studios, verified for 2026.",
-    href: "/cities/new-york",
-    category: "City Guide",
-    readTime: "9 min read",
-    imageUrl: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1400&q=80",
-  },
-  {
-    title: "The Best Pilates Studios in Paris",
-    excerpt: "From the Marais to Saint-Germain — Paris has quietly built one of the most sophisticated Pilates scenes in Europe. Our curated guide to the five studios worth your time.",
-    href: "/cities/paris",
-    category: "City Guide",
-    readTime: "8 min read",
-    imageUrl: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1400&q=80",
-  },
-  {
-    title: "Best Home Pilates Reformer (2026): Every Budget",
-    excerpt: "A quality home reformer changes your practice permanently. We tested every price tier — from the AeroPilates 435 to the Gratz — so you know exactly what you get at each level.",
-    href: "/blog/best-home-pilates-reformer",
-    category: "Equipment",
-    readTime: "11 min read",
-    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
-  },
+  // 3 — Article
   {
     title: "The Beginner's Guide to Reformer Pilates",
     excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence. Everything a new practitioner needs to know before stepping on the carriage.",
@@ -121,6 +110,25 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     readTime: "8 min read",
     imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
   },
+  // 4 — Product
+  {
+    title: "Best Home Pilates Reformer (2026): Every Budget",
+    excerpt: "A quality home reformer changes your practice permanently. We tested every price tier — from the AeroPilates 435 to the Gratz — so you know exactly what you get at each level.",
+    href: "/blog/best-home-pilates-reformer",
+    category: "Best For · Equipment",
+    readTime: "11 min read",
+    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
+  },
+  // 5 — City
+  {
+    title: "The Best Pilates Studios in New York",
+    excerpt: "From Tribeca's classical powerhouses to the Upper East Side's boutique reformer rooms — the definitive guide to New York's five best Pilates studios, verified for 2026.",
+    href: "/cities/new-york",
+    category: "City Guide",
+    readTime: "9 min read",
+    imageUrl: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1400&q=80",
+  },
+  // 6 — Article
   {
     title: "Classical vs Contemporary Pilates",
     excerpt: "The split between Joseph Pilates' original Contrology system and modern functional interpretations — what it means for your practice, and how to choose your lineage.",
@@ -129,6 +137,27 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     readTime: "8 min read",
     imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
   },
+  // 7 — Product
+  {
+    title: "Best Pilates Leggings (2026): Tested & Ranked",
+    excerpt: "From Lululemon Align to Splits59 Raquel — the leggings that genuinely serve the method, tested for opacity, waistband stability, and reformer performance across fifteen sessions.",
+    href: "/blog/best-pilates-leggings",
+    category: "Best For · Equipment",
+    readTime: "9 min read",
+    imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
+    affiliateUrl: "https://www.amazon.com/s?k=best+pilates+leggings+lululemon+splits59&tag=pilatescollective-20",
+    affiliateLabel: "Shop Leggings →",
+  },
+  // 8 — City
+  {
+    title: "The Best Pilates Studios in Paris",
+    excerpt: "From the Marais to Saint-Germain — Paris has quietly built one of the most sophisticated Pilates scenes in Europe. Our curated guide to the five studios worth your time.",
+    href: "/cities/paris",
+    category: "City Guide",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1400&q=80",
+  },
+  // 9 — Article
   {
     title: "Pilates for Back Pain: What the Research Shows",
     excerpt: "Clinical research meets practical guidance. What Pilates can and can't do for chronic lower back pain — and the specific exercises with the strongest evidence behind them.",
@@ -137,26 +166,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     readTime: "10 min read",
     imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
   },
-  {
-    title: "Best Pilates Leggings (2026): Tested & Ranked",
-    excerpt: "From Lululemon Align to Splits59 Raquel — the leggings that genuinely serve the method, tested for opacity, waistband stability, and reformer performance across fifteen sessions.",
-    href: "/blog/best-pilates-leggings",
-    category: "Equipment",
-    readTime: "9 min read",
-    imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
-    affiliateUrl: "https://www.amazon.com/s?k=best+pilates+leggings+lululemon+splits59&tag=pilatescollective-20",
-    affiliateLabel: "Shop Leggings →",
-  },
-  {
-    title: "Best Pilates Mat (2026): Firmness, Grip & Durability",
-    excerpt: "The mat is your most important equipment purchase. We tested five across firmness, grip, and spinal feedback — from the Manduka PRO to travel-friendly options under $40.",
-    href: "/blog/best-pilates-mat",
-    category: "Best For · Equipment",
-    readTime: "9 min read",
-    imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pilates+mat+pro&tag=pilatescollective-20",
-    affiliateLabel: "Shop Mats →",
-  },
+  // 10 — Product
   {
     title: "Best Pilates Grip Socks (2026): Tested & Ranked",
     excerpt: "Required at virtually every reformer studio worldwide. We tested five options across grip, durability, and comfort — from ToeSox to Tavi Noir — so you don't have to.",
@@ -167,6 +177,45 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/s?k=pilates+grip+socks+toesox+tavi&tag=pilatescollective-20",
     affiliateLabel: "Shop Grip Socks →",
   },
+  // 11 — City
+  {
+    title: "The Best Pilates Studios in Zurich",
+    excerpt: "From lakeside private studios to Seefeld reformer boutiques — our complete guide to Zurich's refined, results-driven Pilates scene. Six studios worth your time.",
+    href: "/cities/zurich",
+    category: "City Guide",
+    readTime: "8 min read",
+    imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
+  },
+  // 12 — Article
+  {
+    title: "Pilates vs Yoga: Key Differences",
+    excerpt: "A clear, honest comparison of two of the world's most popular movement practices — how they differ in method, intent, and outcome, and how to decide which is right for you.",
+    href: "/blog/pilates-vs-yoga",
+    category: "Method",
+    readTime: "7 min read",
+    imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+  },
+  // 13 — Product
+  {
+    title: "Best Pilates Mat (2026): Firmness, Grip & Durability",
+    excerpt: "The mat is your most important equipment purchase. We tested five across firmness, grip, and spinal feedback — from the Manduka PRO to travel-friendly options under $40.",
+    href: "/blog/best-pilates-mat",
+    category: "Best For · Equipment",
+    readTime: "9 min read",
+    imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+pilates+mat+pro&tag=pilatescollective-20",
+    affiliateLabel: "Shop Mats →",
+  },
+  // 14 — City
+  {
+    title: "The Best Pilates Studios in Tokyo",
+    excerpt: "From Minami-Aoyama's precision reformer studios to Daikanyama's boutique movement spaces — the definitive guide to Tokyo's most respected Pilates studios.",
+    href: "/cities/tokyo",
+    category: "City Guide",
+    readTime: "8 min read",
+    imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1400&q=80",
+  },
+  // 15 — Product
   {
     title: "Best Premium Pilates Reformers (2026): $2K–$5K+",
     excerpt: "Merrithew V2 Max, Balanced Body Studio Reformer, and Gratz Maple Classic tested side by side. Which professional-grade machine is worth the investment?",
@@ -177,6 +226,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/s?k=merrithew+balanced+body+reformer+premium&tag=pilatescollective-20",
     affiliateLabel: "Shop Premium Reformers →",
   },
+  // 16 — Product
   {
     title: "Best Pilates Magic Circle (2026): Tested",
     excerpt: "Joseph Pilates invented it. We tested five versions — from STOTT to Balanced Body — for resistance feel, pad quality, and durability across 30 sessions of inner thigh and arm work.",
@@ -502,99 +552,116 @@ export default function Home() {
       <main>
 
         {/* Hero */}
-        <section className="pcc-hero-section" style={{
-          padding: "160px 40px 100px",
-          backgroundColor: "#ffffff",
+        <section style={{
           position: "relative",
+          height: "100vh",
+          minHeight: "680px",
+          maxHeight: "1000px",
           overflow: "hidden",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "flex-end",
         }}>
+          {/* Full-bleed background image */}
+          <Image
+            src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"
+            alt="Pilates studio"
+            fill
+            style={{ objectFit: "cover", objectPosition: "center 20%" }}
+            priority
+          />
+          {/* Cinematic gradient overlay — dark at bottom for legibility */}
           <div style={{
             position: "absolute",
             inset: 0,
-            zIndex: 0,
+            background: "linear-gradient(to top, rgba(8,8,8,0.90) 0%, rgba(8,8,8,0.45) 45%, rgba(8,8,8,0.10) 100%)",
+          }} />
+          {/* Top bar — logo label */}
+          <div style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            padding: "32px 52px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            zIndex: 2,
           }}>
-            <Image
-              src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"
-              alt="Pilates studio reformer background"
-              fill
-              style={{ objectFit: "cover", objectPosition: "center 30%", opacity: 0.07 }}
-              priority
-            />
-          </div>
-          {/* Floating decorative SVG */}
-          <div className="pcc-hero-svg" style={{ position: "absolute", right: 0, top: 0, bottom: 0, width: "52%", zIndex: 0, pointerEvents: "none", display: "flex", alignItems: "center" }} aria-hidden="true">
-            <svg width="560" height="620" viewBox="0 0 560 620" fill="none" xmlns="http://www.w3.org/2000/svg">
-              {/* Large circle — magic circle reference */}
-              <circle cx="400" cy="310" r="210" stroke="#b87355" strokeWidth="1.2" opacity="0.11" fill="none"/>
-              <circle cx="400" cy="310" r="175" stroke="#b87355" strokeWidth="0.6" opacity="0.07" fill="none"/>
-              {/* Main flowing ribbon — echoes the logo wave mark */}
-              <path d="M 540 -10 C 460 80 300 100 350 230 C 400 360 560 380 460 510 C 400 590 230 610 280 700" stroke="#b87355" strokeWidth="2.5" strokeLinecap="round" opacity="0.36" fill="none"/>
-              {/* Secondary ribbon */}
-              <path d="M 570 20 C 490 110 330 130 380 260 C 430 390 590 410 490 540 C 430 620 260 640 310 730" stroke="#b87355" strokeWidth="1.2" strokeLinecap="round" opacity="0.2" fill="none"/>
-              {/* Tertiary ribbon — thin */}
-              <path d="M 510 -30 C 430 60 270 80 320 210 C 370 340 530 360 430 490 C 370 570 200 590 250 680" stroke="#b87355" strokeWidth="0.6" strokeLinecap="round" opacity="0.12" fill="none"/>
-              {/* Reformer spring lines */}
-              <line x1="155" y1="340" x2="205" y2="340" stroke="#b87355" strokeWidth="1.2" strokeLinecap="round" opacity="0.22"/>
-              <line x1="148" y1="354" x2="198" y2="354" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.16"/>
-              <line x1="155" y1="368" x2="205" y2="368" stroke="#b87355" strokeWidth="0.8" strokeLinecap="round" opacity="0.11"/>
-              {/* Dots */}
-              <circle cx="460" cy="100" r="4" fill="#b87355" opacity="0.28"/>
-              <circle cx="255" cy="215" r="2.5" fill="#b87355" opacity="0.22"/>
-              <circle cx="510" cy="400" r="3" fill="#b87355" opacity="0.26"/>
-              <circle cx="205" cy="475" r="2" fill="#b87355" opacity="0.18"/>
-              <circle cx="430" cy="540" r="4.5" fill="#b87355" opacity="0.2"/>
-              <circle cx="310" cy="140" r="2" fill="#b87355" opacity="0.19"/>
-              {/* Cross sparkles */}
-              <line x1="170" y1="158" x2="170" y2="172" stroke="#b87355" strokeWidth="1.5" strokeLinecap="round" opacity="0.26"/>
-              <line x1="163" y1="165" x2="177" y2="165" stroke="#b87355" strokeWidth="1.5" strokeLinecap="round" opacity="0.26"/>
-              <line x1="520" y1="480" x2="520" y2="491" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.2"/>
-              <line x1="514" y1="485" x2="526" y2="485" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.2"/>
-              <line x1="270" y1="570" x2="270" y2="579" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.17"/>
-              <line x1="265" y1="574" x2="275" y2="574" stroke="#b87355" strokeWidth="1" strokeLinecap="round" opacity="0.17"/>
-            </svg>
+            <p style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "10px",
+              fontWeight: 500,
+              letterSpacing: "0.22em",
+              textTransform: "uppercase" as const,
+              color: "rgba(255,255,255,0.55)",
+              margin: 0,
+            }}>
+              Pilates Collective Club
+            </p>
+            <p style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "10px",
+              fontWeight: 400,
+              letterSpacing: "0.15em",
+              textTransform: "uppercase" as const,
+              color: "rgba(255,255,255,0.35)",
+              margin: 0,
+            }}>
+              Est. 2026
+            </p>
           </div>
 
-          <div style={{ maxWidth: "1200px", margin: "0 auto", position: "relative", zIndex: 1 }}>
-            <p style={{ ...label, marginBottom: "32px" }}>The Pilates Collective Club</p>
+          {/* Main content — pinned to bottom */}
+          <div style={{
+            position: "relative",
+            zIndex: 2,
+            padding: "0 52px 64px",
+            maxWidth: "1300px",
+            width: "100%",
+          }}>
+            {/* Thin gold rule */}
+            <div style={{ width: "48px", height: "1px", backgroundColor: "#c5a882", marginBottom: "28px" }} />
+
             <h1 style={{
               fontFamily: "var(--font-serif)",
-              fontSize: "clamp(52px, 8vw, 104px)",
+              fontSize: "clamp(48px, 7.5vw, 112px)",
               fontWeight: 300,
-              lineHeight: 1.0,
-              color: "#0a0a0a",
-              maxWidth: "820px",
-              letterSpacing: "-0.01em",
-              marginBottom: "0",
+              lineHeight: 0.98,
+              color: "#ffffff",
+              letterSpacing: "-0.02em",
+              marginBottom: "36px",
+              maxWidth: "780px",
             }}>
-              From the powerhouse,<br />
-              <em>everything follows.</em>
+              From the<br />
+              powerhouse,<br />
+              <em style={{ color: "#c5a882" }}>everything follows.</em>
             </h1>
 
-            <div style={{ height: "1px", backgroundColor: "#ede9e3", margin: "52px 0" }} />
-
-            <div className="pcc-hero-body" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "40px", flexWrap: "wrap" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "32px", flexWrap: "wrap" }}>
               <p style={{
                 fontFamily: "var(--font-sans)",
-                fontSize: "15px",
+                fontSize: "13px",
                 fontWeight: 300,
-                color: "#6b6560",
-                lineHeight: 1.75,
-                maxWidth: "480px",
+                color: "rgba(255,255,255,0.55)",
+                lineHeight: 1.7,
+                maxWidth: "380px",
                 margin: 0,
+                letterSpacing: "0.01em",
               }}>
-                Curated city guides, editorial studio reviews, and the best in Pilates equipment — written by practitioners, for practitioners.
+                Curated studio guides, editorial reviews, and the best in Pilates equipment — written by practitioners.
               </p>
-              <div className="pcc-hero-ctas" style={{ display: "flex", gap: "16px", flexShrink: 0 }}>
+              <div style={{ display: "flex", gap: "12px", flexShrink: 0 }}>
                 <Link href="/blog" style={{
                   fontFamily: "var(--font-sans)",
                   fontSize: "10px",
                   fontWeight: 500,
                   letterSpacing: "0.18em",
-                  textTransform: "uppercase",
-                  color: "#ffffff",
+                  textTransform: "uppercase" as const,
+                  color: "#0a0a0a",
                   textDecoration: "none",
-                  backgroundColor: "#0a0a0a",
-                  padding: "14px 28px",
+                  backgroundColor: "#ffffff",
+                  padding: "13px 26px",
                   display: "inline-block",
                 }}>
                   Read the Journal
@@ -604,17 +671,41 @@ export default function Home() {
                   fontSize: "10px",
                   fontWeight: 500,
                   letterSpacing: "0.18em",
-                  textTransform: "uppercase",
-                  color: "#0a0a0a",
+                  textTransform: "uppercase" as const,
+                  color: "#ffffff",
                   textDecoration: "none",
-                  border: "1px solid #0a0a0a",
-                  padding: "14px 28px",
+                  border: "1px solid rgba(255,255,255,0.4)",
+                  padding: "13px 26px",
                   display: "inline-block",
                 }}>
                   Browse Studios
                 </Link>
               </div>
             </div>
+          </div>
+
+          {/* Scroll cue */}
+          <div style={{
+            position: "absolute",
+            bottom: "36px",
+            right: "52px",
+            zIndex: 2,
+            display: "flex",
+            flexDirection: "column" as const,
+            alignItems: "center",
+            gap: "8px",
+          }}>
+            <p style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "9px",
+              fontWeight: 400,
+              letterSpacing: "0.2em",
+              textTransform: "uppercase" as const,
+              color: "rgba(255,255,255,0.3)",
+              margin: 0,
+              writingMode: "vertical-rl" as const,
+            }}>Scroll</p>
+            <div style={{ width: "1px", height: "40px", backgroundColor: "rgba(255,255,255,0.2)" }} />
           </div>
         </section>
 
@@ -630,30 +721,31 @@ export default function Home() {
 
         <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
-        {/* Journal */}
-        <section className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
+        {/* Equipment */}
+        <section id="equipment" className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "8px" }}>
+            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "64px" }}>
               <div>
-                <p style={{ ...label, marginBottom: "12px" }}>Editorial</p>
+                <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
                 <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
-                  Journal
+                  Editor&apos;s essentials
                 </h2>
               </div>
-              <Link href="/blog" style={{
-                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
-                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
-                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
-              }}>
-                All articles
-              </Link>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#9a9490", margin: 0 }}>
+                Carefully selected. Available on Amazon.
+              </p>
             </div>
 
-            <div className="pcc-grid-journal" style={{ display: "grid", gap: "0 60px" }}>
-              {GUIDES.map((g) => (
-                <ArticleCard key={g.href} {...g} />
-              ))}
-            </div>
+            {PRODUCT_CATEGORIES.map((cat, ci) => (
+              <div key={cat.label} style={{ marginBottom: ci < PRODUCT_CATEGORIES.length - 1 ? "72px" : 0 }}>
+                <p style={{ ...label, marginBottom: "28px", color: "#0a0a0a" }}>{cat.label}</p>
+                <div className="pcc-grid-products" style={{ display: "grid", gap: "24px" }}>
+                  {cat.items.map((p) => (
+                    <ProductCard key={p.name} {...p} />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -688,31 +780,30 @@ export default function Home() {
 
         <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
-        {/* Equipment */}
-        <section id="equipment" className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
+        {/* Journal */}
+        <section className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "64px" }}>
+            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "8px" }}>
               <div>
-                <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
+                <p style={{ ...label, marginBottom: "12px" }}>Editorial</p>
                 <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
-                  Editor&apos;s essentials
+                  Journal
                 </h2>
               </div>
-              <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#9a9490", margin: 0 }}>
-                Carefully selected. Available on Amazon.
-              </p>
+              <Link href="/blog" style={{
+                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
+                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
+                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
+              }}>
+                All articles
+              </Link>
             </div>
 
-            {PRODUCT_CATEGORIES.map((cat, ci) => (
-              <div key={cat.label} style={{ marginBottom: ci < PRODUCT_CATEGORIES.length - 1 ? "72px" : 0 }}>
-                <p style={{ ...label, marginBottom: "28px", color: "#0a0a0a" }}>{cat.label}</p>
-                <div className="pcc-grid-products" style={{ display: "grid", gap: "24px" }}>
-                  {cat.items.map((p) => (
-                    <ProductCard key={p.name} {...p} />
-                  ))}
-                </div>
-              </div>
-            ))}
+            <div className="pcc-grid-journal" style={{ display: "grid", gap: "0 60px" }}>
+              {GUIDES.map((g) => (
+                <ArticleCard key={g.href} {...g} />
+              ))}
+            </div>
           </div>
         </section>
 

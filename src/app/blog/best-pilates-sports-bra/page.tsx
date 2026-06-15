@@ -7,8 +7,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Sports Bra (2026): Studio-Tested Coverage",
-  description: "The best sports bras for Pilates tested for instructor visibility, reformer comfort, and coverage in inversions — from Lululemon Free to Be to Alo Airlift.",
+  title: "Best Pilates Sports Bra (2026): Support & Coverage Reviewed | Pilates Collective Club",
+  description: "The best sports bras for Pilates — light to medium support bras from Lululemon, Alo, and Sweaty Betty reviewed for reformer coverage and strap stability.",
   openGraph: {
     title: "Best Sports Bras for Pilates (2026): Coverage & Studio Style",
     description: "The bra your instructor is wearing — and the four alternatives worth considering across every price point.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "The best sports bras for Pilates — honest reviews from Lululemon to Alo to Girlfriend Collective.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
-  keywords: ["best sports bra for pilates", "pilates sports bra", "best bra for pilates", "lululemon pilates bra", "alo airlift bra pilates", "sports bra reformer pilates", "pilates bra coverage", "best workout bra pilates 2026", "low impact sports bra pilates", "pilates studio bra"],
+  keywords: ["best pilates sports bra", "sports bra for pilates 2026", "best bra for reformer pilates", "pilates sports bra coverage", "lululemon sports bra pilates", "alo sports bra pilates", "sweaty betty bra pilates", "light support bra pilates"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-sports-bra",
   },

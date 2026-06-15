@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Columbus, OH (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Columbus, OH. From Short North and Bexley to Upper Arlington and Grandview — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Columbus, OH (2026) — Curated Guide",
+  description: "The best Pilates studios in Columbus — reformer boutiques in Short North, German Village, and Clintonville. Verified 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Columbus OH",
-    "best pilates Columbus Ohio",
-    "reformer pilates Columbus",
-    "Short North pilates studio",
-    "Upper Arlington pilates",
-    "Bexley pilates studio",
-    "Columbus pilates classes 2026",
-    "Club Pilates Columbus",
-  ],
+  keywords: ["pilates columbus", "reformer pilates columbus", "best pilates studios columbus ohio", "pilates studio columbus oh", "pilates classes columbus", "short north pilates", "german village pilates", "pilates ohio", "best reformer pilates columbus"],
   openGraph: {
-    title: "Best Pilates Studios in Columbus, OH (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Columbus, OH (2026)",
     description:
-      "Discover the 6 best Pilates studios in Columbus, OH. From Short North to Grandview — expert picks and booking tips for 2026.",
+      "Curated Pilates studios in Columbus — Short North and German Village reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/columbus",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Columbus, OH (2026)",
+    title: "Best Pilates Studios in Columbus (2026)",
     description:
       "The 6 best Pilates studios in Columbus — curated, verified, and reviewed for 2026.",
     images: [

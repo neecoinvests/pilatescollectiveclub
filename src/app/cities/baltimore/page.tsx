@@ -9,29 +9,19 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Baltimore, MD (2026) — Curated & Verified",
-  description:
-    "Discover the 6 best Pilates studios in Baltimore, MD. From Fells Point and Canton to Hampden and Mount Washington — expert picks, honest reviews, and booking tips for 2026.",
+  title: "Best Pilates Studios in Baltimore, MD (2026) — Curated Guide",
+  description: "The best Pilates studios in Baltimore — reformer boutiques and classical method practices in Fells Point, Mount Vernon, and Harbor East. Verified 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: [
-    "pilates studios Baltimore MD",
-    "best pilates Baltimore",
-    "reformer pilates Baltimore",
-    "Fells Point pilates",
-    "Canton pilates studio",
-    "Hampden pilates Baltimore",
-    "Baltimore pilates classes 2026",
-    "Club Pilates Baltimore",
-  ],
+  keywords: ["pilates baltimore", "reformer pilates baltimore", "best pilates studios baltimore", "pilates studio baltimore md", "pilates classes baltimore", "fells point pilates", "harbor east pilates", "pilates maryland", "best reformer pilates baltimore"],
   openGraph: {
-    title: "Best Pilates Studios in Baltimore, MD (2026) — Curated & Verified",
+    title: "Best Pilates Studios in Baltimore, MD (2026)",
     description:
-      "Discover the 6 best Pilates studios in Baltimore, MD. From Fells Point to Hampden — expert picks and booking tips for 2026.",
+      "Curated Pilates studios in Baltimore — reformer and classical picks from Fells Point to Harbor East. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/baltimore",
     images: [
@@ -45,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Baltimore, MD (2026)",
+    title: "Best Pilates Studios in Baltimore (2026)",
     description:
       "The 6 best Pilates studios in Baltimore — curated, verified, and reviewed for 2026.",
     images: [

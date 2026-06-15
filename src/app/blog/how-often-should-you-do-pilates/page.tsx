@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "How Often Should You Do Pilates? (2026 Guide)",
-  description: "How many times per week should you do Pilates? Evidence-based guidance on optimal frequency for beginners, intermediate, and goal-specific practitioners.",
+  title: "How Often Should You Do Pilates? (2026 Expert Guide) | Pilates Collective Club",
+  description: "How often to do Pilates for results — frequency recommendations for beginners, intermediates, and advanced practitioners, with recovery and consistency guidance.",
   openGraph: {
     title: "How Often Should You Do Pilates? The Evidence-Based Answer",
     description: "Beginner or advanced, daily or twice weekly — exactly how much Pilates you need for your specific goals.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "The evidence-based answer — beginners, intermediate, and goal-specific frequency guidance.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
   },
-  keywords: ["how often should you do pilates", "how many times a week pilates", "pilates frequency", "how often pilates", "pilates sessions per week", "pilates how many times week", "is daily pilates too much", "pilates schedule beginner", "optimal pilates frequency", "pilates training frequency"],
+  keywords: ["how often should you do pilates", "pilates frequency 2026", "how many times a week pilates", "pilates 3 times a week results", "pilates daily is it ok", "best pilates schedule", "how often reformer pilates", "pilates frequency beginners"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/how-often-should-you-do-pilates",
   },
@@ -162,9 +162,9 @@ export default function HowOftenShouldYouDoPilatesPage() {
               </p>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 For modern practitioners with studio memberships at $25-40 per class, daily Pilates is a financial impossibility for most. The practical solution is a combination approach: 2-3 studio sessions per week supplemented by home mat practice. For home mat practice, a quality{" "}
-                <a href="https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>mat</a>{" "}
+                mat{" "}
                 and a{" "}
-                <a href="/blog/best-online-pilates-classes" style={{ color: "#8b4a31", fontWeight: 600 }}>streaming platform</a>{" "}
+                streaming platform{" "}
                 like Pilates Anytime ($22/month) provide accessible daily practice.
               </p>
 

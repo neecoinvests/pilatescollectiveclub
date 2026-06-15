@@ -5,8 +5,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Retreats in Europe (2026): Tested & Ranked | Pilates Collective Club",
-  description: "The best Pilates retreats in Europe for 2026: reformer immersions in Portugal, Mallorca, Tuscany, and the Swiss Alps. Prices and inclusions compared.",
+  title: "Best Pilates Retreats in Europe (2026): Top Picks by Country | Pilates Collective Club",
+  description: "The best Pilates retreats in Europe — reformer and classical method retreats in Portugal, Spain, Italy, and beyond, curated for 2026.",
   openGraph: {
     title: "The Best Pilates Retreats in Europe",
     description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "From Provence to Puglia — the European Pilates retreats worth planning your year around.",
     images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
-  keywords: ["pilates retreats europe", "best pilates retreat", "pilates holiday europe", "pilates retreat italy", "pilates retreat france", "pilates retreat portugal", "pilates retreat switzerland", "pilates immersion retreat", "pilates wellness holiday", "pilates retreat 2026"],
+  keywords: ["best pilates retreats europe", "pilates retreat europe 2026", "pilates holiday europe", "reformer pilates retreat", "pilates retreat portugal", "pilates retreat spain", "pilates retreat italy", "pilates wellness retreat europe", "best pilates getaway europe"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
   },
@@ -195,6 +195,80 @@ export default function BestPilatesRetreatsEuropePage() {
             { title: "Pilates and Pregnancy", href: "/blog/pilates-and-pregnancy", readTime: "8 min read", imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" },
           ]} />
         </div>
+
+        {/* Gear Section */}
+        <section style={{ backgroundColor: "#fcf9f8", padding: "60px 24px" }}>
+          <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>Equipment</p>
+            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "28px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>What to pack for a Pilates retreat</h2>
+            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", color: "#53433e", marginBottom: "32px", lineHeight: 1.7 }}>
+              Most retreat centres supply equipment — but bringing your own grip socks and a travel mat is always recommended.{" "}<a href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>Affiliate disclosure.</a>
+            </p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
+              
+                <a href="https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Grip Socks</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Required at every reformer studio. Full-toe grip socks prevent slipping on the carriage.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $16</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Mat (6mm)</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A quality non-slip mat for mat class and home practice. Thicker than a standard yoga mat.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $45</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.amazon.com/s?k=pilates+yoga+mat+bag+carrier&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Mat Bag</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A dedicated mat carrier makes getting to class significantly easier — no awkward balancing.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $22</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.amazon.com/s?k=pilates+gym+bag+compact&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Gym Bag</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A compact gym-to-studio bag that fits a mat, socks, a change of clothes, and a water bottle.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $30</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    <div>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Foam Roller</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Essential for spinal mobility, fascial release, and warm-up before class.</p>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $28</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                    </div>
+                  </div>
+                </a>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>

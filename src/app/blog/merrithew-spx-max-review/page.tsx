@@ -7,9 +7,9 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Merrithew SPX Max Review (2026): Flat-Folding Professional Reformer | Pilates Collective Club",
-  description: "An honest deep review of the Merrithew SPX Max — 5-spring system, flat-fold storage, carriage quality, and how it compares to the Balanced Body Allegro 2.",
-  keywords: ["merrithew spx max review", "merrithew spx max", "stott pilates reformer review", "merrithew reformer review", "spx max vs allegro 2", "merrithew at home reformer", "best studio pilates reformer home", "merrithew 2026", "stott pilates machine review", "spx max reformer price"],
+  title: "Merrithew SPX Max Reformer Review (2026): Full Verdict | Pilates Collective Club",
+  description: "Merrithew SPX Max reformer reviewed in full — spring resistance, carriage glide, footbar precision, stability, and how it compares to the V2 Max and Balanced Body Allegro 2.",
+  keywords: ["merrithew spx max review", "merrithew spx max reformer 2026", "stott pilates spx max review", "spx max vs v2 max merrithew", "merrithew spx max buy", "best home reformer merrithew spx", "merrithew spx max price", "stott spx reformer comparison"],
   openGraph: {
     title: "Merrithew SPX Max Review (2026): Honestly Assessed",
     description: "Deep review of the Merrithew SPX Max — 5-spring system, flat-fold storage, and the Allegro 2 comparison.",
