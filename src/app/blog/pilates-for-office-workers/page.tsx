@@ -62,7 +62,7 @@ const jsonLd = {
   ],
 };
 
-const PRODUCTS = [
+const DESK_PRODUCTS = [
   { name: "Full-length foam roller (90cm)", desc: "Thoracic extension — the highest-value tool for desk workers", url: "https://www.amazon.co.uk/s?k=foam+roller+full+90cm+pilates&tag=pilatescollective-20" },
   { name: "Resistance bands set", desc: "Scapular rows and hip strengthening at home", url: "https://www.amazon.co.uk/s?k=resistance+bands+set+fabric+pilates&tag=pilatescollective-20" },
   { name: "Non-slip Pilates mat", desc: "For the daily 10-minute desk worker routine", url: "https://www.amazon.co.uk/s?k=non+slip+pilates+mat+thick&tag=pilatescollective-20" },
@@ -196,7 +196,7 @@ export default function PilatesForOfficeWorkersPage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment for your home desk worker routine</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {PRODUCTS.map((item) => (
+                {DESK_PRODUCTS.map((item) => (
                   <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="block rounded-xl p-5 transition-opacity hover:opacity-80" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
                     <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.name}</p>
                     <p className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.desc}</p>

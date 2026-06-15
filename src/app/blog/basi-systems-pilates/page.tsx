@@ -120,13 +120,6 @@ const jsonLd = {
   ],
 };
 
-const PRODUCTS = [
-  { name: "Pilates Anatomy by Rael Isacowitz", description: "Written by BASI Systems founder Rael Isacowitz — the definitive anatomy reference for Pilates practitioners and the philosophical companion to the BASI approach.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=pilates+anatomy+book+rael+isacowitz&tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "For home practice between BASI studio sessions. Resistance bands replicate some of the spring loading that the BASI reformer provides — useful for maintaining the work between sessions.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
-  { name: "OPTP Foam Roller (36-inch)", description: "Thoracic mobility and spinal articulation work that complements BASI studio sessions. Consistent foam roller work between sessions maintains the spinal mobility that BASI training develops.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "A BASI-compatible home apparatus piece — used in the BASI approach for lateral integration work and consistent with the method's emphasis on whole-body connection.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
-  { name: "Manduka PRO Pilates Mat", description: "The mat that supports the BASI mat repertoire at home. High density and consistent surface quality match the precision that BASI training demands.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
-];
 
 export default function BasiSystemsPilatesPage() {
   return (
@@ -231,17 +224,6 @@ export default function BasiSystemsPilatesPage() {
               </div>
             </div>
 
-
-            {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
-              <div className="space-y-8">
-                {PRODUCTS.map((p) => (
-                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
-                ))}
-              </div>
-            </div>
 
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
