@@ -540,8 +540,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     category: "Guide",
     readTime: "8 min",
     imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
-  },,
-,
+  },
   {
     title: "AeroPilates Review (2026): Honest Assessment of the Budget Reformer",
     excerpt: "Cord vs spring resistance, the rebounder, which model to choose — an honest AeroPilates review.",
