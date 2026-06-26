@@ -165,6 +165,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "personalhour-pilates",
     "best-pilates-clothes-for-men",
     "best-pilates-equipment-for-men",
+    "best-pilates-tote-bag",
+    "best-pilates-studio-bag-women",
+    "best-pilates-mat-tote",
+    "best-pilates-bag-men",
   ];
 
   return [
