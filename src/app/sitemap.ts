@@ -169,6 +169,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-pilates-studio-bag-women",
     "best-pilates-mat-tote",
     "best-pilates-bag-men",
+    "best-pilates-water-bottle",
+    "best-pilates-headband",
+    "pilates-for-diastasis-recti",
+    "postnatal-pilates",
+    "pilates-for-arthritis",
   ];
 
   return [
