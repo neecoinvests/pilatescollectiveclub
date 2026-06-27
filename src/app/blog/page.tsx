@@ -996,7 +996,47 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     category: "Brand Guide",
     readTime: "10 min",
     imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
-  }
+  },
+  {
+    title: "Does Pilates Build Muscle? (2026): The Honest Answer",
+    excerpt: "Can you build real muscle with Pilates? The science on hypertrophy, strength, and what Pilates actually does for your body.",
+    href: "/blog/does-pilates-build-muscle",
+    category: "Health",
+    readTime: "9 min",
+    imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg",
+  },
+  {
+    title: "How Many Calories Does Pilates Burn? (2026): Honest Numbers",
+    excerpt: "Accurate calorie burn data for mat and reformer Pilates — by body weight, intensity, and session type.",
+    href: "/blog/how-many-calories-does-pilates-burn",
+    category: "Health",
+    readTime: "8 min",
+    imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
+  },
+  {
+    title: "Pilates Before or After Cardio? The Evidence-Based Answer",
+    excerpt: "Should you do Pilates before or after running, cycling, or HIIT? What the research says about sequencing and recovery.",
+    href: "/blog/pilates-before-or-after-cardio",
+    category: "Guide",
+    readTime: "7 min",
+    imageUrl: "/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg",
+  },
+  {
+    title: "Pilates for Cyclists (2026): Power, Posture & Recovery",
+    excerpt: "How Pilates improves cycling performance — core stability, hip flexor release, and spinal extension for aggressive positions.",
+    href: "/blog/pilates-for-cyclists",
+    category: "Health",
+    readTime: "9 min",
+    imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
+  },
+  {
+    title: "Pilates for Fibromyalgia (2026): Gentle Exercises & What the Evidence Says",
+    excerpt: "How Pilates helps fibromyalgia — pain reduction, fatigue management, pacing principles, and the equipment that makes practice accessible.",
+    href: "/blog/pilates-for-fibromyalgia",
+    category: "Health",
+    readTime: "9 min",
+    imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg",
+  },
 ];
 
 const blogJsonLd = {

@@ -174,6 +174,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "pilates-for-diastasis-recti",
     "postnatal-pilates",
     "pilates-for-arthritis",
+    "does-pilates-build-muscle",
+    "how-many-calories-does-pilates-burn",
+    "pilates-before-or-after-cardio",
+    "pilates-for-cyclists",
+    "pilates-for-fibromyalgia",
   ];
 
   return [
