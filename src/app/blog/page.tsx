@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Megaformer Machine (2026): Lagree Equipment Reviewed",
+    excerpt: "The Lagree M3S, Supraformer, Proformer, and the best alternatives — a complete buyer's guide to Megaformer machines for home and studio use.",
+    href: "/blog/best-megaformer-machine",
+    category: "Equipment",
+    readTime: "10 min",
+    imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
+  },
+  {
+    title: "Best Exercise Sliders for Pilates (2026): Gliding Discs Tested",
+    excerpt: "Valslide, SPRI, Synergee — the sliders that replicate reformer carriage movement on any floor, for every price point.",
+    href: "/blog/best-exercise-sliders-for-pilates",
+    category: "Equipment",
+    readTime: "6 min",
+    imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
+  },
+  {
+    title: "Best Yoga Blocks for Pilates (2026): Foam, Cork & Bamboo Compared",
+    excerpt: "Manduka, Hugger Mugger cork, Lululemon, and more — tested for thoracic support, hip alignment, and Pilates-specific modifications.",
+    href: "/blog/best-yoga-blocks-for-pilates",
+    category: "Equipment",
+    readTime: "6 min",
+    imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+  },
+  {
+    title: "Best Stretch Strap for Pilates (2026): Flexibility Straps Ranked",
+    excerpt: "OPTP Stretch Out Strap, TheraBand, Manduka Align — the straps that extend hamstring and hip flexor range for every practitioner.",
+    href: "/blog/best-stretch-strap-for-pilates",
+    category: "Equipment",
+    readTime: "6 min",
+    imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
+  },
+  {
+    title: "Best Massage Balls for Pilates (2026): Trigger Point Release",
+    excerpt: "TriggerPoint MB1, Rad Hard Ball, Pso-Rite, and the Chirp Wheel — the tools that reach where foam rollers cannot.",
+    href: "/blog/best-massage-balls-for-pilates",
+    category: "Equipment",
+    readTime: "7 min",
+    imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
+  },
+  {
     title: "Best Smartwatch for Pilates (2026): Apple Watch, Garmin, Whoop & More",
     excerpt: "HRV accuracy, slim reformer-compatible profiles, and recovery metrics — the six wearables that actually work for Pilates practitioners.",
     href: "/blog/best-smartwatch-for-pilates",

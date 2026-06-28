@@ -184,6 +184,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-vibrating-foam-roller-for-pilates",
     "best-smart-ring-for-pilates",
     "best-red-light-therapy-device-for-pilates",
+    "best-exercise-sliders-for-pilates",
+    "best-yoga-blocks-for-pilates",
+    "best-stretch-strap-for-pilates",
+    "best-massage-balls-for-pilates",
+    "best-megaformer-machine",
   ];
 
   return [
