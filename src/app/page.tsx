@@ -649,7 +649,7 @@ export default function Home() {
                 margin: 0,
                 letterSpacing: "0.01em",
               }}>
-                Curated studio guides, editorial reviews, and the best in Pilates equipment — written by practitioners.
+                Curated studio guides, editorial reviews, and the best in Pilates equipment — built for the global Pilates community.
               </p>
               <div style={{ display: "flex", gap: "12px", flexShrink: 0 }}>
                 <Link href="/blog" style={{
@@ -663,6 +663,7 @@ export default function Home() {
                   backgroundColor: "#ffffff",
                   padding: "13px 26px",
                   display: "inline-block",
+                  boxSizing: "border-box" as const,
                 }}>
                   Read the Journal
                 </Link>
@@ -677,6 +678,7 @@ export default function Home() {
                   border: "1px solid rgba(255,255,255,0.4)",
                   padding: "13px 26px",
                   display: "inline-block",
+                  boxSizing: "border-box" as const,
                 }}>
                   Browse Studios
                 </Link>
@@ -761,7 +763,7 @@ export default function Home() {
                   Studio guides by city
                 </h2>
               </div>
-              <Link href="/cities/zurich" style={{
+              <Link href="/cities" style={{
                 fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
                 letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
                 textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
@@ -812,13 +814,13 @@ export default function Home() {
           <div style={{ maxWidth: "640px", margin: "0 auto", textAlign: "center" }}>
             <p style={{ ...label, marginBottom: "20px" }}>About</p>
             <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(28px, 3.5vw, 42px)", fontWeight: 400, color: "#0a0a0a", marginBottom: "32px", lineHeight: 1.2 }}>
-              Built by practitioners,<br />for practitioners.
+              The independent guide<br />for serious practitioners.
             </h2>
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#6b6560", lineHeight: 1.85, marginBottom: "20px" }}>
-              We are a small team of passionate Pilates practitioners who got tired of sifting through generic fitness directories to find truly great studios. So we built our own.
+              Pilates Collective Club is an editorially independent platform built for the global Pilates community. We research studios, review equipment, and document the method — so you spend less time searching and more time on the carriage.
             </p>
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.85 }}>
-              Every studio in our guides has been personally vetted. Every equipment pick has been tested. Every recommendation is independent — we are never paid to feature a studio.
+              Every studio guide is independently researched. Every equipment pick is selected on merit. We are never paid to feature a studio — and we are transparent about the affiliate links that keep this resource free.
             </p>
           </div>
         </section>
