@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Pilates Reformer Pads (2026): Shoulder Rests & Carriage Pads",
+    excerpt: "Balanced Body, Merrithew, AeroPilates, and aftermarket options — the replacement pads that restore comfort and extend the life of your home reformer.",
+    href: "/blog/best-pilates-reformer-pads",
+    category: "Equipment",
+    readTime: "7 min",
+    imageUrl: "/pictures/stitch-reformer-spring-detail.png",
+  },
+  {
+    title: "Best Pilates Mat Cleaner (2026): Sprays & Wipes for Every Mat",
+    excerpt: "Manduka All Purpose Wash, Gaiam, Branch Basics — what actually cleans without degrading natural rubber, PU leather, or TPE mats.",
+    href: "/blog/best-pilates-mat-cleaner",
+    category: "Studio Essentials",
+    readTime: "6 min",
+    imageUrl: "/pictures/stitch-mats-corner-sunlit.png",
+  },
+  {
+    title: "Best Sweat Towel for Lagree & Pilates (2026): Studio Towels Ranked",
+    excerpt: "Rainleaf, Dock & Bay, PackTowl, Manduka Yogitoes — quick-dry microfibre and non-slip surface towels tested for the most intense studio formats.",
+    href: "/blog/best-sweat-towel-for-lagree",
+    category: "Studio Essentials",
+    readTime: "5 min",
+    imageUrl: "/pictures/stitch-water-towel-bench.png",
+  },
+  {
+    title: "Best Interval Timer for Lagree & Pilates (2026): Studio Clocks Ranked",
+    excerpt: "GymNext Flex, BTB Multi-Sport, Rogue Echo — the wall timers with 100dB buzzers and readable LEDs that run every Lagree class on the planet.",
+    href: "/blog/best-interval-timer-for-lagree",
+    category: "Studio Essentials",
+    readTime: "6 min",
+    imageUrl: "/pictures/stitch-studio-modern-row.png",
+  },
+  {
+    title: "Best Pilates Reformer Short Box (2026): Accessories Compared",
+    excerpt: "Balanced Body, Merrithew, Align, AeroPilates — the short boxes that unlock the rollback series, tree, and oblique work for home reformer owners.",
+    href: "/blog/best-pilates-reformer-short-box",
+    category: "Equipment",
+    readTime: "7 min",
+    imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png",
+  },
+  {
     title: "Best Pilates Gloves (2026): Grip Gloves for Reformer & Lagree",
     excerpt: "Harbinger, Bear Grips, Nike, RIMSports — the gloves that protect palms, add reformer grip, and support wrists without sacrificing Pilates hand sensitivity.",
     href: "/blog/best-pilates-gloves",

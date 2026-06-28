@@ -194,6 +194,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-warm-up-jacket-for-pilates",
     "best-compression-sleeves-for-pilates",
     "best-pilates-gloves",
+    "best-pilates-reformer-short-box",
+    "best-interval-timer-for-lagree",
+    "best-sweat-towel-for-lagree",
+    "best-pilates-mat-cleaner",
+    "best-pilates-reformer-pads",
   ];
 
   return [
