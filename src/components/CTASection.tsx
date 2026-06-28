@@ -33,7 +33,7 @@ export default function CTASection({
           </p>
         )}
         <a
-          href="/cities/zurich"
+          href="/cities"
           className="inline-block px-8 py-3.5 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
           style={{
             backgroundColor: "#ffffff",
