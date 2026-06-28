@@ -189,6 +189,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-stretch-strap-for-pilates",
     "best-massage-balls-for-pilates",
     "best-megaformer-machine",
+    "best-mini-resistance-loops-for-pilates",
+    "best-yoga-mat-towel-for-pilates",
+    "best-warm-up-jacket-for-pilates",
+    "best-compression-sleeves-for-pilates",
+    "best-pilates-gloves",
   ];
 
   return [

@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Pilates Gloves (2026): Grip Gloves for Reformer & Lagree",
+    excerpt: "Harbinger, Bear Grips, Nike, RIMSports — the gloves that protect palms, add reformer grip, and support wrists without sacrificing Pilates hand sensitivity.",
+    href: "/blog/best-pilates-gloves",
+    category: "Equipment",
+    readTime: "6 min",
+    imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
+  },
+  {
+    title: "Best Compression Sleeves for Pilates (2026): Calves, Knees & Arms",
+    excerpt: "CEP Run Calf 3.0, 2XU, Zensah, Bauerfeind GenuTrain — the compression gear that accelerates recovery and supports joints through reformer work.",
+    href: "/blog/best-compression-sleeves-for-pilates",
+    category: "Clothing",
+    readTime: "7 min",
+    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
+  },
+  {
+    title: "Best Warm-Up Jacket for Pilates (2026): Studio-to-Street Picks",
+    excerpt: "Alo Accolade Bomber, Lululemon Define, Beyond Yoga Foldover — the warm-up jackets that transition from reformer warm-up to studio lobby without missing a beat.",
+    href: "/blog/best-warm-up-jacket-for-pilates",
+    category: "Clothing",
+    readTime: "7 min",
+    imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
+  },
+  {
+    title: "Best Yoga Mat Towel for Pilates (2026): Non-Slip Picks Tested",
+    excerpt: "Manduka eQua, Liforme, Gaiam — the mat towels that turn any surface into a non-slip Pilates platform, ranked by grip, drying speed, and value.",
+    href: "/blog/best-yoga-mat-towel-for-pilates",
+    category: "Equipment",
+    readTime: "6 min",
+    imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
+  },
+  {
+    title: "Best Mini Resistance Loops for Pilates (2026): Glute Bands Ranked",
+    excerpt: "Peach Bands, Lululemon Emerge, TheraBand CLX — the mini loops that add targeted glute, hip, and thigh resistance to reformer and mat Pilates.",
+    href: "/blog/best-mini-resistance-loops-for-pilates",
+    category: "Equipment",
+    readTime: "6 min",
+    imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+  },
+  {
     title: "Best Megaformer Machine (2026): Lagree Equipment Reviewed",
     excerpt: "The Lagree M3S, Supraformer, Proformer, and the best alternatives — a complete buyer's guide to Megaformer machines for home and studio use.",
     href: "/blog/best-megaformer-machine",
