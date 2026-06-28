@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Smartwatch for Pilates (2026): Apple Watch, Garmin, Whoop & More",
+    excerpt: "HRV accuracy, slim reformer-compatible profiles, and recovery metrics — the six wearables that actually work for Pilates practitioners.",
+    href: "/blog/best-smartwatch-for-pilates",
+    category: "Tech & Devices",
+    readTime: "8 min",
+    imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
+  },
+  {
+    title: "Best Massage Gun for Pilates Recovery (2026): Theragun, Hypervolt & More",
+    excerpt: "Percussion devices for post-reformer muscle release — from the clinical-grade Theragun PRO Plus to compression boots that replace a sports massage.",
+    href: "/blog/best-massage-gun-for-pilates",
+    category: "Tech & Devices",
+    readTime: "7 min",
+    imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
+  },
+  {
+    title: "Best Vibrating Foam Roller for Pilates (2026): Hyperice, Therabody & More",
+    excerpt: "Thoracic extension, hip flexor release, IT band work — vibration rollers that deliver where standard foam cannot.",
+    href: "/blog/best-vibrating-foam-roller-for-pilates",
+    category: "Tech & Devices",
+    readTime: "7 min",
+    imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+  },
+  {
+    title: "Best Smart Ring for Pilates (2026): Oura Ring 4, Samsung Galaxy Ring & More",
+    excerpt: "No wrist bulk, no reformer interference — the smart rings delivering HRV, recovery scores, and sleep data that outperform most smartwatches.",
+    href: "/blog/best-smart-ring-for-pilates",
+    category: "Tech & Devices",
+    readTime: "7 min",
+    imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
+  },
+  {
+    title: "Best Red Light Therapy Device for Pilates Recovery (2026)",
+    excerpt: "Joovv Solo 3.0, Mito Red MitoPRO 300, and the panels that deliver therapeutic irradiance for post-reformer muscle recovery.",
+    href: "/blog/best-red-light-therapy-device-for-pilates",
+    category: "Tech & Devices",
+    readTime: "9 min",
+    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
+  },
+  {
     title: "Best Premium Pilates Reformers (2026): $2,000–$5,000+ Reviewed",
     excerpt: "Balanced Body Allegro 2, Merrithew V2 Max, Gratz, Elina Elite Wood, Peak MVe — verified prices and honest assessments for serious home practitioners.",
     href: "/blog/best-premium-pilates-reformer",

@@ -179,6 +179,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "pilates-before-or-after-cardio",
     "pilates-for-cyclists",
     "pilates-for-fibromyalgia",
+    "best-smartwatch-for-pilates",
+    "best-massage-gun-for-pilates",
+    "best-vibrating-foam-roller-for-pilates",
+    "best-smart-ring-for-pilates",
+    "best-red-light-therapy-device-for-pilates",
   ];
 
   return [
