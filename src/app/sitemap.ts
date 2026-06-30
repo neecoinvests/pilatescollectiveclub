@@ -64,6 +64,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const blogPosts = [
+    "best-indoor-spin-bike-for-home-studio",
+    "best-cycling-shoes-for-spin-class",
+    "best-padded-cycling-shorts-for-spin",
+    "best-heart-rate-monitor-for-pilates-and-spin",
+    "best-lagree-resistance-springs-cables",
     "beginners-guide-to-reformer-pilates",
     "6-core-principles-of-pilates-explained",
     "how-to-choose-a-pilates-instructor",

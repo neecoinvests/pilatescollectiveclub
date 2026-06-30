@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Indoor Spin Bike for Home Studios (2026)",
+    excerpt: "Peloton, Schwinn IC4, NordicTrack, and budget picks compared for resistance, ride feel, and connected training apps.",
+    href: "/blog/best-indoor-spin-bike-for-home-studio",
+    category: "Equipment",
+    readTime: "11 min",
+    imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg",
+  },
+  {
+    title: "Best Cycling Shoes for Spin Class (2026)",
+    excerpt: "Clip-in and cage-compatible cycling shoes compared for power transfer, comfort, and pedal compatibility.",
+    href: "/blog/best-cycling-shoes-for-spin-class",
+    category: "Equipment",
+    readTime: "9 min",
+    imageUrl: "/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg",
+  },
+  {
+    title: "Best Padded Cycling Shorts for Spin Class (2026)",
+    excerpt: "Chamois quality, compression fit, and breathability compared across women's and men's options for long studio sessions.",
+    href: "/blog/best-padded-cycling-shorts-for-spin",
+    category: "Equipment",
+    readTime: "8 min",
+    imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
+  },
+  {
+    title: "Best Heart Rate Monitor for Pilates & Spin (2026)",
+    excerpt: "Chest straps and arm bands compared for accuracy, comfort, and compatibility with Peloton, Zwift, and Apple fitness apps.",
+    href: "/blog/best-heart-rate-monitor-for-pilates-and-spin",
+    category: "Tech & Devices",
+    readTime: "9 min",
+    imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
+  },
+  {
+    title: "Best Lagree Reformer Springs & Resistance Cables (2026)",
+    excerpt: "The best replacement springs and resistance cables for Megaformer and Lagree-style machines, compared for tension range and durability.",
+    href: "/blog/best-lagree-resistance-springs-cables",
+    category: "Equipment",
+    readTime: "9 min",
+    imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
+  },
+  {
     title: "Best Pilates Reformer Pads (2026): Shoulder Rests & Carriage Pads",
     excerpt: "Balanced Body, Merrithew, AeroPilates, and aftermarket options — the replacement pads that restore comfort and extend the life of your home reformer.",
     href: "/blog/best-pilates-reformer-pads",
