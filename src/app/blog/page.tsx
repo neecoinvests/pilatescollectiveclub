@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Cardio Rebounder for Lagree & Megaformer (2026)",
+    excerpt: "Mini trampoline rebounders compared for stability, bounce response, and Megaformer-style cardio intervals.",
+    href: "/blog/best-lagree-cardio-rebounder-attachment",
+    category: "Equipment",
+    readTime: "9 min",
+    imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
+  },
+  {
+    title: "Best Megaformer Platform Extender (2026)",
+    excerpt: "Platform extenders, jump boards, and risers compared for taller practitioners and advanced Lagree positions.",
+    href: "/blog/best-megaformer-platform-extender",
+    category: "Equipment",
+    readTime: "8 min",
+    imageUrl: "/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg",
+  },
+  {
+    title: "Best Cadence Sensor for Indoor Cycling (2026)",
+    excerpt: "Garmin, Wahoo, and budget cadence sensors compared for accuracy, Bluetooth connectivity, and app compatibility.",
+    href: "/blog/best-cadence-sensor-for-indoor-cycling",
+    category: "Tech & Devices",
+    readTime: "8 min",
+    imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
+  },
+  {
+    title: "Best Floor Mat for Spin Bike (2026)",
+    excerpt: "Floor mats compared for sweat absorption, bike stability, and floor protection on hardwood, tile, and concrete.",
+    href: "/blog/best-floor-mat-for-spin-bike",
+    category: "Equipment",
+    readTime: "7 min",
+    imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
+  },
+  {
+    title: "Best Cycling Gloves for Spin Class (2026)",
+    excerpt: "Padded cycling gloves compared for palm cushioning, grip, and breathability during high-output spin sessions.",
+    href: "/blog/best-cycling-gloves-for-spin-class",
+    category: "Equipment",
+    readTime: "7 min",
+    imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
+  },
+  {
     title: "Best Indoor Spin Bike for Home Studios (2026)",
     excerpt: "Peloton, Schwinn IC4, NordicTrack, and budget picks compared for resistance, ride feel, and connected training apps.",
     href: "/blog/best-indoor-spin-bike-for-home-studio",

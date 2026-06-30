@@ -64,6 +64,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const blogPosts = [
+    "best-lagree-cardio-rebounder-attachment",
+    "best-megaformer-platform-extender",
+    "best-cadence-sensor-for-indoor-cycling",
+    "best-floor-mat-for-spin-bike",
+    "best-cycling-gloves-for-spin-class",
     "best-indoor-spin-bike-for-home-studio",
     "best-cycling-shoes-for-spin-class",
     "best-padded-cycling-shorts-for-spin",
