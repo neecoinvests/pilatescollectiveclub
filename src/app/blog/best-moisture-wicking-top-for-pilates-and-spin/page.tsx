@@ -384,14 +384,11 @@ export default function BestMoistureWickingTopPage() {
             <div className="space-y-10">
               {PRODUCTS.map((p) => (
                 <ProductCard
-                  key={p.rank}
-                  rank={p.rank}
+                  key={p.name}
                   name={p.name}
                   price={p.price}
-                  verdict={p.verdict}
                   description={p.description}
                   affiliateUrl={p.affiliateUrl}
-                  tag={p.tag}
                 />
               ))}
             </div>
