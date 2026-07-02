@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Water Bottle Holders for Spin Bikes (2026)",
+    excerpt: "Peloton cage, Topeak Modula, Elite Ciussi Evo, and handlebar mounts compared for grip, fit, and stability during sprints.",
+    href: "/blog/best-water-bottle-holder-for-spin-bike",
+    category: "Spinning",
+    readTime: "7 min",
+    imageUrl: "/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg",
+  },
+  {
+    title: "Best Moisture-Wicking Tops for Pilates & Spin (2026)",
+    excerpt: "Lululemon Swiftly Tech, Nike Dri-FIT ADV, Alo Amplify, and sustainable picks tested for breathability, fit, and durability.",
+    href: "/blog/best-moisture-wicking-top-for-pilates-and-spin",
+    category: "Clothing",
+    readTime: "9 min",
+    imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
+  },
+  {
+    title: "Best Personal Fan for Home Gym & Pilates Studio (2026)",
+    excerpt: "Dreo, Dyson, Vornado, and budget fans compared for airflow, noise level, and cooling power during indoor training sessions.",
+    href: "/blog/best-personal-fan-for-home-gym",
+    category: "Studio Essentials",
+    readTime: "8 min",
+    imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
+  },
+  {
+    title: "Best Bike Computer for Indoor Cycling (2026)",
+    excerpt: "Wahoo ELEMNT BOLT, Garmin Edge 530, and budget options ranked for data display, app connectivity, and ease of use indoors.",
+    href: "/blog/best-bike-computer-for-indoor-cycling",
+    category: "Spinning",
+    readTime: "9 min",
+    imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
+  },
+  {
+    title: "Best Lagree Carriage Handles & Grip Accessories (2026)",
+    excerpt: "OEM handle sets, grip wraps, WODFitters pads, and wrist support compared for Megaformer carriage control and comfort.",
+    href: "/blog/best-lagree-carriage-handles",
+    category: "Lagree",
+    readTime: "8 min",
+    imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
+  },
+  {
     title: "Best Cardio Rebounder for Lagree & Megaformer (2026)",
     excerpt: "Mini trampoline rebounders compared for stability, bounce response, and Megaformer-style cardio intervals.",
     href: "/blog/best-lagree-cardio-rebounder-attachment",

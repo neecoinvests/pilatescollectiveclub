@@ -15,6 +15,8 @@ const JOURNAL = [
   { label: "Health & Wellbeing", href: "/blog?category=Health" },
   { label: "Beginners", href: "/blog?category=Beginners" },
   { label: "Tech & Devices", href: "/blog?category=Tech+%26+Devices" },
+  { label: "Lagree", href: "/blog?category=Lagree" },
+  { label: "Spinning", href: "/blog?category=Spinning" },
 ];
 
 const CITIES = [

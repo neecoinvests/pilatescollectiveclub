@@ -209,6 +209,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-sweat-towel-for-lagree",
     "best-pilates-mat-cleaner",
     "best-pilates-reformer-pads",
+    "best-lagree-carriage-handles",
+    "best-bike-computer-for-indoor-cycling",
+    "best-personal-fan-for-home-gym",
+    "best-moisture-wicking-top-for-pilates-and-spin",
+    "best-water-bottle-holder-for-spin-bike",
   ];
 
   return [
