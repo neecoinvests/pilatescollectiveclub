@@ -214,6 +214,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-personal-fan-for-home-gym",
     "best-moisture-wicking-top-for-pilates-and-spin",
     "best-water-bottle-holder-for-spin-bike",
+    "best-pilates-tshirts",
+    "best-pilates-tank-tops",
+    "best-high-waist-pilates-leggings",
+    "best-pilates-seamless-sports-bra",
+    "best-pilates-hoodie",
   ];
 
   return [

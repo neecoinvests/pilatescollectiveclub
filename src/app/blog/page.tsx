@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Pilates Hoodies & Warm-Up Jackets (2026)",
+    excerpt: "Lululemon Scuba, Alo Muse, Vuori Halo, and budget picks compared for warmth, arm mobility, and studio-ready style.",
+    href: "/blog/best-pilates-hoodie",
+    category: "Clothing",
+    readTime: "8 min",
+    imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
+  },
+  {
+    title: "Best Seamless Sports Bras for Pilates (2026)",
+    excerpt: "Lululemon Align, Alo Airlift, Gymshark Vital, and sustainable picks tested for comfort, support, and zero pressure points.",
+    href: "/blog/best-pilates-seamless-sports-bra",
+    category: "Clothing",
+    readTime: "8 min",
+    imageUrl: "/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg",
+  },
+  {
+    title: "Best High-Waist Pilates Leggings (2026)",
+    excerpt: "Lululemon Align, Alo Airbrush, CRZ YOGA, and Beyond Yoga compared for waistband hold, opacity, and reformer performance.",
+    href: "/blog/best-high-waist-pilates-leggings",
+    category: "Clothing",
+    readTime: "9 min",
+    imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+  },
+  {
+    title: "Best Pilates Tank Tops (2026)",
+    excerpt: "Racerbacks, strappy tanks, and studio styles from Lululemon, Alo, Gymshark, and Nike — ranked for breathability and fit.",
+    href: "/blog/best-pilates-tank-tops",
+    category: "Clothing",
+    readTime: "8 min",
+    imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
+  },
+  {
+    title: "Best Pilates T-Shirts (2026)",
+    excerpt: "Technical tees from Lululemon Metal Vent, Vuori Strato, Alo Triumph, and Nike tested for breathability and studio style.",
+    href: "/blog/best-pilates-tshirts",
+    category: "Clothing",
+    readTime: "8 min",
+    imageUrl: "/pictures/stitch-retail-activewear.png",
+  },
+  {
     title: "Best Water Bottle Holders for Spin Bikes (2026)",
     excerpt: "Peloton cage, Topeak Modula, Elite Ciussi Evo, and handlebar mounts compared for grip, fit, and stability during sprints.",
     href: "/blog/best-water-bottle-holder-for-spin-bike",
