@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Luxury Pilates Reformers for Home Studios (2026)",
+    excerpt: "Gratz, Balanced Body Studio, Peak Pilates MVe, and Elina Pilates — investment-grade machines for the serious home studio.",
+    href: "/blog/best-luxury-pilates-reformer",
+    category: "Equipment",
+    readTime: "11 min",
+    imageUrl: "/pictures/stitch-reformer-morning-light.png",
+  },
+  {
+    title: "Best Luxury Pilates Accessories (2026)",
+    excerpt: "Balanced Body Magic Circle, TriggerPoint GRID, Theraband Professional, and Manduka cork props — premium small equipment for serious practitioners.",
+    href: "/blog/best-luxury-pilates-accessories",
+    category: "Equipment",
+    readTime: "9 min",
+    imageUrl: "/pictures/stitch-props-cork-ring.png",
+  },
+  {
+    title: "Best Designer & Luxury Pilates Bags (2026)",
+    excerpt: "Lululemon, Alo Yoga, Sweaty Betty, Stella McCartney, and Varley compared for structure, capacity, and studio-to-life versatility.",
+    href: "/blog/best-designer-pilates-bag",
+    category: "Studio Essentials",
+    readTime: "9 min",
+    imageUrl: "/pictures/stitch-studio-changing-area.png",
+  },
+  {
+    title: "Best Luxury Pilates Mats (2026)",
+    excerpt: "Manduka PRO, Liforme, Alo Warrior, Lululemon The Mat, and Jade Harmony — the premium mats serious practitioners buy once and keep for years.",
+    href: "/blog/best-luxury-pilates-mat",
+    category: "Equipment",
+    readTime: "9 min",
+    imageUrl: "/pictures/stitch-mat-setup-beige.png",
+  },
+  {
+    title: "Best Luxury Pilates Leggings (2026)",
+    excerpt: "Wolford, Splits59, Varley, Alo Airbrush, and Lululemon Nulux — investment-grade leggings at the top tier of the market.",
+    href: "/blog/best-luxury-pilates-leggings",
+    category: "Clothing",
+    readTime: "10 min",
+    imageUrl: "/pictures/stitch-retail-activewear.png",
+  },
+  {
     title: "Best Pilates Hoodies & Warm-Up Jackets (2026)",
     excerpt: "Lululemon Scuba, Alo Muse, Vuori Halo, and budget picks compared for warmth, arm mobility, and studio-ready style.",
     href: "/blog/best-pilates-hoodie",

@@ -219,6 +219,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-high-waist-pilates-leggings",
     "best-pilates-seamless-sports-bra",
     "best-pilates-hoodie",
+    "best-luxury-pilates-leggings",
+    "best-luxury-pilates-mat",
+    "best-designer-pilates-bag",
+    "best-luxury-pilates-accessories",
+    "best-luxury-pilates-reformer",
   ];
 
   return [
