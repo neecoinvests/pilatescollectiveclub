@@ -419,9 +419,9 @@ export default function BestReformerBrandsPage() {
                   { type: "Best entry-level reformer brand", rec: "AeroPilates — the most accessible entry point, available retail, includes a cardio rebounder." },
                   { type: "Best value studio-grade brand", rec: "Elina Pilates — handcrafted quality at below-Balanced-Body prices, full apparatus range available." },
                 ].map((item, i) => (
-                  <div key={i} className="flex gap-4 text-sm" style={{ paddingBottom: i < 7 ? "16px" : "0", borderBottom: i < 7 ? "1px solid rgba(255,255,255,0.08)" : "none" }}>
-                    <span style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif", fontWeight: 600, minWidth: "220px", flexShrink: 0 }}>{item.type}</span>
-                    <span style={{ color: "rgba(255,255,255,0.65)", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>{item.rec}</span>
+                  <div key={i} className="flex flex-wrap gap-2 text-sm" style={{ paddingBottom: i < 7 ? "16px" : "0", borderBottom: i < 7 ? "1px solid rgba(255,255,255,0.08)" : "none" }}>
+                    <span style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif", fontWeight: 600, minWidth: "min(220px, 100%)", flexShrink: 0 }}>{item.type}</span>
+                    <span style={{ color: "rgba(255,255,255,0.65)", fontFamily: "'Montserrat', sans-serif", fontWeight: 300, flex: 1, minWidth: "200px" }}>{item.rec}</span>
                   </div>
                 ))}
               </div>
