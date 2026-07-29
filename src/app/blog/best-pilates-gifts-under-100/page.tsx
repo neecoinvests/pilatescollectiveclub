@@ -208,7 +208,7 @@ export default function Page() {
         </div>
       </section>
 
-      <CTASection />
+      <CTASection title="Find a Pilates Studio Near You" subtitle="Discover the best reformer studios in your city." />
       <Footer />
     </>
   );
