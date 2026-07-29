@@ -224,6 +224,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-designer-pilates-bag",
     "best-luxury-pilates-accessories",
     "best-luxury-pilates-reformer",
+    "best-pilates-gifts-for-girlfriend",
+    "best-luxury-pilates-gifts",
+    "best-pilates-gifts-under-100",
+    "best-pilates-gifts-for-beginners",
+    "best-pilates-gifts-under-50",
   ];
 
   return [

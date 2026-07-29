@@ -88,6 +88,21 @@ const SHOP_CATEGORIES = [
     ],
   },
   {
+    label: "Gift Guides",
+    links: [
+      { label: "Gifts for Her (Girlfriend)", href: "/blog/best-pilates-gifts-for-girlfriend" },
+      { label: "Luxury Pilates Gifts", href: "/blog/best-luxury-pilates-gifts" },
+      { label: "Gifts Under $100", href: "/blog/best-pilates-gifts-under-100" },
+      { label: "Gifts for Beginners", href: "/blog/best-pilates-gifts-for-beginners" },
+      { label: "Gifts Under $50", href: "/blog/best-pilates-gifts-under-50" },
+      { label: "Best Pilates Leggings", href: "/blog/best-pilates-leggings" },
+      { label: "Best Grip Socks", href: "/blog/best-pilates-grip-socks" },
+      { label: "Best Pilates Mat", href: "/blog/best-pilates-mat" },
+      { label: "Best Starter Kit", href: "/blog/best-pilates-starter-kit" },
+      { label: "All Equipment →", href: "/blog?category=Equipment" },
+    ],
+  },
+  {
     label: "Tech & Wellness",
     links: [
       { label: "Smart Watch", href: "/blog/best-smartwatch-for-pilates" },
@@ -190,13 +205,13 @@ export default function Header() {
                   position: "absolute",
                   top: "calc(100% + 1px)",
                   right: 0,
-                  width: "720px",
+                  width: "min(860px, 90vw)",
                   backgroundColor: "#ffffff",
                   borderTop: "2px solid #8b4a31",
                   boxShadow: "0 8px 40px rgba(0,0,0,0.12)",
                   padding: "32px",
                   display: "grid",
-                  gridTemplateColumns: "repeat(3, 1fr)",
+                  gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))",
                   gap: "28px 32px",
                 }}
               >

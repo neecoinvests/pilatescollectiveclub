@@ -29,6 +29,47 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Pilates Gifts for Your Girlfriend (2026)",
+    excerpt: "Lululemon, Alo, Manduka, ToeSox — the pilates gifts she'll genuinely love and use every class.",
+    href: "/blog/best-pilates-gifts-for-girlfriend",
+    category: "Guide",
+    readTime: "8 min",
+    imageUrl: "/pictures/stitch-retail-activewear.png",
+    featured: true,
+  },
+  {
+    title: "Best Luxury Pilates Gifts (2026)",
+    excerpt: "Theragun Pro, Wolford leggings, Liforme mat — investment-grade gifts for the serious practitioner.",
+    href: "/blog/best-luxury-pilates-gifts",
+    category: "Guide",
+    readTime: "9 min",
+    imageUrl: "/pictures/stitch-studio-bench-towels.png",
+  },
+  {
+    title: "Best Pilates Gifts Under $100 (2026)",
+    excerpt: "Quality pilates gifts that feel premium without the premium price — all under $100.",
+    href: "/blog/best-pilates-gifts-under-100",
+    category: "Guide",
+    readTime: "7 min",
+    imageUrl: "/pictures/stitch-studio-shelf-props.png",
+  },
+  {
+    title: "Best Pilates Gifts for Beginners (2026)",
+    excerpt: "The right first gifts for someone just starting their pilates journey — mats, socks, bands, and more.",
+    href: "/blog/best-pilates-gifts-for-beginners",
+    category: "Guide",
+    readTime: "8 min",
+    imageUrl: "/pictures/stitch-studio-windowsill.png",
+  },
+  {
+    title: "Best Pilates Gifts Under $50 (2026)",
+    excerpt: "Thoughtful, practical pilates gifts for any budget — all under $50.",
+    href: "/blog/best-pilates-gifts-under-50",
+    category: "Guide",
+    readTime: "7 min",
+    imageUrl: "/pictures/stitch-grip-socks-footbar.png",
+  },
+  {
     title: "Best Luxury Pilates Reformers for Home Studios (2026)",
     excerpt: "Gratz, Balanced Body Studio, Peak Pilates MVe, and Elina Pilates — investment-grade machines for the serious home studio.",
     href: "/blog/best-luxury-pilates-reformer",
