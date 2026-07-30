@@ -35,7 +35,6 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     category: "Guide",
     readTime: "9 min",
     imageUrl: "/pictures/stitch-studio-entryway.png",
-    featured: true,
   },
   {
     title: "Best Pilates Gift Sets & Bundles (2026)",
@@ -76,6 +75,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     category: "Guide",
     readTime: "8 min",
     imageUrl: "/pictures/stitch-retail-activewear.png",
+    featured: true,
   },
   {
     title: "Best Luxury Pilates Gifts (2026)",
