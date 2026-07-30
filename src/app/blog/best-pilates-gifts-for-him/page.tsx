@@ -86,6 +86,44 @@ const PRODUCTS = [
   },
 ];
 
+const CRITERIA = [
+  {
+    heading: "Prioritise what he'll actually wear",
+    body: "Men in pilates are often in whatever they grabbed from their workout drawer. The right gift is training pants that are genuinely built for pilates: four-way stretch, a gusseted fit, and a silhouette that looks intentional. Lululemon ABC and Vuori Ponto are the two brands worth trusting.",
+  },
+  {
+    heading: "Recovery gifts land exceptionally well for men",
+    body: "Men who train regularly often invest in performance but under-invest in recovery. A Theragun or TriggerPoint GRID isn't just equipment — it addresses a real gap. These are gifts he would eventually buy for himself but hasn't yet, which makes them uniquely appreciated.",
+  },
+  {
+    heading: "Skip the generic and go brand-specific",
+    body: "Generic resistance bands and foam rollers from unrecognised brands communicate the wrong thing. Theragun, Manduka, TriggerPoint, Lululemon, and Vuori are names that signal quality in training circles — they tell him you understand what he actually does.",
+  },
+  {
+    heading: "Know whether he goes to a studio",
+    body: "Studio practitioners need reformer-appropriate gear: fitted pants, a mat for home practice, a quality water bottle. Home practitioners need equipment: resistance bands, a mat, a foam roller. Ask or look at how he talks about his practice before deciding.",
+  },
+];
+
+const FAQ = [
+  {
+    q: "What is the best pilates gift for a man?",
+    a: "The Lululemon ABC Pant ($128) is the best pilates gift for a man — it is the standard men's pilates pant, loved for its range of motion, clean look, and premium fabric. For recovery, the Theragun Elite ($299) is the most impactful investment at a higher price point. At a more accessible budget, the TriggerPoint GRID Roller ($36) is the best value recovery gift available.",
+  },
+  {
+    q: "What do men need for pilates?",
+    a: "Men doing pilates need: fitted or tapered training pants (Lululemon ABC, Vuori Ponto), grip socks for reformer studios, a quality mat for home practice (Manduka PRO), and a water bottle. Recovery tools like foam rollers and percussion devices are highly appreciated as gifts because men who train hard often under-invest in recovery.",
+  },
+  {
+    q: "Is Lululemon good for men's pilates?",
+    a: "Yes — Lululemon ABC pants are the most recommended men's pilates pant by both instructors and regular practitioners. The Warpstreme fabric stretches in every direction for full pilates range of motion, and the gusseted construction prevents restriction during footwork and leg circles. The fit is tailored enough to look intentional in a studio setting.",
+  },
+  {
+    q: "What is a good under-$50 pilates gift for a man?",
+    a: "The TriggerPoint GRID Foam Roller ($36) is the best under-$50 pilates gift for a man — physical therapists recommend it, it addresses the thoracic spine, IT band, and hip flexors that accumulate tension in pilates, and the quality is obvious on first use. A Hydro Flask 32oz ($45) is the best non-equipment option at this budget.",
+  },
+];
+
 const RELATED = [
   { title: "Best Pilates Equipment for Men", excerpt: "The complete guide to pilates gear for male practitioners.", href: "/blog/best-pilates-equipment-for-men", category: "Equipment", readTime: "11 min", imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" },
   { title: "Best Pilates Clothes for Men", excerpt: "The best activewear for men doing pilates — tested and ranked.", href: "/blog/best-pilates-clothes-for-men", category: "Clothing", readTime: "9 min", imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" },
@@ -122,10 +160,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is the best pilates gift for a man?", "acceptedAnswer": { "@type": "Answer", "text": "The Lululemon ABC Pant ($128) is the best pilates gift for a man — it is the standard men's pilates pant, loved for its range of motion, clean look, and premium fabric. For recovery, the Theragun Elite ($299) is the most impactful investment at a higher price point." } },
-        { "@type": "Question", "name": "What do men need for pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Men doing pilates need: fitted or tapered training pants (Lululemon ABC, Vuori Ponto), grip socks for reformer studios, a quality mat for home practice (Manduka PRO), and a water bottle. Recovery tools like foam rollers and percussion devices are highly appreciated as gifts." } },
-      ],
+      "mainEntity": FAQ.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
@@ -140,13 +175,13 @@ export default function Page() {
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31" }}>Guide</span>
             <span style={{ width: "32px", height: "1px", backgroundColor: "#c5a882", display: "inline-block" }} />
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>8 min read</span>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>9 min read</span>
           </div>
           <h1 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(2rem, 5vw, 3.2rem)", fontWeight: 400, color: "#1a1714", lineHeight: 1.15, marginBottom: "20px" }}>
             Best Pilates Gifts for Him
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            Men who do pilates tend to be particular about their gear — and they rarely buy the good stuff for themselves. This guide is built for the husband, boyfriend, or father who shows up to class in whatever he grabbed first, and deserves the Lululemon pants, the real foam roller, and the recovery tool he's been vaguely meaning to invest in. All picks are men's-specific or gender-neutral, all from brands that have earned their place in serious training culture.
+            Men who do pilates tend to be particular about their gear — and they rarely buy the good stuff for themselves. This guide is built for the husband, boyfriend, or father who shows up to class in whatever he grabbed first, and deserves the Lululemon pants, the real foam roller, and the recovery tool he's been vaguely meaning to invest in. All picks are men's-specific or gender-neutral, from brands that have earned their place in serious training culture.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Men's-specific picks</span>
@@ -162,6 +197,25 @@ export default function Page() {
       </section>
       <section className="px-6 py-20 pcc-content-section" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-3xl mx-auto">
+
+          {/* Quick picks table */}
+          <div style={{ marginBottom: "56px", border: "1px solid #ede9e3", overflow: "hidden" }}>
+            <div style={{ padding: "16px 24px", backgroundColor: "#faf8f5", borderBottom: "1px solid #ede9e3" }}>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks — At a Glance</p>
+            </div>
+            {PRODUCTS.map((p, i) => (
+              <div key={p.rank} style={{ display: "flex", alignItems: "center", gap: "16px", padding: "14px 24px", borderTop: i === 0 ? "none" : "1px solid #ede9e3", backgroundColor: "#ffffff", flexWrap: "wrap" }}>
+                <span style={{ fontFamily: "var(--font-serif)", fontSize: "12px", color: "#c5a882", minWidth: "28px", flexShrink: 0 }}>{p.rank}</span>
+                <div style={{ flex: 1, minWidth: "140px" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#1a1714", margin: 0, lineHeight: 1.3 }}>{p.name}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#8b4a31", margin: "2px 0 0" }}>{p.verdict}</p>
+                </div>
+                <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#9a9490", whiteSpace: "nowrap" }}>{p.price}</span>
+                <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "8px 14px", textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>Buy →</a>
+              </div>
+            ))}
+          </div>
+
           <div style={{ display: "flex", flexDirection: "column", gap: "52px" }}>
             {PRODUCTS.map((p) => (
               <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "40px" }}>
@@ -182,6 +236,33 @@ export default function Page() {
               </div>
             ))}
           </div>
+
+          {/* How to choose */}
+          <div style={{ marginTop: "72px", padding: "40px", backgroundColor: "#faf8f5", borderLeft: "3px solid #c5a882" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.5rem", fontWeight: 400, color: "#1a1714", marginBottom: "28px", marginTop: 0 }}>How to choose the right pilates gift for him</h2>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "20px" }}>
+              {CRITERIA.map((c) => (
+                <div key={c.heading} style={{ backgroundColor: "#ffffff", padding: "20px", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "#1a1714", marginBottom: "8px", marginTop: 0 }}>{c.heading}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.88rem", color: "#6b6560", lineHeight: 1.75, margin: 0 }}>{c.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* FAQ */}
+          <div style={{ marginTop: "72px" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.8rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              {FAQ.map((item) => (
+                <div key={item.q} style={{ padding: "24px 28px", backgroundColor: "#faf8f5", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-serif)", fontSize: "1.05rem", fontWeight: 400, color: "#1a1714", marginBottom: "10px", marginTop: 0 }}>{item.q}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.9rem", color: "#4a4540", lineHeight: 1.8, margin: 0 }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
             Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>

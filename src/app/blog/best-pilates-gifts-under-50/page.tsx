@@ -86,9 +86,47 @@ const PRODUCTS = [
   },
 ];
 
+const CRITERIA = [
+  {
+    heading: "Stick to consumables and replenishables",
+    body: "Under $50, the best pilates gifts are things practitioners run through: grip socks wear out, resistance bands snap, water bottles get replaced. Gifts that replenish her supply are always appreciated more than one-time novelties.",
+  },
+  {
+    heading: "Think about what gets used every class",
+    body: "Grip socks, water bottles, and studio bags are used every single session. A $38 belt bag has more weekly touchpoints than a $200 piece of equipment used twice a month. Frequency of use is a better metric than price at this budget.",
+  },
+  {
+    heading: "Avoid generic fitness gifts",
+    body: "Generic resistance bands, foam rollers from sports superstores, and unbranded accessories send the wrong message. In the pilates community, brand matters — Theraband, ToeSox, Hydro Flask, and Manduka are all recognised names that signal you know what you're doing.",
+  },
+  {
+    heading: "Stack for more impact",
+    body: "At this price point, two or three items together make a stronger impression than one. A $18 ToeSox pack + $20 pilates ball = $38 and looks genuinely considered. A Theraband set + cork block = $48 and covers both training and props. Combining items is the move.",
+  },
+];
+
+const FAQ = [
+  {
+    q: "What is the best pilates gift under $50?",
+    a: "The best pilates gift under $50 is ToeSox grip socks ($18–42 depending on pack size) — required at every reformer studio and genuinely appreciated by all practitioners. The Theraband Resistance Set ($26) is the best value for money at any price in pilates gifting. Both together cost around $44 and make an excellent paired gift.",
+  },
+  {
+    q: "What are good pilates stocking stuffers?",
+    a: "The best pilates stocking stuffers are: ToeSox grip socks ($18), Theraband resistance bands ($26), a Trideer pilates ball ($20), and a Manduka cork block ($22). All are practical, compact, and genuinely useful in every class. A single ToeSox pair at $18 is the classic stocking stuffer — small, needed, and from a brand practitioners recognise.",
+  },
+  {
+    q: "Is a Lululemon belt bag a good pilates gift?",
+    a: "Yes — the Lululemon belt bag (1L at $38, 2L at $48) is one of the most universally appreciated under-$50 pilates gifts. It has become an informal part of the pilates studio uniform, carried by students and instructors alike. The 1L version fits within the under-$50 budget; the 2L version just exceeds it but is more functional for a full studio day.",
+  },
+  {
+    q: "Can you make a good pilates gift basket under $50?",
+    a: "Yes — the best under-$50 pilates gift basket combines three small items: ToeSox grip socks ($18), a Trideer pilates ball ($20), and a Theraband set ($26). That's $64 total for three genuinely useful items, or you can pick any two to stay under $50. Present them in a simple white box or drawstring bag rather than a traditional gift basket.",
+  },
+];
+
 const RELATED = [
-  { title: "Best Pilates Gifts Under $100", excerpt: "Quality picks across a broader budget range.", href: "/blog/best-pilates-gifts-under-100", category: "Guide", readTime: "7 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
-  { title: "Best Pilates Gifts for Beginners", excerpt: "Everything a new practitioner needs to get started right.", href: "/blog/best-pilates-gifts-for-beginners", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-studio-windowsill.png" },
+  { title: "Best Pilates Gifts Under $100", excerpt: "Quality picks across a broader budget range.", href: "/blog/best-pilates-gifts-under-100", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
+  { title: "Best Pilates Gifts for Beginners", excerpt: "Everything a new practitioner needs to get started right.", href: "/blog/best-pilates-gifts-for-beginners", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-studio-windowsill.png" },
   { title: "Best Pilates Grip Socks", excerpt: "The complete guide to grip socks for reformer and mat work.", href: "/blog/best-pilates-grip-socks", category: "Clothing", readTime: "8 min", imageUrl: "/pictures/stitch-grip-socks-footbar.png" },
 ];
 
@@ -104,7 +142,7 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "datePublished": "2026-07-29",
-      "dateModified": "2026-07-29",
+      "dateModified": "2026-07-30",
     },
     {
       "@type": "ItemList",
@@ -127,10 +165,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is the best pilates gift under $50?", "acceptedAnswer": { "@type": "Answer", "text": "The best pilates gift under $50 is ToeSox grip socks ($18–42 depending on pack size) — required at every reformer studio and genuinely appreciated by all practitioners. The Theraband Resistance Set ($26) is the best value for money at any price in pilates gifting." } },
-        { "@type": "Question", "name": "What are good pilates stocking stuffers?", "acceptedAnswer": { "@type": "Answer", "text": "The best pilates stocking stuffers are: ToeSox grip socks ($18), Theraband resistance bands ($26), a Trideer pilates ball ($20), and a Manduka cork block ($22). All are practical, compact, and genuinely useful in every class." } },
-      ],
+      "mainEntity": FAQ.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
@@ -146,13 +181,13 @@ export default function Page() {
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31" }}>Guide</span>
             <span style={{ width: "32px", height: "1px", backgroundColor: "#c5a882", display: "inline-block" }} />
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>7 min read</span>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>8 min read</span>
           </div>
           <h1 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(2rem, 5vw, 3.2rem)", fontWeight: 400, color: "#1a1714", lineHeight: 1.15, marginBottom: "20px" }}>
             Best Pilates Gifts Under $50
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            A $50 limit is actually a good place to find pilates gifts — it covers the everyday essentials that practitioners run through, wear out, or simply never get around to buying for themselves. Grip socks, resistance bands, a foam ball, a studio bag: these are gifts that land in the rotation immediately and stay there. This guide narrows it to the six picks that offer the best quality and usefulness at this price point.
+            A $50 limit is actually a good place to find pilates gifts — it covers the everyday essentials that practitioners run through, wear out, or simply never get around to buying for themselves. Grip socks, resistance bands, a foam ball, a studio bag: these are gifts that land in the rotation immediately and stay there. This guide narrows it to six picks that offer the best quality and usefulness at this price point, with a note at the end on how to combine them for maximum impact.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ All under $50</span>
@@ -170,6 +205,25 @@ export default function Page() {
 
       <section className="px-6 py-20 pcc-content-section" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-3xl mx-auto">
+
+          {/* Quick picks table */}
+          <div style={{ marginBottom: "56px", border: "1px solid #ede9e3", overflow: "hidden" }}>
+            <div style={{ padding: "16px 24px", backgroundColor: "#faf8f5", borderBottom: "1px solid #ede9e3" }}>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks — At a Glance</p>
+            </div>
+            {PRODUCTS.map((p, i) => (
+              <div key={p.rank} style={{ display: "flex", alignItems: "center", gap: "16px", padding: "14px 24px", borderTop: i === 0 ? "none" : "1px solid #ede9e3", backgroundColor: "#ffffff", flexWrap: "wrap" }}>
+                <span style={{ fontFamily: "var(--font-serif)", fontSize: "12px", color: "#c5a882", minWidth: "28px", flexShrink: 0 }}>{p.rank}</span>
+                <div style={{ flex: 1, minWidth: "140px" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#1a1714", margin: 0, lineHeight: 1.3 }}>{p.name}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#8b4a31", margin: "2px 0 0" }}>{p.verdict}</p>
+                </div>
+                <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#9a9490", whiteSpace: "nowrap" }}>{p.price}</span>
+                <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "8px 14px", textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>Buy →</a>
+              </div>
+            ))}
+          </div>
+
           <div style={{ display: "flex", flexDirection: "column", gap: "52px" }}>
             {PRODUCTS.map((p) => (
               <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "40px" }}>
@@ -189,6 +243,32 @@ export default function Page() {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* How to choose */}
+          <div style={{ marginTop: "72px", padding: "40px", backgroundColor: "#faf8f5", borderLeft: "3px solid #c5a882" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.5rem", fontWeight: 400, color: "#1a1714", marginBottom: "28px", marginTop: 0 }}>How to choose the right under-$50 pilates gift</h2>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "20px" }}>
+              {CRITERIA.map((c) => (
+                <div key={c.heading} style={{ backgroundColor: "#ffffff", padding: "20px", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "#1a1714", marginBottom: "8px", marginTop: 0 }}>{c.heading}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.88rem", color: "#6b6560", lineHeight: 1.75, margin: 0 }}>{c.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* FAQ */}
+          <div style={{ marginTop: "72px" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.8rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              {FAQ.map((item) => (
+                <div key={item.q} style={{ padding: "24px 28px", backgroundColor: "#faf8f5", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-serif)", fontSize: "1.05rem", fontWeight: 400, color: "#1a1714", marginBottom: "10px", marginTop: 0 }}>{item.q}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.9rem", color: "#4a4540", lineHeight: 1.8, margin: 0 }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>

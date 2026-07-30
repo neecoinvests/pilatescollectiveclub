@@ -86,9 +86,47 @@ const PRODUCTS = [
   },
 ];
 
+const CRITERIA = [
+  {
+    heading: "Practical beats sentimental for professionals",
+    body: "Instructors receive plenty of candles, chocolates, and gift cards. The gifts they remember are the ones that understood their profession: grip socks they go through by the dozen, a foam roller for post-teaching recovery, a water bottle sized for a full teaching day. Think: what does a working instructor actually need?",
+  },
+  {
+    heading: "Recovery is the highest-value category",
+    body: "An instructor's body accumulates wear in a way that a regular practitioner's does not — daily demonstrations, floor-based assists, and standing on hard surfaces for hours. Recovery tools (Theragun, TriggerPoint GRID) address a genuine professional need. These gifts communicate that you understand what teaching costs physically.",
+  },
+  {
+    heading: "Match budget to relationship",
+    body: "A client-to-instructor gift sits comfortably at $20–$65: ToeSox socks, a Hydro Flask, grip socks in bulk. A group gift from a class pool can reach the Theragun Pro ($599) or Manduka PRO ($120). Don't overspend as an individual client — a $50 Hydro Flask is more appropriate and more appreciated than an extravagant gesture.",
+  },
+  {
+    heading: "Avoid props they already own",
+    body: "Professional instructors already have Magic Circles, resistance bands, and blocks — the studio provides them. The best gifts are personal items: leggings, socks, recovery tools, and hydration gear. If you want to give props, choose the premium version of something they use every day (Balanced Body over a generic ring).",
+  },
+];
+
+const FAQ = [
+  {
+    q: "What is a good gift for a pilates instructor?",
+    a: "The best gifts for a pilates instructor are practical, high-quality tools they use daily: ToeSox grip socks (worn every class), Lululemon Align leggings (the studio standard), a Hydro Flask 40oz (for long teaching days), and a TriggerPoint foam roller or Theragun for recovery. Avoid generic gifts — instructors appreciate items that show you understand their profession.",
+  },
+  {
+    q: "How much should you spend on a pilates instructor gift?",
+    a: "A thoughtful teacher appreciation gift for a pilates instructor typically falls in the $20–$65 range: ToeSox socks ($18–65), a Hydro Flask ($50), or a quality foam roller ($36). For a more significant gift (end of year, or from a group of students), the Theragun Pro ($599) or Lululemon leggings ($98) are outstanding choices. As an individual client, $50 is appropriate; a group can pool for something more substantial.",
+  },
+  {
+    q: "Do pilates instructors like gift cards?",
+    a: "A gift card to Lululemon, Alo Yoga, or Amazon is a reasonable fallback when you're uncertain about sizes or preferences — but specific, considered gifts land better. A five-pack of ToeSox socks ($65) or a Hydro Flask 40oz ($50) demonstrates more thought than a gift card of the same value. If in doubt, socks or a water bottle are universally appreciated.",
+  },
+  {
+    q: "What should you not give a pilates instructor?",
+    a: "Avoid: candles, chocolates, bath products, and generic wellness items — instructors receive these constantly and they accumulate. Avoid studio equipment like reformer springs or blocks — they own these professionally. Avoid cheap activewear from fast-fashion brands — instructors are deeply familiar with quality differences and notice when gear is from Shein or Amazon basics.",
+  },
+];
+
 const RELATED = [
   { title: "Best Luxury Pilates Gifts", excerpt: "Investment-grade gifts for the serious practitioner.", href: "/blog/best-luxury-pilates-gifts", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-studio-bench-towels.png" },
-  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Lululemon, Alo, Manduka — the picks she'll actually use.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
+  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Lululemon, Alo, Manduka — the picks she'll actually use.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
   { title: "How to Choose a Pilates Instructor", excerpt: "What to look for — and what to avoid — when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "9 min", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
 ];
 
@@ -122,10 +160,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is a good gift for a pilates instructor?", "acceptedAnswer": { "@type": "Answer", "text": "The best gifts for a pilates instructor are practical, high-quality tools they use daily: ToeSox grip socks (worn every class), Lululemon Align leggings (the studio standard), a Hydro Flask (for long teaching days), and a TriggerPoint foam roller or Theragun for recovery. Avoid generic gifts — instructors appreciate items that show you understand their profession." } },
-        { "@type": "Question", "name": "How much should you spend on a pilates instructor gift?", "acceptedAnswer": { "@type": "Answer", "text": "A thoughtful teacher appreciation gift for a pilates instructor typically falls in the $20–$65 range: ToeSox socks ($18–65), a Hydro Flask ($50), or a quality foam roller ($36). For a more significant gift (end of year, or from a group of students), the Theragun Pro ($599) or Lululemon leggings ($98) are outstanding choices." } },
-      ],
+      "mainEntity": FAQ.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
@@ -140,7 +175,7 @@ export default function Page() {
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31" }}>Guide</span>
             <span style={{ width: "32px", height: "1px", backgroundColor: "#c5a882", display: "inline-block" }} />
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>8 min read</span>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>9 min read</span>
           </div>
           <h1 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(2rem, 5vw, 3.2rem)", fontWeight: 400, color: "#1a1714", lineHeight: 1.15, marginBottom: "20px" }}>
             Best Gifts for a Pilates Instructor
@@ -162,6 +197,25 @@ export default function Page() {
       </section>
       <section className="px-6 py-20 pcc-content-section" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-3xl mx-auto">
+
+          {/* Quick picks table */}
+          <div style={{ marginBottom: "56px", border: "1px solid #ede9e3", overflow: "hidden" }}>
+            <div style={{ padding: "16px 24px", backgroundColor: "#faf8f5", borderBottom: "1px solid #ede9e3" }}>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks — At a Glance</p>
+            </div>
+            {PRODUCTS.map((p, i) => (
+              <div key={p.rank} style={{ display: "flex", alignItems: "center", gap: "16px", padding: "14px 24px", borderTop: i === 0 ? "none" : "1px solid #ede9e3", backgroundColor: "#ffffff", flexWrap: "wrap" }}>
+                <span style={{ fontFamily: "var(--font-serif)", fontSize: "12px", color: "#c5a882", minWidth: "28px", flexShrink: 0 }}>{p.rank}</span>
+                <div style={{ flex: 1, minWidth: "140px" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#1a1714", margin: 0, lineHeight: 1.3 }}>{p.name}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#8b4a31", margin: "2px 0 0" }}>{p.verdict}</p>
+                </div>
+                <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#9a9490", whiteSpace: "nowrap" }}>{p.price}</span>
+                <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "8px 14px", textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>Buy →</a>
+              </div>
+            ))}
+          </div>
+
           <div style={{ display: "flex", flexDirection: "column", gap: "52px" }}>
             {PRODUCTS.map((p) => (
               <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "40px" }}>
@@ -182,6 +236,33 @@ export default function Page() {
               </div>
             ))}
           </div>
+
+          {/* How to choose */}
+          <div style={{ marginTop: "72px", padding: "40px", backgroundColor: "#faf8f5", borderLeft: "3px solid #c5a882" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.5rem", fontWeight: 400, color: "#1a1714", marginBottom: "28px", marginTop: 0 }}>How to choose the right gift for a pilates instructor</h2>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "20px" }}>
+              {CRITERIA.map((c) => (
+                <div key={c.heading} style={{ backgroundColor: "#ffffff", padding: "20px", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "#1a1714", marginBottom: "8px", marginTop: 0 }}>{c.heading}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.88rem", color: "#6b6560", lineHeight: 1.75, margin: 0 }}>{c.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* FAQ */}
+          <div style={{ marginTop: "72px" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.8rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              {FAQ.map((item) => (
+                <div key={item.q} style={{ padding: "24px 28px", backgroundColor: "#faf8f5", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-serif)", fontSize: "1.05rem", fontWeight: 400, color: "#1a1714", marginBottom: "10px", marginTop: 0 }}>{item.q}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.9rem", color: "#4a4540", lineHeight: 1.8, margin: 0 }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
             Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>

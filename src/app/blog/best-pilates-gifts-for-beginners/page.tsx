@@ -86,10 +86,48 @@ const PRODUCTS = [
   },
 ];
 
+const CRITERIA = [
+  {
+    heading: "Start with what the studio requires",
+    body: "Every reformer studio requires grip socks — a beginner who shows up without them has to buy a studio pair at the door. ToeSox socks are the most practical first gift for this reason: used from class one, every single time.",
+  },
+  {
+    heading: "Prioritise everyday use over novelty",
+    body: "Beginners don't need specialised equipment — they need the fundamentals they'll reach for constantly. A mat, socks, and resistance bands beat a gadget that gathers dust. Choose items that enter the weekly routine immediately.",
+  },
+  {
+    heading: "Consider where they'll practice",
+    body: "Studio-only practitioners need socks and leggings more than equipment. Home practitioners benefit most from a mat and resistance bands. Know whether the gift is for their studio life, their living room practice, or both.",
+  },
+  {
+    heading: "Match the gift to their stage",
+    body: "A true beginner (first 1–3 months) gets the most from foundational picks: mat, socks, bands. Someone a few months in may be ready for better leggings or a pilates ball. Don't over-gift; gear they can't use yet goes in a drawer.",
+  },
+];
+
+const FAQ = [
+  {
+    q: "What is the best pilates gift for a beginner?",
+    a: "The best pilates gift for a beginner is grip socks (ToeSox, $18) — they are required equipment at every reformer studio and consistently the item new practitioners show up without. A close second is a quality mat (Gaiam Premium, $35) for home practice. If budget allows, combine both with a Theraband set ($26) for a complete beginner kit around $79.",
+  },
+  {
+    q: "What equipment does a pilates beginner need?",
+    a: "A pilates beginner needs: grip socks (required by studios), a mat for home practice, resistance bands for supplementary work, and comfortable leggings. A pilates ball is a useful add-on. The Gaiam mat, ToeSox socks, and Theraband set together cover everything a beginner needs to start.",
+  },
+  {
+    q: "Is Lululemon worth it for a pilates beginner?",
+    a: "Yes — the Lululemon Align legging is worth it for a beginner because it removes one source of distraction during class. When your clothing isn't pulling, rolling, or restricting movement, you can focus entirely on the exercises. That said, the Gaiam mat and ToeSox socks are higher priority purchases for someone just starting out.",
+  },
+  {
+    q: "What pilates book should a beginner read?",
+    a: "Pilates Anatomy by Rael Isacowitz and Karen Clippinger is the most useful book for a beginner who wants to understand their practice. It pairs anatomical illustrations with exercise descriptions, helping new practitioners understand which muscles each movement targets and why. Return to Pilates by Joseph Pilates is the original text, but Pilates Anatomy is the more practically useful gift.",
+  },
+];
+
 const RELATED = [
   { title: "Beginner's Guide to Reformer Pilates", excerpt: "Everything you need to know before your first reformer class.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginners", readTime: "12 min", imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" },
   { title: "Best Pilates Starter Kit", excerpt: "The complete starter kit for mat and home practice.", href: "/blog/best-pilates-starter-kit", category: "Equipment", readTime: "9 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
-  { title: "Best Pilates Gifts Under $100", excerpt: "Quality gifts that feel premium without the premium price.", href: "/blog/best-pilates-gifts-under-100", category: "Guide", readTime: "7 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
+  { title: "Best Pilates Gifts Under $100", excerpt: "Quality gifts that feel premium without the premium price.", href: "/blog/best-pilates-gifts-under-100", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
 ];
 
 const jsonLd = {
@@ -104,7 +142,7 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "datePublished": "2026-07-29",
-      "dateModified": "2026-07-29",
+      "dateModified": "2026-07-30",
     },
     {
       "@type": "ItemList",
@@ -127,10 +165,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is the best pilates gift for a beginner?", "acceptedAnswer": { "@type": "Answer", "text": "The best pilates gift for a beginner is grip socks (ToeSox, $18) — they are required equipment at every reformer studio and consistently the item new practitioners show up without. A close second is a quality mat (Gaiam Premium, $35) for home practice." } },
-        { "@type": "Question", "name": "What equipment does a pilates beginner need?", "acceptedAnswer": { "@type": "Answer", "text": "A pilates beginner needs: grip socks (required by studios), a mat for home practice, resistance bands for supplementary work, and comfortable leggings. A pilates ball is a useful add-on. The Gaiam mat, ToeSox socks, and Theraband set together cover everything a beginner needs to start." } },
-      ],
+      "mainEntity": FAQ.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
@@ -146,13 +181,13 @@ export default function Page() {
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31" }}>Guide</span>
             <span style={{ width: "32px", height: "1px", backgroundColor: "#c5a882", display: "inline-block" }} />
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>8 min read</span>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>9 min read</span>
           </div>
           <h1 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(2rem, 5vw, 3.2rem)", fontWeight: 400, color: "#1a1714", lineHeight: 1.15, marginBottom: "20px" }}>
             Best Pilates Gifts<br />for Beginners
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            If she's just starting pilates — or just signed up for her first reformer session — the right gift can transform her experience from the very beginning. Beginners need fundamentals, not gimmicks: the grip socks the studio requires, the mat for home practice, the resistance bands that extend her training. This guide covers exactly those — the equipment that gives a beginner the right foundation.
+            If she's just starting pilates — or just signed up for her first reformer session — the right gift can transform her experience from the very beginning. Beginners need fundamentals, not gimmicks: the grip socks the studio requires, the mat for home practice, the resistance bands that extend her training. This guide covers exactly those — the equipment that gives a beginner the right foundation, ranked by what gets used most and bought least.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Beginner-tested picks</span>
@@ -170,6 +205,25 @@ export default function Page() {
 
       <section className="px-6 py-20 pcc-content-section" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-3xl mx-auto">
+
+          {/* Quick picks table */}
+          <div style={{ marginBottom: "56px", border: "1px solid #ede9e3", overflow: "hidden" }}>
+            <div style={{ padding: "16px 24px", backgroundColor: "#faf8f5", borderBottom: "1px solid #ede9e3" }}>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks — At a Glance</p>
+            </div>
+            {PRODUCTS.map((p, i) => (
+              <div key={p.rank} style={{ display: "flex", alignItems: "center", gap: "16px", padding: "14px 24px", borderTop: i === 0 ? "none" : "1px solid #ede9e3", backgroundColor: "#ffffff", flexWrap: "wrap" }}>
+                <span style={{ fontFamily: "var(--font-serif)", fontSize: "12px", color: "#c5a882", minWidth: "28px", flexShrink: 0 }}>{p.rank}</span>
+                <div style={{ flex: 1, minWidth: "140px" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#1a1714", margin: 0, lineHeight: 1.3 }}>{p.name}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#8b4a31", margin: "2px 0 0" }}>{p.verdict}</p>
+                </div>
+                <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#9a9490", whiteSpace: "nowrap" }}>{p.price}</span>
+                <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "8px 14px", textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>Buy →</a>
+              </div>
+            ))}
+          </div>
+
           <div style={{ display: "flex", flexDirection: "column", gap: "52px" }}>
             {PRODUCTS.map((p) => (
               <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "40px" }}>
@@ -189,6 +243,32 @@ export default function Page() {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* How to choose */}
+          <div style={{ marginTop: "72px", padding: "40px", backgroundColor: "#faf8f5", borderLeft: "3px solid #c5a882" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.5rem", fontWeight: 400, color: "#1a1714", marginBottom: "28px", marginTop: 0 }}>How to choose the right beginner pilates gift</h2>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "20px" }}>
+              {CRITERIA.map((c) => (
+                <div key={c.heading} style={{ backgroundColor: "#ffffff", padding: "20px", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "#1a1714", marginBottom: "8px", marginTop: 0 }}>{c.heading}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.88rem", color: "#6b6560", lineHeight: 1.75, margin: 0 }}>{c.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* FAQ */}
+          <div style={{ marginTop: "72px" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.8rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              {FAQ.map((item) => (
+                <div key={item.q} style={{ padding: "24px 28px", backgroundColor: "#faf8f5", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-serif)", fontSize: "1.05rem", fontWeight: 400, color: "#1a1714", marginBottom: "10px", marginTop: 0 }}>{item.q}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.9rem", color: "#4a4540", lineHeight: 1.8, margin: 0 }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>

@@ -55,7 +55,7 @@ const SETS = [
   {
     rank: "03",
     name: "The Recovery Set",
-    price: "$71 total",
+    price: "$82 total",
     verdict: "Best Wellness Gift Bundle",
     description: "For the practitioner who trains hard and needs to recover well: TriggerPoint GRID Foam Roller ($36) plus a Theraband Resistance Band Set ($26) for active recovery and mobility work, and a Trideer Pilates Ball ($20) for targeted spinal mobility and stretching. Together these three pieces cover myofascial release, resistance mobility, and ball work — a complete recovery and maintenance kit for any level of practitioner. Approximately $82 total, presented in a simple basket with a handwritten card.",
     affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+grid+foam+roller+recovery+set&tag=pilatescollective-20",
@@ -79,16 +79,54 @@ const SETS = [
   {
     rank: "06",
     name: "The Tech & Recovery Bundle",
-    price: "$334 total",
+    price: "$335 total",
     verdict: "Best High-End Gift Bundle",
     description: "For the serious practitioner ready for the next level of recovery: Theragun Elite ($299) plus a TriggerPoint GRID Roller ($36). The Theragun handles deep percussive therapy for the hip flexors, thoracic spine, and shoulders; the GRID covers myofascial rolling for the IT band, calves, and thoracic extensors. Together they build a complete recovery toolkit that professional athletes use. Approximately $335 total — an exceptional end-of-year gift, or a pooled gift from a group of studio friends.",
     affiliateUrl: "https://www.amazon.com/s?k=theragun+elite+recovery+set+pilates&tag=pilatescollective-20",
   },
 ];
 
+const CRITERIA = [
+  {
+    heading: "Every item in the bundle must earn its place",
+    body: "A gift set fails when it includes one strong item and two pieces of filler. The best pilates bundles are built so that every component gets used regularly — not so one marquee item justifies weak additions. Fewer items at higher quality always beats a padded basket.",
+  },
+  {
+    heading: "Match the bundle to her practice level",
+    body: "A beginner needs fundamentals (mat, socks, bands). An experienced practitioner doesn't need another mat — she needs better leggings, a quality recovery tool, or a premium accessory. Diagnosing what stage she's at determines which bundle fits.",
+  },
+  {
+    heading: "Think about what covers a daily gap",
+    body: "The best bundles address something she does every day: what she wears (leggings + bra), what she carries (belt bag), how she recovers (foam roller + resistance bands). The Lululemon Studio Bundle works because it covers two daily touchpoints in her routine simultaneously.",
+  },
+  {
+    heading: "Presentation matters at this price point",
+    body: "A $146 bundle presented in a plain cardboard box feels underwhelming. A simple white rigid box, tissue paper, and a card that explains why you chose each piece dramatically elevates the gift. The unboxing experience is part of the gift at this budget.",
+  },
+];
+
+const FAQ = [
+  {
+    q: "What is a good pilates gift set?",
+    a: "The best pilates gift set for a beginner is: Gaiam mat ($35) + ToeSox grip socks ($18) + Theraband set ($26) = $79 total. For an experienced practitioner: Lululemon Align Legging ($98) + Lululemon Belt Bag ($48) = $146 total. Both bundles feel complete and intentional — every item has a clear purpose in her daily practice.",
+  },
+  {
+    q: "How do I make a pilates gift basket?",
+    a: "Build a pilates gift basket around three items: something to train in (leggings or a sports bra), something to train on (a mat or grip socks), and something to recover with (a foam roller or resistance bands). Add a handwritten card noting why you chose each piece. The Theraband set, ToeSox socks, and Gaiam mat together make an excellent complete basket for around $79.",
+  },
+  {
+    q: "Is a pilates gift set better than a single gift?",
+    a: "A well-chosen bundle is better than a single mediocre gift — but a single outstanding gift beats a poorly assembled bundle every time. If you're confident in one item (a Manduka PRO mat, a Theragun Elite, a pair of Lululemon Align leggings), that alone is more impactful than three weak items bundled together. Bundle when you can make every piece count.",
+  },
+  {
+    q: "What is the best pilates gift bundle under $100?",
+    a: "The best pilates gift bundle under $100 is: ToeSox grip socks ($42 for a 3-pack) + TriggerPoint GRID Foam Roller ($36) = $78 total. This covers studio essentials and daily recovery in two items, both from brands practitioners recognise and trust. The Gaiam mat ($35) + ToeSox ($18) + Theraband set ($26) = $79 is the best beginner-specific bundle under $100.",
+  },
+];
+
 const RELATED = [
-  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Individual picks she'll love — Lululemon, Alo, Manduka.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
-  { title: "Best Pilates Gifts Under $100", excerpt: "Quality pilates gifts that stay comfortably under $100.", href: "/blog/best-pilates-gifts-under-100", category: "Guide", readTime: "7 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
+  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Individual picks she'll love — Lululemon, Alo, Manduka.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
+  { title: "Best Pilates Gifts Under $100", excerpt: "Quality pilates gifts that stay comfortably under $100.", href: "/blog/best-pilates-gifts-under-100", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
   { title: "Best Pilates Starter Kit", excerpt: "The complete equipment kit for home pilates practice.", href: "/blog/best-pilates-starter-kit", category: "Equipment", readTime: "9 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
 ];
 
@@ -122,10 +160,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is a good pilates gift set?", "acceptedAnswer": { "@type": "Answer", "text": "The best pilates gift set for a beginner is: Gaiam mat ($35) + ToeSox grip socks ($18) + Theraband set ($26) = $79 total. For an experienced practitioner: Lululemon Align Legging ($98) + Lululemon Belt Bag ($48) = $146 total. Both bundles feel complete and intentional." } },
-        { "@type": "Question", "name": "How do I make a pilates gift basket?", "acceptedAnswer": { "@type": "Answer", "text": "Build a pilates gift basket around three items: something to train in (leggings or a sports bra), something to train on (a mat or grip socks), and something to recover with (a foam roller or resistance bands). Add a handwritten card noting why you chose each piece. The Theraband set, ToeSox socks, and Gaiam mat together make an excellent complete basket for around $79." } },
-      ],
+      "mainEntity": FAQ.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
@@ -146,7 +181,7 @@ export default function Page() {
             Best Pilates Gift Sets & Bundles
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            A single great gift is good. A curated set of two or three items that work together — covering training, recovery, and every daily ritual around her practice — is better. This guide builds six complete pilates gift bundles across every budget tier, from a $79 beginner kit to a $334 high-performance recovery set. Each bundle is designed so every item in it earns its place.
+            A single great gift is good. A curated set of two or three items that work together — covering training, recovery, and every daily ritual around her practice — is better. This guide builds six complete pilates gift bundles across every budget tier, from a $79 beginner kit to a $335 high-performance recovery set. Each bundle is designed so every item in it earns its place, with guidance on how to choose the right bundle for the practitioner you're gifting.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Curated bundles at every budget</span>
@@ -162,6 +197,25 @@ export default function Page() {
       </section>
       <section className="px-6 py-20 pcc-content-section" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-3xl mx-auto">
+
+          {/* Quick picks table */}
+          <div style={{ marginBottom: "56px", border: "1px solid #ede9e3", overflow: "hidden" }}>
+            <div style={{ padding: "16px 24px", backgroundColor: "#faf8f5", borderBottom: "1px solid #ede9e3" }}>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks — At a Glance</p>
+            </div>
+            {SETS.map((p, i) => (
+              <div key={p.rank} style={{ display: "flex", alignItems: "center", gap: "16px", padding: "14px 24px", borderTop: i === 0 ? "none" : "1px solid #ede9e3", backgroundColor: "#ffffff", flexWrap: "wrap" }}>
+                <span style={{ fontFamily: "var(--font-serif)", fontSize: "12px", color: "#c5a882", minWidth: "28px", flexShrink: 0 }}>{p.rank}</span>
+                <div style={{ flex: 1, minWidth: "140px" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#1a1714", margin: 0, lineHeight: 1.3 }}>{p.name}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#8b4a31", margin: "2px 0 0" }}>{p.verdict}</p>
+                </div>
+                <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#9a9490", whiteSpace: "nowrap" }}>{p.price}</span>
+                <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "8px 14px", textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>Buy →</a>
+              </div>
+            ))}
+          </div>
+
           <div style={{ display: "flex", flexDirection: "column", gap: "52px" }}>
             {SETS.map((p) => (
               <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "40px" }}>
@@ -182,6 +236,33 @@ export default function Page() {
               </div>
             ))}
           </div>
+
+          {/* How to choose */}
+          <div style={{ marginTop: "72px", padding: "40px", backgroundColor: "#faf8f5", borderLeft: "3px solid #c5a882" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.5rem", fontWeight: 400, color: "#1a1714", marginBottom: "28px", marginTop: 0 }}>How to build the right pilates gift set</h2>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "20px" }}>
+              {CRITERIA.map((c) => (
+                <div key={c.heading} style={{ backgroundColor: "#ffffff", padding: "20px", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "#1a1714", marginBottom: "8px", marginTop: 0 }}>{c.heading}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.88rem", color: "#6b6560", lineHeight: 1.75, margin: 0 }}>{c.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* FAQ */}
+          <div style={{ marginTop: "72px" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.8rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              {FAQ.map((item) => (
+                <div key={item.q} style={{ padding: "24px 28px", backgroundColor: "#faf8f5", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-serif)", fontSize: "1.05rem", fontWeight: 400, color: "#1a1714", marginBottom: "10px", marginTop: 0 }}>{item.q}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.9rem", color: "#4a4540", lineHeight: 1.8, margin: 0 }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
             Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>

@@ -86,10 +86,24 @@ const PRODUCTS = [
   },
 ];
 
+const CRITERIA = [
+  { heading: "Type of gift", body: "Accessories (socks, bands, blocks) are safe and size-independent. Clothing (sports bra) requires knowing her size. Equipment (mat, foam roller) works for any level." },
+  { heading: "Beginner vs. regular", body: "Beginners most need a mat, grip socks, and resistance bands. Regular practitioners benefit most from a foam roller, cork blocks, or a better sports bra — the accessories that upgrade daily practice." },
+  { heading: "Stack for more impact", body: "Combining two $30–$40 picks (Gaiam mat + ToeSox socks, or TriggerPoint roller + Theraband set) gives more perceived value than one $70 item. Consider a small bundle at this price tier." },
+  { heading: "Daily use test", body: "The best gifts at any budget are the ones used most often. At this price tier, grip socks (every class), resistance bands (most weeks), and a foam roller (most days) pass the daily use test better than novelty items." },
+];
+
+const FAQ = [
+  { q: "What are the best pilates gifts under $100?", a: "The best pilates gifts under $100 are: ToeSox grip socks ($18–52), Theraband resistance set ($26), Gaiam Premium mat ($35), TriggerPoint GRID roller ($36), Lululemon Align Bra ($48), and Manduka Cork Blocks ($64). All are practical, high-quality gifts she'll use every class." },
+  { q: "What is a good pilates gift for under $50?", a: "For under $50, the best pilates gifts are: Lululemon Align Bra ($48), Theraband Professional Set ($26), ToeSox Half-Toe Grip Socks ($18), TriggerPoint GRID Roller ($36), and Gaiam Premium Mat ($35). The Theraband set offers the best value-per-dollar at this price point." },
+  { q: "What do pilates practitioners actually need?", a: "Practically, every pilates practitioner needs: grip socks (required by studios), a personal mat for home practice, resistance bands for supplementary work, and a foam roller for recovery. Of these, grip socks and resistance bands are the most universally appreciated gifts because practitioners go through them regularly and rarely buy them in advance." },
+  { q: "Should I buy one $100 gift or multiple smaller gifts?", a: "For a close friend or partner, one thoughtful $100 gift (like a Manduka cork block set or Lululemon bra) tends to feel more intentional than a collection of small items. For a colleague, Secret Santa, or someone you know less well, combining a $26 Theraband set with a $18 ToeSox pack makes a complete, practical gift basket at $44 total." },
+];
+
 const RELATED = [
   { title: "Best Pilates Gifts Under $50", excerpt: "Thoughtful pilates gifts that keep the budget tight.", href: "/blog/best-pilates-gifts-under-50", category: "Guide", readTime: "7 min", imageUrl: "/pictures/stitch-grip-socks-footbar.png" },
   { title: "Best Pilates Gifts for Beginners", excerpt: "Everything a new practitioner needs to get started right.", href: "/blog/best-pilates-gifts-for-beginners", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-studio-windowsill.png" },
-  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Picks she'll love and actually use every class.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
+  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Picks she'll love and actually use every class.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
 ];
 
 const jsonLd = {
@@ -104,18 +118,13 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "datePublished": "2026-07-29",
-      "dateModified": "2026-07-29",
+      "dateModified": "2026-07-30",
     },
     {
       "@type": "ItemList",
       "name": "Best Pilates Gifts Under $100",
       "numberOfItems": 6,
-      "itemListElement": PRODUCTS.map((p, i) => ({
-        "@type": "ListItem",
-        "position": i + 1,
-        "name": p.name,
-        "url": p.affiliateUrl,
-      })),
+      "itemListElement": PRODUCTS.map((p, i) => ({ "@type": "ListItem", "position": i + 1, "name": p.name, "url": p.affiliateUrl })),
     },
     {
       "@type": "BreadcrumbList",
@@ -127,10 +136,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What are the best pilates gifts under $100?", "acceptedAnswer": { "@type": "Answer", "text": "The best pilates gifts under $100 are: ToeSox grip socks ($18–52), Theraband resistance set ($26), Gaiam Premium mat ($35), TriggerPoint GRID roller ($36), Lululemon Align Bra ($48), and Manduka Cork Blocks ($64). All are practical, high-quality gifts she'll use every class." } },
-        { "@type": "Question", "name": "What is a good pilates gift for under $50?", "acceptedAnswer": { "@type": "Answer", "text": "For under $50, the best pilates gifts are: Lululemon Align Bra ($48), Theraband Professional Set ($26), ToeSox Half-Toe Grip Socks ($18), TriggerPoint GRID Roller ($36), and Gaiam Premium Mat ($35). The Theraband set offers the best value-per-dollar." } },
-      ],
+      "mainEntity": FAQ.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
@@ -146,13 +152,13 @@ export default function Page() {
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31" }}>Guide</span>
             <span style={{ width: "32px", height: "1px", backgroundColor: "#c5a882", display: "inline-block" }} />
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>7 min read</span>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>8 min read</span>
           </div>
           <h1 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(2rem, 5vw, 3.2rem)", fontWeight: 400, color: "#1a1714", lineHeight: 1.15, marginBottom: "20px" }}>
             Best Pilates Gifts Under $100
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            The best pilates gifts don't have to be expensive — they have to be right. This guide focuses on the sub-$100 tier where thoughtfulness matters more than price: the grip socks she reaches for every class, the foam roller she actually uses, the mat that finally replaces the studio's communal one. All picks are from brands the pilates community trusts, with prices that leave room in any budget.
+            The best pilates gifts don't have to be expensive — they have to be right. This guide focuses on the sub-$100 tier where thoughtfulness matters more than price: the grip socks she reaches for every class, the foam roller she actually uses, the mat that finally replaces the studio's communal one. All picks are from brands the pilates community trusts, with guidance to help you choose the right one for her practice level and routine.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ All under $100</span>
@@ -170,6 +176,26 @@ export default function Page() {
 
       <section className="px-6 py-20 pcc-content-section" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-3xl mx-auto">
+
+          {/* Quick picks table */}
+          <div style={{ marginBottom: "56px", border: "1px solid #ede9e3", overflow: "hidden" }}>
+            <div style={{ padding: "16px 24px", backgroundColor: "#faf8f5", borderBottom: "1px solid #ede9e3" }}>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks — At a Glance</p>
+            </div>
+            {PRODUCTS.map((p, i) => (
+              <div key={p.rank} style={{ display: "flex", alignItems: "center", gap: "16px", padding: "14px 24px", borderTop: i === 0 ? "none" : "1px solid #ede9e3", backgroundColor: "#ffffff", flexWrap: "wrap" }}>
+                <span style={{ fontFamily: "var(--font-serif)", fontSize: "12px", color: "#c5a882", minWidth: "28px", flexShrink: 0 }}>{p.rank}</span>
+                <div style={{ flex: 1, minWidth: "140px" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#1a1714", margin: 0, lineHeight: 1.3 }}>{p.name}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#8b4a31", margin: "2px 0 0" }}>{p.verdict}</p>
+                </div>
+                <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#9a9490", whiteSpace: "nowrap" }}>{p.price}</span>
+                <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "8px 14px", textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>Buy →</a>
+              </div>
+            ))}
+          </div>
+
+          {/* Products */}
           <div style={{ display: "flex", flexDirection: "column", gap: "52px" }}>
             {PRODUCTS.map((p) => (
               <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "40px" }}>
@@ -191,6 +217,32 @@ export default function Page() {
             ))}
           </div>
 
+          {/* How to choose */}
+          <div style={{ marginTop: "72px", padding: "40px", backgroundColor: "#faf8f5", borderLeft: "3px solid #c5a882" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.5rem", fontWeight: 400, color: "#1a1714", marginBottom: "28px", marginTop: 0 }}>How to choose at this budget</h2>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "20px" }}>
+              {CRITERIA.map((c) => (
+                <div key={c.heading} style={{ backgroundColor: "#ffffff", padding: "20px", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "#1a1714", marginBottom: "8px", marginTop: 0 }}>{c.heading}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.88rem", color: "#6b6560", lineHeight: 1.75, margin: 0 }}>{c.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* FAQ */}
+          <div style={{ marginTop: "72px" }}>
+            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.8rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              {FAQ.map((item) => (
+                <div key={item.q} style={{ padding: "24px 28px", backgroundColor: "#faf8f5", border: "1px solid #ede9e3" }}>
+                  <p style={{ fontFamily: "var(--font-serif)", fontSize: "1.05rem", fontWeight: 400, color: "#1a1714", marginBottom: "10px", marginTop: 0 }}>{item.q}</p>
+                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.9rem", color: "#4a4540", lineHeight: 1.8, margin: 0 }}>{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
             Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>
@@ -201,9 +253,7 @@ export default function Page() {
         <div className="max-w-3xl mx-auto">
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "28px" }}>More Gift Guides</p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "24px" }}>
-            {RELATED.map((a) => (
-              <ArticleCard key={a.href} title={a.title} excerpt={a.excerpt} href={a.href} category={a.category} readTime={a.readTime} imageUrl={a.imageUrl} />
-            ))}
+            {RELATED.map((a) => <ArticleCard key={a.href} title={a.title} excerpt={a.excerpt} href={a.href} category={a.category} readTime={a.readTime} imageUrl={a.imageUrl} />)}
           </div>
         </div>
       </section>
