@@ -90,8 +90,13 @@ const SHOP_CATEGORIES = [
   {
     label: "Gift Guides",
     links: [
-      { label: "Gifts for Her (Girlfriend)", href: "/blog/best-pilates-gifts-for-girlfriend" },
-      { label: "Luxury Pilates Gifts", href: "/blog/best-luxury-pilates-gifts" },
+      { label: "Christmas Gifts", href: "/blog/best-pilates-christmas-gifts" },
+      { label: "Gift Sets & Bundles", href: "/blog/best-pilates-gift-sets" },
+      { label: "Gifts for Her", href: "/blog/best-pilates-gifts-for-girlfriend" },
+      { label: "Gifts for Him", href: "/blog/best-pilates-gifts-for-him" },
+      { label: "Gifts for Mom", href: "/blog/best-pilates-gifts-for-mom" },
+      { label: "Gifts for Instructor", href: "/blog/best-pilates-gifts-for-pilates-instructor" },
+      { label: "Luxury Gifts", href: "/blog/best-luxury-pilates-gifts" },
       { label: "Gifts Under $100", href: "/blog/best-pilates-gifts-under-100" },
       { label: "Gifts for Beginners", href: "/blog/best-pilates-gifts-for-beginners" },
       { label: "Gifts Under $50", href: "/blog/best-pilates-gifts-under-50" },

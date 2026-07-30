@@ -229,6 +229,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-pilates-gifts-under-100",
     "best-pilates-gifts-for-beginners",
     "best-pilates-gifts-under-50",
+    "best-pilates-gifts-for-mom",
+    "best-pilates-gifts-for-him",
+    "best-pilates-gifts-for-pilates-instructor",
+    "best-pilates-gift-sets",
+    "best-pilates-christmas-gifts",
   ];
 
   return [
