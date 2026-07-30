@@ -234,6 +234,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "best-pilates-gifts-for-pilates-instructor",
     "best-pilates-gift-sets",
     "best-pilates-christmas-gifts",
+    "best-pilates-reformer-gift",
+    "best-pilates-reformer-gift-under-500",
   ];
 
   return [

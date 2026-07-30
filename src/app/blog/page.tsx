@@ -29,6 +29,22 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Pilates Reformer to Gift (2026)",
+    excerpt: "From the $330 AeroPilates Performer Plus to the $2,495 Merrithew V2 Max Plus — the reformers worth giving as a gift.",
+    href: "/blog/best-pilates-reformer-gift",
+    category: "Guide",
+    readTime: "10 min",
+    imageUrl: "/pictures/stitch-reformers-aerial-row.png",
+  },
+  {
+    title: "Best Pilates Reformer Gift Under $500 (2026)",
+    excerpt: "Six budget reformers under $500 that are actually worth gifting — bungee vs spring, foldable vs fixed, and who each one suits.",
+    href: "/blog/best-pilates-reformer-gift-under-500",
+    category: "Guide",
+    readTime: "9 min",
+    imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png",
+  },
+  {
     title: "Best Pilates Christmas Gifts (2026)",
     excerpt: "Lululemon, Theragun, Manduka, Alo — the definitive pilates Christmas gift guide at every budget.",
     href: "/blog/best-pilates-christmas-gifts",

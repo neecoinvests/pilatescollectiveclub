@@ -91,6 +91,8 @@ const SHOP_CATEGORIES = [
     label: "Gift Guides",
     links: [
       { label: "Christmas Gifts", href: "/blog/best-pilates-christmas-gifts" },
+      { label: "Reformer as a Gift", href: "/blog/best-pilates-reformer-gift" },
+      { label: "Reformer Gift Under $500", href: "/blog/best-pilates-reformer-gift-under-500" },
       { label: "Gift Sets & Bundles", href: "/blog/best-pilates-gift-sets" },
       { label: "Gifts for Her", href: "/blog/best-pilates-gifts-for-girlfriend" },
       { label: "Gifts for Him", href: "/blog/best-pilates-gifts-for-him" },
