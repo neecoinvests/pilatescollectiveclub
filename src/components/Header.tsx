@@ -397,7 +397,7 @@ export default function Header() {
                     }}>
                       {cat.label}
                     </p>
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px" }}>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                       {cat.links.map((link) => (
                         <Link
                           key={link.href}
@@ -405,7 +405,7 @@ export default function Header() {
                           onClick={() => { setMenuOpen(false); setShopOpen(false); }}
                           style={{
                             fontFamily: "var(--font-sans)",
-                            fontSize: "11px",
+                            fontSize: "12px",
                             color: "#4a4540",
                             textDecoration: "none",
                             letterSpacing: "0.02em",

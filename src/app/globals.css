@@ -116,6 +116,10 @@ h1, h2, h3, h4 {
   .pcc-hero-ctas a   { text-align: center !important; width: 100% !important; box-sizing: border-box !important; }
   .pcc-hero-body     { flex-direction: column !important; align-items: flex-start !important; gap: 24px !important; }
 
+  /* Full-bleed homepage hero (image behind) */
+  .pcc-hero          { min-height: 520px !important; max-height: 760px !important; }
+  .pcc-hero-content  { padding: 0 20px 44px !important; }
+
   /* Section padding */
   .pcc-hp-section { padding: 52px 20px !important; }
 

@@ -552,10 +552,10 @@ export default function Home() {
       <main>
 
         {/* Hero */}
-        <section style={{
+        <section className="pcc-hero" style={{
           position: "relative",
-          height: "100vh",
-          minHeight: "680px",
+          height: "100svh",
+          minHeight: "520px",
           maxHeight: "1000px",
           overflow: "hidden",
           display: "flex",
@@ -613,7 +613,7 @@ export default function Home() {
           </div>
 
           {/* Main content — pinned to bottom */}
-          <div style={{
+          <div className="pcc-hero-content" style={{
             position: "relative",
             zIndex: 2,
             padding: "0 52px 64px",
@@ -651,7 +651,7 @@ export default function Home() {
               }}>
                 Curated studio guides, editorial reviews, and the best in Pilates equipment — built for the global Pilates community.
               </p>
-              <div style={{ display: "flex", gap: "12px", flexShrink: 0 }}>
+              <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
                 <Link href="/blog" style={{
                   fontFamily: "var(--font-sans)",
                   fontSize: "10px",
@@ -664,6 +664,7 @@ export default function Home() {
                   padding: "13px 26px",
                   display: "inline-block",
                   boxSizing: "border-box" as const,
+                  whiteSpace: "nowrap",
                 }}>
                   Read the Journal
                 </Link>
@@ -679,6 +680,7 @@ export default function Home() {
                   padding: "13px 26px",
                   display: "inline-block",
                   boxSizing: "border-box" as const,
+                  whiteSpace: "nowrap",
                 }}>
                   Browse Studios
                 </Link>
