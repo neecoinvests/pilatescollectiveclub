@@ -31,12 +31,12 @@ h1, h2, h3, h4 {
   font-weight: 400;
 }
 
-/* ─── Homepage grid columns (desktop — overridden on mobile below) ──────────── */
+/* ─── Homepage grid columns (desktop — overridden on mobile below) ─────────────────────── */
 .pcc-grid-journal  { grid-template-columns: repeat(3, 1fr); }
 .pcc-grid-cities   { grid-template-columns: repeat(5, 1fr); }
 .pcc-grid-products { grid-template-columns: repeat(4, 1fr); }
 
-/* ─── Mobile (≤ 768px) ─────────────────────────────────────────────────────── */
+/* ─── Mobile (≤ 768px) ──────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
 
   /* Header */
@@ -106,14 +106,15 @@ h1, h2, h3, h4 {
     padding-right: 1rem !important;
   }
 
-  /* ── Homepage ────────────────────────────────────── */
+  /* ── Homepage ──────────────────────────────────────────────── */
 
   /* Hero */
   .pcc-hero-section  { padding: 96px 20px 56px !important; }
   .pcc-hero-svg      { display: none !important; }
-  .pcc-hero-divider  { margin: 0 !important; }
+  .pcc-hero-section h1 { font-size: clamp(34px, 9vw, 52px) !important; line-height: 1.1 !important; }
+  .pcc-hero-divider  { margin: 28px 0 !important; }
   .pcc-hero-ctas     { flex-direction: column !important; width: 100% !important; flex-shrink: unset !important; }
-  .pcc-hero-ctas a   { text-align: center !important; width: 100% !important; box-sizing: border-box !important; }
+  .pcc-hero-ctas a   { display: block !important; text-align: center !important; width: 100% !important; box-sizing: border-box !important; }
   .pcc-hero-body     { flex-direction: column !important; align-items: flex-start !important; gap: 24px !important; }
 
   /* Section padding */

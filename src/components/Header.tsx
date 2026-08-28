@@ -85,6 +85,8 @@ export default function Header() {
           style={{
             backgroundColor: "#ffffff",
             borderTop: "1px solid #ede9e3",
+            maxHeight: "calc(100dvh - 3.75rem)",
+            overflowY: "auto",
           }}
           className="md:hidden px-8 py-10 flex flex-col gap-7"
         >
