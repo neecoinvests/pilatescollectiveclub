@@ -50,6 +50,17 @@ h1, h2, h3, h4 {
     height: 40px !important;
   }
 
+  /* Mobile nav drawer. It renders inside the position:fixed header, so any
+     content past the viewport bottom cannot be reached by page scroll —
+     it needs its own scroll container or the lower Shop Gear links are lost. */
+  .pcc-mobile-menu {
+    max-height: calc(100vh - 3.75rem);
+    max-height: calc(100dvh - 3.75rem);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+
   /* Featured Rotator — stack vertically */
   .pcc-featured-grid {
     grid-template-columns: 1fr !important;

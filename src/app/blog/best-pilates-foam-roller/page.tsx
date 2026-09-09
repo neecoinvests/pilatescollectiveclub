@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Foam Roller for Pilates (2026): Density & Size Compared | Pilates Collective Club",
+  title: "Best Foam Roller for Pilates (2026): Density & Size Compared",
   description: "The best foam rollers for Pilates — high-density, half-round, and textured options reviewed for spinal mobility, IT band release, and pre-class warm-up.",
   keywords: ["best foam roller for pilates", "pilates foam roller 2026", "foam roller pilates review", "best foam roller spinal mobility", "half round foam roller pilates", "high density foam roller pilates", "foam roller pilates exercises"],
   openGraph: {

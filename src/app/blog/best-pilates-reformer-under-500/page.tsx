@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Under $500 (2026): Budget Picks Reviewed | Pilates Collective Club",
+  title: "Best Pilates Reformer Under $500 (2026): Budget Picks Reviewed",
   description: "The best Pilates reformers under $500 — budget entry machines reviewed for spring quality, stability, and whether they are worth the investment.",
   keywords: ["best pilates reformer under 500", "cheap pilates reformer 2026", "budget reformer pilates buy", "pilates reformer under 500 dollars", "affordable home reformer pilates", "best budget pilates reformer", "entry level pilates reformer review"],
   openGraph: {

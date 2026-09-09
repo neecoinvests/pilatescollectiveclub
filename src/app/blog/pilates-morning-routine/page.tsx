@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates Morning Routine (2026): 10, 20 & 30-Minute Options | Pilates Collective Club",
+  title: "Pilates Morning Routine (2026): 10, 20 & 30-Minute Options",
   description: "The best Pilates morning routines for 2026 — 10, 20, and 30-minute options for before work, with equipment recommendations and the science behind morning practice.",
   keywords: ["pilates morning routine", "morning pilates workout", "pilates before work", "10 minute morning pilates", "20 minute pilates routine", "pilates morning exercises", "morning pilates for beginners", "pilates waking up", "best morning pilates 2026", "pilates daily routine morning"],
   openGraph: {

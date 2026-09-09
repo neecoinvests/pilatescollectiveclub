@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Mat (2026): Thickness, Grip & Value Compared | Pilates Collective Club",
+  title: "Best Pilates Mat (2026): Thickness, Grip & Value Compared",
   description: "The best Pilates mats of 2026 — Manduka PRO, Lululemon The Mat, and more compared on thickness, grip, durability, and reformer class portability.",
   keywords: ["best pilates mat", "pilates mat 2026", "best mat for pilates", "manduka pilates mat review", "lululemon mat pilates", "best thick pilates mat", "6mm pilates mat", "non-slip pilates mat", "pilates mat vs yoga mat", "best pilates mat buy"],
   openGraph: {

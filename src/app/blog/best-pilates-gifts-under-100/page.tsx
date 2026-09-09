@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Gifts Under $100 (2026) | Pilates Collective Club",
+  title: "Best Pilates Gifts Under $100 (2026)",
   description: "The best pilates gifts under $100 — quality picks that feel premium without the premium price tag. Grip socks, mats, resistance bands, sports bras, and more.",
   keywords: [
     "best pilates gifts under 100",

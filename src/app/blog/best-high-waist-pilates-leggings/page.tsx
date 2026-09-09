@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best High-Waist Pilates Leggings (2026) | Pilates Collective Club",
+  title: "Best High-Waist Pilates Leggings (2026)",
   description: "The best high-waist leggings for Pilates — tested for waistband hold, squat-proof fabric, and reformer performance. Lululemon Align, Alo Airbrush, CRZ YOGA, and more.",
   keywords: [
     "best high waist pilates leggings",

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ball (2026): Stability & Mini Balls Reviewed | Pilates Collective Club",
+  title: "Best Pilates Ball (2026): Stability & Mini Balls Reviewed",
   description: "The best Pilates balls of 2026 — mini stability balls and over balls reviewed for grip, burst resistance, and usefulness in reformer and mat class.",
   openGraph: {
     title: "Best Pilates Ball (2026): Mini Ball and Exercise Ball Reviewed",

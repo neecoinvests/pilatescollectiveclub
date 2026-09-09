@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Gifts for Him (2026) | Pilates Collective Club",
+  title: "Best Pilates Gifts for Him (2026)",
   description: "The best pilates gifts for men — from Lululemon ABC pants and Vuori joggers to Theragun recovery and Manduka mats. Gifts for husbands, boyfriends, and male practitioners.",
   keywords: [
     "best pilates gifts for him",

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Jumpboard (2026): Cardio Add-Ons Compared | Pilates Collective Club",
+  title: "Best Pilates Jumpboard (2026): Cardio Add-Ons Compared",
   description: "The best Pilates jumpboards of 2026 — Balanced Body, Merrithew, and Align models compared for padding, foot placement, and compatibility with your reformer.",
   keywords: ["best pilates jumpboard", "pilates jumpboard review 2026", "pilates jumpboard cardio", "balanced body jumpboard review", "merrithew jumpboard pilates", "reformer jumpboard buy", "pilates cardio jumpboard", "jumpboard pilates workout"],
   openGraph: {

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Starter Kit (2026): Everything a Beginner Needs | Pilates Collective Club",
+  title: "Best Pilates Starter Kit (2026): Everything a Beginner Needs",
   description: "The best Pilates starter kits of 2026 — mat, ring, grip socks, and resistance bands bundled and reviewed for beginners starting home or studio practice.",
   keywords: ["best pilates starter kit", "pilates beginner kit 2026", "pilates starter set", "pilates equipment kit beginner", "what equipment for beginner pilates", "pilates mat ring socks kit", "pilates starter bundle review"],
   openGraph: {

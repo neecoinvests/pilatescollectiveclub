@@ -7,7 +7,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "The 6 Core Principles of Pilates Explained | Pilates Collective Club",
+  title: "The 6 Core Principles of Pilates Explained",
   description: "Centring, concentration, control, precision, breath, flow — the six principles that define the Pilates method explained clearly, with practical cues for each.",
   openGraph: {
     title: "The 6 Core Principles of Pilates, Explained",

@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates Exercises for Beginners (2026): 15 Moves to Start | Pilates Collective Club",
+  title: "Pilates Exercises for Beginners (2026): 15 Moves to Start",
   description: "15 foundational Pilates exercises for beginners — reformer and mat moves explained with modifications, spring settings, and progression tips for new practitioners.",
   openGraph: {
     title: "10 Pilates Exercises for Beginners: The Essential Foundation",

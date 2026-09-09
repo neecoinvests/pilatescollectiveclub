@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Clothes for Men (2026): What to Wear | Pilates Collective Club",
+  title: "Best Pilates Clothes for Men (2026): What to Wear",
   description: "The best Pilates clothes for men — fitted shorts, tanks, and joggers reviewed for reformer grip, stretch range, and non-bunching coverage during class.",
   keywords: ["best pilates clothes for men", "men pilates outfit 2026", "what to wear pilates men", "men reformer pilates outfit", "best mens activewear pilates", "men pilates shorts", "men pilates leggings", "lululemon pilates men", "vuori pilates men"],
   openGraph: {

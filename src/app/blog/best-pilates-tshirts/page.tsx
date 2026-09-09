@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates T-Shirts (2026) | Pilates Collective Club",
+  title: "Best Pilates T-Shirts (2026)",
   description: "The best t-shirts for Pilates — tested for breathability, stretch, and studio-ready style. Our top picks from Lululemon, Vuori, Alo Yoga, Nike, and more.",
   keywords: [
     "best pilates t shirt",

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Equipment for Home Practice (2026) | Pilates Collective Club",
+  title: "Best Pilates Equipment for Home Practice (2026)",
   description: "The best Pilates equipment for home — reformers, mats, rings, and resistance bands reviewed for durability, value, and genuine home workout effectiveness.",
   openGraph: {
     title: "Best Pilates Equipment for Home Practice",

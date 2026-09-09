@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Mini Resistance Loops for Pilates (2026): Glute Bands Ranked | Pilates Collective Club",
+  title: "Best Mini Resistance Loops for Pilates (2026): Glute Bands Ranked",
   description: "The best mini resistance loops for Pilates — Peach Bands, Lululemon, Recover Athletics, and more compared for glute activation, hip abduction, and Pilates warm-up work.",
   keywords: ["best mini resistance loops pilates", "glute bands pilates 2026", "mini resistance bands pilates", "booty bands pilates", "hip activation bands pilates", "peach bands pilates", "lululemon resistance loops", "pilates warm up bands"],
   openGraph: {

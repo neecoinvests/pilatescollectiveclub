@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Lagree vs Pilates (2026): What's the Difference and Which Is Right for You? | Pilates Collective Club",
+  title: "Lagree vs Pilates (2026): What's the Difference and Which Is Right for You?",
   description: "Lagree vs. Pilates: Megaformer vs. reformer, intensity, muscle activation, and injury risk compared. Which method is better for your fitness goals?",
   keywords: [
     "lagree vs pilates",

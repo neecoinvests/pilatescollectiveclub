@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Smartwatch for Pilates (2026): Tested & Ranked | Pilates Collective Club",
+  title: "Best Smartwatch for Pilates (2026): Tested & Ranked",
   description: "The best smartwatches for Pilates — heart rate accuracy, thin profile for reformer work, HRV tracking, and recovery metrics. Apple Watch, Garmin, Whoop, and more compared.",
   keywords: ["best smartwatch for pilates", "pilates fitness tracker 2026", "apple watch pilates", "garmin forerunner pilates", "whoop band pilates", "best wearable for pilates", "fitness tracker reformer pilates", "pilates heart rate monitor watch"],
   openGraph: {

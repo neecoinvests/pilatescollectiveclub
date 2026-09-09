@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "How Much Does a Pilates Reformer Cost? (2026 Complete Price Guide) | Pilates Collective Club",
+  title: "How Much Does a Pilates Reformer Cost? (2026 Complete Price Guide)",
   description: "How much does a Pilates reformer cost in 2026? Budget ($500–$1K), mid-range ($1K–$3K), and professional ($3K–$7K+) machines compared by price tier.",
   keywords: ["how much does a pilates reformer cost", "pilates reformer price", "pilates reformer cost 2026", "how much is a pilates reformer", "pilates reformer price range", "cheap pilates reformer cost", "studio pilates reformer price", "pilates reformer budget", "pilates reformer investment", "cost of pilates reformer"],
   openGraph: {

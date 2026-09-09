@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Girlfriend Collective for Pilates (2026): Compressive Picks Reviewed | Pilates Collective Club",
+  title: "Girlfriend Collective for Pilates (2026): Compressive Picks Reviewed",
   description: "Girlfriend Collective leggings and sets reviewed for Pilates — compression level, sustainability, opacity on the reformer, and fit compared to Lululemon and Alo.",
   keywords: ["girlfriend collective pilates", "girlfriend collective leggings pilates review", "girlfriend collective vs lululemon pilates", "is girlfriend collective good for pilates", "girlfriend collective activewear pilates 2026", "eco pilates activewear"],
   openGraph: {

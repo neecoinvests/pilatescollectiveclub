@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Lululemon for Pilates (2026): Best Pieces & Honest Reviews | Pilates Collective Club",
+  title: "Lululemon for Pilates (2026): Best Pieces & Honest Reviews",
   description: "The best Lululemon pieces for Pilates — Align leggings, Energy bra, and Define jacket reviewed for reformer and mat class performance, opacity, and fit.",
   keywords: ["lululemon pilates", "best lululemon for pilates 2026", "lululemon pilates outfit", "lululemon align pilates review", "lululemon energy bra pilates", "lululemon define jacket pilates", "lululemon pilates activewear review"],
   openGraph: {

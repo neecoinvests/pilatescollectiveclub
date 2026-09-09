@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates vs Barre (2026): Which Workout Is Right for You? | Pilates Collective Club",
+  title: "Pilates vs Barre (2026): Which Workout Is Right for You?",
   description: "Pilates vs. barre: muscle focus, equipment, intensity, and results compared. Which class is better for your goals, schedule, and fitness level?",
   keywords: [
     "pilates vs barre",

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Elina Pilates Reformer Review (2026): Is It Worth It? | Pilates Collective Club",
+  title: "Elina Pilates Reformer Review (2026): Is It Worth It?",
   description: "Elina Pilates reformer honestly reviewed — spring quality, carriage travel, frame stability, and how Elina compares to Balanced Body and Merrithew at similar price points.",
   keywords: ["elina pilates review", "elina pilates reformer 2026", "elina pilates vs balanced body", "is elina pilates good", "elina pilates elite reformer review", "elina pilates buy", "elina pilates wood reformer", "elina pilates price"],
   openGraph: {

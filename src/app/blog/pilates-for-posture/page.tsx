@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Posture (2026): Best Exercises for Alignment | Pilates Collective Club",
+  title: "Pilates for Posture (2026): Best Exercises for Alignment",
   description: "Pilates for posture improvement — the best reformer and mat exercises to correct forward head posture, rounded shoulders, and anterior pelvic tilt. Evidence-based 2026 guide.",
   openGraph: {
     title: "Pilates for Better Posture: The Exercises That Work",

@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for a Flat Stomach (2026): What Actually Works | Pilates Collective Club",
+  title: "Pilates for a Flat Stomach (2026): What Actually Works",
   description: "Pilates for a flatter stomach — the exercises that actually strengthen the deep core, how Pilates shapes the waist, and realistic expectations for body composition.",
   openGraph: {
     title: "Pilates for a Flat Stomach: What Works and What Doesn't",

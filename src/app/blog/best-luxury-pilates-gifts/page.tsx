@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Luxury Pilates Gifts (2026) | Pilates Collective Club",
+  title: "Best Luxury Pilates Gifts (2026)",
   description: "The finest luxury pilates gifts for serious practitioners — Theragun, Wolford, Manduka, Liforme, and investment-grade accessories that elevate every practice.",
   keywords: [
     "best luxury pilates gifts",

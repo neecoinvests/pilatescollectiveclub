@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Grip Socks (2026): 5 Options Studio-Tested & Ranked | Pilates Collective Club",
+  title: "Best Pilates Grip Socks (2026): 5 Options Studio-Tested & Ranked",
   description: "The best Pilates grip socks of 2026 — ToeSox, Tavi Noir, Lululemon, and more compared for grip, comfort, toe-box fit, and durability on reformers.",
   openGraph: {
     title: "Best Pilates Grip Socks (2026): Studio-Tested and Ranked",

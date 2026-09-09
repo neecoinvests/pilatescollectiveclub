@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Smart Ring for Pilates (2026): Oura, Samsung & More | Pilates Collective Club",
+  title: "Best Smart Ring for Pilates (2026): Oura, Samsung & More",
   description: "The best smart rings for Pilates — Oura Ring 4, Samsung Galaxy Ring, Ultrahuman Ring AIR, and RingConn Gen 2 compared for HRV tracking, recovery metrics, and reformer compatibility.",
   keywords: ["best smart ring for pilates", "oura ring pilates", "samsung galaxy ring pilates", "ultrahuman ring pilates", "smart ring hrv tracking 2026", "pilates recovery tracker", "best fitness ring 2026", "oura ring 4 review pilates"],
   openGraph: {

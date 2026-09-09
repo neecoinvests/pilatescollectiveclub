@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Athleta for Pilates (2026): Best Leggings & Tops Reviewed | Pilates Collective Club",
+  title: "Athleta for Pilates (2026): Best Leggings & Tops Reviewed",
   description: "Best Athleta pieces for Pilates — Salutation, Elation, and Brooklyn leggings reviewed for reformer class compression, opacity, and waistband hold.",
   keywords: ["athleta pilates", "best athleta leggings for pilates", "athleta salutation tight pilates", "athleta vs lululemon pilates", "athleta reformer pilates", "athleta activewear pilates review", "athleta brooklyn tight pilates"],
   openGraph: {

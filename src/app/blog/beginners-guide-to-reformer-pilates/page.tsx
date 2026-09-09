@@ -7,7 +7,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Beginner's Guide to Reformer Pilates (2026): What to Expect | Pilates Collective Club",
+  title: "Beginner's Guide to Reformer Pilates (2026): What to Expect",
   description: "Everything before your first reformer class — what to wear, what to expect, how to choose a studio, and how to progress. The guide we wish we had on day one.",
   openGraph: {
     title: "The Beginner's Guide to Reformer Pilates",

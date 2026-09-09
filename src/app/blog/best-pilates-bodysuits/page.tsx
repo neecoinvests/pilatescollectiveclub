@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Bodysuits (2026): Studio-Tested Picks | Pilates Collective Club",
+  title: "Best Pilates Bodysuits (2026): Studio-Tested Picks",
   description: "The best bodysuits for Pilates — tested for snap security on the reformer, stretch quality, and coverage during inversions and leg circles.",
   keywords: ["best pilates bodysuits", "pilates bodysuit 2026", "best bodysuit for reformer pilates", "alo yoga bodysuit pilates", "lululemon bodysuit pilates", "pilates activewear bodysuit review", "best workout bodysuit pilates"],
   openGraph: {

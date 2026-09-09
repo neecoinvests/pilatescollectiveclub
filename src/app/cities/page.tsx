@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Pilates Studio Guides by City | Pilates Collective Club",
+  title: "Pilates Studio Guides by City",
   description: "Curated guides to the best Pilates studios in 45 cities worldwide — London, New York, Paris, Charlotte, Tampa, Las Vegas, Raleigh, Salt Lake City and more. Find the right studio before you book.",
   keywords: ["pilates studios by city", "best pilates studios worldwide", "pilates city guides", "reformer pilates cities", "pilates london paris new york"],
   openGraph: {

@@ -5,7 +5,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Retreats in Europe (2026): Top Picks by Country | Pilates Collective Club",
+  title: "Best Pilates Retreats in Europe (2026): Top Picks by Country",
   description: "The best Pilates retreats in Europe — reformer and classical method retreats in Portugal, Spain, Italy, and beyond, curated for 2026.",
   openGraph: {
     title: "The Best Pilates Retreats in Europe",

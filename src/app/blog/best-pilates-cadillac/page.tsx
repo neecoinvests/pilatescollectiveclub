@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Cadillac (2026): Top Trapeze Tables Reviewed | Pilates Collective Club",
+  title: "Best Pilates Cadillac (2026): Top Trapeze Tables Reviewed",
   description: "The best Pilates cadillac tables of 2026 — Balanced Body, Gratz, and Merrithew trapeze tables compared on spring configuration, build quality, and price.",
   keywords: ["best pilates cadillac", "pilates trapeze table review 2026", "pilates cadillac buy", "best pilates trapeze table", "balanced body cadillac review", "gratz cadillac pilates", "pilates cadillac vs reformer", "pilates cadillac table home"],
   openGraph: {

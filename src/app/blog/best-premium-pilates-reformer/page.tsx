@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Premium Pilates Reformer (2026): Luxury Machines Reviewed | Pilates Collective Club",
+  title: "Best Premium Pilates Reformer (2026): Luxury Machines Reviewed",
   description: "The best premium Pilates reformers — Gratz, Balanced Body Allegro 2, and Merrithew V2 Max reviewed for professional-grade spring systems, carriage glide, and longevity.",
   openGraph: {
     title: "Best Premium Pilates Reformers (2026): $2K–$5K+",

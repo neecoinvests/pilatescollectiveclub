@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Lagree Carriage Handles & Megaformer Grips (2026) | Pilates Collective Club",
+  title: "Best Lagree Carriage Handles & Megaformer Grips (2026)",
   description: "The best replacement and aftermarket carriage handles and grip accessories for Lagree Megaformer machines — compared for wrist alignment, grip comfort, and machine compatibility.",
   keywords: ["lagree carriage handles", "megaformer handles 2026", "lagree grip accessories", "megaformer carriage handles replacement", "lagree wrist support handles", "megaformer accessories", "lagree equipment handles"],
   openGraph: {

@@ -7,7 +7,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "How to Build a Consistent Pilates Practice (2026) | Pilates Collective Club",
+  title: "How to Build a Consistent Pilates Practice (2026)",
   description: "How to build a consistent Pilates practice: scheduling, progressive programming, home vs. studio balance, and plateau-busting tips from instructors.",
   openGraph: {
     title: "How to Build a Consistent Pilates Practice",

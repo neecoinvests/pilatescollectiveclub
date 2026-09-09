@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "What to Wear to Pilates (2026): Complete Studio Outfit Guide | Pilates Collective Club",
+  title: "What to Wear to Pilates (2026): Complete Studio Outfit Guide",
   description: "What to wear to Pilates class — the best leggings, tops, bras, and socks for reformer and mat studios, with outfit tips for beginners and regulars.",
   openGraph: {
     title: "What to Wear to Pilates (2026): The Complete Outfit Guide",

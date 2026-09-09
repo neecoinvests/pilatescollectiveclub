@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer with Tower (2026): Top Combo Units | Pilates Collective Club",
+  title: "Best Pilates Reformer with Tower (2026): Top Combo Units",
   description: "The best Pilates reformer with tower combinations — Merrithew, Balanced Body, and Align tower add-ons reviewed for spring configuration, bar reach, and value.",
   keywords: ["best pilates reformer with tower", "pilates reformer tower combo 2026", "reformer with tower buy", "pilates tower attachment review", "merrithew reformer tower", "balanced body reformer tower", "pilates cadillac tower combo", "pilates reformer tower exercises"],
   openGraph: {

@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "How to Choose a Pilates Instructor (2026): Credentials & Red Flags | Pilates Collective Club",
+  title: "How to Choose a Pilates Instructor (2026): Credentials & Red Flags",
   description: "How to choose a Pilates instructor: certifications, teaching styles, class formats, and red flags. A complete guide for beginners and experienced students.",
   openGraph: {
     title: "How to Choose the Right Pilates Instructor",

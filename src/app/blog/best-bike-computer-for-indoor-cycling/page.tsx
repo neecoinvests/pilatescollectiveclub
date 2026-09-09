@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Bike Computer for Indoor Cycling & Spin (2026) | Pilates Collective Club",
+  title: "Best Bike Computer for Indoor Cycling & Spin (2026)",
   description: "The best bike computers and cycling displays for indoor spin training — Garmin, Wahoo ELEMNT, and tablet mounts compared for speed, power, heart rate display, and app connectivity.",
   keywords: ["best bike computer indoor cycling", "wahoo elemnt bolt review 2026", "garmin edge indoor cycling", "bike computer for spin bike", "cycling head unit for home training", "best cycling computer zwift", "indoor cycling display unit"],
   openGraph: {

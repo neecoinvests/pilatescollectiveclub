@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Heart Rate Monitor for Pilates & Spin (2026) | Pilates Collective Club",
+  title: "Best Heart Rate Monitor for Pilates & Spin (2026)",
   description: "The best heart rate monitors for Pilates, Lagree, and spin class — chest straps and arm bands compared for accuracy, comfort, and compatibility with Peloton, Zwift, and Apple fitness apps.",
   keywords: ["best heart rate monitor 2026", "heart rate monitor for pilates", "heart rate monitor for spin class", "polar h10 review", "whoop vs chest strap", "armband heart rate monitor", "best chest strap heart rate", "heart rate monitor peloton compatible"],
   openGraph: {

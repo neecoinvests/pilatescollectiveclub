@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Mat Bag (2026): Carriers & Totes Reviewed | Pilates Collective Club",
+  title: "Best Pilates Mat Bag (2026): Carriers & Totes Reviewed",
   description: "The best mat bags for Pilates — open carriers, zip totes, and backpacks reviewed for size, shoulder strap comfort, and fit for thick Pilates mats.",
   keywords: ["best pilates mat bag", "pilates mat carrier 2026", "mat bag for pilates", "pilates mat tote review", "best mat bag thick mat", "yoga mat bag pilates", "pilates mat backpack", "carry pilates mat bag"],
   openGraph: {

@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Pilates Brand Guides — Activewear & Equipment Reviews | Pilates Collective Club",
+  title: "Pilates Brand Guides — Activewear & Equipment Reviews",
   description: "Honest brand guides for every major Pilates activewear and equipment brand. Lululemon, Alo, Varley, Splits59, Manduka, Gymshark — tested by practitioners, not marketers.",
   keywords: ["pilates activewear brands", "best pilates brand", "lululemon pilates review", "alo yoga pilates review", "varley pilates review", "splits59 pilates", "manduka pilates mat", "gymshark pilates", "sweaty betty pilates", "pilates brand comparison", "best pilates clothes", "pilates equipment brands"],
   openGraph: {

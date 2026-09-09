@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Sweaty Betty for Pilates (2026): Best Leggings & Tops | Pilates Collective Club",
+  title: "Sweaty Betty for Pilates (2026): Best Leggings & Tops",
   description: "Sweaty Betty for Pilates — Power Legging, Zero Gravity tight, and bra tops reviewed for reformer compression, opacity, and UK sizing fit.",
   keywords: ["sweaty betty pilates", "sweaty betty pilates leggings review 2026", "sweaty betty power legging pilates", "sweaty betty vs lululemon pilates", "best sweaty betty for reformer pilates", "sweaty betty activewear pilates uk"],
   openGraph: {

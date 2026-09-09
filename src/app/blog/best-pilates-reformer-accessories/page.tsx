@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Accessories (2026): Must-Have Add-Ons | Pilates Collective Club",
+  title: "Best Pilates Reformer Accessories (2026): Must-Have Add-Ons",
   description: "The best Pilates reformer accessories — box sets, jump boards, sticky pads, and headrests reviewed for compatibility, durability, and value.",
   keywords: ["best pilates reformer accessories", "pilates reformer add-ons 2026", "reformer box pilates", "pilates reformer sticky pad", "best accessories for home reformer", "pilates reformer headrest", "reformer pilates accessories buy"],
   openGraph: {

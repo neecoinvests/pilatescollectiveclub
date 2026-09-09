@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Personal Fan for Home Gym, Spin & Lagree (2026) | Pilates Collective Club",
+  title: "Best Personal Fan for Home Gym, Spin & Lagree (2026)",
   description: "The best personal fans for home gyms, spin bikes, and Lagree studios — Dyson, Vornado, Dreo, and budget picks compared for airflow, noise, and placement flexibility.",
   keywords: ["best personal fan home gym", "fan for spin bike 2026", "lagree studio fan", "dyson fan home gym", "vornado fan workout", "dreo fan review", "best fan for indoor cycling", "quiet fan for exercise room"],
   openGraph: {

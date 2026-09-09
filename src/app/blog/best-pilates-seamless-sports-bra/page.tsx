@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Seamless Sports Bras for Pilates (2026) | Pilates Collective Club",
+  title: "Best Seamless Sports Bras for Pilates (2026)",
   description: "The best seamless sports bras for Pilates — no pressure points, no chafing, full movement. Tested from Lululemon, Alo, Gymshark, Girlfriend Collective, and more.",
   keywords: [
     "best seamless sports bra pilates",

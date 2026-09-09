@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Brands (2026): Complete Brand Guide | Pilates Collective Club",
+  title: "Best Pilates Reformer Brands (2026): Complete Brand Guide",
   description: "The best Pilates reformer brands of 2026 — Balanced Body, Merrithew, Gratz, Align, and more compared on spring quality, carriage feel, and price range.",
   keywords: ["best pilates reformer brands", "pilates reformer brand comparison 2026", "balanced body vs merrithew vs gratz", "best reformer brand for home", "top pilates equipment brands", "merrithew pilates brand", "gratz pilates brand", "pilates reformer brand guide"],
   openGraph: {

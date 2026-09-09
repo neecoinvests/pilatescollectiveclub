@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Lagree Reformer Springs & Resistance Cables (2026) | Pilates Collective Club",
+  title: "Best Lagree Reformer Springs & Resistance Cables (2026)",
   description: "The best replacement springs and resistance cables for Megaformer and Lagree-style machines — compared for tension range, durability, and compatibility with home and studio machines.",
   keywords: ["lagree resistance springs", "megaformer replacement springs 2026", "lagree resistance cables", "pilates reformer springs replacement", "lagree spring tension guide", "megaformer cable resistance", "best reformer springs"],
   openGraph: {

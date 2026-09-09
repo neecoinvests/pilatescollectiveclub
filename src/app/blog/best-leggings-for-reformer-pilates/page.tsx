@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Leggings for Reformer Pilates (2026): Studio-Tested & Ranked | Pilates Collective Club",
+  title: "Best Leggings for Reformer Pilates (2026): Studio-Tested & Ranked",
   description: "The best leggings for reformer Pilates in 2026: Lululemon Align, Alo Airbrush, Varley, Vuori, and Gymshark tested for opacity, waistband security, and reformer performance.",
   openGraph: {
     title: "Best Leggings for Reformer Pilates (2026): Studio-Tested & Ranked",

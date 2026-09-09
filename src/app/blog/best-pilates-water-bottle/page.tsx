@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Water Bottles for Pilates (2026): Tested & Ranked | Pilates Collective Club",
+  title: "Best Water Bottles for Pilates (2026): Tested & Ranked",
   description: "The best water bottles for Pilates — insulated, leak-proof, and sized right for studio use. Stanley, Hydro Flask, Owala, and more tested for reformer classes.",
   keywords: ["best water bottle for pilates", "pilates water bottle 2026", "best insulated water bottle pilates", "stanley quencher pilates", "hydro flask pilates", "owala water bottle pilates", "best gym water bottle women", "pilates studio water bottle"],
   openGraph: {

@@ -3,8 +3,14 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Pilates Collective Club",
+  title: "Privacy Policy",
   description: "Privacy Policy for Pilates Collective Club — how we collect, use, and protect your information.",
+  openGraph: {
+    title: "Privacy Policy",
+    description: "How Pilates Collective Club collects, uses, and protects your information.",
+    type: "website",
+    url: "https://pilatescollectiveclub.com/privacy",
+  },
   alternates: { canonical: "https://pilatescollectiveclub.com/privacy" },
   robots: { index: true, follow: true },
 };

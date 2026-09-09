@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates for Athletes (2026): Cross-Training That Actually Works | Pilates Collective Club",
+  title: "Pilates for Athletes (2026): Cross-Training That Actually Works",
   description: "Pilates for athletes: reformer and mat exercises that build stability, correct imbalances, and improve performance for runners, cyclists, and team sports.",
   openGraph: {
     title: "Pilates for Athletes: Strength, Longevity, and the Competitive Edge",

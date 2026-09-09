@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Hoodies & Warm-Up Jackets (2026) | Pilates Collective Club",
+  title: "Best Pilates Hoodies & Warm-Up Jackets (2026)",
   description: "The best hoodies and warm-up jackets for Pilates — tested for warmth, movement freedom, and studio style. Our top picks from Lululemon, Alo Yoga, Vuori, Gymshark, and more.",
   keywords: [
     "best pilates hoodie",

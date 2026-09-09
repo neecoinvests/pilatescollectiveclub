@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Home Pilates Reformer (2026): Every Budget Reviewed | Pilates Collective Club",
+  title: "Best Home Pilates Reformer (2026): Every Budget Reviewed",
   description: "The best home Pilates reformers of 2026 — from budget AeroPilates to premium Balanced Body, reviewed on spring quality, carriage glide, and durability.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",

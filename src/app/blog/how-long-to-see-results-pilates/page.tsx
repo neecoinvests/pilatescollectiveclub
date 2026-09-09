@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "How Long to See Results from Pilates? (2026) — Realistic Timelines | Pilates Collective Club",
+  title: "How Long to See Results from Pilates? (2026) — Realistic Timelines",
   description: "Realistic Pilates results timelines: when you'll feel the difference, see physical changes, and build lasting transformation. What the research and instructors actually say.",
   keywords: ["how long to see results from pilates", "pilates results timeline", "pilates before and after", "how long does pilates take to work", "pilates body changes timeline", "pilates results weeks", "pilates transformation", "pilates 30 days results", "pilates 3 months results", "when does pilates work"],
   openGraph: {

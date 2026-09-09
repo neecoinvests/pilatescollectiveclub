@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Headbands (2026): Non-Slip & Studio-Ready | Pilates Collective Club",
+  title: "Best Pilates Headbands (2026): Non-Slip & Studio-Ready",
   description: "The best headbands for Pilates — non-slip, sweat-wicking, and secure through reformer inversions. Lululemon, Alo, Nike, Sweaty Betty and more tested for studio use.",
   keywords: ["best pilates headband", "pilates headband 2026", "non slip headband pilates", "best workout headband women", "headband for reformer pilates", "lululemon headband pilates", "alo yoga headband pilates", "sweat headband pilates studio"],
   openGraph: {

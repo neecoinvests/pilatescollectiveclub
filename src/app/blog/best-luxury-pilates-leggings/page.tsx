@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Luxury Pilates Leggings (2026) | Pilates Collective Club",
+  title: "Best Luxury Pilates Leggings (2026)",
   description: "The finest pilates leggings money can buy — Wolford, Splits59, Varley, Alo Yoga, Lululemon Nulux, and Beyond Yoga reviewed for fabric quality, precision fit, and investment-grade durability.",
   keywords: [
     "best luxury pilates leggings",

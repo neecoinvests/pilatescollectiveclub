@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Yoga Mat Towel for Pilates (2026): Tested & Ranked | Pilates Collective Club",
+  title: "Best Yoga Mat Towel for Pilates (2026): Tested & Ranked",
   description: "The best yoga mat towels for Pilates — Manduka eQua, Liforme, Gaiam, and more compared for grip, sweat absorption, and mat coverage during hot Pilates and Lagree classes.",
   keywords: ["best yoga mat towel pilates", "pilates mat towel 2026", "manduka equa towel pilates", "hot pilates mat towel", "lagree sweat towel mat", "non slip mat towel pilates", "yoga towel pilates review", "best mat towel for sweaty practice"],
   openGraph: {

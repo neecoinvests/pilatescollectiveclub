@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Exercise Sliders for Pilates (2026): Tested & Ranked | Pilates Collective Club",
+  title: "Best Exercise Sliders for Pilates (2026): Tested & Ranked",
   description: "The best exercise sliders for Pilates — Core Sliders, Valslide, and more compared for carriage-simulation, core work, and mat practice. Carpet and hardwood options tested.",
   keywords: ["best exercise sliders pilates", "pilates sliders 2026", "core sliders pilates", "valslide pilates", "exercise gliders pilates mat", "best gliding discs pilates", "reformer alternative sliders", "pilates carriage simulation mat"],
   openGraph: {

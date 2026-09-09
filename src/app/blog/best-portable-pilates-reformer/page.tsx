@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Portable Pilates Reformer (2026): Top Picks for Home & Travel | Pilates Collective Club",
+  title: "Best Portable Pilates Reformer (2026): Top Picks for Home & Travel",
   description: "The best portable and foldable Pilates reformers in 2026 — compact designs, honest reviews, and where to buy on Amazon. From budget to professional-grade.",
   keywords: ["best portable pilates reformer", "foldable pilates reformer", "portable pilates reformer 2026", "compact pilates reformer home", "pilates reformer amazon", "travel pilates reformer", "best home pilates reformer portable", "lightweight pilates reformer", "pilates reformer small space", "aeropilates reformer"],
   openGraph: {

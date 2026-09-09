@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Under $2,000 (2026): Mid-Range Picks | Pilates Collective Club",
+  title: "Best Pilates Reformer Under $2,000 (2026): Mid-Range Picks",
   description: "The best Pilates reformers under $2,000 — mid-range machines from Merrithew, Align, and Balanced Body compared on spring feel, carriage glide, and durability.",
   keywords: ["best pilates reformer under 2000", "pilates reformer under 2000 dollars", "mid-range pilates reformer 2026", "merrithew spx review under 2000", "align pilates reformer under 2000", "best reformer $1000-$2000", "pilates reformer mid-range buy"],
   openGraph: {

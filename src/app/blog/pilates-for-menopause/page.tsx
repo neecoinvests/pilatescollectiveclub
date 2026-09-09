@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates During Menopause (2026): Bone Density, Hormones & Practice | Pilates Collective Club",
+  title: "Pilates During Menopause (2026): Bone Density, Hormones & Practice",
   description: "Pilates for menopause: bone density, core stability, and hormone-supportive exercises for perimenopause and post-menopause. Instructor-guided guide.",
   keywords: ["pilates for menopause", "pilates during menopause", "pilates bone density", "pilates pelvic floor menopause", "menopause exercise pilates", "pilates hormonal changes", "pilates for osteoporosis", "pilates perimenopause", "pilates postmenopause", "pilates menopause guide 2026"],
   openGraph: {

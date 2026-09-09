@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Club Pilates Review (2026): Is the Franchise Worth It? | Pilates Collective Club",
+  title: "Club Pilates Review (2026): Is the Franchise Worth It?",
   description: "Club Pilates reviewed in 2026: class formats, instructor quality, equipment, pricing, and membership value across 800+ US studios. Is it worth it?",
   keywords: ["club pilates review", "club pilates worth it", "club pilates franchise", "club pilates membership cost", "club pilates class quality", "club pilates instructor training", "club pilates vs boutique studio", "club pilates reformer", "is club pilates good", "club pilates 2026 review"],
   openGraph: {

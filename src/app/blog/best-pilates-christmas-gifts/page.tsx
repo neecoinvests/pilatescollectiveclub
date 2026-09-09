@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Christmas Gifts (2026) | Pilates Collective Club",
+  title: "Best Pilates Christmas Gifts (2026)",
   description: "The best pilates Christmas gifts for 2026 — from Lululemon and Alo to Manduka and Theragun. Curated picks at every budget for the pilates lover on your list.",
   keywords: [
     "best pilates Christmas gifts",

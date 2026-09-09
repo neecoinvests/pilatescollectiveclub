@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Luxury Pilates Reformers for Home Studios (2026) | Pilates Collective Club",
+  title: "Best Luxury Pilates Reformers for Home Studios (2026)",
   description: "The world's finest home Pilates reformers — Gratz Industries, Balanced Body Studio, Peak Pilates MVe, Elina Pilates Elite RC, and BASI Systems compared for craftsmanship, performance, and investment value.",
   keywords: [
     "best luxury pilates reformer",

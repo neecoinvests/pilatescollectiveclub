@@ -334,7 +334,7 @@ export default function Header() {
       {menuOpen && (
         <div
           style={{ backgroundColor: "#ffffff", borderTop: "1px solid #ede9e3" }}
-          className="md:hidden px-8 py-10 flex flex-col gap-7"
+          className="pcc-mobile-menu md:hidden px-8 py-10 flex flex-col gap-7"
         >
           {NAV.map((link) => (
             <Link

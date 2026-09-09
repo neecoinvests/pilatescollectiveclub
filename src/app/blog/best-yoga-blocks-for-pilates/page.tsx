@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Yoga Blocks for Pilates (2026): Tested & Ranked | Pilates Collective Club",
+  title: "Best Yoga Blocks for Pilates (2026): Tested & Ranked",
   description: "The best yoga blocks for Pilates — Manduka Recycled Foam, Hugger Mugger cork, Gaiam, and more tested for spine support, hip alignment, and Pilates-specific modifications.",
   keywords: ["best yoga blocks for pilates", "pilates yoga block 2026", "manduka yoga block pilates", "cork yoga block pilates", "foam yoga block pilates", "yoga block pilates modifications", "pilates prop block", "hugger mugger yoga block"],
   openGraph: {

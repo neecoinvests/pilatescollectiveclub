@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Megaformer Machine (2026): Lagree Equipment Reviewed | Pilates Collective Club",
+  title: "Best Megaformer Machine (2026): Lagree Equipment Reviewed",
   description: "The best Megaformer machines for home and studio use — Lagree M3S, Supraformer, Proformer, and more compared for Lagree method training, spring resistance, and build quality.",
   keywords: ["best megaformer machine", "lagree megaformer 2026", "lagree m3s review", "supraformer review", "proformer lagree", "home megaformer machine", "lagree equipment for home", "best lagree machine buy", "megaformer vs reformer"],
   openGraph: {

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Postnatal Pilates (2026): When to Start, What's Safe, How to Progress | Pilates Collective Club",
+  title: "Postnatal Pilates (2026): When to Start, What's Safe, How to Progress",
   description: "A complete guide to postnatal Pilates — when you can safely return, which exercises to start with, how to progress, and what equipment supports recovery after birth.",
   keywords: ["postnatal pilates", "pilates after birth", "postpartum pilates guide", "when to start pilates after baby", "postnatal pilates exercises", "pilates after c-section", "postpartum core pilates", "returning to pilates after pregnancy"],
   openGraph: {

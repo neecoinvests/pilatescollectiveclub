@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Seniors (2026): Safe Exercises & Beginner Guide | Pilates Collective Club",
+  title: "Pilates for Seniors (2026): Safe Exercises & Beginner Guide",
   description: "Pilates for seniors — the safest reformer and mat exercises for older adults, modifications for joint concerns, and guidance for practitioners over 60.",
   openGraph: {
     title: "Pilates for Seniors: Safe, Effective & Evidence-Based",

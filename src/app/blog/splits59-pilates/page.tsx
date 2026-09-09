@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Splits59 for Pilates (2026): Raquel Tight & Sets Reviewed | Pilates Collective Club",
+  title: "Splits59 for Pilates (2026): Raquel Tight & Sets Reviewed",
   description: "Splits59 activewear reviewed for Pilates — Raquel Tight, Airweight, and Recharge compression reviewed for reformer performance, opacity, and fit.",
   keywords: ["splits59 pilates review", "splits59 raquel tight pilates", "splits59 vs lululemon pilates", "best splits59 for reformer pilates", "splits59 activewear pilates 2026", "splits59 airweight pilates"],
   openGraph: {

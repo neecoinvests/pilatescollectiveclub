@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Balanced Body Pilates Equipment Review (2026) | Pilates Collective Club",
+  title: "Balanced Body Pilates Equipment Review (2026)",
   description: "Balanced Body reformers, cadillacs, and accessories reviewed — the full lineup compared on quality, durability, and value for studio and home use.",
   keywords: ["balanced body pilates review", "balanced body reformer", "balanced body pilates equipment", "balanced body vs gratz", "balanced body vs merrithew", "balanced body studio reformer", "balanced body pilates 2026"],
   openGraph: {

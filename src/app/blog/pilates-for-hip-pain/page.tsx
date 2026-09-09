@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates for Hip Pain (2026): Exercises That Actually Help | Pilates Collective Club",
+  title: "Pilates for Hip Pain (2026): Exercises That Actually Help",
   description: "Pilates for hip pain: which exercises relieve hip flexor tightness, bursitis, and labral irritation — and which movements to avoid. Evidence-based guide.",
   keywords: ["pilates for hip pain", "pilates hip flexor pain", "pilates hip bursitis", "pilates tight hips", "pilates hip impingement", "pilates hip arthritis", "pilates hip labrum", "pilates hip strengthening", "pilates hip exercises", "hip pain relief pilates 2026"],
   openGraph: {

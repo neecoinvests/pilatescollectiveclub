@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Luxury Pilates Accessories (2026) | Pilates Collective Club",
+  title: "Best Luxury Pilates Accessories (2026)",
   description: "The finest small equipment for serious practitioners — Balanced Body Magic Circle, TriggerPoint GRID foam roller, Manduka cork block, Theraband Professional bands, and more, reviewed and ranked.",
   keywords: [
     "best luxury pilates accessories",

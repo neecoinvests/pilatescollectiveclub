@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Shorts (2026): High-Waist & Biker Options Reviewed | Pilates Collective Club",
+  title: "Best Pilates Shorts (2026): High-Waist & Biker Options Reviewed",
   description: "The best shorts for Pilates class — biker shorts, high-waist options, and performance shorts reviewed for reformer coverage, compression, and fit.",
   openGraph: {
     title: "Best Pilates Shorts (2026): Biker Shorts & Beyond",

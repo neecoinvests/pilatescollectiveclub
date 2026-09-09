@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Weight Loss (2026): Honest Expectations | Pilates Collective Club",
+  title: "Pilates for Weight Loss (2026): Honest Expectations",
   description: "Pilates for weight loss — what the research shows, how reformer Pilates supports body composition, and realistic expectations for practitioners training 3x per week.",
   openGraph: {
     title: "Pilates for Weight Loss: What the Evidence Says",

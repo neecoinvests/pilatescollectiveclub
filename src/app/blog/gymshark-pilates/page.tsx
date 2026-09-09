@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Gymshark for Pilates (2026): Best Leggings & Sets Reviewed | Pilates Collective Club",
+  title: "Gymshark for Pilates (2026): Best Leggings & Sets Reviewed",
   description: "Gymshark for Pilates — Vital, Whitney, and FLX leggings reviewed for reformer grip, compression, opacity, and value compared to Lululemon and Alo.",
   keywords: ["gymshark pilates", "gymshark leggings pilates review", "gymshark vital legging pilates", "gymshark vs lululemon pilates", "best gymshark for reformer pilates", "gymshark activewear pilates 2026", "gymshark training leggings pilates"],
   openGraph: {

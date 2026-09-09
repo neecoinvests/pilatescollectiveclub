@@ -3,8 +3,14 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Pilates Collective Club",
+  title: "Terms & Conditions",
   description: "Terms and Conditions for use of pilatescollectiveclub.com.",
+  openGraph: {
+    title: "Terms & Conditions",
+    description: "Terms and Conditions for use of pilatescollectiveclub.com.",
+    type: "website",
+    url: "https://pilatescollectiveclub.com/terms",
+  },
   alternates: { canonical: "https://pilatescollectiveclub.com/terms" },
   robots: { index: true, follow: true },
 };

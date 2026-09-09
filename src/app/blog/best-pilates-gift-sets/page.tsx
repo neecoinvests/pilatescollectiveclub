@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Gift Sets & Bundles (2026) | Pilates Collective Club",
+  title: "Best Pilates Gift Sets & Bundles (2026)",
   description: "The best pilates gift sets — curated bundles of mats, socks, resistance bands, and accessories that give practitioners everything they need in one thoughtful gift.",
   keywords: [
     "best pilates gift sets",

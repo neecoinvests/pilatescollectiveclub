@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Luxury Pilates Mats (2026) | Pilates Collective Club",
+  title: "Best Luxury Pilates Mats (2026)",
   description: "The finest Pilates mats for serious practitioners — Manduka PRO, Liforme, Alo Yoga Warrior, Lululemon The Mat, and Jade Harmony Professional compared for grip, cushioning, and longevity.",
   keywords: [
     "best luxury pilates mat",

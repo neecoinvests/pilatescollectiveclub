@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Foldable Pilates Reformer (2026): Top Picks for Small Spaces | Pilates Collective Club",
+  title: "Best Foldable Pilates Reformer (2026): Top Picks for Small Spaces",
   description: "The best foldable Pilates reformers of 2026 — AeroPilates, Align Pilates, and Stamina folding models reviewed for stability, storage size, and spring quality.",
   keywords: ["best foldable pilates reformer", "foldable pilates reformer 2026", "folding pilates reformer review", "pilates reformer small space", "compact folding reformer", "best portable pilates reformer", "aeropilates folding reformer", "align pilates foldable"],
   openGraph: {

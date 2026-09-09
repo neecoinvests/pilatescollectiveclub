@@ -3,8 +3,14 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Affiliate Disclosure | Pilates Collective Club",
+  title: "Affiliate Disclosure",
   description: "Affiliate Disclosure for Pilates Collective Club — how we use affiliate links and how it affects our editorial recommendations.",
+  openGraph: {
+    title: "Affiliate Disclosure",
+    description: "How Pilates Collective Club uses affiliate links and how it affects our editorial recommendations.",
+    type: "website",
+    url: "https://pilatescollectiveclub.com/affiliate-disclosure",
+  },
   alternates: { canonical: "https://pilatescollectiveclub.com/affiliate-disclosure" },
   robots: { index: true, follow: true },
 };

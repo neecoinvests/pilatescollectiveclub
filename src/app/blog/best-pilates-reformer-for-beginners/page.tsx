@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer for Beginners (2026): Starter Picks | Pilates Collective Club",
+  title: "Best Pilates Reformer for Beginners (2026): Starter Picks",
   description: "The best Pilates reformers for beginners — easy-to-use spring systems, stable frames, and clear spring labelling reviewed for first-time home reformer buyers.",
   keywords: ["best pilates reformer for beginners", "pilates reformer beginner 2026", "easiest pilates reformer to use", "starter pilates reformer", "beginner home pilates reformer", "best first pilates reformer", "pilates reformer beginner guide"],
   openGraph: {

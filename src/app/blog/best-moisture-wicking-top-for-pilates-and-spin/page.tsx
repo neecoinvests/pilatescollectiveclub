@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Moisture-Wicking Tops for Pilates & Spin (2026) | Pilates Collective Club",
+  title: "Best Moisture-Wicking Tops for Pilates & Spin (2026)",
   description: "Stay dry and comfortable through the hardest Lagree and spin sessions. We tested the best moisture-wicking tops for women and men across breathability, fit, and durability.",
   keywords: [
     "best moisture wicking top pilates",

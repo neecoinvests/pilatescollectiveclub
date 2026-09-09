@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates During Pregnancy (2026): Trimester-by-Trimester Guide | Pilates Collective Club",
+  title: "Pilates During Pregnancy (2026): Trimester-by-Trimester Guide",
   description: "Pilates and pregnancy: safe exercises by trimester, modifications to avoid, and prenatal reformer guidelines from certified instructors. Full guide.",
   openGraph: {
     title: "Pilates and Pregnancy: A Complete Guide",

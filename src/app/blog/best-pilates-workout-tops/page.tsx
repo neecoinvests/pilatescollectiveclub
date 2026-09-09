@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Tops (2026): Tanks, Bra Tops & Long-Sleeves | Pilates Collective Club",
+  title: "Best Pilates Tops (2026): Tanks, Bra Tops & Long-Sleeves",
   description: "The best tops for Pilates class — fitted tanks, bra tops, and long-sleeve options reviewed for reformer coverage, stretch quality, and non-bunching fit.",
   keywords: ["best pilates tops", "pilates tank top 2026", "best workout top for pilates", "pilates bra top review", "lululemon tank pilates", "alo yoga top pilates", "pilates fitted top", "best top for reformer pilates class"],
   openGraph: {

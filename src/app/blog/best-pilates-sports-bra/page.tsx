@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Sports Bra (2026): Support & Coverage Reviewed | Pilates Collective Club",
+  title: "Best Pilates Sports Bra (2026): Support & Coverage Reviewed",
   description: "The best sports bras for Pilates — light to medium support bras from Lululemon, Alo, and Sweaty Betty reviewed for reformer coverage and strap stability.",
   openGraph: {
     title: "Best Sports Bras for Pilates (2026): Coverage & Studio Style",

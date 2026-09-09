@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates for Pelvic Floor (2026): Exercises & Guidance | Pilates Collective Club",
+  title: "Pilates for Pelvic Floor (2026): Exercises & Guidance",
   description: "Pilates for pelvic floor health — the best reformer and mat exercises for pelvic floor strengthening, the connection to the deep core, and guidance for postpartum practitioners.",
   openGraph: {
     title: "Pilates and the Pelvic Floor: What Actually Works",

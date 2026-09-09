@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Designer & Luxury Pilates Bags (2026) | Pilates Collective Club",
+  title: "Best Designer & Luxury Pilates Bags (2026)",
   description: "The finest bags for Pilates practitioners — Lululemon, Alo Yoga, Sweaty Betty, Adidas by Stella McCartney, Varley, and Herschel compared for structure, capacity, and studio-to-life versatility.",
   keywords: [
     "best luxury pilates bag",

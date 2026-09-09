@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Cycling Shoes for Spin Class (2026) | Pilates Collective Club",
+  title: "Best Cycling Shoes for Spin Class (2026)",
   description: "The best clip-in and cage-compatible cycling shoes for indoor spin class — Peloton, Tiem, Shimano, and budget picks compared for power transfer, comfort, and pedal compatibility.",
   keywords: ["best cycling shoes for spin class", "spin shoes 2026", "peloton cycling shoes", "tiem cycling shoes review", "shimano spin shoes", "spd cycling shoes indoor", "clip in shoes spin class", "best indoor cycling shoes"],
   openGraph: {

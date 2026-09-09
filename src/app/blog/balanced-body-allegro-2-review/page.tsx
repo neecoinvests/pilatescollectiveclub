@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Balanced Body Allegro 2 Review (2026): Is It Worth It? | Pilates Collective Club",
+  title: "Balanced Body Allegro 2 Review (2026): Is It Worth It?",
   description: "Balanced Body Allegro 2 reformer reviewed in full — spring resistance, carriage glide, footbar precision, and value compared to Merrithew SPX and STOTT.",
   keywords: ["balanced body allegro 2 review", "allegro 2 reformer review", "balanced body reformer review 2026", "allegro 2 vs merrithew spx", "balanced body allegro 2 price", "best studio reformer balanced body", "allegro 2 reformer buy"],
   openGraph: {

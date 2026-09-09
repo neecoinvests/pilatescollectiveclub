@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Tank Tops (2026) | Pilates Collective Club",
+  title: "Best Pilates Tank Tops (2026)",
   description: "The best tank tops for Pilates — racerbacks, strappy styles, and seamless options tested for breathability, support, and reformer-ready fit. Our top picks for 2026.",
   keywords: [
     "best pilates tank top",

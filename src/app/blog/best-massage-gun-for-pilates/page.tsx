@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Massage Gun for Pilates Recovery (2026): Ranked | Pilates Collective Club",
+  title: "Best Massage Gun for Pilates Recovery (2026): Ranked",
   description: "The best massage guns for Pilates recovery — Theragun PRO Plus, Hypervolt 2 Pro, Ekrin B300S, and more compared for post-reformer muscle release and soreness relief.",
   keywords: ["best massage gun for pilates", "percussion massager pilates recovery", "theragun pilates", "hypervolt pilates", "best percussive therapy device 2026", "massage gun reformer pilates", "pilates recovery tool", "theragun pro plus review"],
   openGraph: {

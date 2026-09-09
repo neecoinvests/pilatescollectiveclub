@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Barrel (2026): Arc, Spine & Ladder Barrels Compared | Pilates Collective Club",
+  title: "Best Pilates Barrel (2026): Arc, Spine & Ladder Barrels Compared",
   description: "The best Pilates barrels of 2026 — spine corrector, arc barrel, and ladder barrel compared for home and studio use, build quality, and spinal mobility benefits.",
   keywords: ["best pilates barrel", "pilates spine corrector review 2026", "pilates arc barrel", "ladder barrel pilates", "pilates barrel for home use", "best pilates barrel buy", "spine corrector pilates review", "pilates barrel exercises"],
   openGraph: {

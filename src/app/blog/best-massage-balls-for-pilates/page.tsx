@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Massage Balls for Pilates (2026): Trigger Point Release | Pilates Collective Club",
+  title: "Best Massage Balls for Pilates (2026): Trigger Point Release",
   description: "The best massage balls for Pilates — TriggerPoint MB1, Rad Hard Ball, Pso-Rite, and more compared for plantar fascia, thoracic release, and hip flexor trigger-point work.",
   keywords: ["best massage ball pilates", "trigger point ball pilates", "triggerpoint mb1 pilates", "rad hard ball pilates", "massage ball therapy pilates", "lacrosse ball pilates", "pso-rite pilates", "pilates myofascial release ball"],
   openGraph: {

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Indoor Spin Bike for Home Studios (2026) | Pilates Collective Club",
+  title: "Best Indoor Spin Bike for Home Studios (2026)",
   description: "The best indoor spin bikes for building a home cycling studio — Peloton, Schwinn IC4, NordicTrack, and budget picks compared for resistance, ride feel, and connected apps.",
   keywords: ["best indoor spin bike", "spin bike for home studio 2026", "peloton bike review", "schwinn ic4 review", "nordictrack spin bike", "best indoor cycling bike home", "spin bike vs peloton", "indoor cycling bike buying guide"],
   openGraph: {

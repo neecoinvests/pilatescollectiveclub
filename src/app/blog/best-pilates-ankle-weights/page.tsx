@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ankle Weights (2026): Studio-Tested Picks | Pilates Collective Club",
+  title: "Best Pilates Ankle Weights (2026): Studio-Tested Picks",
   description: "The best ankle weights for Pilates — fabric loops, neoprene, and adjustable options tested for reformer and mat Pilates comfort and secure fit.",
   openGraph: {
     title: "Best Pilates Ankle Weights (2026): Bala Bangles & Alternatives",

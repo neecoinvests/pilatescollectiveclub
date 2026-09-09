@@ -7,7 +7,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates for Back Pain (2026): What the Research Actually Shows | Pilates Collective Club",
+  title: "Pilates for Back Pain (2026): What the Research Actually Shows",
   description: "Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain. Evidence-based guidance from physios.",
   openGraph: {
     title: "Pilates for Back Pain: What the Research Shows",

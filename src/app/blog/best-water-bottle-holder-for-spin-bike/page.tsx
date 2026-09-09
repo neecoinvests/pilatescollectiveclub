@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Water Bottle Holders for Spin Bikes (2026) | Pilates Collective Club",
+  title: "Best Water Bottle Holders for Spin Bikes (2026)",
   description: "Never lose your water mid-ride. We ranked the best water bottle holders and cages for Peloton, Schwinn, NordicTrack, and other spin bikes by grip, fit, and stability.",
   keywords: [
     "best water bottle holder spin bike",

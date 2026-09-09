@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates for Neck & Shoulder Pain (2026): Exercises That Relieve and Strengthen | Pilates Collective Club",
+  title: "Pilates for Neck & Shoulder Pain (2026): Exercises That Relieve and Strengthen",
   description: "Pilates for neck and shoulder pain: which exercises release tension, which strengthen the weak muscles causing the pain, and what to avoid.",
   keywords: ["pilates for neck pain", "pilates shoulder pain", "pilates neck tension", "pilates upper back pain", "pilates cervical spine", "pilates for neck and shoulders", "pilates trapezius pain", "pilates tech neck", "pilates neck stiffness", "pilates upper cross syndrome"],
   openGraph: {

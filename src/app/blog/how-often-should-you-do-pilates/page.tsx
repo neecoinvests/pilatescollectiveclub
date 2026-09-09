@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "How Often Should You Do Pilates? (2026 Expert Guide) | Pilates Collective Club",
+  title: "How Often Should You Do Pilates? (2026 Expert Guide)",
   description: "How often to do Pilates for results — frequency recommendations for beginners, intermediates, and advanced practitioners, with recovery and consistency guidance.",
   openGraph: {
     title: "How Often Should You Do Pilates? The Evidence-Based Answer",

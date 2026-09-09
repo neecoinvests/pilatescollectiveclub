@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates for Anxiety & Stress (2026): The Science of How It Helps | Pilates Collective Club",
+  title: "Pilates for Anxiety & Stress (2026): The Science of How It Helps",
   description: "How Pilates reduces anxiety and stress: the neuroscience, the breath mechanics, and the specific practice patterns that produce measurable mental health benefits.",
   keywords: ["pilates for anxiety", "pilates stress relief", "pilates mental health", "pilates anxiety benefits", "pilates for stress 2026", "pilates nervous system", "pilates breathwork anxiety", "pilates cortisol", "pilates depression", "mindful movement anxiety"],
   openGraph: {

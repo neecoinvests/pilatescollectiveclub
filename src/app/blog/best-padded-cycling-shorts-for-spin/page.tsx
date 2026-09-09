@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Padded Cycling Shorts for Spin Class (2026) | Pilates Collective Club",
+  title: "Best Padded Cycling Shorts for Spin Class (2026)",
   description: "The best padded cycling shorts for indoor spin class — chamois quality, compression fit, and breathability compared across women's and men's options for long studio sessions.",
   keywords: ["best padded cycling shorts", "spin class shorts 2026", "chamois padded shorts indoor cycling", "womens cycling shorts spin", "mens padded bike shorts", "best chamois for spin class", "compression cycling shorts review"],
   openGraph: {

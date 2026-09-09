@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Tote Bags for Women (2026): Studio Totes Ranked | Pilates Collective Club",
+  title: "Best Pilates Tote Bags for Women (2026): Studio Totes Ranked",
   description: "The best Pilates tote bags for women — reviewed for capacity, structure, mat carry, and studio-to-street style in 2026.",
   keywords: ["best pilates tote bag", "pilates tote bag women 2026", "best tote bag for pilates", "pilates studio tote", "womens pilates bag", "best yoga tote bag", "pilates tote review", "lululemon pilates tote"],
   openGraph: {

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Pilates for Diastasis Recti (2026): What Works, What to Avoid | Pilates Collective Club",
+  title: "Pilates for Diastasis Recti (2026): What Works, What to Avoid",
   description: "Pilates for diastasis recti — which exercises are safe, which to avoid, how to progress, and what equipment actually helps. Evidence-based guide for postpartum recovery.",
   keywords: ["pilates for diastasis recti", "diastasis recti pilates exercises", "safe pilates diastasis recti", "pilates postpartum diastasis recti", "diastasis recti exercise guide", "pilates ab separation recovery", "diastasis recti healing pilates", "reformer pilates diastasis recti"],
   openGraph: {

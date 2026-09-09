@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Peak Pilates Equipment Review (2026): MVe & Fit Reformers | Pilates Collective Club",
+  title: "Peak Pilates Equipment Review (2026): MVe & Fit Reformers",
   description: "Peak Pilates MVe and Fit reformers reviewed — spring resistance, carriage construction, and how Peak Pilates compares to Merrithew and Balanced Body.",
   keywords: ["peak pilates review", "peak pilates reformer 2026", "peak pilates mve review", "peak pilates fit reformer", "peak pilates vs merrithew", "peak pilates equipment buy", "peak pilates cadillac review"],
   openGraph: {

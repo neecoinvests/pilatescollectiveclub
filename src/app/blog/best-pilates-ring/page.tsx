@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ring (2026): Magic Circle Options Compared | Pilates Collective Club",
+  title: "Best Pilates Ring (2026): Magic Circle Options Compared",
   description: "The best Pilates magic circles of 2026 — STOTT, Balanced Body, and foam-handled options compared on resistance level, pad comfort, and build quality.",
   keywords: ["best pilates ring", "best magic circle pilates 2026", "pilates ring review", "best pilates magic circle", "stott pilates ring review", "balanced body magic circle", "pilates ring resistance", "pilates ring exercises"],
   openGraph: {

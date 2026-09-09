@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Gifts for Beginners (2026) | Pilates Collective Club",
+  title: "Best Pilates Gifts for Beginners (2026)",
   description: "The best pilates gifts for beginners — starter kits, mats, grip socks, and resistance bands that give new practitioners everything they need to build a real practice.",
   keywords: [
     "best pilates gifts for beginners",

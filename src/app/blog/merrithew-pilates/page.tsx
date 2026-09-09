@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Merrithew Pilates Equipment Review (2026) | Pilates Collective Club",
+  title: "Merrithew Pilates Equipment Review (2026)",
   description: "Merrithew (STOTT PILATES) equipment reviewed — SPX, V2 Max, and Halo training system assessed for spring quality, build durability, and home vs studio use.",
   keywords: ["merrithew pilates review", "stott pilates equipment review 2026", "merrithew spx reformer review", "merrithew v2 max review", "merrithew vs balanced body", "best merrithew reformer", "merrithew halo training system", "merrithew pilates buy"],
   openGraph: {

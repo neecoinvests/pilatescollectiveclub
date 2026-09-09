@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Compression Sleeves for Pilates (2026): Calf, Knee & Arm | Pilates Collective Club",
+  title: "Best Compression Sleeves for Pilates (2026): Calf, Knee & Arm",
   description: "The best compression sleeves for Pilates — CEP, Zensah, 2XU, and more compared for calf circulation, knee support, and recovery during reformer and Lagree sessions.",
   keywords: ["best compression sleeves pilates", "pilates compression socks 2026", "cep compression pilates", "calf sleeves pilates", "knee sleeve pilates reformer", "compression arm sleeve pilates", "2xu compression pilates", "lagree compression sleeve"],
   openGraph: {

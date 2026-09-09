@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Alo Yoga for Pilates (2026): Best Pieces Reviewed | Pilates Collective Club",
+  title: "Alo Yoga for Pilates (2026): Best Pieces Reviewed",
   description: "The best Alo Yoga pieces for Pilates — Airbrush leggings, Accolade bra, and 7/8 tights reviewed for reformer and mat class performance.",
   keywords: ["alo yoga pilates", "alo airbrush pilates", "best alo yoga for pilates", "alo yoga leggings pilates review", "alo yoga vs lululemon pilates", "alo yoga reformer pilates", "alo accolade bra pilates", "alo yoga activewear pilates"],
   openGraph: {

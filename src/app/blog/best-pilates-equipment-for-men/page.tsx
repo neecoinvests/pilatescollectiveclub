@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Equipment for Men (2026): Reformers, Mats & Gear | Pilates Collective Club",
+  title: "Best Pilates Equipment for Men (2026): Reformers, Mats & Gear",
   description: "The best Pilates equipment for men — reformers, mats, resistance bands, and accessories reviewed for male practitioners at every experience level.",
   keywords: ["best pilates equipment for men", "men pilates equipment 2026", "pilates reformer for men", "men home pilates setup", "pilates gear men", "best pilates mat for men", "pilates resistance bands men"],
   openGraph: {

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Biker Shorts (2026): Studio-Tested Picks | Pilates Collective Club",
+  title: "Best Pilates Biker Shorts (2026): Studio-Tested Picks",
   description: "The best biker shorts for Pilates — Lululemon Align, Alo Airlift, and more tested for compression, waistband stability, and reformer performance.",
   keywords: ["best pilates biker shorts", "pilates biker shorts 2026", "best shorts for reformer pilates", "lululemon align shorts pilates", "alo airlift shorts pilates", "high waist biker shorts pilates", "pilates bike shorts review", "best activewear shorts pilates"],
   openGraph: {

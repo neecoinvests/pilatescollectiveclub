@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Merrithew V2 Max Reformer Review (2026): Is It Worth It? | Pilates Collective Club",
+  title: "Merrithew V2 Max Reformer Review (2026): Is It Worth It?",
   description: "Merrithew V2 Max reformer reviewed honestly — spring range, carriage feel, vertical frame attachment, and value compared to Balanced Body Allegro 2 and Gratz.",
   openGraph: {
     title: "Merrithew V2 Max Reformer Review (2026): Is It Worth the Upgrade?",

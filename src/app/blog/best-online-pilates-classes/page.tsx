@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Online Pilates Classes (2026): Platforms Compared & Reviewed | Pilates Collective Club",
+  title: "Best Online Pilates Classes (2026): Platforms Compared & Reviewed",
   description: "The best online Pilates class platforms of 2026 — Pilates Anytime, Alo Moves, Move With Nicole, and others compared on content depth, instructor quality, and price.",
   openGraph: {
     title: "Best Online Pilates Classes (2026): Platforms Compared",

@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Studio Pilates Reformers (2026): Commercial Grade Guide | Pilates Collective Club",
+  title: "Best Studio Pilates Reformers (2026): Commercial Grade Guide",
   description: "The best studio-grade Pilates reformers for commercial use — Balanced Body, Merrithew, and Gratz commercial models reviewed on durability, spring range, and ROI.",
   openGraph: {
     title: "Best Studio-Grade Pilates Reformers (2026): Align, BASI, Balanced Body & More",

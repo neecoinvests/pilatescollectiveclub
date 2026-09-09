@@ -6,7 +6,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Pilates vs Gym (2026): Which is Right for You? | Pilates Collective Club",
+  title: "Pilates vs Gym (2026): Which is Right for You?",
   description: "Pilates vs gym training compared — muscle building, core strength, cost per session, and which approach better fits different fitness goals and lifestyles.",
   openGraph: {
     title: "Pilates vs Gym: An Honest Comparison",

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "How Many Calories Does Pilates Burn? (2026 Data) | Pilates Collective Club",
+  title: "How Many Calories Does Pilates Burn? (2026 Data)",
   description: "How many calories does Pilates burn per session? Accurate data for mat vs reformer Pilates by body weight, intensity, and duration — plus how to track it accurately.",
   keywords: ["how many calories does pilates burn", "pilates calorie burn", "calories burned pilates reformer", "pilates calories per hour", "reformer pilates calories burned", "mat pilates calories", "pilates weight loss calories", "does pilates burn calories"],
   openGraph: {

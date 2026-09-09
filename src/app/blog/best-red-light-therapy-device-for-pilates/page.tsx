@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Red Light Therapy Device for Pilates Recovery (2026) | Pilates Collective Club",
+  title: "Best Red Light Therapy Device for Pilates Recovery (2026)",
   description: "The best red light therapy devices for Pilates recovery — Joovv Solo 3.0, Mito Red MitoPRO 300, and more compared for muscle recovery, inflammation, and post-reformer use.",
   keywords: ["best red light therapy device pilates", "red light therapy pilates recovery", "joovv solo 3.0 review", "mito red light panel pilates", "photobiomodulation pilates recovery", "red light therapy muscle recovery 2026", "best rlt device home use", "near infrared light therapy pilates"],
   openGraph: {

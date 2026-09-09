@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Gifts for a Pilates Instructor (2026) | Pilates Collective Club",
+  title: "Best Gifts for a Pilates Instructor (2026)",
   description: "The best gifts for a pilates instructor — recovery tools, premium gear, and thoughtful picks that a teaching professional will genuinely use and appreciate.",
   keywords: [
     "best gifts for pilates instructor",

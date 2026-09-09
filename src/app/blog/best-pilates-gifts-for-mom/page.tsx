@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Gifts for Mom (2026) | Pilates Collective Club",
+  title: "Best Pilates Gifts for Mom (2026)",
   description: "The best pilates gifts for your mom — thoughtful, quality picks she'll actually use every class. Manduka mats, Lululemon leggings, foam rollers, and more.",
   keywords: [
     "best pilates gifts for mom",

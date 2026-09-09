@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Stretch Strap for Pilates (2026): Tested & Ranked | Pilates Collective Club",
+  title: "Best Stretch Strap for Pilates (2026): Tested & Ranked",
   description: "The best stretch straps for Pilates — OPTP Stretch Out Strap, TheraBand, Tumaz, and more compared for hamstring flexibility, hip mobility, and Pilates-specific stretching.",
   keywords: ["best stretch strap pilates", "pilates stretch strap 2026", "optp stretch out strap pilates", "flexibility strap pilates", "theraband stretch strap", "yoga strap pilates", "pilates hamstring strap", "flexibility belt pilates"],
   openGraph: {

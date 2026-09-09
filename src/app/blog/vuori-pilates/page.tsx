@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Vuori for Pilates (2026): Best Pieces for Men & Women | Pilates Collective Club",
+  title: "Vuori for Pilates (2026): Best Pieces for Men & Women",
   description: "Vuori for Pilates — Clementine leggings, Performance Jogger, and bra tops reviewed for reformer performance, feel, and how Vuori compares to Lululemon.",
   keywords: ["vuori pilates", "vuori pilates review 2026", "best vuori for pilates", "vuori clementine legging pilates", "vuori vs lululemon pilates", "vuori men pilates", "vuori pilates activewear"],
   openGraph: {

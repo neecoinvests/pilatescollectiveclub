@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Cardio Rebounder Attachment for Lagree & Megaformer (2026) | Pilates Collective Club",
+  title: "Best Cardio Rebounder Attachment for Lagree & Megaformer (2026)",
   description: "The best mini trampoline rebounder attachments and standalone rebounders for Lagree-style cardio intervals — compared for stability, bounce response, and Megaformer compatibility.",
   keywords: ["lagree cardio rebounder", "megaformer rebounder attachment", "mini trampoline rebounder 2026", "lagree cardio interval equipment", "best rebounder for lagree", "megaformer cardio platform", "rebounder trampoline pilates"],
   openGraph: {

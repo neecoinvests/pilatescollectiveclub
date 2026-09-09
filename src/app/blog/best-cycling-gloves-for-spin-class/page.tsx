@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Cycling Gloves for Spin Class (2026): Padded, Grip & Ventilated | Pilates Collective Club",
+  title: "Best Cycling Gloves for Spin Class (2026): Padded, Grip & Ventilated",
   description: "The best padded cycling gloves for indoor spin class — compared for palm cushioning, grip, breathability, and comfort during high-output handlebar-heavy sessions.",
   keywords: ["best cycling gloves for spin class", "padded cycling gloves 2026", "indoor cycling gloves review", "spin class gloves fingerless", "bike gloves for peloton", "handlebar grip gloves indoor cycling", "cycling gloves women men"],
   openGraph: {

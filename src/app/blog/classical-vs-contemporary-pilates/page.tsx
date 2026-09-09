@@ -7,7 +7,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Classical vs Contemporary Pilates (2026): What's the Difference? | Pilates Collective Club",
+  title: "Classical vs Contemporary Pilates (2026): What's the Difference?",
   description: "Classical vs. contemporary Pilates: repertoire, equipment, and teaching philosophy compared. Which method is right for your body and goals?",
   openGraph: {
     title: "Classical vs Contemporary Pilates: Which Style Is Right for You?",

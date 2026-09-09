@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Gift Under $500 (2026) | Pilates Collective Club",
+  title: "Best Pilates Reformer Gift Under $500 (2026)",
   description: "The best pilates reformers to gift under $500 — affordable home machines that deliver a genuine reformer experience without a studio-sized investment.",
   keywords: [
     "best pilates reformer gift under 500",

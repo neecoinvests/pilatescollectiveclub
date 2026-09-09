@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Chair (2026): Wunda & High Chairs Reviewed | Pilates Collective Club",
+  title: "Best Pilates Chair (2026): Wunda & High Chairs Reviewed",
   description: "The best Pilates chairs of 2026 — Wunda Chair, High Chair, and Combo Chair compared on pedal resistance, stability, and value for home and studio use.",
   keywords: ["best pilates chair", "pilates wunda chair review 2026", "pilates high chair review", "pilates combo chair", "balanced body pilates chair", "merrithew pilates chair", "pilates chair buy", "pilates chair exercises"],
   openGraph: {

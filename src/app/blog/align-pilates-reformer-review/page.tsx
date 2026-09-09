@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Align Pilates Reformer Review (2026): C8, F3, A8 Compared | Pilates Collective Club",
+  title: "Align Pilates Reformer Review (2026): C8, F3, A8 Compared",
   description: "Align Pilates C8, F3, and A8 reformers reviewed and compared — build quality, spring resistance, frame stability, and value for home and studio use.",
   keywords: ["align pilates reformer review", "align pilates c8 review", "align pilates a8 review", "align pilates f3 review", "align pilates vs merrithew", "best align pilates reformer", "align pilates home reformer", "align pilates 2026"],
   openGraph: {

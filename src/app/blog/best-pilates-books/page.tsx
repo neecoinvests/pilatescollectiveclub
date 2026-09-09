@@ -7,7 +7,7 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Books (2026): Classics & Modern Guides Reviewed | Pilates Collective Club",
+  title: "Best Pilates Books (2026): Classics & Modern Guides Reviewed",
   description: "The best Pilates books — from Joseph Pilates originals to modern reformer guides — reviewed for depth, clarity, and usefulness for beginners and instructors.",
   openGraph: {
     title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner",

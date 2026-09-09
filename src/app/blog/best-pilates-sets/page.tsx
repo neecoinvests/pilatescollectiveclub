@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Sets & Matching Outfits (2026) | Pilates Collective Club",
+  title: "Best Pilates Sets & Matching Outfits (2026)",
   description: "The best matching Pilates sets of 2026 — legging and bra sets from Lululemon, Alo, and Varley reviewed for reformer class performance and colour range.",
   keywords: ["best pilates sets", "pilates matching sets 2026", "pilates outfit set", "lululemon pilates set", "alo yoga pilates set", "matching pilates leggings bra", "pilates activewear sets", "best workout set pilates"],
   openGraph: {

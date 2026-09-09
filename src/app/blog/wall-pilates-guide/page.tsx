@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Wall Pilates: Complete Guide (2026) — What It Is, Does It Work & Best Equipment | Pilates Collective Club",
+  title: "Wall Pilates: Complete Guide (2026) — What It Is, Does It Work & Best Equipment",
   description: "Wall Pilates explained: what the exercises actually are, whether they produce real results, and the resistance bands and mats worth buying on Amazon.",
   keywords: ["wall pilates", "wall pilates exercises", "wall pilates guide 2026", "does wall pilates work", "wall pilates beginner", "wall pilates results", "pilates without equipment", "wall pilates workout", "wall pilates for beginners", "wall pilates benefits"],
   openGraph: {

@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Cadence Sensor for Indoor Cycling & Spin (2026) | Pilates Collective Club",
+  title: "Best Cadence Sensor for Indoor Cycling & Spin (2026)",
   description: "The best cadence sensors for indoor cycling — Garmin, Wahoo, and budget options compared for accuracy, connectivity, and compatibility with Zwift, Peloton app, and non-connected bikes.",
   keywords: ["best cadence sensor indoor cycling", "bike cadence sensor 2026", "garmin cadence sensor review", "wahoo cadence sensor", "rpm sensor spin bike", "cadence sensor for zwift", "best rpm meter spin class", "cadence meter indoor bike"],
   openGraph: {

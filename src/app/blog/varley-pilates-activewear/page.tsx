@@ -7,7 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Varley for Pilates (2026): Activewear Reviewed | Pilates Collective Club",
+  title: "Varley for Pilates (2026): Activewear Reviewed",
   description: "Varley activewear reviewed for Pilates — the best Varley leggings, sets, and tops for reformer and mat class performance, compression, and studio-to-street style.",
   keywords: ["varley pilates activewear review", "varley pilates leggings 2026", "best varley for reformer pilates", "varley vs lululemon pilates", "varley activewear pilates review", "varley sets pilates"],
   openGraph: {
