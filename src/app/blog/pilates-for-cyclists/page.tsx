@@ -75,7 +75,7 @@ const PRODUCTS = [
     verdict: "Best for targeted soft tissue release",
     description:
       "A lacrosse or massage ball is more effective than a foam roller for the targeted release cyclists need most: the piriformis (deep hip rotator, compressed during saddle time), the pectoral muscles and anterior shoulder (tightened by the forward lean of the riding position), and the plantar fascia (loaded by foot-intensive pedalling). Rolling the piriformis in a figure-four seated position and the pectorals against a wall before a Pilates spinal extension or shoulder mobility session produces better range of motion outcomes than foam rolling alone. A set of two balls allows bilateral hip release simultaneously, which is practical for time-constrained cyclists.",
-    affiliateUrl: "https://www.amazon.com/s?k=lacrosse+ball+massage+set+2+pack&tag=pilatescollectiveclub-20",
+    affiliateUrl: "https://www.amazon.com/s?k=lacrosse+ball+massage+set+2+pack&tag=pilatescollective-20",
     tag: "Best Targeted Release",
   },
 ];
