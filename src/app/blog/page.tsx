@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "How Much Does Pilates Cost? (2026 Price Guide)",
+    excerpt: "Class, pack and membership pricing by format and city, the fees nobody mentions, and when a home setup pays for itself.",
+    href: "/blog/how-much-does-pilates-cost",
+    category: "Guide",
+    readTime: "12 min",
+    imageUrl: "/pictures/stitch-reformer-row-studio.png",
+  },
+  {
+    title: "Pilates for Sciatica (2026): Exercises That Help & What to Avoid",
+    excerpt: "Which exercises calm sciatic nerve pain, which aggravate a disc, and how the approach changes by cause.",
+    href: "/blog/pilates-for-sciatica",
+    category: "Health",
+    readTime: "12 min",
+    imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
+  },
+  {
+    title: "Pilates for Men (2026): Benefits, First Class & How to Start",
+    excerpt: "What Pilates delivers for lifters and runners, why the first class is harder than expected, and how to program it.",
+    href: "/blog/pilates-for-men",
+    category: "Guide",
+    readTime: "11 min",
+    imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg",
+  },
+  {
+    title: "Pilates for Shoulder Pain (2026): Rotator Cuff & Impingement",
+    excerpt: "The scapular stability work that resolves most shoulder pain — and the loaded positions to avoid during a flare.",
+    href: "/blog/pilates-for-shoulder-pain",
+    category: "Health",
+    readTime: "11 min",
+    imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
+  },
+  {
+    title: "Pilates Breathing Techniques (2026): Lateral Breathing Explained",
+    excerpt: "Why Pilates breathes into the ribs rather than the belly, the breath pattern for each key exercise, and the faults that stall progress.",
+    href: "/blog/pilates-breathing-techniques",
+    category: "Method",
+    readTime: "10 min",
+    imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
+  },
+  {
     title: "Best Pilates Reformer to Gift (2026)",
     excerpt: "From the $330 AeroPilates Performer Plus to the $2,495 Merrithew V2 Max Plus — the reformers worth giving as a gift.",
     href: "/blog/best-pilates-reformer-gift",
