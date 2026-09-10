@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Bolsters for Pilates (2026)",
+    excerpt: "Rectangular, round, pranayama and prenatal bolsters — ranked on the one spec that matters: firmness.",
+    href: "/blog/best-yoga-bolster-for-pilates",
+    category: "Equipment",
+    readTime: "8 min",
+    imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg",
+  },
+  {
+    title: "Best Lighting for a Home Pilates Studio (2026)",
+    excerpt: "Half of Pilates is spent looking at the ceiling. Dimmable, diffused and indirect fixtures ranked accordingly.",
+    href: "/blog/best-lighting-for-home-pilates-studio",
+    category: "Equipment",
+    readTime: "8 min",
+    imageUrl: "/pictures/stitch-studio-arched-windows.png",
+  },
+  {
+    title: "Best Barefoot Shoes for Pilates Practitioners (2026)",
+    excerpt: "Not for class — for the other twenty-three hours. Wide toe boxes and zero drop, plus how to transition safely.",
+    href: "/blog/best-barefoot-shoes-for-pilates",
+    category: "Clothing",
+    readTime: "9 min",
+    imageUrl: "/pictures/stitch-grip-socks-footbar.png",
+  },
+  {
+    title: "Best Pilates Equipment Storage (2026)",
+    excerpt: "Mat racks, rolling prop carts, wall rails and benches — because kit you can see is kit you actually use.",
+    href: "/blog/best-pilates-equipment-storage",
+    category: "Equipment",
+    readTime: "8 min",
+    imageUrl: "/pictures/stitch-studio-bench-towels.png",
+  },
+  {
+    title: "Best Weighted Vests for Pilates Practitioners (2026)",
+    excerpt: "For the walking and standing work beside your practice — and why you should never wear one in class.",
+    href: "/blog/best-weighted-vest-for-pilates",
+    category: "Equipment",
+    readTime: "9 min",
+    imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
+  },
+  {
     title: "Best Pilates Bar Kits (2026)",
     excerpt: "Portable bars, telescopic models, heavy-duty band systems and weighted toning bars — ranked for home practice.",
     href: "/blog/best-pilates-bar",
