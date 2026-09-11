@@ -122,7 +122,7 @@ export default function PilatesForFlatStomachPage() {
           readTime="8 min read"
         />
 
-        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 items-start">
+        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
 
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>

@@ -125,7 +125,7 @@ export default function PilatesVsYogaPage() {
         />
 
         {/* Two-column layout */}
-        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 items-start">
+        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           {/* Main article column */}
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
 
