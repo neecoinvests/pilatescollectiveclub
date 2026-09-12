@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Grip Socks for Lagree (2026)",
+    excerpt: "Full-sole silicone versus dot grip — why the sock that works on a mat slips on a moving Megaformer carriage.",
+    href: "/blog/best-lagree-grip-socks",
+    category: "Lagree",
+    readTime: "8 min",
+    imageUrl: "/pictures/stitch-grip-socks-footbar.png",
+  },
+  {
+    title: "Best Leggings for Lagree (2026)",
+    excerpt: "Buttery fabrics slide on vinyl. The compressive, matte, squat-proof pairs that actually hold position.",
+    href: "/blog/best-leggings-for-lagree",
+    category: "Lagree",
+    readTime: "8 min",
+    imageUrl: "/pictures/stitch-retail-activewear.png",
+  },
+  {
+    title: "Best Knee Pads for Lagree (2026)",
+    excerpt: "A loose cushion slides when the carriage moves. Why wearable padding is the safer answer, ranked.",
+    href: "/blog/best-lagree-knee-pads",
+    category: "Lagree",
+    readTime: "8 min",
+    imageUrl: "/pictures/stitch-hands-on-carriage.png",
+  },
+  {
+    title: "Best Sports Bras for Lagree (2026)",
+    excerpt: "Support is half the story — back hardware digs in when you lie on a firm carriage. Six ranked.",
+    href: "/blog/best-sports-bra-for-lagree",
+    category: "Lagree",
+    readTime: "8 min",
+    imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
+  },
+  {
+    title: "Best Shorts for Lagree (2026)",
+    excerpt: "Inseam length is the whole decision: bare skin sticks to a vinyl carriage. Seven inches solves it.",
+    href: "/blog/best-lagree-shorts",
+    category: "Lagree",
+    readTime: "8 min",
+    imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
+  },
+  {
     title: "Best Bolsters for Pilates (2026)",
     excerpt: "Rectangular, round, pranayama and prenatal bolsters — ranked on the one spec that matters: firmness.",
     href: "/blog/best-yoga-bolster-for-pilates",
