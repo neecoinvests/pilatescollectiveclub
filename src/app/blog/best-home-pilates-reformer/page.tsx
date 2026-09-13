@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -7,8 +8,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Home Pilates Reformer (2026): Every Budget Reviewed",
-  description: "The best home Pilates reformers of 2026 — from budget AeroPilates to premium Balanced Body, reviewed on spring quality, carriage glide, and durability.",
+  title: "Best Home Pilates Reformer (2026): $299 to $3,495 Compared",
+  description: "Home Pilates reformers from $299 to $3,495 compared on springs, rail length and footprint — plus which budget tier actually fits your space and practice.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
     description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",
@@ -294,6 +295,34 @@ export default function BestHomeReformerPage() {
                 </div>
               </div>
 
+              {/* Which tier is right for you — routes to the dedicated guide per budget and constraint */}
+              <div className="mb-16">
+                <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Start from your constraint, not the price list</h2>
+                <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  Almost nobody buying a reformer is choosing freely between a $299 machine and a $3,495 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {[
+                    { label: "Budget under $500", body: "Cord-resistance machines only at this price. Genuine reformer movement patterns, but not a spring feel.", href: "/blog/best-pilates-reformer-under-500", cta: "Reformers under $500" },
+                    { label: "Budget $500–$1,000", body: "The value sweet spot for regular home practice. Longer rails and better carriages than the entry tier.", href: "/blog/best-pilates-reformer-under-1000", cta: "Reformers under $1,000" },
+                    { label: "Budget $1,000–$2,000", body: "Where true steel springs start. The resistance curve changes how every exercise feels.", href: "/blog/best-pilates-reformer-under-2000", cta: "Reformers under $2,000" },
+                    { label: "Budget $2,000 and up", body: "Studio-grade frames and carriages built to outlast a decade of daily use. Buy once.", href: "/blog/best-premium-pilates-reformer", cta: "Premium reformers" },
+                    { label: "The room has another purpose", body: "Machines that fold and stand vertically against a wall, dropping the stored footprint to about 30 by 12 inches.", href: "/blog/best-foldable-pilates-reformer", cta: "Foldable reformers" },
+                    { label: "No space for a full-size frame", body: "Compact and half-length machines for flats where 8.5 feet is simply not available.", href: "/blog/best-pilates-reformer-for-small-spaces", cta: "Reformers for small spaces" },
+                    { label: "You are over about 5ft 10in", body: "Rail length is the specification that matters. Short rails cut your leg extension short on every exercise.", href: "/blog/best-pilates-reformer-for-tall-people", cta: "Reformers for tall people" },
+                    { label: "First reformer, still learning", body: "What to prioritise before spending, and which features you will not use in your first year.", href: "/blog/best-pilates-reformer-for-beginners", cta: "Reformers for beginners" },
+                  ].map((t) => (
+                    <div key={t.href} className="rounded-xl p-5 flex flex-col" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
+                      <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.label}</p>
+                      <p className="text-sm leading-relaxed mb-4 flex-1" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{t.body}</p>
+                      <Link href={t.href} className="text-xs font-semibold uppercase tracking-[0.12em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+                        {t.cta} →
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               {/* Space requirements */}
               <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Space requirements to plan for</h2>
@@ -321,8 +350,8 @@ export default function BestHomeReformerPage() {
               <div>
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Everything beyond the reformer — mats, bands, rings, and ankle weights." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
-                  <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
+                  <ArticleCard title="Best Pilates Reformer Brands (2026)" excerpt="Balanced Body, Merrithew, Align, Gratz, Elina and Peak — who builds what, and at what price." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="June 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
+                  <ArticleCard title="How Much Does a Pilates Reformer Cost?" excerpt="What the money actually buys between $300 and $6,000, and where the jumps in quality fall." href="/blog/how-much-does-a-pilates-reformer-cost" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
                 </div>
               </div>
             </section>
@@ -331,7 +360,7 @@ export default function BestHomeReformerPage() {
           <BlogSidebar related={[
             { title: "Best Pilates Equipment for Home Practice", href: "/blog/best-pilates-equipment-for-home-practice", readTime: "10 min read", imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" },
             { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
-            { title: "Best Pilates Grip Socks", href: "/blog/best-pilates-grip-socks", readTime: "7 min read", imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg" },
+            { title: "Best Pilates Reformer Brands", href: "/blog/best-pilates-reformer-brands", readTime: "12 min read", imageUrl: "/pictures/stitch-reformers-aerial-row.png" },
           ]} />
         </div>
       </main>
