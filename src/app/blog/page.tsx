@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Best Spin Bikes Under $500 (2026)",
+    excerpt: "Flywheel weight and resistance type decide it. The budget bikes worth buying, and what to budget beyond them.",
+    href: "/blog/best-spin-bike-under-500",
+    category: "Spinning",
+    readTime: "10 min",
+    imageUrl: "/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg",
+  },
+  {
+    title: "Best Clip-In Pedals for Spin Bikes (2026)",
+    excerpt: "SPD or Delta? Why SPD wins for studio cycling, which pedals fit Peloton, and the cleats to pair with them.",
+    href: "/blog/best-clip-in-pedals-for-spin-bike",
+    category: "Spinning",
+    readTime: "9 min",
+    imageUrl: "/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg",
+  },
+  {
+    title: "Best Spin Bike Seat Cushions (2026)",
+    excerpt: "A thick gel cushion often makes saddle pain worse. The fix order that solves it, and the products worth buying.",
+    href: "/blog/best-spin-bike-seat-cushion",
+    category: "Spinning",
+    readTime: "8 min",
+    imageUrl: "/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg",
+  },
+  {
+    title: "Best Tablet Holders for Spin Bikes (2026)",
+    excerpt: "Sweat corrodes them and sprints shake them loose. The mounts that survive, ranked — plus screen height and posture.",
+    href: "/blog/best-tablet-holder-for-spin-bike",
+    category: "Spinning",
+    readTime: "8 min",
+    imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
+  },
+  {
+    title: "Lagree at Home (2026): The Full Setup, Costed",
+    excerpt: "The machine is not on Amazon — but everything that makes a home setup work is. What it costs, and what matters.",
+    href: "/blog/lagree-at-home",
+    category: "Lagree",
+    readTime: "10 min",
+    imageUrl: "/pictures/stitch-reformer-morning-light.png",
+  },
+  {
     title: "Best Grip Socks for Lagree (2026)",
     excerpt: "Full-sole silicone versus dot grip — why the sock that works on a mat slips on a moving Megaformer carriage.",
     href: "/blog/best-lagree-grip-socks",
