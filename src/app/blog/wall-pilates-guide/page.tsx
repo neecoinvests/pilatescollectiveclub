@@ -274,7 +274,7 @@ export default function WallPilatesGuidePage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates for Beginners" excerpt="Everything you need to start Pilates without prior experience — mat, reformer, and what to expect in your first month." href="/blog/pilates-for-beginners" category="Beginners" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
+                <ArticleCard title="Pilates Exercises for Beginners" excerpt="Fifteen foundational moves to start Pilates without prior experience, and what to expect in your first month." href="/blog/pilates-exercises-for-beginners" category="Beginners" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Best Pilates Mat (2026)" excerpt="The mats that perform best for home practice — grip, cushioning, and durability compared." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />
               </div>
             </div>

@@ -105,7 +105,7 @@ export default function AffiliateDisclosurePage() {
 
             <h2 style={s.h2}>Questions</h2>
             <p style={s.p}>
-              If you have any questions about our affiliate relationships or editorial process, please use the contact form on the Site.
+              If you have any questions about our affiliate relationships or editorial process, please <a href="/contact" style={{ color: "#8b4a31", textDecoration: "underline" }}>get in touch</a>.
             </p>
           </div>
         </section>

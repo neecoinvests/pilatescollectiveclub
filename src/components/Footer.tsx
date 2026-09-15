@@ -6,6 +6,8 @@ const EXPLORE = [
   { label: "Brands", href: "/brands" },
   { label: "Equipment", href: "/blog/best-pilates-reformer-brands" },
   { label: "About", href: "/#about" },
+  { label: "Contact", href: "/contact" },
+  { label: "Advertise", href: "/advertise" },
 ];
 
 const JOURNAL = [

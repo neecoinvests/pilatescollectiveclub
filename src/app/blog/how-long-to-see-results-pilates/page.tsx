@@ -257,7 +257,7 @@ export default function HowLongToSeeResultsPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Weight Loss" excerpt="Does Pilates cause weight loss? The research, the mechanism, and realistic expectations." href="/blog/pilates-for-weight-loss" category="Health" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
-                <ArticleCard title="How Often Should You Do Pilates?" excerpt="The research-backed frequency recommendations for beginners, regulars, and advanced practitioners." href="/blog/how-often-pilates" category="Guide" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-morning-light.png" />
+                <ArticleCard title="How Often Should You Do Pilates?" excerpt="The research-backed frequency recommendations for beginners, regulars, and advanced practitioners." href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-morning-light.png" />
               </div>
             </div>
           </div>
