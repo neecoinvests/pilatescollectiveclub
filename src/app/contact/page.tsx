@@ -9,7 +9,7 @@ const BASE_URL = "https://pilatescollectiveclub.com";
 // The address is split here and joined in the browser (see the inline Script
 // below) so the served HTML never contains a harvestable mailto: string.
 // Change these two parts to change the published address.
-const EMAIL_USER = "hello";
+const EMAIL_USER = "info";
 const EMAIL_DOMAIN = "pilatescollectiveclub.com";
 
 export const metadata: Metadata = {
