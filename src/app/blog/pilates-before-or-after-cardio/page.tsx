@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Pilates Before or After Cardio? The Right Order Explained (2026)",
-  description: "Should you do Pilates before or after cardio? The evidence-based answer for runners, cyclists, and gym-goers — plus what to do when you train both on the same day.",
+  title: "Pilates Before or After Cardio (2026): The Right Order",
+  description: "Should Pilates come before or after cardio? The order that protects technique, what to do on same-day sessions, and when it genuinely does not matter.",
   keywords: ["pilates before or after cardio", "should i do pilates before or after running", "pilates and cardio same day", "pilates before or after gym", "pilates before or after workout", "pilates and running order", "pilates before cardio", "pilates after cardio"],
   openGraph: {
     title: "Pilates Before or After Cardio? The Right Order Explained",

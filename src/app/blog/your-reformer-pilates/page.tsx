@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Your Reformer Review (2026): The Connected Home Studio",
-  description: "Your Reformer reviewed — the premium Australian wood reformer with integrated app and on-demand classes. Is it the Peloton of Pilates? An honest assessment.",
+  title: "Your Reformer Review (2026): The Peloton of Pilates?",
+  description: "Your Reformer reviewed — the Australian wood reformer with a built-in app and on-demand classes. Does the connected model justify the premium price?",
   keywords: ["your reformer review", "your reformer pilates", "your reformer app", "connected pilates reformer", "your reformer original", "yr studio pilates", "best home pilates reformer app", "your reformer australia", "premium wood pilates reformer", "your reformer 2026"],
   openGraph: {
     title: "Your Reformer Review (2026): The Connected Home Studio",

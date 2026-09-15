@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Merrithew SPX Max Reformer Review (2026): Full Verdict",
-  description: "Merrithew SPX Max reformer reviewed in full — spring resistance, carriage glide, footbar precision, stability, and how it compares to the V2 Max and Balanced Body Allegro 2.",
+  title: "Merrithew SPX Max Review (2026): Worth $2,199?",
+  description: "Merrithew SPX Max reviewed at $2,199 — spring feel, carriage glide and footbar precision, plus how it compares with the V2 Max and Allegro 2.",
   keywords: ["merrithew spx max review", "merrithew spx max reformer 2026", "stott pilates spx max review", "spx max vs v2 max merrithew", "merrithew spx max buy", "best home reformer merrithew spx", "merrithew spx max price", "stott spx reformer comparison"],
   openGraph: {
     title: "Merrithew SPX Max Review (2026): Honestly Assessed",

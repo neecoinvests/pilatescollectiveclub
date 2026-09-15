@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Balanced Body Pilates Equipment Review (2026)",
-  description: "Balanced Body reformers, cadillacs, and accessories reviewed — the full lineup compared on quality, durability, and value for studio and home use.",
+  title: "Balanced Body Pilates (2026): $240 Props to $2,800 Reformers",
+  description: "Balanced Body reviewed across the full range, from a $240 magic circle to the $2,800 Allegro 2 — which pieces are worth it and which to skip.",
   keywords: ["balanced body pilates review", "balanced body reformer", "balanced body pilates equipment", "balanced body vs gratz", "balanced body vs merrithew", "balanced body studio reformer", "balanced body pilates 2026"],
   openGraph: {
     title: "Balanced Body for Pilates (2026): Equipment Review & Guide",

@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Manduka PRO Pilates Mat Review (2026): Worth the Price?",
-  description: "Manduka PRO and eKO Pilates mat reviewed — thickness, grip, weight, and whether the premium price is justified for Pilates practitioners over cheaper alternatives.",
+  title: "Manduka PRO Mat Review (2026): Worth $120 for Pilates?",
+  description: "Manduka PRO and eKO mats reviewed for Pilates at $120 — thickness, grip, weight, and whether a cheaper mat does the same job just as well.",
   keywords: ["manduka pilates mat review", "manduka pro pilates 2026", "manduka eko pilates mat", "is manduka worth it for pilates", "manduka pro vs lululemon mat pilates", "best thick pilates mat manduka", "manduka 6mm pilates review"],
   openGraph: {
     title: "Manduka Pilates Mat (2026): PRO, eKO, and PRO Lite Compared",

@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Merrithew V2 Max Reformer Review (2026): Is It Worth It?",
-  description: "Merrithew V2 Max reformer reviewed honestly — spring range, carriage feel, vertical frame attachment, and value compared to Balanced Body Allegro 2 and Gratz.",
+  title: "Merrithew V2 Max Review (2026): Worth $3,500?",
+  description: "Merrithew V2 Max reviewed at around $3,500 — spring range, carriage feel, the vertical frame, and whether the jump up from the SPX Max is justified.",
   openGraph: {
     title: "Merrithew V2 Max Reformer Review (2026): Is It Worth the Upgrade?",
     description: "The Merrithew V2 Max reviewed in detail — patented rope system, wider carriage, high-precision springs, and the honest answer on whether it justifies the price over the SPX Max.",

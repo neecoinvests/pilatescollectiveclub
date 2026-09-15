@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Alo Yoga for Pilates (2026): Best Pieces Reviewed",
-  description: "The best Alo Yoga pieces for Pilates — Airbrush leggings, Accolade bra, and 7/8 tights reviewed for reformer and mat class performance.",
+  title: "Alo Yoga for Pilates (2026): What's Worth It, What's Not",
+  description: "Which Alo Yoga pieces actually work for Pilates — Airbrush leggings, the Accolade bra and 7/8 tights judged on reformer opacity, hold and comfort.",
   keywords: ["alo yoga pilates", "alo airbrush pilates", "best alo yoga for pilates", "alo yoga leggings pilates review", "alo yoga vs lululemon pilates", "alo yoga reformer pilates", "alo accolade bra pilates", "alo yoga activewear pilates"],
   openGraph: {
     title: "Alo Yoga for Pilates (2026): Best Pieces, Alo Moves & Honest Review",

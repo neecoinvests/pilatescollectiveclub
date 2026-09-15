@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Elina Pilates Reformer Review (2026): Is It Worth It?",
-  description: "Elina Pilates reformer honestly reviewed — spring quality, carriage travel, frame stability, and how Elina compares to Balanced Body and Merrithew at similar price points.",
+  title: "Elina Pilates Review (2026): vs Balanced Body & Merrithew",
+  description: "Elina Pilates reformers reviewed from $1,300 to $4,200 — spring quality, carriage travel and frame stability against Balanced Body and Merrithew.",
   keywords: ["elina pilates review", "elina pilates reformer 2026", "elina pilates vs balanced body", "is elina pilates good", "elina pilates elite reformer review", "elina pilates buy", "elina pilates wood reformer", "elina pilates price"],
   openGraph: {
     title: "Elina Pilates (2026): Equipment Review — Elite & Essence Reformers",

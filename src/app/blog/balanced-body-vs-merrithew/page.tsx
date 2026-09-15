@@ -7,8 +7,8 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Balanced Body vs Merrithew (2026): Which Reformer Is Right for You?",
-  description: "Balanced Body vs. Merrithew: spring systems, frame quality, carriage feel, and price compared. Which brand is right for your home studio or classroom?",
+  title: "Balanced Body vs Merrithew (2026): Springs, Price, Verdict",
+  description: "Balanced Body vs Merrithew — spring systems, frame quality, carriage feel and price compared, with a clear recommendation for home and studio buyers.",
   keywords: ["balanced body vs merrithew", "balanced body reformer", "merrithew reformer", "stott pilates reformer", "best professional pilates reformer", "balanced body allegro 2", "merrithew v2 max", "pilates reformer brands compared", "balanced body vs stott", "professional reformer comparison 2026"],
   openGraph: {
     title: "Balanced Body vs Merrithew: Which Reformer Is Right for You?",
