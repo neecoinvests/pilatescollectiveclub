@@ -40,6 +40,15 @@ const PRODUCTS = [
   },
 ];
 
+const COMMONLY_ASSUMED = [
+  { model: "Align Pilates H1 Folding", actual: "$2,199", over: "$199 over" },
+  { model: "Balanced Body Metro IQ", actual: "$2,295", over: "$295 over" },
+  { model: "Align Pilates C2 Pro RC", actual: "$2,280", over: "$280 over" },
+  { model: "Align Pilates C8 Pro", actual: "$2,750", over: "$750 over" },
+  { model: "Merrithew At Home SPX", actual: "$3,299", over: "$1,299 over" },
+  { model: "Merrithew SPX Max", actual: "$3,649", over: "$1,649 over" },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -82,6 +91,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Is $2,000 enough to buy a good Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "It buys a capable home machine, but the bracket is thinner than most guides suggest. We rechecked current dealer pricing in September 2026 and several machines routinely recommended at this budget are well above it: the Align Pilates C8 Pro is around $2,750, and the Merrithew At Home SPX package runs $3,299 or more. Under $2,000 you are realistically choosing between bungee-resistance machines and the consumer end of the spring-based market. If you want a clinical-grade spring reformer, the honest budget is closer to $2,750." } },
+        { "@type": "Question", "name": "What is the cheapest real Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Among machines from recognised brands, the AeroPilates Pro XP 557 at around $1,329 is the cheapest we can currently verify. It uses elastic cord rather than coil springs. The cheapest genuine spring reformer sits closer to $2,295, which is the Balanced Body Metro IQ. Anything advertised as a spring reformer well below that is worth checking carefully, because a lot of published pricing in this category is years out of date." } },
+        { "@type": "Question", "name": "Should I buy a used reformer instead?", "acceptedAnswer": { "@type": "Answer", "text": "At this budget it is usually the better decision. A commercial-grade frame from an established brand is built for well over a decade of daily studio use, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. What you are really buying is the frame and the rails, and those either are true or they are not. Under $2,000 the used market buys considerably more machine than the new market does." } },
         { "@type": "Question", "name": "What is the difference between spring and bungee reformers?", "acceptedAnswer": { "@type": "Answer", "text": "Spring reformers use coil springs calibrated to specific resistance values — the same mechanism used in professional studios. The resistance profile is linear and precise. Bungee reformers use elastic cord, which has a progressive resistance that increases more as the cord stretches. Springs are preferred for serious programming; bungee systems are more suitable for beginners and rehabilitation." } },
         { "@type": "Question", "name": "How do mid-range reformers compare to studio machines?", "acceptedAnswer": { "@type": "Answer", "text": "Home-grade reformers from established brands perform close to their studio equivalents for intermediate programming. The differences are build longevity, since studio machines are specified for full-day commercial use rather than an hour or two at home, the depth of the accessory ecosystem, and the warranty, which on a home machine typically excludes commercial use from the first paid session." } },
       ],
@@ -145,7 +156,7 @@ export default function BestPilatesReformerUnder2000Page() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>What Genuinely Qualifies</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The One Machine That Qualifies</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -159,11 +170,60 @@ export default function BestPilatesReformerUnder2000Page() {
               </div>
             </div>
 
+
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What people think costs under $2,000, and what it costs</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                Every machine below appears on somebody&apos;s under-$2,000 list, including, until recently, ours. None of them is under $2,000. These are current dealer prices checked in September 2026, and the gap is the reason so many people arrive at a checkout confused.
+              </p>
+              <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", backgroundColor: "#ffffff" }}>
+                <div style={{ overflowX: "auto" }}>
+                  <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Montserrat', sans-serif", fontSize: "14px" }}>
+                    <thead>
+                      <tr style={{ backgroundColor: "#f6f3f2" }}>
+                        <th style={{ textAlign: "left", padding: "12px 16px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Machine</th>
+                        <th style={{ textAlign: "right", padding: "12px 12px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Actual price</th>
+                        <th style={{ textAlign: "right", padding: "12px 16px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Over budget by</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {COMMONLY_ASSUMED.map((r) => (
+                        <tr key={r.model} style={{ borderTop: "1px solid rgba(217,194,186,0.3)" }}>
+                          <td style={{ padding: "12px 16px", color: "#53433e", fontWeight: 300 }}>{r.model}</td>
+                          <td style={{ padding: "12px 12px", textAlign: "right", color: "#1b1c1c", whiteSpace: "nowrap" }}>{r.actual}</td>
+                          <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b4a31", whiteSpace: "nowrap" }}>{r.over}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>So what are your actual options?</h2>
+              <div className="space-y-4">
+                {[
+                  { label: "Buy the cord-resistance machine and accept what it is", body: "The AeroPilates above is the one machine we can currently confirm under $2,000 from a recognised brand. It uses elastic cord rather than coil springs, which is a real difference: cord tension rises as it stretches, where a spring is closer to linear. For a beginner building a habit that is a workable trade. For someone following studio programming it will feel wrong within a year." },
+                  { label: "Buy used and get a spring machine", body: "This is the strongest option at this budget and the one most people overlook. A commercial frame from an established brand lasts well over a decade, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. Under $2,000 on the used market buys considerably more machine than under $2,000 new." },
+                  { label: "Stretch to around $2,300", body: "The Balanced Body Metro IQ at $2,295 is the nearest genuine spring reformer to this budget, and the jump from $2,000 is smaller than the jump in what you get. If you can wait two months and add $300, that is usually the better decision than buying a cord machine you will replace." },
+                  { label: "Keep taking classes for now", body: "At three classes a week a studio membership costs less per year than the depreciation on a machine you stop using. If you are not yet certain the habit will hold, the reformer is not the constraint on your practice and buying one at the bottom of the market is the most common way people end up with a clothes rail." },
+                ].map((item) => (
+                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is $2,000 enough to buy a good Pilates reformer?", a: "It buys a capable home machine, but the bracket is thinner than most guides suggest. We rechecked current dealer pricing in September 2026 and several machines routinely recommended at this budget are well above it: the Align Pilates C8 Pro is around $2,750, and the Merrithew At Home SPX package runs $3,299 or more. Under $2,000 you are realistically choosing between bungee-resistance machines and the consumer end of the spring-based market. If you want a clinical-grade spring reformer, the honest budget is closer to $2,750." },
+                  { q: "What is the cheapest real Pilates reformer?", a: "Among machines from recognised brands, the AeroPilates Pro XP 557 at around $1,329 is the cheapest we can currently verify. It uses elastic cord rather than coil springs. The cheapest genuine spring reformer sits closer to $2,295, which is the Balanced Body Metro IQ. Anything advertised as a spring reformer well below that is worth checking carefully, because a lot of published pricing in this category is years out of date." },
+                  { q: "Should I buy a used reformer instead?", a: "At this budget it is usually the better decision. A commercial-grade frame from an established brand is built for well over a decade of daily studio use, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. What you are really buying is the frame and the rails, and those either are true or they are not. Under $2,000 the used market buys considerably more machine than the new market does." },
                   { q: "What is the difference between spring and bungee reformers?", a: "Spring reformers use coil springs calibrated to specific resistance values — the same mechanism used in professional studios. The resistance profile is linear and precise. Bungee reformers use elastic cord, which has a progressive resistance that increases more as the cord stretches. Springs are preferred for serious programming; bungee systems are more suitable for beginners and rehabilitation." },
                   { q: "How do mid-range reformers compare to studio machines?", a: "Home-grade reformers from established brands perform close to their studio equivalents for intermediate programming. The differences are build longevity, since studio machines are specified for full-day commercial use rather than an hour or two at home, the depth of the accessory ecosystem, and the warranty, which on a home machine typically excludes commercial use from the first paid session." },
                 ].map((item) => (
