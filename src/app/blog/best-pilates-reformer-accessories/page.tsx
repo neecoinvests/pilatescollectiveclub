@@ -43,7 +43,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Balanced Body Jump Board",
-    price: "From $145",
+    price: "From $295",
     verdict: "Best for cardiovascular variation",
     description:
       "The jump board replaces the footbar and allows jumping and running exercises on the reformer — a high-cardio addition to the method that builds fast-twitch leg power while remaining low-impact (the springs absorb the landing force). Jump board classes have become a feature of many boutique reformer studios. For home reformer owners who want to add cardiovascular intensity without the joint impact of running, this is a genuinely transformative accessory. Verify compatibility with your specific reformer model before purchasing.",

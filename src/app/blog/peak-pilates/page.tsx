@@ -31,7 +31,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Peak Pilates MVe® Reformer",
-    price: "From $3,200",
+    price: "From $4,295",
     verdict: "Best overall Peak Pilates reformer",
     description:
       "The Peak Pilates MVe is the brand's flagship studio reformer and the model most frequently found in high-end classical and hybrid studios. The name stands for Multi-Versatile Equipment, and the design reflects that intent — the carriage dimensions, spring calibration, and footbar geometry are engineered to accommodate the full classical and contemporary repertoire without compromise. The five colour-coded springs cover the resistance range from feather-light single-spring work to heavy multi-spring footwork sequences. The aluminium frame is powder-coated rather than painted, which prevents chipping through years of daily studio use. The carriage glides on sealed ball bearings with a quality and quietness that compares favourably to Balanced Body at a slightly lower price point. For a new studio build or a serious home studio upgrade, the MVe represents the best value proposition in classical-leaning equipment.",

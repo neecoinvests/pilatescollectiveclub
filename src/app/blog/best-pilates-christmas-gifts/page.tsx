@@ -79,7 +79,7 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Lululemon Everywhere Belt Bag Large 2L",
-    price: "$48",
+    price: "$38",
     verdict: "Best Under-$50 Christmas Gift",
     description: "Lululemon releases seasonal colourways of the Everywhere Belt Bag every holiday period — and they sell out. The 2L large version is the pilates studio staple: worn crossbody or clipped to a larger bag, it fits a phone, keys, lip balm, and cards. Water-repellent ripstop fabric, quick-access zip, adjustable strap. At $48 it is the most reliably appreciated under-$50 Christmas gift in the pilates space — giftable, recognisable, and used every day. Grab the seasonal colour before they're gone.",
     affiliateUrl: "https://www.amazon.com/s?k=lululemon+everywhere+belt+bag+large+holiday+seasonal&tag=pilatescollective-20",

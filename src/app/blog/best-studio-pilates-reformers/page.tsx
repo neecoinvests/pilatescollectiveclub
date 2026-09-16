@@ -61,7 +61,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Balanced Body Metro IQ Reformer",
-    price: "$2,295",
+    price: "From $2,295",
     verdict: "Best for small spaces and city apartments",
     tier: "Premium Compact",
     description:
@@ -151,7 +151,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Gratz Maple Classic Reformer",
-    price: "$5,295",
+    price: "From $5,295",
     verdict: "Best for classical practitioners who prefer wood to aluminium",
     tier: "Heritage",
     description:

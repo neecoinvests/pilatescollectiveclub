@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Merrithew At Home SPX Reformer",
-    price: "From $1,399",
+    price: "From $3,299",
     verdict: "Best home reformer under $1,500",
     description:
       "The At Home SPX is the most accessible full-spring reformer from a serious professional brand. Unlike cord-based home alternatives, the SPX uses a genuine spring system — five springs of varying tension — giving you the authentic reformer feel that mat-plus-resistance machines cannot replicate. The frame is lighter than the studio SPX Max but maintains the precision that STOTT Pilates instruction demands. The footbar adjusts to three positions, the shoulder rests fold flat, and the machine can be stored vertically. For practitioners who want a genuine professional-grade spring system without the studio reformer footprint or price, the At Home SPX is the clearest recommendation in its segment.",

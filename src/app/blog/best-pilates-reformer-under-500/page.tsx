@@ -42,15 +42,6 @@ const PRODUCTS = [
     tag: "Best for Height",
   },
   {
-    rank: "03",
-    name: "AeroPilates Pro XP 557",
-    price: "From $449 (on sale)",
-    verdict: "Best upgrade path if budget stretches",
-    description: "The 557 sits at the upper edge of the sub-$500 window and represents a meaningful step up from the 287. The four-cord system is the same, but the carriage runs on sealed nylon bearings, the footbar has five adjustment positions, and the standing platform is included — which unlocks the full AeroPilates standing repertoire unavailable on the base models. When on sale (Black Friday, Prime Day) it frequently drops to $399–$449. If you can reach this price point, the 557 is meaningfully better than the 287, not just incrementally. The rebounder is included, assembly takes about 90 minutes, and the overall stability is noticeably better than the entry model.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20",
-    tag: "Best Value Stretch",
-  },
-  {
     rank: "04",
     name: "Stamina Pilates Premier with DVDs",
     price: "From $229",

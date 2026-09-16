@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "AeroPilates Pro XP 557",
-    price: "From $799",
+    price: "From $1,329",
     verdict: "Best overall reformer for beginners",
     description: "The AeroPilates 557 is the clearest recommendation for most beginners who have had at least a few studio sessions and are ready to practice at home. The four-cord resistance system is forgiving for learners — cord resistance is more linear and predictable than spring resistance, which reduces the risk of uncontrolled movement during unfamiliar exercises. The included rebounder adds cardio intervals that keep home sessions engaging. The fold-flat mechanism means it stores under a bed. The standing platform is included, expanding the exercise repertoire as your practice develops. For practitioners who have not yet trained in a studio and want to start on a home machine, the 557's included instructional content is genuinely useful. The cord system differs from spring reformers, but for a beginner learning positions and movement patterns, this difference is largely imperceptible.",
     affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20",
@@ -44,7 +44,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Merrithew At Home SPX Reformer",
-    price: "From $2,199",
+    price: "From $3,299",
     verdict: "Best premium first reformer",
     description: "For a beginner who has already done significant studio work (six months or more), knows the reformer is central to their practice, and wants to invest once correctly, the Merrithew At Home SPX is the premium recommendation. The spring system is identical to what they've trained on in STOTT PILATES studios; the fold-flat mechanism stores it efficiently; the Merrithew instructional ecosystem (videos, certified instructor network) means excellent support for continued self-teaching. This is not a machine for someone who has never tried a reformer — it is for someone who knows they love the reformer and is ready to invest in doing it properly at home.",
     affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",

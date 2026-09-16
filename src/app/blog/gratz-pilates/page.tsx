@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gratz Universal Reformer",
-    price: "From $6,500",
+    price: "From $4,590",
     verdict: "The classical reformer benchmark",
     description:
       "The Gratz Universal Reformer is the closest production equipment gets to the apparatus Joseph Pilates designed in his 8th Avenue studio. The spring system uses original-specification springs with a characteristic tension profile — what classical teachers describe as having more immediacy and 'life' than modern springs. The wooden frame, canvas straps, and natural rubber components give it an aesthetic and tactile quality that contemporary steel-and-upholstery reformers cannot replicate. At $6,500+, this is a lifelong investment purchased by serious classical studios, first-generation teacher lineages, and dedicated practitioners for whom authenticity is non-negotiable. Note: sold direct at gratzpilates.com, not typically available on Amazon.",

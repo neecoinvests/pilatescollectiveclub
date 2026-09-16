@@ -57,7 +57,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Peak Pilates MVe Reformer",
-    price: "From $3,800",
+    price: "From $4,295",
     verdict: "Best American Craftsmanship",
     description: "Peak Pilates is a Colorado-based manufacturer whose MVe Reformer has earned a devoted following in premium home studios across North America. The machine uses a patented spring system that allows finer tension graduation than most competitors — critical for the progressive loading principles of Pilates. The aluminium extrusion frame is anodised to a quality that reads as architectural rather than athletic. Designed specifically for the demanding home practitioner.",
     affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+mve+reformer&tag=pilatescollective-20",

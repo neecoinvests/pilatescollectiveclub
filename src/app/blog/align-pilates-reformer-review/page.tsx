@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Align-Pilates C8 Pro Reformer",
-    price: "From $2,200",
+    price: "From $2,750",
     verdict: "Best overall Align-Pilates reformer",
     description: "The C8 Pro is Align-Pilates' flagship home and semi-professional reformer — and the model that has most effectively broken into the Balanced Body and Merrithew market. Five springs (blue, red, green, yellow, and a half spring), sealed ball-bearing carriage rollers, an adjustable three-position footbar, padded shoulder rests with height adjustment, and a full-length aluminum and steel frame. The carriage action is genuinely smooth — indistinguishable from machines costing twice as much in everyday use. The spring colour system matches the STOTT PILATES convention, which makes it immediately familiar to instructors trained in that method. The C8 Pro ships in a single box requiring professional assembly; budget approximately two hours. The machine does not fold, but the build quality justifies permanent placement. A serious reformer at a meaningful price advantage over the major American brands.",
     affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20",

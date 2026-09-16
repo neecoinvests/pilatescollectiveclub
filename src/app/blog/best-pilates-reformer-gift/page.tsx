@@ -55,7 +55,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Merrithew At Home SPX Reformer",
-    price: "$899",
+    price: "From $3,299",
     verdict: "Best Mid-Range Gift",
     description: "Merrithew is the professional studio brand behind STOTT PILATES — the method taught in the most rigorously certified training programmes worldwide. The At Home SPX Reformer is their entry into the domestic market: same spring system and carriage dimensions as their commercial machines, same quality of aluminium rail and padded footbar, but a shorter frame and lighter weight for home use. Five springs cover a full range of resistance from feather-light to challenging; the carriage runs silently. For someone who has trained in a real pilates studio and knows what good equipment feels like, the Merrithew At Home SPX is the only sub-$1,000 reformer that will satisfy them. A gift at this price communicates genuine understanding of the practice.",
     affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
@@ -71,7 +71,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Balanced Body Allegro 2 Reformer",
-    price: "$2,195",
+    price: "From $3,995",
     verdict: "Best Premium Gift",
     description: "Balanced Body is the standard against which professional pilates reformers are measured — the brand in more certified training studios and teacher certification programmes than any other. The Allegro 2 is their professional reformer in a configuration built for the serious home practitioner: full 90cm carriage width, four interchangeable springs covering the full resistance spectrum, silent roller bearings, and an ergonomic footbar system with multiple height positions. Nothing about this machine requires compromise: it is indistinguishable from what a certified instructor trains on. A Balanced Body Allegro 2 as a gift says everything — it is the reformer she would choose for herself if she were making the decision without budget constraints.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer+home&tag=pilatescollective-20",

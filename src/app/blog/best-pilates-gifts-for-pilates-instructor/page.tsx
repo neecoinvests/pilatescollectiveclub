@@ -63,7 +63,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Balanced Body Magic Circle",
-    price: "$75",
+    price: "From $75",
     verdict: "Best Studio Equipment Gift",
     description: "The Magic Circle — also called the Pilates ring — is one of the most used props in classical and contemporary Pilates teaching, and Balanced Body makes the most trusted version in the professional market. Their ring uses a flexible steel core with foam-padded handles designed to withstand commercial studio use. Instructors use it for adductor work, arm strengthening, and as a teaching prop to illustrate alignment and muscle engagement. A Balanced Body Magic Circle is a considered, practical gift that an instructor will use in class rather than leave in a drawer.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates+ring+professional&tag=pilatescollective-20",

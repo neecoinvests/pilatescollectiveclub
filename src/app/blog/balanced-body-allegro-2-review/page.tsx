@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Balanced Body Allegro 2 Reformer",
-    price: "From $3,495",
+    price: "From $3,995",
     verdict: "The best home reformer available",
     description: "The Allegro 2 is the machine against which all other home reformers are measured. The sealed ball-bearing carriage delivers a smoothness that practitioners trained in professional studios recognise immediately — it is the same quality they worked on before buying for home. Four color-coded springs cover the full resistance range from rehabilitation-light to advanced-heavy. The foldable upright mechanism with integrated casters makes daily set-up and storage a 60-second operation rather than a commitment. The full Balanced Body accessory ecosystem (Box, Tower, Jump Board, Pole) means the machine grows with the practitioner indefinitely. At $3,495 it is not a casual purchase. It is, however, the correct purchase for a practitioner serious about a long-term home reformer practice — the one machine worth buying once.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20",
@@ -44,7 +44,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Balanced Body Jump Board",
-    price: "From $219",
+    price: "From $295",
     verdict: "Best cardio addition to the Allegro 2",
     description: "The Balanced Body Jump Board attaches to the foot end of the Allegro 2 and converts footwork into a low-impact cardio jumping sequence. The board is padded and sized to accommodate parallel, Pilates stance, and wide-stance jump positions. Jumpboard work runs on lighter spring settings and keeps the heart rate elevated for the duration — a meaningful cardio addition for practitioners who want a complete workout without leaving the reformer. The board is compatible with the Allegro 2 specifically; check compatibility if you own an earlier Balanced Body model. Not appropriate during pregnancy or certain post-surgical recovery phases without instructor guidance.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+jump+board+reformer&tag=pilatescollective-20",

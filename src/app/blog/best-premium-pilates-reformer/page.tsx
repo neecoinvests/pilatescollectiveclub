@@ -88,7 +88,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Elina Pilates Elite Wood Reformer",
-    price: "From $3,585",
+    price: "From $3,995",
     verdict: "Best aesthetics and carriage feel",
     tier: "Premium",
     description:
@@ -126,7 +126,7 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Gratz Universal Aluminum Reformer",
-    price: "From $4,995",
+    price: "From $4,590",
     verdict: "Best for classical method purists",
     tier: "Heritage",
     description:

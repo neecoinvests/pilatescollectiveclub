@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Girlfriend Collective Paloma Bra",
-    price: "From $48",
+    price: "From $45",
     verdict: "Best Bra Top",
     description:
       "The Paloma is a bralette-style top that provides more coverage than the Float — appropriate for studio classes where a sports bra alone is insufficient for the practitioner&apos;s comfort level. The wide band sits firmly at the ribcage without digging during deep breathing exercises, and the straight neckline provides consistent coverage through every reformer exercise including those that require the torso to be horizontal or inverted. The recycled fabric quality is excellent — the Paloma is the piece that Girlfriend Collective customers most frequently cite as matching the feel of comparable Lululemon pieces at a lower price point.",

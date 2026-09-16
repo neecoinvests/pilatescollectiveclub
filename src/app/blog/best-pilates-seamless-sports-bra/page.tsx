@@ -66,7 +66,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Girlfriend Collective Paloma Bra",
-    price: "$35",
+    price: "From $45",
     verdict: "Best Sustainable",
     description: "Made from 79% recycled water bottles, the Girlfriend Collective Paloma is the most environmentally conscious pick on this list without sacrificing support or comfort. The LITE fabric is exceptionally soft, the bra is certified fair trade, and sizing runs XS to 6XL — far more inclusive than most activewear brands. A values-aligned choice for mindful practitioners.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+sports+bra&tag=pilatescollective-20",

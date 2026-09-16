@@ -39,7 +39,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Lululemon Everywhere Belt Bag (Large)",
-    price: "$48",
+    price: "$38",
     verdict: "Best Compact Luxury",
     description: "The Lululemon Everywhere Belt Bag has become one of the most recognisable accessories in the global Pilates community — a cultural artefact as much as a functional bag. The large version holds a phone, keys, card, grip socks, and a small snack, making it the perfect companion for studio-only days. Water-resistant, machine-washable, and available in a meticulously curated seasonal palette. The entry point to luxury Pilates accessories.",
     affiliateUrl: "https://www.amazon.com/s?k=lululemon+everywhere+belt+bag+large&tag=pilatescollective-20",

@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Balanced Body Allegro 2 Reformer",
-    price: "From $2,800",
+    price: "From $3,995",
     verdict: "Best professional home reformer",
     description:
       "The Allegro 2 is the reformer most serious home practitioners should buy — if their budget extends to it. The fold-flat design means it can be stored upright against a wall in a bedroom or home studio. Four springs with interchangeable colour-coded resistance levels, a smooth-glide carriage, adjustable footbar with multiple positions, and compatibility with the full Balanced Body accessory range (jump board, standing platform, tower, box). The carriage feel is noticeably smoother than budget cord-based alternatives — a difference that matters during long-spring and short-spring exercises. This is a machine built for decades of serious practice.",
@@ -46,7 +46,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Balanced Body Pilates Ring (Magic Circle)",
-    price: "From $32",
+    price: "From $42",
     verdict: "Best magic circle available",
     description:
       "Balanced Body's magic circle is built to the specifications used in professional training studios — dual foam pad handles, correct spring tension for inner thigh and arm press work, and a diameter calibrated to the Pilates repertoire. The difference between this and cheaper alternatives is immediately apparent: the tension is consistent throughout the range of motion, the handles don't compress unevenly, and the ring doesn't develop a permanent bend after a few months of use. If you're purchasing a magic circle, buy it once from Balanced Body rather than replacing a cheaper option twice.",

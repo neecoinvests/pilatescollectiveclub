@@ -31,7 +31,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Balanced Body Allegro 2 Reformer",
-    price: "From $3,695",
+    price: "From $3,995",
     verdict: "Best overall for tall practitioners",
     description:
       "The Balanced Body Allegro 2 is the most widely recommended clinical reformer for tall practitioners — its carriage length of 36 inches and rail length of 98 inches accommodate practitioners up to approximately 6'4\" through the full classical and contemporary repertoire without modification. The Allegro 2's spring calibration system allows precise adjustment of the four springs across 32 combinations, providing the full resistance range needed as a tall practitioner's longer limbs generate proportionally more spring demand. The carriage itself is wider and more padded than most competitors, accommodating a broader shoulder span comfortably. Balanced Body's instructor training network means servicing and support are available globally.",
@@ -41,7 +41,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Gratz Universal Reformer",
-    price: "From $4,200",
+    price: "From $4,590",
     verdict: "Best classical reformer for tall practitioners",
     description:
       "The Gratz Universal Reformer is the gold standard of classical Pilates equipment and features one of the longest carriages in the market — accommodating the full classical repertoire as intended by Joseph Pilates himself. For tall practitioners who study in the classical tradition, the Gratz is the reference point: the carriage dimensions are generous, the rope length is adjustable across a wider range than most contemporary reformers, and the spring resistance has a progressive feel that rewards control and precision over raw force. The upholstered carriage and lacquered steel frame are built to last decades with basic maintenance. This is an investment in permanent equipment, not a consumer product with a planned replacement cycle.",
@@ -61,7 +61,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Peak Pilates MVe® Reformer",
-    price: "From $3,200",
+    price: "From $4,295",
     verdict: "Best mid-range for tall practitioners",
     description:
       "The Peak Pilates MVe Reformer is designed with a longer carriage dimension than most mid-range alternatives and accommodates practitioners up to 6'3\" through the complete repertoire. The five-spring system uses colour-coded springs with graduated resistance — a system that rewards the precise spring management required in intermediate and advanced programming. The aluminium rail construction is rigid and durable, the carriage headrest adjusts to five positions for different exercises, and the footbar is height-adjustable across three positions with additional micro-adjustments for footbar angle. A strong clinical-grade choice for the tall practitioner who wants professional equipment without the premium pricing of Balanced Body or Gratz.",
@@ -71,7 +71,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Elina Pilates Elite Wood Reformer",
-    price: "From $2,800",
+    price: "From $3,995",
     verdict: "Best aesthetic option for tall practitioners",
     description:
       "The Elina Pilates Elite Wood Reformer is the most visually distinctive option in this guide — a beautifully crafted solid wood frame that functions as furniture as much as exercise equipment. The longer rail design accommodates practitioners up to approximately 6'2\", and the five-spring configuration with colour-coded resistance provides a clinical-grade progressive spring system. The wood construction is warmer and more acoustically quiet than aluminium or steel frame alternatives — a meaningful consideration for home studio environments where the sound of a carriage rolling on metal rails would be disruptive. Elina's European manufacturing standards are high, and the aesthetic investment makes permanent placement in a living space far more viable than a clinical-looking steel machine.",

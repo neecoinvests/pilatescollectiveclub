@@ -43,7 +43,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "ToeSox Half Toe Low Rise (2 pack)",
-    price: "From $34",
+    price: "From $18",
     verdict: "Essential for studio attendance",
     description:
       "Grip socks are required at virtually every reformer studio and strongly recommended for mat classes. ToeSox are the industry standard — individual toe pockets improve proprioception and grip on the footbar, and the quality holds up to intensive regular washing. Buy two pairs immediately so you always have a clean pair available. Don't underestimate this purchase: studios often refuse entry without grip socks, and going to a class without them wastes your time and money.",

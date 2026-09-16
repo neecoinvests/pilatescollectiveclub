@@ -43,18 +43,6 @@ const PRODUCTS = [
     cons: ["Cord resistance only", "Limited weight capacity", "Rail shorter than full reformer"],
   },
   {
-    rank: "02",
-    name: "AeroPilates Pro XP 557",
-    price: "From $799",
-    verdict: "Best value in this bracket",
-    tag: "Editor's Pick",
-    description:
-      "The 557 sits at the top of the cord-resistance reformer market. Smoother carriage than the 287, a standing platform for the standing series, and a more rigid frame that reduces flex during footwork. If you're committing to home practice and want to stay under $1,000, the 557 is the most capable machine available at this price. It won't replace a spring reformer, but it delivers a credible experience.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+557+reformer&tag=pilatescollective-20",
-    pros: ["Standing platform included", "Smooth carriage action", "Rigid frame reduces flex"],
-    cons: ["Still cord-based resistance", "Heavier than 287", "Assembly takes 60-90 minutes"],
-  },
-  {
     rank: "03",
     name: "Align-Pilates C2 Reformer",
     price: "From $850",
@@ -202,7 +190,7 @@ export default function BestPilatesReformerUnder1000Page() {
               </div>
 
               <div className="mb-16">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Reformers · Under $1,000</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>3 Reformers · Under $1,000</p>
                 <div className="space-y-12">
                   {PRODUCTS.map((p) => (
                     <div key={p.name}>

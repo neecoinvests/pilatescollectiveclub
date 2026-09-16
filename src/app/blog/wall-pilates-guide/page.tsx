@@ -65,7 +65,7 @@ const jsonLd = {
 const EQUIPMENT = [
   {
     name: "Pilates Resistance Bands Set",
-    price: "~£15–25",
+    price: "From $18",
     verdict: "Essential add-on",
     description: "A set of looped resistance bands (light, medium, heavy) dramatically expands wall Pilates exercise variety — footwork, leg press variations, and upper-body work all become available. Look for fabric-covered bands that don't roll or snap.",
     affiliateUrl: "https://www.amazon.co.uk/s?k=pilates+resistance+bands+set+fabric&tag=pilatescollective-20",
@@ -73,7 +73,7 @@ const EQUIPMENT = [
   },
   {
     name: "Non-Slip Pilates Mat (6mm)",
-    price: "~£25–50",
+    price: "From $40",
     verdict: "Foundation piece",
     description: "A 6mm mat provides adequate cushioning for wall-adjacent floor work. Prioritise grip over thickness for wall Pilates — you need your feet to stay in place when pressing into the wall from a mat position.",
     affiliateUrl: "https://www.amazon.co.uk/s?k=non+slip+pilates+mat+6mm&tag=pilatescollective-20",
@@ -81,7 +81,7 @@ const EQUIPMENT = [
   },
   {
     name: "Pilates Ball (23–25cm)",
-    price: "~£10–18",
+    price: "From $20",
     verdict: "Useful prop",
     description: "A small Pilates ball placed between the thighs or behind the lower back at the wall adds proprioceptive challenge and increases adductor and deep core engagement in standing and floor exercises.",
     affiliateUrl: "https://www.amazon.co.uk/s?k=pilates+ball+25cm+small&tag=pilatescollective-20",
@@ -89,7 +89,7 @@ const EQUIPMENT = [
   },
   {
     name: "Pilates Grip Socks",
-    price: "~£10–20",
+    price: "From $18",
     verdict: "Safety essential",
     description: "Non-slip toe socks prevent slipping during wall-supported standing exercises and foot presses. They also provide the proprioceptive sensation of a studio floor — useful feedback for alignment during wall work.",
     affiliateUrl: "https://www.amazon.co.uk/s?k=pilates+grip+socks+non+slip&tag=pilatescollective-20",

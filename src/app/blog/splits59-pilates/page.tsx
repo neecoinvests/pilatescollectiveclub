@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Splits59 Airweight Short",
-    price: "From $68",
+    price: "From $88",
     verdict: "Best Shorts",
     description:
       "Splits59 makes the best Pilates-specific shorts in the market because they understand exactly what the reformer requires: a fitted mid-thigh cut with no inner-seam bulk, a waistband that does not create pressure at the hip crease in deep flexion, and opacity in all positions including the internally-rotated hip positions common in footwork. The Airweight fabric is the brand&apos;s lightest, which makes these appropriate for warm studios and summer mat practice. The distinction from Gymshark or generic athletic shorts is immediate in wear — the construction is specifically calibrated for the movement patterns of Pilates rather than adapted from a gym or running context.",

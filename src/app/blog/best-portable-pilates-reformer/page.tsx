@@ -65,7 +65,7 @@ const REFORMERS = [
   {
     rank: 1,
     name: "Stamina AeroPilates Pro XP 556",
-    price: "~£500–650",
+    price: "$399",
     verdict: "Best overall portable reformer",
     tag: "Best Overall",
     description: "The AeroPilates 556 is the most widely sold home reformer in the UK and US market — and for good reason. It delivers a genuinely reformer-faithful experience: four adjustable cords (equivalent to springs), a smooth-rolling padded carriage, and a foot bar that adjusts to multiple positions. The rebounder (mini trampoline footbar) for cardio rebounding is included, which expands the exercise range beyond classical Pilates. Folds upright for storage and handles most standard reformer exercises through intermediate level.",
@@ -76,7 +76,7 @@ const REFORMERS = [
   {
     rank: 2,
     name: "Stamina AeroPilates Premier 55-4702",
-    price: "~£350–450",
+    price: "From $549",
     verdict: "Best budget portable reformer",
     tag: "Best Value",
     description: "The more accessible entry point in the AeroPilates range. Four resistance cords, padded carriage, adjustable foot bar, and the same folding mechanism as the 556. The primary differences from the 556 are build material (slightly lighter frame) and the absence of the rebounder. For practitioners focused on classical Pilates mat-to-reformer translation rather than cardio rebounding, this is the better value option — identical core exercise capability at a lower price point.",
@@ -87,7 +87,7 @@ const REFORMERS = [
   {
     rank: 3,
     name: "Balanced Body Allegro 2 Reformer",
-    price: "~£2,200–2,800",
+    price: "From $3,995",
     verdict: "Best professional portable reformer",
     tag: "Professional Grade",
     description: "The Allegro 2 is Balanced Body's 'portable' professional reformer — used in clinical and studio settings that need a transportable option. It includes the same spring system as full studio reformers (five interchangeable springs), a longer carriage travel, and professional-grade frame construction. It folds flat for transport and storage and is the choice for instructors teaching in multiple locations or serious home practitioners who want a studio experience without compromise. Available through specialist retailers including Amazon.",
@@ -98,7 +98,7 @@ const REFORMERS = [
   {
     rank: 4,
     name: "Merrithew At-Home SPX Reformer Bundle",
-    price: "~£900–1,200",
+    price: "From $3,299",
     verdict: "Best mid-range reformer",
     tag: "Mid-Range Pick",
     description: "Merrithew (formerly STOTT PILATES) is one of the most respected names in Pilates equipment. The At-Home SPX Reformer offers a genuine spring-based resistance system (not cords), a longer carriage travel than consumer-grade reformers, and the quality construction that Merrithew is known for. The Bundle version includes a vertical stand for the foot bar — enabling a wider range of exercises including standing and kneeling work. A significant step up from AeroPilates in spring feel and exercise range.",

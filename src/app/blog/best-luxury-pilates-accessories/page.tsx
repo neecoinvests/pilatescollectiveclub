@@ -39,7 +39,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Balanced Body Magic Circle",
-    price: "$75",
+    price: "From $75",
     verdict: "Best Luxury Magic Circle",
     description: "Balanced Body is the world's most trusted Pilates equipment manufacturer — used by the global network of Balanced Body-certified studios. Their Magic Circle is the professional standard: the ring tension is precisely calibrated to Joseph Pilates' original resistance specification, the rubber pads are dense and durable, and the steel construction will outlast any foam-padded budget alternative by decades. This is the circle used in professional instructor training worldwide.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates+ring&tag=pilatescollective-20",

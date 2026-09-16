@@ -41,7 +41,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Merrithew At Home SPX Reformer",
-    price: "From $1,499",
+    price: "From $3,299",
     verdict: "Best compact studio-grade reformer",
     description:
       "The Merrithew At Home SPX is the most compact reformer in Merrithew's clinical line — shorter and narrower than the SPX Max, while maintaining the same spring system, carriage dimensions, and build quality that defines the STOTT Pilates methodology. The operational footprint is approximately 88 × 24 inches, which fits along the wall in most bedrooms or living rooms. The SPX does not fold, but its relatively narrow carriage and modest height make it suitable for permanent placement against a wall as furniture. The five-spring configuration supports the full progressive spring loading used in structured Pilates programming, and the footbar adjusts across five positions.",
@@ -51,7 +51,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "AeroPilates Pro XP 557",
-    price: "From $699",
+    price: "From $1,329",
     verdict: "Best budget compact reformer",
     description:
       "The AeroPilates Pro XP 557 is the most accessible compact reformer by price and the most widely used entry-level option for small-space home practice. The bungee cord resistance system is softer and more forgiving than spring-based reformers — better suited for beginners and rehabilitation contexts than advanced progressive programming — and the machine's lighter weight makes it easy to move between rooms or store under a bed when not in use. The operational footprint is shorter than most spring-based reformers, making it viable for spaces where even the Merrithew SPX would feel oversized. An excellent starting point for practitioners who want to establish a home practice before investing in a full-scale machine.",

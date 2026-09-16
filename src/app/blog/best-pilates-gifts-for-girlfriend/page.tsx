@@ -63,7 +63,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Lululemon Everywhere Belt Bag Large 2L",
-    price: "$48",
+    price: "$38",
     verdict: "Best Pilates Bag Gift",
     description: "The Lululemon belt bag has become the unofficial pilates studio accessory — nearly every practitioner has one clipped to their bag or hung on the studio hook. The large 2L version fits her phone, keys, cards, lip balm, and a snack. It's made from a water-repellent ripstop fabric, has a quick-access front zip, and comes in a wide range of seasonal colours. At $48 it's a thoughtful gift at a very reasonable price point — and she will use it every single day.",
     affiliateUrl: "https://www.amazon.com/s?k=lululemon+everywhere+belt+bag+large+2l&tag=pilatescollective-20",

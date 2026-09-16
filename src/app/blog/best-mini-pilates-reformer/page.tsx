@@ -69,7 +69,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Peak Pilates MVe Reformer",
-    price: "From $2,950",
+    price: "From $4,295",
     verdict: "Best professional compact",
     tag: "Professional Pick",
     description:

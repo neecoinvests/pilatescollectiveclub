@@ -77,7 +77,7 @@ const PRODUCTS = [
   {
     rank: 6,
     name: "Align-Pilates C8 Pro Reformer",
-    price: "~$1,699",
+    price: "From $2,750",
     verdict: "Best home reformer for men",
     description: "For men who are serious about taking a home Pilates practice beyond mat work, the Align-Pilates C8 Pro is the best reformer. The 240cm frame accommodates practitioners up to 6'2\", the calibrated spring system provides a genuine professional-grade resistance profile (not the elastic cord systems found in cheaper machines), and the fold-flat mechanism collapses to a manageable footprint without compromising spring geometry. The C8 Pro is the machine most frequently recommended by instructors to male home practitioners: sturdy enough to not shift during powerful footwork, spring-responsive enough for the precision control work, and priced significantly below equivalent Balanced Body or Merrithew machines.",
     affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20",

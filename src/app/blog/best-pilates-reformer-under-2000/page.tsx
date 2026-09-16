@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Under $2,000 (2026): Mid-Range Picks",
-  description: "The best Pilates reformers under $2,000 — mid-range machines from Merrithew and Align compared on spring feel, carriage glide, and durability.",
+  title: "Best Pilates Reformer Under $2,000 (2026): What Qualifies",
+  description: "Which reformers genuinely cost under $2,000 in 2026, which widely recommended machines actually do not, and what the honest options are at this budget.",
   keywords: ["best pilates reformer under 2000", "pilates reformer under 2000 dollars", "mid-range pilates reformer 2026", "merrithew spx review under 2000", "align pilates reformer under 2000", "best reformer $1000-$2000", "pilates reformer mid-range buy"],
   openGraph: {
-    title: "Best Pilates Reformers Under $2,000 (2026): Mid-Range Ranked",
-    description: "The best Pilates reformers under $2,000 — mid-range options tested for performance and value.",
+    title: "Best Pilates Reformers Under $2,000 (2026): What Qualifies",
+    description: "Which reformers genuinely cost under $2,000, and which widely recommended machines do not.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-2000",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Reformers Under $2000 — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Reformers Under $2,000 (2026)",
-    description: "The best mid-range Pilates reformers under $2,000 — tested and ranked.",
+    description: "Which reformers genuinely cost under $2,000, and which ones do not.",
     images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-2000" },
@@ -29,44 +29,14 @@ export const metadata: Metadata = {
 
 const PRODUCTS = [
   {
-    rank: "01",
-    name: "Align Pilates C8 Pro Reformer",
-    price: "From $1,799",
-    verdict: "Best overall under $2,000",
-    description:
-      "The Align Pilates C8 Pro is the strongest mid-range reformer currently available and the most compelling alternative to the Merrithew SPX at this price tier. The five-spring configuration on colour-coded springs (a system Align borrowed from clinical reformer design) provides the full resistance range needed for intermediate and advanced programming, and the aluminium rail construction is rigid enough to eliminate the flex and vibration common in budget steel-rail machines. The carriage's sealed bearings give it a quiet, smooth glide that holds up through years of regular use. The footbar adjusts across three heights with micro-angle adjustment, and the shoulder rest padding is dense enough to be comfortable through extended side-lying and kneeling exercises. For practitioners who have outgrown an entry-level machine and want clinical-grade performance without a clinical-grade price tag, the C8 Pro is the clear choice.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Merrithew At Home SPX Reformer",
-    price: "From $1,499",
-    verdict: "Best clinical pedigree under $2,000",
-    description:
-      "The Merrithew At Home SPX is the most pedigree-rich machine in this price bracket — it is built by the same manufacturer as the SPX Max used in professional STOTT Pilates training facilities, differentiated primarily by its more compact footprint. The five-spring system is identical to the clinical SPX in resistance calibration and colour coding, which matters for practitioners following a structured STOTT curriculum or working with a STOTT-certified instructor. The machine is narrower and shorter than the SPX Max, making it suitable for home environments where a full clinical machine would not fit. The build quality reflects Merrithew's 30-year investment in precision equipment manufacturing — the carriage glide, footbar adjustments, and spring systems all feel markedly more refined than competing machines at this price.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
-    tag: "Best Brand Heritage",
-  },
-  {
     rank: "03",
     name: "AeroPilates Pro XP 557",
-    price: "From $699",
+    price: "From $1,329",
     verdict: "Best value in the mid-range",
     description:
       "The AeroPilates Pro XP 557 sits significantly below the $2,000 ceiling, but it earns its place in this guide by representing the best value point in the mid-range conversation. The bungee cord resistance system is softer and more progressive than spring systems — a distinction that matters for practitioners with joint concerns or those in rehabilitation — and the machine's lighter construction makes it significantly easier to move and store than spring-based alternatives. The integrated cardio rebounder is included in the package, adding cardio capacity that spring-based machines at this price point require a separate $150–300 jumpboard to achieve. The honest limitation: bungee resistance is not equivalent to spring resistance for advanced programming, and serious practitioners typically outgrow the AeroPilates within 18–24 months of consistent practice.",
     affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557&tag=pilatescollective-20",
     tag: "Best Value",
-  },
-  {
-    rank: "04",
-    name: "Align Pilates H1 Folding Reformer",
-    price: "From $2,199",
-    verdict: "Best if storage matters most",
-    description:
-      "The Align H1 is technically at the ceiling of the $2,000 guideline, but its folding mechanism addresses a constraint that makes it the only viable option for many home practitioners: it stores vertically against a wall in a footprint smaller than a standard door width. In operational mode, the H1 performs at the same level as the C8 Pro — identical spring system, carriage construction, and footbar configuration — and the fold mechanism adds no meaningful instability during use. For practitioners who need the machine to disappear into the home environment between sessions, the H1's modest price premium over folding alternatives from lesser-known brands is justified entirely by its build quality and the confidence of purchasing from a manufacturer with an established track record.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+folding+reformer&tag=pilatescollective-20",
-    tag: "Best Folding",
   },
 ];
 
@@ -111,9 +81,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is $2,000 enough to buy a good Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "$2,000 is enough to buy a genuinely good home reformer — the Align C8 Pro and Merrithew At Home SPX both perform at a clinical level at this price. The difference between a $2,000 machine and a $3,500+ machine is primarily build longevity and accessories ecosystem depth, not day-to-day performance for intermediate programming." } },
+        { "@type": "Question", "name": "Is $2,000 enough to buy a good Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "It buys a capable home machine, but the bracket is thinner than most guides suggest. We rechecked current dealer pricing in September 2026 and several machines routinely recommended at this budget are well above it: the Align Pilates C8 Pro is around $2,750, and the Merrithew At Home SPX package runs $3,299 or more. Under $2,000 you are realistically choosing between bungee-resistance machines and the consumer end of the spring-based market. If you want a clinical-grade spring reformer, the honest budget is closer to $2,750." } },
         { "@type": "Question", "name": "What is the difference between spring and bungee reformers?", "acceptedAnswer": { "@type": "Answer", "text": "Spring reformers use coil springs calibrated to specific resistance values — the same mechanism used in professional studios. The resistance profile is linear and precise. Bungee reformers use elastic cord, which has a progressive resistance that increases more as the cord stretches. Springs are preferred for serious programming; bungee systems are more suitable for beginners and rehabilitation." } },
-        { "@type": "Question", "name": "How do mid-range reformers compare to studio machines?", "acceptedAnswer": { "@type": "Answer", "text": "Mid-range reformers from established brands (Align, Merrithew, Balanced Body) perform identically to their studio equivalents for all intermediate programming. The differences are primarily in build longevity (studio machines are built for 8-hour commercial use days; home machines are built for 1–2 hours of daily home use) and the depth of the accessories ecosystem available." } },
+        { "@type": "Question", "name": "How do mid-range reformers compare to studio machines?", "acceptedAnswer": { "@type": "Answer", "text": "Home-grade reformers from established brands perform close to their studio equivalents for intermediate programming. The differences are build longevity, since studio machines are specified for full-day commercial use rather than an hour or two at home, the depth of the accessory ecosystem, and the warranty, which on a home machine typically excludes commercial use from the first paid session." } },
       ],
     },
   ],
@@ -139,7 +109,7 @@ export default function BestPilatesReformerUnder2000Page() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The $2,000 price point is where home reformer buying gets genuinely interesting. Below $1,000, you are choosing between bungee-resistance entry-level machines that will feel limiting within a year. Above $3,500, you are buying studio-grade equipment designed for commercial use. In the $1,000–$2,000 range, you find machines from established clinical manufacturers — Align Pilates and Merrithew — that deliver authentic spring-based reformer performance at a price justified by serious home practitioners. These are the best of what that bracket currently offers.
+              We rechecked reformer pricing against current dealer listings in September 2026, and the honest answer to this question changed. Several machines routinely recommended as sub-$2,000 picks are not: the Align Pilates C8 Pro is around $2,750, and the Merrithew At Home SPX package runs $3,299 or more. Under $2,000 the real choice is between bungee-resistance machines and the consumer end of the spring market. That is a narrower field than most guides admit, and pretending otherwise wastes your time at the checkout.
             </p>
           </div>
         </section>
@@ -175,7 +145,7 @@ export default function BestPilatesReformerUnder2000Page() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Reformers · Tested at the Mid-Range</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>What Genuinely Qualifies</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -193,9 +163,9 @@ export default function BestPilatesReformerUnder2000Page() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is $2,000 enough to buy a good Pilates reformer?", a: "$2,000 is enough to buy a genuinely good home reformer — the Align C8 Pro and Merrithew At Home SPX both perform at a clinical level at this price. The difference between a $2,000 machine and a $3,500+ machine is primarily build longevity and accessories ecosystem depth, not day-to-day performance for intermediate programming." },
+                  { q: "Is $2,000 enough to buy a good Pilates reformer?", a: "It buys a capable home machine, but the bracket is thinner than most guides suggest. We rechecked current dealer pricing in September 2026 and several machines routinely recommended at this budget are well above it: the Align Pilates C8 Pro is around $2,750, and the Merrithew At Home SPX package runs $3,299 or more. Under $2,000 you are realistically choosing between bungee-resistance machines and the consumer end of the spring-based market. If you want a clinical-grade spring reformer, the honest budget is closer to $2,750." },
                   { q: "What is the difference between spring and bungee reformers?", a: "Spring reformers use coil springs calibrated to specific resistance values — the same mechanism used in professional studios. The resistance profile is linear and precise. Bungee reformers use elastic cord, which has a progressive resistance that increases more as the cord stretches. Springs are preferred for serious programming; bungee systems are more suitable for beginners and rehabilitation." },
-                  { q: "How do mid-range reformers compare to studio machines?", a: "Mid-range reformers from established brands (Align, Merrithew, Balanced Body) perform identically to their studio equivalents for all intermediate programming. The differences are primarily in build longevity and the depth of the accessories ecosystem available." },
+                  { q: "How do mid-range reformers compare to studio machines?", a: "Home-grade reformers from established brands perform close to their studio equivalents for intermediate programming. The differences are build longevity, since studio machines are specified for full-day commercial use rather than an hour or two at home, the depth of the accessory ecosystem, and the warranty, which on a home machine typically excludes commercial use from the first paid session." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -210,7 +180,7 @@ export default function BestPilatesReformerUnder2000Page() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformers" excerpt="The complete guide across all budgets — from entry-level to premium." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformers Under $1,000" excerpt="The best entry-level reformers for practitioners starting out." href="/blog/best-pilates-reformer-under-1000" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
-                <ArticleCard title="Align Pilates Reformer Review" excerpt="Align-Pilates makes two of the top picks in this price range — in-depth brand review." href="/blog/align-pilates-reformer-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Align Pilates Reformer Review" excerpt="The C8 Pro sits just above this bracket at around $2,750 — in-depth brand review." href="/blog/align-pilates-reformer-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="If budget isn't a constraint, these are the machines worth stepping up to." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
               </div>
             </div>

@@ -31,7 +31,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Elina Pilates Elite Wood Reformer",
-    price: "From $2,800",
+    price: "From $3,995",
     verdict: "Best Elina reformer for home studios",
     description:
       "The Elina Pilates Elite Wood Reformer is the brand's best-known product and the model responsible for much of the brand's rapid growth in the boutique studio and serious home practitioner market. The solid wood frame — available in multiple wood finish options — gives it a visual warmth and furniture-appropriate aesthetic that no steel-framed reformer at any price can match. The five-spring colour-coded system is calibrated to clinical standards, and the carriage glides on sealed bearings with a smoothness that compares favourably to Balanced Body machines costing significantly more. The upholstery quality is exceptional — a dense foam density with a high-grade material covering that doesn't show wear or deformation after extended daily use. For practitioners who want a machine that lives visibly in the home rather than being hidden in a spare room, the Elite Wood is the reference choice.",

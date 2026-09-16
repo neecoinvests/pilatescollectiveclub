@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Varley Stratford Bra Top",
-    price: "From $55",
+    price: "From $75",
     verdict: "Best boutique studio top",
     description:
       "Varley has become the defining aesthetic of the upscale Pilates studio — their pieces are what you see at boutique reformer studios in London, New York, and Los Angeles. The Stratford bra top combines medium support with an elevated, tailored look that reads as appropriate in a luxury studio context without sacrificing function. The thick strap construction sits cleanly on the shoulders without sliding during dynamic arm work. The fabric handles the transition from reformer to post-class street wear without looking like activewear in the conventional sense.",
@@ -63,7 +63,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Girlfriend Collective Paloma Bralette",
-    price: "From $48",
+    price: "From $45",
     verdict: "Best sustainable option",
     description:
       "Girlfriend Collective makes their activewear from recycled plastic bottles, and the Paloma bralette is the most functional piece in their Pilates-relevant range. Light support (appropriate for smaller busts or layering under a tank), clean lines that don't interfere with instructor observation of spinal alignment, and a fabric quality that improves with washing rather than degrading. The brand's commitment to inclusive sizing — up to 6XL — makes it the only premium sustainable option that genuinely works across a wide range of body types and cup sizes.",

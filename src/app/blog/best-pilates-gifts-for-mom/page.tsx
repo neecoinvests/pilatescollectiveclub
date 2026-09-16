@@ -63,7 +63,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Alo Yoga Muse Sweatshirt",
-    price: "$89",
+    price: "$114",
     verdict: "Best Studio-to-Street Layer",
     description: "Alo's Muse Sweatshirt has become a staple in the changing rooms of the best pilates studios — it's the layer that instructors and regulars reach for the moment class ends. Made from Alo's Accolade fleece, it's midweight, cropped, and draped beautifully over studio leggings. The relaxed fit and understated branding mean it works from studio to coffee without looking like gym wear. Available in Alo's signature palette of bone, espresso, and dusty slate. A gift that arrives with an immediate use.",
     affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+muse+sweatshirt+women+fleece&tag=pilatescollective-20",
@@ -71,7 +71,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Lululemon Everywhere Belt Bag Large 2L",
-    price: "$48",
+    price: "$38",
     verdict: "The Bag Everyone Has",
     description: "The Lululemon belt bag is not a trend — it has become a permanent fixture in pilates studio culture, hanging on lockers and clipped to tote bags across the country. The 2L large version fits a phone, keys, cards, lip balm, and a snack. Water-repellent ripstop fabric, a quick-access front zip, and an adjustable strap that works worn crossbody or around the waist. At $48 it is a considered gift at an accessible price — practical, recognisable, and used every single day.",
     affiliateUrl: "https://www.amazon.com/s?k=lululemon+everywhere+belt+bag+large+2L+women&tag=pilatescollective-20",

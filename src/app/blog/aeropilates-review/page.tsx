@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "AeroPilates Pro XP 557",
-    price: "From $699",
+    price: "From $1,329",
     verdict: "Best AeroPilates model overall",
     description: "The 557 is the AeroPilates model to buy if you're committed to the brand. The standing platform inclusion is a meaningful upgrade — it expands the exercise repertoire considerably beyond what the 287 offers, particularly for standing balance and leg work. The carriage action is noticeably smoother than the entry models, and the frame is substantially more rigid, which matters for exercises that require precise feedback. The four-cord system provides adequate resistance for most foundational and intermediate Pilates exercises. The rebounder is included, as with all AeroPilates models, making this a genuinely versatile home fitness machine that goes beyond Pilates into cardio conditioning. Assembly takes 60-90 minutes.",
     affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557&tag=pilatescollective-20",
