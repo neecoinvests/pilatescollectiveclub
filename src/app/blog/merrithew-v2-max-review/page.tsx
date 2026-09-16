@@ -6,8 +6,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Merrithew V2 Max Review (2026): Worth $3,500?",
-  description: "Merrithew V2 Max reviewed at around $3,500 — spring range, carriage feel, the vertical frame, and whether the jump up from the SPX Max is justified.",
+  title: "Merrithew V2 Max Review (2026): Worth $4,999?",
+  description: "Merrithew V2 Max reviewed at $4,999 — spring range, carriage feel, the vertical frame, and whether the jump up from the SPX Max is justified.",
   openGraph: {
     title: "Merrithew V2 Max Reformer Review (2026): Is It Worth the Upgrade?",
     description: "The Merrithew V2 Max reviewed in detail — patented rope system, wider carriage, high-precision springs, and the honest answer on whether it justifies the price over the SPX Max.",
@@ -56,7 +56,7 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "What is the difference between the Merrithew V2 Max and SPX Max?", "acceptedAnswer": { "@type": "Answer", "text": "The V2 Max adds three meaningful upgrades over the SPX Max: a patented retractable rope system that eliminates rope management between exercises, a wider 24-inch carriage (vs the SPX Max's standard carriage), and a high-precision spring package with finer resistance gradations (3×100%, 1×50%, 1×25%). The V2 Max is also heavier (145 lbs vs ~115 lbs for the SPX Max) and quieter. The SPX Max offers nearly identical spring resistance at a lower price; the V2 Max is the choice for practitioners who want the quietest and most refined machine in the Merrithew range." } },
-        { "@type": "Question", "name": "How much does the Merrithew V2 Max cost?", "acceptedAnswer": { "@type": "Answer", "text": "The Merrithew V2 Max reformer is priced from approximately $3,500 for the base machine. Bundle packages that include the reformer box, platform extender, and accessories run higher. Prices are available through Merrithew's official website and authorised dealers including Pilates Reformers Plus, Recovery For Athletes, and The Fitness Outlet. Verify current pricing directly as Merrithew updates prices periodically." } },
+        { "@type": "Question", "name": "How much does the Merrithew V2 Max cost?", "acceptedAnswer": { "@type": "Answer", "text": "The Merrithew V2 Max Reformer (SKU ST01071) is $4,999 for the base machine. Bundle packages that include the reformer box, platform extender and accessories run considerably higher. Prices are available through Merrithew's official website and authorised dealers including Pilates Reformers Plus, Recovery For Athletes, and The Fitness Outlet. Verify current pricing directly as Merrithew updates prices periodically." } },
         { "@type": "Question", "name": "Is the Merrithew V2 Max worth it over the SPX Max?", "acceptedAnswer": { "@type": "Answer", "text": "For serious home practitioners who train daily and want the quietest possible machine (important for apartment use), the V2 Max is worth the premium. The retractable rope system is a genuine quality-of-life improvement in fast-paced classes. For practitioners who train 3-4 times per week and primarily care about spring quality, the SPX Max delivers nearly identical functional performance at a meaningfully lower price." } },
         { "@type": "Question", "name": "Can the Merrithew V2 Max support all Pilates exercises?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The V2 Max's 97-inch rail, 350 lb weight capacity, five-spring system, and full accessory compatibility (jump board, box, tower, vertical stand) support the complete classical and contemporary Pilates repertoire. The retractable rope system and adjustable shoulder rests accommodate virtually all body types and exercise variations." } },
       ],
@@ -188,7 +188,7 @@ export default function MerrithewV2MaxReviewPage() {
                     </thead>
                     <tbody>
                       {[
-                        { feature: "Price", spx: "~$2,199", v2: "~$3,500" },
+                        { feature: "Price", spx: "$3,649", v2: "$4,999" },
                         { feature: "Spring system", spx: "5 standard springs", v2: "5 high-precision springs" },
                         { feature: "Rope system", spx: "Standard fixed ropes", v2: "Patented retractable" },
                         { feature: "Carriage width", spx: "Standard", v2: "24 inches (wider)" },

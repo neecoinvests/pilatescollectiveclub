@@ -177,7 +177,7 @@ export default function AlignPilatesReformerReviewPage() {
                   },
                   {
                     heading: "Price vs alternatives",
-                    body: "C8 Pro at $2,200 vs Merrithew SPX Max at $2,199 and Balanced Body Allegro 2 at $3,495. Align-Pilates offers comparable functionality at either parity with Merrithew or a meaningful 37% discount against Balanced Body.",
+                    body: "C8 Pro at $2,750 vs Merrithew SPX Max at $3,649 and Balanced Body Allegro 2 at $3,995. On current pricing Align-Pilates is the cheapest of the three by a clear margin, around 25% below the SPX Max and 31% below the Allegro 2.",
                   },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -245,7 +245,7 @@ export default function AlignPilatesReformerReviewPage() {
                   },
                   {
                     label: "Price",
-                    body: "Align-Pilates C8 Pro ($2,200) vs Balanced Body Allegro 2 ($3,495) vs Merrithew SPX Max ($2,199). Align-Pilates is at parity with Merrithew and 37% less than Balanced Body. The price difference between Align and Balanced Body is real and significant.",
+                    body: "Align-Pilates C8 Pro ($2,750) vs Balanced Body Allegro 2 ($3,995) vs Merrithew SPX Max ($3,649). Align-Pilates undercuts both, by around 25% against the SPX Max and 31% against the Allegro 2. That gap is real and it is the brand's clearest argument.",
                   },
                   {
                     label: "Resale value",

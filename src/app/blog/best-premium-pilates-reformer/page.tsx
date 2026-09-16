@@ -31,7 +31,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Merrithew SPX Max Reformer",
-    price: "From $2,199",
+    price: "From $3,649",
     verdict: "Best entry into premium spring reformers",
     tier: "Premium Entry",
     description:
@@ -69,7 +69,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Merrithew V2 Max Reformer",
-    price: "From $3,500",
+    price: "From $4,999",
     verdict: "Best for multi-user households and clinical use",
     tier: "Premium",
     description:
@@ -174,8 +174,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "What is the best premium Pilates reformer for home use?", "acceptedAnswer": { "@type": "Answer", "text": "The Balanced Body Allegro 2 ($3,995) is the most recommended premium home reformer by master-level instructors, with carbon fibre carriage tracks, a 10-year frame warranty, and full Balanced Body accessory compatibility. For classical purists, the Gratz Universal Aluminum Reformer ($4,995) is the original Joseph Pilates design. For the quietest, most adjustable machine in the Merrithew range, the V2 Max is the preferred choice." } },
-        { "@type": "Question", "name": "What is the difference between the Merrithew SPX Max and V2 Max?", "acceptedAnswer": { "@type": "Answer", "text": "The SPX Max is Merrithew's professional entry point — a five-spring system, 97-inch rail, and full studio-grade quality at approximately $2,199. The V2 Max adds a patented retractable rope system, a wider 24-inch carriage (vs standard), and higher-precision spring gradations. The V2 Max is quieter and more refined; the SPX Max offers nearly identical functional performance at a meaningfully lower price." } },
-        { "@type": "Question", "name": "Is the Balanced Body Allegro 2 worth the price?", "acceptedAnswer": { "@type": "Answer", "text": "For practitioners who train 4+ times per week and want a machine they will never replace, yes. The Allegro 2's carbon fibre tracks, Infinity Footbar, and 10-year warranty justify $3,995. For those training 2-3 times per week, the Merrithew SPX Max at $2,199 covers the full repertoire with comparable spring quality at a meaningfully lower price." } },
+        { "@type": "Question", "name": "What is the difference between the Merrithew SPX Max and V2 Max?", "acceptedAnswer": { "@type": "Answer", "text": "The SPX Max is Merrithew's professional entry point — a five-spring system, 97-inch rail, and full studio-grade quality at $3,649. The V2 Max adds a patented retractable rope system, a wider 24-inch carriage, and higher-precision spring gradations for $4,999. The V2 Max is quieter and more refined; the SPX Max offers nearly identical functional performance for $1,350 less." } },
+        { "@type": "Question", "name": "Is the Balanced Body Allegro 2 worth the price?", "acceptedAnswer": { "@type": "Answer", "text": "For practitioners who train 4+ times per week and want a machine they will never replace, yes. The Allegro 2's carbon fibre tracks, Infinity Footbar, and 10-year warranty justify $3,995. For those training 2-3 times per week, the Merrithew SPX Max at $3,649 covers the full repertoire with comparable spring quality for around $350 less." } },
         { "@type": "Question", "name": "Why is the Gratz reformer so expensive?", "acceptedAnswer": { "@type": "Answer", "text": "The Gratz Universal Reformer ($4,995–$5,295) is handmade in New York to specifications that trace directly to Joseph Pilates. The four-spring system with 3-gear bar (which adjusts spring angle, not just tension) creates a resistance curve unlike modern competitors. For classical lineage practitioners, the Gratz is not simply expensive — it is the original, and everything else is a variation." } },
       ],
     },
@@ -261,7 +261,7 @@ export default function BestPremiumReformerPage() {
 
               {/* Products */}
               <div className="mb-14">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Reformers · $2,199 to $5,295</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Reformers · $3,649 to $4,999</p>
                 <div className="space-y-16">
                   {PRODUCTS.map((p) => (
                     <div key={p.name}>
@@ -318,9 +318,9 @@ export default function BestPremiumReformerPage() {
                     </thead>
                     <tbody>
                       {[
-                        { model: "Merrithew SPX Max", price: "~$2,199", springs: "5 springs", rail: "97″", carriage: "Standard", best: "Entry premium" },
+                        { model: "Merrithew SPX Max", price: "$3,649", springs: "5 springs", rail: "97″", carriage: "Standard", best: "Entry premium" },
                         { model: "Allegro 2", price: "$3,995", springs: "5 springs (carbon tracks)", rail: "~99″", carriage: "Carbon fibre", best: "Best all-round" },
-                        { model: "Merrithew V2 Max", price: "~$3,500", springs: "5 high-precision", rail: "97″", carriage: "24″ wide", best: "Multi-user / quiet" },
+                        { model: "Merrithew V2 Max", price: "$4,999", springs: "5 high-precision", rail: "97″", carriage: "24″ wide", best: "Multi-user / quiet" },
                         { model: "Elina Elite Wood", price: "$3,585", springs: "6 springs", rail: "~96″", carriage: "Polyurethane wheels", best: "Aesthetics + feel" },
                         { model: "Peak Pilates MVe", price: "$4,295", springs: "5 springs", rail: "103″", carriage: "Standard", best: "Home studios" },
                         { model: "Gratz Universal", price: "$4,995", springs: "4 identical + gear bar", rail: "80–89″", carriage: "Traditional", best: "Classical purists" },

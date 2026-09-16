@@ -48,7 +48,7 @@ const PRICE_TIERS = [
     range: "$1,800–$2,600",
     heading: "Premium Home Reformers",
     tag: "Best for Home",
-    body: "Full professional spring system, sealed bearings, fold mechanism, major brand accessory compatibility. Representative: Merrithew SPX Max (~$2,199–$2,599). Same quality as studio machines; designed for daily home use.",
+    body: "Full professional spring system, sealed bearings, fold mechanism, major brand accessory compatibility. Representative: Merrithew SPX Max ($3,649). Same quality as studio machines; designed for daily home use.",
     forWho: "Practitioners with consistent studio experience who are ready to invest properly in home practice.",
     sacrifice: "Price of entry — but very little else. These machines match studio quality.",
     lifespan: "10–15 years",

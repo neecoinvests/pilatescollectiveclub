@@ -279,7 +279,7 @@ export default function BestHomeReformerPage() {
                       {[
                         { model: "Stamina 287", price: "$299", resistance: "4 cords", rail: "88\"", best: "Beginners, small spaces" },
                         { model: "AeroPilates 557", price: "$799", resistance: "4 cords", rail: "91\"", best: "Regular practitioners" },
-                        { model: "Merrithew SPX Max", price: "$2,199", resistance: "5 springs", rail: "96\"", best: "Serious practitioners" },
+                        { model: "Merrithew SPX Max", price: "$3,649", resistance: "5 springs", rail: "96\"", best: "Serious practitioners" },
                         { model: "Balanced Body Allegro 2", price: "$3,495", resistance: "4 springs", rail: "99\"", best: "Professional home studio" },
                       ].map((row, i) => (
                         <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>

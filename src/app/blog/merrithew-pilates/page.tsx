@@ -36,7 +36,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Merrithew SPX Max Reformer",
-    price: "From $2,199",
+    price: "From $3,649",
     verdict: "Best professional studio reformer",
     description:
       "The SPX Max is the machine you find in professional training facilities and STOTT Pilates certification programmes worldwide. The heavier frame, longer rails, and more substantial carriage provide the stability and precision that advanced work requires. The five-spring system covers a wider resistance range than the At Home SPX, and the accessories ecosystem (jump board, vertical stand, tower) makes this a complete apparatus platform. Built to last decades of daily multi-client use. For home practitioners who want studio-quality equipment and have the space for a fixed machine, the SPX Max is as serious as home Pilates equipment gets.",

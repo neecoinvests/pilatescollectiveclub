@@ -66,10 +66,10 @@ const jsonLd = {
 const REFORMER_BASELINE = [
   { item: "AeroPilates Pro XP 557", tier: "Consumer", price: "$699" },
   { item: "Merrithew At Home SPX", tier: "Compact", price: "$1,499" },
-  { item: "Merrithew SPX Max", tier: "Studio standard", price: "$2,199" },
+  { item: "Merrithew SPX Max", tier: "Studio standard", price: "$3,649" },
   { item: "Balanced Body Metro IQ", tier: "Studio standard", price: "$2,295" },
   { item: "Align Pilates C8 Pro", tier: "Studio standard", price: "$2,750" },
-  { item: "Merrithew V2 Max", tier: "Studio standard", price: "$3,500" },
+  { item: "Merrithew V2 Max", tier: "Studio standard", price: "$4,999" },
   { item: "Elina Pilates Elite Wood", tier: "Premium", price: "$3,585" },
   { item: "Align Pilates A8 Pro", tier: "Studio standard", price: "$3,700" },
   { item: "BASI Systems Reformer", tier: "Premium", price: "~$3,900" },

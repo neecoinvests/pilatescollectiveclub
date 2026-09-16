@@ -79,7 +79,7 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Merrithew V2 Max Plus Reformer Bundle",
-    price: "$2,495",
+    price: "From $8,299",
     verdict: "The Ultimate Reformer Gift",
     description: "The Merrithew V2 Max Plus is the commercial studio reformer in a bundle configuration: the full-length commercial-grade reformer, a vertical frame tower, a mat converter, push-through bar, and roll-down bar — everything needed for a complete home studio that replicates the STOTT PILATES studio experience precisely. This is not a home-use approximation; it is the professional machine used in certified training studios worldwide, configured for home delivery. Five springs, silent glide bearings, padded platform, jump board compatibility. If you are gifting someone their first home pilates studio rather than a reformer, this is the right machine. Available via authorised Merrithew dealers for direct delivery and in-home setup.",
     affiliateUrl: "https://www.amazon.com/s?k=merrithew+v2+max+plus+reformer+bundle&tag=pilatescollective-20",
