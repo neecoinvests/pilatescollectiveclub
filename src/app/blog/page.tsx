@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Allegro 2 vs SPX Max (2026)",
+    excerpt: "The two machines buyers cross-shop most. They fold in different directions, and that decides it before price does.",
+    href: "/blog/balanced-body-allegro-2-vs-merrithew-spx-max",
+    category: "Comparison",
+    readTime: "11 min",
+    imageUrl: "/pictures/stitch-reformer-morning-light.png",
+  },
+  {
+    title: "Align Pilates vs Balanced Body (2026)",
+    excerpt: "Frame, springs, ecosystem and resale, with pricing rechecked against current dealer listings.",
+    href: "/blog/align-pilates-vs-balanced-body",
+    category: "Comparison",
+    readTime: "12 min",
+    imageUrl: "/pictures/stitch-reformer-row-studio.png",
+  },
+  {
+    title: "Where to Buy a Pilates Reformer",
+    excerpt: "Direct, dealer or marketplace. What each channel costs, what it protects, and the delivered-total traps.",
+    href: "/blog/where-to-buy-a-pilates-reformer",
+    category: "Guide",
+    readTime: "11 min",
+    imageUrl: "/pictures/stitch-studio-entryway.png",
+  },
+  {
+    title: "Buying a Used Pilates Reformer",
+    excerpt: "Buy the frame, replace the consumables. What to inspect, how to price it, and when to walk away.",
+    href: "/blog/buying-a-used-pilates-reformer",
+    category: "Guide",
+    readTime: "11 min",
+    imageUrl: "/pictures/stitch-reformer-loops-hooks.png",
+  },
+  {
+    title: "Reformer Maintenance & Spring Replacement",
+    excerpt: "Reformers do not break, they drift. What wears out, how to spot it, and a schedule that works.",
+    href: "/blog/pilates-reformer-maintenance-and-spring-replacement",
+    category: "Equipment",
+    readTime: "11 min",
+    imageUrl: "/pictures/stitch-reformer-spring-detail.png",
+  },
+  {
     title: "How to Open a Pilates Studio (2026)",
     excerpt: "A studio is a property business with an equipment problem attached. Premises, licensing, insurance and the numbers that decide it.",
     href: "/blog/how-to-open-a-pilates-studio",
