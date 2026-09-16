@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Balanced Body Studio Reformer",
-    price: "From $2,995",
+    price: "From $4,400",
     verdict: "Best non-folding beginner investment",
     description: "If a beginner has dedicated floor space and a serious commitment to the practice, the Balanced Body Studio Reformer offers the best long-term value for a non-folding machine. The spring system, carriage quality, and accessory compatibility set the standard for home equipment. What makes it appropriate for a beginner rather than a distraction: the machine grows with the practitioner — the same reformer supports beginner footwork and the most advanced classical exercises without ever feeling limiting. Buy this once and don't upgrade. The risk is the same as all premium first-machine purchases: it assumes the practice will stick. For practitioners with studio experience who are confident the reformer is for them, the risk is worth taking.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+studio+reformer&tag=pilatescollective-20",

@@ -65,16 +65,17 @@ const jsonLd = {
 
 const REFORMER_BASELINE = [
   { item: "AeroPilates Pro XP 557", tier: "Consumer", price: "$699" },
-  { item: "Align Pilates A8 Pro", tier: "Entry commercial", price: "~$1,399" },
   { item: "Merrithew At Home SPX", tier: "Compact", price: "$1,499" },
-  { item: "Align Pilates C8 Pro", tier: "Entry commercial", price: "$1,799" },
   { item: "Merrithew SPX Max", tier: "Studio standard", price: "$2,199" },
   { item: "Balanced Body Metro IQ", tier: "Studio standard", price: "$2,295" },
+  { item: "Align Pilates C8 Pro", tier: "Studio standard", price: "$2,750" },
   { item: "Merrithew V2 Max", tier: "Studio standard", price: "$3,500" },
   { item: "Elina Pilates Elite Wood", tier: "Premium", price: "$3,585" },
+  { item: "Align Pilates A8 Pro", tier: "Studio standard", price: "$3,700" },
   { item: "BASI Systems Reformer", tier: "Premium", price: "~$3,900" },
   { item: "Balanced Body Allegro 2", tier: "Studio standard", price: "$3,995" },
   { item: "Peak Pilates MVe", tier: "Premium", price: "$4,295" },
+  { item: "Balanced Body Studio Reformer", tier: "Studio standard", price: "$4,400" },
   { item: "Gratz Universal Aluminum", tier: "Classical", price: "$4,995" },
   { item: "Gratz Maple Classic", tier: "Classical", price: "$5,295" },
 ];
@@ -205,7 +206,7 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Reformer baseline prices</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                These are the list prices we track across our equipment reviews, as at September 2026. This table is the actual tool on this page: screenshot it, or write down the two or three models you care about, and compare any November claim against these figures rather than against a retailer&apos;s crossed-out number. Prices vary by country and dealer and they move, so confirm before buying.
+                These are list prices as at September 2026. The Balanced Body and Align Pilates figures were checked against current dealer listings; the rest are the prices we track across our equipment reviews and are being re-checked. This table is the actual tool on this page: screenshot it, or write down the two or three models you care about, and compare any November claim against these figures rather than against a retailer&apos;s crossed-out number. Prices vary by country and dealer and they move, so confirm before buying.
               </p>
               <BaselineTable rows={REFORMER_BASELINE} />
             </div>

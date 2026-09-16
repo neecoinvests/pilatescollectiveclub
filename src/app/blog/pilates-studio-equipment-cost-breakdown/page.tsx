@@ -54,7 +54,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "How much does it cost to equip a Pilates studio?", "acceptedAnswer": { "@type": "Answer", "text": "On current list prices, a three-reformer private studio with basic apparatus and props comes to roughly $7,300. A six-reformer group studio with jumpboards, a chair, barrels and props comes to roughly $19,100. A ten-reformer comprehensive studio with a cadillac, two chairs, a ladder barrel and full props comes to roughly $59,700. Those are equipment-only figures at single-unit list price. They exclude shipping, tax, assembly, flooring and mirrors, and they are before any trade or multi-unit pricing your supplier may offer." } },
+        { "@type": "Question", "name": "How much does it cost to equip a Pilates studio?", "acceptedAnswer": { "@type": "Answer", "text": "On current list prices, a three-reformer private studio with basic apparatus and props comes to roughly $11,400. A six-reformer group studio with jumpboards, a chair, barrels and props comes to roughly $27,400. A ten-reformer comprehensive studio with a cadillac, two chairs, a ladder barrel and full props comes to roughly $59,700. Those are equipment-only figures at single-unit list price. They exclude shipping, tax, assembly, flooring and mirrors, and they are before any trade or multi-unit pricing your supplier may offer." } },
         { "@type": "Question", "name": "Do Pilates equipment suppliers give discounts on bulk orders?", "acceptedAnswer": { "@type": "Answer", "text": "Commercial suppliers generally price multi-machine orders differently from single units, and studio or trade accounts are standard practice across the major brands. The size of any reduction is negotiated rather than published, so the only reliable approach is to request a written quote for your full order, including delivery, assembly and first service, rather than adding up website prices. Ask specifically what the quote covers, because a headline machine price that excludes assembly is not comparable to one that includes it." } },
         { "@type": "Question", "name": "What is the cheapest way to open a reformer studio?", "acceptedAnswer": { "@type": "Answer", "text": "Fewer machines of the correct grade, rather than more machines of the wrong grade. A three-reformer room running privates and duets at a high hourly rate needs a fraction of the capital of a group studio and carries a fraction of the rent, and it can be expanded once you have a waiting list. Buying home-rated reformers to fill a larger room is the false economy: the warranty on a domestic machine typically does not cover commercial use, so the saving disappears the first time a frame or a spring fails." } },
         { "@type": "Question", "name": "How long does Pilates studio equipment last?", "acceptedAnswer": { "@type": "Answer", "text": "A commercial-grade reformer frame is built to last well over a decade in studio use, which is why the per-year cost of good apparatus is lower than the sticker price suggests. What wears out is the consumable layer: springs, ropes, straps and upholstery. Budget for those on a replacement schedule rather than waiting for failure, because a machine out of action is a class you cannot teach. Ordering spare springs and ropes with the original purchase is cheaper than ordering them one at a time later." } },
@@ -64,7 +64,7 @@ const jsonLd = {
 };
 
 const smallStudio = [
-  { item: "Align Pilates A8 Pro Reformer", qty: "3", unit: "$1,399", line: "$4,197" },
+  { item: "Align Pilates C8 Pro Reformer", qty: "3", unit: "$2,750", line: "$8,250" },
   { item: "Balanced Body Wunda Chair", qty: "1", unit: "$1,800", line: "$1,800" },
   { item: "Balanced Body Spine Corrector", qty: "1", unit: "$395", line: "$395" },
   { item: "Balanced Body Arc Barrel", qty: "1", unit: "$245", line: "$245" },
@@ -73,8 +73,8 @@ const smallStudio = [
 ];
 
 const mediumStudio = [
-  { item: "Merrithew SPX Max Reformer", qty: "6", unit: "$2,199", line: "$13,194" },
-  { item: "Merrithew Jumpboard", qty: "6", unit: "$320", line: "$1,920" },
+  { item: "Align Pilates A8 Pro Reformer", qty: "6", unit: "$3,700", line: "$22,200" },
+  { item: "Reformer jumpboard", qty: "6", unit: "~$199", line: "~$1,194" },
   { item: "Merrithew Split-Pedal Stability Chair", qty: "1", unit: "$1,999", line: "$1,999" },
   { item: "Merrithew Arc Barrel", qty: "2", unit: "$265", line: "$530" },
   { item: "Props in class-sized multiples", qty: "set", unit: "~$600", line: "~$600" },
@@ -174,7 +174,7 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#f6f3f2" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>How to read these numbers</p>
               <p className="text-base leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Every machine price below is a published list price at the time of writing, taken from the manufacturers and dealers we track in our equipment reviews. Apparatus pricing moves, and it varies by country and dealer, so treat these as the basis for a conversation rather than a quote.
+                Reformer prices below were checked against current dealer listings in September 2026. Figures marked with a tilde are indicative allowances for props and fit-out rather than a specific product, and chair, barrel and cadillac prices are the list prices we track across our equipment reviews. Apparatus pricing moves and varies by country and dealer, so treat all of it as the basis for a conversation rather than a quote.
               </p>
               <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 These are also single-unit prices. Commercial suppliers price multi-machine orders differently and studio accounts are normal practice, so a real quote for six or ten reformers is a negotiation, not a sum of website prices. Ask for the quote in writing with delivery, assembly and first service itemised, because a machine price that excludes assembly is not comparable to one that includes it.
@@ -184,11 +184,11 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Small studio: 3 reformers, privates and duets</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The lowest-capital way into apparatus Pilates. Three machines in a small room, revenue from privates and duets at a high hourly rate, and a chair and barrel to give the teaching somewhere to go. Align Pilates sits at the entry end of commercial-rated machines, which is what makes this budget possible without dropping to home-grade frames.
+                The lowest-capital way into apparatus Pilates. Three machines in a small room, revenue from privates and duets at a high hourly rate, and a chair and barrel to give the teaching somewhere to go. The C8 Pro is the least expensive genuinely studio-rated reformer we have been able to verify pricing on, which is what keeps this tier reachable without dropping to home-grade frames.
               </p>
               <BudgetTable
                 rows={smallStudio}
-                total="~$7,337"
+                total="~$11,390"
                 note="Excludes shipping, tax, assembly, flooring and any building work. A studio at this size can often be fitted out without a contractor, which is a genuine part of its cost advantage."
               />
             </div>
@@ -196,11 +196,11 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Medium studio: 6 reformers, group classes</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The standard group model, and the size most new studios open at. Six matching machines, a jumpboard per machine so you can run jumpboard as a timetabled format rather than an occasional novelty, and enough props for a full class to use them at once. The SPX Max is priced here because it is the commercial machine most widely available in this bracket.
+                The standard group model, and the size most new studios open at. Six matching machines, a jumpboard per machine so you can run jumpboard as a timetabled format rather than an occasional novelty, and enough props for a full class to use them at once. The A8 Pro is priced here because it is the widest-carriage machine in the studio range and its pricing is currently verifiable across several dealers.
               </p>
               <BudgetTable
                 rows={mediumStudio}
-                total="~$19,143"
+                total="~$27,423"
                 note="Excludes shipping, tax, assembly and flooring. Buy the machines matching: mixed brands in one row force the teacher to re-cue every station and make a group class materially harder to run."
               />
             </div>
@@ -265,7 +265,7 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "How much does it cost to equip a Pilates studio?", a: "On current list prices, a three-reformer private studio with basic apparatus and props comes to roughly $7,300. A six-reformer group studio with jumpboards, a chair, barrels and props comes to roughly $19,100. A ten-reformer comprehensive studio with a cadillac, two chairs, a ladder barrel and full props comes to roughly $59,700. Those are equipment-only figures at single-unit list price. They exclude shipping, tax, assembly, flooring and mirrors, and they are before any trade or multi-unit pricing your supplier may offer." },
+                  { q: "How much does it cost to equip a Pilates studio?", a: "On current list prices, a three-reformer private studio with basic apparatus and props comes to roughly $11,400. A six-reformer group studio with jumpboards, a chair, barrels and props comes to roughly $27,400. A ten-reformer comprehensive studio with a cadillac, two chairs, a ladder barrel and full props comes to roughly $59,700. Those are equipment-only figures at single-unit list price. They exclude shipping, tax, assembly, flooring and mirrors, and they are before any trade or multi-unit pricing your supplier may offer." },
                   { q: "Do Pilates equipment suppliers give discounts on bulk orders?", a: "Commercial suppliers generally price multi-machine orders differently from single units, and studio or trade accounts are standard practice across the major brands. The size of any reduction is negotiated rather than published, so the only reliable approach is to request a written quote for your full order, including delivery, assembly and first service, rather than adding up website prices. Ask specifically what the quote covers, because a headline machine price that excludes assembly is not comparable to one that includes it." },
                   { q: "What is the cheapest way to open a reformer studio?", a: "Fewer machines of the correct grade, rather than more machines of the wrong grade. A three-reformer room running privates and duets at a high hourly rate needs a fraction of the capital of a group studio and carries a fraction of the rent, and it can be expanded once you have a waiting list. Buying home-rated reformers to fill a larger room is the false economy: the warranty on a domestic machine typically does not cover commercial use, so the saving disappears the first time a frame or a spring fails." },
                   { q: "How long does Pilates studio equipment last?", a: "A commercial-grade reformer frame is built to last well over a decade in studio use, which is why the per-year cost of good apparatus is lower than the sticker price suggests. What wears out is the consumable layer: springs, ropes, straps and upholstery. Budget for those on a replacement schedule rather than waiting for failure, because a machine out of action is a class you cannot teach. Ordering spare springs and ropes with the original purchase is cheaper than ordering them one at a time later." },

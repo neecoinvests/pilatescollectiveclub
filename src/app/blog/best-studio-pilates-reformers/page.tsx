@@ -31,7 +31,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Align Pilates A8 Pro Reformer",
-    price: "From ~$1,399 USD",
+    price: "From $3,700",
     verdict: "Best value-per-inch in the premium category",
     tier: "Value Premium",
     description:
@@ -121,7 +121,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Balanced Body Studio Reformer",
-    price: "From ~$4,500",
+    price: "From $4,400",
     verdict: "Best for serious multi-machine home studios",
     tier: "Professional",
     description:
@@ -285,7 +285,7 @@ export default function BestStudioReformersPage() {
                 <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(139,74,49,0.15)" }}>
                   <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The standout in this guide</p>
                   <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    For practitioners with space constraints, the <strong>Balanced Body Metro IQ</strong> at $2,295 is the most underrated machine in the premium category. For those building a dedicated studio, the <strong>Balanced Body Studio Reformer</strong> is what professional certification centres use. For space considerations that go the other way — widest carriage available — the <strong>Align Pilates A8 Pro</strong> at ~$1,399 is the best pound-for-inch value in professional reformers.
+                    For practitioners with space constraints, the <strong>Balanced Body Metro IQ</strong> at $2,295 is the most underrated machine in the premium category. For those building a dedicated studio, the <strong>Balanced Body Studio Reformer</strong> is what professional certification centres use. For space considerations that go the other way — widest carriage available — the <strong>Align Pilates A8 Pro</strong> at around $3,700 is the widest carriage in the professional range.
                   </p>
                 </div>
               </div>

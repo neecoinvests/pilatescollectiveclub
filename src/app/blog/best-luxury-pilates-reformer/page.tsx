@@ -48,7 +48,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Balanced Body Studio Reformer",
-    price: "From $4,500",
+    price: "From $4,400",
     verdict: "Best Professional Studio Grade",
     description: "Balanced Body is the world's largest professional Pilates equipment manufacturer, supplying the majority of certified Pilates studios globally. Their Studio Reformer is built to withstand eight hours of daily commercial use — the frame is welded aircraft-grade aluminium, the carriage glides on precision ball-bearing wheels, and the spring bar accommodates the full range of Balanced Body spring sets. A commercial-grade machine sold into the home studio market with no compromises.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+studio+reformer+pilates&tag=pilatescollective-20",

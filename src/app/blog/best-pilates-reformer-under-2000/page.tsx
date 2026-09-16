@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Under $2,000 (2026): Mid-Range Picks",
-  description: "The best Pilates reformers under $2,000 — mid-range machines from Merrithew, Align, and Balanced Body compared on spring feel, carriage glide, and durability.",
+  description: "The best Pilates reformers under $2,000 — mid-range machines from Merrithew and Align compared on spring feel, carriage glide, and durability.",
   keywords: ["best pilates reformer under 2000", "pilates reformer under 2000 dollars", "mid-range pilates reformer 2026", "merrithew spx review under 2000", "align pilates reformer under 2000", "best reformer $1000-$2000", "pilates reformer mid-range buy"],
   openGraph: {
     title: "Best Pilates Reformers Under $2,000 (2026): Mid-Range Ranked",
@@ -67,16 +67,6 @@ const PRODUCTS = [
       "The Align H1 is technically at the ceiling of the $2,000 guideline, but its folding mechanism addresses a constraint that makes it the only viable option for many home practitioners: it stores vertically against a wall in a footprint smaller than a standard door width. In operational mode, the H1 performs at the same level as the C8 Pro — identical spring system, carriage construction, and footbar configuration — and the fold mechanism adds no meaningful instability during use. For practitioners who need the machine to disappear into the home environment between sessions, the H1's modest price premium over folding alternatives from lesser-known brands is justified entirely by its build quality and the confidence of purchasing from a manufacturer with an established track record.",
     affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+folding+reformer&tag=pilatescollective-20",
     tag: "Best Folding",
-  },
-  {
-    rank: "05",
-    name: "Balanced Body Studio Reformer (Base Model)",
-    price: "From $1,995",
-    verdict: "Best for Balanced Body accessories ecosystem",
-    description:
-      "The Balanced Body Studio Reformer base model sits at the ceiling of this guide's price range and represents the entry point into Balanced Body's clinical equipment line. The primary advantage of starting with Balanced Body at this price is ecosystem access: every accessory — jumpboard, mat converter, box set, standing platform — is purpose-built for compatibility, and Balanced Body's accessory range is the most comprehensive in the industry. For practitioners who expect to progressively expand their home studio with accessories over time, starting with a Balanced Body base model creates a more coherent long-term investment than a better-value machine from a smaller brand with a limited accessory ecosystem.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+studio+reformer&tag=pilatescollective-20",
-    tag: "Best Ecosystem",
   },
 ];
 
@@ -149,7 +139,7 @@ export default function BestPilatesReformerUnder2000Page() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The $2,000 price point is where home reformer buying gets genuinely interesting. Below $1,000, you are choosing between bungee-resistance entry-level machines that will feel limiting within a year. Above $3,500, you are buying studio-grade equipment designed for commercial use. In the $1,000–$2,000 range, you find machines from established clinical manufacturers — Align Pilates, Merrithew, Balanced Body — that deliver authentic spring-based reformer performance at a price justified by serious home practitioners. These five represent the best of what that bracket currently offers.
+              The $2,000 price point is where home reformer buying gets genuinely interesting. Below $1,000, you are choosing between bungee-resistance entry-level machines that will feel limiting within a year. Above $3,500, you are buying studio-grade equipment designed for commercial use. In the $1,000–$2,000 range, you find machines from established clinical manufacturers — Align Pilates and Merrithew — that deliver authentic spring-based reformer performance at a price justified by serious home practitioners. These are the best of what that bracket currently offers.
             </p>
           </div>
         </section>
