@@ -63,6 +63,16 @@ const jsonLd = {
   ],
 };
 
+const REFORMERS = [
+  { name: "Align Pilates C8 Pro Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminium rails, a graded colour-coded spring set, and a build specified for studio use, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20" },
+  { name: "Align Pilates A8 Pro Reformer", description: "The widest carriage in this comparison, which is the clearest thing Align does better than anyone. Larger and taller practitioners notice it immediately in side-lying and kneeling work. List runs $4,200 to $4,320, so check the current dealer figure.", price: "From $3,700", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+a8+pro+reformer&tag=pilatescollective-20" },
+  { name: "Balanced Body Allegro 2 Reformer", description: "The folding studio machine most home buyers end up comparing everything else against. Upright fold against a wall, the deepest accessory ecosystem in the industry, and the strongest resale of any reformer here. $3,995 standard, around $4,325 with the leg kit.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/dp/B0D3G2BJZ7?tag=pilatescollective-20" },
+  { name: "Balanced Body Cadillac / Trapeze Table", description: "The single biggest line in a comprehensive studio fit-out after the reformers, and what most distinguishes a full apparatus room from a reformer class business. Needs ceiling height and permanent floor space.", price: "From $8,000", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+cadillac+trapeze+table+pilates&tag=pilatescollective-20" },
+  { name: "Balanced Body Wunda Chair", description: "The apparatus that carries the most teaching per square foot of any piece in the room. A chair opens up standing, seated and pressing work a reformer cannot reach, in roughly the footprint of an armchair.", price: "From $1,800", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+wunda+chair+pilates&tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five signature springs, and full tower compatibility. Price runs $4,400 to $4,800 depending on which of the four footbars you choose. It does not fold.", price: "From $4,400", affiliateUrl: "https://www.amazon.com/dp/B0C9G88VJS?tag=pilatescollective-20" },
+  { name: "Balanced Body Ladder Barrel", description: "Spinal extension and lateral work that nothing else in the room replicates, and the piece clients with desk-bound postures benefit from most. A comprehensive studio is not comprehensive without one.", price: "From $1,295", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+ladder+barrel+pilates&tag=pilatescollective-20" },
+];
+
 const PRODUCTS = [
   { name: "Studio Pilates Props Set (Rings, Bands, Balls)", description: "Every apparatus studio still needs props in volume, and props are the one category where buying for a whole studio rather than one person changes what you should order. Buy multiples of each item so a full class can use them simultaneously, and buy a second set of bands from the start because bands are the consumable in this list.", price: "From $40", affiliateUrl: "https://www.amazon.com/s?k=pilates+props+set+magic+circle+resistance+bands+ball&tag=pilatescollective-20" },
   { name: "Commercial Equipment Disinfectant Wipes", description: "Apparatus gets touched constantly and upholstery is the part clients notice. Buy wipes rated safe for vinyl and leatherette rather than a general-purpose cleaner, because alcohol-heavy formulas dry and crack reformer upholstery over a couple of years. This is a recurring line in your budget, not a one-off.", price: "From $30", affiliateUrl: "https://www.amazon.com/s?k=gym+equipment+disinfectant+wipes+vinyl+safe&tag=pilatescollective-20" },
@@ -255,12 +265,26 @@ export default function HowToOpenAPilatesStudioPage() {
               </div>
             </div>
 
+            {/* Reformers */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The apparatus you are budgeting for</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                The machines that make up the bulk of a studio fit-out. Order matching reformers, and get delivery, assembly and first service itemised in the quote. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+              </p>
+              <div className="space-y-8">
+                {REFORMERS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
+
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The fit-out items you buy off the shelf</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Reformers and apparatus come from specialist suppliers with commercial warranties, and they should. Everything below is the second list: the props, consumables and fit-out items that are the same product whoever sells them, and where buying in studio quantities is the only real difference.
+                The second list: the props, consumables and fit-out items that are the same product whoever sells them, and where buying in studio quantities is the only real difference. For a multi-machine apparatus order, a written commercial quote will normally beat any listed price.
               </p>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (

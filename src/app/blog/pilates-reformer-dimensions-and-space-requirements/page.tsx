@@ -91,6 +91,14 @@ const CLASSES = [
   },
 ];
 
+const REFORMERS = [
+  { name: "Balanced Body Studio Reformer", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five signature springs, and full tower compatibility. Price runs $4,400 to $4,800 depending on which of the four footbars you choose. It does not fold.", price: "From $4,400", affiliateUrl: "https://www.amazon.com/dp/B0C9G88VJS?tag=pilatescollective-20" },
+  { name: "Merrithew SPX Max Reformer", description: "The STOTT PILATES reference machine, and the one that folds completely flat onto castors to roll under a bed. Five colour-coded springs with unusually fine gradation at the light end, which is what makes it the pick for rehabilitation and prenatal work.", price: "From $3,649", affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20" },
+  { name: "Merrithew At Home SPX Reformer", description: "Shorter and narrower than the SPX Max while keeping the same spring system and carriage build. Fits along a wall in most bedrooms. Sold mainly as a package, so confirm what a given price includes.", price: "From $3,299", affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20" },
+  { name: "Balanced Body Metro IQ Reformer", description: "The cheapest genuine spring reformer from a major brand, and the machine that marks the real floor of the category. Short stored length makes it the one that fits where a full studio frame does not.", price: "From $2,295", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+metro+iq+reformer&tag=pilatescollective-20" },
+  { name: "AeroPilates Pro XP 557 Reformer", description: "The one machine from a recognised brand that genuinely costs under $2,000. It uses elastic cord rather than coil springs, which is a real difference in how resistance builds, but for building a habit it is a workable trade.", price: "From $1,329", affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20" },
+];
+
 const PRODUCTS = [
   { name: "Reformer Storage and Wall Mount Bracket", description: "For a folding reformer, a wall bracket is what turns the folded position from an awkward lean into actual storage. It holds the frame stable and vertical, keeps it off the skirting, and removes the main reason people stop folding it and leave it up permanently. Check the weight rating against your machine before buying.", price: "From $45", affiliateUrl: "https://www.amazon.com/s?k=reformer+wall+storage+mount+bracket+equipment&tag=pilatescollective-20" },
   { name: "Equipment Moving Dolly or Furniture Sliders", description: "A full-size reformer is heavy and dragging it across a floor damages both. Sliders under the feet let one person reposition a machine for cleaning or for a class layout change without lifting. The cheapest thing on this list and the one that saves a floor.", price: "From $20", affiliateUrl: "https://www.amazon.com/s?k=furniture+sliders+heavy+equipment+moving+dolly&tag=pilatescollective-20" },
@@ -246,6 +254,20 @@ export default function PilatesReformerDimensionsPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Reformers */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Machines by footprint class</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                One machine from each class above, from the full studio frame down to the compact and cord-resistance options. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+              </p>
+              <div className="space-y-8">
+                {REFORMERS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

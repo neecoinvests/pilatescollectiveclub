@@ -91,6 +91,24 @@ const APPARATUS_BASELINE = [
   { item: "Balanced Body Cadillac", tier: "Cadillac", price: "$8,000" },
 ];
 
+const REFORMERS = [
+  { name: "Balanced Body Metro IQ Reformer", description: "The cheapest genuine spring reformer from a major brand, and the machine that marks the real floor of the category. Short stored length makes it the one that fits where a full studio frame does not.", price: "From $2,295", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+metro+iq+reformer&tag=pilatescollective-20" },
+  { name: "Align Pilates C8 Pro Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminium rails, a graded colour-coded spring set, and a build specified for studio use, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20" },
+  { name: "Merrithew SPX Max Reformer", description: "The STOTT PILATES reference machine, and the one that folds completely flat onto castors to roll under a bed. Five colour-coded springs with unusually fine gradation at the light end, which is what makes it the pick for rehabilitation and prenatal work.", price: "From $3,649", affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20" },
+  { name: "Align Pilates A8 Pro Reformer", description: "The widest carriage in this comparison, which is the clearest thing Align does better than anyone. Larger and taller practitioners notice it immediately in side-lying and kneeling work. List runs $4,200 to $4,320, so check the current dealer figure.", price: "From $3,700", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+a8+pro+reformer&tag=pilatescollective-20" },
+  { name: "Balanced Body Allegro 2 Reformer", description: "The folding studio machine most home buyers end up comparing everything else against. Upright fold against a wall, the deepest accessory ecosystem in the industry, and the strongest resale of any reformer here. $3,995 standard, around $4,325 with the leg kit.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/dp/B0D3G2BJZ7?tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five signature springs, and full tower compatibility. Price runs $4,400 to $4,800 depending on which of the four footbars you choose. It does not fold.", price: "From $4,400", affiliateUrl: "https://www.amazon.com/dp/B0C9G88VJS?tag=pilatescollective-20" },
+  { name: "Merrithew V2 Max Reformer", description: "Merrithew's professional machine: wider carriage than the SPX line, high-precision spring gradation, and the patented retractable rope system that keeps ropes adjustable and out of the way. The one to look at if you are tall or working clinically.", price: "From $4,999", affiliateUrl: "https://www.amazon.com/s?k=merrithew+v2+max+reformer&tag=pilatescollective-20" },
+  { name: "Merrithew At Home SPX Reformer", description: "Shorter and narrower than the SPX Max while keeping the same spring system and carriage build. Fits along a wall in most bedrooms. Sold mainly as a package, so confirm what a given price includes.", price: "From $3,299", affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20" },
+  { name: "Elina Pilates Elite Wood Reformer", description: "Wood-framed studio machine priced against the Allegro 2, with the visual warmth that an aluminium frame does not have. Worth a look if the machine lives in a living space rather than a dedicated room.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/s?k=elina+pilates+elite+wood+reformer&tag=pilatescollective-20" },
+  { name: "Peak Pilates MVe Reformer", description: "Classical-leaning studio machine with a longer carriage than most, powder-coated aluminium frame and sealed bearings. A strong choice for tall practitioners and for studios running a classical syllabus.", price: "From $4,295", affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+mve+reformer&tag=pilatescollective-20" },
+  { name: "Gratz Universal Aluminum Reformer", description: "The original Gratz design, built to the classical specification and still the reference for that lineage. Buy this if the classical repertoire is what you are training, not because it is the most expensive option.", price: "From $4,590", affiliateUrl: "https://www.amazon.com/s?k=gratz+pilates+universal+reformer&tag=pilatescollective-20" },
+  { name: "AeroPilates Pro XP 557 Reformer", description: "The one machine from a recognised brand that genuinely costs under $2,000. It uses elastic cord rather than coil springs, which is a real difference in how resistance builds, but for building a habit it is a workable trade.", price: "From $1,329", affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20" },
+  { name: "Balanced Body Cadillac / Trapeze Table", description: "The single biggest line in a comprehensive studio fit-out after the reformers, and what most distinguishes a full apparatus room from a reformer class business. Needs ceiling height and permanent floor space.", price: "From $8,000", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+cadillac+trapeze+table+pilates&tag=pilatescollective-20" },
+  { name: "Balanced Body Wunda Chair", description: "The apparatus that carries the most teaching per square foot of any piece in the room. A chair opens up standing, seated and pressing work a reformer cannot reach, in roughly the footprint of an armchair.", price: "From $1,800", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+wunda+chair+pilates&tag=pilatescollective-20" },
+  { name: "Balanced Body Ladder Barrel", description: "Spinal extension and lateral work that nothing else in the room replicates, and the piece clients with desk-bound postures benefit from most. A comprehensive studio is not comprehensive without one.", price: "From $1,295", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+ladder+barrel+pilates&tag=pilatescollective-20" },
+];
+
 const PRODUCTS = [
   { name: "Pilates Props Set (Ring, Bands, Ball)", description: "Props are the category where a November sale is most likely to be worth acting on, because they sell through open marketplaces with multiple sellers competing. They are also the purchase least likely to disappoint: a ring, a band and a ball genuinely expand what you can do on a mat. Buy a spare set of bands, since bands are the only real consumable here.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+props+set+magic+circle+bands+ball&tag=pilatescollective-20" },
   { name: "Pilates Mat, 6mm or Thicker", description: "A mat is the most-used piece of equipment most practitioners own and the easiest to under-buy. Thickness and density matter more than brand: a 6mm mat that does not compress under the spine is the difference between finishing a session comfortable or sore. Worth watching in a sale because mats discount readily and last years.", price: "From $40", affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+6mm+thick+non+slip&tag=pilatescollective-20" },
@@ -267,6 +285,20 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Reformers */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The machines on the baseline table</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                The reformers worth watching in November, at the September list prices you should measure any claimed deal against. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+              </p>
+              <div className="space-y-8">
+                {REFORMERS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>

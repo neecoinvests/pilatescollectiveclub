@@ -86,6 +86,14 @@ const CHANNELS = [
   },
 ];
 
+const REFORMERS = [
+  { name: "Balanced Body Allegro 2 Reformer", description: "The folding studio machine most home buyers end up comparing everything else against. Upright fold against a wall, the deepest accessory ecosystem in the industry, and the strongest resale of any reformer here. $3,995 standard, around $4,325 with the leg kit.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/dp/B0D3G2BJZ7?tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five signature springs, and full tower compatibility. Price runs $4,400 to $4,800 depending on which of the four footbars you choose. It does not fold.", price: "From $4,400", affiliateUrl: "https://www.amazon.com/dp/B0C9G88VJS?tag=pilatescollective-20" },
+  { name: "Merrithew SPX Max Reformer", description: "The STOTT PILATES reference machine, and the one that folds completely flat onto castors to roll under a bed. Five colour-coded springs with unusually fine gradation at the light end, which is what makes it the pick for rehabilitation and prenatal work.", price: "From $3,649", affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20" },
+  { name: "Align Pilates C8 Pro Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminium rails, a graded colour-coded spring set, and a build specified for studio use, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20" },
+  { name: "Balanced Body Metro IQ Reformer", description: "The cheapest genuine spring reformer from a major brand, and the machine that marks the real floor of the category. Short stored length makes it the one that fits where a full studio frame does not.", price: "From $2,295", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+metro+iq+reformer&tag=pilatescollective-20" },
+];
+
 const PRODUCTS = [
   { name: "Reformer Replacement Springs", description: "Worth knowing the price of before you buy any machine, because spring availability is a genuine differentiator between brands and a genuine risk on the used market. If replacement springs for a model are hard to find or unreasonably priced, that tells you something about buying the machine at all.", price: "From $45", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+replacement+springs&tag=pilatescollective-20" },
   { name: "Reformer Ropes and Straps", description: "The other consumable, and the one most likely to be tired on a machine bought secondhand. Ropes stretch gradually and a stretched rope changes the working length of every strap exercise. Replace as a matched pair rather than individually so both sides behave the same.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+ropes+straps+replacement&tag=pilatescollective-20" },
@@ -233,12 +241,26 @@ export default function WhereToBuyAPilatesReformerPage() {
               </div>
             </div>
 
+            {/* Reformers */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The machines most people are pricing</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                Whichever channel you buy through, these are the machines this decision usually comes down to. Compare delivered totals, not headline prices. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+              </p>
+              <div className="space-y-8">
+                {REFORMERS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
+
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to have before the machine arrives</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The reformer comes from the brand or a dealer. These are the things worth having in the room before the freight turns up, plus the wear parts whose price and availability are worth checking before you commit to a model at all.
+                These are the things worth having in the room before the freight turns up, plus the wear parts whose price and availability are worth checking before you commit to a model at all.
               </p>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (

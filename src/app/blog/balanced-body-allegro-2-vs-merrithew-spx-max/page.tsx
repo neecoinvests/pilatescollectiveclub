@@ -96,6 +96,11 @@ const COMPARISON = [
   },
 ];
 
+const REFORMERS = [
+  { name: "Balanced Body Allegro 2 Reformer", description: "The folding studio machine most home buyers end up comparing everything else against. Upright fold against a wall, the deepest accessory ecosystem in the industry, and the strongest resale of any reformer here. $3,995 standard, around $4,325 with the leg kit.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/dp/B0D3G2BJZ7?tag=pilatescollective-20" },
+  { name: "Merrithew SPX Max Reformer", description: "The STOTT PILATES reference machine, and the one that folds completely flat onto castors to roll under a bed. Five colour-coded springs with unusually fine gradation at the light end, which is what makes it the pick for rehabilitation and prenatal work.", price: "From $3,649", affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20" },
+];
+
 const PRODUCTS = [
   { name: "Reformer Jumpboard", description: "Both machines take one and both mount differently, so this is not a cross-compatible purchase. It is the highest-value addition to either: a jumpboard turns a reformer into cardio equipment for a fraction of what any other machine would cost, and jumpboard work is on most studio timetables for that reason. Confirm the mounting for your exact model.", price: "From $199", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+jumpboard&tag=pilatescollective-20" },
   { name: "Reformer Sitting Box", description: "The accessory that most expands the repertoire rather than refining it, opening short box, long box and overhead work. Boxes sit on the carriage rather than mounting to the frame, which makes them the most brand-agnostic accessory in this list and a reasonable third-party purchase for either machine.", price: "From $149", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+sitting+box&tag=pilatescollective-20" },
@@ -145,6 +150,23 @@ export default function Allegro2VsSpxMaxPage() {
               <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 The machine has to disappear between sessions: SPX Max, because the flat fold and castors are a genuinely different capability. The machine can stay up and you intend to build around it with a tower, boxes and converters: Allegro 2, for the ecosystem and the resale. Buying on price: there is about $350 in it, which is not enough to decide a four-figure purchase you will live with for a decade. Decide on the fold.
               </p>
+            </div>
+
+            <div className="mb-14 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>At a glance &middot; verified September 2026</p>
+              </div>
+              {REFORMERS.map((p, i) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
+                  </div>
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Buy &rarr;</a>
+                </div>
+              ))}
             </div>
 
             <div className="mb-14">
@@ -245,12 +267,26 @@ export default function Allegro2VsSpxMaxPage() {
               </div>
             </div>
 
+            {/* Reformers */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Both machines</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                The two machines this comparison is about. Around $350 separates them, so buy on the fold, not the price. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+              </p>
+              <div className="space-y-8">
+                {REFORMERS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
+
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Accessories for whichever you choose</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The machines come from their brands and authorised dealers. These are the additions people make afterwards. Mountings and spring fittings are model-specific rather than universal, so confirm compatibility with your exact machine before ordering.
+                The additions people make after the machine. Mountings and spring fittings are model-specific rather than universal, so confirm compatibility with your exact machine before ordering.
               </p>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (

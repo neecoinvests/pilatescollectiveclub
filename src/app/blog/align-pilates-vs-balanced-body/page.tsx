@@ -103,6 +103,13 @@ const PRICING = [
   { model: "Balanced Body Studio Reformer", price: "$4,400 to $4,800", note: "Price varies by footbar: Revo, XSR, Infinity or Classic. Permanent installation." },
 ];
 
+const REFORMERS = [
+  { name: "Align Pilates C8 Pro Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminium rails, a graded colour-coded spring set, and a build specified for studio use, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20" },
+  { name: "Align Pilates A8 Pro Reformer", description: "The widest carriage in this comparison, which is the clearest thing Align does better than anyone. Larger and taller practitioners notice it immediately in side-lying and kneeling work. List runs $4,200 to $4,320, so check the current dealer figure.", price: "From $3,700", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+a8+pro+reformer&tag=pilatescollective-20" },
+  { name: "Balanced Body Allegro 2 Reformer", description: "The folding studio machine most home buyers end up comparing everything else against. Upright fold against a wall, the deepest accessory ecosystem in the industry, and the strongest resale of any reformer here. $3,995 standard, around $4,325 with the leg kit.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/dp/B0D3G2BJZ7?tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five signature springs, and full tower compatibility. Price runs $4,400 to $4,800 depending on which of the four footbars you choose. It does not fold.", price: "From $4,400", affiliateUrl: "https://www.amazon.com/dp/B0C9G88VJS?tag=pilatescollective-20" },
+];
+
 const PRODUCTS = [
   { name: "Reformer Jumpboard", description: "Both brands sell their own, and both are mount-specific rather than universal. Whichever machine you land on, a jumpboard is the highest-value addition available to it: it turns a reformer into cardio equipment for a fraction of the cost of buying anything else. Confirm the mounting fits your exact model before ordering.", price: "From $199", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+jumpboard&tag=pilatescollective-20" },
   { name: "Reformer Carriage Pad", description: "A grip pad is the cheapest way to make a carriage feel secure for standing and kneeling work, and it protects the upholstery, which is the first thing to look tired on a machine of either brand. Align's wider carriage needs a correspondingly wider pad, so check the dimensions rather than assuming a standard size.", price: "From $89", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+carriage+pad+grip&tag=pilatescollective-20" },
@@ -151,6 +158,23 @@ export default function AlignPilatesVsBalancedBodyPage() {
               <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Buying one machine and keeping it: the Align C8 Pro is the value choice and it is not a compromise. Tall or broad, or you want the roomiest carriage: Align A8 Pro. Building a studio you will expand with towers, boxes and converters over years: Balanced Body, for the ecosystem rather than the frame. Might sell within a few years: Balanced Body, for resale.
               </p>
+            </div>
+
+            <div className="mb-14 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>At a glance &middot; verified September 2026</p>
+              </div>
+              {REFORMERS.map((p, i) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
+                  </div>
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Buy &rarr;</a>
+                </div>
+              ))}
             </div>
 
             <div className="mb-14">
@@ -243,12 +267,26 @@ export default function AlignPilatesVsBalancedBodyPage() {
               </div>
             </div>
 
+            {/* Reformers */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The four machines compared</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                Every machine in the pricing table above, at the prices we verified in September 2026. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+              </p>
+              <div className="space-y-8">
+                {REFORMERS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
+
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Accessories for either machine</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Reformers themselves come from the brands and their dealers. These are the accessories people add afterwards. Mountings are model-specific rather than universal, so confirm the fit for your exact machine before ordering any of them.
+                The accessories people add afterwards. Mountings are model-specific rather than universal, so confirm the fit for your exact machine before ordering any of them.
               </p>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (

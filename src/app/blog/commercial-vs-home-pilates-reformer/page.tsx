@@ -106,6 +106,15 @@ const COMPARISON = [
   },
 ];
 
+const REFORMERS = [
+  { name: "Align Pilates C8 Pro Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminium rails, a graded colour-coded spring set, and a build specified for studio use, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20" },
+  { name: "Merrithew SPX Max Reformer", description: "The STOTT PILATES reference machine, and the one that folds completely flat onto castors to roll under a bed. Five colour-coded springs with unusually fine gradation at the light end, which is what makes it the pick for rehabilitation and prenatal work.", price: "From $3,649", affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20" },
+  { name: "Balanced Body Allegro 2 Reformer", description: "The folding studio machine most home buyers end up comparing everything else against. Upright fold against a wall, the deepest accessory ecosystem in the industry, and the strongest resale of any reformer here. $3,995 standard, around $4,325 with the leg kit.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/dp/B0D3G2BJZ7?tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five signature springs, and full tower compatibility. Price runs $4,400 to $4,800 depending on which of the four footbars you choose. It does not fold.", price: "From $4,400", affiliateUrl: "https://www.amazon.com/dp/B0C9G88VJS?tag=pilatescollective-20" },
+  { name: "AeroPilates Pro XP 557 Reformer", description: "The one machine from a recognised brand that genuinely costs under $2,000. It uses elastic cord rather than coil springs, which is a real difference in how resistance builds, but for building a habit it is a workable trade.", price: "From $1,329", affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20" },
+  { name: "Gratz Universal Aluminum Reformer", description: "The original Gratz design, built to the classical specification and still the reference for that lineage. Buy this if the classical repertoire is what you are training, not because it is the most expensive option.", price: "From $4,590", affiliateUrl: "https://www.amazon.com/s?k=gratz+pilates+universal+reformer&tag=pilatescollective-20" },
+];
+
 const PRODUCTS = [
   { name: "Reformer Replacement Springs", description: "The wear part that defines both tiers. Commercial machines treat springs as scheduled consumables with catalogued replacements; many budget machines do not. Whichever you own, springs lose tension long before they visibly fail, and a set that has drifted quietly changes every resistance setting you teach or train with. Check compatibility with your exact model, since spring ends and lengths are not interchangeable across brands.", price: "From $45", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+replacement+springs&tag=pilatescollective-20" },
   { name: "Reformer Ropes and Straps", description: "Ropes stretch and fray, and a stretched rope changes the working length of every strap exercise without anyone noticing the cause. Replace them as a set rather than individually so both sides match. If you own a machine with fixed-length ropes, adjustable replacements are one of the few genuine upgrades available to a home reformer.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+ropes+straps+replacement&tag=pilatescollective-20" },
@@ -259,12 +268,26 @@ export default function CommercialVsHomePilatesReformerPage() {
               </div>
             </div>
 
+            {/* Reformers */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Machines at each tier</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                Commercial-rated machines first, then the home-grade option, so you can see what the tier actually costs. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+              </p>
+              <div className="space-y-8">
+                {REFORMERS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
+            </div>
+
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Parts and care, whichever tier you own</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Reformers themselves come from specialist suppliers. The wear parts and care items below are what keep either tier of machine feeling like it did when it arrived, and they are the same products whoever sells them. Check compatibility with your exact model before ordering any part.
+                The wear parts and care items below are what keep either tier of machine feeling like it did when it arrived, and they are the same products whoever sells them. Check compatibility with your exact model before ordering any part.
               </p>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (

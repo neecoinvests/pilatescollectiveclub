@@ -73,6 +73,13 @@ const INSPECT = [
   { label: "Model, year and parts availability", verdict: "Establish before agreeing.", body: "Get the exact model name and roughly when it was made, then confirm springs, ropes and the footbar parts are still catalogued for it. A machine whose parts have been discontinued is a machine with a finite remaining life, whatever condition it is in today. This single check separates a bargain from a liability." },
 ];
 
+const REFORMERS = [
+  { name: "Balanced Body Allegro 2 Reformer", description: "The folding studio machine most home buyers end up comparing everything else against. Upright fold against a wall, the deepest accessory ecosystem in the industry, and the strongest resale of any reformer here. $3,995 standard, around $4,325 with the leg kit.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/dp/B0D3G2BJZ7?tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five signature springs, and full tower compatibility. Price runs $4,400 to $4,800 depending on which of the four footbars you choose. It does not fold.", price: "From $4,400", affiliateUrl: "https://www.amazon.com/dp/B0C9G88VJS?tag=pilatescollective-20" },
+  { name: "Align Pilates C8 Pro Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminium rails, a graded colour-coded spring set, and a build specified for studio use, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20" },
+  { name: "Merrithew SPX Max Reformer", description: "The STOTT PILATES reference machine, and the one that folds completely flat onto castors to roll under a bed. Five colour-coded springs with unusually fine gradation at the light end, which is what makes it the pick for rehabilitation and prenatal work.", price: "From $3,649", affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20" },
+];
+
 const PRODUCTS = [
   { name: "Reformer Replacement Springs", description: "The first thing to budget for on any used machine that has done studio hours. Springs lose tension gradually rather than failing visibly, so a set that looks fine can still be well off its original calibration. Replacing the full set restores the machine to a known state, which matters if you intend to follow structured programming. Order for the exact model, since spring ends and lengths are not interchangeable.", price: "From $45", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+replacement+springs&tag=pilatescollective-20" },
   { name: "Reformer Ropes and Straps", description: "The cheapest meaningful improvement to a secondhand machine. Stretched ropes quietly change the working length of every strap exercise, and mismatched sides are worse than both being long. Replace as a matched pair. On an older machine, adjustable ropes are sometimes an upgrade over what was originally fitted.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+ropes+straps+replacement&tag=pilatescollective-20" },
@@ -208,6 +215,20 @@ export default function BuyingAUsedPilatesReformerPage() {
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Reformers */}
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>New prices to value a used machine against</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                Price a secondhand machine down from what it costs new today, not from what the seller paid. These are the current figures. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+              </p>
+              <div className="space-y-8">
+                {REFORMERS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 ))}
               </div>
             </div>
