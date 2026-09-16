@@ -50,13 +50,13 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Merrithew V2 Max Plus Reformer",
-    price: "From $3,995",
-    verdict: "Best extended Merrithew for tall practitioners",
+    name: "Merrithew V2 Max Reformer",
+    price: "From $4,999",
+    verdict: "Best Merrithew for tall practitioners",
     description:
-      "The Merrithew V2 Max Plus is the most capable machine in Merrithew's extended line — longer than the standard V2 Max, with an extended footbar reach that specifically addresses the reach limitation experienced by tall practitioners on standard-length reformers. The STOTT system's five-spring configuration and colour-coded spring system provide more precise resistance calibration than most competitors, which matters for tall practitioners whose longer limbs change spring loading dynamics. The V2 Max Plus also includes an integrated tower component that adds vertical spring exercises to the reformer platform — effectively combining two pieces of apparatus in a single machine without requiring a separate tower unit.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+v2+max+plus+reformer&tag=pilatescollective-20",
-    tag: "Best with Tower",
+      "The V2 Max is the machine to look at in Merrithew's range if you are tall, because it runs a wider carriage than the SPX line on a 97-inch rail, and carriage width matters as much as length once shoulders and hips are broader than the machine assumes. The five-spring system with colour-coded high-precision gradation gives finer resistance control than most competitors, which matters for tall practitioners whose longer limbs change how a given spring loads. The patented retractable rope system also keeps rope length adjustable, which is the specific thing that goes wrong for tall users on machines with fixed ropes. Merrithew sells a Plus version with an integrated tower above this price; confirm the current figure for that configuration with an authorised dealer.",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+v2+max+reformer&tag=pilatescollective-20",
+    tag: "Best Wide Carriage",
   },
   {
     rank: "04",

@@ -83,12 +83,12 @@ const PRODUCTS = [
   },
   {
     rank: "06",
-    name: "Stott Pilates SPX Max Plus Reformer",
-    price: "From $3,200",
-    verdict: "Best Premium Entry Point",
-    description: "Merrithew's SPX Max Plus is the most accessible machine on this list while still delivering professional studio performance. The reformer features a five-spring system, adjustable footbar with four positions, and the Merrithew proprietary rope-and-pulley system that has earned the trust of hospitals, physical therapy clinics, and elite training facilities globally. For practitioners entering the luxury reformer market, the SPX Max Plus is the most considered starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+spx+max+reformer+merrithew&tag=pilatescollective-20",
-    tag: "Premium Entry",
+    name: "Merrithew V2 Max Reformer",
+    price: "From $4,999",
+    verdict: "Best Clinical Pedigree",
+    description: "The V2 Max is Merrithew's professional reformer and the machine the STOTT PILATES method was built around. It runs a five-spring system with high-precision gradation, a wider carriage than the SPX line, and the patented retractable rope system that keeps the ropes out of the way between exercises. That combination is why it is found in hospitals, physiotherapy clinics and teacher-training centres rather than only in studios. At $4,999 it is priced against the Balanced Body Studio Reformer, and the choice between them comes down to whether you want Merrithew's rehabilitation orientation or Balanced Body's accessory ecosystem.",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+v2+max+reformer&tag=pilatescollective-20",
+    tag: "Clinical Grade",
   },
 ];
 
