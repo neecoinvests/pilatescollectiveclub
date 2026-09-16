@@ -29,6 +29,46 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "How to Open a Pilates Studio (2026)",
+    excerpt: "A studio is a property business with an equipment problem attached. Premises, licensing, insurance and the numbers that decide it.",
+    href: "/blog/how-to-open-a-pilates-studio",
+    category: "Guide",
+    readTime: "15 min",
+    imageUrl: "/pictures/stitch-studio-entryway.png",
+  },
+  {
+    title: "Pilates Studio Equipment Cost Breakdown",
+    excerpt: "Itemised budgets for a 3, 6 and 10 reformer studio at real list prices, plus the costs most first-time owners leave out.",
+    href: "/blog/pilates-studio-equipment-cost-breakdown",
+    category: "Guide",
+    readTime: "12 min",
+    imageUrl: "/pictures/stitch-reformers-aerial-row.png",
+  },
+  {
+    title: "Commercial vs Home Pilates Reformer",
+    excerpt: "The warranty clause decides it, not the frame. What the commercial tier buys you and when it is wasted money.",
+    href: "/blog/commercial-vs-home-pilates-reformer",
+    category: "Comparison",
+    readTime: "11 min",
+    imageUrl: "/pictures/stitch-reformer-spring-detail.png",
+  },
+  {
+    title: "Reformer Dimensions & Space Requirements",
+    excerpt: "Footprints by class, the clearance nobody measures, ceiling height for tower work, and getting it through the door.",
+    href: "/blog/pilates-reformer-dimensions-and-space-requirements",
+    category: "Equipment",
+    readTime: "11 min",
+    imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png",
+  },
+  {
+    title: "Pilates Equipment Black Friday Guide (2026)",
+    excerpt: "What genuinely discounts in November, what never does, and the list prices to measure any claim against.",
+    href: "/blog/pilates-equipment-black-friday-guide",
+    category: "Guide",
+    readTime: "10 min",
+    imageUrl: "/pictures/stitch-retail-activewear.png",
+  },
+  {
     title: "Best Spin Bikes Under $500 (2026)",
     excerpt: "Flywheel weight and resistance type decide it. The budget bikes worth buying, and what to budget beyond them.",
     href: "/blog/best-spin-bike-under-500",
