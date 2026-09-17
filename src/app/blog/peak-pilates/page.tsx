@@ -61,7 +61,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Peak Pilates Fit Reformer",
-    price: "From $1,899",
+    price: "From $2,200",
     verdict: "Best compact Peak Pilates option",
     description:
       "The Peak Pilates Fit Reformer occupies the most accessible position in Peak's lineup — a shorter, lighter machine designed for home practitioners who want genuine spring-based reformer performance in a space-efficient package. The five-spring system is retained from the larger models, which means the Fit does not compromise on resistance quality. The trade-off is carriage travel distance — approximately 8 inches shorter than the MVe — which limits full extension in some exercises for practitioners above 6'0\". For the majority of the population and the majority of the repertoire, the Fit performs without meaningful compromise. The Baltic Birch wood details bring the casa's aesthetic warmth to a more accessible price point.",

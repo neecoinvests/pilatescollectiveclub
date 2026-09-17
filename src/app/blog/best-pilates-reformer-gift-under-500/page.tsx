@@ -76,20 +76,12 @@ const PRODUCTS = [
     description: "The AeroPilates 4-Cord Reformer sits between the entry-level Performer Plus and the fuller Pro XP 556 — four resistance cords, a padded carriage, folding frame, and a rope-and-pulley system for arm and leg work. It is a cleaner, simpler machine than the full bundle models: no jump board, no accessories to manage, just the core reformer experience at a well-made price point. The four-cord system provides a genuine range of resistance that covers most beginner and intermediate exercises without exceeding the $350 threshold. For a recipient who wants simplicity and quality without extra components, this is the right choice.",
     affiliateUrl: "https://www.amazon.com/s?k=aeropilates+4+cord+pilates+reformer&tag=pilatescollective-20",
   },
-  {
-    rank: "06",
-    name: "Align-Pilates H1 Home Reformer",
-    price: "$495",
-    verdict: "Best Traditional Spring System Under $500",
-    description: "Most reformers under $500 use bungee cords rather than traditional coil springs — a meaningful quality difference that experienced practitioners feel immediately. The Align-Pilates H1 is the exception: it uses three traditional springs at the top end of this price range, providing the authentic resistance curve of a studio reformer rather than the softer, more forgiving feel of bungee. The frame is lighter than their professional models but the rail, carriage, and footbar are built to the same standards. For someone who has trained in a real studio and knows what spring resistance feels like, the H1 is the only under-$500 reformer that will satisfy them. A significant gift that communicates real knowledge of the practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+home+reformer+springs&tag=pilatescollective-20",
-  },
 ];
 
 const CRITERIA = [
   {
     heading: "Bungee vs. springs matters at this budget",
-    body: "Every reformer under $400 uses bungee cord resistance. Bungee is lighter and more forgiving — appropriate for beginners. Above $450, look for traditional coil springs (Align-Pilates H1). If she has studio experience and trains on spring-based reformers, a bungee machine will feel noticeably different. Know which she needs.",
+    body: "Every reformer under $500 uses bungee cord resistance rather than traditional coil springs. Bungee is lighter, more forgiving, and appropriate for beginners, but it is not the same feel as a studio machine. If she has studio experience and trains on spring-based reformers, a bungee machine will feel noticeably different underfoot, and she will notice within the first session. Know which she needs before you buy: a genuine spring reformer starts closer to $1,800.",
   },
   {
     heading: "Foldability is essential for most homes",

@@ -31,7 +31,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Align Pilates H1 Folding Reformer",
-    price: "From $2,199",
+    price: "From $1,790",
     verdict: "Best overall compact reformer",
     description:
       "The Align H1 is the most intelligently designed folding reformer available for home use. In its folded position, it reduces to approximately 60% of its operational footprint and can be stored vertically against a wall — a genuinely viable solution for apartment living where horizontal storage space is the primary constraint. The fold mechanism is smooth and tool-free, requiring less than a minute for setup or storage. In its operational position, the H1 performs comparably to any mid-range clinical reformer: the four-spring system covers the full spring range used in intermediate programming, the carriage glides smoothly on sealed bearings, and the footbar adjusts to three height positions. The aluminium frame is lighter than steel equivalents, making storage transitions manageable for a single practitioner.",
@@ -61,7 +61,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Peak Pilates Fit Reformer",
-    price: "From $1,899",
+    price: "From $2,200",
     verdict: "Best mid-range compact option",
     description:
       "The Peak Pilates Fit Reformer occupies a useful position in the compact reformer market: more substantial than the AeroPilates series but more space-efficient than a full studio reformer. The five-spring system and aluminium rail construction deliver clinical-grade performance in a machine that is 8 inches shorter than the standard Peak model. The carriage dimensions accommodate practitioners up to 6'2\", and the footbar's three-position adjustment system covers the range required for the full classical and contemporary repertoire. The folding mechanism reduces the operational footprint by approximately 40% for storage. A strong choice for the practitioner who has outgrown their entry-level machine and needs a compact upgrade.",

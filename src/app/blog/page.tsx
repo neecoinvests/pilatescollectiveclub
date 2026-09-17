@@ -1519,8 +1519,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
   },
   {
-    title: "Best Pilates Reformers Under $2,000 (2026): Mid-Range Options Tested",
-    excerpt: "The best Pilates reformers under $2,000 — mid-range options tested for performance and value.",
+    title: "Best Pilates Reformer Under $2,000 (2026): 2 Real Picks",
+    excerpt: "A genuine spring reformer confirmed under $2,000, plus the best cord-based alternative, and what else claims this bracket and doesn't.",
     href: "/blog/best-pilates-reformer-under-2000",
     category: "Equipment",
     readTime: "11 min",
