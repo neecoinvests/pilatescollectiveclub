@@ -79,8 +79,8 @@ const comparisons = [
   },
   {
     dimension: "Price range",
-    bb: "The Allegro 2 (the standard professional home/studio model) runs $3,500–$4,200 depending on configuration. The Studio Reformer (commercial grade) is $4,500+. The Rialto and Contrology models extend into the $6,000+ range. Used Balanced Body equipment holds strong resale value.",
-    m: "The SPX Reformer is the best-value Merrithew model at $2,800–$3,400 — a meaningfully lower entry price for professional quality. The V2 Max and V2 Max Plus extend to $4,000–$5,000. Merrithew's pricing gives it an advantage for practitioners who want professional quality with less capital outlay.",
+    bb: "The Allegro 2 (the standard professional home/studio model) runs $3,995, or $4,325 to $4,345 with the leg kit. The Studio Reformer (commercial grade) is $4,400 to $4,800 depending on footbar. The Rialto and Contrology models extend into the $6,000+ range. Used Balanced Body equipment holds strong resale value.",
+    m: "The SPX Max is the best-value Merrithew model at $3,649, a real if modest discount to the Allegro 2. The V2 Max is $4,999, and the Plus variants run higher still. The gap to Balanced Body has narrowed on current pricing, but Merrithew still gives a lower entry point for professional-quality springs.",
     verdict: "Merrithew at entry level, comparable at mid-tier",
   },
   {
@@ -104,8 +104,8 @@ const comparisons = [
 ];
 
 const PRODUCTS = [
-  { name: "Balanced Body Allegro 2 Reformer", description: "The flagship Balanced Body home reformer — wider carriage, fold-flat storage, and the smoothest spring system at this price point. The benchmark that most alternatives are compared against.", price: "From $3,495", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" },
-  { name: "Merrithew At Home SPX Reformer", description: "Merrithew's home-market reformer — flat-folding, 5-spring system, and purpose-built for practitioners without dedicated studio space. The main Allegro 2 alternative.", price: "From $2,395", affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+SPX+reformer&tag=pilatescollective-20" },
+  { name: "Balanced Body Allegro 2 Reformer", description: "The flagship Balanced Body home reformer — wider carriage, fold-flat storage, and the smoothest spring system at this price point. The benchmark that most alternatives are compared against.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" },
+  { name: "Merrithew At Home SPX Reformer", description: "Merrithew's home-market reformer — flat-folding, 5-spring system, and purpose-built for practitioners without dedicated studio space. The main Allegro 2 alternative.", price: "From $3,299", affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+SPX+reformer&tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Consistent with the Balanced Body system and compatible with all their reformers. A useful home accessory regardless of which brand's reformer you ultimately choose.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "For home practice while deciding between reformer brands. Resistance bands allow meaningful Pilates work without a reformer — useful during the research and decision period.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "The foundation of any home Pilates setup regardless of brand. A quality mat is the first purchase — the reformer follows once you know the practice suits you.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
@@ -193,7 +193,7 @@ export default function BalancedBodyVsMerrithewPage() {
                   "STOTT-trained instructor setting up a private studio → Merrithew V2 Max. Your curriculum and machine are designed together; the exercises, spring tensions, and footbar positions all correspond.",
                   "Studio owner wanting the broadest possible accessory expansion path → Balanced Body Studio Reformer or Allegro 2. Nothing matches the depth of the Balanced Body apparatus ecosystem.",
                   "Home practitioner with a space constraint → Merrithew At Home SPX. The folding design is genuinely superior for apartments and shared spaces.",
-                  "Home practitioner with dedicated studio space, $3,500–$4,500 budget → Balanced Body Allegro 2. Better long-term resale value, deeper accessory options, global service network.",
+                  "Home practitioner with dedicated studio space, $3,995–$4,400 budget → Balanced Body Allegro 2. Better long-term resale value, deeper accessory options, global service network.",
                   "Commercial studio needing maximum durability under heavy use → Balanced Body Studio Reformer without hesitation. The machine is engineered for this use case specifically.",
                   "Rehabilitation clinic or physiotherapy practice → Merrithew SPX. The STOTT curriculum has deeper integration with rehabilitation protocols, and the price point is more appropriate for healthcare contexts.",
                 ].map((tip, i) => (

@@ -474,7 +474,7 @@ const PRODUCT_CATEGORIES = [
       {
         name: "Merrithew SPX Max",
         description: "The professional studio standard used in accredited training centres worldwide. Full 5-spring system, 97-inch rail, 350 lb capacity. The entry point to serious home practice.",
-        price: "From $2,199",
+        price: "From $3,649",
         affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20",
         imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
       },
@@ -488,14 +488,14 @@ const PRODUCT_CATEGORIES = [
       {
         name: "Merrithew V2 Max",
         description: "Merrithew's most advanced machine. Patented retractable rope system, 24-inch carriage, high-precision springs. The quietest reformer in the Merrithew range.",
-        price: "From $3,500",
+        price: "From $4,999",
         affiliateUrl: "https://www.amazon.com/s?k=merrithew+v2+max+reformer&tag=pilatescollective-20",
         imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
       },
       {
         name: "Gratz Universal Reformer",
-        description: "The original. Built since 1965 under Joseph Pilates' direction, handmade in New York. Four springs, 3-gear bar, unchanged in six decades. $4,995–$5,295.",
-        price: "From $4,995",
+        description: "The original. Built since 1965 under Joseph Pilates' direction, handmade in New York. Four springs, 3-gear bar, unchanged in six decades. $4,590–$5,295.",
+        price: "From $4,590",
         affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
         imageUrl: "/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg",
       },

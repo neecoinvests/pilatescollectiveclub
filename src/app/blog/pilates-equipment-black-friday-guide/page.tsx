@@ -64,19 +64,19 @@ const jsonLd = {
 };
 
 const REFORMER_BASELINE = [
-  { item: "AeroPilates Pro XP 557", tier: "Consumer", price: "$699" },
-  { item: "Merrithew At Home SPX", tier: "Compact", price: "$1,499" },
-  { item: "Merrithew SPX Max", tier: "Studio standard", price: "$3,649" },
+  { item: "AeroPilates Pro XP 557", tier: "Consumer", price: "$1,329" },
   { item: "Balanced Body Metro IQ", tier: "Studio standard", price: "$2,295" },
   { item: "Align Pilates C8 Pro", tier: "Studio standard", price: "$2,750" },
-  { item: "Merrithew V2 Max", tier: "Studio standard", price: "$4,999" },
-  { item: "Elina Pilates Elite Wood", tier: "Premium", price: "$3,585" },
+  { item: "Merrithew At Home SPX", tier: "Compact", price: "$3,299" },
+  { item: "Merrithew SPX Max", tier: "Studio standard", price: "$3,649" },
   { item: "Align Pilates A8 Pro", tier: "Studio standard", price: "$3,700" },
   { item: "BASI Systems Reformer", tier: "Premium", price: "~$3,900" },
   { item: "Balanced Body Allegro 2", tier: "Studio standard", price: "$3,995" },
+  { item: "Elina Pilates Elite Wood", tier: "Premium", price: "$3,995" },
   { item: "Peak Pilates MVe", tier: "Premium", price: "$4,295" },
   { item: "Balanced Body Studio Reformer", tier: "Studio standard", price: "$4,400" },
-  { item: "Gratz Universal Aluminum", tier: "Classical", price: "$4,995" },
+  { item: "Gratz Universal Aluminum", tier: "Classical", price: "$4,590" },
+  { item: "Merrithew V2 Max", tier: "Studio standard", price: "$4,999" },
   { item: "Gratz Maple Classic", tier: "Classical", price: "$5,295" },
 ];
 

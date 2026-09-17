@@ -8,8 +8,8 @@ import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Best Home Pilates Reformer (2026): $299 to $3,495 Compared",
-  description: "Home Pilates reformers from $299 to $3,495 compared on springs, rail length and footprint — plus which budget tier actually fits your space and practice.",
+  title: "Best Home Pilates Reformer (2026): $299 to $3,995 Compared",
+  description: "Home Pilates reformers from $299 to $3,995 compared on springs, rail length and footprint — plus which budget tier actually fits your space and practice.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
     description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",
@@ -45,7 +45,7 @@ const PRODUCTS = [
   {
     name: "AeroPilates Pro XP 557",
     tier: "Mid-Range",
-    price: "From $799",
+    price: "From $1,329",
     verdict: "Best mid-range reformer",
     description:
       "The 557 is a meaningful step up — four cords, a smoother carriage, a full standing platform, and a rebounder built for cardio intervals. The adjustable footbar and shoulder rests accommodate a wider range of heights, and the frame is substantially more rigid than budget models. For practitioners who train four or more times per week, this is the sweet spot between cost and quality.",
@@ -56,7 +56,7 @@ const PRODUCTS = [
   {
     name: "Merrithew SPX Max",
     tier: "Premium",
-    price: "From $2,199",
+    price: "From $3,649",
     verdict: "Best professional-grade home reformer",
     description:
       "The SPX Max is the machine you'll find in professional training studios worldwide — a full spring system, full-length rails, and a carriage that moves with the precision and weight you'll recognise from your best studio sessions. The jump board attachment, vertical stand, and tower options make this a complete apparatus investment. Built to last decades with proper maintenance.",
@@ -67,7 +67,7 @@ const PRODUCTS = [
   {
     name: "Balanced Body Allegro 2",
     tier: "Premium",
-    price: "From $3,495",
+    price: "From $3,995",
     verdict: "Best overall home reformer",
     description:
       "The Allegro 2 is the gold standard for serious home practitioners. Used by professional dancers, physiotherapists, and elite instructors worldwide, it features Balanced Body's signature smooth-glide carriage, a full four-spring system, fold-flat option, and compatibility with the complete Balanced Body accessories range including the Tower, Cadillac, and Box. If you're committing to a serious home practice, this is the machine to buy once.",
@@ -278,9 +278,9 @@ export default function BestHomeReformerPage() {
                     <tbody>
                       {[
                         { model: "Stamina 287", price: "$299", resistance: "4 cords", rail: "88\"", best: "Beginners, small spaces" },
-                        { model: "AeroPilates 557", price: "$799", resistance: "4 cords", rail: "91\"", best: "Regular practitioners" },
+                        { model: "AeroPilates 557", price: "$1,329", resistance: "4 cords", rail: "91\"", best: "Regular practitioners" },
                         { model: "Merrithew SPX Max", price: "$3,649", resistance: "5 springs", rail: "96\"", best: "Serious practitioners" },
-                        { model: "Balanced Body Allegro 2", price: "$3,495", resistance: "4 springs", rail: "99\"", best: "Professional home studio" },
+                        { model: "Balanced Body Allegro 2", price: "$3,995", resistance: "4 springs", rail: "99\"", best: "Professional home studio" },
                       ].map((row, i) => (
                         <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
                           <td className="px-4 py-3 font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.model}</td>
@@ -299,7 +299,7 @@ export default function BestHomeReformerPage() {
               <div className="mb-16">
                 <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Start from your constraint, not the price list</h2>
                 <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  Almost nobody buying a reformer is choosing freely between a $299 machine and a $3,495 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
+                  Almost nobody buying a reformer is choosing freely between a $299 machine and a $3,995 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {[
