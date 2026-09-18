@@ -44,27 +44,27 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Align-Pilates C2 Reformer",
-    price: "From $850",
-    verdict: "Best spring reformer under $1,000",
-    tag: "Spring Pick",
+    name: "Stamina AeroPilates Premier 700",
+    price: "From $549",
+    verdict: "Best premium cord-based pick",
+    tag: "Premium Cord Pick",
     description:
-      "The Align-Pilates C2 is notable for one reason: it uses steel springs at a price point under $1,000. The five-spring system delivers genuine spring resistance, the footbar adjusts across three positions, and the aluminium frame is stable under load. The carriage action is somewhat rougher than Balanced Body or Merrithew at this price, but for practitioners who want spring resistance without breaking $1,000, this is the only option.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+reformer&tag=pilatescollective-20",
-    pros: ["Steel springs — unique at this price", "Five-spring system", "Adjustable footbar"],
-    cons: ["Carriage action rougher than premium brands", "No rebounder included", "Heavier aluminium frame"],
+      "There is no genuine spring reformer from a recognised brand under $1,000 — the honest exception at this price is the BalanceFrom Pilates Reformer (from $389, covered in our under-$500 guide), and the next real spring machine after that is the Align-Pilates H1 at roughly $1,790. Inside that gap, the Premier 700 is the best cord-based machine: it rests on its own stand for easier mounts and dismounts, has a taller cardio rebounder, a wider trapezoidal platform, and a wider foot bar than the entry-level AeroPilates models. Four resistance cords cover a real range, and the stand makes it noticeably more comfortable to use daily than the base 287. If cord resistance is the ceiling of your budget, this is the machine to buy at the top of that ceiling.",
+    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+premier+700&tag=pilatescollective-20",
+    pros: ["Elevated stand for easier mounts", "Wider platform and foot bar", "Best cord-based build quality under $1,000"],
+    cons: ["Still cord resistance, not springs", "No rebounder height adjustment", "Takes more floor space than folding models"],
   },
   {
     rank: "04",
-    name: "Vive Pilates Reformer",
+    name: "AeroPilates Reformer Plus 379",
     price: "From $450",
     verdict: "Best mid-budget",
     tag: "Mid-Range Pick",
     description:
-      "The Vive reformer occupies the mid-point of this bracket — a cord resistance system with a slightly wider carriage than the AeroPilates range, adjustable shoulder rests, and a footbar with four position settings. The build quality is noticeably below the AeroPilates 557 at a similar price, but the wider carriage suits taller practitioners. Best for consistent home practice at a reasonable price, not high-intensity daily training.",
-    affiliateUrl: "https://www.amazon.com/s?k=vive+pilates+reformer&tag=pilatescollective-20",
-    pros: ["Wider carriage suits taller users", "Four footbar positions", "Adjustable shoulder rests"],
-    cons: ["Build quality below AeroPilates", "Cord resistance only", "Not suitable for intense daily use"],
+      "The Reformer Plus 379 occupies the mid-point of this bracket — a four-cord resistance system with a cardio rebounder, padded foot bar, and workout DVDs included. It sits between the entry-level 287 and the Premier 700 in both build and price: a wider platform than the 287, but without the elevated stand of the Premier line. Best for consistent home practice at a reasonable price, not high-intensity daily training.",
+    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+reformer+plus+379&tag=pilatescollective-20",
+    pros: ["Cardio rebounder included", "Wider platform than entry-level 287", "Good value between budget and premium tiers"],
+    cons: ["Build quality below the Premier 700", "Cord resistance only", "Not suitable for intense daily use"],
   },
 ];
 
@@ -115,7 +115,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Can you get a decent Pilates reformer for under $1,000?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes, with one important caveat: most reformers under $1,000 use cord resistance rather than steel springs. The Align-Pilates C2 is the exception — it uses springs at approximately $850. If spring resistance is important to you, the C2 is your only sub-$1,000 option. If you're a beginner or primarily interested in flexibility and foundational work, the AeroPilates 557 is an excellent value." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes, with one important caveat: nearly every reformer under $1,000 uses cord resistance rather than steel springs. The one genuine exception is the BalanceFrom Pilates Reformer at around $389, which uses real coil springs. Above that and up to $1,000, you are choosing the best cord-based build, such as the Premier 700. If spring resistance matters more than budget, the next real spring machine is the Align-Pilates H1 at roughly $1,790." }
         },
         {
           "@type": "Question",
@@ -227,7 +227,7 @@ export default function BestPilatesReformerUnder1000Page() {
                 <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
-                    { q: "Can you get a decent Pilates reformer for under $1,000?", a: "Yes, with one important caveat: most reformers under $1,000 use cord resistance rather than steel springs. The Align-Pilates C2 is the exception — it uses springs at approximately $850. If spring resistance is important to you, the C2 is your only sub-$1,000 option. If you're a beginner or primarily interested in flexibility and foundational work, the AeroPilates 557 is an excellent value." },
+                    { q: "Can you get a decent Pilates reformer for under $1,000?", a: "Yes, with one important caveat: nearly every reformer under $1,000 uses cord resistance rather than steel springs. The one genuine exception is the BalanceFrom Pilates Reformer at around $389, which uses real coil springs. Above that and up to $1,000, you are choosing the best cord-based build, such as the Premier 700. If spring resistance matters more than budget, the next real spring machine is the Align-Pilates H1 at roughly $1,790." },
                     { q: "What is the difference between a $500 and a $2,000 reformer?", a: "Spring system vs cord resistance is the primary functional difference. Steel springs maintain consistent tension throughout the movement; cords increase resistance toward the end of the movement. At $500, you get a cord-based system with lighter build quality. At $2,000, you get a steel spring system with a heavier, more stable frame and a smoother carriage action that closely matches studio machines." },
                     { q: "Is it worth buying a budget home reformer?", a: "For beginners who want to practice at home between studio sessions, yes. For experienced practitioners who train seriously, a budget reformer will likely disappoint. The cord resistance and lighter build are manageable for moderate use but won't replicate the reformer experience you have at a professional studio." },
                   ].map((item) => (

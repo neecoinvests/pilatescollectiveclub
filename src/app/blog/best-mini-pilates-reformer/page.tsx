@@ -57,7 +57,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Align-Pilates C2 Pro RC Reformer",
-    price: "From $1,499",
+    price: "From $2,190",
     verdict: "Best premium compact",
     tag: "Premium Pick",
     description:

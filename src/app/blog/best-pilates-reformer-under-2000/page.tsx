@@ -34,8 +34,8 @@ const PRODUCTS = [
     price: "From $1,790",
     verdict: "Best overall — genuine spring resistance",
     description:
-      "The H1 is the machine we missed the first time we rebuilt this guide, and it is the one genuine spring reformer we can currently confirm under $2,000 from a recognised brand. It runs four music-wire springs in three strengths (one strong, two medium, one light) rather than bungee cord, which means a linear resistance curve that behaves like the reformer you trained on in a studio, not a softer approximation of one. It does not fold flat for under-bed storage; instead it stands upright on its own frame and wheels out of the way, which needs a ceiling of at least 2.4m (about 7'10\") to store standing. Rated to 120kg (265lb) and built for practitioners from 4'10\" to 6'4\". Dealer pricing varies more than most reformers in this guide, from around $1,600 to $1,900 depending on retailer and current stock, so check the total before ordering.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+home+reformer&tag=pilatescollective-20",
+      "The H1 is the machine we missed the first time we rebuilt this guide, and it is the one genuine spring reformer we can currently confirm under $2,000 from a recognised brand. It runs four music-wire springs in three strengths (one strong, two medium, one light) rather than bungee cord, which means a linear resistance curve that behaves like the reformer you trained on in a studio, not a softer approximation of one. It does not fold flat for under-bed storage; instead it stands upright on its own frame and wheels out of the way, which needs a ceiling of at least 2.4m (about 7'10\") to store standing. Rated to 120kg (265lb) and built for practitioners from 4'10\" to 6'4\". Dealer pricing varies more than most reformers in this guide, from around $1,600 to $1,900 depending on retailer and current stock, so check the total before ordering. Note: the H1 is not reliably stocked on Amazon.com — this link goes to an authorized dealer instead.",
+    affiliateUrl: "https://recovathlete.com/products/align-pilates-h1-home-reformer-machine",
     tag: "Best Overall",
   },
   {

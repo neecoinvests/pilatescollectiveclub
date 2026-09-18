@@ -66,7 +66,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Align-Pilates C2 Pro Reformer",
-    price: "From $1,499",
+    price: "From $2,190",
     verdict: "Best mid-tier spring reformer with folding option",
     description:
       "The Align-Pilates C2 Pro offers studio-grade spring resistance in a frame that folds upright for storage. Five springs, adjustable footbar, sealed roller carriage, and a solid aluminium and steel construction that matches the build quality of machines costing twice as much. Align-Pilates is a UK brand with growing distribution in the US and EU; their machines are manufactured to professional specifications and have earned serious endorsement from working Pilates instructors. The C2 Pro's folding mechanism is less compact than the AeroPilates (it folds upright, not flat), but the spring system and carriage quality are in a different tier entirely. An excellent choice for practitioners ready for real spring resistance in a storable form.",

@@ -57,8 +57,8 @@ const PRODUCTS = [
     name: "Align-Pilates H1 Reformer",
     price: "From $1,790",
     verdict: "Best Value Mid-Range Reformer",
-    description: "Align-Pilates makes professional-grade reformers in the UK and has built a strong reputation in the studio market for quality that rivals Merrithew and Balanced Body at a lower price point. The H1 is their compact home reformer: a steel frame, genuine coil springs (not bungee), a padded carriage, and a footbar sized for the full repertoire. Traditional springs provide the authentic reformer resistance that bungee-cord alternatives cannot replicate — important for someone who trains seriously or has studio experience. It also folds for storage, which matters for anyone without a dedicated pilates room. This is the best-value traditionally-sprung reformer available for home gifting.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+reformer&tag=pilatescollective-20",
+    description: "Align-Pilates makes professional-grade reformers in the UK and has built a strong reputation in the studio market for quality that rivals Merrithew and Balanced Body at a lower price point. The H1 is their compact home reformer: a steel frame, genuine coil springs (not bungee), a padded carriage, and a footbar sized for the full repertoire. Traditional springs provide the authentic reformer resistance that bungee-cord alternatives cannot replicate — important for someone who trains seriously or has studio experience. It also folds for storage, which matters for anyone without a dedicated pilates room. This is the best-value traditionally-sprung reformer available for home gifting. Not reliably stocked on Amazon.com — buy direct from an authorized Align-Pilates dealer.",
+    affiliateUrl: "https://recovathlete.com/products/align-pilates-h1-home-reformer-machine",
   },
   {
     rank: "04",

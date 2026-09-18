@@ -35,9 +35,9 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Align-Pilates C2 Pro Reformer",
-    price: "From $1,499",
+    price: "From $2,190",
     verdict: "Best entry into professional-grade reformers",
-    description: "The C2 Pro is Align-Pilates' entry professional model — the first Align machine to earn genuine endorsement from working instructors rather than casual home users. Five springs, sealed bearings, adjustable footbar, and an aluminium frame that matches the structural rigidity of machines in a significantly higher price bracket. The primary difference from the C8 Pro is refinement of components: the C2 Pro's footbar adjustment is two-position (vs three), the shoulder rest padding is slightly thinner, and the overall polish is a step below the flagship. For practitioners and instructors who want a credible professional machine at an accessible price, the C2 Pro is exceptional value. It also folds upright — a meaningful advantage over the non-folding C8 Pro for home studios.",
+    description: "The C2 Pro is Align-Pilates' entry professional model — the first Align machine to earn genuine endorsement from working instructors rather than casual home users. Five springs, sealed bearings, adjustable footbar, and an aluminium frame that matches the structural rigidity of machines in a significantly higher price bracket. The primary difference from the C8 Pro is refinement of components: the C2 Pro's footbar adjustment is two-position (vs three), the shoulder rest padding is slightly thinner, and the overall polish is a step below the flagship — at a real, though not dramatic, price advantage over the C8 Pro. For practitioners and instructors who want a credible professional machine at a lower price than the flagship, the C2 Pro is solid value. It also folds upright — a meaningful advantage over the non-folding C8 Pro for home studios.",
     affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=pilatescollective-20",
     tag: "Best Entry Pro",
   },
@@ -46,8 +46,8 @@ const PRODUCTS = [
     name: "Align-Pilates H1 Reformer + Tower Attachment",
     price: "From $1,790",
     verdict: "Best complete home studio setup",
-    description: "The H1 is Align-Pilates' foldable home reformer (from roughly $1,790), and it accepts a separately-sold tower attachment rather than shipping as one fixed reformer-and-tower SKU — giving access to the reformer and tower repertoire without needing a separate Cadillac, once both pieces are bought. For home practitioners who want to progress beyond the reformer into trapeze work, push-through bar exercises, and leg spring exercises, buying the H1 with a compatible tower attachment is typically cheaper than a separate $1,500+ standalone tower purchase from a major brand. The reformer component uses genuine coil-spring resistance; the tower adds springs, a push-through bar, and a roll-down bar. Full assembly of both pieces requires approximately three hours but results in a genuinely complete apparatus that covers most of what a full studio Cadillac offers.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+reformer+tower+attachment&tag=pilatescollective-20",
+    description: "The H1 is Align-Pilates' foldable home reformer (from roughly $1,790), and it accepts a separately-sold tower attachment rather than shipping as one fixed reformer-and-tower SKU — giving access to the reformer and tower repertoire without needing a separate Cadillac, once both pieces are bought. For home practitioners who want to progress beyond the reformer into trapeze work, push-through bar exercises, and leg spring exercises, buying the H1 with a compatible tower attachment is typically cheaper than a separate $1,500+ standalone tower purchase from a major brand. The reformer component uses genuine coil-spring resistance; the tower adds springs, a push-through bar, and a roll-down bar. Full assembly of both pieces requires approximately three hours but results in a genuinely complete apparatus that covers most of what a full studio Cadillac offers. Not reliably stocked on Amazon.com — buy direct from an authorized Align-Pilates dealer, which will also carry the tower attachment.",
+    affiliateUrl: "https://recovathlete.com/products/align-pilates-h1-home-reformer-machine",
     tag: "Reformer + Tower",
   },
   {

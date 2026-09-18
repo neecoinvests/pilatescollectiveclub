@@ -34,8 +34,8 @@ const PRODUCTS = [
     price: "From $1,790",
     verdict: "Best overall compact reformer",
     description:
-      "The Align H1 is the most intelligently designed folding reformer available for home use. In its folded position, it reduces to approximately 60% of its operational footprint and can be stored vertically against a wall — a genuinely viable solution for apartment living where horizontal storage space is the primary constraint. The fold mechanism is smooth and tool-free, requiring less than a minute for setup or storage. In its operational position, the H1 performs comparably to any mid-range clinical reformer: the four-spring system covers the full spring range used in intermediate programming, the carriage glides smoothly on sealed bearings, and the footbar adjusts to three height positions. The aluminium frame is lighter than steel equivalents, making storage transitions manageable for a single practitioner.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+folding+reformer&tag=pilatescollective-20",
+      "The Align H1 is the most intelligently designed folding reformer available for home use. In its folded position, it reduces to approximately 60% of its operational footprint and can be stored vertically against a wall — a genuinely viable solution for apartment living where horizontal storage space is the primary constraint. The fold mechanism is smooth and tool-free, requiring less than a minute for setup or storage. In its operational position, the H1 performs comparably to any mid-range clinical reformer: the four-spring system covers the full spring range used in intermediate programming, the carriage glides smoothly on sealed bearings, and the footbar adjusts to three height positions. The aluminium frame is lighter than steel equivalents, making storage transitions manageable for a single practitioner. Not reliably stocked on Amazon.com — buy direct from an authorized Align-Pilates dealer.",
+    affiliateUrl: "https://recovathlete.com/products/align-pilates-h1-home-reformer-machine",
     tag: "Editor's Pick",
   },
   {

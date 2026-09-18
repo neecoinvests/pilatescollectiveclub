@@ -62,9 +62,9 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Align-Pilates C2 Pro Reformer",
-    price: "From $1,499",
+    price: "From $2,190",
     verdict: "Best mid-range first spring reformer",
-    description: "For a beginner ready for a real spring reformer but not yet committed to the Balanced Body or Merrithew investment, the Align-Pilates C2 Pro is the smart middle ground. Five springs, sealed bearing carriage, adjustable footbar — everything a beginner needs for the full foundational repertoire. The price advantage over the major brands is genuine; the spring quality and carriage smoothness are comparable to machines costing twice as much. The C2 Pro also folds upright for storage. For a beginner who has trained in a studio, is confident in the practice, and wants real spring resistance without a $3,000+ outlay, the C2 Pro is the clearest value recommendation in the market.",
+    description: "For a beginner ready for a real spring reformer but not yet committed to the Balanced Body or Merrithew investment, the Align-Pilates C2 Pro is the smart middle ground. Five springs, sealed bearing carriage, adjustable footbar — everything a beginner needs for the full foundational repertoire. The price advantage over Balanced Body and Merrithew is genuine; the spring quality and carriage smoothness are comparable to machines costing significantly more. The C2 Pro also folds upright for storage. For a beginner who has trained in a studio, is confident in the practice, and wants real spring resistance without a $3,000+ outlay, the C2 Pro is a strong value recommendation.",
     affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=pilatescollective-20",
     tag: "Best Value Spring",
   },

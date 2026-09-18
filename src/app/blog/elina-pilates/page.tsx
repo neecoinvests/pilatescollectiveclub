@@ -70,12 +70,12 @@ const PRODUCTS = [
   },
   {
     rank: "05",
-    name: "Elina Pilates Wunda Chair",
+    name: "Elina Pilates Baby Chair",
     price: "From $1,300",
     verdict: "Best companion piece for Elina owners",
     description:
-      "The Elina Wunda Chair matches the aesthetic of the Elite Wood Reformer precisely — same wood finishes, same upholstery options — making it the natural companion for practitioners building a coordinated home studio around Elina's wood line. Functionally, the split-pedal design and four-spring configuration cover the full contemporary Wunda Chair repertoire, and the construction quality is consistent with Elina's reformer line. It is one of the few chairs available where the visual integration with a companion reformer is deliberately engineered rather than incidental. For a dedicated home studio, the pairing of the Elite Wood Reformer and Elina Wunda Chair creates one of the most aesthetically cohesive and functionally complete home setups available below the Balanced Body price ceiling.",
-    affiliateUrl: "https://www.amazon.com/s?k=elina+pilates+wunda+chair&tag=pilatescollective-20",
+      "The Elina Baby Chair matches the aesthetic of the Elite Wood Reformer — same wood finishes, same upholstery options — making it the natural companion for practitioners building a coordinated home studio around Elina's wood line. It is a compact chair built around a base you sit or kneel on with two arm springs connected to a movable backrest, covering more than 60 exercises and doubling as a rehabilitation and beginner-teaching tool. The construction quality is consistent with Elina's reformer line. For a dedicated home studio, pairing the Elite Wood Reformer with the Elina Baby Chair creates one of the most aesthetically cohesive home setups available below the Balanced Body price ceiling.",
+    affiliateUrl: "https://www.amazon.com/dp/B0BN8MBHYV?tag=pilatescollective-20",
     tag: "Best Companion",
   },
 ];
