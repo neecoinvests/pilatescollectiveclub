@@ -34,11 +34,11 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Align-Pilates H1 Reformer with Tower",
-    price: "From $2,800",
-    verdict: "Best value reformer + tower bundle",
-    description: "The Align-Pilates H1 is the most compelling value in the reformer-with-tower category — a complete reformer and integrated tower system sold as a single bundle at significantly less than the equivalent Balanced Body or Merrithew combination. The reformer component matches the Align-Pilates C2 Pro in build quality (five springs, sealed bearings, adjustable footbar); the tower adds push-through bar, roll-down bar, and arm and leg springs. The H1 does not fold as compactly as the Allegro 2 but represents meaningful savings — approximately $1,400 less than the Balanced Body equivalent for comparable functionality. For practitioners who want the reformer and tower repertoire without the premium price of the major American brands, the H1 is the strongest recommendation in the market.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+reformer+tower&tag=pilatescollective-20",
+    name: "Align-Pilates Reformer with Tower Attachment",
+    price: "From $1,790",
+    verdict: "Best value reformer + tower combination",
+    description: "Align-Pilates does not sell its home reformers as a single fixed reformer-plus-tower SKU the way Balanced Body bundles the Allegro 2 — instead, the H1 reformer (from roughly $1,790, coil-spring resistance, foldable for storage) is bought separately from a compatible tower attachment, and the two are combined at checkout or added later. Buying the pieces separately means you are not locked into the tower purchase up front, and can start with the reformer alone. Total cost with a tower attachment typically lands below the equivalent Balanced Body or Merrithew reformer-and-tower combination, though the exact savings depend on which tower configuration you choose. For practitioners who want the reformer and tower repertoire without the premium price of the major American brands, and who don't mind buying reformer and tower as separate line items, this is the strongest value combination in the market.",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+reformer+tower+attachment&tag=pilatescollective-20",
     tag: "Best Value",
   },
   {
@@ -97,7 +97,7 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Is a Pilates tower the same as a Cadillac?", "acceptedAnswer": { "@type": "Answer", "text": "No. A tower is a partial Cadillac — it provides push-through bar, roll-down bar, and arm and leg spring work but lacks the trapeze, overhead bar, and full spring configuration of a standalone Cadillac. A tower covers 60–70% of the Cadillac repertoire." } },
-        { "@type": "Question", "name": "Can I add a tower to any reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Generally, no. Most tower systems are designed for specific reformer brands and models. Always verify compatibility before purchasing a tower add-on. The Align-Pilates H1 is sold as a pre-matched reformer + tower bundle, which eliminates compatibility concerns." } },
+        { "@type": "Question", "name": "Can I add a tower to any reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Generally, no. Most tower systems are designed for specific reformer brands and models. Always verify compatibility before purchasing a tower add-on. Align-Pilates sells a tower attachment matched to its own H1 reformer, which removes the compatibility guesswork, but reformer and tower are still two separate purchases." } },
         { "@type": "Question", "name": "Do I need a tower as a beginner?", "acceptedAnswer": { "@type": "Answer", "text": "No. The tower is appropriate for intermediate-to-advanced practitioners with an established reformer foundation. Beginners should focus on the reformer repertoire before adding tower work." } },
         { "@type": "Question", "name": "What is the minimum ceiling height for tower work?", "acceptedAnswer": { "@type": "Answer", "text": "For most push-through bar exercises, 2.1m minimum. For arm spring and leg spring work, standard ceiling heights are sufficient. If your ceiling is under 2.1m, check specific exercise requirements with your instructor before purchasing a tower." } },
       ],
@@ -169,7 +169,7 @@ export default function PilatesReformerWithTowerPage() {
                   },
                   {
                     heading: "Reformer compatibility",
-                    body: "Most tower systems are designed for specific reformer brands. Balanced Body towers require Balanced Body reformers; the Merrithew Vertical Stand requires Merrithew reformers. The Align-Pilates H1 is an exception — designed as a single integrated reformer-and-tower unit. Always verify compatibility before purchasing a tower add-on.",
+                    body: "Most tower systems are designed for specific reformer brands. Balanced Body towers require Balanced Body reformers; the Merrithew Vertical Stand requires Merrithew reformers. Align-Pilates sells a tower attachment matched to its own H1 reformer, though the two are bought as separate items rather than one bundled unit. Always verify compatibility before purchasing a tower add-on.",
                   },
                   {
                     heading: "Spring configuration",
@@ -276,7 +276,7 @@ export default function PilatesReformerWithTowerPage() {
                   },
                   {
                     q: "Can I add a tower to any reformer?",
-                    a: "Generally, no. Most tower systems are designed for specific reformer brands and models. Always verify compatibility before purchasing a tower add-on. The Align-Pilates H1 is sold as a pre-matched reformer + tower bundle, which eliminates compatibility concerns.",
+                    a: "Generally, no. Most tower systems are designed for specific reformer brands and models. Always verify compatibility before purchasing a tower add-on. Align-Pilates sells a tower attachment matched to its own H1 reformer, which removes the compatibility guesswork, but reformer and tower are still two separate purchases.",
                   },
                   {
                     q: "Do I need a tower as a beginner?",

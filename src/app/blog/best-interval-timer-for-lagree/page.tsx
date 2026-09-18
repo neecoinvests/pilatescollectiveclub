@@ -262,7 +262,7 @@ export default function BestIntervalTimerForLagreePage() {
                 />
                 <ArticleCard
                   title="Best Megaformer Machine (2026): Lagree Equipment Reviewed"
-                  excerpt="The Lagree M3S, Supraformer, Proformer, and the best alternatives — a complete buyer's guide to Megaformer machines."
+                  excerpt="The Lagree M3S, The Micro, M3X, and the best alternatives — a complete buyer's guide to Megaformer machines."
                   href="/blog/best-megaformer-machine"
                   category="Equipment"
                   readTime="10 min"

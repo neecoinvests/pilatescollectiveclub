@@ -269,13 +269,13 @@ const EQUIPMENT_BRANDS = [
   },
   {
     name: "PersonalHour",
-    tagline: "Solid oak, extended frames for tall users, and a fold that doesn't sacrifice stability.",
+    tagline: "Solid wood frames, extended options for tall users, and a fold that doesn't sacrifice stability.",
     tier: "Professional",
     priceRange: "$$$",
     href: "/blog/personalhour-pilates",
     imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg",
     bestFor: "Advanced home & athletes",
-    topPick: "Janet Elite Plus",
+    topPick: "Janet La Force Plus",
   },
 ];
 

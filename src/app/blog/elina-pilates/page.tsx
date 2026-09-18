@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   description: "Elina Pilates reformers reviewed from $1,300 to $4,200 — spring quality, carriage travel and frame stability against Balanced Body and Merrithew.",
   keywords: ["elina pilates review", "elina pilates reformer 2026", "elina pilates vs balanced body", "is elina pilates good", "elina pilates elite reformer review", "elina pilates buy", "elina pilates wood reformer", "elina pilates price"],
   openGraph: {
-    title: "Elina Pilates (2026): Equipment Review — Elite & Essence Reformers",
-    description: "Elina Pilates reviewed — Elite and Essence reformers tested for studios and serious home practitioners.",
+    title: "Elina Pilates (2026): Equipment Review — Elite & HL1 Reformers",
+    description: "Elina Pilates reviewed — Elite and HL1 reformers tested for studios and serious home practitioners.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/elina-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", width: 1200, height: 630, alt: "Elina Pilates equipment review — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Elina Pilates (2026): Equipment Review",
-    description: "Elina Pilates Elite and Essence reformers — honest review for studios and home practitioners.",
+    description: "Elina Pilates Elite and HL1 reformers — honest review for studios and home practitioners.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/elina-pilates" },
@@ -50,12 +50,12 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Elina Pilates Essence Reformer",
+    name: "Elina Pilates HL1 Aluminum Reformer",
     price: "From $1,950",
     verdict: "Best Elina entry-level model",
     description:
-      "The Elina Pilates Essence is the brand's mid-range reformer — a machine positioned below the Elite in price and specification while retaining the core quality markers that define Elina's reputation. The Essence uses a four-spring system rather than the Elite's five, which covers the standard spring range used in most intermediate programming but limits the light-spring work available on the higher-specification machine. The carriage glide and frame construction are consistent with the Elite. For practitioners who want Elina quality at a more accessible price point, or for home practitioners establishing a first serious reformer practice before potentially upgrading, the Essence is an honest and capable starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=elina+pilates+essence+reformer&tag=pilatescollective-20",
+      "The HL1 is the brand's entry-level aluminum reformer — a machine positioned below the Elite in price while retaining the core quality markers that define Elina's reputation. It ships with 8 vertical and horizontal PU wheels for a smooth, quiet bed slide, cushioned cotton grips, five types of springs, and an adjustable footbar. The carriage glide and frame construction share the same design language as the Elite. For practitioners who want Elina quality at a more accessible price point, or for home practitioners establishing a first serious reformer practice before potentially upgrading, the HL1 is an honest and capable starting point.",
+    affiliateUrl: "https://www.amazon.com/dp/B0BN82HG6N?tag=pilatescollective-20",
     tag: "Best Entry Elina",
   },
   {
@@ -85,8 +85,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Elina Pilates (2026): Equipment Review — Elite & Essence Reformers",
-      "description": "Elina Pilates reviewed — Elite and Essence reformers, Cadillac combo, and Wunda Chair tested for studios and serious home practitioners.",
+      "headline": "Elina Pilates (2026): Equipment Review — Elite & HL1 Reformers",
+      "description": "Elina Pilates reviewed — Elite and HL1 reformers, Cadillac combo, and Wunda Chair tested for studios and serious home practitioners.",
       "url": "https://pilatescollectiveclub.com/blog/elina-pilates",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",

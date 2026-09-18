@@ -56,15 +56,15 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Align-Pilates M8 Reformer",
-    price: "From $1,299",
+    name: "Align-Pilates C2 Pro RC Reformer",
+    price: "From $1,499",
     verdict: "Best premium compact",
     tag: "Premium Pick",
     description:
-      "The Align-Pilates M8 uses steel springs on a full-length 96-inch rail in a slimmer-than-standard frame design. It offers a genuine spring-based reformer experience in a profile narrow enough for most spare bedrooms. The carriage action is smooth, the footbar adjustable, and the M8 supports the full repertoire including long box work. For serious home practitioners with limited space, this is the most complete solution.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+M8+reformer&tag=pilatescollective-20",
-    pros: ["Steel spring resistance", "Narrow profile fits most spaces", "Full repertoire compatible"],
-    cons: ["Significant investment", "Does not fold for storage", "Heavier than cord-based options"],
+      "The Align-Pilates C2 Pro RC uses genuine coil springs on a 94-inch rail in a frame built for compact spaces — 26 inches wide and rated for users 4'10\" to 6'4\". It offers a genuine spring-based reformer experience and folds upright for storage, unlike Align's larger studio machines. The carriage action is smooth, the footbar adjustable, and the C2 Pro RC supports the full repertoire including long box work. For serious home practitioners with limited space, this is the most complete solution.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CCSM6K8C?tag=pilatescollective-20",
+    pros: ["Genuine coil-spring resistance", "Narrow profile fits most spaces", "Full repertoire compatible", "Folds for storage"],
+    cons: ["Significant investment versus cord-based options", "Heavier than cord-based options", "Requires assembly"],
   },
   {
     rank: "04",
@@ -127,7 +127,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Is a mini Pilates reformer worth it?",
-          "acceptedAnswer": { "@type": "Answer", "text": "For complete beginners or travellers who want a Pilates-adjacent movement experience, a budget mini reformer at $150-300 is worthwhile. For practitioners who train 3+ times per week, a budget mini reformer will frustrate you — the cord resistance, short rail, and limited weight capacity don't replicate the reformer experience. In that case, save for the AeroPilates 287 or M8." }
+          "acceptedAnswer": { "@type": "Answer", "text": "For complete beginners or travellers who want a Pilates-adjacent movement experience, a budget mini reformer at $150-300 is worthwhile. For practitioners who train 3+ times per week, a budget mini reformer will frustrate you — the cord resistance, short rail, and limited weight capacity don't replicate the reformer experience. In that case, save for the AeroPilates 287 or the Align-Pilates C2 Pro RC." }
         },
         {
           "@type": "Question",
@@ -196,7 +196,7 @@ export default function BestMiniPilatesReformerPage() {
                 <div className="space-y-4">
                   {[
                     { heading: "Resistance type", body: "Steel springs vs bungee cords vs elastic bands — this is the most important distinction. Springs provide consistent resistance throughout the movement; cords and bands increase resistance toward the end of the movement, creating a different (and less precise) training stimulus." },
-                    { heading: "Rail length", body: "The rail length determines what exercises are possible. A 60-inch rail restricts you to seated and reclined work. A 96-inch rail (Align M8) allows the full repertoire. Check this specification before buying." },
+                    { heading: "Rail length", body: "The rail length determines what exercises are possible. A 60-inch rail restricts you to seated and reclined work. A 94-inch rail (Align C2 Pro RC) allows the full repertoire. Check this specification before buying." },
                     { heading: "Carriage stability", body: "Budget mini reformers have lightweight carriages that wobble laterally under load. This is not just annoying — it's a safety issue during footwork. The carriage must track smoothly and squarely." },
                     { heading: "Footbar and shoulder rest adjustability", body: "Fixed footbars and non-adjustable shoulder rests limit the machine to one body proportion. Adjustable components accommodate different heights and allow proper alignment for most exercises." },
                   ].map((item) => (
@@ -249,7 +249,7 @@ export default function BestMiniPilatesReformerPage() {
                 <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
-                    { q: "Is a mini Pilates reformer worth it?", a: "For complete beginners or travellers who want a Pilates-adjacent movement experience, a budget mini reformer at $150-300 is worthwhile. For practitioners who train 3+ times per week, a budget mini reformer will frustrate you — the cord resistance, short rail, and limited weight capacity don't replicate the reformer experience. In that case, save for the AeroPilates 287 or M8." },
+                    { q: "Is a mini Pilates reformer worth it?", a: "For complete beginners or travellers who want a Pilates-adjacent movement experience, a budget mini reformer at $150-300 is worthwhile. For practitioners who train 3+ times per week, a budget mini reformer will frustrate you — the cord resistance, short rail, and limited weight capacity don't replicate the reformer experience. In that case, save for the AeroPilates 287 or the Align-Pilates C2 Pro RC." },
                     { q: "How much space does a mini Pilates reformer need?", a: "Most mini reformers are 60-80 inches long and 20-24 inches wide, compared to 96-100 inches for a standard reformer. In practice, you need an active space of roughly 8 feet by 4 feet to move freely. The Stamina AeroPilates folds to under 8 inches of height for storage." },
                     { q: "Can you get a full Pilates workout on a mini reformer?", a: "On a full-function mini reformer like the AeroPilates 287, approximately 70-75% of the classical reformer repertoire is accessible. Exercises that require a tall tower or full reach are limited by rail length. The seated series, footwork, and most standing work are fully accessible." },
                   ].map((item) => (

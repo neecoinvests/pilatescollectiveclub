@@ -695,7 +695,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Megaformer Machine (2026): Lagree Equipment Reviewed",
-    excerpt: "The Lagree M3S, Supraformer, Proformer, and the best alternatives — a complete buyer's guide to Megaformer machines for home and studio use.",
+    excerpt: "The Lagree M3S, The Micro, M3X, and the best alternatives — a complete buyer's guide to Megaformer machines for home and studio use.",
     href: "/blog/best-megaformer-machine",
     category: "Equipment",
     readTime: "10 min",
@@ -1559,8 +1559,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
   },
   {
-    title: "Elina Pilates (2026): Equipment Review — Elite & Essence Reformers",
-    excerpt: "Elina Pilates reviewed — Elite and Essence reformers tested for studios and serious home practitioners.",
+    title: "Elina Pilates (2026): Equipment Review — Elite & HL1 Reformers",
+    excerpt: "Elina Pilates reviewed — Elite and HL1 reformers tested for studios and serious home practitioners.",
     href: "/blog/elina-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -1639,8 +1639,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
   },
   {
-    title: "PersonalHour Pilates (2026): Janet Elite & Zous Pro Reviewed",
-    excerpt: "PersonalHour Pilates reviewed — solid oak reformers for advanced home practitioners.",
+    title: "PersonalHour Pilates (2026): Janet La Force Plus & Zous 2.0 Reviewed",
+    excerpt: "PersonalHour Pilates reviewed — wood-frame reformers for advanced home practitioners.",
     href: "/blog/personalhour-pilates",
     category: "Brand Guide",
     readTime: "9 min",

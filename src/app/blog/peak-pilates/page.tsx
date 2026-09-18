@@ -50,12 +50,12 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Peak Pilates Afina Reformer",
-    price: "From $3,800",
-    verdict: "Best premium classical-style reformer",
+    name: "Peak PilateSystem (PPS) Deluxe",
+    price: "From $7,665",
+    verdict: "Best premium studio system",
     description:
-      "The Afina is Peak Pilates' premium studio reformer — a machine positioned above the MVe in both price and specification. The most significant upgrade is the extended carriage and rail system, which accommodates practitioners up to approximately 6'3\" through the complete repertoire without modification. The Afina also features a more refined spring mounting system that allows faster spring changes between exercises — relevant for instructors who teach diverse repertoires and need to adjust resistance mid-session without interrupting flow. The wood platform end boards add to a visual warmth that distinguishes the Afina from purely utilitarian studio machines. A serious investment for established studios or serious long-term home practitioners.",
-    affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+afina+reformer&tag=pilatescollective-20",
+      "The PilateSystem (PPS) Deluxe is Peak Pilates' top-of-line studio system — a 3-in-1 reformer, Cadillac, and mat platform positioned well above the MVe in both price and capability, engineered for the demands of professional and high-volume studio use. Combining the reformer and Cadillac into one folding frame saves floor space that would otherwise go to two separate pieces of apparatus, while still delivering the full reformer and Cadillac repertoire. This is a serious investment aimed at established studios rather than home practitioners, and the price reflects that it replaces two machines rather than upgrading one.",
+    affiliateUrl: "https://www.amazon.com/dp/B000BOHE6S?tag=pilatescollective-20",
     tag: "Premium Model",
   },
   {
@@ -74,7 +74,7 @@ const PRODUCTS = [
     price: "From $1,450",
     verdict: "Best Peak Pilates accessory",
     description:
-      "The Peak Pilates Wunda Chair is one of the most functionally complete chair options available for home and studio use. The split-pedal design allows unilateral leg exercises not possible on a single-pedal classical chair, and the four-spring configuration covers the resistance range from gentle rehabilitation work to advanced practitioner sequences. The wood construction matches the casa and Afina reformers aesthetically, making it the natural companion piece for a Peak-based home studio. The Wunda Chair is the apparatus that delivers the most strength-building work for its footprint — an efficient addition to any studio where space is at a premium.",
+      "The Peak Pilates Wunda Chair is one of the most functionally complete chair options available for home and studio use. The split-pedal design allows unilateral leg exercises not possible on a single-pedal classical chair, and the four-spring configuration covers the resistance range from gentle rehabilitation work to advanced practitioner sequences. The wood construction matches the casa reformer aesthetically, making it the natural companion piece for a Peak-based home studio. The Wunda Chair is the apparatus that delivers the most strength-building work for its footprint — an efficient addition to any studio where space is at a premium.",
     affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+wunda+chair&tag=pilatescollective-20",
     tag: "Best Accessory",
   },
@@ -86,7 +86,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Peak Pilates (2026): Equipment Review & Best Models Ranked",
-      "description": "Peak Pilates equipment reviewed — the MVe, casa, Afina reformers and Wunda Chair tested for classical and contemporary practitioners.",
+      "description": "Peak Pilates equipment reviewed — the MVe, casa, fit, and PilateSystem Deluxe reformers and Wunda Chair tested for classical and contemporary practitioners.",
       "url": "https://pilatescollectiveclub.com/blog/peak-pilates",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",
@@ -121,10 +121,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Peak Pilates classical or contemporary?", "acceptedAnswer": { "@type": "Answer", "text": "Peak Pilates occupies a classical-leaning position in the market — their equipment dimensions and spring specifications align more closely with classical Pilates proportions than brands like Merrithew/STOTT, which are explicitly contemporary. However, Peak equipment is used in both classical and contemporary studios, and the MVe and Afina are versatile enough to support either approach." } },
-        { "@type": "Question", "name": "How does Peak Pilates compare to Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands produce clinical-grade studio equipment at comparable quality levels. Balanced Body has a broader accessory ecosystem and wider global service network. Peak Pilates offers more wood aesthetic options (particularly through the casa and Afina lines) and often a slightly lower price point. The choice typically comes down to aesthetic preference, methodology alignment, and which brand your instructor or training programme recommends." } },
+        { "@type": "Question", "name": "Is Peak Pilates classical or contemporary?", "acceptedAnswer": { "@type": "Answer", "text": "Peak Pilates occupies a classical-leaning position in the market — their equipment dimensions and spring specifications align more closely with classical Pilates proportions than brands like Merrithew/STOTT, which are explicitly contemporary. However, Peak equipment is used in both classical and contemporary studios, and the MVe and PilateSystem Deluxe are versatile enough to support either approach." } },
+        { "@type": "Question", "name": "How does Peak Pilates compare to Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands produce clinical-grade studio equipment at comparable quality levels. Balanced Body has a broader accessory ecosystem and wider global service network. Peak Pilates offers more wood aesthetic options (particularly through the casa line) and often a slightly lower price point. The choice typically comes down to aesthetic preference, methodology alignment, and which brand your instructor or training programme recommends." } },
         { "@type": "Question", "name": "Where are Peak Pilates reformers made?", "acceptedAnswer": { "@type": "Answer", "text": "Peak Pilates equipment is designed in the United States. The brand was founded in Colorado and has maintained US-based design and engineering teams, though manufacturing components are sourced internationally. Peak reformers are sold and supported through an authorised dealer network globally." } },
-        { "@type": "Question", "name": "What is Baltic Birch and why does Peak Pilates use it?", "acceptedAnswer": { "@type": "Answer", "text": "Baltic Birch is a premium plywood species with very tight grain and minimal knots, making it structurally consistent and visually clean. Peak Pilates uses Baltic Birch for the wood platform elements on their casa and Afina reformers because it machines cleanly, takes finish well, and is dimensionally stable — it does not warp with temperature and humidity changes the way solid wood can." } },
+        { "@type": "Question", "name": "What is Baltic Birch and why does Peak Pilates use it?", "acceptedAnswer": { "@type": "Answer", "text": "Baltic Birch is a premium plywood species with very tight grain and minimal knots, making it structurally consistent and visually clean. Peak Pilates uses Baltic Birch for the wood platform elements on their casa reformer because it machines cleanly, takes finish well, and is dimensionally stable — it does not warp with temperature and humidity changes the way solid wood can." } },
       ],
     },
   ],
@@ -150,7 +150,7 @@ export default function PeakPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Peak Pilates is one of the most respected equipment brands in the global Pilates community — occupying a distinctive position as a classically-oriented manufacturer that has embraced modern engineering without abandoning the proportions and resistance profile that classical practitioners require. The brand is known for its use of Baltic Birch wood in the casa and Afina lines, giving their equipment an aesthetic warmth that steel-framed competitors cannot replicate, and for a spring calibration that classical and hybrid teachers consistently describe as having the correct feel for the method.
+              Peak Pilates is one of the most respected equipment brands in the global Pilates community — occupying a distinctive position as a classically-oriented manufacturer that has embraced modern engineering without abandoning the proportions and resistance profile that classical practitioners require. The brand is known for its use of Baltic Birch wood in the casa line, giving their equipment an aesthetic warmth that steel-framed competitors cannot replicate, and for a spring calibration that classical and hybrid teachers consistently describe as having the correct feel for the method.
             </p>
           </div>
         </section>
@@ -158,7 +158,7 @@ export default function PeakPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg" alt="Peak Pilates reformers — MVe, casa, and Afina reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg" alt="Peak Pilates reformers — MVe, casa, fit, and PilateSystem Deluxe reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -222,7 +222,7 @@ export default function PeakPilatesPage() {
                 {[
                   { label: "Build quality", value: "Excellent — powder-coated aluminium and Baltic Birch wood hold up through years of studio use." },
                   { label: "Spring feel", value: "Classical-leaning — the spring tension profile is more closely matched to classical proportions than Merrithew/STOTT." },
-                  { label: "Aesthetics", value: "Among the best in the market — the wood finish models (casa, Afina) are genuinely home-appropriate." },
+                  { label: "Aesthetics", value: "Among the best in the market — the wood finish casa model is genuinely home-appropriate." },
                   { label: "Accessories ecosystem", value: "Solid but smaller than Balanced Body. The Wunda Chair and Jump Board are well-integrated." },
                   { label: "Verdict", value: "The strongest recommendation for classically-oriented practitioners who want equipment that performs at clinical level and looks at home in a dedicated studio space. A thoughtful alternative to Balanced Body at a comparable or slightly lower price." },
                 ].map((item) => (
@@ -238,10 +238,10 @@ export default function PeakPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Peak Pilates classical or contemporary?", a: "Peak Pilates occupies a classical-leaning position — their equipment dimensions and spring specifications align more closely with classical Pilates proportions than brands like Merrithew/STOTT. However, Peak equipment is used in both classical and contemporary studios, and the MVe and Afina are versatile enough to support either approach." },
+                  { q: "Is Peak Pilates classical or contemporary?", a: "Peak Pilates occupies a classical-leaning position — their equipment dimensions and spring specifications align more closely with classical Pilates proportions than brands like Merrithew/STOTT. However, Peak equipment is used in both classical and contemporary studios, and the MVe and PilateSystem Deluxe are versatile enough to support either approach." },
                   { q: "How does Peak Pilates compare to Balanced Body?", a: "Both brands produce clinical-grade studio equipment at comparable quality levels. Balanced Body has a broader accessory ecosystem and wider global service network. Peak Pilates offers more wood aesthetic options and often a slightly lower price point. The choice typically comes down to aesthetic preference and methodology alignment." },
                   { q: "Where are Peak Pilates reformers made?", a: "Peak Pilates equipment is designed in the United States. The brand was founded in Colorado and has maintained US-based design and engineering, though manufacturing components are sourced internationally. Peak reformers are sold through an authorised dealer network globally." },
-                  { q: "What is Baltic Birch and why does Peak Pilates use it?", a: "Baltic Birch is a premium plywood with very tight grain and minimal knots, making it structurally consistent and visually clean. Peak uses it for the wood platform elements on their casa and Afina reformers because it machines cleanly, takes finish well, and is dimensionally stable — it does not warp with temperature changes the way solid wood can." },
+                  { q: "What is Baltic Birch and why does Peak Pilates use it?", a: "Baltic Birch is a premium plywood with very tight grain and minimal knots, making it structurally consistent and visually clean. Peak uses it for the wood platform elements on their casa reformer because it machines cleanly, takes finish well, and is dimensionally stable — it does not warp with temperature changes the way solid wood can." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

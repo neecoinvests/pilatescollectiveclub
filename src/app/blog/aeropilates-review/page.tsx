@@ -43,11 +43,11 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "AeroPilates Reformer 4195",
+    name: "AeroPilates 5 Cord Reformer",
     price: "From $699",
     verdict: "Best for cardio-focused home practice",
-    description: "The 4195 is AeroPilates' five-cord model — the additional cord provides more resistance options than the four-cord 287 and 557, making it appropriate for practitioners who have outgrown lighter resistance settings. The rebounder is included and works well with the five-cord configuration for high-intensity cardio intervals. The 4195 has a similar frame weight to the 557 but without the standing platform, which makes it slightly less versatile for standing exercise. If your primary use case is combining Pilates mat work with rebounder cardio, the 4195 is the better choice; if standing work matters, choose the 557.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+4195+reformer&tag=pilatescollective-20",
+    description: "This is AeroPilates' five-cord model — the additional cord provides more resistance options than the four-cord 287 and 557, making it appropriate for practitioners who have outgrown lighter resistance settings. The cardio rebounder is included and works well with the five-cord configuration for high-intensity cardio intervals, and the machine supports up to 350 lbs. It has a similar frame weight to the 557 but without the standing platform, which makes it slightly less versatile for standing exercise. If your primary use case is combining Pilates mat work with rebounder cardio, this is the better choice; if standing work matters, choose the 557.",
+    affiliateUrl: "https://www.amazon.com/dp/B01MCX0H8T?tag=pilatescollective-20",
     tag: "5-Cord System",
   },
   {

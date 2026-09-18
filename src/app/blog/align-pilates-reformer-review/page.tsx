@@ -43,11 +43,11 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Align-Pilates H1 Reformer with Tower",
-    price: "From $2,800",
+    name: "Align-Pilates H1 Reformer + Tower Attachment",
+    price: "From $1,790",
     verdict: "Best complete home studio setup",
-    description: "The H1 with Tower is the most compelling proposition in the Align-Pilates range — a full reformer plus an integrated tower system that attaches to the foot end of the machine, giving access to the complete reformer and tower repertoire without needing a separate Cadillac. For home practitioners who want to progress beyond the reformer into trapeze work, push-through bar exercises, and leg spring exercises, the H1 bundle eliminates the need for a separate $1,500+ tower purchase. The reformer component matches the C2 Pro in build quality; the tower adds springs, a push-through bar, and a roll-down bar. The full assembly requires approximately three hours but results in a genuinely complete apparatus that covers most of what a full studio Cadillac offers.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+reformer+tower&tag=pilatescollective-20",
+    description: "The H1 is Align-Pilates' foldable home reformer (from roughly $1,790), and it accepts a separately-sold tower attachment rather than shipping as one fixed reformer-and-tower SKU — giving access to the reformer and tower repertoire without needing a separate Cadillac, once both pieces are bought. For home practitioners who want to progress beyond the reformer into trapeze work, push-through bar exercises, and leg spring exercises, buying the H1 with a compatible tower attachment is typically cheaper than a separate $1,500+ standalone tower purchase from a major brand. The reformer component uses genuine coil-spring resistance; the tower adds springs, a push-through bar, and a roll-down bar. Full assembly of both pieces requires approximately three hours but results in a genuinely complete apparatus that covers most of what a full studio Cadillac offers.",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+reformer+tower+attachment&tag=pilatescollective-20",
     tag: "Reformer + Tower",
   },
   {
@@ -99,7 +99,7 @@ const jsonLd = {
         { "@type": "Question", "name": "Is Align-Pilates good enough for professional teaching?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The C2 Pro and C8 Pro are used by working instructors in commercial settings. The spring system, carriage quality, and structural integrity meet professional standards." } },
         { "@type": "Question", "name": "How does Align-Pilates compare to Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Spring feel and long-term reputation slightly favour Balanced Body; price and value favour Align-Pilates. Both are professional-grade. The Allegro 2 is widely considered the best carriage feel available; the C8 Pro is excellent but not quite at that level." } },
         { "@type": "Question", "name": "Is Align-Pilates available in the United States?", "acceptedAnswer": { "@type": "Answer", "text": "Available through specialist dealers and on Amazon. The brand is US-available but the service network is less established than Balanced Body or Merrithew's. Factor in shipping costs and servicing access when comparing prices." } },
-        { "@type": "Question", "name": "Which Align-Pilates model should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "The C8 Pro for a dedicated home studio or professional teaching room. The C2 Pro for a home practitioner who wants professional spring quality at a lower price. The H1 with Tower if you want the reformer + tower repertoire without purchasing two separate pieces of equipment." } },
+        { "@type": "Question", "name": "Which Align-Pilates model should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "The C8 Pro for a dedicated home studio or professional teaching room. The C2 Pro for a home practitioner who wants professional spring quality at a lower price. The H1 with a tower attachment if you want the reformer and tower repertoire without buying from two separate brands." } },
       ],
     },
   ],
@@ -283,7 +283,7 @@ export default function AlignPilatesReformerReviewPage() {
                   },
                   {
                     q: "Which Align-Pilates model should I buy?",
-                    a: "The C8 Pro for a dedicated home studio or professional teaching room where the machine will be in permanent use. The C2 Pro for a home practitioner who wants professional spring quality at a lower price and values the fold-up storage option. The H1 with Tower if you want the reformer and tower repertoire without purchasing two separate pieces of equipment.",
+                    a: "The C8 Pro for a dedicated home studio or professional teaching room where the machine will be in permanent use. The C2 Pro for a home practitioner who wants professional spring quality at a lower price and values the fold-up storage option. The H1 plus a tower attachment if you want the reformer and tower repertoire without buying from two separate brands.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

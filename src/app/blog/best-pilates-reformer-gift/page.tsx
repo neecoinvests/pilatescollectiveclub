@@ -54,19 +54,19 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Merrithew At Home SPX Reformer",
-    price: "From $3,299",
-    verdict: "Best Mid-Range Gift",
-    description: "Merrithew is the professional studio brand behind STOTT PILATES — the method taught in the most rigorously certified training programmes worldwide. The At Home SPX Reformer is their entry into the domestic market: same spring system and carriage dimensions as their commercial machines, same quality of aluminium rail and padded footbar, but a shorter frame and lighter weight for home use. Five springs cover a full range of resistance from feather-light to challenging; the carriage runs silently. For someone who has trained in a real pilates studio and knows what good equipment feels like, the Merrithew At Home SPX is the only sub-$1,000 reformer that will satisfy them. A gift at this price communicates genuine understanding of the practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
+    name: "Align-Pilates H1 Reformer",
+    price: "From $1,790",
+    verdict: "Best Value Mid-Range Reformer",
+    description: "Align-Pilates makes professional-grade reformers in the UK and has built a strong reputation in the studio market for quality that rivals Merrithew and Balanced Body at a lower price point. The H1 is their compact home reformer: a steel frame, genuine coil springs (not bungee), a padded carriage, and a footbar sized for the full repertoire. Traditional springs provide the authentic reformer resistance that bungee-cord alternatives cannot replicate — important for someone who trains seriously or has studio experience. It also folds for storage, which matters for anyone without a dedicated pilates room. This is the best-value traditionally-sprung reformer available for home gifting.",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+h1+reformer&tag=pilatescollective-20",
   },
   {
     rank: "04",
-    name: "Align-Pilates M8 Pro Reformer",
-    price: "$850",
-    verdict: "Best Value Mid-Range Reformer",
-    description: "Align-Pilates makes professional-grade reformers in the UK and has built a strong reputation in the studio market for quality that rivals Merrithew and Balanced Body at a lower price point. The M8 Pro is their mid-tier home reformer: a steel frame, five traditional coil springs (not bungee), a padded carriage with silent glide bearings, and a standard loop system. Traditional springs provide the authentic reformer resistance that bungee-cord alternatives cannot replicate — important for someone who trains seriously or has studio experience. At $850 it is the best-value traditionally-sprung reformer available for home gifting. Arrives fully assembled in a single delivery.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+m8+pro+reformer+home&tag=pilatescollective-20",
+    name: "Merrithew At Home SPX Reformer",
+    price: "From $3,299",
+    verdict: "Best Studio-Quality Gift",
+    description: "Merrithew is the professional studio brand behind STOTT PILATES — the method taught in the most rigorously certified training programmes worldwide. The At Home SPX Reformer is their entry into the domestic market: same spring system and carriage dimensions as their commercial machines, same quality of aluminium rail and padded footbar, but a shorter frame and lighter weight for home use. Five springs cover a full range of resistance from feather-light to challenging; the carriage runs silently. For someone who has trained in a real pilates studio and knows what good equipment feels like, the Merrithew At Home SPX is a reformer built to the standard of the machine they already train on. A gift at this price communicates genuine understanding of the practice.",
+    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
   },
   {
     rank: "05",
@@ -112,7 +112,7 @@ const FAQ = [
   },
   {
     q: "What is the best pilates reformer to give as a gift?",
-    a: "For a beginner: the AeroPilates Performer Plus ($330) — foldable, complete, and a meaningful upgrade from studio-only practice. For someone with studio experience: the Merrithew At Home SPX ($899) or Align-Pilates M8 Pro ($850), which use traditional springs for an authentic feel. For a serious or advanced practitioner: the Balanced Body Allegro 2 ($2,195) — the professional standard.",
+    a: "For a beginner: the AeroPilates Performer Plus ($330) — foldable, complete, and a meaningful upgrade from studio-only practice. For someone with studio experience: the Align-Pilates H1 (from $1,790) or Merrithew At Home SPX (from $3,299), which use traditional springs for an authentic feel. For a serious or advanced practitioner: the Balanced Body Allegro 2 (from $3,995) — the professional standard.",
   },
   {
     q: "How do I gift a pilates reformer without ruining the surprise?",

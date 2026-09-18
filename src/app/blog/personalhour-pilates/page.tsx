@@ -11,16 +11,16 @@ export const metadata: Metadata = {
   description: "Personal Hour Pilates reformer reviewed — build quality, spring system, carriage glide, and honest value assessment for home practitioners on a budget.",
   keywords: ["personal hour pilates review", "personalhour reformer review 2026", "personal hour pilates reformer", "is personal hour pilates good", "personal hour vs aeropilates", "personal hour pilates buy"],
   openGraph: {
-    title: "PersonalHour Pilates (2026): Janet Elite & Zous Pro Reviewed",
-    description: "PersonalHour Pilates reviewed — solid oak reformers for advanced home practitioners.",
+    title: "PersonalHour Pilates (2026): Janet La Force Plus & Zous 2.0 Reviewed",
+    description: "PersonalHour Pilates reviewed — wood-frame reformers for advanced home practitioners.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/personalhour-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", width: 1200, height: 630, alt: "PersonalHour Pilates reformer review — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PersonalHour Pilates (2026): Janet Elite & Zous Pro",
-    description: "PersonalHour solid oak wood reformers reviewed honestly.",
+    title: "PersonalHour Pilates (2026): Janet La Force Plus & Zous 2.0",
+    description: "PersonalHour wood-frame reformers reviewed honestly.",
     images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/personalhour-pilates" },
@@ -30,32 +30,32 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "PersonalHour Janet Elite Plus Reformer",
+    name: "PersonalHour Janet La Force Plus Reformer",
     price: "From $2,499",
     verdict: "Best PersonalHour reformer overall",
     description:
-      "The Janet Elite Plus is PersonalHour's flagship reformer and the product most responsible for the brand's rapid growth in the premium home market. The most immediately distinctive feature is the construction: solid oak wood rather than the aluminium or MDF used by most competitors at this price point. The weight and rigidity of the oak frame eliminates the subtle flex that lighter reformers develop during high-intensity sequences, giving the Janet Elite Plus a stability during advanced athletic work that mid-range aluminium machines cannot match. The five-spring system uses industry-standard colour-coded springs, and the carriage's sealed bearing system provides a smooth, quiet glide. The extended carriage specification accommodates practitioners up to 6'3\". The vertical fold mechanism stores the machine in a footprint approximately half its operational width — a genuine space solution without the structural compromise that cheaper folding mechanisms introduce.",
-    affiliateUrl: "https://www.amazon.com/s?k=personalhour+janet+elite+plus+pilates+reformer&tag=pilatescollective-20",
+      "The Janet La Force Plus is PersonalHour's flagship foldable reformer and the product most responsible for the brand's rapid growth in the premium home market. The most immediately distinctive feature is the construction: a solid walnut wood frame rather than the aluminium or MDF used by most competitors at this price point. The weight and rigidity of the wood frame reduces the subtle flex that lighter reformers develop during high-intensity sequences, giving it a stability during advanced athletic work that mid-range aluminium machines struggle to match. It ships with a six-spring resistance system, a jumpboard, a Pilates box, and a foot strap included, and the frame is tower-compatible for a later upgrade. It folds for storage and includes transport wheels — a genuine space solution without the structural compromise that cheaper folding mechanisms introduce.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "PersonalHour Zous Pro Reformer",
+    name: "PersonalHour Zous 2.0 Advanced Reformer",
     price: "From $1,899",
     verdict: "Best PersonalHour for value",
     description:
-      "The Zous Pro is PersonalHour's mid-range reformer — built to the same oak-first construction philosophy as the Janet Elite Plus but at a lower specification and price point. The solid oak frame is retained, giving the Zous Pro a weight and stability that aluminium competitors at this price cannot match, and the five-spring system covers the same resistance range as the flagship. The primary differences from the Janet Elite Plus are footbar adjustment positions (two versus three), carriage padding density, and the absence of the Elite's refined vertical fold mechanism — the Zous Pro folds but with a slightly more manual process. For practitioners who want oak-frame stability and genuine build quality without the full Janet Elite Plus investment, the Zous Pro is a strong choice.",
-    affiliateUrl: "https://www.amazon.com/s?k=personalhour+zous+pro+pilates+reformer&tag=pilatescollective-20",
+      "The Zous 2.0 Advanced is PersonalHour's mid-range reformer — built to the same wood-first construction philosophy as the Janet line but at a lower specification and price point. The solid wood frame is retained, giving it a weight and stability that aluminium competitors at this price cannot match, and it folds for storage with a compact folding mechanism. For practitioners who want wood-frame stability and genuine build quality without the full Janet La Force Plus investment, the Zous 2.0 Advanced is a strong choice.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CD32KKZ8?tag=pilatescollective-20",
     tag: "Best Value",
   },
   {
     rank: "03",
-    name: "PersonalHour Janet Elite Plus with Tower",
+    name: "PersonalHour Janet Reformer + Tower Upgrade",
     price: "From $3,299",
     verdict: "Best complete PersonalHour setup",
     description:
-      "The Janet Elite Plus with tower bundle adds PersonalHour's integrated tower attachment to the flagship reformer, creating a complete home apparatus in a single footprint. The tower includes a push-through bar, arm springs, leg springs, and a roll-down bar — covering the core tower exercises that extend reformer practice into a more comprehensive full-body apparatus system. The oak frame of the Janet Elite Plus extends into the tower structure, maintaining the aesthetic consistency of the whole unit. For practitioners building a dedicated home studio around PersonalHour's oak-forward aesthetic, the tower bundle provides the best value entry point to a complete apparatus setup.",
-    affiliateUrl: "https://www.amazon.com/s?k=personalhour+janet+elite+tower+pilates&tag=pilatescollective-20",
+      "The Janet frame is tower-compatible, meaning a tower unit can be added to the reformer later rather than only being sold as one fixed bundle. Adding the tower brings a push-through bar and spring-based arm and leg work — covering the core tower exercises that extend reformer practice into a more comprehensive full-body apparatus system. The wood frame of the Janet reformer extends into the tower structure, maintaining aesthetic consistency across the whole unit. For practitioners building a dedicated home studio around PersonalHour's wood-forward aesthetic, the Janet reformer plus a tower upgrade provides a strong entry point to a complete apparatus setup — check current tower-upgrade pricing and compatibility directly with PersonalHour before buying.",
+    affiliateUrl: "https://www.amazon.com/s?k=personalhour+janet+pilates+reformer+tower&tag=pilatescollective-20",
     tag: "Complete Setup",
   },
   {
@@ -64,7 +64,7 @@ const PRODUCTS = [
     price: "From $149",
     verdict: "Essential accessory",
     description:
-      "The PersonalHour Box Set is the most important accessory purchase for any PersonalHour reformer owner. The long box and short box unlock the short-box series, long-box kneeling and prone exercises, and the transition between supine and seated work that characterises intermediate and advanced programming. PersonalHour's box set is engineered to match the carriage dimensions of the Janet Elite Plus and Zous Pro specifically — the fit is precise and the construction uses the same oak accents as the reformer frame. The boxes are sold as a matched pair and store neatly on the reformer platform when not in use.",
+      "The PersonalHour Box Set is the most important accessory purchase for any PersonalHour reformer owner. The long box and short box unlock the short-box series, long-box kneeling and prone exercises, and the transition between supine and seated work that characterises intermediate and advanced programming. PersonalHour's box set is engineered to match the carriage dimensions of the Janet and Zous reformers specifically — the fit is precise and the construction uses matching wood accents. The boxes are sold as a matched pair and store neatly on the reformer platform when not in use.",
     affiliateUrl: "https://www.amazon.com/s?k=personalhour+pilates+box+set&tag=pilatescollective-20",
     tag: "Must-Have Accessory",
   },
@@ -75,8 +75,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "PersonalHour Pilates (2026): Janet Elite & Zous Pro Reviewed",
-      "description": "PersonalHour Pilates reviewed — the Janet Elite Plus and Zous Pro solid oak reformers tested for advanced home practitioners.",
+      "headline": "PersonalHour Pilates (2026): Janet La Force Plus & Zous 2.0 Reviewed",
+      "description": "PersonalHour Pilates reviewed — the Janet La Force Plus and Zous 2.0 Advanced wood-frame reformers tested for advanced home practitioners.",
       "url": "https://pilatescollectiveclub.com/blog/personalhour-pilates",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",
@@ -111,10 +111,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is PersonalHour a good reformer brand?", "acceptedAnswer": { "@type": "Answer", "text": "PersonalHour has established a strong reputation in the premium home reformer market, particularly for their use of solid oak wood construction. The Janet Elite Plus is consistently rated highly by practitioners who prioritise build solidity and stability for advanced athletic work. The brand is newer than Balanced Body or Merrithew but has grown rapidly based on the quality of its hardware." } },
-        { "@type": "Question", "name": "How does PersonalHour compare to Elina Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands use wood construction for aesthetic and structural reasons, but PersonalHour uses solid oak while Elina uses engineered wood composites and aluminium. PersonalHour machines are heavier and more stable; Elina machines are lighter and easier to move. Both brands are targeted at the home studio market and occupy similar price points." } },
-        { "@type": "Question", "name": "Does the PersonalHour reformer fold?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — the Janet Elite Plus and Zous Pro both fold for storage. The Janet Elite Plus features a refined vertical fold mechanism that reduces the operational footprint by approximately half. Despite the folding mechanism, the machines maintain full stability during use — the oak frame's weight prevents any movement during advanced sequences." } },
-        { "@type": "Question", "name": "Is PersonalHour good for tall people?", "acceptedAnswer": { "@type": "Answer", "text": "The Janet Elite Plus features an extended carriage specification that accommodates practitioners up to approximately 6'3\" through the full reformer repertoire. The extended frame is one of the brand's intentional design features, alongside the oak construction, positioning PersonalHour for athletes and taller practitioners who need more carriage travel than standard reformers provide." } },
+        { "@type": "Question", "name": "Is PersonalHour a good reformer brand?", "acceptedAnswer": { "@type": "Answer", "text": "PersonalHour has established a strong reputation in the premium home reformer market, particularly for their use of solid hardwood construction across the Janet, Nano, and Zous lines. The Janet La Force Plus is consistently rated highly by practitioners who prioritise build solidity and stability for advanced athletic work. The brand is newer than Balanced Body or Merrithew but has grown rapidly based on the quality of its hardware." } },
+        { "@type": "Question", "name": "How does PersonalHour compare to Elina Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands use wood construction for aesthetic and structural reasons, but PersonalHour builds primarily in oak, maple, and walnut depending on the model while Elina uses engineered wood composites and aluminium. PersonalHour machines are heavier and more stable; Elina machines are lighter and easier to move. Both brands are targeted at the home studio market and occupy similar price points." } },
+        { "@type": "Question", "name": "Does the PersonalHour reformer fold?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — the Janet La Force Plus and Zous 2.0 Advanced both fold for storage and include transport wheels. Despite folding, the machines maintain stability during use thanks to the weight of the solid wood frame." } },
+        { "@type": "Question", "name": "Is PersonalHour good for tall people?", "acceptedAnswer": { "@type": "Answer", "text": "PersonalHour markets several of its Janet and Nano models with extended-frame options for taller practitioners. Check the specific listing's carriage length and rated user height before buying, since this varies by model rather than applying across the whole line." } },
       ],
     },
   ],
@@ -140,7 +140,7 @@ export default function PersonalHourPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              PersonalHour has carved out a fast-growing position in the premium home reformer market by committing to solid oak wood construction when most competitors at this price tier use aluminium or engineered composites. The result is a reformer that combines the stability and aesthetic warmth of real wood with smart engineering for home use — folding mechanisms that maintain full stability during advanced practice, extended carriage frames for taller practitioners, and a premium finish that makes the machine appropriate for a living room as much as a studio. The Janet Elite Plus in particular has become a reference point for practitioners who want serious performance with furniture-grade design.
+              PersonalHour has carved out a fast-growing position in the premium home reformer market by committing to solid hardwood construction — oak, maple, or walnut depending on the model — when most competitors at this price tier use aluminium or engineered composites. The result is a reformer that combines the stability and aesthetic warmth of real wood with smart engineering for home use — folding mechanisms for storage, extended carriage options on some models for taller practitioners, and a premium finish that makes the machine appropriate for a living room as much as a studio. The Janet La Force Plus in particular has become a reference point for practitioners who want serious performance with furniture-grade design.
             </p>
           </div>
         </section>
@@ -148,7 +148,7 @@ export default function PersonalHourPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="PersonalHour solid oak Pilates reformers — Janet Elite Plus and Zous Pro reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="PersonalHour wood-frame Pilates reformers — Janet La Force Plus and Zous 2.0 Advanced reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -160,7 +160,7 @@ export default function PersonalHourPilatesPage() {
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand overview</h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
-                  { label: "Construction", value: "Solid oak wood frame" },
+                  { label: "Construction", value: "Solid hardwood frame (oak, maple, or walnut by model)" },
                   { label: "Resistance type", value: "Spring-based (5 springs)" },
                   { label: "Best for", value: "Advanced home practitioners, tall users, aesthetic-first buyers" },
                 ].map((item) => (
@@ -210,10 +210,10 @@ export default function PersonalHourPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is PersonalHour a good reformer brand?", a: "PersonalHour has established a strong reputation in the premium home reformer market, particularly for their use of solid oak wood construction. The Janet Elite Plus is consistently rated highly by practitioners who prioritise build solidity and stability for advanced athletic work." },
-                  { q: "How does PersonalHour compare to Elina Pilates?", a: "Both brands use wood construction, but PersonalHour uses solid oak while Elina uses engineered composites and aluminium. PersonalHour machines are heavier and more stable; Elina machines are lighter and easier to move. Both target the home studio market at similar price points." },
-                  { q: "Does the PersonalHour reformer fold?", a: "Yes — the Janet Elite Plus and Zous Pro both fold for storage. The Janet Elite Plus features a refined vertical fold mechanism that reduces the operational footprint by approximately half. Despite folding, the machines maintain full stability during use — the oak frame's weight prevents movement during advanced sequences." },
-                  { q: "Is PersonalHour good for tall people?", a: "The Janet Elite Plus features an extended carriage specification that accommodates practitioners up to approximately 6'3\" through the full reformer repertoire. The extended frame is one of the brand's intentional design features, positioning PersonalHour for athletes and taller practitioners." },
+                  { q: "Is PersonalHour a good reformer brand?", a: "PersonalHour has established a strong reputation in the premium home reformer market, particularly for their use of solid hardwood construction. The Janet La Force Plus is consistently rated highly by practitioners who prioritise build solidity and stability for advanced athletic work." },
+                  { q: "How does PersonalHour compare to Elina Pilates?", a: "Both brands use wood construction, but PersonalHour builds primarily in oak, maple, and walnut depending on the model while Elina uses engineered composites and aluminium. PersonalHour machines are heavier and more stable; Elina machines are lighter and easier to move. Both target the home studio market at similar price points." },
+                  { q: "Does the PersonalHour reformer fold?", a: "Yes — the Janet La Force Plus and Zous 2.0 Advanced both fold for storage and include transport wheels. Despite folding, the machines maintain stability during use thanks to the weight of the solid wood frame." },
+                  { q: "Is PersonalHour good for tall people?", a: "PersonalHour markets several of its Janet and Nano models with extended-frame options for taller practitioners. Check the specific listing's carriage length and rated user height before buying, since this varies by model rather than applying across the whole line." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

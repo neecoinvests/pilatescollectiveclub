@@ -35,22 +35,22 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Merrithew Cadillac / SPX Cadillac",
-    price: "From $9,000",
+    name: "Merrithew Cadillac / Trapeze Table",
+    price: "From $4,871",
     verdict: "Best Cadillac for STOTT PILATES studios",
     description:
-      "Merrithew's Cadillac is the reference apparatus for the STOTT PILATES Cadillac repertoire — instructors certified in the STOTT method train on this machine and the exercise programming aligns precisely with the SPX reformer's spring conventions. The full frame includes push-through bars (top and bottom), roll-down bar, trapeze bar, arm springs, and leg springs. Build quality matches Balanced Body; the decision between the two is primarily about methodological ecosystem and accessory compatibility. For studios where all equipment is Merrithew, the Cadillac completes the system without mixing brands. Purchased through Merrithew authorized dealers.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+cadillac+pilates+trapeze&tag=pilatescollective-20",
+      "Merrithew's Cadillac / Trapeze Table is the reference apparatus for the STOTT PILATES Cadillac repertoire — instructors certified in the STOTT method train on this machine and the exercise programming aligns precisely with the SPX reformer's spring conventions. The full frame includes push-through bars (top and bottom), roll-down bar, trapeze bar, arm springs, and leg springs. Build quality matches Balanced Body; the decision between the two is primarily about methodological ecosystem and accessory compatibility. For studios where all equipment is Merrithew, the Cadillac completes the system without mixing brands. Not sold on Amazon — purchased through Merrithew directly or an authorized dealer.",
+    affiliateUrl: "https://www.merrithew.com/shop/ProductDetail/ST01003_Cadillac--Trapeze-Table",
     tag: "STOTT PILATES",
   },
   {
     rank: "03",
-    name: "Align-Pilates Cadillac",
+    name: "Align-Pilates Cadillac Frame (Reformer Conversion)",
     price: "From $3,500",
     verdict: "Best value Cadillac for smaller studios",
     description:
-      "Align-Pilates has entered the Cadillac market with a more accessible price point — approximately $3,500–$5,000 versus $8,000+ for Balanced Body and Merrithew equivalents. The Align Cadillac includes the full overhead frame, push-through bar, roll-down bar, trapeze, and spring configuration of a professional Cadillac at a price that makes it feasible for smaller boutique studios and private instructors. Build quality is professional grade (sealed bearings, aluminum frame, commercial upholstery), consistent with their reformer line. For a studio not requiring the established brand recognition of Balanced Body or Merrithew for marketing purposes, the Align Cadillac represents a compelling value. Growing availability through specialist dealers in the UK, EU, and US.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+cadillac+trapeze+table&tag=pilatescollective-20",
+      "Align-Pilates does not sell a standalone Cadillac the way Balanced Body and Merrithew do — instead, they sell a Full Cadillac Frame (and a lower-cost Half Cadillac Frame) that converts an existing Align A, C, or M series reformer into Cadillac functionality, at a more accessible price point than a dedicated $8,000+ Balanced Body or Merrithew Cadillac. The frame adds the overhead structure, push-through bar, roll-down bar, trapeze, and spring configuration of a professional Cadillac to the reformer you already own. Build quality is professional grade (aluminum frame, steel upper frame, commercial upholstery), consistent with their reformer line. For a studio that already owns an Align reformer and doesn't require the established brand recognition of Balanced Body or Merrithew for marketing purposes, the Align Cadillac Frame represents a compelling value — note that it requires a compatible Align reformer as a base, it is not a standalone machine.",
+    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+cadillac+frame+reformer&tag=pilatescollective-20",
     tag: "Best Value",
   },
   {

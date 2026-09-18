@@ -11,6 +11,7 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ name, description, price, affiliateUrl = "#", imageUrl }: ProductCardProps) {
+  const buttonLabel = /amazon\.[a-z.]+\//.test(affiliateUrl) ? "Shop on Amazon" : "Shop Direct";
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       {imageUrl && (
@@ -82,7 +83,7 @@ export default function ProductCard({ name, description, price, affiliateUrl = "
           onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = "#c5a882"; }}
           onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = "#0a0a0a"; }}
         >
-          Shop on Amazon
+          {buttonLabel}
         </a>
       </div>
     </div>

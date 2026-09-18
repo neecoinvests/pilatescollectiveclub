@@ -80,11 +80,11 @@ const PRODUCTS = [
   },
   {
     rank: "06",
-    name: "XTONE Megaformer-Style Platform Extension",
+    name: "Budget Megaformer-Style Platform Extension (Third-Party)",
     price: "From $99",
     verdict: "Best budget third-party extender",
     description:
-      "Built to fit XTONE and similarly-dimensioned third-party Megaformer-style machines, this budget extension provides additional standing platform surface at a fraction of the cost of authentic Lagree Fitness accessories. Build quality and mounting precision are noticeably less refined than the OEM Lagree extender, and fit is not guaranteed on authentic Lagree Fitness machines due to differing mounting hardware — confirm exact platform dimensions before purchasing. For practitioners already training on a budget third-party Megaformer-style machine, this extender matches that machine's price tier appropriately.",
+      "Built to fit third-party Megaformer-style machines with similar platform dimensions, this budget extension provides additional standing platform surface at a fraction of the cost of authentic Lagree Fitness accessories. Build quality and mounting precision are noticeably less refined than the OEM Lagree extender, and fit is not guaranteed on authentic Lagree Fitness machines due to differing mounting hardware — confirm exact platform dimensions and brand compatibility before purchasing. For practitioners already training on a budget third-party Megaformer-style machine, this extender matches that machine's price tier appropriately.",
     affiliateUrl: "https://www.amazon.com/s?k=megaformer+platform+extension+budget&tag=pilatescollective-20",
     tag: "Best Budget Third-Party",
   },
@@ -241,7 +241,7 @@ export default function BestPlatformExtenderPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Megaformer Machine (2026)" excerpt="Lagree M3S, Supraformer, Proformer, and more compared for home and studio Lagree training." href="/blog/best-megaformer-machine" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Megaformer Machine (2026)" excerpt="Lagree M3S, The Micro, M3X, and more compared for home and studio Lagree training." href="/blog/best-megaformer-machine" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Lagree Reformer Springs & Resistance Cables (2026)" excerpt="The best replacement springs and resistance cables for Megaformer and Lagree-style machines." href="/blog/best-lagree-resistance-springs-cables" category="Equipment" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
               </div>
             </div>

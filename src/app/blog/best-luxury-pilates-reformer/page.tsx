@@ -41,8 +41,8 @@ const PRODUCTS = [
     name: "Gratz Industries Pilates Reformer",
     price: "From $5,200",
     verdict: "The Original",
-    description: "Gratz Industries built the first modern Pilates reformer in New York under Joseph Pilates himself, and the design has changed only in refinement since. Every Gratz reformer is hand-built to order in New York using aircraft-grade aluminium, precision-tensioned springs calibrated to Pilates' original specifications, and hardwood components finished to a standard indistinguishable from fine furniture. Classical Pilates studios worldwide consider no other reformer. A Gratz is not an equipment purchase — it is an heirloom.",
-    affiliateUrl: "https://www.amazon.com/s?k=gratz+pilates+reformer+classical&tag=pilatescollective-20",
+    description: "Gratz Industries built the first modern Pilates reformer in New York under Joseph Pilates himself, and the design has changed only in refinement since. Every Gratz reformer is hand-built to order in New York using aircraft-grade aluminium, precision-tensioned springs calibrated to Pilates' original specifications, and hardwood components finished to a standard indistinguishable from fine furniture. Classical Pilates studios worldwide consider no other reformer. A Gratz is not an equipment purchase — it is an heirloom. Sold direct at gratzpilates.com, not available on Amazon.",
+    affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
     tag: "The Original",
   },
   {
@@ -77,8 +77,8 @@ const PRODUCTS = [
     name: "BASI Systems Pilates Reformer",
     price: "From $3,500",
     verdict: "Best for Contemporary Pilates",
-    description: "BASI Systems was developed by Rael Isacowitz — one of the world's foremost Pilates educators — to support his contemporary Pilates methodology. The reformer integrates several design refinements not found in classical machines: a longer carriage travel for taller practitioners, a broader footbar range, and rope-and-pulley geometry optimised for contemporary exercise progressions. The preferred reformer of BASI-certified instructors worldwide.",
-    affiliateUrl: "https://www.amazon.com/s?k=basi+systems+pilates+reformer&tag=pilatescollective-20",
+    description: "BASI Systems was developed by Rael Isacowitz — one of the world's foremost Pilates educators — to support his contemporary Pilates methodology. The reformer integrates several design refinements not found in classical machines: a longer carriage travel for taller practitioners, a broader footbar range, and rope-and-pulley geometry optimised for contemporary exercise progressions. The preferred reformer of BASI-certified instructors worldwide. Sold direct at basisystems.com, not available on Amazon.",
+    affiliateUrl: "https://basisystems.com/product-category/reformers/",
     tag: "Contemporary Standard",
   },
   {

@@ -108,7 +108,7 @@ const FAQ = [
   },
   {
     q: "Will someone who does studio pilates be happy with a $400 reformer?",
-    a: "It depends on how serious they are. Someone who does studio reformer classes twice a week for fitness will appreciate a $400 home machine for supplementary practice between classes. Someone who is training seriously, has an instructor, and does reformer pilates four or more times per week will feel the limitations of bungee resistance and a shorter carriage. For the latter, the Merrithew At Home SPX ($899) or Align-Pilates M8 Pro ($850) is a better fit.",
+    a: "It depends on how serious they are. Someone who does studio reformer classes twice a week for fitness will appreciate a $400 home machine for supplementary practice between classes. Someone who is training seriously, has an instructor, and does reformer pilates four or more times per week will feel the limitations of bungee resistance and a shorter carriage. For the latter, a genuine spring machine like the Align-Pilates H1 (from $1,790) is a better fit, though it is well outside a $500 budget.",
   },
   {
     q: "How do budget reformers compare to studio reformers?",
