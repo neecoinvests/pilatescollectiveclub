@@ -8,11 +8,11 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Under $2,000 (2026): 2 Real Picks",
-  description: "The Align Pilates H1 is a genuine spring reformer under $2,000, and the AeroPilates XP 557 is the best cord-based alternative. What else claims this bracket and doesn't.",
-  keywords: ["best pilates reformer under 2000", "pilates reformer under 2000 dollars", "align pilates h1 review", "spring reformer under 2000", "mid-range pilates reformer 2026", "align pilates reformer under 2000", "best reformer $1000-$2000", "pilates reformer mid-range buy"],
+  description: "The Align C2 Pro RC is the tightest genuine spring reformer you can reliably buy on Amazon, and the AeroPilates XP 557 is the best pick that's actually under $2,000. What else claims this bracket and doesn't.",
+  keywords: ["best pilates reformer under 2000", "pilates reformer under 2000 dollars", "align pilates c2 pro rc review", "spring reformer under 2000", "mid-range pilates reformer 2026", "align pilates reformer amazon", "best reformer $1000-$2000", "pilates reformer mid-range buy"],
   openGraph: {
     title: "Best Pilates Reformer Under $2,000 (2026): 2 Real Picks",
-    description: "One genuine spring reformer and one strong cord-based alternative, both confirmed under $2,000.",
+    description: "One genuine spring reformer reliably available on Amazon, and one strong cord-based alternative actually under $2,000.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-2000",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Reformers Under $2000 — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Reformer Under $2,000 (2026)",
-    description: "A genuine spring reformer under $2,000, and the best cord-based alternative.",
+    description: "A genuine spring reformer reliably on Amazon, and the best pick actually under $2,000.",
     images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-2000" },
@@ -30,12 +30,12 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Align Pilates H1 Home Reformer",
-    price: "From $1,790",
-    verdict: "Best overall — genuine spring resistance",
+    name: "Align-Pilates C2 Pro RC Reformer",
+    price: "From $2,190",
+    verdict: "Best overall — genuine spring resistance, reliably on Amazon",
     description:
-      "The H1 is the machine we missed the first time we rebuilt this guide, and it is the one genuine spring reformer we can currently confirm under $2,000 from a recognised brand. It runs four music-wire springs in three strengths (one strong, two medium, one light) rather than bungee cord, which means a linear resistance curve that behaves like the reformer you trained on in a studio, not a softer approximation of one. It does not fold flat for under-bed storage; instead it stands upright on its own frame and wheels out of the way, which needs a ceiling of at least 2.4m (about 7'10\") to store standing. Rated to 120kg (265lb) and built for practitioners from 4'10\" to 6'4\". Dealer pricing varies more than most reformers in this guide, from around $1,600 to $1,900 depending on retailer and current stock, so check the total before ordering. Note: the H1 is not reliably stocked on Amazon.com — this link goes to an authorized dealer instead.",
-    affiliateUrl: "https://recovathlete.com/products/align-pilates-h1-home-reformer-machine",
+      "The C2 Pro RC is the tightest genuine spring reformer we can currently confirm both from a recognised brand and reliably in stock on Amazon.com. It runs real coil springs with Align's Rapid Change (RC) spring bar, which lets you adjust one spring at a time without removing the others — a real convenience during a session, not a marketing detail. The 94-inch rail and 36.2-inch carriage cover the full repertoire, it's rated to 265lb for users 4'10\" to 6'4\", and it folds upright for storage rather than needing dedicated floor space. It runs about $400 more than the Align H1, which is technically cheaper on paper — but the H1 is not reliably stocked on Amazon.com, so a shopper following this link to it would frequently land on a search with no H1 in the results. We would rather recommend the machine you can actually find and buy today.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CCSM6K8C?tag=pilatescollective-20",
     tag: "Best Overall",
   },
   {
@@ -44,7 +44,7 @@ const PRODUCTS = [
     price: "From $1,329",
     verdict: "Best cord-based alternative",
     description:
-      "If the H1's storage height or weight rating rules it out, the XP 557 is the strongest cord-based machine at this budget. Elastic cord resistance rises as it stretches rather than tracking the roughly linear curve of a spring, which is a real difference in feel — softer at the start of a rep, firmer toward the end. That is not a flaw so much as a different mechanism, and it suits beginners and rehabilitation contexts well. The integrated cardio rebounder is included in the package, which spring-based machines at this price require a separate jumpboard to match. The honest limitation: cord is not a substitute for spring resistance in advanced programming, and practitioners training seriously tend to outgrow it within a couple of years.",
+      "If $2,190 is more than you want to spend and cord resistance is an acceptable trade, the XP 557 is the strongest cord-based machine at this budget — and it comes in well under $2,000. Elastic cord resistance rises as it stretches rather than tracking the roughly linear curve of a spring, which is a real difference in feel — softer at the start of a rep, firmer toward the end. That is not a flaw so much as a different mechanism, and it suits beginners and rehabilitation contexts well. The integrated cardio rebounder is included in the package, which spring-based machines at this price require a separate jumpboard to match. The honest limitation: cord is not a substitute for spring resistance in advanced programming, and practitioners training seriously tend to outgrow it within a couple of years.",
     affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557&tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -52,7 +52,6 @@ const PRODUCTS = [
 
 const COMMONLY_ASSUMED = [
   { model: "Peak Pilates Fit", actual: "from $2,200", over: "$200 over" },
-  { model: "Align Pilates C2 Pro RC", actual: "$2,280", over: "$280 over" },
   { model: "Balanced Body Metro IQ", actual: "$2,295", over: "$295 over" },
   { model: "Align Pilates C8 Pro", actual: "$2,750", over: "$750 over" },
   { model: "Merrithew At Home SPX", actual: "$3,299", over: "$1,299 over" },
@@ -65,7 +64,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Reformer Under $2,000 (2026): 2 Real Picks",
-      "description": "The Align Pilates H1 is a genuine spring reformer confirmed under $2,000, and the AeroPilates XP 557 is the strongest cord-based alternative. What else claims this bracket and does not qualify.",
+      "description": "The Align C2 Pro RC is the tightest genuine spring reformer reliably available on Amazon, and the AeroPilates XP 557 is the strongest pick actually under $2,000. What else claims this bracket and does not qualify.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-2000",
       "datePublished": "2026-05-21",
       "dateModified": "2026-09-17",
@@ -100,9 +99,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a genuine spring-based Pilates reformer under $2,000?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, one that we can currently confirm from an established brand: the Align Pilates H1, priced by dealers between roughly $1,600 and $1,900. It runs real coil springs rather than bungee cord. Everything else marketed as a spring reformer near this budget, including the Peak Pilates Fit, the Align C2 Pro RC, the Balanced Body Metro IQ and the Align C8 Pro, checks in between $2,200 and $2,750 on current dealer pricing." } },
-        { "@type": "Question", "name": "Is $2,000 enough to buy a good Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "It buys one genuine spring machine, the Align Pilates H1, plus every serious cord-based option on the market. It does not buy the machines most commonly recommended at this budget: the Align C8 Pro is around $2,750, and the Merrithew At Home SPX package runs $3,299 or more. If the H1 does not suit your height, weight or storage constraints, the honest next spring-based budget is closer to $2,200." } },
-        { "@type": "Question", "name": "What is the cheapest real Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Depends whether you mean spring or cord. The AeroPilates Pro XP 557 at around $1,329 is the strongest cord-resistance machine we can verify, and less expensive AeroPilates models exist below $500. For genuine coil-spring resistance, the Align Pilates H1 at roughly $1,600 to $1,900 is the cheapest we can currently confirm from a recognised brand. The next spring reformers up start around $2,200." } },
+        { "@type": "Question", "name": "Is there a genuine spring-based Pilates reformer under $2,000?", "acceptedAnswer": { "@type": "Answer", "text": "Technically yes on price: the Align Pilates H1, priced by dealers between roughly $1,600 and $1,900, runs real coil springs rather than bungee cord. But the H1 is not reliably stocked on Amazon.com, so we now recommend the Align C2 Pro RC instead at $2,190 — just over the line, but a machine you can reliably find and buy through the link. Everything else marketed as a spring reformer near this budget, including the Peak Pilates Fit, the Balanced Body Metro IQ and the Align C8 Pro, checks in between $2,200 and $2,750 on current dealer pricing." } },
+        { "@type": "Question", "name": "Is $2,000 enough to buy a good Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "It buys every serious cord-based option on the market, plus the Align Pilates H1 if you are willing to buy from a dealer rather than Amazon. It does not reliably buy a spring reformer through Amazon — the closest genuinely available pick there is the Align C2 Pro RC at $2,190. It does not buy the machines most commonly recommended at this budget: the Align C8 Pro is around $2,750, and the Merrithew At Home SPX package runs $3,299 or more." } },
+        { "@type": "Question", "name": "What is the cheapest real Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Depends whether you mean spring, cord, or what you can reliably buy through Amazon. The AeroPilates Pro XP 557 at around $1,329 is the strongest cord-resistance machine we can verify. For genuine coil-spring resistance bought through a dealer, the Align Pilates H1 at roughly $1,600 to $1,900 is the cheapest we can currently confirm. For a spring reformer you can reliably buy on Amazon.com, the Align C2 Pro RC at $2,190 is the floor." } },
         { "@type": "Question", "name": "Should I buy a used reformer instead?", "acceptedAnswer": { "@type": "Answer", "text": "It is worth comparing before you decide. A commercial-grade frame from an established brand is built for well over a decade of daily studio use, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. At this budget a used studio machine and a new H1 are genuinely competing options, and which wins depends on what turns up locally and in what condition." } },
         { "@type": "Question", "name": "What is the difference between spring and bungee reformers?", "acceptedAnswer": { "@type": "Answer", "text": "Spring reformers use coil springs calibrated to specific resistance values — the same mechanism used in professional studios. The resistance profile is close to linear. Bungee (cord) reformers use elastic cord, which resists progressively more as it stretches, so the feel is softer at the start of a rep and firmer at the end. Springs are generally preferred for structured or advanced programming; cord systems suit beginners and rehabilitation well." } },
       ],
@@ -130,7 +129,7 @@ export default function BestPilatesReformerUnder2000Page() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              There is a genuine spring-based reformer under $2,000: the Align Pilates H1, confirmed against dealer listings at $1,600 to $1,900. It is the only machine with real coil springs, not bungee cord, that we can currently verify below this budget from an established brand. Below it we cover the H1 in full, the best cord-based alternative if it does not suit you, and the list of machines that get recommended at this price and are not actually here.
+              The tightest genuine spring reformer we can confirm both from an established brand and reliably in stock on Amazon.com is the Align-Pilates C2 Pro RC, at $2,190 — just over this page's own budget line. The Align H1 technically undercuts it, around $1,600 to $1,900 through dealers, but it is not reliably stocked on Amazon.com, so we stopped recommending it as the primary pick here: a link a shopper can't actually complete a purchase through isn't a real recommendation. Below we cover the C2 Pro RC in full, the best cord-based option if you want to stay strictly under $2,000, and the list of machines that get recommended at this price and cost meaningfully more.
             </p>
           </div>
         </section>
@@ -166,7 +165,7 @@ export default function BestPilatesReformerUnder2000Page() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The 2 Machines That Qualify</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The 2 Machines We Recommend</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -181,19 +180,19 @@ export default function BestPilatesReformerUnder2000Page() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why the H1 almost didn't make this list</h2>
+              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why the H1 is no longer our top pick</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Worth saying plainly: an earlier version of this guide left the H1 out. We had an unverified figure of $2,199 attached to it internally, it did not conflict with anything else on the site, so it went unquestioned. Independent dealer listings put the real price at $1,600 to $1,900. That was a mistake in the previous version, not a change in the market, and it is fixed now.
+                Worth saying plainly: an earlier version of this guide recommended the Align H1 as the one genuine spring reformer under $2,000, and on price alone that was correct — dealers list it at $1,600 to $1,900. What we hadn't checked closely enough was whether it actually turns up when you search for it on Amazon.com. It doesn't, reliably. It sells through amazon.co.uk and through US dealers directly, but not consistently on the US Amazon marketplace this site links to. A product page that sends you to Amazon and leaves you unable to find the machine isn't a working recommendation, whatever the price tag says.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The lesson generalises: a price that has never been contradicted is not the same as a price that has been checked. Everything in the table below has now been checked against current dealer listings rather than carried over from an earlier draft.
+                The C2 Pro RC costs about $400 more, but it is the same brand, genuine coil springs, and it comes up as a clean, exact match every time we've checked it on Amazon.com. We'd rather tell you the honest floor for a reformer you can actually buy through the link than protect a lower number that doesn't reliably work.
               </p>
             </div>
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What else claims this bracket, and what it actually costs</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Every machine below appears on somebody&apos;s under-$2,000 list. None of them is under $2,000 on current dealer pricing, checked in September 2026. If you see one of these advertised near $2,000 or below, that listing is either stale or the deal is on a bundle you should read carefully.
+                Every machine below appears on somebody&apos;s under-$2,000 list. None of them is under $2,000 on current dealer pricing, checked in September 2026 — and all of them cost more than the C2 Pro RC pick above. If you see one of these advertised near $2,000 or below, that listing is either stale or the deal is on a bundle you should read carefully.
               </p>
               <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", backgroundColor: "#ffffff" }}>
                 <div style={{ overflowX: "auto" }}>
@@ -218,7 +217,7 @@ export default function BestPilatesReformerUnder2000Page() {
                 </div>
               </div>
               <p className="text-sm leading-relaxed mt-4" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-                These six cluster tightly at $2,200 to $2,300 once you get past the H1, from four unrelated manufacturers. That is the real floor for a mainstream spring reformer once the H1 is accounted for separately.
+                These machines cluster from $2,200 up to $3,649, from four unrelated manufacturers. The C2 Pro RC at $2,190 undercuts all of them while still being a genuine, reliably-available spring reformer.
               </p>
             </div>
 
@@ -226,10 +225,10 @@ export default function BestPilatesReformerUnder2000Page() {
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Choosing between the two picks, or waiting</h2>
               <div className="space-y-4">
                 {[
-                  { label: "Take the H1 if the storage height and weight rating work for you", body: "This is the pick for anyone who wants real spring feel without spending $2,200+. Check two things before ordering: you need roughly 7'10\" of ceiling clearance to stand it upright for storage, and the 120kg (265lb) user rating needs to comfortably cover the heaviest person who will use it." },
-                  { label: "Take the AeroPilates if you are not sure the habit will stick, or the H1's constraints rule it out", body: "Lower commitment, lower price, and a genuinely different but legitimate resistance mechanism. The included cardio rebounder is a real point in its favour if you want more than reformer work from one machine." },
+                  { label: "Take the C2 Pro RC if you want real spring feel from a machine you can actually buy today", body: "At $2,190 this is the pick for anyone who wants genuine coil-spring resistance and a link that reliably leads to a real purchase. It folds upright for storage, is rated to 265lb, and fits users 4'10\" to 6'4\"." },
+                  { label: "Take the AeroPilates if you want to stay strictly under $2,000, or are not sure the habit will stick", body: "Lower commitment, lower price, and a genuinely different but legitimate resistance mechanism. The included cardio rebounder is a real point in its favour if you want more than reformer work from one machine." },
                   { label: "Buy used if you want spring resistance from an established studio brand", body: "A used Balanced Body or Merrithew frame at this budget is a serious option, not a compromise. Springs, ropes and upholstery are the only real wear items and they are inexpensive to replace, so the frame and rails are what actually matter in an inspection." },
-                  { label: "Stretch to about $2,200 to $2,300 if neither the H1 nor cord resistance appeals", body: "The Peak Pilates Fit, Align C2 Pro RC and Balanced Body Metro IQ all sit in this band. The jump from the H1 buys you the accessory ecosystem of a bigger brand rather than a meaningfully different reformer experience." },
+                  { label: "Look at the Align H1 directly through a dealer if $1,600-$1,900 matters more than Amazon convenience", body: "The H1 is a real machine at a real price, it just doesn't reliably show up on Amazon.com. If you're comfortable ordering from an authorized dealer instead of Amazon, it remains the cheapest genuine spring reformer from a recognised brand." },
                 ].map((item) => (
                   <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
@@ -243,9 +242,9 @@ export default function BestPilatesReformerUnder2000Page() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a genuine spring-based Pilates reformer under $2,000?", a: "Yes, one that we can currently confirm from an established brand: the Align Pilates H1, priced by dealers between roughly $1,600 and $1,900. It runs real coil springs rather than bungee cord. Everything else marketed as a spring reformer near this budget, including the Peak Pilates Fit, the Align C2 Pro RC, the Balanced Body Metro IQ and the Align C8 Pro, checks in between $2,200 and $2,750 on current dealer pricing." },
-                  { q: "Is $2,000 enough to buy a good Pilates reformer?", a: "It buys one genuine spring machine, the Align Pilates H1, plus every serious cord-based option on the market. It does not buy the machines most commonly recommended at this budget: the Align C8 Pro is around $2,750, and the Merrithew At Home SPX package runs $3,299 or more. If the H1 does not suit your height, weight or storage constraints, the honest next spring-based budget is closer to $2,200." },
-                  { q: "What is the cheapest real Pilates reformer?", a: "Depends whether you mean spring or cord. The AeroPilates Pro XP 557 at around $1,329 is the strongest cord-resistance machine we can verify, and less expensive AeroPilates models exist below $500. For genuine coil-spring resistance, the Align Pilates H1 at roughly $1,600 to $1,900 is the cheapest we can currently confirm from a recognised brand. The next spring reformers up start around $2,200." },
+                  { q: "Is there a genuine spring-based Pilates reformer under $2,000?", a: "Technically yes on price: the Align Pilates H1, priced by dealers between roughly $1,600 and $1,900, runs real coil springs rather than bungee cord. But the H1 is not reliably stocked on Amazon.com, so we now recommend the Align C2 Pro RC instead at $2,190 — just over the line, but a machine you can reliably find and buy through the link. Everything else marketed as a spring reformer near this budget, including the Peak Pilates Fit, the Balanced Body Metro IQ and the Align C8 Pro, checks in between $2,200 and $2,750 on current dealer pricing." },
+                  { q: "Is $2,000 enough to buy a good Pilates reformer?", a: "It buys every serious cord-based option on the market, plus the Align Pilates H1 if you are willing to buy from a dealer rather than Amazon. It does not reliably buy a spring reformer through Amazon — the closest genuinely available pick there is the Align C2 Pro RC at $2,190. It does not buy the machines most commonly recommended at this budget: the Align C8 Pro is around $2,750, and the Merrithew At Home SPX package runs $3,299 or more." },
+                  { q: "What is the cheapest real Pilates reformer?", a: "Depends whether you mean spring, cord, or what you can reliably buy through Amazon. The AeroPilates Pro XP 557 at around $1,329 is the strongest cord-resistance machine we can verify. For genuine coil-spring resistance bought through a dealer, the Align Pilates H1 at roughly $1,600 to $1,900 is the cheapest we can currently confirm. For a spring reformer you can reliably buy on Amazon.com, the Align C2 Pro RC at $2,190 is the floor." },
                   { q: "Should I buy a used reformer instead?", a: "It is worth comparing before you decide. A commercial-grade frame from an established brand is built for well over a decade of daily studio use, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. At this budget a used studio machine and a new H1 are genuinely competing options, and which wins depends on what turns up locally and in what condition." },
                   { q: "What is the difference between spring and bungee reformers?", a: "Spring reformers use coil springs calibrated to specific resistance values — the same mechanism used in professional studios. The resistance profile is close to linear. Bungee (cord) reformers use elastic cord, which resists progressively more as it stretches, so the feel is softer at the start of a rep and firmer at the end. Springs are generally preferred for structured or advanced programming; cord systems suit beginners and rehabilitation well." },
                 ].map((item) => (

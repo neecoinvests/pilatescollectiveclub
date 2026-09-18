@@ -54,11 +54,11 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Align-Pilates H1 Reformer",
-    price: "From $1,790",
+    name: "Align-Pilates C2 Pro RC Reformer",
+    price: "From $2,190",
     verdict: "Best Value Mid-Range Reformer",
-    description: "Align-Pilates makes professional-grade reformers in the UK and has built a strong reputation in the studio market for quality that rivals Merrithew and Balanced Body at a lower price point. The H1 is their compact home reformer: a steel frame, genuine coil springs (not bungee), a padded carriage, and a footbar sized for the full repertoire. Traditional springs provide the authentic reformer resistance that bungee-cord alternatives cannot replicate — important for someone who trains seriously or has studio experience. It also folds for storage, which matters for anyone without a dedicated pilates room. This is the best-value traditionally-sprung reformer available for home gifting. Not reliably stocked on Amazon.com — buy direct from an authorized Align-Pilates dealer.",
-    affiliateUrl: "https://recovathlete.com/products/align-pilates-h1-home-reformer-machine",
+    description: "Align-Pilates makes professional-grade reformers in the UK and has built a strong reputation in the studio market for quality that rivals Merrithew and Balanced Body at a lower price point. The C2 Pro RC is their compact home reformer: an aluminium frame, genuine coil springs (not bungee) with a Rapid Change spring bar, a padded carriage, and a footbar sized for the full repertoire. Traditional springs provide the authentic reformer resistance that bungee-cord alternatives cannot replicate — important for someone who trains seriously or has studio experience. It also folds upright for storage, which matters for anyone without a dedicated pilates room. This is the best-value traditionally-sprung reformer available for home gifting, and it's reliably in stock on Amazon under its own name.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CCSM6K8C?tag=pilatescollective-20",
   },
   {
     rank: "04",
@@ -112,7 +112,7 @@ const FAQ = [
   },
   {
     q: "What is the best pilates reformer to give as a gift?",
-    a: "For a beginner: the AeroPilates Performer Plus ($330) — foldable, complete, and a meaningful upgrade from studio-only practice. For someone with studio experience: the Align-Pilates H1 (from $1,790) or Merrithew At Home SPX (from $3,299), which use traditional springs for an authentic feel. For a serious or advanced practitioner: the Balanced Body Allegro 2 (from $3,995) — the professional standard.",
+    a: "For a beginner: the AeroPilates Performer Plus ($330) — foldable, complete, and a meaningful upgrade from studio-only practice. For someone with studio experience: the Align-Pilates C2 Pro RC (from $2,190) or Merrithew At Home SPX (from $3,299), which use traditional springs for an authentic feel. For a serious or advanced practitioner: the Balanced Body Allegro 2 (from $3,995) — the professional standard.",
   },
   {
     q: "How do I gift a pilates reformer without ruining the surprise?",

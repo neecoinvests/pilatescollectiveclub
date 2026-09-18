@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   description: "Align Pilates C8, F3, and A8 reformers reviewed and compared — build quality, spring resistance, frame stability, and value for home and studio use.",
   keywords: ["align pilates reformer review", "align pilates c8 review", "align pilates a8 review", "align pilates f3 review", "align pilates vs merrithew", "best align pilates reformer", "align pilates home reformer", "align pilates 2026"],
   openGraph: {
-    title: "Align-Pilates Reformer Review (2026): C2 Pro, C8 Pro & H1",
+    title: "Align-Pilates Reformer Review (2026): C2 Pro & C8 Pro",
     description: "Align-Pilates makes studio-grade reformers at mid-tier prices. Here's an honest review of their main machines.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/align-pilates-reformer-review",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg", width: 1200, height: 630, alt: "Align-Pilates reformer review — Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "Align-Pilates Reformer Review (2026)", description: "C2 Pro vs C8 Pro vs H1 — an honest review of Align-Pilates' reformer range.", images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"] },
+  twitter: { card: "summary_large_image", title: "Align-Pilates Reformer Review (2026)", description: "C2 Pro RC vs C8 Pro — an honest review of Align-Pilates' reformer range.", images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/align-pilates-reformer-review" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -34,24 +34,15 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Align-Pilates C2 Pro Reformer",
+    name: "Align-Pilates C2 Pro RC Reformer",
     price: "From $2,190",
     verdict: "Best entry into professional-grade reformers",
-    description: "The C2 Pro is Align-Pilates' entry professional model — the first Align machine to earn genuine endorsement from working instructors rather than casual home users. Five springs, sealed bearings, adjustable footbar, and an aluminium frame that matches the structural rigidity of machines in a significantly higher price bracket. The primary difference from the C8 Pro is refinement of components: the C2 Pro's footbar adjustment is two-position (vs three), the shoulder rest padding is slightly thinner, and the overall polish is a step below the flagship — at a real, though not dramatic, price advantage over the C8 Pro. For practitioners and instructors who want a credible professional machine at a lower price than the flagship, the C2 Pro is solid value. It also folds upright — a meaningful advantage over the non-folding C8 Pro for home studios.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=pilatescollective-20",
+    description: "The C2 Pro RC is Align-Pilates' entry professional model — the first Align machine to earn genuine endorsement from working instructors rather than casual home users, and it's reliably in stock on Amazon.com under its own name. Five springs, sealed bearings, a Rapid Change spring bar, and an aluminium frame that matches the structural rigidity of machines in a significantly higher price bracket. The primary difference from the C8 Pro is refinement of components: the C2 Pro's footbar adjustment is two-position (vs three), the shoulder rest padding is slightly thinner, and the overall polish is a step below the flagship — at a real, though not dramatic, price advantage over the C8 Pro. It also folds upright for storage, unlike the non-folding C8 Pro, and as a C-series machine it accepts a separately-sold tower attachment for practitioners who want to add trapeze and push-through-bar work later. For practitioners and instructors who want a credible professional machine at a lower price than the flagship, the C2 Pro RC is solid value.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CCSM6K8C?tag=pilatescollective-20",
     tag: "Best Entry Pro",
   },
   {
     rank: "03",
-    name: "Align-Pilates H1 Reformer + Tower Attachment",
-    price: "From $1,790",
-    verdict: "Best complete home studio setup",
-    description: "The H1 is Align-Pilates' foldable home reformer (from roughly $1,790), and it accepts a separately-sold tower attachment rather than shipping as one fixed reformer-and-tower SKU — giving access to the reformer and tower repertoire without needing a separate Cadillac, once both pieces are bought. For home practitioners who want to progress beyond the reformer into trapeze work, push-through bar exercises, and leg spring exercises, buying the H1 with a compatible tower attachment is typically cheaper than a separate $1,500+ standalone tower purchase from a major brand. The reformer component uses genuine coil-spring resistance; the tower adds springs, a push-through bar, and a roll-down bar. Full assembly of both pieces requires approximately three hours but results in a genuinely complete apparatus that covers most of what a full studio Cadillac offers. Not reliably stocked on Amazon.com — buy direct from an authorized Align-Pilates dealer, which will also carry the tower attachment.",
-    affiliateUrl: "https://recovathlete.com/products/align-pilates-h1-home-reformer-machine",
-    tag: "Reformer + Tower",
-  },
-  {
-    rank: "04",
     name: "Align-Pilates Reformer Box",
     price: "From $149",
     verdict: "Essential accessory for the full repertoire",
@@ -60,7 +51,7 @@ const PRODUCTS = [
     tag: "Essential Accessory",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "Align-Pilates Reformer Jumpboard",
     price: "From $199",
     verdict: "Best accessory for cardio intervals",
@@ -76,7 +67,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Align-Pilates Reformer Review (2026): The Mid-Tier Machine Earning Studio Endorsement",
-      "description": "Align-Pilates reformers reviewed honestly — C2 Pro, C8 Pro, and H1 with tower compared against Balanced Body and Merrithew at a significantly lower price.",
+      "description": "Align-Pilates reformers reviewed honestly — C2 Pro RC and C8 Pro compared against Balanced Body and Merrithew at a significantly lower price.",
       "url": "https://pilatescollectiveclub.com/blog/align-pilates-reformer-review",
       "datePublished": "2026-05-16",
       "dateModified": "2026-05-16",
@@ -99,7 +90,7 @@ const jsonLd = {
         { "@type": "Question", "name": "Is Align-Pilates good enough for professional teaching?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The C2 Pro and C8 Pro are used by working instructors in commercial settings. The spring system, carriage quality, and structural integrity meet professional standards." } },
         { "@type": "Question", "name": "How does Align-Pilates compare to Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Spring feel and long-term reputation slightly favour Balanced Body; price and value favour Align-Pilates. Both are professional-grade. The Allegro 2 is widely considered the best carriage feel available; the C8 Pro is excellent but not quite at that level." } },
         { "@type": "Question", "name": "Is Align-Pilates available in the United States?", "acceptedAnswer": { "@type": "Answer", "text": "Available through specialist dealers and on Amazon. The brand is US-available but the service network is less established than Balanced Body or Merrithew's. Factor in shipping costs and servicing access when comparing prices." } },
-        { "@type": "Question", "name": "Which Align-Pilates model should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "The C8 Pro for a dedicated home studio or professional teaching room. The C2 Pro for a home practitioner who wants professional spring quality at a lower price. The H1 with a tower attachment if you want the reformer and tower repertoire without buying from two separate brands." } },
+        { "@type": "Question", "name": "Which Align-Pilates model should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "The C8 Pro for a dedicated home studio or professional teaching room. The C2 Pro RC for a home practitioner who wants professional spring quality at a lower price, folding storage, and the option to add a tower attachment later." } },
       ],
     },
   ],
@@ -135,7 +126,7 @@ export default function AlignPilatesReformerReviewPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" alt="Align-Pilates reformer review — C2 Pro, C8 Pro, and H1 compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" alt="Align-Pilates reformer review — C2 Pro RC and C8 Pro compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -190,7 +181,7 @@ export default function AlignPilatesReformerReviewPage() {
 
             {/* Products section */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-8" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Align-Pilates Products · Expert-Reviewed</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-8" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Align-Pilates Products · Expert-Reviewed</p>
 
               {/* Quick reference table */}
               <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
@@ -283,7 +274,7 @@ export default function AlignPilatesReformerReviewPage() {
                   },
                   {
                     q: "Which Align-Pilates model should I buy?",
-                    a: "The C8 Pro for a dedicated home studio or professional teaching room where the machine will be in permanent use. The C2 Pro for a home practitioner who wants professional spring quality at a lower price and values the fold-up storage option. The H1 plus a tower attachment if you want the reformer and tower repertoire without buying from two separate brands.",
+                    a: "The C8 Pro for a dedicated home studio or professional teaching room where the machine will be in permanent use. The C2 Pro RC for a home practitioner who wants professional spring quality at a lower price, values the fold-up storage option, and may want to add a tower attachment later.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

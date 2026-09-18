@@ -30,12 +30,12 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Align Pilates H1 Folding Reformer",
-    price: "From $1,790",
+    name: "Align-Pilates C2 Pro RC Reformer",
+    price: "From $2,190",
     verdict: "Best overall compact reformer",
     description:
-      "The Align H1 is the most intelligently designed folding reformer available for home use. In its folded position, it reduces to approximately 60% of its operational footprint and can be stored vertically against a wall — a genuinely viable solution for apartment living where horizontal storage space is the primary constraint. The fold mechanism is smooth and tool-free, requiring less than a minute for setup or storage. In its operational position, the H1 performs comparably to any mid-range clinical reformer: the four-spring system covers the full spring range used in intermediate programming, the carriage glides smoothly on sealed bearings, and the footbar adjusts to three height positions. The aluminium frame is lighter than steel equivalents, making storage transitions manageable for a single practitioner. Not reliably stocked on Amazon.com — buy direct from an authorized Align-Pilates dealer.",
-    affiliateUrl: "https://recovathlete.com/products/align-pilates-h1-home-reformer-machine",
+      "The C2 Pro RC is one of the most intelligently designed folding reformers available for home use, and it's reliably in stock on Amazon under its own name — a real advantage over the Align H1, which is similarly compact but does not turn up consistently in Amazon.com searches. It folds upright for storage against a wall, a genuinely viable solution for apartment living where horizontal storage space is the primary constraint. In its operational position, it performs like a mid-range clinical reformer: genuine coil springs with Align's Rapid Change spring bar cover the full spring range used in intermediate programming, the carriage glides smoothly, and the 94-inch rail supports the full repertoire. Rated to 265lb for users 4'10\" to 6'4\".",
+    affiliateUrl: "https://www.amazon.com/dp/B0CCSM6K8C?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
@@ -122,8 +122,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "How much space do I need for a Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "A standard reformer requires approximately 90 × 26 inches of floor space in its operational position, plus 2–3 feet at each end for entry and movement. Compact and foldable models reduce this to as little as 72 × 22 inches. You also need approximately 6 feet of clearance above for exercises performed in standing on the reformer." } },
-        { "@type": "Question", "name": "Can I store a Pilates reformer when not in use?", "acceptedAnswer": { "@type": "Answer", "text": "Foldable reformers like the Align H1 and Peak Fit can be folded and stored vertically against a wall or in a cupboard. Standard clinical reformers cannot be meaningfully compacted but can be positioned against a wall when not in use. AeroPilates-style bungee reformers are light enough to be carried and stored under a bed or in a cupboard upright." } },
-        { "@type": "Question", "name": "Is a compact reformer as good as a full-size studio reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Compact reformers with spring-based resistance systems (Align H1, Merrithew SPX, Peak Fit) perform comparably to full studio reformers for all intermediate programming. The main difference is carriage travel distance — compact reformers may be 6–10 inches shorter, which affects a small number of exercises but does not limit most of the repertoire. Bungee-based compact reformers have different resistance characteristics and are more suited for beginners." } },
+        { "@type": "Question", "name": "Can I store a Pilates reformer when not in use?", "acceptedAnswer": { "@type": "Answer", "text": "Foldable reformers like the Align C2 Pro RC and Peak Fit can be folded and stored vertically against a wall or in a cupboard. Standard clinical reformers cannot be meaningfully compacted but can be positioned against a wall when not in use. AeroPilates-style bungee reformers are light enough to be carried and stored under a bed or in a cupboard upright." } },
+        { "@type": "Question", "name": "Is a compact reformer as good as a full-size studio reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Compact reformers with spring-based resistance systems (Align C2 Pro RC, Merrithew SPX, Peak Fit) perform comparably to full studio reformers for all intermediate programming. The main difference is carriage travel distance — compact reformers may be 6–10 inches shorter, which affects a small number of exercises but does not limit most of the repertoire. Bungee-based compact reformers have different resistance characteristics and are more suited for beginners." } },
       ],
     },
   ],
@@ -204,8 +204,8 @@ export default function BestPilatesReformerSmallSpacesPage() {
               <div className="space-y-6">
                 {[
                   { q: "How much space do I need for a Pilates reformer?", a: "A standard reformer requires approximately 90 × 26 inches of floor space in its operational position, plus 2–3 feet at each end for entry and movement. Compact and foldable models reduce this to as little as 72 × 22 inches. You also need approximately 6 feet of clearance above for exercises performed standing on the reformer." },
-                  { q: "Can I store a Pilates reformer when not in use?", a: "Foldable reformers like the Align H1 and Peak Fit can be folded and stored vertically against a wall or in a cupboard. Standard clinical reformers cannot be meaningfully compacted but can be positioned against a wall when not in use. AeroPilates-style bungee reformers are light enough to be carried and stored under a bed or in a cupboard upright." },
-                  { q: "Is a compact reformer as good as a full-size studio reformer?", a: "Compact reformers with spring-based resistance systems (Align H1, Merrithew SPX, Peak Fit) perform comparably to full studio reformers for all intermediate programming. The main difference is carriage travel distance — compact reformers may be 6–10 inches shorter, which affects a small number of exercises but does not limit most of the repertoire." },
+                  { q: "Can I store a Pilates reformer when not in use?", a: "Foldable reformers like the Align C2 Pro RC and Peak Fit can be folded and stored vertically against a wall or in a cupboard. Standard clinical reformers cannot be meaningfully compacted but can be positioned against a wall when not in use. AeroPilates-style bungee reformers are light enough to be carried and stored under a bed or in a cupboard upright." },
+                  { q: "Is a compact reformer as good as a full-size studio reformer?", a: "Compact reformers with spring-based resistance systems (Align C2 Pro RC, Merrithew SPX, Peak Fit) perform comparably to full studio reformers for all intermediate programming. The main difference is carriage travel distance — compact reformers may be 6–10 inches shorter, which affects a small number of exercises but does not limit most of the repertoire." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
