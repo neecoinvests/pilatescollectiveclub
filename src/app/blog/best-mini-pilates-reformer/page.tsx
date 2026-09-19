@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
-import BlogHero from "@/components/BlogHero";
-import BlogSidebar from "@/components/BlogSidebar";
+import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Mini Pilates Reformer (2026): Compact Picks Reviewed",
@@ -80,6 +80,21 @@ const PRODUCTS = [
   },
 ];
 
+const FAQS = [
+  {
+    q: "Is a mini Pilates reformer worth it?",
+    a: "For complete beginners or travellers who want a Pilates-adjacent movement experience, a budget mini reformer at $150-300 is worthwhile. For practitioners who train 3+ times per week, a budget mini reformer will frustrate you — the cord resistance, short rail, and limited weight capacity don't replicate the reformer experience. In that case, save for the AeroPilates 287 or the Align-Pilates C2 Pro RC.",
+  },
+  {
+    q: "How much space does a mini Pilates reformer need?",
+    a: "Most mini reformers are 60-80 inches long and 20-24 inches wide, compared to 96-100 inches for a standard reformer. In practice, you need an active space of roughly 8 feet by 4 feet to move freely. The Stamina AeroPilates folds to under 8 inches of height for storage.",
+  },
+  {
+    q: "Can you get a full Pilates workout on a mini reformer?",
+    a: "On a full-function mini reformer like the AeroPilates 287, approximately 70-75% of the classical reformer repertoire is accessible. Exercises that require a tall tower or full reach are limited by rail length. The seated series, footwork, and most standing work are fully accessible.",
+  },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -123,23 +138,11 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is a mini Pilates reformer worth it?",
-          "acceptedAnswer": { "@type": "Answer", "text": "For complete beginners or travellers who want a Pilates-adjacent movement experience, a budget mini reformer at $150-300 is worthwhile. For practitioners who train 3+ times per week, a budget mini reformer will frustrate you — the cord resistance, short rail, and limited weight capacity don't replicate the reformer experience. In that case, save for the AeroPilates 287 or the Align-Pilates C2 Pro RC." }
-        },
-        {
-          "@type": "Question",
-          "name": "How much space does a mini Pilates reformer need?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Most mini reformers are 60-80 inches long and 20-24 inches wide, compared to 96-100 inches for a standard reformer. In practice, you need an active space of roughly 8 feet by 4 feet to move freely. The Stamina AeroPilates folds to under 8 inches of height for storage." }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you get a full Pilates workout on a mini reformer?",
-          "acceptedAnswer": { "@type": "Answer", "text": "On a full-function mini reformer like the AeroPilates 287, approximately 70-75% of the classical reformer repertoire is accessible. Exercises that require a tall tower or full reach are limited by rail length. The seated series, footwork, and most standing work are fully accessible." }
-        },
-      ],
+      "mainEntity": FAQS.map((f) => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a },
+      })),
     },
     {
       "@type": "ItemList",
@@ -171,112 +174,143 @@ export default function BestMiniPilatesReformerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
-        <BlogHero
-          imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg"
-          imageAlt="Compact Pilates reformer for home use"
-          category="Equipment Guide"
-          subcategory="Mini Reformers"
-          title={<>Best Mini Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): Compact & Effective</span></>}
-          date="Updated May 2026"
-          readTime="9 min read"
-        />
 
-        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
-          <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
-
+        {/* Hero section */}
+        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
+              <span style={{ color: "#d9c2ba" }}>·</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Mini Reformers</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              Best Mini Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): Compact & Effective</span>
+            </h1>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
-
-            <section className="pb-20">
-              <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                Space is the most common barrier to owning a Pilates reformer. A full-size machine requires a dedicated room; most apartments won't accommodate one. The mini and compact reformer market addresses this — but the quality range is enormous. At $180, you get a bungee-cord toy. At $1,299, you get a genuine spring reformer in a narrow frame. This guide navigates the full spectrum honestly.
-              </p>
-
-              <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What separates a real mini reformer from a toy</h2>
-                <div className="space-y-4">
-                  {[
-                    { heading: "Resistance type", body: "Steel springs vs bungee cords vs elastic bands — this is the most important distinction. Springs provide consistent resistance throughout the movement; cords and bands increase resistance toward the end of the movement, creating a different (and less precise) training stimulus." },
-                    { heading: "Rail length", body: "The rail length determines what exercises are possible. A 60-inch rail restricts you to seated and reclined work. A 94-inch rail (Align C2 Pro RC) allows the full repertoire. Check this specification before buying." },
-                    { heading: "Carriage stability", body: "Budget mini reformers have lightweight carriages that wobble laterally under load. This is not just annoying — it's a safety issue during footwork. The carriage must track smoothly and squarely." },
-                    { heading: "Footbar and shoulder rest adjustability", body: "Fixed footbars and non-adjustable shoulder rests limit the machine to one body proportion. Adjustable components accommodate different heights and allow proper alignment for most exercises." },
-                  ].map((item) => (
-                    <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
-                      <div>
-                        <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="mb-16">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Mini Reformers · Every Budget</p>
-                <div className="space-y-12">
-                  {PRODUCTS.map((p) => (
-                    <div key={p.name}>
-                      <div className="flex items-center gap-3 mb-4">
-                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
-                        <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
-                      </div>
-                      <ProductCard
-                        name={p.name}
-                        description={p.description}
-                        price={p.price}
-                        affiliateUrl={p.affiliateUrl}
-                      />
-                      <div className="mt-4 grid grid-cols-2 gap-4">
-                        <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-                          <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
-                          <ul className="space-y-1">
-                            {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {pro}</li>)}
-                          </ul>
-                        </div>
-                        <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-                          <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
-                          <ul className="space-y-1">
-                            {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {con}</li>)}
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
-                <div className="space-y-6">
-                  {[
-                    { q: "Is a mini Pilates reformer worth it?", a: "For complete beginners or travellers who want a Pilates-adjacent movement experience, a budget mini reformer at $150-300 is worthwhile. For practitioners who train 3+ times per week, a budget mini reformer will frustrate you — the cord resistance, short rail, and limited weight capacity don't replicate the reformer experience. In that case, save for the AeroPilates 287 or the Align-Pilates C2 Pro RC." },
-                    { q: "How much space does a mini Pilates reformer need?", a: "Most mini reformers are 60-80 inches long and 20-24 inches wide, compared to 96-100 inches for a standard reformer. In practice, you need an active space of roughly 8 feet by 4 feet to move freely. The Stamina AeroPilates folds to under 8 inches of height for storage." },
-                    { q: "Can you get a full Pilates workout on a mini reformer?", a: "On a full-function mini reformer like the AeroPilates 287, approximately 70-75% of the classical reformer repertoire is accessible. Exercises that require a tall tower or full reach are limited by rail length. The seated series, footwork, and most standing work are fully accessible." },
-                  ].map((item) => (
-                    <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="Every budget from $299 to $3,500+ — the full guide to home reformers." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                  <ArticleCard title="Best Pilates Reformer Under $1,000" excerpt="The honest guide to every reformer under four figures — spring vs cord." href="/blog/best-pilates-reformer-under-1000" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                </div>
-              </div>
-            </section>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              Space is the most common barrier to owning a Pilates reformer. A full-size machine requires a dedicated room; most apartments won't accommodate one. The mini and compact reformer market addresses this — but the quality range is enormous. At $180, you get a bungee-cord toy. At $1,299, you get a genuine spring reformer in a narrow frame. This guide navigates the full spectrum honestly.
+            </p>
           </div>
+        </section>
 
-          <BlogSidebar related={[
-            { title: "Best Home Pilates Reformer (2026)", href: "/blog/best-home-pilates-reformer", readTime: "11 min read", imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" },
-            { title: "Best Pilates Reformer Under $1,000", href: "/blog/best-pilates-reformer-under-1000", readTime: "8 min read", imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" },
-            { title: "Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
-          ]} />
-        </div>
+        {/* Hero image */}
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Compact Pilates reformer for home use" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
+          </div>
+        </section>
+
+        {/* Main content */}
+        <section className="px-6 pb-20">
+          <div className="max-w-3xl mx-auto">
+
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What separates a real mini reformer from a toy</h2>
+              <div className="space-y-4">
+                {[
+                  { heading: "Resistance type", body: "Steel springs vs bungee cords vs elastic bands — this is the most important distinction. Springs provide consistent resistance throughout the movement; cords and bands increase resistance toward the end of the movement, creating a different (and less precise) training stimulus." },
+                  { heading: "Rail length", body: "The rail length determines what exercises are possible. A 60-inch rail restricts you to seated and reclined work. A 94-inch rail (Align C2 Pro RC) allows the full repertoire. Check this specification before buying." },
+                  { heading: "Carriage stability", body: "Budget mini reformers have lightweight carriages that wobble laterally under load. This is not just annoying — it's a safety issue during footwork. The carriage must track smoothly and squarely." },
+                  { heading: "Footbar and shoulder rest adjustability", body: "Fixed footbars and non-adjustable shoulder rests limit the machine to one body proportion. Adjustable components accommodate different heights and allow proper alignment for most exercises." },
+                ].map((item) => (
+                  <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
+                    <div>
+                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
+                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Quick reference table */}
+            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
+              </div>
+              {PRODUCTS.map((p, i) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
+                  </div>
+                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Buy →</a>
+                </div>
+              ))}
+            </div>
+
+            <div className="mb-16">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Mini Reformers · Every Budget</p>
+              <div className="space-y-12">
+                {PRODUCTS.map((p) => (
+                  <div key={p.name}>
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
+                    </div>
+                    <ProductCard
+                      name={p.name}
+                      description={p.description}
+                      price={p.price}
+                      affiliateUrl={p.affiliateUrl}
+                    />
+                    <div className="mt-4 grid grid-cols-2 gap-4">
+                      <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
+                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
+                        <ul className="space-y-1">
+                          {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {pro}</li>)}
+                        </ul>
+                      </div>
+                      <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
+                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
+                        <ul className="space-y-1">
+                          {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {con}</li>)}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* FAQ */}
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <div className="space-y-6">
+                {FAQS.map((item) => (
+                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Further reading */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="Every budget from $299 to $3,500+ — the full guide to home reformers." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer Under $1,000" excerpt="The honest guide to every reformer under four figures — spring vs cord." href="/blog/best-pilates-reformer-under-1000" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="The Beginner's Guide to Reformer Pilates" excerpt="What to expect in your first reformer class, how to choose a studio, and how to progress." href="/blog/beginners-guide-to-reformer-pilates" category="Beginners" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <CTASection title="Find a studio to try the reformer first" subtitle="Our city guides cover the best Pilates studios worldwide." />
+
       </main>
       <Footer />
     </>

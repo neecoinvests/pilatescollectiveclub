@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
-import BlogHero from "@/components/BlogHero";
-import BlogSidebar from "@/components/BlogSidebar";
+import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Sports Bras (2026): 8 Tested for Reformer",
@@ -82,6 +82,21 @@ const PRODUCTS = [
   },
 ];
 
+const FAQS = [
+  {
+    q: "Do you need a sports bra for Pilates?",
+    a: "Pilates instructors need clear sightlines to your spine, ribcage, and shoulder alignment. A bra with excessive padding, thick straps, or a high-coverage back obscures those reference points. A well-fitted sports bra or bralette keeps coverage appropriate without blocking the visual feedback your instructor needs to correct your form.",
+  },
+  {
+    q: "Is a low or high impact sports bra better for Pilates?",
+    a: "Low to medium impact. Pilates is not a running or jumping workout — high-impact encapsulation bras are unnecessary. A light-to-medium compression bralette gives shape, coverage, and comfort without the restrictive feel of a heavy-duty sports bra.",
+  },
+  {
+    q: "What is the most popular sports bra brand at Pilates studios?",
+    a: "Lululemon and Alo Yoga dominate most boutique reformer studios globally. At Classical Pilates studios, Splits59 has a strong following. The Lululemon Free to Be Bra is the single most-worn item in the studios we surveyed.",
+  },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -125,23 +140,11 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do you need a sports bra for Pilates?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Pilates instructors need clear sightlines to your spine, ribcage, and shoulder alignment. A bra with excessive padding, thick straps, or a high-coverage back obscures those reference points. A well-fitted sports bra or bralette keeps coverage appropriate without blocking the visual feedback your instructor needs to correct your form." }
-        },
-        {
-          "@type": "Question",
-          "name": "Is a low or high impact sports bra better for Pilates?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Low to medium impact. Pilates is not a running or jumping workout — high-impact encapsulation bras are unnecessary. A light-to-medium compression bralette gives shape, coverage, and comfort without the restrictive feel of a heavy-duty sports bra." }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the most popular sports bra brand at Pilates studios?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Lululemon and Alo Yoga dominate most boutique reformer studios globally. At Classical Pilates studios, Splits59 has a strong following. The Lululemon Free to Be Bra is the single most-worn item in the studios we surveyed." }
-        },
-      ],
+      "mainEntity": FAQS.map((f) => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a },
+      })),
     },
     {
       "@type": "ItemList",
@@ -173,132 +176,144 @@ export default function BestPilatesSportsBraPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
-        <BlogHero
-          imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"
-          imageAlt="Sports bras for Pilates studio class"
-          category="Apparel Guide"
-          subcategory="Sports Bras"
-          title={<>Best Sports Bras for Pilates<br /><span style={{ color: "#8b4a31" }}>(2026): Coverage & Style</span></>}
-          date="Updated May 2026"
-          readTime="8 min read"
-        />
 
-        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
-          <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
-
+        {/* Hero section */}
+        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Apparel Guide</span>
+              <span style={{ color: "#d9c2ba" }}>·</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Sports Bras</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              Best Sports Bras for Pilates<br /><span style={{ color: "#8b4a31" }}>(2026): Coverage & Style</span>
+            </h1>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              The sports bra question matters more in Pilates than in almost any other workout. Your instructor needs to see your ribcage expansion during breathing, your shoulder blade position during rowing, and your spinal curve through every transition. The wrong bra — overly padded, poorly fitted, or with thick crossing straps — obscures exactly the landmarks your instructor uses to cue you. This guide covers the five best options for every studio scenario and price point.
+            </p>
+          </div>
+        </section>
 
-            <section className="pb-20">
-              <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                The sports bra question matters more in Pilates than in almost any other workout. Your instructor needs to see your ribcage expansion during breathing, your shoulder blade position during rowing, and your spinal curve through every transition. The wrong bra — overly padded, poorly fitted, or with thick crossing straps — obscures exactly the landmarks your instructor uses to cue you. This guide covers the five best options for every studio scenario and price point.
-              </p>
+        {/* Hero image */}
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Sports bras for Pilates studio class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
+          </div>
+        </section>
 
-              <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the reformer studio demands from a sports bra</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {[
-                    { heading: "Instructor sightlines", body: "Your instructor needs to see your spine, ribcage, and shoulder alignment. Avoid thick crossed straps, high racer backs, or bulky padding that obscures these landmarks." },
-                    { heading: "Inversion coverage", body: "Roll-downs, the hundred, and short spine massage all involve positions where a bra needs to stay put. Test coverage before buying — a bra that shifts in a forward fold is not suitable." },
-                    { heading: "Reformer comfort", body: "You will lie supine on a carriage. Clasps, underwires, and thick bands create pressure points. Internal shelf bras with smooth back construction are the standard for reformer work." },
-                    { heading: "Fabric breathability", body: "Boutique studios run warm. Nulu (Lululemon) and Airlift (Alo) fabrics manage moisture and temperature better than standard polyester blends — worth the premium for daily practitioners." },
-                  ].map((item) => (
-                    <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
+        {/* Main content */}
+        <section className="px-6 pb-20">
+          <div className="max-w-3xl mx-auto">
 
-              <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
-                </div>
-                {PRODUCTS.map((p, i) => (
-                  <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                    <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                      <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
-                    </div>
-                    <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                    <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
-                      style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                    >Buy →</a>
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the reformer studio demands from a sports bra</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {[
+                  { heading: "Instructor sightlines", body: "Your instructor needs to see your spine, ribcage, and shoulder alignment. Avoid thick crossed straps, high racer backs, or bulky padding that obscures these landmarks." },
+                  { heading: "Inversion coverage", body: "Roll-downs, the hundred, and short spine massage all involve positions where a bra needs to stay put. Test coverage before buying — a bra that shifts in a forward fold is not suitable." },
+                  { heading: "Reformer comfort", body: "You will lie supine on a carriage. Clasps, underwires, and thick bands create pressure points. Internal shelf bras with smooth back construction are the standard for reformer work." },
+                  { heading: "Fabric breathability", body: "Boutique studios run warm. Nulu (Lululemon) and Airlift (Alo) fabrics manage moisture and temperature better than standard polyester blends — worth the premium for daily practitioners." },
+                ].map((item) => (
+                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
+            </div>
 
-              <div className="mb-16">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Sports Bras · Studio-Tested</p>
-                <div className="space-y-10">
-                  {PRODUCTS.map((p) => (
-                    <div key={p.name}>
-                      <div className="flex items-center gap-3 mb-4">
-                        <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
-                      </div>
-                      <ProductCard
-                        name={p.name}
-                        description={p.description}
-                        price={p.price}
-                        affiliateUrl={p.affiliateUrl}
-                      />
+            {/* Quick reference table */}
+            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
+              </div>
+              {PRODUCTS.map((p, i) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
+                  </div>
+                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Buy →</a>
+                </div>
+              ))}
+            </div>
+
+            <div className="mb-16">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Sports Bras · Studio-Tested</p>
+              <div className="space-y-10">
+                {PRODUCTS.map((p) => (
+                  <div key={p.name}>
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
                     </div>
-                  ))}
-                </div>
+                    <ProductCard
+                      name={p.name}
+                      description={p.description}
+                      price={p.price}
+                      affiliateUrl={p.affiliateUrl}
+                    />
+                  </div>
+                ))}
               </div>
+            </div>
 
-              <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to care for a Pilates sports bra</h2>
-                <ul className="space-y-3">
-                  {[
-                    "Wash inside-out on a cold, delicate cycle. High heat degrades both the elastic and the silicone grip at the band.",
-                    "Air dry flat — tumble drying collapses the cup structure and warps padding over time.",
-                    "Never use fabric softener on Nulu or Airlift fabrics. It coats the fibres, reducing moisture management.",
-                    "Rotate between two or three bras so each can recover its shape between sessions.",
-                    "Replace when the band loses elasticity or the pads shift position — a poorly fitting bra in class is both uncomfortable and unhelpful for your instructor.",
-                  ].map((tip, i) => (
-                    <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                      <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>{i + 1}.</span>
-                      {tip}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            {/* Care tips */}
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to care for a Pilates sports bra</h2>
+              <ul className="space-y-3">
+                {[
+                  "Wash inside-out on a cold, delicate cycle. High heat degrades both the elastic and the silicone grip at the band.",
+                  "Air dry flat — tumble drying collapses the cup structure and warps padding over time.",
+                  "Never use fabric softener on Nulu or Airlift fabrics. It coats the fibres, reducing moisture management.",
+                  "Rotate between two or three bras so each can recover its shape between sessions.",
+                  "Replace when the band loses elasticity or the pads shift position — a poorly fitting bra in class is both uncomfortable and unhelpful for your instructor.",
+                ].map((tip, i) => (
+                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                    <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                    {tip}
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-              <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
-                <div className="space-y-6">
-                  {[
-                    { q: "Do you need a sports bra for Pilates?", a: "Pilates instructors need clear sightlines to your spine, ribcage, and shoulder alignment. A bra with excessive padding, thick straps, or a high-coverage back obscures those reference points. A well-fitted sports bra or bralette keeps coverage appropriate without blocking the visual feedback your instructor needs to correct your form." },
-                    { q: "Is a low or high impact sports bra better for Pilates?", a: "Low to medium impact. Pilates is not a running or jumping workout — high-impact encapsulation bras are unnecessary. A light-to-medium compression bralette gives shape, coverage, and comfort without the restrictive feel of a heavy-duty sports bra." },
-                    { q: "What is the most popular sports bra brand at Pilates studios?", a: "Lululemon and Alo Yoga dominate most boutique reformer studios globally. At Classical Pilates studios, Splits59 has a strong following. The Lululemon Free to Be Bra is the single most-worn item in the studios we surveyed." },
-                  ].map((item) => (
-                    <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
-                    </div>
-                  ))}
-                </div>
+            {/* FAQ */}
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <div className="space-y-6">
+                {FAQS.map((item) => (
+                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  </div>
+                ))}
               </div>
+            </div>
 
-              <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Pilates Leggings (2026)" excerpt="The leggings that serve the method — tested for opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
-                  <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                </div>
+            {/* Further reading */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="The leggings that serve the method — tested for opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory — five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
-            </section>
+            </div>
+
           </div>
+        </section>
 
-          <BlogSidebar related={[
-            { title: "Best Pilates Leggings (2026)", href: "/blog/best-pilates-leggings", readTime: "9 min read", imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" },
-            { title: "What to Wear to Pilates", href: "/blog/what-to-wear-to-pilates", readTime: "6 min read", imageUrl: "/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" },
-            { title: "Best Pilates Grip Socks", href: "/blog/best-pilates-grip-socks", readTime: "7 min read", imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg" },
-          ]} />
-        </div>
+        <CTASection title="Find a studio to wear it to" subtitle="Our city guides cover the best Pilates studios worldwide." />
+
       </main>
       <Footer />
     </>

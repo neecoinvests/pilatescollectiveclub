@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
-import BlogHero from "@/components/BlogHero";
-import BlogSidebar from "@/components/BlogSidebar";
+import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Online Pilates Classes (2026): Platforms Compared & Reviewed",
@@ -82,6 +82,21 @@ const PRODUCTS = [
   },
 ];
 
+const FAQS = [
+  {
+    q: "Can online Pilates classes replace studio classes?",
+    a: "For mat Pilates, online classes are a genuine and effective alternative or supplement to studio work. For reformer Pilates, you still need access to a machine — online reformer classes work only if you own a reformer at home. Serious practitioners typically use online platforms as a supplement to regular studio attendance, not a replacement.",
+  },
+  {
+    q: "What is the best free online Pilates resource?",
+    a: "YouTube remains the best free Pilates resource. Boho Beautiful, MoveWithNicole, and Heather Robertson offer well-structured mat Pilates series at no cost. Pilates Anytime offers a 30-day free trial, which provides genuine access to their full library before committing to a subscription.",
+  },
+  {
+    q: "Is Pilates Anytime worth the monthly fee?",
+    a: "For practitioners who train regularly and want to supplement studio work with home practice, yes. The library depth, instructor quality, and reformer repertoire coverage justify $22/month. For beginners or casual practitioners, starting with YouTube and a free trial is the more sensible approach.",
+  },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -125,23 +140,11 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can online Pilates classes replace studio classes?",
-          "acceptedAnswer": { "@type": "Answer", "text": "For mat Pilates, online classes are a genuine and effective alternative or supplement to studio work. For reformer Pilates, you still need access to a machine — online reformer classes work only if you own a reformer at home. Serious practitioners typically use online platforms as a supplement to regular studio attendance, not a replacement." }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the best free online Pilates resource?",
-          "acceptedAnswer": { "@type": "Answer", "text": "YouTube remains the best free Pilates resource. Boho Beautiful, MoveWithNicole, and Heather Robertson offer well-structured mat Pilates series at no cost. Pilates Anytime offers a 30-day free trial, which provides genuine access to their full library before committing to a subscription." }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Pilates Anytime worth the monthly fee?",
-          "acceptedAnswer": { "@type": "Answer", "text": "For practitioners who train regularly and want to supplement studio work with home practice, yes. The library depth, instructor quality, and reformer repertoire coverage justify $22/month. For beginners or casual practitioners, starting with YouTube and a free trial is the more sensible approach." }
-        },
-      ],
+      "mainEntity": FAQS.map((f) => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a },
+      })),
     },
     {
       "@type": "ItemList",
@@ -173,114 +176,125 @@ export default function BestOnlinePilatesClassesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
-        <BlogHero
-          imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"
-          imageAlt="Online Pilates classes for home practice"
-          category="Brand Guide"
-          subcategory="Online Platforms"
-          title={<>Best Online Pilates Classes<br /><span style={{ color: "#8b4a31" }}>(2026): Platforms Compared</span></>}
-          date="Updated May 2026"
-          readTime="9 min read"
-        />
 
-        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
-          <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
-
+        {/* Hero section */}
+        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
+              <span style={{ color: "#d9c2ba" }}>·</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Online Platforms</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              Best Online Pilates Classes<br /><span style={{ color: "#8b4a31" }}>(2026): Platforms Compared</span>
+            </h1>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page are affiliate links. We earn a small commission on qualifying purchases at no extra cost to you.</p>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              The home Pilates streaming market matured significantly between 2020 and 2026. There are now genuinely excellent platforms for every type of practitioner — from the classical lineage purist to the boutique studio devotee who wants their practice to look as good as it feels. This guide compares the five platforms we've tested most thoroughly, with honest assessments of what each does well and who it's actually for.
+            </p>
+          </div>
+        </section>
 
-            <section className="pb-20">
-              <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                The home Pilates streaming market matured significantly between 2020 and 2026. There are now genuinely excellent platforms for every type of practitioner — from the classical lineage purist to the boutique studio devotee who wants their practice to look as good as it feels. This guide compares the five platforms we've tested most thoroughly, with honest assessments of what each does well and who it's actually for.
-              </p>
+        {/* Hero image */}
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" alt="Online Pilates classes for home practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
+          </div>
+        </section>
 
-              <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to look for in a Pilates streaming platform</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {[
-                    { heading: "Library depth", body: "The best platforms have hundreds of hours of content at every level. A library of fewer than 500 videos will feel limited within a few months of regular use." },
-                    { heading: "Instructor credentials", body: "Look for platforms featuring certified instructors from recognised training programmes — BASI, Balanced Body, STOTT, Pilates Method Alliance, or direct classical lineage." },
-                    { heading: "Reformer content", body: "If you own a home reformer, check whether the platform has reformer-specific classes. Many platforms are mat-only or have limited reformer libraries." },
-                    { heading: "App quality", body: "The platform needs to work reliably on your TV, tablet, and phone. Poor streaming quality, buggy apps, or difficult download systems significantly affect the practice experience." },
-                  ].map((item) => (
-                    <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
+        {/* Main content */}
+        <section className="px-6 pb-20">
+          <div className="max-w-3xl mx-auto">
 
-              <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
-                </div>
-                {PRODUCTS.map((p, i) => (
-                  <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                    <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                      <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
-                    </div>
-                    <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                    <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
-                      style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                    >Learn More →</a>
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to look for in a Pilates streaming platform</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {[
+                  { heading: "Library depth", body: "The best platforms have hundreds of hours of content at every level. A library of fewer than 500 videos will feel limited within a few months of regular use." },
+                  { heading: "Instructor credentials", body: "Look for platforms featuring certified instructors from recognised training programmes — BASI, Balanced Body, STOTT, Pilates Method Alliance, or direct classical lineage." },
+                  { heading: "Reformer content", body: "If you own a home reformer, check whether the platform has reformer-specific classes. Many platforms are mat-only or have limited reformer libraries." },
+                  { heading: "App quality", body: "The platform needs to work reliably on your TV, tablet, and phone. Poor streaming quality, buggy apps, or difficult download systems significantly affect the practice experience." },
+                ].map((item) => (
+                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
+            </div>
 
-              <div className="mb-16">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Platforms · Compared Honestly</p>
-                <div className="space-y-10">
-                  {PRODUCTS.map((p) => (
-                    <div key={p.name}>
-                      <div className="flex items-center gap-3 mb-4">
-                        <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
-                      </div>
-                      <ProductCard
-                        name={p.name}
-                        description={p.description}
-                        price={p.price}
-                        affiliateUrl={p.affiliateUrl}
-                      />
+            {/* Quick reference table */}
+            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
+              </div>
+              {PRODUCTS.map((p, i) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
+                  </div>
+                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Learn More →</a>
+                </div>
+              ))}
+            </div>
+
+            <div className="mb-16">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Platforms · Compared Honestly</p>
+              <div className="space-y-10">
+                {PRODUCTS.map((p) => (
+                  <div key={p.name}>
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
                     </div>
-                  ))}
-                </div>
+                    <ProductCard
+                      name={p.name}
+                      description={p.description}
+                      price={p.price}
+                      affiliateUrl={p.affiliateUrl}
+                    />
+                  </div>
+                ))}
               </div>
+            </div>
 
-              <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
-                <div className="space-y-6">
-                  {[
-                    { q: "Can online Pilates classes replace studio classes?", a: "For mat Pilates, online classes are a genuine and effective alternative or supplement to studio work. For reformer Pilates, you still need access to a machine — online reformer classes work only if you own a reformer at home. Serious practitioners typically use online platforms as a supplement to regular studio attendance, not a replacement." },
-                    { q: "What is the best free online Pilates resource?", a: "YouTube remains the best free Pilates resource. Boho Beautiful, MoveWithNicole, and Heather Robertson offer well-structured mat Pilates series at no cost. Pilates Anytime offers a 30-day free trial, which provides genuine access to their full library before committing to a subscription." },
-                    { q: "Is Pilates Anytime worth the monthly fee?", a: "For practitioners who train regularly and want to supplement studio work with home practice, yes. The library depth, instructor quality, and reformer repertoire coverage justify $22/month. For beginners or casual practitioners, starting with YouTube and a free trial is the more sensible approach." },
-                  ].map((item) => (
-                    <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
-                    </div>
-                  ))}
-                </div>
+            {/* FAQ */}
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <div className="space-y-6">
+                {FAQS.map((item) => (
+                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  </div>
+                ))}
               </div>
+            </div>
 
-              <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The machines worth buying for serious home practice — from budget to professional." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                  <ArticleCard title="10 Pilates Exercises for Beginners" excerpt="The foundational exercises to master before progressing — with technique and mistakes." href="/blog/pilates-exercises-for-beginners" category="Beginners" readTime="11 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
-                </div>
+            {/* Further reading */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The machines worth buying for serious home practice — from budget to professional." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="10 Pilates Exercises for Beginners" excerpt="The foundational exercises to master before progressing — with technique and mistakes." href="/blog/pilates-exercises-for-beginners" category="Beginners" readTime="11 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="How Often Should You Do Pilates?" excerpt="Research-backed frequency recommendations for beginners, regulars, and advanced practitioners." href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-studio-modern-row.png" />
               </div>
-            </section>
+            </div>
+
           </div>
+        </section>
 
-          <BlogSidebar related={[
-            { title: "Best Home Pilates Reformer (2026)", href: "/blog/best-home-pilates-reformer", readTime: "11 min read", imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" },
-            { title: "10 Pilates Exercises for Beginners", href: "/blog/pilates-exercises-for-beginners", readTime: "11 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
-            { title: "How Often Should You Do Pilates?", href: "/blog/how-often-should-you-do-pilates", readTime: "7 min read", imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" },
-          ]} />
-        </div>
+        <CTASection title="Find a studio to complement your home practice" subtitle="Our city guides cover the best Pilates studios worldwide." />
+
       </main>
       <Footer />
     </>
