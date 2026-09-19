@@ -11,12 +11,14 @@ interface StudioListingProps {
   signatureClass: string;
   bookingTip: string;
   websiteUrl?: string;
+  rating?: string;
+  caveat?: string;
 }
 
 export default function StudioListing({
-  number, name, neighborhood, priceLevel, review, address, bestFor, signatureClass, bookingTip, websiteUrl,
+  number, name, neighborhood, priceLevel, review, address, bestFor, signatureClass, bookingTip, websiteUrl, rating, caveat,
 }: StudioListingProps) {
-  void address;
+  const hasAddress = address && address !== "—";
   return (
     <article style={{ borderTop: "1px solid #ede9e3", paddingTop: "48px", paddingBottom: "48px" }}>
       <div className="pcc-studio-header" style={{ display: "flex", alignItems: "flex-start", gap: "32px", marginBottom: "24px" }}>
@@ -48,7 +50,17 @@ export default function StudioListing({
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, color: "#c5a882", letterSpacing: "0.1em" }}>
               {priceLevel}
             </span>
+            {rating && (
+              <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, color: "#3a3530" }}>
+                {rating}
+              </span>
+            )}
           </div>
+          {hasAddress && (
+            <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "#9a9490", marginTop: "6px" }}>
+              {address}
+            </p>
+          )}
         </div>
       </div>
 
@@ -63,6 +75,22 @@ export default function StudioListing({
       }}>
         {review}
       </p>
+
+      {caveat && (
+        <p style={{
+          fontFamily: "var(--font-sans)",
+          fontSize: "13px",
+          fontWeight: 400,
+          color: "#8a6a4a",
+          lineHeight: 1.7,
+          marginBottom: "28px",
+          maxWidth: "680px",
+          borderLeft: "2px solid #c5a882",
+          paddingLeft: "14px",
+        }}>
+          Worth knowing: {caveat}
+        </p>
+      )}
 
       <div className="pcc-studio-details" style={{
         display: "grid",

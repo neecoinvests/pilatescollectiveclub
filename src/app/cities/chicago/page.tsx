@@ -40,29 +40,34 @@ const STUDIOS = [
     name: "Amplified Pilates Center",
     neighborhood: "River North",
     priceLevel: "$$$",
-    review: "Amplified Pilates Center at 314 West Institute Place is one of Chicago's most consistently praised studios, earning strong Yelp ratings for its knowledgeable teachers and intimate class sizes. Located centrally in River North one block from the Brown Line, the studio caps group classes at six students to ensure every student gets real-time feedback and precise correction. The instructors are known for making complex Pilates concepts accessible without dumbing them down — a balance that is harder to achieve than it sounds.",
+    review: "Amplified Pilates Center at 314 West Institute Place has been operating in River North since 2011 and was named Best Pilates Studio by CS Modern Luxury Magazine in both 2024 and 2025. Group classes cap at six students, and the 80-plus Yelp reviews consistently single out instructors for making technical corrections without breaking the flow of class.",
+    caveat: "the small six-person cap that makes coaching so personal also means fewer time slots overall — popular classes book out fast, so this isn't the studio for same-day spontaneity.",
     address: "314 W Institute Place, 3W, Chicago, IL 60610",
     bestFor: "Small group instruction with individualized coaching",
     signatureClass: "Amplified Reformer",
     bookingTip: "Centrally located one block north of the Chicago Ave Brown Line. Book at least 48 hours ahead; small classes fill fast.",
+    websiteUrl: "https://www.amplifiedpilates.com/",
   },
   {
     number: "02",
     name: "Page One Pilates",
     neighborhood: "West Loop / Fulton Market",
     priceLevel: "$$$",
-    review: "Located in the heart of Chicago's most vibrant dining and tech neighborhood, Page One Pilates at 213 North Morgan is a boutique studio known for its athletic reformer classes and therapeutic focus. The intimate setting — just a handful of reformers — ensures personalized attention, and reviewers consistently highlight the quality of instruction and the sense of community. A strong choice for serious athletes cross-training alongside Pilates newcomers who appreciate not being lost in a crowd.",
+    review: "Page One Pilates sits in Fulton Market at 213 N Morgan St, carrying a 4.8-star rating across its (still small, 14-review) Yelp presence. It's a genuinely intimate setup — just a handful of reformers — which reviewers credit for consistent, close instructor attention rather than a crowded studio-chain feel.",
+    caveat: "the review count here is thin (14 on Yelp) compared to the bigger downtown names — the rating looks excellent, but you're trusting a smaller sample size than at, say, Amplified.",
     address: "213 N Morgan St, Unit 1C, Chicago, IL 60607",
     bestFor: "Athletic reformer classes in a boutique setting",
     signatureClass: "Full Body Reformer Flow",
     bookingTip: "Classes are especially popular with the Fulton Market work crowd — book the early morning and lunchtime slots well in advance.",
+    rating: "4.8★ (14 Yelp reviews)",
   },
   {
     number: "03",
     name: "Heat 3.0",
     neighborhood: "Lincoln Park",
     priceLevel: "$$$",
-    review: "Heat 3.0 on North Southport Avenue combines Pilates reformer classes in infrared-heated rooms with spa-like amenities including showers, lockers, towels, and a beautifully designed lobby for pre- and post-class recovery. The studio also offers yoga, barre, and stretch sessions, making it a true one-stop wellness destination in Lincoln Park. Instructors are praised for creating challenging but scalable classes with thoughtful modifications across formats.",
+    review: "Heat 3.0 on North Southport Avenue (the rebrand of the long-running Lincoln Park Pilates) combines reformer classes in infrared-heated rooms with spa-like amenities — showers, lockers, towels, a proper lobby for recovery. Beyond reformer, it runs barre, mat, yoga, and stretch sessions, positioning itself as a one-stop wellness stop rather than a Pilates-only studio. Open Mon–Fri 6am–8pm, Sat 8am–5pm, Sun 7:30am–1pm.",
+    caveat: "this is a multi-modality wellness studio, not a Pilates specialist — if you want a room that only does classical Pilates, the barre/yoga/sauna crowd mixed in might not be what you're after.",
     address: "2105 N Southport Ave, Suite 200, Chicago, IL 60614",
     bestFor: "Infrared-heated reformer Pilates with premium spa amenities",
     signatureClass: "Heated Reformer Sculpt",
@@ -73,18 +78,21 @@ const STUDIOS = [
     name: "Studio 8 Pilates",
     neighborhood: "North Center",
     priceLevel: "$$$",
-    review: "Studio 8 has been a pillar of the North Center neighborhood since opening in 2015, earning strong reviews for its clean, spacious environment and the expertise of its certified instructors. The studio specializes in customized Pilates programming — private, duet, and small group — tailored to athletes, prenatal and postpartum women, seniors, and post-injury clients. Free street parking makes it a practical choice in a city where that genuinely matters.",
+    review: "Studio 8 Pilates opened in North Center on July 1, 2015, founded by Christine Hall, a PMA-certified instructor, and remains 100% woman-owned. All instructors carry Pilates Method Alliance certification — a genuine credentialing standard, not just marketing language — and the studio specializes in private, duet, and small-group programming for athletes, prenatal/postpartum clients, and post-injury rehab. Free street parking, confirmed by reviewers, is a real practical perk in a city where that's rare.",
+    caveat: "the specialization in customized/rehab-oriented programming means fewer large drop-in group classes than a typical boutique studio — if you want a big-energy group scene, this isn't primarily built for that.",
     address: "3656 N Lincoln Ave, Suite F, Chicago, IL 60613",
     bestFor: "Private and small group sessions; prenatal/postpartum and rehab clients",
     signatureClass: "Personalized Reformer Session",
     bookingTip: "Free street parking is readily available — rare for a Chicago fitness studio. First-time clients should book a private intake session before joining group classes.",
+    websiteUrl: "http://www.studio8chicago.com/",
   },
   {
     number: "05",
     name: "btone FITNESS",
     neighborhood: "Lakeview East",
     priceLevel: "$$",
-    review: "Chicago's first btone FITNESS location opened in late 2024 and has already earned enthusiastic reviews for delivering serious results in a joyful, accessible 45-minute format. The class is a hybrid of Pilates-inspired movements and strength training performed on custom resistance-based equipment, designed to be high-intensity without being high-impact. Instructors are praised for being welcoming to all fitness levels while still pushing clients to their edge — a combination that is harder to find than it should be.",
+    review: "btone FITNESS Lakeview, which opened in September 2024, is the brand's first location outside its home base of Massachusetts. The format is a hybrid of Pilates-inspired movement and strength training on custom resistance equipment in a 45-minute class — deliberately high-intensity, low-impact. Reviewers consistently name specific instructors and cite the modifications offered as genuinely inclusive of different fitness levels, not just a talking point.",
+    caveat: "as a brand-new-to-Chicago outpost of an out-of-state chain, it doesn't have the years-deep local reputation of Studio 8 or Amplified — you're betting on a proven national format rather than an established local name.",
     address: "556 W Diversey Pkwy, Chicago, IL 60614",
     bestFor: "High-intensity, low-impact Pilates-strength hybrid",
     signatureClass: "btone 45",
@@ -92,14 +100,16 @@ const STUDIOS = [
   },
   {
     number: "06",
-    name: "Lincoln Park Pilates",
-    neighborhood: "Lincoln Park",
+    name: "The Pilates Advantage",
+    neighborhood: "Lakeview / Uptown",
     priceLevel: "$$$",
-    review: "Lincoln Park Pilates has served the Lincoln Park community for years, offering both classical and contemporary reformer and mat-based instruction in an approachable neighborhood studio. The smaller scale creates a real sense of community and allows instructors to track each client's progress over time. Consistently well-reviewed for instructor quality and a non-intimidating atmosphere that welcomes all levels — from those who have never been on a reformer to experienced practitioners who moved to the neighborhood.",
-    address: "2105 N Southport Ave, Chicago, IL 60614",
-    bestFor: "Classical and contemporary Pilates in a warm neighborhood studio",
-    signatureClass: "Reformer & Mat Fundamentals",
-    bookingTip: "The fundamentals series is recommended for newcomers; it runs in multi-week cohorts so check the schedule for the next session start date.",
+    rating: "5.0★ (Yelp, small sample)",
+    review: "The Pilates Advantage, on North Broadway near the Lakeview/Uptown border, is one of the few Chicago studios built entirely around Romana's Pilates certification and original Gratz equipment — the classical lineage and apparatus tradition that traces directly back to Joseph Pilates' own studio. It's a small, owner-led operation; one longtime client mentioned training with the owner for over a decade, which tells you more about retention than any marketing copy could.",
+    caveat: "its online review count is genuinely small — a handful of reviews, not hundreds — so treat the perfect rating as a promising signal from real regulars, not statistically robust proof the way Amplified's 80-review track record is.",
+    address: "4027 N Broadway, Chicago, IL 60613",
+    bestFor: "Authentic classical method on Gratz equipment",
+    signatureClass: "Classical Reformer (Romana's Pilates lineage)",
+    bookingTip: "This is a small, owner-led studio — call ahead rather than relying on an online booking widget to find true availability.",
   },
 ];
 
@@ -273,7 +283,7 @@ export default function ChicagoPage() {
               <span style={{ color: "#8b4a31" }}>in Chicago</span>
             </h1>
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-              Updated May 2026 · 8 min read
+              Updated September 2026 · 8 min read
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -331,8 +341,11 @@ export default function ChicagoPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
               6 Studios · Curated & Verified
+            </p>
+            <p className="text-sm mb-10" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+              Addresses, pricing, and ratings independently checked against each studio's own site and public review platforms in September 2026. We call out at least one real trade-off per studio — no pick here is presented as flawless.
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (

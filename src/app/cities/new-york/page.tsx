@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in New York City (2026) — Curated Guide",
-  description: "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Five curated picks across Manhattan, verified June 2026.",
+  description: "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Six curated picks across Manhattan, independently verified September 2026.",
   robots: {
     index: true,
     follow: true,
@@ -42,66 +42,81 @@ const STUDIOS = [
     name: "New York Pilates",
     neighborhood: "SoHo",
     priceLevel: "$$$$",
-    review: "New York Pilates is perhaps the most photographed studio in the city, and yet the substance behind the aesthetic is real. Founded by Heather Andersen, the studio operates with a rigorous classical foundation that gets expressed through high-energy group reformer classes with carefully curated playlists. The SoHo and Flatiron locations attract a fashion-adjacent crowd — models, stylists, magazine editors — but the instruction is serious enough to satisfy purists. Andersen's teacher-training programme has seeded talent across the New York scene, which means the quality floor is unusually high. For anyone wanting to understand why group reformer took over Manhattan, this is the originating address.",
-    address: "—",
+    rating: "4.9★ (196 Google reviews)",
+    review: "Heather Andersen opened New York Pilates in 2013, and the SoHo flagship at 25 Howard Street is still the address most responsible for making group reformer a New York institution rather than a niche practice. Classes run on a music-driven, high-energy format — curated playlists, choreographed sequencing — but the instructor training behind it is rigorous enough that the pace doesn't come at the expense of form correction. Intro packages start at 6 classes for $60, with drop-in packages from $90 for 3 classes.",
+    caveat: "the SoHo studio is genuinely hard to book — prime slots open 7 days out and go within hours, so this isn't the studio for spontaneous drop-ins.",
+    address: "25 Howard St, 3rd Floor, New York, NY 10013",
     bestFor: "Music-driven group reformer",
     signatureClass: "Reformer Flow",
     bookingTip: "Slots open 7 days ahead and disappear within hours; set a booking alarm",
+    websiteUrl: "https://www.newyorkpilates.com/",
   },
   {
     number: "02",
     name: "Real Pilates",
     neighborhood: "Tribeca",
     priceLevel: "$$$$",
-    review: "Real Pilates in Tribeca is the closest thing New York has to a classical Pilates conservatory. The studio houses an exceptional breadth of apparatus — Reformer, Cadillac, Wunda Chair, Ladder Barrel, and more — and the teaching draws directly from the Romana Kryzanowska lineage without being doctrinaire about it. Instructors here have typically trained for years before being let near a paying client, and the depth of anatomical knowledge in the room is palpable. The loft-like Tribeca space suits the neighbourhood: understated, serious, quietly impressive. It draws dancers, serious athletes, and those who have done enough beginner reformer to know they want the real thing.",
-    address: "—",
+    review: "Alycea Ungaro, a physical therapist, runs Real Pilates out of a loft space at 137 Duane Street, and the studio's identity follows from her background: full classical apparatus (Reformer, Cadillac, Wunda Chair, Ladder Barrel), Romana Kryzanowska-lineage instruction, and a music-free room that keeps the focus on cueing rather than energy. New clients start with a $85 trial private session (55 minutes) rather than a group class, which is unusual for the category and tells you what the studio actually prioritises.",
+    caveat: "there's no cheap way in — this is a private-and-semi-private-first studio, and group class pricing isn't even published on their site. Budget-conscious beginners will find AeroPilates-style budget studios elsewhere in Tribeca first.",
+    address: "137 Duane St, New York, NY 10013",
     bestFor: "Classical apparatus training",
     signatureClass: "Classical Reformer & Cadillac",
     bookingTip: "Privates book weeks out; inquire about semi-private availability for better access",
+    websiteUrl: "https://www.realpilatesnyc.com/",
   },
   {
     number: "03",
     name: "Power Pilates",
-    neighborhood: "Upper West Side",
+    neighborhood: "Midtown",
     priceLevel: "$$$",
-    review: "Power Pilates on the Upper West Side has been a neighbourhood anchor for serious Pilates practitioners since before the boutique fitness boom made the practice fashionable. The studio is classically oriented — Romana lineage — and the teaching prioritises precision, sequencing, and progression over novelty. The Upper West Side location draws professionals in their thirties and forties, many of whom have been training here for years and consider it their movement home. Group classes are relatively affordable by Manhattan standards, making this one of the better entry points for practitioners who want classical training without committing immediately to private sessions. The no-frills aesthetic keeps the focus exactly where it belongs.",
-    address: "—",
+    rating: "4.4★ (110+ Yelp reviews)",
+    review: "Power Pilates' flagship at 920 3rd Avenue is a two-floor, Romana-lineage classical studio — its teacher-training curriculum was built by three Master Teachers who trained directly under Romana Kryzanowska in the early 1980s. The no-frills approach (skylight-lit rooms, free towels and tea, but no boutique styling) keeps group class pricing more accessible than most classical studios in the borough, which is the actual draw here rather than atmosphere.",
+    caveat: "this is Midtown, not the Upper West Side — if you're specifically hunting for a UWS classical studio, look at Natural Pilates on Broadway or Pilates Addiction on W 72nd instead.",
+    address: "920 3rd Ave, 6th Floor, New York, NY 10022",
     bestFor: "Classical group reformer",
     signatureClass: "Group Reformer",
     bookingTip: "Long-term members often hold standing bookings; join the waitlist for peak times",
+    websiteUrl: "https://powerpilates.com/flagship/",
   },
   {
     number: "04",
     name: "Solidcore",
     neighborhood: "Midtown East",
     priceLevel: "$$$",
-    review: "Solidcore is not classical Pilates — and it is completely transparent about that. What it offers is a slow-twitch, time-under-tension reformer experience engineered for maximum muscular fatigue, delivered in a darkened room with bass-heavy music and instructors who function as enthusiastic coaches. The Midtown East location serves office workers who want an efficient, results-oriented workout at lunch or after work, and the model delivers on that promise reliably. The [solidcore] method builds genuine strength and the community around it is motivating without being cult-like. Best for fitness-focused practitioners who want the reformer as a tool for body composition rather than movement education.",
-    address: "—",
+    rating: "4.6★ chain-wide (1,431+ reviews); this location individually well-reviewed",
+    review: "[solidcore]'s Midtown East studio at 800 2nd Avenue is upfront that it isn't classical Pilates: it's slow-twitch, time-under-tension strength training on a custom-built reformer, run in a darkened room with bass-heavy music, open daily 5am–9pm. Drop-ins run $35–43 depending on time of day; new clients get two weeks unlimited for $109. It's the pick for office workers who want measurable strength gains from a lunch-hour session, not for anyone chasing classical technique.",
+    caveat: "if you came here expecting Pilates in the Joseph Pilates sense — breath work, precision, the full apparatus repertoire — you'll be disappointed. This is a strength-training brand that borrows the reformer, not a Pilates studio.",
+    address: "800 2nd Ave, New York, NY 10017",
     bestFor: "Strength-focused reformer conditioning",
     signatureClass: "[solidcore] 50-min",
     bookingTip: "ClassPass credits work here; first-timers should arrive 10 minutes early for orientation",
+    websiteUrl: "https://solidcore.co/studios/midtown-east",
   },
   {
     number: "05",
     name: "Erika Bloom Wellness",
-    neighborhood: "West Village",
+    neighborhood: "Tribeca",
     priceLevel: "$$$$",
-    review: "Erika Bloom Wellness occupies a calm, plant-filled townhouse in the West Village that signals immediately this is not a volume-driven studio. The practice here is deeply integrative — combining classical Pilates with somatic awareness, breathwork, and a genuine interest in each client's nervous system as much as their musculature. Sessions are predominantly private or semi-private, which makes this one of the more expensive addresses in the city, but the depth of transformation on offer justifies the investment for the right client. Bloom has built a reputation working with performers, executives, and people recovering from complex injuries. For practitioners who have exhausted what group reformer can offer and want something more fundamental, this is the destination.",
-    address: "—",
+    review: "Erika Bloom Wellness is at 104 Franklin Street in Tribeca (not the West Village, despite what some directories list) — a townhouse-style space combining classical Pilates with acupuncture, structural integration, lymphatic drainage, and nutrition coaching under one roof. The model is almost entirely private and semi-private, and pricing reflects it: this is a $$$$ studio even by Manhattan standards, with some ongoing wellness-collective programs running into the thousands per month. Bloom has built a client base of performers and people managing complex injuries who want the Pilates instruction integrated with broader bodywork.",
+    caveat: "there's essentially no low-cost entry point here — no drop-in group classes to sample the method cheaply before committing. This is a studio for people who already know they want integrative private work and can pay for it.",
+    address: "104 Franklin St, Floor 2, New York, NY 10013",
     bestFor: "Integrative private sessions",
     signatureClass: "Private Integrative Pilates",
     bookingTip: "Book at least two weeks out; the intake process is thorough and worth completing carefully",
+    websiteUrl: "https://erikabloom.com/tribeca/",
   },
   {
     number: "06",
     name: "Physique 57",
-    neighborhood: "Midtown",
+    neighborhood: "Upper East Side",
     priceLevel: "$$$",
-    review: "Physique 57 is a New York original — the barre method studio that helped define the category — and its Midtown flagship retains the electric energy that made it famous. Classes combine barre, light weights, and mat Pilates in a choreographed sequence that never repeats exactly, keeping both the body and the mind engaged. The instructors are among the most charismatic in the city, and the soundtrack is impeccable. It draws a broad clientele: first-timers who have seen it on social media, loyal regulars who have been coming for a decade, and visiting professionals who know exactly what they're signing up for. Not the deepest Pilates training available in Manhattan, but one of the most enjoyable hours you can spend moving.",
-    address: "—",
+    review: "Physique 57's original flagship sits at 14 E 60th Street on the Upper East Side — the \"60th & 5th\" studio that earned the brand its 5-Star Class Experience Award from The Fit Guide, one of only five New York studios to make that list. Classes blend barre, light weights, and mat Pilates in a sequence that changes enough to stay interesting; a 3-classes-for-$99 intro gets you in, with ongoing membership at $350/month on a 3-month minimum. It's a genuinely enjoyable hour, and a genuinely different thing from classical reformer training.",
+    caveat: "if you're looking for reformer-based classical instruction, this isn't it — Physique 57 is a barre-and-mat format, and the label \"Pilates\" here is doing more marketing work than technical work.",
+    address: "14 E 60th St, Suite 1003, New York, NY 10022",
     bestFor: "Barre-Pilates fusion",
     signatureClass: "Physique 57 Signature",
     bookingTip: "Intro packages offer significant savings; book evening classes a week ahead",
+    websiteUrl: "https://physique57.com/nyc/uptown-barre-studio/",
   }
 ];
 
@@ -114,10 +129,10 @@ const BOOKING_TIPS = [
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Upper West Side & Upper East Side", description: "Manhattan's established residential districts have a high concentration of classical Pilates studios with loyal neighbourhood clienteles. Less trendy, more serious — and often better value than downtown alternatives." },
-  { name: "Chelsea & Flatiron", description: "The Flatiron district and Chelsea house several of New York's most respected classical studios alongside newer boutique reformer rooms. Excellent public transport access makes this one of the most convenient areas for studio-hopping." },
-  { name: "SoHo & West Village", description: "Downtown's most design-conscious neighbourhoods attract the city's premium fitness offerings. Expect beautiful interiors, social atmospheres, and correspondingly higher price points." },
-  { name: "Brooklyn (Williamsburg & Park Slope)", description: "Brooklyn's growing Pilates scene has produced several excellent independent studios with strong community cultures and more accessible pricing than Manhattan. Worth the subway ride if you're based in the borough." },
+  { name: "SoHo & Tribeca", description: "Downtown's most design-conscious neighbourhoods carry the highest concentration of premium reformer studios in Manhattan — New York Pilates, Real Pilates, and Erika Bloom Wellness are all within a 10-minute walk of each other here. Expect beautiful interiors and correspondingly higher price points." },
+  { name: "Midtown & Midtown East", description: "Less glamorous than downtown, but this is where the accessible classical studios (Power Pilates) and the lunch-hour strength-training format ([solidcore]) actually cluster, serving the office population directly." },
+  { name: "Upper East Side & Upper West Side", description: "Manhattan's established residential districts carry a mix of classical studios and barre-Pilates hybrids like Physique 57's flagship. Less trendy, often better value than downtown for group classes." },
+  { name: "Brooklyn (Williamsburg & Park Slope)", description: "Brooklyn's growing Pilates scene has produced several independent studios with strong community cultures and more accessible pricing than Manhattan. Worth the subway ride if you're based in the borough." },
 ];
 
 const GEAR = [
@@ -229,7 +244,7 @@ export default function NewYorkPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in New York City</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               New York City is where modern Pilates was born — Joseph Pilates opened his original studio on Eighth Avenue in 1926, and the method's roots in the city run deeper than anywhere else in the world. Today, NYC has one of the most diverse and rigorous Pilates scenes on the planet, from lineage-connected classical studios in Chelsea to sleek reformer boutiques in SoHo. This guide covers the five we rate most highly.
@@ -278,7 +293,10 @@ export default function NewYorkPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
+            <p className="text-sm mb-10" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+              Addresses, pricing, and ratings independently checked against each studio's own site and public review platforms in September 2026. We call out at least one real trade-off per studio — no pick here is presented as flawless.
+            </p>
             <div className="space-y-8">{STUDIOS.map((s) => <StudioListing key={s.number} {...s} />)}</div>
           </div>
         </section>

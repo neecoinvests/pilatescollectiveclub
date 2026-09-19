@@ -42,41 +42,47 @@ const STUDIOS = [
     name: "Speir Pilates",
     neighborhood: "West Hollywood",
     priceLevel: "$$$",
-    review: "Founded by Andrea Speir — trainer to Hailey Bieber, Chrissy Teigen, Olivia Rodrigo, and many others — Speir Pilates at 8356 Santa Monica Blvd is a sun-soaked, nine-reformer studio that blends exercise science, functional movement, and a high-energy soundtrack into classes that are nearly always sold out. Reviewers consistently rate the instruction and aesthetics 10/10. Additional locations in Venice and Culver City extend the brand across the city. For a studio that has achieved genuine celebrity status, the quality of instruction on the floor is remarkably high.",
+    review: "Founded by Andrea Speir — trainer to Hailey Bieber, Chrissy Teigen, Olivia Rodrigo, and many others — Speir Pilates at 8356 Santa Monica Blvd is a sun-soaked, nine-reformer studio that blends exercise science, functional movement, and a high-energy soundtrack. The studio is open Mon–Fri 6:15am–8:30pm, Sat 7–1pm, Sun 8am–1pm. Additional locations in Venice and Culver City extend the brand across the city.",
+    caveat: "with only nine reformers and genuine celebrity clientele, class availability is the real bottleneck here, not quality — expect to compete for slots the moment booking opens.",
     address: "8356 Santa Monica Blvd, West Hollywood, CA 90069",
     bestFor: "Music-driven athletic reformer classes",
     signatureClass: "Power Reformer",
     bookingTip: "Classes sell out the moment the 24-hour window opens; use the app's notification feature and book the instant it goes live.",
+    websiteUrl: "https://speirpilates.com/",
   },
   {
     number: "02",
     name: "Movement Pilates",
     neighborhood: "Koreatown",
     priceLevel: "$$",
-    review: "Movement Pilates at 400 South Western Avenue is a hidden gem in Koreatown offering truly individualized instruction, where instructors walk clients through each movement and guide form in real time. Reviewers consistently praise instructors Gayoung and Yuna for their exceptional teaching. The studio is clean, well-equipped, and offers the rare combination of accessible pricing and high-quality personalized attention. Free parking in the building is a genuine rarity in Los Angeles.",
+    review: "Movement Pilates at 400 South Western Avenue is a small studio in Koreatown built around individualized instruction — instructors Gayoung and Yuna walk clients through each movement and correct form in real time rather than running a standard group script. The building offers on-site parking at roughly $2 with validation, which is cheap by LA standards even if it isn't free.",
+    caveat: "the studio is genuinely small — this is a private-and-small-group format, not a place to expect a full group-class schedule to choose from.",
     address: "400 S Western Ave, Suite 205, Los Angeles, CA 90020",
     bestFor: "Affordable one-on-one and small group instruction",
     signatureClass: "Private Reformer Session",
-    bookingTip: "Free parking available in the building — a genuine rarity in LA. Call ahead to book private sessions, which are the studio's core offering.",
+    bookingTip: "On-site parking runs about $2 with validation — cheap for LA, not free. Call ahead to book private sessions, which are the studio's core offering.",
   },
   {
     number: "03",
     name: "Flow Pilates",
     neighborhood: "Koreatown / Arts District",
     priceLevel: "$$$",
-    review: "Flow Pilates operates on the philosophy of 'Pilates that builds on itself' — classes are designed in a progressive sequence so your body and technique advance systematically, not randomly. The Koreatown studio has six reformers and a focused community vibe; the Arts District location is larger with twelve machines. Consistently ranked among LA's top reformer studios on ClassPass and Mindbody. For practitioners who have grown frustrated with random drop-in classes that never seem to go anywhere, this is the answer.",
+    review: "Flow Pilates operates on the philosophy of 'Pilates that builds on itself' — classes are sequenced progressively so technique advances systematically rather than starting from scratch each session. The Koreatown location caps group classes at 6 clients for closer attention; the second location runs a larger 12-reformer room. Hours run Mon–Thu 7am–8pm, Fri 7am–7pm, weekends 8am–4pm.",
+    caveat: "the progressive-sequence format works against you if you're a drop-in visitor rather than a regular — showing up occasionally means repeatedly missing steps in a sequence built to be taken in order.",
     address: "2873 W 7th St, Los Angeles, CA 90005",
     bestFor: "Structured progressive reformer programming",
     signatureClass: "Progressive Reformer",
     bookingTip: "Sign up for their intro series to get the correct class-level placement before joining open group sessions.",
+    websiteUrl: "https://flow-la.com/",
   },
   {
     number: "04",
     name: "Carrie's Pilates Plus",
     neighborhood: "West Hollywood",
     priceLevel: "$$$$",
-    review: "Carrie's Pilates Plus is one of Los Angeles's foundational studios — the kind of place that has shaped the city's collective understanding of what serious reformer Pilates looks like. Founded by Carrie Macy Samper, the West Hollywood studio has trained some of the most respected Pilates instructors working in LA today. The teaching is classically rooted but athletically calibrated, and the space has the kind of lived-in authority that comes only with genuine longevity. For anyone serious about the method in Los Angeles, this is a pilgrimage stop.",
-    address: "West Hollywood, CA",
+    review: "Carrie's Pilates Plus is one of Los Angeles's longer-running studios — founded by Carrie Macy Samper, it has trained a number of instructors now working elsewhere in the city's studio scene. It carries over 350 Yelp reviews at its La Cienega address, an unusually large volume for an independent studio rather than a chain, which is itself a signal of how long it's been operating in the same spot.",
+    caveat: "longevity cuts both ways — the space has an established, no-frills feel rather than the polished newness of West Hollywood's newer boutique openings. Go for the instruction, not the interior design.",
+    address: "613 N La Cienega Blvd, West Hollywood, CA 90069",
     bestFor: "Classical method, advanced practitioners",
     signatureClass: "Reformer & Tower",
     bookingTip: "Privates book weeks out; group classes open 5 days ahead and fill within a day.",
@@ -86,10 +92,11 @@ const STUDIOS = [
     name: "The Studio MDR",
     neighborhood: "Marina del Rey",
     priceLevel: "$$$",
-    review: "The Studio MDR sits close to the water in Marina del Rey and carries that coastal energy into its approach: physically demanding, outdoors-adjacent in spirit, and populated by people who take their fitness as seriously as their surfing or open-water swimming. The reformer programme has a strong athletic conditioning emphasis, with classes calibrated for clients who use Pilates as complementary training to other sports. The instructor team has deep sports science backgrounds, and the programming reflects that — loading progressions, recovery-aware scheduling, and a genuine understanding of how Pilates integrates with broader athletic lives.",
-    address: "Marina del Rey, CA",
+    review: "The Studio MDR sits close to the water on Washington Boulevard, and its 400+ Yelp reviews make it one of the most-reviewed studios on this list. Its equipment is the Megaformer, running the Lagree method — a higher-intensity, slow-controlled-tempo format built on a machine descended from the reformer rather than a classical reformer itself. Classes are physically demanding by design, and the westside clientele treats it as cross-training alongside surfing, running, and other sports.",
+    caveat: "if you came here for classical Pilates technique, this isn't the studio — the Lagree/Megaformer format is a distinct discipline with its own machine, more akin to Solidcore than to classical apparatus work.",
+    address: "330 W Washington Blvd, Marina del Rey, CA 90292",
     bestFor: "Athletic conditioning & cross-training",
-    signatureClass: "Athletic Reformer",
+    signatureClass: "Lagree Megaformer",
     bookingTip: "Early morning slots are most popular with the active clientele; book Sunday for the following week.",
   },
   {
@@ -97,11 +104,13 @@ const STUDIOS = [
     name: "Natural Pilates Beverly Hills",
     neighborhood: "Beverly Hills",
     priceLevel: "$$$$",
-    review: "Natural Pilates Beverly Hills operates at the premium end of an already expensive market and justifies the price through instructor depth and programming quality. The studio draws from a classical foundation while incorporating modern rehabilitation science, and the ability to work across the full apparatus suite sets it apart from reformer-only competitors. The Beverly Hills clientele expects excellence as standard and Natural Pilates consistently delivers it. The studio is particularly well-regarded for its work with post-surgical clients and chronic pain management.",
-    address: "Beverly Hills, CA",
+    review: "Natural Pilates Beverly Hills carries a 4.9-star rating across 262 Yelp reviews — one of the highest review volumes of any studio on this list — built on classical apparatus training (Reformer, Cadillac, Chair, Barrel) rather than reformer-only programming. It's particularly well-regarded for post-surgical and chronic-pain clients, an area where the full-apparatus range genuinely matters for progression. Validated parking is available at the Hodes lot next door for about $1.50.",
+    caveat: "\"Beverly Hills\" pricing here is more moderate than the neighbourhood's reputation suggests — it's priced closer to a well-regarded independent studio than to the ultra-premium end of the market, which is good news for your wallet but worth knowing if you were expecting the most expensive option in the city.",
+    address: "9869 S Santa Monica Blvd, Suite 207, Beverly Hills, CA 90212",
     bestFor: "Private & semi-private, rehabilitation",
     signatureClass: "Full Apparatus Private",
     bookingTip: "New clients require an introductory private; waitlist for preferred instructors is long — join early.",
+    rating: "4.9★ (262 Yelp reviews)",
   },
 ];
 
@@ -229,7 +238,7 @@ export default function LosAngelesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in Los Angeles</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Los Angeles has one of the world's most sophisticated wellness cultures, and its Pilates scene reflects that. The city spans a vast geography — from classical powerhouses in Santa Monica to community studios in Los Feliz — and the range in quality, price, and approach is correspondingly wide. This guide navigates the best of it: five studios across different parts of the city that consistently deliver excellent work.
@@ -278,7 +287,10 @@ export default function LosAngelesPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
+            <p className="text-sm mb-10" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+              Addresses, pricing, and ratings independently checked against each studio's own site and public review platforms in September 2026. We call out at least one real trade-off per studio — no pick here is presented as flawless.
+            </p>
             <div className="space-y-8">{STUDIOS.map((s) => <StudioListing key={s.number} {...s} />)}</div>
           </div>
         </section>
