@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
-import BlogHero from "@/components/BlogHero";
-import BlogSidebar from "@/components/BlogSidebar";
+import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Home Pilates Reformer (2026): $299 to $3,995 Compared",
@@ -32,6 +32,7 @@ export const metadata: Metadata = {
 
 const PRODUCTS = [
   {
+    rank: "01",
     name: "Stamina AeroPilates 287",
     tier: "Budget",
     price: "From $299",
@@ -43,6 +44,7 @@ const PRODUCTS = [
     cons: ["Cord resistance differs from spring feel", "Limited weight capacity", "Less stable than studio machines"],
   },
   {
+    rank: "02",
     name: "AeroPilates Pro XP 557",
     tier: "Mid-Range",
     price: "From $1,329",
@@ -54,6 +56,7 @@ const PRODUCTS = [
     cons: ["Still cord-based, not spring", "Heavier to move", "Assembly takes 90 minutes"],
   },
   {
+    rank: "03",
     name: "Merrithew SPX Max",
     tier: "Premium",
     price: "From $3,649",
@@ -65,6 +68,7 @@ const PRODUCTS = [
     cons: ["Significant investment", "Large footprint (requires dedicated space)", "Weighs 115lbs"],
   },
   {
+    rank: "04",
     name: "Balanced Body Allegro 2",
     tier: "Premium",
     price: "From $3,995",
@@ -74,6 +78,25 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20",
     pros: ["Best carriage feel available", "Folds for storage", "Full Balanced Body accessory compatibility"],
     cons: ["Premium price", "Requires professional assembly", "Overkill for casual practitioners"],
+  },
+];
+
+const FAQS = [
+  {
+    q: "How much does a home Pilates reformer cost?",
+    a: "Home Pilates reformers range from $300 to $5,000+ for professional machines. A quality mid-range reformer costs $1,500-$2,500, equivalent to roughly 12-18 months of studio membership.",
+  },
+  {
+    q: "What is the best entry-level home reformer?",
+    a: "The AeroPilates 435 is the most recommended entry-level home reformer. It includes a jumpboard and four springs, covers around 75% of the full repertoire, and retails at $500-$700.",
+  },
+  {
+    q: "How much space does a home Pilates reformer need?",
+    a: "A standard reformer requires approximately 8 feet (2.4m) of length and 3 feet (0.9m) of width. A minimum room footprint of 12 by 8 feet is comfortable for most reformers with clearance.",
+  },
+  {
+    q: "Is a home reformer as good as a studio reformer?",
+    a: "Mid-range home reformers like the Balanced Body Studio Reformer or Merrithew At Home SPX cover the full repertoire adequately. Professional studio machines are more robust but the difference is manageable for home practice.",
   },
 ];
 
@@ -123,28 +146,11 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does a home Pilates reformer cost?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Home Pilates reformers range from $300 to $5,000+ for professional machines. A quality mid-range reformer costs $1,500-$2,500, equivalent to roughly 12-18 months of studio membership." }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the best entry-level home reformer?",
-      "acceptedAnswer": { "@type": "Answer", "text": "The AeroPilates 435 is the most recommended entry-level home reformer. It includes a jumpboard and four springs, covers around 75% of the full repertoire, and retails at $500-$700." }
-    },
-    {
-      "@type": "Question",
-      "name": "How much space does a home Pilates reformer need?",
-      "acceptedAnswer": { "@type": "Answer", "text": "A standard reformer requires approximately 8 feet (2.4m) of length and 3 feet (0.9m) of width. A minimum room footprint of 12 by 8 feet is comfortable for most reformers with clearance." }
-    },
-    {
-      "@type": "Question",
-      "name": "Is a home reformer as good as a studio reformer?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Mid-range home reformers like the Balanced Body Studio Reformer or Merrithew At Home SPX cover the full repertoire adequately. Professional studio machines are more robust but the difference is manageable for home practice." }
-    }
-      ]
+      "mainEntity": FAQS.map((f) => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a },
+      })),
     },
     {
       "@type": "ItemList",
@@ -187,182 +193,229 @@ export default function BestHomeReformerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
-        <BlogHero
-          imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"
-          imageAlt="Home Pilates reformer machine"
-          category="Equipment Guide"
-          subcategory="Reformers"
-          title={<>Best Home Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): Honestly Reviewed</span></>}
-          date="Updated May 2026"
-          readTime="11 min read"
-        />
 
-        {/* Two-column layout */}
-        <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
-          {/* Main article column */}
-          <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
-
-            {/* Affiliate disclaimer */}
+        {/* Hero section */}
+        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
+              <span style={{ color: "#d9c2ba" }}>·</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Reformers</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              Best Home Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): Honestly Reviewed</span>
+            </h1>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 11 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
-
-            <section className="pb-20">
-              {/* What to look for */}
-              <div className="mb-16 mt-4">
-                <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What actually matters in a home reformer</h2>
-                <div className="space-y-4">
-                  {[
-                    { heading: "Spring vs cord resistance", body: "Professional reformers use calibrated steel springs. Budget models substitute elastic cords. Cords are usable, but the resistance curve is different — they get harder through the movement rather than maintaining consistent tension. For beginners, this is manageable. For trained practitioners, it will feel wrong." },
-                    { heading: "Carriage weight and glide quality", body: "The carriage should move smoothly, quietly, and with consistent resistance throughout the stroke. Cheap carriages wobble laterally, squeak, and have uneven glide. This directly affects your ability to perform controlled, precise movement — the entire point of reformer Pilates." },
-                    { heading: "Rail length", body: "Standard studio reformers have a rail of around 96–100 inches. Shorter rails restrict the full range of motion for tall practitioners and limit certain exercises. Check rail length before buying, especially if you're over 5'10\"." },
-                    { heading: "Frame stability", body: "The reformer must not rock, flex, or shift during explosive footwork or jump board work. Cheap aluminium frames flex under load — this is both a quality and a safety issue." },
-                    { heading: "Footbar adjustability", body: "A footbar that adjusts to multiple heights and positions is essential for proper alignment in footwork and for accommodating different leg lengths. Fixed footbars significantly limit the repertoire you can safely perform." },
-                  ].map((item) => (
-                    <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
-                      <div>
-                        <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Products */}
-              <div className="mb-16">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Reformers · Every Budget</p>
-                <div className="space-y-12">
-                  {PRODUCTS.map((p) => (
-                    <div key={p.name}>
-                      <div className="flex items-center gap-3 mb-4">
-                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tier}</span>
-                        <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
-                      </div>
-                      <ProductCard
-                        name={p.name}
-                        description={p.description}
-                        price={p.price}
-                        affiliateUrl={p.affiliateUrl}
-                      />
-                      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-                          <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
-                          <ul className="space-y-1">
-                            {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {pro}</li>)}
-                          </ul>
-                        </div>
-                        <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-                          <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
-                          <ul className="space-y-1">
-                            {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {con}</li>)}
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Comparison table */}
-              <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Quick comparison</h2>
-                <div className="overflow-x-auto rounded-xl" style={{ border: "1px solid rgba(217,194,186,0.4)" }}>
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.4)" }}>
-                        {["Model", "Price", "Resistance", "Rail Length", "Best For"].map((h) => (
-                          <th key={h} className="text-left px-4 py-3 text-xs font-semibold uppercase tracking-wider" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{h}</th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {[
-                        { model: "Stamina 287", price: "$299", resistance: "4 cords", rail: "88\"", best: "Beginners, small spaces" },
-                        { model: "AeroPilates 557", price: "$1,329", resistance: "4 cords", rail: "91\"", best: "Regular practitioners" },
-                        { model: "Merrithew SPX Max", price: "$3,649", resistance: "5 springs", rail: "96\"", best: "Serious practitioners" },
-                        { model: "Balanced Body Allegro 2", price: "$3,995", resistance: "4 springs", rail: "99\"", best: "Professional home studio" },
-                      ].map((row, i) => (
-                        <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
-                          <td className="px-4 py-3 font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.model}</td>
-                          <td className="px-4 py-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>{row.price}</td>
-                          <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.resistance}</td>
-                          <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.rail}</td>
-                          <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.best}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              {/* Which tier is right for you — routes to the dedicated guide per budget and constraint */}
-              <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Start from your constraint, not the price list</h2>
-                <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  Almost nobody buying a reformer is choosing freely between a $299 machine and a $3,995 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {[
-                    { label: "Budget under $500", body: "Cord-resistance machines only at this price. Genuine reformer movement patterns, but not a spring feel.", href: "/blog/best-pilates-reformer-under-500", cta: "Reformers under $500" },
-                    { label: "Budget $500–$1,000", body: "The value sweet spot for regular home practice. Longer rails and better carriages than the entry tier.", href: "/blog/best-pilates-reformer-under-1000", cta: "Reformers under $1,000" },
-                    { label: "Budget $1,000–$2,000", body: "Where true steel springs start. The resistance curve changes how every exercise feels.", href: "/blog/best-pilates-reformer-under-2000", cta: "Reformers under $2,000" },
-                    { label: "Budget $2,000 and up", body: "Studio-grade frames and carriages built to outlast a decade of daily use. Buy once.", href: "/blog/best-premium-pilates-reformer", cta: "Premium reformers" },
-                    { label: "The room has another purpose", body: "Machines that fold and stand vertically against a wall, dropping the stored footprint to about 30 by 12 inches.", href: "/blog/best-foldable-pilates-reformer", cta: "Foldable reformers" },
-                    { label: "No space for a full-size frame", body: "Compact and half-length machines for flats where 8.5 feet is simply not available.", href: "/blog/best-pilates-reformer-for-small-spaces", cta: "Reformers for small spaces" },
-                    { label: "You are over about 5ft 10in", body: "Rail length is the specification that matters. Short rails cut your leg extension short on every exercise.", href: "/blog/best-pilates-reformer-for-tall-people", cta: "Reformers for tall people" },
-                    { label: "First reformer, still learning", body: "What to prioritise before spending, and which features you will not use in your first year.", href: "/blog/best-pilates-reformer-for-beginners", cta: "Reformers for beginners" },
-                  ].map((t) => (
-                    <div key={t.href} className="rounded-xl p-5 flex flex-col" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-                      <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.label}</p>
-                      <p className="text-sm leading-relaxed mb-4 flex-1" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{t.body}</p>
-                      <Link href={t.href} className="text-xs font-semibold uppercase tracking-[0.12em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
-                        {t.cta} →
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Space requirements */}
-              <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Space requirements to plan for</h2>
-                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  A full-size reformer requires a minimum footprint of approximately 8.5 feet long by 2.5 feet wide, plus clearance around the machine for safe movement. The Balanced Body Allegro 2 and Merrithew SPX require a dedicated space — they cannot be moved easily once assembled.
-                </p>
-                <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  Foldable models (the AeroPilates range and the Allegro 2) can be stored vertically against a wall when not in use, reducing the permanent footprint to roughly 30 inches by 12 inches. If space is your primary constraint, the Allegro 2&apos;s fold-flat feature makes it uniquely practical for its class.
-                </p>
-              </div>
-
-              {/* Verdict */}
-              <div className="mb-16 rounded-2xl p-8 md:p-10" style={{ background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
-                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>Buy once, buy the Balanced Body Allegro 2.</h2>
-                <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                  If budget is genuinely no constraint, the Allegro 2 is the machine you will never need to replace. If you&apos;re working with a tighter budget but want a real spring reformer, the Merrithew SPX Max is the professional-grade entry point. For beginners testing the water, the AeroPilates 557 delivers a credible reformer-like experience at a fraction of the cost.
-                </p>
-                <a href="https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-                  Shop Balanced Body on Amazon →
-                </a>
-              </div>
-
-              {/* Further reading */}
-              <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Pilates Reformer Brands (2026)" excerpt="Balanced Body, Merrithew, Align, Gratz, Elina and Peak — who builds what, and at what price." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="June 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
-                  <ArticleCard title="How Much Does a Pilates Reformer Cost?" excerpt="What the money actually buys between $300 and $6,000, and where the jumps in quality fall." href="/blog/how-much-does-a-pilates-reformer-cost" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
-                </div>
-              </div>
-            </section>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.
+            </p>
           </div>
+        </section>
 
-          <BlogSidebar related={[
-            { title: "Best Pilates Equipment for Home Practice", href: "/blog/best-pilates-equipment-for-home-practice", readTime: "10 min read", imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" },
-            { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
-            { title: "Best Pilates Reformer Brands", href: "/blog/best-pilates-reformer-brands", readTime: "12 min read", imageUrl: "/pictures/stitch-reformers-aerial-row.png" },
-          ]} />
-        </div>
+        {/* Hero image */}
+        <section className="px-6 mb-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Home Pilates reformer machine" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            </div>
+          </div>
+        </section>
+
+        {/* Main content */}
+        <section className="px-6 pb-20">
+          <div className="max-w-3xl mx-auto">
+
+            {/* What to look for */}
+            <div className="mb-16 mt-4">
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What actually matters in a home reformer</h2>
+              <div className="space-y-4">
+                {[
+                  { heading: "Spring vs cord resistance", body: "Professional reformers use calibrated steel springs. Budget models substitute elastic cords. Cords are usable, but the resistance curve is different — they get harder through the movement rather than maintaining consistent tension. For beginners, this is manageable. For trained practitioners, it will feel wrong." },
+                  { heading: "Carriage weight and glide quality", body: "The carriage should move smoothly, quietly, and with consistent resistance throughout the stroke. Cheap carriages wobble laterally, squeak, and have uneven glide. This directly affects your ability to perform controlled, precise movement — the entire point of reformer Pilates." },
+                  { heading: "Rail length", body: "Standard studio reformers have a rail of around 96–100 inches. Shorter rails restrict the full range of motion for tall practitioners and limit certain exercises. Check rail length before buying, especially if you're over 5'10\"." },
+                  { heading: "Frame stability", body: "The reformer must not rock, flex, or shift during explosive footwork or jump board work. Cheap aluminium frames flex under load — this is both a quality and a safety issue." },
+                  { heading: "Footbar adjustability", body: "A footbar that adjusts to multiple heights and positions is essential for proper alignment in footwork and for accommodating different leg lengths. Fixed footbars significantly limit the repertoire you can safely perform." },
+                ].map((item) => (
+                  <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
+                    <div>
+                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
+                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Quick reference table */}
+            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
+              </div>
+              {PRODUCTS.map((p, i) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
+                  </div>
+                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Buy →</a>
+                </div>
+              ))}
+            </div>
+
+            {/* Products */}
+            <div className="mb-16">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Reformers · Every Budget</p>
+              <div className="space-y-12">
+                {PRODUCTS.map((p) => (
+                  <div key={p.name}>
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tier}</span>
+                      <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
+                    </div>
+                    <ProductCard
+                      name={p.name}
+                      description={p.description}
+                      price={p.price}
+                      affiliateUrl={p.affiliateUrl}
+                    />
+                    <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
+                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
+                        <ul className="space-y-1">
+                          {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {pro}</li>)}
+                        </ul>
+                      </div>
+                      <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
+                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
+                        <ul className="space-y-1">
+                          {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {con}</li>)}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Comparison table */}
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Quick comparison</h2>
+              <div className="overflow-x-auto rounded-xl" style={{ border: "1px solid rgba(217,194,186,0.4)" }}>
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.4)" }}>
+                      {["Model", "Price", "Resistance", "Rail Length", "Best For"].map((h) => (
+                        <th key={h} className="text-left px-4 py-3 text-xs font-semibold uppercase tracking-wider" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{h}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      { model: "Stamina 287", price: "$299", resistance: "4 cords", rail: "88\"", best: "Beginners, small spaces" },
+                      { model: "AeroPilates 557", price: "$1,329", resistance: "4 cords", rail: "91\"", best: "Regular practitioners" },
+                      { model: "Merrithew SPX Max", price: "$3,649", resistance: "5 springs", rail: "96\"", best: "Serious practitioners" },
+                      { model: "Balanced Body Allegro 2", price: "$3,995", resistance: "4 springs", rail: "99\"", best: "Professional home studio" },
+                    ].map((row, i) => (
+                      <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
+                        <td className="px-4 py-3 font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.model}</td>
+                        <td className="px-4 py-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>{row.price}</td>
+                        <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.resistance}</td>
+                        <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.rail}</td>
+                        <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.best}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Which tier is right for you — routes to the dedicated guide per budget and constraint */}
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Start from your constraint, not the price list</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                Almost nobody buying a reformer is choosing freely between a $299 machine and a $3,995 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {[
+                  { label: "Budget under $500", body: "Cord-resistance machines only at this price. Genuine reformer movement patterns, but not a spring feel.", href: "/blog/best-pilates-reformer-under-500", cta: "Reformers under $500" },
+                  { label: "Budget $500–$1,000", body: "The value sweet spot for regular home practice. Longer rails and better carriages than the entry tier.", href: "/blog/best-pilates-reformer-under-1000", cta: "Reformers under $1,000" },
+                  { label: "Budget $1,000–$2,000", body: "Where true steel springs start. The resistance curve changes how every exercise feels.", href: "/blog/best-pilates-reformer-under-2000", cta: "Reformers under $2,000" },
+                  { label: "Budget $2,000 and up", body: "Studio-grade frames and carriages built to outlast a decade of daily use. Buy once.", href: "/blog/best-premium-pilates-reformer", cta: "Premium reformers" },
+                  { label: "The room has another purpose", body: "Machines that fold and stand vertically against a wall, dropping the stored footprint to about 30 by 12 inches.", href: "/blog/best-foldable-pilates-reformer", cta: "Foldable reformers" },
+                  { label: "No space for a full-size frame", body: "Compact and half-length machines for flats where 8.5 feet is simply not available.", href: "/blog/best-pilates-reformer-for-small-spaces", cta: "Reformers for small spaces" },
+                  { label: "You are over about 5ft 10in", body: "Rail length is the specification that matters. Short rails cut your leg extension short on every exercise.", href: "/blog/best-pilates-reformer-for-tall-people", cta: "Reformers for tall people" },
+                  { label: "First reformer, still learning", body: "What to prioritise before spending, and which features you will not use in your first year.", href: "/blog/best-pilates-reformer-for-beginners", cta: "Reformers for beginners" },
+                ].map((t) => (
+                  <div key={t.href} className="rounded-xl p-5 flex flex-col" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
+                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.label}</p>
+                    <p className="text-sm leading-relaxed mb-4 flex-1" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{t.body}</p>
+                    <Link href={t.href} className="text-xs font-semibold uppercase tracking-[0.12em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+                      {t.cta} →
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Space requirements */}
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Space requirements to plan for</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                A full-size reformer requires a minimum footprint of approximately 8.5 feet long by 2.5 feet wide, plus clearance around the machine for safe movement. The Balanced Body Allegro 2 and Merrithew SPX require a dedicated space — they cannot be moved easily once assembled.
+              </p>
+              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                Foldable models (the AeroPilates range and the Allegro 2) can be stored vertically against a wall when not in use, reducing the permanent footprint to roughly 30 inches by 12 inches. If space is your primary constraint, the Allegro 2&apos;s fold-flat feature makes it uniquely practical for its class.
+              </p>
+            </div>
+
+            {/* Verdict */}
+            <div className="mb-16 rounded-2xl p-8 md:p-10" style={{ background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>Buy once, buy the Balanced Body Allegro 2.</h2>
+              <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
+                If budget is genuinely no constraint, the Allegro 2 is the machine you will never need to replace. If you&apos;re working with a tighter budget but want a real spring reformer, the Merrithew SPX Max is the professional-grade entry point. For beginners testing the water, the AeroPilates 557 delivers a credible reformer-like experience at a fraction of the cost.
+              </p>
+              <a href="https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                Shop Balanced Body on Amazon →
+              </a>
+            </div>
+
+            {/* FAQ */}
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <div className="space-y-6">
+                {FAQS.map((item) => (
+                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Further reading */}
+            <div>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ArticleCard title="Best Pilates Reformer Brands (2026)" excerpt="Balanced Body, Merrithew, Align, Gratz, Elina and Peak — who builds what, and at what price." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="June 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
+                <ArticleCard title="How Much Does a Pilates Reformer Cost?" excerpt="What the money actually buys between $300 and $6,000, and where the jumps in quality fall." href="/blog/how-much-does-a-pilates-reformer-cost" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
+                <ArticleCard title="The Beginner's Guide to Reformer Pilates" excerpt="What to expect in your first reformer class, how to choose a studio, and how to progress." href="/blog/beginners-guide-to-reformer-pilates" category="Beginners" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <CTASection title="Start with a studio before buying" subtitle="Find the best Pilates studios near you in our city guides." />
+
       </main>
       <Footer />
     </>
