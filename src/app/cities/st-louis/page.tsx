@@ -201,6 +201,12 @@ const GEAR = [
   },
 ];
 
+const HOME_REFORMERS = [
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "The most accessible full-function reformer — four cords, a rebounder, and a frame that folds flat for storage.", price: "From $299", url: "https://www.amazon.com/s?k=stamina+aeropilates+287&tag=pilatescollective-20" },
+  { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "A smoother carriage, standing platform, and adjustable footbar for practitioners training several times a week.", price: "From $1,329", url: "https://www.amazon.com/s?k=aeropilates+pro+557&tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro 2", note: "The studio-grade machine serious home practitioners never need to replace — full spring system and fold-flat storage.", price: "From $3,995", url: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" },
+];
+
 const RELATED_CITIES = [
   { city: "Kansas City", country: "United States", href: "/cities/kansas-city", studioCount: 6 },
   { city: "Chicago", country: "United States", href: "/cities/chicago", studioCount: 6 },
@@ -316,6 +322,37 @@ export default function StLouisPage() {
           </div>
         </section>
 
+        <section style={{ backgroundColor: "#fdf3ec", borderTop: "1px solid rgba(184,151,126,0.35)", borderBottom: "1px solid rgba(184,151,126,0.35)" }} className="py-20 px-6">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#b8977e" }}>
+              Before You Go
+            </p>
+            <h2 className="text-2xl font-bold mb-2" style={{ color: "#2d2926" }}>
+              What to Bring to Class
+            </h2>
+            <p className="text-sm mb-8" style={{ color: "#9c8678" }}>
+              Gear St. Louis instructors recommend.{" "}
+              <Link href="/affiliate-disclosure" className="underline">Affiliate disclosure</Link>.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {GEAR.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="block rounded-xl p-5 border transition-shadow hover:shadow-md"
+                  style={{ borderColor: "#e8ddd6", backgroundColor: "#fff" }}
+                >
+                  <p className="font-semibold mb-1" style={{ color: "#2d2926" }}>{item.name}</p>
+                  <p className="text-sm mb-3" style={{ color: "#5c4f47" }}>{item.note}</p>
+                  <p className="text-sm font-semibold" style={{ color: "#b8977e" }}>{item.price} on Amazon →</p>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold mb-2" style={{ color: "#2d2926" }}>
@@ -351,34 +388,6 @@ export default function StLouisPage() {
           </div>
         </section>
 
-        <section style={{ backgroundColor: "#fcf9f8" }} className="py-20 px-6">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-2" style={{ color: "#2d2926" }}>
-              What to Bring to Class
-            </h2>
-            <p className="text-sm mb-8" style={{ color: "#9c8678" }}>
-              Gear St. Louis instructors recommend.{" "}
-              <Link href="/affiliate-disclosure" className="underline">Affiliate disclosure</Link>.
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {GEAR.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  className="block rounded-xl p-5 border transition-shadow hover:shadow-md"
-                  style={{ borderColor: "#e8ddd6", backgroundColor: "#fff" }}
-                >
-                  <p className="font-semibold mb-1" style={{ color: "#2d2926" }}>{item.name}</p>
-                  <p className="text-sm mb-3" style={{ color: "#5c4f47" }}>{item.note}</p>
-                  <p className="text-sm font-semibold" style={{ color: "#b8977e" }}>{item.price} on Amazon →</p>
-                </a>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section style={{ backgroundColor: "#f6f3f2" }} className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold mb-8" style={{ color: "#2d2926" }}>
@@ -390,6 +399,38 @@ export default function StLouisPage() {
                   <h3 className="font-semibold mb-2" style={{ color: "#2d2926" }}>{n.name}</h3>
                   <p className="text-sm leading-relaxed" style={{ color: "#5c4f47" }}>{n.description}</p>
                 </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section style={{ backgroundColor: "#f6f3f2" }} className="py-20 px-6">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#b8977e" }}>
+              Prefer To Train At Home?
+            </p>
+            <h2 className="text-2xl font-bold mb-2" style={{ color: "#2d2926" }}>
+              Not Convinced? How About Pilates at Home?
+            </h2>
+            <p className="text-sm mb-8" style={{ color: "#9c8678" }}>
+              A home reformer gets you a genuine session on your own schedule.{" "}
+              <Link href="/blog/best-home-pilates-reformer" className="underline">See the full reformer guide</Link>.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              {HOME_REFORMERS.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="block rounded-xl p-5 border transition-shadow hover:shadow-md"
+                  style={{ borderColor: "#e8ddd6", backgroundColor: "#fff" }}
+                >
+                  <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#b8977e" }}>{item.tag}</p>
+                  <p className="font-semibold mb-1" style={{ color: "#2d2926" }}>{item.name}</p>
+                  <p className="text-sm mb-3" style={{ color: "#5c4f47" }}>{item.note}</p>
+                  <p className="text-sm font-semibold" style={{ color: "#b8977e" }}>{item.price} on Amazon →</p>
+                </a>
               ))}
             </div>
           </div>
