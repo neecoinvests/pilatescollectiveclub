@@ -291,7 +291,7 @@ export default function NewYorkPage() {
           </div>
         </section>
 
-        <section className="px-6 pb-20">
+        <section className="px-6 py-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
             <p className="text-sm mb-10" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>

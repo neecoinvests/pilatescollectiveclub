@@ -353,7 +353,7 @@ export default function KansasCityPage() {
           </div>
         </section>
 
-        <section className="px-6 pb-20">
+        <section className="px-6 py-20">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold mb-2" style={{ color: "#2d2926" }}>
               The 6 Best Pilates Studios in Kansas City

@@ -276,7 +276,7 @@ export default function PhiladelphiaPage() {
           </div>
         </section>
 
-        <section className="px-6 pb-20">
+        <section className="px-6 py-20">
           <div className="max-w-3xl mx-auto">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
             <div className="space-y-8">{STUDIOS.map((s) => <StudioListing key={s.number} {...s} />)}</div>
