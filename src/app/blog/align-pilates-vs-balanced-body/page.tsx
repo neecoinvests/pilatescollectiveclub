@@ -9,8 +9,8 @@ import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
   title: "Align Pilates vs Balanced Body (2026): Price, Build, Verdict",
-  description: "Align Pilates and Balanced Body compared on frame, springs, accessory ecosystem and current dealer pricing, with a clear recommendation for each buyer.",
-  keywords: ["align pilates vs balanced body", "align pilates reformer review", "balanced body reformer comparison", "align c8 pro vs allegro 2", "best pilates reformer brand", "align pilates a8 pro", "balanced body studio reformer", "pilates reformer brand comparison"],
+  description: "Align Pilates C8-PRO and Balanced Body's Allegro Stretch and Studio Reformer compared on frame, springs, accessory ecosystem and real Amazon pricing, with a clear recommendation for each buyer.",
+  keywords: ["align pilates vs balanced body", "align pilates reformer review", "balanced body reformer comparison", "align c8 pro vs allegro stretch", "best pilates reformer brand", "align pilates c8 pro", "balanced body studio reformer", "pilates reformer brand comparison"],
   openGraph: {
     title: "Align Pilates vs Balanced Body (2026)",
     description: "Frame, springs, accessories, warranty and real dealer pricing compared.",
@@ -34,7 +34,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Align Pilates vs Balanced Body (2026): Price, Build, Verdict",
-      "description": "A brand-level comparison of Align Pilates and Balanced Body reformers across frame construction, spring systems, accessory ecosystem, warranty and current dealer pricing.",
+      "description": "A brand-level comparison of the Align-Pilates C8-PRO and Balanced Body's Allegro Stretch and Studio Reformer, across frame construction, spring systems, accessory ecosystem, warranty and real Amazon pricing.",
       "url": "https://pilatescollectiveclub.com/blog/align-pilates-vs-balanced-body",
       "datePublished": "2026-09-16",
       "dateModified": "2026-09-16",
@@ -55,8 +55,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Is Align Pilates as good as Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "For the machine itself, the gap is much smaller than the brand recognition suggests. Both build commercial-rated reformers on aluminium rails with graded spring sets, and both are found in working studios. Where Balanced Body pulls ahead is the accessory ecosystem and the resale market: it is the larger brand, its towers, boxes and jumpboards are more widely stocked, and its machines are easier to sell on. Align competes on price and on carriage width. If you are buying one machine and keeping it, Align is genuinely competitive. If you expect to expand a studio with accessories over years, Balanced Body's ecosystem is worth paying for." } },
-        { "@type": "Question", "name": "How much cheaper is Align Pilates than Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Less than most published comparisons suggest, and the gap has narrowed. Checked against current dealer listings in September 2026, the Align C8 Pro runs around $2,750 to $2,900 and the A8 Pro around $3,700 to $3,800 against a list of $4,200 to $4,320. Balanced Body's Allegro 2 is $3,995 standard, and the Studio Reformer is $4,400 to $4,800 depending on footbar. So the C8 Pro genuinely undercuts anything comparable from Balanced Body, but the A8 Pro sits close to the Allegro 2 rather than far below it. Be careful with older figures: a lot of published pricing for Align has not kept up, and US listings may add an import surcharge at checkout." } },
-        { "@type": "Question", "name": "Which brand is better for a home studio?", "acceptedAnswer": { "@type": "Answer", "text": "For a single machine at home, the Align C8 Pro is the better value: commercial-rated build at a genuine discount to the Balanced Body equivalent, and a wide carriage that suits larger practitioners. For a home studio you intend to grow, with a tower, boxes and a jumpboard added over time, Balanced Body is the safer commitment because the accessory range is deeper and easier to source. The deciding question is not which machine is better today but whether you will still be buying parts for it in five years." } },
+        { "@type": "Question", "name": "How much cheaper is Align Pilates than Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Checked live on Amazon in September 2026, the Align C8-PRO is $2,750, Balanced Body's Allegro Stretch is $3,710, and the Studio Reformer is $4,700. The A8-Pro, Align's widest-carriage studio machine, is not sold on Amazon at all — it's dealer-quoted only, so get a current figure for your configuration before comparing it against either Balanced Body price. The C8-PRO genuinely undercuts anything comparable from Balanced Body." } },
+        { "@type": "Question", "name": "Which brand is better for a home studio?", "acceptedAnswer": { "@type": "Answer", "text": "For a single machine at home, the Align C8-PRO is the better value: commercial-rated build at a genuine discount to the Balanced Body equivalent, sold on Amazon. For a home studio you intend to grow, with a tower, boxes and a jumpboard added over time, Balanced Body is the safer commitment because the accessory range is deeper and easier to source. The deciding question is not which machine is better today but whether you will still be buying parts for it in five years." } },
         { "@type": "Question", "name": "Do Align Pilates reformers hold their value?", "acceptedAnswer": { "@type": "Answer", "text": "Less well than Balanced Body, for a straightforward reason: resale depends on how many buyers recognise and want the brand, and Balanced Body has the larger installed base, particularly in the United States. A used Balanced Body machine typically finds a buyer faster and at a higher share of its original price. That difference is worth factoring into the purchase if you might sell within a few years, and worth ignoring entirely if you are buying a machine to keep." } },
       ],
     },
@@ -67,7 +67,7 @@ const COMPARISON = [
   {
     factor: "Frame and rails",
     align: "Aluminium rails with a rigid, squared frame. Build quality is genuinely commercial at the Pro level, and the machines are specified for studio use rather than domestic only. Less visual warmth than a maple frame, which some buyers care about and some do not.",
-    bb: "Aluminium on the Allegro 2, Strata rock maple on the Studio Reformer. The maple frame is the reference studio machine, heavier and permanent rather than portable, and it is what most certification centres train on.",
+    bb: "Anodized aluminium on the Allegro Stretch, Strata rock maple on the Studio Reformer. The maple frame is the reference studio machine, heavier and permanent rather than portable, and it is what most certification centres train on.",
   },
   {
     factor: "Spring system",
@@ -97,25 +97,24 @@ const COMPARISON = [
 ];
 
 const PRICING = [
-  { model: "Align Pilates C8 Pro", price: "~$2,750 to $2,900", note: "The value pick. Undercuts anything comparable from Balanced Body." },
-  { model: "Align Pilates A8 Pro", price: "~$3,700 to $3,800", note: "List $4,200 to $4,320. Widest carriage in the comparison." },
-  { model: "Balanced Body Allegro 2", price: "$3,995", note: "$4,325 to $4,345 with the leg kit. Folds upright for storage." },
-  { model: "Balanced Body Studio Reformer", price: "$4,400 to $4,800", note: "Price varies by footbar: Revo, XSR, Infinity or Classic. Permanent installation." },
+  { model: "Align Pilates C8-PRO", price: "$2,750", note: "The value pick, and the only Align machine actually sold on Amazon (through Merrithew, Align's US distributor). Undercuts anything comparable from Balanced Body." },
+  { model: "Align Pilates A8-Pro", price: "Dealer quote", note: "Align's studio machine with the widest carriage in the industry, sold only through Align's US dealer network — not on Amazon. Get a quote for your configuration." },
+  { model: "Balanced Body Allegro Stretch", price: "$3,710", note: "Balanced Body's wide-carriage answer to the A8-Pro — 2 inches wider and 6 inches longer than the standard Allegro, sold direct on Amazon." },
+  { model: "Balanced Body Studio Reformer", price: "$4,700", note: "The commercial machine, Strata rock maple frame with the Revo footbar. Permanent installation; sold direct on Amazon." },
 ];
 
 const REFORMERS = [
-  { name: "Align Pilates C8 Pro Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminium rails, a graded colour-coded spring set, and a build specified for studio use, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c8+pro+reformer&tag=pilatescollective-20" },
-  { name: "Align Pilates A8 Pro Reformer", description: "The widest carriage in this comparison, which is the clearest thing Align does better than anyone. Larger and taller practitioners notice it immediately in side-lying and kneeling work. List runs $4,200 to $4,320, so check the current dealer figure.", price: "From $3,700", affiliateUrl: "https://www.amazon.com/s?k=align+pilates+a8+pro+reformer&tag=pilatescollective-20" },
-  { name: "Balanced Body Allegro 2 Reformer", description: "The folding studio machine most home buyers end up comparing everything else against. Upright fold against a wall, the deepest accessory ecosystem in the industry, and the strongest resale of any reformer here. $3,995 standard, around $4,325 with the leg kit.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/dp/B0D3G2BJZ7?tag=pilatescollective-20" },
-  { name: "Balanced Body Studio Reformer", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five signature springs, and full tower compatibility. Price runs $4,400 to $4,800 depending on which of the four footbars you choose. It does not fold.", price: "From $4,400", affiliateUrl: "https://www.amazon.com/dp/B0C9G88VJS?tag=pilatescollective-20" },
+  { name: "Align-Pilates C8-PRO Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. An 8-wheel PU carriage, Align's Rapid Change Spring Bar, and a stackable frame, sold on Amazon by Merrithew, Align's US distributor. A real discount to anything comparable from Balanced Body.", price: "$2,750", affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" },
+  { name: "Balanced Body Allegro Stretch Reformer", description: "Balanced Body's own answer to Align's wide-carriage advantage: a carriage 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. Anodized aluminium frame, TwistLock shoulder rests, sold direct on Amazon.", price: "$3,710", affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer (Revo Footbar)", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five Signature Springs for 46 resistance combinations, full tower compatibility. Sold direct by Balanced Body on Amazon; made to order. It does not fold.", price: "$4,700", affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
 ];
 
 const PRODUCTS = [
-  { name: "Reformer Jumpboard", description: "Both brands sell their own, and both are mount-specific rather than universal. Whichever machine you land on, a jumpboard is the highest-value addition available to it: it turns a reformer into cardio equipment for a fraction of the cost of buying anything else. Confirm the mounting fits your exact model before ordering.", price: "From $199", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+jumpboard&tag=pilatescollective-20" },
-  { name: "Reformer Carriage Pad", description: "A grip pad is the cheapest way to make a carriage feel secure for standing and kneeling work, and it protects the upholstery, which is the first thing to look tired on a machine of either brand. Align's wider carriage needs a correspondingly wider pad, so check the dimensions rather than assuming a standard size.", price: "From $89", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+carriage+pad+grip&tag=pilatescollective-20" },
-  { name: "Reformer Sitting Box", description: "The one accessory that genuinely expands the repertoire rather than refining it, opening up short box, long box and overhead work. Boxes are more brand-agnostic than jumpboards because they sit on the carriage rather than mounting to the frame, so this is a place where a third-party box is a reasonable buy.", price: "From $149", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+sitting+box&tag=pilatescollective-20" },
-  { name: "Replacement Springs", description: "Springs are graded and colour-coded differently between brands, so this is not a place to buy generic. Order for your exact model. What is worth doing on either brand is keeping a spare set: springs lose tension gradually and a set that has drifted quietly changes every resistance setting you use.", price: "From $45", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+replacement+springs&tag=pilatescollective-20" },
-  { name: "Platform Extender", description: "Extends the standing platform for jumpboard and standing work, and it is one of the few accessories where the two brands take visibly different approaches to mounting. Useful if you are tall or if you run jumpboard classes. Check compatibility with your footbar position.", price: "From $159", affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+platform+extender&tag=pilatescollective-20" },
+  { name: "Balanced Body Padded Jumpboard", description: "Balanced Body's own jumpboard for the Studio Reformer and Allegro line, turning either into cardio equipment. Mount-specific — confirm it fits your exact model before ordering.", price: "$280", affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20" },
+  { name: "Pilates Reformer Grip Pads (4-pack)", description: "A grip pad is the cheapest way to make a carriage feel secure for standing and kneeling work, and it protects the upholstery, which is the first thing to look tired on a machine of either brand. Check dimensions against your carriage width before ordering.", price: "$8", affiliateUrl: "https://www.amazon.com/dp/B0GGR4QXNH?tag=pilatescollective-20" },
+  { name: "Balanced Body Sitting Box Lite", description: "The accessory that genuinely expands the repertoire rather than refining it, opening up short box, long box and overhead work. Sits on the carriage rather than mounting to the frame.", price: "$150", affiliateUrl: "https://www.amazon.com/dp/B0723DT2JP?tag=pilatescollective-20" },
+  { name: "Balanced Body Replacement Reformer Ropes with Clips", description: "Genuine Balanced Body replacement ropes for the Studio Reformer and Allegro line. Springs and ropes are graded differently between brands, so order for your exact model, and keep a spare set — they lose tension gradually rather than failing visibly.", price: "$35", affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
+  { name: "Balanced Body Oversized Platform Extender (Studio Reformer)", description: "Extends the standing platform for jumpboard and standing work — useful if you are tall or run jumpboard classes. Sized for the Studio Reformer; check compatibility with your exact footbar before ordering.", price: "$185", affiliateUrl: "https://www.amazon.com/dp/B0008IVJEU?tag=pilatescollective-20" },
 ];
 
 export default function AlignPilatesVsBalancedBodyPage() {
@@ -137,7 +136,7 @@ export default function AlignPilatesVsBalancedBodyPage() {
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated 16 September 2026 · 12 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              These two brands are cross-shopped constantly and compared badly, usually because the published pricing for Align is out of date. We rechecked both against current dealer listings in September 2026, and the gap is smaller than most comparisons claim. The real decision is not which machine is better. It is whether you are buying one reformer or building a system.
+              These two brands are cross-shopped constantly and compared badly, usually with machines that are not actually available to buy the way the article claims. We rechecked the real, live Amazon listings for both brands in September 2026: only three machines are genuinely purchasable there, and the gap between them is smaller than most comparisons claim. The real decision is not which machine is better. It is whether you are buying one reformer or building a system.
             </p>
           </div>
         </section>
@@ -156,7 +155,7 @@ export default function AlignPilatesVsBalancedBodyPage() {
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The short version</p>
               <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Buying one machine and keeping it: the Align C8 Pro is the value choice and it is not a compromise. Tall or broad, or you want the roomiest carriage: Align A8 Pro. Building a studio you will expand with towers, boxes and converters over years: Balanced Body, for the ecosystem rather than the frame. Might sell within a few years: Balanced Body, for resale.
+                Buying one machine and keeping it: the Align C8-PRO is the value choice, sold on Amazon, and it is not a compromise. Tall or broad and want the roomiest carriage: Align&apos;s A8-Pro has the widest carriage in the industry, but it&apos;s dealer-quoted only, not on Amazon — or consider Balanced Body&apos;s Allegro Stretch, sold on Amazon, built for the same problem. Building a studio you will expand with towers, boxes and converters over years: Balanced Body, for the ecosystem rather than the frame.
               </p>
             </div>
 
@@ -180,7 +179,7 @@ export default function AlignPilatesVsBalancedBodyPage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What each actually costs</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Checked against current dealer listings in September 2026. A lot of published pricing for Align Pilates is badly out of date, which is how the brand acquired a reputation as a budget option that its current pricing does not support. US listings may also add an import surcharge at checkout, so confirm the delivered total rather than the headline.
+                Checked live on Amazon in September 2026 for the three machines actually sold there. A lot of published pricing for Align Pilates is badly out of date, which is how the brand acquired a reputation as a budget option that its current pricing does not support. Amazon listings can also shift with demand, so confirm the live price at checkout rather than the figure here.
               </p>
               <div className="space-y-3">
                 {PRICING.map((p) => (
@@ -219,7 +218,7 @@ export default function AlignPilatesVsBalancedBodyPage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The ecosystem is the real decision</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Compare the two machines on a showroom floor and you would struggle to justify a large price difference. Both are commercial-rated, both run graded springs on aluminium rails, both are in working studios. On the frame alone, Align wins on value at the C8 Pro and the two brands are close at the A8 Pro.
+                Compare the machines on a showroom floor and you would struggle to justify a large price difference. Both are commercial-rated, both run graded springs, both are in working studios. On the frame alone, Align wins on value at the C8-PRO — the machine Align actually sells on Amazon.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 What separates them is what happens after the purchase. Reformers are platforms, and the accessories that mount to them are model-specific rather than universal. Balanced Body has the deepest catalogue in the industry and the widest dealer network to supply it, so a tower, a riser kit, a converter or a replacement part is easy to get years later. Align has everything most people need and less of the long tail.
@@ -255,8 +254,8 @@ export default function AlignPilatesVsBalancedBodyPage() {
               <div className="space-y-6">
                 {[
                   { q: "Is Align Pilates as good as Balanced Body?", a: "For the machine itself, the gap is much smaller than the brand recognition suggests. Both build commercial-rated reformers on aluminium rails with graded spring sets, and both are found in working studios. Where Balanced Body pulls ahead is the accessory ecosystem and the resale market: it is the larger brand, its towers, boxes and jumpboards are more widely stocked, and its machines are easier to sell on. Align competes on price and on carriage width. If you are buying one machine and keeping it, Align is genuinely competitive. If you expect to expand a studio with accessories over years, Balanced Body's ecosystem is worth paying for." },
-                  { q: "How much cheaper is Align Pilates than Balanced Body?", a: "Less than most published comparisons suggest, and the gap has narrowed. Checked against current dealer listings in September 2026, the Align C8 Pro runs around $2,750 to $2,900 and the A8 Pro around $3,700 to $3,800 against a list of $4,200 to $4,320. Balanced Body's Allegro 2 is $3,995 standard, and the Studio Reformer is $4,400 to $4,800 depending on footbar. So the C8 Pro genuinely undercuts anything comparable from Balanced Body, but the A8 Pro sits close to the Allegro 2 rather than far below it. Be careful with older figures: a lot of published pricing for Align has not kept up, and US listings may add an import surcharge at checkout." },
-                  { q: "Which brand is better for a home studio?", a: "For a single machine at home, the Align C8 Pro is the better value: commercial-rated build at a genuine discount to the Balanced Body equivalent, and a wide carriage that suits larger practitioners. For a home studio you intend to grow, with a tower, boxes and a jumpboard added over time, Balanced Body is the safer commitment because the accessory range is deeper and easier to source. The deciding question is not which machine is better today but whether you will still be buying parts for it in five years." },
+                  { q: "How much cheaper is Align Pilates than Balanced Body?", a: "Checked live on Amazon in September 2026, the Align C8-PRO is $2,750, Balanced Body's Allegro Stretch is $3,710, and the Studio Reformer is $4,700. The A8-Pro, Align's widest-carriage studio machine, is not sold on Amazon at all — it's dealer-quoted only, so get a current figure for your configuration before comparing it against either Balanced Body price. The C8-PRO genuinely undercuts anything comparable from Balanced Body." },
+                  { q: "Which brand is better for a home studio?", a: "For a single machine at home, the Align C8-PRO is the better value: commercial-rated build at a genuine discount to the Balanced Body equivalent, sold on Amazon. For a home studio you intend to grow, with a tower, boxes and a jumpboard added over time, Balanced Body is the safer commitment because the accessory range is deeper and easier to source. The deciding question is not which machine is better today but whether you will still be buying parts for it in five years." },
                   { q: "Do Align Pilates reformers hold their value?", a: "Less well than Balanced Body, for a straightforward reason: resale depends on how many buyers recognise and want the brand, and Balanced Body has the larger installed base, particularly in the United States. A used Balanced Body machine typically finds a buyer faster and at a higher share of its original price. That difference is worth factoring into the purchase if you might sell within a few years, and worth ignoring entirely if you are buying a machine to keep." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -270,7 +269,7 @@ export default function AlignPilatesVsBalancedBodyPage() {
             {/* Reformers */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The four machines compared</h2>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The three machines actually sold on Amazon</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Every machine in the pricing table above, at the prices we verified in September 2026. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
               </p>
