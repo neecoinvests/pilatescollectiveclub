@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Elina Pilates Review (2026): vs Balanced Body & Merrithew",
-  description: "Elina Pilates reformers reviewed from $1,300 to $4,200 — spring quality, carriage travel and frame stability against Balanced Body and Merrithew.",
-  keywords: ["elina pilates review", "elina pilates reformer 2026", "elina pilates vs balanced body", "is elina pilates good", "elina pilates elite reformer review", "elina pilates buy", "elina pilates wood reformer", "elina pilates price"],
+  title: "Elina Pilates Review (2026): Is It Sold on Amazon?",
+  description: "Elina Pilates reformers and chair reviewed against their published specs — and an honest check of whether any of them are genuinely sold on Amazon.",
+  keywords: ["elina pilates review", "elina pilates reformer 2026", "elina pilates vs balanced body", "is elina pilates good", "elina pilates elite reformer review", "elina pilates buy", "elina pilates wood reformer", "elina pilates amazon"],
   openGraph: {
-    title: "Elina Pilates (2026): Equipment Review — Elite & HL1 Reformers",
-    description: "Elina Pilates reviewed — Elite and HL1 reformers tested for studios and serious home practitioners.",
+    title: "Elina Pilates (2026): Equipment Review, Honestly Assessed",
+    description: "Elina Pilates reviewed — Elite and HL1 reformers, and whether they're genuinely available on Amazon.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/elina-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", width: 1200, height: 630, alt: "Elina Pilates equipment review — Pilates Collective Club" }],
@@ -20,63 +20,55 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Elina Pilates (2026): Equipment Review",
-    description: "Elina Pilates Elite and HL1 reformers — honest review for studios and home practitioners.",
+    description: "Elina Pilates Elite and HL1 reformers — an honest review, including Amazon availability.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/elina-pilates" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
-const PRODUCTS = [
+const MODELS = [
   {
     rank: "01",
     name: "Elina Pilates Elite Wood Reformer",
-    price: "From $3,995",
-    verdict: "Best Elina reformer for home studios",
+    verdict: "The brand's best-known model — not a verified Amazon listing",
     description:
-      "The Elina Pilates Elite Wood Reformer is the brand's best-known product and the model responsible for much of the brand's rapid growth in the boutique studio and serious home practitioner market. The solid wood frame — available in multiple wood finish options — gives it a visual warmth and furniture-appropriate aesthetic that no steel-framed reformer at any price can match. The five-spring colour-coded system is calibrated to clinical standards, and the carriage glides on sealed bearings with a smoothness that compares favourably to Balanced Body machines costing significantly more. The upholstery quality is exceptional — a dense foam density with a high-grade material covering that doesn't show wear or deformation after extended daily use. For practitioners who want a machine that lives visibly in the home rather than being hidden in a spare room, the Elite Wood is the reference choice.",
-    affiliateUrl: "https://www.amazon.com/s?k=elina+pilates+elite+wood+reformer&tag=pilatescollective-20",
+      "The Elite Wood Reformer is the model most associated with Elina's growth in the boutique studio and home practitioner market — a solid wood frame, offered in multiple finish options, that gives it a furniture-appropriate look contemporary steel-and-upholstery reformers don't have. We could not find a live, genuine Elina listing for this model on Amazon — the search link that previously sat here did not resolve to a real, purchasable product, so we've removed it rather than send you to a dead end. Treat spring count, carriage bearings, and upholstery specifics as manufacturer-published claims to confirm with an authorised Elina dealer, not facts we've independently verified.",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
     name: "Elina Pilates Elite Reformer (Aluminium)",
-    price: "From $2,600",
-    verdict: "Best Elina for studio environments",
+    verdict: "The commercial studio variant — not a verified Amazon listing",
     description:
-      "The aluminium-frame Elite Reformer is the commercial studio variant of Elina's flagship — the same spring system and carriage construction as the wood model, in a frame designed for higher-volume daily studio use. The powder-coated aluminium is resistant to the wear that accumulates from multiple daily sessions and frequent cleaning, and the frame's lighter weight makes reconfiguring a studio space more manageable. The machine is visually clean and professional — it reads as high-end equipment in a boutique studio environment without the premium pricing of Balanced Body or Merrithew. For studio owners building out a reformer fleet without the budget for full Balanced Body specification, Elina's aluminium Elite represents the strongest value proposition in the market.",
-    affiliateUrl: "https://www.amazon.com/s?k=elina+pilates+elite+reformer+aluminium&tag=pilatescollective-20",
+      "Described by Elina as the aluminium-frame, commercial-studio version of the Elite line, positioned for higher-volume daily use. As with the wood model, we could not find a live Amazon listing for it, and the search link that previously sat here has been removed. If you're considering it for a studio fleet, get current specs and pricing directly from Elina or an authorised dealer rather than from a page like this one.",
     tag: "Best for Studios",
   },
   {
     rank: "03",
     name: "Elina Pilates HL1 Aluminum Reformer",
-    price: "From $1,950",
-    verdict: "Best Elina entry-level model",
+    verdict: "The brand's entry model — ASIN could not be verified",
     description:
-      "The HL1 is the brand's entry-level aluminum reformer — a machine positioned below the Elite in price while retaining the core quality markers that define Elina's reputation. It ships with 8 vertical and horizontal PU wheels for a smooth, quiet bed slide, cushioned cotton grips, five types of springs, and an adjustable footbar. The carriage glide and frame construction share the same design language as the Elite. For practitioners who want Elina quality at a more accessible price point, or for home practitioners establishing a first serious reformer practice before potentially upgrading, the HL1 is an honest and capable starting point.",
-    affiliateUrl: "https://www.amazon.com/dp/B0BN82HG6N?tag=pilatescollective-20",
+      "Positioned by Elina as its entry-level aluminium reformer. An ASIN was previously listed here, but it is not among the Amazon listings we were able to independently verify, so we're not asserting it as a live, purchasable product — do not treat it as confirmed. If you want Elina's published feature list (wheel count, footbar, spring set), get it from Elina or an authorised dealer and confirm current Amazon availability yourself before buying.",
     tag: "Best Entry Elina",
   },
   {
     rank: "04",
     name: "Elina Pilates Elite Cadillac Reformer Combo",
-    price: "From $4,200",
-    verdict: "Best complete home apparatus",
+    verdict: "Reformer/Cadillac combo unit — not a verified Amazon listing",
     description:
-      "Elina's Elite Cadillac Reformer combination unit integrates the reformer platform with a full tower and Cadillac apparatus in a single machine footprint — the most space-efficient path to a complete home Pilates studio. The Cadillac component adds push-through bar work, spring-loaded arm and leg exercises, and the hanging and rolling back exercises of the classical Cadillac repertoire. The wood and aluminium construction maintains the Elina aesthetic throughout. For serious practitioners or instructors who want to work the complete apparatus repertoire from home without dedicating separate floor space to multiple machines, the combo unit is one of the most compelling investments available.",
-    affiliateUrl: "https://www.amazon.com/s?k=elina+pilates+cadillac+reformer+combo&tag=pilatescollective-20",
+      "Marketed by Elina as a combined reformer-and-tower unit for a complete apparatus repertoire in one footprint. We could not find a live Amazon listing for it, and the search link that previously sat here has been removed. Combination units are a real product category across several brands, but get a verified, current listing before treating any specific claim about this one as fact.",
     tag: "Complete Apparatus",
   },
   {
     rank: "05",
     name: "Elina Pilates Baby Chair",
-    price: "From $1,300",
-    verdict: "Best companion piece for Elina owners",
+    verdict: "A compact Wunda-style chair — ASIN could not be verified",
     description:
-      "The Elina Baby Chair matches the aesthetic of the Elite Wood Reformer — same wood finishes, same upholstery options — making it the natural companion for practitioners building a coordinated home studio around Elina's wood line. It is a compact chair built around a base you sit or kneel on with two arm springs connected to a movable backrest, covering more than 60 exercises and doubling as a rehabilitation and beginner-teaching tool. The construction quality is consistent with Elina's reformer line. For a dedicated home studio, pairing the Elite Wood Reformer with the Elina Baby Chair creates one of the most aesthetically cohesive home setups available below the Balanced Body price ceiling.",
-    affiliateUrl: "https://www.amazon.com/dp/B0BN8MBHYV?tag=pilatescollective-20",
+      "Described by Elina as a compact chair matching the Elite Wood Reformer's finishes. An ASIN was previously listed here, but it is not among the Amazon listings we were able to independently verify, so we've removed the buy link rather than assert it. If a Wunda-style chair is what you actually want and Amazon availability matters to you, the Balanced Body EXO Pilates Chair is a real, currently-sold alternative — a single-pedal chair, not Elina-branded, at $1,255.",
     tag: "Best Companion",
+    affiliateUrl: "https://www.amazon.com/dp/B002XVZVRQ?tag=pilatescollective-20",
+    price: "$1,255 (Balanced Body alternative)",
   },
 ];
 
@@ -85,30 +77,15 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Elina Pilates (2026): Equipment Review — Elite & HL1 Reformers",
-      "description": "Elina Pilates reviewed — Elite and HL1 reformers, Cadillac combo, and Wunda Chair tested for studios and serious home practitioners.",
+      "headline": "Elina Pilates (2026): Equipment Reviewed, Amazon Availability Checked",
+      "description": "Elina Pilates' published models reviewed against their claimed specs — and an honest check of whether any are genuinely sold on Amazon.",
       "url": "https://pilatescollectiveclub.com/blog/elina-pilates",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-05-21",
+      "dateModified": "2026-09-22",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/elina-pilates" },
-    },
-    {
-      "@type": "ItemList",
-      "name": "Elina Pilates Equipment (2026)",
-      "numberOfItems": 5,
-      "itemListElement": PRODUCTS.map((p, i) => ({
-        "@type": "ListItem",
-        "position": i + 1,
-        "item": {
-          "@type": "Product",
-          "name": p.name,
-          "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
-        },
-      })),
     },
     {
       "@type": "BreadcrumbList",
@@ -121,10 +98,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Elina Pilates good quality?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Elina Pilates has established a reputation for delivering studio-grade build quality at a price point below Balanced Body and Merrithew. The spring systems, carriage bearings, and upholstery quality are consistently rated highly by studio owners and practitioners who have compared them directly against established brands. The wood finish models in particular are often described as exceeding expectations for the price." } },
-        { "@type": "Question", "name": "How does Elina Pilates compare to Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Balanced Body has a longer track record, a broader global service and parts network, and a larger accessories ecosystem. Elina Pilates offers comparable build quality on the reformer itself at a lower price, with better wood aesthetic options for home studio environments. For a studio owner who needs service infrastructure and broad accessory compatibility, Balanced Body retains an advantage. For a home practitioner who prioritises equipment quality and aesthetics, Elina is a serious competitor." } },
-        { "@type": "Question", "name": "Where is Elina Pilates made?", "acceptedAnswer": { "@type": "Answer", "text": "Elina Pilates equipment is manufactured in Europe, which contributes to the build quality and material standards that have driven the brand's growth. The brand ships globally through an authorised distributor network. Lead times for custom colour or wood finish options vary — standard configurations are typically available faster." } },
-        { "@type": "Question", "name": "Is Elina Pilates good for a home studio?", "acceptedAnswer": { "@type": "Answer", "text": "Elina is particularly well-suited for home studios because the wood finish models look appropriate in a home environment in a way that steel-framed clinical machines do not. The Elite Wood Reformer in particular is designed to be displayed rather than hidden — a significant advantage for practitioners who don't have a dedicated studio room." } },
+        { "@type": "Question", "name": "Is Elina Pilates sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "We could not find genuine, live Elina Pilates listings on Amazon for any of the models covered in this guide. Treat any Amazon search result or third-party listing claiming to be Elina equipment with caution, and buy through Elina's own channels or an authorised dealer instead." } },
+        { "@type": "Question", "name": "How does Elina Pilates compare to Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Balanced Body has a longer track record, a broader global service and parts network, a larger accessories ecosystem, and real, verifiable Amazon listings with published pricing. Elina publishes wood-finish and aluminium reformer models aimed at the same boutique-studio and home market, but we could not verify current pricing or Amazon availability for any of them — get that directly from Elina or an authorised dealer before comparing the two brands on price." } },
+        { "@type": "Question", "name": "Where is Elina Pilates made?", "acceptedAnswer": { "@type": "Answer", "text": "Elina Pilates describes itself as a European manufacturer. We have not independently verified further manufacturing details — confirm specifics with the brand directly if that matters to your decision." } },
+        { "@type": "Question", "name": "Is Elina Pilates good for a home studio?", "acceptedAnswer": { "@type": "Answer", "text": "Elina markets its wood-finish reformers as designed to look at home in a living space rather than a clinical steel-framed machine, which is a real point of differentiation on paper. We could not verify current pricing or Amazon availability, so treat that as a starting point for your own research with Elina or an authorised dealer, not a purchase recommendation." } },
       ],
     },
   ],
@@ -146,11 +123,11 @@ export default function ElinaPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Elina Pilates<br /><span style={{ color: "#8b4a31" }}>(2026): Equipment Reviewed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 10 min read</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not verify live Amazon listings for Elina Pilates equipment — see the disclosure below. One accessory link on this page goes to a verified, non-Elina Amazon product, and we earn a small commission on qualifying purchases through it.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Elina Pilates has been one of the most significant new entrants in professional Pilates equipment over the past decade — a European manufacturer that has rapidly built a strong reputation by delivering studio-grade build quality at a price point that challenges the established premium brands. The brand is now found in boutique studios across Europe, North America, and Asia, and its Elite Wood Reformer has become particularly well-regarded in the home studio market where aesthetic as well as functional considerations drive purchasing decisions. Here is an honest review of their full equipment range.
+              Elina Pilates markets itself as a European manufacturer offering studio-grade reformers, including wood-finish models aimed at the home market. Before publishing this guide we checked whether the models people search for are genuinely sold on Amazon. We could not find live, verifiable Amazon listings for any of Elina&apos;s reformer or chair models covered here — the search links and ASINs a previous version of this page pointed to did not resolve to real, purchasable Elina products. This is an honest guide to what Elina publishes about its own equipment, with the missing Amazon links disclosed plainly rather than papered over.
             </p>
           </div>
         </section>
@@ -170,9 +147,9 @@ export default function ElinaPilatesPage() {
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand overview</h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
-                  { label: "Origin", value: "Europe (Spain)" },
-                  { label: "Method alignment", value: "Contemporary & classical compatible" },
-                  { label: "Best for", value: "Boutique studios, home studios, value-conscious buyers" },
+                  { label: "Origin", value: "Europe (self-described; not independently verified)" },
+                  { label: "Amazon availability", value: "Not verified for any model in this guide" },
+                  { label: "Best for", value: "Buyers willing to purchase direct from Elina or a dealer" },
                 ].map((item) => (
                   <div key={item.label}>
                     <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#9a9490", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
@@ -182,49 +159,46 @@ export default function ElinaPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
-              </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
-                  </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Buy →</a>
-                </div>
-              ))}
+            <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Amazon availability, checked</p>
+              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                We could not confirm a live Amazon listing for any of the five Elina models below. There is no Amazon &quot;Buy&quot; button on this page for Elina-branded equipment as a result — only real, verified products get one on this site. One accessory below links to a genuine, non-Elina Amazon listing that serves a similar purpose.
+              </p>
             </div>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Models · Reviewed</p>
               <div className="space-y-10">
-                {PRODUCTS.map((p) => (
+                {MODELS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
                       <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
                       <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
                     </div>
-                    <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                    <div className="mb-1">
+                      <span className="text-xs uppercase tracking-widest" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
+                    </div>
+                    {p.affiliateUrl ? (
+                      <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                    ) : (
+                      <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "4px" }}>
+                        <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", marginBottom: "10px" }}>{p.name}</h3>
+                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75 }}>{p.description}</p>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our verdict</h2>
+              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our honest verdict</h2>
               <div className="space-y-4">
                 {[
-                  { label: "Build quality", value: "Excellent — particularly the upholstery density and wood finish quality, which exceed expectations at this price point." },
-                  { label: "Spring feel", value: "Contemporary — well-calibrated, consistent, and appropriate for the full range of contemporary and hybrid programming." },
-                  { label: "Aesthetics", value: "The strongest wood aesthetic option in the market below Gratz pricing. The Elite Wood is genuinely home-appropriate." },
-                  { label: "Value for money", value: "The best value proposition for studio-grade performance at this price — better than comparable machines from lesser-known brands." },
-                  { label: "Verdict", value: "Elina Pilates is the recommended choice for boutique studio owners building out their first fleet and for home practitioners who prioritise both performance and aesthetics. A serious brand that has earned its growing reputation." },
+                  { label: "Manufacturer claims", value: "Elina publishes a coherent, wood-finish-forward product line aimed at boutique studios and home practitioners — on paper it's a real competitor to the established brands' entry and mid tiers." },
+                  { label: "What we verified", value: "Very little, independently. Spring counts, bearing types, and upholstery quality are manufacturer claims we could not confirm firsthand, and we could not find a live Amazon listing for any model in this guide." },
+                  { label: "Amazon availability", value: "Not confirmed for any Elina-branded reformer or chair as of this update. Do not trust a search-result link or an unfamiliar ASIN claiming to be Elina equipment without checking the seller carefully." },
+                  { label: "Verdict", value: "If Elina's published specs and pricing genuinely appeal to you, buy through Elina's own site or an authorised dealer and confirm current details directly with them — not through this page. We're not in a position to recommend a specific purchase path here the way we can for brands with verified Amazon listings." },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-4">
                     <span className="text-sm font-semibold shrink-0 w-40" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</span>
@@ -238,10 +212,10 @@ export default function ElinaPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Elina Pilates good quality?", a: "Yes — Elina Pilates has established a reputation for delivering studio-grade build quality at a price point below Balanced Body and Merrithew. The spring systems, carriage bearings, and upholstery quality are consistently rated highly by studio owners and practitioners who have compared them directly against established brands." },
-                  { q: "How does Elina Pilates compare to Balanced Body?", a: "Balanced Body has a longer track record, a broader global service network, and a larger accessories ecosystem. Elina Pilates offers comparable build quality at a lower price, with better wood aesthetic options for home studio environments. For studio owners who need service infrastructure, Balanced Body retains an advantage. For home practitioners who prioritise aesthetics, Elina is a serious competitor." },
-                  { q: "Where is Elina Pilates made?", a: "Elina Pilates equipment is manufactured in Europe, which contributes to the build quality and material standards that have driven the brand's growth. The brand ships globally through an authorised distributor network. Lead times for custom finish options vary by model." },
-                  { q: "Is Elina Pilates good for a home studio?", a: "Elina is particularly well-suited for home studios because the wood finish models look appropriate in a home environment in a way that steel-framed clinical machines do not. The Elite Wood Reformer is designed to be displayed rather than hidden — a significant advantage for practitioners who don't have a dedicated studio room." },
+                  { q: "Is Elina Pilates sold on Amazon?", a: "We could not find genuine, live Elina Pilates listings on Amazon for any of the models covered in this guide. Treat any Amazon search result or unfamiliar ASIN claiming to be Elina equipment with caution, and buy through Elina's own channels or an authorised dealer instead." },
+                  { q: "How does Elina Pilates compare to Balanced Body?", a: "Balanced Body has a longer track record, a broader global service network, a larger accessories ecosystem, and real, verifiable Amazon listings with published pricing. Elina publishes wood-finish and aluminium reformer models aimed at a similar market, but we could not verify current pricing or Amazon availability for any of them — get that directly from Elina or an authorised dealer before comparing the two brands on price." },
+                  { q: "Where is Elina Pilates made?", a: "Elina Pilates describes itself as a European manufacturer. We have not independently verified further manufacturing details — confirm specifics with the brand directly if that matters to your decision." },
+                  { q: "Is Elina Pilates good for a home studio?", a: "Elina markets its wood-finish reformers as designed to look at home in a living space rather than a clinical steel-framed machine, which is a real point of differentiation on paper. We could not verify current pricing or Amazon availability, so treat that as a starting point for your own research with Elina or an authorised dealer, not a purchase recommendation." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -257,7 +231,7 @@ export default function ElinaPilatesPage() {
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="The top-tier reformers across all brands — Elina, Balanced Body, Gratz, and more." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Balanced Body vs Merrithew" excerpt="The two dominant studio brands compared — which is right for your studio?" href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 <ArticleCard title="Best Studio Pilates Reformers" excerpt="How Elina compares against Peak, Balanced Body, and Gratz for professional studio installations." href="/blog/best-studio-pilates-reformers" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Reformers for Tall People" excerpt="Elina's Elite Wood and Elite Aluminum reformers are built with extended rails for taller practitioners." href="/blog/best-pilates-reformer-for-tall-people" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformers for Tall People" excerpt="Frame length and carriage travel compared across brands with verified listings." href="/blog/best-pilates-reformer-for-tall-people" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
               </div>
             </div>
           </div>

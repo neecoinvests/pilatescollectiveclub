@@ -26,51 +26,51 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gratz Universal Reformer",
-    price: "From $4,590",
+    price: "Direct from Gratz",
     verdict: "The classical reformer benchmark",
     description:
-      "The Gratz Universal Reformer is the closest production equipment gets to the apparatus Joseph Pilates designed in his 8th Avenue studio. The spring system uses original-specification springs with a characteristic tension profile — what classical teachers describe as having more immediacy and 'life' than modern springs. The wooden frame, canvas straps, and natural rubber components give it an aesthetic and tactile quality that contemporary steel-and-upholstery reformers cannot replicate. At $6,500+, this is a lifelong investment purchased by serious classical studios, first-generation teacher lineages, and dedicated practitioners for whom authenticity is non-negotiable. Note: sold direct at gratzpilates.com, not typically available on Amazon.",
+      "The Gratz Universal Reformer is the closest production equipment gets to the apparatus Joseph Pilates designed in his 8th Avenue studio. The spring system uses original-specification springs with a characteristic tension profile — what classical teachers describe as having more immediacy and 'life' than modern springs. The wooden frame, canvas straps, and natural rubber components give it an aesthetic and tactile quality that contemporary steel-and-upholstery reformers cannot replicate. This is priced well into four figures and up, and we could not independently verify a current figure — get a quote directly from Gratz rather than relying on a number quoted elsewhere. Gratz is sold direct at gratzpilates.com and through authorised dealers, not on Amazon.",
     affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
     tag: "Classical Standard",
   },
   {
     rank: "02",
     name: "Gratz Wunda Chair",
-    price: "From $2,000",
+    price: "Direct from Gratz",
     verdict: "Best classical chair for advanced work",
     description:
-      "The Wunda Chair was invented by Joseph Pilates and remains one of the most challenging apparatus in the classical system. The Gratz version is built to original specifications — a solid wood construction with the specific spring tensions and pedal geometry that the classical Chair exercises require. Unlike contemporary chairs with split pedals and multiple spring configurations, the Gratz Wunda Chair maintains the single pedal design with stepped spring heights. For classical studios and advanced practitioners, no contemporary version provides the same exercise quality. Purchase direct from Gratz; expect 6-8 week delivery.",
+      "The Wunda Chair was invented by Joseph Pilates and remains one of the most challenging apparatus in the classical system. The Gratz version is built to original specifications — a solid wood construction with the specific spring tensions and pedal geometry that the classical Chair exercises require. Unlike contemporary chairs with split pedals and multiple spring configurations, the Gratz Wunda Chair maintains the single pedal design with stepped spring heights. For classical studios and advanced practitioners, no contemporary version provides the same exercise quality. Purchase direct from Gratz; expect a real lead time and confirm current pricing with them rather than a figure quoted elsewhere.",
     affiliateUrl: "https://www.gratzpilates.com/collections/chairs",
     tag: "Advanced Apparatus",
   },
   {
     rank: "03",
     name: "Gratz Spine Corrector",
-    price: "From $800",
+    price: "Direct from Gratz",
     verdict: "Best classical barrel accessory",
     description:
-      "The Spine Corrector is one of the most functional Pilates accessories available and the Gratz version is built to original specifications. The curved barrel shape, when used correctly, provides thoracic extension, hip flexor lengthening, and abdominal strengthening that mat work alone cannot achieve. At $800+, it is significantly more expensive than contemporary alternatives — Balanced Body's Pilates Arc serves a similar function at $240. The honest distinction: the Gratz Spine Corrector is the correct tool for the classical repertoire as Pilates designed it. For practitioners training in the classical lineage, it's worth the price. For home practitioners without a classical teacher, the Arc is a sensible alternative.",
+      "The Spine Corrector is one of the most functional Pilates accessories available and the Gratz version is built to original specifications. The curved barrel shape, when used correctly, provides thoracic extension, hip flexor lengthening, and abdominal strengthening that mat work alone cannot achieve. It is meaningfully more expensive than contemporary alternatives — Balanced Body's Pilates Arc, a real listing sold on Amazon, serves a similar function at $189.99. The honest distinction: the Gratz Spine Corrector is the correct tool for the classical repertoire as Pilates designed it. For practitioners training in the classical lineage, it's worth the price. For home practitioners without a classical teacher, the Arc is a sensible, genuinely purchasable alternative.",
     affiliateUrl: "https://www.gratzpilates.com/collections/barrels",
     tag: "Classical Barrel",
   },
   {
     rank: "04",
-    name: "Classical Pilates Leather Foot Straps (compatible)",
-    price: "From $35",
-    verdict: "Best classical-style replacement straps",
+    name: "Balanced Body Replacement Reformer Ropes with Clips",
+    price: "$35",
+    verdict: "A real, currently-sold rope alternative — not Gratz leather straps",
     description:
-      "Gratz reformers use leather foot straps in the classical tradition — a feel distinct from the nylon and canvas straps of contemporary reformers. Leather straps have a subtle flex and hand feel that many classical practitioners prefer for long-spring and short-spring work. While Gratz sells original straps directly, compatible classical-style leather straps for reformer work are available on Amazon and through Pilates equipment suppliers. If you own a Gratz reformer, always replace straps with leather — synthetic straps change the exercise feel in a way that matters for classical precision.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+leather+foot+straps&tag=pilatescollective-20",
+      "Gratz reformers use leather foot straps in the classical tradition — a feel distinct from the nylon and canvas straps of contemporary reformers. We could not find a genuine leather, classical-specification strap as a live Amazon listing; Gratz sells its original straps directly. This Balanced Body replacement rope-and-clip set is a real, currently-sold Amazon item, but it is a synthetic rope for contemporary-style reformers, not a leather strap, and it is not built specifically for a Gratz machine — confirm compatibility before ordering, or buy leather straps direct from Gratz if precision to the classical spec matters to you.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20",
     tag: "Replacement Straps",
   },
   {
     rank: "05",
-    name: "Pilates Wooden Push Through Bar Spring (compatible)",
-    price: "From $45",
-    verdict: "Best replacement spring for classical equipment",
+    name: "Colaxi 5-Piece Reformer Spring Set (Aftermarket)",
+    price: "$65.54",
+    verdict: "A real aftermarket spring set — not Gratz's original classical springs",
     description:
-      "Classical Pilates apparatus springs are heavier and have a different tension profile than contemporary springs. Over time, springs lose tension and require replacement. Gratz sells original replacement springs directly; compatible springs meeting classical specifications are also available through specialist Pilates suppliers and occasionally on Amazon. When replacing springs on classical equipment, verify the spring weight (light/medium/heavy designation differs between brands) and coil count — an incorrect spring will change the exercise feel and potentially compromise safety. Always purchase springs rated for Pilates apparatus rather than generic hardware springs.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+replacement+springs+classical&tag=pilatescollective-20",
+      "Classical Pilates apparatus springs are heavier and have a different tension profile than contemporary springs, and Gratz sells its own original replacement springs directly to match. We could not find that original spring for sale on Amazon. This Colaxi 5-piece set is a real, currently-sold aftermarket reformer spring set, but it is built for contemporary coil-spring reformers rather than to Gratz's classical specification — verify spring weight and fit before ordering, and if you own genuine Gratz apparatus, buying the matched replacement direct from Gratz is the safer choice for exercise feel and safety.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DC93JC3M?tag=pilatescollective-20",
     tag: "Maintenance",
   },
 ];
@@ -157,7 +157,7 @@ export default function GratzPilatesPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 11 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-              *Gratz apparatus is sold directly through gratzpilates.com and certified dealers — not on Amazon. Links below may show search results rather than the actual product. For accessories such as leather straps and replacement springs, generic-compatible options are available on Amazon and we earn a small commission on qualifying purchases.
+              *Gratz apparatus is sold directly through gratzpilates.com and certified dealers — not on Amazon. The apparatus links below go to gratzpilates.com. For accessories, we could not find genuine Gratz leather straps or classical-spec springs on Amazon, so those two items link instead to real, currently-sold (but non-Gratz) Amazon alternatives — clearly labelled as such. We earn a small commission on qualifying Amazon purchases.
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -207,7 +207,7 @@ export default function GratzPilatesPage() {
               <p className="text-sm leading-relaxed mb-10" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
                 Gratz equipment is sold directly through{" "}
                 <a href="https://www.gratzpilates.com" target="_blank" rel="noopener noreferrer" style={{ color: "#8b4a31", textDecoration: "underline" }}>gratzpilates.com</a>{" "}
-                and certified dealers. Links below show Amazon search results; for the actual product, visit Gratz directly. Items 04 and 05 are compatible accessories and generic-style components that are available through Amazon.
+                and certified dealers — items 01–03 link there. Items 04 and 05 are real, currently-sold Amazon accessories from other brands that we could not find a genuine Gratz-branded equivalent for; each description says so plainly.
               </p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
@@ -232,10 +232,10 @@ export default function GratzPilatesPage() {
                 <strong style={{ color: "#1b1c1c" }}>The quality argument:</strong> Every piece of Gratz apparatus is handcrafted in New York by skilled craftspeople working to original specifications. The materials — solid wood, leather, natural rubber — are chosen for their functional properties, not their cost. A Gratz Universal Reformer built today will outlast multiple generations of commercially manufactured alternatives. Classical practitioners who inherit studio equipment from their teachers are frequently working on Gratz apparatus built decades ago. That longevity is built into the price.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                <strong style={{ color: "#1b1c1c" }}>The accessibility argument:</strong> At $6,500 or more for a reformer — and $12,000+ for a Cadillac — Gratz is priced for professional studios and serious long-term investors. The price point effectively excludes casual home practitioners. Lead times of 6-8 weeks and direct-only purchasing add further friction. Gratz does not sell on Amazon and does not compete for the home fitness market. That is a deliberate choice, not an oversight.
+                <strong style={{ color: "#1b1c1c" }}>The accessibility argument:</strong> A Gratz reformer or Cadillac is priced well into four figures and up — we could not independently verify exact current figures, so get a direct quote from Gratz rather than relying on a number quoted elsewhere. Expect a real lead time and direct-only purchasing. Gratz does not sell on Amazon and does not compete for the home fitness market. That is a deliberate choice, not an oversight.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                <strong style={{ color: "#1b1c1c" }}>The verdict:</strong> Yes, if you are training in a classical lineage and your instructor works on Gratz — the apparatus is a functional requirement, not a luxury. Yes, if you are opening a classical studio and building equipment that will serve decades of teaching. No, if you are a home practitioner who attends studio classes occasionally — a Balanced Body Allegro 2 at approximately $2,800 serves the same home practice purpose without the classical specification premium. The price difference is real, the distinction is real, and the honest answer depends entirely on which lineage you are working in.
+                <strong style={{ color: "#1b1c1c" }}>The verdict:</strong> Yes, if you are training in a classical lineage and your instructor works on Gratz — the apparatus is a functional requirement, not a luxury. Yes, if you are opening a classical studio and building equipment that will serve decades of teaching. No, if you are a home practitioner who attends studio classes occasionally — the Balanced Body Metro IQ Reformer, a real machine sold on Amazon at $2,330, serves the same home practice purpose without the classical specification premium. The price difference is real, the distinction is real, and the honest answer depends entirely on which lineage you are working in.
               </p>
             </div>
 
@@ -254,7 +254,7 @@ export default function GratzPilatesPage() {
                   },
                   {
                     q: "Can I buy Gratz on Amazon?",
-                    a: "Typically not. Gratz sells directly at gratzpilates.com and through a small network of authorised dealers. If you see a Gratz listing on Amazon, verify the seller carefully — it may be a third-party reseller or a misrepresented item. The search links in this guide go to Amazon's search results, which exist so you can compare; for actual Gratz apparatus, go directly to Gratz.",
+                    a: "Typically not. Gratz sells directly at gratzpilates.com and through a small network of authorised dealers. If you see a Gratz listing on Amazon, verify the seller carefully — it may be a third-party reseller or a misrepresented item. The apparatus links in this guide go directly to gratzpilates.com; the two accessory items linked to Amazon are real listings from other brands, not Gratz products, and are labelled as such.",
                   },
                   {
                     q: "What's the difference between Gratz and a classical Pilates reformer from another brand?",

@@ -7,12 +7,12 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Balanced Body vs Merrithew (2026): Springs, Price, Verdict",
-  description: "Balanced Body vs Merrithew — spring systems, frame quality, carriage feel and price compared, with a clear recommendation for home and studio buyers.",
-  keywords: ["balanced body vs merrithew", "balanced body reformer", "merrithew reformer", "stott pilates reformer", "best professional pilates reformer", "balanced body allegro 2", "merrithew v2 max", "pilates reformer brands compared", "balanced body vs stott", "professional reformer comparison 2026"],
+  title: "Balanced Body vs Merrithew (2026): Real Prices, Verdict",
+  description: "Balanced Body vs Merrithew — spring systems, frame quality, accessory ecosystem and real Amazon pricing compared, using the machines actually sold on Amazon rather than discontinued model names.",
+  keywords: ["balanced body vs merrithew", "balanced body reformer", "merrithew reformer", "stott pilates reformer", "best professional pilates reformer", "balanced body studio reformer", "merrithew at home spx", "pilates reformer brands compared", "balanced body vs stott", "professional reformer comparison 2026"],
   openGraph: {
     title: "Balanced Body vs Merrithew: Which Reformer Is Right for You?",
-    description: "A detailed head-to-head: Balanced Body vs Merrithew reformers — spring feel, accessories, price, and which to choose.",
+    description: "A detailed head-to-head: Balanced Body vs Merrithew reformers — spring feel, accessories, real Amazon prices, and which to choose.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/balanced-body-vs-merrithew",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Balanced Body vs Merrithew Reformer — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Balanced Body vs Merrithew: Which Reformer?",
-    description: "A detailed head-to-head comparison of the two most important reformer brands.",
+    description: "A detailed head-to-head comparison of the two most important reformer brands, using real Amazon listings.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
   alternates: {
@@ -34,11 +34,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Balanced Body vs Merrithew: Which Reformer Brand Is Right for You?",
-      "description": "A detailed head-to-head comparison of Balanced Body and Merrithew reformers.",
+      "headline": "Balanced Body vs Merrithew: Which Reformer Brand Is Right for You? (Real Amazon Pricing)",
+      "description": "A detailed head-to-head comparison of Balanced Body and Merrithew reformers, using the machines actually sold on Amazon and their real current prices.",
       "url": "https://pilatescollectiveclub.com/blog/balanced-body-vs-merrithew",
       "datePublished": "2026-05-14",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-09-22",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -52,63 +52,63 @@ const jsonLd = {
         { "@type": "ListItem", "position": 3, "name": "Balanced Body vs Merrithew", "item": "https://pilatescollectiveclub.com/blog/balanced-body-vs-merrithew" },
       ],
     },
-  {
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "Can I use Merrithew accessories on a Balanced Body reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Generally no — the proprietary dimensions of boxes, footbars, and jump boards are brand-specific. Universal accessories (foam rollers, general grip pads, bands) work across brands. Jump boards, long boxes, and short boxes are almost always brand-specific and should be confirmed with the manufacturer before purchasing." } },
-      { "@type": "Question", "name": "Which brand holds resale value better?", "acceptedAnswer": { "@type": "Answer", "text": "Balanced Body generally holds resale value more robustly in the used market — particularly the Allegro 2 and Studio Reformer models. Both brands maintain meaningful resale value relative to consumer-grade reformers. In metropolitan US markets, used Balanced Body equipment is easier to sell quickly due to the larger buyer pool." } },
-      { "@type": "Question", "name": "Is one brand harder to service than the other?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands have authorised service networks and readily available replacement parts. Balanced Body has a larger US dealer network; Merrithew has stronger international presence in parts of Europe and Asia-Pacific. Both brands offer direct purchase of springs, ropes, and pads — the components that require the most frequent replacement." } },
-      { "@type": "Question", "name": "Which brand do professional instructors prefer?", "acceptedAnswer": { "@type": "Answer", "text": "Preference divides largely along training lineage. STOTT-trained instructors nearly universally prefer Merrithew — they trained on it and the machine embodies their curriculum. Classical practitioners often prefer Balanced Body for its broader apparatus options. Instructors without a strong training system allegiance tend toward Balanced Body for the accessory ecosystem." } }
-    ]
-  },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Can I use Merrithew accessories on a Balanced Body reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Generally no — the proprietary dimensions of boxes, footbars, and jump boards are brand-specific. Universal accessories (foam rollers, general grip pads, bands) work across brands. Jump boards, long boxes, and short boxes are almost always brand-specific and should be confirmed with the manufacturer before purchasing." } },
+        { "@type": "Question", "name": "Which brand holds resale value better?", "acceptedAnswer": { "@type": "Answer", "text": "Balanced Body is generally reported to hold resale value more robustly in the US used market, owing to its larger installed base — but we don't have verified resale-price data to quantify that, so treat it as a general reputation rather than a specific figure." } },
+        { "@type": "Question", "name": "Is one brand harder to service than the other?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands have authorised service networks and offer direct purchase of springs, ropes, and replacement parts. Balanced Body has a larger US dealer network; Merrithew has a strong international presence. We have not independently verified comparative service response times." } },
+        { "@type": "Question", "name": "Which brand do professional instructors prefer?", "acceptedAnswer": { "@type": "Answer", "text": "Preference divides largely along training lineage. STOTT-trained instructors typically prefer Merrithew, since the curriculum was built around it. Practitioners without a strong training-system allegiance often cite Balanced Body's broader accessory ecosystem as the deciding factor." } },
+      ],
+    },
   ],
 };
 
 const comparisons = [
   {
     dimension: "Spring feel",
-    bb: "Smooth, progressive resistance with a forgiving transition at the beginning of movement. Most practitioners find Balanced Body springs easier to work with at first — they don't snap or feel abrupt. The spring system is highly engineered and consistent across units.",
-    m: "Slightly firmer initial resistance with a crisper feel throughout. Some practitioners — particularly those transitioning from classical apparatus — prefer the Merrithew spring feel as being closer to the original Pilates spring quality. The difference is real but subtle; most practitioners adapt within a few sessions.",
+    bb: "Five Signature Springs on the Studio Reformer, engineered for a smooth, progressive resistance. Many practitioners find Balanced Body springs an easy, forgiving system to work with.",
+    m: "Merrithew's five-spring system is built around unusually fine gradation at the light-resistance end — the range that matters most for rehab, prenatal, and post-surgical work. Some practitioners transitioning from classical apparatus prefer this crisper feel.",
     verdict: "Draw — preference-dependent",
   },
   {
     dimension: "Accessory ecosystem",
-    bb: "The deepest accessory catalogue in the industry. Every possible attachment for the classical and contemporary repertoire is available: jump boards, long boxes, short boxes, tower/cadillac attachments, vertical frames, arm chairs, and more. If you want to expand your home reformer into a comprehensive apparatus studio over time, Balanced Body allows this most completely.",
-    m: "Strong accessory range, particularly for STOTT curriculum accessories. The SPX Vertical Frame, jump board, and box are all high quality. Less depth than Balanced Body at the highest levels of the apparatus vocabulary, but sufficient for any home or private studio context.",
-    verdict: "Balanced Body for depth, Merrithew sufficient for most",
+    bb: "The deepest accessory catalogue of the two, verified on Amazon: padded jumpboards, sitting boxes, platform extenders, and replacement ropes are all real, currently-sold listings. Tower and Cadillac apparatus is also sold direct on Amazon.",
+    m: "A real jumpboard (22\") is sold on Amazon. We could not find a genuine Merrithew-branded box as a standalone live Amazon listing — Balanced Body's Sitting Box Lite is the honest substitute if you need one for an SPX-family machine.",
+    verdict: "Balanced Body for verified depth on Amazon specifically",
   },
   {
-    dimension: "Price range",
-    bb: "The Allegro 2 (the standard professional home/studio model) runs $3,995, or $4,325 to $4,345 with the leg kit. The Studio Reformer (commercial grade) is $4,400 to $4,800 depending on footbar. The Rialto and Contrology models extend into the $6,000+ range. Used Balanced Body equipment holds strong resale value.",
-    m: "The SPX Max is the best-value Merrithew model at $3,649, a real if modest discount to the Allegro 2. The V2 Max is $4,999, and the Plus variants run higher still. The gap to Balanced Body has narrowed on current pricing, but Merrithew still gives a lower entry point for professional-quality springs.",
-    verdict: "Merrithew at entry level, comparable at mid-tier",
+    dimension: "Price range (real Amazon listings)",
+    bb: "The Studio Reformer (Revo footbar), the flagship home/studio model, is $4,700 — made to order, does not fold. The Allegro Stretch, a wider-carriage option, is $3,710. The more affordable Metro IQ Reformer is $2,330.",
+    m: "The At Home SPX Reformer Package is $3,349 — a real, lower-priced entry point than Balanced Body's Studio Reformer. Merrithew's clinical-grade Rehab V2 Max Plus Reformer, for higher-intensity or rehab use, is $8,199.",
+    verdict: "Merrithew at entry level, Balanced Body has more mid-tier options",
   },
   {
     dimension: "Instructor training alignment",
-    bb: "Balanced Body offers its own instructor training (BASI Pilates and Balanced Body University are affiliated certification bodies). The equipment is used across both classical and contemporary training programmes globally. No single training methodology dominates — it's a neutral platform.",
-    m: "Merrithew owns the STOTT Pilates teacher training programme. If you trained as a STOTT instructor, your curriculum was designed for Merrithew equipment — the exercises, spring configurations, and footbar positions all correspond to the machine dimensions you trained on. This is a meaningful advantage if your instructor background is STOTT.",
+    bb: "Balanced Body is associated with its own instructor-training affiliations and is used across both classical and contemporary training programmes. No single training methodology dominates — it functions as a neutral platform.",
+    m: "Merrithew owns the STOTT Pilates teacher-training programme. If you trained as a STOTT instructor, your curriculum was designed around Merrithew's spring conventions and machine dimensions — a meaningful advantage if your background is STOTT.",
     verdict: "Merrithew if STOTT-trained, Balanced Body otherwise",
   },
   {
     dimension: "Build quality and durability",
-    bb: "Commercial-grade construction at every tier above the entry level. The Allegro 2 and Studio Reformer are designed for intensive studio use with multiple clients daily. The carriage glide, spring clips, and frame joints are engineered for longevity. Balanced Body machines from 15+ years ago are still in active studio use.",
-    m: "Comparable commercial-grade quality at the V2 Max tier. The SPX — while excellent for home use — is designed for lower-intensity use than the commercial Balanced Body models. Studios with very high client volume (20+ clients per machine per day) consistently choose Balanced Body over Merrithew at the top commercial tier.",
-    verdict: "Balanced Body for commercial intensity, comparable for home",
+    bb: "The Studio Reformer's Strata rock maple frame is the machine that populates many certification centres and clinics — commercial-grade construction built for intensive daily studio use.",
+    m: "The Rehab V2 Max Plus is Merrithew's clinical/professional-tier machine, built for higher-intensity use, with a raised frame and a built-in Vertical Frame. The At Home SPX is designed for home use rather than high-volume commercial studio traffic.",
+    verdict: "Compare the Studio Reformer against the Rehab V2 Max Plus for commercial intensity, not against the At Home SPX",
   },
   {
-    dimension: "Folding/space-saving options",
-    bb: "Balanced Body does not offer a high-quality folding reformer at the professional level — their folding options are in the consumer tier. For home studios with space constraints, this is a limitation.",
-    m: "The Merrithew At Home SPX Reformer folds vertically and is one of the best-designed space-saving professional reformers available. For practitioners in apartments or shared spaces who need the machine to fold when not in use, Merrithew has a significant practical advantage.",
-    verdict: "Merrithew for space-constrained home studios",
+    dimension: "Folding / space-saving options",
+    bb: "The Studio Reformer does not fold — it's a permanent-installation machine, made to order. We could not verify a folding, professional-grade Balanced Body option currently sold on Amazon.",
+    m: "The At Home SPX Reformer Package is sized to fit along a wall in most bedrooms. An earlier version of this page claimed it folds flat for storage — we could not verify that claim on the current listing, and it has been removed. Treat any folding claim for either brand as something to confirm on the live listing, not something to assume.",
+    verdict: "Neither machine is verified to fold — check current listings directly",
   },
 ];
 
 const PRODUCTS = [
-  { name: "Balanced Body Allegro 2 Reformer", description: "The flagship Balanced Body home reformer — wider carriage, fold-flat storage, and the smoothest spring system at this price point. The benchmark that most alternatives are compared against.", price: "From $3,995", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" },
-  { name: "Merrithew At Home SPX Reformer", description: "Merrithew's home-market reformer — flat-folding, 5-spring system, and purpose-built for practitioners without dedicated studio space. The main Allegro 2 alternative.", price: "From $3,299", affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+SPX+reformer&tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Consistent with the Balanced Body system and compatible with all their reformers. A useful home accessory regardless of which brand's reformer you ultimately choose.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "For home practice while deciding between reformer brands. Resistance bands allow meaningful Pilates work without a reformer — useful during the research and decision period.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
-  { name: "Manduka PRO Pilates Mat", description: "The foundation of any home Pilates setup regardless of brand. A quality mat is the first purchase — the reformer follows once you know the practice suits you.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer (Revo Footbar)", description: "The real Balanced Body flagship sold on Amazon — Strata rock maple frame, five Signature Springs, full tower compatibility. Made to order; does not fold.", price: "$4,700", affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
+  { name: "Merrithew At Home SPX Reformer Package", description: "Merrithew's real home-market reformer sold on Amazon — five-spring system with fine light-end gradation, sized to fit along a wall in most bedrooms. We could not verify a folding feature for this listing.", price: "$3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
+  { name: "Byrex Pilates Prop Kit (Ring, Ball, Bands)", description: "A real, currently-sold prop kit rather than a brand-specific magic circle — works regardless of which reformer brand you choose, and is a useful addition to any home practice.", price: "$19.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
+  { name: "Eccentfit Pilates Grip Pads (4-Pack)", description: "Cheap insurance for standing and kneeling work on either brand's carriage, and it protects the upholstery. Check pad dimensions against your carriage width before ordering.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B0GGR4QXNH?tag=pilatescollective-20" },
+  { name: "Gaiam Premium Yoga Mat, 6mm", description: "A real, useful mat for home practice while you're deciding between reformer brands, or for the mat work that complements either machine.", price: "$21.00", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
 ];
 
 export default function BalancedBodyVsMerrithewPage() {
@@ -127,10 +127,11 @@ export default function BalancedBodyVsMerrithewPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Balanced Body vs Merrithew:<br /><span style={{ color: "#8b4a31" }}>Which Reformer Is Right for You?</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 13 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 13 min read</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Balanced Body and Merrithew are the two most important reformer brands for practitioners outside the classical Gratz world. Together they equip the majority of professional Pilates studios globally. Both produce genuine professional-quality equipment. The question of which to choose is a real one — with meaningful differences in spring feel, accessory depth, price points, and training alignment that should inform your decision. This is the most detailed comparison of both brands available.
+              Balanced Body and Merrithew are the two most important reformer brands for practitioners outside the classical Gratz world. This comparison has been rechecked against real, live Amazon listings rather than model names — the &quot;Allegro 2,&quot; the &quot;SPX Max,&quot; and a &quot;V2 Max&quot; at $4,999 — that we could not verify and have removed. The real machines: Balanced Body&apos;s Studio Reformer at $4,700 and Merrithew&apos;s At Home SPX Reformer Package at $3,349, with Merrithew&apos;s genuinely clinical-grade Rehab V2 Max Plus at $8,199 for higher-intensity use.
             </p>
           </div>
         </section>
@@ -151,11 +152,11 @@ export default function BalancedBodyVsMerrithewPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                   <p className="text-base font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Balanced Body</p>
-                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Founded 1976, Sacramento, California. The dominant global studio brand — more professional reformers in active studio use worldwide than any other manufacturer. Designs for both classical and contemporary method. Flagship models: Allegro 2, Studio Reformer, Rialto.</p>
+                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>A California-based, long-established studio equipment brand with more professional reformers in active use than most competitors. Designs for both classical and contemporary method. Real, currently-sold Amazon flagship: the Studio Reformer with Revo footbar, $4,700.</p>
                 </div>
                 <div className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                   <p className="text-base font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Merrithew (STOTT Pilates)</p>
-                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Founded 1988, Toronto, Canada. Owner of the STOTT Pilates teacher training system — the most widely adopted contemporary Pilates certification globally. Equipment and curriculum designed together. Flagship models: SPX Reformer, V2 Max, V2 Max Plus.</p>
+                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Owner of the STOTT Pilates teacher-training system, one of the most widely adopted contemporary Pilates certifications. Real, currently-sold Amazon models: the At Home SPX Reformer Package ($3,349) and the clinical-grade Rehab V2 Max Plus Reformer ($8,199).</p>
                 </div>
               </div>
             </div>
@@ -190,12 +191,12 @@ export default function BalancedBodyVsMerrithewPage() {
               <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The recommendation by context</h2>
               <ul className="space-y-3">
                 {[
-                  "STOTT-trained instructor setting up a private studio → Merrithew V2 Max. Your curriculum and machine are designed together; the exercises, spring tensions, and footbar positions all correspond.",
-                  "Studio owner wanting the broadest possible accessory expansion path → Balanced Body Studio Reformer or Allegro 2. Nothing matches the depth of the Balanced Body apparatus ecosystem.",
-                  "Home practitioner with a space constraint → Merrithew At Home SPX. The folding design is genuinely superior for apartments and shared spaces.",
-                  "Home practitioner with dedicated studio space, $3,995–$4,400 budget → Balanced Body Allegro 2. Better long-term resale value, deeper accessory options, global service network.",
-                  "Commercial studio needing maximum durability under heavy use → Balanced Body Studio Reformer without hesitation. The machine is engineered for this use case specifically.",
-                  "Rehabilitation clinic or physiotherapy practice → Merrithew SPX. The STOTT curriculum has deeper integration with rehabilitation protocols, and the price point is more appropriate for healthcare contexts.",
+                  "STOTT-trained instructor setting up a private studio → Merrithew's Rehab V2 Max Plus ($8,199) for a genuinely clinical-grade machine, or the At Home SPX ($3,349) for a lower-budget setup. Your curriculum and the machine's spring conventions were designed together.",
+                  "Studio owner wanting the broadest verified accessory expansion path on Amazon → Balanced Body's Studio Reformer ($4,700). Its Amazon-listed accessory range (boxes, jumpboards, ropes, platform extenders) is the deepest we could verify.",
+                  "Home practitioner with a space constraint → the Merrithew At Home SPX is sized to fit along a wall in most bedrooms, but we could not verify that it folds — confirm current storage claims on the live listing before assuming it solves a tight footprint.",
+                  "Home practitioner with dedicated space, ~$4,700 budget → Balanced Body's Studio Reformer. Real, currently-sold, made to order, does not fold.",
+                  "Budget-conscious buyer wanting a real Balanced Body machine → the Metro IQ Reformer at $2,330 is the most affordable genuinely-sold Balanced Body option.",
+                  "Rehabilitation clinic or physiotherapy practice → Merrithew's Rehab V2 Max Plus Reformer ($8,199) is Merrithew's actual clinical/professional machine — not the home-market SPX — with a raised frame and built-in Vertical Frame.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -210,9 +211,9 @@ export default function BalancedBodyVsMerrithewPage() {
               <div className="space-y-6">
                 {[
                   { q: "Can I use Merrithew accessories on a Balanced Body reformer?", a: "Generally no — the proprietary dimensions of boxes, footbars, and jump boards are brand-specific. Universal accessories (foam rollers, general grip pads, bands) work across brands. Jump boards, long boxes, and short boxes are almost always brand-specific and should be confirmed with the manufacturer before purchasing." },
-                  { q: "Which brand holds resale value better?", a: "Balanced Body generally holds resale value more robustly in the used market — particularly the Allegro 2 and Studio Reformer models. Both brands maintain meaningful resale value relative to consumer-grade reformers. In metropolitan US markets, used Balanced Body equipment is easier to sell quickly due to the larger buyer pool." },
-                  { q: "Is one brand harder to service than the other?", a: "Both brands have authorised service networks and readily available replacement parts. Balanced Body has a larger US dealer network; Merrithew has stronger international presence in parts of Europe and Asia-Pacific. Both brands offer direct purchase of springs, ropes, and pads — the components that require the most frequent replacement." },
-                  { q: "Which brand do professional instructors prefer?", a: "Preference divides largely along training lineage. STOTT-trained instructors nearly universally prefer Merrithew — they trained on it and the machine embodies their curriculum. Classical practitioners often prefer Balanced Body for its broader apparatus options. Instructors without a strong training system allegiance tend toward Balanced Body for the accessory ecosystem." },
+                  { q: "Which brand holds resale value better?", a: "Balanced Body is generally reported to hold resale value more robustly in the US used market, owing to its larger installed base — but we don't have verified resale-price data to quantify that, so treat it as a general reputation rather than a specific figure." },
+                  { q: "Is one brand harder to service than the other?", a: "Both brands have authorised service networks and offer direct purchase of springs, ropes, and replacement parts. Balanced Body has a larger US dealer network; Merrithew has a strong international presence. We have not independently verified comparative service response times." },
+                  { q: "Which brand do professional instructors prefer?", a: "Preference divides largely along training lineage. STOTT-trained instructors typically prefer Merrithew, since the curriculum was built around it. Practitioners without a strong training-system allegiance often cite Balanced Body's broader accessory ecosystem as the deciding factor." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -226,7 +227,7 @@ export default function BalancedBodyVsMerrithewPage() {
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit — real, verified listings</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -237,8 +238,8 @@ export default function BalancedBodyVsMerrithewPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Reformer Brands (2026)" excerpt="Gratz, Balanced Body, Merrithew, Align-Pilates, and Peak Pilates — the complete brand comparison." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
-                <ArticleCard title="Best Home Pilates Reformer" excerpt="Every price tier reviewed — from budget entry-level to professional studio quality." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Merrithew At Home SPX Review (2026)" excerpt="The real Amazon-sold SPX-family machine, reviewed honestly." href="/blog/merrithew-spx-max-review" category="Equipment Review" readTime="11 min read" date="September 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Balanced Body Studio Reformer Review (2026)" excerpt="The real Balanced Body flagship sold on Amazon, reviewed honestly." href="/blog/balanced-body-allegro-2-review" category="Equipment Review" readTime="11 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>
           </div>
