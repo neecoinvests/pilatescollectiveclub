@@ -66,7 +66,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Manduka PROlite Yoga Mat 4.7mm",
-    price: "$98",
+    price: "$100",
     verdict: "Best Everyday Luxury",
     description: "Manduka's PROlite is the lightweight sibling of the PRO: 4.7mm of the same legendary closed-cell cushioning, in a mat that weighs only 4.6 lbs instead of the PRO's 7.5, so it's genuinely easy to carry to a studio and back. It has the same no-slip dotted underside and the same reputation among teachers for holding its shape and grip for years. If the full PRO feels like overkill for your practice, this is the version to buy. Sold by Amazon.com.",
     affiliateUrl: "https://www.amazon.com/dp/B0F6426TRG?tag=pilatescollective-20",
