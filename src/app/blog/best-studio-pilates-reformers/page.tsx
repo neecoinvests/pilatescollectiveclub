@@ -8,10 +8,10 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Studio Pilates Reformers (2026): Commercial Grade Guide",
-  description: "The best studio-grade Pilates reformers — Align-Pilates A8-Pro, Balanced Body Metro IQ and Studio Reformer, BASI Systems and Gratz reviewed with verified specs and prices.",
+  description: "The best studio-grade Pilates reformers available on Amazon — Align-Pilates C8-PRO, Balanced Body Metro IQ, Studio Reformer and Studio Reformer with Tower, and PersonalHour reviewed with verified specs and prices.",
   openGraph: {
-    title: "Best Studio-Grade Pilates Reformers (2026): Align, BASI, Balanced Body & More",
-    description: "Five studio-grade reformers that serious home practitioners and studio owners often overlook — with verified specs and honest trade-offs.",
+    title: "Best Studio-Grade Pilates Reformers (2026): Align, Balanced Body & More",
+    description: "Five studio-grade reformers, all sold on Amazon, that serious home practitioners and studio owners often overlook — with verified specs and honest trade-offs.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-studio-pilates-reformers",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Studio-grade Pilates reformers — Pilates Collective Club" }],
@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Studio-Grade Pilates Reformers (2026)",
-    description: "Align-Pilates A8-Pro, Balanced Body Metro IQ, BASI Systems, BB Studio Reformer and Gratz Maple — the deeper premium guide.",
+    description: "Align-Pilates C8-PRO, Balanced Body Metro IQ, PersonalHour, BB Studio Reformer and BB Studio Reformer with Tower — the deeper premium guide.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
-  keywords: ["best studio pilates reformer", "commercial pilates reformer 2026", "studio grade pilates reformer", "pilates studio equipment buy", "balanced body studio reformer", "merrithew commercial reformer", "gratz studio reformer", "best reformer for pilates studio"],
+  keywords: ["best studio pilates reformer", "commercial pilates reformer 2026", "studio grade pilates reformer", "pilates studio equipment buy", "balanced body studio reformer", "merrithew commercial reformer", "align pilates c8 pro", "best reformer for pilates studio"],
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-studio-pilates-reformers" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -30,32 +30,31 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Align-Pilates A8-Pro Reformer",
-    price: "Dealer pricing",
-    verdict: "Widest carriage and longest travel",
+    name: "Align-Pilates C8-PRO Reformer",
+    price: "$2,750",
+    verdict: "Align's professional spring system, sold on Amazon",
     tier: "Studio Grade",
     description:
-      "Align-Pilates' A8-Pro is the reformer to look at if carriage size matters to you. Its 26.5-inch (67cm) carriage is the widest on the market and its 44.5 inches (113cm) of travel is the longest of any standard reformer, which you feel immediately in hip-width supine work and long-box exercises, especially if you have broad shoulders. It rides on eight polyurethane wheels, uses Align's Rapid Change Spring Bar, takes users up to 331 lbs, and can be built on low (11\"), standard (16.5\") or rehab-height (25.25\") legs. Align is widely used in UK and European studios; in the US it is sold through authorised dealers (a bundle with tower runs about $5,590), so get a quote for the configuration you want. If you'd rather buy on Amazon, Align's home C8-Pro ($2,750, sold by Merrithew) uses the same springs and eight-wheel carriage in a stackable home frame.",
-    affiliateUrl: "https://goalignpilates.com/product/a8-pro-pilates-reformer/",
+      "Align-Pilates' studio machines are known for the widest carriages and longest carriage travel in the category, and the C8-PRO brings that same core engineering — the 8-wheel PU carriage and Rapid Change Spring Bar — into a stackable, home-sized frame, sold on Amazon by Merrithew, Align's US distributor. Resistance changes fast and without tools, the carriage is quiet, and optional leg extensions raise the bed height to 44cm if you want a more studio-like position. At 239.5cm long and rated to 150kg (331 lbs), it's a serious machine at a price well under a dealer-quoted studio Align.",
+    affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20",
     specs: [
-      { label: "Carriage width", value: "26.5 inches (67cm)" },
-      { label: "Carriage travel", value: "44.5 inches (113cm)" },
-      { label: "Weight capacity", value: "331 lbs (150kg)" },
-      { label: "Carriage wheels", value: "8 polyurethane" },
-      { label: "Leg heights", value: "11\", 16.5\" or 25.25\"" },
+      { label: "Length", value: "239.5cm (94.3\")" },
+      { label: "Carriage", value: "8 PU wheels" },
+      { label: "Springs", value: "Rapid Change Spring Bar" },
+      { label: "Weight capacity", value: "150kg (331 lbs)" },
+      { label: "Sold by", value: "Merrithew. (Amazon)" },
     ],
     pros: [
-      "Widest carriage (26.5\") and longest travel (44.5\") available",
-      "Rapid Change Spring Bar for fast spring changes",
-      "Three leg heights, including rehab height",
-      "Quiet eight-wheel carriage",
+      "Same Rapid Change Spring Bar as Align's studio machines",
+      "Quiet 8-wheel PU carriage",
+      "Stackable for storage",
+      "Optional leg extensions for studio bed height",
       "331 lb user capacity",
     ],
     cons: [
-      "Smaller US dealer network than Balanced Body or Merrithew",
-      "Pricing by dealer quote — varies by configuration",
+      "Home-sized frame, not the full-size studio A8-Pro",
       "Accessory range narrower than Balanced Body's",
-      "Less resale recognition in North America",
+      "Sold by a third-party distributor, not Align directly",
     ],
   },
   {
@@ -90,32 +89,30 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "BASI Systems Reformer",
-    price: "From $6,850",
-    verdict: "Best for practitioners trained in the BASI method",
+    name: "PersonalHour Janet La Force Plus",
+    price: "$2,555",
+    verdict: "Best wood-frame foldable studio-grade reformer",
     tier: "Professional",
     description:
-      "BASI Systems is the equipment line developed with Rael Isacowitz, founder of BASI Pilates (Body Arts and Science International), to support the BASI repertoire. The reformer runs on aircraft-grade aluminium tracks for a smooth, quiet carriage and adjusts for a wide range of body sizes, and if you trained with a BASI teacher it will feel exactly like the machine you learned on. In the US, BASI Systems equipment is sold exclusively through the official distributor Bodynetworx: the full Reformer starts at $6,850, the Compact Reformer (a shorter frame for smaller rooms) at $5,250, and the Reformer Combo with full tower lists at $11,750. Machines are built to order, so allow for lead time.",
-    affiliateUrl: "https://bodynetworx.com/products/reformer",
+      "For a wood-frame reformer that still folds for storage, the Janet La Force Plus is a solid walnut machine sold on Amazon by PilatesUS. It runs six adjustable springs, has an upgraded cushioned carriage and adjustable footbar, and the frame is tower-ready if you want to add a vertical frame later. It folds upright on wheels — something none of the maple studio machines in this guide can do — and ships with a jumpboard, box, foot strap and loops included.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20",
     specs: [
-      { label: "Frame", value: "Aircraft-grade aluminium tracks" },
-      { label: "Reformer", value: "From $6,850" },
-      { label: "Compact Reformer", value: "From $5,250" },
-      { label: "Reformer Combo (with tower)", value: "$11,750 list" },
-      { label: "US distributor", value: "Bodynetworx (exclusive)" },
+      { label: "Frame", value: "Solid walnut" },
+      { label: "Springs", value: "6 adjustable springs" },
+      { label: "Storage", value: "Folds upright on wheels" },
+      { label: "Included", value: "Jumpboard, box, foot strap, loops" },
+      { label: "Sold by", value: "PilatesUS (Amazon)" },
     ],
     pros: [
-      "Designed around the BASI method and repertoire",
-      "Smooth, quiet aluminium-track carriage",
-      "Compact version for smaller rooms",
-      "Combo version adds a full Cadillac-style tower",
-      "The machine BASI-trained teachers learned on",
+      "Solid walnut frame — distinct from the aluminium/maple machines here",
+      "Folds upright on wheels for storage",
+      "Tower-ready frame",
+      "Full accessory set included in the price",
     ],
     cons: [
-      "The most expensive reformer in this guide",
-      "Single US distributor",
-      "Built to order — lead times vary",
-      "Narrower accessory ecosystem than Balanced Body or Merrithew",
+      "Smaller, newer brand than Balanced Body or Merrithew",
+      "Stock can run scarce — check availability",
+      "Less established resale value",
     ],
   },
   {
@@ -150,41 +147,38 @@ const PRODUCTS = [
   },
   {
     rank: "05",
-    name: "Gratz Designer Reformer (Maple)",
-    price: "From $4,590",
-    verdict: "Best for classical practitioners who prefer wood",
+    name: "Balanced Body Studio Reformer with Tower and Mat Conversion",
+    price: "$6,975",
+    verdict: "The most complete apparatus in this guide",
     tier: "Heritage",
     description:
-      "Gratz built apparatus for Joseph Pilates in New York, and the Designer Reformer is its solid rock maple machine, still made there to order from sustainably harvested maple. It shares the classical Gratz set-up with the aluminium Classic: four springs of equal tension and a gear bar that changes spring pre-tension, giving the firm, even feel classical teachers train on. Prices are close to the aluminium version: the 80-inch Designer is $4,590 and the 89-inch starts at $4,745 direct from Gratz. The choice between maple and aluminium is mostly about look and feel; wood needs a little more care and a stable indoor climate. Lead times can run to several months.",
-    affiliateUrl: "https://www.gratzpilates.com/products/86-designer-reformer-in-maple-wood",
+      "For a studio owner who wants one frame to do everything, this is Balanced Body's flagship: the commercial Studio Reformer with a hand-crafted stainless steel Tower and Mat Conversion built in, so reformer work, Cadillac-style tower work and elevated mat training all come from a single hand-built Strata Rock Maple frame. It runs 5 Reformer Signature Springs plus 8 Tower Signature Springs with snap hooks, a Revo footbar, and ships with a sitting box, D-ring loops and neoprene handles. Sold direct by Balanced Body on Amazon; made to order.",
+    affiliateUrl: "https://www.amazon.com/dp/B01NAUBYBF?tag=pilatescollective-20",
     specs: [
-      { label: "Construction", value: "Solid rock maple" },
-      { label: "Springs", value: "4 equal-tension springs + gear bar" },
-      { label: "Lengths", value: "80\", 86\", 89\"" },
-      { label: "Origin", value: "Hand-built in New York" },
-      { label: "Price", value: "$4,590 (80\") to $4,745+ (89\")" },
+      { label: "Construction", value: "Hand-built Strata Rock Maple" },
+      { label: "Springs", value: "5 Reformer + 8 Tower Signature Springs" },
+      { label: "Included", value: "Sitting box, D-ring loops, neoprene handles" },
+      { label: "Footbar", value: "Revo footbar" },
+      { label: "Sold by", value: "Balanced Body Inc. (Amazon)" },
     ],
     pros: [
-      "The classical Gratz feel in solid maple",
-      "Gear bar adjusts spring pre-tension",
-      "Priced close to the aluminium version",
-      "Available in three lengths",
-      "Built to last decades",
+      "Reformer, tower and mat conversion in one frame",
+      "Hand-built solid maple construction",
+      "13 total springs across reformer and tower",
+      "Replaces an entire studio equipment corner",
     ],
     cons: [
-      "Wood needs care and a stable climate",
-      "Little adjustability compared with contemporary machines",
+      "The most expensive machine in this guide",
       "Doesn't fold — permanent installation",
-      "Made to order — lead times of up to several months",
+      "Made to order — allow lead time to ship",
     ],
   },
 ];
 
 const FAQS = [
   { q: "What is the difference between the Balanced Body Allegro 2 and Studio Reformer?", a: "The Allegro 2 is Balanced Body's home-focused machine: an aluminium frame with the Infinity Footbar that slides along the frame, and it can be stood on end for storage with the wheel kit. The Studio Reformer is the commercial machine: a solid rock maple frame, Revo footbar and springbar, built for permanent installation and heavy daily use, with tower and mat-conversion options. Both use Balanced Body's five Signature Springs. For most homes the Allegro 2 is the better fit; for a dedicated studio room, the Studio Reformer." },
-  { q: "Is the Align Pilates A8 Pro a genuine professional reformer?", a: "Yes. The Align Pilates A8 Pro is used in boutique studios across the UK and Europe and features the widest carriage (26.5 inches) and longest carriage travel (44.5 inches) of any standard reformer. It takes users up to 331 lbs, runs on eight polyurethane wheels and comes in three leg heights, including rehab height. Its main limitation for North American buyers is the smaller US dealer network compared to Balanced Body or Merrithew." },
-  { q: "What makes the BASI Systems reformer different from Balanced Body?", a: "BASI Systems machines were developed with Rael Isacowitz to support the BASI method, so if you trained with BASI they reproduce the set-up and feel you learned on. The reformer runs on aircraft-grade aluminium tracks. The trade-offs are price (from $6,850 for the full Reformer, $5,250 for the Compact), a single US distributor (Bodynetworx) and build-to-order lead times." },
-  { q: "Should I buy the Gratz aluminum or maple reformer?", a: "The functional difference is minimal — both use Gratz's four-spring system with a gear bar and come in 80\", 86\" and 89\" lengths. Prices are close, too: the 86-inch aluminium Classic is $4,645, and the maple Designer runs from $4,590 (80\") to $4,745+ (89\"). Choose maple for the look and feel of wood; choose aluminium if you want lower maintenance." },
+  { q: "Is the Align-Pilates C8-PRO the same as Align's studio machines?", a: "It shares the same core engineering — the 8-wheel PU carriage and the Rapid Change Spring Bar — as Align's full-size studio reformers, in a stackable, home-sized frame. It's sold on Amazon by Merrithew, Align's US distributor, at $2,750, well under what a dealer-quoted studio Align typically costs." },
+  { q: "What's the difference between the Studio Reformer and the Studio Reformer with Tower?", a: "Both use the same hand-built Strata Rock Maple frame, 5 Reformer Signature Springs and Revo footbar. The Tower and Mat Conversion version adds a stainless steel tower with 8 additional springs and a mat-conversion platform, so one frame gives you reformer, Cadillac-style tower work and elevated mat training. It costs $6,975 versus $4,700 for the reformer alone." },
 ];
 
 const jsonLd = {
@@ -193,8 +187,8 @@ const jsonLd = {
     {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-studio-pilates-reformers/#article",
-      "headline": "Best Studio-Grade Pilates Reformers (2026): Align, BASI, Balanced Body & More",
-      "description": "Studio-grade Pilates reformers beyond the usual suspects — Align Pilates A8 Pro, Balanced Body Metro IQ, BASI Systems, Balanced Body Studio Reformer, and Gratz Maple.",
+      "headline": "Best Studio-Grade Pilates Reformers (2026): Align, Balanced Body & More",
+      "description": "Studio-grade Pilates reformers beyond the usual suspects, all available on Amazon — Align-Pilates C8-PRO, Balanced Body Metro IQ, PersonalHour, Balanced Body Studio Reformer, and Studio Reformer with Tower.",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" } },
@@ -262,7 +256,7 @@ export default function BestStudioReformersPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Our first premium reformer guide covered the machines that appear on every shortlist: Balanced Body Allegro 2, Merrithew V2 Max, Gratz Classic, Elina Elite Wood, Peak MVe, Merrithew SPX Max and the Merrithew At Home SPX. This guide covers five machines that serious practitioners and studio owners frequently miss — either because they represent different price points, different brand lineages, or solve a specific problem (space, method compatibility, carriage width) that the standard roundup machines do not.
+              Our first premium reformer guide covered the machines that appear on every shortlist: Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX, Align-Pilates C8-PRO and PersonalHour. This guide covers five more machines, all sold on Amazon, that serious practitioners and studio owners frequently miss — either because they represent different configurations, different frame materials, or solve a specific problem (space, storage, a complete reformer-tower-mat system) that the standard roundup machines do not.
             </p>
           </div>
         </section>
@@ -283,12 +277,12 @@ export default function BestStudioReformersPage() {
             {/* Introduction */}
             <div className="mb-16 mt-4">
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Prices were checked in September 2026 on Amazon (for the Balanced Body machines, sold by Balanced Body), at gratzpilates.com and at Bodynetworx, BASI Systems&apos; US distributor. Align-Pilates is priced by US dealers, so confirm the configuration you want before ordering.
+                Prices were checked on Amazon in September 2026, where every machine in this guide is sold direct by the manufacturer or an authorised distributor.
               </p>
               <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(139,74,49,0.15)" }}>
                 <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The standout in this guide</p>
                 <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  For practitioners with space constraints, the <strong>Balanced Body Metro IQ</strong> at $2,330 is the most underrated machine in the premium category. For those building a dedicated studio, the <strong>Balanced Body Studio Reformer</strong> is the commercial machine most contemporary studios run. And if you want more room on the carriage, the <strong>Align-Pilates A8-Pro</strong> has the widest carriage available at 26.5 inches.
+                  For practitioners with space constraints, the <strong>Balanced Body Metro IQ</strong> at $2,330 is the most underrated machine in the premium category. For those building a dedicated studio, the <strong>Balanced Body Studio Reformer</strong> is the commercial machine most contemporary studios run. And if you want one frame that does everything, the <strong>Studio Reformer with Tower and Mat Conversion</strong> adds Cadillac-style tower work and elevated mat training.
                 </p>
               </div>
             </div>
@@ -299,10 +293,10 @@ export default function BestStudioReformersPage() {
               <div className="space-y-4">
                 {[
                   { heading: "Space constraints (Metro IQ)", body: "The Metro IQ's telescoping frame shrinks from 98 inches to 62 inches for storage, which is the most practical answer to the space problem for urban practitioners, and it still uses genuine Balanced Body springs and carriage." },
-                  { heading: "Carriage width (Align A8 Pro)", body: "A standard carriage is 24 inches. The A8 Pro's 26.5-inch carriage is not a marginal improvement — it is immediately felt in hip-width supine exercises, open-hip footwork, and any repertoire element that benefits from wider lateral reference points." },
-                  { heading: "Method fidelity (BASI Systems)", body: "If your training certification is through BASI International, your instructor trained on BASI equipment. A BASI Systems reformer reproduces the set-up and feel of the machines the BASI repertoire was developed on." },
+                  { heading: "Fast spring changes (Align C8-PRO)", body: "Align's Rapid Change Spring Bar lets you swap resistance without tools, which matters most when you're moving between exercises or between clients. Combined with the quiet 8-wheel PU carriage, it's a meaningfully different feel from a standard spring bar." },
+                  { heading: "Wood frame, still foldable (PersonalHour)", body: "Most wood-frame reformers are fixed installations. The Janet La Force Plus's solid walnut frame folds upright on wheels, giving you a warmer, quieter carriage sound without giving up storage." },
                   { heading: "Permanent studio build-out (Studio Reformer)", body: "The Balanced Body Studio Reformer is the commercial machine found in most contemporary studios. If you are building a dedicated home studio with multiple machines, or want a maple machine with tower and mat-conversion options, it is the natural choice over the Allegro 2." },
-                  { heading: "Material authenticity (Gratz Maple)", body: "The Gratz maple Designer Reformer is functionally the same as the aluminium Classic. It's for classical practitioners who want the look and feel of a wooden machine, closer to the apparatus Joseph Pilates worked with." },
+                  { heading: "One frame, three apparatus (Studio Reformer with Tower)", body: "The Tower and Mat Conversion turns the Studio Reformer into a near-complete Cadillac and elevated mat platform as well, without needing separate equipment. It's the closest thing to owning a full studio corner in one purchase." },
                 ].map((item) => (
                   <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
@@ -337,7 +331,7 @@ export default function BestStudioReformersPage() {
 
             {/* Products */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Reformers · $2,330 to $6,850+</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Reformers · $2,330 to $6,975</p>
               <div className="space-y-16">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -394,11 +388,11 @@ export default function BestStudioReformersPage() {
                   </thead>
                   <tbody>
                     {[
-                      { model: "Align A8-Pro", price: "Dealer quote", carriage: "26.5\" — widest", feature: "44.5\" travel, 3 leg heights", best: "Carriage width" },
+                      { model: "Align C8-PRO", price: "$2,750", carriage: "8 PU wheels", feature: "Rapid Change Spring Bar", best: "Fast spring changes" },
                       { model: "BB Metro IQ", price: "$2,330", carriage: "Standard (telescoping)", feature: "62\" stored length", best: "Small spaces" },
-                      { model: "BASI Systems", price: "$6,850+", carriage: "Aluminium tracks", feature: "Compact version from $5,250", best: "BASI practitioners" },
+                      { model: "PersonalHour", price: "$2,555", carriage: "Solid walnut", feature: "Folds upright on wheels", best: "Wood + foldable" },
                       { model: "BB Studio Reformer", price: "$4,700", carriage: "Rock maple frame", feature: "Revo footbar, tower option", best: "Home studio build" },
-                      { model: "Gratz Maple", price: "$4,590+", carriage: "Traditional", feature: "Gear bar", best: "Classical + wood" },
+                      { model: "BB Studio Reformer + Tower", price: "$6,975", carriage: "Rock maple frame", feature: "Tower + mat conversion", best: "Complete studio corner" },
                     ].map((row, i) => (
                       <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
                         <td className="px-4 py-3 font-semibold whitespace-nowrap" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.model}</td>
@@ -411,7 +405,7 @@ export default function BestStudioReformersPage() {
                   </tbody>
                 </table>
               </div>
-              <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked on Amazon and at manufacturer or distributor websites, September 2026. BASI and Studio Reformer prices approximate — verify at primary sources before purchasing.</p>
+              <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked on Amazon, September 2026. All machines are made to order — verify current lead times before purchasing.</p>
             </div>
 
             {/* Who should buy what */}
@@ -419,10 +413,10 @@ export default function BestStudioReformersPage() {
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who should buy which</h2>
               {[
                 { who: "Apartment or small-space practitioners", buy: "Balanced Body Metro IQ", reason: "The only machine in the premium category that stores at 62 inches. Genuine Balanced Body springs and carriage in an apartment-friendly format." },
-                { who: "Practitioners who train in studios using Align Pilates equipment", buy: "Align Pilates A8 Pro", reason: "If you have trained in a UK or European studio and want to replicate that carriage width at home, the A8-Pro's 26.5-inch carriage is the closest match; ask a US dealer for a quote." },
-                { who: "BASI-certified practitioners building a home studio", buy: "BASI Systems Reformer", reason: "If your instructors trained you on BASI equipment, this is the machine that matches what you learned on." },
+                { who: "Practitioners who want fast, tool-free spring changes", buy: "Align-Pilates C8-PRO", reason: "The same Rapid Change Spring Bar and 8-wheel PU carriage as Align's studio machines, in a stackable home frame sold direct on Amazon." },
+                { who: "Practitioners who want a wood-frame machine that still folds", buy: "PersonalHour Janet La Force Plus", reason: "Solid walnut construction and six adjustable springs, with the storage convenience the maple studio machines don't offer." },
                 { who: "Home studio owners who want full tower capability", buy: "Balanced Body Studio Reformer", reason: "The Allegro 2 can take a tower too, but the Studio Reformer's maple frame and Revo adjustments are built for a permanent, heavily used studio, and Balanced Body sells it with Tower and Mat Conversion." },
-                { who: "Classical practitioners who want the maple Gratz", buy: "Gratz Designer Reformer (Maple)", reason: "If you have decided on Gratz (as every classical practitioner should consider), the choice between aluminium and maple is about look and maintenance; they are functionally the same and similarly priced." },
+                { who: "Studio owners who want one frame for everything", buy: "Balanced Body Studio Reformer with Tower", reason: "Reformer, Cadillac-style tower work and elevated mat training from a single hand-built maple frame — the most complete apparatus in this guide." },
               ].map((item) => (
                 <div key={item.who} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                   <div className="flex flex-wrap items-start gap-3 mb-2">
@@ -439,7 +433,7 @@ export default function BestStudioReformersPage() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>The most underrated machine in this guide: Balanced Body Metro IQ.</h2>
               <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                Most premium reformer guides ignore the Metro IQ because it does not have the prestige of the Allegro 2 or V2 Max. That is a mistake. At $2,330 with a 62-inch stored length and genuine Balanced Body springs, it is the machine that unlocks serious home practice for the majority of urban practitioners who otherwise cannot justify the floor space. If you have room for a permanent installation, the Balanced Body Studio Reformer is the professional choice. And if you are drawn to classical practice, the Gratz maple Designer Reformer (from $4,590) is the closest thing to the original — built to Joseph Pilates&apos; design in the same city where he worked.
+                Most premium reformer guides ignore the Metro IQ because it does not have the prestige of the Studio Reformer or the Studio Reformer with Tower. That is a mistake. At $2,330 with a 62-inch stored length and genuine Balanced Body springs, it is the machine that unlocks serious home practice for the majority of urban practitioners who otherwise cannot justify the floor space. If you have room for a permanent installation, the Balanced Body Studio Reformer is the professional choice. And if you want one frame that replaces an entire studio corner, the Studio Reformer with Tower and Mat Conversion is the most complete machine on the market.
               </p>
               <a href="https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
                 Shop Balanced Body Metro IQ →
@@ -463,10 +457,10 @@ export default function BestStudioReformersPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Premium Pilates Reformers ($2,000–$5,000+)" excerpt="Our first premium reformer guide: Allegro 2, SPX Max, V2 Max, Gratz, Elina and Peak MVe compared." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Premium Pilates Reformers" excerpt="Our first premium reformer guide: Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX and more compared." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Balanced Body vs Merrithew: Which Should You Buy?" excerpt="The definitive head-to-head of the two dominant professional reformer brands — compared on carriage, springs, accessories, and value." href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="13 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's studio reformers are in tens of thousands of professional studios — here's what sets them apart." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
-                <ArticleCard title="BASI Systems Pilates Review" excerpt="The brand behind BASI's world-famous certification programme — and the equipment they build to match it." href="/blog/basi-systems-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
+                <ArticleCard title="Balanced Body Allegro 2 Review" excerpt="The machine on its own terms: carriage, springs, fold and who it suits." href="/blog/balanced-body-allegro-2-review" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
                 <ArticleCard title="Merrithew V2 Max Reformer: In-Depth Review" excerpt="The most detailed assessment of Merrithew's most advanced professional machine." href="/blog/merrithew-v2-max-review" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Align Pilates Reformer Review" excerpt="Align-Pilates makes some of the most compact full-featured reformers on the market." href="/blog/align-pilates-reformer-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
               </div>

@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Designer & Luxury Pilates Bags (2026)",
-  description: "The finest bags for Pilates practitioners — Tory Burch, Marc Jacobs, Varley, Herschel, lululemon and BAGGU compared for structure, capacity, and studio-to-life versatility.",
+  description: "The finest bags for Pilates practitioners — Tory Burch, Marc Jacobs, Varley, Herschel, Stoney Clover Lane and BAGGU compared for structure, capacity, and studio-to-life versatility, all available on Amazon.",
   keywords: [
     "best luxury pilates bag",
     "designer gym bag pilates",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Designer & Luxury Pilates Bags (2026)",
-    description: "The finest bags for Pilates — Tory Burch, Marc Jacobs, Varley, Herschel and lululemon compared for structure, capacity, and studio-to-life versatility.",
+    description: "The finest bags for Pilates — Tory Burch, Marc Jacobs, Varley, Herschel and Stoney Clover Lane compared for structure, capacity, and studio-to-life versatility.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-designer-pilates-bag",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png", width: 1200, height: 630, alt: "Best Designer Pilates Bags 2026" }],
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Designer & Luxury Pilates Bags (2026)",
-    description: "The finest bags for Pilates — Tory Burch, Marc Jacobs, Varley and Herschel compared.",
+    description: "The finest bags for Pilates — Tory Burch, Marc Jacobs, Varley, Herschel and Stoney Clover Lane compared.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-designer-pilates-bag" },
@@ -74,11 +74,11 @@ const PRODUCTS = [
   },
   {
     rank: "05",
-    name: "lululemon Everywhere Belt Bag Large 2L",
-    price: "$48",
+    name: "Stoney Clover Lane Clear Pouchette Crossbody",
+    price: "$78",
     verdict: "Best Compact Bag",
-    description: "The Everywhere Belt Bag is the most recognisable small bag in any studio changing room. The Large 2L version holds a phone, keys, cards, grip socks and a small snack, which is everything you need on days when you're travelling light to class. It has an adjustable strap to wear cross-body or at the waist, an exterior zip pocket, interior pockets and a two-way zip. lululemon doesn't sell on Amazon (listings there are resellers), so buy it direct.",
-    affiliateUrl: "https://shop.lululemon.com/p/bags/Everywhere-Belt-Bag-Large/_/prod11130156",
+    description: "Stoney Clover Lane's Clear Pouchette has become one of the most-photographed small bags in studio changing rooms, and it's sold direct by Amazon.com. Clear vinyl with a PU leather trim holds a phone, keys, cards and grip socks so you can see what's inside at a glance, and the adjustable, removable crossbody strap (42–46.5 inches) means it also works as a top-handle pouch. A zipper-and-snap closure keeps it secure on the move to class.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D5P7569S?tag=pilatescollective-20",
     tag: "Compact",
   },
   {
@@ -126,7 +126,7 @@ const jsonLd = {
       mainEntity: [
         { "@type": "Question", name: "What should a luxury Pilates bag include?", acceptedAnswer: { "@type": "Answer", text: "A well-designed luxury Pilates bag should have: a main compartment large enough for a rolled mat (or a separate mat sleeve), a separated shoe or wet-kit pocket, internal pockets for keys, card, and phone, water-resistant base material, and a strap configuration comfortable enough for a 20-minute walk to the studio. Bonus: a towel loop, external water bottle pocket, and a padded shoulder strap." } },
         { "@type": "Question", name: "Is a luxury gym bag a worthwhile investment for Pilates?", acceptedAnswer: { "@type": "Answer", text: "Yes, in the same way that a quality mat or legging is worthwhile. A luxury bag made from quality materials will outlast three or four budget alternatives, meaning the cost per year of ownership is comparable or lower. More importantly, a bag you love using reinforces the ritual and intentionality that makes a regular Pilates practice sustainable." } },
-        { "@type": "Question", name: "Which designer brands make the best Pilates bags?", acceptedAnswer: { "@type": "Answer", text: "Varley makes the most studio-specific luxury bags, like the Montlake Club Duffle. For fashion-house credibility, Tory Burch's nylon Ella Tote and Marc Jacobs' The Tote are the two designer carryalls you'll see most in studio changing rooms. Herschel's Novel Duffle is the best value, thanks to its separate shoe compartment, and lululemon's Everywhere Belt Bag has become the default small bag for class." } },
+        { "@type": "Question", name: "Which designer brands make the best Pilates bags?", acceptedAnswer: { "@type": "Answer", text: "Varley makes the most studio-specific luxury bags, like the Montlake Club Duffle. For fashion-house credibility, Tory Burch's nylon Ella Tote and Marc Jacobs' The Tote are the two designer carryalls you'll see most in studio changing rooms. Herschel's Novel Duffle is the best value, thanks to its separate shoe compartment, and Stoney Clover Lane's Clear Pouchette has become one of the most popular small bags for class." } },
       ],
     },
   ],
@@ -207,7 +207,7 @@ export default function BestDesignerPilatesBagPage() {
               {[
                 { q: "What should a luxury Pilates bag include?", a: "A well-designed luxury Pilates bag should have: a main compartment large enough for a rolled mat (or a separate mat sleeve), a separated shoe or wet-kit pocket, internal pockets for keys, card, and phone, water-resistant base material, and a strap configuration comfortable enough for a 20-minute walk to the studio. Bonus: a towel loop, external water bottle pocket, and a padded shoulder strap." },
                 { q: "Is a luxury gym bag a worthwhile investment for Pilates?", a: "Yes, in the same way that a quality mat or legging is worthwhile. A luxury bag made from quality materials will outlast three or four budget alternatives, meaning the cost per year of ownership is comparable or lower. More importantly, a bag you love using reinforces the ritual and intentionality that makes a regular Pilates practice sustainable." },
-                { q: "Which designer brands make the best Pilates bags?", a: "Varley makes the most studio-specific luxury bags, like the Montlake Club Duffle. For fashion-house credibility, Tory Burch's nylon Ella Tote and Marc Jacobs' The Tote are the two designer carryalls you'll see most in studio changing rooms. Herschel's Novel Duffle is the best value, thanks to its separate shoe compartment, and lululemon's Everywhere Belt Bag has become the default small bag for class." },
+                { q: "Which designer brands make the best Pilates bags?", a: "Varley makes the most studio-specific luxury bags, like the Montlake Club Duffle. For fashion-house credibility, Tory Burch's nylon Ella Tote and Marc Jacobs' The Tote are the two designer carryalls you'll see most in studio changing rooms. Herschel's Novel Duffle is the best value, thanks to its separate shoe compartment, and Stoney Clover Lane's Clear Pouchette has become one of the most popular small bags for class." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
                   <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>

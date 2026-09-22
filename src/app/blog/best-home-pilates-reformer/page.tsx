@@ -8,8 +8,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Home Pilates Reformer (2026): $359 to $3,995 Compared",
-  description: "Home Pilates reformers from $359 to $3,995 compared on springs, rail length and footprint — plus which budget tier actually fits your space and practice.",
+  title: "Best Home Pilates Reformer (2026): $359 to $4,700 Compared",
+  description: "Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint — plus which budget tier actually fits your space and practice.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
     description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",
@@ -69,22 +69,22 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Balanced Body Allegro 2",
+    name: "Balanced Body Studio Reformer",
     tier: "Premium",
-    price: "$3,995",
+    price: "$4,700",
     verdict: "Best overall home reformer",
     description:
-      "The Allegro 2 is the machine instructors most often recommend for serious home practice. It has Balanced Body's smooth, quiet carriage on an aluminium frame, five Signature Springs (three red, one blue, one yellow), and the Infinity Footbar, which adjusts to four heights and slides to nine positions along the frame so it fits almost any body. With the optional wheel kit it can be stood on end for storage, it carries a 10-year frame warranty, and it works with the full Balanced Body accessory range, including the Tower and Box. Sold direct by Balanced Body at $3,995 (more with legs); it isn't currently sold on Amazon.",
-    affiliateUrl: "https://www.pilates.com/products/allegro-2-pilates-reformer/",
-    pros: ["Infinity Footbar fits almost any body", "Stands on end for storage (with wheel kit)", "Full Balanced Body accessory compatibility"],
-    cons: ["Premium price", "Legs, wheels and box cost extra", "Overkill for casual practitioners"],
+      "The Studio Reformer is Balanced Body's commercial machine, and it's the one instructors most often trained on. It has a solid rock maple frame with commercial-grade upholstery, five Signature Springs giving 46 resistance combinations, and the Revo system's 4-position locking footbar and 5-position springbar. TwistLock shoulder rests make adjustments fast. It doesn't fold, so it needs a permanent spot, and it works with the full Balanced Body accessory range, including the Tower and Mat Conversion. Sold direct by Balanced Body on Amazon; made to order, three to four weeks to ship.",
+    affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
+    pros: ["Solid rock maple frame built for daily professional use", "Revo footbar and springbar for quick, secure adjustments", "Full Balanced Body accessory compatibility"],
+    cons: ["Premium price", "Doesn't fold — needs permanent floor space", "Overkill for casual practitioners"],
   },
 ];
 
 const FAQS = [
   {
     q: "How much does a home Pilates reformer cost?",
-    a: "Home Pilates reformers range from $300 to $5,000+ for professional machines. A solid spring-based home reformer typically costs $1,300–$2,500, and professional-brand machines like the Merrithew At Home SPX ($3,349) or Balanced Body Allegro 2 ($3,995) cost more.",
+    a: "Home Pilates reformers range from $300 to $5,000+ for professional machines. A solid spring-based home reformer typically costs $1,300–$2,500, and professional-brand machines like the Merrithew At Home SPX ($3,349) or Balanced Body Studio Reformer ($4,700) cost more.",
   },
   {
     q: "What is the best entry-level home reformer?",
@@ -96,7 +96,7 @@ const FAQS = [
   },
   {
     q: "Is a home reformer as good as a studio reformer?",
-    a: "Professional-brand home machines like the Merrithew At Home SPX or Balanced Body Allegro 2 cover the full repertoire. Professional studio machines are more robust but the difference is manageable for home practice.",
+    a: "Professional-brand home machines like the Merrithew At Home SPX or Balanced Body Studio Reformer cover the full repertoire. Professional studio machines are more robust but the difference is manageable for home practice.",
   },
 ];
 
@@ -322,7 +322,7 @@ export default function BestHomeReformerPage() {
                       { model: "Stamina 287", price: "$359", resistance: "3 cords", rail: "85\" overall", best: "Beginners, small spaces" },
                       { model: "AeroPilates 557", price: "$1,330", resistance: "4 springs", rail: "100.5\" overall", best: "Regular practitioners" },
                       { model: "Merrithew At Home SPX", price: "$3,349", resistance: "5 springs", rail: "96.5\" overall", best: "Serious practitioners" },
-                      { model: "Balanced Body Allegro 2", price: "$3,995", resistance: "5 springs", rail: "~8 ft", best: "Professional home studio" },
+                      { model: "Balanced Body Studio Reformer", price: "$4,700", resistance: "5 springs", rail: "~8 ft", best: "Professional home studio" },
                     ].map((row, i) => (
                       <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
                         <td className="px-4 py-3 font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.model}</td>
@@ -341,7 +341,7 @@ export default function BestHomeReformerPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Start from your constraint, not the price list</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Almost nobody buying a reformer is choosing freely between a $359 machine and a $3,995 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
+                Almost nobody buying a reformer is choosing freely between a $359 machine and a $4,700 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
@@ -369,22 +369,22 @@ export default function BestHomeReformerPage() {
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Space requirements to plan for</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                A full-size reformer requires a minimum footprint of approximately 8.5 feet long by 2.5 feet wide, plus clearance around the machine for safe movement. The Merrithew At Home SPX needs a dedicated space; the Allegro 2 can be stood on end with its wheel kit.
+                A full-size reformer requires a minimum footprint of approximately 8.5 feet long by 2.5 feet wide, plus clearance around the machine for safe movement. Both the Merrithew At Home SPX and the Balanced Body Studio Reformer need a dedicated, permanent space — neither folds.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                AeroPilates machines fold on wheels, and the Allegro 2 can be stood on its end with the wheel kit, which frees most of the floor when you&apos;re not training. If space is your main constraint, also look at Balanced Body&apos;s Metro IQ, whose telescoping frame shortens to 62 inches for storage.
+                AeroPilates machines fold on wheels, which frees most of the floor when you&apos;re not training. If space is your main constraint, look at Balanced Body&apos;s Metro IQ, whose telescoping frame shortens to 62 inches for storage, or the Allegro 2, which can be stood on end with its wheel kit.
               </p>
             </div>
 
             {/* Verdict */}
             <div className="mb-16 rounded-2xl p-8 md:p-10" style={{ background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>Buy once, buy the Balanced Body Allegro 2.</h2>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>Buy once, buy the Balanced Body Studio Reformer.</h2>
               <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                If budget is genuinely no constraint, the Allegro 2 is the machine you will never need to replace. If you want a professional-brand spring reformer with Amazon delivery, the Merrithew At Home SPX package is the one to buy. For regular practice on a smaller budget, the spring-based AeroPilates Pro XP 557 is a real step up from entry-level machines, and the AeroPilates 287 is the lowest-cost way to start.
+                If budget is genuinely no constraint, the Studio Reformer is the machine you will never need to replace. If you want a professional-brand spring reformer with Amazon delivery at a lower price, the Merrithew At Home SPX package is the one to buy. For regular practice on a smaller budget, the spring-based AeroPilates Pro XP 557 is a real step up from entry-level machines, and the AeroPilates 287 is the lowest-cost way to start.
               </p>
-              <a href="https://www.pilates.com/products/allegro-2-pilates-reformer/" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-                Shop the Allegro 2 at Balanced Body →
+              <a href="https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                Shop Balanced Body Studio Reformer on Amazon →
               </a>
             </div>
 

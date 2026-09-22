@@ -7,11 +7,11 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Premium Pilates Reformer (2026): Luxury Machines Reviewed",
-  description: "The best premium Pilates reformers — Gratz, Balanced Body Allegro 2, and Merrithew V2 Max reviewed for professional-grade spring systems, carriage glide, and longevity.",
+  title: "Best Premium Pilates Reformer (2026): Available Now on Amazon",
+  description: "The best premium Pilates reformers you can actually buy today — Balanced Body, Merrithew, Align-Pilates and PersonalHour reviewed for professional-grade spring systems, carriage glide, and longevity.",
   openGraph: {
-    title: "Best Premium Pilates Reformers (2026): $2K–$5K+",
-    description: "Allegro 2, Merrithew V2 Max, Gratz, Elina Elite Wood, and Peak MVe — the definitive premium reformer guide for serious home practitioners.",
+    title: "Best Premium Pilates Reformers (2026): $2,350–$4,700",
+    description: "Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX, Align-Pilates C8-PRO and PersonalHour — the definitive premium reformer guide for serious home practitioners.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-premium-pilates-reformer",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Premium Pilates Reformers — Pilates Collective Club" }],
@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Premium Pilates Reformers (2026)",
-    description: "The definitive guide to premium home Pilates reformers — $2,000 to $5,000+.",
+    description: "The definitive guide to premium home Pilates reformers — $2,350 to $4,700, all verified in stock.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
-  keywords: ["best premium pilates reformer", "luxury pilates reformer 2026", "professional pilates reformer buy", "gratz pilates reformer review", "balanced body allegro 2 premium", "merrithew v2 max review", "best high-end pilates reformer", "top pilates reformer brand"],
+  keywords: ["best premium pilates reformer", "luxury pilates reformer 2026", "professional pilates reformer buy", "balanced body studio reformer review", "align pilates c8 pro review", "merrithew at home spx review", "best high-end pilates reformer", "top pilates reformer brand"],
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-premium-pilates-reformer" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -30,126 +30,12 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Merrithew SPX Max Reformer",
-    price: "$3,499",
-    verdict: "Best entry into professional spring reformers",
-    tier: "Premium Entry",
-    description:
-      "The SPX Max is Merrithew's compact professional reformer, found in STOTT PILATES training centres and boutique studios. It runs Merrithew's High Precision Spring package (five springs: 3 × 100%, 1 × 50%, 1 × 25%), has the patented retractable rope system, and adjusts through three gearbar, six carriage-stopper, three headrest and four footbar positions. The carriage sits low (9 inches from the floor), which suits home rooms and makes it easy to step on and off. At $3,499 direct from Merrithew it is the least expensive professional-grade machine here; a bundle with box, platform extender and roll-up pole costs $310 more.",
-    affiliateUrl: "https://www.merrithew.com/shop/ProductDetail/ST01077_Spx-Max-Reformer",
-    specs: [
-      { label: "Dimensions", value: "26.5″W × 97″L" },
-      { label: "Weight capacity", value: "350 lbs" },
-      { label: "Springs", value: "5 springs (3×100%, 1×50%, 1×25%)" },
-      { label: "Carriage height", value: "9 inches" },
-      { label: "Machine weight", value: "128 lbs" },
-    ],
-    pros: ["Same spring package as Merrithew's studio machines", "Patented retractable rope system", "Low, compact frame suits home rooms", "Full accessory ecosystem (jumpboard, box, mat converter)"],
-    cons: ["Low carriage height is less comfortable for those with limited mobility", "Base price doesn't include box or accessories", "Sold direct and through dealers, not on Amazon"],
-  },
-  {
-    rank: "02",
-    name: "Balanced Body Allegro 2 Reformer",
-    price: "$3,995",
-    verdict: "Best overall premium home reformer",
-    tier: "Premium",
-    description:
-      "The Allegro 2 is the reformer instructors most often recommend for home use, and for good reason. The aluminium frame is quiet and rigid; the Infinity Footbar adjusts to four heights and slides along the frame to nine positions, so the machine adapts to almost any body length; and five Balanced Body springs (three red, one blue, one yellow) cover the full repertoire. With the optional wheel kit it can be stood on end for storage, and the frame carries a 10-year warranty. It costs $3,995 direct from Balanced Body (more with legs). Balanced Body has also launched the Allegro Nextgen, from $3,245, if you want the newest version of the design.",
-    affiliateUrl: "https://www.pilates.com/products/allegro-2-pilates-reformer/",
-    specs: [
-      { label: "Frame", value: "Aluminium" },
-      { label: "Springs", value: "5 springs: 3 red, 1 blue, 1 yellow" },
-      { label: "Footbar", value: "Infinity Footbar: 4 heights, 9 horizontal positions" },
-      { label: "Storage", value: "Stands on end (wheel kit required)" },
-      { label: "Warranty", value: "10 years on frame" },
-    ],
-    pros: ["Infinity Footbar adjusts along the full frame", "Quiet, rigid aluminium frame", "Stands on end for storage with wheel kit", "10-year frame warranty", "Huge Balanced Body accessory range (tower, jumpboard, box)"],
-    cons: ["$3,995 before accessories", "Legs, wheel kit and box cost extra", "Not currently sold on Amazon"],
-  },
-  {
-    rank: "03",
-    name: "Merrithew V2 Max Reformer",
-    price: "About $4,600",
-    verdict: "Best for multi-user households and clinical use",
-    tier: "Premium",
-    description:
-      "The V2 Max is the full-height, wider sibling of the SPX Max, built for high-traffic studios, rehab clinics and serious home users. The carriage is 24 inches wide (versus 22 on the SPX Max) and sits 16 inches off the floor, a standard studio height that is easier to get on and off. It uses the same High Precision Spring package and patented retractable rope system, and it accepts Merrithew's Vertical Frame if you later want Cadillac-style work. Dealer pricing runs about $4,600 for the reformer alone. Choose it over the SPX Max if several people will use the machine or if a higher carriage matters to you.",
-    affiliateUrl: "https://www.merrithew.com/shop/ProductDetail/ST01071_V2-Max-Reformer",
-    specs: [
-      { label: "Dimensions", value: "30″W × 97″L" },
-      { label: "Weight capacity", value: "350 lbs" },
-      { label: "Springs", value: "5 springs (3×100%, 1×50%, 1×25%)" },
-      { label: "Carriage", value: "24″ wide, 16″ from floor" },
-      { label: "Machine weight", value: "145 lbs" },
-    ],
-    pros: ["Wider 24-inch carriage", "Standard 16-inch studio height — easier to mount", "Patented retractable rope system", "Upgradeable with Vertical Frame, jumpboard and rebounder", "Built for commercial use"],
-    cons: ["145 lbs and 30 inches wide — needs a dedicated space", "About $1,100 more than the SPX Max for the same spring package", "Sold direct and through dealers, not on Amazon"],
-  },
-  {
-    rank: "04",
-    name: "Elina Pilates Elite Wood Reformer",
-    price: "$3,995",
-    verdict: "Best aesthetics and carriage feel",
-    tier: "Premium",
-    description:
-      "The Elina Elite Wood Reformer is the pick for practitioners who care as much about how the machine looks in a room as how it rides. It is built from rock maple with a six-spring system, a height-adjustable springbar, a 7-position quick-release footbar and eight polyurethane carriage wheels on high-precision bearings, which gives it a notably quiet, smooth glide. It stacks, so it also works for a small studio setup. At about $3,995 it matches the Allegro 2 on price; the trade-off is a smaller North American dealer network and parts ecosystem.",
-    affiliateUrl: "https://www.elinapilates.com/us/en/pilates-reformers/307-wood-reformer-for-pilates-elite.html",
-    specs: [
-      { label: "Construction", value: "Rock maple" },
-      { label: "Springs", value: "6 springs, height-adjustable springbar" },
-      { label: "Carriage wheels", value: "8 polyurethane, high-precision bearings" },
-      { label: "Footbar positions", value: "7 quick-release positions" },
-      { label: "Stackable", value: "Yes" },
-    ],
-    pros: ["Quiet, smooth carriage on eight PU wheels", "Rock maple construction", "Six-spring system", "Genuine studio aesthetic", "Stackable"],
-    cons: ["Smaller parts/accessory ecosystem than Balanced Body or Merrithew", "Longer lead times possible (Spanish manufacturer)", "Limited North American dealer network"],
-  },
-  {
-    rank: "05",
-    name: "Peak Pilates MVe Reformer",
-    price: "$4,295 with box",
-    verdict: "Best for home studios with multiple machines",
-    tier: "Premium-Professional",
-    description:
-      "The Peak Pilates MVe ($4,295 with the Long/Short Box, direct from Peak Pilates) is built for home studio owners who want professional build quality and may add a second machine later. MVe reformers nest up to four high for storage. The aluminium frame, five-spring system (1 heavy, 2 medium, 2 light), retractable shoulder blocks, retractable risers and gear-bar adjustment give full-repertoire capability, and a Tower bundle is available if you want reformer, tower and mat work from one frame. Note the 103-inch length: measure your room before you order.",
-    affiliateUrl: "https://www.peakpilates.com/products/mve-reformer",
-    specs: [
-      { label: "Dimensions", value: "15.5″H × 29″W × 103″L" },
-      { label: "Weight capacity", value: "300 lbs" },
-      { label: "Springs", value: "5 springs (1 heavy, 2 medium, 2 light)" },
-      { label: "Machine weight", value: "135 lbs (reformer only)" },
-      { label: "Stackable", value: "Nests up to 4 high" },
-    ],
-    pros: ["Nests up to four high for storage", "Retractable shoulder blocks and risers", "Tower bundle available", "Professional studio quality"],
-    cons: ["103 inches long — the longest machine here", "300 lb user limit is lower than Merrithew's 350 lb", "Sold direct and through dealers, not on Amazon"],
-  },
-  {
-    rank: "06",
-    name: "Gratz Classic Reformer (Aluminium)",
-    price: "$4,645",
-    verdict: "Best for classical method purists",
-    tier: "Heritage",
-    description:
-      "Gratz made apparatus for Joseph Pilates in New York and still hand-builds its reformers there to his designs. The Classic Reformer uses four springs of equal tension and a gear bar that changes spring pre-tension rather than swapping springs, which gives the firm, consistent feel classical teachers train on. The 86-inch aluminium Classic costs $4,645 direct from Gratz; other lengths and a maple Designer version are also available. There is little adjustability compared with contemporary machines, and that is the point: if your training is classical, this is the reference.",
-    affiliateUrl: "https://www.gratzpilates.com/products/86-aluminum-reformer",
-    specs: [
-      { label: "Lengths", value: "80″, 86″, 89″" },
-      { label: "Springs", value: "4 equal-tension springs + gear bar" },
-      { label: "Construction", value: "Aluminium (maple Designer version available)" },
-      { label: "Origin", value: "Hand-built in New York" },
-      { label: "Lineage", value: "Joseph Pilates' original design" },
-    ],
-    pros: ["The classical reference machine", "Gear bar adjusts pre-tension, not just spring load", "Unmatched heritage", "Built to last decades", "Three lengths"],
-    cons: ["Little adjustability compared with contemporary machines", "Four equal springs (no graduated light springs)", "Lead times vary — made to order", "Limited accessory ecosystem beyond classical apparatus"],
-  },
-  {
-    rank: "07",
     name: "Merrithew At Home SPX Reformer Package",
     price: "$3,349",
     verdict: "Best premium reformer sold on Amazon",
     tier: "Premium Home",
     description:
-      "If you want a genuine Merrithew machine with Amazon's delivery and returns, the At Home SPX package is the one to buy, and it is sold and shipped by Amazon.com itself. It is Merrithew's home-specific model rather than the studio SPX Max, but it uses the same quality components: aluminium rails, a smooth, quiet carriage and five springs (4 × 100%, 1 × 50%). The package includes the reformer box, a metal roll-up pole, a padded platform extender and double-loop straps, so there is nothing else to buy to start. It measures 96.5 inches long and weighs 115 lbs.",
+      "Sold and shipped by Amazon.com itself, this is a genuine Merrithew machine with Amazon's delivery and returns behind it. It's Merrithew's home-specific model rather than the studio SPX Max, but it uses the same quality components: aluminium rails, a smooth, quiet carriage and five springs (4 × 100%, 1 × 50%). The package includes the reformer box, a metal roll-up pole, a padded platform extender and double-loop straps, so there is nothing else to buy to start. It measures 96.5 inches long and weighs 115 lbs.",
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
     specs: [
       { label: "Length", value: "96.5 inches" },
@@ -161,15 +47,109 @@ const PRODUCTS = [
     pros: ["Sold and shipped by Amazon.com", "Complete package — box, pole and extender included", "Genuine Merrithew build quality", "Lowest price for a premium-brand spring reformer"],
     cons: ["Home model, not the studio SPX Max", "Four equal springs plus one half — fewer light options than the SPX Max", "Amazon price moves; check the current listing"],
   },
+  {
+    rank: "02",
+    name: "Balanced Body Studio Reformer (Revo Footbar)",
+    price: "$4,700",
+    verdict: "Best overall premium reformer",
+    tier: "Premium",
+    description:
+      "The Studio Reformer is Balanced Body's commercial machine, sold direct by Balanced Body through their Amazon storefront. The frame is solid rock maple with commercial-grade upholstery, built for daily professional use. Five Signature Springs give 46 resistance combinations; the Revo system adds a 4-position locking footbar and a 5-position springbar; TwistLock shoulder rests make fast, secure changes. It doesn't fold, so it needs a permanent spot, and it's made to order — allow three to four weeks to ship.",
+    affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
+    specs: [
+      { label: "Dimensions", value: "92.6\" L × 26.5\" W × 15\" H" },
+      { label: "Frame", value: "Solid rock maple" },
+      { label: "Springs", value: "5 Signature Springs (46 combinations)" },
+      { label: "Footbar / springbar", value: "Revo: 4-position footbar, 5-position springbar" },
+      { label: "Sold by", value: "Balanced Body Inc. (Amazon)" },
+    ],
+    pros: ["Solid rock maple frame built for daily professional use", "Revo footbar and springbar for quick, secure adjustments", "46 resistance combinations", "Sold by Balanced Body on Amazon"],
+    cons: ["Does not fold — needs permanent floor space", "Made to order — three to four weeks to ship", "Heavier and less portable than home-focused machines"],
+  },
+  {
+    rank: "03",
+    name: "Balanced Body Allegro Stretch Reformer",
+    price: "$3,710",
+    verdict: "Best for taller or larger practitioners",
+    tier: "Premium",
+    description:
+      "The Allegro Stretch is Balanced Body's answer for practitioners who find standard reformers cramped: a carriage 2 inches wider and 6 inches longer than the regular Allegro, with a 36-inch adjustable footbar (4 locking positions) instead of a fixed-width bar. The frame is low-maintenance anodized aluminium with a built-in nonslip standing platform, TwistLock shoulder rests, and an 8-wheel suspension system (4 vertical, 4 horizontal) for a smooth, stable glide. Sold direct by Balanced Body through Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
+    specs: [
+      { label: "Carriage", value: "2\" wider, 6\" longer than the standard Allegro" },
+      { label: "Footbar", value: "36\" adjustable, 4 locking positions" },
+      { label: "Frame", value: "Anodized aluminium" },
+      { label: "Carriage suspension", value: "8-wheel (4 vertical, 4 horizontal)" },
+      { label: "Sold by", value: "Balanced Body Inc. (Amazon)" },
+    ],
+    pros: ["Wider, longer carriage for tall or larger bodies", "36\" adjustable footbar with 4 locking positions", "TwistLock shoulder rests", "Built-in nonslip standing platform"],
+    cons: ["Larger footprint than a standard-size reformer", "Made to order — allow lead time to ship", "Heavier due to the extended frame"],
+  },
+  {
+    rank: "04",
+    name: "Align-Pilates C8-PRO Reformer",
+    price: "$2,750",
+    verdict: "Best value professional-grade reformer",
+    tier: "Premium Value",
+    description:
+      "The C8-PRO brings Align-Pilates' professional spring package into a home-sized, stackable frame, and it's sold on Amazon by Merrithew, Align's US distributor. It runs on an 8-PU-wheel carriage for a quiet, low-maintenance ride, and the Rapid Change Spring Bar lets you swap resistance fast. Optional leg extensions raise the bed height to 44cm (versus 26cm standard) if you want a taller, more studio-like position. At 239.5cm long and rated for users up to 150kg (331 lbs), it's a serious machine at a price well under the other premium options here.",
+    affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20",
+    specs: [
+      { label: "Length", value: "239.5cm (94.3\")" },
+      { label: "Carriage", value: "8 PU wheels" },
+      { label: "Springs", value: "Rapid Change Spring Bar" },
+      { label: "Weight capacity", value: "150kg (331 lbs)" },
+      { label: "Sold by", value: "Merrithew. (Amazon)" },
+    ],
+    pros: ["Lowest price of a true professional-grade spring reformer here", "Rapid Change Spring Bar — fast, tool-free adjustments", "Stackable for storage", "Optional leg extensions for studio bed height"],
+    cons: ["Smaller accessory range than Balanced Body or Merrithew", "Home-sized frame, not a full studio machine", "Sold by a third-party distributor, not Align directly"],
+  },
+  {
+    rank: "05",
+    name: "PersonalHour Janet La Force Plus",
+    price: "$2,555",
+    verdict: "Best walnut wood home reformer",
+    tier: "Premium Home",
+    description:
+      "For a wood-frame reformer at a lower price point than the maple studio machines, the Janet La Force Plus is a solid walnut, foldable reformer sold on Amazon by PilatesUS. It runs six adjustable springs, has a cushioned carriage and adjustable footbar, and the frame is tower-ready if you want to add a vertical frame later. It folds upright on wheels for storage, which none of the maple studio machines in this guide can do, and ships with a jumpboard, box, foot strap and loops included.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20",
+    specs: [
+      { label: "Frame", value: "Solid walnut" },
+      { label: "Springs", value: "6 adjustable springs" },
+      { label: "Storage", value: "Folds upright on wheels" },
+      { label: "Included", value: "Jumpboard, box, foot strap, loops" },
+      { label: "Sold by", value: "PilatesUS (Amazon)" },
+    ],
+    pros: ["Solid walnut frame — distinct from the aluminium/maple machines here", "Folds upright on wheels for storage", "Tower-ready frame", "Full accessory set included in the price"],
+    cons: ["Smaller, newer brand than Balanced Body or Merrithew", "Stock can run scarce — check availability", "Less established resale value"],
+  },
+  {
+    rank: "06",
+    name: "Balanced Body Metro IQ Reformer",
+    price: "$2,350",
+    verdict: "Best space-saving premium reformer",
+    tier: "Premium Compact",
+    description:
+      "The Metro IQ solves the space problem that keeps most people from owning a full reformer. Its patented telescoping frame extends for training and shortens by 36 inches for storage, sliding under a bed or standing in a closet depending on the wheel kit. You still get genuine Balanced Body engineering: five Signature Springs, a seamless carriage on an 8-wheel system, a 4-position footbar with 9 inches of adjustment, a 3-position headrest and a built-in 5.5-inch standing platform. Sold direct by Balanced Body through Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B0F79ZCQMV?tag=pilatescollective-20",
+    specs: [
+      { label: "Storage reduction", value: "36 inches shorter when stored" },
+      { label: "Springs", value: "5 Signature Springs" },
+      { label: "Footbar", value: "4 positions, 9\" of adjustment" },
+      { label: "Standing platform", value: "5.5\" built-in" },
+      { label: "Sold by", value: "Balanced Body Inc. (Amazon)" },
+    ],
+    pros: ["Telescoping frame shortens by 36\" for storage", "Genuine Balanced Body springs and carriage", "Built-in standing platform", "Sold by Balanced Body on Amazon"],
+    cons: ["Lighter-duty than a full studio frame", "Stock can run scarce — check availability", "Fewer accessory options than the Studio Reformer or Allegro line"],
+  },
 ];
 
 const FAQS = [
-  { q: "What is the best premium Pilates reformer for home use?", a: "The Balanced Body Allegro 2 ($3,995) is the most recommended premium home reformer by master-level instructors, with its Infinity Footbar, a 10-year frame warranty, and full Balanced Body accessory compatibility. For classical purists, the Gratz Classic Reformer ($4,645 for the 86-inch aluminium model) is the original Joseph Pilates design. If you want to buy on Amazon, the Merrithew At Home SPX Reformer Package ($3,349, sold by Amazon.com) is the best premium option there." },
-  { q: "What is the difference between the Merrithew SPX Max and V2 Max?", a: "Both use the same five-spring High Precision package and Merrithew's patented retractable rope system. The SPX Max ($3,499) is compact: 26.5 inches wide with a 22-inch carriage sitting 9 inches off the floor. The V2 Max (about $4,600) is 30 inches wide with a 24-inch carriage at a standard 16-inch height, which is easier to get on and off and roomier for larger users, and it accepts the Vertical Frame. For one person training at home the SPX Max does the same job for about $1,100 less." },
-  { q: "Is the Balanced Body Allegro 2 worth the price?", a: "For practitioners who train 4+ times per week and want a machine they will never replace, yes. The Allegro 2's Infinity Footbar, quiet aluminium frame and 10-year frame warranty justify $3,995. For those training 2-3 times per week, the Merrithew SPX Max at $3,499 covers the full repertoire with comparable spring quality for around $500 less." },
-  { q: "Why is the Gratz reformer so expensive?", a: "The Gratz Classic Reformer ($4,645 for the 86-inch aluminium model) is handmade in New York to specifications that trace directly to Joseph Pilates. The four equal springs and gear bar (which changes spring pre-tension rather than swapping springs) create a resistance feel unlike modern competitors. For classical lineage practitioners, the Gratz is not simply expensive — it is the original, and everything else is a variation." },
+  { q: "What is the best premium Pilates reformer for home use?", a: "The Balanced Body Studio Reformer ($4,700) is the most complete premium home reformer — a solid rock maple frame, 46 resistance combinations, and full compatibility with Balanced Body's accessory range. If you want the lowest price for a genuine premium-brand machine, the Merrithew At Home SPX Reformer Package ($3,349) is sold and shipped by Amazon.com. For a lower price on a true professional spring system, the Align-Pilates C8-PRO ($2,750) is the best value in this guide." },
+  { q: "What's the difference between the Balanced Body Studio Reformer and the Allegro Stretch?", a: "Both are genuine Balanced Body machines. The Studio Reformer ($4,700) is the commercial-grade frame used in professional studios, with solid rock maple construction and the Revo footbar system. The Allegro Stretch ($3,710) is built specifically for taller or larger practitioners — its carriage is 2 inches wider and 6 inches longer, with a 36-inch adjustable footbar instead of a fixed bar. Choose the Studio Reformer for maximum durability and accessory compatibility; choose the Allegro Stretch if a standard-size carriage feels cramped." },
+  { q: "Is the Align-Pilates C8-PRO a real professional reformer?", a: "Yes. It uses Align-Pilates' Rapid Change Spring Bar and an 8-wheel PU carriage, the same core engineering as Align's studio machines, in a home-sized, stackable frame. At $2,750 it's the least expensive true professional-grade spring reformer in this guide, though its accessory ecosystem is smaller than Balanced Body's or Merrithew's." },
+  { q: "What's the difference between a maple, aluminium and walnut reformer?", a: "The frame material mostly affects weight, sound and price rather than performance. Solid rock maple (Balanced Body Studio Reformer) and solid walnut (PersonalHour Janet La Force Plus) are heavier and have a warmer, quieter carriage sound. Anodized aluminium (Allegro Stretch, Align C8-PRO) is lighter, lower-maintenance and often more affordable. All the machines in this guide use genuine calibrated steel springs regardless of frame material." },
 ];
-
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -177,7 +157,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-premium-pilates-reformer/#article",
       "headline": "Best Premium Pilates Reformers (2026): $2,000–$5,000+ Honestly Reviewed",
-      "description": "The best premium Pilates reformers for serious home practitioners — Balanced Body Allegro 2, Merrithew V2 Max, Gratz, Elina, and Peak Pilates MVe. Verified prices, honest assessments.",
+      "description": "The best premium Pilates reformers for serious home practitioners — Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX, Align-Pilates C8-PRO and PersonalHour. Verified prices, honest assessments.",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" } },
@@ -266,12 +246,12 @@ export default function BestPremiumReformerPage() {
             {/* Introduction */}
             <div className="mb-16 mt-4">
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Prices in this guide were verified at primary sources (pilates.com, merrithew.com, gratzpilates.com, peakpilates.com, elinapilates.com, Amazon) in September 2026. Premium reformer pricing changes; treat our figures as current benchmarks and verify before purchasing.
+                Every machine in this guide is sold on Amazon by the manufacturer or an authorised distributor, and prices and stock were verified there in September 2026. Reformer pricing and availability change; treat our figures as current benchmarks and check the listing before buying.
               </p>
               <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(139,74,49,0.15)" }}>
                 <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our overall pick</p>
                 <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  The <strong>Balanced Body Allegro 2</strong> at $3,995 offers the best combination of carriage quality, accessory ecosystem, and long-term value for most serious home practitioners. The Gratz is the right answer if your training is classical and authenticity matters to you above all else.
+                  The <strong>Balanced Body Studio Reformer</strong> at $4,700 offers the best combination of carriage quality, accessory ecosystem, and long-term value for most serious home practitioners. The <strong>Align-Pilates C8-PRO</strong> at $2,750 is the right answer if budget matters more than brand.
                 </p>
               </div>
             </div>
@@ -320,7 +300,7 @@ export default function BestPremiumReformerPage() {
 
             {/* Products */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>7 Reformers · $3,349 to $4,645</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Reformers · $2,350 to $4,700</p>
               <div className="space-y-16">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -377,13 +357,12 @@ export default function BestPremiumReformerPage() {
                   </thead>
                   <tbody>
                     {[
-                      { model: "Merrithew SPX Max", price: "$3,499", springs: "5 springs", rail: "97″", carriage: "22″ wide, 9″ high", best: "Entry premium" },
-                      { model: "Allegro 2", price: "$3,995", springs: "5 springs", rail: "Aluminium frame", carriage: "Infinity Footbar", best: "Best all-round" },
-                      { model: "Merrithew V2 Max", price: "~$4,600", springs: "5 high-precision", rail: "97″", carriage: "24″ wide, 16″ high", best: "Multi-user / clinical" },
-                      { model: "Elina Elite Wood", price: "$3,995", springs: "6 springs", rail: "Rock maple", carriage: "8 PU wheels", best: "Aesthetics + feel" },
-                      { model: "Peak Pilates MVe", price: "$4,295", springs: "5 springs", rail: "103″", carriage: "Standard", best: "Home studios" },
-                      { model: "Gratz Classic", price: "$4,645", springs: "4 equal + gear bar", rail: "80–89″", carriage: "Traditional", best: "Classical purists" },
-                      { model: "Merrithew At Home SPX", price: "$3,349", springs: "5 springs", rail: "96.5″", carriage: "Standard", best: "Buying on Amazon" },
+                      { model: "Merrithew At Home SPX", price: "$3,349", springs: "5 springs", rail: "96.5″", carriage: "Standard", best: "Buying on Amazon.com" },
+                      { model: "Balanced Body Studio Reformer", price: "$4,700", springs: "5 springs, 46 combos", rail: "92.6″", carriage: "Rock maple, Revo footbar", best: "Best all-round" },
+                      { model: "Balanced Body Allegro Stretch", price: "$3,710", springs: "5 springs", rail: "Extended carriage", carriage: "36″ adjustable footbar", best: "Tall / larger bodies" },
+                      { model: "Align-Pilates C8-PRO", price: "$2,750", springs: "Rapid Change Spring Bar", rail: "94.3″", carriage: "8 PU wheels", best: "Best value" },
+                      { model: "PersonalHour Janet La Force Plus", price: "$2,555", springs: "6 springs", rail: "Foldable", carriage: "Solid walnut", best: "Wood + foldable" },
+                      { model: "Balanced Body Metro IQ", price: "$2,350", springs: "5 springs", rail: "Telescoping (-36″ stored)", carriage: "Standard", best: "Small spaces" },
                     ].map((row, i) => (
                       <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
                         <td className="px-4 py-3 font-semibold whitespace-nowrap" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.model}</td>
@@ -404,12 +383,12 @@ export default function BestPremiumReformerPage() {
             <div className="mb-16 space-y-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who should buy which</h2>
               {[
-                { who: "Serious home practitioners, all methods", buy: "Balanced Body Allegro 2", reason: "The most complete single purchase — carriage quality, Infinity Footbar, vertical storage, accessory ecosystem, and 10-year warranty." },
-                { who: "Practitioners trained in the STOTT/Merrithew method", buy: "Merrithew V2 Max", reason: "The machine your instructors used. Familiar spring feel, retractable rope system, and full Merrithew accessory compatibility." },
-                { who: "Classical Pilates practitioners", buy: "Gratz Classic Reformer", reason: "There is no more authentic classical reformer. If your training traces to Romana or the New York classical tradition, the Gratz is the right answer." },
-                { who: "Home studio owners running private clients", buy: "Peak Pilates MVe", reason: "Nesting up to four high makes the MVe the practical choice when space and multi-machine use both matter." },
-                { who: "Practitioners who prioritise aesthetics and feel equally", buy: "Elina Elite Wood", reason: "The most beautiful machine in this class, with a carriage feel that rivals the Allegro 2 at a comparable price." },
-                { who: "Transitioning from studio to home practice, budget-conscious", buy: "Merrithew SPX Max", reason: "The same spring package as the V2 Max for about $1,100 less. The practical choice when the full premium budget is not justified." },
+                { who: "Serious home practitioners, all methods", buy: "Balanced Body Studio Reformer", reason: "The most complete single purchase — solid maple carriage, Revo footbar and springbar, 46 resistance combinations, and Balanced Body's full accessory ecosystem." },
+                { who: "Buying with Amazon's delivery and returns", buy: "Merrithew At Home SPX", reason: "Sold and shipped by Amazon.com directly, at the lowest price of any premium-brand machine here." },
+                { who: "Tall or larger-bodied practitioners", buy: "Balanced Body Allegro Stretch", reason: "A wider, longer carriage and a 36-inch adjustable footbar make this the right choice when a standard reformer feels cramped." },
+                { who: "Budget-conscious buyers who still want true springs", buy: "Align-Pilates C8-PRO", reason: "The least expensive genuine professional-grade spring reformer in this guide, with a Rapid Change Spring Bar and a stackable frame." },
+                { who: "Practitioners who want a wood-frame home machine", buy: "PersonalHour Janet La Force Plus", reason: "Solid walnut construction, six adjustable springs, and it folds upright for storage — something the maple studio machines can't do." },
+                { who: "Small apartments and limited floor space", buy: "Balanced Body Metro IQ", reason: "A telescoping frame that shortens by 36 inches for storage without sacrificing genuine Balanced Body springs and carriage." },
               ].map((item) => (
                 <div key={item.who} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                   <div className="flex flex-wrap items-start gap-3 mb-2">
@@ -424,12 +403,12 @@ export default function BestPremiumReformerPage() {
             {/* Verdict */}
             <div className="mb-16 rounded-2xl p-8 md:p-10" style={{ background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>For most people: the Balanced Body Allegro 2.</h2>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>For most people: the Balanced Body Studio Reformer.</h2>
               <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                If you are training seriously, training frequently, and want one machine that will serve the full classical and contemporary repertoire for the next twenty years, the Allegro 2 at $3,995 is the clearest answer in the premium category. The Infinity Footbar, vertical storage, huge accessory range and 10-year frame warranty are a combination no competitor matches at this price. If your lineage is classical and you train with a Gratz-familiar instructor, the Gratz Classic is the correct machine — not for nostalgia but for functional authenticity.
+                If you are training seriously, training frequently, and want one machine that will serve the full classical and contemporary repertoire for the next twenty years, the Studio Reformer at $4,700 is the clearest answer in the premium category. The solid maple carriage, Revo footbar and springbar, and Balanced Body&apos;s huge accessory range are a combination no competitor matches at this price, and it&apos;s sold direct on Amazon. If budget matters more than brand, the Align-Pilates C8-PRO at $2,750 is the best value here — a genuine professional spring system for well under the price of the maple machines.
               </p>
-              <a href="https://www.pilates.com/products/allegro-2-pilates-reformer/" target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-                Shop Balanced Body Allegro 2 →
+              <a href="https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                Shop Balanced Body Studio Reformer on Amazon →
               </a>
             </div>
 

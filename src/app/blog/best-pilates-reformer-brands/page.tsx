@@ -107,12 +107,12 @@ const BRANDS = [
     badgeColor: "#536257",
     price: "$2,330–$7,000",
     bestFor: "Studios, serious home practitioners, contemporary method",
-    flagship: "Allegro 2 Reformer",
-    summary: "Balanced Body is the best reformer Pilates brand in the world by almost any measure — market share, accessory ecosystem, and suitability across the widest range of practitioners. The Allegro 2 ($3,995) is the most-recommended home and studio machine, the Studio Reformer is the commercial workhorse in countless contemporary studios, and the telescoping Metro IQ ($2,330) solves small-space living. Springs are smooth and forgiving, the carriage is precision-engineered, and the accessory lineup (jump board, long box, tower, vertical frame) covers the entire classical and contemporary repertoire. If you want one machine that matches your studio experience and will still command resale value in a decade, this is it.",
-    pros: ["Global studio standard — matches most in-person class machines", "Deepest accessory ecosystem of any brand", "Commercial-grade durability at every price tier", "Supports both classical and contemporary method equally"],
-    cons: ["Premium pricing — Allegro 2 is $3,995 before accessories", "Spring feel is smoother than Gratz — not historically authentic", "Heavy machines require two people for setup"],
-    affiliateUrl: "https://www.pilates.com/products/allegro-2-pilates-reformer/",
-    affiliateLabel: "Shop Balanced Body →",
+    flagship: "Studio Reformer",
+    summary: "Balanced Body is the best reformer Pilates brand in the world by almost any measure — market share, accessory ecosystem, and suitability across the widest range of practitioners. The Studio Reformer ($4,700) is the commercial workhorse in countless contemporary studios, the Allegro Stretch ($3,710) is built for taller or larger bodies, and the telescoping Metro IQ ($2,330) solves small-space living — all sold direct by Balanced Body on Amazon. Springs are smooth and forgiving, the carriage is precision-engineered, and the accessory lineup (jump board, long box, tower, vertical frame) covers the entire classical and contemporary repertoire. If you want one machine that matches your studio experience and will still command resale value in a decade, this is it.",
+    pros: ["Global studio standard — matches most in-person class machines", "Deepest accessory ecosystem of any brand", "Commercial-grade durability at every price tier", "Sold direct on Amazon at every price tier"],
+    cons: ["Premium pricing — Studio Reformer is $4,700 before accessories", "Spring feel is smoother than Gratz — not historically authentic", "Heavy machines require two people for setup"],
+    affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
+    affiliateLabel: "Shop Balanced Body on Amazon →",
   },
   {
     rank: 2,
@@ -126,8 +126,8 @@ const BRANDS = [
     summary: "Gratz is the original. The company built apparatus for Joseph Pilates himself in New York and still hand-builds its machines there to his designs. A Gratz reformer uses four equal-tension springs and a gear bar, with the firm, direct spring response and dimensions the classical repertoire was built around. The 86-inch aluminium Classic Reformer is $4,645 and the maple Designer Reformer starts at $4,590. If you practise classical Pilates — Romana's Pilates, New York Pilates, or the Contrology lineage — there is no substitute. The investment is significant, but Gratz reformers from the 1960s are still in active studio use.",
     pros: ["Historically accurate spring tensions the entire classical repertoire is built on", "Lifetime durability — original 1960s machines still performing", "Every classical apparatus available from a single source", "The tactile feedback the method was designed around"],
     cons: ["Little adjustability compared with contemporary machines", "Not designed for contemporary method modifications", "Limited dealer network outside the US", "Made to order — lead times can run to several months"],
-    affiliateUrl: "https://www.gratzpilates.com/collections/shop-all-pilates-reformers",
-    affiliateLabel: "Shop Gratz →",
+    affiliateUrl: null,
+    affiliateLabel: null,
   },
   {
     rank: 3,
@@ -156,8 +156,8 @@ const BRANDS = [
     summary: "Peak Pilates is a Colorado-based professional equipment maker, less globally dominant than Balanced Body but well regarded in the American market. The MVe Reformer is the flagship: an aluminium frame with five springs (1 heavy, 2 medium, 2 light), retractable shoulder blocks and risers, gear-bar adjustment, and a frame that nests up to four high. It sells for $4,295 with the Long/Short Box, and a Tower bundle adds Cadillac-style work. For practitioners who want professional quality without committing to the Balanced Body ecosystem price, Peak is the most credible alternative.",
     pros: ["Retractable shoulder blocks and risers for quick set-up changes", "MVe reformers nest up to four high — ideal for small studios", "Strong resale value in the US market", "Competitively priced against Balanced Body for comparable quality"],
     cons: ["Limited international dealer network — harder to service outside North America", "Fewer budget entry-level models than Align or Merrithew", "Less prominent training methodology association"],
-    affiliateUrl: "https://www.peakpilates.com/products/mve-reformer",
-    affiliateLabel: "Shop Peak Pilates →",
+    affiliateUrl: null,
+    affiliateLabel: null,
   },
   {
     rank: 5,
@@ -171,8 +171,8 @@ const BRANDS = [
     summary: "BASI Systems is the equipment brand built to match the BASI Pilates education programme — founded by Rael Isacowitz, one of the world's most respected Pilates educators. The reformer runs on aircraft-grade aluminium tracks and adjusts for a wide range of body sizes, and if you trained with a BASI teacher it reproduces the set-up you learned on. In the US it is sold only through Bodynetworx: the Compact Reformer starts at $5,250, the full Reformer at $6,850 and the Reformer Combo (with tower) lists at $11,750. A serious choice for serious practitioners.",
     pros: ["Full-size and Compact frames to suit different rooms", "Built to support the full BASI curriculum from beginner to performance", "Smooth, quiet aluminium-track carriage", "Exceptional durability for intensive commercial use"],
     cons: ["Premium pricing — significantly above Merrithew and Balanced Body for comparable models", "Less widely available — boutique dealer network", "Over-engineered for general home use"],
-    affiliateUrl: "https://bodynetworx.com/products/reformer",
-    affiliateLabel: "Shop BASI Systems →",
+    affiliateUrl: null,
+    affiliateLabel: null,
   },
   {
     rank: 6,
@@ -186,8 +186,8 @@ const BRANDS = [
     summary: "Elina Pilates occupies the premium end of the value tier — handcrafted wood and aluminium reformers that compete directly with Balanced Body and Merrithew on quality while often undercutting them on price. The Elite Wood (about $3,995) is the brand's signature: a rock maple frame, a six-spring system with a height-adjustable springbar, a 7-position quick-release footbar and eight polyurethane carriage wheels on precision bearings, in a stackable design. Elina also produces a full cadillac, chair, and barrel range, making it a viable single-source option for a boutique studio that wants handcrafted aesthetics at below-Balanced-Body prices.",
     pros: ["Handcrafted wood construction — aesthetically premium for boutique studios", "Quiet eight-wheel carriage and six-spring system", "Priced below Balanced Body and Merrithew for comparable quality", "Full apparatus range available (cadillac, chair, barrel)"],
     cons: ["Less established global reputation than the top three brands", "Servicing can be harder to arrange outside Europe and Australia", "Spring feel is less smooth than Balanced Body — an adjustment if switching"],
-    affiliateUrl: "https://www.elinapilates.com/us/en/pilates-reformers/307-wood-reformer-for-pilates-elite.html",
-    affiliateLabel: "Shop Elina Pilates →",
+    affiliateUrl: null,
+    affiliateLabel: null,
   },
   {
     rank: 7,
@@ -231,8 +231,8 @@ const BRANDS = [
     summary: "Your Reformer is the best reformer Pilates at home brand for practitioners who want more than just a machine — they want a complete home studio experience. The Original is a foldable reformer with a maple wood frame, plush upholstery, commercial-standard springs and reinforced rails ($2,750 list, often on sale). It ships with a jumpboard, box, grip socks and a prop starter kit. What makes Your Reformer distinct is the paired OnDemand app, with reformer classes from beginner to advanced; three months are included with the machine. If the quality of your programming matters as much as the quality of your equipment, nothing else in this price range comes close.",
     pros: ["Paired on-demand app is the best in the home reformer category", "Maple wood frame — aesthetically premium", "Folds for storage — good for apartment living", "Jumpboard, box and prop kit included"],
     cons: ["App subscription is an ongoing cost after the first three months", "Spring feel is brand-specific — different from studio machines", "Accessories range still developing compared to Balanced Body"],
-    affiliateUrl: "https://yourreformer.com/products/yr-original",
-    affiliateLabel: "Shop Your Reformer →",
+    affiliateUrl: null,
+    affiliateLabel: null,
   },
   {
     rank: 10,
@@ -252,7 +252,7 @@ const BRANDS = [
 ];
 
 const QUICK_MATCH = [
-  { scenario: "You want the best reformer Pilates machine overall", brand: "Balanced Body Allegro 2", href: "/blog/balanced-body-pilates" },
+  { scenario: "You want the best reformer Pilates machine overall", brand: "Balanced Body Studio Reformer", href: "/blog/balanced-body-pilates" },
   { scenario: "You practise classical Pilates and want historical accuracy", brand: "Gratz Classic Reformer", href: "/blog/gratz-pilates" },
   { scenario: "You trained with a STOTT-certified instructor", brand: "Merrithew SPX Max", href: "/blog/merrithew-pilates" },
   { scenario: "You want professional springs at a home-reformer price", brand: "Align-Pilates C8-Pro", href: "/blog/align-pilates-reformer-review" },
@@ -392,9 +392,13 @@ export default function BestReformerBrandsPage() {
 
                       {/* CTA row */}
                       <div className="flex items-center gap-4 flex-wrap">
-                        <a href={brand.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                          {brand.affiliateLabel}
-                        </a>
+                        {brand.affiliateUrl ? (
+                          <a href={brand.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
+                            {brand.affiliateLabel}
+                          </a>
+                        ) : (
+                          <span className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif", fontStyle: "italic" }}>Sold direct from the manufacturer — not available on Amazon</span>
+                        )}
                         <Link href={`/blog/${brand.slug}`} className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "underline", textUnderlineOffset: "3px" }}>
                           Read full {brand.name} guide →
                         </Link>
