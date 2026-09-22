@@ -11,16 +11,16 @@ export const metadata: Metadata = {
   description: "Personal Hour Pilates reformer reviewed — build quality, spring system, carriage glide, and honest value assessment for home practitioners on a budget.",
   keywords: ["personal hour pilates review", "personalhour reformer review 2026", "personal hour pilates reformer", "is personal hour pilates good", "personal hour vs aeropilates", "personal hour pilates buy"],
   openGraph: {
-    title: "PersonalHour Pilates (2026): Janet La Force Plus & Zous 2.0 Reviewed",
-    description: "PersonalHour Pilates reviewed — wood-frame reformers for advanced home practitioners.",
+    title: "PersonalHour Pilates (2026): Janet La Force Plus, Honestly Reviewed",
+    description: "PersonalHour Pilates reviewed — the Janet La Force Plus, the model genuinely sold on Amazon.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/personalhour-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", width: 1200, height: 630, alt: "PersonalHour Pilates reformer review — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PersonalHour Pilates (2026): Janet La Force Plus & Zous 2.0",
-    description: "PersonalHour wood-frame reformers reviewed honestly.",
+    title: "PersonalHour Pilates (2026): Janet La Force Plus",
+    description: "PersonalHour's wood-frame reformer honestly reviewed.",
     images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/personalhour-pilates" },
@@ -31,42 +31,12 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "PersonalHour Janet La Force Plus Reformer",
-    price: "From $2,499",
-    verdict: "Best PersonalHour reformer overall",
+    price: "$2,555",
+    verdict: "The real PersonalHour reformer confirmed sold on Amazon",
     description:
-      "The Janet La Force Plus is PersonalHour's flagship foldable reformer and the product most responsible for the brand's rapid growth in the premium home market. The most immediately distinctive feature is the construction: a solid walnut wood frame rather than the aluminium or MDF used by most competitors at this price point. The weight and rigidity of the wood frame reduces the subtle flex that lighter reformers develop during high-intensity sequences, giving it a stability during advanced athletic work that mid-range aluminium machines struggle to match. It ships with a six-spring resistance system, a jumpboard, a Pilates box, and a foot strap included, and the frame is tower-compatible for a later upgrade. It folds for storage and includes transport wheels — a genuine space solution without the structural compromise that cheaper folding mechanisms introduce.",
+      "The Janet La Force Plus is PersonalHour's foldable wood-frame reformer and the model that is genuinely, currently sold on Amazon. Its defining feature is a wood frame rather than the aluminium construction most competitors use at this price point — the added weight and rigidity is the reason owners cite it for stability during more demanding work. Beyond that, we're being careful about specifics: an earlier version of this review cited an exact spring count, included accessories, and a folding-plus-wheels storage mechanism that we could not verify against the current listing, and the brand overview box on this page previously gave a different spring count than the product description did — a sign those details were not sourced reliably. Confirm spring count, what ships in the box, and any folding or tower-compatibility claim against the current Amazon listing before you buy, rather than relying on any of those specifics being quoted here.",
     affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "PersonalHour Zous 2.0 Advanced Reformer",
-    price: "From $1,899",
-    verdict: "Best PersonalHour for value",
-    description:
-      "The Zous 2.0 Advanced is PersonalHour's mid-range reformer — built to the same wood-first construction philosophy as the Janet line but at a lower specification and price point. The solid wood frame is retained, giving it a weight and stability that aluminium competitors at this price cannot match, and it folds for storage with a compact folding mechanism. For practitioners who want wood-frame stability and genuine build quality without the full Janet La Force Plus investment, the Zous 2.0 Advanced is a strong choice.",
-    affiliateUrl: "https://www.amazon.com/dp/B0CD32KKZ8?tag=pilatescollective-20",
-    tag: "Best Value",
-  },
-  {
-    rank: "03",
-    name: "PersonalHour Janet Reformer + Tower Upgrade",
-    price: "From $3,299",
-    verdict: "Best complete PersonalHour setup",
-    description:
-      "The Janet frame is tower-compatible, meaning a tower unit can be added to the reformer later rather than only being sold as one fixed bundle. Adding the tower brings a push-through bar and spring-based arm and leg work — covering the core tower exercises that extend reformer practice into a more comprehensive full-body apparatus system. The wood frame of the Janet reformer extends into the tower structure, maintaining aesthetic consistency across the whole unit. For practitioners building a dedicated home studio around PersonalHour's wood-forward aesthetic, the Janet reformer plus a tower upgrade provides a strong entry point to a complete apparatus setup — check current tower-upgrade pricing and compatibility directly with PersonalHour before buying.",
-    affiliateUrl: "https://www.amazon.com/s?k=personalhour+janet+pilates+reformer+tower&tag=pilatescollective-20",
-    tag: "Complete Setup",
-  },
-  {
-    rank: "04",
-    name: "PersonalHour Pilates Box Set",
-    price: "From $149",
-    verdict: "Essential accessory",
-    description:
-      "The PersonalHour Box Set is the most important accessory purchase for any PersonalHour reformer owner. The long box and short box unlock the short-box series, long-box kneeling and prone exercises, and the transition between supine and seated work that characterises intermediate and advanced programming. PersonalHour's box set is engineered to match the carriage dimensions of the Janet and Zous reformers specifically — the fit is precise and the construction uses matching wood accents. The boxes are sold as a matched pair and store neatly on the reformer platform when not in use.",
-    affiliateUrl: "https://www.amazon.com/s?k=personalhour+pilates+box+set&tag=pilatescollective-20",
-    tag: "Must-Have Accessory",
+    tag: "The Real Listing",
   },
 ];
 
@@ -75,8 +45,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "PersonalHour Pilates (2026): Janet La Force Plus & Zous 2.0 Reviewed",
-      "description": "PersonalHour Pilates reviewed — the Janet La Force Plus and Zous 2.0 Advanced wood-frame reformers tested for advanced home practitioners.",
+      "headline": "PersonalHour Pilates (2026): Janet La Force Plus, Honestly Reviewed",
+      "description": "PersonalHour Pilates reviewed — the Janet La Force Plus, the model genuinely sold on Amazon, honestly assessed. Other PersonalHour models could not be verified as live Amazon listings.",
       "url": "https://pilatescollectiveclub.com/blog/personalhour-pilates",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",
@@ -88,7 +58,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "PersonalHour Pilates Equipment (2026)",
-      "numberOfItems": 4,
+      "numberOfItems": 1,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -111,10 +81,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is PersonalHour a good reformer brand?", "acceptedAnswer": { "@type": "Answer", "text": "PersonalHour has established a strong reputation in the premium home reformer market, particularly for their use of solid hardwood construction across the Janet, Nano, and Zous lines. The Janet La Force Plus is consistently rated highly by practitioners who prioritise build solidity and stability for advanced athletic work. The brand is newer than Balanced Body or Merrithew but has grown rapidly based on the quality of its hardware." } },
-        { "@type": "Question", "name": "How does PersonalHour compare to Elina Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands use wood construction for aesthetic and structural reasons, but PersonalHour builds primarily in oak, maple, and walnut depending on the model while Elina uses engineered wood composites and aluminium. PersonalHour machines are heavier and more stable; Elina machines are lighter and easier to move. Both brands are targeted at the home studio market and occupy similar price points." } },
-        { "@type": "Question", "name": "Does the PersonalHour reformer fold?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — the Janet La Force Plus and Zous 2.0 Advanced both fold for storage and include transport wheels. Despite folding, the machines maintain stability during use thanks to the weight of the solid wood frame." } },
-        { "@type": "Question", "name": "Is PersonalHour good for tall people?", "acceptedAnswer": { "@type": "Answer", "text": "PersonalHour markets several of its Janet and Nano models with extended-frame options for taller practitioners. Check the specific listing's carriage length and rated user height before buying, since this varies by model rather than applying across the whole line." } },
+        { "@type": "Question", "name": "Is PersonalHour a good reformer brand?", "acceptedAnswer": { "@type": "Answer", "text": "PersonalHour has built a reputation in the home reformer market for using a solid wood frame rather than aluminium. The Janet La Force Plus, the model genuinely sold on Amazon, is priced at $2,555. PersonalHour markets other model names (including a 'Zous 2.0'), but we could not verify a live Amazon listing for any model besides the Janet La Force Plus, so treat those other names as unconfirmed until you check a current listing yourself." } },
+        { "@type": "Question", "name": "How does PersonalHour compare to Elina Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands market wood-frame construction, but we have not independently verified Elina's Amazon listings or specifications, so we can't responsibly compare exact materials or weight here. What we can say with confidence: the PersonalHour Janet La Force Plus is a real, currently-sold Amazon listing at $2,555 with a wood frame; verify any comparison claim about Elina against a current, live listing rather than assuming it here." } },
+        { "@type": "Question", "name": "Does the PersonalHour Janet La Force Plus fold?", "acceptedAnswer": { "@type": "Answer", "text": "We could not verify a folding or transport-wheel feature against the current Amazon listing at the time of writing. If folding storage is a requirement for you, confirm it directly on the current listing before buying rather than relying on this or any other article." } },
+        { "@type": "Question", "name": "Is PersonalHour good for tall people?", "acceptedAnswer": { "@type": "Answer", "text": "We could not verify specific carriage-length or rated-user-height figures for the Janet La Force Plus. Check the current Amazon listing's stated dimensions against your own height before buying, rather than relying on a general claim about the brand." } },
       ],
     },
   ],
@@ -140,7 +110,7 @@ export default function PersonalHourPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              PersonalHour has carved out a fast-growing position in the premium home reformer market by committing to solid hardwood construction — oak, maple, or walnut depending on the model — when most competitors at this price tier use aluminium or engineered composites. The result is a reformer that combines the stability and aesthetic warmth of real wood with smart engineering for home use — folding mechanisms for storage, extended carriage options on some models for taller practitioners, and a premium finish that makes the machine appropriate for a living room as much as a studio. The Janet La Force Plus in particular has become a reference point for practitioners who want serious performance with furniture-grade design.
+              PersonalHour has built a following in the home reformer market by committing to a solid wood frame rather than the aluminium or engineered composites most competitors use at this price tier. The one model we could verify as a genuine, currently-sold Amazon listing is the Janet La Force Plus, at $2,555. PersonalHour markets other model names, but we could not confirm a live Amazon listing for them, and an earlier version of this review made specific claims — spring count, included accessories, a folding mechanism — that we could not source reliably, so this review has been narrowed to what we could actually verify.
             </p>
           </div>
         </section>
@@ -148,7 +118,7 @@ export default function PersonalHourPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="PersonalHour wood-frame Pilates reformers — Janet La Force Plus and Zous 2.0 Advanced reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="PersonalHour Janet La Force Plus wood-frame Pilates reformer reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -160,9 +130,9 @@ export default function PersonalHourPilatesPage() {
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand overview</h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
-                  { label: "Construction", value: "Solid hardwood frame (oak, maple, or walnut by model)" },
-                  { label: "Resistance type", value: "Spring-based (5 springs)" },
-                  { label: "Best for", value: "Advanced home practitioners, tall users, aesthetic-first buyers" },
+                  { label: "Construction", value: "Wood frame (exact species and spring count — confirm on the current listing)" },
+                  { label: "Resistance type", value: "Spring-based" },
+                  { label: "Best for", value: "Home practitioners who want a wood-frame reformer, confirmed real on Amazon" },
                 ].map((item) => (
                   <div key={item.label}>
                     <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#9a9490", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
@@ -192,7 +162,7 @@ export default function PersonalHourPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Models · Reviewed</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Real Listing · Reviewed</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -210,10 +180,10 @@ export default function PersonalHourPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is PersonalHour a good reformer brand?", a: "PersonalHour has established a strong reputation in the premium home reformer market, particularly for their use of solid hardwood construction. The Janet La Force Plus is consistently rated highly by practitioners who prioritise build solidity and stability for advanced athletic work." },
-                  { q: "How does PersonalHour compare to Elina Pilates?", a: "Both brands use wood construction, but PersonalHour builds primarily in oak, maple, and walnut depending on the model while Elina uses engineered composites and aluminium. PersonalHour machines are heavier and more stable; Elina machines are lighter and easier to move. Both target the home studio market at similar price points." },
-                  { q: "Does the PersonalHour reformer fold?", a: "Yes — the Janet La Force Plus and Zous 2.0 Advanced both fold for storage and include transport wheels. Despite folding, the machines maintain stability during use thanks to the weight of the solid wood frame." },
-                  { q: "Is PersonalHour good for tall people?", a: "PersonalHour markets several of its Janet and Nano models with extended-frame options for taller practitioners. Check the specific listing's carriage length and rated user height before buying, since this varies by model rather than applying across the whole line." },
+                  { q: "Is PersonalHour a good reformer brand?", a: "PersonalHour has built a reputation in the home reformer market for its wood-frame construction. The Janet La Force Plus, at $2,555, is the model we could confirm as a genuine, currently-sold Amazon listing. PersonalHour markets other model names, but we could not verify a live Amazon listing for them — treat those as unconfirmed until you check a current listing yourself." },
+                  { q: "How does PersonalHour compare to Elina Pilates?", a: "Both brands market wood-frame construction, but we have not independently verified Elina's Amazon listings or exact materials, so we can't responsibly compare specifics here. What we can confirm: the PersonalHour Janet La Force Plus is a real, currently-sold Amazon listing with a wood frame, at $2,555." },
+                  { q: "Does the PersonalHour Janet La Force Plus fold?", a: "We could not verify a folding or transport-wheel feature against the current Amazon listing at the time of writing. If folding storage is a requirement for you, confirm it directly on the current listing before buying." },
+                  { q: "Is PersonalHour good for tall people?", a: "We could not verify specific carriage-length or rated-user-height figures for the Janet La Force Plus. Check the current Amazon listing's stated dimensions against your own height before buying." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

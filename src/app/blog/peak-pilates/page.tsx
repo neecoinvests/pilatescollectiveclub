@@ -31,52 +31,52 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Peak Pilates MVe® Reformer",
-    price: "From $4,295",
-    verdict: "Best overall Peak Pilates reformer",
+    price: "Dealer-quoted",
+    verdict: "Peak's flagship studio reformer — not a live Amazon listing",
     description:
-      "The Peak Pilates MVe is the brand's flagship studio reformer and the model most frequently found in high-end classical and hybrid studios. The name stands for Multi-Versatile Equipment, and the design reflects that intent — the carriage dimensions, spring calibration, and footbar geometry are engineered to accommodate the full classical and contemporary repertoire without compromise. The five colour-coded springs cover the resistance range from feather-light single-spring work to heavy multi-spring footwork sequences. The aluminium frame is powder-coated rather than painted, which prevents chipping through years of daily studio use. The carriage glides on sealed ball bearings with a quality and quietness that compares favourably to Balanced Body at a slightly lower price point. For a new studio build or a serious home studio upgrade, the MVe represents the best value proposition in classical-leaning equipment.",
-    affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+mve+reformer&tag=pilatescollective-20",
-    tag: "Editor's Pick",
+      "The MVe is positioned as Peak Pilates' flagship studio reformer, widely used in classical and hybrid studios. We could not find a genuine, currently-sold Amazon listing for this model — in our checks, Peak Pilates' reformers are sold through its own dealer network rather than through live Amazon offers, the same pattern we found for this brand elsewhere. Contact Peak Pilates or an authorised dealer for a current quote and confirmed specifications (spring count, frame material, carriage dimensions) rather than relying on a price or spec sheet quoted here or elsewhere online.",
+    affiliateUrl: "https://www.peakpilates.com",
+    tag: "Dealer Only",
   },
   {
     rank: "02",
     name: "Peak Pilates casa Reformer",
-    price: "From $2,400",
-    verdict: "Best Peak Pilates home reformer",
+    price: "Dealer-quoted",
+    verdict: "Peak's home reformer — dealer-quoted, not on Amazon",
     description:
-      "The Peak Pilates casa is the brand's premium home reformer — built with the same materials and spring system as the MVe but engineered for home environments rather than commercial studios. The Baltic Birch wood frame finish is the most immediately distinctive feature: it is genuinely beautiful, appropriate for placement in a living space without the clinical aesthetic that steel and upholstery machines carry. The five-spring system is identical to the MVe, ensuring that home practitioners following a structured curriculum lose nothing in resistance quality. The footbar adjusts across three positions, the headrest has five configurations, and the carriage upholstery is replaceable. For practitioners who want studio-grade equipment that lives permanently in the home rather than a spare room, the casa is the most compelling option in this price range.",
-    affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+casa+reformer&tag=pilatescollective-20",
-    tag: "Best Home Model",
+      "The casa is described by Peak Pilates as its home-oriented reformer, with a Baltic Birch wood finish distinct from the MVe's studio-oriented build. As with the MVe, we could not verify a live Amazon listing for the casa at the time of writing — treat it as a dealer-network purchase and get a current quote directly from Peak Pilates rather than assuming the spring count or included accessories match what is described here.",
+    affiliateUrl: "https://www.peakpilates.com",
+    tag: "Dealer Only",
   },
   {
     rank: "03",
     name: "Peak PilateSystem (PPS) Deluxe",
-    price: "From $7,665",
-    verdict: "Best premium studio system",
+    price: "Dealer-quoted",
+    verdict: "Peak's studio system — dealer-quoted, not confirmed on Amazon",
     description:
-      "The PilateSystem (PPS) Deluxe is Peak Pilates' top-of-line studio system — a 3-in-1 reformer, Cadillac, and mat platform positioned well above the MVe in both price and capability, engineered for the demands of professional and high-volume studio use. Combining the reformer and Cadillac into one folding frame saves floor space that would otherwise go to two separate pieces of apparatus, while still delivering the full reformer and Cadillac repertoire. This is a serious investment aimed at established studios rather than home practitioners, and the price reflects that it replaces two machines rather than upgrading one.",
-    affiliateUrl: "https://www.amazon.com/dp/B000BOHE6S?tag=pilatescollective-20",
-    tag: "Premium Model",
+      "The PilateSystem (PPS) Deluxe is positioned by Peak Pilates as a combined reformer-and-Cadillac studio system. An earlier version of this article linked a specific Amazon product page for this item; we could not verify that listing as a genuine, currently-sold offer, so it has been removed. Treat this as a dealer-quoted purchase — get current pricing and specifications directly from Peak Pilates or an authorised dealer.",
+    affiliateUrl: "https://www.peakpilates.com",
+    tag: "Dealer Only",
   },
   {
     rank: "04",
     name: "Peak Pilates Fit Reformer",
-    price: "From $2,200",
-    verdict: "Best compact Peak Pilates option",
+    price: "Dealer-quoted",
+    verdict: "Peak's compact reformer — dealer-quoted, not on Amazon",
     description:
-      "The Peak Pilates Fit Reformer occupies the most accessible position in Peak's lineup — a shorter, lighter machine designed for home practitioners who want genuine spring-based reformer performance in a space-efficient package. The five-spring system is retained from the larger models, which means the Fit does not compromise on resistance quality. The trade-off is carriage travel distance — approximately 8 inches shorter than the MVe — which limits full extension in some exercises for practitioners above 6'0\". For the majority of the population and the majority of the repertoire, the Fit performs without meaningful compromise. The Baltic Birch wood details bring the casa's aesthetic warmth to a more accessible price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+fit+reformer&tag=pilatescollective-20",
-    tag: "Most Accessible",
+      "The Fit Reformer is described by Peak Pilates as a shorter, more compact machine in its lineup. We could not verify a live Amazon listing for it. If carriage length matters for your height, confirm the exact travel distance with Peak Pilates or a dealer before buying — we could not verify a specific figure for this model.",
+    affiliateUrl: "https://www.peakpilates.com",
+    tag: "Dealer Only",
   },
   {
     rank: "05",
     name: "Peak Pilates Wunda Chair",
-    price: "From $1,450",
-    verdict: "Best Peak Pilates accessory",
+    price: "Dealer-quoted",
+    verdict: "Peak's chair — dealer-quoted, not on Amazon",
     description:
-      "The Peak Pilates Wunda Chair is one of the most functionally complete chair options available for home and studio use. The split-pedal design allows unilateral leg exercises not possible on a single-pedal classical chair, and the four-spring configuration covers the resistance range from gentle rehabilitation work to advanced practitioner sequences. The wood construction matches the casa reformer aesthetically, making it the natural companion piece for a Peak-based home studio. The Wunda Chair is the apparatus that delivers the most strength-building work for its footprint — an efficient addition to any studio where space is at a premium.",
-    affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+wunda+chair&tag=pilatescollective-20",
-    tag: "Best Accessory",
+      "Peak Pilates offers a Wunda Chair in its lineup. We could not verify a live Amazon listing for it, or confirm the exact pedal configuration (split versus single pedal) and spring count from a source we trust — treat any such detail as something to confirm with Peak Pilates or an authorised dealer before buying, not an established fact.",
+    affiliateUrl: "https://www.peakpilates.com",
+    tag: "Dealer Only",
   },
 ];
 
@@ -106,7 +106,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "url": p.affiliateUrl,
         },
       })),
     },
@@ -147,7 +147,7 @@ export default function PeakPilatesPage() {
               Peak Pilates<br /><span style={{ color: "#8b4a31" }}>(2026): Equipment Reviewed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not verify live Amazon listings for Peak Pilates equipment — links below go to Peak Pilates directly rather than to an Amazon offer.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Peak Pilates is one of the most respected equipment brands in the global Pilates community — occupying a distinctive position as a classically-oriented manufacturer that has embraced modern engineering without abandoning the proportions and resistance profile that classical practitioners require. The brand is known for its use of Baltic Birch wood in the casa line, giving their equipment an aesthetic warmth that steel-framed competitors cannot replicate, and for a spring calibration that classical and hybrid teachers consistently describe as having the correct feel for the method.

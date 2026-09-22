@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Merrithew Pilates (2026): SPX vs V2 Max vs Halo",
-  description: "Merrithew (STOTT PILATES) compared — SPX, V2 Max and the Halo system judged on spring quality, build durability and home versus studio use.",
+  title: "Merrithew Pilates (2026): At Home SPX vs V2 Max, Honestly Reviewed",
+  description: "Merrithew (STOTT PILATES) equipment reviewed — the real Amazon-sold At Home SPX and Rehab V2 Max Plus reformers, judged on spring quality, build durability, and home versus studio use.",
   keywords: ["merrithew pilates review", "stott pilates equipment review 2026", "merrithew spx reformer review", "merrithew v2 max review", "merrithew vs balanced body", "best merrithew reformer", "merrithew halo training system", "merrithew pilates buy"],
   openGraph: {
     title: "Merrithew for Pilates (2026): STOTT Equipment & Honest Review",
@@ -25,53 +25,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Merrithew At Home SPX Reformer",
-    price: "From $3,299",
-    verdict: "Best home reformer under $1,500",
+    name: "Merrithew At Home SPX Reformer Package",
+    price: "$3,349",
+    verdict: "The real SPX-family machine Merrithew sells on Amazon",
     description:
-      "The At Home SPX is the most accessible full-spring reformer from a serious professional brand. Unlike cord-based home alternatives, the SPX uses a genuine spring system — five springs of varying tension — giving you the authentic reformer feel that mat-plus-resistance machines cannot replicate. The frame is lighter than the studio SPX Max but maintains the precision that STOTT Pilates instruction demands. The footbar adjusts to three positions, the shoulder rests fold flat, and the machine can be stored vertically. For practitioners who want a genuine professional-grade spring system without the studio reformer footprint or price, the At Home SPX is the clearest recommendation in its segment.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
-    tag: "Editor's Pick",
+      "The At Home SPX Reformer Package is the SPX-family machine genuinely, currently sold on Amazon, priced at $3,349 — not the $3,299 or ~$1,400 figures that have circulated for it elsewhere, including in an earlier version of this article. It carries Merrithew's five colour-coded spring system, with unusually fine gradation at the light-resistance end. We could not verify a fold-flat, vertical-storage feature for this listing — an earlier version of this article made that claim, and it did not hold up on closer checking, so treat any folding claim as something to confirm on the current listing rather than assumed fact.",
+    affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
+    tag: "The Real Listing",
   },
   {
     rank: "02",
-    name: "Merrithew SPX Max Reformer",
-    price: "From $3,649",
-    verdict: "Best professional studio reformer",
+    name: "Merrithew Rehab V2 Max Plus Reformer",
+    price: "$8,199",
+    verdict: "Merrithew's real clinical/professional machine, sold on Amazon",
     description:
-      "The SPX Max is the machine you find in professional training facilities and STOTT Pilates certification programmes worldwide. The heavier frame, longer rails, and more substantial carriage provide the stability and precision that advanced work requires. The five-spring system covers a wider resistance range than the At Home SPX, and the accessories ecosystem (jump board, vertical stand, tower) makes this a complete apparatus platform. Built to last decades of daily multi-client use. For home practitioners who want studio-quality equipment and have the space for a fixed machine, the SPX Max is as serious as home Pilates equipment gets.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+spx+max+reformer&tag=pilatescollective-20",
-    tag: "Studio Grade",
+      "This is the real product behind any \"Merrithew V2 Max\" reference — a raised-frame clinical and professional-grade reformer with a built-in Vertical Frame and Merrithew's patented retractable rope system, genuinely sold on Amazon at $8,199. An earlier version of this article instead described a \"SPX Max Reformer\" at a studio price point, using a fabricated-looking Amazon search link; we could not verify that as a real, standalone listing, so it has been replaced with this confirmed one. If you were looking for a mid-priced studio machine between the At Home SPX and this clinical-grade reformer, we could not confirm one exists as a live Amazon listing — check current listings directly.",
+    affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
+    tag: "Clinical Grade",
   },
   {
     rank: "03",
-    name: "STOTT Pilates Flex Band Resistance Band",
-    price: "From $15",
-    verdict: "Best resistance band for Pilates",
+    name: "Merrithew Jumpboard (22\")",
+    price: "$470",
+    verdict: "The genuine Merrithew jumpboard, sold on Amazon",
     description:
-      "The STOTT Pilates Flex Band is the resistance band used in certified STOTT instructor training programmes and sold in a resistance range appropriate for Pilates work — Light, Medium, and Heavy in standard Pilates colours. Unlike generic exercise bands, these are calibrated to the specific resistance required for Pilates exercises including the Rowing series, arm circles, and standing work. The latex construction provides smooth, consistent resistance throughout the range of motion. For home practitioners, these bands bridge the gap between mat work and equipment work, adding resistance to exercises that typically require a reformer.",
-    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+flex+band&tag=pilatescollective-20",
-    tag: "Best Band",
+      "A real Merrithew-branded jumpboard, sized for the SPX-family carriage, converting footwork into a low-impact jumping sequence. An earlier version of this article instead recommended a generic \"STOTT Pilates Flex Band\" and other accessories via lazy Amazon search links we could not verify as real listings; those have been replaced with this confirmed product. Confirm fit against your specific reformer before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B004ICZD2Q?tag=pilatescollective-20",
+    tag: "Cardio Add-On",
   },
   {
     rank: "04",
-    name: "Merrithew Stability Ball (65cm)",
-    price: "From $28",
-    verdict: "Best stability ball for Pilates",
+    name: "Balanced Body Sitting Box Lite",
+    price: "$150",
+    verdict: "A real, live sitting box — not Merrithew-branded",
     description:
-      "Merrithew's Stability Ball is used in STOTT Pilates programming as a proprioception and core challenge tool — specifically for exercises in the Stability Ball repertoire taught in Level 1 and 2 certifications. The 65cm size is appropriate for practitioners of average height; the burst-resistant construction and anti-roll base make it safe for spinal exercises over the ball. The material quality is noticeably superior to generic exercise balls — it holds its shape and pressure consistently, which matters for exercises where the ball is used as a spine support. An honest, functional piece of equipment rather than a trend accessory.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+stability+ball+65cm&tag=pilatescollective-20",
-    tag: "Best Ball",
+      "Short box, long box and seated work all need a box, and we could not find a genuine Merrithew-branded box as its own live Amazon listing. This Balanced Body Sitting Box Lite is a real, currently-sold alternative that sits on the carriage — check dimensions against your SPX or V2 Max carriage before ordering, since it is not built specifically for either machine.",
+    affiliateUrl: "https://www.amazon.com/dp/B0723DT2JP?tag=pilatescollective-20",
+    tag: "Box Work",
   },
   {
     rank: "05",
-    name: "STOTT Pilates Mini Stability Ball",
-    price: "From $18",
-    verdict: "Best prop for advanced mat work",
+    name: "Balanced Body Replacement Reformer Ropes with Clips",
+    price: "$35",
+    verdict: "Keep a spare set on hand",
     description:
-      "The Mini Stability Ball (approximately 23cm when inflated) is used in STOTT Pilates programming to modify and challenge mat exercises — placed beneath the lumbar spine during supine exercises to increase proprioceptive demand, or between the knees during footwork to activate the inner thighs. Small, inexpensive, and genuinely useful for practitioners looking to add challenge to a home mat practice without equipment. The inflation level affects the difficulty level — slightly deflated for beginners, fully inflated for a more demanding surface. One of the most cost-effective Pilates accessories available.",
-    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+mini+stability+ball&tag=pilatescollective-20",
-    tag: "Home Practice",
+      "Ropes stretch gradually rather than failing visibly, and a stretched rope quietly changes the working length of every strap exercise. We could not verify a genuine Merrithew-branded replacement rope as a standalone live Amazon listing, so this real, currently-sold alternative is listed instead — confirm compatibility with your specific machine before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20",
+    tag: "Maintenance",
   },
 ];
 
@@ -84,7 +84,7 @@ const jsonLd = {
       "description": "The complete guide to Merrithew and STOTT Pilates — At Home SPX, V2 Max reformers, accessories, instructor certification, and who their equipment suits.",
       "url": "https://pilatescollectiveclub.com/blog/merrithew-pilates",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-09-22",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -102,8 +102,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "What is the difference between STOTT Pilates and Merrithew?", "acceptedAnswer": { "@type": "Answer", "text": "STOTT PILATES is the instructor certification programme; Merrithew is the parent company and equipment brand. They are the same company — Merrithew Corporation — operating under both names. STOTT PILATES refers specifically to their internationally recognised training and certification system, while the Merrithew name appears on their equipment range." } },
-        { "@type": "Question", "name": "Is the Merrithew At Home SPX worth it over a Balanced Body Allegro 2?", "acceptedAnswer": { "@type": "Answer", "text": "Different strengths. The At Home SPX is significantly cheaper than the Allegro 2 at similar build quality for home use. The Allegro 2 has a broader accessory ecosystem and upgrade path. Both are excellent; the At Home SPX wins on price, the Allegro 2 on expandability." } },
-        { "@type": "Question", "name": "Where can I buy Merrithew equipment?", "acceptedAnswer": { "@type": "Answer", "text": "Directly from merrithew.com; authorised dealers; some Amazon listings exist but verify the seller is authorised. Accessories such as resistance bands, stability balls, and the mini stability ball are reliably purchased through Amazon." } },
+        { "@type": "Question", "name": "Is the Merrithew At Home SPX worth it over a Balanced Body reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Different strengths. The At Home SPX Reformer Package, at $3,349, is genuinely cheaper than Balanced Body's real Amazon-sold reformers in this range — the Allegro Stretch at $3,710 and the Studio Reformer at $4,700 (does not fold). Balanced Body's accessory ecosystem is broader. \"Allegro 2\" is not a live Amazon listing, so any comparison using that name should be treated as unverified." } },
+        { "@type": "Question", "name": "Where can I buy Merrithew equipment?", "acceptedAnswer": { "@type": "Answer", "text": "Directly from merrithew.com, through authorised dealers, or on Amazon — where the At Home SPX Reformer Package and the Rehab V2 Max Plus Reformer are both genuine, currently-sold listings. Studio-line products such as the SPX Max are sold through Merrithew or authorised dealers, not through a standalone Amazon listing." } },
         { "@type": "Question", "name": "Do Merrithew reformers work with Balanced Body accessories?", "acceptedAnswer": { "@type": "Answer", "text": "No. The spring systems and accessory mounting points differ between brands. Accessories — including jump boards, towers, and upholstery — are not interchangeable between Merrithew and Balanced Body equipment. Always buy accessories from your reformer's manufacturer." } },
       ],
     },
@@ -127,7 +127,7 @@ export default function MerrithewPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Merrithew for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>STOTT Equipment, Certification &amp; Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 12 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 12 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -164,13 +164,13 @@ export default function MerrithewPilatesPage() {
                 The STOTT PILATES certification programme became one of the most internationally respected instructor credentials in the industry. Programmes now run in more than 100 countries, and the curriculum goes significantly beyond movement instruction: STOTT-certified instructors study anatomy, kinesiology, and exercise science alongside the method itself. The breadth of that education is part of why STOTT-certified instructors are preferred by physical therapy clinics and rehabilitation centres — the credential carries genuine clinical credibility that many Pilates certifications do not. For practitioners choosing a studio or instructor, seeing the STOTT PILATES designation is a reliable signal of rigorous training.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                On the equipment side, Merrithew&apos;s philosophy is precision over volume. Their product line is narrower than Balanced Body&apos;s, with each reformer tier clearly differentiated by intended use. The V2 Max Plus Reformer sits at the top — their pinnacle product, used in certified training facilities globally, featuring the widest carriage platform and the greatest range of adjustability for multi-body advanced programming. Below it, the SPX Max serves professional studio environments, and the At Home SPX brings genuine spring-based reformer technology into the home market at an accessible price point. The distinctive blue colour scheme and quieter carriage operation are consistent across the range and have become recognisable markers of Merrithew equipment in the studio environments where it most commonly appears.
+                On the equipment side, Merrithew&apos;s philosophy is precision over volume. Their product line is narrower than Balanced Body&apos;s, with each reformer tier differentiated by intended use. The Rehab V2 Max Plus Reformer sits at the top of what is genuinely sold on Amazon — a raised-frame, clinical/professional machine with a built-in Vertical Frame and a patented retractable rope system, at $8,199. Below it, the SPX Max is Merrithew&apos;s studio-line name — sold through Merrithew&apos;s own site and authorised dealers rather than as a standalone Amazon listing — and the At Home SPX Reformer Package, at $3,349, brings genuine spring-based reformer technology into the home market as the real Amazon-sold entry point. The distinctive blue colour scheme and quieter carriage operation are consistent across the range and have become recognisable markers of Merrithew equipment in the studio environments where it most commonly appears.
               </p>
             </div>
 
             {/* Products section */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Merrithew Products · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Real, Verified Amazon Listings</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -187,26 +187,26 @@ export default function MerrithewPilatesPage() {
             {/* Product line breakdown */}
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#8b4a31" }}>
               <h2 className="text-2xl font-semibold mb-2" style={{ color: "#fcf9f8", fontFamily: "'Playfair Display', serif" }}>Understanding the Merrithew product line</h2>
-              <p className="text-sm mb-6" style={{ color: "rgba(252,249,248,0.75)", fontFamily: "'Montserrat', sans-serif" }}>Three reformer tiers, clearly differentiated by use case and budget</p>
+              <p className="text-sm mb-6" style={{ color: "rgba(252,249,248,0.75)", fontFamily: "'Montserrat', sans-serif" }}>Three reformer tiers, differentiated by use case — prices below are what we could verify as genuine, currently-sold Amazon listings, or flagged where they are not</p>
               <div className="space-y-0 divide-y" style={{ borderColor: "rgba(252,249,248,0.15)" }}>
                 {[
                   {
-                    model: "At Home SPX Reformer",
+                    model: "At Home SPX Reformer Package",
                     use: "Consumer / Home Use",
-                    price: "~$1,400",
-                    notes: "Genuine five-spring system. Lighter frame than studio models. Footbar adjusts to three positions. Shoulder rests fold flat. Storable vertically. The accessible entry point into professional Pilates equipment.",
+                    price: "$3,349",
+                    notes: "Genuine five-spring system, verified on the current Amazon listing. We could not verify a fold-flat, vertical-storage feature — treat that as unconfirmed rather than assumed. The real, accessible Amazon entry point into Merrithew equipment.",
                   },
                   {
                     model: "SPX Max Reformer",
                     use: "Professional Studio",
-                    price: "~$2,200",
-                    notes: "Heavier frame. Longer rails. Wider resistance range. Full accessory ecosystem: jump board, vertical stand, tower available. Built for daily multi-client use over many years.",
+                    price: "Dealer-quoted, not on Amazon",
+                    notes: "Merrithew's studio-line name, sold through merrithew.com and authorised dealers. We could not find a live, standalone Amazon listing for it — get a current quote directly rather than relying on a price found elsewhere.",
                   },
                   {
-                    model: "V2 Max Plus Reformer",
-                    use: "Premium Training Facility",
-                    price: "~$3,500",
-                    notes: "Widest carriage platform. Maximum adjustability. Used in STOTT PILATES certified training facilities globally. The pinnacle Merrithew product for advanced programming and multi-body instruction.",
+                    model: "Rehab V2 Max Plus Reformer",
+                    use: "Clinical / Premium Training Facility",
+                    price: "$8,199",
+                    notes: "Merrithew's real Amazon-sold clinical/professional machine, verified at $8,199 — a raised frame with a built-in Vertical Frame and Merrithew's patented retractable rope system.",
                   },
                 ].map((row) => (
                   <div key={row.model} className="py-5">
@@ -236,12 +236,12 @@ export default function MerrithewPilatesPage() {
                     a: "STOTT PILATES is their instructor certification programme; Merrithew is the parent company and equipment brand. They are the same company — Merrithew Corporation — operating under both names. STOTT PILATES refers specifically to their internationally recognised training and certification system, while the Merrithew name appears on their equipment range. When a studio says they are \"STOTT-certified,\" they mean their instructors hold the Merrithew Corporation certification.",
                   },
                   {
-                    q: "Is the Merrithew At Home SPX worth it over a Balanced Body Allegro 2?",
-                    a: "Different strengths. The At Home SPX is significantly cheaper than the Allegro 2 at similar build quality for home use. The Allegro 2 has a broader accessory ecosystem and a clearer upgrade path within the Balanced Body range. Both machines use genuine spring systems and are a significant step above cord-based home reformers. The At Home SPX wins on price; the Allegro 2 wins on expandability. If you plan to buy accessories over time and potentially upgrade your machine, Balanced Body's ecosystem is deeper. If you want the best value for a standalone home reformer from a professional brand, the At Home SPX is the stronger purchase.",
+                    q: "Is the Merrithew At Home SPX worth it over a Balanced Body reformer?",
+                    a: "Different strengths. The At Home SPX Reformer Package, at $3,349, is genuinely cheaper than Balanced Body's real Amazon-sold reformers in this range — the Allegro Stretch at $3,710 and the Studio Reformer at $4,700 (which does not fold). Balanced Body's accessory ecosystem is broader. \"Balanced Body Allegro 2\" is not a live Amazon listing, so treat any comparison built on that name as unverified — compare against the real Balanced Body models above instead.",
                   },
                   {
                     q: "Where can I buy Merrithew equipment?",
-                    a: "Directly from merrithew.com, which is the most reliable source for new equipment and accessories. Authorised dealers stock reformers and some accessories. Amazon carries some Merrithew-branded accessories — resistance bands, stability balls, mini stability balls — and these are reliably purchased there. For major equipment (reformers, stability chairs, Cadillac), always purchase through merrithew.com or a verified authorised dealer to ensure warranty coverage.",
+                    a: "Directly from merrithew.com, which is the most reliable source for new equipment and accessories, or through authorised dealers. On Amazon, the At Home SPX Reformer Package ($3,349) and the Rehab V2 Max Plus Reformer ($8,199) are genuine, currently-sold listings. Studio-line equipment such as the SPX Max is sold through Merrithew or authorised dealers, not as a standalone Amazon listing.",
                   },
                   {
                     q: "Do Merrithew reformers work with Balanced Body accessories?",
