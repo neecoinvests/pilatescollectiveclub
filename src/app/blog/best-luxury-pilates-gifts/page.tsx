@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Luxury Pilates Gifts (2026)",
-  description: "The finest luxury pilates gifts for serious practitioners — Theragun, Wolford, Manduka, Liforme, and investment-grade accessories that elevate every practice.",
+  description: "The finest luxury pilates gifts for serious practitioners — Theragun, Liforme, Manduka, Beyond Yoga, Varley and investment-grade accessories that elevate every practice.",
   keywords: [
     "best luxury pilates gifts",
     "high end pilates gift ideas",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Luxury Pilates Gifts (2026)",
-    description: "Investment-grade pilates gifts for the serious practitioner — Theragun, Wolford, Liforme, and more.",
+    description: "Investment-grade pilates gifts for the serious practitioner — Theragun, Liforme, Manduka, and more.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-gifts",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-bench-towels.png", width: 1200, height: 630, alt: "Best Luxury Pilates Gifts 2026" }],
@@ -38,71 +38,71 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Theragun Pro (5th Generation)",
-    price: "$599",
+    name: "Theragun PRO (5th Generation)",
+    price: "$530",
     verdict: "The Ultimate Recovery Gift",
-    description: "The Theragun Pro is the percussive therapy device that professional athletes and elite pilates practitioners use for genuine recovery — not the consumer-grade devices that look similar but deliver a fraction of the impact depth. The 5th-generation Pro reaches 16mm of amplitude at 1,750–2,400 RPM, which penetrates deep enough to address the hip flexors, thoracic extensors, and glutes that accumulate tension in serious reformer practice. It includes six attachments, 150-minute battery life, and connects to the Therabody app for guided recovery protocols. A gift that earns its price every day.",
-    affiliateUrl: "https://www.amazon.com/s?k=theragun+pro+5th+generation+percussive+therapy&tag=pilatescollective-20",
+    description: "The Theragun PRO is Therabody's flagship percussive massager, and it's the one physios and serious athletes actually own. Its 16mm amplitude reaches deeper into the glutes, hip flexors and upper back than the cheap lookalikes, the patented triangle handle lets you reach your own back without straining your wrist, and it comes with six attachments (including a Supersoft head for bony areas). Built-in Warm Up, Post Workout, Sleep and Break routines run from the screen, or pair it with the Therabody app. Sold by Therabody on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B0B6RL7NQJ?tag=pilatescollective-20",
   },
   {
     rank: "02",
-    name: "Wolford The Workout Leggings",
-    price: "$180",
-    verdict: "Most Luxurious Activewear",
-    description: "Wolford is Austria's most revered luxury hosiery house, founded in 1950, and The Workout Leggings represent their finest expression of performance craft. These are not activewear in the usual sense — they are precision-engineered garments made from a proprietary micro-fibre blend that adapts to the body without compressing or restricting. Fully opaque, pill-resistant, and constructed with the same exacting standards as Wolford's couture hosiery. For the practitioner who has tried everything else and wants the finest legging that exists, this is the answer.",
-    affiliateUrl: "https://www.amazon.com/s?k=wolford+workout+leggings+women+luxury&tag=pilatescollective-20",
+    name: "Beyond Yoga Spacedye Caught in the Midi High Waisted Legging",
+    price: "$97",
+    verdict: "Most Luxurious Leggings",
+    description: "Ask a room of reformer regulars which leggings they reach for first and Beyond Yoga's Spacedye comes up again and again. The heathered space-dyed fabric is exceptionally soft, with enough stretch for full-range work on the carriage, and the 5-inch high waistband gives gentle, smoothing compression without digging in during roll-ups. They come in a wide, inclusive size range and a long list of colours, which makes them an easy gift to get right. Sold by Zappos on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B07X3Y5JVL?tag=pilatescollective-20",
   },
   {
     rank: "03",
-    name: "Liforme Yoga & Pilates Mat",
-    price: "$140",
+    name: "Liforme Original Yoga Mat",
+    price: "$165",
     verdict: "Best Luxury Mat",
-    description: "Liforme is the mat brand that converted hardcore Manduka loyalists — a meaningful achievement. Made in the UK from eco-polyurethane over a natural rubber base, the Liforme is the only mat with a built-in AlignForMe system: subtle guide markers etched into the surface that help practitioners calibrate footwork, hip alignment, and arm position with precision. The grip is extraordinary — more than any rubber or PVC mat — and the 4.2mm thickness balances cushion and ground connection perfectly. Comes in a premium tote bag and is fully biodegradable at end of life.",
-    affiliateUrl: "https://www.amazon.com/s?k=liforme+yoga+pilates+mat+original&tag=pilatescollective-20",
+    description: "Liforme is the mat that converts committed Manduka users. Its GripForMe eco-polyurethane top layer over rubber has exceptional grip even when your hands are damp, and the patented AlignForMe markings etched into the surface help you set up hands, feet and hips consistently, which is surprisingly useful for mat Pilates. At 4.2mm it balances cushioning with a stable feel, it's PVC-free, and it comes with Liforme's own carry bag. Sold by Liforme on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CF6213QQ?tag=pilatescollective-20",
   },
   {
     rank: "04",
-    name: "Alo Yoga Alosoft Savant Sweatshirt",
-    price: "$148",
+    name: "Varley Davidson Sweatshirt",
+    price: "$138",
     verdict: "Best Luxury Studio Layer",
-    description: "Alo's Alosoft fabric is a proprietary ultra-soft terry that has become the defining luxury studio loungewear material. The Savant Sweatshirt is cropped, oversized, and made with the kind of tactile quality that makes you reach for it before and after every class. It drapes beautifully over studio leggings, has a large hood for post-class warmth, and is available in Alo's signature palette of bone, espresso, and slate. This is what the instructors and regulars at the best studios wear between classes — and it shows.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+alosoft+sweatshirt+women+luxury&tag=pilatescollective-20",
+    description: "Varley is the London label that dresses a lot of boutique-studio regulars, and the Davidson is its signature crew: a relaxed, soft crew-neck sweatshirt that slips over leggings and a sports bra between classes and looks put-together enough for the coffee afterwards. The marl colourways (ivory, taupe, olive) are the ones to buy as a gift. Sold by Zappos on Amazon, so returns and size exchanges are simple.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CKHVXSZ5?tag=pilatescollective-20",
   },
   {
     rank: "05",
-    name: "TriggerPoint GRID 2.0 Foam Roller",
-    price: "$55",
-    verdict: "Best Recovery Tool Under $100",
-    description: "TriggerPoint is the foam roller brand that physical therapists, professional sports teams, and Pilates studios consistently specify over cheaper alternatives. The GRID 2.0 uses a multi-density exterior — three different surface patterns that replicate the varying pressure of a therapist's fingers, knuckles, and palm. The hollow core is reinforced to support up to 500 lbs and will never compress or deform. At $55 it is the most thoughtful entry-level luxury gift on this list — practical, durable, and genuinely more effective than anything in a retail sports store.",
-    affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+grid+2.0+foam+roller&tag=pilatescollective-20",
+    name: "TriggerPoint GRID 2.0 Foam Roller (26\")",
+    price: "$75",
+    verdict: "Best Recovery Gift Under $100",
+    description: "TriggerPoint's GRID is the roller physical therapists and athletic trainers use, and the 2.0 is the 26-inch version: long enough to roll the whole back or lie along the spine after a reformer class. The patented multi-density surface has three zones that mimic a therapist's palm, fingers and fingertips, and the rigid hollow core wrapped in EVA foam doesn't soften over time the way solid foam rollers do. Rated to 500 lbs. Sold and shipped by Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20",
   },
   {
     rank: "06",
-    name: "Manduka PRO Yoga Mat (Lifetime Guarantee)",
-    price: "$120",
+    name: "Manduka PRO Yoga Mat 6mm",
+    price: "$144",
     verdict: "The Heirloom Mat",
-    description: "The Manduka PRO comes with a lifetime guarantee — the only mat in this category that does. Made from a high-density closed-cell PVC surface over a dense foam core, it is 6mm thick for joint protection and entirely non-porous, meaning it never absorbs sweat or bacteria regardless of how many years it's used. Weighs 7.5 lbs and stays anchored during every exercise. Professional pilates instructors buy this for themselves. That endorsement, backed by a lifetime warranty, makes it one of the best-value luxury gifts in pilates.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+mat+lifetime+guarantee&tag=pilatescollective-20",
+    description: "The Manduka PRO is the mat teachers have used for decades, and it comes with a lifetime guarantee. The 6mm ultra-dense cushioning protects knees and spine during rolling and kneeling work without feeling spongy, the closed-cell surface stops sweat soaking into the mat, and a dotted underside keeps it planted on hard floors. It weighs 7.5 lbs, so it's a home mat rather than a travel mat. Expect a short break-in period before the surface reaches full grip. Sold by Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
   },
 ];
 
 const CRITERIA = [
   { heading: "Her level of practice", body: "Luxury gear rewards practitioners who show up regularly. The Theragun Pro or Liforme mat make the most sense for someone training three or more times a week — not occasional practitioners." },
-  { heading: "What she already owns", body: "Check before you gift. If she already has a Manduka PRO, gift the Liforme or the Theragun. If she has the Lululemon Align, consider Wolford or Alo Airlift as the next-tier upgrade." },
-  { heading: "Category: clothing, recovery, or equipment?", body: "Wolford and Alo Alosoft are the clothing picks. Theragun Pro and TriggerPoint GRID are recovery. Liforme and Manduka PRO are equipment. Each category serves a different practice need." },
-  { heading: "The durability test", body: "A genuine luxury pilates gift earns its price over years of daily use. Manduka PRO has a lifetime guarantee. Theragun has a two-year warranty. Liforme is biodegradable and designed for years of practice." },
+  { heading: "What she already owns", body: "Check before you gift. If she already has a Manduka PRO, gift the Liforme or the Theragun. If she already lives in one brand of leggings, the Beyond Yoga Spacedye or a Varley layer is a safe next-tier upgrade." },
+  { heading: "Category: clothing, recovery, or equipment?", body: "Beyond Yoga and Varley are the clothing picks. Theragun Pro and TriggerPoint GRID are recovery. Liforme and Manduka PRO are equipment. Each category serves a different practice need." },
+  { heading: "The durability test", body: "A genuine luxury pilates gift earns its price over years of daily use. Manduka PRO has a lifetime guarantee. The Theragun PRO is built for daily professional use. A Liforme mat lasts years with basic care." },
 ];
 
 const FAQ = [
-  { q: "What is the best luxury pilates gift?", a: "The Theragun Pro ($599) is the most impactful luxury pilates gift — professional-grade percussive therapy that serious practitioners use daily for recovery. For a more accessible luxury gift, the Liforme mat ($140) or Wolford leggings ($180) are exceptional investments that last years." },
-  { q: "What luxury pilates gifts are worth the money?", a: "Theragun Pro, Manduka PRO mat (lifetime guarantee), Wolford leggings, and Liforme mat are all genuinely worth their premium price. The Manduka PRO in particular is among the best-value luxury gifts in pilates — it outlasts any other mat and is guaranteed for life." },
-  { q: "Is the Theragun worth it for pilates practitioners?", a: "Yes — the Theragun Pro reaches muscle tissue that foam rollers and standard massage tools cannot. For practitioners training three or more times a week, it is the single most impactful recovery investment available. The 16mm amplitude depth is what separates it from consumer devices; that depth is what actually addresses hip flexor and thoracic tension built through reformer practice." },
-  { q: "What is the most luxurious pilates mat?", a: "The Liforme Original ($140) is generally considered the highest-performing luxury mat — made in the UK from eco-polyurethane and natural rubber with alignment markers built into the surface. The Manduka PRO ($120) is the professional standard and offers a lifetime guarantee that Liforme does not. Both are excellent; the choice depends on whether she values grip and alignment markers (Liforme) or lifetime durability (Manduka PRO)." },
+  { q: "What is the best luxury pilates gift?", a: "The Theragun PRO ($530) is the most impactful luxury pilates gift — professional-grade percussive therapy that serious practitioners use daily for recovery. For a more accessible luxury gift, the Liforme mat ($165) or Beyond Yoga Spacedye leggings ($97) are gifts she'll use every week." },
+  { q: "What luxury pilates gifts are worth the money?", a: "Theragun PRO, Manduka PRO mat (lifetime guarantee), Liforme mat and TriggerPoint GRID 2.0 are all genuinely worth their premium price. The Manduka PRO in particular is among the best-value luxury gifts in pilates — it lasts for years and is guaranteed for life." },
+  { q: "Is the Theragun worth it for pilates practitioners?", a: "Yes — the Theragun Pro reaches muscle tissue that foam rollers and standard massage tools cannot. For practitioners training three or more times a week, it is the single most impactful recovery investment available. Its 16mm amplitude is deeper than most budget massage guns, which is what lets it work into the glutes, hip flexors and upper back." },
+  { q: "What is the most luxurious pilates mat?", a: "The Liforme Original ($165) is generally considered the highest-performing luxury mat — an eco-polyurethane and rubber mat with alignment markers built into the surface. The Manduka PRO ($144) is the professional standard and offers a lifetime guarantee that Liforme does not. Both are excellent; the choice depends on whether she values grip and alignment markers (Liforme) or lifetime durability (Manduka PRO)." },
 ];
 
 const RELATED = [
   { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Thoughtful picks she'll love and actually use every class.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
-  { title: "Best Luxury Pilates Leggings", excerpt: "Wolford, Splits59, Varley — the investment-grade leggings.", href: "/blog/best-luxury-pilates-leggings", category: "Clothing", readTime: "10 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
+  { title: "Best Luxury Pilates Leggings", excerpt: "Wolford, Splits59, Varley, lululemon, Alo — the investment-grade leggings.", href: "/blog/best-luxury-pilates-leggings", category: "Clothing", readTime: "10 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
   { title: "Best Luxury Pilates Accessories", excerpt: "Premium tools and accessories for the serious studio practitioner.", href: "/blog/best-luxury-pilates-accessories", category: "Equipment", readTime: "9 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
 ];
 
@@ -112,13 +112,13 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Luxury Pilates Gifts (2026)",
-      "description": "The finest luxury pilates gifts for serious practitioners — Theragun, Wolford, Manduka, Liforme, and investment-grade accessories.",
+      "description": "The finest luxury pilates gifts for serious practitioners — Theragun, Liforme, Manduka, Beyond Yoga, Varley and investment-grade accessories.",
       "url": "https://pilatescollectiveclub.com/blog/best-luxury-pilates-gifts",
       "image": "https://pilatescollectiveclub.com/pictures/stitch-studio-bench-towels.png",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "datePublished": "2026-07-29",
-      "dateModified": "2026-07-30",
+      "dateModified": "2026-09-22",
     },
     {
       "@type": "ItemList",

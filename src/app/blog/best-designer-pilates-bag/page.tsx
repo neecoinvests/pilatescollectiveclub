@@ -7,20 +7,20 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Designer & Luxury Pilates Bags (2026)",
-  description: "The finest bags for Pilates practitioners — Lululemon, Alo Yoga, Sweaty Betty, Adidas by Stella McCartney, Varley, and Herschel compared for structure, capacity, and studio-to-life versatility.",
+  description: "The finest bags for Pilates practitioners — Tory Burch, Marc Jacobs, Varley, Herschel, lululemon and BAGGU compared for structure, capacity, and studio-to-life versatility.",
   keywords: [
     "best luxury pilates bag",
     "designer gym bag pilates",
     "best pilates studio bag luxury",
     "high end pilates bag women",
     "designer pilates bag 2026",
-    "alo yoga gym bag",
-    "sweaty betty pilates bag",
+    "tory burch ella tote gym",
+    "varley duffle bag",
     "best designer gym bag pilates",
   ],
   openGraph: {
     title: "Best Designer & Luxury Pilates Bags (2026)",
-    description: "The finest bags for Pilates — Lululemon, Alo, Sweaty Betty, Stella McCartney, and Varley compared for structure, capacity, and studio-to-life versatility.",
+    description: "The finest bags for Pilates — Tory Burch, Marc Jacobs, Varley, Herschel and lululemon compared for structure, capacity, and studio-to-life versatility.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-designer-pilates-bag",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png", width: 1200, height: 630, alt: "Best Designer Pilates Bags 2026" }],
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Designer & Luxury Pilates Bags (2026)",
-    description: "The finest bags for Pilates — Lululemon, Alo, Sweaty Betty, and Stella McCartney compared.",
+    description: "The finest bags for Pilates — Tory Burch, Marc Jacobs, Varley and Herschel compared.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-designer-pilates-bag" },
@@ -38,57 +38,57 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Everywhere Belt Bag (Large)",
-    price: "$38",
-    verdict: "Best Compact Luxury",
-    description: "The Lululemon Everywhere Belt Bag has become one of the most recognisable accessories in the global Pilates community — a cultural artefact as much as a functional bag. The large version holds a phone, keys, card, grip socks, and a small snack, making it the perfect companion for studio-only days. Water-resistant, machine-washable, and available in a meticulously curated seasonal palette. The entry point to luxury Pilates accessories.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+everywhere+belt+bag+large&tag=pilatescollective-20",
-    tag: "Icon",
+    name: "Tory Burch Ella Tote",
+    price: "$260",
+    verdict: "Best Designer Tote",
+    description: "The Ella is Tory Burch's lightweight nylon tote, and it has quietly become the bag of choice for people who go from reformer class to the office. At 17 × 13 × 5 inches it swallows a change of clothes, grip socks, a water bottle and a laptop, it weighs only 24 oz empty, and the nylon wipes clean if a bottle leaks. It won't hold a rolled mat, so pair it with a mat strap if you bring your own. Sold by Shopbop (an Amazon company).",
+    affiliateUrl: "https://www.amazon.com/dp/B0FR9ZHQKF?tag=pilatescollective-20",
+    tag: "Designer",
   },
   {
     rank: "02",
-    name: "Alo Yoga Lifestyle Backpack",
-    price: "$148",
-    verdict: "Best Premium Backpack",
-    description: "Alo's Lifestyle Backpack is engineered for the practitioner who moves from studio to workplace without changing bags. The interior is organised for gym kit — a padded laptop sleeve, separated shoe compartment, and a large main compartment that swallows a reformer towel, spare outfit, and full-sized water bottle. The exterior has Alo's signature matte finish and minimal hardware. An investment piece that reads as luxury streetwear.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+lifestyle+backpack&tag=pilatescollective-20",
-    tag: "Premium Backpack",
+    name: "Marc Jacobs The Large Puffy Tote",
+    price: "$298",
+    verdict: "Best Statement Bag",
+    description: "Marc Jacobs' The Tote is one of the most recognisable carryalls of the decade, and the Puffy version is the light, padded-nylon take that suits a studio day. It measures 15 × 12.5 × 7 inches, deeper than most totes, so a folded towel, trainers and a change of clothes fit without a fight, and it weighs just 13 oz. The branding is unmistakable, which is either the point or not your style. Sold by Shopbop (an Amazon company).",
+    affiliateUrl: "https://www.amazon.com/dp/B0GXXH5KSV?tag=pilatescollective-20",
+    tag: "Statement",
   },
   {
     rank: "03",
-    name: "Sweaty Betty Power Gym Bag",
-    price: "$130",
-    verdict: "Best British Luxury",
-    description: "Sweaty Betty's Power Gym Bag is the most practical luxury gym bag on this list. The British brand's attention to functional detail is exceptional — a water-resistant base, ventilated shoe pocket, wet/dry compartment for post-class kit, internal organiser pockets, and a padded shoulder strap. Available in seasonal colourways that are design-forward without sacrificing versatility. Holds a mat, outfit, shoes, and toiletries comfortably.",
-    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+power+gym+bag&tag=pilatescollective-20",
-    tag: "British Luxury",
-  },
-  {
-    rank: "04",
-    name: "Adidas by Stella McCartney Studio Bag",
-    price: "$160",
-    verdict: "Best Designer Collaboration",
-    description: "The Adidas by Stella McCartney collaboration represents the highest-profile meeting of fashion and athletic function in activewear. The Studio Bag is made from partially recycled materials without sacrificing the structural integrity or refined aesthetic of a luxury accessory. Stella McCartney's signature commitment to sustainability — no leather, no fur, no animal products — is built into every detail. A bag that belongs in both the studio changing room and the front row.",
-    affiliateUrl: "https://www.amazon.com/s?k=adidas+by+stella+mccartney+studio+gym+bag&tag=pilatescollective-20",
-    tag: "Designer Collab",
-  },
-  {
-    rank: "05",
-    name: "Varley Perry Holdall",
-    price: "$145",
-    verdict: "Best Studio-to-Street",
-    description: "Varley's Perry Holdall is the brand's answer to the perfect studio bag — structured enough to stand upright, large enough to hold a complete Pilates kit, and refined enough to pass for a weekend travel bag. The interior is fully lined, the base is reinforced, and the matte hardware is consistent with Varley's minimal luxury aesthetic throughout. Available in their signature neutral palette. A considered investment for the practitioner who cares about every detail.",
-    affiliateUrl: "https://www.amazon.com/s?k=varley+holdall+gym+bag+women&tag=pilatescollective-20",
+    name: "Varley Montlake Club Duffle",
+    price: "$164",
+    verdict: "Best Studio-to-Street Duffle",
+    description: "Varley's Montlake Club Duffle is the studio bag from the brand that dresses so many reformer regulars. It's structured, with leather trim, gold-tone hardware and retro contrast stripes, and at 17.25 × 15 × 7 inches it holds a full Pilates kit plus shoes. Carry it by the handles or on the adjustable shoulder strap. Sold by Shopbop (an Amazon company); stock by colour is limited.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GGGLLGG1?tag=pilatescollective-20",
     tag: "Studio-to-Street",
   },
   {
-    rank: "06",
-    name: "Herschel Supply Novel Duffle Bag",
-    price: "$100",
+    rank: "04",
+    name: "Herschel Novel Duffle (43L)",
+    price: "$110",
     verdict: "Best Accessible Luxury",
-    description: "Herschel Supply's Novel Duffle occupies the sweet spot between premium and accessible — well-made, beautifully designed, and priced at the entry point to investment bags. The shoe compartment, interior pockets, and water-resistant construction cover all functional requirements for a Pilates studio bag, while the clean canvas exterior reads as a lifestyle product rather than gym kit. A smart first step into luxury studio accessories.",
-    affiliateUrl: "https://www.amazon.com/s?k=herschel+supply+novel+duffle+bag&tag=pilatescollective-20",
-    tag: "Accessible Luxury",
+    description: "The Novel is Herschel's signature duffle, and its best feature for Pilates is the separate zippered shoe compartment in the end panel, which keeps trainers and damp kit away from clean clothes. The 43-litre body (20.5 × 11.75 × 11 inches) is roomy enough for a weekend, the 600D fabric is made from recycled polyester, and the zips are waterproof. Clean, low-key styling with vegan leather handles. Sold and shipped by Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B0C3B2TWFN?tag=pilatescollective-20",
+    tag: "Best Value",
+  },
+  {
+    rank: "05",
+    name: "lululemon Everywhere Belt Bag Large 2L",
+    price: "$48",
+    verdict: "Best Compact Bag",
+    description: "The Everywhere Belt Bag is the most recognisable small bag in any studio changing room. The Large 2L version holds a phone, keys, cards, grip socks and a small snack, which is everything you need on days when you're travelling light to class. It has an adjustable strap to wear cross-body or at the waist, an exterior zip pocket, interior pockets and a two-way zip. lululemon doesn't sell on Amazon (listings there are resellers), so buy it direct.",
+    affiliateUrl: "https://shop.lululemon.com/p/bags/Everywhere-Belt-Bag-Large/_/prod11130156",
+    tag: "Compact",
+  },
+  {
+    rank: "06",
+    name: "BAGGU Cloud Bag",
+    price: "$62",
+    verdict: "Best Lightweight Carryall",
+    description: "BAGGU's puffy nylon Cloud Bag is light, squashy and surprisingly roomy (12.75 × 13.75 × 8 inches), with a top zip and an exterior pocket. It's big enough for a studio change of clothes and a towel, and when you don't need it, it packs into its own detachable interior pouch. The colours are the fun part. Sold by BAGGU on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B0FMC4PJM8?tag=pilatescollective-20",
+    tag: "Lightweight",
   },
 ];
 
@@ -101,7 +101,7 @@ const jsonLd = {
       description: "The finest bags for Pilates practitioners — compared for structure, capacity, and studio-to-life versatility.",
       url: "https://pilatescollectiveclub.com/blog/best-designer-pilates-bag",
       datePublished: "2026-07-06",
-      dateModified: "2026-07-06",
+      dateModified: "2026-09-22",
       image: "https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -126,7 +126,7 @@ const jsonLd = {
       mainEntity: [
         { "@type": "Question", name: "What should a luxury Pilates bag include?", acceptedAnswer: { "@type": "Answer", text: "A well-designed luxury Pilates bag should have: a main compartment large enough for a rolled mat (or a separate mat sleeve), a separated shoe or wet-kit pocket, internal pockets for keys, card, and phone, water-resistant base material, and a strap configuration comfortable enough for a 20-minute walk to the studio. Bonus: a towel loop, external water bottle pocket, and a padded shoulder strap." } },
         { "@type": "Question", name: "Is a luxury gym bag a worthwhile investment for Pilates?", acceptedAnswer: { "@type": "Answer", text: "Yes, in the same way that a quality mat or legging is worthwhile. A luxury bag made from quality materials will outlast three or four budget alternatives, meaning the cost per year of ownership is comparable or lower. More importantly, a bag you love using reinforces the ritual and intentionality that makes a regular Pilates practice sustainable." } },
-        { "@type": "Question", name: "Which designer brands make the best Pilates bags?", acceptedAnswer: { "@type": "Answer", text: "The activewear brands Sweaty Betty, Alo Yoga, and Varley produce the most Pilates-specific luxury bags — designed with studio use cases in mind rather than general fitness. For fashion-forward luxury, the Adidas by Stella McCartney collection offers designer credibility with genuine athletic function. Lululemon's belt bag, while not a full gym bag, has become the definitive luxury Pilates accessory." } },
+        { "@type": "Question", name: "Which designer brands make the best Pilates bags?", acceptedAnswer: { "@type": "Answer", text: "Varley makes the most studio-specific luxury bags, like the Montlake Club Duffle. For fashion-house credibility, Tory Burch's nylon Ella Tote and Marc Jacobs' The Tote are the two designer carryalls you'll see most in studio changing rooms. Herschel's Novel Duffle is the best value, thanks to its separate shoe compartment, and lululemon's Everywhere Belt Bag has become the default small bag for class." } },
       ],
     },
   ],
@@ -196,7 +196,7 @@ export default function BestDesignerPilatesBagPage() {
                   <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
                   <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
                   <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
-                    Shop on Amazon
+                    {p.affiliateUrl.includes("amazon.com") ? "Shop on Amazon" : "Shop Direct"}
                   </a>
                 </div>
               ))}
@@ -207,7 +207,7 @@ export default function BestDesignerPilatesBagPage() {
               {[
                 { q: "What should a luxury Pilates bag include?", a: "A well-designed luxury Pilates bag should have: a main compartment large enough for a rolled mat (or a separate mat sleeve), a separated shoe or wet-kit pocket, internal pockets for keys, card, and phone, water-resistant base material, and a strap configuration comfortable enough for a 20-minute walk to the studio. Bonus: a towel loop, external water bottle pocket, and a padded shoulder strap." },
                 { q: "Is a luxury gym bag a worthwhile investment for Pilates?", a: "Yes, in the same way that a quality mat or legging is worthwhile. A luxury bag made from quality materials will outlast three or four budget alternatives, meaning the cost per year of ownership is comparable or lower. More importantly, a bag you love using reinforces the ritual and intentionality that makes a regular Pilates practice sustainable." },
-                { q: "Which designer brands make the best Pilates bags?", a: "The activewear brands Sweaty Betty, Alo Yoga, and Varley produce the most Pilates-specific luxury bags — designed with studio use cases in mind rather than general fitness. For fashion-forward luxury, the Adidas by Stella McCartney collection offers designer credibility with genuine athletic function. Lululemon's belt bag, while not a full gym bag, has become the definitive luxury Pilates accessory." },
+                { q: "Which designer brands make the best Pilates bags?", a: "Varley makes the most studio-specific luxury bags, like the Montlake Club Duffle. For fashion-house credibility, Tory Burch's nylon Ella Tote and Marc Jacobs' The Tote are the two designer carryalls you'll see most in studio changing rooms. Herschel's Novel Duffle is the best value, thanks to its separate shoe compartment, and lululemon's Everywhere Belt Bag has become the default small bag for class." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
                   <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>

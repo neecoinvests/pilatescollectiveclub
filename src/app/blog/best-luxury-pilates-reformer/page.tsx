@@ -8,14 +8,14 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Luxury Pilates Reformers for Home Studios (2026)",
-  description: "The world's finest home Pilates reformers — Gratz Industries, Balanced Body Studio, Peak Pilates MVe, Elina Pilates Elite RC, and BASI Systems compared for craftsmanship, performance, and investment value.",
+  description: "The world's finest home Pilates reformers — Gratz, Balanced Body Studio, Peak Pilates MVe, Elina Pilates Elite, BASI Systems and Merrithew Rehab V2 Max Plus compared for craftsmanship, performance, and investment value.",
   keywords: [
     "best luxury pilates reformer",
     "best high end pilates reformer home",
     "gratz pilates reformer",
     "balanced body studio reformer",
     "peak pilates mve reformer",
-    "elina pilates elite reformer",
+    "elina pilates elite wood reformer",
     "investment pilates reformer 2026",
     "professional grade pilates reformer home studio",
   ],
@@ -39,72 +39,72 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Gratz Industries Pilates Reformer",
-    price: "From $5,200",
+    name: "Gratz Classic Reformer",
+    price: "$4,645 (86\" aluminium)",
     verdict: "The Original",
     tag: "The Original",
-    description: "Gratz Industries built the first modern Pilates reformer in New York under Joseph Pilates himself, and the design has changed only in refinement since. Every Gratz reformer is hand-built to order in New York using aircraft-grade aluminium, precision-tensioned springs calibrated to Pilates' original specifications, and hardwood components finished to a standard indistinguishable from fine furniture. Classical Pilates studios worldwide consider no other reformer. A Gratz is not an equipment purchase — it is an heirloom. Sold direct at gratzpilates.com, not available on Amazon.",
-    affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
+    description: "Gratz Industries built apparatus for Joseph Pilates himself in New York, and its reformer is still made there, to order, in a design that has changed only in refinement. It comes in 80\", 86\" and 89\" lengths, in aluminium (the 86-inch Classic is $4,645) or as a maple Designer model, with the classical spring set, fixed geometry and firm upholstery that classical teachers are trained on. If you practise or teach the classical repertoire, this is the reference machine; contemporary practitioners may prefer the adjustability of Balanced Body or Merrithew. Sold direct from Gratz, not on Amazon; delivery and accessories are extra.",
+    affiliateUrl: "https://www.gratzpilates.com/products/86-aluminum-reformer",
   },
   {
     rank: "02",
-    name: "Balanced Body Studio Reformer",
-    price: "From $4,400",
+    name: "Balanced Body Studio Reformer (Revo Footbar)",
+    price: "$4,700",
     verdict: "Best Professional Studio Grade",
     tag: "Commercial Grade",
-    description: "Balanced Body is the world's largest professional Pilates equipment manufacturer, supplying the majority of certified Pilates studios globally. Their Studio Reformer is built to withstand eight hours of daily commercial use — the frame is welded aircraft-grade aluminium, the carriage glides on precision ball-bearing wheels, and the spring bar accommodates the full range of Balanced Body spring sets. A commercial-grade machine sold into the home studio market with no compromises.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+studio+reformer+pilates&tag=pilatescollective-20",
+    description: "The Studio Reformer is the machine you are most likely to have used in a contemporary studio, and the version Balanced Body sells on Amazon is the same commercial model. The frame is solid rock maple with commercial-grade upholstery; five Balanced Body springs give 46 resistance combinations; the Revo system adds a 4-position locking footbar and a 5-position springbar, and TwistLock shoulder rests make changes fast. It is built for daily professional use, which in a home means decades. Made to order: allow three to four weeks to ship.",
+    affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
   },
   {
     rank: "03",
     name: "Peak Pilates MVe Reformer",
-    price: "From $4,295",
-    verdict: "Best American Craftsmanship",
+    price: "$4,295 with box",
+    verdict: "Best Stackable Studio Machine",
     tag: "American Precision",
-    description: "Peak Pilates is a Colorado-based manufacturer whose MVe Reformer has earned a devoted following in premium home studios across North America. The machine uses a patented spring system that allows finer tension graduation than most competitors — critical for the progressive loading principles of Pilates. The aluminium extrusion frame is anodised to a quality that reads as architectural rather than athletic. Designed specifically for the demanding home practitioner.",
-    affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+mve+reformer&tag=pilatescollective-20",
+    description: "Peak Pilates is a Colorado manufacturer, and the MVe is its studio-grade aluminium reformer. It runs five springs (one heavy, two medium, two light, with an optional extra-light) and adds details few stackable reformers have: retractable shoulder blocks, retractable risers and a gear-bar adjustment for fine-tuning carriage position. Because the frame stacks, it suits a home studio that may one day hold two machines. It sells direct at $4,295 with the Long/Short Box, and a Tower bundle is available if you want Cadillac-style work from the same frame.",
+    affiliateUrl: "https://www.peakpilates.com/products/mve-reformer",
   },
   {
     rank: "04",
-    name: "Elina Pilates Elite RC Reformer",
-    price: "From $4,200",
-    verdict: "Best European Craftsmanship",
-    tag: "European Luxury",
-    description: "Elina Pilates is a Spanish manufacturer who has emerged as Europe's finest Pilates equipment house over the past decade. The Elite RC is their flagship reformer — constructed from anodised aluminium, upholstered in premium Alcantara, and fitted with high-tension springs manufactured in Germany. The carriage travel is among the smoothest of any reformer in this review. Used by elite studios in Madrid, London, and Paris, it is now available for the discerning home practitioner.",
-    affiliateUrl: "https://www.amazon.com/s?k=elina+pilates+elite+rc+reformer&tag=pilatescollective-20",
+    name: "Elina Pilates Elite Wood Reformer",
+    price: "$3,995",
+    verdict: "Best European Design",
+    tag: "European Craft",
+    description: "Elina Pilates is a Spanish manufacturer, and the Elite Wood is its flagship home-and-studio reformer. The frame is rock maple; resistance comes from a six-spring system with a height-adjustable springbar and a 7-position quick-release footbar; the carriage rides on eight polyurethane wheels with precision bearings, which makes it one of the quieter machines here. Like the MVe, it stacks. At around $3,995 it is the lowest-priced machine on this list, and it is sold through Elina's US store and authorised dealers rather than Amazon.",
+    affiliateUrl: "https://www.elinapilates.com/us/en/pilates-reformers/307-wood-reformer-for-pilates-elite.html",
   },
   {
     rank: "05",
-    name: "BASI Systems Pilates Reformer",
-    price: "From $3,500",
+    name: "BASI Systems Reformer",
+    price: "From $6,850",
     verdict: "Best for Contemporary Pilates",
     tag: "Contemporary Standard",
-    description: "BASI Systems was developed by Rael Isacowitz — one of the world's foremost Pilates educators — to support his contemporary Pilates methodology. The reformer integrates several design refinements not found in classical machines: a longer carriage travel for taller practitioners, a broader footbar range, and rope-and-pulley geometry optimised for contemporary exercise progressions. The preferred reformer of BASI-certified instructors worldwide. Sold direct at basisystems.com, not available on Amazon.",
-    affiliateUrl: "https://basisystems.com/product-category/reformers/",
+    description: "BASI Systems equipment was developed with Rael Isacowitz, founder of BASI Pilates and one of the method's best-known contemporary educators, to support the BASI repertoire. The reformer runs on aircraft-grade aluminium tracks for a smooth, quiet carriage and adjusts for a wide range of body sizes. In the US it is sold only through the official distributor Bodynetworx: the full Reformer starts at $6,850, and the Compact Reformer (a shorter frame for smaller rooms) starts at $5,250. Not available on Amazon.",
+    affiliateUrl: "https://bodynetworx.com/products/reformer",
   },
   {
     rank: "06",
-    name: "Merrithew V2 Max Reformer",
-    price: "From $4,999",
+    name: "Merrithew Rehab V2 Max Plus Reformer",
+    price: "$8,199",
     verdict: "Best Clinical Pedigree",
     tag: "Clinical Grade",
-    description: "The V2 Max is Merrithew's professional reformer and the machine the STOTT PILATES method was built around. It runs a five-spring system with high-precision gradation, a wider carriage than the SPX line, and the patented retractable rope system that keeps the ropes out of the way between exercises. That combination is why it is found in hospitals, physiotherapy clinics and teacher-training centres rather than only in studios. At $4,999 it is priced against the Balanced Body Studio Reformer, and the choice between them comes down to whether you want Merrithew's rehabilitation orientation or Balanced Body's accessory ecosystem.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+v2+max+reformer&tag=pilatescollective-20",
+    description: "Merrithew (the company behind STOTT PILATES) builds the V2 Max Plus for studios, hospitals and physiotherapy clinics, and the Rehab version raises the frame so getting on and off is easier, which is why clinics buy it. It includes the Vertical Frame, making it a reformer and near-complete Cadillac in one; it runs high-precision springs and Merrithew's patented Retractable Rope System; and it offers three gearbar, six carriage-stopper, three headrest and four footbar positions. It is CE-marked as a Class I medical device in Europe. Sold by Merrithew on Amazon and made to order. The most expensive machine here, and the most versatile.",
+    affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
   },
 ];
 
 const FAQS = [
   {
     q: "What is the difference between a luxury reformer and a premium reformer?",
-    a: "Premium reformers (typically $800–$2,500) are built to rigorous residential standards with quality frames and reliable spring systems. Luxury reformers ($3,200–$5,500+) are built to commercial studio standards, hand-manufactured with aerospace-grade materials, precision-calibrated springs, and upholstery and finishing normally reserved for professional studio environments. Luxury machines typically carry lifetime frame warranties and are maintained and serviced over decades, not replaced.",
+    a: "Premium reformers (typically $800–$2,500) are built to rigorous residential standards with quality frames and reliable spring systems. Luxury reformers (roughly $4,000–$8,000+) are the machines professional studios and clinics buy: maple or aluminium frames built for daily commercial use, precision springs, finer adjustability, and manufacturer support and parts that let you service the machine for decades rather than replace it.",
   },
   {
     q: "Is a Gratz reformer worth the price?",
-    a: "For classical Pilates practitioners and collectors, yes. Gratz reformers are hand-built in New York to specifications inherited directly from Joseph Pilates, making them the only machines that can genuinely claim historical authenticity. They appreciate in value, can be restored indefinitely by Gratz's service team, and provide an exercise experience that contemporary machines — however technically refined — cannot replicate. A Gratz is a generational investment.",
+    a: "For classical Pilates practitioners and collectors, yes. Gratz reformers are hand-built in New York to specifications inherited directly from Joseph Pilates, which gives them a lineage no other manufacturer can claim. They hold their value well on the used market, parts remain available from Gratz, and the feel of the classical springs and fixed geometry is exactly what classical teachers train on. If you practise contemporary Pilates, a Balanced Body or Merrithew machine will usually suit you better.",
   },
   {
     q: "What should I consider before buying a luxury Pilates reformer?",
-    a: "Space: luxury reformers are typically 8–9 feet long and require 4+ feet of clearance on each end. Ceiling height: footwork in full extension requires 9+ feet for tall practitioners. Flooring: hardwood or stone is ideal; luxury reformers should not sit on deep-pile carpet. Budget for ongoing maintenance — annual spring replacement and carriage wheel servicing is standard practice for commercial-grade machines.",
+    a: "Space: full-size reformers are roughly 8 feet long and 2–2.5 feet wide, and you want about 2–3 feet of clear floor around them (more if you add a tower or vertical frame). Flooring: hardwood, stone or firm vinyl is ideal; avoid deep-pile carpet. Delivery: most of these machines are made to order and ship by freight, so allow several weeks. Maintenance: manufacturers recommend replacing springs every one to two years with home use, and cleaning rails and wheels regularly.",
   },
 ];
 
@@ -114,10 +114,10 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Luxury Pilates Reformers for Home Studios (2026)",
-      description: "The world's finest home Pilates reformers — Gratz, Balanced Body Studio, Peak Pilates MVe, Elina Pilates, and BASI Systems compared for craftsmanship, performance, and investment value.",
+      description: "The world's finest home Pilates reformers — Gratz, Balanced Body Studio, Peak Pilates MVe, Elina Pilates, BASI Systems and Merrithew compared for craftsmanship, performance, and investment value.",
       url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-reformer",
       datePublished: "2026-07-06",
-      dateModified: "2026-07-06",
+      dateModified: "2026-09-22",
       image: "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -166,8 +166,8 @@ export default function BestLuxuryPilatesReformerPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Luxury Pilates Reformers<br /><span style={{ color: "#8b4a31" }}>for Home Studios (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated July 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. Note: luxury reformers are typically purchased directly from manufacturers — the Amazon links above will surface available search results and related products.</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. Several luxury reformers are sold only direct from the manufacturer; for those we link to the maker&apos;s own store. Prices checked September 2026.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               At the summit of the Pilates equipment market sits a small number of machines built to a standard that has nothing to do with price sensitivity. Gratz, Balanced Body Studio, Peak Pilates MVe, and Elina Pilates each represent decades of manufacturing craft, precision engineering, and a commitment to the Pilates method that commercial activewear brands cannot replicate.
@@ -250,7 +250,7 @@ export default function BestLuxuryPilatesReformerPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Luxury Pilates Accessories" excerpt="Balanced Body Magic Circle, TriggerPoint GRID, Manduka cork props — premium small equipment for the serious practitioner." href="/blog/best-luxury-pilates-accessories" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-props-cork-ring.png" />
+                <ArticleCard title="Best Luxury Pilates Accessories" excerpt="STOTT Fitness Circle Pro, TriggerPoint GRID 2.0, the Balanced Body Pilates Arc — premium small equipment for the serious practitioner." href="/blog/best-luxury-pilates-accessories" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-props-cork-ring.png" />
                 <ArticleCard title="Best Premium Pilates Reformer" excerpt="The best reformers at the $800–$2,500 tier — Merrithew SPX, Align Pilates, and more for serious home practitioners." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="10 min" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
               </div>
             </div>

@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Luxury Pilates Mats (2026)",
-  description: "The finest Pilates mats for serious practitioners — Manduka PRO, Liforme, Alo Yoga Warrior, Lululemon The Mat, and Jade Harmony Professional compared for grip, cushioning, and longevity.",
+  description: "The finest Pilates mats for serious practitioners — Manduka PRO, Liforme, Hugger Mugger Para Rubber, lululemon The Mat, JadeYoga Harmony and Yoga Design Lab compared for grip, cushioning, and longevity.",
   keywords: [
     "best luxury pilates mat",
     "premium pilates mat 2026",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Luxury Pilates Mats (2026)",
-    description: "Manduka PRO, Liforme, Alo Warrior, and Lululemon The Mat — the premium mats that serious practitioners actually buy once and keep for years.",
+    description: "Manduka PRO, Liforme, Hugger Mugger and lululemon The Mat — the premium mats that serious practitioners actually buy once and keep for years.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-mat",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-mat-setup-beige.png", width: 1200, height: 630, alt: "Best Luxury Pilates Mats 2026" }],
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Luxury Pilates Mats (2026)",
-    description: "Manduka PRO, Liforme, Alo Warrior, and more — the premium mats serious practitioners buy once and keep for years.",
+    description: "Manduka PRO, Liforme, JadeYoga, and more — the premium mats serious practitioners buy once and keep for years.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-mat-setup-beige.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-mat" },
@@ -38,57 +38,57 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Manduka PRO Yoga & Pilates Mat",
-    price: "$120",
+    name: "Manduka PRO Yoga & Pilates Mat 6mm",
+    price: "$144",
     verdict: "Best Overall Luxury",
-    description: "The Manduka PRO is the professional studio standard — the mat found in the world's finest yoga and Pilates studios and trusted by teachers globally. The 6mm closed-cell PVC surface is completely impermeable to moisture and bacteria, wipes clean instantly, and provides the precise amount of cushioning for spinal articulation work without the instability of foam. Manduka offers a lifetime guarantee. This is the last mat most practitioners ever buy.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+pilates+mat&tag=pilatescollective-20",
+    description: "The Manduka PRO is the studio standard, and it comes with a lifetime guarantee. Its 6mm ultra-dense cushioning is the right amount for spinal articulation and kneeling work without the wobble of soft foam, the closed-cell surface keeps sweat from soaking in and wipes clean easily, and a dotted underside keeps it planted. At 71 × 26 inches it's a little wider than most mats, and at 7.5 lbs it's a home mat rather than one you carry around. Expect a short break-in before it reaches full grip. Sold by Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B01I5CFUHM?tag=pilatescollective-20",
     tag: "Studio Standard",
   },
   {
     rank: "02",
     name: "Liforme Original Yoga Mat",
-    price: "$140",
+    price: "$165",
     verdict: "Best Alignment Lines",
-    description: "Liforme is a British luxury mat brand whose AlignForMe system — precise alignment markers laser-engraved into the surface — makes it uniquely valuable for Pilates practitioners working on symmetry and spatial precision. The natural rubber base provides extraordinary grip that actually improves when wet, and the biodegradable construction reflects a serious commitment to sustainability. The most technically refined mat surface available.",
-    affiliateUrl: "https://www.amazon.com/s?k=liforme+original+yoga+mat&tag=pilatescollective-20",
-    tag: "Alignment Precision",
+    description: "Liforme's patented AlignForMe markings, etched into the surface, are genuinely useful in Pilates for setting up hands, feet and pelvis symmetrically every time. The GripForMe eco-polyurethane top over rubber has exceptional grip, even with damp hands, and the 4.2mm thickness keeps you feeling connected to the floor for balance work. It's PVC-free, it's extra-long and wide, and it comes with Liforme's own carry bag. Sold by Liforme on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CF6213QQ?tag=pilatescollective-20",
+    tag: "Alignment",
   },
   {
     rank: "03",
-    name: "Alo Yoga Warrior Compression Mat",
-    price: "$98",
-    verdict: "Best Premium PU Surface",
-    description: "Alo's Warrior Mat uses a polyurethane top surface over a natural rubber base — the same construction used in the finest yoga mats from Japan. The PU surface has a naturally grippy micro-texture that feels luxurious underhand and underfoot, and is effortlessly easy to clean. The 5mm thickness is the sweet spot for Pilates — enough cushioning for prone work without compromising proprioceptive feedback.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+warrior+compression+mat&tag=pilatescollective-20",
-    tag: "PU Luxury",
-  },
-  {
-    rank: "04",
-    name: "Lululemon The Mat 5mm",
-    price: "$88",
-    verdict: "Best Everyday Luxury",
-    description: "Lululemon's The Mat 5mm sits at the intersection of premium and practical. The dual-texture surface — smooth top, ribbed underside — grips studio floors while providing a refined surface for hands, spine, and feet. The polyurethane top layer is antimicrobial, odour-resistant, and maintains consistent performance without the break-in period required by natural rubber mats. An honest luxury mat for daily home and studio practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+the+mat+5mm&tag=pilatescollective-20",
-    tag: "Everyday Premium",
-  },
-  {
-    rank: "05",
-    name: "Jade Harmony Professional Mat",
-    price: "$80",
-    verdict: "Best Natural Rubber",
-    description: "Jade Harmony mats are made from natural tapped rubber — no synthetic fillers — which gives them a grip profile unlike any synthetic mat. The surface is slightly textured and responsive in a way that practitioners with sensitive hands and feet consistently prefer. Jade plants one tree for every mat sold and is manufactured in the USA. A values-aligned luxury that performs at the highest level.",
-    affiliateUrl: "https://www.amazon.com/s?k=jade+harmony+professional+yoga+mat&tag=pilatescollective-20",
+    name: "Hugger Mugger Para Rubber Yoga Mat",
+    price: "$116",
+    verdict: "Best Heavyweight Mat",
+    description: "If you want a mat that lies absolutely flat and never slides, the Para Rubber is it. It's a quarter-inch (about 6.4mm) of natural rubber with non-slip grip on both sides, which gives excellent cushioning for supine and kneeling work, and the density means it doesn't bottom out under the sacrum in rolling exercises. The trade-off is weight: this is a mat that lives in your home studio. Natural rubber isn't suitable if you have a latex allergy. Sold by Backcountry on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B00TI8V6SK?tag=pilatescollective-20",
     tag: "Natural Rubber",
   },
   {
+    rank: "04",
+    name: "lululemon The Mat 5mm",
+    price: "$98",
+    verdict: "Best Everyday Luxury",
+    description: "lululemon's The Mat 5mm combines a smooth polyurethane top layer, which stays grippy when you sweat, with a cushioned natural rubber base made with FSC-certified rubber. It's reversible, easy to wipe down, and needs no break-in, and the 5mm thickness is a good middle ground for Pilates: enough padding for the spine, firm enough for standing balance. lululemon doesn't sell on Amazon, so buy it direct.",
+    affiliateUrl: "https://shop.lululemon.com/p/yoga-mats/The-Mat-5mm/_/prod10990033",
+    tag: "Everyday Luxury",
+  },
+  {
+    rank: "05",
+    name: "JadeYoga Harmony Mat",
+    price: "$115",
+    verdict: "Best Natural Rubber",
+    description: "JadeYoga's Harmony is made in the USA from natural open-cell rubber, with no PVC or phthalates, and it's the mat people with sweaty hands tend to swear by: the open-cell surface grips in a way synthetic mats don't. At 3/16 inch (about 4.8mm) it's cushioned enough for rolling work while staying stable for balance. JadeYoga also plants a tree for every mat sold. Natural rubber has a smell at first and isn't suitable with a latex allergy. Sold by JadeYoga on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B000EC7KW0?tag=pilatescollective-20",
+    tag: "Made in USA",
+  },
+  {
     rank: "06",
-    name: "YogaDesignLab Combo Mat",
-    price: "$90",
-    verdict: "Best Artisan Design",
-    description: "YogaDesignLab produces mats from Bali that combine serious performance with exceptional visual design — made on natural rubber with a microfibre towel top surface integrated into a single mat. The result is a mat that provides towel-level absorption for sweaty Pilates or Lagree sessions without requiring a separate towel layer. The Combo Mat is one of the most photographed mats in the Pilates studio community worldwide.",
-    affiliateUrl: "https://www.amazon.com/s?k=yogadesignlab+combo+mat+natural+rubber&tag=pilatescollective-20",
-    tag: "Artisan Luxury",
+    name: "Yoga Design Lab Combo Mat 5.5mm",
+    price: "$131",
+    verdict: "Best Mat-and-Towel in One",
+    description: "Yoga Design Lab's Combo Mat bonds a soft microfibre towel surface to a natural rubber base, so it gets grippier as you sweat. That makes it the pick for hot mat classes, sweaty Lagree-style sessions or anyone who usually lays a towel over their mat. The printed designs are the most distinctive here, and the 5.5mm version adds useful cushioning for Pilates. A carrying strap is included. Sold by Hugger Mugger Yoga on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B09JWWCCH1?tag=pilatescollective-20",
+    tag: "Artisan Design",
   },
 ];
 
@@ -98,10 +98,10 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Luxury Pilates Mats (2026)",
-      description: "The finest Pilates mats for serious practitioners — Manduka PRO, Liforme, Alo Yoga Warrior, Lululemon The Mat, and Jade Harmony compared for grip, cushioning, and longevity.",
+      description: "The finest Pilates mats for serious practitioners — Manduka PRO, Liforme, Hugger Mugger Para Rubber, lululemon The Mat, JadeYoga Harmony and Yoga Design Lab compared for grip, cushioning, and longevity.",
       url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-mat",
       datePublished: "2026-07-06",
-      dateModified: "2026-07-06",
+      dateModified: "2026-09-22",
       image: "https://pilatescollectiveclub.com/pictures/stitch-mat-setup-beige.png",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -124,9 +124,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       mainEntity: [
-        { "@type": "Question", name: "What thickness is best for a luxury Pilates mat?", acceptedAnswer: { "@type": "Answer", text: "4mm to 6mm is the professional consensus for mat Pilates. The Manduka PRO at 6mm is the thickest on this list and best for practitioners with sensitive spines or who spend significant time in prone and supine positions. The Alo Warrior and Lululemon The Mat at 5mm are the sweet spot for balance between cushioning and proprioceptive feedback. Thicker mats can reduce floor-connection feedback during balance work." } },
-        { "@type": "Question", name: "Is the Manduka PRO worth the investment for Pilates?", acceptedAnswer: { "@type": "Answer", text: "Yes, unequivocally, if you train three or more times per week. The Manduka PRO carries a lifetime guarantee, maintains its surface texture and grip indefinitely with basic care, and outperforms any mat in its price tier. For serious practitioners, the true cost of the Manduka PRO — amortised over 10+ years of use — is lower than replacing cheaper mats every 12–18 months." } },
-        { "@type": "Question", name: "Natural rubber vs PU: which is better for a luxury Pilates mat?", acceptedAnswer: { "@type": "Answer", text: "Natural rubber mats (Jade, Liforme) offer exceptional grip that improves with moisture — ideal for warm or intense Pilates practice. PU-surface mats (Alo Warrior, Lululemon The Mat) are easier to clean, odour-resistant, and feel more refined underhand. PU is generally preferred for reformer-adjacent mat work where hygiene is a priority; natural rubber is preferred for movement-intensive mat flow." } },
+        { "@type": "Question", name: "What thickness is best for a luxury Pilates mat?", acceptedAnswer: { "@type": "Answer", text: "4mm to 6mm is the professional consensus for mat Pilates. The Hugger Mugger Para Rubber (about 6.4mm) and Manduka PRO (6mm) are the most cushioned here and best for sensitive spines or lots of supine and kneeling work. lululemon The Mat and the 5.5mm Yoga Design Lab Combo are the sweet spot for balance between cushioning and proprioceptive feedback. Thicker mats can reduce floor-connection feedback during balance work." } },
+        { "@type": "Question", name: "Is the Manduka PRO worth the investment for Pilates?", acceptedAnswer: { "@type": "Answer", text: "Yes, unequivocally, if you train three or more times per week. The Manduka PRO carries a lifetime guarantee, holds its cushioning and grip for years with basic care, and is dense enough that it won't bottom out under the spine. Spread over years of use, it costs less than replacing a cheaper mat every year or so." } },
+        { "@type": "Question", name: "Natural rubber vs PU: which is better for a luxury Pilates mat?", acceptedAnswer: { "@type": "Answer", text: "Open-cell natural rubber mats (JadeYoga, Hugger Mugger Para Rubber) offer excellent grip and cushioning, but they're heavier, have a rubber smell at first and aren't suitable with a latex allergy. PU-topped mats (Liforme, lululemon The Mat) stay grippy when damp, are easier to wipe clean and feel smoother under the hands. PU is generally preferred for reformer-adjacent mat work where hygiene is a priority; natural rubber is preferred for movement-intensive mat flow." } },
       ],
     },
   ],
@@ -196,7 +196,7 @@ export default function BestLuxuryPilatesMatPage() {
                   <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
                   <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
                   <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
-                    Shop on Amazon
+                    {p.affiliateUrl.includes("amazon.com") ? "Shop on Amazon" : "Shop Direct"}
                   </a>
                 </div>
               ))}
@@ -205,9 +205,9 @@ export default function BestLuxuryPilatesMatPage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
-                { q: "What thickness is best for a luxury Pilates mat?", a: "4mm to 6mm is the professional consensus for mat Pilates. The Manduka PRO at 6mm is the thickest on this list and best for practitioners with sensitive spines or who spend significant time in prone and supine positions. The Alo Warrior and Lululemon The Mat at 5mm are the sweet spot for balance between cushioning and proprioceptive feedback. Thicker mats can reduce floor-connection feedback during balance work." },
-                { q: "Is the Manduka PRO worth the investment for Pilates?", a: "Yes, unequivocally, if you train three or more times per week. The Manduka PRO carries a lifetime guarantee, maintains its surface texture and grip indefinitely with basic care, and outperforms any mat in its price tier. For serious practitioners, the true cost of the Manduka PRO — amortised over 10+ years of use — is lower than replacing cheaper mats every 12–18 months." },
-                { q: "Natural rubber vs PU: which is better for a luxury Pilates mat?", a: "Natural rubber mats (Jade, Liforme) offer exceptional grip that improves with moisture — ideal for warm or intense Pilates practice. PU-surface mats (Alo Warrior, Lululemon The Mat) are easier to clean, odour-resistant, and feel more refined underhand. PU is generally preferred for reformer-adjacent mat work where hygiene is a priority; natural rubber is preferred for movement-intensive mat flow." },
+                { q: "What thickness is best for a luxury Pilates mat?", a: "4mm to 6mm is the professional consensus for mat Pilates. The Hugger Mugger Para Rubber (about 6.4mm) and Manduka PRO (6mm) are the most cushioned here and best for sensitive spines or lots of supine and kneeling work. lululemon The Mat and the 5.5mm Yoga Design Lab Combo are the sweet spot for balance between cushioning and proprioceptive feedback. Thicker mats can reduce floor-connection feedback during balance work." },
+                { q: "Is the Manduka PRO worth the investment for Pilates?", a: "Yes, unequivocally, if you train three or more times per week. The Manduka PRO carries a lifetime guarantee, holds its cushioning and grip for years with basic care, and is dense enough that it won't bottom out under the spine. Spread over years of use, it costs less than replacing a cheaper mat every year or so." },
+                { q: "Natural rubber vs PU: which is better for a luxury Pilates mat?", a: "Open-cell natural rubber mats (JadeYoga, Hugger Mugger Para Rubber) offer excellent grip and cushioning, but they're heavier, have a rubber smell at first and aren't suitable with a latex allergy. PU-topped mats (Liforme, lululemon The Mat) stay grippy when damp, are easier to wipe clean and feel smoother under the hands. PU is generally preferred for reformer-adjacent mat work where hygiene is a priority; natural rubber is preferred for movement-intensive mat flow." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
                   <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>

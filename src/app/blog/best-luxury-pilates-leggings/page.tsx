@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Luxury Pilates Leggings (2026)",
-  description: "The finest pilates leggings money can buy — Wolford, Splits59, Varley, Alo Yoga, Lululemon Nulux, and Beyond Yoga reviewed for fabric quality, precision fit, and investment-grade durability.",
+  description: "The finest pilates leggings money can buy — Wolford, Splits59, Varley, lululemon Align, Alo Airlift and Beyond Yoga reviewed for fabric quality, precision fit, and investment-grade durability.",
   keywords: [
     "best luxury pilates leggings",
     "luxury pilates leggings 2026",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Luxury Pilates Leggings (2026)",
-    description: "Wolford, Splits59, Varley, Alo, and Lululemon Nulux — the investment-grade leggings serious practitioners actually reach for.",
+    description: "Wolford, Splits59, Varley, lululemon Align and Alo Airlift — the investment-grade leggings serious practitioners actually reach for.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-leggings",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", width: 1200, height: 630, alt: "Best Luxury Pilates Leggings 2026" }],
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Luxury Pilates Leggings (2026)",
-    description: "Wolford, Splits59, Varley, Alo, and Lululemon Nulux — the investment-grade leggings for serious practitioners.",
+    description: "Wolford, Splits59, Varley, lululemon Align and Alo Airlift — the investment-grade leggings for serious practitioners.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-leggings" },
@@ -38,56 +38,56 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Wolford The Workout Leggings",
-    price: "$180",
+    name: "Wolford Energy Leggings",
+    price: "$144",
     verdict: "Most Luxurious",
-    description: "Wolford is Austria's most revered luxury hosiery and bodywear house, and The Workout Leggings represent their finest expression of athletic craft. The fabric is a proprietary micro-fibre blend engineered to a weight and density that flatters without compressing — a distinction that separates Wolford from activewear brands. The 4D Stretch Technology adapts to the body's movement without resistance. Opaque in every colour, pill-resistant, and built to outlast a decade of training.",
-    affiliateUrl: "https://www.amazon.com/s?k=wolford+workout+leggings+women&tag=pilatescollective-20",
+    description: "Wolford, the Austrian hosiery house founded in 1950, applies its knitting expertise to activewear with the Energy Leggings. They're circular-knit, which means very few seams to press into you on the carriage, with a matt finish that reads more polished than typical gym leggings. They dry quickly, are sustainably dyed, and are made from recycled BLUFIBRE yarn derived from tyre waste. Full length. Sold by Wolford's own shop on Amazon; stock by size can be thin, so check yours before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B0G43PB7X4?tag=pilatescollective-20",
     tag: "Pinnacle Luxury",
   },
   {
     rank: "02",
-    name: "Splits59 Airweight High-Waist Tight",
-    price: "$138",
-    verdict: "Worn by Professionals",
-    description: "Splits59 is the brand of choice for professional dancers, competitive athletes, and Hollywood talent — which tells you everything about what happens when elite bodies need elite performance from their clothing. The Airweight fabric is second-skin thin yet fully opaque and compressive. The high waistband stays flat and smooth without rolling. These are the leggings you see on practitioners who train professionally.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+airweight+high+waist+tight&tag=pilatescollective-20",
+    name: "Splits59 Airweight Super High Waist 7/8 Legging",
+    price: "$118",
+    verdict: "Best Lightweight Feel",
+    description: "Splits59's Airweight fabric is a light, super-stretch jersey that feels close to nothing on, which is exactly what you want for a long reformer session in a warm studio. The Super High Waist version has an 11-inch rise that stays put through roll-ups and teasers, and the 23.5-inch inseam lands above the ankle so the hem never catches on straps. Minimal branding (just a logo at the hem). Sold by Zappos on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CKF9TXNV?tag=pilatescollective-20",
     tag: "Pro Standard",
   },
   {
     rank: "03",
-    name: "Varley Brea High Rise Legging",
-    price: "$130",
-    verdict: "Best LA Luxury",
-    description: "Varley was born in Los Angeles and has become the defining luxury activewear brand for the West Coast Pilates community. The Brea is their signature legging — structured but buttery, high-waisted with a sculpting compression that feels supportive rather than restrictive. Made in Portugal from a nylon-elastane blend with minimal branding, they pass from studio to restaurant without looking like workout gear.",
-    affiliateUrl: "https://www.amazon.com/s?k=varley+brea+high+rise+legging&tag=pilatescollective-20",
-    tag: "LA Luxury",
+    name: "Varley FreeSoft High-Rise Legging 25\"",
+    price: "$98",
+    verdict: "Best London Luxury",
+    description: "Varley, the London-founded label beloved of boutique-studio regulars, built its reputation on leggings that look as good at lunch as they do in class. The FreeSoft is its current signature: a buttery-soft 75% polyester / 25% elastane fabric with light compression, minimal seams and a rolled waistband that won't dig in when you're folded forward. The 25-inch inseam is a clean 7/8 on most heights. Sold by Zappos on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D673GY1H?tag=pilatescollective-20",
+    tag: "London Luxury",
   },
   {
     rank: "04",
-    name: "Lululemon Nulux Tight 25\"",
-    price: "$108",
-    verdict: "Best Technical Luxury",
-    description: "Lululemon's Nulux is their most technically advanced fabric — lighter and more performance-focused than the famous Nulu of the Align legging. The Swift Speed Tight is built for practitioners who want uncompromising movement freedom with a luxury feel. The seam placement has been engineered to sit completely flat against the reformer carriage. A meaningful step above standard activewear.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+nulux+swift+speed+tight+25+inch&tag=pilatescollective-20",
-    tag: "Technical Luxury",
+    name: "lululemon Align High-Rise Pant 25\"",
+    price: "$98",
+    verdict: "The Benchmark",
+    description: "Every luxury legging is measured against the Align. Its Nulu fabric is buttery-soft and weightless, with just enough stretch for full-range reformer work, and the high rise sits flat under a cropped top. It's less compressive than the others here, which many Pilates practitioners prefer for breathing and deep flexion. lululemon doesn't sell on Amazon (listings there are third-party resellers), so buy it direct.",
+    affiliateUrl: "https://shop.lululemon.com/p/womens-leggings/Align-Pant-2/_/prod2020012",
+    tag: "Studio Benchmark",
   },
   {
     rank: "05",
-    name: "Alo Yoga Airlift 7/8 Legging",
-    price: "$114",
-    verdict: "Best for Pilates Studios",
-    description: "Alo's Airlift legging has dominated the premium Pilates studio market for several years. The Airlift fabric applies precise compression that creates a visibly sculpted silhouette without restricting blood flow or diaphragmatic breathing. The waistband is wide, firm, and entirely opaque. Worn equally by practitioners and instructors — the definitive luxury studio legging.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airlift+7+8+legging&tag=pilatescollective-20",
+    name: "Alo Yoga 7/8 High-Waist Airlift Legging",
+    price: "$128",
+    verdict: "Best Sculpting Legging",
+    description: "Alo's Airlift is the legging you'll see most often in upscale reformer studios. The fabric is smooth, slightly shiny and noticeably more compressive than the Align, so it holds and sculpts rather than disappearing on the body, and the high waistband stays firm and opaque in deep flexion. Choose Airlift if you like a held-in feel; choose the Align if you prefer barely-there. Alo doesn't sell on Amazon, so buy direct.",
+    affiliateUrl: "https://www.aloyoga.com/products/w5766r-7-8-high-waist-airlift-legging-black",
     tag: "Studio Staple",
   },
   {
     rank: "06",
-    name: "Beyond Yoga Spacedye Caught in the Midi High-Waist Legging",
-    price: "$109",
-    verdict: "Best Premium Fabric",
-    description: "Beyond Yoga's Spacedye fabric is unlike anything else in activewear — the heathered texture is created using a proprietary yarn-dyeing process that produces a subtle depth of colour invisible in lesser fabrics. The legging construction prioritises absolute comfort over compression, making it the luxury pick for longer, slower Pilates sessions where you need to hold positions for extended periods without pressure-point fatigue.",
-    affiliateUrl: "https://www.amazon.com/s?k=beyond+yoga+spacedye+caught+in+the+midi+high+waist+legging&tag=pilatescollective-20",
+    name: "Beyond Yoga Spacedye Caught in the Midi High Waisted Legging",
+    price: "$97",
+    verdict: "Softest Fabric",
+    description: "Beyond Yoga's Spacedye is the legging people describe as the softest they own. The heathered, space-dyed fabric (87% polyester, 13% elastane) prioritises comfort over compression, and the 5-inch high waistband gives gentle smoothing without pressure points, which makes it ideal for longer, slower mat sessions and holds. It comes in a wide, inclusive size range and dozens of colours. Sold by Zappos on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B07X3Y5JVL?tag=pilatescollective-20",
     tag: "Premium Fabric",
   },
 ];
@@ -98,10 +98,10 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Luxury Pilates Leggings (2026)",
-      description: "The finest pilates leggings money can buy — Wolford, Splits59, Varley, Alo Yoga, and Lululemon Nulux reviewed for fabric quality, precision fit, and investment-grade durability.",
+      description: "The finest pilates leggings money can buy — Wolford, Splits59, Varley, lululemon Align, Alo Airlift and Beyond Yoga reviewed for fabric quality, precision fit, and investment-grade durability.",
       url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-leggings",
       datePublished: "2026-07-06",
-      dateModified: "2026-07-06",
+      dateModified: "2026-09-22",
       image: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -124,9 +124,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       mainEntity: [
-        { "@type": "Question", name: "What makes a luxury pilates legging worth the investment?", acceptedAnswer: { "@type": "Answer", text: "Luxury pilates leggings differ from mid-range options in fabric engineering, construction precision, and longevity. Premium fabrics like Wolford's micro-fibre blend or Splits59's Airweight maintain their structure, compression, and opacity across hundreds of washes where cheaper alternatives pill, sag, or fade. The cost-per-wear of a $150 legging used three times a week for three years is lower than replacing a $40 legging every six months." } },
-        { "@type": "Question", name: "Are luxury activewear brands like Varley and Splits59 worth it for Pilates?", acceptedAnswer: { "@type": "Answer", text: "For practitioners who train frequently and care about the quality of their experience, yes. Varley and Splits59 are worn by professional dancers and athletes because the fit is engineered to a level of precision that most activewear brands don't reach. In Pilates specifically, where alignment and body awareness are central, clothing that fits perfectly and moves without restriction is a genuine training aid." } },
-        { "@type": "Question", name: "Which luxury legging is best for sensitive skin?", acceptedAnswer: { "@type": "Answer", text: "Wolford and Beyond Yoga both prioritise skin feel above all other metrics. Wolford's micro-fibre fabric is genuinely hosiery-soft against the skin, while Beyond Yoga's Spacedye fabric is described by practitioners with sensitive skin as the softest activewear fabric available. Both are free from the harsh elastane blends that cause irritation in budget activewear." } },
+        { "@type": "Question", name: "What makes a luxury pilates legging worth the investment?", acceptedAnswer: { "@type": "Answer", text: "Luxury pilates leggings differ from mid-range options in fabric engineering, construction precision, and longevity. Premium fabrics like Varley's FreeSoft, lululemon's Nulu or Splits59's Airweight hold their shape, opacity and softness far longer than budget leggings, which tend to pill, sag or go sheer in deep flexion. A $100 legging worn three times a week for years costs less per wear than replacing a $30 pair every few months." } },
+        { "@type": "Question", name: "Are luxury activewear brands like Varley and Splits59 worth it for Pilates?", acceptedAnswer: { "@type": "Answer", text: "For practitioners who train frequently and care about the quality of their experience, yes. Brands like Varley and Splits59 put more care into fabric, fit and finishing than most activewear labels. In Pilates specifically, where alignment and body awareness are central, clothing that fits perfectly and moves without restriction is a genuine training aid." } },
+        { "@type": "Question", name: "Which luxury legging is best for sensitive skin?", acceptedAnswer: { "@type": "Answer", text: "Beyond Yoga's Spacedye and lululemon's Align are the two most often recommended for sensitive skin: both are exceptionally soft, low-compression fabrics with smooth waistbands. Wolford's circular-knit Energy Leggings are another good option because they have very few seams to rub." } },
       ],
     },
   ],
@@ -196,7 +196,7 @@ export default function BestLuxuryPilatesLeggingsPage() {
                   <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
                   <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
                   <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
-                    Shop on Amazon
+                    {p.affiliateUrl.includes("amazon.com") ? "Shop on Amazon" : "Shop Direct"}
                   </a>
                 </div>
               ))}
@@ -205,9 +205,9 @@ export default function BestLuxuryPilatesLeggingsPage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
-                { q: "What makes a luxury pilates legging worth the investment?", a: "Luxury pilates leggings differ from mid-range options in fabric engineering, construction precision, and longevity. Premium fabrics like Wolford's micro-fibre blend or Splits59's Airweight maintain their structure, compression, and opacity across hundreds of washes where cheaper alternatives pill, sag, or fade. The cost-per-wear of a $150 legging used three times a week for three years is lower than replacing a $40 legging every six months." },
-                { q: "Are luxury activewear brands like Varley and Splits59 worth it for Pilates?", a: "For practitioners who train frequently and care about the quality of their experience, yes. Varley and Splits59 are worn by professional dancers and athletes because the fit is engineered to a level of precision that most activewear brands don't reach. In Pilates specifically, where alignment and body awareness are central, clothing that fits perfectly and moves without restriction is a genuine training aid." },
-                { q: "Which luxury legging is best for sensitive skin?", a: "Wolford and Beyond Yoga both prioritise skin feel above all other metrics. Wolford's micro-fibre fabric is genuinely hosiery-soft against the skin, while Beyond Yoga's Spacedye fabric is described by practitioners with sensitive skin as the softest activewear fabric available. Both are free from the harsh elastane blends that cause irritation in budget activewear." },
+                { q: "What makes a luxury pilates legging worth the investment?", a: "Luxury pilates leggings differ from mid-range options in fabric engineering, construction precision, and longevity. Premium fabrics like Varley's FreeSoft, lululemon's Nulu or Splits59's Airweight hold their shape, opacity and softness far longer than budget leggings, which tend to pill, sag or go sheer in deep flexion. A $100 legging worn three times a week for years costs less per wear than replacing a $30 pair every few months." },
+                { q: "Are luxury activewear brands like Varley and Splits59 worth it for Pilates?", a: "For practitioners who train frequently and care about the quality of their experience, yes. Brands like Varley and Splits59 put more care into fabric, fit and finishing than most activewear labels. In Pilates specifically, where alignment and body awareness are central, clothing that fits perfectly and moves without restriction is a genuine training aid." },
+                { q: "Which luxury legging is best for sensitive skin?", a: "Beyond Yoga's Spacedye and lululemon's Align are the two most often recommended for sensitive skin: both are exceptionally soft, low-compression fabrics with smooth waistbands. Wolford's circular-knit Energy Leggings are another good option because they have very few seams to rub." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
                   <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
