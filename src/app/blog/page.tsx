@@ -1303,8 +1303,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
   },
   {
-    title: "Balanced Body Allegro 2 Review (2026): The Gold Standard Home Reformer",
-    excerpt: "Deep review of the Balanced Body Allegro 2 — carriage, springs, fold mechanism, and whether $3,495 is justified.",
+    title: "Balanced Body Studio Reformer Review (2026): The Real Amazon Flagship",
+    excerpt: "Deep review of the real Balanced Body reformer sold on Amazon — carriage, springs, and whether $4,700 is justified.",
     href: "/blog/balanced-body-allegro-2-review",
     category: "Equipment",
     readTime: "12 min",
@@ -1623,8 +1623,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
   },
   {
-    title: "Merrithew SPX Max Review (2026): Flat-Folding Professional Reformer",
-    excerpt: "Deep review of the Merrithew SPX Max — 5-spring system, flat-fold storage, and the Allegro 2 comparison.",
+    title: "Merrithew At Home SPX Review (2026): The Real Amazon Listing",
+    excerpt: "Deep review of the real Merrithew SPX reformer sold on Amazon — spring system, what's included, and the Balanced Body comparison.",
     href: "/blog/merrithew-spx-max-review",
     category: "Equipment",
     readTime: "12 min",

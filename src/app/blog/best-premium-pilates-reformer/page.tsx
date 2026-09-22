@@ -433,7 +433,7 @@ export default function BestPremiumReformerPage() {
                 <ArticleCard title="Balanced Body vs Merrithew" excerpt="The definitive head-to-head of the two dominant professional reformer brands." href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="13 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's MVe reformer is a top-tier premium machine favoured by classical studios worldwide." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 <ArticleCard title="Elina Pilates Brand Guide" excerpt="Elina's handcrafted wood and aluminum reformers compete directly with Balanced Body and Merrithew." href="/blog/elina-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
-                <ArticleCard title="Balanced Body Allegro 2 Review" excerpt="The machine on its own terms: carriage, springs, fold and who it suits." href="/blog/balanced-body-allegro-2-review" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
+                <ArticleCard title="Balanced Body Studio Reformer Review" excerpt="The real Balanced Body flagship sold on Amazon: carriage, springs and who it suits." href="/blog/balanced-body-allegro-2-review" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
               </div>
             </div>
 

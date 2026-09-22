@@ -304,7 +304,7 @@ export default function BestPilatesCadillaPage() {
                   imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"
                 />
                 <ArticleCard
-                  title="Balanced Body Allegro 2 Review (2026)"
+                  title="Balanced Body Studio Reformer Review (2026)"
                   excerpt="The gold standard home reformer — an honest deep review."
                   href="/blog/balanced-body-allegro-2-review"
                   category="Equipment Review"

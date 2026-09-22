@@ -80,12 +80,12 @@ const PRODUCTS = [
   },
   {
     rank: "06",
-    name: "Balanced Body Allegro 2 Reformer",
-    price: "From $3,995",
+    name: "Balanced Body Studio Reformer (Revo Footbar)",
+    price: "$4,700",
     verdict: "Best established Pilates reformer for hybrid training",
     description:
-      "The Balanced Body Allegro 2 is the most widely deployed professional Pilates reformer in North America and earns its place on this list for practitioners who want a machine at Megaformer-adjacent pricing that also supports comprehensive classical Pilates programming. The Allegro 2 is fully compatible with Balanced Body&apos;s extensive accessory ecosystem — jumpboard, tower, platform extender — which allows extension of the basic reformer into a more complete training environment. Instructors who blend Pilates and Lagree programming use the Allegro 2 with modified spring configurations to approximate Lagree slow-twitch loading. The Allegro 2 cannot fully replicate the Megaformer experience — the front and rear platform geometry differs, and the spring calibration is optimised for classical Pilates rather than Lagree eccentric loading — but for practitioners who want one machine that delivers both disciplines at a professional standard, the Allegro 2 and its Lagree-adjacent accessories represent the most versatile single investment at this price point. See our <a href=\"/blog/balanced-body-allegro-2-review\" style=\"color:#8b4a31\">full Allegro 2 review</a> for a detailed assessment.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20",
+      "The Balanced Body Studio Reformer — the real Balanced Body flagship sold on Amazon, not the discontinued &quot;Allegro 2&quot; listing some guides still reference — earns its place on this list for practitioners who want a professional-grade machine that also supports comprehensive classical Pilates programming. It is fully compatible with Balanced Body&apos;s extensive accessory ecosystem — jumpboard, tower, platform extender — which allows extension of the basic reformer into a more complete training environment. It cannot replicate the Megaformer experience — the platform geometry differs, and the spring calibration is optimised for classical Pilates rather than Lagree eccentric loading, and it is a permanent-installation machine that does not fold. For practitioners who want one machine that delivers professional-grade classical Pilates at this price point, it remains the most established option. See our <a href=\"/blog/balanced-body-allegro-2-review\" style=\"color:#8b4a31\">full Studio Reformer review</a> for a detailed assessment.",
+    affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
     tag: "Best Established Reformer",
   },
 ];
