@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Resistance Bands (2026): Real Options Compared",
-  description: "Two real, currently-sold resistance band sets for Pilates — the Fit Simplify Resistance Loop Bands ($9.98) and the Synergee Mini Band Resistance Loop Set ($13.95) — compared for resistance range, build quality, and price.",
+  title: "Best Pilates Resistance Bands (2026): 5 Real Options Compared",
+  description: "Five real, currently-sold resistance band sets for Pilates — Fit Simplify, Synergee, Perform Better, WIKDAY, and Tribe — compared for resistance range, build quality, and price from $4.99 to $19.97.",
   keywords: ["best pilates resistance bands", "pilates resistance bands 2026", "resistance band pilates exercises", "fit simplify resistance bands", "synergee mini bands"],
   openGraph: {
-    title: "Best Pilates Resistance Bands (2026): Real Options Compared",
-    description: "Fit Simplify and Synergee — two real, well-reviewed resistance band sets compared for Pilates use.",
+    title: "Best Pilates Resistance Bands (2026): 5 Real Options Compared",
+    description: "Fit Simplify, Synergee, Perform Better, WIKDAY, and Tribe — five real, well-reviewed resistance band sets compared for Pilates use.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-resistance-bands",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Resistance Bands — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Resistance Bands (2026)",
-    description: "Fit Simplify and Synergee — two real band sets compared for Pilates use.",
+    description: "Five real band sets compared for Pilates use, from $4.99 to $19.97.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg"],
   },
   alternates: {
@@ -50,6 +50,36 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B06XPGJZQT?tag=pilatescollective-20",
     tag: "Pro Pick",
   },
+  {
+    rank: "03",
+    name: "Perform Better Mini Band Set of 4",
+    price: "$19.95",
+    verdict: "The choice trainers and PTs actually use",
+    description:
+      "A set of four 9in x 2in loop bands from Perform Better, a brand whose equipment shows up in physical therapy clinics and training facilities more than any name on this list. Effective for both upper and lower body work, and durable enough to hold up to daily dynamic warmups without the resistance drifting over time.",
+    affiliateUrl: "https://www.amazon.com/dp/B01GVS9EQK?tag=pilatescollective-20",
+    tag: "Trainer Pick",
+  },
+  {
+    rank: "04",
+    name: "WIKDAY Resistance Loop Bands (Set of 5)",
+    price: "$4.99",
+    verdict: "Cheapest genuine option",
+    description:
+      "Five multicolor natural rubber loop bands across five distinct thickness levels, at a price that undercuts everything else in this roundup. It's a bare-bones set with no bag or guide included, but the bands themselves are genuine, purpose-built loops — a reasonable entry point before spending more on a Pilates band system.",
+    affiliateUrl: "https://www.amazon.com/dp/B0BTWC5D6L?tag=pilatescollective-20",
+    tag: "Cheapest Pick",
+  },
+  {
+    rank: "05",
+    name: "Tribe Lifting Fabric Resistance Bands (Set of 5)",
+    price: "$19.97",
+    verdict: "Best fabric alternative",
+    description:
+      "Five thick, woven fabric bands built for legs and glutes rather than latex rubber loops. The fabric grips the thigh without rolling or pinching skin during squats and lunges — a genuinely different feel from the latex sets above, and worth choosing if latex bands have irritated your skin or slipped mid-set in the past.",
+    affiliateUrl: "https://www.amazon.com/dp/B07WQLDKN2?tag=pilatescollective-20",
+    tag: "Fabric Pick",
+  },
 ];
 
 const jsonLd = {
@@ -57,8 +87,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Resistance Bands (2026): Real Options Compared",
-      "description": "Two real, currently-sold resistance band sets for Pilates — Fit Simplify and Synergee — compared for resistance range, build quality, and price.",
+      "headline": "Best Pilates Resistance Bands (2026): 5 Real Options Compared",
+      "description": "Five real, currently-sold resistance band sets for Pilates — Fit Simplify, Synergee, Perform Better, WIKDAY, and Tribe — compared for resistance range, build quality, and price.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-resistance-bands",
       "datePublished": "2026-05-12",
       "dateModified": "2026-09-23",
@@ -93,10 +123,10 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "What is the best Pilates resistance band set on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "The Fit Simplify Resistance Loop Exercise Bands ($9.98) are the best budget pick — a set of five graduated loop bands with an instruction guide and carry bag. The Synergee Mini Band Resistance Loop Set ($13.95) is the professional-grade option trainers and physical therapists commonly use." } },
+      { "@type": "Question", "name": "What is the best Pilates resistance band set on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on budget. The WIKDAY set ($4.99) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Synergee set ($13.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." } },
       { "@type": "Question", "name": "Can resistance bands replace a Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Not fully — a reformer's spring system provides a quality of resistance (bidirectional, calibrated, consistent) that bands generally approximate but don't match. Most serious practitioners use bands to supplement, not replace, reformer or apparatus work." } },
-      { "@type": "Question", "name": "What resistance level should I start with?", "acceptedAnswer": { "@type": "Answer", "text": "As a general rule, err toward lighter than you think you need when starting out — in Pilates, proper form with less resistance produces better results than poor form with heavy resistance. Both the Fit Simplify and Synergee sets include a full spread of resistance levels, so you can start light and progress within the same set." } },
-      { "@type": "Question", "name": "Are latex or fabric bands better for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "As general knowledge: latex bands are typically more economical and available in a wider resistance range, while fabric bands are often more comfortable against bare skin and less prone to rolling during leg work. Both Fit Simplify and Synergee are latex loop bands, which suits a wide range of Pilates and general fitness use." } },
+      { "@type": "Question", "name": "What resistance level should I start with?", "acceptedAnswer": { "@type": "Answer", "text": "As a general rule, err toward lighter than you think you need when starting out — in Pilates, proper form with less resistance produces better results than poor form with heavy resistance. All five sets here include a spread of resistance levels, so you can start light and progress within the same set." } },
+      { "@type": "Question", "name": "Are latex or fabric bands better for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "As general knowledge: latex bands are typically more economical and available in a wider resistance range, while fabric bands are often more comfortable against bare skin and less prone to rolling during leg work. Four of the five sets here (Fit Simplify, Synergee, Perform Better, WIKDAY) are latex loop bands, while the Tribe set uses woven fabric." } },
       { "@type": "Question", "name": "Can I use resistance bands if I'm pregnant?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — resistance bands are commonly used in prenatal Pilates because they allow controlled, low-impact strengthening without heavy loading. Confirm appropriate exercises and resistance levels with a qualified prenatal Pilates instructor. Avoid exercises involving abdominal compression after the first trimester." } }
     ]
   },
@@ -117,13 +147,13 @@ export default function BestResistanceBandsPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Home Practice</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Resistance Bands<br /><span style={{ color: "#8b4a31" }}>(2026): Real Options Compared</span>
+              Best Pilates Resistance Bands<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 6 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Resistance bands are versatile, portable Pilates equipment — genuinely one of the best-stocked categories on Amazon, with dedicated, purpose-built sets at every price point. Below are two real, currently-sold options: the Fit Simplify set for a budget-friendly graduated pack, and the Synergee set for the professional-grade build trainers and physical therapists reach for.
+              Resistance bands are versatile, portable Pilates equipment — genuinely one of the best-stocked categories on Amazon, with dedicated, purpose-built sets at every price point. Below are five real, currently-sold options spanning budget to premium: WIKDAY and Fit Simplify for budget-friendly graduated packs, Synergee and Perform Better for the professional-grade builds trainers and physical therapists reach for, and Tribe for a fabric alternative to latex.
             </p>
           </div>
         </section>
@@ -200,10 +230,10 @@ export default function BestResistanceBandsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is the best Pilates resistance band set on Amazon?", a: "The Fit Simplify Resistance Loop Exercise Bands ($9.98) are the best budget pick — a set of five graduated loop bands with an instruction guide and carry bag. The Synergee Mini Band Resistance Loop Set ($13.95) is the professional-grade option trainers and physical therapists commonly use." },
+                  { q: "What is the best Pilates resistance band set on Amazon?", a: "It depends on budget. The WIKDAY set ($4.99) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Synergee set ($13.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." },
                   { q: "Can resistance bands replace a Pilates reformer?", a: "Not fully — a reformer's spring system provides a quality of resistance (bidirectional, calibrated, consistent) that bands generally approximate but don't match. Most serious practitioners use bands to supplement, not replace, reformer or apparatus work." },
-                  { q: "What resistance level should I start with?", a: "As a general rule, err toward lighter than you think you need when starting out — in Pilates, proper form with less resistance produces better results than poor form with heavy resistance. Both the Fit Simplify and Synergee sets include a full spread of resistance levels, so you can start light and progress within the same set." },
-                  { q: "Are latex or fabric bands better for Pilates?", a: "As general knowledge: latex bands are typically more economical and available in a wider resistance range, while fabric bands are often more comfortable against bare skin and less prone to rolling during leg work. Both Fit Simplify and Synergee are latex loop bands, which suits a wide range of Pilates and general fitness use." },
+                  { q: "What resistance level should I start with?", a: "As a general rule, err toward lighter than you think you need when starting out — in Pilates, proper form with less resistance produces better results than poor form with heavy resistance. All five sets here include a spread of resistance levels, so you can start light and progress within the same set." },
+                  { q: "Are latex or fabric bands better for Pilates?", a: "As general knowledge: latex bands are typically more economical and available in a wider resistance range, while fabric bands are often more comfortable against bare skin and less prone to rolling during leg work. Four of the five sets here (Fit Simplify, Synergee, Perform Better, WIKDAY) are latex loop bands, while the Tribe set uses woven fabric." },
                   { q: "Can I use resistance bands if I'm pregnant?", a: "Yes — resistance bands are commonly used in prenatal Pilates because they allow controlled, low-impact strengthening without heavy loading. Confirm appropriate exercises and resistance levels with a qualified prenatal Pilates instructor. Avoid exercises involving abdominal compression after the first trimester." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Stretch Strap for Pilates (2026): 2 Real Options Compared",
-  description: "The Gaiam Yoga Strap and the OPTP Original Stretch Out Strap are both live, currently-sold Amazon listings with verified prices and specs. Here's how they compare for Pilates flexibility work.",
+  title: "Best Stretch Strap for Pilates (2026): 5 Real Options Compared",
+  description: "The Gaiam Yoga Strap, OPTP Original Stretch Out Strap, Oak-Sports Strap, CTRL Sports Strap, and Acozycoo Strap are all live, currently-sold Amazon listings with verified prices and specs. Here's how they compare for Pilates flexibility work.",
   keywords: ["best stretch strap pilates", "gaiam yoga strap", "optp stretch out strap", "pilates stretch strap 2026", "flexibility strap pilates", "pilates hamstring strap"],
   openGraph: {
-    title: "Best Stretch Strap for Pilates (2026): 2 Real Options Compared",
-    description: "The Gaiam Yoga Strap and the OPTP Original Stretch Out Strap — real, in-stock Amazon listings compared.",
+    title: "Best Stretch Strap for Pilates (2026): 5 Real Options Compared",
+    description: "Five real, in-stock Amazon stretch strap listings compared for Pilates flexibility work.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-stretch-strap-for-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Stretch Strap for Pilates — Pilates Collective Club" }],
@@ -48,6 +48,36 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B00065X222?tag=pilatescollective-20",
     tag: "Best For Progressive Stretching",
   },
+  {
+    rank: "03",
+    name: "Oak-Sports Stretching Strap (10 Loops, 75in)",
+    price: "$5.86",
+    verdict: "Cheapest genuine multi-loop strap",
+    description:
+      "A non-elastic nylon strap with 10 loops across 75 inches, at the lowest price in this roundup — genuinely comparable in format to the OPTP's loop system, just without the branding or included exercise book. A sensible first strap if you want multi-loop progression but aren't ready to spend on the premium version yet.",
+    affiliateUrl: "https://www.amazon.com/dp/B0C4H4FLR7?tag=pilatescollective-20",
+    tag: "Cheapest Multi-Loop",
+  },
+  {
+    rank: "04",
+    name: "CTRL Sports Stretching Strap (Neoprene Handles)",
+    price: "$19.95",
+    verdict: "Best comfort-focused, premium build",
+    description:
+      "Padded neoprene handles set this apart from every other strap here, which matters on longer holds where a bare nylon loop can start to dig into the palm. It ships with a carry bag and a free exercise guide, making it the most complete out-of-box package if comfort and presentation matter to you.",
+    affiliateUrl: "https://www.amazon.com/dp/B076MSZZ9L?tag=pilatescollective-20",
+    tag: "Premium Comfort Pick",
+  },
+  {
+    rank: "05",
+    name: "Acozycoo Stretching Strap (86in, 10 Numbered Loops)",
+    price: "$9.99",
+    verdict: "Best for tracking flexibility progress",
+    description:
+      "An 86-inch strap — longer than any other option here — with 10 numbered loops, so you can note which loop number you reached on a given stretch and track whether your range is improving over weeks or months. The extra length also gives more working room for taller practitioners or two-person assisted stretching.",
+    affiliateUrl: "https://www.amazon.com/dp/B0F3884JSH?tag=pilatescollective-20",
+    tag: "Best For Progress Tracking",
+  },
 ];
 
 const jsonLd = {
@@ -55,8 +85,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Stretch Strap for Pilates (2026): 2 Real Options Compared",
-      "description": "The Gaiam Yoga Strap and the OPTP Original Stretch Out Strap, both verified as live Amazon listings, compared for Pilates flexibility work.",
+      "headline": "Best Stretch Strap for Pilates (2026): 5 Real Options Compared",
+      "description": "The Gaiam Yoga Strap, OPTP Original Stretch Out Strap, Oak-Sports Strap, CTRL Sports Strap, and Acozycoo Strap, all verified as live Amazon listings, compared for Pilates flexibility work.",
       "url": "https://pilatescollectiveclub.com/blog/best-stretch-strap-for-pilates",
       "datePublished": "2026-06-28",
       "dateModified": "2026-09-23",
@@ -91,9 +121,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a real stretch strap sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Gaiam Yoga Strap ($9.45, 8ft, adjustable D-ring buckle) and the OPTP The Original Stretch Out Strap ($15.95, 6ft with 10 loops, USA-made) are both live, currently-sold Amazon listings." } },
-        { "@type": "Question", "name": "What is a stretch strap used for in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. Both the Gaiam and OPTP straps support this use." } },
-        { "@type": "Question", "name": "D-ring buckle or multi-loop strap — which should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "A D-ring strap like the Gaiam is simpler and cheaper, and works well for a fixed stretch position. A multi-loop strap like the OPTP lets you progress through a range of positions without re-gripping, which suits practitioners doing structured, incremental flexibility work." } },
+        { "@type": "Question", "name": "Is there a real stretch strap sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Gaiam Yoga Strap ($9.45), the OPTP The Original Stretch Out Strap ($15.95), the Oak-Sports Strap ($5.86), the CTRL Sports Strap ($19.95), and the Acozycoo Strap ($9.99) are all live, currently-sold Amazon listings." } },
+        { "@type": "Question", "name": "What is a stretch strap used for in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. All five straps here support this use." } },
+        { "@type": "Question", "name": "D-ring buckle or multi-loop strap — which should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "A D-ring strap like the Gaiam is simpler and cheaper, and works well for a fixed stretch position. A multi-loop strap — the OPTP, Oak-Sports, or Acozycoo — lets you progress through a range of positions without re-gripping, which suits practitioners doing structured, incremental flexibility work." } },
+        { "@type": "Question", "name": "Which of these five should I actually buy?", "acceptedAnswer": { "@type": "Answer", "text": "For budget: the Oak-Sports ($5.86) or Acozycoo ($9.99). For most people: the Gaiam D-ring strap ($9.45) for simplicity, or the OPTP ($15.95) for its included exercise book. For premium comfort: the CTRL Sports Strap ($19.95) with padded neoprene handles." } },
       ],
     },
   ],
@@ -113,13 +144,13 @@ export default function BestStretchStrapForPilatesPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Stretch Strap<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): 2 Real Options Compared</span>
+              Best Stretch Strap<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): 5 Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 5 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A prior version of this article named brands (TheraBand, Tumaz, Manduka, ProSource) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that two real stretch strap options are in stock and ready to buy today: the Gaiam Yoga Strap, an 8-foot D-ring buckle strap at $9.45, and the OPTP Original Stretch Out Strap, a 6-foot, 10-loop, USA-made strap at $15.95.
+              A prior version of this article named brands (TheraBand, Tumaz, Manduka, ProSource) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real stretch strap options are in stock and ready to buy today: the Gaiam Yoga Strap, an 8-foot D-ring buckle strap at $9.45; the OPTP Original Stretch Out Strap, a 6-foot, 10-loop, USA-made strap at $15.95; the Oak-Sports Strap, a 10-loop, 75-inch strap at $5.86; the CTRL Sports Strap with padded neoprene handles at $19.95; and the Acozycoo Strap, an 86-inch, 10-numbered-loop strap at $9.99.
             </p>
           </div>
         </section>
@@ -171,9 +202,9 @@ export default function BestStretchStrapForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose between the two</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose between the five</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Both straps are well made and inexpensive — the real decision is whether a simple D-ring closure suits your stretching, or whether you want the multi-loop progression the OPTP strap offers.
+                All five straps are well made and inexpensive — the real decision is whether a simple D-ring closure suits your stretching, or whether you want the multi-loop progression that the OPTP, Oak-Sports, and Acozycoo straps offer, and how much you value comfort or length.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
@@ -194,9 +225,10 @@ export default function BestStretchStrapForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a real stretch strap sold on Amazon that you can verify?", a: "Yes. The Gaiam Yoga Strap ($9.45, 8ft, adjustable D-ring buckle) and the OPTP The Original Stretch Out Strap ($15.95, 6ft with 10 loops, USA-made) are both live, currently-sold Amazon listings." },
-                  { q: "What is a stretch strap used for in Pilates?", a: "A stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. Both the Gaiam and OPTP straps support this use." },
-                  { q: "D-ring buckle or multi-loop strap — which should I buy?", a: "A D-ring strap like the Gaiam is simpler and cheaper, and works well for a fixed stretch position. A multi-loop strap like the OPTP lets you progress through a range of positions without re-gripping, which suits practitioners doing structured, incremental flexibility work." },
+                  { q: "Is there a real stretch strap sold on Amazon that you can verify?", a: "Yes. The Gaiam Yoga Strap ($9.45), the OPTP The Original Stretch Out Strap ($15.95), the Oak-Sports Strap ($5.86), the CTRL Sports Strap ($19.95), and the Acozycoo Strap ($9.99) are all live, currently-sold Amazon listings." },
+                  { q: "What is a stretch strap used for in Pilates?", a: "A stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. All five straps here support this use." },
+                  { q: "D-ring buckle or multi-loop strap — which should I buy?", a: "A D-ring strap like the Gaiam is simpler and cheaper, and works well for a fixed stretch position. A multi-loop strap — the OPTP, Oak-Sports, or Acozycoo — lets you progress through a range of positions without re-gripping, which suits practitioners doing structured, incremental flexibility work." },
+                  { q: "Which of these five should I actually buy?", a: "For budget: the Oak-Sports ($5.86) or Acozycoo ($9.99). For most people: the Gaiam D-ring strap ($9.45) for simplicity, or the OPTP ($15.95) for its included exercise book. For premium comfort: the CTRL Sports Strap ($19.95) with padded neoprene handles." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

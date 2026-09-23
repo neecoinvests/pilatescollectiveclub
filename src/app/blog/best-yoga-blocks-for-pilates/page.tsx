@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Yoga Blocks for Pilates (2026): 2 Real Options Compared",
-  description: "The Gaiam Yoga Block and the Septo 2-Pack are both live, currently-sold Amazon listings — real EVA foam blocks with verified prices, features, and availability. Here's how they compare for Pilates use.",
+  title: "Best Yoga Blocks for Pilates (2026): 5 Real Options Compared",
+  description: "The Gaiam Yoga Block, Septo 2-Pack, Amazon Basics 2-Pack, KEEP Yoga Block 2-Pack, and POUYRBA 2-Pack are all live, currently-sold Amazon listings — real EVA foam blocks with verified prices, features, and availability. Here's how they compare for Pilates use.",
   keywords: ["best yoga blocks for pilates", "gaiam yoga block", "septo yoga blocks", "pilates yoga block 2026", "foam yoga block pilates", "pilates prop block"],
   openGraph: {
-    title: "Best Yoga Blocks for Pilates (2026): 2 Real Options Compared",
-    description: "The Gaiam Yoga Block and the Septo 2-Pack — real, in-stock Amazon listings compared for Pilates use.",
+    title: "Best Yoga Blocks for Pilates (2026): 5 Real Options Compared",
+    description: "Five real, in-stock Amazon yoga block listings compared for Pilates use, across single blocks and two-packs.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-yoga-blocks-for-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Yoga Blocks for Pilates — Pilates Collective Club" }],
@@ -48,6 +48,36 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B0D9V6G2SZ?tag=pilatescollective-20",
     tag: "Best Value Pair",
   },
+  {
+    rank: "03",
+    name: "Amazon Basics Non-Slip Yoga Blocks (Set of 2)",
+    price: "$13.60",
+    verdict: "Best budget pair sold directly by Amazon",
+    description:
+      "A two-block set sold directly by Amazon.com, with a non-slip textured surface on both faces that grips well against a mat even during sweaty studio sessions. It fills the same two-block role as the Septo pair at a comparable price, and being an Amazon.com listing makes returns and support simple if the firmness isn't right for you.",
+    affiliateUrl: "https://www.amazon.com/dp/B01FN7X7KE?tag=pilatescollective-20",
+    tag: "Best Budget Pair",
+  },
+  {
+    rank: "04",
+    name: "KEEP Yoga Block, 2-Pack (Grey)",
+    price: "$13.99",
+    verdict: "Best lightweight, high-density pair",
+    description:
+      "A high-density EVA pair with a closed-cell non-slip surface, each block weighing just 0.44lb — noticeably lighter than most foam blocks in this roundup without sacrificing the firmness needed for weight-bearing support under the hips or sacrum. The light weight makes this pair easy to toss in a bag for studio classes where you're carrying your own props.",
+    affiliateUrl: "https://www.amazon.com/dp/B09KC72MM8?tag=pilatescollective-20",
+    tag: "Best Lightweight Pair",
+  },
+  {
+    rank: "05",
+    name: "POUYRBA Yoga Blocks, 2-Pack (9x6x3in)",
+    price: "$11.99",
+    verdict: "Cheapest genuine pair",
+    description:
+      "The lowest-priced two-block set here, in the same standard 9x6x3 inch format as the Septo pair, made from lightweight EVA foam. A sensible pick if you want a spare set of blocks for a second practice space — home and studio — without paying full price twice.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DYCW3SFJ?tag=pilatescollective-20",
+    tag: "Best Cheapest Pair",
+  },
 ];
 
 const jsonLd = {
@@ -55,8 +85,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Yoga Blocks for Pilates (2026): 2 Real Options Compared",
-      "description": "The Gaiam Yoga Block and the Septo 2-Pack, both verified as live Amazon listings, compared for Pilates use.",
+      "headline": "Best Yoga Blocks for Pilates (2026): 5 Real Options Compared",
+      "description": "The Gaiam Yoga Block, Septo 2-Pack, Amazon Basics 2-Pack, KEEP Yoga Block 2-Pack, and POUYRBA 2-Pack, all verified as live Amazon listings, compared for Pilates use.",
       "url": "https://pilatescollectiveclub.com/blog/best-yoga-blocks-for-pilates",
       "datePublished": "2026-06-28",
       "dateModified": "2026-09-23",
@@ -91,9 +121,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a real yoga block sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Gaiam Yoga Block ($15.17) and the Septo 2 Pcs Yoga Blocks set ($12.99) are both live, currently-sold Amazon listings, made from EVA foam and EVA rubber respectively." } },
-        { "@type": "Question", "name": "Are yoga blocks used in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — practitioners commonly use blocks under the hips for elevation, between the knees for adductor cueing, or under the thoracic spine for a passive extension opener. Both the Gaiam single block and the Septo pair support all of these uses." } },
-        { "@type": "Question", "name": "Should I buy one block or a pair?", "acceptedAnswer": { "@type": "Answer", "text": "A single block, like the Gaiam Yoga Block, covers most single-point support uses. A pair, like the Septo 2-Pack, is worth the extra cost if you regularly need support at two points at once — for example under the head and the mid-back simultaneously." } },
+        { "@type": "Question", "name": "Is there a real yoga block sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Gaiam Yoga Block ($15.17), the Septo 2 Pcs Yoga Blocks set ($12.99), the Amazon Basics Non-Slip Yoga Blocks 2-Pack ($13.60), the KEEP Yoga Block 2-Pack ($13.99), and the POUYRBA Yoga Blocks 2-Pack ($11.99) are all live, currently-sold Amazon listings, made from EVA foam or EVA rubber." } },
+        { "@type": "Question", "name": "Are yoga blocks used in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — practitioners commonly use blocks under the hips for elevation, between the knees for adductor cueing, or under the thoracic spine for a passive extension opener. Both single blocks and two-packs support all of these uses." } },
+        { "@type": "Question", "name": "Should I buy one block or a pair?", "acceptedAnswer": { "@type": "Answer", "text": "A single block, like the Gaiam Yoga Block, covers most single-point support uses. A pair — the Septo, Amazon Basics, KEEP, or POUYRBA sets — is worth the extra cost if you regularly need support at two points at once, for example under the head and the mid-back simultaneously. With five verified options now spanning roughly $12-15, you can pick a pair on price, weight, or firmness without settling." } },
       ],
     },
   ],
@@ -113,13 +143,13 @@ export default function BestYogaBlocksForPilatesPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Yoga Blocks<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): 2 Real Options Compared</span>
+              Best Yoga Blocks<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): 5 Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 5 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A prior version of this article named brands (Manduka, Hugger Mugger, Lululemon, REEHUT, Node Fitness) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that two solid yoga block options are real, in stock, and ready to buy today: the Gaiam Yoga Block, a single EVA foam block at $15.17, and the Septo 2 Pcs Yoga Blocks, a water-resistant EVA rubber pair at $12.99.
+              A prior version of this article named brands (Manduka, Hugger Mugger, Lululemon, REEHUT, Node Fitness) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five solid yoga block options are real, in stock, and ready to buy today: the Gaiam Yoga Block, a single EVA foam block at $15.17; the Septo 2 Pcs Yoga Blocks, a water-resistant EVA rubber pair at $12.99; the Amazon Basics 2-Pack at $13.60; the KEEP Yoga Block 2-Pack at $13.99; and the POUYRBA 2-Pack at $11.99.
             </p>
           </div>
         </section>
@@ -171,9 +201,9 @@ export default function BestYogaBlocksForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose between the two</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose between the five</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Both blocks are EVA-based, non-slip, and priced under $16 — the real decision is whether you need one block or two, and how much you value cushioning versus firmness.
+                All five blocks are EVA-based, non-slip, and priced under $16 — the real decision is whether you need one block or a pair, and how much you value cushioning, weight, or price.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[

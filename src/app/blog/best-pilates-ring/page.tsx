@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ring (2026): Real Options Compared",
-  description: "The best Pilates rings and magic circles actually sold on Amazon in 2026, compared across price points — the Gaiam Pilates Ring ($15.17), the ProBody Pilates Circle ($22.95), and the URBNFit Pilates Circle ($12.29).",
+  title: "Best Pilates Ring (2026): 5 Real Options Compared",
+  description: "The best Pilates rings and magic circles actually sold on Amazon in 2026, compared across price points — the Gaiam Pilates Ring ($15.17), the ProBody Pilates Circle ($22.95), the URBNFit Pilates Circle ($12.29), the LIONSCOOL Ring Set ($15.33), and the JKSHMYT Fitness Circle ($9.99).",
   keywords: ["best pilates ring", "pilates magic circle 2026", "pilates ring review", "pilates ring resistance", "pilates ring exercises", "gaiam pilates ring", "probody pilates circle", "urbnfit pilates circle"],
   openGraph: {
-    title: "Best Pilates Ring / Magic Circle (2026): Real Options Compared",
-    description: "Three real, currently-sold Pilates rings compared across budget, mid-range, and premium price points.",
+    title: "Best Pilates Ring / Magic Circle (2026): 5 Real Options Compared",
+    description: "Five real, currently-sold Pilates rings compared across budget, mid-range, and premium price points.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-ring",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Ring Magic Circle — Pilates Collective Club" }],
@@ -60,6 +60,26 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B078KFF7ND?tag=pilatescollective-20",
     tag: "Premium Pick",
   },
+  {
+    rank: "04",
+    name: "LIONSCOOL Pilates Ring Set (14-inch + Mini Ball + Bands)",
+    price: "$15.33",
+    verdict: "Best bundle for starting a full mat-prop kit",
+    description:
+      "A bundle format rather than a ring alone: a 14-inch fiberglass Pilates ring, a 9-inch mini stability ball, and a set of resistance bands, all in one purchase. Useful if you're building a home mat-prop kit from scratch and want the ring plus a couple of complementary small props without ordering three separate items.",
+    affiliateUrl: "https://www.amazon.com/dp/B09Z6H4FND?tag=pilatescollective-20",
+    tag: "Best Bundle",
+  },
+  {
+    rank: "05",
+    name: "JKSHMYT Pilates Ring Fitness Circle (14.5-inch)",
+    price: "$9.99",
+    verdict: "Cheapest genuine ring",
+    description:
+      "The lowest-priced real ring in this roundup, at a 14.5-inch diameter that sits in the standard range for inner-thigh, hip, and arm work. A sensible first purchase for someone who isn't sure yet whether ring work will stick as part of their routine and doesn't want to commit $15-23 to find out.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GG7M141M?tag=pilatescollective-20",
+    tag: "Cheapest Pick",
+  },
 ];
 
 const jsonLd = {
@@ -67,8 +87,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Ring / Magic Circle (2026): Real Options Compared",
-      "description": "The best Pilates rings and magic circles actually sold on Amazon in 2026 — Gaiam, ProBody, and URBNFit compared across budget, all-rounder, and premium price points.",
+      "headline": "Best Pilates Ring / Magic Circle (2026): 5 Real Options Compared",
+      "description": "The best Pilates rings and magic circles actually sold on Amazon in 2026 — Gaiam, ProBody, URBNFit, LIONSCOOL, and JKSHMYT compared across budget, all-rounder, bundle, and premium price points.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-ring",
       "datePublished": "2026-05-14",
       "dateModified": "2026-09-23",
@@ -103,8 +123,9 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "What is the best Pilates ring on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Pilates Ring Fitness Circle (15-inch, $15.17) is the most versatile all-rounder. The URBNFit Pilates Circle ($12.29) is the best budget option, and the ProBody Pilates Circle ($22.95) is the instructor-grade premium pick with a real fiberglass core and roughly 30lb of squeezable resistance." } },
+      { "@type": "Question", "name": "What is the best Pilates ring on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Pilates Ring Fitness Circle (15-inch, $15.17) is the most versatile all-rounder. The JKSHMYT Fitness Circle ($9.99) is the cheapest genuine ring, the URBNFit Pilates Circle ($12.29) is a step-up budget option, the LIONSCOOL Ring Set ($15.33) bundles a ring with a mini ball and bands, and the ProBody Pilates Circle ($22.95) is the instructor-grade premium pick with a real fiberglass core and roughly 30lb of squeezable resistance." } },
       { "@type": "Question", "name": "What resistance level should I start with?", "acceptedAnswer": { "@type": "Answer", "text": "Medium resistance is appropriate for most beginners as a general rule. The common mistake is buying light resistance assuming it's 'for beginners' — light rings are often too easy for lower body work to provide a training stimulus, though genuinely useful for rehabilitation contexts and upper body exercises where arm strength is the limiting factor. Check the resistance level on the specific listing before buying." } },
+      { "@type": "Question", "name": "Which of these five should I actually buy?", "acceptedAnswer": { "@type": "Answer", "text": "For budget: the JKSHMYT ($9.99) or URBNFit ($12.29). For most people: the Gaiam ($15.17) as a reliable all-rounder, or the LIONSCOOL bundle ($15.33) if you also want a mini ball and bands. For premium: the ProBody ($22.95), the instructor-grade pick with the most controllable resistance curve." } },
       { "@type": "Question", "name": "Can I do a full Pilates workout with just a ring?", "acceptedAnswer": { "@type": "Answer", "text": "A ring and a mat can form a substantial workout for experienced practitioners — the ring adds resistance to a large portion of the classical mat sequence, and several exercises (inner thigh work, arm series, lateral work) are more effective with one than without." } },
       { "@type": "Question", "name": "How do I store a Pilates ring?", "acceptedAnswer": { "@type": "Answer", "text": "Store flat in a cool, dry location. Avoid leaving it in compressed positions (e.g., under books or equipment) for extended periods — prolonged compression can deform the spring or fiberglass core over time. Wipe pads down after use with a mild disinfectant." } }
     ]
@@ -126,13 +147,13 @@ export default function BestPilatesRingPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Props</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Ring &amp; Magic Circle<br /><span style={{ color: "#8b4a31" }}>(2026): Real Options Compared</span>
+              Best Pilates Ring &amp; Magic Circle<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Joseph Pilates invented the magic circle — originally fashioned from the metal rim of a beer keg — and it remains one of the most versatile small props in the method. A quality ring adds isometric resistance to inner thigh work, lateral hip work, arm exercises, and lateral flexion sequences that bodyweight alone cannot sufficiently load. Pilates rings are also one of the most reliably well-stocked categories on Amazon: below are three real, currently-sold rings across budget, all-rounder, and premium price points, each a genuine, purpose-built magic circle.
+              Joseph Pilates invented the magic circle — originally fashioned from the metal rim of a beer keg — and it remains one of the most versatile small props in the method. A quality ring adds isometric resistance to inner thigh work, lateral hip work, arm exercises, and lateral flexion sequences that bodyweight alone cannot sufficiently load. Pilates rings are also one of the most reliably well-stocked categories on Amazon: below are five real, currently-sold rings across budget, bundle, all-rounder, and premium price points, each a genuine, purpose-built magic circle.
             </p>
           </div>
         </section>
@@ -222,8 +243,9 @@ export default function BestPilatesRingPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is the best Pilates ring on Amazon?", a: "The Gaiam Pilates Ring Fitness Circle (15-inch, $15.17) is the most versatile all-rounder. The URBNFit Pilates Circle ($12.29) is the best budget option, and the ProBody Pilates Circle ($22.95) is the instructor-grade premium pick with a real fiberglass core and roughly 30lb of squeezable resistance." },
+                  { q: "What is the best Pilates ring on Amazon?", a: "The Gaiam Pilates Ring Fitness Circle (15-inch, $15.17) is the most versatile all-rounder. The JKSHMYT Fitness Circle ($9.99) is the cheapest genuine ring, the URBNFit Pilates Circle ($12.29) is a step-up budget option, the LIONSCOOL Ring Set ($15.33) bundles a ring with a mini ball and bands, and the ProBody Pilates Circle ($22.95) is the instructor-grade premium pick with a real fiberglass core and roughly 30lb of squeezable resistance." },
                   { q: "What resistance level should I start with?", a: "Medium resistance is appropriate for most beginners as a general rule. The common mistake is buying light resistance assuming it's 'for beginners' — light rings are often too easy for lower body work to provide a training stimulus, though genuinely useful for rehabilitation contexts and upper body exercises where arm strength is the limiting factor. Check the resistance level on the specific listing before buying." },
+                  { q: "Which of these five should I actually buy?", a: "For budget: the JKSHMYT ($9.99) or URBNFit ($12.29). For most people: the Gaiam ($15.17) as a reliable all-rounder, or the LIONSCOOL bundle ($15.33) if you also want a mini ball and bands. For premium: the ProBody ($22.95), the instructor-grade pick with the most controllable resistance curve." },
                   { q: "Can I do a full Pilates workout with just a ring?", a: "A ring and a mat can form a substantial workout for experienced practitioners — the ring adds resistance to a large portion of the classical mat sequence, and several exercises (inner thigh work, arm series, lateral work) are more effective with one than without." },
                   { q: "How do I store a Pilates ring?", a: "Store flat in a cool, dry location. Avoid leaving it in compressed positions (e.g., under books or equipment) for extended periods — prolonged compression can deform the spring or fiberglass core over time. Wipe pads down after use with a mild disinfectant." },
                 ].map((item) => (

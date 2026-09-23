@@ -7,11 +7,11 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Ankle Weights (2026): 2 Real Options Compared",
-  description: "The Sportneer Adjustable Ankle Weights and the BECOJADDE Ankle Weights are both live, currently-sold Amazon listings with verified prices and specs. Here's how they compare for Pilates use.",
+  title: "Best Pilates Ankle Weights (2026): 5 Real Options Compared",
+  description: "The Sportneer Adjustable Ankle Weights, BECOJADDE Ankle Weights, nooncrazy set, BAGAIL set, and GALLIA set are all live, currently-sold Amazon listings with verified prices and specs. Here's how they compare for Pilates use.",
   openGraph: {
-    title: "Best Pilates Ankle Weights (2026): 2 Real Options Compared",
-    description: "The Sportneer Adjustable Ankle Weights and the BECOJADDE Ankle Weights — real, in-stock Amazon listings compared.",
+    title: "Best Pilates Ankle Weights (2026): 5 Real Options Compared",
+    description: "Five real, in-stock Amazon ankle weight listings compared for Pilates use, across every price point.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-ankle-weights",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Ankle Weights — Pilates Collective Club" }],
@@ -50,20 +50,54 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B0DBHHVMKD?tag=pilatescollective-20",
     tag: "Best Secure Fit",
   },
+  {
+    rank: "03",
+    name: "nooncrazy Pilates Wrist/Ankle Weights (Set of 2, 1lb each)",
+    price: "$16.97",
+    verdict: "Best waterproof, dual-purpose pick",
+    description:
+      "Steel weight plates wrapped in a waterproof silicone shell, so this set doubles as a wrist weight for arm work and an ankle weight for leg work without soaking through during a sweaty session. At 1lb each, it sits right in the range Pilates typically calls for, and the fully sealed silicone is easier to wipe down and disinfect than a fabric-covered weight.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CRYZBNV3?tag=pilatescollective-20",
+    tag: "Best Waterproof Pick",
+  },
+  {
+    rank: "04",
+    name: "BAGAIL Ankle/Wrist Weights (2lb pair, 1lb each)",
+    price: "$9.98",
+    verdict: "Best budget pick",
+    description:
+      "The cheapest genuine option here, built from a three-layer Lycra-SBR fabric that stays flexible rather than bulky against the ankle. At 1lb each side, it's a straightforward entry point for anyone who wants to try loaded leg work in Pilates without spending much to find out if they like it.",
+    affiliateUrl: "https://www.amazon.com/dp/B0FPQDQJW4?tag=pilatescollective-20",
+    tag: "Best Budget Pick",
+  },
+  {
+    rank: "05",
+    name: "GALLIA Wrist/Ankle Weights (2-Pack, 2lb adjustable)",
+    price: "$14.99",
+    verdict: "Best adjustable bangle-style fit",
+    description:
+      "A silicone bangle-style design with an adjustable velcro closure, so the fit tightens down on a smaller ankle rather than relying on stretch alone to stay put. The 2lb pair sits at the upper end of what's typically recommended for Pilates work, making it a reasonable step-up option once the lighter sets in this roundup stop feeling like resistance.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DQWFMPLB?tag=pilatescollective-20",
+    tag: "Best Adjustable Fit",
+  },
 ];
 
 const FAQS = [
   {
     q: "Is there a real ankle weight sold on Amazon that you can verify?",
-    a: "Yes. The Sportneer Adjustable Ankle Weights ($27.89, 2-10lb per pair) and the BECOJADDE Ankle Weights ($20.69, set of 2, 1lb each and expandable) are both live, currently-sold Amazon listings.",
+    a: "Yes. The Sportneer Adjustable Ankle Weights ($27.89, 2-10lb per pair), the BECOJADDE Ankle Weights ($20.69, set of 2, 1lb each and expandable), the nooncrazy set ($16.97, 1lb each), the BAGAIL set ($9.98, 1lb each), and the GALLIA set ($14.99, 2lb adjustable pair) are all live, currently-sold Amazon listings.",
   },
   {
     q: "What weight ankle weights should I use for Pilates?",
-    a: "In general, 0.5lb to 1lb per ankle is the commonly recommended range for Pilates — the method works with precision at low resistance, and heavier weights tend to compromise form. The BECOJADDE's 0.125lb-increment adjustability suits that range well; the Sportneer's wider 1-5lb per-side range suits practitioners who also want heavier conditioning options.",
+    a: "In general, 0.5lb to 1lb per ankle is the commonly recommended range for Pilates — the method works with precision at low resistance, and heavier weights tend to compromise form. The BECOJADDE's 0.125lb-increment adjustability and the BAGAIL's straightforward 1lb pair both suit that range well; the Sportneer's wider 1-5lb per-side range and the GALLIA's 2lb pair suit practitioners who also want heavier conditioning options.",
   },
   {
     q: "Can you wear ankle weights on the reformer?",
     a: "In general, yes, with care — ankle weights are typically used for mat Pilates and the standing or side-lying series, but not during footwork or exercises where the feet are loaded against the footbar, since spring resistance replaces external loading there.",
+  },
+  {
+    q: "Which of these five should I actually buy?",
+    a: "For budget: the BAGAIL set ($9.98). For most people: the nooncrazy waterproof set ($16.97) or the GALLIA adjustable bangle set ($14.99). For a wider load range or a premium build: the Sportneer ($27.89) or BECOJADDE ($20.69), both of which adjust across a broader weight range than the simpler fixed sets.",
   },
 ];
 
@@ -73,8 +107,8 @@ const jsonLd = {
     {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-pilates-ankle-weights/#article",
-      "headline": "Best Pilates Ankle Weights (2026): 2 Real Options Compared",
-      "description": "The Sportneer Adjustable Ankle Weights and the BECOJADDE Ankle Weights, both verified as live Amazon listings, compared for Pilates use.",
+      "headline": "Best Pilates Ankle Weights (2026): 5 Real Options Compared",
+      "description": "The Sportneer Adjustable Ankle Weights, BECOJADDE Ankle Weights, nooncrazy set, BAGAIL set, and GALLIA set, all verified as live Amazon listings, compared for Pilates use.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
@@ -150,13 +184,13 @@ export default function BestPilatesAnkleWeightsPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Ankle Weights</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Ankle Weights<br /><span style={{ color: "#8b4a31" }}>(2026): 2 Real Options Compared</span>
+              Best Pilates Ankle Weights<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 5 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A prior version of this article named brands (Bala, BWSS, Lululemon, Alo Yoga) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that two real ankle weight options are in stock and ready to buy today: the Sportneer Adjustable Ankle Weights (2-10lb per pair, $27.89) and the BECOJADDE Ankle Weights (set of 2, 1lb each and expandable, $20.69).
+              A prior version of this article named brands (Bala, BWSS, Lululemon, Alo Yoga) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real ankle weight options are in stock and ready to buy today: the Sportneer Adjustable Ankle Weights (2-10lb per pair, $27.89), the BECOJADDE Ankle Weights (set of 2, 1lb each and expandable, $20.69), the nooncrazy set (1lb each, waterproof silicone, $16.97), the BAGAIL set (1lb each, budget pick, $9.98), and the GALLIA set (2lb adjustable pair, $14.99).
             </p>
           </div>
         </section>
@@ -210,9 +244,9 @@ export default function BestPilatesAnkleWeightsPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose between the two</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose between the five</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Both are adjustable, but they solve slightly different problems — one gives you a wider total load range, the other gives finer control at the lighter end.
+                All five are built for the light loads Pilates calls for, but they solve slightly different problems — some give a wider total load range, some give finer control at the lighter end, and some trade features for a lower price.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
