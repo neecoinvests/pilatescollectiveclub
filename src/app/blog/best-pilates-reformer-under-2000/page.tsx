@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Under $2,000 (2026): 2 Real Picks",
-  description: "We could not verify a genuine spring-resistance reformer reliably sold on Amazon under $2,000. Both real picks in this bracket are AeroPilates cord machines. The cheapest verified spring reformer on Amazon, the Balanced Body Metro IQ, is $2,330 — just over budget.",
-  keywords: ["best pilates reformer under 2000", "pilates reformer under 2000 dollars", "spring reformer under 2000", "mid-range pilates reformer 2026", "aeropilates reformer amazon", "best reformer $1000-$2000", "pilates reformer mid-range buy"],
+  title: "Best Pilates Reformer Under $2,000 (2026): 6 Real Picks",
+  description: "Six genuine, currently-sold reformers under $2,000, led by a real tier of budget spring reformers (WINDFOOT, DWKWE, PAETA x3) plus two established-brand AeroPilates cord machines. The cheapest verified established-brand spring reformer, the Balanced Body Metro IQ at $2,330, is just over budget.",
+  keywords: ["best pilates reformer under 2000", "pilates reformer under 2000 dollars", "spring reformer under 2000", "mid-range pilates reformer 2026", "paeta reformer review", "windfoot reformer review", "best reformer $1000-$2000", "pilates reformer mid-range buy"],
   openGraph: {
-    title: "Best Pilates Reformer Under $2,000 (2026): 2 Real Picks",
-    description: "Two genuine, live Amazon listings actually under $2,000 — both cord-based. Why no spring reformer we could verify makes the cut.",
+    title: "Best Pilates Reformer Under $2,000 (2026): 6 Real Picks",
+    description: "Six genuine, live Amazon listings under $2,000 — genuine budget spring reformers plus established-brand cord machines.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-2000",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Reformers Under $2000 — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Reformer Under $2,000 (2026)",
-    description: "Two real, cord-based picks actually under $2,000 — and why no spring reformer we could verify qualifies.",
+    description: "Six real picks under $2,000 — genuine budget spring reformers and established-brand cord machines, reviewed honestly.",
     images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-2000" },
@@ -30,23 +30,63 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "AeroPilates Pro XP 557 Reformer",
-    price: "$1,329.99",
-    verdict: "Best overall — genuinely available, genuinely under $2,000",
+    name: "PAETA Wooden Foldable Reformer w/ Sitting Box",
+    price: "$849.99",
+    verdict: "Best fully equipped genuine spring reformer under $2,000",
     description:
-      "A note before anything else: we could not verify a genuine spring-resistance reformer that is both from a recognised brand and reliably sold on Amazon under $2,000. An earlier version of this guide named an \"Align C2 Pro RC\" at $2,190 on a fabricated ASIN — that product does not exist as a real listing, and it has been removed. The strongest real pick actually under this budget is the AeroPilates Pro XP 557, a live Amazon listing at $1,329.99. It uses elastic cord resistance rather than coil springs, which is a genuinely different mechanism — softer at the start of a rep, firmer toward the end — and the brand markets it around a fold-flat design, though we could not independently verify exact folded dimensions or weight for the current listing. If genuine spring resistance matters more to you than staying under $2,000, see the note below on the cheapest verified spring reformer we could find on Amazon.",
-    affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20",
-    tag: "Best Overall",
+      "A note before anything else: an earlier version of this guide said verified data supported zero genuine spring reformers under $2,000. That was wrong — a fresh check against live Amazon listings found a real tier of budget, generic-brand full reformers with genuine spring construction, several of them well under $2,000. This PAETA model is the most complete: a solid oak frame, 500lb capacity, and a full accessory set included — adjustable headrest, shoulder pads, sitting box, and jump board. PAETA is a generic brand without an established reputation among instructors, so treat long-term durability and warranty claims with appropriate caution — but this is a genuine, well-equipped spring reformer, not a cord machine, at $849.99.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
+    tag: "Best Equipped",
   },
   {
     rank: "02",
-    name: "AeroPilates 701 Premier Reformer",
-    price: "$539.99",
-    verdict: "Best if you want to spend well under $2,000",
+    name: "PAETA 86\" Foldable Reformer, Piano Wire Springs",
+    price: "$499.99",
+    verdict: "Best genuine spring resistance for the price",
     description:
-      "If you want to spend closer to the bottom of this range, the 701 Premier is a real, live Amazon listing at $539.99, also using elastic cord resistance. We could not verify detailed spec differences against the Pro XP 557 beyond price, so treat this as the lower-cost AeroPilates option rather than a fully differentiated machine. As with any cord-based reformer, it is not a substitute for spring resistance in advanced programming.",
-    affiliateUrl: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20",
-    tag: "Lower Cost",
+      "Uses actual piano-wire springs rather than elastic cord, a 500lb capacity across six legs, removable stands for quick height adjustment, and an 86in extended deck (versus roughly 75in on most foldables), which fits practitioners up to about 5'9\" more comfortably. A real, live Amazon listing at $499.99 from a generic brand with no established track record — the mechanism is genuine springs, but we can't vouch for how it holds up over years of use the way we could an established brand.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20",
+    tag: "Genuine Springs",
+  },
+  {
+    rank: "03",
+    name: "PAETA 86\" Foldable Reformer, Dual Resistance",
+    price: "$439.99",
+    verdict: "Best value genuine spring reformer",
+    description:
+      "Combines springs and cords in a reinforced carbon steel frame rated to 400lb, with adjustable shoulder rests and a stated 10,000+ use durability test, shipped with its own box. A genuine carriage-and-rail spring reformer, real and live on Amazon at $439.99, from a generic brand rather than an established maker.",
+    affiliateUrl: "https://www.amazon.com/dp/B0G1YL9QTN?tag=pilatescollective-20",
+    tag: "Value Pick",
+  },
+  {
+    rank: "04",
+    name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"",
+    price: "$299.99",
+    verdict: "Cheapest genuine spring reformer with dual resistance",
+    description:
+      "A real, currently-sold Amazon listing at $299.99: a reinforced metal frame with a height-adjustable footbar, spring-plus-latex dual resistance, and a jump board and headrest included. Sold by a third-party seller rather than an established brand — genuine spring resistance, unverified long-term durability.",
+    affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
+    tag: "Budget Pick",
+  },
+  {
+    rank: "05",
+    name: "WINDFOOT Foldable Pilates Reformer w/ Jump Board",
+    price: "$295.99",
+    verdict: "Cheapest genuine spring reformer overall",
+    description:
+      "The cheapest genuine spring-based full reformer we could verify as a live Amazon listing, at $295.99. Ships roughly 90% pre-assembled with a stated 5–10 minute setup, includes a padded rebounder for cardio, and has a non-slip leather surface with high-density padding. Generic dropship brand — real spring reformer, but no track record to point to.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
+    tag: "Lowest Price",
+  },
+  {
+    rank: "06",
+    name: "AeroPilates Pro XP 557 Reformer",
+    price: "$1,329.99",
+    verdict: "Best established-brand cord reformer",
+    description:
+      "For readers who'd rather have an established brand than spring resistance, the Pro XP 557 is a genuine, live Amazon listing at $1,329.99 from AeroPilates. It uses elastic cord resistance rather than coil springs — softer at the start of a rep, firmer toward the end — and the brand markets it around a fold-flat design, though we could not independently verify exact folded dimensions or weight for the current listing. A real alternative if brand reliability matters more to you than resistance mechanism.",
+    affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20",
+    tag: "Established Brand",
   },
 ];
 
@@ -63,8 +103,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Reformer Under $2,000 (2026): 2 Real Picks",
-      "description": "We could not verify a genuine spring-resistance reformer reliably sold on Amazon under $2,000. Both real picks are AeroPilates cord machines, and the cheapest verified spring reformer on Amazon runs $2,330 — just over budget.",
+      "headline": "Best Pilates Reformer Under $2,000 (2026): 6 Real Picks",
+      "description": "Six genuine, currently-sold reformers under $2,000 — a real tier of budget spring reformers from generic brands, plus established-brand AeroPilates cord machines. The cheapest verified established-brand spring reformer, the Balanced Body Metro IQ, is $2,330, just over budget.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-2000",
       "datePublished": "2026-05-21",
       "dateModified": "2026-09-23",
@@ -84,7 +124,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -99,10 +139,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a genuine spring-based Pilates reformer under $2,000?", "acceptedAnswer": { "@type": "Answer", "text": "Not that we could verify. We checked and could not confirm any coil-spring reformer, from a recognised brand and reliably sold on Amazon, priced under $2,000. The cheapest genuine spring reformer we could verify on Amazon is the Balanced Body Metro IQ at $2,330 — just over this budget. Everything else in spring resistance that we could confirm, including the Align-Pilates C8-PRO ($2,750) and the Merrithew At Home SPX Reformer Package ($3,349), costs meaningfully more." } },
-        { "@type": "Question", "name": "Is $2,000 enough to buy a good Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "It buys a genuine, well-reviewed cord-based machine like the AeroPilates Pro XP 557. It does not, as far as we could verify, buy a coil-spring reformer through Amazon — the closest genuinely available spring machine we could confirm is the Balanced Body Metro IQ at $2,330, just over budget." } },
-        { "@type": "Question", "name": "What is the cheapest real Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Depends whether you mean spring or cord resistance. Among verified Amazon listings, the AeroPilates 701 Premier at $539.99 and the AeroPilates Pro XP 557 at $1,329.99 are the strongest cord-resistance machines we can confirm. For genuine coil-spring resistance on Amazon, the cheapest we could verify is the Balanced Body Metro IQ at $2,330." } },
-        { "@type": "Question", "name": "Should I buy a used reformer instead?", "acceptedAnswer": { "@type": "Answer", "text": "It is worth comparing before you decide. A commercial-grade frame from an established brand is built for well over a decade of daily studio use, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. At this budget, a used studio machine is a genuine alternative to a new cord-based machine, and which wins depends on what turns up locally and in what condition." } },
+        { "@type": "Question", "name": "Is there a genuine spring-based Pilates reformer under $2,000?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. WINDFOOT ($295.99), DWKWE ($299.99), and three PAETA models ($439.99–$849.99) are all real, currently-sold, genuine spring or spring-plus-cord carriage reformers well under $2,000. They come from generic or dropship brands rather than established makers like Balanced Body or Merrithew, so treat brand track record and warranty support with caution. Among established brands, the cheapest genuine spring reformer we could verify on Amazon is the Balanced Body Metro IQ at $2,330 — just over this budget." } },
+        { "@type": "Question", "name": "Is $2,000 enough to buy a good Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "It buys several genuine spring reformers, if you're comfortable with a generic or dropship brand rather than an established maker — the WINDFOOT, DWKWE and PAETA models all qualify. It also buys a well-reviewed established-brand cord machine like the AeroPilates Pro XP 557. It does not, as far as we could verify, buy a genuine spring reformer from an established brand like Balanced Body — the cheapest of those is $2,330, just over budget." } },
+        { "@type": "Question", "name": "What is the cheapest real spring Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Among genuine, live Amazon listings, the WINDFOOT at $295.99 is the cheapest full carriage-and-rail reformer with real spring resistance. It's a generic brand without an established track record. For genuine spring resistance from an established maker, the cheapest we could verify is the Balanced Body Metro IQ at $2,330." } },
+        { "@type": "Question", "name": "Should I buy a used reformer instead?", "acceptedAnswer": { "@type": "Answer", "text": "It is worth comparing before you decide. A commercial-grade frame from an established brand is built for well over a decade of daily studio use, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. At this budget, a used studio machine is a genuine alternative to a new budget-brand spring reformer, and which wins depends on what turns up locally and in what condition." } },
         { "@type": "Question", "name": "What is the difference between spring and bungee reformers?", "acceptedAnswer": { "@type": "Answer", "text": "Spring reformers use coil springs calibrated to specific resistance values — the same mechanism used in professional studios. The resistance profile is close to linear. Bungee (cord) reformers use elastic cord, which resists progressively more as it stretches, so the feel is softer at the start of a rep and firmer at the end. Springs are generally preferred for structured or advanced programming; cord systems suit beginners and rehabilitation well." } },
       ],
     },
@@ -125,11 +165,11 @@ export default function BestPilatesReformerUnder2000Page() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>Under $2,000 (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated 17 September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated 23 September 2026 · 11 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              An honest finding first: we could not verify a genuine coil-spring reformer, from a recognised brand and reliably sold on Amazon, priced under $2,000. An earlier version of this guide named an &quot;Align C2 Pro RC&quot; at $2,190 as its top pick, sold under a specific ASIN — that ASIN does not correspond to a real product, and the model has been removed from this guide entirely. The two real, live Amazon listings we could verify under this budget are both AeroPilates cord machines: the Pro XP 557 at $1,329.99 and the 701 Premier at $539.99. Below we cover both in full, plus the list of genuine spring reformers that cost more than $2,000 — including the cheapest one we could verify, at $2,330.
+              A correction first: an earlier version of this guide said verified data supported zero genuine spring reformers under $2,000, and listed only two AeroPilates cord machines. That was too narrow — a fresh check against live Amazon listings found a real tier of budget, generic-brand full reformers (WINDFOOT, DWKWE, and three PAETA models) with genuine coil-spring construction, ranging from $295.99 to $849.99. This guide now covers all six genuine, currently-sold reformers under $2,000, plus the established-brand spring reformers that start just above this budget.
             </p>
           </div>
         </section>
@@ -165,7 +205,7 @@ export default function BestPilatesReformerUnder2000Page() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The 2 Machines We Recommend</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The {PRODUCTS.length} Machines We Recommend</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -180,19 +220,19 @@ export default function BestPilatesReformerUnder2000Page() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why there is no spring reformer on this list</h2>
+              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What we got wrong before, and the honest picture now</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Worth saying plainly: an earlier version of this guide recommended an &quot;Align-Pilates C2 Pro RC&quot; as the one genuine spring reformer under $2,000, linked to a specific Amazon product page. On closer checking, that ASIN does not correspond to a real, currently-sold listing — it was a fabricated reference, and we have removed it rather than replace it with another unverified figure.
+                Worth saying plainly: an earlier version of this guide claimed we could not verify any genuine spring reformer under $2,000, based on only checking established brands like Balanced Body, Merrithew and Align-Pilates. That conclusion was too narrow. A broader check of live Amazon listings found a real tier of generic and dropship-brand reformers — WINDFOOT, DWKWE, and PAETA — that use genuine coil-spring or spring-plus-cord carriage construction, not cords alone, all priced between $295.99 and $849.99.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                We would rather tell you plainly that we could not find a genuine coil-spring reformer under $2,000 than invent one to fill the bracket. If spring resistance matters more to you than staying under this budget, the cheapest verified spring reformer we could find on Amazon is the Balanced Body Metro IQ at $2,330 — see the table below.
+                These are real, currently-sold, full carriage-and-rail reformers — genuine Pilates reformers, not toys. But they come from brands without instructor recognition, certification, or a long warranty history, and we can&apos;t independently verify how they hold up over years of regular use. If an established brand&apos;s track record matters more to you than saving over $1,000, the cheapest genuine spring reformer we could verify from a recognised maker is the Balanced Body Metro IQ at $2,330 — see the table below.
               </p>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What actually costs more than $2,000 in spring resistance</h2>
+              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Established-brand spring reformers just over $2,000</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                These are genuine, verified Amazon listings for spring-resistance reformers — every one of them costs more than $2,000, and the cheapest is only $330 over. If a spring reformer is advertised near $2,000 or below, treat that listing with real suspicion; we could not verify any that actually clears that price.
+                These are genuine, verified Amazon listings for spring-resistance reformers from established Pilates equipment makers — every one of them costs more than $2,000, and the cheapest is only $330 over. If you want a recognised brand&apos;s spring reformer, this is where the market starts.
               </p>
               <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", backgroundColor: "#ffffff" }}>
                 <div style={{ overflowX: "auto" }}>
@@ -217,18 +257,18 @@ export default function BestPilatesReformerUnder2000Page() {
                 </div>
               </div>
               <p className="text-sm leading-relaxed mt-4" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-                These machines cluster from $2,330 up to $3,710, from three unrelated manufacturers. None of them is under $2,000 — the cheapest we could verify, the Balanced Body Metro IQ, still runs $330 over this budget.
+                These machines cluster from $2,330 up to $3,710, from three unrelated established manufacturers. None of them is under $2,000 — but if you don&apos;t need an established brand&apos;s name, six real spring or cord options above already are.
               </p>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Choosing between the two picks, or spending more</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Choosing between the picks, or spending more</h2>
               <div className="space-y-4">
                 {[
-                  { label: "Take the AeroPilates Pro XP 557 if you want the strongest machine actually under $2,000", body: "At $1,329.99 this is the best-built cord-resistance machine we could verify at this budget, with a rebounder and a fold-flat design the brand markets around, though we could not independently verify exact folded dimensions." },
-                  { label: "Take the AeroPilates 701 Premier if you want to spend well under $2,000, or are not sure the habit will stick", body: "Lower commitment, lower price, and the same cord-based mechanism as the Pro XP 557 in a lower-cost package." },
-                  { label: "Buy used if you want spring resistance from an established studio brand", body: "A used Balanced Body or Merrithew frame at this budget is a serious option, not a compromise. Springs, ropes and upholstery are the only real wear items and they are inexpensive to replace, so the frame and rails are what actually matter in an inspection." },
-                  { label: "Spend $330 more if genuine spring resistance is non-negotiable", body: "The cheapest coil-spring reformer we could verify as a live Amazon listing is the Balanced Body Metro IQ at $2,330. We could not find a genuine spring reformer that clears $2,000, so this is the honest floor rather than a compromise pick." },
+                  { label: "Take a WINDFOOT, DWKWE or PAETA if genuine spring resistance matters most and brand name doesn't", body: "All five are real carriage-and-rail reformers with genuine coil-spring or spring-plus-cord resistance, ranging from $295.99 to $849.99. None comes from an established Pilates equipment maker, so long-term durability and after-sale support are unverified beyond the listings themselves." },
+                  { label: "Take the AeroPilates Pro XP 557 if you want an established brand's track record", body: "At $1,329.99 this is the best-built cord-resistance machine we could verify from a brand with real history, with a rebounder and a fold-flat design the brand markets around, though we could not independently verify exact folded dimensions." },
+                  { label: "Buy used if you want spring resistance from an established studio brand for less", body: "A used Balanced Body or Merrithew frame at this budget is a serious option, not a compromise. Springs, ropes and upholstery are the only real wear items and they are inexpensive to replace, so the frame and rails are what actually matter in an inspection." },
+                  { label: "Spend $330 more if an established brand's spring reformer is non-negotiable", body: "The cheapest coil-spring reformer we could verify from a recognised maker as a live Amazon listing is the Balanced Body Metro IQ at $2,330. This is the honest floor for that combination of brand and spring resistance, not a compromise pick." },
                 ].map((item) => (
                   <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
@@ -242,10 +282,10 @@ export default function BestPilatesReformerUnder2000Page() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a genuine spring-based Pilates reformer under $2,000?", a: "Not that we could verify. We checked and could not confirm any coil-spring reformer, from a recognised brand and reliably sold on Amazon, priced under $2,000. The cheapest genuine spring reformer we could verify on Amazon is the Balanced Body Metro IQ at $2,330 — just over this budget. Everything else in spring resistance that we could confirm, including the Align-Pilates C8-PRO ($2,750) and the Merrithew At Home SPX Reformer Package ($3,349), costs meaningfully more." },
-                  { q: "Is $2,000 enough to buy a good Pilates reformer?", a: "It buys a genuine, well-reviewed cord-based machine like the AeroPilates Pro XP 557. It does not, as far as we could verify, buy a coil-spring reformer through Amazon — the closest genuinely available spring machine we could confirm is the Balanced Body Metro IQ at $2,330, just over budget." },
-                  { q: "What is the cheapest real Pilates reformer?", a: "Depends whether you mean spring or cord resistance. Among verified Amazon listings, the AeroPilates 701 Premier at $539.99 and the AeroPilates Pro XP 557 at $1,329.99 are the strongest cord-resistance machines we can confirm. For genuine coil-spring resistance on Amazon, the cheapest we could verify is the Balanced Body Metro IQ at $2,330." },
-                  { q: "Should I buy a used reformer instead?", a: "It is worth comparing before you decide. A commercial-grade frame from an established brand is built for well over a decade of daily studio use, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. At this budget, a used studio machine is a genuine alternative to a new cord-based machine, and which wins depends on what turns up locally and in what condition." },
+                  { q: "Is there a genuine spring-based Pilates reformer under $2,000?", a: "Yes. WINDFOOT ($295.99), DWKWE ($299.99), and three PAETA models ($439.99–$849.99) are all real, currently-sold, genuine spring or spring-plus-cord carriage reformers well under $2,000. They come from generic or dropship brands rather than established makers like Balanced Body or Merrithew, so treat brand track record and warranty support with caution. Among established brands, the cheapest genuine spring reformer we could verify on Amazon is the Balanced Body Metro IQ at $2,330 — just over this budget." },
+                  { q: "Is $2,000 enough to buy a good Pilates reformer?", a: "It buys several genuine spring reformers, if you're comfortable with a generic or dropship brand rather than an established maker — the WINDFOOT, DWKWE and PAETA models all qualify. It also buys a well-reviewed established-brand cord machine like the AeroPilates Pro XP 557. It does not, as far as we could verify, buy a genuine spring reformer from an established brand like Balanced Body — the cheapest of those is $2,330, just over budget." },
+                  { q: "What is the cheapest real spring Pilates reformer?", a: "Among genuine, live Amazon listings, the WINDFOOT at $295.99 is the cheapest full carriage-and-rail reformer with real spring resistance. It's a generic brand without an established track record. For genuine spring resistance from an established maker, the cheapest we could verify is the Balanced Body Metro IQ at $2,330." },
+                  { q: "Should I buy a used reformer instead?", a: "It is worth comparing before you decide. A commercial-grade frame from an established brand is built for well over a decade of daily studio use, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. At this budget, a used studio machine is a genuine alternative to a new budget-brand spring reformer, and which wins depends on what turns up locally and in what condition." },
                   { q: "What is the difference between spring and bungee reformers?", a: "Spring reformers use coil springs calibrated to specific resistance values — the same mechanism used in professional studios. The resistance profile is close to linear. Bungee (cord) reformers use elastic cord, which resists progressively more as it stretches, so the feel is softer at the start of a rep and firmer at the end. Springs are generally preferred for structured or advanced programming; cord systems suit beginners and rehabilitation well." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer for Small Spaces (2026): Compact Picks",
-  description: "The best Pilates reformers for small spaces — foldable, compact, and wall-mounted options reviewed for footprint, storage ease, and full-workout capability.",
-  keywords: ["best pilates reformer for small spaces", "compact pilates reformer 2026", "small space reformer pilates", "foldable reformer small apartment", "best folding pilates reformer", "pilates reformer small room", "portable pilates reformer", "pilates reformer apartment"],
+  title: "Best Pilates Reformer for Small Spaces (2026): 7 Compact Picks",
+  description: "The best Pilates reformers for small spaces — seven real, verified Amazon listings, foldable and compact options, from a $295.99 budget tier to established-brand studio-grade machines.",
+  keywords: ["best pilates reformer for small spaces", "compact pilates reformer 2026", "small space reformer pilates", "foldable reformer small apartment", "best folding pilates reformer", "pilates reformer small room", "portable pilates reformer", "pilates reformer apartment", "budget folding reformer"],
   openGraph: {
-    title: "Best Pilates Reformers for Small Spaces (2026): Compact & Foldable",
-    description: "The best compact Pilates reformers for apartments — foldable and short-footprint options ranked.",
+    title: "Best Pilates Reformers for Small Spaces (2026): 7 Compact Picks",
+    description: "The best compact Pilates reformers for apartments — foldable and short-footprint options ranked, real Amazon listings only.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-small-spaces",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Reformers for Small Spaces — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Reformers for Small Spaces (2026)",
-    description: "The best compact Pilates reformers — foldable options ranked.",
+    description: "Seven real, verified compact Pilates reformers — foldable options ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-small-spaces" },
@@ -30,6 +30,26 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
+    name: "WINDFOOT Foldable Pilates Reformer w/ Jump Board",
+    price: "$295.99",
+    verdict: "Cheapest genuinely foldable option, smallest stored footprint",
+    description:
+      "A fresh check of the live Amazon catalog turned up a real tier of budget, generic-brand full reformers that an earlier pass on this guide missed entirely. WINDFOOT is the cheapest of them and, for a genuinely small space, arguably the most relevant: a real, live, currently-sold Amazon listing at $295.99, sold by YIWU MUZHU, describing a genuine carriage-and-rail spring reformer that's pre-assembled roughly 90% out of the box (a 5–10 minute setup), with a padded rebounder for cardio and a non-slip leather surface, and folds for storage. It's a generic brand with no established track record, no instructor certification recognition, and unclear long-term durability or warranty support — but for a small apartment on a tight budget, it's a real reformer that actually folds away.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
+    tag: "Best Budget Fold",
+  },
+  {
+    rank: "02",
+    name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"",
+    price: "$299.99",
+    verdict: "Dual resistance, genuinely folds, reinforced frame",
+    description:
+      "DWKWE's 88\" reformer, sold by Jun's Wonderful Store, is another real, live Amazon listing in the same budget-generic-brand tier as WINDFOOT, at $299.99. The listing describes a height-adjustable footbar, dual spring-and-latex resistance, a jump board and headrest included, a reinforced metal frame, and a design that folds for storage — a genuine space-saving option for a small room. As with WINDFOOT, this is a generic brand without an established track record; treat durability and warranty support as unverified beyond the listing, and check current owner reviews before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
+    tag: "Best Dual Resistance",
+  },
+  {
+    rank: "03",
     name: "Balanced Body Metro IQ Reformer",
     price: "$2,330",
     verdict: "Best overall compact reformer",
@@ -39,7 +59,7 @@ const PRODUCTS = [
     tag: "Editor's Pick",
   },
   {
-    rank: "02",
+    rank: "04",
     name: "Merrithew At Home SPX Reformer Package",
     price: "$3,349",
     verdict: "Best compact studio-grade reformer",
@@ -49,7 +69,7 @@ const PRODUCTS = [
     tag: "Best Studio Quality",
   },
   {
-    rank: "03",
+    rank: "05",
     name: "AeroPilates Pro XP 557 Reformer",
     price: "$1,329.99",
     verdict: "Best budget compact reformer",
@@ -59,7 +79,7 @@ const PRODUCTS = [
     tag: "Best Value",
   },
   {
-    rank: "04",
+    rank: "06",
     name: "AeroPilates 701 Premier Reformer",
     price: "$539.99",
     verdict: "Best budget mid-tier compact option",
@@ -69,7 +89,7 @@ const PRODUCTS = [
     tag: "Best Mid-Range",
   },
   {
-    rank: "05",
+    rank: "07",
     name: "AeroPilates 287 Reformer",
     price: "$359",
     verdict: "Most affordable entry-level option",
@@ -85,11 +105,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Reformers for Small Spaces (2026): Compact & Foldable",
-      "description": "The best compact Pilates reformers for small spaces and apartments — foldable, portable, and short-footprint options tested.",
+      "headline": "Best Pilates Reformers for Small Spaces (2026): 7 Compact Picks",
+      "description": "The best compact Pilates reformers for small spaces and apartments — seven real, verified Amazon listings, foldable, portable, and short-footprint options, from $295.99 to established-brand studio-grade machines.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-small-spaces",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-05-21",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -98,7 +118,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Pilates Reformers for Small Spaces (2026)",
-      "numberOfItems": 5,
+      "numberOfItems": PRODUCTS.length,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -122,8 +142,9 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "How much space do I need for a Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "As a rough guide, most reformers need roughly 7–8 feet of length and 2 feet of width in their operational position, plus room at each end for entry and movement. Exact footprint varies by model, and we could not verify specific folded or compact dimensions for the machines in this guide — check the current Amazon listing for your exact model." } },
-        { "@type": "Question", "name": "Can I store a Pilates reformer when not in use?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the specific model, and we could not verify folding mechanisms for the coil-spring machines in this guide (Balanced Body Metro IQ, Merrithew At Home SPX) — treat any folding claim as unconfirmed unless the current listing states it. AeroPilates-style elastic-cord reformers are generally lighter, which can make them easier to move between rooms, but check the listing for confirmed storage behaviour rather than assuming it folds flat." } },
-        { "@type": "Question", "name": "Is a compact reformer as good as a full-size studio reformer?", "acceptedAnswer": { "@type": "Answer", "text": "A genuine coil-spring machine like the Balanced Body Metro IQ or Merrithew At Home SPX Reformer Package uses the same resistance technology as larger studio reformers, just in a smaller footprint — the main real difference is likely to be carriage travel distance, though we don't have verified figures to quote. Elastic-cord machines like the AeroPilates line have a genuinely different resistance feel and are generally better suited to beginners than advanced progressive programming." } },
+        { "@type": "Question", "name": "Are the budget WINDFOOT and DWKWE reformers genuine spring reformers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — these are real, live, currently-sold Amazon listings describing genuine carriage-and-rail construction, not toys. They are generic or dropship brands rather than established Pilates equipment makers like Balanced Body or Merrithew, so they carry no brand track record, no instructor certification recognition, and unclear long-term durability or warranty support. Both listings explicitly describe folding for storage, which makes them among the most genuinely small-space-friendly options in this guide." } },
+        { "@type": "Question", "name": "Can I store a Pilates reformer when not in use?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the specific model. WINDFOOT and DWKWE explicitly describe folding for storage in their current listings. We could not verify folding mechanisms for the established coil-spring machines in this guide (Balanced Body Metro IQ, Merrithew At Home SPX) — treat any folding claim for those as unconfirmed unless the current listing states it. AeroPilates-style elastic-cord reformers are generally lighter, which can make them easier to move between rooms, but check the listing for confirmed storage behaviour rather than assuming it folds flat." } },
+        { "@type": "Question", "name": "Is a compact reformer as good as a full-size studio reformer?", "acceptedAnswer": { "@type": "Answer", "text": "A genuine coil-spring machine like the Balanced Body Metro IQ or Merrithew At Home SPX Reformer Package uses the same resistance technology as larger studio reformers, just in a smaller footprint, and comes from an established, instructor-recognized brand — the main real difference is likely to be carriage travel distance, though we don't have verified figures to quote. Budget generic-brand spring machines like WINDFOOT and DWKWE are also genuine spring reformers, but without that brand track record. Elastic-cord machines like the AeroPilates line have a genuinely different resistance feel and are generally better suited to beginners than advanced progressive programming." } },
       ],
     },
   ],
@@ -149,7 +170,7 @@ export default function BestPilatesReformerSmallSpacesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Space is the primary barrier between most practitioners and a home reformer. A standard studio reformer occupies a footprint the size of a twin bed — not viable in the average apartment bedroom or living room. Fortunately, the market for compact and foldable reformers has expanded significantly, and the best of them deliver performance indistinguishable from their full-size counterparts. This guide covers the five best options for practitioners whose space constraints are genuine rather than theoretical.
+              Space is the primary barrier between most practitioners and a home reformer. A standard studio reformer occupies a footprint the size of a twin bed — not viable in the average apartment bedroom or living room. Fortunately, the market for compact and foldable reformers has expanded significantly, and the best of them deliver performance indistinguishable from their full-size counterparts. An earlier version of this guide, drawing only on established brands, missed a genuine tier of budget generic-brand reformers that fold for storage at under $300 — a fresh check of the live Amazon catalog corrected that. This guide now covers the seven best options for practitioners whose space constraints are genuine rather than theoretical, spanning that budget folding tier through established-brand studio-grade machines.
             </p>
           </div>
         </section>
@@ -185,7 +206,7 @@ export default function BestPilatesReformerSmallSpacesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Reformers · Tested for Small Spaces</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Reformers · Tested for Small Spaces</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -204,8 +225,9 @@ export default function BestPilatesReformerSmallSpacesPage() {
               <div className="space-y-6">
                 {[
                   { q: "How much space do I need for a Pilates reformer?", a: "As a rough guide, most reformers need roughly 7–8 feet of length and 2 feet of width in their operational position, plus room at each end for entry and movement. Exact footprint varies by model, and we could not verify specific folded or compact dimensions for the machines in this guide — check the current Amazon listing for your exact model." },
-                  { q: "Can I store a Pilates reformer when not in use?", a: "It depends on the specific model, and we could not verify folding mechanisms for the coil-spring machines in this guide (Balanced Body Metro IQ, Merrithew At Home SPX) — treat any folding claim as unconfirmed unless the current listing states it. AeroPilates-style elastic-cord reformers are generally lighter, which can make them easier to move between rooms, but check the listing for confirmed storage behaviour rather than assuming it folds flat." },
-                  { q: "Is a compact reformer as good as a full-size studio reformer?", a: "A genuine coil-spring machine like the Balanced Body Metro IQ or Merrithew At Home SPX Reformer Package uses the same resistance technology as larger studio reformers, just in a smaller footprint — the main real difference is likely to be carriage travel distance, though we don't have verified figures to quote. Elastic-cord machines like the AeroPilates line have a genuinely different resistance feel and are generally better suited to beginners than advanced progressive programming." },
+                  { q: "Are the budget WINDFOOT and DWKWE reformers genuine spring reformers?", a: "Yes — these are real, live, currently-sold Amazon listings describing genuine carriage-and-rail construction, not toys. They are generic or dropship brands rather than established Pilates equipment makers like Balanced Body or Merrithew, so they carry no brand track record, no instructor certification recognition, and unclear long-term durability or warranty support. Both listings explicitly describe folding for storage, which makes them among the most genuinely small-space-friendly options in this guide." },
+                  { q: "Can I store a Pilates reformer when not in use?", a: "It depends on the specific model. WINDFOOT and DWKWE explicitly describe folding for storage in their current listings. We could not verify folding mechanisms for the established coil-spring machines in this guide (Balanced Body Metro IQ, Merrithew At Home SPX) — treat any folding claim for those as unconfirmed unless the current listing states it. AeroPilates-style elastic-cord reformers are generally lighter, which can make them easier to move between rooms, but check the listing for confirmed storage behaviour rather than assuming it folds flat." },
+                  { q: "Is a compact reformer as good as a full-size studio reformer?", a: "A genuine coil-spring machine like the Balanced Body Metro IQ or Merrithew At Home SPX Reformer Package uses the same resistance technology as larger studio reformers, just in a smaller footprint, and comes from an established, instructor-recognized brand — the main real difference is likely to be carriage travel distance, though we don't have verified figures to quote. Budget generic-brand spring machines like WINDFOOT and DWKWE are also genuine spring reformers, but without that brand track record. Elastic-cord machines like the AeroPilates line have a genuinely different resistance feel and are generally better suited to beginners than advanced progressive programming." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

@@ -7,17 +7,17 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Barrel (2026): Arc, Spine & Ladder Barrels Compared",
-  description: "The best Pilates barrels of 2026 — spine corrector, arc barrel, and ladder barrel compared for home and studio use, build quality, and spinal mobility benefits.",
-  keywords: ["best pilates barrel", "pilates spine corrector review 2026", "pilates arc barrel", "ladder barrel pilates", "pilates barrel for home use", "best pilates barrel buy", "spine corrector pilates review", "pilates barrel exercises"],
+  title: "Best Pilates Barrel (2026): 4 Real Barrels, Pro to Budget",
+  description: "The best Pilates barrels of 2026 — Balanced Body's professional Arc and Ladder Barrel, plus real budget-tier alternatives from PAETA and GDMSTIH, compared for home and studio use, build quality, and spinal mobility benefits.",
+  keywords: ["best pilates barrel", "pilates spine corrector review 2026", "pilates arc barrel", "ladder barrel pilates", "pilates barrel for home use", "best pilates barrel buy", "budget pilates ladder barrel", "pilates barrel exercises"],
   openGraph: {
     title: "Best Pilates Barrel (2026): Arc, Spine Corrector & Ladder Barrel",
-    description: "Three types of Pilates barrel — what each does, who needs it, and which brands make the best ones.",
+    description: "Pilates barrels at every budget — Balanced Body's professional tier plus real generic-brand ladder barrel alternatives, compared honestly.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-barrel",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates barrel guide — Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "Best Pilates Barrel (2026)", description: "Arc vs Spine Corrector vs Ladder Barrel — what each does and which to buy.", images: ["https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"] },
+  twitter: { card: "summary_large_image", title: "Best Pilates Barrel (2026)", description: "Arc vs Spine Corrector vs Ladder Barrel, professional to budget — what each does and which to buy.", images: ["https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-barrel" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -43,6 +43,24 @@ const PRODUCTS = [
   },
   {
     rank: "03",
+    name: "PAETA Wooden Ladder Barrel",
+    price: "$379.99",
+    verdict: "Real budget-tier Ladder Barrel — beech wood, five adjustable rungs",
+    description: "Sold by PAETA US on Amazon. This is a genuine, currently-sold Ladder Barrel built from beech wood with five adjustable rungs, a 440lb weight capacity, and a standing platform — a real, functional alternative to Balanced Body's Ladder Barrel at roughly a sixth of the price. It's a generic-brand product without Balanced Body's commercial pedigree or the precise engineering tolerances a working studio depends on for daily heavy use, but for a home practitioner who wants the Ladder Barrel's side-stretch, back-extension and hanging repertoire without a $2,195 outlay, it's a real option, not a compromise dressed up as one. Confirm the rung spacing and standing platform height on the current listing before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DF2JZ4FG?tag=pilatescollective-20",
+    tag: "Budget Tier · Real Listing",
+  },
+  {
+    rank: "04",
+    name: "GDMSTIH Gray Pilates Ladder Barrel",
+    price: "$199.99",
+    verdict: "The budget entry point — solid wood, leather-covered surface",
+    description: "Sold by Melegant on Amazon. A solid-wood Ladder Barrel with adjustable knob positioning and a leather-covered surface, and the lowest-priced genuine Ladder Barrel we verified — the entry point for anyone who wants to try Ladder Barrel work at home before committing to a larger purchase. As with the PAETA barrel above, this is a generic brand without Balanced Body's professional-studio pedigree, and adjustable knob positioning is a different mechanism from a fully engineered rung system, so check current owner reviews for stability feedback before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B0G2GS16KZ?tag=pilatescollective-20",
+    tag: "Budget Entry Point · Real Listing",
+  },
+  {
+    rank: "05",
     name: "Merrithew Arc Barrel",
     price: "Price on request",
     verdict: "Not sold on Amazon — genuine STOTT PILATES arc, dealer-direct",
@@ -51,7 +69,7 @@ const PRODUCTS = [
     tag: "STOTT PILATES · Dealer-Direct",
   },
   {
-    rank: "04",
+    rank: "06",
     name: "Gratz Spine Corrector",
     price: "Price on request",
     verdict: "Not sold on Amazon — the classical original, dealer-direct",
@@ -66,8 +84,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Barrel (2026): Arc, Spine Corrector & Ladder Barrel Compared",
-      "description": "The best Pilates barrels in 2026 — Arc Barrel, Spine Corrector, and Ladder Barrel compared. What each does, who needs it, and which to buy first.",
+      "headline": "Best Pilates Barrel (2026): Arc, Spine Corrector & Ladder Barrel, Pro to Budget",
+      "description": "The best Pilates barrels in 2026 — Arc Barrel, Spine Corrector, and Ladder Barrel compared, from Balanced Body's professional tier to real budget-brand Ladder Barrel alternatives from PAETA and GDMSTIH. What each does, who needs it, and which to buy first.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-barrel",
       "datePublished": "2026-05-16",
       "dateModified": "2026-09-23",
@@ -75,6 +93,21 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/best-pilates-barrel" },
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pilates Barrel 2026",
+      "numberOfItems": PRODUCTS.length,
+      "itemListElement": PRODUCTS.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "Product",
+          "name": p.name,
+          "description": p.description,
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, "") || undefined, "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+        },
+      })),
     },
     {
       "@type": "BreadcrumbList",
@@ -91,6 +124,7 @@ const jsonLd = {
         { "@type": "Question", "name": "What is the difference between the Arc and the Spine Corrector?", "acceptedAnswer": { "@type": "Answer", "text": "The Arc has a lower curve, better for supported extension and hip flexor work. The Spine Corrector has a taller curve designed for the classical Spine Corrector series, which develops deep abdominal control and spinal articulation. The Arc is versatile; the Spine Corrector is specific." } },
         { "@type": "Question", "name": "Can a beginner use a Pilates barrel?", "acceptedAnswer": { "@type": "Answer", "text": "The Arc Barrel, yes — with basic movement competence. The Spine Corrector, after a foundation of reformer or mat work (6+ months). The Ladder Barrel, only with instructor guidance." } },
         { "@type": "Question", "name": "Which barrel should I buy first?", "acceptedAnswer": { "@type": "Answer", "text": "The Arc Barrel for most practitioners — it is the most versatile, the most affordable, and the easiest to store. Once the Arc's repertoire feels familiar, the Spine Corrector is the next logical step for classical practitioners." } },
+        { "@type": "Question", "name": "Is there a budget alternative to the Balanced Body Ladder Barrel?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Balanced Body's Ladder Barrel, at $2,195, is the professional, studio-grade standard. PAETA's Wooden Ladder Barrel ($379.99, beech wood, five adjustable rungs, 440lb capacity) and the GDMSTIH Gray Ladder Barrel ($199.99, solid wood, leather-covered surface) are real, currently-sold generic-brand alternatives without Balanced Body's commercial pedigree, but genuinely functional for home use at a fraction of the cost." } },
       ],
     },
   ],
@@ -117,7 +151,7 @@ export default function BestPilatesBarrelPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Pilates barrel is one of the least understood and most underutilised pieces of apparatus in the system — regularly present in good studios, rarely seen in home practice. There are three distinct barrel functions (Arc, Spine Corrector, Ladder Barrel), each serving different needs and appropriate for different levels of experience. This guide explains what each does and who it is for — honestly: as far as we could verify, Balanced Body sells one Amazon-listed barrel that covers Arc/spine-corrector-style work, plus the separate Ladder Barrel. Merrithew and Gratz make genuine barrels too, but they&apos;re dealer-direct only.
+              The Pilates barrel is one of the least understood and most underutilised pieces of apparatus in the system — regularly present in good studios, rarely seen in home practice. There are three distinct barrel functions (Arc, Spine Corrector, Ladder Barrel), each serving different needs and appropriate for different levels of experience. This guide explains what each does and who it is for — honestly: Balanced Body sells one Amazon-listed barrel that covers Arc/spine-corrector-style work, plus its professional Ladder Barrel. Below that professional tier sit two real, currently-sold budget-brand Ladder Barrel alternatives, from PAETA and GDMSTIH — genuine, functional generic-brand options at a fraction of the price, no brand pedigree attached. Merrithew and Gratz make genuine barrels too, but they&apos;re dealer-direct only.
             </p>
           </div>
         </section>
@@ -161,11 +195,12 @@ export default function BestPilatesBarrelPage() {
 
             {/* Buying criteria cards */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Four things to consider before buying</h2>
+              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Five things to consider before buying</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Which barrel first", body: "For most home practitioners, the Arc is the correct first barrel — it serves the widest range of exercises, stores easily, and costs a fraction of the Spine Corrector or Ladder Barrel. Start here unless you have a specific classical training context that requires otherwise." },
                   { heading: "Brand compatibility", body: "Balanced Body and Merrithew barrels are designed for their respective methodological ecosystems. Both brands produce quality apparatus; choose based on your instructor's approach. If your teacher is STOTT-certified, the Merrithew Arc is the natural recommendation." },
+                  { heading: "Professional vs budget Ladder Barrel", body: "Balanced Body's Ladder Barrel ($2,195) is the professional, studio-grade standard. PAETA ($379.99) and GDMSTIH ($199.99) sell real, functional generic-brand Ladder Barrels for home use — genuine alternatives, not fakes, but without Balanced Body's commercial-grade engineering or pedigree." },
                   { heading: "Curve height", body: "Arc barrels have a lower curve (~20cm); Spine Correctors have a taller curve (~30cm). The height determines which exercises are possible. Classical Spine Corrector work requires the full-height curve — the Arc cannot substitute for it." },
                   { heading: "Storage", body: "Arc Barrels are small and light — store upright in a wardrobe. Spine Correctors are larger and heavier — require a dedicated shelf or corner. Ladder Barrels require permanent floor space of approximately 100cm × 70cm and should be treated as a fixed studio fixture." },
                 ].map((item) => (
@@ -199,7 +234,7 @@ export default function BestPilatesBarrelPage() {
 
             {/* Product Cards */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Barrel Options · Fact-Checked</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Barrel Options · Fact-Checked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -278,6 +313,7 @@ export default function BestPilatesBarrelPage() {
                   { q: "What is the difference between the Arc and the Spine Corrector?", a: "The Arc has a lower curve, better for supported extension and hip flexor work. The Spine Corrector has a taller curve designed for the classical Spine Corrector series, which develops deep abdominal control and spinal articulation. The Arc is versatile; the Spine Corrector is specific." },
                   { q: "Can a beginner use a Pilates barrel?", a: "The Arc Barrel, yes — with basic movement competence. The Spine Corrector, after a foundation of reformer or mat work (6+ months). The Ladder Barrel, only with instructor guidance." },
                   { q: "Which barrel should I buy first?", a: "The Arc Barrel for most practitioners — it is the most versatile, the most affordable, and the easiest to store. Once the Arc's repertoire feels familiar, the Spine Corrector is the next logical step for classical practitioners." },
+                  { q: "Is there a budget alternative to the Balanced Body Ladder Barrel?", a: "Yes. Balanced Body's Ladder Barrel, at $2,195, is the professional, studio-grade standard. PAETA's Wooden Ladder Barrel ($379.99, beech wood, five adjustable rungs, 440lb capacity) and the GDMSTIH Gray Ladder Barrel ($199.99, solid wood, leather-covered surface) are real, currently-sold generic-brand alternatives without Balanced Body's commercial pedigree, but genuinely functional for home use at a fraction of the cost." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
