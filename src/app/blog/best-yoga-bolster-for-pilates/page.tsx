@@ -30,62 +30,52 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Standard Rectangular Cotton-Filled Bolster",
-    price: "From $65",
+    name: "Gaiam Yoga Bolster Pillow",
+    price: "$40.17",
     verdict: "Best overall bolster for Pilates",
     description:
-      "The rectangular cotton-batting bolster is the one to buy if you buy only one, and firmness is the specification that decides everything. A bolster's entire job is to hold a body part at a fixed height while the muscles around it release — and a soft bolster compresses under load within thirty seconds, at which point it has stopped supporting anything and become a cushion. Densely packed cotton batting holds its loft for years, where cheap polyester fill flattens permanently within months. The flat top face is what makes the rectangular shape the most versatile: it sits stably under the knees in supine work, under the ribs for side-lying support, and lengthwise along the spine for supported extension without rolling away. Standard dimensions run around 25 by 12 by 6 inches. Check for a removable, washable cover with a full-length zip rather than a decorative envelope closure, because the cover is the part that needs cleaning and the fill is the part that must never get wet.",
-    affiliateUrl: "https://www.amazon.com/s?k=rectangular+yoga+bolster+cotton+filled+firm&tag=pilatescollective-20",
+      "Gaiam is one of the more established names in yoga and Pilates props, which makes this the safe default if you want a single rectangular bolster that covers restorative work, supported stretching and side-lying positions without any guesswork. It's sold and shipped by Amazon.com directly, which simplifies returns if the firmness or footprint isn't right for your frame. As a general-purpose rectangular bolster, it does the core job any bolster is bought for: holding a body part at a fixed height so the surrounding muscles can release during restorative and supported Pilates work — which is why it's the pick to start with if you're buying your first one.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D4LPGRC8?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Round Cylindrical Bolster",
-    price: "From $70",
-    verdict: "Best for chest opening and thoracic extension",
+    name: "TokSay Yoga Bolster Pillow",
+    price: "$35.99",
+    verdict: "Best for restorative and yin practice",
     description:
-      "The round bolster does one thing better than any other shape: placed lengthwise under the spine, its curved profile lets the ribcage fall open on either side, producing a chest and shoulder opening that a flat-topped rectangular bolster cannot match. For the desk-bound thoracic stiffness that most Pilates practitioners are working against, this is the more useful shape, and it doubles as a gentler alternative to a foam roller for anyone who finds a hard roller too intense along the spinous processes. The higher loft — typically 9 inches in diameter against a rectangular bolster's 6 — also makes it the better choice for supported backbends and for propping under the knees where more height is wanted. The trade-off is stability. A round bolster rolls, which makes it less reliable for side-lying support and for anything where you need the prop to stay exactly where you put it. Most well-equipped home practices end up owning one of each.",
-    affiliateUrl: "https://www.amazon.com/s?k=round+cylindrical+yoga+bolster+firm&tag=pilatescollective-20",
-    tag: "Best for Chest Opening",
+      "TokSay markets this bolster specifically for restorative and yin yoga and meditation, which matches how most Pilates practitioners actually use a bolster outside of class — for supported floor work and breath-led cool-downs rather than active exercise. At $35.99 it undercuts the Gaiam by a few dollars while covering the same core use case, making it a sensible pick for anyone building a home restorative setup without paying for a bigger-name brand.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CWTXN11K?tag=pilatescollective-20",
+    tag: "Best for Restorative & Yin",
   },
   {
     rank: "03",
-    name: "Pranayama Bolster (Narrow)",
-    price: "From $55",
-    verdict: "Best for spinal support and breathing work",
+    name: "JZHLLA 2-PC Yoga Bolster Set",
+    price: "$30.99",
+    verdict: "Best value — two shapes in one purchase",
     description:
-      "A pranayama bolster is narrow — typically 6 inches wide against a standard bolster's 12 — and that narrowness is the entire point. Placed lengthwise under the spine, it supports the vertebrae directly while leaving the ribcage completely unsupported on both sides, so the ribs can expand laterally without obstruction. That makes it the single best prop for learning Pilates lateral breathing, where the whole skill is feeling the lower ribs widen sideways rather than the belly rising. It is also the least intrusive option for supported supine work with anyone who finds a wide bolster lifts them too far off the mat. What it will not do is general propping: too narrow to sit on comfortably, too narrow under the knees, and unstable under a hip in side-lying. Buy it as a second bolster specifically for breathwork and spinal support, not as your first.",
-    affiliateUrl: "https://www.amazon.com/s?k=pranayama+bolster+narrow+yoga&tag=pilatescollective-20",
-    tag: "Best for Breathwork",
+      "This is the only set on this list, pairing a rectangular bolster with a cylinder in a single $30.99 purchase — effectively giving you both of the two most useful bolster shapes (flat-topped for knees, ribs and spinal support; round for chest-opening and supported backbend work) at a price where either shape alone would usually be a compromise. The washable velvet cover is worth calling out on its own: plenty of budget bolsters only advertise a removable cover, not a machine-washable one, and washability matters more on a prop you rest directly against.",
+    affiliateUrl: "https://www.amazon.com/dp/B0FN681FYG?tag=pilatescollective-20",
+    tag: "Best Value Set",
   },
   {
     rank: "04",
-    name: "Buckwheat-Filled Bolster",
-    price: "From $95",
-    verdict: "Firmest support and best for heavier users",
+    name: "Hihealer Round Yoga Bolster",
+    price: "$41.99",
+    verdict: "Best round bolster for chest opening",
     description:
-      "Buckwheat hull fill is the firmest option available and behaves differently from batting in a way that matters. The hulls shift and then lock into the shape of whatever presses into them, so the bolster conforms once and then holds — giving support that is both moulded and genuinely rigid, rather than the uniform give of cotton. For heavier practitioners, and for anyone who has found that every bolster they own bottoms out under a hip or a sacrum, this is the answer. It is also the only fill here that can be adjusted: most buckwheat bolsters have a zipped inner so hulls can be removed to lower the loft or reduce the weight. The drawbacks are weight and noise. A full buckwheat bolster is heavy enough to be awkward to reposition mid-sequence, and the hulls rustle audibly as you settle. Neither matters much at home; both make it a poor choice for carrying to a studio.",
-    affiliateUrl: "https://www.amazon.com/s?k=buckwheat+filled+yoga+bolster&tag=pilatescollective-20",
-    tag: "Firmest Support",
+      "The round shape is the better choice specifically for supported backbends and thoracic opening — placed lengthwise under the spine, its curved profile lets the ribcage fall open on both sides in a way a flat rectangular bolster can't replicate. Hihealer positions this one as a meditation cushion as much as a yoga prop, which fits: seated use for breathwork and cross-legged sitting is where a round bolster earns its keep once it's braced against something so it can't roll. At $41.99 it's the most expensive product here, so it's worth buying specifically for the round profile rather than as a general first bolster.",
+    affiliateUrl: "https://www.amazon.com/dp/B0H366LRFD?tag=pilatescollective-20",
+    tag: "Best for Chest Opening",
   },
   {
     rank: "05",
-    name: "Prenatal Wedge Bolster",
-    price: "From $60",
-    verdict: "Best for pregnancy and side-lying support",
+    name: "MABOZOO Yoga Bolster Pillow",
+    price: "$30.99",
+    verdict: "Best budget pick with a carry handle",
     description:
-      "From the second trimester onward, supine Pilates positions are generally set aside, and side-lying becomes the default for a large share of the repertoire. A wedge bolster — tapered rather than uniform in height — is built for exactly that: placed under the bump in side-lying it takes the weight of the abdomen off the underside hip and lumbar spine, which is the difference between a side-lying series being sustainable and being abandoned after two exercises. The taper also makes it the best prop for an inclined supine position, which many practitioners can tolerate well into pregnancy where flat supine is uncomfortable. Look for a firm fill and a wipeable, removable cover. Worth noting that its usefulness does not end with pregnancy: the same wedge is excellent for postnatal recovery work and for anyone who needs an inclined position for reflux or breathing comfort.",
-    affiliateUrl: "https://www.amazon.com/s?k=prenatal+wedge+bolster+pregnancy+support+firm&tag=pilatescollective-20",
-    tag: "Best for Pregnancy",
-  },
-  {
-    rank: "06",
-    name: "Budget Bolster Under $40",
-    price: "From $35",
-    verdict: "Best entry-level bolster",
-    description:
-      "Bolsters are the prop people most often buy, use enthusiastically for a month of restorative work, and then leave in a cupboard — so a cheaper first purchase is a reasonable hedge. At this price you get the right dimensions and a serviceable cover, and for occasional supported work that is genuinely sufficient. What you are giving up is fill density and how long it lasts: budget bolsters are almost always polyester-filled, and polyester compresses permanently rather than recovering, so expect noticeably less loft within six to twelve months of regular use. The practical test on arrival is to press down hard with a flat palm — if you can compress it by more than about a third, it will not hold a body in position and you should send it back. If you find yourself reaching for it weekly after a few months, replace it with a cotton or buckwheat bolster and keep this one for propping under knees.",
-    affiliateUrl: "https://www.amazon.com/s?k=yoga+bolster+budget+rectangular&tag=pilatescollective-20",
+      "MABOZOO's rectangular bolster ties the JZHLLA set for the lowest price here, and it's the one built with portability in mind — a carry handle is a genuinely useful feature if you're moving a bolster between rooms, to a studio, or onto a mat set up somewhere other than a dedicated practice space. If your budget stretches to only one bolster and you want the standard rectangular shape rather than a two-piece set or a round profile, this is the straightforward entry-level option.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DYJHNQGK?tag=pilatescollective-20",
     tag: "Best Entry-Level",
   },
 ];
@@ -160,7 +150,7 @@ export default function BestYogaBolsterForPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Firmness is the only specification that really matters here, and it is the one most listings are vaguest about. A bolster exists to hold a body part at a fixed height while the muscles around it release — so a soft one, which compresses within thirty seconds of load, has stopped being a bolster and become a cushion. These six cover the shapes and fills that actually hold, from everyday rectangular support to prenatal side-lying work.
+              Firmness is the specification that matters most here, and it is the one most listings are vaguest about. A bolster exists to hold a body part at a fixed height while the muscles around it release — so a soft one, which compresses within seconds of load, has stopped being a bolster and become a cushion. These five cover the shapes worth owning, from an everyday rectangular default to a two-piece set and a round option for chest-opening work.
             </p>
           </div>
         </section>
@@ -195,7 +185,7 @@ export default function BestYogaBolsterForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Bolsters · Ranked</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Bolsters · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

@@ -7,20 +7,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Lagree Reformer Springs & Resistance Cables (2026)",
-  description: "The best replacement springs and resistance cables for Megaformer and Lagree-style machines — compared for tension range, durability, and compatibility with home and studio machines.",
-  keywords: ["lagree resistance springs", "megaformer replacement springs 2026", "lagree resistance cables", "pilates reformer springs replacement", "lagree spring tension guide", "megaformer cable resistance", "best reformer springs"],
+  title: "Best Lagree & Megaformer Replacement Springs (2026)",
+  description: "The best third-party replacement springs for Megaformer and Lagree-style reformers — compared for tension range and durability. Universal springs, not official Lagree Fitness parts.",
+  keywords: ["lagree resistance springs", "megaformer replacement springs 2026", "pilates reformer springs replacement", "lagree spring tension guide", "megaformer spring resistance", "best reformer springs"],
   openGraph: {
-    title: "Best Lagree Reformer Springs & Resistance Cables (2026)",
-    description: "Replacement springs and resistance cables compared for tension range, durability, and machine compatibility.",
+    title: "Best Lagree & Megaformer Replacement Springs (2026)",
+    description: "Third-party replacement springs compared for tension range, durability, and machine compatibility.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-lagree-resistance-springs-cables",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg", width: 1200, height: 630, alt: "Best Lagree Resistance Springs and Cables 2026" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Lagree Resistance Springs & Cables (2026)",
-    description: "Replacement springs and resistance cables compared for Lagree and Megaformer machines.",
+    title: "Best Lagree & Megaformer Replacement Springs (2026)",
+    description: "Third-party replacement springs compared for Lagree and Megaformer-style reformers.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-lagree-resistance-springs-cables" },
@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lagree Fitness OEM Replacement Spring Set",
-    price: "From $189",
-    verdict: "Best for authentic Megaformer compatibility",
+    name: "Colaxi 5-Piece Pilates Reformer Spring Set",
+    price: "$65.54",
+    verdict: "Best overall replacement set",
     description:
-      "For owners of an authentic Lagree Fitness Megaformer, Supraformer, or Proformer, manufacturer-original replacement springs are the only option that guarantees exact tension calibration matching the machine's original specification. Lagree Fitness sells individual springs across the light-to-heavy range used in standard programming, and because the Megaformer's spring mounting hardware is proprietary to the brand, third-party springs frequently do not fit the carriage attachment points correctly. Springs wear out from repeated loading cycles over years of use, gradually losing tension consistency even before visible damage appears — a subtle but real issue for studios running multiple daily classes. For both home and commercial Lagree Fitness machine owners, OEM springs are the only recommendation that avoids fit and calibration risk entirely.",
-    affiliateUrl: "https://www.amazon.com/s?k=lagree+megaformer+replacement+springs&tag=pilatescollective-20",
-    tag: "Best OEM Compatibility",
+      "This is a five-spring, color-coded stainless steel set built for standard reformer and Megaformer-style spring systems — a third-party, universal replacement rather than an official Lagree Fitness part (Lagree does not sell springs directly through Amazon). The color-coding across the five tensions makes it easy to identify the right spring at a glance mid-class, and stainless steel construction resists the corrosion that plain steel springs develop from sweat exposure over time. Always confirm hook spacing against your specific machine before ordering, since spring mounting hardware varies between reformer brands.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DC93JC3M?tag=pilatescollective-20",
+    tag: "Best Overall",
   },
   {
     rank: "02",
-    name: "Universal Pilates Reformer Spring Set (4-Spring)",
-    price: "From $49",
-    verdict: "Best for non-Lagree reformers",
+    name: "ERJGIKL Pilates Reformer Springs",
+    price: "$88.98",
+    verdict: "Best for heavier tension needs",
     description:
-      "For practitioners training on a standard Pilates reformer rather than an authentic Megaformer — including hybrid setups like the Align Pilates F3 or Balanced Body Allegro adapted for Lagree-style programming — a universal four-spring set covering light, medium, medium-heavy, and heavy tension provides the resistance range needed to approximate Lagree slow-tempo loading. These sets use standard reformer spring hook dimensions compatible with most major reformer brands, though it's worth confirming hook spacing against your specific machine before ordering. Build quality varies by listing, so verify the springs are rated for the carriage weight and tension range your machine specifies rather than buying on price alone.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+reformer+spring+set+replacement&tag=pilatescollective-20",
-    tag: "Best Universal Fit",
+      "Built from music wire steel, a material chosen specifically for high-tension spring applications, this set is aimed at practitioners who need more resistance headroom than entry-level sets provide. Like the rest of this list, it's a generic replacement compatible with standard spring-based reformer and Megaformer-style systems, not an official Lagree Fitness product. The higher price reflects the tension range on offer rather than any brand premium.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GCGXBDBC?tag=pilatescollective-20",
+    tag: "Best for Heavy Tension",
   },
   {
     rank: "03",
-    name: "Stroops Slastix Resistance Cable Set",
-    price: "From $39",
-    verdict: "Best portable resistance cables",
+    name: "Aibogiter 5-Pack Reformer Springs",
+    price: "$49.99",
+    verdict: "Best budget pick",
     description:
-      "Stroops Slastix cables are flat resistance bands with metal carabiner clips at each end, widely used by Lagree and Pilates instructors as a portable alternative or supplement to fixed carriage springs — particularly for travel, mat-based Lagree-style conditioning, or supplementing carriage resistance with additional limb-specific loading. The flat profile avoids the twisting and pinching common with round tube resistance bands. Available across multiple tension levels sold separately or as graduated sets. These are not a replacement for a Megaformer's internal spring system but are the standard choice for instructors building portable or hybrid Lagree-adjacent programming outside a fixed machine.",
-    affiliateUrl: "https://www.amazon.com/s?k=stroops+slastix+resistance+cables&tag=pilatescollective-20",
-    tag: "Best Portable Cables",
+      "A five-pack of alloy resistance springs covering two tension levels, this is the most affordable option here for someone who just needs a working replacement set without paying for a wider tension spread. It's a universal, third-party set for standard spring-based reformers — not an official Lagree Fitness part — so check that the hook geometry matches your machine before buying. A sensible choice for a first replacement or a backup set kept on hand.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DCHWCLQM?tag=pilatescollective-20",
+    tag: "Best Value",
   },
   {
     rank: "04",
-    name: "Lagree Fitness Microformer Bands",
-    price: "From $59",
-    verdict: "Best Lagree-branded mat resistance",
+    name: "CHYLMAPHEN 4-Piece Reformer Spring Set",
+    price: "$35.48",
+    verdict: "Best low-cost 4-spring set",
     description:
-      "Designed by Lagree Fitness specifically to extend Megaformer-style training to mat-based and travel contexts, the Microformer bands replicate the brand's spring tension philosophy in a portable resistance band format. Instructors running Lagree-inspired mat classes or hybrid studio/home programming use these to maintain consistent resistance feel between carriage-based and floor-based sessions. The branding and tension calibration are designed to feel familiar to practitioners already trained on authentic Lagree equipment, which is the main differentiator versus generic resistance bands at a similar price.",
-    affiliateUrl: "https://www.amazon.com/s?k=lagree+fitness+microformer+resistance+bands&tag=pilatescollective-20",
-    tag: "Best Lagree-Branded Bands",
+      "A four-spring wire steel tension set at the lowest price point in this list, useful for practitioners who want to replace a smaller subset of springs rather than a full five-spring set — for example, swapping out the two or three springs showing the most wear rather than the whole system. As with every product here, it's a generic third-party replacement for standard reformer/Megaformer-style springs, not a Lagree Fitness branded part.",
+    affiliateUrl: "https://www.amazon.com/dp/B0FMDZQ2RB?tag=pilatescollective-20",
+    tag: "Best Low-Cost Set",
   },
   {
     rank: "05",
-    name: "Merrithew Reformer Spring Kit",
-    price: "From $79",
-    verdict: "Best for STOTT/Merrithew-format reformers",
+    name: "AZKVEUI Pilates Reformer Spring",
+    price: "$53.60",
+    verdict: "Best heavy-duty single spring",
     description:
-      "Merrithew (formerly STOTT Pilates) reformers use a distinct spring hook geometry from both Lagree Megaformers and standard universal reformers, and practitioners on Merrithew-format machines should use the brand's own replacement kit rather than a generic universal set to avoid hook-fit issues. The kit covers the standard four-spring progression used in Merrithew's instructor-certified programming. For practitioners adapting Lagree-style slow-tempo exercises to a Merrithew reformer, this is the correct-fit replacement option rather than risking compatibility problems with universal alternatives.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+reformer+spring+kit&tag=pilatescollective-20",
-    tag: "Best for Merrithew Machines",
-  },
-  {
-    rank: "06",
-    name: "Bodylastics Heavy-Duty Resistance Cable Set",
-    price: "From $35",
-    verdict: "Best budget cable set for supplemental training",
-    description:
-      "Bodylastics offers a budget-friendly, heavy-duty resistance cable system with anti-snap safety sleeves and clip attachments compatible with door anchors, making it a practical supplement for at-home Lagree-style conditioning between studio sessions rather than a direct carriage spring replacement. The graduated tension levels (sold individually or in sets) allow practitioners to build a resistance range comparable to entry-level dedicated Lagree cable products at a lower price point. For practitioners wanting supplemental resistance work outside the Megaformer without the cost of brand-specific accessories, this is the most accessible option.",
-    affiliateUrl: "https://www.amazon.com/s?k=bodylastics+resistance+cable+set&tag=pilatescollective-20",
-    tag: "Best Budget Pick",
+      "Made from heavy-duty music wire steel, this listing is suited to practitioners who need to replace a single high-wear spring rather than buy a full set — a practical option if only one spring in your system has degraded. It's a universal replacement compatible with standard spring/Megaformer-style resistance systems, not an official Lagree Fitness product, so verify fit against your machine's mounting hardware before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B0H5CGSWXK?tag=pilatescollective-20",
+    tag: "Best Single-Spring Replacement",
   },
 ];
 
@@ -95,8 +85,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Lagree Reformer Springs & Resistance Cables (2026)",
-      "description": "Replacement springs and resistance cables compared for tension range, durability, and machine compatibility.",
+      "headline": "Best Lagree & Megaformer Replacement Springs (2026)",
+      "description": "Third-party replacement springs compared for tension range, durability, and machine compatibility.",
       "url": "https://pilatescollectiveclub.com/blog/best-lagree-resistance-springs-cables",
       "datePublished": "2026-06-30",
       "dateModified": "2026-06-30",
@@ -108,7 +98,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Lagree Resistance Springs & Cables (2026)",
-      "numberOfItems": 6,
+      "numberOfItems": PRODUCTS.length,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -132,8 +122,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "How often should Megaformer springs be replaced?", "acceptedAnswer": { "@type": "Answer", "text": "Commercial studio machines running multiple daily classes typically need spring replacement every 12-24 months as repeated loading cycles gradually reduce tension consistency, even before visible wear appears. Home machines used a few times per week can often go 2-4 years between replacements. Watch for inconsistent resistance feel, visible stretching or fraying, or any change in the spring's coil shape as signs replacement is due." } },
-        { "@type": "Question", "name": "Can I use universal reformer springs on a Lagree Megaformer?", "acceptedAnswer": { "@type": "Answer", "text": "Generally no. The Megaformer's spring mounting hardware is proprietary to Lagree Fitness, and universal reformer springs designed for standard hook geometry frequently do not fit the carriage attachment points correctly. Authentic Lagree Fitness machines should use manufacturer-original replacement springs to guarantee correct fit and tension calibration." } },
-        { "@type": "Question", "name": "Are resistance cables a substitute for Megaformer springs?", "acceptedAnswer": { "@type": "Answer", "text": "No, resistance cables and bands are a portable supplement for mat-based or travel training, not a replacement for the Megaformer's internal carriage spring system. Instructors use cables to extend Lagree-style training outside the machine — for example in mat classes or home conditioning between studio sessions — but the carriage's fixed-spring resistance is central to how the Megaformer itself functions." } },
+        { "@type": "Question", "name": "Are these official Lagree Fitness replacement springs?", "acceptedAnswer": { "@type": "Answer", "text": "No. Lagree Fitness does not sell springs directly on Amazon, so every product in this guide is a third-party, universal replacement spring compatible with standard spring-based reformer and Megaformer-style systems rather than an official Lagree Fitness part. Always check hook spacing and tension rating against your specific machine before ordering." } },
+        { "@type": "Question", "name": "Will universal reformer springs fit any Megaformer-style machine?", "acceptedAnswer": { "@type": "Answer", "text": "Not automatically. Spring mounting hardware and hook geometry vary between reformer and Megaformer-style brands, so a universal spring set that fits one machine may not fit another. Check the hook spacing and tension rating listed for a spring set against your specific machine's specifications before ordering, and when in doubt, measure your existing springs for comparison." } },
       ],
     },
   ],
@@ -159,7 +149,7 @@ export default function BestLagreeResistanceSpringsPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Spring tension is the entire mechanism behind Lagree's slow eccentric loading, and worn or mismatched springs quietly degrade resistance consistency long before they visibly fail. This guide covers the correct replacement springs for authentic Megaformer machines, universal options for standard reformers, and the best portable resistance cables for supplementing carriage training.
+              Spring tension is the entire mechanism behind Lagree&apos;s slow eccentric loading, and worn or mismatched springs quietly degrade resistance consistency long before they visibly fail. This guide covers five of the best third-party replacement spring sets for standard reformer and Megaformer-style resistance systems. Important: Lagree Fitness does not sell springs directly on Amazon, so every product below is a generic, universal replacement compatible with standard spring/Megaformer-style systems — not an official Lagree Fitness part. Always check hook spacing and tension rating against your specific machine before ordering.
             </p>
           </div>
         </section>
@@ -189,13 +179,13 @@ export default function BestLagreeResistanceSpringsPage() {
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
                   <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Search →</a>
+                  >Shop →</a>
                 </div>
               ))}
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Picks · Springs & Cables</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Picks · Replacement Springs</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -212,7 +202,7 @@ export default function BestLagreeResistanceSpringsPage() {
                           </div>
                           <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                          >Search →</a>
+                          >Shop →</a>
                         </div>
                         <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }} dangerouslySetInnerHTML={{ __html: p.description }} />
                       </div>
@@ -227,8 +217,8 @@ export default function BestLagreeResistanceSpringsPage() {
               <div className="space-y-6">
                 {[
                   { q: "How often should Megaformer springs be replaced?", a: "Commercial studio machines running multiple daily classes typically need spring replacement every 12-24 months. Home machines used a few times per week can often go 2-4 years between replacements. Watch for inconsistent resistance feel, visible stretching or fraying, or any change in the spring's coil shape as signs replacement is due." },
-                  { q: "Can I use universal reformer springs on a Lagree Megaformer?", a: "Generally no. The Megaformer's spring mounting hardware is proprietary to Lagree Fitness, and universal reformer springs frequently do not fit the carriage attachment points correctly. Authentic Lagree Fitness machines should use manufacturer-original replacement springs." },
-                  { q: "Are resistance cables a substitute for Megaformer springs?", a: "No, resistance cables and bands are a portable supplement for mat-based or travel training, not a replacement for the Megaformer's internal carriage spring system. The carriage's fixed-spring resistance is central to how the Megaformer functions." },
+                  { q: "Are these official Lagree Fitness replacement springs?", a: "No. Lagree Fitness does not sell springs directly on Amazon, so every product in this guide is a third-party, universal replacement spring compatible with standard spring-based reformer and Megaformer-style systems rather than an official Lagree Fitness part. Always check hook spacing and tension rating against your specific machine before ordering." },
+                  { q: "Will universal reformer springs fit any Megaformer-style machine?", a: "Not automatically. Spring mounting hardware and hook geometry vary between reformer and Megaformer-style brands, so a universal spring set that fits one machine may not fit another. Check the hook spacing and tension rating against your specific machine's specifications before ordering, and when in doubt, measure your existing springs for comparison." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

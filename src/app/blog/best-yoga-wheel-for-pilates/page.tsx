@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Standard 12-inch Padded Yoga Wheel",
-    price: "From $35",
-    verdict: "Best overall wheel for Pilates thoracic work",
+    name: "FARINOK Yoga Wheel Set of 3+1",
+    price: "$42.99",
+    verdict: "Best value for a complete set",
     description:
-      "The 12-inch padded wheel is the default size and the one to buy first. The diameter matters more than any other specification: twelve inches puts the spine into an extension curve that matches the natural thoracic arc closely, which is why it opens the upper back effectively without forcing the lumbar spine into the sharp hyperextension that larger wheels produce. A 6 to 8mm TPE padding layer over an ABS core is the standard construction and the right one — enough cushioning that the spinous processes are not pressed directly against a hard shell, without so much give that the wheel deforms under load. Check the weight rating, which should be 300lb or more; the failure mode on cheap wheels is the core cracking under a shifting load, which happens exactly when you are arched backwards over it. For Pilates specifically, this is the tool that restores the thoracic extension desk work removes, and it does that job better than a foam roller because the curve is continuous rather than flat.",
-    affiliateUrl: "https://www.amazon.com/s?k=12+inch+padded+yoga+wheel+tpe+300lb&tag=pilatescollective-20",
+      "This set gives you three wheel sizes in one purchase, which matters because different diameters do genuinely different jobs — a larger wheel produces a gentler, broader extension curve while a smaller one arches the spine more sharply, and having a range on hand lets you match the wheel to how much extension you actually have that day rather than owning a single fixed curve. FARINOK pads these to 10mm, which is on the thicker side for the category and means more cushioning between a bony thoracic spine and the core of the wheel. For anyone building a home mobility routine from scratch, a multi-size set like this is the most complete single purchase — you are far less likely to end up needing a second wheel later because the one you bought turned out to be the wrong size.",
+    affiliateUrl: "https://www.amazon.com/dp/B0BWJT77L5?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Cork Yoga Wheel",
-    price: "From $55",
-    verdict: "Best natural material and best grip",
+    name: "NGT 13-Inch Yoga Wheel",
+    price: "$34.99",
+    verdict: "Best for back pain relief and gentle stretching",
     description:
-      "Cork is the upgrade material in this category and it earns the premium in two specific ways. It grips better than TPE when the skin is damp, which matters because a wheel that slides out from under you mid-extension is the main way people hurt themselves with one. And it is firmer, which transmits a more precise sense of exactly where along the spine the pressure sits — useful when you are working a specific stiff segment rather than generally opening the whole thoracic region. It is also naturally antimicrobial and does not hold odour the way foam surfaces eventually do. The trade-offs are weight and give: cork wheels are noticeably heavier to travel with, and the firmer surface is less forgiving on a bony spine, so anyone with low body fat over the thoracic spine or any osteoporosis risk should choose padding instead. Sealed cork also needs occasional re-oiling to stop it drying out.",
-    affiliateUrl: "https://www.amazon.com/s?k=cork+yoga+wheel+12+inch&tag=pilatescollective-20",
-    tag: "Best Natural Material",
+      "New Guider Sports builds this one at 13 inches, a touch larger than the more common 12-inch standard, which produces a slightly gentler, broader extension curve rather than a sharp arch. That makes it a sensible pick for anyone using a wheel specifically for back pain relief and stretching rather than for pushing deep into end-range extension — a wider curve spreads the load over more of the spine instead of concentrating it at one point. It is a single fixed-size wheel rather than a set, so it suits someone who already knows roughly what curve they want and does not need to shop across multiple diameters.",
+    affiliateUrl: "https://www.amazon.com/dp/B07ZCML5S2?tag=pilatescollective-20",
+    tag: "Best for Back Pain Relief",
   },
   {
     rank: "03",
-    name: "Three-Wheel Set (6in, 10in & 12in)",
-    price: "From $60",
-    verdict: "Best value for progressive spinal work",
+    name: "CHNApin Curve Magic Wheel",
+    price: "$26.99",
+    verdict: "Best budget pick with a supportive cradle",
     description:
-      "Sets exist because the three diameters do genuinely different jobs, and buying them together costs little more than two wheels separately. The 12-inch is your general thoracic extension tool. The 10-inch produces a deeper arc for anyone who already has good extension and wants more, and is a better fit for shorter torsos where a 12-inch wheel spans too much of the back to isolate anything. The 6-inch mini is not a spinal tool at all — it is used underfoot for plantar fascia release and under the shoulders and glutes for targeted trigger work, effectively replacing a massage ball with something that rolls in one plane only. For a home practice covering both mobility and release, the set is the most complete purchase on this list. Storage is the honest downside: three wheels take real cupboard space, and most people find they use the 12-inch far more than the other two.",
-    affiliateUrl: "https://www.amazon.com/s?k=yoga+wheel+set+3+pack+6+10+12+inch&tag=pilatescollective-20",
-    tag: "Best Value Set",
+      "This is the cheapest wheel on this list, and what sets it apart at the price is a foam-padded centre spine cradle rather than a flat padded curve — a shaped channel that gives the spine somewhere specific to settle into instead of pressing flat against the padding. For anyone new to using a wheel who is a little nervous about the spine sliding or shifting mid-extension, that cradle is a genuinely useful stability feature to get at this price point. It is a straightforward single wheel without the size options a set offers, which is the trade-off for the low cost, but as a first wheel to find out whether the movement suits you, it is a sensible entry point.",
+    affiliateUrl: "https://www.amazon.com/dp/B0FG394TMS?tag=pilatescollective-20",
+    tag: "Best Budget",
   },
   {
     rank: "04",
-    name: "Extra-Wide Yoga Wheel (7in Width)",
-    price: "From $48",
-    verdict: "Best for stability and beginners",
+    name: "FARINOK Yoga Wheel for Stretching",
+    price: "$34.99",
+    verdict: "Best single wheel for general use",
     description:
-      "Standard wheels are around five inches wide. The extra-wide versions add roughly two inches, and that extra contact patch changes the experience more than the number suggests. A wider wheel is dramatically more stable laterally, which removes the wobble that makes beginners tense up and defeats the point of the exercise — you cannot release into extension while bracing against a wheel that feels like it might roll sideways. It also spreads pressure across more of the back, which is more comfortable for heavier users and anyone finding a standard wheel digs into the spine. The cost is precision and portability: a wide wheel is harder to use for targeted single-segment work, and it is bulkier to store. This is the right first wheel for anyone nervous about backbending, recovering from injury, or over about 200lb, where standard-width wheels feel unstable.",
-    affiliateUrl: "https://www.amazon.com/s?k=extra+wide+yoga+wheel+7+inch+width&tag=pilatescollective-20",
-    tag: "Best for Beginners",
+      "This is FARINOK's standalone wheel rather than the multi-size set, aimed squarely at general stretching and back-rolling work. It suits anyone who has already tried a wheel — through a class, a set, or a friend's — and knows they want one reliable size in daily rotation rather than a range of diameters to choose between. Buying a single wheel rather than a set also keeps storage simple, which matters more than it sounds for something you actually want to reach for daily rather than dig out of a cupboard.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D57DDBPB?tag=pilatescollective-20",
+    tag: "Best Single Wheel",
   },
   {
     rank: "05",
-    name: "Mini Yoga Wheel (6-inch)",
-    price: "From $22",
-    verdict: "Best for targeted release and small spaces",
+    name: "FARINOK Cork Roller Yoga Wheel",
+    price: "$36.99",
+    verdict: "Best natural material and grip",
     description:
-      "The 6-inch wheel is a release tool rather than a mobility tool, and judged on that basis it is excellent and frequently underrated. Rolled underfoot it addresses plantar fascia tension more comfortably than a lacrosse ball because the load spreads across the arch rather than concentrating on one point. Placed under one shoulder blade or one glute it delivers targeted pressure that stays in a single plane, so it does not squirt out from under you the way a ball does. For anyone with limited storage, it does most of what a massage ball set does while taking up little more room than a mug. What it will not do is thoracic extension — the diameter is far too small to arch a spine over usefully, and attempting it puts sharp pressure on a very small area. Buy it alongside a 12-inch wheel, never instead of one.",
-    affiliateUrl: "https://www.amazon.com/s?k=mini+yoga+wheel+6+inch+massage&tag=pilatescollective-20",
-    tag: "Best Compact",
-  },
-  {
-    rank: "06",
-    name: "Budget TPE Yoga Wheel Under $30",
-    price: "From $25",
-    verdict: "Best entry-level wheel",
-    description:
-      "The yoga wheel is a product where the cheap version is genuinely fine for the main use case, provided you check one thing. Thoracic extension over a wheel is a low-dynamic, largely static movement — you are draping a spine over a curve and breathing, not loading it explosively — so the demands on materials are modest, and a $25 wheel performs that job almost identically to a $55 one. The specification that is not negotiable is the weight rating: buy nothing rated below 300lb, and be sceptical of listings that omit the figure entirely, because the core cracking while you are arched backwards over it is the one failure here with real consequences. What you give up at this price is grip when damp, padding thickness, and finish quality that survives being knocked about. Fine as a first wheel to establish whether you will use one at all.",
-    affiliateUrl: "https://www.amazon.com/s?k=yoga+wheel+budget+tpe+12+inch&tag=pilatescollective-20",
-    tag: "Best Entry-Level",
+      "Cork is the upgrade material in this category, and FARINOK's cork-surfaced wheel is the pick here for anyone who wants it. Cork grips better than a standard foam or TPE surface once skin is even slightly damp, which matters because a wheel sliding out from under you mid-extension is the main way people find these uncomfortable or unsafe to use. It also has a firmer, more precise feel under the spine than a softer padded surface, which some people prefer for locating pressure on a specific stiff segment. The trade-off is that a firmer surface is less forgiving for anyone with very little cushioning over the thoracic spine, so it suits an established user upgrading their equipment more than a first-time buyer.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D57CX5QR?tag=pilatescollective-20",
+    tag: "Best Natural Material",
   },
 ];
 
@@ -160,7 +150,7 @@ export default function BestYogaWheelForPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Thoracic extension is the range almost every Pilates practitioner is short of, and it is the range that a desk removes fastest. A foam roller helps, but its flat profile only ever contacts one segment at a time. A wheel&apos;s continuous curve supports the whole thoracic arch at once, which is why it opens the upper back more effectively than anything else at this price. Diameter and weight rating are the only two specifications that really matter — these six cover both.
+              Thoracic extension is the range almost every Pilates practitioner is short of, and it is the range that a desk removes fastest. A foam roller helps, but its flat profile only ever contacts one segment at a time. A wheel&apos;s continuous curve supports the whole thoracic arch at once, which is why it opens the upper back more effectively than anything else at this price. Diameter and weight rating are the only two specifications that really matter — these five cover both.
             </p>
           </div>
         </section>
@@ -195,7 +185,7 @@ export default function BestYogaWheelForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Wheels · Ranked</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Wheels · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

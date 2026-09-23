@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Adjustable Weighted Vest (12–20 lb)",
-    price: "From $75",
-    verdict: "Best overall for load-bearing work alongside Pilates",
+    name: "ZELUS Weighted Vest",
+    price: "$27.89",
+    verdict: "Best overall starting point",
     description:
-      "An adjustable vest in the 12 to 20lb range is the right first purchase for almost everyone, because the useful load changes as you adapt and a fixed-weight vest is either too heavy on day one or too light by month three. Removable half-pound or one-pound bars let you start genuinely light and add in small increments, which is the only sensible way to introduce axial load to a body that has not carried any. The specification that matters most is how the weight sits: bars distributed evenly front and back, close to the torso, keep the load over your centre of mass, while cheap vests concentrate weight low at the front and pull you into forward flexion — the exact posture Pilates spends its time correcting. Look for a snug fit with a wide waist belt so the vest does not bounce, and try it on over the clothing you would actually walk in.",
-    affiliateUrl: "https://www.amazon.com/s?k=adjustable+weighted+vest+12+20+lb+removable+weights&tag=pilatescollective-20",
+      "ZELUS sells this vest across a run of weight options from 6lb up to 30lb, so you pick the load that matches where you actually are rather than being locked into whatever a single fixed-weight vest ships with. For most people starting load-bearing walks alongside Pilates, that means choosing something in the 6 to 12lb range and knowing there is room to size up to a heavier version later rather than replacing the whole vest. It has a reflective stripe, which is a small but genuinely useful detail if your walks happen at dawn, dusk, or through a winter that gets dark by five. At under $30 it is priced to actually try the category rather than commit to it, which is the right way to find out whether you will wear a vest consistently before spending more.",
+    affiliateUrl: "https://www.amazon.com/dp/B07518RBH2?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Women's-Fit Weighted Vest",
-    price: "From $90",
-    verdict: "Best fit for shorter torsos",
+    name: "CAP 40lb Adjustable Weighted Vest",
+    price: "$69.99",
+    verdict: "Best for advanced, heavier load-bearing work",
     description:
-      "Most weighted vests are cut for a long, flat male torso, and on many women they sit badly in two specific ways: the vest is too long and digs into the hip crease when walking, and the chest panel presses uncomfortably rather than sitting around the ribcage. A women's-fit vest addresses both with a shorter body length, contoured front panels and a higher waist strap. This is not a cosmetic distinction — a vest that rides or presses is one you stop wearing, and an ill-fitting vest that shifts as you walk introduces exactly the asymmetric loading you want to avoid. Given the population most interested in load-bearing work for bone density skews female and post-menopausal, it is surprising how few brands make one. Expect to pay a modest premium and check the size chart against your torso length rather than your dress size.",
-    affiliateUrl: "https://www.amazon.com/s?k=womens+weighted+vest+adjustable+short+torso&tag=pilatescollective-20",
-    tag: "Best Women's Fit",
-  },
-  {
-    rank: "03",
-    name: "Light Weighted Vest (4–10 lb)",
-    price: "From $45",
-    verdict: "Best starting point and best for daily walking",
-    description:
-      "The most common mistake in this category is starting far too heavy. A light vest is what most people should actually own: added load of roughly four to eight pounds is enough to meaningfully change the demand of a walk while staying well within what an unconditioned spine and hips tolerate comfortably. It is also the range that suits daily use, and consistency across weeks matters far more here than any single heavier session. For anyone using a vest specifically alongside Pilates for bone and postural reasons rather than for conditioning, this is the sensible category, and the lower profile makes it far more likely to be worn for an ordinary walk rather than treated as workout equipment. Adjustable versions in this range give you room to progress. Fixed-weight ones are cheaper and perfectly adequate if you know you will stay light.",
-    affiliateUrl: "https://www.amazon.com/s?k=light+weighted+vest+4+8+lb+walking&tag=pilatescollective-20",
-    tag: "Best for Beginners",
-  },
-  {
-    rank: "04",
-    name: "Low-Profile Slim Weighted Vest",
-    price: "From $85",
-    verdict: "Best for wearing under or over everyday clothing",
-    description:
-      "A slim vest holds its weight in thin plates or flat pouches rather than bulky bars, so the whole thing sits close to the body and reads more like a gilet than gym equipment. The practical consequence is that it gets worn: for walking the dog, on the school run, or for errands, which is where the accumulated load-bearing time actually comes from. Bulkier vests tend to be reserved for deliberate training sessions and therefore see a fraction of the use. The slim profile also sits better under a coat in winter, which matters more than it sounds for year-round consistency. The trade-offs are cost per pound of load and adjustability, since flat-plate systems typically offer coarser increments than bar-based vests. Check the plates are secured rather than free to slide, as shifting plates create uneven loading and an audible rattle.",
-    affiliateUrl: "https://www.amazon.com/s?k=low+profile+slim+weighted+vest+plates&tag=pilatescollective-20",
-    tag: "Best Low-Profile",
-  },
-  {
-    rank: "05",
-    name: "Heavy Adjustable Vest (20–40 lb)",
-    price: "From $120",
-    verdict: "Best for strength-trained users",
-    description:
-      "The heavier range is appropriate for a specific and fairly small group: people with an established strength training base who want to load bodyweight movements — step-ups, carries, standing work — beyond what light vests allow. If you already squat or deadlift meaningful load, a 10lb vest will not change anything, and this is the category that does. Build quality becomes genuinely important above 20lb, because stitching and buckle failures at that weight are both more likely and more consequential. Look for reinforced shoulder seams, a load-rated buckle rather than plastic clips, and weights that lock rather than sit loose in open pouches. Two clear cautions: this is not a starting point, and heavy vests belong on walks and standing work rather than anything involving spinal flexion or rotation under load.",
-    affiliateUrl: "https://www.amazon.com/s?k=heavy+adjustable+weighted+vest+20+40+lb&tag=pilatescollective-20",
+      "CAP is a long-established strength equipment brand, and this is the heaviest vest on this list at 40lb, adjustable so you can work up to that ceiling rather than starting there. It suits a specific and fairly small group: people with an established fitness base who have already outgrown a light vest and want real load behind step-ups, carries, and standing work. This is not a starting vest — arriving at 40lb without first building up through lighter loads over weeks is how people end up with a sore lower back and a vest that sits in a cupboard. For anyone who has already done that groundwork, it is the sensible next purchase rather than replacing a lighter vest they have outgrown.",
+    affiliateUrl: "https://www.amazon.com/dp/B01464GUOU?tag=pilatescollective-20",
     tag: "Best Heavy Option",
   },
   {
-    rank: "06",
-    name: "Weighted Rucksack with Plate",
-    price: "From $60",
-    verdict: "Best alternative if a vest does not fit well",
+    rank: "03",
+    name: "Poudee Weighted Vest (12lb)",
+    price: "$14.99",
+    verdict: "Best budget entry point",
     description:
-      "A weighted rucksack is the option worth considering if vests simply do not fit you comfortably, which is a more common problem than the category admits. A plate carried high in a proper rucking pack sits close to the upper back and loads the spine similarly to a vest, while a well-designed harness spreads pressure across shoulders and hips in a way many people find far more tolerable than a torso-hugging vest. It also disappears completely into everyday life — nobody looks twice at a backpack — and doubles as an actual bag. The important detail is that the weight must sit high and be secured against the back panel; a plate sliding around at the bottom of a bag pulls you backward and into compensations. Compression straps and a dedicated plate pocket are what separate a rucking pack from an ordinary backpack with a weight in it.",
-    affiliateUrl: "https://www.amazon.com/s?k=rucking+backpack+with+weight+plate&tag=pilatescollective-20",
-    tag: "Best Alternative",
+      "At under $15, this is the cheapest way to find out whether a weighted vest is something you will actually use before spending more on one. It comes fixed at 12lb, which sits within the range most beginners are advised to build toward rather than start at, so it is worth easing into gradually — wear it unweighted or for shorter walks at first if 12lb feels like a jump from nothing. There is no adjustability here, which is the trade-off for the price: once you have it, that is the load, so anyone likely to want to progress upward should expect to eventually replace it rather than grow with it. As a low-commitment way to trial the category, it does the job.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DP8FQD18?tag=pilatescollective-20",
+    tag: "Best Budget",
+  },
+  {
+    rank: "04",
+    name: "APEXUP Weighted Vest (30lb)",
+    price: "$89.95",
+    verdict: "Best adjustable option for running and strength work",
+    description:
+      "APEXUP builds this one for a dual purpose — running and strength training — rather than purely gentle walking, and the 30lb capacity with adjustability reflects that. It suits someone who wants a single vest that scales from a light walking load up toward genuinely demanding strength or conditioning sessions, rather than a vest bought specifically for low-intensity load-bearing work alongside Pilates. If your interest is purely the gentle bone-and-posture walking case this category is often recommended for, this is more vest than you need; if you also train more intensely and want one piece of equipment that covers both, the adjustability and higher ceiling make it a reasonable single purchase.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CZPS7CMM?tag=pilatescollective-20",
+    tag: "Best Adjustable",
+  },
+  {
+    rank: "05",
+    name: "RUNmax Run Fast Weighted Vest",
+    price: "$38.82",
+    verdict: "Best expandable system for growing into heavier loads",
+    description:
+      "RUNmax ships this vest at 20lb but built on an expandable system rated up to 140lb of total capacity, which is a genuinely different proposition from a fixed vest — you are buying the harness once and adding weight to it over months or years rather than replacing the whole vest when 20lb stops being enough. That makes it a sensible middle purchase for anyone who suspects they will want to progress past a beginner load but does not yet know how far. The honest caveat is the same one that applies to any heavier vest: 140lb of capacity does not mean you should load anywhere near that for Pilates-adjacent walking and standing work, and the useful range for most people stays well under a fraction of what the harness can technically hold.",
+    affiliateUrl: "https://www.amazon.com/dp/B01AJ12ML4?tag=pilatescollective-20",
+    tag: "Best Expandable System",
   },
 ];
 
@@ -160,7 +150,7 @@ export default function BestWeightedVestForPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              First, the thing most listings will not tell you: you do not wear this in a Pilates class. Supine work would put the load on your ribcage, spinal articulation needs segmental movement a rigid vest prevents, and a vest blocks the lateral rib expansion the breathing depends on. A weighted vest is for the walking and standing work that sits alongside your practice — the load-bearing Pilates itself does not provide. Judged on that, these six are the ones worth owning.
+              First, the thing most listings will not tell you: you do not wear this in a Pilates class. Supine work would put the load on your ribcage, spinal articulation needs segmental movement a rigid vest prevents, and a vest blocks the lateral rib expansion the breathing depends on. A weighted vest is for the walking and standing work that sits alongside your practice — the load-bearing Pilates itself does not provide. Judged on that, these five are the ones worth owning.
             </p>
           </div>
         </section>
@@ -195,7 +185,7 @@ export default function BestWeightedVestForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Vests · Ranked</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Vests · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
