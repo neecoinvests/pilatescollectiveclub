@@ -7,17 +7,17 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Under $500 (2026): Budget Picks Reviewed",
-  description: "The best Pilates reformers under $500 — budget entry machines reviewed for spring quality, stability, and whether they are worth the investment.",
+  title: "Best Pilates Reformer Under $500 (2026): The Honest Answer",
+  description: "We could verify exactly one genuine reformer reliably sold on Amazon under $500: the AeroPilates 287 at $359. What else gets recommended in this bracket and why it didn't make the list.",
   keywords: ["best pilates reformer under 500", "cheap pilates reformer 2026", "budget reformer pilates buy", "pilates reformer under 500 dollars", "affordable home reformer pilates", "best budget pilates reformer", "entry level pilates reformer review"],
   openGraph: {
-    title: "Best Pilates Reformer Under $500 (2026)",
-    description: "An honest guide to budget Pilates reformers — what you get, what you sacrifice, and which machine is worth buying.",
+    title: "Best Pilates Reformer Under $500 (2026): The Honest Answer",
+    description: "Only one genuine reformer verified under $500 — the AeroPilates 287. Here's what we could and couldn't confirm about the rest of the category.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg", width: 1200, height: 630, alt: "Best budget Pilates reformer under $500 — Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "Best Pilates Reformer Under $500 (2026)", description: "An honest guide to budget Pilates reformers.", images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"] },
+  twitter: { card: "summary_large_image", title: "Best Pilates Reformer Under $500 (2026)", description: "We could verify exactly one genuine reformer under $500 on Amazon. Here's the honest picture.", images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -25,39 +25,12 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Stamina AeroPilates 287",
-    price: "From $299",
-    verdict: "Best overall under $500",
-    description: "The AeroPilates 287 is the clearest recommendation in the under-$500 category — a genuine full-function reformer that delivers the foundational Pilates repertoire at an accessible price. Four adjustable cord levels replace the traditional spring system; the resistance feel is softer and more elastic than springs, which is a real difference but not a fatal one for beginners and casual practitioners. The foldable aluminium frame stores flat under most beds. The rebounder attachment — rare at this price — adds cardio intervals to the workout. The carriage glides on nylon wheels rather than sealed bearings, which is noisier and slightly less smooth, but functionally adequate. For anyone testing whether reformer Pilates suits them before committing to a studio-grade investment, this is the rational starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287+reformer&tag=pilatescollective-20",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Stamina AeroPilates 4-Cord Sport",
-    price: "From $349",
-    verdict: "Best for taller practitioners",
-    description: "The 4-Cord Sport extends the AeroPilates platform with a longer rail length — an important consideration for practitioners over 5'10\" who find the 287's carriage travel limiting during full-extension footwork. The resistance system is the same four-cord design, but the additional frame length gives the exercises more range of motion at the top of the movement. The Sport model also includes a monitor for basic workout tracking (time, reps, calories) which some practitioners find useful for structure. The rebounder is compatible but sold separately at this tier. A meaningful upgrade over the 287 specifically for height.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+4+cord+sport+reformer&tag=pilatescollective-20",
-    tag: "Best for Height",
-  },
-  {
-    rank: "04",
-    name: "Stamina Pilates Premier with DVDs",
-    price: "From $229",
-    verdict: "Best bare-minimum entry point",
-    description: "The Stamina Premier is the lowest-cost entry into reformer-style Pilates — a two-cord system with a simple carriage on a basic steel frame. At this price, expectations must be calibrated accordingly: the resistance range is narrow, the carriage travel is shorter than a full reformer, and the frame flexes slightly under load. What it does offer is a functional, storable machine for complete beginners who want to learn the basic positions and movements before investing more. The included DVD instruction is genuinely useful for self-teaching. Buy this if the question is 'does reformer Pilates work for me?' — not if the question is 'how do I get better at reformer Pilates?'",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+pilates+premier+reformer&tag=pilatescollective-20",
-    tag: "True Budget",
-  },
-  {
-    rank: "05",
-    name: "BalanceFrom Pilates Reformer",
-    price: "From $389",
-    verdict: "Best spring-based machine under $500",
-    description: "Unlike the AeroPilates cord systems, the BalanceFrom reformer uses actual coil springs — five in total — which gives it a resistance feel closer to studio equipment than any cord-based machine at this price. The spring tension and the way resistance builds through the movement arc is fundamentally different and more familiar to practitioners who have trained in studios. The carriage, footbar, and shoulder rests are all steel construction; the machine weighs 66lbs and does not fold. The trade-off for the spring system is storage: this is a dedicated, semi-permanent piece of home equipment. For practitioners who have already trained in studios and want authentic spring resistance at home, this is the only sub-$500 option worth considering.",
-    affiliateUrl: "https://www.amazon.com/s?k=balancefrom+pilates+reformer&tag=pilatescollective-20",
-    tag: "Spring-Based Pick",
+    name: "AeroPilates 287 Reformer",
+    price: "$359",
+    verdict: "The one genuine reformer we could verify under $500",
+    description: "A note before anything else: this guide previously listed four machines in this bracket — a \"4-Cord Sport,\" a \"Pilates Premier with DVDs,\" and a \"BalanceFrom Pilates Reformer\" with claimed coil springs and a 66lb weight. We could not verify any of the three as genuine, currently-sold Amazon listings, and none of the specific specs claimed for them (spring count, weight, monitor features) could be traced to a real product page, so all three have been removed. The AeroPilates 287 is the one machine in this category we could confirm as a real, live Amazon listing, at $359. It uses elastic cord resistance rather than coil springs — a real and meaningful difference from a spring-based studio machine — and the brand markets it around a fold-flat design, though we could not independently verify exact folded dimensions or weight capacity for the current listing. For anyone testing whether reformer Pilates suits them before committing to a bigger investment, it is a genuine, verified starting point.",
+    affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
+    tag: "Only Verified Pick",
   },
 ];
 
@@ -66,11 +39,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Reformer Under $500 (2026): The Honest Budget Guide",
-      "description": "The best Pilates reformers under $500 — AeroPilates, Stamina, and what you actually get at this price point. Honest about the trade-offs.",
+      "headline": "Best Pilates Reformer Under $500 (2026): Only One Genuine Pick",
+      "description": "We could verify exactly one genuine reformer reliably sold on Amazon under $500 — the AeroPilates 287, at $359. Other models previously listed in this bracket could not be confirmed as real, currently-sold Amazon listings and have been removed.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -87,9 +60,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is a $300 Pilates reformer worth it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating." } },
-        { "@type": "Question", "name": "What is the difference between AeroPilates and a real reformer?", "acceptedAnswer": { "@type": "Answer", "text": "AeroPilates uses elastic cords instead of springs, a shorter rail, and lighter-duty construction. For beginners and moderate users, the experience is comparable. For experienced practitioners, the spring tension feel and exercise range are different in ways that matter." } },
-        { "@type": "Question", "name": "Can I do all Pilates exercises on a budget reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Most of the foundational footwork, ab work, and stretching series, yes. Full classical reformer repertoire (long spine, short spine, advanced rowing), not completely — rail length and resistance range are limiting factors." } },
+        { "@type": "Question", "name": "Is there a genuine spring-based Pilates reformer under $500?", "acceptedAnswer": { "@type": "Answer", "text": "Not that we could verify. An earlier version of this guide listed a \"BalanceFrom Pilates Reformer\" with coil springs as an exception at this price — we could not confirm it as a genuine, currently-sold Amazon listing, and it has been removed. The cheapest genuine spring reformer we could verify on Amazon, the Balanced Body Metro IQ, is $2,330." } },
+        { "@type": "Question", "name": "Is a $359 Pilates reformer worth it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating." } },
+        { "@type": "Question", "name": "What is the difference between AeroPilates and a studio reformer?", "acceptedAnswer": { "@type": "Answer", "text": "AeroPilates uses elastic cords instead of springs, and generally a shorter rail and lighter-duty construction than studio equipment. For beginners and moderate users, the experience is comparable. For experienced practitioners, the resistance feel and exercise range are different in ways that matter." } },
         { "@type": "Question", "name": "Should I buy a budget reformer or just go to a studio?", "acceptedAnswer": { "@type": "Answer", "text": "For most beginners, 3–6 months of studio sessions before buying any home equipment is the better investment. A budget reformer makes sense for practitioners who cannot access a studio or who want to supplement regular sessions." } },
       ],
     },
@@ -112,13 +85,13 @@ export default function BestPilatesReformerUnder500Page() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Budget Reformers</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Reformer Under $500 (2026):<br /><span style={{ color: "#8b4a31" }}>The Honest Budget Guide</span>
+              Best Pilates Reformer Under $500 (2026):<br /><span style={{ color: "#8b4a31" }}>Only One Genuine Pick</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Under $500, you are buying a cord-based or entry-level spring machine — not a studio reformer. That is not a disqualifying fact for the right practitioner. This guide explains exactly what you get, what you sacrifice, and which machine is the best choice at each price point.
+              An earlier version of this guide listed five machines under $500. On closer checking, we could only verify one of them as a genuine, currently-sold Amazon listing: the AeroPilates 287 at $359. The other four — a &quot;4-Cord Sport,&quot; a &quot;Pilates Premier with DVDs,&quot; and a &quot;BalanceFrom&quot; spring reformer with claimed specs we could not source — have been removed rather than left in place on the strength of an old search link. Under $500, you are buying a cord-based machine, not a studio reformer, and that is not a disqualifying fact for the right practitioner — but it is the honest picture of what is actually for sale.
             </p>
           </div>
         </section>
@@ -127,7 +100,7 @@ export default function BestPilatesReformerUnder500Page() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Best budget Pilates reformer under $500 — AeroPilates and Stamina machines reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Best budget Pilates reformer under $500 — the AeroPilates 287 reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -140,13 +113,13 @@ export default function BestPilatesReformerUnder500Page() {
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Cords vs springs: the most important thing to understand</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Studio reformers use coil springs — traditionally 4–5 springs of varying weights. The resistance builds progressively through the movement arc: heavy at full extension, lighter mid-movement. This progressive tension is integral to how classical Pilates exercises feel and function, and it is what instructors are referring to when they cue resistance during footwork and long-box work.
+                Studio reformers use coil springs — traditionally several springs of varying weights. The resistance builds progressively through the movement arc: heavy at full extension, lighter mid-movement. This progressive tension is integral to how classical Pilates exercises feel and function, and it is what instructors are referring to when they cue resistance during footwork and long-box work.
               </p>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Budget reformers under $500 — AeroPilates, Stamina — primarily use elastic cords instead of springs. Cord resistance is more linear: it builds more uniformly through the movement arc, without the same progressive feel. For beginners who have not trained extensively on spring reformers, this difference is nearly imperceptible. For practitioners with significant studio experience, cord machines feel distinctly different in ways that cannot be adjusted away.
+                Budget reformers under $500 — the AeroPilates line is the one we could verify — use elastic cords instead of springs. Cord resistance is more linear: it builds more uniformly through the movement arc, without the same progressive feel. For beginners who have not trained extensively on spring reformers, this difference is nearly imperceptible. For practitioners with significant studio experience, cord machines feel distinctly different in ways that cannot be adjusted away.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The BalanceFrom machine listed below uses actual coil springs at this price point — a genuine exception in the budget category. For everyone else, set the expectation before buying: cord-based machines are real reformers, but they are not the same as studio spring reformers.
+                We could not verify a genuine coil-spring reformer reliably sold on Amazon under $500 — an earlier version of this guide claimed one existed, and that claim has been removed. Set the expectation before buying: at this price, cord-based machines are real reformers, but they are not the same as studio spring reformers. The cheapest genuine spring reformer we could verify on Amazon, the Balanced Body Metro IQ, is $2,330.
               </p>
             </div>
 
@@ -155,10 +128,10 @@ export default function BestPilatesReformerUnder500Page() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Four buying criteria</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { heading: "Cord count / spring count", body: "2-cord machines are entry-level with limited resistance range; 4-cord or 5-spring machines cover the full beginner-to-intermediate repertoire. Never buy fewer than 4 cords." },
-                  { heading: "Rail length", body: "Standard studio reformers are 100–110cm. Budget machines range from 80–95cm. Practitioners under 5'8\" are generally unaffected; taller practitioners lose full extension range in footwork." },
-                  { heading: "Foldability", body: "Most budget machines fold flat. This is a meaningful advantage for small spaces — a folded AeroPilates stores under a standard bed. Non-folding machines require permanent floor space." },
-                  { heading: "Included accessories", body: "Rebounder (cardio intervals), standing platform (additional exercise range), instructional content. Check what is included vs sold separately before committing to a price point." },
+                  { heading: "Cord count", body: "Fewer cords generally mean a narrower resistance range. Check the specific listing's cord count and don't assume it matches a different model in the same product line." },
+                  { heading: "Rail length", body: "We could not independently verify specific rail-length figures for current listings at this price. If you are taller than average, check the current product page's dimensions before buying rather than a figure quoted elsewhere." },
+                  { heading: "Foldability", body: "AeroPilates markets its range around a fold-flat design, which is a meaningful advantage for small spaces. We could not independently verify exact folded dimensions or weight for the current listing, so confirm those against your storage space on the product page." },
+                  { heading: "Included accessories", body: "Rebounders and instructional content are sometimes included, sometimes sold separately. Check what ships with the specific listing before assuming it matches a description you've seen elsewhere." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
@@ -190,7 +163,7 @@ export default function BestPilatesReformerUnder500Page() {
 
             {/* Product cards */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Budget Reformers · Honestly Reviewed</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>1 Verified Reformer · Honestly Reviewed</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -210,10 +183,10 @@ export default function BestPilatesReformerUnder500Page() {
               <p className="text-sm leading-relaxed mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>This is not a reason not to buy — it is important context for realistic expectations.</p>
               <ul className="space-y-3">
                 {[
-                  "Sealed bearing carriage — nylon wheels are functionally adequate but noisier and less smooth than the sealed bearings found on mid-range and studio machines.",
-                  "Long-term durability equivalent to studio equipment — budget machines last 3–5 years with regular use; studio machines last decades.",
-                  "Full accessory ecosystem — no box, pole, loops, or tower compatibility at this tier.",
-                  "The spring resistance feel of studio equipment — with one exception noted above (BalanceFrom). All other machines at this price use cord-based resistance.",
+                  "Sealed-bearing carriage smoothness — we could not verify specific bearing or carriage-quality claims for the current listing, but budget cord machines are generally understood to feel less smooth than mid-range and studio machines.",
+                  "Long-term durability equivalent to studio equipment — we could not verify specific lifespan figures, but a lighter-duty frame at this price is reasonably expected to wear faster than a commercial-grade one.",
+                  "Full accessory ecosystem — no verified box, pole, loops, or tower compatibility exists for any machine at this tier.",
+                  "The spring resistance feel of studio equipment — we could not verify a genuine coil-spring reformer under $500. Every machine we could confirm at this price uses cord-based resistance.",
                 ].map((item, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -228,9 +201,9 @@ export default function BestPilatesReformerUnder500Page() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is a $300 Pilates reformer worth it?", a: "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating." },
-                  { q: "What is the difference between AeroPilates and a real reformer?", a: "AeroPilates uses elastic cords instead of springs, a shorter rail, and lighter-duty construction. For beginners and moderate users, the experience is comparable. For experienced practitioners, the spring tension feel and exercise range are different in ways that matter." },
-                  { q: "Can I do all Pilates exercises on a budget reformer?", a: "Most of the foundational footwork, ab work, and stretching series, yes. Full classical reformer repertoire (long spine, short spine, advanced rowing), not completely — rail length and resistance range are limiting factors." },
+                  { q: "Is there a genuine spring-based Pilates reformer under $500?", a: "Not that we could verify. An earlier version of this guide listed a \"BalanceFrom\" spring reformer as an exception at this price — we could not confirm it as a genuine, currently-sold Amazon listing, and it has been removed. The cheapest genuine spring reformer we could verify on Amazon, the Balanced Body Metro IQ, is $2,330." },
+                  { q: "Is a $359 Pilates reformer worth it?", a: "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating." },
+                  { q: "What is the difference between AeroPilates and a studio reformer?", a: "AeroPilates uses elastic cords instead of springs, and generally a shorter rail and lighter-duty construction than studio equipment. For beginners and moderate users, the experience is comparable. For experienced practitioners, the resistance feel and exercise range are different in ways that matter." },
                   { q: "Should I buy a budget reformer or just go to a studio?", a: "For most beginners, 3–6 months of studio sessions before buying any home equipment is the better investment. A budget reformer makes sense for practitioners who cannot access a studio or who want to supplement regular sessions." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
