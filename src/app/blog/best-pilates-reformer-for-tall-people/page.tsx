@@ -30,53 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Balanced Body Allegro 2 Reformer",
-    price: "From $3,995",
-    verdict: "Best overall for tall practitioners",
+    name: "Balanced Body Allegro Stretch Reformer",
+    price: "$3,710",
+    verdict: "Widest carriage among machines actually sold on Amazon",
     description:
-      "The Balanced Body Allegro 2 is the most widely recommended clinical reformer for tall practitioners — its carriage length of 36 inches and rail length of 98 inches accommodate practitioners up to approximately 6'4\" through the full classical and contemporary repertoire without modification. The Allegro 2's spring calibration system allows precise adjustment of the four springs across 32 combinations, providing the full resistance range needed as a tall practitioner's longer limbs generate proportionally more spring demand. The carriage itself is wider and more padded than most competitors, accommodating a broader shoulder span comfortably. Balanced Body's instructor training network means servicing and support are available globally.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20",
+      "A note before anything else: this guide previously named a \"Balanced Body Allegro 2\" as the top pick. We could not find a live Amazon listing for that model, so it has been removed. The real Balanced Body machine with the widest carriage actually sold on Amazon is the Allegro Stretch — 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. Anodized aluminium frame, TwistLock shoulder rests. We could not independently verify an exact height cutoff for comfortable use, so confirm carriage and rail dimensions against your own height on the current listing before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
     name: "Gratz Universal Reformer",
-    price: "From $4,590",
-    verdict: "Best classical reformer for tall practitioners",
+    price: "Price on request",
+    verdict: "Classical reformer — not sold on Amazon",
     description:
-      "The Gratz Universal Reformer is the gold standard of classical Pilates equipment and features one of the longest carriages in the market — accommodating the full classical repertoire as intended by Joseph Pilates himself. For tall practitioners who study in the classical tradition, the Gratz is the reference point: the carriage dimensions are generous, the rope length is adjustable across a wider range than most contemporary reformers, and the spring resistance has a progressive feel that rewards control and precision over raw force. The upholstered carriage and lacquered steel frame are built to last decades with basic maintenance. This is an investment in permanent equipment, not a consumer product with a planned replacement cycle.",
+      "Gratz is a widely respected name in classical Pilates equipment, with a long carriage that appeals to taller practitioners studying in the classical tradition. We could not find a live Amazon listing for any Gratz reformer — it is sold direct through Gratz and their dealer network. Get a current quote and exact carriage dimensions from Gratz directly rather than relying on a figure quoted here.",
     affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
-    tag: "Best Classical",
+    tag: "Not Sold on Amazon",
   },
   {
     rank: "03",
-    name: "Merrithew V2 Max Reformer",
-    price: "From $4,999",
-    verdict: "Best Merrithew for tall practitioners",
+    name: "Merrithew Rehab V2 Max Plus Reformer",
+    price: "$8,199",
+    verdict: "The real V2 Max-family machine sold on Amazon",
     description:
-      "The V2 Max is the machine to look at in Merrithew's range if you are tall, because it runs a wider carriage than the SPX line on a 97-inch rail, and carriage width matters as much as length once shoulders and hips are broader than the machine assumes. The five-spring system with colour-coded high-precision gradation gives finer resistance control than most competitors, which matters for tall practitioners whose longer limbs change how a given spring loads. The patented retractable rope system also keeps rope length adjustable, which is the specific thing that goes wrong for tall users on machines with fixed ropes. Merrithew sells a Plus version with an integrated tower above this price; confirm the current figure for that configuration with an authorised dealer.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+v2+max+reformer&tag=pilatescollective-20",
-    tag: "Best Wide Carriage",
+      "An earlier version of this article named a plain \"Merrithew V2 Max\" at a lower price — that studio-line model is sold through Merrithew and dealers, not as a standalone Amazon listing. The V2 Max-family machine genuinely sold on Amazon is the Rehab V2 Max Plus: a raised frame, wider carriage than the SPX line, a built-in Vertical Frame, and a patented retractable rope system that keeps rope length adjustable — useful if fixed-length ropes have been a problem for you on other machines. It is a significant step up in price from the machines above; it's included here because it's the real, live Amazon listing in Merrithew's wider-carriage range, not because it's the best value for most tall practitioners.",
+    affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
+    tag: "Widest Merrithew Carriage",
   },
   {
     rank: "04",
-    name: "Peak Pilates MVe® Reformer",
-    price: "From $4,295",
-    verdict: "Best mid-range for tall practitioners",
+    name: "Peak Pilates MVe Reformer",
+    price: "Price on request",
+    verdict: "Not sold on Amazon",
     description:
-      "The Peak Pilates MVe Reformer is designed with a longer carriage dimension than most mid-range alternatives and accommodates practitioners up to 6'3\" through the complete repertoire. The five-spring system uses colour-coded springs with graduated resistance — a system that rewards the precise spring management required in intermediate and advanced programming. The aluminium rail construction is rigid and durable, the carriage headrest adjusts to five positions for different exercises, and the footbar is height-adjustable across three positions with additional micro-adjustments for footbar angle. A strong clinical-grade choice for the tall practitioner who wants professional equipment without the premium pricing of Balanced Body or Gratz.",
-    affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+mve+reformer&tag=pilatescollective-20",
-    tag: "Best Mid-Range",
+      "Peak Pilates markets the MVe with a longer carriage aimed at taller practitioners. We could not find a live Amazon listing for it — it is sold direct through Peak Pilates and its dealer network. Get a current quote and exact carriage dimensions from Peak Pilates directly.",
+    affiliateUrl: "https://www.peakpilates.com",
+    tag: "Not Sold on Amazon",
   },
   {
     rank: "05",
     name: "Elina Pilates Elite Wood Reformer",
-    price: "From $3,995",
-    verdict: "Best aesthetic option for tall practitioners",
+    price: "Price on request",
+    verdict: "Not sold on Amazon",
     description:
-      "The Elina Pilates Elite Wood Reformer is the most visually distinctive option in this guide — a beautifully crafted solid wood frame that functions as furniture as much as exercise equipment. The longer rail design accommodates practitioners up to approximately 6'2\", and the five-spring configuration with colour-coded resistance provides a clinical-grade progressive spring system. The wood construction is warmer and more acoustically quiet than aluminium or steel frame alternatives — a meaningful consideration for home studio environments where the sound of a carriage rolling on metal rails would be disruptive. Elina's European manufacturing standards are high, and the aesthetic investment makes permanent placement in a living space far more viable than a clinical-looking steel machine.",
-    affiliateUrl: "https://www.amazon.com/s?k=elina+pilates+elite+wood+reformer&tag=pilatescollective-20",
-    tag: "Best Aesthetic",
+      "Elina's wood-framed reformers are visually distinctive and marketed with a longer rail aimed at taller practitioners. We could not find a live Amazon listing for any Elina Pilates reformer — it is sold direct through Elina and regional dealers. Get a current quote and exact dimensions from Elina directly rather than relying on a figure quoted here.",
+    affiliateUrl: "https://www.elinapilates.com",
+    tag: "Not Sold on Amazon",
   },
 ];
 
@@ -123,7 +123,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "What height can use a standard Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Most standard reformers are designed for practitioners up to approximately 6'0\"–6'1\". Above this height, the footbar reach and carriage travel distance become limiting in exercises that require full extension through the hips and knees. Tall-specific reformers with extended carriage lengths are recommended for practitioners consistently over 6'1\"." } },
         { "@type": "Question", "name": "Can tall people use a regular Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Tall practitioners can use standard reformers for most of the repertoire, but will find that full extension exercises (footwork in full extension, long stretch series, elephant) feel cramped or require modification. For a home reformer used regularly, choosing a machine with the longest carriage available in your budget prevents these limitations." } },
-        { "@type": "Question", "name": "What carriage length do I need if I am 6'2\"?", "acceptedAnswer": { "@type": "Answer", "text": "At 6'2\", you need a reformer with a carriage length of at least 34 inches and a total rail length of at least 96 inches. The Balanced Body Allegro 2 (98\" rail), Gratz Universal Reformer, and Peak Pilates MVe all meet this specification. Verify manufacturer accommodation heights before purchasing any machine intended for regular use." } },
+        { "@type": "Question", "name": "What carriage length do I need if I am 6'2\"?", "acceptedAnswer": { "@type": "Answer", "text": "We could not independently verify a precise minimum carriage or rail length for this height. As a general rule, taller practitioners benefit from the longest carriage and widest footbar available; among the machines actually sold on Amazon, the Balanced Body Allegro Stretch has the widest carriage we could verify. Confirm exact dimensions against your own height on the current listing before purchasing any machine intended for regular use." } },
       ],
     },
   ],
@@ -205,7 +205,7 @@ export default function BestPilatesReformerTallPeoplePage() {
                 {[
                   { q: "What height can use a standard Pilates reformer?", a: "Most standard reformers are designed for practitioners up to approximately 6'0\"–6'1\". Above this height, the footbar reach and carriage travel distance become limiting in exercises that require full extension through the hips and knees. Tall-specific reformers with extended carriage lengths are recommended for practitioners consistently over 6'1\"." },
                   { q: "Can tall people use a regular Pilates reformer?", a: "Tall practitioners can use standard reformers for most of the repertoire, but will find that full extension exercises (footwork in full extension, long stretch series, elephant) feel cramped or require modification. For a home reformer used regularly, choosing a machine with the longest carriage available in your budget prevents these limitations." },
-                  { q: "What carriage length do I need if I am 6'2\"?", a: "At 6'2\", you need a reformer with a carriage length of at least 34 inches and a total rail length of at least 96 inches. The Balanced Body Allegro 2, Gratz Universal Reformer, and Peak Pilates MVe all meet this specification. Verify manufacturer accommodation heights before purchasing any machine intended for regular use." },
+                  { q: "What carriage length do I need if I am 6'2\"?", a: "We could not independently verify a precise minimum carriage or rail length for this height. As a general rule, taller practitioners benefit from the longest carriage and widest footbar available; among the machines actually sold on Amazon, the Balanced Body Allegro Stretch has the widest carriage we could verify. Confirm exact dimensions against your own height on the current listing before purchasing any machine intended for regular use." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
