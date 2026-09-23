@@ -215,24 +215,24 @@ export default function BestFoldablePilatesReformerPage() {
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Storage space guide</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Approximate folded dimensions for each machine tier — measure your available space against these figures before purchasing.
+                We could not independently verify specific folded dimensions or weights for the machines in this guide — an earlier version of this article stated precise figures (folded height, wardrobe footprint, machine weight) that we can no longer stand behind, and they have been removed. Here is what we can say honestly about each tier.
               </p>
               <div className="space-y-4">
                 {[
                   {
-                    label: "Flat-fold under bed",
+                    label: "Genuinely marketed as fold-flat",
                     machines: "AeroPilates 287, AeroPilates Pro XP 557",
-                    detail: "Folded height: ~25–30cm · Full working length maintained · Requires floor clearance of at least 25cm · Rolls on built-in wheels",
+                    detail: "AeroPilates markets and sells its range around fold-flat, under-bed storage. Confirm the exact folded height and clearance you need on the current Amazon listing — we could not independently verify a specific figure.",
                   },
                   {
-                    label: "Flat-fold under bed (premium)",
-                    machines: "Merrithew At Home SPX",
-                    detail: "Folded depth: ~20cm · Full working length maintained · Compatible with optional Vertical Stand for wall storage · Rolls on casters",
+                    label: "Not verified to fold",
+                    machines: "Merrithew At Home SPX Reformer Package",
+                    detail: "We checked this machine specifically and could not verify a fold-flat-onto-castors feature that an earlier review claimed. Do not buy this machine expecting it to fold; buy it for the spring system.",
                   },
                   {
-                    label: "Upright-fold against wall",
-                    machines: "Balanced Body Allegro 2, Align-Pilates C2 Pro",
-                    detail: "Footprint when stored: ~110cm wide × 25cm deep × 110cm tall · Requires clear wall space · Machine weight (Allegro 2: 66kg) means casters are essential · Does not require under-bed clearance",
+                    label: "No fold mechanism verified / does not fold",
+                    machines: "Align-Pilates C8-PRO, Balanced Body Studio Reformer",
+                    detail: "We could not find or verify a fold mechanism for the C8-PRO. The Balanced Body Studio Reformer is confirmed to not fold — it is a permanent, made-to-order installation. Both need a dedicated floor footprint.",
                   },
                 ].map((item, i) => (
                   <div key={i} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.25)" }}>
@@ -250,20 +250,20 @@ export default function BestFoldablePilatesReformerPage() {
               <div className="space-y-6">
                 {[
                   {
-                    q: "Do foldable reformers compromise practice quality?",
-                    a: "At the premium tier (Allegro 2, Merrithew SPX), no — these machines are used by professional instructors and in clinical Pilates contexts. At the budget tier, the fold itself is not the quality compromise; the cord system and lighter construction are.",
+                    q: "Is the \"Balanced Body Allegro 2\" a real folding reformer?",
+                    a: "No — we could not find a live Amazon listing for a model by that name, and the folding claims previously attached to it are unverified. The real Balanced Body flagship sold on Amazon is the Studio Reformer, at $4,700, and it explicitly does not fold; it is a permanent-installation machine.",
                   },
                   {
-                    q: "How long does it take to set up and fold a foldable reformer?",
-                    a: "Premium machines (Allegro 2): 60–90 seconds to unfold, same to fold. The lever mechanism is smooth and designed for daily use. Budget machines (AeroPilates): 45–60 seconds. Neither requires tools.",
+                    q: "Does the Merrithew At Home SPX fold flat for storage?",
+                    a: "We could not verify this. An earlier version of this article, and a separate earlier review on this site, described a fold-flat-onto-castors feature for this machine; on closer checking that claim did not hold up and has been removed. Buy it for the spring system, not for storage flexibility, unless you can confirm folding on the current listing yourself.",
                   },
                   {
-                    q: "Can I store a foldable reformer in a wardrobe?",
-                    a: "The Allegro 2 folded upright fits in a standard double wardrobe (minimum 120cm wide, 60cm deep, 200cm tall). The AeroPilates folded flat fits under a standard bed with 25cm clearance.",
+                    q: "Which reformers are genuinely marketed as fold-flat?",
+                    a: "AeroPilates is the brand that consistently markets its models, including the 287 and Pro XP 557, around a fold-flat design. We could not independently verify exact folded dimensions or fold time for the current listings, so check the specific product page against your storage space before buying on the strength of this feature alone.",
                   },
                   {
-                    q: "Is a foldable reformer as stable as a non-folding reformer?",
-                    a: "For premium foldable machines, yes. For budget machines, there is marginally more flex at the fold joint — not unsafe, but perceptible during standing exercises. A non-slip mat under the base helps.",
+                    q: "Is a folding reformer as stable as a non-folding one?",
+                    a: "We could not verify a specific stability comparison across models. In general, a permanent-installation studio machine like the Balanced Body Studio Reformer is built without a fold joint at all, which removes one potential source of flex; for any machine marketed as folding, check current owner reviews on the specific listing rather than relying on a general claim.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

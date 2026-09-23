@@ -7,11 +7,11 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Mini Pilates Reformer (2026): Compact Picks Reviewed",
-  description: "The best mini Pilates reformers for home use — compact machines reviewed for resistance quality, stability, and size versus full-length reformers.",
+  title: "Best Mini Pilates Reformer (2026): Honestly Verified",
+  description: "The best compact Pilates reformers for home use — real, verified Amazon listings and prices only, with unverifiable model names and specs corrected.",
   openGraph: {
-    title: "Best Mini Pilates Reformer (2026): Compact Machines Reviewed",
-    description: "Full reformer experience in a smaller footprint — the compact machines that genuinely work.",
+    title: "Best Mini Pilates Reformer (2026): Honestly Verified",
+    description: "Compact reformers reviewed against real, verified Amazon listings — what we could confirm, and what to check yourself.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-mini-pilates-reformer",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Best Mini Pilates Reformer — Pilates Collective Club" }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Mini Pilates Reformer (2026)",
-    description: "Compact Pilates reformers for small spaces — ranked by resistance quality and exercise range.",
+    description: "Compact Pilates reformers for small spaces — checked against real, verified Amazon listings.",
     images: ["https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg"],
   },
   keywords: ["best mini pilates reformer", "mini pilates reformer review 2026", "compact pilates reformer", "small pilates reformer home", "mini reformer pilates workout", "best mini reformer pilates", "pilates mini reformer vs full size"],
@@ -32,66 +32,66 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Pilates Foldable Mini Reformer (FB-F01)",
-    price: "From $180",
-    verdict: "Best budget mini reformer",
+    name: "AeroPilates Reformer 287",
+    price: "$359",
+    verdict: "Best budget compact reformer",
     tag: "Budget Pick",
     description:
-      "The FB-F01 is the entry point to mini reformer ownership — a bungee-cord resistance system, foldable aluminium frame, and a carriage long enough for most exercises in the seated and reclined position. Not a substitute for a full reformer, but for flexibility, roll-downs, and the seated rowing series, it does the job at a price that makes it genuinely accessible.",
-    affiliateUrl: "https://www.amazon.com/s?k=mini+pilates+reformer+foldable&tag=pilatescollective-20",
-    pros: ["Highly affordable entry point", "Folds flat for storage", "Good for beginners and flexibility work"],
-    cons: ["Bungee resistance differs from springs", "Short rail limits some exercises", "Less stable than full reformers"],
+      "A note before anything else: this guide previously featured a generic \"Pilates Foldable Mini Reformer (FB-F01)\" linked via an Amazon search rather than a specific, verified listing — we could not confirm that model as a real, currently-sold product, so it has been removed. The AeroPilates 287 is the smallest full-function reformer we could verify as a real, live Amazon listing, at $359. It uses elastic cord resistance rather than coil springs, which feels genuinely different from a spring-based studio machine, and covers much of the foundational reformer repertoire. We could not independently verify exact folded dimensions or assembly time for the current listing — confirm those on the product page.",
+    affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
+    pros: ["Genuine, live Amazon listing", "Accessible entry price", "Good for beginners and flexibility work"],
+    cons: ["Elastic cord resistance differs from springs", "Shorter rail limits some exercises", "Less stable than full studio reformers"],
   },
   {
     rank: "02",
-    name: "Stamina AeroPilates 287",
-    price: "From $299",
-    verdict: "Best full-function mini",
+    name: "AeroPilates 701 Premier Reformer",
+    price: "$539.99",
+    verdict: "Best mid-tier compact reformer",
     tag: "Editor's Pick",
     description:
-      "The AeroPilates 287 is the smallest full-function reformer on the market. Four cords, a rebounder, foldable frame, and a rail long enough to complete most of the classical repertoire. It stores under a bed, assembles in 20 minutes, and gives a genuine reformer experience at a fraction of the floor space and cost. The best choice if you want to practice at home without committing to a permanent machine.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287&tag=pilatescollective-20",
-    pros: ["Folds for under-bed storage", "Rebounder included", "Covers ~70% of the repertoire"],
-    cons: ["Cord-based, not spring resistance", "Requires 20 minutes to assemble", "Limited weight capacity"],
+      "The 701 Premier is AeroPilates' mid-tier model, a real, live Amazon listing at $539.99, sitting between the 287 and the brand's higher-end Pro XP 557. Like the rest of the range it uses elastic cord resistance rather than coil springs. We could not independently verify a specific cord count, weight capacity, or exact repertoire coverage percentage for this model — treat any such figure quoted elsewhere as something to confirm on the current Amazon listing.",
+    affiliateUrl: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20",
+    pros: ["Genuine, live Amazon listing", "Mid-tier step up from the 287", "Cord-based, consistent with the AeroPilates line"],
+    cons: ["Cord-based, not spring resistance", "Requires assembly", "Specific spec sheet not independently verifiable"],
   },
   {
     rank: "03",
-    name: "Align-Pilates C2 Pro RC Reformer",
-    price: "From $2,190",
-    verdict: "Best premium compact",
+    name: "Align-Pilates C8-PRO Reformer",
+    price: "$2,750",
+    verdict: "Real spring-based option — not marketed as a compact/mini model",
     tag: "Premium Pick",
     description:
-      "The Align-Pilates C2 Pro RC uses genuine coil springs on a 94-inch rail in a frame built for compact spaces — 26 inches wide and rated for users 4'10\" to 6'4\". It offers a genuine spring-based reformer experience and folds upright for storage, unlike Align's larger studio machines. The carriage action is smooth, the footbar adjustable, and the C2 Pro RC supports the full repertoire including long box work. For serious home practitioners with limited space, this is the most complete solution.",
-    affiliateUrl: "https://www.amazon.com/dp/B0CCSM6K8C?tag=pilatescollective-20",
-    pros: ["Genuine coil-spring resistance", "Narrow profile fits most spaces", "Full repertoire compatible", "Folds for storage"],
-    cons: ["Significant investment versus cord-based options", "Heavier than cord-based options", "Requires assembly"],
+      "An earlier version of this article named a \"C2 Pro RC\" model at a different ASIN — we could not verify that specific model name or listing as genuine and currently sold, so it has been corrected. The real Align-Pilates machine sold on Amazon, through Merrithew (Align's US distributor), is the C8-PRO, at $2,750. It uses genuine coil-spring resistance. We could not independently verify rail length, width, height rating, or a folding mechanism specifically for this listing, and it isn't marketed by Align as a dedicated \"mini\" or narrow-profile model — confirm dimensions against your available space on the current listing before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20",
+    pros: ["Genuine coil-spring resistance", "Real, live Amazon listing", "Commercial-rated build"],
+    cons: ["Not specifically marketed as compact", "Significant investment versus cord-based options", "Fold status unverified"],
   },
   {
     rank: "04",
     name: "Peak Pilates MVe Reformer",
-    price: "From $4,295",
-    verdict: "Best professional compact",
+    price: "Dealer-quoted — not sold on Amazon",
+    verdict: "Peak's flagship reformer, sold direct/through dealers",
     tag: "Professional Pick",
     description:
-      "The MVe is Peak Pilates' answer to the space-constraint problem — a studio-quality machine with a footprint 20% smaller than a standard Gratz or Balanced Body reformer. Full spring system, full repertoire compatibility, and a fold option for vertical storage. Used in professional training studios and serious home setups worldwide. An investment for practitioners who refuse to compromise on spring quality.",
-    affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+reformer&tag=pilatescollective-20",
-    pros: ["Studio-quality spring system", "Vertical fold for storage", "Full repertoire compatible"],
-    cons: ["Premium price point", "Professional assembly recommended", "Still a significant footprint when in use"],
+      "We could not find a live, currently-sold Amazon listing for this model — Peak Pilates equipment, in our checks, is sold through its own dealer network rather than through Amazon. We also could not independently verify specific claims like a footprint percentage smaller than competing brands, or a vertical-fold storage feature. Contact Peak Pilates or an authorised dealer for current pricing and confirmed specifications rather than relying on a figure or feature quoted here or elsewhere online.",
+    affiliateUrl: "https://www.peakpilates.com",
+    pros: ["Studio-quality spring system (per brand)", "Used in professional training studios"],
+    cons: ["Not sold on Amazon — dealer-quoted only", "Premium price point", "Specific footprint/fold claims unverified"],
   },
 ];
 
 const FAQS = [
   {
-    q: "Is a mini Pilates reformer worth it?",
-    a: "For complete beginners or travellers who want a Pilates-adjacent movement experience, a budget mini reformer at $150-300 is worthwhile. For practitioners who train 3+ times per week, a budget mini reformer will frustrate you — the cord resistance, short rail, and limited weight capacity don't replicate the reformer experience. In that case, save for the AeroPilates 287 or the Align-Pilates C2 Pro RC.",
+    q: "Is a mini or compact Pilates reformer worth it?",
+    a: "For beginners or space-constrained practitioners, the AeroPilates 287 at $359 is a genuine, real Amazon listing worth considering. For practitioners who train frequently and want spring-based resistance, the Align-Pilates C8-PRO at $2,750 is a real step up, though it isn't specifically marketed as a compact model — confirm its dimensions fit your space before ordering. We could not verify a specific repertoire-coverage percentage for any of these machines, so treat that as a general impression rather than a measured figure.",
   },
   {
-    q: "How much space does a mini Pilates reformer need?",
-    a: "Most mini reformers are 60-80 inches long and 20-24 inches wide, compared to 96-100 inches for a standard reformer. In practice, you need an active space of roughly 8 feet by 4 feet to move freely. The Stamina AeroPilates folds to under 8 inches of height for storage.",
+    q: "How much space does a compact Pilates reformer need?",
+    a: "We could not independently verify specific rail-length or width figures for the machines in this guide. As a general rule, a compact or entry-level reformer takes up less floor space than a full studio machine, but check the exact dimensions on the current Amazon listing against your available space before buying, rather than relying on a figure quoted here or elsewhere.",
   },
   {
-    q: "Can you get a full Pilates workout on a mini reformer?",
-    a: "On a full-function mini reformer like the AeroPilates 287, approximately 70-75% of the classical reformer repertoire is accessible. Exercises that require a tall tower or full reach are limited by rail length. The seated series, footwork, and most standing work are fully accessible.",
+    q: "Can you get a full Pilates workout on a compact reformer?",
+    a: "You can cover a meaningful part of the reformer repertoire — footwork, seated work, and much of the beginner-to-intermediate vocabulary — on machines like the AeroPilates line. We could not verify a specific percentage-of-repertoire figure, so treat any such number as a rough impression rather than a measured fact.",
   },
 ];
 
@@ -122,7 +122,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-09-23",
       "url": "https://pilatescollectiveclub.com/blog/best-mini-pilates-reformer",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-mini-pilates-reformer",
       "articleSection": "Equipment Guide",
@@ -148,22 +148,21 @@ const jsonLd = {
       "@type": "ItemList",
       "name": "Best Mini Pilates Reformers (2026)",
       "numberOfItems": PRODUCTS.length,
-      "itemListElement": PRODUCTS.map((p, i) => ({
-        "@type": "ListItem",
-        "position": i + 1,
-        "item": {
-          "@type": "Product",
-          "name": p.name,
-          "description": p.description,
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "USD",
-            "price": p.price.replace(/[^0-9]/g, ""),
-            "availability": "https://schema.org/InStock",
-            "url": p.affiliateUrl,
+      "itemListElement": PRODUCTS.map((p, i) => {
+        const numericPrice = p.price.replace(/[^0-9.]/g, "");
+        return {
+          "@type": "ListItem",
+          "position": i + 1,
+          "item": {
+            "@type": "Product",
+            "name": p.name,
+            "description": p.description,
+            ...(numericPrice
+              ? { "offers": { "@type": "Offer", "priceCurrency": "USD", "price": numericPrice, "availability": "https://schema.org/InStock", "url": p.affiliateUrl } }
+              : {}),
           },
-        },
-      })),
+        };
+      }),
     },
   ],
 };
@@ -186,11 +185,11 @@ export default function BestMiniPilatesReformerPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Mini Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): Compact & Effective</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Space is the most common barrier to owning a Pilates reformer. A full-size machine requires a dedicated room; most apartments won't accommodate one. The mini and compact reformer market addresses this — but the quality range is enormous. At $180, you get a bungee-cord toy. At $1,299, you get a genuine spring reformer in a narrow frame. This guide navigates the full spectrum honestly.
+              Space is the most common barrier to owning a Pilates reformer. A full-size machine requires a dedicated room; most apartments won&apos;t accommodate one. The compact reformer market claims to address this, but this category is rife with generic Amazon search-result links standing in for specific products, and model names that don&apos;t map to a real listing. This guide covers only reformers we could verify as real, currently-sold Amazon listings — from $359 for a cord-based AeroPilates model to $2,750 for a genuine spring-based machine — plus one dealer-quoted option we could not verify on Amazon at all.
             </p>
           </div>
         </section>
@@ -212,10 +211,10 @@ export default function BestMiniPilatesReformerPage() {
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What separates a real mini reformer from a toy</h2>
               <div className="space-y-4">
                 {[
-                  { heading: "Resistance type", body: "Steel springs vs bungee cords vs elastic bands — this is the most important distinction. Springs provide consistent resistance throughout the movement; cords and bands increase resistance toward the end of the movement, creating a different (and less precise) training stimulus." },
-                  { heading: "Rail length", body: "The rail length determines what exercises are possible. A 60-inch rail restricts you to seated and reclined work. A 94-inch rail (Align C2 Pro RC) allows the full repertoire. Check this specification before buying." },
-                  { heading: "Carriage stability", body: "Budget mini reformers have lightweight carriages that wobble laterally under load. This is not just annoying — it's a safety issue during footwork. The carriage must track smoothly and squarely." },
-                  { heading: "Footbar and shoulder rest adjustability", body: "Fixed footbars and non-adjustable shoulder rests limit the machine to one body proportion. Adjustable components accommodate different heights and allow proper alignment for most exercises." },
+                  { heading: "Resistance type", body: "Coil springs vs elastic cords — this is the most reliable distinction to shop on, and a real one. Springs provide progressive resistance as they lengthen; cords, like the elastic cords AeroPilates uses, build resistance differently and feel noticeably different in use. Neither is objectively wrong, but know which one you're buying." },
+                  { heading: "Rail length", body: "Rail length affects what exercises are comfortable, but we could not independently verify specific rail-length figures for the machines in this guide — check the current Amazon listing's dimensions against your own height and reach before buying." },
+                  { heading: "Carriage stability", body: "Lighter, budget-tier reformers can have less lateral rigidity than full studio machines. We could not verify specific stability claims for individual listings — check current owner reviews on the product page rather than a general claim." },
+                  { heading: "Footbar and shoulder rest adjustability", body: "Fixed footbars and non-adjustable shoulder rests limit the machine to one body proportion, while adjustable components accommodate a wider range of heights. Confirm which type a specific listing has before buying." },
                 ].map((item) => (
                   <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
