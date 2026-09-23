@@ -52,9 +52,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a real stretch strap sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "Not one we could confirm. We checked for live listings under OPTP, TheraBand, Tumaz, Manduka, Gaiam, and ProSource's branded names and could not verify any of them as currently-sold Amazon listings. We are disclosing that gap honestly rather than linking a search page or a guessed-at ASIN." } },
+        { "@type": "Question", "name": "Is there a real stretch strap sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "We could not verify a specific product, brand, or price. We checked for live listings under OPTP, TheraBand, Tumaz, Manduka, Gaiam, and ProSource's branded names and could not confirm any of them as currently-sold Amazon listings, so we are not naming one. We do link to Amazon's current stretch-strap search results so you can compare real, live listings yourself." } },
         { "@type": "Question", "name": "What is a stretch strap used for in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "In general, a stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. This is general context on what the category is for, not a claim about a specific product we sell." } },
-        { "@type": "Question", "name": "What should I look for if I buy a stretch strap elsewhere?", "acceptedAnswer": { "@type": "Answer", "text": "A length of 6 to 8 feet suits most practitioners for supine leg work; multiple loops along the strap allow incremental adjustment without re-gripping; and a low-stretch material (cotton rather than elastic) holds a position at the angle chosen. We cannot point you to a specific verified Amazon listing for this category, so treat these as general shopping criteria to apply wherever you buy." } },
+        { "@type": "Question", "name": "What should I look for if I buy a stretch strap elsewhere?", "acceptedAnswer": { "@type": "Answer", "text": "A length of 6 to 8 feet suits most practitioners for supine leg work; multiple loops along the strap allow incremental adjustment without re-gripping; and a low-stretch material (cotton rather than elastic) holds a position at the angle chosen. We could not verify one specific listing to point you to, so treat these as general shopping criteria to apply against whatever you find in Amazon's current stretch-strap search results." } },
       ],
     },
   ],
@@ -80,7 +80,7 @@ export default function BestStretchStrapForPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              This guide previously ranked six stretch straps from OPTP, TheraBand, Tumaz, Manduka, Gaiam, and ProSource, with specific loop counts, lengths, and material claims. On closer checking, we could not confirm a live, currently-sold Amazon listing for a standalone stretch strap under any of those brand names. Rather than keep those listings up with search links standing in for real products, we&apos;ve removed them and are disclosing the gap honestly below.
+              This guide previously ranked six stretch straps from OPTP, TheraBand, Tumaz, Manduka, Gaiam, and ProSource, with specific loop counts, lengths, and material claims. On closer checking, we could not confirm a live, currently-sold Amazon listing for a standalone stretch strap under any of those brand names. We&apos;re not naming a specific brand, model, or price below — but we do link to Amazon&apos;s current stretch-strap listings so you can compare real, live options yourself.
             </p>
           </div>
         </section>
@@ -97,10 +97,13 @@ export default function BestStretchStrapForPilatesPage() {
           <div className="max-w-3xl mx-auto">
 
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The honest situation</h2>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                We do not currently have a verified Amazon listing to recommend in this category. This isn&apos;t a case where we found a close substitute — a stretch strap is a specific, simple product, and we would rather tell you plainly that we could not confirm one than fabricate a listing or point you to a search page dressed up as a product link.
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>No single verified product to name and price</h2>
+              <p className="text-sm leading-relaxed mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                We do not have a specific brand, model, or price we can verify in this category — we would rather tell you that plainly than fabricate a listing. What we can honestly do is point you to Amazon&apos;s current stretch-strap listings so you can compare real, live options and reviews yourself.
               </p>
+              <a href="https://www.amazon.com/s?k=pilates+stretch+strap&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "12px 20px", borderRadius: "6px" }}>
+                Browse stretch straps on Amazon &rarr;
+              </a>
             </div>
 
             <div className="mb-16">
@@ -127,9 +130,9 @@ export default function BestStretchStrapForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a real stretch strap sold on Amazon that you can verify?", a: "Not one we could confirm. We checked for live listings under OPTP, TheraBand, Tumaz, Manduka, Gaiam, and ProSource's branded names and could not verify any of them as currently-sold Amazon listings. We are disclosing that gap honestly rather than linking a search page or a guessed-at ASIN." },
+                  { q: "Is there a real stretch strap sold on Amazon that you can verify?", a: "We could not verify a specific product, brand, or price. We checked for live listings under OPTP, TheraBand, Tumaz, Manduka, Gaiam, and ProSource's branded names and could not confirm any of them as currently-sold Amazon listings, so we are not naming one. We do link to Amazon's current stretch-strap search results so you can compare real, live listings yourself." },
                   { q: "What is a stretch strap used for in Pilates?", a: "In general, a stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. This is general context on what the category is for, not a claim about a specific product we sell." },
-                  { q: "What should I look for if I buy a stretch strap elsewhere?", a: "A length of 6 to 8 feet suits most practitioners for supine leg work; multiple loops along the strap allow incremental adjustment without re-gripping; and a low-stretch material (cotton rather than elastic) holds a position at the angle chosen. We cannot point you to a specific verified Amazon listing for this category, so treat these as general shopping criteria to apply wherever you buy." },
+                  { q: "What should I look for if I buy a stretch strap elsewhere?", a: "A length of 6 to 8 feet suits most practitioners for supine leg work; multiple loops along the strap allow incremental adjustment without re-gripping; and a low-stretch material (cotton rather than elastic) holds a position at the angle chosen. We could not verify one specific listing to point you to, so treat these as general shopping criteria to apply against whatever you find in Amazon's current stretch-strap search results." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

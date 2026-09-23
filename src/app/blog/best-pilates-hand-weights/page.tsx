@@ -52,7 +52,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a real hand weight or toning ball sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "Not one we could confirm at the specific price points and configurations this guide previously described. We are disclosing that gap honestly rather than linking a search page or a guessed-at ASIN." } },
+        { "@type": "Question", "name": "Is there a real hand weight or toning ball sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "We could not verify a specific product, brand, or price at the configurations this guide previously described, so we are not naming one. We do link to Amazon's current hand-weight search results so you can compare real, live listings yourself." } },
         { "@type": "Question", "name": "What weight dumbbells should I use for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "In general, light loads — commonly cited as one to three pounds — cover most of the Pilates arm repertoire, since the arm series is high-repetition endurance work performed with long levers and little momentum. This is general guidance, not a claim about a specific product we sell." } },
         { "@type": "Question", "name": "Do I need hand weights for Pilates at all?", "acceptedAnswer": { "@type": "Answer", "text": "No. The classical mat repertoire works without them, and beginners are often better off learning the movements unweighted before adding load. This is general guidance rather than a product recommendation." } },
       ],
@@ -80,7 +80,7 @@ export default function BestPilatesHandWeightsPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              This guide previously ranked six hand weight products — neoprene dumbbell sets, weighted toning balls, a vinyl-coated rack set, adjustable wrist weights, and sand-filled soft weights — with specific prices, dimensions, and material claims. On closer checking, we could not confirm live, currently-sold Amazon listings matching those descriptions. Rather than keep those listings up with search links standing in for real products, we&apos;ve removed them and are disclosing the gap honestly below.
+              This guide previously ranked six hand weight products — neoprene dumbbell sets, weighted toning balls, a vinyl-coated rack set, adjustable wrist weights, and sand-filled soft weights — with specific prices, dimensions, and material claims. On closer checking, we could not confirm live, currently-sold Amazon listings matching those descriptions. We&apos;re not naming a specific brand, model, or price below — but we do link to Amazon&apos;s current hand-weight listings so you can compare real, live options yourself.
             </p>
           </div>
         </section>
@@ -97,16 +97,19 @@ export default function BestPilatesHandWeightsPage() {
           <div className="max-w-3xl mx-auto">
 
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The honest situation</h2>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                We do not currently have a verified Amazon listing to recommend in this category. Hand weights, toning balls, and wrist weights are a distinct product type from the props we have verified elsewhere on this site, so we are not going to force a mismatched substitute onto this list — we would rather tell you plainly that we could not confirm a real listing than fabricate one or point you to a search page dressed up as a product link.
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>No single verified product to name and price</h2>
+              <p className="text-sm leading-relaxed mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                We do not have a specific brand, model, or price we can verify in this category — we would rather tell you that plainly than fabricate a listing. What we can honestly do is point you to Amazon&apos;s current hand-weight listings so you can compare real, live options and reviews yourself.
               </p>
+              <a href="https://www.amazon.com/s?k=pilates+hand+weights+toning&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "12px 20px", borderRadius: "6px" }}>
+                Browse hand weights on Amazon &rarr;
+              </a>
             </div>
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>General buying criteria — since we have no verified listing to recommend</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                We could not verify a specific hand weight product to check these against, so treat the following as general shopping criteria to apply if you buy elsewhere — not specifications of a product we&apos;re recommending.
+                We could not verify a specific hand weight product to check these against, so treat the following as general shopping criteria to apply against whatever you find in Amazon&apos;s current hand-weight search results.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
@@ -148,7 +151,7 @@ export default function BestPilatesHandWeightsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a real hand weight or toning ball sold on Amazon that you can verify?", a: "Not one we could confirm at the specific price points and configurations this guide previously described. We are disclosing that gap honestly rather than linking a search page or a guessed-at ASIN." },
+                  { q: "Is there a real hand weight or toning ball sold on Amazon that you can verify?", a: "We could not verify a specific product, brand, or price at the configurations this guide previously described, so we are not naming one. We do link to Amazon's current hand-weight search results so you can compare real, live listings yourself." },
                   { q: "What weight dumbbells should I use for Pilates?", a: "In general, light loads — commonly cited as one to three pounds — cover most of the Pilates arm repertoire, since the arm series is high-repetition endurance work performed with long levers and little momentum. This is general guidance, not a claim about a specific product we sell." },
                   { q: "Do I need hand weights for Pilates at all?", a: "No. The classical mat repertoire works without them, and beginners are often better off learning the movements unweighted before adding load. This is general guidance rather than a product recommendation." },
                 ].map((item) => (
