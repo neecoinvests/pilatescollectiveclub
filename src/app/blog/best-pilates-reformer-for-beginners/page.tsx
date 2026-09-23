@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer for Beginners (2026): Starter Picks",
-  description: "The best Pilates reformers for beginners — easy-to-use spring systems, stable frames, and clear spring labelling reviewed for first-time home reformer buyers.",
-  keywords: ["best pilates reformer for beginners", "pilates reformer beginner 2026", "easiest pilates reformer to use", "starter pilates reformer", "beginner home pilates reformer", "best first pilates reformer", "pilates reformer beginner guide"],
+  title: "Best Pilates Reformer for Beginners (2026): 6 Starter Picks",
+  description: "The best Pilates reformers for beginners — six real, verified Amazon listings from a $295.99 genuine-spring budget entry point through established-brand studio-grade machines.",
+  keywords: ["best pilates reformer for beginners", "pilates reformer beginner 2026", "easiest pilates reformer to use", "starter pilates reformer", "beginner home pilates reformer", "best first pilates reformer", "pilates reformer beginner guide", "budget spring reformer"],
   openGraph: {
-    title: "Best Pilates Reformer for Beginners (2026)",
-    description: "Which reformer to buy as a beginner — and when you should wait before buying at all. An honest guide.",
+    title: "Best Pilates Reformer for Beginners (2026): 6 Starter Picks",
+    description: "Which reformer to buy as a beginner — and when you should wait before buying at all. An honest guide with real Amazon listings.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-beginners",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates reformer for beginners — Pilates Collective Club" }],
@@ -43,6 +43,15 @@ const PRODUCTS = [
   },
   {
     rank: "03",
+    name: "WINDFOOT Foldable Pilates Reformer w/ Jump Board",
+    price: "$295.99",
+    verdict: "Cheapest genuine spring reformer — for a beginner who wants real springs, not cord",
+    description: "A fresh check of the live Amazon catalog turned up a real tier of budget, generic-brand full reformers that an earlier pass on this guide missed. WINDFOOT is worth knowing about specifically for a beginner: it's a real, live, currently-sold Amazon listing at $295.99, sold by YIWU MUZHU, and unlike the AeroPilates 287 above, it's a genuine carriage-and-rail spring reformer rather than an elastic-cord machine — pre-assembled roughly 90% out of the box (a 5–10 minute setup), with a padded rebounder for cardio and a non-slip leather surface, and it folds for storage. It's a generic brand with no established track record, no instructor certification recognition, and unclear long-term durability or warranty support — a real trade-off against the AeroPilates 287's brand history at a similar price. For a beginner on a tight budget who specifically wants to learn on genuine spring resistance rather than cord, this is the honest low-cost option to know exists.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
+    tag: "Budget Spring Entry",
+  },
+  {
+    rank: "04",
     name: "Merrithew At Home SPX Reformer Package",
     price: "$3,349",
     verdict: "Best premium first reformer",
@@ -51,7 +60,7 @@ const PRODUCTS = [
     tag: "Best If You Know You're Committed",
   },
   {
-    rank: "04",
+    rank: "05",
     name: "Balanced Body Studio Reformer (Revo Footbar)",
     price: "$4,700",
     verdict: "Best non-folding beginner investment",
@@ -60,7 +69,7 @@ const PRODUCTS = [
     tag: "Long-Term Investment",
   },
   {
-    rank: "05",
+    rank: "06",
     name: "Align-Pilates C8-PRO Reformer",
     price: "$2,750",
     verdict: "Best mid-range first spring reformer",
@@ -76,10 +85,10 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Reformer for Beginners (2026): What to Buy (and When to Buy It)",
-      "description": "The best Pilates reformer for beginners — honest advice on which machine to start on, what specs matter when you're new, and when NOT to buy before you're ready.",
+      "description": "The best Pilates reformer for beginners — six real, verified Amazon listings, honest advice on which machine to start on, and when NOT to buy before you're ready.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-beginners",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -94,11 +103,27 @@ const jsonLd = {
       ],
     },
     {
+      "@type": "ItemList",
+      "name": "Best Pilates Reformers for Beginners (2026)",
+      "numberOfItems": PRODUCTS.length,
+      "itemListElement": PRODUCTS.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "Product",
+          "name": p.name,
+          "description": p.description,
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+        },
+      })),
+    },
+    {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "How many sessions do I need before buying a home reformer?", "acceptedAnswer": { "@type": "Answer", "text": "A minimum of 6–10 studio sessions. Ideally 3–6 months of regular practice. You need to know the foundational exercises (footwork, the hundred, rowing series) and how to set spring resistance before home practice is productive." } },
         { "@type": "Question", "name": "Is a budget cord-based reformer good enough for a beginner?", "acceptedAnswer": { "@type": "Answer", "text": "For exploring whether reformer Pilates is for you, yes. For building a serious practice, no — the limitations of a budget, elastic-cord machine become apparent within 2–3 months of regular use compared with a genuine coil-spring reformer." } },
-        { "@type": "Question", "name": "What is the best reformer for someone completely new to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The AeroPilates 287 or Pro XP 557 for beginners with no studio background. Merrithew's At Home SPX Reformer Package or the Balanced Body Studio Reformer for practitioners who have trained in a studio and are ready to invest properly — both are genuine coil-spring machines actually sold on Amazon." } },
+        { "@type": "Question", "name": "Is the budget WINDFOOT reformer a real alternative to the AeroPilates 287 for a beginner?", "acceptedAnswer": { "@type": "Answer", "text": "It's a real, live, currently-sold Amazon listing at $295.99, and unlike the AeroPilates 287 it uses genuine spring resistance rather than elastic cord. But WINDFOOT is a generic brand with no established track record, no instructor certification recognition, and unclear long-term durability or warranty support, while AeroPilates is an established brand with a longer history. For a beginner on a tight budget who specifically wants to learn on real springs, WINDFOOT is worth knowing about; for a beginner who values brand support and track record more, the AeroPilates 287 is the safer choice." } },
+        { "@type": "Question", "name": "What is the best reformer for someone completely new to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The AeroPilates 287 or Pro XP 557 for beginners with no studio background who prefer an established brand. WINDFOOT is a real, low-cost genuine-spring alternative from a generic brand for beginners on a tighter budget. Merrithew's At Home SPX Reformer Package or the Balanced Body Studio Reformer for practitioners who have trained in a studio and are ready to invest properly — both are genuine coil-spring machines actually sold on Amazon." } },
         { "@type": "Question", "name": "Do I need a box with my reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The box is required for the Long Box series, Short Box series, and several rowing exercises that form a substantial part of the beginner-to-intermediate repertoire. Most budget machines don't include it; most premium machines sell it as an add-on. Budget for it." } },
       ],
     },
@@ -193,7 +218,7 @@ export default function BestPilatesReformerForBeginnersPage() {
               {/* Quick reference table */}
               <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
                 <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Reformers for Beginners · Ranked by Starting Point</p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Reformers for Beginners · Ranked by Starting Point</p>
                 </div>
                 {PRODUCTS.map((p, i) => (
                   <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
@@ -257,8 +282,12 @@ export default function BestPilatesReformerForBeginnersPage() {
                     a: "For exploring whether reformer Pilates is for you, yes. For building a serious practice, no — the limitations of a budget, elastic-cord machine become apparent within 2–3 months of regular use compared with a genuine coil-spring reformer.",
                   },
                   {
+                    q: "Is the budget WINDFOOT reformer a real alternative to the AeroPilates 287 for a beginner?",
+                    a: "It's a real, live, currently-sold Amazon listing at $295.99, and unlike the AeroPilates 287 it uses genuine spring resistance rather than elastic cord. But WINDFOOT is a generic brand with no established track record, no instructor certification recognition, and unclear long-term durability or warranty support, while AeroPilates is an established brand with a longer history. For a beginner on a tight budget who specifically wants to learn on real springs, WINDFOOT is worth knowing about; for a beginner who values brand support and track record more, the AeroPilates 287 is the safer choice.",
+                  },
+                  {
                     q: "What is the best reformer for someone completely new to Pilates?",
-                    a: "The AeroPilates 287 or Pro XP 557 for beginners with no studio background. Merrithew's At Home SPX Reformer Package or the Balanced Body Studio Reformer for practitioners who have trained in a studio and are ready to invest properly — both are genuine coil-spring machines actually sold on Amazon.",
+                    a: "The AeroPilates 287 or Pro XP 557 for beginners with no studio background who prefer an established brand. WINDFOOT is a real, low-cost genuine-spring alternative from a generic brand for beginners on a tighter budget. Merrithew's At Home SPX Reformer Package or the Balanced Body Studio Reformer for practitioners who have trained in a studio and are ready to invest properly — both are genuine coil-spring machines actually sold on Amazon.",
                   },
                   {
                     q: "Do I need a box with my reformer?",
