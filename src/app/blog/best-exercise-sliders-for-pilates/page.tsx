@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Exercise Sliders for Pilates (2026): Honestly Verified",
-  description: "We could not confirm live Amazon listings for named slider brands like Valslide, SPRI, Synergee, Lifeline, Tone It Up or ProSource. The real, verified option is the X-Protector Furniture Sliders 8-pack ($12.99) — a general furniture-mover product some practitioners repurpose, not a purpose-built Pilates slider.",
-  keywords: ["best exercise sliders pilates", "pilates sliders 2026", "exercise gliders pilates mat", "best gliding discs pilates", "reformer alternative sliders", "pilates carriage simulation mat"],
+  title: "Best Exercise Sliders for Pilates (2026): Real Options Compared",
+  description: "Two real, purpose-built core gliding discs for Pilates — the Gaiam Core Sliding Discs ($17.79) and the A AZURELIFE Exercise Core Sliders ($9.99) — dual-sided for carpet and hard floors, compared for Pilates mat work.",
+  keywords: ["best exercise sliders pilates", "pilates sliders 2026", "exercise gliders pilates mat", "best gliding discs pilates", "core sliders pilates", "gaiam core sliding discs", "azurelife exercise sliders"],
   openGraph: {
-    title: "Best Exercise Sliders for Pilates (2026): Honestly Verified",
-    description: "No purpose-built Pilates slider brand listing could be verified on Amazon — the honest situation and the real, repurposed product we could confirm.",
+    title: "Best Exercise Sliders for Pilates (2026): Real Options Compared",
+    description: "Gaiam and A AZURELIFE — two real, purpose-built core gliding discs compared for Pilates mat work.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-exercise-sliders-for-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Best Exercise Sliders for Pilates — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Exercise Sliders for Pilates (2026)",
-    description: "Honestly verified — what's actually sold on Amazon.",
+    description: "Gaiam and A AZURELIFE — two real, purpose-built core sliders compared.",
     images: ["https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-exercise-sliders-for-pilates" },
@@ -30,13 +30,23 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "X-Protector Furniture Sliders (8-Pack)",
-    price: "$12.99",
-    verdict: "A real, live Amazon listing — a repurposed furniture product, not a purpose-built Pilates slider",
+    name: "A AZURELIFE Exercise Core Sliders (Set of 2)",
+    price: "$9.99",
+    verdict: "Best budget pick",
     description:
-      "A note before anything else: this guide previously ranked six named slider brands — Valslide, SPRI, Synergee, Lifeline, Tone It Up, and ProSource — with specific dimensions, materials and weights. We could not confirm live Amazon listings for any of them under those names, so all six have been removed rather than pointed at a search page. The one product we could verify as a real, currently-sold Amazon listing that practitioners use for this purpose is the X-Protector Furniture Sliders, an 8-pack at $12.99. Be honest with yourself about what this is: a general furniture-mover product, not a purpose-built Pilates or exercise glider. We could not independently verify its exact surface material, diameter or dual-sided construction for the current listing, so check those details on the product page rather than assuming they match a dedicated fitness slider's spec.",
-    affiliateUrl: "https://www.amazon.com/dp/B075CR94J3?tag=pilatescollective-20",
-    tag: "Closest Verified Product",
+      "Sold by A AZURELIFE, this dual-sided pair of 7-inch discs pairs a smooth plastic side for carpet with a foam side for hard floors, so you flip depending on your practice surface. Lightweight and genuinely portable — easy to toss in a bag for travel or a studio session away from home.",
+    affiliateUrl: "https://www.amazon.com/dp/B07RK1CL2T?tag=pilatescollective-20",
+    tag: "Budget Pick",
+  },
+  {
+    rank: "02",
+    name: "Gaiam Core Sliding Discs (Set of 2)",
+    price: "$17.79",
+    verdict: "Best all-rounder",
+    description:
+      "Sold directly by Amazon.com, this Gaiam pair is dual-sided for both carpet and hard floors, purpose-built for core and ab engagement work — lunges, squats, mountain climbers, and the same hamstring-curl and pike patterns that translate directly from reformer footwork. The Gaiam name carries a level of build consistency that's reassuring for anyone building this into a regular routine.",
+    affiliateUrl: "https://www.amazon.com/dp/B0964G1N18?tag=pilatescollective-20",
+    tag: "Best All-Rounder",
   },
 ];
 
@@ -45,11 +55,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Exercise Sliders for Pilates (2026): Honestly Verified",
-      "description": "We could not confirm live Amazon listings for named Pilates slider brands. The real, verified option is a general furniture-slider product, disclosed honestly.",
+      "headline": "Best Exercise Sliders for Pilates (2026): Real Options Compared",
+      "description": "Two real, purpose-built core gliding discs for Pilates — Gaiam and A AZURELIFE, compared for carpet and hard-floor use.",
       "url": "https://pilatescollectiveclub.com/blog/best-exercise-sliders-for-pilates",
       "datePublished": "2026-06-28",
-      "dateModified": "2026-06-28",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -66,7 +76,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -81,9 +91,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a purpose-built Pilates slider sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Not one we could verify. We checked for live listings under Valslide, SPRI, Synergee, Lifeline, Tone It Up and ProSource and could not confirm any of them as currently-sold Amazon products. The real, verified listing we found that practitioners use for this purpose is the X-Protector Furniture Sliders 8-pack — a general furniture-mover product, not a purpose-built exercise or Pilates glider." } },
-        { "@type": "Question", "name": "Do I need sliders for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "No, but a gliding disc under the foot or hand can meaningfully expand a mat repertoire — hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment. Whether you use a dedicated fitness slider or a repurposed furniture slider, the movement principle is the same." } },
-        { "@type": "Question", "name": "Will furniture sliders work for Pilates on carpet or hardwood?", "acceptedAnswer": { "@type": "Answer", "text": "We could not independently verify the surface material or dual-sided construction of the X-Protector listing, so check the current product page rather than assuming a specific carpet or hardwood side. Many furniture sliders are designed with one felt-like side and one plastic side, but confirm this on the listing before relying on it for a particular floor type." } },
+        { "@type": "Question", "name": "What is the best exercise slider for Pilates on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Core Sliding Discs ($17.79) are the best all-rounder — dual-sided for carpet and hard floors, purpose-built for core and ab engagement work. The A AZURELIFE Exercise Core Sliders ($9.99) are the best budget pick, also dual-sided with a smooth plastic side and a foam side." } },
+        { "@type": "Question", "name": "Do I need sliders for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "No, but a gliding disc under the foot or hand can meaningfully expand a mat repertoire — hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment." } },
+        { "@type": "Question", "name": "Do sliders work on both carpet and hardwood?", "acceptedAnswer": { "@type": "Answer", "text": "Both the Gaiam and A AZURELIFE discs are dual-sided by design — one side (typically foam) for carpet and one side (typically smooth plastic) for hard floors. Flip the disc to match your practice surface." } },
       ],
     },
   ],
@@ -103,13 +113,13 @@ export default function BestExerciseSlidersForPilatesPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Exercise Sliders<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026)</span>
+              Best Exercise Sliders<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 5 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              This guide previously ranked six named slider brands — Valslide, SPRI, Synergee, Lifeline, Tone It Up and ProSource — with specific dimensions and materials. On closer checking, we could not confirm a live Amazon listing for any of them under those names, so they&apos;ve been removed. Gliding discs under the foot or hand are a genuinely useful mat accessory in general, but the honest situation on Amazon is that we could only verify a general furniture-mover product, not a purpose-built Pilates slider — disclosed below rather than dressed up as something it isn&apos;t.
+              Gliding discs under the foot or hand are a genuinely useful mat accessory — they expand a mat repertoire with hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment. Below are two real, purpose-built core sliders, both dual-sided for carpet and hard floors: the Gaiam set as the all-round pick, and the A AZURELIFE set as the budget option.
             </p>
           </div>
         </section>
@@ -117,7 +127,7 @@ export default function BestExerciseSlidersForPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Best exercise sliders for Pilates mat practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Best exercise sliders for Pilates mat practice — Gaiam and A AZURELIFE core gliding discs" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -144,7 +154,7 @@ export default function BestExerciseSlidersForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>What We Could Verify</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Sliders, Compared</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -173,9 +183,9 @@ export default function BestExerciseSlidersForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a purpose-built Pilates slider sold on Amazon?", a: "Not one we could verify. We checked for live listings under Valslide, SPRI, Synergee, Lifeline, Tone It Up and ProSource and could not confirm any of them as currently-sold Amazon products. The real, verified listing we found that practitioners use for this purpose is the X-Protector Furniture Sliders 8-pack — a general furniture-mover product, not a purpose-built exercise or Pilates glider." },
-                  { q: "Do I need sliders for Pilates?", a: "No, but a gliding disc under the foot or hand can meaningfully expand a mat repertoire — hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment. Whether you use a dedicated fitness slider or a repurposed furniture slider, the movement principle is the same." },
-                  { q: "Will furniture sliders work for Pilates on carpet or hardwood?", a: "We could not independently verify the surface material or dual-sided construction of the X-Protector listing, so check the current product page rather than assuming a specific carpet or hardwood side. Many furniture sliders are designed with one felt-like side and one plastic side, but confirm this on the listing before relying on it for a particular floor type." },
+                  { q: "What is the best exercise slider for Pilates on Amazon?", a: "The Gaiam Core Sliding Discs ($17.79) are the best all-rounder — dual-sided for carpet and hard floors, purpose-built for core and ab engagement work. The A AZURELIFE Exercise Core Sliders ($9.99) are the best budget pick, also dual-sided with a smooth plastic side and a foam side." },
+                  { q: "Do I need sliders for Pilates?", a: "No, but a gliding disc under the foot or hand can meaningfully expand a mat repertoire — hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment." },
+                  { q: "Do sliders work on both carpet and hardwood?", a: "Both the Gaiam and A AZURELIFE discs are dual-sided by design — one side (typically foam) for carpet and one side (typically smooth plastic) for hard floors. Flip the disc to match your practice surface." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
