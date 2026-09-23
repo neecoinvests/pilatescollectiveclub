@@ -30,53 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Align-Pilates C2 Pro RC Reformer",
-    price: "From $2,190",
+    name: "Balanced Body Metro IQ Reformer",
+    price: "$2,330",
     verdict: "Best overall compact reformer",
     description:
-      "The C2 Pro RC is one of the most intelligently designed folding reformers available for home use, and it's reliably in stock on Amazon under its own name — a real advantage over the Align H1, which is similarly compact but does not turn up consistently in Amazon.com searches. It folds upright for storage against a wall, a genuinely viable solution for apartment living where horizontal storage space is the primary constraint. In its operational position, it performs like a mid-range clinical reformer: genuine coil springs with Align's Rapid Change spring bar cover the full spring range used in intermediate programming, the carriage glides smoothly, and the 94-inch rail supports the full repertoire. Rated to 265lb for users 4'10\" to 6'4\".",
-    affiliateUrl: "https://www.amazon.com/dp/B0CCSM6K8C?tag=pilatescollective-20",
+      "The Metro IQ is the smaller, lighter machine among Balanced Body's coil-spring reformers actually sold on Amazon — a genuine step down in footprint from the brand's Studio Reformer at $4,700, without giving up a real spring system. We could not verify a folding mechanism, exact operational dimensions, or a weight rating for this listing, so if flat-fold or wall storage is a hard requirement, confirm that on the current Amazon page rather than assuming it applies here.",
+    affiliateUrl: "https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Merrithew At Home SPX Reformer",
-    price: "From $3,299",
+    name: "Merrithew At Home SPX Reformer Package",
+    price: "$3,349",
     verdict: "Best compact studio-grade reformer",
     description:
-      "The Merrithew At Home SPX is the most compact reformer in Merrithew's clinical line — shorter and narrower than the SPX Max, while maintaining the same spring system, carriage dimensions, and build quality that defines the STOTT Pilates methodology. The operational footprint is approximately 88 × 24 inches, which fits along the wall in most bedrooms or living rooms. The SPX does not fold, but its relatively narrow carriage and modest height make it suitable for permanent placement against a wall as furniture. The five-spring configuration supports the full progressive spring loading used in structured Pilates programming, and the footbar adjusts across five positions.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
+      "The At Home SPX Reformer Package is the real SPX-family machine Merrithew sells on Amazon — a genuine coil-spring system with Merrithew's build quality. Merrithew markets it as sized to fit along a wall in most bedrooms rather than requiring a dedicated studio room, though we could not independently verify exact footprint dimensions. It does not fold — an earlier version of this guide claimed otherwise, and that claim did not hold up, so treat any folding claim for this machine as unverified.",
+    affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
     tag: "Best Studio Quality",
   },
   {
     rank: "03",
-    name: "AeroPilates Pro XP 557",
-    price: "From $1,329",
+    name: "AeroPilates Pro XP 557 Reformer",
+    price: "$1,329.99",
     verdict: "Best budget compact reformer",
     description:
-      "The AeroPilates Pro XP 557 is the most accessible compact reformer by price and the most widely used entry-level option for small-space home practice. The bungee cord resistance system is softer and more forgiving than spring-based reformers — better suited for beginners and rehabilitation contexts than advanced progressive programming — and the machine's lighter weight makes it easy to move between rooms or store under a bed when not in use. The operational footprint is shorter than most spring-based reformers, making it viable for spaces where even the Merrithew SPX would feel oversized. An excellent starting point for practitioners who want to establish a home practice before investing in a full-scale machine.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20",
+      "The AeroPilates Pro XP 557 is a widely used entry-level option for small-space home practice. It uses elastic cord resistance rather than coil springs — softer and more forgiving than a spring-based reformer, and generally better suited to beginners and gentle rehabilitation work than advanced progressive programming. We could not verify a specific folded footprint or weight for this listing; check the current Amazon page for those details rather than assuming they match another AeroPilates model.",
+    affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20",
     tag: "Best Value",
   },
   {
     rank: "04",
-    name: "Peak Pilates Fit Reformer",
-    price: "From $2,200",
-    verdict: "Best mid-range compact option",
+    name: "AeroPilates 701 Premier Reformer",
+    price: "$539.99",
+    verdict: "Best budget mid-tier compact option",
     description:
-      "The Peak Pilates Fit Reformer occupies a useful position in the compact reformer market: more substantial than the AeroPilates series but more space-efficient than a full studio reformer. The five-spring system and aluminium rail construction deliver clinical-grade performance in a machine that is 8 inches shorter than the standard Peak model. The carriage dimensions accommodate practitioners up to 6'2\", and the footbar's three-position adjustment system covers the range required for the full classical and contemporary repertoire. The folding mechanism reduces the operational footprint by approximately 40% for storage. A strong choice for the practitioner who has outgrown their entry-level machine and needs a compact upgrade.",
-    affiliateUrl: "https://www.amazon.com/s?k=peak+pilates+fit+reformer&tag=pilatescollective-20",
+      "The AeroPilates 701 Premier sits below the Pro XP 557 in price while using the same elastic cord resistance approach rather than coil springs. We could not verify specific claims about carriage length, folding mechanism, or footbar adjustability for this exact listing beyond what the current Amazon page shows. It's a reasonable option for a practitioner prioritising a lower price and a genuinely space-conscious machine over spring feel.",
+    affiliateUrl: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20",
     tag: "Best Mid-Range",
   },
   {
     rank: "05",
-    name: "Stamina AeroPilates Premier 700",
-    price: "From $549",
-    verdict: "Most compact entry-level option",
+    name: "AeroPilates 287 Reformer",
+    price: "$359",
+    verdict: "Most affordable entry-level option",
     description:
-      "The Stamina AeroPilates Premier 700 is the smallest-footprint reformer available for home purchase. The bungee resistance system and lightweight aluminium frame allow the machine to be moved and stored by a single person with minimal effort — it can be tucked upright in a cupboard or slid under a platform bed. The resistance range is suitable for beginners and maintenance practice, though it will feel limiting as proficiency develops. For practitioners who live in studio apartments where even the AeroPilates Pro XP 557 would occupy too much floor space, the Premier 700 is the most practical entry point to home reformer practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+premier+700&tag=pilatescollective-20",
-    tag: "Smallest Footprint",
+      "The AeroPilates 287 is the lowest-priced reformer in this guide and a reasonable starting point for a practitioner in a genuinely small space who wants to try reformer Pilates before a larger investment. It uses elastic cord resistance, and the resistance range is suitable for beginners and maintenance practice, though it will feel limiting as proficiency develops. We could not verify specific carriage length or fold behaviour for this listing — check the current Amazon page for those details.",
+    affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
+    tag: "Smallest Budget",
   },
 ];
 
@@ -121,9 +121,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "How much space do I need for a Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "A standard reformer requires approximately 90 × 26 inches of floor space in its operational position, plus 2–3 feet at each end for entry and movement. Compact and foldable models reduce this to as little as 72 × 22 inches. You also need approximately 6 feet of clearance above for exercises performed in standing on the reformer." } },
-        { "@type": "Question", "name": "Can I store a Pilates reformer when not in use?", "acceptedAnswer": { "@type": "Answer", "text": "Foldable reformers like the Align C2 Pro RC and Peak Fit can be folded and stored vertically against a wall or in a cupboard. Standard clinical reformers cannot be meaningfully compacted but can be positioned against a wall when not in use. AeroPilates-style bungee reformers are light enough to be carried and stored under a bed or in a cupboard upright." } },
-        { "@type": "Question", "name": "Is a compact reformer as good as a full-size studio reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Compact reformers with spring-based resistance systems (Align C2 Pro RC, Merrithew SPX, Peak Fit) perform comparably to full studio reformers for all intermediate programming. The main difference is carriage travel distance — compact reformers may be 6–10 inches shorter, which affects a small number of exercises but does not limit most of the repertoire. Bungee-based compact reformers have different resistance characteristics and are more suited for beginners." } },
+        { "@type": "Question", "name": "How much space do I need for a Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "As a rough guide, most reformers need roughly 7–8 feet of length and 2 feet of width in their operational position, plus room at each end for entry and movement. Exact footprint varies by model, and we could not verify specific folded or compact dimensions for the machines in this guide — check the current Amazon listing for your exact model." } },
+        { "@type": "Question", "name": "Can I store a Pilates reformer when not in use?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the specific model, and we could not verify folding mechanisms for the coil-spring machines in this guide (Balanced Body Metro IQ, Merrithew At Home SPX) — treat any folding claim as unconfirmed unless the current listing states it. AeroPilates-style elastic-cord reformers are generally lighter, which can make them easier to move between rooms, but check the listing for confirmed storage behaviour rather than assuming it folds flat." } },
+        { "@type": "Question", "name": "Is a compact reformer as good as a full-size studio reformer?", "acceptedAnswer": { "@type": "Answer", "text": "A genuine coil-spring machine like the Balanced Body Metro IQ or Merrithew At Home SPX Reformer Package uses the same resistance technology as larger studio reformers, just in a smaller footprint — the main real difference is likely to be carriage travel distance, though we don't have verified figures to quote. Elastic-cord machines like the AeroPilates line have a genuinely different resistance feel and are generally better suited to beginners than advanced progressive programming." } },
       ],
     },
   ],
@@ -203,9 +203,9 @@ export default function BestPilatesReformerSmallSpacesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "How much space do I need for a Pilates reformer?", a: "A standard reformer requires approximately 90 × 26 inches of floor space in its operational position, plus 2–3 feet at each end for entry and movement. Compact and foldable models reduce this to as little as 72 × 22 inches. You also need approximately 6 feet of clearance above for exercises performed standing on the reformer." },
-                  { q: "Can I store a Pilates reformer when not in use?", a: "Foldable reformers like the Align C2 Pro RC and Peak Fit can be folded and stored vertically against a wall or in a cupboard. Standard clinical reformers cannot be meaningfully compacted but can be positioned against a wall when not in use. AeroPilates-style bungee reformers are light enough to be carried and stored under a bed or in a cupboard upright." },
-                  { q: "Is a compact reformer as good as a full-size studio reformer?", a: "Compact reformers with spring-based resistance systems (Align C2 Pro RC, Merrithew SPX, Peak Fit) perform comparably to full studio reformers for all intermediate programming. The main difference is carriage travel distance — compact reformers may be 6–10 inches shorter, which affects a small number of exercises but does not limit most of the repertoire." },
+                  { q: "How much space do I need for a Pilates reformer?", a: "As a rough guide, most reformers need roughly 7–8 feet of length and 2 feet of width in their operational position, plus room at each end for entry and movement. Exact footprint varies by model, and we could not verify specific folded or compact dimensions for the machines in this guide — check the current Amazon listing for your exact model." },
+                  { q: "Can I store a Pilates reformer when not in use?", a: "It depends on the specific model, and we could not verify folding mechanisms for the coil-spring machines in this guide (Balanced Body Metro IQ, Merrithew At Home SPX) — treat any folding claim as unconfirmed unless the current listing states it. AeroPilates-style elastic-cord reformers are generally lighter, which can make them easier to move between rooms, but check the listing for confirmed storage behaviour rather than assuming it folds flat." },
+                  { q: "Is a compact reformer as good as a full-size studio reformer?", a: "A genuine coil-spring machine like the Balanced Body Metro IQ or Merrithew At Home SPX Reformer Package uses the same resistance technology as larger studio reformers, just in a smaller footprint — the main real difference is likely to be carriage travel distance, though we don't have verified figures to quote. Elastic-cord machines like the AeroPilates line have a genuinely different resistance feel and are generally better suited to beginners than advanced progressive programming." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
