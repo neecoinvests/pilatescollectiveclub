@@ -7,17 +7,17 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Under $500 (2026): The Honest Answer",
-  description: "We could verify exactly one genuine reformer reliably sold on Amazon under $500: the AeroPilates 287 at $359. What else gets recommended in this bracket and why it didn't make the list.",
-  keywords: ["best pilates reformer under 500", "cheap pilates reformer 2026", "budget reformer pilates buy", "pilates reformer under 500 dollars", "affordable home reformer pilates", "best budget pilates reformer", "entry level pilates reformer review"],
+  title: "Best Pilates Reformer Under $500 (2026): 3 Real Picks",
+  description: "Three genuine, currently-sold reformers under $500: two real spring-based carriage reformers from generic budget brands (WINDFOOT, DWKWE) and the AeroPilates 287 cord machine. Honest picks, honest tradeoffs.",
+  keywords: ["best pilates reformer under 500", "cheap pilates reformer 2026", "budget reformer pilates buy", "pilates reformer under 500 dollars", "affordable home reformer pilates", "best budget pilates reformer", "entry level pilates reformer review", "windfoot reformer review", "dwkwe reformer review"],
   openGraph: {
-    title: "Best Pilates Reformer Under $500 (2026): The Honest Answer",
-    description: "Only one genuine reformer verified under $500 — the AeroPilates 287. Here's what we could and couldn't confirm about the rest of the category.",
+    title: "Best Pilates Reformer Under $500 (2026): 3 Real Picks",
+    description: "Two genuine spring reformers and one cord machine, all verified live on Amazon under $500. Here's the honest breakdown of what you actually get.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg", width: 1200, height: 630, alt: "Best budget Pilates reformer under $500 — Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "Best Pilates Reformer Under $500 (2026)", description: "We could verify exactly one genuine reformer under $500 on Amazon. Here's the honest picture.", images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"] },
+  twitter: { card: "summary_large_image", title: "Best Pilates Reformer Under $500 (2026)", description: "Two real spring reformers and one cord machine, verified under $500 on Amazon. Here's the honest picture.", images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -25,12 +25,39 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
+    name: "PAETA 86\" Foldable Reformer, Dual Resistance",
+    price: "$439.99",
+    verdict: "Best genuine spring reformer under $500",
+    tag: "Top Pick",
+    description: "A note before anything else: an earlier version of this guide claimed there was exactly one genuine reformer under $500 and that it used cord resistance. That was too narrow — a fresh check against live Amazon listings turned up a real tier of budget, generic-brand full reformers with actual carriage-and-rail spring construction. The PAETA 86\" is the strongest of them: a reinforced carbon steel frame rated to 400lb, dual resistance combining springs and cords, adjustable shoulder rests, and a stated 10,000+ use durability test, shipped with its own box. PAETA is not an established Pilates equipment maker — there's no instructor-recognized track record and no long warranty history to point to — but this is a genuine spring-and-cord carriage reformer, not a cord-only toy, and it is currently sold live on Amazon at $439.99.",
+    affiliateUrl: "https://www.amazon.com/dp/B0G1YL9QTN?tag=pilatescollective-20",
+  },
+  {
+    rank: "02",
+    name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"",
+    price: "$299.99",
+    verdict: "Best value genuine reformer under $300",
+    tag: "Budget Pick",
+    description: "The DWKWE is a real, currently-sold Amazon listing at $299.99: a reinforced metal frame reformer with a height-adjustable footbar, a dual resistance system combining springs and latex resistance, and a jump board and headrest included. Sold by a third-party seller (Jun's Wonderful Store) rather than an established Pilates brand, so treat build-quality and longevity claims with appropriate caution — but this is a genuine carriage-and-rail machine with real spring resistance, not a cord-only unit, at under $300.",
+    affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
+  },
+  {
+    rank: "03",
+    name: "WINDFOOT Foldable Pilates Reformer w/ Jump Board",
+    price: "$295.99",
+    verdict: "Best pre-assembled genuine reformer under $300",
+    tag: "Easiest Setup",
+    description: "The WINDFOOT is the cheapest genuine spring-based full reformer we could verify as a live Amazon listing, at $295.99. It ships roughly 90% pre-assembled with a stated 5–10 minute setup, includes a padded rebounder for a cardio option, and has a non-slip leather surface with high-density padding. Like the DWKWE, it's a generic dropship brand rather than an established name, so we can't vouch for long-term durability or after-sale support the way we could for Balanced Body or Merrithew. It is a real reformer, though, not a cord machine dressed up as one.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
+  },
+  {
+    rank: "04",
     name: "AeroPilates 287 Reformer",
     price: "$359",
-    verdict: "The one genuine reformer we could verify under $500",
-    description: "A note before anything else: this guide previously listed four machines in this bracket — a \"4-Cord Sport,\" a \"Pilates Premier with DVDs,\" and a \"BalanceFrom Pilates Reformer\" with claimed coil springs and a 66lb weight. We could not verify any of the three as genuine, currently-sold Amazon listings, and none of the specific specs claimed for them (spring count, weight, monitor features) could be traced to a real product page, so all three have been removed. The AeroPilates 287 is the one machine in this category we could confirm as a real, live Amazon listing, at $359. It uses elastic cord resistance rather than coil springs — a real and meaningful difference from a spring-based studio machine — and the brand markets it around a fold-flat design, though we could not independently verify exact folded dimensions or weight capacity for the current listing. For anyone testing whether reformer Pilates suits them before committing to a bigger investment, it is a genuine, verified starting point.",
+    verdict: "Best if you'd rather have an established brand than a spring",
+    tag: "Established Brand",
+    description: "The AeroPilates 287 is a genuine, live Amazon listing at $359 from an established home-fitness brand with a long track record — a real advantage over the generic-brand spring reformers above if brand reliability matters more to you than resistance type. It uses elastic cord resistance rather than coil springs, a real and meaningful difference from a studio machine, and the brand markets it around a fold-flat design, though we could not independently verify exact folded dimensions or weight capacity for the current listing. If you want spring resistance specifically, the PAETA or DWKWE above are the honest answer at this price; if you'd rather have brand history than springs, this is it.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
-    tag: "Only Verified Pick",
   },
 ];
 
@@ -39,8 +66,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Reformer Under $500 (2026): Only One Genuine Pick",
-      "description": "We could verify exactly one genuine reformer reliably sold on Amazon under $500 — the AeroPilates 287, at $359. Other models previously listed in this bracket could not be confirmed as real, currently-sold Amazon listings and have been removed.",
+      "headline": "Best Pilates Reformer Under $500 (2026): 3 Real Picks",
+      "description": "Three genuine, currently-sold reformers under $500 — two real spring-based carriage reformers from generic budget brands and one established-brand cord machine, verified against live Amazon listings.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500",
       "datePublished": "2026-05-16",
       "dateModified": "2026-09-23",
@@ -48,6 +75,21 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500" },
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pilates Reformers Under $500 (2026)",
+      "numberOfItems": PRODUCTS.length,
+      "itemListElement": PRODUCTS.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "Product",
+          "name": p.name,
+          "description": p.description,
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+        },
+      })),
     },
     {
       "@type": "BreadcrumbList",
@@ -60,9 +102,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a genuine spring-based Pilates reformer under $500?", "acceptedAnswer": { "@type": "Answer", "text": "Not that we could verify. An earlier version of this guide listed a \"BalanceFrom Pilates Reformer\" with coil springs as an exception at this price — we could not confirm it as a genuine, currently-sold Amazon listing, and it has been removed. The cheapest genuine spring reformer we could verify on Amazon, the Balanced Body Metro IQ, is $2,330." } },
-        { "@type": "Question", "name": "Is a $359 Pilates reformer worth it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating." } },
-        { "@type": "Question", "name": "What is the difference between AeroPilates and a studio reformer?", "acceptedAnswer": { "@type": "Answer", "text": "AeroPilates uses elastic cords instead of springs, and generally a shorter rail and lighter-duty construction than studio equipment. For beginners and moderate users, the experience is comparable. For experienced practitioners, the resistance feel and exercise range are different in ways that matter." } },
+        { "@type": "Question", "name": "Is there a genuine spring-based Pilates reformer under $500?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The PAETA 86\" Dual Resistance ($439.99), DWKWE 88\" ($299.99) and WINDFOOT ($295.99) are all real, currently-sold, full carriage-and-rail reformers with genuine spring or spring-plus-cord resistance under $500. They come from generic or dropship brands rather than established Pilates equipment makers like Balanced Body or Merrithew, so treat brand track record and warranty support with appropriate caution — but the machines themselves are real spring reformers, not toys." } },
+        { "@type": "Question", "name": "Is a $359 Pilates reformer worth it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating — in that case, one of the generic-brand spring reformers above may suit you better." } },
+        { "@type": "Question", "name": "What is the difference between AeroPilates and these budget spring reformers?", "acceptedAnswer": { "@type": "Answer", "text": "AeroPilates uses elastic cords and comes from an established home-fitness brand with a long track record. The WINDFOOT, DWKWE and PAETA use genuine coil-spring or spring-and-cord resistance — closer in mechanism to a studio reformer — but come from generic or dropship brands with no instructor recognition and unclear long-term durability. Neither category is equivalent to a $2,000+ machine from Balanced Body or Merrithew." } },
         { "@type": "Question", "name": "Should I buy a budget reformer or just go to a studio?", "acceptedAnswer": { "@type": "Answer", "text": "For most beginners, 3–6 months of studio sessions before buying any home equipment is the better investment. A budget reformer makes sense for practitioners who cannot access a studio or who want to supplement regular sessions." } },
       ],
     },
@@ -85,13 +127,13 @@ export default function BestPilatesReformerUnder500Page() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Budget Reformers</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Reformer Under $500 (2026):<br /><span style={{ color: "#8b4a31" }}>Only One Genuine Pick</span>
+              Best Pilates Reformer Under $500 (2026):<br /><span style={{ color: "#8b4a31" }}>3 Real Picks</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              An earlier version of this guide listed five machines under $500. On closer checking, we could only verify one of them as a genuine, currently-sold Amazon listing: the AeroPilates 287 at $359. The other four — a &quot;4-Cord Sport,&quot; a &quot;Pilates Premier with DVDs,&quot; and a &quot;BalanceFrom&quot; spring reformer with claimed specs we could not source — have been removed rather than left in place on the strength of an old search link. Under $500, you are buying a cord-based machine, not a studio reformer, and that is not a disqualifying fact for the right practitioner — but it is the honest picture of what is actually for sale.
+              An earlier version of this guide said the AeroPilates 287 was the only genuine reformer under $500. That was too narrow: a fresh check against live Amazon listings turned up a real tier of generic-brand full reformers — WINDFOOT and DWKWE — that use actual coil-spring or spring-and-cord carriage resistance, not just elastic cords. We&apos;ve rebuilt this guide around all three real options: two genuine spring reformers from unfamiliar brands, and the AeroPilates cord machine from an established one. None of them is equivalent to a $2,000+ studio-grade machine, but under $500, this is the honest, complete picture of what&apos;s actually for sale.
             </p>
           </div>
         </section>
@@ -100,7 +142,7 @@ export default function BestPilatesReformerUnder500Page() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Best budget Pilates reformer under $500 — the AeroPilates 287 reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Best budget Pilates reformer under $500, reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -111,15 +153,15 @@ export default function BestPilatesReformerUnder500Page() {
 
             {/* Cords vs springs */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Cords vs springs: the most important thing to understand</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Springs vs cords, and generic vs established brands</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Studio reformers use coil springs — traditionally several springs of varying weights. The resistance builds progressively through the movement arc: heavy at full extension, lighter mid-movement. This progressive tension is integral to how classical Pilates exercises feel and function, and it is what instructors are referring to when they cue resistance during footwork and long-box work.
               </p>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Budget reformers under $500 — the AeroPilates line is the one we could verify — use elastic cords instead of springs. Cord resistance is more linear: it builds more uniformly through the movement arc, without the same progressive feel. For beginners who have not trained extensively on spring reformers, this difference is nearly imperceptible. For practitioners with significant studio experience, cord machines feel distinctly different in ways that cannot be adjusted away.
+                Under $500 there are now two real categories, not one. The DWKWE and WINDFOOT use genuine spring (or spring-plus-latex) resistance in an actual carriage-and-rail frame — closer in mechanism to a studio reformer than a cord machine is. The AeroPilates 287 uses elastic cord resistance instead, which is more linear and less progressive through the movement arc, from a brand with a long, established track record.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                We could not verify a genuine coil-spring reformer reliably sold on Amazon under $500 — an earlier version of this guide claimed one existed, and that claim has been removed. Set the expectation before buying: at this price, cord-based machines are real reformers, but they are not the same as studio spring reformers. The cheapest genuine spring reformer we could verify on Amazon, the Balanced Body Metro IQ, is $2,330.
+                The tradeoff is brand, not mechanism: WINDFOOT and DWKWE are generic or dropship sellers with no instructor recognition and no long warranty history — we can vouch for what the current listing states, not for how the machine holds up in year three. AeroPilates has the opposite tradeoff: a real brand, but a resistance system that isn&apos;t springs. Set your priority — spring feel or brand trust — before choosing.
               </p>
             </div>
 
@@ -128,10 +170,10 @@ export default function BestPilatesReformerUnder500Page() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Four buying criteria</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { heading: "Cord count", body: "Fewer cords generally mean a narrower resistance range. Check the specific listing's cord count and don't assume it matches a different model in the same product line." },
-                  { heading: "Rail length", body: "We could not independently verify specific rail-length figures for current listings at this price. If you are taller than average, check the current product page's dimensions before buying rather than a figure quoted elsewhere." },
-                  { heading: "Foldability", body: "AeroPilates markets its range around a fold-flat design, which is a meaningful advantage for small spaces. We could not independently verify exact folded dimensions or weight for the current listing, so confirm those against your storage space on the product page." },
-                  { heading: "Included accessories", body: "Rebounders and instructional content are sometimes included, sometimes sold separately. Check what ships with the specific listing before assuming it matches a description you've seen elsewhere." },
+                  { heading: "Resistance type", body: "Confirm whether a listing uses coil springs, spring-plus-cord, or cord alone before buying — generic listings don't always state this clearly in the title, and it's the single biggest factor in how the machine will feel." },
+                  { heading: "Frame material and weight capacity", body: "PAETA states a 400lb-rated carbon steel frame; DWKWE and WINDFOOT are lighter-duty metal frames. Check the current listing's stated capacity against the intended user's weight rather than assuming parity across brands." },
+                  { heading: "Foldability and setup time", body: "WINDFOOT ships roughly 90% pre-assembled with a 5–10 minute setup; AeroPilates markets a fold-flat design. Confirm folded dimensions and setup time on the current listing rather than a figure quoted elsewhere." },
+                  { heading: "Seller and brand history", body: "WINDFOOT, DWKWE and PAETA are generic or single-product third-party brands with no track record among instructors. That doesn't mean the machine is bad — it means you're relying on the listing and reviews rather than an established brand's history." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
@@ -163,7 +205,7 @@ export default function BestPilatesReformerUnder500Page() {
 
             {/* Product cards */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>1 Verified Reformer · Honestly Reviewed</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Verified Reformers · Honestly Reviewed</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -183,10 +225,10 @@ export default function BestPilatesReformerUnder500Page() {
               <p className="text-sm leading-relaxed mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>This is not a reason not to buy — it is important context for realistic expectations.</p>
               <ul className="space-y-3">
                 {[
-                  "Sealed-bearing carriage smoothness — we could not verify specific bearing or carriage-quality claims for the current listing, but budget cord machines are generally understood to feel less smooth than mid-range and studio machines.",
-                  "Long-term durability equivalent to studio equipment — we could not verify specific lifespan figures, but a lighter-duty frame at this price is reasonably expected to wear faster than a commercial-grade one.",
-                  "Full accessory ecosystem — no verified box, pole, loops, or tower compatibility exists for any machine at this tier.",
-                  "The spring resistance feel of studio equipment — we could not verify a genuine coil-spring reformer under $500. Every machine we could confirm at this price uses cord-based resistance.",
+                  "An established Pilates equipment brand with a genuine spring reformer — Balanced Body, Merrithew and Align-Pilates don't sell full reformers this cheap. The spring reformers at this price come from generic or dropship brands.",
+                  "Sealed-bearing carriage smoothness or long commercial-grade durability testing — none of these listings publish independently verified longevity data, only manufacturer claims.",
+                  "A full accessory ecosystem with tower compatibility — the box and jump board bundled with some listings are the extent of it; there is no verified tower add-on at this tier.",
+                  "Certainty about after-sale support — generic and dropship sellers vary widely in how they handle warranty claims and replacement parts, in a way established brands generally do not.",
                 ].map((item, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -201,9 +243,9 @@ export default function BestPilatesReformerUnder500Page() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a genuine spring-based Pilates reformer under $500?", a: "Not that we could verify. An earlier version of this guide listed a \"BalanceFrom\" spring reformer as an exception at this price — we could not confirm it as a genuine, currently-sold Amazon listing, and it has been removed. The cheapest genuine spring reformer we could verify on Amazon, the Balanced Body Metro IQ, is $2,330." },
-                  { q: "Is a $359 Pilates reformer worth it?", a: "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating." },
-                  { q: "What is the difference between AeroPilates and a studio reformer?", a: "AeroPilates uses elastic cords instead of springs, and generally a shorter rail and lighter-duty construction than studio equipment. For beginners and moderate users, the experience is comparable. For experienced practitioners, the resistance feel and exercise range are different in ways that matter." },
+                  { q: "Is there a genuine spring-based Pilates reformer under $500?", a: "Yes. The PAETA 86\" Dual Resistance ($439.99), DWKWE 88\" ($299.99) and WINDFOOT ($295.99) are all real, currently-sold, full carriage-and-rail reformers with genuine spring or spring-plus-cord resistance under $500. They come from generic or dropship brands rather than established Pilates equipment makers like Balanced Body or Merrithew, so treat brand track record and warranty support with appropriate caution — but the machines themselves are real spring reformers, not toys." },
+                  { q: "Is a $359 Pilates reformer worth it?", a: "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating — in that case, one of the generic-brand spring reformers above may suit you better." },
+                  { q: "What is the difference between AeroPilates and these budget spring reformers?", a: "AeroPilates uses elastic cords and comes from an established home-fitness brand with a long track record. The WINDFOOT, DWKWE and PAETA use genuine coil-spring or spring-and-cord resistance — closer in mechanism to a studio reformer — but come from generic or dropship brands with no instructor recognition and unclear long-term durability. Neither category is equivalent to a $2,000+ machine from Balanced Body or Merrithew." },
                   { q: "Should I buy a budget reformer or just go to a studio?", a: "For most beginners, 3–6 months of studio sessions before buying any home equipment is the better investment. A budget reformer makes sense for practitioners who cannot access a studio or who want to supplement regular sessions." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
