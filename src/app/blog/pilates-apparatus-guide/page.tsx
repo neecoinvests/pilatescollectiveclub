@@ -217,11 +217,11 @@ const apparatusData = [
 ];
 
 const PRODUCTS = [
-  { name: "Balanced Body Magic Circle", description: "The most accessible piece of Pilates apparatus for home practice. Used in mat, standing, and reformer work, it teaches the lateral body connections central to the full apparatus system.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
-  { name: "Manduka PRO Pilates Mat", description: "Where most practitioners begin — the mat is the foundation of the Pilates system. Joseph Pilates developed the mat repertoire as the complete method; the apparatus was designed to teach what the mat demands.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
-  { name: "Pilates Arc Barrel", description: "The most accessible full apparatus piece for home studios. Supports spinal extension and hip flexor lengthening — exercises impossible to replicate on the mat alone.", price: "From $120", affiliateUrl: "https://www.amazon.com/s?k=pilates+arc+barrel+balanced+body&tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "Resistance bands approximate the spring resistance of the reformer for home practice. Not a substitute for the machine, but useful for maintaining resistance-based work between studio sessions.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
-  { name: "Gaiam Pilates Ball (9-inch)", description: "Adds proprioceptive challenge to mat work and approximates some instability training achieved on the Cadillac and chair. A versatile addition to a home mat practice.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
+  { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", description: "We could not verify a standalone Balanced Body magic circle as a specific live Amazon listing. This kit bundles a ring, ball, and resistance bands — a genuine, currently-sold alternative used in mat, standing, and reformer work that teaches the lateral body connections central to the full apparatus system.", price: "$19.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
+  { name: "Gaiam Premium Yoga Mat (6mm)", description: "Where most practitioners begin — the mat is the foundation of the Pilates system. We could not verify a Manduka mat at this price as a specific live listing; this Gaiam 6mm mat is a real, currently-sold alternative, marketed as a yoga mat but firm enough for daily Pilates practice.", price: "$21.00", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
+  { name: "Balanced Body Pilates Arc (Spine Corrector)", description: "The most accessible full apparatus piece for home studios, genuinely sold by Balanced Body on Amazon. Supports spinal extension and hip flexor lengthening — exercises impossible to replicate on the mat alone.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
+  { name: "Muezna Pilates Grip Socks (6-Pair)", description: "Essential once reformer or standing chair work is introduced — grip socks prevent foot slippage, a real safety consideration on any apparatus with a sliding or elevated surface.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
+  { name: "TriggerPoint GRID 2.0 Foam Roller", description: "A real, durable foam roller (roller only, not massage balls) for the thoracic mobility and self-myofascial release work described above — used before sessions as mobilisation or after for recovery.", price: "$74.99", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
 ];
 
 export default function PilatesApparatusGuidePage() {
@@ -432,6 +432,24 @@ export default function PilatesApparatusGuidePage() {
               <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Contemporary apparatus — made by companies such as Balanced Body, Merrithew, and Align-Pilates — adapts the original designs with modern engineering: adjustable components, lighter materials, updated upholstery, and wider price accessibility. These manufacturers have also developed their own accessories and supplementary apparatus, such as the Arc Barrel. Neither classical nor contemporary apparatus is inherently superior; the choice depends almost entirely on your teacher&apos;s training lineage and the emphasis of the studio you train in. A well-taught classical practice on Gratz apparatus and a well-taught contemporary practice on Balanced Body apparatus are both legitimate expressions of the Pilates method.
               </p>
+            </div>
+
+            {/* Accessories to start with */}
+            <div style={{ marginBottom: "64px" }}>
+              <p style={{ fontSize: "10px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", marginBottom: "16px" }}>
+                Verified listings
+              </p>
+              <h2 style={{ fontSize: "32px", fontWeight: 600, marginBottom: "24px", color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+                Genuinely sold, affordable starting points
+              </h2>
+              <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "28px" }}>
+                We checked each of these against live listing data before including it. Where we could not verify a specific branded product mentioned elsewhere as a real, current Amazon listing, we say so and offer the closest genuine alternative instead.
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "40px" }}>
+                {PRODUCTS.map((p) => (
+                  <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                ))}
+              </div>
             </div>
 
             {/* FAQ */}

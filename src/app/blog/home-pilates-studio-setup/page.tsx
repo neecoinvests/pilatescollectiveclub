@@ -100,14 +100,14 @@ const EQUIPMENT_STAGES = [
   {
     stage: "05",
     item: "Reformer Box",
-    cost: "$250",
-    unlocks: "The Long Box and Short Box series — Pulling Straps, T-Pull, Rowing, Swan, Teaser variations on the box. The box should be purchased with the reformer; these series are part of the basic reformer repertoire and are not optional add-ons.",
+    cost: "$150",
+    unlocks: "The Long Box and Short Box series — Pulling Straps, T-Pull, Rowing, Swan, Teaser variations on the box. The box should be purchased with the reformer; these series are part of the basic reformer repertoire and are not optional add-ons. The Balanced Body Sitting Box Lite ($150) is a real, currently-sold Amazon listing that works across most reformer brands.",
   },
   {
     stage: "06",
     item: "Jump Board",
-    cost: "$200",
-    unlocks: "Cardio intervals on the reformer — jumping footwork sequences that elevate heart rate while maintaining spring-loaded feedback. A lower-impact complement to the standard footwork sequence. Most useful for practitioners looking to add cardiovascular conditioning to their reformer sessions.",
+    cost: "$280–$470",
+    unlocks: "Cardio intervals on the reformer — jumping footwork sequences that elevate heart rate while maintaining spring-loaded feedback. A lower-impact complement to the standard footwork sequence. Most useful for practitioners looking to add cardiovascular conditioning to their reformer sessions. The Balanced Body Padded Jumpboard ($280) and the Merrithew Jumpboard 22\" ($470) are both real, currently-sold Amazon listings.",
   },
   {
     stage: "07",
@@ -117,9 +117,9 @@ const EQUIPMENT_STAGES = [
   },
   {
     stage: "08",
-    item: "Wunda Chair",
-    cost: "$1,800–$2,200",
-    unlocks: "Advanced balance, hip flexor, and standing work — including Pumping, Swan, Washerwoman, and Tendon Stretch. The most demanding apparatus in the Pilates system. The Wunda Chair requires genuine proficiency on the mat and reformer before it is used safely, and it is the least essential apparatus for home setups.",
+    item: "Pilates chair (EXO-style, single-pedal)",
+    cost: "$1,255+",
+    unlocks: "Advanced balance, hip flexor, and standing work — including Pumping, Swan, Washerwoman, and Tendon Stretch. The most demanding apparatus in the Pilates system. Note: the classical two-pedal Wunda Chair is not sold on Amazon — the genuine Amazon-verified option is Balanced Body's single-pedal EXO Pilates Chair, at $1,255. The chair requires genuine proficiency on the mat and reformer before it is used safely, and it is the least essential apparatus for home setups.",
   },
 ];
 
@@ -128,7 +128,7 @@ const SPACE_REQUIREMENTS = [
   { scenario: "Mat + accessories (bands, ring, roller)", space: "2m × 2m minimum", note: "Same footprint as mat-only. The accessories do not require additional floor area." },
   { scenario: "Foldable reformer (stored upright)", space: "244cm × 240cm working area + 110cm × 25cm wall clearance when folded", note: "The working area accounts for 90cm+ clearance either side for safe mounting and dismounting. The wall footprint when upright is minimal." },
   { scenario: "Non-folding reformer", space: "244cm × 61cm permanent footprint + approx. 244cm × 200cm total working area", note: "A non-folding reformer requires a permanent installation. The working clearance around the apparatus is the practical limiting factor." },
-  { scenario: "Reformer + Wunda Chair", space: "Add approx. 60cm × 50cm to the reformer working area", note: "The Wunda Chair has a small footprint but requires clearance on all sides for safe use." },
+  { scenario: "Reformer + Chair", space: "Add approx. 60cm × 50cm to the reformer working area", note: "A Pilates chair has a small footprint but requires clearance on all sides for safe use. Note: the classical two-pedal Wunda Chair is not sold on Amazon — the single-pedal EXO Pilates Chair is the genuine Amazon-verified equivalent." },
   { scenario: "Reformer + Tower", space: "Same floor footprint as the reformer", note: "The tower attaches to the reformer foot end. No additional floor space required, but ceiling height must be 2.1m+ for push-through bar exercises." },
   { scenario: "Full apparatus (reformer + chair + barrel + tower)", space: "Minimum 4m × 5m room, 2.4m+ ceiling", note: "A dedicated room of this size covers approximately 80% of a professional studio's offering." },
 ];
@@ -159,8 +159,8 @@ const BUDGET_SCENARIOS = [
     label: "04",
     title: "Full home apparatus",
     cost: "$10,000–$15,000",
-    items: ["Premium reformer + box", "Tower / Vertical stand", "Wunda Chair", "Arc barrel", "Mat, grip socks, bands, ring"],
-    covers: "Approximately 80% of a professional studio's full offering. The tower adds the complete mat tower repertoire; the Wunda Chair adds advanced balance and standing work. A setup of this scale genuinely replicates a studio environment.",
+    items: ["Premium reformer + box", "Tower / Vertical stand", "Pilates chair (EXO-style, single-pedal)", "Arc barrel", "Mat, grip socks, bands, ring"],
+    covers: "Approximately 80% of a professional studio's full offering. The tower adds the complete mat tower repertoire; the chair adds advanced balance and standing work. Note: the classical two-pedal Wunda Chair is not sold on Amazon — Balanced Body's single-pedal EXO Pilates Chair ($1,255) is the genuine Amazon-verified equivalent. A setup of this scale genuinely replicates a studio environment.",
   },
 ];
 
@@ -696,62 +696,62 @@ export default function HomePilatesStudioSetupPage() {
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
               
-                <a href="https://www.amazon.com/s?k=stamina+aeropilates+reformer+home+use&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                <a href="https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Budget Reformer (Under $1,000)</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>AeroPilates and Stamina models deliver a genuine full-body session without the studio price.</p>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Budget Reformer: AeroPilates 287</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Elastic cord resistance (not springs) rather than a studio-grade machine, but a genuine entry point into reformer movement patterns without the studio price.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $450</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$359</span>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
-                <a href="https://www.amazon.com/s?k=align+pilates+reformer+home&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                <a href="https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Mid-Range Reformer ($1,000–$2,000)</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Align Pilates and Merrithew entry-level machines offer markedly better spring feel and stability.</p>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Spring Reformer: Merrithew At Home SPX</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A real, currently-sold spring-based reformer — Merrithew&apos;s five-spring system offers markedly better resistance feel and stability than a cord machine.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $999</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$3,349</span>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
-                <a href="https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                <a href="https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Mat (6mm)</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A quality non-slip mat for mat class and home practice. Thicker than a standard yoga mat.</p>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Mat (6mm)</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A Gaiam Premium 6mm mat — marketed as a yoga mat, but a firm, non-slip 6mm mat works well for daily Pilates practice.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $45</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$21</span>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
-                <a href="https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                <a href="https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Magic Circle</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>One of Pilates&apos; most versatile props — adds resistance to dozens of reformer and mat exercises.</p>
+                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Ring, Ball &amp; Bands Kit</h3>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>We could not verify a standalone magic circle as a specific live Amazon listing. This Byrex prop kit bundles a ring, ball, and bands — versatile props that add resistance to dozens of mat exercises.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $24</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$19.99</span>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
-                <a href="https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                <a href="https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Foam Roller</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Essential for spinal mobility, fascial release, and warm-up before class.</p>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>TriggerPoint GRID 2.0 — a real, durable foam roller (roller only) for spinal mobility, fascial release, and warm-up before class.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $28</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$74.99</span>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>

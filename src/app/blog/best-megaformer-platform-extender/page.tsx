@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
@@ -31,62 +30,62 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Lagree Fitness Platform Extender",
-    price: "From $249",
-    verdict: "Best authentic Megaformer-compatible extender",
+    price: "Not sold on Amazon",
+    verdict: "A real accessory — but not a verified Amazon listing",
     description:
-      "Manufactured directly by Lagree Fitness, this platform extender bolts onto the front platform of the M3S, Proformer, and Supraformer to add several inches of standing surface, which matters significantly for taller practitioners executing standing lunge, plank, and bear-position exercises that require full foot placement without the heel hanging off the platform edge. Because it's manufactured to exact Lagree specifications, fit and stability are guaranteed in a way third-party extenders cannot match — an important consideration since an unstable platform extension during a loaded standing position is a genuine injury risk. For owners of authentic Lagree Fitness machines, this is the only extender recommendation that removes compatibility and safety uncertainty.",
-    affiliateUrl: "https://www.amazon.com/s?k=lagree+fitness+platform+extender&tag=pilatescollective-20",
-    tag: "Best OEM Compatibility",
+      "Lagree Fitness markets a platform extender for the M3S, Proformer, and Supraformer that bolts onto the front platform to add several inches of standing surface — genuinely useful for taller practitioners in standing lunge, plank, and bear-position work where the heel can otherwise hang off the platform edge. We could not find a live, verified Amazon listing for this accessory, so we are not linking one here. It is sold directly through Lagree Fitness's own site, which is also where fit is guaranteed for authentic Lagree machines.",
+    affiliateUrl: null,
+    tag: "Manufacturer Direct",
   },
   {
     rank: "02",
-    name: "Balanced Body Reformer Jump Board",
-    price: "From $189",
-    verdict: "Best for standard Pilates reformers",
+    name: "Balanced Body Padded Jumpboard",
+    price: "$280",
+    verdict: "A genuine, currently-sold Balanced Body listing",
     description:
-      "While not a direct platform extender, the Balanced Body jump board mounts to the footbar of standard Pilates reformers and effectively extends the usable working surface for plyometric and standing-position exercises in a way that parallels what a Megaformer platform extender accomplishes on Lagree-style machines. The padded surface absorbs impact during jump sequences, and the mount is compatible with most Balanced Body reformer models plus several third-party reformers sharing standard footbar dimensions. For practitioners on a classical reformer who want to add standing and jump-based programming, this is the established, well-tested option.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+reformer+jump+board&tag=pilatescollective-20",
-    tag: "Best for Pilates Reformers",
+      "Not a platform extender in the bolt-on sense, but the Balanced Body Padded Jumpboard mounts to the footbar of standard Pilates reformers and extends the usable working surface for standing and plyometric work in a way that parallels what a Megaformer platform extender accomplishes on Lagree-style machines. This is a real, currently-sold Balanced Body listing on Amazon at $280 — confirm fit against your specific reformer's footbar before ordering, since mountings are not universal even within one brand's range.",
+    affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20",
+    tag: "Genuinely Sold on Amazon",
   },
   {
     rank: "03",
     name: "Align Pilates Platform Extension Kit",
-    price: "From $159",
-    verdict: "Best for Align Pilates F-series machines",
+    price: "Dealer-quoted only",
+    verdict: "Not a verified Amazon listing",
     description:
-      "Align Pilates sells a dedicated extension kit engineered specifically for the F-series reformers, which, as covered in our Megaformer machine guide, are commonly used by practitioners blending classical Pilates and Lagree-style training. The kit extends the front platform footprint to better accommodate the wide-base standing and lunge positions used in slow-tempo eccentric programming. Fit is guaranteed only on Align's own F1/F2/F3 models — do not attempt to adapt this kit to a non-Align frame, as mounting hardware is brand-specific.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+platform+extension+kit&tag=pilatescollective-20",
-    tag: "Best for Align Pilates",
+      "Align Pilates markets an extension kit for its F-series reformers, aimed at the wide-base standing and lunge positions used in slow-tempo eccentric programming. We could not verify a live Amazon listing for this specific kit. The only Align-Pilates product we could confirm as genuinely sold on Amazon is the C8-PRO reformer (sold through Merrithew, Align's US distributor) — the extension kit itself should be sourced through an authorised Align Pilates dealer, where fit is guaranteed for F1/F2/F3 frames.",
+    affiliateUrl: null,
+    tag: "Dealer Direct",
   },
   {
     rank: "04",
-    name: "Universal Non-Slip Platform Riser Pad",
-    price: "From $34",
-    verdict: "Best low-cost stability addition",
+    name: "Non-Slip Platform Riser Pad",
+    price: "Varies by listing",
+    verdict: "A generic accessory category, not one verified product",
     description:
-      "Rather than a true extender, this is a thick, high-density non-slip foam riser pad that sits directly on top of an existing platform to add a small amount of cushioned height and grip — useful for practitioners who find the standard platform surface too hard or slick during long sessions, without the cost or installation complexity of a bolt-on extender. It is not a substitute for genuine platform extension on a machine that's genuinely too small for a tall practitioner's stance, but for minor comfort and grip improvements, it's an inexpensive first step worth trying before investing in a full extender.",
-    affiliateUrl: "https://www.amazon.com/s?k=non+slip+platform+riser+pad+fitness&tag=pilatescollective-20",
-    tag: "Best Budget Option",
+      "A thick, high-density non-slip foam pad placed on top of an existing platform can add cushioned height and grip for practitioners who find the standard surface too hard or slick during long sessions, without the cost or complexity of a bolt-on extender. This is a broad, generic accessory category rather than one specific listing, and we could not verify a single ASIN we're confident recommending — search current listings directly and check dimensions against your platform before buying.",
+    affiliateUrl: null,
+    tag: "Generic Category",
   },
   {
     rank: "05",
-    name: "Merrithew Reformer Box (Long & Short)",
-    price: "From $129",
-    verdict: "Best multi-purpose box extension",
+    name: "Balanced Body Sitting Box Lite",
+    price: "$150",
+    verdict: "The real substitute for a Merrithew-branded box",
     description:
-      "The Merrithew box is a classical Pilates accessory that, when placed on the reformer carriage, extends the working surface upward and outward to support long-box and short-box exercise sequences — a different category of platform extension than a Megaformer's bolt-on extender, but relevant for instructors blending Lagree-inspired carriage work with classical box-based programming. The box is freestanding rather than mounted, making it compatible across nearly any reformer brand, and offers genuine versatility since it serves both traditional Pilates and adapted Lagree-style sequences.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+pilates+reformer+box&tag=pilatescollective-20",
-    tag: "Best Multi-Purpose",
+      "We could not verify a genuine Merrithew-branded reformer box as a standalone, currently-live Amazon listing. The Balanced Body Sitting Box Lite is a real, currently-sold alternative at $150 that sits on the carriage rather than mounting to the frame, supporting long-box and short-box sequences across most reformer brands — check its dimensions against your carriage before ordering, since it is not built specifically for Lagree-style machines.",
+    affiliateUrl: "https://www.amazon.com/dp/B0723DT2JP?tag=pilatescollective-20",
+    tag: "Genuinely Sold on Amazon",
   },
   {
     rank: "06",
-    name: "Budget Megaformer-Style Platform Extension (Third-Party)",
-    price: "From $99",
-    verdict: "Best budget third-party extender",
+    name: "Third-Party Megaformer-Style Platform Extension",
+    price: "Varies by listing",
+    verdict: "Not a verified listing — confirm fit before buying",
     description:
-      "Built to fit third-party Megaformer-style machines with similar platform dimensions, this budget extension provides additional standing platform surface at a fraction of the cost of authentic Lagree Fitness accessories. Build quality and mounting precision are noticeably less refined than the OEM Lagree extender, and fit is not guaranteed on authentic Lagree Fitness machines due to differing mounting hardware — confirm exact platform dimensions and brand compatibility before purchasing. For practitioners already training on a budget third-party Megaformer-style machine, this extender matches that machine's price tier appropriately.",
-    affiliateUrl: "https://www.amazon.com/s?k=megaformer+platform+extension+budget&tag=pilatescollective-20",
-    tag: "Best Budget Third-Party",
+      "Generic budget extensions marketed for third-party Megaformer-style machines exist at various price points, but build quality and mounting precision vary widely, and fit is not guaranteed on authentic Lagree Fitness machines due to differing mounting hardware. We could not verify one specific listing we're confident recommending by ASIN — confirm exact platform dimensions and brand compatibility on the current listing before purchasing.",
+    affiliateUrl: null,
+    tag: "Unverified",
   },
 ];
 
@@ -116,7 +115,9 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description.replace(/<[^>]+>/g, ""),
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          ...(p.affiliateUrl
+            ? { "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl } }
+            : {}),
         },
       })),
     },
@@ -159,7 +160,7 @@ export default function BestPlatformExtenderPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Standard Megaformer platform dimensions don't always accommodate taller practitioners or the wide-base standing positions central to Lagree programming. This guide compares the six best platform extenders, jump boards, and risers for Megaformer and Pilates reformer machines in 2026 — covering authentic Lagree accessories, cross-brand options, and budget alternatives.
+              Standard Megaformer platform dimensions don&apos;t always accommodate taller practitioners or the wide-base standing positions central to Lagree programming. This guide compares the six best platform extenders, jump boards, and risers for Megaformer and Pilates reformer machines in 2026 — covering authentic Lagree accessories, cross-brand options, and budget alternatives.
             </p>
           </div>
         </section>
@@ -187,9 +188,13 @@ export default function BestPlatformExtenderPage() {
                     <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Search →</a>
+                  {p.affiliateUrl ? (
+                    <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                      style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                    >Buy →</a>
+                  ) : (
+                    <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#86736d", padding: "10px 4px", whiteSpace: "nowrap", flexShrink: 0 }}>Not on Amazon</span>
+                  )}
                 </div>
               ))}
             </div>
@@ -210,11 +215,15 @@ export default function BestPlatformExtenderPage() {
                             <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
                             <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                           </div>
-                          <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                            style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                          >Search →</a>
+                          {p.affiliateUrl ? (
+                            <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                              style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                            >Buy →</a>
+                          ) : (
+                            <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#86736d", whiteSpace: "nowrap", flexShrink: 0 }}>Not on Amazon</span>
+                          )}
                         </div>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }} dangerouslySetInnerHTML={{ __html: p.description }} />
+                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{p.description}</p>
                       </div>
                     </div>
                   </div>
