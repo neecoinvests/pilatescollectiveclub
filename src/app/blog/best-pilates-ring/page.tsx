@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Rings (2026): 6 Magic Circles Compared",
-  description: "Six Pilates magic circles compared on resistance level, pad comfort and build quality — from padded foam handles to the studio-standard options.",
-  keywords: ["best pilates ring", "best magic circle pilates 2026", "pilates ring review", "best pilates magic circle", "stott pilates ring review", "balanced body magic circle", "pilates ring resistance", "pilates ring exercises"],
+  title: "Best Pilates Ring (2026): Honestly Verified",
+  description: "We could not confirm a live Amazon listing for a standalone Pilates ring under STOTT, Balanced Body, ProBody, SISSEL, or Merrithew's branded names. The closest real, currently-sold option is the Byrex Pilates Prop Kit ($19.99) — a ring, ball, and bands bundle, disclosed honestly as a bundle, not a standalone ring.",
+  keywords: ["best pilates ring", "pilates magic circle 2026", "pilates ring review", "pilates ring resistance", "pilates ring exercises", "pilates prop kit"],
   openGraph: {
-    title: "Best Pilates Ring / Magic Circle (2026): Tested & Ranked",
-    description: "The best Pilates rings — tested for resistance, pad quality, and durability.",
+    title: "Best Pilates Ring / Magic Circle (2026): Honestly Verified",
+    description: "No standalone Pilates ring brand listing could be verified on Amazon — here's the honest situation and the closest real bundle option.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-ring",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Ring Magic Circle — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Ring / Magic Circle (2026)",
-    description: "The best Pilates rings — tested and ranked.",
+    description: "Honestly verified — what's actually sold on Amazon.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"],
   },
   alternates: {
@@ -32,53 +32,13 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "STOTT PILATES Toning Ring",
-    price: "From $35",
-    verdict: "Best overall magic circle",
+    name: "Byrex Pilates Prop Kit",
+    price: "$19.99",
+    verdict: "A real, live Amazon listing — but a bundle, not a standalone ring",
     description:
-      "STOTT Pilates produces the most widely used professional-grade Pilates ring outside of custom apparatus brands. The resistance is correctly calibrated — firm enough to provide meaningful challenge for inner thigh, glute, and arm work, but not so stiff that it cannot be compressed by a practitioner with average upper body strength. The dual pad system (inner and outer handles with firm foam pads) allows the ring to be used in multiple orientations without discomfort. At 13 inches this is the standard size appropriate for both inner thigh squeezing and palm-press arm exercises.",
-    affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+toning+ring+magic+circle&tag=pilatescollective-20",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Balanced Body Pilates Ring",
-    price: "From $42",
-    verdict: "Best professional-grade ring",
-    description:
-      "Balanced Body is the reformer manufacturer that most professional studios trust — their Pilates ring reflects the same quality standard. The resistance is slightly firmer than the STOTT ring, which more experienced practitioners often prefer for adductor and glute work. The pad construction is durable enough for studio use with multiple clients daily. If you've used a ring in a well-equipped studio and found it substantially more effective than rings you've used at home, it was almost certainly either a Balanced Body or a Gratz — this is the accessible version of that quality.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+ring&tag=pilatescollective-20",
-    tag: "Professional Grade",
-  },
-  {
-    rank: "03",
-    name: "ProBody Pilates Ring (12-inch)",
-    price: "From $18",
-    verdict: "Best value for home use",
-    description:
-      "ProBody's ring is the strongest budget option available — good resistance calibration, decent pad quality, and a construction that holds up to regular home use without the premium studio price. The 12-inch diameter is slightly smaller than the standard 13-inch, which makes it marginally better for arm and upper body work and marginally worse for inner thigh work in wide stance. For beginners building their first home Pilates kit or practitioners who want a second ring for travel, this is a credible choice at a price that's hard to argue with.",
-    affiliateUrl: "https://www.amazon.com/s?k=probody+pilates+ring+magic+circle&tag=pilatescollective-20",
-    tag: "Best Value",
-  },
-  {
-    rank: "04",
-    name: "SISSEL Pilates Circle (Light Resistance)",
-    price: "From $28",
-    verdict: "Best for beginners and rehabilitation",
-    description:
-      "SISSEL produces a light-resistance ring that is specifically suited to beginners, post-natal practitioners, and rehabilitation contexts where standard ring resistance is too demanding. The reduced firmness allows practitioners to maintain correct form during inner thigh and abductor work without compensation patterns from over-recruitment. For experienced practitioners this ring is too easy for lower body work, but it's appropriate for arm and upper body exercises where a standard ring can be overpowering for smaller frames or weaker anterior deltoids.",
-    affiliateUrl: "https://www.amazon.com/s?k=sissel+pilates+ring+light+resistance&tag=pilatescollective-20",
-    tag: "For Beginners",
-  },
-  {
-    rank: "05",
-    name: "Merrithew Fitness Circle Flex",
-    price: "From $38",
-    verdict: "Best flexible ring for flow work",
-    description:
-      "Merrithew's Flex ring has a softer, more responsive compression profile than traditional rigid rings — it flexes more gradually and returns resistance in a way that suits dynamic, flowing use rather than sustained isometric holds. Contemporary STOTT-method classes that incorporate ring work in movement sequences (rather than isolated exercises) benefit from this characteristic. The quality of the pads is exceptional — no slipping during sweaty sessions. A more specialised choice than the standard STOTT ring but superior for the specific way contemporary Pilates studios use the prop.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+fitness+circle+flex+pilates&tag=pilatescollective-20",
-    tag: "Best for Flow",
+      "A note before anything else: this guide previously listed six standalone rings from STOTT, Balanced Body, ProBody, SISSEL, and Merrithew. We could not find live Amazon listings for any of them under those names, so they've been removed rather than pointed at a search page. The one prop we could verify as a real, currently-sold Amazon listing is the Byrex Pilates Prop Kit at $19.99, which bundles a ring with a small ball and resistance bands. It is not a standalone ring — buy it if the bundle format works for you, but don't expect the single-item, brand-name ring this category is usually searched for.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20",
+    tag: "Honest Pick — Bundle",
   },
 ];
 
@@ -108,10 +68,10 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "What's the difference between a Pilates ring and a magic circle?", "acceptedAnswer": { "@type": "Answer", "text": "They are the same thing — different brand names for the same apparatus. 'Magic circle' is the Joseph Pilates original term; 'toning ring' and 'fitness circle' are modern marketing names used by STOTT and Merrithew. The apparatus is the same: a flexible ring with padded handles used to add isometric resistance to Pilates exercises." } },
-      { "@type": "Question", "name": "What resistance level should I start with?", "acceptedAnswer": { "@type": "Answer", "text": "Medium resistance is appropriate for most beginners. The common mistake is buying light resistance assuming it's 'for beginners' — light rings are so easy for lower body work (where the adductors are the primary muscle group) that they provide no training stimulus. Light rings are appropriate for rehabilitation contexts and upper body exercises where arm strength is the limiting factor." } },
-      { "@type": "Question", "name": "Can I do a full Pilates workout with just a ring?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — a ring and a mat provide a complete workout for experienced practitioners. The ring adds resistance to a substantial portion of the classical mat sequence. Several exercises (inner thigh work, arm series, lateral work) are genuinely more effective with a ring than without. It is one of the most training-efficient pieces of small Pilates equipment." } },
-      { "@type": "Question", "name": "How do I store a Pilates ring?", "acceptedAnswer": { "@type": "Answer", "text": "Store flat in a cool, dry location. Avoid leaving it in compressed positions (e.g., under books or equipment) for extended periods — prolonged compression can deform the spring in spring-based rings. The pads can be wiped with a mild disinfectant spray after each session." } }
+      { "@type": "Question", "name": "Is there a real standalone Pilates ring sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Not one we could verify. We checked for live listings under STOTT PILATES, Balanced Body, ProBody, SISSEL, and Merrithew's branded names and could not confirm any of them as currently-sold, standalone rings. The closest real, live Amazon listing we could verify is the Byrex Pilates Prop Kit, which bundles a ring with a ball and resistance bands rather than selling the ring alone." } },
+      { "@type": "Question", "name": "What resistance level should I start with?", "acceptedAnswer": { "@type": "Answer", "text": "Medium resistance is appropriate for most beginners as a general rule. The common mistake is buying light resistance assuming it's 'for beginners' — light rings are often too easy for lower body work to provide a training stimulus, though genuinely useful for rehabilitation contexts and upper body exercises where arm strength is the limiting factor. Check the resistance level on the specific listing before buying." } },
+      { "@type": "Question", "name": "Can I do a full Pilates workout with just a ring?", "acceptedAnswer": { "@type": "Answer", "text": "A ring and a mat can form a substantial workout for experienced practitioners — the ring adds resistance to a large portion of the classical mat sequence, and several exercises (inner thigh work, arm series, lateral work) are more effective with one than without." } },
+      { "@type": "Question", "name": "How do I store a Pilates ring?", "acceptedAnswer": { "@type": "Answer", "text": "Store flat in a cool, dry location. Avoid leaving it in compressed positions (e.g., under books or equipment) for extended periods — prolonged compression can deform the spring in spring-based rings. Wipe pads down after use with a mild disinfectant." } }
     ]
   },
   ],
@@ -131,13 +91,13 @@ export default function BestPilatesRingPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Props</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Ring &amp; Magic Circle<br /><span style={{ color: "#8b4a31" }}>(2026): Tested & Ranked</span>
+              Best Pilates Ring &amp; Magic Circle<br /><span style={{ color: "#8b4a31" }}>(2026): Honestly Verified</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Joseph Pilates invented the magic circle — originally fashioned from the metal rim of a beer keg — and it remains one of the most versatile and effective small props in the method. A quality ring adds isometric resistance to inner thigh work, lateral hip work, arm exercises, and lateral flexion sequences that bodyweight alone cannot sufficiently load. It also provides tactile feedback that helps practitioners find correct alignment. But not all rings are equal: resistance calibration, pad quality, and flexibility vary enormously. These are the five best.
+              Joseph Pilates invented the magic circle — originally fashioned from the metal rim of a beer keg — and it remains one of the most versatile small props in the method. A quality ring adds isometric resistance to inner thigh work, lateral hip work, arm exercises, and lateral flexion sequences that bodyweight alone cannot sufficiently load. This guide previously ranked six branded rings. On closer checking, we could not confirm a live Amazon listing for a standalone ring under any of those brand names — so rather than link a search page or a guessed-at ASIN, we&apos;re disclosing that gap honestly. The one real, currently-sold Amazon option we could verify is a bundle, not a standalone ring: the Byrex Pilates Prop Kit.
             </p>
           </div>
         </section>
@@ -155,12 +115,15 @@ export default function BestPilatesRingPage() {
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to look for in a Pilates ring</h2>
+              <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                This is general guidance on what makes any magic circle effective — we could not verify the specific diameter or resistance level of the one product we recommend below, so treat it as background knowledge to apply when you check a listing yourself, not a spec sheet for our pick.
+              </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { heading: "Resistance calibration", body: "The most important factor. Too stiff and you cannot compress it through the full movement without compensation. Too easy and there's no meaningful training effect. Most practitioners need medium resistance; beginners and those with wrist/shoulder issues often need light." },
-                  { heading: "Pad quality", body: "Both inner and outer pads must be firm enough to transmit force without squishing and positioned precisely at the ring's equator. Cheap rings have pads that shift during use — an immediate quality indicator." },
-                  { heading: "Diameter", body: "13 inches is the standard diameter — appropriate for most inner thigh, lateral hip, and arm applications. Smaller rings (12 inches) suit upper body work; larger rings (15 inches) are rarely used and difficult to find." },
-                  { heading: "Spring vs flexible ring", body: "Traditional metal-spring rings have a stiffer, more linear resistance curve. Flexible rings (Merrithew Flex) have a more progressive, accommodating curve suited to dynamic movement. Neither is objectively better — choose based on how you primarily use it." },
+                  { heading: "Resistance calibration", body: "Too stiff and you cannot compress it through the full movement without compensation. Too easy and there's no meaningful training effect. Most practitioners need medium resistance; beginners and those with wrist/shoulder issues often need light. Confirm the resistance level on the current listing before buying." },
+                  { heading: "Pad quality", body: "Inner and outer pads should be firm enough to transmit force without squishing and positioned at the ring's equator. Cheap rings have pads that shift during use — an immediate quality indicator, best judged from current owner reviews on the listing." },
+                  { heading: "Diameter", body: "13 inches is a commonly cited standard diameter for inner thigh, lateral hip, and arm applications; smaller rings suit upper body work better. We could not verify the exact diameter of the bundle we recommend below, so check the listing." },
+                  { heading: "Spring vs flexible ring", body: "Traditional metal-spring rings have a stiffer, more linear resistance curve. Flexible rings have a more progressive, accommodating curve suited to dynamic movement. Neither is objectively better — choose based on how you primarily use it." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
@@ -171,7 +134,7 @@ export default function BestPilatesRingPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Pilates Rings · Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>What We Could Verify</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -207,10 +170,10 @@ export default function BestPilatesRingPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What's the difference between a Pilates ring and a magic circle?", a: "They are the same thing — different brand names for the same apparatus. 'Magic circle' is the Joseph Pilates original term; 'toning ring' and 'fitness circle' are modern marketing names used by STOTT and Merrithew. The apparatus is the same: a flexible ring with padded handles used to add isometric resistance to Pilates exercises." },
-                  { q: "What resistance level should I start with?", a: "Medium resistance is appropriate for most beginners. The common mistake is buying light resistance assuming it's 'for beginners' — light rings are so easy for lower body work (where the adductors are the primary muscle group) that they provide no training stimulus. Light rings are appropriate for rehabilitation contexts and upper body exercises where arm strength is the limiting factor." },
-                  { q: "Can I do a full Pilates workout with just a ring?", a: "Yes — a ring and a mat provide a complete workout for experienced practitioners. The ring adds resistance to a substantial portion of the classical mat sequence. Several exercises (inner thigh work, arm series, lateral work) are genuinely more effective with a ring than without. It is one of the most training-efficient pieces of small Pilates equipment." },
-                  { q: "How do I store a Pilates ring?", a: "Store flat in a cool, dry location. Avoid leaving it in compressed positions (e.g., under books or equipment) for extended periods — prolonged compression can deform the spring in spring-based rings. The pads can be wiped with a mild disinfectant spray after each session." },
+                  { q: "Is there a real standalone Pilates ring sold on Amazon?", a: "Not one we could verify. We checked for live listings under STOTT PILATES, Balanced Body, ProBody, SISSEL, and Merrithew's branded names and could not confirm any of them as currently-sold, standalone rings. The closest real, live Amazon listing we could verify is the Byrex Pilates Prop Kit, which bundles a ring with a ball and resistance bands rather than selling the ring alone." },
+                  { q: "What resistance level should I start with?", a: "Medium resistance is appropriate for most beginners as a general rule. The common mistake is buying light resistance assuming it's 'for beginners' — light rings are often too easy for lower body work to provide a training stimulus, though genuinely useful for rehabilitation contexts and upper body exercises where arm strength is the limiting factor. Check the resistance level on the specific listing before buying." },
+                  { q: "Can I do a full Pilates workout with just a ring?", a: "A ring and a mat can form a substantial workout for experienced practitioners — the ring adds resistance to a large portion of the classical mat sequence, and several exercises (inner thigh work, arm series, lateral work) are more effective with one than without." },
+                  { q: "How do I store a Pilates ring?", a: "Store flat in a cool, dry location. Avoid leaving it in compressed positions (e.g., under books or equipment) for extended periods — prolonged compression can deform the spring in spring-based rings. Wipe pads down after use with a mild disinfectant." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
