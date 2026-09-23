@@ -25,48 +25,39 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Balanced Body Arc Barrel",
-    price: "From $245",
-    verdict: "Best first barrel for home practice",
-    description: "The Balanced Body Arc is the most versatile entry point into barrel work — a half-round foam and upholstered apparatus that serves simultaneously as a spine support, a backbend prop, an abdominal challenge tool, and a hip flexor opener. Placed with the curved side down, it supports backbend extensions (Cobra, Swan variations) and hip flexor stretches. Flipped with the flat side down it becomes a balance and core challenge surface. It is small enough to store upright in a wardrobe and light enough to carry in one hand. The Arc is distinct from the Spine Corrector — it is a lower curve, better suited to supported extension work and less suited to the deep classical Spine Corrector exercises. For practitioners who want barrel work without the price or storage footprint of a Spine Corrector or Ladder Barrel, the Arc is the correct first purchase.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+arc+barrel+pilates&tag=pilatescollective-20",
-    tag: "Editor's Pick",
+    name: "Balanced Body Pilates Arc (Spine Corrector)",
+    price: "$189.99",
+    verdict: "The real Balanced Body barrel sold on Amazon",
+    description: "A note before anything else: we could not find separate, standalone Amazon listings for a Balanced Body \"Arc\" and a distinct Balanced Body \"Spine Corrector\" — as far as we could verify, Balanced Body's real Amazon listing is this single Pilates Arc, marketed as covering spine-corrector-style work. It is a half-round foam and upholstered apparatus that supports backbend extensions and hip flexor stretches on the curved side, and a balance/core challenge when flipped flat-side down. It is small enough to store upright and light enough to carry in one hand. We could not independently verify the exact curve height against the taller, stepped-curve profile some classical teachers describe as the dedicated \"Spine Corrector\" shape, so if the deep classical Spine Corrector series specifically is your goal, confirm the curve dimensions on the current listing before assuming this matches.",
+    affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20",
+    tag: "The Real Listing",
   },
   {
     rank: "02",
-    name: "Balanced Body Spine Corrector",
-    price: "From $395",
-    verdict: "Best classical barrel for advanced back work",
-    description: "The Spine Corrector is one of Joseph Pilates' original apparatus — a stepped barrel designed specifically to support and articulate the spine through the full classical Spine Corrector series. The Balanced Body version maintains the classical proportions (a taller, more pronounced curve than the Arc) while using durable foam and upholstery that withstands regular studio use. The Spine Corrector exercises — Side Stretch, Twist, Back Extension, Hip Circles, and the full classical series — target spinal mobility, hip flexor flexibility, and deep abdominal control in ways that mat work and the reformer cannot fully replicate. It is a meaningful upgrade from the Arc for practitioners ready for the dedicated classical series. The Balanced Body Spine Corrector is available through authorized dealers and on Amazon.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+spine+corrector+pilates&tag=pilatescollective-20",
-    tag: "Classical",
+    name: "Balanced Body Ladder Barrel",
+    price: "$2,195",
+    verdict: "The real advanced barrel for the complete repertoire",
+    description: "The Ladder Barrel is a full apparatus — a large rounded barrel mounted on a base with a horizontal ladder extending from one side. It is not a beginner purchase: the Ladder Barrel exercises (side stretch over the barrel, back extension, hanging) require significant baseline strength, flexibility, and body awareness. We could not independently verify an adjustable barrel-to-ladder distance for the current listing, so confirm that feature on the live product page rather than assuming it. This is a real, genuine Balanced Body listing sold directly on Amazon.",
+    affiliateUrl: "https://www.amazon.com/dp/B01NBVI3JU?tag=pilatescollective-20",
+    tag: "Advanced",
   },
   {
     rank: "03",
     name: "Merrithew Arc Barrel",
-    price: "From $265",
-    verdict: "Best Arc for STOTT PILATES practitioners",
-    description: "The Merrithew Arc Barrel is the STOTT PILATES equivalent of the Balanced Body Arc — a half-round barrel designed for the STOTT PILATES arc repertoire of extension, flexion, and lateral support exercises. The spring color-coded approach carries over: STOTT-trained instructors program the Arc work with the same movement vocabulary they use on the reformer, making the Merrithew Arc the natural complement to an SPX Max setup. Build quality is comparable to Balanced Body; the main distinction is which methodological ecosystem the practitioner works within. For practitioners whose teacher is STOTT-certified, the Merrithew Arc is the straightforward recommendation. Both arcs perform comparably; choose based on your instructor's brand preference.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+arc+barrel+pilates&tag=pilatescollective-20",
-    tag: "STOTT PILATES",
+    price: "Price on request",
+    verdict: "Not sold on Amazon — genuine STOTT PILATES arc, dealer-direct",
+    description: "We could not find a live Amazon listing for a Merrithew-branded Arc Barrel, and we could not verify a specific public price, so we're not quoting one. If your teacher is STOTT-certified and your other equipment is Merrithew, staying in that ecosystem is a reasonable choice — but it means buying through Merrithew directly or an authorised dealer, not Amazon.",
+    affiliateUrl: "https://www.merrithew.com",
+    tag: "STOTT PILATES · Dealer-Direct",
   },
   {
     rank: "04",
-    name: "Balanced Body Ladder Barrel",
-    price: "From $1,295",
-    verdict: "Best advanced barrel for the complete repertoire",
-    description: "The Ladder Barrel is a full apparatus — a large rounded barrel mounted on a base with a horizontal ladder extending from one side. It is not a beginner purchase: the Ladder Barrel exercises (Side Stretch over the barrel, Back Extension, Hanging, and the advanced gymnastics-adjacent sequences) require significant baseline strength, flexibility, and body awareness. For practitioners ready for advanced work or instructors equipping a complete home studio, the Ladder Barrel adds a dimension of extension and lateral flexibility training unavailable on any other apparatus. The Balanced Body Ladder Barrel has an adjustable barrel distance from the ladder — important for accommodating different body proportions and exercise intensities. Purchased through Balanced Body authorized dealers; the Amazon search link may show reseller results.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+ladder+barrel+pilates&tag=pilatescollective-20",
-    tag: "Advanced",
-  },
-  {
-    rank: "05",
     name: "Gratz Spine Corrector",
-    price: "From $800",
-    verdict: "Best classical Spine Corrector for purists",
-    description: "The Gratz Spine Corrector is the original — manufactured to Joseph Pilates' specifications, with the precise curve height and proportions of the classical apparatus. For classical practitioners whose training follows the original Pilates exercises as designed, the Gratz Spine Corrector is the only version that performs the classical series as intended. The wood construction and upholstery are simple and durable; the curve geometry differs meaningfully from contemporary versions in ways that classical teachers describe as producing more authentic exercise outcomes. Purchased directly from Gratz (gratzpilates.com); not typically available on Amazon. The Amazon link may surface reseller results for reference.",
+    price: "Price on request",
+    verdict: "Not sold on Amazon — the classical original, dealer-direct",
+    description: "We could not find a live Amazon listing for the Gratz Spine Corrector, and we could not verify a specific public price, so we're not quoting one — Gratz pricing is generally supplied on request. It's manufactured to Joseph Pilates' original specifications, and for classical practitioners whose training follows the original exercises as designed, it's the reference apparatus. Purchased directly from Gratz (gratzpilates.com).",
     affiliateUrl: "https://www.gratzpilates.com/collections/barrels",
-    tag: "Classical",
+    tag: "Classical · Dealer-Direct",
   },
 ];
 
@@ -79,7 +70,7 @@ const jsonLd = {
       "description": "The best Pilates barrels in 2026 — Arc Barrel, Spine Corrector, and Ladder Barrel compared. What each does, who needs it, and which to buy first.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-barrel",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -126,7 +117,7 @@ export default function BestPilatesBarrelPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Pilates barrel is one of the least understood and most underutilised pieces of apparatus in the system — regularly present in good studios, rarely seen in home practice. There are three distinct barrel types (Arc, Spine Corrector, Ladder Barrel), each serving different functions and appropriate for different levels of experience. This guide explains what each does, who it is for, and which brands make the best versions.
+              The Pilates barrel is one of the least understood and most underutilised pieces of apparatus in the system — regularly present in good studios, rarely seen in home practice. There are three distinct barrel functions (Arc, Spine Corrector, Ladder Barrel), each serving different needs and appropriate for different levels of experience. This guide explains what each does and who it is for — honestly: as far as we could verify, Balanced Body sells one Amazon-listed barrel that covers Arc/spine-corrector-style work, plus the separate Ladder Barrel. Merrithew and Gratz make genuine barrels too, but they&apos;re dealer-direct only.
             </p>
           </div>
         </section>
@@ -208,7 +199,7 @@ export default function BestPilatesBarrelPage() {
 
             {/* Product Cards */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Barrels · Arc, Spine Corrector & Ladder Barrel</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Barrel Options · Fact-Checked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

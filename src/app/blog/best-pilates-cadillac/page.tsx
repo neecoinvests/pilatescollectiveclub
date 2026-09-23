@@ -25,52 +25,52 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Balanced Body Cadillac",
-    price: "From $8,000",
-    verdict: "Best Cadillac for professional and serious home studios",
+    name: "Balanced Body Trapeze Table / Cadillac",
+    price: "$5,030",
+    verdict: "The only Cadillac we could verify as a real, live Amazon listing",
     description:
-      "The Balanced Body Cadillac is the standard against which all other Trapeze Tables are measured in contemporary studios worldwide. The full overhead frame carries a push-through bar (top and bottom loaded), roll-down bar, trapeze, fuzzy loops, and arm and leg springs — the complete Cadillac configuration. The table base provides a full mat working surface and integrates with Balanced Body's spring color system. Build quality is commercial grade; the machine is designed for multi-session daily studio use and has a lifespan measured in decades with proper maintenance. At approximately $8,000–$9,500 before accessories, it is a significant investment appropriate for working instructors, clinical Pilates facilities, and serious home practitioners with dedicated studio space. Sold through Balanced Body authorized dealers; the Amazon search link is for price reference only.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+cadillac+pilates+trapeze+table&tag=pilatescollective-20",
-    tag: "Industry Standard",
+      "This is the real Balanced Body Trapeze Table (Cadillac), and as far as we could verify, it is the only genuine Cadillac-type apparatus actually sold on Amazon — every other brand in this category is dealer-direct only. It ships as a lead-time item rather than in-stock, so budget for a delivery window rather than immediate shipping. We could not independently verify a detailed spring or bar configuration for the current listing, so confirm exactly what's included (push-through bar, roll-down bar, trapeze, spring set) on the live product page before ordering. Commercial-grade build, appropriate for working instructors, clinical Pilates facilities, and serious home practitioners with dedicated studio space and the ceiling clearance a full Cadillac requires.",
+    affiliateUrl: "https://www.amazon.com/dp/B01N5OIH13?tag=pilatescollective-20",
+    tag: "The Real Listing",
   },
   {
     rank: "02",
     name: "Merrithew Cadillac / Trapeze Table",
-    price: "From $4,871",
-    verdict: "Best Cadillac for STOTT PILATES studios",
+    price: "Price on request",
+    verdict: "Not sold on Amazon — genuine STOTT PILATES apparatus, dealer-direct",
     description:
-      "Merrithew's Cadillac / Trapeze Table is the reference apparatus for the STOTT PILATES Cadillac repertoire — instructors certified in the STOTT method train on this machine and the exercise programming aligns precisely with the SPX reformer's spring conventions. The full frame includes push-through bars (top and bottom), roll-down bar, trapeze bar, arm springs, and leg springs. Build quality matches Balanced Body; the decision between the two is primarily about methodological ecosystem and accessory compatibility. For studios where all equipment is Merrithew, the Cadillac completes the system without mixing brands. Not sold on Amazon — purchased through Merrithew directly or an authorized dealer.",
-    affiliateUrl: "https://www.merrithew.com/shop/ProductDetail/ST01003_Cadillac--Trapeze-Table",
-    tag: "STOTT PILATES",
+      "We could not find a live Amazon listing for Merrithew's Cadillac / Trapeze Table, and we could not verify a specific public price for it either, so we're not quoting one. It is the reference apparatus for the STOTT PILATES Cadillac repertoire, and instructors certified in that method train on this machine. If your studio is already built around Merrithew equipment, buying through Merrithew directly or an authorised dealer keeps the spring conventions and programming consistent — but go in expecting to request a quote rather than seeing a fixed sticker price.",
+    affiliateUrl: "https://www.merrithew.com",
+    tag: "STOTT PILATES · Dealer-Direct",
   },
   {
     rank: "03",
     name: "Align-Pilates Cadillac Frame (Reformer Conversion)",
-    price: "From $3,500",
-    verdict: "Best value Cadillac for smaller studios",
+    price: "Price on request",
+    verdict: "Not sold on Amazon — converts an existing Align reformer",
     description:
-      "Align-Pilates does not sell a standalone Cadillac the way Balanced Body and Merrithew do — instead, they sell a Full Cadillac Frame (and a lower-cost Half Cadillac Frame) that converts an existing Align A, C, or M series reformer into Cadillac functionality, at a more accessible price point than a dedicated $8,000+ Balanced Body or Merrithew Cadillac. The frame adds the overhead structure, push-through bar, roll-down bar, trapeze, and spring configuration of a professional Cadillac to the reformer you already own. Build quality is professional grade (aluminum frame, steel upper frame, commercial upholstery), consistent with their reformer line. For a studio that already owns an Align reformer and doesn't require the established brand recognition of Balanced Body or Merrithew for marketing purposes, the Align Cadillac Frame represents a compelling value — note that it requires a compatible Align reformer as a base, it is not a standalone machine. Not sold on Amazon — purchased through an authorized Align-Pilates dealer.",
+      "We could not find a live Amazon listing for this frame, and we could not verify a specific public price, so we're not quoting one. Unlike Balanced Body and Merrithew, Align-Pilates doesn't sell a standalone Cadillac table — instead it sells a frame that adds the overhead structure, push-through bar, roll-down bar and trapeze to a reformer you already own. It requires a compatible Align reformer as a base; it is not a standalone machine. Purchased through an authorised Align-Pilates dealer.",
     affiliateUrl: "https://pilatesmatters.com/products/align-pilates-full-cadillac-frame-a-c-series-reformer-pap-c1profcad",
-    tag: "Best Value",
+    tag: "Reformer Conversion · Dealer-Direct",
   },
   {
     rank: "04",
     name: "Gratz Trapeze Table",
-    price: "From $10,000",
-    verdict: "Best for classical Pilates studios",
+    price: "Price on request",
+    verdict: "Not sold on Amazon — the classical standard, dealer-direct",
     description:
-      "The Gratz Trapeze Table is the classical standard — manufactured to Joseph Pilates' original specifications in New York. The spring configuration, frame proportions, and table dimensions match the apparatus Pilates used in his 8th Avenue studio. For classical lineage teachers and studios where the original exercises are taught as designed, the Gratz Trapeze Table is the only appropriate choice — the spring tensions and attachment points are calibrated to the classical exercises in ways that contemporary versions approximate but do not replicate exactly. Purchased directly from Gratz (gratzpilates.com) at approximately $10,000–$12,000+. Not available on Amazon. A generational purchase for serious classical studios.",
+      "We could not find a live Amazon listing for the Gratz Trapeze Table, and we could not verify a specific public price, so we're not quoting one — Gratz pricing is generally supplied on request. It's manufactured to Joseph Pilates' original specifications in New York, and for classical-lineage teachers and studios teaching the exercises as originally designed, it's the standard reference. Purchased directly from Gratz (gratzpilates.com); expect a significant, generational investment.",
     affiliateUrl: "https://www.gratzpilates.com/collections/trapeze-table",
-    tag: "Classical Standard",
+    tag: "Classical Standard · Dealer-Direct",
   },
   {
     rank: "05",
-    name: "Balanced Body Reformer + Tower (Alternative to Cadillac)",
-    price: "From $4,195",
-    verdict: "Best home alternative to a full Cadillac",
+    name: "Balanced Body Studio Reformer (Revo Footbar)",
+    price: "$4,700",
+    verdict: "Real home alternative — reformer with full tower compatibility",
     description:
-      "For home practitioners who want Cadillac-style exercises without the $8,000+ investment and 230cm+ ceiling clearance requirement, a Balanced Body Allegro 2 with Tower bundle covers approximately 60–70% of the Cadillac repertoire — including push-through bar work, roll-down bar, arm springs, and leg springs. What it cannot provide: the trapeze bar (suspension/hanging exercises), the full overhead frame, and the complete horizontal mat surface of a true Cadillac table. For private home practitioners who are not full-time instructors, this compromise is almost always the more practical and proportionate choice. The linked search surfaces the Allegro 2 + Tower configuration as a starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer+tower+pilates&tag=pilatescollective-20",
+      "For home practitioners who want a meaningful share of the Cadillac repertoire without the ceiling clearance and price of a full Cadillac, this is the real Balanced Body flagship reformer sold on Amazon, and it carries full tower compatibility, so it can be paired with a tower unit for push-through bar, roll-down bar and spring work. We could not verify a specific bundled tower price or a standalone tower Amazon listing, so treat the tower as a separate purchase to price out directly with Balanced Body. It does not fold and is made to order, so it's a permanent-installation purchase, not a quick add-on.",
+    affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
     tag: "Home Alternative",
   },
 ];
@@ -84,7 +84,7 @@ const jsonLd = {
       "description": "The Pilates Cadillac (Trapeze Table) explained — Balanced Body, Merrithew, and Gratz compared. What it does, who needs one, and what a full setup costs.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-cadillac",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -104,7 +104,7 @@ const jsonLd = {
         { "@type": "Question", "name": "What is the difference between a Cadillac and a Trapeze Table?", "acceptedAnswer": { "@type": "Answer", "text": "They are the same apparatus. \"Cadillac\" is the nickname used in contemporary Pilates; \"Trapeze Table\" is the more descriptive name and common in classical lineages. Both refer to the same full-frame table apparatus." } },
         { "@type": "Question", "name": "Do I need a Cadillac or will a Reformer + Tower do?", "acceptedAnswer": { "@type": "Answer", "text": "For most home practitioners, a Reformer + Tower is the more proportionate choice — it covers approximately 60–70% of Cadillac exercises at 40–50% of the cost, and fits in a normal room. A full Cadillac is justified for working instructors, clinical settings, and practitioners whose teacher programs regular trapeze work." } },
         { "@type": "Question", "name": "What ceiling height do I need for a Pilates Cadillac?", "acceptedAnswer": { "@type": "Answer", "text": "Minimum 230–240cm of clear ceiling height above the table. The overhead frame itself is approximately 200cm tall; the trapeze exercises require additional clearance. Measure your space carefully before purchasing." } },
-        { "@type": "Question", "name": "How much does a Pilates Cadillac cost in total?", "acceptedAnswer": { "@type": "Answer", "text": "Machine: $3,500–$12,000+ depending on brand. Delivery and installation (typically included by dealers for equipment at this price): factor in separately. Accessories (additional springs, pads): $200–$500. Realistic total for a Balanced Body or Merrithew Cadillac: $8,500–$12,000+." } },
+        { "@type": "Question", "name": "How much does a Pilates Cadillac cost in total?", "acceptedAnswer": { "@type": "Answer", "text": "The only price we could independently verify is the Balanced Body Trapeze Table / Cadillac on Amazon, at $5,030, plus delivery and installation. Merrithew, Align-Pilates and Gratz do not publish fixed prices for their Cadillac apparatus and quote on request through dealers, so we're not asserting a specific figure for those — expect a substantial investment, and get a current quote before budgeting." } },
       ],
     },
   ],
@@ -131,7 +131,7 @@ export default function BestPilatesCadillaPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Pilates Cadillac — also called the Trapeze Table — is the most comprehensive single piece of apparatus in the classical Pilates system, and the one most people have never used. It combines the spring resistance of a reformer with hanging, suspension, and vertical spring work that no other apparatus can replicate. This guide explains what the Cadillac does, who genuinely needs one, what it costs, and which brands make the best versions.
+              The Pilates Cadillac — also called the Trapeze Table — is the most comprehensive single piece of apparatus in the classical Pilates system, and the one most people have never used. It combines the spring resistance of a reformer with hanging, suspension, and vertical spring work that no other apparatus can replicate. This guide explains what the Cadillac does, who genuinely needs one, and which brands make it — honestly: of the brands compared below, only the Balanced Body Trapeze Table/Cadillac turned up as a real, live Amazon listing. Merrithew, Align-Pilates and Gratz build genuine Cadillac apparatus too, but it&apos;s dealer-direct only, so we&apos;ve linked to the manufacturers rather than a fabricated Amazon offer.
             </p>
           </div>
         </section>
@@ -181,7 +181,7 @@ export default function BestPilatesCadillaPage() {
                   },
                   {
                     heading: "Budget reality",
-                    body: "A full Cadillac setup (machine + installation + initial accessories) runs $8,000–$12,000+ for the major brands. Factor in delivery and installation — a Cadillac is not self-assembled; professional installation is standard.",
+                    body: "The only price we could verify is the Balanced Body Trapeze Table/Cadillac on Amazon, at $5,030. Merrithew, Align-Pilates and Gratz quote on request rather than publishing a fixed price, so get a current quote before budgeting rather than relying on a figure quoted elsewhere. Factor in delivery and installation either way — a Cadillac is not self-assembled.",
                   },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -195,7 +195,7 @@ export default function BestPilatesCadillaPage() {
             {/* Quick-picks table */}
             <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Cadillac Options &amp; Alternatives · Expert-Reviewed</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Cadillac Options &amp; Alternatives · Fact-Checked</p>
               </div>
               {PRODUCTS.map((p, i) => (
                 <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>

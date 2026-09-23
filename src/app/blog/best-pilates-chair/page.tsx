@@ -25,53 +25,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Balanced Body Wunda Chair",
-    price: "From $1,800",
-    verdict: "Best Wunda Chair for most practitioners",
+    name: "Balanced Body EXO Pilates Chair",
+    price: "$1,255",
+    verdict: "The real Balanced Body chair sold on Amazon",
     description:
-      "The Balanced Body Wunda Chair is the most widely recommended chair for studio and serious home use. The adjustable spring system accommodates the widest range of exercises from beginner modifications to advanced classical work. The padded top surface has sufficient cushioning for the kneeling exercises and the elevated pedal height is calibrated to the classical Chair exercises. The frame is stable and quiet — important during balance-intensive standing work. Balanced Body accessories (handles, additional springs) are compatible, and the chair works alongside their reformer and barrel as a complete apparatus system. Typically purchased from authorised dealers; Amazon search may show results from resellers.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+wunda+chair+pilates&tag=pilatescollective-20",
-    tag: "Editor's Pick",
+      "A note before anything else: this is often searched for as the \"Wunda Chair,\" but the classic two-pedal Wunda Chair is not sold on Amazon. The chair Balanced Body genuinely sells there is the EXO Pilates Chair, a single-pedal design, and that is the real listing this section covers, at $1,255. We could not independently verify the spring adjustment range or exact pedal height for the current listing, so confirm those specifics on the product page before ordering. Balanced Body's other accessories are broadly compatible with their apparatus line, but confirm any specific accessory fit against the EXO chair directly rather than assuming universal compatibility.",
+    affiliateUrl: "https://www.amazon.com/dp/B002XVZVRQ?tag=pilatescollective-20",
+    tag: "The Real Listing",
   },
   {
     rank: "02",
     name: "Merrithew Split-Pedal Stability Chair",
-    price: "From $1,999",
-    verdict: "Best for rehabilitation and asymmetrical work",
+    price: "Price on request",
+    verdict: "Not sold on Amazon — genuine clinical/rehab chair, dealer-direct",
     description:
-      "Merrithew's Split-Pedal design is a functional innovation over the classical single-pedal approach — the two independent pedals allow practitioners to work each leg or arm independently, which is particularly valuable for rehabilitation, sports conditioning, and identifying strength asymmetries. The STOTT PILATES Chair repertoire is specifically designed around the split-pedal. For studios offering physiotherapy-adjacent services, the Merrithew chair's split pedal is a meaningful clinical tool. For classical practitioners, the split pedal changes the exercise feel compared to single-pedal tradition. The frame quality is comparable to Balanced Body; the decision is primarily about pedal design philosophy.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+split+pedal+stability+chair&tag=pilatescollective-20",
-    tag: "Rehab-Friendly",
+      "We could not find a live Amazon listing for this chair, and we could not verify a specific public price, so we're not quoting one. Merrithew's split-pedal design lets practitioners work each leg or arm independently, which is genuinely useful for rehabilitation and identifying strength asymmetries — but buying it means going through Merrithew directly or an authorised dealer, not Amazon.",
+    affiliateUrl: "https://www.merrithew.com",
+    tag: "Rehab-Friendly · Dealer-Direct",
   },
   {
     rank: "03",
     name: "Gratz Wunda Chair",
-    price: "From $2,000",
-    verdict: "Best for classical Pilates practitioners",
+    price: "Price on request",
+    verdict: "Not sold on Amazon — the classical single-pedal original, dealer-direct",
     description:
-      "The Gratz Wunda Chair maintains the original single-pedal design that Joseph Pilates specified — a single sprung pedal with stepped spring heights rather than the adjustable system of contemporary chairs. For classical practitioners whose teacher works on Gratz equipment, the Gratz Chair is the only appropriate tool for the traditional Chair exercises as originally designed. The wood construction, spring tension, and pedal geometry differ from contemporary versions in ways that matter for classical precision. Purchased directly from Gratz (gratzpilates.com); not typically available on Amazon. A generational purchase for serious classical studios.",
+      "We could not find a live Amazon listing for the Gratz Wunda Chair, and we could not verify a specific public price, so we're not quoting one — Gratz pricing is generally supplied on request. It maintains the original single-pedal design Joseph Pilates specified. For classical practitioners whose teacher works on Gratz equipment, it is the reference tool for the traditional Chair exercises. Purchased directly from Gratz (gratzpilates.com); a generational purchase for serious classical studios.",
     affiliateUrl: "https://www.gratzpilates.com/collections/chairs",
-    tag: "Classical",
+    tag: "Classical · Dealer-Direct",
   },
   {
     rank: "04",
-    name: "Non-Slip Chair Pad / Kneeling Cushion",
-    price: "From $22",
-    verdict: "Essential Chair accessory",
+    name: "Gaiam Premium Yoga Mat (6mm)",
+    price: "$21.00",
+    verdict: "A real, verified kneeling-comfort option",
     description:
-      "Chair work includes exercises performed kneeling on the top surface of the chair, and the standard upholstered pad provided is adequate but not always sufficient for long sessions. A supplementary non-slip kneeling pad protects the knees during exercises like the Pumping series and provides additional grip security on the pedal end of the chair. A standard thick yoga knee pad (at least 15mm) works well and is available on Amazon. This is a practical addition to any Chair practice, particularly for practitioners new to the apparatus who are still developing the strength for the more demanding kneeling positions.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+kneeling+pad+yoga+knee+cushion&tag=pilatescollective-20",
-    tag: "Essential Accessory",
+      "We could not find a genuine, chair-specific kneeling pad or knee cushion as a live Amazon listing, so instead of inventing one, here is a real, verified accessory that does a comparable job: a standard 6mm yoga mat folded or cut to size adds cushioning for kneeling exercises like the Pumping series. It is not purpose-built for the Chair, so check the thickness and grip suit your needs before relying on it for long sessions.",
+    affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20",
+    tag: "Kneeling Comfort",
   },
   {
     rank: "05",
-    name: "Non-Slip Exercise Mat (for Chair base)",
-    price: "From $28",
-    verdict: "Prevents chair movement during standing work",
+    name: "ProsourceFit Interlocking Foam Tiles (48 sq ft)",
+    price: "$49.99",
+    verdict: "A real, verified way to stabilize the floor under the Chair",
     description:
-      "Standing exercises on the Pilates Chair — stepping on and off the pedal, single-leg standing work — require the chair frame to be absolutely stable. On smooth or hardwood floors, chairs can shift during dynamic weight transfers. A non-slip exercise mat placed beneath the chair base prevents movement without adhesive products that might mark the floor. A 6mm non-slip yoga mat cut to size or a purpose-made equipment non-slip pad works equally well. This is a small practical investment that significantly improves the safety and quality of standing Chair work, particularly for home practitioners without studio rubber flooring.",
-    affiliateUrl: "https://www.amazon.com/s?k=non+slip+exercise+mat+pilates+equipment&tag=pilatescollective-20",
-    tag: "Safety",
+      "We could not find a purpose-made \"non-slip mat for chair base\" as a live Amazon listing, so instead of inventing one, here is a real, verified alternative: interlocking foam floor tiles laid beneath the chair reduce shifting on smooth or hardwood floors during standing, single-leg work. Confirm the tile thickness doesn't destabilize the chair's own footing before relying on it for balance-intensive exercises.",
+    affiliateUrl: "https://www.amazon.com/dp/B07YN1W5W3?tag=pilatescollective-20",
+    tag: "Floor Stability",
   },
 ];
 
@@ -84,7 +84,7 @@ const jsonLd = {
       "description": "The Pilates Wunda Chair guide — Balanced Body vs Merrithew vs Gratz, what the chair does, who it's for, and whether it belongs in your home studio.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-chair",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -103,8 +103,8 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Do I need a Pilates Chair if I already have a reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Not immediately. The Chair adds significant exercise variety for intermediate and advanced practitioners. If your reformer practice feels stagnant, a Chair is the logical next apparatus addition. Beginners: focus on the reformer first." } },
         { "@type": "Question", "name": "Can I use a Pilates Chair without an instructor?", "acceptedAnswer": { "@type": "Answer", "text": "Not recommended initially. The Chair exercises require technique cuing that books and videos inadequately convey. Take at least 3–5 supervised Chair sessions before solo practice." } },
-        { "@type": "Question", "name": "Is the Balanced Body or Merrithew chair better?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on pedal preference. If you have a Balanced Body reformer, the Balanced Body Chair's accessory compatibility is a practical advantage. If you have Merrithew equipment, the split-pedal system integrates with the STOTT PILATES repertoire. For classical practice, choose Gratz." } },
-        { "@type": "Question", "name": "What's the difference between the Wunda Chair and the Electric Chair?", "acceptedAnswer": { "@type": "Answer", "text": "Both are variations of the same apparatus. The Electric Chair (also called the High Chair in some lineages) has a taller frame and a back. Exercises differ. Most contemporary studios use the Wunda Chair; the Electric Chair appears more in classical studio contexts." } },
+        { "@type": "Question", "name": "Is the Balanced Body or Merrithew chair better?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on pedal preference and what's actually available to you: the Balanced Body EXO Pilates Chair is the real single-pedal chair sold on Amazon, at $1,255. Merrithew's split-pedal chair is not sold on Amazon — it's dealer-direct only, and worth it specifically if you want independent-leg rehab work or already train in the STOTT system. For classical practice, Gratz is dealer-direct as well." } },
+        { "@type": "Question", "name": "Is the classic two-pedal Wunda Chair sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "No — we could not find a live Amazon listing for the classic two-pedal Wunda Chair under any brand. The real, verified Balanced Body chair sold on Amazon is the EXO Pilates Chair, a single-pedal design, at $1,255. Gratz's classical Wunda Chair and Merrithew's split-pedal chair are both dealer-direct only." } },
       ],
     },
   ],
@@ -131,7 +131,7 @@ export default function BestPilatesChairPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Wunda Chair is one of Joseph Pilates&apos; original apparatus — a deceptively compact piece of equipment that demands more core strength, balance, and body awareness than almost anything else in the classical system. It is among the most underused and least understood pieces of full Pilates apparatus. This guide covers what the Chair does, who makes the best one in 2026, and exactly who should consider buying it.
+              The Wunda Chair is one of Joseph Pilates&apos; original apparatus — a deceptively compact piece of equipment that demands more core strength, balance, and body awareness than almost anything else in the classical system. It is among the most underused and least understood pieces of full Pilates apparatus. One honest correction up front: the classic two-pedal Wunda Chair itself is not sold on Amazon under any brand. The real chair Balanced Body sells there is the single-pedal EXO Pilates Chair, and that is the machine this guide reviews alongside the dealer-direct Merrithew and Gratz alternatives.
             </p>
           </div>
         </section>
@@ -275,11 +275,11 @@ export default function BestPilatesChairPage() {
                   },
                   {
                     q: "Is the Balanced Body or Merrithew chair better?",
-                    a: "It depends on pedal preference and your existing equipment ecosystem. If you have a Balanced Body reformer, the Balanced Body Chair's accessory compatibility is a practical advantage. If you have Merrithew equipment, staying within the system makes the STOTT PILATES Chair repertoire more coherent. For classical lineage practitioners, only Gratz is appropriate.",
+                    a: "It depends on pedal preference and what's actually available to you. The Balanced Body EXO Pilates Chair is the real single-pedal chair sold on Amazon, at $1,255. Merrithew's split-pedal chair is not sold on Amazon — it's dealer-direct only, and worth it specifically if you want independent-leg rehab work or already train in the STOTT system.",
                   },
                   {
-                    q: "What's the difference between the Wunda Chair and the Electric Chair?",
-                    a: "Both are Chair apparatus variations. The Electric Chair (also called the High Chair in some lineages) has a taller frame and a back panel, and carries a different exercise repertoire. Most contemporary studios use the Wunda Chair. The Electric Chair appears more in classical studio contexts and is less commonly available in home versions.",
+                    q: "Is the classic two-pedal Wunda Chair sold on Amazon?",
+                    a: "No — we could not find a live Amazon listing for the classic two-pedal Wunda Chair under any brand. The real, verified Balanced Body chair sold on Amazon is the EXO Pilates Chair, a single-pedal design, at $1,255. Gratz's classical Wunda Chair and Merrithew's split-pedal chair are both dealer-direct only.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -296,7 +296,7 @@ export default function BestPilatesChairPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Balanced Body for Pilates (2026)"
-                  excerpt="The complete guide to Balanced Body equipment — Allegro 2, Arc, accessories, and who their equipment is for."
+                  excerpt="The complete guide to Balanced Body equipment — reformers, the Pilates Arc, accessories, and who their equipment is for."
                   href="/blog/balanced-body-pilates"
                   category="Equipment Guide"
                   readTime="10 min read"

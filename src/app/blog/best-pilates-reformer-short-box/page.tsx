@@ -7,29 +7,28 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Short Box (2026): Accessories Compared",
-  description: "The best reformer short boxes for classical and contemporary Pilates — Balanced Body, Merrithew, Align Pilates, and more. Verified products, honest sizing notes, and what to expect at each price point.",
+  title: "Best Pilates Reformer Short Box (2026): What's Actually Sold on Amazon",
+  description: "The real, verified reformer short/sitting box sold on Amazon — Balanced Body's Sitting Box Lite — plus an honest note on why Merrithew, Align Pilates, AeroPilates and Peak Pilates short boxes turned up as unverifiable listings.",
   keywords: [
     "best pilates reformer short box",
     "reformer short box",
     "pilates short box",
-    "balanced body short box",
-    "merrithew short box",
+    "balanced body sitting box lite",
     "pilates reformer accessories",
     "pilates box accessory",
     "reformer box pilates",
   ],
   openGraph: {
-    title: "Best Pilates Reformer Short Box (2026): Accessories Compared",
-    description: "The best reformer short boxes for classical and contemporary Pilates — Balanced Body, Merrithew, Align Pilates, and more.",
+    title: "Best Pilates Reformer Short Box (2026): What's Actually Sold on Amazon",
+    description: "The real, verified reformer sitting/short box sold on Amazon, and an honest note on the brand-specific boxes we could not verify.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-short-box",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-sunlit-minimal.png", width: 1200, height: 630, alt: "Best Pilates Reformer Short Box" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Reformer Short Box (2026): Accessories Compared",
-    description: "The best reformer short boxes for classical and contemporary Pilates — Balanced Body, Merrithew, Align Pilates, and more.",
+    title: "Best Pilates Reformer Short Box (2026): What's Actually Sold on Amazon",
+    description: "The real, verified reformer sitting/short box sold on Amazon, and an honest note on the brand-specific boxes we could not verify.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-reformer-sunlit-minimal.png"],
   },
   alternates: {
@@ -41,57 +40,12 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Balanced Body Standard Short Box",
-    price: "From $185",
-    verdict: "Best for Balanced Body reformer owners",
-    description: "Balanced Body's standard short box is engineered to sit perfectly on Allegro 2 and Studio Reformer carriages. The padded top surface accommodates sitting and supine box work, while the angled base stays locked in place during rollback and tree series. Compatible with Balanced Body's long box and accessory storage system.",
-    affiliateUrl: "https://www.amazon.com/s?k=Balanced+Body+Pilates+Short+Box+Reformer&tag=pilatescollective-20",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Merrithew Short Box for SPX / V2 Max Reformers",
-    price: "From $225",
-    verdict: "Best for Merrithew reformer owners",
-    description: "Merrithew's short box features their signature non-slip base designed for the SPX and V2 Max carriage width. The upholstered padding density is higher than most competitors — notable during seated oblique work and back extension series. Includes a strap loop for footwork variations.",
-    affiliateUrl: "https://www.amazon.com/s?k=Merrithew+Short+Box+Pilates+Reformer&tag=pilatescollective-20",
-    tag: "Premium Build",
-  },
-  {
-    rank: "03",
-    name: "Align Pilates Short Box — A Series Compatible",
-    price: "From $165",
-    verdict: "Best value box for mid-range reformers",
-    description: "Align Pilates produces a clean short box that fits their A8, C8, and F3 reformer carriages with minor shimming adjustments. The solid wood frame with PU leather cover is well-constructed at this price. A dependable option for home practitioners who want brand-matched accessories without the Balanced Body or Merrithew premium.",
-    affiliateUrl: "https://www.amazon.com/s?k=Align+Pilates+Short+Box+Reformer+Accessory&tag=pilatescollective-20",
-    tag: "Great Value",
-  },
-  {
-    rank: "04",
-    name: "AeroPilates Short Box — for AeroPilates Reformers",
-    price: "From $89",
-    verdict: "Best for AeroPilates home reformer owners",
-    description: "Designed specifically for AeroPilates 4700, 5500, and 7500 series reformers, this short box is the most affordable brand-matched option on the market. The padded surface handles sitting and supine work adequately for home practice, and it clicks securely onto the AeroPilates carriage rail system.",
-    affiliateUrl: "https://www.amazon.com/s?k=AeroPilates+Short+Box+Reformer&tag=pilatescollective-20",
-    tag: "Budget Pick",
-  },
-  {
-    rank: "05",
-    name: "Peak Pilates Short Box — MVe & FIT Reformer Compatible",
-    price: "From $195",
-    verdict: "Best for Peak Pilates users",
-    description: "Peak Pilates produces a compact short box compatible with their MVe and FIT reformer lines. The dense upholstery supports extended seated spine work without uncomfortable pressure points. A niche but important option for the significant number of home and studio practitioners using Peak equipment.",
-    affiliateUrl: "https://www.amazon.com/s?k=Peak+Pilates+Short+Box+Reformer&tag=pilatescollective-20",
-    tag: "Studio Grade",
-  },
-  {
-    rank: "06",
-    name: "Universal Pilates Reformer Short Box — Foam Pad",
-    price: "From $75",
-    verdict: "Best universal option for multi-brand reformers",
-    description: "For home practitioners with reformers from smaller brands, a universal short box with adjustable non-slip base strips provides a workable solution. The foam padded design handles the core short box repertoire — rollback, tree, flat back, obliques — without the brand-specific precision of premium boxes.",
-    affiliateUrl: "https://www.amazon.com/s?k=Universal+Pilates+Reformer+Short+Box+Accessory&tag=pilatescollective-20",
-    tag: "Universal Fit",
+    name: "Balanced Body Sitting Box Lite",
+    price: "$150",
+    verdict: "The real reformer short/sitting box sold on Amazon",
+    description: "A note before anything else: we checked for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, and Peak Pilates, and none turned up as real, live Amazon listings under those names — the specific carriage-width and construction claims attached to them were not verifiable either. This Balanced Body Sitting Box Lite is the real, currently-sold Amazon accessory: it sits on the carriage for rollback, tree, flat back, and oblique work rather than mounting to a specific frame, so it isn't cut to one brand's exact carriage width the way a true OEM box would be. Check its dimensions against your own reformer's carriage before ordering, since it is not built specifically for every model.",
+    affiliateUrl: "https://www.amazon.com/dp/B0723DT2JP?tag=pilatescollective-20",
+    tag: "The Real Listing",
   },
 ];
 
@@ -100,11 +54,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Best Pilates Reformer Short Box (2026): Accessories Compared",
-      description: "The best reformer short boxes for classical and contemporary Pilates — Balanced Body, Merrithew, Align Pilates, and more.",
+      headline: "Best Pilates Reformer Short Box (2026): What's Actually Sold on Amazon",
+      description: "The real, verified reformer sitting/short box sold on Amazon — Balanced Body's Sitting Box Lite — plus an honest note on the brand-specific boxes we could not verify.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-short-box",
       datePublished: "2026-06-28",
-      dateModified: "2026-06-28",
+      dateModified: "2026-09-23",
       image: "https://pilatescollectiveclub.com/pictures/stitch-reformer-sunlit-minimal.png",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -144,7 +98,7 @@ const jsonLd = {
         {
           "@type": "Question",
           name: "Are reformer short boxes universal or brand-specific?",
-          acceptedAnswer: { "@type": "Answer", text: "Most reformer short boxes are brand-specific: Balanced Body boxes fit Balanced Body reformers, Merrithew boxes fit Merrithew carriages. Carriage widths and rail heights vary enough between brands that a mismatched box may rock or not sit flat. Universal options exist but require shimming or non-slip padding to compensate." },
+          acceptedAnswer: { "@type": "Answer", text: "OEM boxes are typically cut to a specific brand's carriage width, but we could not verify live Amazon listings for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, or Peak Pilates. The Balanced Body Sitting Box Lite, the real Amazon-sold option we could verify, sits on the carriage rather than mounting to a specific frame, so check its dimensions against your reformer before assuming a perfect fit." },
         },
         {
           "@type": "Question",
@@ -169,15 +123,15 @@ export default function BestPilatesReformerShortBoxPage() {
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Reformer Accessories</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#2d1f17" }}>
-              Best Pilates Reformer Short Box (2026): Accessories Compared
+              Best Pilates Reformer Short Box (2026): What&apos;s Actually Sold on Amazon
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Updated June 28, 2026 · 7 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Updated September 23, 2026 · 7 min read</p>
             <div className="p-4 rounded-xl mb-8 text-sm" style={{ backgroundColor: "#f0ebe8", color: "#7a6358" }}>
               <strong>Affiliate disclosure:</strong> We may earn a commission on purchases made through links on this page, at no extra cost to you. We only recommend products we have researched thoroughly.
             </div>
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
-              The short box unlocks an entire chapter of the Pilates repertoire — rollback series, tree, flat back, oblique twist, and back extension — that simply cannot be done properly without one. Yet it&apos;s one of the most under-purchased accessories for home reformers, often because practitioners don&apos;t realise how brand-specific sizing is. Here&apos;s what to buy for your specific reformer, from the under-$90 AeroPilates option to the studio-grade Merrithew.
+              The short box unlocks an entire chapter of the Pilates repertoire — rollback series, tree, flat back, oblique twist, and back extension — that simply cannot be done properly without one. We went looking for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, and Peak Pilates and could not find genuine, currently-sold Amazon listings for any of them — the model-specific carriage-width and construction claims attached to those searches were not verifiable either. The real, verified option we found is the Balanced Body Sitting Box Lite, at $150, and it&apos;s the focus of this guide.
             </p>
           </div>
         </section>
@@ -218,18 +172,28 @@ export default function BestPilatesReformerShortBoxPage() {
               <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Buyer&apos;s Guide: Choosing a Short Box</h2>
               <div className="space-y-5 text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
                 <div>
-                  <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Match your reformer brand</h3>
-                  <p>The single most important factor. Carriage widths range from 21 inches (AeroPilates) to 24 inches (Merrithew V2 Max). A box designed for a narrower carriage on a wide reformer will rock during rollbacks — potentially dangerous. Always check your reformer&apos;s carriage width before purchasing.</p>
+                  <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Match your reformer&apos;s carriage</h3>
+                  <p>Carriage widths and rail heights genuinely vary between reformer brands, and we could not independently verify exact measurements for every model on the market. A box sized for a different carriage may rock during rollbacks — potentially dangerous. Measure your own reformer&apos;s carriage and check it against the current listing rather than trusting a quoted range.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Padding density</h3>
-                  <p>Box work involves sustained seated pressure during rollback and oblique series. Thin padding causes discomfort within minutes. Merrithew and Balanced Body use higher-density foam than most budget alternatives. If you plan to use the box frequently, padding quality matters more than price.</p>
+                  <p>Box work involves sustained seated pressure during rollback and oblique series, and thin padding causes discomfort within minutes. We could not independently verify comparative foam-density claims across brands, so treat padding feel as something to check in current owner reviews on the specific listing rather than a general rule.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Strap compatibility</h3>
                   <p>Many short box exercises use a strap looped around the practitioner&apos;s feet. Some boxes include an integrated strap loop; others require the reformer&apos;s own straps to be repositioned. Confirm which system your box uses before your first session.</p>
                 </div>
               </div>
+            </div>
+
+            <div className="rounded-2xl p-8 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
+              <h2 className="text-2xl font-bold mb-4" style={{ color: "#2d1f17" }}>What we could not verify</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#5c4a3d" }}>
+                An earlier version of this article featured brand-matched short boxes from Merrithew (for SPX/V2 Max), Align Pilates (A/C/F3 series), AeroPilates (4700/5500/7500 series), and Peak Pilates (MVe/FIT), plus a &quot;universal&quot; foam-pad option — each with specific claimed carriage compatibility, padding density, and strap features. We could not find live Amazon listings for any of them under the names searched, and the specific technical claims attached to them could not be independently verified, so they have been removed rather than left in place.
+              </p>
+              <p className="text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
+                If you own one of those reformers and want a genuine, brand-matched short box, the most reliable path is contacting the manufacturer directly, or checking Amazon yourself for the current live listing under your exact model — rather than trusting a specific product name or spec quoted on a third-party page.
+              </p>
             </div>
 
             <div className="mb-12">
