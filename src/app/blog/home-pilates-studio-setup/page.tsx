@@ -119,7 +119,7 @@ const EQUIPMENT_STAGES = [
     stage: "08",
     item: "Pilates chair (EXO-style, single-pedal)",
     cost: "$1,255+",
-    unlocks: "Advanced balance, hip flexor, and standing work — including Pumping, Swan, Washerwoman, and Tendon Stretch. The most demanding apparatus in the Pilates system. Note: the classical two-pedal Wunda Chair is not sold on Amazon — the genuine Amazon-verified option is Balanced Body's single-pedal EXO Pilates Chair, at $1,255. The chair requires genuine proficiency on the mat and reformer before it is used safely, and it is the least essential apparatus for home setups.",
+    unlocks: "Advanced balance, hip flexor, and standing work — including Pumping, Swan, Washerwoman, and Tendon Stretch. The most demanding apparatus in the Pilates system. Note: Balanced Body's own chair sold on Amazon is the single-pedal EXO Pilates Chair ($1,255); a real budget-tier two-pedal option also exists on Amazon (e.g. VEVOR's split-pedal combo chair, ~$250) if the classic design matters more to you than the brand. The chair requires genuine proficiency on the mat and reformer before it is used safely, and it is the least essential apparatus for home setups.",
   },
 ];
 
@@ -128,7 +128,7 @@ const SPACE_REQUIREMENTS = [
   { scenario: "Mat + accessories (bands, ring, roller)", space: "2m × 2m minimum", note: "Same footprint as mat-only. The accessories do not require additional floor area." },
   { scenario: "Foldable reformer (stored upright)", space: "244cm × 240cm working area + 110cm × 25cm wall clearance when folded", note: "The working area accounts for 90cm+ clearance either side for safe mounting and dismounting. The wall footprint when upright is minimal." },
   { scenario: "Non-folding reformer", space: "244cm × 61cm permanent footprint + approx. 244cm × 200cm total working area", note: "A non-folding reformer requires a permanent installation. The working clearance around the apparatus is the practical limiting factor." },
-  { scenario: "Reformer + Chair", space: "Add approx. 60cm × 50cm to the reformer working area", note: "A Pilates chair has a small footprint but requires clearance on all sides for safe use. Note: the classical two-pedal Wunda Chair is not sold on Amazon — the single-pedal EXO Pilates Chair is the genuine Amazon-verified equivalent." },
+  { scenario: "Reformer + Chair", space: "Add approx. 60cm × 50cm to the reformer working area", note: "A Pilates chair has a small footprint but requires clearance on all sides for safe use. Note: Balanced Body's own chair sold on Amazon is the single-pedal EXO Pilates Chair; budget two-pedal options (e.g. VEVOR) are also genuinely sold on Amazon." },
   { scenario: "Reformer + Tower", space: "Same floor footprint as the reformer", note: "The tower attaches to the reformer foot end. No additional floor space required, but ceiling height must be 2.1m+ for push-through bar exercises." },
   { scenario: "Full apparatus (reformer + chair + barrel + tower)", space: "Minimum 4m × 5m room, 2.4m+ ceiling", note: "A dedicated room of this size covers approximately 80% of a professional studio's offering." },
 ];
@@ -160,7 +160,7 @@ const BUDGET_SCENARIOS = [
     title: "Full home apparatus",
     cost: "$10,000–$15,000",
     items: ["Premium reformer + box", "Tower / Vertical stand", "Pilates chair (EXO-style, single-pedal)", "Arc barrel", "Mat, grip socks, bands, ring"],
-    covers: "Approximately 80% of a professional studio's full offering. The tower adds the complete mat tower repertoire; the chair adds advanced balance and standing work. Note: the classical two-pedal Wunda Chair is not sold on Amazon — Balanced Body's single-pedal EXO Pilates Chair ($1,255) is the genuine Amazon-verified equivalent. A setup of this scale genuinely replicates a studio environment.",
+    covers: "Approximately 80% of a professional studio's full offering. The tower adds the complete mat tower repertoire; the chair adds advanced balance and standing work. Note: Balanced Body's own chair sold on Amazon is the single-pedal EXO Pilates Chair ($1,255); budget two-pedal options are also genuinely sold on Amazon if the classic design matters more than the brand. A setup of this scale genuinely replicates a studio environment.",
   },
 ];
 

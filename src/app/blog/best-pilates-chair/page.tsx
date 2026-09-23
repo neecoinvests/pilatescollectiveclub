@@ -27,14 +27,24 @@ const PRODUCTS = [
     rank: "01",
     name: "Balanced Body EXO Pilates Chair",
     price: "$1,255",
-    verdict: "The real Balanced Body chair sold on Amazon",
+    verdict: "The professional-grade single-pedal chair sold on Amazon",
     description:
-      "A note before anything else: this is often searched for as the \"Wunda Chair,\" but the classic two-pedal Wunda Chair is not sold on Amazon. The chair Balanced Body genuinely sells there is the EXO Pilates Chair, a single-pedal design, and that is the real listing this section covers, at $1,255. We could not independently verify the spring adjustment range or exact pedal height for the current listing, so confirm those specifics on the product page before ordering. Balanced Body's other accessories are broadly compatible with their apparatus line, but confirm any specific accessory fit against the EXO chair directly rather than assuming universal compatibility.",
+      "The single-pedal Pilates chair Balanced Body genuinely sells on Amazon, at $1,255. This is the professional-grade tier: a studio-quality build from a certification-recognized brand. We could not independently verify the spring adjustment range or exact pedal height for the current listing, so confirm those specifics on the product page before ordering. Balanced Body's other accessories are broadly compatible with their apparatus line, but confirm any specific accessory fit against the EXO chair directly rather than assuming universal compatibility.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVZVRQ?tag=pilatescollective-20",
-    tag: "The Real Listing",
+    tag: "Professional Single-Pedal",
   },
   {
     rank: "02",
+    name: "VEVOR Split-Pedal Pilates Combo Chair",
+    price: "$249.90",
+    verdict: "A real, budget-tier split-pedal chair genuinely sold on Amazon",
+    description:
+      "An update to an earlier version of this article: the classic two-pedal Wunda Chair design is genuinely sold on Amazon — we were wrong to say otherwise. This VEVOR chair is a real, live, in-stock listing at $249.90 with a split-pedal design, rubberwood frame rated to 350lb, adjustable spring resistance, and padded handles. It is a home/budget-tier build rather than a certification-recognized studio brand, so expect a more basic feel than the Balanced Body or Merrithew chairs, but it is a genuine way to try split-pedal Chair work without the professional-tier price.",
+    affiliateUrl: "https://www.amazon.com/dp/B0F6LDT4WK?tag=pilatescollective-20",
+    tag: "Budget Split-Pedal",
+  },
+  {
+    rank: "03",
     name: "Merrithew Split-Pedal Stability Chair",
     price: "Price on request",
     verdict: "Not sold on Amazon — genuine clinical/rehab chair, dealer-direct",
@@ -44,7 +54,7 @@ const PRODUCTS = [
     tag: "Rehab-Friendly · Dealer-Direct",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "Gratz Wunda Chair",
     price: "Price on request",
     verdict: "Not sold on Amazon — the classical single-pedal original, dealer-direct",
@@ -54,7 +64,7 @@ const PRODUCTS = [
     tag: "Classical · Dealer-Direct",
   },
   {
-    rank: "04",
+    rank: "05",
     name: "Gaiam Premium Yoga Mat (6mm)",
     price: "$21.00",
     verdict: "A real, verified kneeling-comfort option",
@@ -64,7 +74,7 @@ const PRODUCTS = [
     tag: "Kneeling Comfort",
   },
   {
-    rank: "05",
+    rank: "06",
     name: "ProsourceFit Interlocking Foam Tiles (48 sq ft)",
     price: "$49.99",
     verdict: "A real, verified way to stabilize the floor under the Chair",
@@ -104,7 +114,7 @@ const jsonLd = {
         { "@type": "Question", "name": "Do I need a Pilates Chair if I already have a reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Not immediately. The Chair adds significant exercise variety for intermediate and advanced practitioners. If your reformer practice feels stagnant, a Chair is the logical next apparatus addition. Beginners: focus on the reformer first." } },
         { "@type": "Question", "name": "Can I use a Pilates Chair without an instructor?", "acceptedAnswer": { "@type": "Answer", "text": "Not recommended initially. The Chair exercises require technique cuing that books and videos inadequately convey. Take at least 3–5 supervised Chair sessions before solo practice." } },
         { "@type": "Question", "name": "Is the Balanced Body or Merrithew chair better?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on pedal preference and what's actually available to you: the Balanced Body EXO Pilates Chair is the real single-pedal chair sold on Amazon, at $1,255. Merrithew's split-pedal chair is not sold on Amazon — it's dealer-direct only, and worth it specifically if you want independent-leg rehab work or already train in the STOTT system. For classical practice, Gratz is dealer-direct as well." } },
-        { "@type": "Question", "name": "Is the classic two-pedal Wunda Chair sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "No — we could not find a live Amazon listing for the classic two-pedal Wunda Chair under any brand. The real, verified Balanced Body chair sold on Amazon is the EXO Pilates Chair, a single-pedal design, at $1,255. Gratz's classical Wunda Chair and Merrithew's split-pedal chair are both dealer-direct only." } },
+        { "@type": "Question", "name": "Is the classic two-pedal Wunda Chair sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, from budget-tier brands — the VEVOR Split-Pedal Pilates Combo Chair ($249.90) is a real, live Amazon listing with the classic two-pedal design. Balanced Body's own chair sold on Amazon, the EXO Pilates Chair ($1,255), is single-pedal. Gratz's classical Wunda Chair and Merrithew's split-pedal chair remain dealer-direct only." } },
       ],
     },
   ],
@@ -131,7 +141,7 @@ export default function BestPilatesChairPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Wunda Chair is one of Joseph Pilates&apos; original apparatus — a deceptively compact piece of equipment that demands more core strength, balance, and body awareness than almost anything else in the classical system. It is among the most underused and least understood pieces of full Pilates apparatus. One honest correction up front: the classic two-pedal Wunda Chair itself is not sold on Amazon under any brand. The real chair Balanced Body sells there is the single-pedal EXO Pilates Chair, and that is the machine this guide reviews alongside the dealer-direct Merrithew and Gratz alternatives.
+              The Wunda Chair is one of Joseph Pilates&apos; original apparatus — a deceptively compact piece of equipment that demands more core strength, balance, and body awareness than almost anything else in the classical system. It is among the most underused and least understood pieces of full Pilates apparatus. A correction to an earlier version of this guide: we previously said the classic two-pedal Wunda Chair design isn’t sold on Amazon at all — that was wrong. It is, from budget-tier brands; Balanced Body’s own single-pedal EXO Pilates Chair remains the professional-grade Amazon listing, and Merrithew and Gratz remain dealer-direct only.
             </p>
           </div>
         </section>
@@ -201,7 +211,7 @@ export default function BestPilatesChairPage() {
             {/* Quick picks table */}
             <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Pilates Chair Options · Expert-Reviewed</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Pilates Chair Options · Expert-Reviewed</p>
               </div>
               {PRODUCTS.map((p, i) => (
                 <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
@@ -279,7 +289,7 @@ export default function BestPilatesChairPage() {
                   },
                   {
                     q: "Is the classic two-pedal Wunda Chair sold on Amazon?",
-                    a: "No — we could not find a live Amazon listing for the classic two-pedal Wunda Chair under any brand. The real, verified Balanced Body chair sold on Amazon is the EXO Pilates Chair, a single-pedal design, at $1,255. Gratz's classical Wunda Chair and Merrithew's split-pedal chair are both dealer-direct only.",
+                    a: "Yes, from budget-tier brands — the VEVOR Split-Pedal Pilates Combo Chair ($249.90) is a real, live Amazon listing with the classic two-pedal design. Balanced Body's own chair sold on Amazon, the EXO Pilates Chair ($1,255), is single-pedal. Gratz's classical Wunda Chair and Merrithew's split-pedal chair remain dealer-direct only.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
