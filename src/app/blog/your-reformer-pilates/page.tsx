@@ -8,11 +8,11 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Your Reformer Review (2026): Honestly Assessed",
-  description: "Your Reformer reviewed — the Australian wood reformer with a built-in app, sold direct rather than on Amazon. What we could verify about the connected model, and what to confirm yourself before buying.",
-  keywords: ["your reformer review", "your reformer pilates", "your reformer app", "connected pilates reformer", "your reformer original", "yr studio pilates", "best home pilates reformer app", "your reformer australia", "premium wood pilates reformer", "your reformer 2026"],
+  description: "Your Reformer reviewed — the Australian wood reformer with a built-in app, sold direct rather than on Amazon, plus two real budget-tier Amazon alternatives for buyers who want purchase-today hardware.",
+  keywords: ["your reformer review", "your reformer pilates", "your reformer app", "connected pilates reformer", "your reformer original", "yr studio pilates", "best home pilates reformer app", "your reformer australia", "premium wood pilates reformer", "your reformer 2026", "budget pilates reformer amazon"],
   openGraph: {
     title: "Your Reformer Review (2026): Honestly Assessed",
-    description: "Your Reformer — the premium wood reformer with an integrated app, reviewed honestly for what we could and couldn't verify.",
+    description: "Your Reformer — the premium wood reformer with an integrated app, reviewed honestly, plus two real budget Amazon alternatives.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/your-reformer-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg", width: 1200, height: 630, alt: "Your Reformer Pilates review — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Your Reformer Review (2026)",
-    description: "Your Reformer — the connected wood reformer, sold direct, reviewed honestly.",
+    description: "Your Reformer — the connected wood reformer, sold direct, reviewed honestly, plus two budget Amazon alternatives.",
     images: ["https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/your-reformer-pilates" },
@@ -68,6 +68,26 @@ const PRODUCTS = [
     affiliateUrl: "https://yourreformer.com",
     tag: "Accessories",
   },
+  {
+    rank: "05",
+    name: "WINDFOOT Pilates Reformer",
+    price: "$295.99",
+    verdict: "Not Your Reformer — a real, budget-tier Amazon alternative with no app",
+    description:
+      "To be upfront: this is not a Your Reformer product, and it doesn't have the integrated app or the furniture-grade finish Your Reformer is known for. It's a basic, no-frills reformer — but it's a genuine, currently-sold Amazon listing at $295.99, which puts real Amazon purchase protection and same-week delivery within reach for buyers priced out of Your Reformer's direct-sale hardware. If you want a connected, premium home studio experience, buy from Your Reformer directly; if you just want working reformer hardware today at a fraction of the cost and are happy to source your own class content, this is an honest, disclosed alternative to consider.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
+    tag: "Budget Amazon Alternative",
+  },
+  {
+    rank: "06",
+    name: "DWKWE Pilates Reformer",
+    price: "$299.99",
+    verdict: "Not Your Reformer — a second real, budget-tier Amazon alternative",
+    description:
+      "Also not a Your Reformer product and, like the WINDFOOT above, it skips the app and the wood-accented furniture look entirely. We include it as a second genuine, currently-sold Amazon option at $299.99 for readers comparing budget hardware side by side before deciding whether Your Reformer's premium, app-connected package is worth the price difference to them. Confirm current specs and stock directly on the Amazon listing before buying.",
+    affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
+    tag: "Budget Amazon Alternative",
+  },
 ];
 
 const jsonLd = {
@@ -76,7 +96,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Your Reformer Review (2026): Honestly Assessed",
-      "description": "Your Reformer reviewed — The Original and The Studio machines, plus the YR app, sold direct rather than on Amazon, assessed for what could be independently verified.",
+      "description": "Your Reformer reviewed — The Original and The Studio machines, plus the YR app, sold direct rather than on Amazon, assessed for what could be independently verified, plus two real budget-tier Amazon reformer alternatives.",
       "url": "https://pilatescollectiveclub.com/blog/your-reformer-pilates",
       "datePublished": "2026-05-21",
       "dateModified": "2026-09-23",
@@ -84,6 +104,21 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/your-reformer-pilates" },
+    },
+    {
+      "@type": "ItemList",
+      "name": "Your Reformer and Verified Amazon Alternatives (2026)",
+      "numberOfItems": PRODUCTS.length,
+      "itemListElement": PRODUCTS.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "Product",
+          "name": p.name,
+          "description": p.description,
+          "url": p.affiliateUrl,
+        },
+      })),
     },
     {
       "@type": "BreadcrumbList",
@@ -101,6 +136,7 @@ const jsonLd = {
         { "@type": "Question", "name": "Is Your Reformer a spring or bungee reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer describes its machines as using spring resistance rather than bungee cords, which would distinguish it from brands like AeroPilates that use elastic cord resistance. We could not independently verify the exact spring configuration, so confirm the current spec directly with the brand." } },
         { "@type": "Question", "name": "Where is Your Reformer made?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer is an Australian brand; production location and other manufacturing details should be confirmed directly with the company rather than assumed." } },
         { "@type": "Question", "name": "Can I use Your Reformer without the app?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer describes the app subscription as optional and the hardware as usable without connectivity. Confirm this directly with the brand if it's a deciding factor for you." } },
+        { "@type": "Question", "name": "Is there a cheaper alternative to Your Reformer on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, though these are honest disclosures rather than like-for-like substitutes: the WINDFOOT Pilates Reformer ($295.99) and the DWKWE Pilates Reformer ($299.99) are both real, currently-sold Amazon listings. Neither includes Your Reformer's app or furniture-grade finish — they're basic hardware for buyers who want a purchase-today option at a fraction of the price." } },
       ],
     },
   ],
@@ -123,11 +159,11 @@ export default function YourReformerPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Your Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): The Connected Home Studio</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not find a live Amazon listing for Your Reformer — links on this page go directly to yourreformer.com, not to an Amazon offer, and we earn no commission from them.</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 10 min read</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not find a live Amazon listing for Your Reformer — four links on this page go directly to yourreformer.com and we earn no commission from them. Two links go to real, verified Amazon products (not Your Reformer-branded), and we earn a small commission on qualifying purchases through them.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Your Reformer pairs a reformer with an integrated app — hardware plus content, in the vein of Peloton&apos;s approach to home cycling. It is sold direct through yourreformer.com rather than on Amazon, so this review is honest about what we could and couldn&apos;t independently verify: we could not confirm the brand&apos;s specific spring count, exact pricing, or precise hardware specifications, and an earlier version of this review stated several of these as settled facts that we can no longer stand behind. What follows covers what the brand itself claims, flags what we couldn&apos;t verify, and points you to yourreformer.com to confirm specifics before buying.
+              Your Reformer pairs a reformer with an integrated app — hardware plus content, in the vein of Peloton&apos;s approach to home cycling. It is sold direct through yourreformer.com rather than on Amazon, so this review is honest about what we could and couldn&apos;t independently verify: we could not confirm the brand&apos;s specific spring count, exact pricing, or precise hardware specifications, and an earlier version of this review stated several of these as settled facts that we can no longer stand behind. What follows covers what the brand itself claims, flags what we couldn&apos;t verify, points you to yourreformer.com to confirm specifics before buying, and adds two real, honestly-disclosed budget Amazon alternatives for readers who want purchase-today hardware instead.
             </p>
           </div>
         </section>
@@ -148,7 +184,7 @@ export default function YourReformerPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
                   { label: "Origin", value: "Australia" },
-                  { label: "Sold on Amazon?", value: "No confirmed live listing — sold direct via yourreformer.com" },
+                  { label: "Sold on Amazon?", value: "No confirmed live listing for Your Reformer — sold direct via yourreformer.com; two budget Amazon alternatives included" },
                   { label: "Unique offering", value: "Integrated YR app with on-demand classes (per brand's own description)" },
                 ].map((item) => (
                   <div key={item.label}>
@@ -179,7 +215,7 @@ export default function YourReformerPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Products · Reviewed</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Items · 4 Your Reformer Products + 2 Verified Amazon Alternatives</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -202,6 +238,7 @@ export default function YourReformerPilatesPage() {
                   { q: "Is Your Reformer a spring or bungee reformer?", a: "Your Reformer describes its machines as using spring resistance rather than bungee cords, which would distinguish it from brands like AeroPilates that use elastic cord resistance. We could not independently verify the exact spring configuration, so confirm the current spec directly with the brand." },
                   { q: "Where is Your Reformer made?", a: "Your Reformer is an Australian brand. Production location and other manufacturing details should be confirmed directly with the company rather than assumed." },
                   { q: "Can I use Your Reformer without the app?", a: "Your Reformer describes the app subscription as optional and the hardware as usable without connectivity. Confirm this directly with the brand if it's a deciding factor for you." },
+                  { q: "Is there a cheaper alternative to Your Reformer on Amazon?", a: "Yes, though these are honest disclosures rather than like-for-like substitutes: the WINDFOOT Pilates Reformer ($295.99) and the DWKWE Pilates Reformer ($299.99) are both real, currently-sold Amazon listings. Neither includes Your Reformer's app or furniture-grade finish — they're basic hardware for buyers who want a purchase-today option at a fraction of the price." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

@@ -77,7 +77,7 @@ const CLASSES = [
   {
     label: "Folding reformer",
     dims: "Folds to ~40 to 60% of footprint",
-    body: "Built for the storage problem specifically. Operational dimensions are close to a compact machine, but the frame folds for vertical storage against a wall, which is what makes it viable in an apartment where nothing can stay set up. Confirm both dimensions before buying, because the operational and folded figures are different numbers and listings sometimes lead with the flattering one.",
+    body: "Built for the storage problem specifically. Operational dimensions are close to a compact machine, but the frame folds for vertical storage against a wall, which is what makes it viable in an apartment where nothing can stay set up. This is also where a genuine budget tier exists: real, currently-sold folding reformers with actual spring resistance — the WINDFOOT Foldable Reformer and DWKWE 88\" Foldable Reformer among them — from $295.99 to $299.99, from generic/dropship brands rather than established Pilates equipment makers. Confirm both dimensions before buying, because the operational and folded figures are different numbers and listings sometimes lead with the flattering one, and we could not independently verify exact folded dimensions for every budget model, so check the current listing.",
   },
   {
     label: "Mini and portable reformer",
@@ -97,6 +97,8 @@ const REFORMERS = [
   { name: "Merrithew At Home SPX Reformer", description: "Shorter and narrower than a full-size studio frame while keeping the same spring system and carriage build. Fits along a wall in most bedrooms. Sold mainly as a package, so confirm what a given price includes.", price: "From $3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
   { name: "Balanced Body Metro IQ Reformer", description: "The cheapest genuine spring reformer from a major brand, and the machine that marks the real floor of the category. Short stored length makes it the one that fits where a full studio frame does not.", price: "From $2,330", affiliateUrl: "https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20" },
   { name: "AeroPilates Pro XP 557 Reformer", description: "The one machine from a recognised brand that genuinely costs under $2,000. It uses elastic cord rather than coil springs, which is a real difference in how resistance builds, but for building a habit it is a workable trade.", price: "From $1,329.99", affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
+  { name: "WINDFOOT Foldable Pilates Reformer w/ Jump Board", description: "A genuine small-footprint option: real spring resistance rather than cords, pre-assembled roughly 90%, and it folds for storage against a wall — the exact problem this class of machine is built for. WINDFOOT is a generic/dropship brand with no established track record among instructors, so it trades brand certainty for footprint and price.", price: "From $295.99", affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20" },
+  { name: "DWKWE 88\" Foldable Reformer", description: "A second real folding option at a similar price: gray metal frame, adjustable footbar, dual spring-and-latex resistance, and folds down for storage. Same honest caveat as the WINDFOOT — a generic brand rather than an established Pilates equipment maker, so confirm current condition and warranty terms on the listing before buying.", price: "From $299.99", affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20" },
 ];
 
 const PRODUCTS = [
@@ -263,7 +265,7 @@ export default function PilatesReformerDimensionsPage() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Machines by footprint class</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                One machine from each class above, from the full studio frame down to the compact and cord-resistance options. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+                One or more machines from each class above, from the full studio frame down to the compact, folding, and cord-resistance options. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
               </p>
               <div className="space-y-8">
                 {REFORMERS.map((p) => (
