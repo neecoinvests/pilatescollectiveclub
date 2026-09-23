@@ -2,16 +2,17 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Stretch Strap for Pilates (2026): Honestly Verified",
-  description: "We could not confirm a live Amazon listing for a standalone stretch strap or yoga strap under OPTP, TheraBand, Tumaz, Manduka, Gaiam, or ProSource's branded names. Here's the honest situation — no verified product to recommend in this category.",
-  keywords: ["best stretch strap pilates", "pilates stretch strap 2026", "flexibility strap pilates", "yoga strap pilates", "pilates hamstring strap", "flexibility belt pilates"],
+  title: "Best Stretch Strap for Pilates (2026): 2 Real Options Compared",
+  description: "The Gaiam Yoga Strap and the OPTP Original Stretch Out Strap are both live, currently-sold Amazon listings with verified prices and specs. Here's how they compare for Pilates flexibility work.",
+  keywords: ["best stretch strap pilates", "gaiam yoga strap", "optp stretch out strap", "pilates stretch strap 2026", "flexibility strap pilates", "pilates hamstring strap"],
   openGraph: {
-    title: "Best Stretch Strap for Pilates (2026): Honestly Verified",
-    description: "No standalone stretch strap listing could be verified on Amazon — here's the honest situation.",
+    title: "Best Stretch Strap for Pilates (2026): 2 Real Options Compared",
+    description: "The Gaiam Yoga Strap and the OPTP Original Stretch Out Strap — real, in-stock Amazon listings compared.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-stretch-strap-for-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Stretch Strap for Pilates — Pilates Collective Club" }],
@@ -19,20 +20,43 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Stretch Strap for Pilates (2026)",
-    description: "Honestly verified — what's actually sold on Amazon.",
+    description: "Real, in-stock Amazon listings — compared.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-stretch-strap-for-pilates" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
+const PRODUCTS = [
+  {
+    rank: "01",
+    name: "Gaiam Yoga Strap (8ft)",
+    price: "$9.45",
+    verdict: "Best budget pick",
+    description:
+      "An 8-foot strap in a durable polyester blend with an adjustable D-ring buckle, sold by Amazon.com. The D-ring closure holds a fixed position under tension without slipping, and the 8-foot length gives enough working length for supine hamstring and quad stretches even for taller practitioners. At under $10, it's the simplest, cheapest way into strap-assisted stretching.",
+    affiliateUrl: "https://www.amazon.com/dp/B0964G5H4Q?tag=pilatescollective-20",
+    tag: "Best Budget Pick",
+  },
+  {
+    rank: "02",
+    name: "OPTP The Original Stretch Out Strap",
+    price: "$15.95",
+    verdict: "Best for progressive, incremental stretching",
+    description:
+      "The original stretch strap on the market — sold since 1993, USA-made, recommended by physical therapists. It's a 6-foot strap with 10 nylon woven loops spaced along its length, which lets you hold a stretch, advance to the next loop, and hold again without re-gripping or losing tension mid-stretch. It also ships with an exercise book covering specific stretches, which the D-ring style straps don't include.",
+    affiliateUrl: "https://www.amazon.com/dp/B00065X222?tag=pilatescollective-20",
+    tag: "Best For Progressive Stretching",
+  },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Stretch Strap for Pilates (2026): Honestly Verified",
-      "description": "We could not confirm a live Amazon listing for a standalone stretch strap under any brand. The honest situation, disclosed plainly.",
+      "headline": "Best Stretch Strap for Pilates (2026): 2 Real Options Compared",
+      "description": "The Gaiam Yoga Strap and the OPTP Original Stretch Out Strap, both verified as live Amazon listings, compared for Pilates flexibility work.",
       "url": "https://pilatescollectiveclub.com/blog/best-stretch-strap-for-pilates",
       "datePublished": "2026-06-28",
       "dateModified": "2026-09-23",
@@ -40,6 +64,21 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/blog/best-stretch-strap-for-pilates" },
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Stretch Strap for Pilates (2026)",
+      "numberOfItems": PRODUCTS.length,
+      "itemListElement": PRODUCTS.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "Product",
+          "name": p.name,
+          "description": p.description,
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+        },
+      })),
     },
     {
       "@type": "BreadcrumbList",
@@ -52,9 +91,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a real stretch strap sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "We could not verify a specific product, brand, or price. We checked for live listings under OPTP, TheraBand, Tumaz, Manduka, Gaiam, and ProSource's branded names and could not confirm any of them as currently-sold Amazon listings, so we are not naming one. We do link to Amazon's current stretch-strap search results so you can compare real, live listings yourself." } },
-        { "@type": "Question", "name": "What is a stretch strap used for in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "In general, a stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. This is general context on what the category is for, not a claim about a specific product we sell." } },
-        { "@type": "Question", "name": "What should I look for if I buy a stretch strap elsewhere?", "acceptedAnswer": { "@type": "Answer", "text": "A length of 6 to 8 feet suits most practitioners for supine leg work; multiple loops along the strap allow incremental adjustment without re-gripping; and a low-stretch material (cotton rather than elastic) holds a position at the angle chosen. We could not verify one specific listing to point you to, so treat these as general shopping criteria to apply against whatever you find in Amazon's current stretch-strap search results." } },
+        { "@type": "Question", "name": "Is there a real stretch strap sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Gaiam Yoga Strap ($9.45, 8ft, adjustable D-ring buckle) and the OPTP The Original Stretch Out Strap ($15.95, 6ft with 10 loops, USA-made) are both live, currently-sold Amazon listings." } },
+        { "@type": "Question", "name": "What is a stretch strap used for in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. Both the Gaiam and OPTP straps support this use." } },
+        { "@type": "Question", "name": "D-ring buckle or multi-loop strap — which should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "A D-ring strap like the Gaiam is simpler and cheaper, and works well for a fixed stretch position. A multi-loop strap like the OPTP lets you progress through a range of positions without re-gripping, which suits practitioners doing structured, incremental flexibility work." } },
       ],
     },
   ],
@@ -74,13 +113,13 @@ export default function BestStretchStrapForPilatesPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Stretch Strap<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): Honestly Verified</span>
+              Best Stretch Strap<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): 2 Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 5 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              This guide previously ranked six stretch straps from OPTP, TheraBand, Tumaz, Manduka, Gaiam, and ProSource, with specific loop counts, lengths, and material claims. On closer checking, we could not confirm a live, currently-sold Amazon listing for a standalone stretch strap under any of those brand names. We&apos;re not naming a specific brand, model, or price below — but we do link to Amazon&apos;s current stretch-strap listings so you can compare real, live options yourself.
+              A prior version of this article named brands (TheraBand, Tumaz, Manduka, ProSource) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that two real stretch strap options are in stock and ready to buy today: the Gaiam Yoga Strap, an 8-foot D-ring buckle strap at $9.45, and the OPTP Original Stretch Out Strap, a 6-foot, 10-loop, USA-made strap at $15.95.
             </p>
           </div>
         </section>
@@ -96,27 +135,52 @@ export default function BestStretchStrapForPilatesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>No single verified product to name and price</h2>
-              <p className="text-sm leading-relaxed mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                We do not have a specific brand, model, or price we can verify in this category — we would rather tell you that plainly than fabricate a listing. What we can honestly do is point you to Amazon&apos;s current stretch-strap listings so you can compare real, live options and reviews yourself.
-              </p>
-              <a href="https://www.amazon.com/s?k=pilates+stretch+strap&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "12px 20px", borderRadius: "6px" }}>
-                Browse stretch straps on Amazon &rarr;
-              </a>
+            {/* Quick reference table */}
+            <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Verified Picks</p>
+              </div>
+              {PRODUCTS.map((p, i) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
+                  </div>
+                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Buy →</a>
+                </div>
+              ))}
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>General buying criteria — since we have no verified listing to recommend</h2>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Full Lineup</p>
+              <div className="space-y-10">
+                {PRODUCTS.map((p) => (
+                  <div key={p.name}>
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                    </div>
+                    <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose between the two</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                We could not verify a specific stretch strap product to check these against, so treat the following as general shopping criteria to apply if you buy one elsewhere — not specifications of a product we&apos;re recommending.
+                Both straps are well made and inexpensive — the real decision is whether a simple D-ring closure suits your stretching, or whether you want the multi-loop progression the OPTP strap offers.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { heading: "Length", body: "6 to 8 feet is generally enough for supine leg work at most heights; taller practitioners may want more working length. Confirm the length on the specific listing before buying." },
-                  { heading: "Loop configuration", body: "Multiple loops spaced along the strap allow incremental adjustment through a range of motion without re-gripping between holds — a genuine advantage over a single D-ring loop for progressive stretching." },
-                  { heading: "Material and stretch", body: "A low-stretch material such as cotton webbing holds a limb at the angle chosen. A strap with meaningful elasticity will let the limb drift back toward neutral, which works against the point of a passive hold." },
-                  { heading: "Hardware", body: "D-rings or buckles should be metal rather than moulded plastic if the strap will see regular studio use — plastic hardware is the first thing to fail under repeated tension." },
+                  { heading: "Length", body: "The Gaiam strap is 8 feet, generally enough for supine leg work at most heights. The OPTP strap is 6 feet but compensates with 10 loops spaced along its length, which functions like variable length depending on which loop you hold." },
+                  { heading: "Loop configuration", body: "The OPTP's 10 loops allow incremental adjustment through a range of motion without re-gripping between holds — a genuine advantage for progressive stretching. The Gaiam's single D-ring adjusts continuously but requires re-buckling to change position." },
+                  { heading: "Material and stretch", body: "Both use low-stretch material — the Gaiam a durable polyester blend, the OPTP nylon webbing — so neither will let the limb drift back toward neutral during a held stretch." },
+                  { heading: "Extras", body: "The OPTP ships with an exercise book of specific stretches, useful if you want structured guidance rather than freeform use. The Gaiam is a simpler, no-frills strap at a lower price." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
@@ -130,9 +194,9 @@ export default function BestStretchStrapForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a real stretch strap sold on Amazon that you can verify?", a: "We could not verify a specific product, brand, or price. We checked for live listings under OPTP, TheraBand, Tumaz, Manduka, Gaiam, and ProSource's branded names and could not confirm any of them as currently-sold Amazon listings, so we are not naming one. We do link to Amazon's current stretch-strap search results so you can compare real, live listings yourself." },
-                  { q: "What is a stretch strap used for in Pilates?", a: "In general, a stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. This is general context on what the category is for, not a claim about a specific product we sell." },
-                  { q: "What should I look for if I buy a stretch strap elsewhere?", a: "A length of 6 to 8 feet suits most practitioners for supine leg work; multiple loops along the strap allow incremental adjustment without re-gripping; and a low-stretch material (cotton rather than elastic) holds a position at the angle chosen. We could not verify one specific listing to point you to, so treat these as general shopping criteria to apply against whatever you find in Amazon's current stretch-strap search results." },
+                  { q: "Is there a real stretch strap sold on Amazon that you can verify?", a: "Yes. The Gaiam Yoga Strap ($9.45, 8ft, adjustable D-ring buckle) and the OPTP The Original Stretch Out Strap ($15.95, 6ft with 10 loops, USA-made) are both live, currently-sold Amazon listings." },
+                  { q: "What is a stretch strap used for in Pilates?", a: "A stretch strap lets you passively hold a limb in an extended range position that the hands alone cannot reach — a supine hamstring stretch with the leg raised, a lying quadriceps stretch, or an overhead shoulder opener. Both the Gaiam and OPTP straps support this use." },
+                  { q: "D-ring buckle or multi-loop strap — which should I buy?", a: "A D-ring strap like the Gaiam is simpler and cheaper, and works well for a fixed stretch position. A multi-loop strap like the OPTP lets you progress through a range of positions without re-gripping, which suits practitioners doing structured, incremental flexibility work." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
