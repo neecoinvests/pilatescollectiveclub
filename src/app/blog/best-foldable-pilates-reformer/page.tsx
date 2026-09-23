@@ -7,17 +7,17 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Foldable Pilates Reformer (2026): Top Picks for Small Spaces",
-  description: "The best foldable Pilates reformers of 2026 — AeroPilates, Align Pilates, and Stamina folding models reviewed for stability, storage size, and spring quality.",
-  keywords: ["best foldable pilates reformer", "foldable pilates reformer 2026", "folding pilates reformer review", "pilates reformer small space", "compact folding reformer", "best portable pilates reformer", "aeropilates folding reformer", "align pilates foldable"],
+  title: "Best Foldable Pilates Reformer (2026): Honestly Verified",
+  description: "Which Pilates reformers are genuinely marketed and sold as fold-flat, and which folding claims (Balanced Body 'Allegro 2', Merrithew SPX) don't hold up. Real Amazon listings and prices only.",
+  keywords: ["best foldable pilates reformer", "foldable pilates reformer 2026", "folding pilates reformer review", "pilates reformer small space", "compact folding reformer", "best portable pilates reformer", "aeropilates folding reformer"],
   openGraph: {
-    title: "Best Foldable Pilates Reformer (2026): Space-Saving Machines",
-    description: "Full-function Pilates reformers that fold and store — compared across budget, mid-range, and premium tiers.",
+    title: "Best Foldable Pilates Reformer (2026): Honestly Verified",
+    description: "Which reformers genuinely fold, which folding claims don't hold up, and the real Amazon listings and prices for each.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-foldable-pilates-reformer",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Best foldable Pilates reformer — Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "Best Foldable Pilates Reformer (2026)", description: "Pilates reformers that fold for small-space storage — reviewed across every price tier.", images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"] },
+  twitter: { card: "summary_large_image", title: "Best Foldable Pilates Reformer (2026)", description: "Honest verification of folding claims across AeroPilates, Align-Pilates, Merrithew and Balanced Body.", images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-foldable-pilates-reformer" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -25,53 +25,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Balanced Body Allegro 2 Reformer",
-    price: "From $3,995",
-    verdict: "Best premium foldable reformer",
+    name: "AeroPilates Pro XP 557",
+    price: "$1,329.99",
+    verdict: "AeroPilates' own fold-flat design, mid-range",
     description:
-      "The Balanced Body Allegro 2 is the gold standard for serious home practitioners who need storage flexibility without compromising on practice quality. The folding mechanism reduces the machine to approximately half its working footprint — stand it upright against a wall and it occupies roughly the space of a large wardrobe. In working position it is a full-function studio reformer: four springs, full-length 110cm rails, sealed bearing carriage, and compatibility with the complete Balanced Body accessories range including Box, Tower, Pole, and Jump Board. The fold is stable and the machine locks securely upright. For practitioners committed to a long-term home practice in a space-constrained home, the Allegro 2 is the machine to buy once.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer+folding&tag=pilatescollective-20",
+      "A note before anything else: this guide previously named a \"Balanced Body Allegro 2\" as the top premium folding reformer. We could not find a live Amazon listing for that model — it is not a real, currently-sold offer — so it has been removed. Of the reformers we could actually verify as real, live Amazon listings, AeroPilates is the brand that markets and sells its machines around a fold-flat design as a core feature, and the Pro XP 557 is its higher-end model at $1,329.99. It includes a standing platform and rebounder and uses elastic cord resistance rather than coil springs — a real and meaningful difference from studio-grade spring machines. We could not independently verify exact folded dimensions or fold time for the current listing, so confirm those on the product page rather than a figure quoted here.",
+    affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Merrithew At Home SPX Reformer",
-    price: "From $3,299",
-    verdict: "Best mid-premium foldable reformer",
+    name: "AeroPilates Reformer 287",
+    price: "$359",
+    verdict: "AeroPilates' own fold-flat design, budget tier",
     description:
-      "The Merrithew At Home SPX is the machine Merrithew designed specifically for home use — a full spring system in a fold-flat frame. At working length it is a complete reformer with four springs, adjustable footbar, shoulder rests, and the standard Merrithew carriage quality you'll recognise from STOTT PILATES studios. Folded, it reduces to approximately 20cm depth and can be stored under a bed or in a closet on casters. The At Home SPX is compatible with the Vertical Stand (sold separately), which converts it to a semi-tower system for additional exercise range. For practitioners who have trained in STOTT PILATES studios and want the same feel at home without dedicating permanent floor space, this is the clearest recommendation.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrithew+at+home+spx+reformer&tag=pilatescollective-20",
-    tag: "STOTT PILATES Quality",
-  },
-  {
-    rank: "03",
-    name: "AeroPilates Pro XP 557",
-    price: "From $1,329",
-    verdict: "Best mid-range foldable reformer",
-    description:
-      "The AeroPilates 557 is the strongest mid-range foldable option — four resistance cords, a standing platform, rebounder, and a fold-flat aluminium frame that stores under a standard bed. While the cord resistance differs from springs (more linear, less progressive), the fold mechanism is excellent: it releases with a single lever, folds in under 30 seconds, and rolls on built-in wheels. For practitioners who want a genuine full-function foldable machine without the premium investment, the 557 represents the best balance of quality, footprint, and price in this category. Suitable for beginners through to confident intermediate practitioners.",
-    affiliateUrl: "https://www.amazon.com/s?k=aeropilates+pro+xp+557+reformer&tag=pilatescollective-20",
-    tag: "Best Mid-Range",
-  },
-  {
-    rank: "04",
-    name: "Stamina AeroPilates 287",
-    price: "From $299",
-    verdict: "Best budget foldable reformer",
-    description:
-      "The AeroPilates 287 is the best budget foldable option — and the most accessible entry point into reformer Pilates. The four-cord system folds flat and rolls for storage; the full machine fits under a standard bed. At this price point the trade-offs are real: nylon wheel carriage (noisier than bearings), shorter rail length (limiting for taller practitioners), and cord resistance rather than springs. But for beginners exploring reformer Pilates or practitioners with genuine space and budget constraints, the 287 delivers the core reformer exercises in a storable form. The rebounder is included, making it also useful for cardio intervals.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+aeropilates+287+folding+reformer&tag=pilatescollective-20",
+      "The AeroPilates 287 is the most accessible entry point into reformer Pilates and, like the rest of the AeroPilates range, is marketed by the brand around fold-flat storage. It uses elastic cord resistance rather than coil springs, which feels genuinely different from a spring-based studio machine. We could not independently verify exact folded dimensions, weight, or fold time for the current listing — confirm those against your specific storage space on the Amazon product page before buying on the strength of this feature.",
+    affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
     tag: "Best Budget",
   },
   {
-    rank: "05",
-    name: "Align-Pilates C2 Pro Reformer",
-    price: "From $2,190",
-    verdict: "Best mid-tier spring reformer with folding option",
+    rank: "03",
+    name: "Align-Pilates C8-PRO Reformer",
+    price: "$2,750",
+    verdict: "Spring-based — we could not verify a fold mechanism",
     description:
-      "The Align-Pilates C2 Pro offers studio-grade spring resistance in a frame that folds upright for storage. Five springs, adjustable footbar, sealed roller carriage, and a solid aluminium and steel construction that matches the build quality of machines costing twice as much. Align-Pilates is a UK brand with growing distribution in the US and EU; their machines are manufactured to professional specifications and have earned serious endorsement from working Pilates instructors. The C2 Pro's folding mechanism is less compact than the AeroPilates (it folds upright, not flat), but the spring system and carriage quality are in a different tier entirely. An excellent choice for practitioners ready for real spring resistance in a storable form.",
-    affiliateUrl: "https://www.amazon.com/s?k=align+pilates+c2+pro+reformer&tag=pilatescollective-20",
-    tag: "Spring + Fold",
+      "An earlier version of this article named a \"C2 Pro\" model that we could not verify as a genuine, currently-sold Align-Pilates listing under that name. The real Align-Pilates machine sold on Amazon — through Merrithew, Align's US distributor — is the C8-PRO, at $2,750. It uses genuine coil-spring resistance rather than cords. We could not find or verify a folding mechanism for this specific listing, so if a folding design is a requirement for you, do not assume the C8-PRO has one — confirm directly on the current listing before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20",
+    tag: "Spring-Based",
+  },
+  {
+    rank: "04",
+    name: "Merrithew At Home SPX Reformer Package",
+    price: "$3,349",
+    verdict: "Not verified to fold — a real spring machine, bought for a different reason",
+    description:
+      "This is the real SPX-family machine Merrithew sells on Amazon. An earlier version of this article, and a separate earlier review on this site, claimed this machine folds flat and rolls under a bed; on closer checking we could not verify a fold-flat-onto-castors feature for this listing, and that claim has been removed. If you're specifically shopping this roundup for a machine that folds, this is not a confirmed one — buy it instead for Merrithew's five-spring system with fine light-end gradation, useful for rehab and prenatal work.",
+    affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
+    tag: "Spring-Based",
+  },
+  {
+    rank: "05",
+    name: "Balanced Body Studio Reformer (Revo Footbar)",
+    price: "$4,700",
+    verdict: "Does not fold — a permanent-installation machine",
+    description:
+      "This is the real Balanced Body flagship sold on Amazon, and it is included here for contrast rather than as a folding recommendation: it does not fold. It is a made-to-order, permanent-installation machine with a Strata rock maple frame, five Signature Springs, and full tower compatibility. If a small, non-folding footprint isn't a dealbreaker and you want the deepest accessory ecosystem and studio-grade build, it's worth knowing about — but it will not solve a space-constrained storage problem the way a genuinely folding machine would.",
+    affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
+    tag: "Does Not Fold",
   },
 ];
 
@@ -80,11 +80,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Foldable Pilates Reformer (2026): Space-Saving Machines That Don't Compromise",
-      "description": "The best foldable Pilates reformers — AeroPilates, Balanced Body Allegro 2, and Merrithew At Home SPX compared. How to get a full practice in a small space.",
+      "headline": "Best Foldable Pilates Reformer (2026): Which Folding Claims Actually Hold Up",
+      "description": "An honest audit of folding claims across the reformer market — real Amazon listings and prices only, with unverified or fabricated fold claims (a 'Balanced Body Allegro 2', a folding Merrithew SPX) corrected.",
       "url": "https://pilatescollectiveclub.com/blog/best-foldable-pilates-reformer",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -101,10 +101,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do foldable reformers compromise practice quality?", "acceptedAnswer": { "@type": "Answer", "text": "At the premium tier (Allegro 2, Merrithew SPX), no — these machines are used by professional instructors and in clinical Pilates contexts. At the budget tier, the fold itself is not the quality compromise; the cord system and lighter construction are." } },
-        { "@type": "Question", "name": "How long does it take to set up and fold a foldable reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Premium machines (Allegro 2): 60–90 seconds to unfold, same to fold. The lever mechanism is smooth and designed for daily use. Budget machines (AeroPilates): 45–60 seconds. Neither requires tools." } },
-        { "@type": "Question", "name": "Can I store a foldable reformer in a wardrobe?", "acceptedAnswer": { "@type": "Answer", "text": "The Allegro 2 folded upright fits in a standard double wardrobe (minimum 120cm wide, 60cm deep, 200cm tall). The AeroPilates folded flat fits under a standard bed with 25cm clearance." } },
-        { "@type": "Question", "name": "Is a foldable reformer as stable as a non-folding reformer?", "acceptedAnswer": { "@type": "Answer", "text": "For premium foldable machines, yes. For budget machines, there is marginally more flex at the fold joint — not unsafe, but perceptible during standing exercises. A non-slip mat under the base helps." } },
+        { "@type": "Question", "name": "Is the \"Balanced Body Allegro 2\" a real folding reformer?", "acceptedAnswer": { "@type": "Answer", "text": "No — we could not find a live Amazon listing for a model by that name, and the folding claims previously attached to it are unverified. The real Balanced Body flagship sold on Amazon is the Studio Reformer, at $4,700, and it explicitly does not fold; it is a permanent-installation machine." } },
+        { "@type": "Question", "name": "Does the Merrithew At Home SPX fold flat for storage?", "acceptedAnswer": { "@type": "Answer", "text": "We could not verify this. An earlier version of this article, and a separate earlier review on this site, described a fold-flat-onto-castors feature for this machine; on closer checking that claim did not hold up and has been removed. Buy it for the spring system, not for storage flexibility, unless you can confirm folding on the current listing yourself." } },
+        { "@type": "Question", "name": "Which reformers are genuinely marketed as fold-flat?", "acceptedAnswer": { "@type": "Answer", "text": "AeroPilates is the brand that consistently markets its models, including the 287 and Pro XP 557, around a fold-flat design. We could not independently verify exact folded dimensions or fold time for the current listings, so check the specific product page against your storage space before buying on the strength of this feature alone." } },
+        { "@type": "Question", "name": "Is a folding reformer as stable as a non-folding one?", "acceptedAnswer": { "@type": "Answer", "text": "We could not verify a specific stability comparison across models. In general, a permanent-installation studio machine like the Balanced Body Studio Reformer is built without a fold joint at all, which removes one potential source of flex; for any machine marketed as folding, check current owner reviews on the specific listing rather than relying on a general claim." } },
       ],
     },
   ],
@@ -125,13 +125,13 @@ export default function BestFoldablePilatesReformerPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Small Space</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Foldable Pilates Reformer (2026):<br /><span style={{ color: "#8b4a31" }}>Space-Saving Machines That Don&apos;t Compromise</span>
+              Best Foldable Pilates Reformer (2026):<br /><span style={{ color: "#8b4a31" }}>Which Folding Claims Actually Hold Up</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The single biggest barrier to home reformer Pilates is not cost — it is space. A standard reformer is approximately 2.4m long and 60cm wide; in a one- or two-bedroom apartment, that is a permanent fixture. Foldable reformers solve this with varying degrees of compromise. This guide covers the best foldable options from $299 to $3,495 and explains exactly how compact each machine gets and what (if anything) is sacrificed for the fold.
+              This category is where fabricated folding claims turn up most often — a &quot;Balanced Body Allegro 2&quot; that isn&apos;t a real Amazon listing, and a Merrithew SPX fold-flat claim that didn&apos;t survive a closer check. We rechecked every folding claim in this guide against real, live Amazon listings. The honest result: AeroPilates is the brand that genuinely markets and sells its reformers around a fold-flat design. The premium spring-based machines here are included for comparison, but we could not verify a folding mechanism for any of them, and one — the Balanced Body Studio Reformer — explicitly does not fold at all.
             </p>
           </div>
         </section>
@@ -153,19 +153,19 @@ export default function BestFoldablePilatesReformerPage() {
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What does &apos;foldable&apos; actually mean?</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Not all foldable reformers fold the same way. There are two distinct mechanisms, and they suit different storage situations. <strong style={{ color: "#1b1c1c" }}>Fold-flat</strong> machines fold horizontally — the frame hinges in half and the whole unit lies flat, typically 25–30cm high at its thickest point, for the full working length of the machine. This makes them ideal for sliding under a standard bed, provided you have at least 25cm of floor clearance. The AeroPilates range uses this approach, and it is the most convenient for daily use: fold, roll, store in under a minute.
+                &apos;Foldable&apos; and &apos;fold-flat&apos; get used loosely in this category, and this guide previously repeated folding claims for two premium machines that we could not verify. <strong style={{ color: "#1b1c1c" }}>Fold-flat</strong> designs, where the frame hinges and the whole unit lies flat for storage under a bed, are a design AeroPilates genuinely markets and sells its range around. We could not independently verify exact folded height, weight, or fold time for the current AeroPilates listings, so measure your own storage space against the specifications on the current product page rather than a number quoted here.
               </p>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                <strong style={{ color: "#1b1c1c" }}>Fold-upright</strong> machines hinge vertically and stand against a wall on their end. When stored this way, the Balanced Body Allegro 2 occupies a footprint of approximately 110cm × 25cm — the wall space of a narrow wardrobe, at about 110cm tall. The Align-Pilates C2 Pro works the same way. This method requires solid wall clearance but suits spaces where floor clearance under furniture is limited. One practical consideration worth noting before purchasing: weight. The Allegro 2 weighs 66kg, which means moving it solo depends entirely on the rolling casters working well on your floor surface. The AeroPilates 287 weighs 27kg and can be carried by one person without casters, making it far more flexible for irregular storage situations.
+                <strong style={{ color: "#1b1c1c" }}>Fold-upright</strong> or other space-saving designs are sometimes claimed for spring-based studio machines. We could not verify a fold mechanism for the Align-Pilates C8-PRO, the real Align machine sold on Amazon. We specifically checked the Merrithew At Home SPX Reformer Package and could not verify its previously-claimed fold-flat feature either — that claim has been removed from this site&apos;s dedicated review of that machine. The Balanced Body Studio Reformer, the real Balanced Body flagship on Amazon, is confirmed to not fold at all; it is a permanent, made-to-order installation. If a folding design is a hard requirement, the AeroPilates line is the one we can actually confirm is built and marketed around it — everything else here should be bought for its spring quality, not its storage claims.
               </p>
 
               {/* Buying criteria cards */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
                 {[
-                  { heading: "Folded dimensions", body: "Check the actual folded measurements against your storage space before purchasing. 'Folds flat' varies widely — from 20cm to 35cm height. Measure your under-bed clearance precisely." },
-                  { heading: "Wheel / caster quality", body: "Most foldable machines have built-in transport wheels. Premium machines (Allegro 2) roll smoothly on any floor type; budget machines roll well on smooth floors only." },
-                  { heading: "Spring vs cord", body: "Folding is compatible with both spring and cord systems. Spring-based machines (Allegro 2, Merrithew SPX, Align C2 Pro) maintain full studio resistance quality; cord-based machines (AeroPilates) use elastic cords with a different resistance profile." },
-                  { heading: "Stability when working", body: "Some foldable machines have slightly less lateral rigidity than non-folding studio equipment due to the fold joint. High-quality machines (Allegro 2, Merrithew SPX) show no meaningful difference; budget machines have slightly more flex." },
+                  { heading: "Folded dimensions", body: "Check the actual folded measurements on the current Amazon listing against your storage space before purchasing — we could not independently verify specific folded dimensions for any model in this guide, so don't rely on a figure quoted elsewhere, including an earlier version of this article." },
+                  { heading: "Wheel / caster quality", body: "Most machines marketed as foldable include built-in transport wheels or casters, but we could not verify specific rolling-performance claims across floor types for any individual listing — check current owner reviews on the specific product page." },
+                  { heading: "Spring vs cord", body: "This is the more reliable distinction to shop on. Spring-based machines (Merrithew At Home SPX, Align-Pilates C8-PRO, Balanced Body Studio Reformer) maintain studio-level resistance quality; AeroPilates uses elastic cords, which feel genuinely different, whether or not the specific model folds." },
+                  { heading: "Stability when working", body: "We could not verify lateral-rigidity comparisons across specific models. If in-use stability matters more to you than storage flexibility, a permanent-installation machine like the Balanced Body Studio Reformer has no fold joint to introduce flex in the first place." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>

@@ -7,20 +7,20 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "BASI Systems Pilates (2026): Equipment Review & Brand Guide",
-  description: "BASI Systems reviewed — the luxury reformer designed by Rael Isacowitz, with the longest carriage travel in the industry. Premium beechwood and aerospace aluminium tested.",
-  keywords: ["basi systems pilates", "basi systems reformer", "basi pilates equipment", "rael isacowitz reformer", "basi systems review", "basi pilates reformer", "luxury pilates reformer", "basi f2 system", "basi systems 2026", "longest carriage pilates reformer"],
+  title: "BASI Systems Pilates (2026): Equipment Review, Honestly Assessed",
+  description: "BASI Systems reviewed — the reformer line associated with Rael Isacowitz, sold direct and through dealers rather than on Amazon. What we could verify, and what to confirm yourself before buying.",
+  keywords: ["basi systems pilates", "basi systems reformer", "basi pilates equipment", "rael isacowitz reformer", "basi systems review", "basi pilates reformer", "basi f2 system", "basi systems 2026"],
   openGraph: {
-    title: "BASI Systems Pilates (2026): Equipment Review & Brand Guide",
-    description: "BASI Systems reviewed — the luxury reformer by Rael Isacowitz with the longest carriage in the industry.",
+    title: "BASI Systems Pilates (2026): Honestly Assessed",
+    description: "BASI Systems reviewed — the reformer line associated with Rael Isacowitz, sold direct and through dealers, not on Amazon.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/basi-systems-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "BASI Systems Pilates equipment review — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BASI Systems Pilates (2026): Equipment Review",
-    description: "BASI Systems — the luxury reformer by Rael Isacowitz reviewed.",
+    title: "BASI Systems Pilates (2026): Honestly Assessed",
+    description: "BASI Systems — the reformer line associated with Rael Isacowitz, reviewed honestly.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/basi-systems-pilates" },
@@ -31,40 +31,40 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "BASI Systems Reformer",
-    price: "From $4,800",
-    verdict: "The flagship — longest carriage in the industry",
+    price: "Dealer-quoted — not sold on Amazon",
+    verdict: "The flagship reformer, sold direct/through dealers",
     description:
-      "The BASI Systems Reformer is one of the most engineered pieces of Pilates apparatus available, designed in direct collaboration with Rael Isacowitz — the founder of BASI Pilates and one of the most influential figures in contemporary Pilates education globally. The defining specification is carriage travel: the BASI reformer offers the longest carriage excursion in the production reformer market, which is why the machine has become a reference choice for working with professional athletes, dancers, and practitioners over 6'2\". The frame is constructed from solid beechwood and aerospace-grade aluminium — a combination that provides structural rigidity comparable to steel while maintaining the warmth and resonance of wood. The carriage glides on custom-milled bearings that give it a distinctive, weighted feel that experienced practitioners describe as having more presence and resistance character than lighter-framed competitors. The five-spring system uses BASI's colour-coded calibration. A genuine investment piece for serious studios.",
+      "A note before anything else: we could not find a live, currently-sold Amazon listing for BASI Systems equipment. BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz. The brand markets this reformer around extended carriage travel and a beechwood-and-aluminium frame, positioning it for taller practitioners and athletes. We could not independently verify specific superlative claims (such as \"longest carriage in the industry\"), exact material specifications, spring count, or current pricing — treat those as claims to confirm directly with BASI Systems or an authorised dealer rather than established facts.",
     affiliateUrl: "https://basisystems.com/product-category/reformers/",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
     name: "BASI Systems Reformer with F2 Tower",
-    price: "From $6,200",
-    verdict: "Best complete BASI apparatus",
+    price: "Dealer-quoted — not sold on Amazon",
+    verdict: "The brand's complete apparatus, sold direct/through dealers",
     description:
-      "The BASI Systems Reformer with the F2 modular tower is the complete BASI apparatus — the reformer platform combined with the F2's push-through bar, arm spring system, leg springs, and roll-down bar. The F2 System is engineered as a modular attachment rather than a fixed addition, which means the tower can be reconfigured or removed as the studio's needs change. This modularity extends to the multi-angle pulley system that is unique to the BASI F2 — a mechanism that changes the line of pull for arm and leg spring exercises, expanding the functional repertoire beyond what fixed-tower attachments offer. For instructors who teach the BASI method curriculum, the F2 tower is the intended apparatus that exercises are sequenced around. At $6,200+, this is a professional-grade investment appropriate for dedicated studios and very serious home practitioners.",
+      "The BASI Systems Reformer with the F2 tower is described by the brand as its complete apparatus, combining the reformer with a modular tower attachment. We could not independently verify the specific mechanisms described in BASI's own marketing (such as a \"multi-angle pulley system\") or current pricing — confirm current specifications and cost directly with BASI Systems or an authorised dealer rather than relying on a figure quoted here or elsewhere.",
     affiliateUrl: "https://basisystems.com/product-category/reformers/",
     tag: "Complete Apparatus",
   },
   {
     rank: "03",
     name: "BASI Systems Arc",
-    price: "From $380",
-    verdict: "Best BASI small apparatus",
+    price: "Dealer-quoted — not sold on Amazon",
+    verdict: "The brand's spine corrector, sold direct/through dealers",
     description:
-      "The BASI Systems Arc is the brand's Pilates Arc — a small apparatus that provides thoracic extension support, hip flexor stretching, and abdominal strengthening that mat work cannot replicate. What distinguishes the BASI Arc from competing arcs (Balanced Body Arc, Merrithew Arc) is the density and curvature calibration: Rael Isacowitz designed the curve geometry specifically for the spinal articulation exercises in the BASI curriculum. The construction is denser and more stable than budget arcs, maintaining its shape and resistance through years of regular use. For BASI-trained practitioners and instructors who want the apparatus that the curriculum was designed around, this is the appropriate choice. For general practitioners, Balanced Body's Arc is a practical and significantly cheaper alternative.",
+      "The BASI Systems Arc is the brand's version of a Pilates Arc-style spine corrector. We could not verify a live Amazon listing for it, or independently confirm claims about its exact curvature or construction versus other arcs. For a real, currently-sold Amazon alternative, the Balanced Body Pilates Arc is a genuine live listing at $189.99 — a practical option if you don't specifically need BASI-branded equipment.",
     affiliateUrl: "https://basisystems.com/product-category/arc/",
     tag: "Best Small Apparatus",
   },
   {
     rank: "04",
     name: "BASI Systems Stability Chair",
-    price: "From $2,400",
-    verdict: "Best BASI chair for advanced work",
+    price: "Dealer-quoted — not sold on Amazon",
+    verdict: "The brand's Pilates chair, sold direct/through dealers",
     description:
-      "The BASI Systems Stability Chair is the brand's take on the Wunda Chair — a split-pedal design with a four-spring configuration that covers the complete BASI chair curriculum. The construction standards match the reformer line: beechwood and aluminium frame, dense upholstery, and the precision spring calibration that defines BASI's approach. The Stability Chair is particularly favoured by instructors who work with clinical populations and professional athletes, where the precise resistance control of the BASI spring system matters more than it does in general fitness contexts. The pedal geometry and spring attachment points are designed around the biomechanical principles that Rael Isacowitz codified in the BASI curriculum.",
+      "The BASI Systems Stability Chair is described by the brand as its take on the Wunda Chair. We could not verify a live Amazon listing for it, or independently confirm the exact pedal configuration or spring count described in the brand's own marketing — confirm current specifications and pricing directly with BASI Systems or an authorised dealer before buying.",
     affiliateUrl: "https://basisystems.com/product-category/chairs/",
     tag: "Best Chair",
   },
@@ -76,10 +76,10 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "BASI Systems Pilates (2026): Equipment Review & Brand Guide",
-      "description": "BASI Systems Pilates equipment reviewed — the reformer, F2 tower, Arc, and Stability Chair designed by Rael Isacowitz.",
+      "description": "BASI Systems Pilates equipment reviewed honestly — the reformer, F2 tower, Arc, and Stability Chair associated with Rael Isacowitz's BASI Pilates, sold direct or through dealers rather than on Amazon.",
       "url": "https://pilatescollectiveclub.com/blog/basi-systems-pilates",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-05-21",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -96,7 +96,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "url": p.affiliateUrl,
         },
       })),
     },
@@ -111,10 +111,11 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What is BASI Systems?", "acceptedAnswer": { "@type": "Answer", "text": "BASI Systems is the equipment manufacturing arm of BASI Pilates, the global education organisation founded by Rael Isacowitz in 1989. The equipment is designed to match the biomechanical principles and exercise repertoire developed in the BASI curriculum, with a particular emphasis on extended carriage travel, modular apparatus configurations, and premium material construction." } },
-        { "@type": "Question", "name": "Who is Rael Isacowitz?", "acceptedAnswer": { "@type": "Answer", "text": "Rael Isacowitz is one of the most respected figures in contemporary Pilates education globally. He founded BASI (Body Arts and Science International) Pilates in 1989 and has trained thousands of instructors across more than 25 countries. He trained under second-generation Pilates teachers and has written multiple definitive texts on Pilates anatomy and methodology. BASI Systems equipment is designed to his specifications." } },
-        { "@type": "Question", "name": "How does BASI Systems compare to Balanced Body and Merrithew?", "acceptedAnswer": { "@type": "Answer", "text": "BASI Systems occupies a more premium position than Balanced Body and Merrithew in price and specification. The key differentiator is carriage travel length — BASI offers the longest in the production market — and the modular F2 tower system, which provides more configuration options than comparable tower accessories from competing brands. For practitioners following the BASI curriculum, the equipment is the intended apparatus. For practitioners using other methodologies, Balanced Body or Merrithew will serve equally well at a lower cost." } },
-        { "@type": "Question", "name": "Is BASI Systems good for tall practitioners?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — the BASI Systems Reformer was specifically designed with extended carriage travel to accommodate taller practitioners, professional athletes, and dancers who find the carriage travel on standard reformers limiting. It is one of the primary reasons the machine has been adopted in dance academies, professional sports performance centres, and clinical practices working with tall athlete populations." } },
+        { "@type": "Question", "name": "Is BASI Systems equipment sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "We could not find a live, currently-sold Amazon listing for BASI Systems equipment. It appears to be sold direct and through an authorised dealer network, not through Amazon — the links in this guide go to the brand's own site rather than an Amazon offer." } },
+        { "@type": "Question", "name": "What is BASI Systems?", "acceptedAnswer": { "@type": "Answer", "text": "BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz in 1989. The brand markets its equipment around extended carriage travel and premium materials, though we could not independently verify specific superlative claims or exact specifications." } },
+        { "@type": "Question", "name": "Who is Rael Isacowitz?", "acceptedAnswer": { "@type": "Answer", "text": "Rael Isacowitz is a widely known figure in contemporary Pilates education. He founded BASI (Body Arts and Science International) Pilates in 1989 and has trained instructors internationally. BASI Systems equipment is marketed as designed to his specifications." } },
+        { "@type": "Question", "name": "How does BASI Systems compare to Balanced Body and Merrithew?", "acceptedAnswer": { "@type": "Answer", "text": "BASI Systems is generally positioned as a premium option, but we could not independently verify specific superlative claims (such as \"longest carriage in the market\") or exact pricing against Balanced Body or Merrithew. Balanced Body and Merrithew both have real, live Amazon listings; BASI Systems, as far as we could verify, does not, and is sold direct or through dealers instead." } },
+        { "@type": "Question", "name": "Is BASI Systems good for tall practitioners?", "acceptedAnswer": { "@type": "Answer", "text": "BASI markets its reformer as accommodating taller practitioners with extended carriage travel. We could not independently verify a specific height range or carriage-length figure, so confirm current specifications directly with BASI Systems or a dealer if this is a deciding factor." } },
       ],
     },
   ],
@@ -137,11 +138,11 @@ export default function BasiSystemsPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               BASI Systems<br /><span style={{ color: "#8b4a31" }}>(2026): Equipment Reviewed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not find a live Amazon listing for BASI Systems equipment — links on this page go directly to basisystems.com, not to an Amazon offer, and we earn no commission from them.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              BASI Systems is the equipment expression of one of Pilates education's most rigorous methodologies. Designed by Rael Isacowitz — the founder of BASI Pilates and the author of the most widely used academic texts on Pilates anatomy and exercise science — the apparatus is built to match the biomechanical precision that BASI's curriculum demands. The BASI Systems Reformer offers the longest carriage travel in the production market, making it the machine of choice for professional athletes, dancers, and practitioners above 6'2\" who find standard reformers limiting. This is equipment for practitioners who know exactly what they need.
+              BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz. The brand markets its apparatus around extended carriage travel and premium materials, positioning it for professional athletes, dancers, and taller practitioners. As far as we could verify, none of it is sold on Amazon — it&apos;s a direct and dealer-network brand — and we could not independently confirm several of the specific superlatives and specifications the brand and earlier coverage have claimed. This guide is honest about what we could verify and what you should confirm yourself before buying.
             </p>
           </div>
         </section>
@@ -162,8 +163,8 @@ export default function BasiSystemsPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
                   { label: "Founded", value: "1989 by Rael Isacowitz" },
-                  { label: "Standout feature", value: "Longest carriage travel in the market" },
-                  { label: "Best for", value: "Athletes, dancers, tall practitioners, BASI curriculum studios" },
+                  { label: "Sold on Amazon?", value: "No confirmed live listing — sold direct or through dealers" },
+                  { label: "Marketed for", value: "Athletes, dancers, taller practitioners, BASI curriculum studios (per brand)" },
                 ].map((item) => (
                   <div key={item.label}>
                     <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#9a9490", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
@@ -211,10 +212,11 @@ export default function BasiSystemsPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is BASI Systems?", a: "BASI Systems is the equipment manufacturing arm of BASI Pilates, the global education organisation founded by Rael Isacowitz in 1989. The equipment is designed to match the biomechanical principles of the BASI curriculum, with extended carriage travel, modular apparatus configurations, and premium material construction." },
-                  { q: "Who is Rael Isacowitz?", a: "Rael Isacowitz is one of the most respected figures in contemporary Pilates education globally. He founded BASI Pilates in 1989, has trained thousands of instructors across more than 25 countries, and has written definitive texts on Pilates anatomy and methodology. BASI Systems equipment is designed to his specifications." },
-                  { q: "How does BASI Systems compare to Balanced Body and Merrithew?", a: "BASI Systems occupies a more premium position in price and specification. The key differentiator is carriage travel length — BASI offers the longest in the production market — and the modular F2 tower system, which provides more configuration options than comparable tower accessories from competing brands." },
-                  { q: "Is BASI Systems good for tall practitioners?", a: "Yes — the BASI Systems Reformer was specifically designed with extended carriage travel to accommodate taller practitioners, professional athletes, and dancers. It is one of the primary reasons the machine has been adopted in dance academies, professional sports performance centres, and clinical practices working with tall athlete populations." },
+                  { q: "Is BASI Systems equipment sold on Amazon?", a: "We could not find a live, currently-sold Amazon listing for BASI Systems equipment. It appears to be sold direct and through an authorised dealer network rather than through Amazon — the links in this guide go to the brand's own site, not to an Amazon offer." },
+                  { q: "What is BASI Systems?", a: "BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz in 1989. The brand markets its equipment around extended carriage travel and premium materials, though we could not independently verify specific superlative claims or exact specifications." },
+                  { q: "Who is Rael Isacowitz?", a: "Rael Isacowitz is a widely known figure in contemporary Pilates education. He founded BASI Pilates in 1989 and has trained instructors internationally. BASI Systems equipment is marketed as designed to his specifications." },
+                  { q: "How does BASI Systems compare to Balanced Body and Merrithew?", a: "We could not independently verify specific superlative claims (such as \"longest carriage in the market\") or exact pricing for BASI Systems against Balanced Body or Merrithew. Balanced Body and Merrithew both have real, live Amazon listings; BASI Systems, as far as we could verify, does not, and is sold direct or through dealers instead." },
+                  { q: "Is BASI Systems good for tall practitioners?", a: "BASI markets its reformer as accommodating taller practitioners through extended carriage travel. We could not independently verify a specific height range or carriage-length figure, so confirm current specifications directly with BASI Systems or a dealer if this matters to you." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

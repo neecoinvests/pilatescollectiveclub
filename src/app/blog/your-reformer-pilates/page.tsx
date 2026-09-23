@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Your Reformer Review (2026): The Peloton of Pilates?",
-  description: "Your Reformer reviewed — the Australian wood reformer with a built-in app and on-demand classes. Does the connected model justify the premium price?",
+  title: "Your Reformer Review (2026): Honestly Assessed",
+  description: "Your Reformer reviewed — the Australian wood reformer with a built-in app, sold direct rather than on Amazon. What we could verify about the connected model, and what to confirm yourself before buying.",
   keywords: ["your reformer review", "your reformer pilates", "your reformer app", "connected pilates reformer", "your reformer original", "yr studio pilates", "best home pilates reformer app", "your reformer australia", "premium wood pilates reformer", "your reformer 2026"],
   openGraph: {
-    title: "Your Reformer Review (2026): The Connected Home Studio",
-    description: "Your Reformer — the premium wood reformer with integrated app reviewed for home studio practitioners.",
+    title: "Your Reformer Review (2026): Honestly Assessed",
+    description: "Your Reformer — the premium wood reformer with an integrated app, reviewed honestly for what we could and couldn't verify.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/your-reformer-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg", width: 1200, height: 630, alt: "Your Reformer Pilates review — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Your Reformer Review (2026)",
-    description: "Your Reformer — the connected wood reformer reviewed honestly.",
+    description: "Your Reformer — the connected wood reformer, sold direct, reviewed honestly.",
     images: ["https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/your-reformer-pilates" },
@@ -31,40 +31,40 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Your Reformer The Original",
-    price: "From $2,999",
-    verdict: "Best connected home reformer",
+    price: "Priced direct — confirm on yourreformer.com",
+    verdict: "The brand's entry connected home reformer",
     description:
-      "Your Reformer's The Original is one of the most thoughtfully designed home reformers on the market — a machine that takes the Peloton-era principle of hardware plus content and applies it with genuine quality to Pilates. The reformer itself is a full-specification spring machine: a five-spring system, sealed carriage bearings, three-position footbar, and a wood-accented frame that genuinely reads as furniture in a living space rather than gym equipment in a spare room. The YR app integration is the differentiator — an on-demand and live class library built by Your Reformer's team of instructors, accessible through a tablet mount that attaches to the machine. Class lengths range from 20 to 55 minutes across beginner, intermediate, and advanced levels. For home practitioners who want both a quality machine and the guidance structure of a studio without the studio commute, The Original is a compelling and coherent package.",
+      "A note before anything else: Your Reformer is not sold on Amazon, so this section links directly to the brand's own site rather than an Amazon listing, and we could not independently verify the exact price or full spec sheet — confirm both on yourreformer.com before buying. Your Reformer's The Original is positioned as a spring-resistance machine with a wood-accented frame designed to read as furniture rather than gym equipment. The brand's own marketing describes an integrated app with on-demand and live classes, accessible through a tablet mount on the machine. We could not independently verify specific figures such as spring count, class-length ranges, or bearing type, so treat any precise spec quoted elsewhere (including in an earlier version of this article) as something to confirm directly with Your Reformer rather than an established fact.",
     affiliateUrl: "https://yourreformer.com",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
     name: "Your Reformer The Studio",
-    price: "From $3,499",
-    verdict: "Best Your Reformer for advanced practitioners",
+    price: "Priced direct — confirm on yourreformer.com",
+    verdict: "The brand's premium tier reformer",
     description:
-      "The Studio is Your Reformer's premium machine — an extended version of The Original with a longer carriage, additional spring configuration options, and a larger platform end for standing work. The most significant upgrade from The Original is the extended footbar reach, which accommodates practitioners up to approximately 6'3\" through the full repertoire. The Studio also features a more comprehensive YR app subscription tier with advanced programming, class packs, and instructor-led progressions that build over weeks. For practitioners who have outgrown The Original or who are taller, The Studio is the appropriate choice within the Your Reformer ecosystem. The wood and aluminium construction is consistent with The Original — same quality standards, larger specification.",
+      "The Studio is described by Your Reformer as its premium machine — an extended version of The Original aimed at taller practitioners and more advanced work. We could not independently verify the exact carriage length, footbar reach, or height range this model accommodates, so treat any specific figure (including a height cutoff) as a claim to confirm directly with Your Reformer rather than an established fact. The construction is described as consistent with The Original — wood and aluminium — at a larger specification and a higher price point that you should confirm on the brand's own site before ordering.",
     affiliateUrl: "https://yourreformer.com",
     tag: "Premium Model",
   },
   {
     rank: "03",
     name: "Your Reformer App Subscription",
-    price: "From $29/month",
+    price: "Priced direct — confirm on yourreformer.com",
     verdict: "The content ecosystem",
     description:
-      "The YR app is the component of Your Reformer that most distinguishes the brand from conventional reformer manufacturers. The subscription provides access to a library of reformer classes filmed specifically for Your Reformer machines, taught by instructors trained in the Your Reformer method. Classes are structured into progressive programmes rather than standalone sessions, which is important for practitioners without a live instructor — progression without guidance is one of the most common failure modes in home reformer practice. The app also includes guided warm-up and cool-down sequences, mobility work, and challenge programmes for experienced practitioners. The subscription is not required to use the reformer itself, but the hardware and content are designed as a unified system.",
+      "The YR app is the component of Your Reformer that most distinguishes the brand from conventional reformer manufacturers, at least according to the brand's own marketing. It is described as a library of reformer classes filmed for Your Reformer machines and structured into progressive programmes rather than standalone sessions. We could not independently verify the subscription price or the exact content library size — confirm current pricing directly on yourreformer.com. The subscription is described as optional; the hardware does not require connectivity to operate.",
     affiliateUrl: "https://yourreformer.com",
     tag: "App Platform",
   },
   {
     rank: "04",
-    name: "Your Reformer Accessories Bundle",
-    price: "From $149",
-    verdict: "Best Your Reformer add-ons",
+    name: "Your Reformer Accessories",
+    price: "Priced direct — confirm on yourreformer.com",
+    verdict: "Brand-specific add-ons",
     description:
-      "Your Reformer's accessories range includes reformer-specific add-ons designed to match the aesthetic and functional quality of the machine: a box set, additional spring options, the standing platform, and a mat that fits the carriage dimensions exactly. The accessories are sold as individual items and as bundles. The box set is the most functionally important addition — it unlocks exercises in the short box, long box, and kneeling series that cannot be performed without it. Your Reformer's accessories are designed specifically for their machines and match the wood-and-aluminium aesthetic precisely, which matters for practitioners who care about the home studio environment as a whole.",
+      "Your Reformer sells reformer-specific accessories, including a box set that the brand describes as unlocking short box, long box, and kneeling series work. We could not independently verify current pricing or exactly what ships in any bundle, so confirm contents and cost directly on yourreformer.com before ordering. These are brand-specific accessories designed for Your Reformer machines rather than universal parts.",
     affiliateUrl: "https://yourreformer.com",
     tag: "Accessories",
   },
@@ -75,11 +75,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Your Reformer Review (2026): The Connected Home Studio",
-      "description": "Your Reformer reviewed — The Original and The Studio machines, plus the YR app, assessed for home studio practitioners.",
+      "headline": "Your Reformer Review (2026): Honestly Assessed",
+      "description": "Your Reformer reviewed — The Original and The Studio machines, plus the YR app, sold direct rather than on Amazon, assessed for what could be independently verified.",
       "url": "https://pilatescollectiveclub.com/blog/your-reformer-pilates",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-05-21",
+      "dateModified": "2026-09-23",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -96,10 +96,11 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Your Reformer worth it?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer is worth it for home practitioners who want both a quality reformer and a structured content ecosystem. The hardware performs at a mid-range clinical level — comparable to Align-Pilates or AeroPilates Pro models — and the YR app provides the guided instruction that most home practitioners need to progress safely. If you already have an instructor or prefer independent practice, a non-connected reformer at the same price may offer more hardware for the money." } },
-        { "@type": "Question", "name": "Is Your Reformer a spring or bungee reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer uses a traditional spring resistance system — not bungee cords. The five-spring configuration is consistent with clinical reformer standards. This is an important distinction from brands like AeroPilates, which use elastic cord resistance, and means that Your Reformer's resistance profile is directly comparable to studio machines." } },
-        { "@type": "Question", "name": "Where is Your Reformer made?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer is an Australian brand with production in Asia. The company was founded in Australia and its instructor team and content production are Australia-based. The reformers ship globally. As with most equipment brands at this price tier, components are manufactured internationally to a design specification maintained by the brand." } },
-        { "@type": "Question", "name": "Can I use Your Reformer without the app?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Your Reformer functions as a standard spring reformer without any app subscription. The machine does not require connectivity to operate. The app subscription is an optional content layer. Practitioners who already have an instructor, a home Pilates practice, or access to other content platforms can use the reformer independently." } },
+        { "@type": "Question", "name": "Is Your Reformer sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "No — we could not find a live, currently-sold Amazon listing for Your Reformer. The brand sells direct through yourreformer.com, and that is where the links in this review point. Treat any Amazon listing claiming to be Your Reformer with caution." } },
+        { "@type": "Question", "name": "Is Your Reformer worth it?", "acceptedAnswer": { "@type": "Answer", "text": "That depends on how much you value the app-and-hardware package versus buying a machine and content separately. We could not independently verify the brand's specific hardware specs or subscription pricing, so confirm those directly on yourreformer.com before deciding. If you already have an instructor or prefer independent practice, a non-connected reformer may offer more verified hardware for the money." } },
+        { "@type": "Question", "name": "Is Your Reformer a spring or bungee reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer describes its machines as using spring resistance rather than bungee cords, which would distinguish it from brands like AeroPilates that use elastic cord resistance. We could not independently verify the exact spring configuration, so confirm the current spec directly with the brand." } },
+        { "@type": "Question", "name": "Where is Your Reformer made?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer is an Australian brand; production location and other manufacturing details should be confirmed directly with the company rather than assumed." } },
+        { "@type": "Question", "name": "Can I use Your Reformer without the app?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer describes the app subscription as optional and the hardware as usable without connectivity. Confirm this directly with the brand if it's a deciding factor for you." } },
       ],
     },
   ],
@@ -122,11 +123,11 @@ export default function YourReformerPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Your Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): The Connected Home Studio</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not find a live Amazon listing for Your Reformer — links on this page go directly to yourreformer.com, not to an Amazon offer, and we earn no commission from them.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Your Reformer has done for home Pilates what Peloton did for home cycling — combined a high-quality piece of hardware with a structured content ecosystem that makes solo practice genuinely effective. The Australian brand's reformers are built to spring-based clinical standards with a wood-and-aluminium aesthetic that makes them appropriate for any room in the home, and the YR app provides the instructor-led progressive programming that most practitioners need to advance their practice without weekly studio attendance. A new category of home fitness product, executed with real quality.
+              Your Reformer pairs a reformer with an integrated app — hardware plus content, in the vein of Peloton&apos;s approach to home cycling. It is sold direct through yourreformer.com rather than on Amazon, so this review is honest about what we could and couldn&apos;t independently verify: we could not confirm the brand&apos;s specific spring count, exact pricing, or precise hardware specifications, and an earlier version of this review stated several of these as settled facts that we can no longer stand behind. What follows covers what the brand itself claims, flags what we couldn&apos;t verify, and points you to yourreformer.com to confirm specifics before buying.
             </p>
           </div>
         </section>
@@ -147,8 +148,8 @@ export default function YourReformerPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
                   { label: "Origin", value: "Australia" },
-                  { label: "Resistance type", value: "Spring-based (5 springs)" },
-                  { label: "Unique offering", value: "Integrated YR app with on-demand classes" },
+                  { label: "Sold on Amazon?", value: "No confirmed live listing — sold direct via yourreformer.com" },
+                  { label: "Unique offering", value: "Integrated YR app with on-demand classes (per brand's own description)" },
                 ].map((item) => (
                   <div key={item.label}>
                     <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#9a9490", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
@@ -196,10 +197,11 @@ export default function YourReformerPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Your Reformer worth it?", a: "Your Reformer is worth it for home practitioners who want both a quality reformer and a structured content ecosystem. The hardware performs at a mid-range clinical level and the YR app provides guided instruction for safe progression. If you already have an instructor or prefer independent practice, a non-connected reformer at the same price may offer more hardware for the money." },
-                  { q: "Is Your Reformer a spring or bungee reformer?", a: "Your Reformer uses a traditional spring resistance system — not bungee cords. The five-spring configuration is consistent with clinical reformer standards. This is an important distinction from brands like AeroPilates and means that Your Reformer's resistance profile is directly comparable to studio machines." },
-                  { q: "Where is Your Reformer made?", a: "Your Reformer is an Australian brand with production in Asia. The company was founded in Australia and its instructor team and content production are Australia-based. The reformers ship globally." },
-                  { q: "Can I use Your Reformer without the app?", a: "Yes — Your Reformer functions as a standard spring reformer without any app subscription. The machine does not require connectivity to operate. Practitioners who already have an instructor or access to other content platforms can use the reformer independently." },
+                  { q: "Is Your Reformer sold on Amazon?", a: "No — we could not find a live, currently-sold Amazon listing for Your Reformer. The brand sells direct through yourreformer.com, and that is where the links in this review point. Treat any Amazon listing claiming to be Your Reformer with caution." },
+                  { q: "Is Your Reformer worth it?", a: "That depends on how much you value the app-and-hardware package versus buying a machine and content separately. We could not independently verify the brand's specific hardware specs or subscription pricing, so confirm those directly on yourreformer.com before deciding. If you already have an instructor or prefer independent practice, a non-connected reformer may offer more verified hardware for the money." },
+                  { q: "Is Your Reformer a spring or bungee reformer?", a: "Your Reformer describes its machines as using spring resistance rather than bungee cords, which would distinguish it from brands like AeroPilates that use elastic cord resistance. We could not independently verify the exact spring configuration, so confirm the current spec directly with the brand." },
+                  { q: "Where is Your Reformer made?", a: "Your Reformer is an Australian brand. Production location and other manufacturing details should be confirmed directly with the company rather than assumed." },
+                  { q: "Can I use Your Reformer without the app?", a: "Your Reformer describes the app subscription as optional and the hardware as usable without connectivity. Confirm this directly with the brand if it's a deciding factor for you." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -216,7 +218,7 @@ export default function YourReformerPilatesPage() {
                 <ArticleCard title="Best Home Pilates Reformers" excerpt="The complete buyer's guide across all price points and brands." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Online Pilates Classes" excerpt="The top platforms for guided Pilates at home — including reformer programmes." href="/blog/best-online-pilates-classes" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformers for Small Spaces" excerpt="How Your Reformer compares against Align and AeroPilates for compact apartment living." href="/blog/best-pilates-reformer-for-small-spaces" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
-                <ArticleCard title="Best Foldable Pilates Reformers" excerpt="The best foldable options — including Your Reformer's collapsible design." href="/blog/best-foldable-pilates-reformer" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
+                <ArticleCard title="Best Foldable Pilates Reformers" excerpt="Which reformers are genuinely marketed and sold as fold-flat — and which folding claims don't hold up." href="/blog/best-foldable-pilates-reformer" category="Equipment" readTime="9 min read" date="September 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
               </div>
             </div>
           </div>
