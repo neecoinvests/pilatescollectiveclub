@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Jumpboard (2026): Honestly Verified",
-  description: "The Pilates jumpboards we could actually verify as real, live Amazon listings — the Balanced Body Padded Jumpboard ($280) and the Merrithew Jumpboard 22\" ($470). AeroPilates and Align jumpboard listings could not be confirmed and are disclosed, not linked.",
+  description: "The two Pilates jumpboards verified live on Amazon — Balanced Body Padded ($280) and Merrithew 22\" ($470). AeroPilates and Align couldn't be confirmed.",
   keywords: ["best pilates jumpboard", "pilates jumpboard review 2026", "pilates jumpboard cardio", "balanced body jumpboard review", "merrithew jumpboard pilates", "pilates cardio jumpboard", "jumpboard pilates workout"],
   openGraph: {
     title: "Best Pilates Jumpboard (2026): Honestly Verified",

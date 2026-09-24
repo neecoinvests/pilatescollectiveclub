@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Under $2,000 (2026): 6 Real Picks",
-  description: "Six genuine, currently-sold reformers under $2,000, led by a real tier of budget spring reformers (WINDFOOT, DWKWE, PAETA x3) plus two established-brand AeroPilates cord machines. The cheapest verified established-brand spring reformer, the Balanced Body Metro IQ at $2,330, is just over budget.",
+  description: "Six genuine reformers under $2,000 — budget spring picks from WINDFOOT, DWKWE, and PAETA, plus two established-brand AeroPilates cord machines.",
   keywords: ["best pilates reformer under 2000", "pilates reformer under 2000 dollars", "spring reformer under 2000", "mid-range pilates reformer 2026", "paeta reformer review", "windfoot reformer review", "best reformer $1000-$2000", "pilates reformer mid-range buy"],
   openGraph: {
     title: "Best Pilates Reformer Under $2,000 (2026): 6 Real Picks",

@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Ring (2026): 5 Real Options Compared",
-  description: "The best Pilates rings and magic circles actually sold on Amazon in 2026, compared across price points — the Gaiam Pilates Ring ($15.17), the ProBody Pilates Circle ($22.95), the URBNFit Pilates Circle ($12.29), the LIONSCOOL Ring Set ($15.33), and the JKSHMYT Fitness Circle ($9.99).",
+  description: "Five real Pilates rings sold on Amazon, compared by price — Gaiam ($15.17), ProBody ($22.95), URBNFit ($12.29), LIONSCOOL ($15.33), JKSHMYT ($9.99).",
   keywords: ["best pilates ring", "pilates magic circle 2026", "pilates ring review", "pilates ring resistance", "pilates ring exercises", "gaiam pilates ring", "probody pilates circle", "urbnfit pilates circle"],
   openGraph: {
     title: "Best Pilates Ring / Magic Circle (2026): 5 Real Options Compared",

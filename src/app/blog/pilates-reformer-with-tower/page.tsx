@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Pilates Reformer with Tower (2026): What's Really on Amazon",
-  description: "An honest look at reformer-plus-tower setups: we could not verify a standalone tower attachment as a live Amazon listing for any brand. What we could confirm — a tower-compatible reformer and a machine with a built-in vertical frame — and the real full-Cadillac alternative.",
+  description: "No standalone tower attachment is confirmed on Amazon. Here's the real tower-compatible reformer, the vertical-frame option, and the Cadillac alternative.",
   keywords: ["best pilates reformer with tower", "pilates reformer tower combo 2026", "reformer with tower buy", "pilates tower attachment review", "merrithew reformer tower", "balanced body reformer tower", "pilates cadillac tower combo", "pilates reformer tower exercises"],
   openGraph: {
     title: "Pilates Reformer with Tower (2026): What's Really on Amazon",

@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Mat (2026): Honestly Verified",
-  description: "This guide previously listed Manduka PRO, Liforme, REEHUT, and other mats with specific prices and specs we could not confirm as live Amazon listings. The one mat we could verify is the Gaiam Premium Yoga Mat, 6mm ($21.00) — disclosed honestly, along with the gap on the rest.",
+  description: "Most mats this guide listed couldn't be confirmed on Amazon. The one verified live listing is the Gaiam Premium Yoga Mat, 6mm ($21.00).",
   keywords: ["best pilates mat", "pilates mat 2026", "best mat for pilates", "gaiam premium yoga mat pilates", "6mm pilates mat", "non-slip pilates mat", "pilates mat vs yoga mat", "best pilates mat buy"],
   openGraph: {
     title: "Best Pilates Mat (2026): Honestly Verified",

@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Yoga Blocks for Pilates (2026): 5 Real Options Compared",
-  description: "The Gaiam Yoga Block, Septo 2-Pack, Amazon Basics 2-Pack, KEEP Yoga Block 2-Pack, and POUYRBA 2-Pack are all live, currently-sold Amazon listings — real EVA foam blocks with verified prices, features, and availability. Here's how they compare for Pilates use.",
+  description: "Five real, in-stock Amazon yoga blocks for Pilates — Gaiam, Septo, Amazon Basics, KEEP, and POUYRBA — compared by price and feel.",
   keywords: ["best yoga blocks for pilates", "gaiam yoga block", "septo yoga blocks", "pilates yoga block 2026", "foam yoga block pilates", "pilates prop block"],
   openGraph: {
     title: "Best Yoga Blocks for Pilates (2026): 5 Real Options Compared",

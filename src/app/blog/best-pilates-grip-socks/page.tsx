@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Grip Socks (2026): Honestly Verified",
-  description: "We could not confirm live Amazon listings for the ToeSox, Tavi Noir, Shashi, Bellarina, or Sticky Be socks this guide used to recommend. The one grip sock we could verify as a live Amazon listing is the Muezna Pilates Grip Socks, 6-pair ($7.99).",
+  description: "ToeSox, Tavi Noir, Shashi, and other brands couldn't be confirmed on Amazon. The verified pick is Muezna Pilates Grip Socks, 6-pair ($7.99).",
   openGraph: {
     title: "Best Pilates Grip Socks (2026): Honestly Verified",
     description: "The grip sock brands this guide used to recommend could not be confirmed as live Amazon listings. Here's what we could verify instead.",

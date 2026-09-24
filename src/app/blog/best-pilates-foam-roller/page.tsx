@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Foam Roller for Pilates (2026): Honestly Verified",
-  description: "This guide previously listed OPTP, a 13-inch TriggerPoint GRID, Balanced Body, Gaiam, and LuxFit rollers with specific prices we could not confirm. The one roller we could verify as a live, currently-sold Amazon listing is the TriggerPoint GRID 2.0 Foam Roller ($74.99) — a roller only, not a massage-ball product.",
+  description: "Most rollers this guide listed couldn't be confirmed on Amazon. The one verified live listing is the TriggerPoint GRID 2.0 Foam Roller ($74.99).",
   keywords: ["best foam roller for pilates", "pilates foam roller 2026", "triggerpoint grid 2.0 pilates", "foam roller pilates review", "foam roller pilates exercises"],
   openGraph: {
     title: "Best Foam Roller for Pilates (2026): Honestly Verified",

@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Align-Pilates C8-PRO Review (2026): The Real Amazon Listing",
-  description: "Align-Pilates' C8-PRO reformer reviewed at its real Amazon price of $2,750 — sold by Merrithew, Align's US distributor. A second Align model ('C2 Pro RC') could not be verified as a live listing, so it's disclosed honestly rather than asserted.",
+  description: "Align-Pilates' C8-PRO reformer reviewed at its real Amazon price, $2,750, sold through Merrithew. A second model couldn't be verified as live.",
   keywords: ["align pilates reformer review", "align pilates c8 pro review", "align pilates vs merrithew", "align pilates vs balanced body", "best align pilates reformer", "align pilates home reformer", "align pilates 2026", "align pilates amazon"],
   openGraph: {
     title: "Align-Pilates C8-PRO Review (2026): Honestly Assessed",

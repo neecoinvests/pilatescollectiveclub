@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Ball (2026): Honestly Verified",
-  description: "We could not confirm live Amazon listings for the standalone mini and stability balls this guide used to recommend, under brands like Trideer, Gaiam, URBNFit, Live Pro, or TheraBand. The closest real, currently-sold option we could verify is the Byrex Pilates Prop Kit ($19.99), which bundles a small ball with a ring and resistance bands.",
+  description: "No standalone Pilates ball is confirmed on Amazon. The closest real option is the Byrex Pilates Prop Kit ($19.99), bundling a ball, ring, and bands.",
   openGraph: {
     title: "Best Pilates Ball (2026): Honestly Verified",
     description: "No standalone Pilates ball listing could be verified on Amazon — here's the honest situation and the closest real bundle option.",
