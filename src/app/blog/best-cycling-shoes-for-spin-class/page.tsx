@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Cycling Shoes for Spin Class (2026)",
-  description: "The best clip-in and cage-compatible cycling shoes for indoor spin class — Peloton, Tiem, Shimano, and budget picks compared for power transfer, comfort, and pedal compatibility.",
+  description: "The best clip-in cycling shoes for indoor spin class — TIEM, Shimano, and budget-friendly Peloton and SPD compatible picks compared for value, compatibility, and comfort.",
   keywords: ["best cycling shoes for spin class", "spin shoes 2026", "peloton cycling shoes", "tiem cycling shoes review", "shimano spin shoes", "spd cycling shoes indoor", "clip in shoes spin class", "best indoor cycling shoes"],
   openGraph: {
     title: "Best Cycling Shoes for Spin Class (2026)",
@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Tiem Slipstream Cycling Shoes",
-    price: "From $148",
+    name: "TIEM Slipstream Indoor Cycling Shoe",
+    price: "$145.00",
     verdict: "Best overall spin-specific shoe",
     description:
-      "Tiem builds shoes specifically for indoor cycling rather than adapting road cycling shoes for studio use, and the Slipstream is the clearest expression of that focus. The shoe ships with a dual-compatible cleat plate that works with both Delta (3-bolt, used by most studio bikes and Peloton) and SPD (2-bolt) systems, so one pair covers nearly every bike you'll encounter. The synthetic leather upper looks like a normal sneaker rather than an obvious cycling shoe, which matters if you're walking to and from class. The BOA dial closure allows micro-adjustment of fit mid-ride without stopping to retie laces. For practitioners who want a single well-built shoe that works across home and studio bikes, the Slipstream is the strongest all-around recommendation.",
-    affiliateUrl: "https://www.amazon.com/s?k=tiem+slipstream+cycling+shoes&tag=pilatescollective-20",
+      "TIEM Athletic is a brand built specifically around indoor cycling rather than adapting road shoes for studio use, and the Slipstream is its flagship SPD-compatible shoe. As the only shoe on this list from a dedicated indoor-cycling brand, it&apos;s the premium pick for practitioners who want a purpose-built spin shoe rather than a repurposed outdoor design.",
+    affiliateUrl: "https://www.amazon.com/dp/B07GRNDWKT?tag=pilatescollective-20",
     tag: "Best Overall",
   },
   {
     rank: "02",
-    name: "Peloton Cycling Shoes",
-    price: "From $125",
-    verdict: "Best for Peloton bike owners",
+    name: "Shimano SH-RP101 Cycling Shoe",
+    price: "$65.00",
+    verdict: "Best established all-rounder",
     description:
-      "Peloton's own cycling shoe is built specifically around the Delta cleat system used on every Peloton Bike and Bike+, and the fit calibration is tuned to that platform. The shoe uses a single BOA dial for fit and a breathable mesh upper. Because it's designed around one specific cleat standard rather than dual compatibility, riders who train across multiple bike brands may find a dual-compatible shoe like the Tiem more practical, but for Peloton-exclusive riders, the brand-matched shoe removes any compatibility guesswork and is priced competitively against third-party alternatives.",
-    affiliateUrl: "https://www.amazon.com/s?k=peloton+cycling+shoes&tag=pilatescollective-20",
-    tag: "Best for Peloton",
+      "Shimano is one of the most established names in cycling hardware, and the SH-RP101 brings that reputation to an accessible indoor-cycling price point. It&apos;s a solid all-rounder for riders who want a trusted brand without paying a premium-tier price, and a sensible middle ground between the boutique TIEM and the budget options further down this list.",
+    affiliateUrl: "https://www.amazon.com/dp/B0B6B9QD8G?tag=pilatescollective-20",
+    tag: "Best All-Rounder",
   },
   {
     rank: "03",
-    name: "Shimano IC5 Indoor Cycling Shoes",
-    price: "From $159",
-    verdict: "Best for serious power transfer",
+    name: "KOFUBOKE Indoor Cycling Shoes",
+    price: "$69.00",
+    verdict: "Best SPD-compatible mid-tier pick",
     description:
-      "Shimano's road cycling heritage shows in the IC5 — a stiffer nylon-reinforced sole than most studio-specific shoes, designed to minimize energy loss during hard efforts and standing climbs. The shoe is SPD (2-bolt) only, so confirm your bike or pedal compatibility before buying; most home spin bikes including the Schwinn IC4 and NordicTrack S22i ship with dual-sided SPD pedals, making this a strong match. The dual BOA dial closure provides more precise fit adjustment than single-dial competitors. For riders who prioritize power transfer efficiency over walkability — essentially treating spin class as serious training rather than a boutique fitness experience — the IC5 is the most performance-oriented option here.",
-    affiliateUrl: "https://www.amazon.com/s?k=shimano+ic5+indoor+cycling+shoes&tag=pilatescollective-20",
-    tag: "Best for Performance",
+      "KOFUBOKE&apos;s indoor cycling shoe is built around SPD cleat compatibility, making it a straightforward match for the many home and studio bikes that ship with SPD-style pedals. Sitting in the same price range as the Shimano option, it&apos;s a reasonable mid-tier pick for riders whose bikes are already set up for SPD cleats.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DL5NP6QM?tag=pilatescollective-20",
+    tag: "Best SPD Compatible",
   },
   {
     rank: "04",
-    name: "Tiem Aurora Pearl Cycling Shoes",
-    price: "From $158",
-    verdict: "Best women's-specific fit",
+    name: "Kyedoo Road/Spin Cycling Shoes",
+    price: "$52.42",
+    verdict: "Best budget-mid Peloton & SPD pick",
     description:
-      "The Aurora is Tiem's women's-specific last, built on a narrower heel and forefoot than the unisex Slipstream, addressing a common fit complaint among women riders that cycling shoes designed on a male last run wide in the heel. Cleat compatibility matches the Slipstream — dual Delta/SPD. The synthetic leather and suede upper construction is the same premium build as Tiem's flagship line. For women practitioners who have struggled with heel slip or sizing inconsistency in unisex cycling shoes, the Aurora's dedicated last is worth the equivalent price point over the standard Slipstream.",
-    affiliateUrl: "https://www.amazon.com/s?k=tiem+aurora+womens+cycling+shoes&tag=pilatescollective-20",
-    tag: "Best Women's Fit",
+      "The Kyedoo is compatible with both Peloton and SPD pedal systems, which makes it a flexible choice for households with more than one type of bike or for riders who aren&apos;t sure which cleat standard their setup uses. At a budget-mid price point, it&apos;s a practical option for anyone who wants dual compatibility without paying premium-tier prices.",
+    affiliateUrl: "https://www.amazon.com/dp/B09PNGYNLC?tag=pilatescollective-20",
+    tag: "Best Budget-Mid Pick",
   },
   {
     rank: "05",
-    name: "Tommaso Pista Indoor Cycling Shoes",
-    price: "From $69",
-    verdict: "Best budget clip-in shoe",
+    name: "KESCOO Cycling Shoes",
+    price: "$41.74",
+    verdict: "Best budget pick",
     description:
-      "Tommaso's Pista is a genuine budget entry into 3-bolt/Delta-compatible clip-in shoes, using a synthetic upper with hook-and-loop straps rather than a BOA dial. The fit is less precise than premium options and the sole is more flexible, meaning some efficiency loss under hard efforts, but for riders new to clip-in pedals who want to test whether the locked-in connection improves their ride before investing in a premium shoe, the Pista removes cost as a barrier to trying it.",
-    affiliateUrl: "https://www.amazon.com/s?k=tommaso+pista+cycling+shoes&tag=pilatescollective-20",
+      "KESCOO&apos;s cycling shoe is Peloton compatible and the least expensive option on this list, making it the entry point for riders who want to try clip-in shoes before committing to a pricier pair. For Peloton owners specifically looking to spend as little as possible while still getting a compatible clip-in shoe, this is the pick.",
+    affiliateUrl: "https://www.amazon.com/dp/B092HLHWBM?tag=pilatescollective-20",
     tag: "Best Budget Pick",
-  },
-  {
-    rank: "06",
-    name: "Tiem Cipher Caged Pedal Shoes",
-    price: "From $98",
-    verdict: "Best for cage/toe-clip pedals",
-    description:
-      "Not every home or boutique bike uses clip-in pedals — many still use the traditional toe-cage system, and the Cipher is built specifically for that setup rather than as a compromise shoe. The grippy rubber outsole and reinforced toe box are designed to sit securely inside a cage without slipping, addressing the most common complaint with using a generic sneaker in a caged pedal. For riders on cage-pedal bikes (common in many boutique studios and some budget home bikes) who don't want to switch their pedal hardware, the Cipher is the purpose-built solution rather than an awkward workaround.",
-    affiliateUrl: "https://www.amazon.com/s?k=tiem+cipher+caged+cycling+shoes&tag=pilatescollective-20",
-    tag: "Best for Cage Pedals",
   },
 ];
 
@@ -108,7 +98,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Cycling Shoes for Spin Class (2026)",
-      "numberOfItems": 6,
+      "numberOfItems": 5,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -131,9 +121,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Delta vs SPD cleats — which do I need?", "acceptedAnswer": { "@type": "Answer", "text": "Delta (3-bolt) cleats are used by Peloton bikes and most boutique studio bikes. SPD (2-bolt) cleats are more common on road and mountain bike pedals and are also supported on bikes like the Schwinn IC4 and NordicTrack S22i. Check your specific bike's pedal type before buying — many premium shoes like the Tiem Slipstream ship with a dual-compatible cleat plate that covers both systems." } },
+        { "@type": "Question", "name": "Delta vs SPD cleats — which do I need?", "acceptedAnswer": { "@type": "Answer", "text": "Delta (3-bolt) cleats are used by Peloton bikes and most boutique studio bikes. SPD (2-bolt) cleats are more common on road and mountain bike pedals and are also supported on bikes like the Schwinn IC4 and NordicTrack S22i. Check your specific bike's pedal type before buying — some shoes, like the Kyedoo, are listed compatible with both Peloton and SPD systems." } },
         { "@type": "Question", "name": "Do I really need clip-in shoes for spin class?", "acceptedAnswer": { "@type": "Answer", "text": "No, but they improve the experience. Clip-in shoes lock your foot to the pedal, allowing you to pull up on the upstroke as well as push down, which engages more muscle groups and improves power transfer efficiency, especially during standing climbs and sprints. Cage pedals work fine for casual riders, but most boutique studios and serious home riders use clip-in systems for this reason." } },
-        { "@type": "Question", "name": "Are cycling shoes worth the investment for home spin training?", "acceptedAnswer": { "@type": "Answer", "text": "If your bike has clip-in compatible pedals (most connected bikes do), yes — even a budget clip-in shoe like the Tommaso Pista noticeably improves stability and power transfer over generic sneakers in a cage. If your bike only has cage pedals, a purpose-built cage shoe like the Tiem Cipher offers a smaller but still real improvement in grip and comfort." } },
+        { "@type": "Question", "name": "Are cycling shoes worth the investment for home spin training?", "acceptedAnswer": { "@type": "Answer", "text": "If your bike has clip-in compatible pedals (most connected bikes do), yes — even a budget clip-in shoe like the KESCOO noticeably improves stability and power transfer over generic sneakers on a bare pedal." } },
       ],
     },
   ],
@@ -159,7 +149,7 @@ export default function BestCyclingShoesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The right cycling shoe locks your foot to the pedal and turns a generic spin session into genuine power-transfer training, but cleat compatibility, fit, and walkability vary widely between brands. This guide compares the six shoes most worth considering for home and boutique studio cycling in 2026, from dual-compatible all-rounders to budget-friendly entry points.
+              The right cycling shoe locks your foot to the pedal and turns a generic spin session into genuine power-transfer training, but cleat compatibility, fit, and price vary widely between brands. This guide compares the five shoes most worth considering for home and studio cycling in 2026, from the dedicated-brand TIEM Slipstream to budget-friendly Peloton and SPD compatible picks.
             </p>
           </div>
         </section>
@@ -189,13 +179,13 @@ export default function BestCyclingShoesPage() {
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
                   <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Search →</a>
+                  >View →</a>
                 </div>
               ))}
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Shoes · Clip-In & Caged</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Shoes · Clip-In Cycling</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -212,7 +202,7 @@ export default function BestCyclingShoesPage() {
                           </div>
                           <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                          >Search →</a>
+                          >View →</a>
                         </div>
                         <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }} dangerouslySetInnerHTML={{ __html: p.description }} />
                       </div>
@@ -226,7 +216,7 @@ export default function BestCyclingShoesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Delta vs SPD cleats — which do I need?", a: "Delta (3-bolt) cleats are used by Peloton bikes and most boutique studio bikes. SPD (2-bolt) cleats are more common on road bikes and supported by bikes like the Schwinn IC4 and NordicTrack S22i. Check your bike's pedal type before buying — many premium shoes ship with a dual-compatible cleat plate." },
+                  { q: "Delta vs SPD cleats — which do I need?", a: "Delta (3-bolt) cleats are used by Peloton bikes and most boutique studio bikes. SPD (2-bolt) cleats are more common on road bikes and supported by bikes like the Schwinn IC4 and NordicTrack S22i. Check your bike's pedal type before buying — some shoes, like the Kyedoo, are compatible with both Peloton and SPD systems." },
                   { q: "Do I really need clip-in shoes for spin class?", a: "No, but they improve the experience. Clip-in shoes lock your foot to the pedal, allowing you to pull up on the upstroke as well as push down, improving power transfer efficiency, especially during standing climbs and sprints." },
                   { q: "Are cycling shoes worth the investment for home spin training?", a: "If your bike has clip-in compatible pedals, yes — even a budget clip-in shoe noticeably improves stability and power transfer over generic sneakers in a cage. If your bike only has cage pedals, a purpose-built cage shoe offers a smaller but real improvement in grip and comfort." },
                 ].map((item) => (

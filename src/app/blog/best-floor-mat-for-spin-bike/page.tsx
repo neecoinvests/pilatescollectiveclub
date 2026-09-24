@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "BalanceFrom GoFit High Density Treadmill/Exercise Bike Mat",
-    price: "From $29",
-    verdict: "Best overall budget floor mat",
+    name: "Cycleclub Exercise Bike Mat",
+    price: "$28.98",
+    verdict: "Best overall floor mat",
     description:
-      "The BalanceFrom GoFit is a 3/16-inch PVC mat that covers the full bike footprint plus additional area around the pedals where most sweat drips during high-output sessions. The ribbed top surface channels moisture rather than pooling it, which keeps the floor underneath dry and reduces slip risk during standing climbs and transitions off the bike. The PVC construction is compatible with hardwood, tile, laminate, and carpet — though the mat's own base grip is designed for hard floors and can shift slightly on thick carpet. Cleanup is straightforward with a damp cloth. At this price point it's the most consistently well-reviewed option in the category.",
-    affiliateUrl: "https://www.amazon.com/s?k=balancefrom+exercise+bike+mat&tag=pilatescollective-20",
-    tag: "Best Overall Budget",
+      "Cycleclub US builds this mat at 6mm thick — substantial enough to protect hardwood floors from the weight and vibration of a spin bike without the bulk of a heavy-duty rubber mat. At under $30, it's a well-rounded pick for most home setups.",
+    affiliateUrl: "https://www.amazon.com/dp/B0BHQH8D9G?tag=pilatescollective-20",
+    tag: "Best Overall",
   },
   {
     rank: "02",
-    name: "SuperMats Heavy Duty Equipment Mat",
-    price: "From $59",
-    verdict: "Best heavy-duty protection",
+    name: "FLEXLIFT Exercise Bike Mat",
+    price: "$19.99",
+    verdict: "Best budget pick",
     description:
-      "SuperMats builds equipment mats specifically for the weight and vibration load of indoor cycling bikes, which is meaningfully different from a yoga mat or light fitness mat — the PVC compound is denser, the thickness is greater (0.4 inches), and the ribbing pattern is engineered to remain flat under repeated weighted vibration rather than curling at the edges over time. For riders with premium hardwood floors or concrete where any movement of the bike could cause damage or noise, the SuperMats is the most protective option. The slightly higher price is justified for anyone with expensive flooring.",
-    affiliateUrl: "https://www.amazon.com/s?k=supermats+heavy+duty+equipment+mat+cycling&tag=pilatescollective-20",
-    tag: "Best Heavy-Duty",
+      "FLEXLIFT's mat is confirmed compatible with Peloton bikes and is the least expensive option on this list. For Peloton owners who want a simple, affordable floor protector without paying for extra thickness or features they don't need, this is the straightforward choice.",
+    affiliateUrl: "https://www.amazon.com/dp/B0H517MP29?tag=pilatescollective-20",
+    tag: "Best Budget Pick",
   },
   {
     rank: "03",
-    name: "Peloton Equipment Mat",
-    price: "From $38",
-    verdict: "Best for Peloton bike owners",
+    name: "Crostice Bike Mat",
+    price: "$29.68",
+    verdict: "Best Peloton-compatible mid-tier pick",
     description:
-      "Peloton's own equipment mat is sized specifically for the Bike and Bike+ footprint, with an extended area at the front to catch sweat drip from riders during out-of-saddle climbs. The mat is thicker than generic alternatives (3/8 inch) and uses a textured top surface and non-slip base designed for the specific weight and vibration pattern of Peloton hardware. For Peloton owners who want guaranteed size compatibility and a mat from the same brand, this is a sensible choice, though it costs slightly more than comparably-thick third-party mats.",
-    affiliateUrl: "https://www.amazon.com/s?k=peloton+equipment+mat&tag=pilatescollective-20",
+      "Crostice Home's mat matches the Cycleclub in thickness at 6mm and is specifically noted as Peloton compatible, sized to fit the Bike and Bike+ footprint. It sits at a similar price to our top pick, making it a strong alternative if the Cycleclub is unavailable.",
+    affiliateUrl: "https://www.amazon.com/dp/B09QQMNJ61?tag=pilatescollective-20",
     tag: "Best for Peloton",
   },
   {
     rank: "04",
-    name: "ProSource Fit Puzzle Exercise Mat (Foam Tiles)",
-    price: "From $29",
-    verdict: "Best modular/customizable option",
+    name: "Marcy Fitness Equipment Mat",
+    price: "$32.98",
+    verdict: "Best from an established brand",
     description:
-      "For home studios where a single fixed-size mat doesn't fit the space or where the same floor area is used for multiple training disciplines, the ProSource foam puzzle tiles provide a customizable floor surface that can be expanded or reconfigured as needed. The 0.5-inch EVA foam provides genuine cushioning and sweat-resistance, and individual tiles can be replaced if one becomes damaged rather than replacing the entire mat. The main limitation is that puzzle tile edges can lift slightly over time under heavy equipment, and the joins create small ridges that some riders find distracting. For dedicated bike-only setups, a solid mat is typically more stable; for multi-use spaces, tiles offer flexibility no solid mat can match.",
-    affiliateUrl: "https://www.amazon.com/s?k=prosource+puzzle+exercise+mat+foam+tiles&tag=pilatescollective-20",
-    tag: "Best Modular Setup",
+      "Marcy is a long-standing name in home fitness equipment, and this mat is sold directly by Amazon.com, which some buyers prefer for the added confidence in fulfillment and returns. It's a solid, no-surprises floor protector from a brand many practitioners already recognize from other gym equipment.",
+    affiliateUrl: "https://www.amazon.com/dp/B0041GQH3S?tag=pilatescollective-20",
+    tag: "Best Established Brand",
   },
   {
     rank: "05",
-    name: "Retrospec Solana Thick Fitness Mat",
-    price: "From $49",
-    verdict: "Best dual-purpose mat",
+    name: "THAILE Exercise Bike Mat",
+    price: "$23.99",
+    verdict: "Best low-cost Peloton-compatible pick",
     description:
-      "The Retrospec Solana is wider and longer than most dedicated bike mats, with a foam-over-rubber construction that works well both as a bike platform mat and as a standalone yoga or stretching surface for the warm-up and cool-down work that typically follows a spin session. For home practitioners who want one mat that serves multiple functions rather than separate equipment for the bike and the floor, the Solana's dimensions (6mm thick, 68 by 24 inch) make it genuinely dual-purpose in a way narrower bike mats are not. The trade-off is that it's lighter and slightly thinner than dedicated heavy-duty bike mats.",
-    affiliateUrl: "https://www.amazon.com/s?k=retrospec+solana+fitness+mat&tag=pilatescollective-20",
-    tag: "Best Dual-Purpose",
-  },
-  {
-    rank: "06",
-    name: "Rubber Cal Elephant Bark Flooring Mat",
-    price: "From $79",
-    verdict: "Best for garage gyms and concrete floors",
-    description:
-      "Concrete and garage floors require a different floor protection strategy than hardwood — the hard surface doesn't dent or scratch, but the high-impact bike vibration is amplified through concrete into surrounding walls and structures. Rubber Cal's thick rubber mat (3/8 inch solid recycled rubber) absorbs vibration and provides a grippy, sweat-resistant surface ideal for concrete home studio floors. The rubber composition is more durable than PVC for permanent installation use and can handle the full weight of a Peloton or NordicTrack without compression over years. The heavier weight and smell of new rubber mats are the main trade-offs for this category.",
-    affiliateUrl: "https://www.amazon.com/s?k=rubber+cal+elephant+bark+gym+mat&tag=pilatescollective-20",
-    tag: "Best for Garage Gyms",
+      "THAILE-US offers another Peloton-compatible mat at a low price point, giving Peloton owners a second budget-friendly option alongside the FLEXLIFT. It's a fine pick for anyone comparison-shopping between the two lowest-priced mats on this list before deciding on finish and fit.",
+    affiliateUrl: "https://www.amazon.com/dp/B0FVLT4CJX?tag=pilatescollective-20",
+    tag: "Best Low-Cost Peloton Fit",
   },
 ];
 
@@ -108,7 +98,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Floor Mats for Spin Bikes (2026)",
-      "numberOfItems": 6,
+      "numberOfItems": 5,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -159,7 +149,7 @@ export default function BestFloorMatSpinBikePage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A spin bike without a floor mat scratches hardwood, vibrates into surrounding rooms, and leaves sweat pooling directly on the floor. The right mat solves all three problems and costs a fraction of the bike itself. This guide compares the six best options for 2026, from budget PVC mats to garage-gym rubber and modular foam tiles.
+              A spin bike without a floor mat scratches hardwood, vibrates into surrounding rooms, and leaves sweat pooling directly on the floor. The right mat solves all three problems and costs a fraction of the bike itself. This guide compares the five best-value options for 2026, from budget Peloton-compatible mats to a pick from an established fitness brand.
             </p>
           </div>
         </section>
@@ -189,13 +179,13 @@ export default function BestFloorMatSpinBikePage() {
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
                   <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Search →</a>
+                  >View →</a>
                 </div>
               ))}
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Mats · All Floor Types</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Mats · All Floor Types</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -212,7 +202,7 @@ export default function BestFloorMatSpinBikePage() {
                           </div>
                           <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                          >Search →</a>
+                          >View →</a>
                         </div>
                         <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }} dangerouslySetInnerHTML={{ __html: p.description }} />
                       </div>

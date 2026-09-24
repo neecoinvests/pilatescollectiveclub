@@ -7,12 +7,12 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Compression Sleeves for Pilates (2026): Calf, Knee & Arm",
-  description: "The best compression sleeves for Pilates — CEP, Zensah, 2XU, and more compared for calf circulation, knee support, and recovery during reformer and Lagree sessions.",
-  keywords: ["best compression sleeves pilates", "pilates compression socks 2026", "cep compression pilates", "calf sleeves pilates", "knee sleeve pilates reformer", "compression arm sleeve pilates", "2xu compression pilates", "lagree compression sleeve"],
+  title: "Best Compression Sleeves for Pilates (2026): Calf Compression",
+  description: "The best calf compression sleeves for Pilates — BLITZU, Rymora, PhysFlex, Cambivo, and TheraCopper compared for circulation, comfort, and recovery during reformer and Lagree sessions.",
+  keywords: ["best compression sleeves pilates", "pilates compression socks 2026", "calf sleeves pilates", "lagree compression sleeve", "calf compression sleeve reformer", "copper compression sleeve pilates"],
   openGraph: {
     title: "Best Compression Sleeves for Pilates (2026)",
-    description: "Compression sleeves for calf circulation, knee support, and Pilates recovery — tested and ranked.",
+    description: "Calf compression sleeves for circulation and Pilates recovery — compared and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-compression-sleeves-for-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Best Compression Sleeves for Pilates — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Compression Sleeves for Pilates (2026)",
-    description: "Compression sleeves for Pilates and Lagree — calf, knee, and arm options tested.",
+    description: "Calf compression sleeves for Pilates and Lagree, compared.",
     images: ["https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-compression-sleeves-for-pilates" },
@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "CEP Run Compression Calf Sleeves 3.0",
-    price: "From $55",
-    verdict: "Best calf compression sleeve for Pilates",
+    name: "BLITZU Calf Compression Sleeves",
+    price: "$13.99",
+    verdict: "Best all-around calf sleeve for Pilates",
     description:
-      "CEP's Run Compression Calf Sleeves are the clinical-grade benchmark for compression sleeves, worn by professional athletes and recommended by sports medicine physicians for exactly the graduated compression profile that makes them effective: 20–30 mmHg at the ankle tapering to 10–15 mmHg at the upper calf, which drives venous return from the lower leg back toward the heart more efficiently than the flat-pressure compression of cheaper alternatives. For Pilates practitioners specifically, the calf sleeve addresses two use cases: wearing during Lagree sessions to manage the significant lower-leg pump that accumulates through the slow-tempo, sustained-contraction carriage work, and wearing post-session to accelerate venous return and reduce delayed-onset soreness in the gastrocnemius and soleus. The Coolmax fibre construction wicks moisture effectively — important for Lagree classes where lower-leg perspiration is substantial. The compression level holds consistently wash after wash, unlike cheaper spandex sleeves that lose tension within a few months.",
-    affiliateUrl: "https://www.amazon.com/s?k=cep+run+compression+calf+sleeves+3.0&tag=pilatescollective-20",
+      "BLITZU's calf compression sleeves are footless — they wrap the calf without covering the foot, which is exactly what most Pilates and Lagree practitioners want: graduated calf support underneath grip socks, with full barefoot contact preserved for footbar and carriage work. As a footless compression sock design, they're easy to pull on before class and just as easy to peel off afterward without having to work around a sock foot. A sensible, affordable default pick for anyone wanting to try calf compression for reformer or Lagree recovery.",
+    affiliateUrl: "https://www.amazon.com/dp/B0186EMIMY?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "2XU Compression Calf Guards",
-    price: "From $65",
-    verdict: "Best performance calf sleeve for Lagree",
+    name: "Rymora Calf Compression Sleeves",
+    price: "$14.99",
+    verdict: "Best fit range across sizes",
     description:
-      "The 2XU Compression Calf Guards are the choice for Lagree practitioners specifically, where the extended duration of sustained lower-leg muscular contraction during carriage-based exercises creates a compression demand that standard athletic socks cannot meet. The PWX Flex fabric delivers graduated 70 denier compression (firmer than the CEP sleeves but still within the therapeutic range) through a four-way stretch panel that accommodates the ankle dorsiflexion required by reformer footbar work without restricting range of motion. The silicon grip band at both the ankle and upper calf keeps the sleeve from migrating during the continuous position changes of a Lagree session. 2XU's medical-grade compression construction is validated by independent clinical testing. The calf guard leaves the foot uncovered, which allows full proprioceptive contact with grip socks — the combination most Lagree and Pilates practitioners prefer.",
-    affiliateUrl: "https://www.amazon.com/s?k=2xu+compression+calf+guards+sleeves&tag=pilatescollective-20",
-    tag: "Best for Lagree",
+      "Rymora's calf compression sleeves come as a pair and are offered across multiple sizes, which matters for a garment that only works when the fit is right — too loose and the graduated compression doesn't do its job, too tight and it restricts rather than supports. For practitioners who've struggled to find a one-size-fits-all sleeve that actually fits their calf, Rymora's sizing options make it easier to land on a snug, comfortable fit for Lagree and reformer sessions.",
+    affiliateUrl: "https://www.amazon.com/dp/B07ZHJB1TK?tag=pilatescollective-20",
+    tag: "Best Fit",
   },
   {
     rank: "03",
-    name: "Zensah Compression Leg Sleeves",
-    price: "From $40",
-    verdict: "Best value graduated compression sleeve",
+    name: "PhysFlex Calf Compression Sleeves",
+    price: "$9.93",
+    verdict: "Best budget calf sleeve",
     description:
-      "The Zensah Compression Leg Sleeves offer the best performance-to-price ratio in graduated compression sleeves and are the correct recommendation for practitioners who want effective calf compression without the premium pricing of CEP or 2XU. The ribbed compression zones provide targeted pressure at the Achilles and gastrocnemius insertion points — the areas most relevant to Pilates footbar and kneeling exercises. The moisture-wicking seamless construction eliminates pressure ridges at seams, which is a common comfort complaint with cheaper sleeves during extended wear. The Zensah sleeves are available in a wide colour and print range — more extensive than any other brand on this list — which aligns with the aesthetic priorities of boutique Pilates studio practitioners. The compression level is 15–20 mmHg, slightly lighter than the CEP and 2XU options, making Zensah the better choice for wearing during active sessions rather than post-session recovery.",
-    affiliateUrl: "https://www.amazon.com/s?k=zensah+compression+leg+sleeves&tag=pilatescollective-20",
-    tag: "Best Value",
+      "PhysFlex is the lowest-priced option here and is built with shin splint and general lower-leg pain relief support in mind — a useful overlap for Pilates and Lagree practitioners managing calf or shin soreness from repeated footbar and carriage work. It's a low-commitment way to find out whether calf compression actually helps your recovery before spending more on a premium sleeve.",
+    affiliateUrl: "https://www.amazon.com/dp/B0C9JY51SW?tag=pilatescollective-20",
+    tag: "Best Budget",
   },
   {
     rank: "04",
-    name: "Bauerfeind GenuTrain Knee Support",
-    price: "From $89",
-    verdict: "Best knee sleeve for reformer practitioners with knee sensitivity",
+    name: "Cambivo Calf Compression Sleeves (3 Pairs)",
+    price: "$16.99",
+    verdict: "Best multi-pack value",
     description:
-      "The Bauerfeind GenuTrain is the medical-standard knee sleeve and the correct recommendation for practitioners with existing knee sensitivity, chondromalacia, or patellar tracking issues who want to continue Pilates reformer training with supported knee mechanics. The anatomically shaped knit and integrated silicone ring around the patella provide targeted compression that guides patellar movement during the knee flexion and extension central to reformer footwork exercises. The Omega pad dampens vibration at the patellar tendon insertion. Unlike generic neoprene knee sleeves that apply uniform compression without anatomical shaping, the GenuTrain is designed with the specific mechanical aim of improving patellar tracking — which is directly relevant to the single-leg footwork, lunge, and standing reformer exercises where knee alignment is most closely observed by Pilates instructors. Bauerfeind products are produced in Germany to medical device standards. The GenuTrain is available in sizes XS–XXL across three knee circumference measurements.",
-    affiliateUrl: "https://www.amazon.com/s?k=bauerfeind+genuTrain+knee+support+sleeve&tag=pilatescollective-20",
-    tag: "Best Knee Sleeve",
+      "Cambivo sells its calf compression sleeves in a 3-pair pack, which brings the per-pair cost down considerably and means you always have a clean pair on hand — genuinely useful if you're wearing sleeves to every Lagree or reformer session and washing them between classes. For practitioners who've decided calf compression is a regular part of their routine, this multi-pack is the most economical way to stock up.",
+    affiliateUrl: "https://www.amazon.com/dp/B08D3H1JKH?tag=pilatescollective-20",
+    tag: "Best Value",
   },
   {
     rank: "05",
-    name: "CEP Compression Arm Sleeves",
-    price: "From $45",
-    verdict: "Best arm sleeve for Pilates reformer arm work",
+    name: "TheraCopper Copper Calf Compression Sleeve (2-Pack)",
+    price: "$29.95",
+    verdict: "Best premium pick",
     description:
-      "Arm compression sleeves are less commonly associated with Pilates than calf sleeves, but for practitioners who do significant reformer arm work — the rowing series, chest expansion, arm circles, and long-box arm exercises — they address the elbow and forearm pump that accumulates through sustained shoulder and elbow load. The CEP Arm Sleeves deliver 15–20 mmHg graduated compression from wrist to elbow, improving venous return from the forearms during the sustained low-load arm work that characterises classical Pilates arm sequences. They are also useful for practitioners with tennis elbow or medial epicondylitis who need proprioceptive support around the elbow joint during reformer arm exercises. The sleeves are lightweight enough that they do not restrict the fine motor control required for hand-grip exercises on the reformer. Available in multiple colourways. Worn by a small but growing cohort of regular reformer practitioners who manage elbow sensitivity.",
-    affiliateUrl: "https://www.amazon.com/s?k=cep+compression+arm+sleeves&tag=pilatescollective-20",
-    tag: "Best Arm Sleeve",
-  },
-  {
-    rank: "06",
-    name: "CompressionZ Calf Compression Sleeves (Pair)",
-    price: "From $22",
-    verdict: "Best budget calf sleeve for daily Pilates",
-    description:
-      "The CompressionZ Calf Sleeves are the entry-level recommendation for practitioners who want to trial compression during Pilates sessions without committing to premium pricing. The 20–30 mmHg compression range matches the clinical standard of the CEP and 2XU options. The nylon-spandex construction is thinner than the CEP Coolmax fabric, which means less effective moisture management during high-intensity Lagree sessions but adequate performance for standard temperature Pilates. The compression consistency across repeated washing is the main limitation versus premium alternatives — the spandex content relaxes more quickly than the medical-grade knit of CEP and 2XU, meaning the sleeves typically need replacement after 6–12 months of regular use versus 18–24 months for premium options. For practitioners who want to assess whether compression sleeves benefit their Pilates recovery before investing in CEP or Zensah, the CompressionZ pair is the correct starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=compressionz+calf+compression+sleeves&tag=pilatescollective-20",
-    tag: "Best Budget",
+      "TheraCopper's sleeves add copper-infused fabric to the standard calf compression design and come as a 2-pack, positioning them as the premium option on this list. For practitioners who prefer a sleeve with added antimicrobial fabric properties alongside graduated calf support — useful for sleeves worn class after class — the copper-infused construction is the differentiator over the more basic options above.",
+    affiliateUrl: "https://www.amazon.com/dp/B0F3Y15R9B?tag=pilatescollective-20",
+    tag: "Premium Pick",
   },
 ];
 
@@ -95,8 +85,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Compression Sleeves for Pilates (2026): Calf, Knee & Arm",
-      "description": "Compression sleeves for calf circulation, knee support, and Pilates recovery — tested and ranked.",
+      "headline": "Best Compression Sleeves for Pilates (2026): Calf Compression",
+      "description": "Calf compression sleeves for circulation and Pilates recovery — compared and ranked.",
       "url": "https://pilatescollectiveclub.com/blog/best-compression-sleeves-for-pilates",
       "datePublished": "2026-06-28",
       "dateModified": "2026-06-28",
@@ -108,7 +98,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Compression Sleeves for Pilates (2026)",
-      "numberOfItems": 6,
+      "numberOfItems": 5,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -131,9 +121,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do compression sleeves help with Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, in specific scenarios. Calf compression sleeves benefit practitioners who experience lower-leg pump, swelling, or DOMS after Lagree and high-repetition reformer sessions — the graduated compression accelerates venous return and reduces fluid accumulation. Knee sleeves benefit practitioners with patellar tracking issues, chondromalacia, or general knee sensitivity who need proprioceptive support during footwork and lunge sequences. Arm sleeves benefit practitioners with elbow sensitivity or who accumulate forearm fatigue during extended reformer arm work." } },
-        { "@type": "Question", "name": "Should you wear compression sleeves during Pilates or after?", "acceptedAnswer": { "@type": "Answer", "text": "Both applications are valid for different goals. During class: calf and knee sleeves improve circulation and provide proprioceptive feedback during the session, and the compression level for active use should be 15–20 mmHg. After class: higher compression (20–30 mmHg) accelerates venous return and reduces DOMS most effectively. CEP and 2XU sleeves at 20–30 mmHg can be worn both during and after sessions. Most practitioners who use compression sleeves wear them continuously through the post-session transit period rather than changing at the studio." } },
-        { "@type": "Question", "name": "What mmHg compression is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "15–20 mmHg is the appropriate range for active wear during Pilates and Lagree sessions — firm enough to provide circulatory benefit without restricting movement. 20–30 mmHg is the recovery standard for post-session wear and is also appropriate for practitioners with medically indicated compression needs. Avoid sleeves above 30 mmHg for active exercise — they restrict blood flow too significantly for movement-based training." } },
+        { "@type": "Question", "name": "Do compression sleeves help with Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For many practitioners, yes. Calf compression sleeves are worn by people who experience lower-leg pump, swelling, or soreness after Lagree and high-repetition reformer sessions, since graduated compression is designed to support venous return and reduce fluid accumulation in the lower leg. They're a low-cost way to test whether added calf support improves how your legs feel during and after class." } },
+        { "@type": "Question", "name": "Should you wear compression sleeves during Pilates or after?", "acceptedAnswer": { "@type": "Answer", "text": "Both are common. Some practitioners wear a footless calf sleeve during class, under their grip socks, for support through Lagree carriage work and reformer footwork. Others prefer to put sleeves on immediately after class to support recovery during the transit period. Either approach is reasonable — comfort and personal preference are the main deciding factors." } },
+        { "@type": "Question", "name": "What should I look for in a calf compression sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Fit is the most important factor — a sleeve that's too loose won't provide meaningful support, and one that's too tight will be uncomfortable to wear through a full class. Look at the brand's sizing guidance closely. Beyond fit, consider whether you want a footless design (to wear under grip socks), a multi-pack for laundry convenience if you'll wear sleeves regularly, or added features like copper-infused fabric." } },
       ],
     },
   ],
@@ -159,7 +149,7 @@ export default function BestCompressionSleevesForPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Compression sleeves are a small but effective part of the Pilates and Lagree recovery toolkit. For Lagree practitioners specifically, the slow sustained contractions of the Megaformer create significant lower-leg pump that calf sleeves address directly. For reformer practitioners with knee sensitivity, a well-designed knee sleeve provides proprioceptive support during footwork and lunge sequences without restricting movement. These six sleeves — covering calf, knee, and arm — have been selected for graduated compression quality and Pilates-specific application.
+              Compression sleeves are a small but popular part of the Pilates and Lagree recovery toolkit. For Lagree practitioners specifically, the slow sustained contractions of the Megaformer create significant lower-leg pump that calf sleeves are designed to address. These five calf compression sleeves have been selected across a range of prices, from a low-cost way to test the category to a premium copper-infused pick, so you can find the right fit for your budget and how often you plan to wear them.
             </p>
           </div>
         </section>
@@ -194,7 +184,7 @@ export default function BestCompressionSleevesForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Sleeves · Clinically Graded</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Calf Sleeves · Graduated Compression</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -212,9 +202,9 @@ export default function BestCompressionSleevesForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Do compression sleeves help with Pilates?", a: "Yes, in specific scenarios. Calf compression sleeves benefit practitioners who experience lower-leg pump, swelling, or DOMS after Lagree and high-repetition reformer sessions — the graduated compression accelerates venous return and reduces fluid accumulation. Knee sleeves benefit practitioners with patellar tracking issues, chondromalacia, or general knee sensitivity who need proprioceptive support during footwork and lunge sequences. Arm sleeves benefit practitioners with elbow sensitivity or who accumulate forearm fatigue during extended reformer arm work." },
-                  { q: "Should you wear compression sleeves during Pilates or after?", a: "Both applications are valid for different goals. During class: calf and knee sleeves improve circulation and provide proprioceptive feedback, and the compression level for active use should be 15–20 mmHg. After class: higher compression (20–30 mmHg) accelerates venous return and reduces DOMS most effectively. CEP and 2XU sleeves at 20–30 mmHg can be worn both during and after sessions." },
-                  { q: "What mmHg compression is best for Pilates?", a: "15–20 mmHg is the appropriate range for active wear during Pilates and Lagree sessions — firm enough to provide circulatory benefit without restricting movement. 20–30 mmHg is the recovery standard for post-session wear. Avoid sleeves above 30 mmHg for active exercise — they restrict blood flow too significantly for movement-based training." },
+                  { q: "Do compression sleeves help with Pilates?", a: "For many practitioners, yes. Calf compression sleeves are worn by people who experience lower-leg pump, swelling, or soreness after Lagree and high-repetition reformer sessions, since graduated compression is designed to support venous return and reduce fluid accumulation in the lower leg. They're a low-cost way to test whether added calf support improves how your legs feel during and after class." },
+                  { q: "Should you wear compression sleeves during Pilates or after?", a: "Both are common. Some practitioners wear a footless calf sleeve during class, under their grip socks, for support through Lagree carriage work and reformer footwork. Others prefer to put sleeves on immediately after class to support recovery during the transit period. Either approach is reasonable — comfort and personal preference are the main deciding factors." },
+                  { q: "What should I look for in a calf compression sleeve?", a: "Fit is the most important factor — a sleeve that's too loose won't provide meaningful support, and one that's too tight will be uncomfortable through a full class. Beyond fit, consider whether you want a footless design to wear under grip socks, a multi-pack for laundry convenience if you'll wear sleeves regularly, or added features like copper-infused fabric." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

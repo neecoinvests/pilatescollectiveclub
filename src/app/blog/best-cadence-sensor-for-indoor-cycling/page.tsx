@@ -8,8 +8,8 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Cadence Sensor for Indoor Cycling & Spin (2026)",
-  description: "The best cadence sensors for indoor cycling — Garmin, Wahoo, and budget options compared for accuracy, connectivity, and compatibility with Zwift, Peloton app, and non-connected bikes.",
-  keywords: ["best cadence sensor indoor cycling", "bike cadence sensor 2026", "garmin cadence sensor review", "wahoo cadence sensor", "rpm sensor spin bike", "cadence sensor for zwift", "best rpm meter spin class", "cadence meter indoor bike"],
+  description: "The best cadence sensors for indoor cycling — CooSpo, CYCPLUS, Magene, GEOID, and iGPSPORT compared for accuracy, connectivity, and compatibility with Zwift, Peloton app, and non-connected bikes.",
+  keywords: ["best cadence sensor indoor cycling", "bike cadence sensor 2026", "coospo cadence sensor review", "cycplus cadence sensor", "rpm sensor spin bike", "cadence sensor for zwift", "best rpm meter spin class", "cadence meter indoor bike"],
   openGraph: {
     title: "Best Cadence Sensor for Indoor Cycling & Spin (2026)",
     description: "Cadence sensors compared for accuracy, Bluetooth connectivity, and compatibility with Zwift and Peloton.",
@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Garmin Cadence Sensor 2",
-    price: "From $39",
+    name: "CooSpo BK467 Speed & Cadence Sensor",
+    price: "$15.74",
     verdict: "Best overall cadence sensor",
     description:
-      "Garmin's second-generation cadence sensor is a small magnet-free unit that clips to the crank arm and uses an accelerometer to detect pedal rotation, transmitting via both Bluetooth Smart and ANT+ simultaneously. The dual-protocol connectivity means it pairs with a Garmin head unit and a Zwift-running tablet at the same time without switching modes, which is genuinely useful for riders who want both a dedicated display and app-based virtual training. Auto-start and auto-stop eliminates manual session management. The button-style battery is rated for roughly a year of regular use. For riders training on a non-connected spin bike who want accurate RPM data streamed to any app, the Garmin Sensor 2 is the most consistently recommended option across platform compatibility.",
-    affiliateUrl: "https://www.amazon.com/s?k=garmin+cadence+sensor+2&tag=pilatescollective-20",
+      "The CooSpo BK467 is built for both indoor and outdoor cycling, which makes it a sensible default if the same rider also takes the bike outside occasionally. It mounts to the crank arm and reports cadence data to any paired app or head unit. At under $16 it undercuts most name-brand sensors while covering the core job — accurate RPM data streamed live — without asking you to pay for features a spin-bike rider will not use. For anyone who wants one dependable sensor and does not need niche extras, the BK467 is the easiest recommendation.",
+    affiliateUrl: "https://www.amazon.com/dp/B07CDCPF4Z?tag=pilatescollective-20",
     tag: "Best Overall",
   },
   {
     rank: "02",
-    name: "Wahoo RPM Cadence Sensor",
-    price: "From $39",
-    verdict: "Best for Wahoo ecosystem users",
+    name: "CYCPLUS Speed & Cadence Sensor",
+    price: "$16.99",
+    verdict: "Best for sweaty, humid training spaces",
     description:
-      "Wahoo's RPM Cadence Sensor pairs Bluetooth and ANT+ transmission with a mount that attaches to either the crank arm or the shoe, giving riders flexibility depending on their bike's crank geometry. It's natively compatible with the Wahoo ELEMNT cycling computer, Zwift, TrainerRoad, and most major cycling apps, and auto-calibrates without manual input. Build quality is comparable to the Garmin Sensor 2, and pricing is identical. For riders already using a Wahoo cycling computer or head unit, the RPM sensor integrates marginally more smoothly into the Wahoo ecosystem, but in practice both sensors perform comparably across any app.",
-    affiliateUrl: "https://www.amazon.com/s?k=wahoo+rpm+cadence+sensor&tag=pilatescollective-20",
-    tag: "Best for Wahoo Users",
+      "The CYCPLUS sensor transmits over both Bluetooth and ANT+, so it pairs with a phone-based app and a dedicated head unit at once. Its standout feature is an IP67 waterproof rating, which matters more indoors than it sounds — spin bikes sit under riders who sweat heavily, and a sensor mounted near the crank takes the brunt of it. For anyone training in a garage, basement, or heavily air-conditioned studio where moisture and condensation are a recurring issue, the CYCPLUS is the sturdier long-term choice.",
+    affiliateUrl: "https://www.amazon.com/dp/B08X49WVV2?tag=pilatescollective-20",
+    tag: "Best Sweat & Moisture Resistance",
   },
   {
     rank: "03",
-    name: "CooSpo Cadence Sensor (Bluetooth + ANT+)",
-    price: "From $19",
-    verdict: "Best budget cadence sensor",
+    name: "Magene Speed/Cadence Sensor",
+    price: "$16.99",
+    verdict: "Best for Zwift and Wahoo Fitness riders",
     description:
-      "The CooSpo cadence sensor delivers dual Bluetooth/ANT+ connectivity at half the cost of Garmin and Wahoo equivalents, with accuracy comparable to both in independent testing during steady-state indoor cycling. It mounts to the crank arm via a rubber band — less refined than Garmin's clip mount but functional. Battery is rated for 300 hours. Where it falls slightly behind premium options is in rapid RPM-change detection during sprint intervals, where the accelerometer's update rate introduces a small lag versus the Garmin and Wahoo units. For casual riders or those testing cadence training before committing to a premium sensor, the CooSpo is a nearly risk-free entry point.",
-    affiliateUrl: "https://www.amazon.com/s?k=coospo+cadence+sensor+bluetooth+ant&tag=pilatescollective-20",
-    tag: "Best Budget Pick",
+      "Magene is a long-established name in cycling sensors, and this speed/cadence unit is explicitly compatible with Zwift and Wahoo Fitness, two of the most widely used training apps for indoor riders. If your spin bike itself has no connectivity and you're building a virtual-training setup around a tablet or phone, confirmed compatibility with the app you actually plan to use matters more than any spec sheet. At the same price point as the CYCPLUS above, the deciding factor between the two is simply which platform you ride on.",
+    affiliateUrl: "https://www.amazon.com/dp/B08252X8VS?tag=pilatescollective-20",
+    tag: "Best App Compatibility",
   },
   {
     rank: "04",
-    name: "Polar Verity Sense + Cadence Pod Bundle",
-    price: "From $149",
-    verdict: "Best for combined HR and cadence tracking",
+    name: "GEOID CS600 Cadence/Speed Sensor",
+    price: "$14.99",
+    verdict: "Best budget pick",
     description:
-      "Rather than a standalone cadence sensor, the Polar Verity Sense is an optical arm-worn heart rate monitor that also supports a separately purchased cadence pod, providing both metrics from a single Polar account with paired hardware. For riders who want heart rate and cadence data in one streamlined setup without a chest strap, this bundle approach removes the need for two separate devices. The cadence accuracy matches dedicated sensors, and the heart rate tracking is better than most wrist-based alternatives. The higher combined cost is only justified for riders who want both metrics and prefer optical HR to a chest strap.",
-    affiliateUrl: "https://www.amazon.com/s?k=polar+verity+sense+cadence+sensor&tag=pilatescollective-20",
-    tag: "Best HR + Cadence Combo",
+      "The GEOID CS600 is the least expensive option here, offering both ANT+ and Bluetooth connectivity, which covers the vast majority of training apps and head units. It's a straightforward choice for riders who want to add cadence tracking to a non-connected spin bike without spending much to find out whether they'll use the data regularly. There's nothing exotic about it — it does the core job of reporting cadence and speed at the lowest price in this lineup.",
+    affiliateUrl: "https://www.amazon.com/dp/B09PYW7FYV?tag=pilatescollective-20",
+    tag: "Best Budget Pick",
   },
   {
     rank: "05",
-    name: "Magene S3+ Speed and Cadence Sensor",
-    price: "From $29",
-    verdict: "Best speed and cadence combo unit",
+    name: "iGPSPORT Speed & Cadence Sensor Set",
+    price: "$37.99",
+    verdict: "Best for wide device compatibility",
     description:
-      "The Magene S3+ is a dual speed-and-cadence sensor that mounts simultaneously to the hub and crank, providing both metrics from a single unit — useful for riders who want wheel speed data alongside RPM without buying two separate sensors. Bluetooth and ANT+ dual connectivity cover most apps including Zwift and Strava, and the magnet-based system (unlike the accelerometer-only units above) produces accurate cadence readings even during very slow-tempo efforts. For riders interested in both power-estimation and cadence tracking across a non-connected bike, the dual-function value makes this a compelling option.",
-    affiliateUrl: "https://www.amazon.com/s?k=magene+s3+speed+cadence+sensor&tag=pilatescollective-20",
-    tag: "Best Speed & Cadence Combo",
-  },
-  {
-    rank: "06",
-    name: "Garmin Vector 3 Pedal Power Meter",
-    price: "From $749",
-    verdict: "Best for serious data-driven training",
-    description:
-      "The Garmin Vector 3 steps well beyond cadence into comprehensive power measurement — left/right power balance, total watts, cadence, and advanced cycling dynamics like torque efficiency and pedal smoothness — all from a pair of standard-profile road pedals. For riders treating spin class as data-driven training rather than a cardio workout, the Vector 3 provides the most complete picture of what's actually happening in each pedal stroke. The price reflects professional-grade measurement hardware, and the pedal-based installation requires compatible SPD-SL or Look cleats. This is not the right choice for casual riders — but for practitioners serious about structured power-based training, the Vector 3 is the best available.",
-    affiliateUrl: "https://www.amazon.com/s?k=garmin+vector+3+power+meter+pedals&tag=pilatescollective-20",
-    tag: "Best Power Meter Upgrade",
+      "iGPSPORT sells this as a set rather than a single sensor, and it's positioned around wide compatibility across apps and head units — useful if you're not committed to one training platform and want a sensor that will keep working if you switch. It sits at the top of the price range in this list, which reflects the set format rather than any premium feature beyond broad compatibility. For riders who want flexibility to move between apps without buying a new sensor later, it's the safer long-term bet.",
+    affiliateUrl: "https://www.amazon.com/dp/B0BJ6TVRJG?tag=pilatescollective-20",
+    tag: "Best Wide Compatibility",
   },
 ];
 
@@ -108,7 +98,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Cadence Sensors for Indoor Cycling (2026)",
-      "numberOfItems": 6,
+      "numberOfItems": PRODUCTS.length,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -132,8 +122,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "What is cadence in indoor cycling, and why does it matter?", "acceptedAnswer": { "@type": "Answer", "text": "Cadence is pedal revolutions per minute (RPM) — how fast you're spinning the crank. Most spin instructors target 60-110 RPM for different exercise types: lower RPM for heavy-resistance hill climbs, higher RPM for speed intervals. A cadence sensor gives you objective feedback on whether you're actually hitting instructor cues, rather than estimating based on feel." } },
-        { "@type": "Question", "name": "Do I need a cadence sensor if my spin bike already has a console?", "acceptedAnswer": { "@type": "Answer", "text": "If your bike's console displays RPM and you trust its accuracy, you may not need an additional sensor. However, many budget and even mid-range spin bikes display estimated or uncalibrated cadence. A dedicated sensor like the Garmin or Wahoo provides certified accuracy and can simultaneously stream to your phone or training app even if your bike's console doesn't have app connectivity." } },
-        { "@type": "Question", "name": "Magnet-based vs accelerometer cadence sensors — which is more accurate?", "acceptedAnswer": { "@type": "Answer", "text": "Both are accurate for steady-state cadence. Accelerometer-based sensors (Garmin, Wahoo) detect motion without a magnet but can lag very slightly during rapid RPM changes. Magnet-based sensors (Magene S3+) use a physical trigger point per revolution that is precisely accurate even at low cadence, making them better for slow-tempo efforts. For typical spin class use, both types perform comparably well." } },
+        { "@type": "Question", "name": "Do I need a cadence sensor if my spin bike already has a console?", "acceptedAnswer": { "@type": "Answer", "text": "If your bike's console displays RPM and you trust its accuracy, you may not need an additional sensor. However, many budget and even mid-range spin bikes display estimated or uncalibrated cadence. A dedicated sensor provides certified accuracy and can simultaneously stream to your phone or training app even if your bike's console doesn't have app connectivity." } },
+        { "@type": "Question", "name": "Bluetooth vs ANT+ cadence sensors — which should I use?", "acceptedAnswer": { "@type": "Answer", "text": "Most modern cadence sensors, including all the options in this guide, transmit over both Bluetooth and ANT+ simultaneously, so the choice usually comes down to what your app or head unit supports rather than the sensor itself. Bluetooth covers phones and tablets, while ANT+ is common on dedicated cycling head units. Dual-protocol sensors let you pair to both at once without switching modes." } },
       ],
     },
   ],
@@ -159,7 +149,7 @@ export default function BestCadenceSensorPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A cadence sensor turns a non-connected spin bike into a data-capable training tool — streaming live RPM to Zwift, your Peloton app, or any compatible training platform. This guide compares the six best options for 2026, from Garmin and Wahoo's proven flagship sensors to budget alternatives and advanced power meter upgrades.
+              A cadence sensor turns a non-connected spin bike into a data-capable training tool — streaming live RPM to Zwift, your Peloton app, or any compatible training platform. This guide compares the five best options for 2026, from proven all-rounders like CooSpo and CYCPLUS to budget picks and wide-compatibility sets.
             </p>
           </div>
         </section>
@@ -195,7 +185,7 @@ export default function BestCadenceSensorPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Sensors · RPM & Power</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Sensors · RPM & Cadence</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

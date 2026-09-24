@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Pearl Izumi Women's Select Glove",
-    price: "From $28",
-    verdict: "Best women's padded cycling glove",
+    name: "HTZPLOO Bike Gloves",
+    price: "$19.99",
+    verdict: "Best all-around padded glove",
     description:
-      "Pearl Izumi's Select glove is the most consistently recommended women's fingerless cycling glove in the sport cycling community, and it translates well to indoor spin use because of the gel-foam palm pad placement — positioned over the ulnar nerve contact point where handlebar pressure accumulates during sustained out-of-saddle efforts. The SELECT Transfer fabric pulls sweat away from the palm quickly, which reduces grip degradation during high-tempo intervals. The hook-and-loop wrist closure fits securely without bunching. For women practitioners who experience tingling or numbness in the palm during long spin sessions, a padded glove in this class is often the most direct solution.",
-    affiliateUrl: "https://www.amazon.com/s?k=pearl+izumi+select+cycling+gloves+women&tag=pilatescollective-20",
-    tag: "Best Women's Glove",
+      "HTZPLOO's half-finger bike gloves pair an anti-slip palm with a shock-absorbing pad positioned where handlebar pressure builds up during out-of-saddle climbs and sprints. That combination of grip and cushioning is exactly what a spin glove needs to do, and HTZPLOO delivers it at a reasonable price without cutting corners on either side. A solid, well-rounded default pick for most spin riders.",
+    affiliateUrl: "https://www.amazon.com/dp/B06XPL2DNR?tag=pilatescollective-20",
+    tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Pearl Izumi Men's Elite Gel Glove",
-    price: "From $42",
-    verdict: "Best men's padded cycling glove",
+    name: "MOREOK Cycling Gloves",
+    price: "$12.74",
+    verdict: "Best budget pick",
     description:
-      "The Pearl Izumi Elite Gel is a step above the Select in palm cushioning, using a gel compound insert rather than foam, which conforms more precisely to the hand's contact points under pressure. For spin riders doing multiple weekly sessions, the gel palm absorbs handlebar vibration more effectively than foam over time without bottoming out. The four-way stretch mesh back improves ventilation in heated spin studios, and the microfiber thumb panel provides a wiping surface for sweat without looking out of place. Premium price relative to budget alternatives, but the construction is built for hundreds of sessions rather than dozens.",
-    affiliateUrl: "https://www.amazon.com/s?k=pearl+izumi+elite+gel+cycling+gloves&tag=pilatescollective-20",
-    tag: "Best Men's Glove",
-  },
-  {
-    rank: "03",
-    name: "Giro Monica II Gel Glove (Women's)",
-    price: "From $35",
-    verdict: "Best alternative women's premium glove",
-    description:
-      "Giro's Monica II uses a Lycra-and-Pittards leather palm combination with a gel foam insert, delivering a palm feel closer to genuine cycling heritage hardware than many indoor-specific options. The slimmer fit relative to Pearl Izumi suits riders with narrower hands who find standard unisex or men's sizing roomy at the palm edges. Ventilation is generous for a leather-palm glove. For women practitioners who prefer a slightly more premium, road-cycling-influenced build quality, the Monica II is the strongest alternative to the Pearl Izumi Select.",
-    affiliateUrl: "https://www.amazon.com/s?k=giro+monica+gel+cycling+gloves&tag=pilatescollective-20",
-    tag: "Best Premium Women's",
-  },
-  {
-    rank: "04",
-    name: "Serfas RX-Super Gel Glove",
-    price: "From $29",
-    verdict: "Best for palm nerve pressure",
-    description:
-      "Serfas designs its RX glove series around reducing carpal tunnel and ulnar nerve pressure specifically — the super-gel insert covers a wider palm area than most competitors, including over the Guyon's canal region that becomes compressed during forward handlebar lean. For spin riders who already experience hand or wrist discomfort and want the most targeted anti-numbness solution, the Serfas RX provides the widest pressure-relief coverage available in a fingerless glove. Build quality is solid without premium-brand pricing.",
-    affiliateUrl: "https://www.amazon.com/s?k=serfas+rx+gel+cycling+gloves&tag=pilatescollective-20",
-    tag: "Best Anti-Numbness",
-  },
-  {
-    rank: "05",
-    name: "Ihuan Ventilated Cycling Gloves",
-    price: "From $14",
-    verdict: "Best budget fingerless glove",
-    description:
-      "The Ihuan is the standout budget option in the category — a foam-padded fingerless cycling glove with an anti-slip silicone grip print on the palm, hook-and-loop closure, and enough breathability for studio spin use at a price most practitioners can commit to without hesitation. The foam padding is thinner than gel-based premium options and will compress faster over hundreds of sessions, but for riders trying padded gloves for the first time or training 2-3 times per week rather than daily, the Ihuan delivers functional performance well above its price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=ihuan+ventilated+cycling+gloves&tag=pilatescollective-20",
+      "MOREOK's half-finger gloves use 5mm gel padding at the palm, which is a genuinely generous cushioning spec for the price. For riders who want gel-level palm protection during high-output spin sessions without paying premium-brand prices, this is the clearest budget recommendation on the list.",
+    affiliateUrl: "https://www.amazon.com/dp/B07B3PVG4Q?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
   {
-    rank: "06",
-    name: "Castelli Rosso Corsa Classic Glove",
-    price: "From $55",
-    verdict: "Best premium road-cycling glove for spin",
+    rank: "03",
+    name: "Lamicall Bike Gloves",
+    price: "$13.99",
+    verdict: "Best simple, secure grip",
     description:
-      "Castelli's Rosso Corsa is a road cycling glove designed for professional-grade outdoor use but equally effective for indoor spin — the Pittards digital leather palm, anatomical gel insert, and Lycra-backed construction produce a fit and feel that is noticeably more refined than any mid-range glove. For practitioners who cycle both outdoors and indoors and want one glove that excels in both contexts, the Rosso Corsa is the best single investment. The price reflects genuine professional cycling hardware rather than boutique fitness positioning — this glove appears on professional race teams, not just spin studios.",
-    affiliateUrl: "https://www.amazon.com/s?k=castelli+rosso+corsa+cycling+gloves&tag=pilatescollective-20",
-    tag: "Best Premium Glove",
+      "Lamicall's bike gloves combine an anti-slip palm surface with a shock-absorbing pad, focused on keeping your grip secure through sweaty, high-tempo intervals without the handlebar pressure translating straight into your palms. A straightforward, no-frills option for riders who just want reliable grip and cushioning.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GL1XFKG5?tag=pilatescollective-20",
+    tag: "Best Grip",
+  },
+  {
+    rank: "04",
+    name: "CXWXC Cycling Gloves",
+    price: "$15.28",
+    verdict: "Best for breathability",
+    description:
+      "CXWXC's gloves pair breathable fabric with gel padding at the palm, which is the combination that matters most in a heated spin studio where hands sweat quickly through a class. For riders who run hot and want a glove that won't feel clammy by the second interval, the breathable build here is the standout feature.",
+    affiliateUrl: "https://www.amazon.com/dp/B0878J6LK5?tag=pilatescollective-20",
+    tag: "Best Breathability",
+  },
+  {
+    rank: "05",
+    name: "ATERCEL Workout/Cycling Gloves",
+    price: "$13.95",
+    verdict: "Best crossover glove for gym and spin",
+    description:
+      "ATERCEL's gloves are built as a breathable, snug-fitting crossover pick for both general gym workouts and spin class, which makes them a good choice for anyone who doesn't want a glove that only comes out for cycling. If you lift or do other gym work alongside your spin sessions, this is the pick that covers both without needing a second pair.",
+    affiliateUrl: "https://www.amazon.com/dp/B07KQR9VXG?tag=pilatescollective-20",
+    tag: "Best Crossover Pick",
   },
 ];
 
@@ -108,7 +98,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Cycling Gloves for Spin Class (2026)",
-      "numberOfItems": 6,
+      "numberOfItems": 5,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -159,7 +149,7 @@ export default function BestCyclingGlovesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Spin handlebars create sustained palm and nerve pressure during out-of-saddle climbs and sprints that bare hands and sweat can't comfortably manage over a full class. Padded cycling gloves redistribute that pressure and maintain a secure grip throughout. This guide compares the six best options for 2026, covering premium gel builds, budget entry points, and women's-specific fits.
+              Spin handlebars create sustained palm and nerve pressure during out-of-saddle climbs and sprints that bare hands and sweat can&apos;t comfortably manage over a full class. Padded cycling gloves redistribute that pressure and maintain a secure grip throughout. This guide compares five of the best options for 2026, covering an editor&apos;s pick, a budget favorite, and gloves built for extra grip, breathability, and crossover gym use.
             </p>
           </div>
         </section>
@@ -195,7 +185,7 @@ export default function BestCyclingGlovesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Gloves · Women's & Men's</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Gloves · Padded & Ventilated</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

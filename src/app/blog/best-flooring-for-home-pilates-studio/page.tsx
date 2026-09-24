@@ -8,11 +8,11 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Flooring for a Home Pilates Studio (2026)",
-  description: "Home Pilates studio flooring compared — interlocking foam, cork, rubber rolls, vinyl and large mats, ranked for reformers, noise and subfloor safety.",
-  keywords: ["best flooring for home pilates studio", "pilates studio flooring", "home gym flooring pilates", "reformer flooring", "cork flooring pilates", "interlocking foam tiles pilates", "rubber flooring home studio", "pilates floor mat large", "home pilates room floor", "pilates flooring 2026"],
+  description: "Home Pilates studio flooring compared — interlocking EVA foam tiles ranked by price, coverage and durability, including a heavier rubber-top option for equipment.",
+  keywords: ["best flooring for home pilates studio", "pilates studio flooring", "home gym flooring pilates", "interlocking foam tiles pilates", "EVA foam floor tiles", "reformer flooring", "pilates floor mat large room", "home pilates room floor", "rubber top exercise mat", "pilates flooring 2026"],
   openGraph: {
     title: "Best Flooring for a Home Pilates Studio (2026)",
-    description: "Interlocking foam, cork, rubber rolls, vinyl plank and large mats — ranked for reformers, noise and subfloor protection.",
+    description: "Interlocking EVA foam tiles compared by price, coverage and durability, plus a rubber-top option for equipment.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-flooring-for-home-pilates-studio",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-mats-corner-sunlit.png", width: 1200, height: 630, alt: "Best Flooring for a Home Pilates Studio — Pilates Collective Club" }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Flooring for a Home Pilates Studio (2026)",
-    description: "Foam, cork, rubber, vinyl and large mats compared for home Pilates rooms.",
+    description: "Interlocking EVA foam tiles compared for home Pilates rooms, from budget starter packs to full-room coverage.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-mats-corner-sunlit.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-flooring-for-home-pilates-studio" },
@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Interlocking EVA Foam Tiles (3/4-inch)",
-    price: "From $60",
-    verdict: "Best overall home Pilates studio flooring",
+    name: "ProsourceFit Exercise Puzzle Mat (144 sq ft, 36 tiles)",
+    price: "$139.99",
+    verdict: "Best for covering a full room",
     description:
-      "Three-quarter-inch interlocking EVA tiles are the default answer for most home studios, and the thickness is the reason. Half-inch tiles — the ones usually sold as 'exercise flooring' — compress too far under a reformer's wheels and leave permanent indentations, while the 3/4-inch density supports equipment without deforming and still gives enough cushioning for kneeling and side-lying work. They install in an afternoon with no adhesive, lift out individually if one gets damaged, and come up entirely when you move, which matters in a rented flat. Coverage is typically 24 square feet per six-tile pack, so a 10x10 room needs about four packs. The two things to check are density and off-gassing: cheap low-density tiles dent under a reformer within weeks, and unbranded EVA can smell strongly for a fortnight. Buy a certified low-VOC product and air the room for a few days before using it.",
-    affiliateUrl: "https://www.amazon.com/s?k=interlocking+eva+foam+exercise+tiles+3+4+inch&tag=pilatescollective-20",
+      "ProsourceFit is an established name in this category, and this set is sold directly by Amazon.com rather than a third-party marketplace listing. The 36-tile set covers 144 square feet in one purchase, which is enough to floor a genuinely large room without piecing together multiple smaller packs — a real advantage if you're doing the whole space at once rather than building it up over time. The tiles are half-inch EVA foam with interlocking edges, so no adhesive or professional installation is needed; they lift out individually if one gets damaged and come up entirely if you move. Half-inch foam is on the thinner side as EVA goes, so this is best suited to mat, floor and prop-based practice rather than a room with a reformer or other equipment sitting on it permanently.",
+    affiliateUrl: "https://www.amazon.com/dp/B07YMZZ12Q?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Cork Flooring Tiles",
-    price: "From $130",
-    verdict: "Best natural material and best underfoot",
+    name: "Haulcove EVA Foam Floor Tiles (18 pc)",
+    price: "$22.49",
+    verdict: "Best budget starter set",
     description:
-      "Cork is what a number of boutique studios actually install, and it is the most pleasant surface on this list to work barefoot on. It is naturally antimicrobial, warm underfoot in a way foam and rubber are not, and it absorbs impact and sound better than any hard flooring — a genuine consideration if the studio sits above a bedroom or a neighbour. It is also a renewable material harvested without felling the tree, which matters to a lot of buyers in this category. The trade-offs are real, though. Cork dents under concentrated point loads, so a reformer left in one position for months will leave marks, and it needs sealing to resist sweat and moisture. Expect to reseal every few years. Choose cork if the room is primarily for mat and prop work and you want a surface that feels considered rather than functional; choose something firmer if a reformer will live on it permanently.",
-    affiliateUrl: "https://www.amazon.com/s?k=cork+flooring+tiles+natural+sealed&tag=pilatescollective-20",
-    tag: "Best Natural Material",
+      "The Haulcove set is the cheapest way onto this list and the obvious starting point if you're flooring a single corner rather than a whole room. Eighteen interlocking EVA foam tiles from Haulcove US give you a practical practice area for mat work without committing to a full-room budget. Because the tiles interlock, you can buy a second pack later and extend the coverage as the space you've given over to practice grows, rather than needing to plan the whole room out from day one.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GLQH4453?tag=pilatescollective-20",
+    tag: "Best Budget Starter",
   },
   {
     rank: "03",
-    name: "Rubber Gym Flooring Roll (8mm)",
-    price: "From $110",
-    verdict: "Best for reformers and heavy apparatus",
+    name: "bemaxx EVA Interlocking Foam Floor Tiles",
+    price: "$22.94",
+    verdict: "Best budget pick",
     description:
-      "If the room holds a reformer, a cadillac, or a chair — anything with concentrated point loads that stays put — rubber is the correct choice. It does not compress permanently under equipment feet or wheels, it protects the subfloor properly, and rolled sheet avoids the seams that foam tiles create, so a reformer's wheels never catch on a tile edge mid-carriage. Eight millimetres is sufficient for Pilates apparatus; the thicker 12mm and 15mm rolls are specified for dropped free weights and are unnecessary here. Rubber also has the best acoustic performance of anything on this list, which is the deciding factor for upstairs rooms in flats. Two honest caveats: recycled rubber has a distinct smell that takes several weeks to fade and never entirely disappears in a small unventilated room, and the rolls are heavy and awkward enough that installation is genuinely a two-person job.",
-    affiliateUrl: "https://www.amazon.com/s?k=rubber+gym+flooring+roll+8mm&tag=pilatescollective-20",
-    tag: "Best for Heavy Equipment",
+      "At almost exactly the same price as the Haulcove set, the bemaxx tiles (sold by PLConcepts) are the alternative budget pick on this list — worth comparing if you want a second option to check finish, colour or tile size against before you buy, or if the Haulcove set happens to be out of stock. Like the other EVA foam tiles here, they interlock without adhesive and are a straightforward, low-cost way to cover a small practice area.",
+    affiliateUrl: "https://www.amazon.com/dp/B019DZDM3O?tag=pilatescollective-20",
+    tag: "Best Budget Pick",
   },
   {
     rank: "04",
-    name: "Luxury Vinyl Plank Flooring (Click-Lock)",
-    price: "From $150",
-    verdict: "Best permanent finish for a dedicated room",
+    name: "Nazhura Home Gym Mat (12-pack, 48 sq ft)",
+    price: "$39.95",
+    verdict: "Best for mid-size rooms",
     description:
-      "Click-lock vinyl plank is the option for a room you want to look like a room rather than a gym. It gives a hard, stable, entirely level surface that reformers roll across without resistance, it is waterproof so sweat and cleaning are non-issues, and it is the only flooring here that will not hurt resale value or look out of place if the space later becomes an office or a spare bedroom. The obvious drawback is that it provides no cushioning whatsoever, so mat work requires a proper mat on top and kneeling exercises on bare vinyl are unpleasant. Most people who go this route pair it with a large mat in the floor-work area, which is the arrangement many commercial studios use. Installation is a weekend job over a flat subfloor, and an underlay adds a little acoustic damping that is worth the small extra cost in a flat.",
-    affiliateUrl: "https://www.amazon.com/s?k=luxury+vinyl+plank+flooring+click+lock+waterproof&tag=pilatescollective-20",
-    tag: "Best Permanent Option",
+      "The Nazhura set sits between the small starter packs and the full-room ProsourceFit option. Twelve interlocking tiles from seller PEARSONS1979 cover 48 square feet, which is a sensible amount for a mid-size room without paying for far more coverage than you need. It's the pick for anyone who has measured their space and landed somewhere between 'one corner' and 'the whole room.'",
+    affiliateUrl: "https://www.amazon.com/dp/B0DRSVXM1S?tag=pilatescollective-20",
+    tag: "Best Mid-Size Room",
   },
   {
     rank: "05",
-    name: "Large Exercise Mat Roll (6ft x 8ft)",
-    price: "From $80",
-    verdict: "Best for renters and single-purpose corners",
+    name: "AIRHOP Exercise Equipment Mats (48 sq ft, rubber top)",
+    price: "$119.99",
+    verdict: "Best heavier-duty option",
     description:
-      "A single large rolled mat is the pragmatic choice when you are not flooring a room so much as claiming a corner of one. Six by eight feet covers the full mat repertoire including rolling and side-lying work with room to spare, rolls up in under a minute, and stores upright in a cupboard — which makes it the only option here that lets a living room revert to a living room between sessions. It also requires zero installation and leaves no trace, which resolves the rental question entirely. Thickness typically runs 6mm to 10mm; go for the thicker end, since the thin ones telegraph every hard floor beneath them during spinal roll-downs. What it will not do is support a reformer: the surface flexes under wheels and the edges curl where a machine sits on them. This is a mat-practice solution, and an excellent one at that.",
-    affiliateUrl: "https://www.amazon.com/s?k=large+exercise+mat+roll+6ft+x+8ft+thick&tag=pilatescollective-20",
-    tag: "Best for Renters",
-  },
-  {
-    rank: "06",
-    name: "Low-Pile Carpet Tiles",
-    price: "From $70",
-    verdict: "Best budget option for a spare room",
-    description:
-      "Carpet tiles are the overlooked option and they make more sense than they first appear for a converted spare room. They are warm, quiet, self-adhesive, and individually replaceable when one gets stained — and at roughly $2 to $3 a square foot they are among the cheapest ways to cover a whole room properly. For mat-based practice with a mat on top, they are perfectly adequate. The critical specification is pile height: anything above a genuinely low commercial-grade pile is unstable underfoot during standing balance work and makes any equipment on castors difficult to move accurately. Avoid plush or domestic-grade carpet tiles entirely. The other limitation is hygiene — carpet absorbs sweat in a way that foam, rubber, cork and vinyl do not, so this is the one surface here that will eventually need deep cleaning rather than wiping down.",
-    affiliateUrl: "https://www.amazon.com/s?k=low+pile+commercial+carpet+tiles+peel+and+stick&tag=pilatescollective-20",
-    tag: "Best Budget",
+      "AIRHOP's mats cover the same 48 square feet as the Nazhura set but are built differently — a rubber top over the tile rather than plain EVA foam. That construction is the reason to choose this over the cheaper foam-only options: a rubber surface resists compression and denting under sustained or concentrated weight far better than foam alone, which matters if a reformer or other apparatus is going to sit in the room. The higher price reflects that heavier-duty build rather than extra square footage, so this is the pick when durability under equipment matters more than covering the largest possible area for the least money.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CNG8MDWB?tag=pilatescollective-20",
+    tag: "Best Heavy-Duty",
   },
 ];
 
@@ -96,10 +86,10 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Flooring for a Home Pilates Studio (2026)",
-      "description": "Interlocking foam, cork, rubber rolls, vinyl plank, large mats and carpet tiles compared for home Pilates studios — including reformer load and acoustics.",
+      "description": "Interlocking EVA foam tiles compared for home Pilates studios by price, coverage and durability, including a heavier rubber-top option for equipment.",
       "url": "https://pilatescollectiveclub.com/blog/best-flooring-for-home-pilates-studio",
       "datePublished": "2026-09-09",
-      "dateModified": "2026-09-09",
+      "dateModified": "2026-09-24",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-mats-corner-sunlit.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -116,7 +106,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -131,10 +121,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Can you put a reformer on carpet?", "acceptedAnswer": { "@type": "Answer", "text": "On a genuinely low commercial-grade pile, yes, though it is not ideal. The problem is that carpet compresses unevenly under the reformer's feet, which can leave the frame very slightly out of level and makes the carriage feel inconsistent side to side. On thick or plush carpet it is a clear no — the machine rocks and the wheels drag. If carpet is what you have, put a rigid board or a rubber mat under the reformer's footprint to spread the load and give the frame a flat, stable base." } },
-        { "@type": "Question", "name": "How thick should home Pilates studio flooring be?", "acceptedAnswer": { "@type": "Answer", "text": "For foam tiles, 3/4-inch is the right specification — the widely sold half-inch tiles compress permanently under equipment and offer little protection over a hard subfloor. For rubber rolls, 8mm is ample for Pilates apparatus; the thicker 12mm and 15mm products exist for dropped free weights and are unnecessary. Where the flooring is hard, such as vinyl plank, thickness stops mattering because the cushioning comes from the mat you put on top." } },
-        { "@type": "Question", "name": "What flooring is quietest for an upstairs Pilates room?", "acceptedAnswer": { "@type": "Answer", "text": "Rubber roll is the best acoustic performer, followed by cork. Both absorb impact and structure-borne sound far better than foam tiles, which transmit more than people expect, or vinyl plank, which is the worst of the group without a dedicated acoustic underlay. If the room sits directly above a bedroom or a neighbour, rubber over an acoustic underlay is the combination worth paying for — and note that a reformer's carriage rolling back and forth is a continuous low rumble rather than an impact noise, so mass and damping matter more than softness." } },
-        { "@type": "Question", "name": "Do I need special flooring for mat Pilates only?", "acceptedAnswer": { "@type": "Answer", "text": "No. If there is no apparatus involved, a good 6mm mat on an existing hard floor covers everything the mat repertoire requires, and a large 6x8 rolled mat is worth adding only if you want the extra room for rolling and side-lying work without drifting off the edge. Dedicated flooring becomes worth the money once equipment enters the room, once the space is permanently given over to practice, or once noise transmission to the room below becomes an issue." } },
+        { "@type": "Question", "name": "Can interlocking foam tiles handle a reformer or other Pilates equipment?", "acceptedAnswer": { "@type": "Answer", "text": "Standard EVA foam tiles, like the ProsourceFit, Haulcove, bemaxx and Nazhura sets, aren't built for concentrated point loads and can dent under a reformer's feet or wheels over time. If equipment will live in the room, the AIRHOP rubber-top tiles are the better choice — the rubber surface resists compression far better than foam alone. For rooms used for mat, floor and prop work only, any of the pure-foam options are fine." } },
+        { "@type": "Question", "name": "How much flooring do I actually need?", "acceptedAnswer": { "@type": "Answer", "text": "It depends entirely on the room. An 18-piece starter pack like the Haulcove set is enough for a single practice corner, a 12-pack such as the Nazhura set covers roughly 48 square feet — a mid-size room — and the ProsourceFit set's 144 square feet is built for covering a full room in one purchase. Measure your space in square feet first and add a little extra for trimming at the walls." } },
+        { "@type": "Question", "name": "Do budget and premium interlocking tiles actually differ?", "acceptedAnswer": { "@type": "Answer", "text": "Among pure EVA foam tiles, the main differences are pack size and finish quality rather than dramatic performance gaps — the Haulcove and bemaxx sets are both genuinely budget options at a similar price point, while the ProsourceFit set costs more mainly because it covers far more square footage in one purchase, not because the tile itself is a different category of product. The real step up in durability comes from switching to a rubber-top tile like AIRHOP, which is built to handle heavier use than any of the foam-only options." } },
       ],
     },
   ],
@@ -156,11 +145,11 @@ export default function BestFlooringForHomePilatesStudioPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Flooring for a<br /><span style={{ color: "#8b4a31" }}>Home Pilates Studio</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Flooring is the decision people make last and regret first. A reformer sitting on half-inch foam leaves permanent craters within weeks; a beautiful cork floor dents under a machine that never moves; a hard vinyl floor makes kneeling work miserable. The right answer depends almost entirely on one question — is there apparatus in the room, or only a mat — and secondarily on whether anyone lives below you. These six options cover every realistic combination.
+              Flooring is the decision people make last and regret first. Buy too little coverage and you&apos;re stuck taping tiles together at the edge of your mat; buy the wrong type and equipment leaves permanent dents within weeks. Interlocking EVA foam tiles are the practical, do-it-yourself answer for almost every home Pilates room — no adhesive, no professional installation, and tiles that lift out individually if one gets damaged or come up entirely when you move. The real decisions are how much square footage you need and whether anything heavier than a mat will sit on the floor. These five options span a small budget starter pack up to full-room coverage, plus a heavier rubber-top tile built to take equipment.
             </p>
           </div>
         </section>
@@ -195,7 +184,7 @@ export default function BestFlooringForHomePilatesStudioPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Options · Ranked</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Options · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -213,12 +202,12 @@ export default function BestFlooringForHomePilatesStudioPage() {
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Measure and check before you order</h2>
               <ul className="space-y-3">
                 {[
-                  "Add 10 percent to your square footage for cuts and waste — foam tiles and rubber rolls both need trimming at walls and around doorways.",
-                  "A reformer needs roughly 8ft x 3ft of footprint plus about two feet of clearance at the foot end for the carriage and your legs.",
-                  "Check ceiling height if you plan standing work on a raised floor — thick rubber plus a reformer platform reduces headroom more than expected.",
-                  "Confirm the subfloor is level. Foam and rubber conform to an uneven floor rather than correcting it, and a reformer on an uneven floor rocks.",
-                  "Look for low-VOC or certified products. Cheap EVA foam and recycled rubber both off-gas, and a small room takes weeks to clear.",
-                  "If renting, check nothing requires adhesive. Interlocking tiles, rolled mats and loose-lay rubber all lift cleanly; glued vinyl does not.",
+                  "Measure your room in square feet before ordering — coverage varies hugely between these options, from an 18-piece starter pack up to the 144-square-foot full-room set.",
+                  "Add roughly 10 percent to your tile count for cuts and trimming at walls and doorways — interlocking tiles rarely divide evenly into a room's exact dimensions.",
+                  "If a reformer or other apparatus will use the room, go for the rubber-top AIRHOP tiles rather than pure EVA foam — concentrated point loads dent standard foam faster.",
+                  "Confirm the subfloor is reasonably level. Interlocking tiles conform to an uneven floor rather than correcting it.",
+                  "Look for low-VOC or certified products where listed. Budget EVA foam can smell strongly when new, so air the room out for a few days before using it.",
+                  "If you're renting, this is one of the few flooring types that needs no adhesive at all — tiles lift up cleanly and travel with you when you move.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
@@ -232,10 +221,9 @@ export default function BestFlooringForHomePilatesStudioPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Can you put a reformer on carpet?", a: "On a genuinely low commercial-grade pile, yes, though it is not ideal. The problem is that carpet compresses unevenly under the reformer's feet, which can leave the frame very slightly out of level and makes the carriage feel inconsistent side to side. On thick or plush carpet it is a clear no — the machine rocks and the wheels drag. If carpet is what you have, put a rigid board or a rubber mat under the reformer's footprint to spread the load and give the frame a flat, stable base." },
-                  { q: "How thick should home Pilates studio flooring be?", a: "For foam tiles, 3/4-inch is the right specification — the widely sold half-inch tiles compress permanently under equipment and offer little protection over a hard subfloor. For rubber rolls, 8mm is ample for Pilates apparatus; the thicker 12mm and 15mm products exist for dropped free weights and are unnecessary. Where the flooring is hard, such as vinyl plank, thickness stops mattering because the cushioning comes from the mat you put on top." },
-                  { q: "What flooring is quietest for an upstairs Pilates room?", a: "Rubber roll is the best acoustic performer, followed by cork. Both absorb impact and structure-borne sound far better than foam tiles, which transmit more than people expect, or vinyl plank, which is the worst of the group without a dedicated acoustic underlay. If the room sits directly above a bedroom or a neighbour, rubber over an acoustic underlay is the combination worth paying for — and note that a reformer's carriage rolling back and forth is a continuous low rumble rather than an impact noise, so mass and damping matter more than softness." },
-                  { q: "Do I need special flooring for mat Pilates only?", a: "No. If there is no apparatus involved, a good 6mm mat on an existing hard floor covers everything the mat repertoire requires, and a large 6x8 rolled mat is worth adding only if you want the extra room for rolling and side-lying work without drifting off the edge. Dedicated flooring becomes worth the money once equipment enters the room, once the space is permanently given over to practice, or once noise transmission to the room below becomes an issue." },
+                  { q: "Can interlocking foam tiles handle a reformer or other Pilates equipment?", a: "Standard EVA foam tiles, like the ProsourceFit, Haulcove, bemaxx and Nazhura sets, aren't built for concentrated point loads and can dent under a reformer's feet or wheels over time. If equipment will live in the room, the AIRHOP rubber-top tiles are the better choice — the rubber surface resists compression far better than foam alone. For rooms used for mat, floor and prop work only, any of the pure-foam options are fine." },
+                  { q: "How much flooring do I actually need?", a: "It depends entirely on the room. An 18-piece starter pack like the Haulcove set is enough for a single practice corner, a 12-pack such as the Nazhura set covers roughly 48 square feet — a mid-size room — and the ProsourceFit set's 144 square feet is built for covering a full room in one purchase. Measure your space in square feet first and add a little extra for trimming at the walls." },
+                  { q: "Do budget and premium interlocking tiles actually differ?", a: "Among pure EVA foam tiles, the main differences are pack size and finish quality rather than dramatic performance gaps — the Haulcove and bemaxx sets are both genuinely budget options at a similar price point, while the ProsourceFit set costs more mainly because it covers far more square footage in one purchase, not because the tile itself is a different category of product. The real step up in durability comes from switching to a rubber-top tile like AIRHOP, which is built to handle heavier use than any of the foam-only options." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

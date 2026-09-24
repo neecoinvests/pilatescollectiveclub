@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "Best Barefoot Shoes for Pilates Practitioners (2026)",
   description: "Barefoot shoes ranked for Pilates practitioners — wide toe boxes and zero drop that support what reformer footwork trains, plus how to transition safely.",
-  keywords: ["best barefoot shoes for pilates", "barefoot shoes wide toe box", "zero drop shoes pilates", "minimalist shoes for pilates", "vivobarefoot pilates", "xero shoes pilates", "foot strength pilates", "studio to street shoes", "barefoot training shoes", "barefoot shoes 2026"],
+  keywords: ["best barefoot shoes for pilates", "barefoot shoes wide toe box", "zero drop shoes pilates", "minimalist shoes for pilates", "cross training barefoot shoes", "budget barefoot shoes", "foot strength pilates", "studio to street shoes", "barefoot training shoes", "barefoot shoes 2026"],
   openGraph: {
     title: "Best Barefoot Shoes for Pilates Practitioners (2026)",
     description: "Wide toe boxes and zero drop that support what Pilates footwork trains — ranked for studio-to-street wear.",
@@ -30,63 +30,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Vivobarefoot Primus Lite",
-    price: "From $160",
+    name: "MIFAWA Barefoot Shoes",
+    price: "$26.35",
     verdict: "Best overall barefoot shoe for Pilates practitioners",
     description:
-      "Vivobarefoot is the brand that made this category credible, and the Primus Lite is the model that suits a Pilates practitioner best. The sole is 3mm with a puncture-resistant layer, which is thin enough to transmit genuine ground feel — the proprioceptive input that Pilates footwork trains on the footbar and that conventional cushioned trainers actively block. The toe box is genuinely anatomical rather than merely 'roomy', allowing the toes to splay as they should during push-off, which matters if you have spent studio time working on toe articulation and arch control only to compress the foot back into a tapered shoe on the walk home. The upper is a breathable mesh that suits year-round wear, and the whole shoe weighs around 200 grams. It is the most expensive option here and the one that will last longest. Size up half a size from your usual: Vivobarefoot fits short, and a cramped toe box defeats the entire purpose.",
-    affiliateUrl: "https://www.amazon.com/s?k=vivobarefoot+primus+lite&tag=pilatescollective-20",
+      "The MIFAWA is a zero-drop, wide-toe-box shoe built as a cross-trainer, which makes it the most versatile pick on this list for a Pilates practitioner: the flat, level sole and roomy forefoot let the toes splay the way reformer footwork trains, and the cross-trainer construction means it holds up to gym and everyday wear rather than being a delicate, single-purpose shoe. At this price it is an easy first pair to try without deciding whether barefoot footwear is a long-term commitment, and if it suits you, it is sturdy enough to become a daily shoe rather than a trial you outgrow in a month.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CZJ1P3N8?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Xero Shoes Prio",
-    price: "From $90",
-    verdict: "Best value barefoot shoe",
+    name: "ELETON Barefoot Shoes",
+    price: "$22.99",
+    verdict: "Best for hiking, water use, and outdoor versatility",
     description:
-      "The Prio delivers close to the Vivobarefoot experience at little more than half the price, and for most people it is the more sensible first purchase in this category. The 5.5mm FeelTrue sole is slightly thicker than the Primus Lite, which costs a little ground feel but makes the shoe more forgiving on pavement for anyone transitioning out of cushioned trainers — a real consideration, since moving to zero drop too abruptly is the most common way people end up with calf and Achilles soreness. The toe box is wide, the drop is zero, and there is a genuine 5,000-mile sole warranty that few competitors match. The upper is more utilitarian than the Vivobarefoot and the shoe reads as more obviously athletic, so it is less versatile if you want something that passes as everyday footwear. Buy this to find out whether barefoot shoes suit you before committing to the premium option.",
-    affiliateUrl: "https://www.amazon.com/s?k=xero+shoes+prio&tag=pilatescollective-20",
-    tag: "Best Value",
+      "The ELETON pairs a wide toe box and zero drop with a build meant for hiking and water use, which makes it the pick for anyone who wants the same foot mechanics they train in class to carry over to trail walks, beach days, or anything that gets the shoe wet. Where the MIFAWA reads as a general cross-trainer, the ELETON is aimed more specifically at outdoor and water conditions, so it suits Pilates practitioners who are also active hikers or swimmers and want one barefoot shoe that covers both the gym and the outdoors.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CWH47GCJ?tag=pilatescollective-20",
+    tag: "Best for Outdoor & Water Use",
   },
   {
     rank: "03",
-    name: "Merrell Vapor Glove",
-    price: "From $110",
-    verdict: "Thinnest sole and most ground feel",
+    name: "HOBIBEAR Barefoot Minimalist Shoes",
+    price: "$35.99",
+    verdict: "Best for studio-to-street convenience",
     description:
-      "The Vapor Glove is the closest thing here to genuinely wearing nothing, with a Vibram sole under 3mm and effectively no stack. For anyone specifically training foot strength — and that is the honest reason a Pilates practitioner buys barefoot shoes — this is the most direct tool, because the intrinsic foot muscles only work when the shoe stops doing their job for them. It is also the most demanding shoe on this list and the one most likely to cause problems if you rush it. Coming from conventional trainers, the calves and plantar fascia take weeks to adapt, and jumping straight to a 3mm sole for full days of walking is how people acquire the plantar fasciitis they were hoping to avoid. The toe box is narrower than Vivobarefoot or Xero, which is a genuine limitation if wide-forefoot splay is your priority. Excellent as a second pair for short walks and foot work; a poor first pair.",
-    affiliateUrl: "https://www.amazon.com/s?k=merrell+vapor+glove&tag=pilatescollective-20",
-    tag: "Most Ground Feel",
+      "The HOBIBEAR is a slip-on canvas shoe with zero drop and a wide width, which solves the practical annoyance of laces when you are taking shoes off at the studio door and putting them back on afterwards, often while carrying a mat and a bag. The wide-width canvas upper keeps things casual and easy to wear as everyday footwear rather than looking like dedicated training kit, so it is the natural choice if the main reason you want barefoot shoes is what happens either side of class.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D9786LC5?tag=pilatescollective-20",
+    tag: "Best Slip-On",
   },
   {
     rank: "04",
-    name: "Whitin Wide Toe Box Barefoot Shoe",
-    price: "From $45",
-    verdict: "Best budget entry into barefoot footwear",
+    name: "AIRHAS Barefoot Shoes",
+    price: "$43.99",
+    verdict: "Best anatomical toe box",
     description:
-      "Barefoot shoes are an unusually risky category to spend $160 on speculatively, because the transition genuinely does not suit everyone and the failure mode is weeks of calf and arch soreness rather than a simple return. That makes a sub-$50 pair a rational way to test the waters. Whitin covers the core specifications properly — wide toe box, zero drop, thin flexible sole — at a fraction of the price of the established brands. What you give up is materials and longevity: the uppers are less durable, the sole compounds wear faster, and the fit is less consistent between pairs, so ordering two sizes and returning one is a reasonable strategy. For a first pair worn a few hours a day while your feet adapt, it does the job honestly. If you are still wearing them daily after three months, upgrade and keep these for the gym.",
-    affiliateUrl: "https://www.amazon.com/s?k=whitin+wide+toe+box+barefoot+shoes&tag=pilatescollective-20",
-    tag: "Best Budget",
+      "The AIRHAS is built with an anatomical toe box on top of the standard zero-drop minimalist sneaker construction, which is worth calling out specifically: an anatomical shape follows the natural outline of the foot rather than tapering toward the big toe, giving the forefoot more room to spread on push-off than a merely 'wide' toe box does. For anyone who has found other barefoot shoes still feel a little narrow across the toes, this is the one on the list built specifically to address that.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D2HHDG2K?tag=pilatescollective-20",
+    tag: "Best Toe Box Shape",
   },
   {
     rank: "05",
-    name: "Vibram FiveFingers V-Train",
-    price: "From $120",
-    verdict: "Best for toe splay and foot strength work",
+    name: "WHITIN Cross Training Minimalist Shoes",
+    price: "$55.88",
+    verdict: "Best from an established minimalist-shoe brand",
     description:
-      "The individual toe pockets are divisive aesthetically and unmatched functionally. Nothing else allows genuine independent toe movement, which makes FiveFingers the most effective option on this list for the specific goal of restoring toe splay and intrinsic foot strength — the capacity that reformer footwork, releve work and standing balance all draw on and that decades in tapered shoes erode. For home foot work, short walks, and gym sessions where you want the toes free but the floor covered, they are excellent. Two honest caveats. Getting each toe into its pocket takes practice and is genuinely fiddly at first. And the fit is unforgiving — you must measure properly against the brand's chart rather than guessing from your usual size, because a toe pocket that is too short is uncomfortable in a way no amount of breaking in fixes. Not a shoe most people will wear to the office.",
-    affiliateUrl: "https://www.amazon.com/s?k=vibram+fivefingers+v+train&tag=pilatescollective-20",
-    tag: "Best for Toe Splay",
-  },
-  {
-    rank: "06",
-    name: "Slip-On Barefoot Studio Shoe",
-    price: "From $70",
-    verdict: "Best for studio-to-street convenience",
-    description:
-      "The practical case for a slip-on is simple: you take your shoes off at the studio door and put them back on afterwards, often while carrying a mat and a bag, and laces are an irritation you notice every single session. A slip-on barefoot shoe keeps the wide toe box and zero drop while removing that friction entirely, and the styling in this sub-category tends to be far more neutral than the athletic-looking alternatives above, so it works as everyday footwear rather than obvious training kit. The compromise is fit security — without laces the foot is held less precisely, which is fine for walking and standing but makes them a poor choice for anything faster. Check for an elasticated collar rather than a purely rigid opening, since that is what keeps the heel from slipping. The right pick if the main reason you want barefoot shoes is what happens either side of class.",
-    affiliateUrl: "https://www.amazon.com/s?k=slip+on+barefoot+shoes+wide+toe+box&tag=pilatescollective-20",
-    tag: "Best Slip-On",
+      "WHITIN is a name that has been in the minimalist-shoe category longer than most of the newer entrants on this list, and this cross-training model delivers the barefoot feel the brand is known for in a shoe built for general gym use. It costs more than the other options here, but for practitioners who want a barefoot shoe from a brand with a track record specifically in this category, rather than a newer or more generalist maker, it is the safer bet.",
+    affiliateUrl: "https://www.amazon.com/dp/B08J7MD98P?tag=pilatescollective-20",
+    tag: "Most Established Brand",
   },
 ];
 
@@ -195,7 +185,7 @@ export default function BestBarefootShoesForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Shoes · Ranked</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Shoes · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
