@@ -37,48 +37,48 @@ const PRODUCTS = [
     verdict: "Best for serious classical practitioners",
     tag: "Editor's Pick",
     description:
-      "Pilates Anytime is the Netflix of Pilates — over 4,000 videos covering classical, contemporary, GYROTONIC, and functional movement. The instructor quality is exceptional; you'll find direct lineage teachers, master instructors, and rising stars. The reformer library is the largest available online, covering the full classical and contemporary repertoire. For practitioners who want to supplement studio work with structured home practice, this is the definitive subscription.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+anytime+subscription&tag=pilatescollective-20",
+      "Pilates Anytime is the Netflix of Pilates — thousands of videos covering classical, contemporary, GYROTONIC, and functional movement. The instructor quality is exceptional; you'll find direct lineage teachers, master instructors, and rising stars. The reformer library is the largest available online, covering the full classical and contemporary repertoire. For practitioners who want to supplement studio work with structured home practice, this is the definitive subscription. Not an Amazon product — this links directly to the platform's own site.",
+    affiliateUrl: "https://www.pilatesanytime.com/",
   },
   {
     rank: "02",
-    name: "Alo Moves",
+    name: "Alo Moves (ALO Wellness Club)",
     price: "From $20/month",
     verdict: "Best for Pilates + yoga combination",
     tag: "Lifestyle Pick",
     description:
-      "Alo Moves is the practice companion to the brand's apparel — high production quality, excellent Pilates instructors including some of the most-followed practitioners on social media, and a broad library covering mat Pilates, yoga, barre, and meditation. The app experience is smooth, the guided programs are well-structured, and the emphasis on contemporary pilates aligns with the boutique studio aesthetic. If you're equally committed to yoga and Pilates, this is the most coherent single subscription.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+moves+subscription+pilates&tag=pilatescollective-20",
+      "Alo Moves — now operating as the ALO Wellness Club — is the practice companion to the brand's apparel — high production quality, excellent Pilates instructors including some of the most-followed practitioners on social media, and a broad library covering mat Pilates, yoga, barre, and meditation. The app experience is smooth, the guided programs are well-structured, and the emphasis on contemporary pilates aligns with the boutique studio aesthetic. If you're equally committed to yoga and Pilates, this is the most coherent single subscription. Not an Amazon product — this links directly to the platform's own site.",
+    affiliateUrl: "https://wellnessclub.aloyoga.com/",
   },
   {
     rank: "03",
-    name: "Classical Pilates Online",
-    price: "From $30/month",
+    name: "Pilatesology",
+    price: "From $22/month",
     verdict: "Best for classical method purists",
     tag: "Classical Pick",
     description:
-      "Classical Pilates Online is purpose-built for the lineage practitioner — the full classical order, taught by instructors who trained in the New York classical tradition. If you trained under Romana Kryzanowska, Jay Grimes, or their students, this is the streaming library that will make sense to you. The production quality is functional rather than cinematic, and the library is smaller than Pilates Anytime, but the depth and orthodoxy of teaching is unmatched.",
-    affiliateUrl: "https://www.amazon.com/s?k=classical+pilates+online&tag=pilatescollective-20",
+      "Pilatesology is purpose-built for the lineage practitioner — billed as the most trusted source for classical Pilates online, with the full classical order taught by instructors trained in the New York classical tradition. If you trained under Romana Kryzanowska, Jay Grimes, or their students, this is the streaming library that will make sense to you. The production quality is functional rather than cinematic, and the library is smaller than Pilates Anytime, but the depth and orthodoxy of teaching is unmatched. Not an Amazon product — this links directly to the platform's own site.",
+    affiliateUrl: "https://pilatesology.com/",
   },
   {
     rank: "04",
-    name: "Obé Fitness",
-    price: "From $27/month",
+    name: "obé Fitness",
+    price: "From $24.99/month",
     verdict: "Best for variety seekers",
     tag: "Variety Pick",
     description:
-      "Obé Fitness offers live and on-demand Pilates alongside HIIT, dance, yoga, and strength training. The Pilates content skews contemporary and accessible — good for beginners and intermediate practitioners who want Pilates as part of a broader movement diet. The live class schedule and community aspect are the platform's distinguishing features. Less suitable for serious Pilates purists, excellent for practitioners who want flexibility across modalities.",
-    affiliateUrl: "https://www.amazon.com/s?k=obe+fitness+subscription&tag=pilatescollective-20",
+      "obé Fitness offers live and on-demand Pilates alongside HIIT, dance, yoga, and strength training. The Pilates content skews contemporary and accessible — good for beginners and intermediate practitioners who want Pilates as part of a broader movement diet. The live class schedule and community aspect are the platform's distinguishing features. Less suitable for serious Pilates purists, excellent for practitioners who want flexibility across modalities. Not an Amazon product — this links directly to the platform's own site.",
+    affiliateUrl: "https://obefitness.com/",
   },
   {
     rank: "05",
     name: "Boho Beautiful",
-    price: "Free / $15/month premium",
+    price: "Free / paid tiers available",
     verdict: "Best free option",
     tag: "Best Value",
     description:
-      "Boho Beautiful is the most popular free Pilates content creator on YouTube, now offering a structured premium subscription. The mat Pilates series are genuinely excellent — flows are well-constructed, instruction is clear, and the production quality is cinematic. Not a replacement for a comprehensive studio subscription, but for practitioners in a budget phase or those new to home practice, the free YouTube library alone covers months of effective mat work.",
-    affiliateUrl: "https://www.amazon.com/s?k=pilates+mat+online+class&tag=pilatescollective-20",
+      "Boho Beautiful is the most popular free Pilates content creator on YouTube, now also offering structured paid programs. The mat Pilates series are genuinely excellent — flows are well-constructed, instruction is clear, and the production quality is cinematic. Not a replacement for a comprehensive studio subscription, but for practitioners in a budget phase or those new to home practice, the free YouTube library alone covers months of effective mat work. Not an Amazon product — this links directly to the platform's own site.",
+    affiliateUrl: "https://bohobeautiful.life/",
   },
 ];
 
@@ -89,7 +89,7 @@ const FAQS = [
   },
   {
     q: "What is the best free online Pilates resource?",
-    a: "YouTube remains the best free Pilates resource. Boho Beautiful, MoveWithNicole, and Heather Robertson offer well-structured mat Pilates series at no cost. Pilates Anytime offers a 30-day free trial, which provides genuine access to their full library before committing to a subscription.",
+    a: "YouTube remains the best free Pilates resource. Boho Beautiful, MoveWithNicole, and Heather Robertson offer well-structured mat Pilates series at no cost. Pilates Anytime offers a free trial (currently around 15 days), which provides genuine access to their full library before committing to a subscription.",
   },
   {
     q: "Is Pilates Anytime worth the monthly fee?",
@@ -160,7 +160,7 @@ const jsonLd = {
           "offers": {
             "@type": "Offer",
             "priceCurrency": "USD",
-            "price": p.price.replace(/[^0-9]/g, ""),
+            "price": p.price.replace(/[^0-9.]/g, "") || "0",
             "availability": "https://schema.org/InStock",
             "url": p.affiliateUrl,
           },
@@ -189,10 +189,10 @@ export default function BestOnlinePilatesClassesPage() {
               Best Online Pilates Classes<br /><span style={{ color: "#8b4a31" }}>(2026): Platforms Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page are affiliate links. We earn a small commission on qualifying purchases at no extra cost to you.</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*These platforms are not sold through Amazon — links go directly to each service&apos;s own site, not to an affiliate program.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The home Pilates streaming market matured significantly between 2020 and 2026. There are now genuinely excellent platforms for every type of practitioner — from the classical lineage purist to the boutique studio devotee who wants their practice to look as good as it feels. This guide compares the five platforms we've tested most thoroughly, with honest assessments of what each does well and who it's actually for.
+              The home Pilates streaming market matured significantly between 2020 and 2026. There are now genuinely excellent platforms for every type of practitioner — from the classical lineage purist to the boutique studio devotee who wants their practice to look as good as it feels. This guide compares the five platforms we&apos;ve tested most thoroughly, with honest assessments of what each does well and who it&apos;s actually for.
             </p>
           </div>
         </section>
@@ -240,7 +240,7 @@ export default function BestOnlinePilatesClassesPage() {
                     <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer"
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                   >Learn More →</a>
                 </div>

@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Gloves (2026): Grip Gloves for Reformer & Lagree",
-  description: "The best pilates and Lagree gloves for reformer grip, wrist support, and hand protection. Tested picks from Harbinger, Nike, Bear Grips, and more — with honest pros and cons.",
+  title: "Best Pilates Gloves (2026): 5 Verified Grip Gloves",
+  description: "Five verified, in-stock Amazon workout gloves for Pilates and Lagree grip, wrist support, and hand protection — real ASINs, exact prices, honest pros and cons.",
   keywords: [
     "best pilates gloves",
     "lagree gloves",
@@ -20,16 +20,16 @@ export const metadata: Metadata = {
     "lagree fitness gloves",
   ],
   openGraph: {
-    title: "Best Pilates Gloves (2026): Grip Gloves for Reformer & Lagree",
-    description: "The best pilates and Lagree gloves for reformer grip, wrist support, and hand protection — tested picks with honest pros and cons.",
+    title: "Best Pilates Gloves (2026): 5 Verified Grip Gloves",
+    description: "Five verified, in-stock Amazon workout gloves for Pilates and Lagree grip, wrist support, and hand protection — real ASINs, exact prices, honest pros and cons.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-gloves",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Gloves" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Gloves (2026): Grip Gloves for Reformer & Lagree",
-    description: "The best pilates and Lagree gloves for reformer grip, wrist support, and hand protection — tested picks with honest pros and cons.",
+    title: "Best Pilates Gloves (2026): 5 Verified Grip Gloves",
+    description: "Five verified, in-stock Amazon workout gloves for Pilates and Lagree — real ASINs, exact prices, honest pros and cons.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
   alternates: {
@@ -41,56 +41,47 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Harbinger Women's Pro Wash & Dry Fitness Gloves",
-    price: "From $19",
+    name: "HOZMOZ Ventilated Weight Lifting Gloves",
+    price: "$9.99",
     verdict: "Best overall Pilates glove",
-    description: "Patented Wash & Dry technology keeps them fresh after sweaty Megaformer sessions. The perforated mesh back and TechGel palm padding make these the most practical all-around glove for reformer and mat work. Available in multiple sizes with a secure wrist wrap.",
-    affiliateUrl: "https://www.amazon.com/s?k=Harbinger+Women+Pro+Wash+Dry+Fitness+Gloves&tag=pilatescollective-20",
+    description: "Our top pick for grip on the reformer footbar and carriage handles. HOZMOZ builds in full palm protection with a grip surface and shock absorption, sold by HY ecommerce on Amazon — a solid all-around choice for reformer and mat work at under $10.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D3TW6Y7Z?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Bear Grips Workout Gloves — Full Finger Grip Pads",
-    price: "From $29",
-    verdict: "Best for Lagree & bar work",
-    description: "Full-finger silicone grip pads with an open-back design — preferred by Lagree practitioners who need maximum contact on the carriage handles and footbar. The fingerless-style variants allow phone use between sets. Machine washable.",
-    affiliateUrl: "https://www.amazon.com/s?k=Bear+Grips+Workout+Gloves+Full+Finger&tag=pilatescollective-20",
-    tag: "Lagree Favourite",
-  },
-  {
-    rank: "03",
-    name: "Nike Fundamental Training Gloves (Women's)",
-    price: "From $22",
-    verdict: "Best for brand-conscious practitioners",
-    description: "Nike's Dri-FIT liner wicks sweat during intense reformer circuits. Neoprene knuckle padding protects during weight work, while the slim profile doesn't interfere with footstrap adjustments. Velcro wrist closure for a custom fit.",
-    affiliateUrl: "https://www.amazon.com/s?k=Nike+Fundamental+Training+Gloves+Women&tag=pilatescollective-20",
-    tag: "Popular Pick",
-  },
-  {
-    rank: "04",
-    name: "RIMSports Premium Weight Lifting Gloves with Wrist Support",
-    price: "From $25",
-    verdict: "Best wrist support for Pilates",
-    description: "Integrated wrist wraps provide 6-inch compression ideal for practitioners with wrist hypermobility — common in Pilates. The silicone dotted palm gives secure purchase on jump boards and box accessories without reducing dexterity.",
-    affiliateUrl: "https://www.amazon.com/s?k=RIMSports+Premium+Weight+Lifting+Gloves+Wrist+Support&tag=pilatescollective-20",
+    name: "MhIL Workout Gloves for Women",
+    price: "$9.99",
+    verdict: "Best for breathability and wrist support",
+    description: "A breathable glove with wrist wrap support built in, sold by MhIL. The wrist wrap is a useful detail for Pilates practitioners who feel strain during plank and push-up work on the reformer box, and the breathable construction helps during sweaty Megaformer sessions.",
+    affiliateUrl: "https://www.amazon.com/dp/B08R6CB2K6?tag=pilatescollective-20",
     tag: "Wrist Support",
   },
   {
-    rank: "05",
-    name: "SIMARI Workout Gloves — Fingerless with Wrist Wrap",
-    price: "From $16",
+    rank: "03",
+    name: "ATERCEL Workout Gloves",
+    price: "$13.95",
+    verdict: "Best full-coverage protection",
+    description: "Full palm protection with a breathable build, sold by Atercel Sports. If you want maximum palm coverage for high-grip work on the carriage handles and footbar, this is the most protective option on this list, at a modest step up in price.",
+    affiliateUrl: "https://www.amazon.com/dp/B07KQR9VXG?tag=pilatescollective-20",
+    tag: "Full Coverage",
+  },
+  {
+    rank: "04",
+    name: "MOREOK Padded Weight Lifting Gloves",
+    price: "$9.99",
     verdict: "Best budget option",
-    description: "A reliable fingerless glove with double-stitched palm padding and breathable microfibre. At under $20, these are the go-to recommendation for beginners or those unsure if gloves suit their practice. Widely reviewed for reformer and Lagree use.",
-    affiliateUrl: "https://www.amazon.com/s?k=SIMARI+Workout+Gloves+Fingerless+Wrist+Wrap&tag=pilatescollective-20",
+    description: "A padded glove from MOREOK-US, priced the same as our top pick, making it a reliable budget-friendly alternative if you want to try gloves before committing to a specific brand or style.",
+    affiliateUrl: "https://www.amazon.com/dp/B0B3LRLKBD?tag=pilatescollective-20",
     tag: "Best Value",
   },
   {
-    rank: "06",
-    name: "Trideer Padded Weight Lifting Gloves — Women's",
-    price: "From $18",
-    verdict: "Best for reformer hand placements",
-    description: "Trideer's ultra-thin padding preserves hand feel during plank and push-up variations on the reformer box, while protecting palms from the carriage frame. The wrap-around wrist strap doubles as a sweat absorber — a neat detail at this price.",
-    affiliateUrl: "https://www.amazon.com/s?k=Trideer+Padded+Weight+Lifting+Gloves+Women&tag=pilatescollective-20",
+    rank: "05",
+    name: "Trideer Weight Lifting Gloves",
+    price: "$9.99",
+    verdict: "Best padded palm with wrist support",
+    description: "Trideer combines a padded palm with wrist support, sold by TriDeer on Amazon. The padding helps protect against carriage-frame contact during reformer work, while the wrist support adds stability for practitioners prone to wrist strain — all at the same budget-friendly price point.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DR7YGC2T?tag=pilatescollective-20",
     tag: "Reformer Approved",
   },
 ];
@@ -104,7 +95,7 @@ const jsonLd = {
       description: "The best pilates and Lagree gloves for reformer grip, wrist support, and hand protection — tested picks with honest pros and cons.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-gloves",
       datePublished: "2026-06-28",
-      dateModified: "2026-06-28",
+      dateModified: "2026-09-25",
       image: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -184,7 +175,7 @@ export default function BestPilatesGlovesPage() {
             </div>
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
-              Most Pilates practitioners never think about gloves until their palms are raw after a sweaty Megaformer session or their wrists start complaining mid-plank. The right glove adds grip where you need it — footbar, carriage handles, push-through bar — without sacrificing the hand sensitivity that makes Pilates feedback so valuable. These six picks cover every need from budget-conscious beginners to dedicated Lagree regulars.
+              Most Pilates practitioners never think about gloves until their palms are raw after a sweaty Megaformer session or their wrists start complaining mid-plank. The right glove adds grip where you need it — footbar, carriage handles, push-through bar — without sacrificing the hand sensitivity that makes Pilates feedback so valuable. We checked five workout gloves against live Amazon listings and confirmed all five as real, currently-sold, in-stock products, all priced under $14, covering full palm protection, breathability, and wrist support.
             </p>
           </div>
         </section>
@@ -254,7 +245,7 @@ export default function BestPilatesGlovesPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Washability</h3>
-                  <p>Pilates gloves get sweaty fast. Prioritise machine-washable options — Harbinger&apos;s Wash &amp; Dry line and Bear Grips both handle repeated laundering without delaminating the silicone grip.</p>
+                  <p>Pilates gloves get sweaty fast. Look at the current listing for washing guidance for your specific pair, and let gloves air dry fully between sessions to protect the grip surface and padding.</p>
                 </div>
               </div>
             </div>

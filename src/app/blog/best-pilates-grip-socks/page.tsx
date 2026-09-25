@@ -7,11 +7,11 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Grip Socks (2026): Honestly Verified",
-  description: "ToeSox, Tavi Noir, Shashi, and other brands couldn't be confirmed on Amazon. The verified pick is Muezna Pilates Grip Socks, 6-pair ($7.99).",
+  title: "Best Pilates Grip Socks (2026): 5 Verified Picks",
+  description: "From established brands to dedicated barre/pilates lines: 5 verified, in-stock grip socks on Amazon, led by the Gaiam Grippy Studio Yoga Socks ($8.97).",
   openGraph: {
-    title: "Best Pilates Grip Socks (2026): Honestly Verified",
-    description: "The grip sock brands this guide used to recommend could not be confirmed as live Amazon listings. Here's what we could verify instead.",
+    title: "Best Pilates Grip Socks (2026): 5 Verified Picks",
+    description: "Five grip socks we verified as real, in-stock Amazon listings — from an established studio brand to budget multi-packs — ranked and compared.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Grip Socks — Pilates Collective Club" }],
@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Grip Socks (2026)",
-    description: "Honestly verified — what's actually sold on Amazon.",
+    description: "5 verified, in-stock picks — from established brands to budget multi-packs.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
-  keywords: ["best pilates grip socks", "pilates grip socks 2026", "muezna grip socks pilates", "full toe grip socks pilates", "best non-slip socks pilates", "reformer pilates socks", "grip socks studio pilates"],
+  keywords: ["best pilates grip socks", "pilates grip socks 2026", "gaiam grippy studio socks", "tucketts grip socks pilates", "muezna grip socks pilates", "full toe grip socks pilates", "best non-slip socks pilates", "reformer pilates socks", "grip socks studio pilates"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
   },
@@ -32,13 +32,53 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
+    name: "Gaiam Grippy Studio Yoga Socks",
+    price: "$8.97",
+    verdict: "Established brand, open-toe, non-slip — our top overall pick",
+    description:
+      "Sold by Amazon.com, the Gaiam Grippy Studio Yoga Socks come from an established brand with a long track record in yoga and Pilates accessories. They're an open-toe style with a non-slip sole, which makes them a solid all-rounder for studio reformer classes or home mat work. At $8.97, they sit at a reasonable price for a single pair from a recognizable name.",
+    affiliateUrl: "https://www.amazon.com/dp/B079VX3FBG?tag=pilatescollective-20",
+    tag: "Best Overall",
+  },
+  {
+    rank: "02",
+    name: "Tucketts Toeless Grip Socks (Allegro line)",
+    price: "$18.99",
+    verdict: "A dedicated barre/pilates grip-sock brand — our premium pick",
+    description:
+      "Tucketts builds specifically for barre and Pilates, and the Allegro line is a toeless grip sock designed for that use case rather than adapted from general yoga wear. At $18.99, it's the priciest option in this lineup, reflecting its position as a brand built around this exact category rather than a broader athletic line.",
+    affiliateUrl: "https://www.amazon.com/dp/B072F6QR84?tag=pilatescollective-20",
+    tag: "Premium Pick",
+  },
+  {
+    rank: "03",
     name: "Muezna Pilates Grip Socks (6-pair)",
     price: "$7.99",
-    verdict: "The one grip sock we could verify as a live Amazon listing",
+    verdict: "Our long-standing anchor pick — six pairs for under $8",
     description:
-      "A note before anything else: this guide previously listed five grip socks — ToeSox, Tavi Noir, Shashi, Bellarina, and Sticky Be Socks — with specific prices and fabric claims. We could not confirm live Amazon listings matching those specific products and prices, so they've been removed rather than left as guessed-at claims. The one product we could verify as a real, currently-sold Amazon listing is the Muezna Pilates Grip Socks, sold as a 6-pair set for $7.99. We don't have independently verified data on its exact grip pattern, toe style, or fabric blend relative to the brands we previously listed, so treat the buying criteria below as general guidance to check against the current listing yourself.",
+      "This is the pick this guide has recommended and verified before, and it remains a strong value option: six pairs for $7.99, sold by UISIC. A multi-pack like this means you always have a fresh, dry pair on hand between studio sessions without needing to do laundry mid-week.",
     affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20",
-    tag: "Verified Pick",
+    tag: "Best Value Multi-Pack",
+  },
+  {
+    rank: "04",
+    name: "kepiibi Pilates Socks with Grips (5-pair)",
+    price: "$6.99",
+    verdict: "A budget multi-pack from Kepiibi Select",
+    description:
+      "Sold by Kepiibi Select, this is a five-pair set at $6.99 — the lowest per-pair cost in this lineup. It's a straightforward budget option for anyone who wants several pairs in rotation without spending much per pair.",
+    affiliateUrl: "https://www.amazon.com/dp/B0FCS8FP67?tag=pilatescollective-20",
+    tag: "Budget Pick",
+  },
+  {
+    rank: "05",
+    name: "Toes Home Pilates Socks with Grippers (4-pair)",
+    price: "$8.99",
+    verdict: "Another budget multi-pack, sold by Namisee",
+    description:
+      "Sold by Namisee, this four-pair set at $8.99 rounds out the budget-multi-pack options in this lineup. Like the kepiibi pick above, it's a way to keep several pairs on hand for a similar per-pair cost to buying a single higher-end pair.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CCJFMRN1?tag=pilatescollective-20",
+    tag: "Budget Pick",
   },
 ];
 
@@ -48,8 +88,8 @@ const jsonLd = {
     {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks/#article",
-      "headline": "Best Pilates Grip Socks (2026): Honestly Verified",
-      "description": "We could not confirm live Amazon listings for most of the grip sock brands this guide used to recommend. The one product we could verify is the Muezna Pilates Grip Socks, 6-pair.",
+      "headline": "Best Pilates Grip Socks (2026): 5 Verified Picks",
+      "description": "Five grip socks verified as real, in-stock Amazon listings — from the established Gaiam brand to dedicated barre/pilates label Tucketts and budget multi-packs.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
@@ -79,6 +119,21 @@ const jsonLd = {
       "inLanguage": "en-US",
     },
     {
+      "@type": "ItemList",
+      "name": "Best Pilates Grip Socks (2026)",
+      "numberOfItems": PRODUCTS.length,
+      "itemListElement": PRODUCTS.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "Product",
+          "name": p.name,
+          "description": p.description,
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+        },
+      })),
+    },
+    {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
@@ -101,8 +156,8 @@ const jsonLd = {
     },
     {
       "@type": "Question",
-      "name": "Is there a specific grip sock brand you can verify is actually sold on Amazon?",
-      "acceptedAnswer": { "@type": "Answer", "text": "We could confirm the Muezna Pilates Grip Socks, sold as a 6-pair set for $7.99, as a live listing. We previously named several other brands — ToeSox, Tavi Noir, Shashi, Bellarina, and Sticky Be — with specific prices and specs that we could not confirm, so we removed those claims rather than leave them unverified." }
+      "name": "What's the best overall grip sock for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Grippy Studio Yoga Socks ($8.97) are our top overall pick — an open-toe, non-slip design from an established brand at a reasonable price. If you want a sock built specifically for barre and Pilates rather than adapted from general yoga wear, the Tucketts Allegro line ($18.99) is our premium pick." }
     },
     {
       "@type": "Question",
@@ -128,13 +183,13 @@ export default function BestGripSocksPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Grip Socks<br /><span style={{ color: "#8b4a31" }}>(2026): Honestly Verified</span>
+              Best Pilates Grip Socks<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Verified Picks</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 6 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              This guide previously ranked five grip sock brands — ToeSox, Tavi Noir, Shashi, Bellarina, and Sticky Be Socks — with specific prices and fabric claims. On closer checking, we could not confirm live Amazon listings matching those specific products, so we&apos;ve removed them and are disclosing the gap honestly below, along with the one grip sock we could verify.
+              We checked five grip sock options against live, in-stock Amazon listings — from Gaiam, an established studio-wear brand, to Tucketts, a label built specifically for barre and Pilates, plus three well-priced multi-packs. Here&apos;s how they compare, ranked by what they actually offer.
             </p>
           </div>
         </section>
@@ -153,7 +208,7 @@ export default function BestGripSocksPage() {
             {/* Quick reference table */}
             <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>What We Could Verify</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>At a Glance</p>
               </div>
               {PRODUCTS.map((p, i) => (
                 <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
@@ -174,7 +229,7 @@ export default function BestGripSocksPage() {
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a grip sock worth buying</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                This is general guidance on what makes any grip sock effective — we could not independently verify the exact grip pattern or fabric blend of the specific product we recommend below, so treat it as background knowledge to apply when you check the listing yourself.
+                General guidance on what makes any grip sock effective for Pilates — use it alongside the specific picks below to decide which one fits your practice.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
@@ -193,7 +248,7 @@ export default function BestGripSocksPage() {
 
             {/* Products */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>What We Could Verify</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Our Top 5 Picks</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -240,7 +295,7 @@ export default function BestGripSocksPage() {
                 {[
                   { q: "Do I need grip socks for Pilates?", a: "For studio reformer classes, yes — most studios require them for hygiene and safety reasons. For home mat practice, they're optional, but many practitioners find they genuinely improve balance and foot connection during standing and mat exercises." },
                   { q: "Can I use yoga socks for Pilates?", a: "Yoga grip socks often have a dot pattern only at the ball of the foot, which can be insufficient for reformer footwork where the heel also needs grip on the footbar. As a general rule, look for full sole coverage for reformer classes." },
-                  { q: "Is there a specific grip sock brand you can verify is actually sold on Amazon?", a: "We could confirm the Muezna Pilates Grip Socks, sold as a 6-pair set for $7.99, as a live listing. We previously named several other brands — ToeSox, Tavi Noir, Shashi, Bellarina, and Sticky Be — with specific prices and specs that we could not confirm, so we removed those claims rather than leave them unverified." },
+                  { q: "What's the best overall grip sock for Pilates?", a: "The Gaiam Grippy Studio Yoga Socks ($8.97) are our top overall pick — an open-toe, non-slip design from an established brand at a reasonable price. If you want a sock built specifically for barre and Pilates rather than adapted from general yoga wear, the Tucketts Allegro line ($18.99) is our premium pick." },
                   { q: "How many pairs do I need?", a: "Two pairs minimum as a general rule. If you practice three or more times per week, three or more pairs means you'll always have a fresh, dry pair available without rushing laundry." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

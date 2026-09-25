@@ -63,11 +63,11 @@ const jsonLd = {
 };
 
 const PRODUCTS = [
-  { name: "Manduka PRO Pilates Mat", description: "6mm cushioning protects the knees during floor-based Pilates work — particularly important for exercises involving kneeling or side-lying leg series.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
-  { name: "TriggerPoint GRID Foam Roller", description: "Used before Pilates to release IT band, quad, and calf tension that commonly aggravates knee pain. The GRID pattern provides deeper tissue access than smooth rollers.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+GRID+foam+roller&tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "Light-to-medium resistance bands for glute and hip strengthening — the key upstream intervention for most knee pain presentations.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
-  { name: "Gaiam Pilates Ball (9-inch)", description: "Used for inner thigh activation and knee alignment cues throughout the mat repertoire — a staple in clinical Pilates for knee conditions.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Provides resistance for hip adductor and abductor work — muscles that directly influence knee tracking and stability.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "Gaiam Premium Yoga Mat (6mm)", description: "6mm cushioning protects the knees during floor-based Pilates work — particularly important for exercises involving kneeling or side-lying leg series.", price: "$21.00", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
+  { name: "TriggerPoint GRID 2.0 Foam Roller", description: "Used before Pilates to release IT band, quad, and calf tension that commonly aggravates knee pain. The textured GRID pattern provides deeper tissue access than smooth rollers.", price: "$74.99", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
+  { name: "THERABAND Resistance Bands Set (Beginner Kit)", description: "Light-to-medium resistance bands for glute and hip strengthening — the key upstream intervention for most knee pain presentations.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "ProBody Pilates Ball, Small (9-inch)", description: "Used for inner thigh activation and knee alignment cues throughout the mat repertoire — a staple in clinical Pilates for knee conditions.", price: "$9.49", affiliateUrl: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Provides resistance for hip adductor and abductor work — muscles that directly influence knee tracking and stability.", price: "$15.18", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
 ];
 
 export default function PilatesForKneePainPage() {
