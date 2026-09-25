@@ -7,8 +7,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Online Pilates Classes (2026): Platforms Compared & Reviewed",
-  description: "The best online Pilates class platforms of 2026 — Pilates Anytime, Alo Moves, Move With Nicole, and others compared on content depth, instructor quality, and price.",
+  title: "Best Online Pilates Classes (2026): Platforms Compared",
+  description: "The best online Pilates class platforms of 2026 — Pilates Anytime, Alo Moves, Pilatesology, and more compared on content depth, instructors, and price.",
   openGraph: {
     title: "Best Online Pilates Classes (2026): Platforms Compared",
     description: "Pilates Anytime, Alo Moves, and more — the platforms worth a subscription for home and travel practice.",

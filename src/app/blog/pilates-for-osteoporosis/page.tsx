@@ -7,8 +7,8 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates for Osteoporosis (2026): Safe Exercises & What to Avoid",
-  description: "Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which movements to avoid, and how to modify Pilates for fracture risk reduction.",
+  title: "Pilates for Osteoporosis (2026): Safe Exercise Guide",
+  description: "Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to modify for fracture risk.",
   keywords: ["pilates for osteoporosis", "pilates osteopenia", "pilates bone density", "pilates fracture prevention", "pilates for older adults bones", "safe pilates osteoporosis", "pilates spinal compression", "pilates vertebral fracture prevention", "bone building pilates", "pilates for low bone density 2026"],
   openGraph: {
     title: "Pilates for Osteoporosis (2026): Safe Exercises and Critical Modifications",

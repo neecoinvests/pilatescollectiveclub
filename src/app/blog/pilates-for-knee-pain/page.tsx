@@ -7,7 +7,7 @@ import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Pilates for Knee Pain (2026): Exercises That Help & What to Avoid",
+  title: "Pilates for Knee Pain (2026): Exercises & What to Avoid",
   description: "Pilates for knee pain: which exercises strengthen the structures around the knee, which are safe with different conditions, and what the evidence shows.",
   keywords: ["pilates for knee pain", "pilates knee pain relief", "pilates knee strengthening", "pilates patellofemoral pain", "pilates knee osteoarthritis", "pilates IT band knee", "pilates knee surgery recovery", "pilates chondromalacia", "pilates knee exercises 2026", "knee pain pilates safe exercises"],
   openGraph: {

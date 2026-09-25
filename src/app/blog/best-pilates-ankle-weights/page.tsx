@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Ankle Weights (2026): 5 Real Options Compared",
-  description: "The Sportneer Adjustable Ankle Weights, BECOJADDE Ankle Weights, nooncrazy set, BAGAIL set, and GALLIA set are all live, currently-sold Amazon listings with verified prices and specs. Here's how they compare for Pilates use.",
+  description: "Five real, live Amazon ankle weight listings for Pilates — Sportneer, BECOJADDE, nooncrazy, BAGAIL, and GALLIA — compared with verified prices and specs.",
   openGraph: {
     title: "Best Pilates Ankle Weights (2026): 5 Real Options Compared",
     description: "Five real, in-stock Amazon ankle weight listings compared for Pilates use, across every price point.",
