@@ -287,6 +287,8 @@ export default function BestPilatesGlovesPage() {
             <div>
               <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Further Reading</h2>
               <div className="grid md:grid-cols-2 gap-6">
+                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category — clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
+                <ArticleCard title="Reformer Pilates Essentials" excerpt="What to wear, bring and buy for reformer class — and when a home reformer starts paying for itself." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="12 min read" date="September 2026" />
                 <ArticleCard
                   title="Best Pilates Grip Socks (2026): Non-Slip Picks for Every Studio"
                   excerpt="toesox, TAVI, Tucketts and the budget grip socks worth buying for reformer and mat classes."

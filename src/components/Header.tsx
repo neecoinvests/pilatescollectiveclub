@@ -60,6 +60,9 @@ const SHOP_CATEGORIES = [
   {
     label: "Bags & Accessories",
     links: [
+      { label: "Pilates Essentials (Full List)", href: "/blog/pilates-essentials" },
+      { label: "Reformer Essentials", href: "/blog/reformer-pilates-essentials" },
+      { label: "Pilates Princess Essentials", href: "/blog/pilates-princess-essentials" },
       { label: "Designer Pilates Bags", href: "/blog/best-designer-pilates-bag" },
       { label: "Studio Bags (Women)", href: "/blog/best-pilates-studio-bag-women" },
       { label: "Mat Tote Bag", href: "/blog/best-pilates-mat-tote" },

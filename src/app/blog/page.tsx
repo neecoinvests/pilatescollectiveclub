@@ -29,6 +29,31 @@ export const metadata: Metadata = {
 
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
+    title: "Pilates Essentials (2026): The Complete List",
+    excerpt: "Every Pilates essential on one page — the best, budget and splurge pick for leggings, grip socks, mat, props, recovery and a home reformer.",
+    href: "/blog/pilates-essentials",
+    category: "Equipment",
+    readTime: "14 min",
+    imageUrl: "/pictures/stitch-pilates-essentials-logbook.png",
+    featured: true,
+  },
+  {
+    title: "Reformer Pilates Essentials (2026)",
+    excerpt: "What to wear, bring and buy for reformer class — from grip socks to the home reformer that pays for itself.",
+    href: "/blog/reformer-pilates-essentials",
+    category: "Equipment",
+    readTime: "12 min",
+    imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png",
+  },
+  {
+    title: "Pilates Princess Essentials (2026)",
+    excerpt: "The aesthetic edit that actually performs — matching sets, Bala Bangles, grip socks and the at-home upgrades.",
+    href: "/blog/pilates-princess-essentials",
+    category: "Clothing",
+    readTime: "12 min",
+    imageUrl: "/pictures/stitch-retail-activewear.png",
+  },
+  {
     title: "Allegro 2 vs SPX Max (2026)",
     excerpt: "The two machines buyers cross-shop most. They fold in different directions, and that decides it before price does.",
     href: "/blog/balanced-body-allegro-2-vs-merrithew-spx-max",

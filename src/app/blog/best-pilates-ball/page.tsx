@@ -297,6 +297,8 @@ export default function BestPilatesBallPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category — clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
+                <ArticleCard title="Pilates Princess Essentials" excerpt="The aesthetic edit that actually performs — matching sets, Bala Bangles, grip socks and at-home upgrades." href="/blog/pilates-princess-essentials" category="Clothing" readTime="12 min read" date="September 2026" />
                 <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="The complete guide to building a home practice — mats, bands, rings, and more." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
                 <ArticleCard title="Best Home Pilates Reformer" excerpt="Every budget covered — from AeroPilates entry models to Balanced Body professional machines." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
               </div>

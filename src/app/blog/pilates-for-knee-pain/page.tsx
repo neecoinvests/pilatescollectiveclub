@@ -67,7 +67,7 @@ const PRODUCTS = [
   { name: "TriggerPoint GRID 2.0 Foam Roller", description: "Used before Pilates to release IT band, quad, and calf tension that commonly aggravates knee pain. The textured GRID pattern provides deeper tissue access than smooth rollers.", price: "$74.99", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
   { name: "THERABAND Resistance Bands Set (Beginner Kit)", description: "Light-to-medium resistance bands for glute and hip strengthening — the key upstream intervention for most knee pain presentations.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "ProBody Pilates Ball, Small (9-inch)", description: "Used for inner thigh activation and knee alignment cues throughout the mat repertoire — a staple in clinical Pilates for knee conditions.", price: "$9.49", affiliateUrl: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20" },
-  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Provides resistance for hip adductor and abductor work — muscles that directly influence knee tracking and stability.", price: "$15.18", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Provides resistance for hip adductor and abductor work — muscles that directly influence knee tracking and stability.", price: "$13.93", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
 ];
 
 export default function PilatesForKneePainPage() {

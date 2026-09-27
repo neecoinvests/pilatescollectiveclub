@@ -261,6 +261,8 @@ export default function BestPilatesMatPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category — clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
+                <ArticleCard title="Pilates Princess Essentials" excerpt="The aesthetic edit that actually performs — matching sets, Bala Bangles, grip socks and at-home upgrades." href="/blog/pilates-princess-essentials" category="Clothing" readTime="12 min read" date="September 2026" />
                 <ArticleCard title="Best Pilates Starter Kit" excerpt="Everything a beginner needs — mat, grip socks, bands, and ring, in the right order." href="/blog/best-pilates-starter-kit" category="Beginners" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
                 <ArticleCard title="Pilates Reformer vs Mat" excerpt="What's actually different between reformer and mat Pilates — and how to choose." href="/blog/pilates-reformer-vs-mat" category="Method" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
               </div>

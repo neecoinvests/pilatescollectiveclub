@@ -38,7 +38,7 @@ export default function BlogFilter({ posts, initialCategory = "All" }: { posts: 
   const [active, setActive] = useState(initialCategory);
 
   const featured = posts.find((p) => p.featured) ?? null;
-  const rest = posts.filter((p) => !p.featured);
+  const rest = posts.filter((p) => p !== featured);
   const filtered = active === "All" ? rest : rest.filter((p) => p.category === active);
 
   return (
