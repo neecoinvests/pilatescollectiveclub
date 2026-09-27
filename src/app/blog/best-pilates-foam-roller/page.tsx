@@ -5,10 +5,11 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import UpsellCTA from "@/components/UpsellCTA";
 
 export const metadata: Metadata = {
   title: "Best Foam Roller for Pilates (2026): 5 Verified Picks",
-  description: "Five verified, in-stock foam rollers for Pilates — from the premium TriggerPoint GRID 2.0 ($74.99) to a budget-friendly Amazon Basics roller ($24.14).",
+  description: "Five verified foam rollers for Pilates — from the vibrating Therabody WaveRoller and TriggerPoint GRID 2.0 to a $24 Amazon Basics roller.",
   keywords: ["best foam roller for pilates", "pilates foam roller 2026", "triggerpoint grid 2.0 pilates", "foam roller pilates review", "foam roller pilates exercises"],
   openGraph: {
     title: "Best Foam Roller for Pilates (2026): 5 Verified Picks",
@@ -42,6 +43,16 @@ const PRODUCTS = [
   },
   {
     rank: "02",
+    name: "Therabody WaveRoller (Vibrating)",
+    price: "$179.99",
+    verdict: "Best premium upgrade — vibration for deeper recovery",
+    description:
+      "The upgrade pick, sold by Therabody (the TheraGun brand) itself. It's a high-density roller with five vibration frequencies you control from the Therabody app over Bluetooth. Vibration lets the roller do more of the work on dense areas — quads, glutes, the thoracic spine — so you can release tension with less body weight pressed into it, which many practitioners find more comfortable after a hard reformer class. It's a recovery tool first: check the listed length before buying if you specifically want it for the full-spine opening sequence, where a 36-inch roller is the right choice. If you roll most days, this is the one worth spending on.",
+    affiliateUrl: "https://www.amazon.com/dp/B08HW7GXSQ?tag=pilatescollective-20",
+    tag: "Premium Upgrade",
+  },
+  {
+    rank: "03",
     name: "Amazon Basics High-Density Foam Roller (36\")",
     price: "$24.14",
     verdict: "Best budget full-length roller",
@@ -51,7 +62,7 @@ const PRODUCTS = [
     tag: "Best Budget",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "Black Mountain Products High Density Extra Firm Foam Roller (36\")",
     price: "$29.99",
     verdict: "Best for firmer pressure",
@@ -61,22 +72,12 @@ const PRODUCTS = [
     tag: "Extra Firm",
   },
   {
-    rank: "04",
-    name: "ProsourceFit High Density Foam Roller (18\")",
-    price: "$15.52",
-    verdict: "Best compact/travel roller — lowest price",
-    description:
-      "An 18-inch high-density roller — half the length of the full-size options above, which makes it easier to pack for travel or store in a small space. At this length it works well for targeted myofascial work on the hip flexors, ITB, and calves, but it's too short to support the full spine in the lengthwise opening sequence below. It's also the least expensive roller on this list.",
-    affiliateUrl: "https://www.amazon.com/dp/B07RWQ48P3?tag=pilatescollective-20",
-    tag: "Best for Travel",
-  },
-  {
     rank: "05",
     name: "TRIGGERPOINT CORE Foam Roller (18\")",
     price: "$24.99",
-    verdict: "Compact version of our top pick",
+    verdict: "Best compact/travel roller",
     description:
-      "The 18-inch CORE roller from TriggerPoint, sold directly by Amazon.com — a compact version of the brand's textured, multi-density design used in the GRID 2.0 above. Like the ProsourceFit, its shorter length suits targeted myofascial work rather than the full-spine opening sequence, but it keeps the textured surface if that's the feel you prefer in a smaller size.",
+      "The 18-inch CORE roller from TriggerPoint, sold directly by Amazon.com — a compact version of the brand's roller line, half the length of the full-size options above, which makes it easy to pack for travel or store in a small space. At this length it suits targeted myofascial work on the hip flexors, ITB, and calves rather than the full-spine opening sequence.",
     affiliateUrl: "https://www.amazon.com/dp/B01BVACFAK?tag=pilatescollective-20",
     tag: "Compact Premium",
   },
@@ -125,7 +126,7 @@ const jsonLd = {
     "mainEntity": [
       { "@type": "Question", "name": "Which foam roller is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The TriggerPoint GRID 2.0 ($74.99) is our top pick for its textured, multi-density surface, but the Amazon Basics High-Density Foam Roller ($24.14) is a strong budget alternative at full 36-inch length." } },
       { "@type": "Question", "name": "What density foam roller should I use for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "As a general rule, standard or medium-high density suits most Pilates applications — soft rollers compress too easily to provide meaningful pressure or stable support, while extra-firm rollers, like the Black Mountain Products roller on this list, can be more aggressive for spinal work. Check the specific density rating on the current listing." } },
-      { "@type": "Question", "name": "Do I need a long or short foam roller for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For Pilates specifically, a longer 36-inch roller is generally preferred so it can support the spine from coccyx to occiput in one position for the classic opening sequence. An 18-inch roller, like the ProsourceFit or TriggerPoint CORE on this list, is easier to travel with and works well for targeted myofascial work on specific areas, but is too short for the full-spine sequence." } },
+      { "@type": "Question", "name": "Do I need a long or short foam roller for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For Pilates specifically, a longer 36-inch roller is generally preferred so it can support the spine from coccyx to occiput in one position for the classic opening sequence. An 18-inch roller, like the TriggerPoint CORE on this list, is easier to travel with and works well for targeted myofascial work on specific areas, but is too short for the full-spine sequence." } },
       { "@type": "Question", "name": "Can I use a foam roller if I have osteoporosis?", "acceptedAnswer": { "@type": "Answer", "text": "Use caution. A full-round roller can place the thoracic spine in significant extension. Always consult with your Pilates instructor or physiotherapist before foam roller use if you have bone density concerns — this is general safety guidance, not specific to any one product." } }
     ]
   },
@@ -203,6 +204,17 @@ export default function BestFoamRollerPage() {
               </div>
             </div>
 
+            <UpsellCTA
+              eyebrow="Complete Your Recovery Kit"
+              title="Rolling covers the big muscles. This covers the rest."
+              body="A roller is built for broad areas — back, quads, glutes. The spots that stay tight after reformer class (hip flexors, forearms, calves, the base of the neck) are where a percussion massager earns its place. It is the most common next purchase for people who roll regularly."
+              picks={[
+                { name: "Therabody TheraGun Relief Massage Gun", price: "$159.99", url: "https://www.amazon.com/dp/B0CNS894RH?tag=pilatescollective-20", note: "Sold by Therabody. The brand's everyday 3-speed model — made for daily comfort rather than clinical intensity." },
+              ]}
+              guideHref="/blog/best-massage-gun-for-pilates"
+              guideLabel="Compare all 5 massage guns for Pilates recovery"
+            />
+
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The foundational foam roller sequence</h2>
               <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>This 5-minute opening sequence is a common way to prepare the spine and nervous system at the start of a Pilates session, if your roller is long enough to support your full spine in one position:</p>
@@ -228,7 +240,7 @@ export default function BestFoamRollerPage() {
                 {[
                   { q: "Which foam roller is best for Pilates?", a: "The TriggerPoint GRID 2.0 ($74.99) is our top pick for its textured, multi-density surface, but the Amazon Basics High-Density Foam Roller ($24.14) is a strong budget alternative at full 36-inch length." },
                   { q: "What density foam roller should I use for Pilates?", a: "As a general rule, standard or medium-high density suits most Pilates applications — soft rollers compress too easily to provide meaningful pressure or stable support, while extra-firm rollers, like the Black Mountain Products roller on this list, can be more aggressive for spinal work. Check the specific density rating on the current listing." },
-                  { q: "Do I need a long or short foam roller for Pilates?", a: "For Pilates specifically, a longer 36-inch roller is generally preferred so it can support the spine from coccyx to occiput in one position for the classic opening sequence. An 18-inch roller, like the ProsourceFit or TriggerPoint CORE on this list, is easier to travel with and works well for targeted myofascial work on specific areas, but is too short for the full-spine sequence." },
+                  { q: "Do I need a long or short foam roller for Pilates?", a: "For Pilates specifically, a longer 36-inch roller is generally preferred so it can support the spine from coccyx to occiput in one position for the classic opening sequence. An 18-inch roller, like the TriggerPoint CORE on this list, is easier to travel with and works well for targeted myofascial work on specific areas, but is too short for the full-spine sequence." },
                   { q: "Can I use a foam roller if I have osteoporosis?", a: "Use caution. A full-round roller can place the thoracic spine in significant extension. Always consult with your Pilates instructor or physiotherapist before foam roller use if you have bone density concerns — this is general safety guidance, not specific to any one product." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

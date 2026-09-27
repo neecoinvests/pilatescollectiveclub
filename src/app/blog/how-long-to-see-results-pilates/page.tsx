@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
+import UpsellCTA from "@/components/UpsellCTA";
 
 export const metadata: Metadata = {
   title: "How Long to See Pilates Results? (2026 Timeline)",
@@ -118,7 +119,7 @@ const TIMELINE = [
 ];
 
 const PRODUCTS = [
-  { name: "Gaiam Premium Yoga Mat (6mm)", description: "The home mat that makes between-session practice possible — and between-session practice is what accelerates the timeline to visible Pilates results.", price: "$21.00", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
+  { name: "Manduka PRO Yoga Mat (6mm)", description: "The home mat that makes between-session practice possible — and between-session practice is what accelerates the timeline to visible Pilates results. The Manduka PRO is the dense, studio-standard mat; if you plan to practise at home several times a week, it is a buy-once purchase.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20" },
   { name: "THERABAND Resistance Bands Set (Beginner Kit)", description: "Progressive resistance loading at home compounds the studio work. The combination of twice-weekly studio sessions and two home band sessions per week is the fastest route to measurable results.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Black Mountain Products High Density Foam Roller (36-inch)", description: "Daily foam rolling reduces recovery time between sessions and maintains the thoracic mobility that Pilates develops — keeping the results accumulating rather than resetting between classes.", price: "$29.99", affiliateUrl: "https://www.amazon.com/dp/B00DL7BH2O?tag=pilatescollective-20" },
   { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "For the home sessions that bridge studio classes. The magic circle enables real Pilates work — not just stretching — in the time between studio sessions that determines the pace of progress.", price: "$15.18", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
@@ -252,6 +253,18 @@ export default function HowLongToSeeResultsPage() {
                 ))}
               </div>
             </div>
+
+            <UpsellCTA
+              eyebrow="The Fastest Route to Results"
+              title="Frequency is the variable that changes the timeline"
+              body="The single biggest factor in how fast Pilates results show up is how often you train with resistance. Studio classes cap that at your budget; a home reformer removes the cap. For people going two or three times a week, one pays for itself in a few months of class fees."
+              picks={[
+                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — roughly the cost of 10 studio classes." },
+                { name: "AeroPilates Reformer by Stamina", price: "$539.99", url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20", note: "An established home-reformer brand. Cord-based resistance, folds for storage." },
+              ]}
+              guideHref="/blog/best-pilates-reformer-under-500"
+              guideLabel="See every home reformer under $500"
+            />
 
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>

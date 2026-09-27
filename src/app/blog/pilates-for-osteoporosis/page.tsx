@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
+import UpsellCTA from "@/components/UpsellCTA";
 
 export const metadata: Metadata = {
   title: "Pilates for Osteoporosis (2026): Safe Exercise Guide",
@@ -63,7 +64,7 @@ const jsonLd = {
 };
 
 const PRODUCTS = [
-  { name: "Gaiam Premium Yoga Mat (6mm)", description: "A firm, stable mat for osteoporosis Pilates work — joint protection and surface stability matter more here than plush cushioning. The 6mm density resists sinking at the wrists and hips during weight-bearing exercises.", price: "$21.00", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
+  { name: "Manduka PRO Yoga Mat (6mm)", description: "A firm, dense mat for osteoporosis Pilates work — joint protection and surface stability matter more here than plush cushioning. The Manduka PRO is the studio-standard dense mat: it resists sinking at the wrists and hips during weight-bearing exercises, and is a long-term purchase rather than a replacement item.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20" },
   { name: "THERABAND Resistance Bands Set (Beginner Kit)", description: "Progressive resistance loading for bone density — the mechanical stimulus that drives osteoblast activity. The yellow/red/green beginner kit allows light-to-medium progressive loading appropriate for osteoporotic bone.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Black Mountain Products High Density Foam Roller (36-inch)", description: "For thoracic extension and mobility work. Note: spinal flexion over the roller is contraindicated with osteoporosis — extension work only.", price: "$29.99", affiliateUrl: "https://www.amazon.com/dp/B00DL7BH2O?tag=pilatescollective-20" },
   { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Light resistance for hip and arm strengthening in standing positions — weight-bearing exercises with a magic circle provide bone-loading stimulus without fracture risk.", price: "$15.18", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
@@ -220,6 +221,18 @@ export default function PilatesForOsteoporosisPage() {
                 ))}
               </div>
             </div>
+
+            <UpsellCTA
+              eyebrow="Taking It Home"
+              title="Why many people with osteoporosis move to a home reformer"
+              body="As covered above, the reformer's springs load bone while the carriage supports the spine in neutral — which is why it is so often recommended for low bone density. Once you have learned safe modifications with a qualified instructor, a home reformer lets you keep that loading consistent between sessions. Check with your clinician first."
+              picks={[
+                { name: "AeroPilates Reformer by Stamina", price: "$539.99", url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20", note: "An established home-reformer brand. Cord-based resistance, low to the floor, folds for storage." },
+                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — less track record, so best for confident, instructor-trained users." },
+              ]}
+              guideHref="/blog/best-pilates-reformer-for-beginners"
+              guideLabel="Compare the best reformers for beginners"
+            />
 
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
