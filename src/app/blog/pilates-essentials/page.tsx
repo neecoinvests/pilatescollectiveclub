@@ -84,7 +84,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Varley Freesoft Piped Full Leggings (Marina)",
-        price: "$98.00",
+        price: "$78.40",
         url: amz("B0FXN378H8"),
         description:
           "Varley is a studio-favourite label, and the Freesoft line is its soft, brushed-feel fabric. This full-length, piped pair is sold through Shopbop, an Amazon company, and the listing is shown in Marina. It is the one to buy if you want a single pair that looks as good on the walk to class as it does on the carriage.",
@@ -120,7 +120,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Varley Freesoft Harley Bralette (Marina)",
-        price: "$66.00",
+        price: "$52.80",
         url: amz("B0FXN42JWR"),
         description:
           "The Harley Bralette is in the same Freesoft fabric and the same Marina colour as the leggings above, so the two make a genuine matching set. Sold through Shopbop. It is a light-support bralette, which suits mat and reformer work but not high-impact cardio.",

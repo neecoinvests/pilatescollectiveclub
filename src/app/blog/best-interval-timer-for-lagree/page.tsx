@@ -242,6 +242,8 @@ export default function BestIntervalTimerForLagreePage() {
             <div>
               <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Further Reading</h2>
               <div className="grid md:grid-cols-2 gap-6">
+                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree — best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Lagree Fitness: The Brand Guide" excerpt="The company behind the Megaformer — and the compact Micro home machine it sells on Amazon." href="/blog/lagree-fitness" category="Lagree" readTime="12 min read" date="September 2026" />
                 <ArticleCard
                   title="Lagree vs Pilates: What's the Real Difference?"
                   excerpt="The Megaformer, the Slow Burn protocol, and why Lagree is not just reformer Pilates rebranded."

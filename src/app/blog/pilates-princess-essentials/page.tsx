@@ -85,9 +85,9 @@ const SECTIONS: Section[] = [
         tier: "Best",
         tag: "Best — the set",
         name: "Varley Freesoft Piped Full Leggings (Marina)",
-        price: "$98.00",
+        price: "$78.40",
         description:
-          "Varley is a studio-favourite label, and the Freesoft Piped Full Legging is the half of this edit that makes it a genuine set: it is listed in the Marina colourway, the same shade as the Harley Bralette below, so you are buying a true match rather than a near-miss. The piping detail gives it a polished, tailored look off the carriage. It is sold on Amazon via Shopbop, an Amazon company, at $98.00 when we verified the listing.",
+          "Varley is a studio-favourite label, and the Freesoft Piped Full Legging is the half of this edit that makes it a genuine set: it is listed in the Marina colourway, the same shade as the Harley Bralette below, so you are buying a true match rather than a near-miss. The piping detail gives it a polished, tailored look off the carriage. It is sold on Amazon via Shopbop, an Amazon company, at $78.40 when we verified the listing.",
         url: amazon("B0FXN378H8"),
         glance: "Leggings",
       },
@@ -95,9 +95,9 @@ const SECTIONS: Section[] = [
         tier: "Best",
         tag: "Best — the matching top",
         name: "Varley Freesoft Harley Bralette (Marina)",
-        price: "$66.00",
+        price: "$52.80",
         description:
-          "The other half of the Marina set. A bralette-style top suits Pilates better than it suits running: the work is controlled and low-impact, so you can prioritise comfort and a clean neckline over maximum compression. If you are larger-chested or also wear your kit for HIIT, see our sports bra guide for higher-support options. Sold via Shopbop (an Amazon company) at $66.00.",
+          "The other half of the Marina set. A bralette-style top suits Pilates better than it suits running: the work is controlled and low-impact, so you can prioritise comfort and a clean neckline over maximum compression. If you are larger-chested or also wear your kit for HIIT, see our sports bra guide for higher-support options. Sold via Shopbop (an Amazon company) at $52.80.",
         url: amazon("B0FXN42JWR"),
         glance: "Bralette (matching)",
       },
@@ -267,9 +267,9 @@ const SECTIONS: Section[] = [
         tier: "Best",
         tag: "Best — the light layer",
         name: "Varley Callie Knit Top (Porcelain Blue)",
-        price: "$77.00",
+        price: "$61.60",
         description:
-          "A knit top in a soft Porcelain Blue that sits well over a bralette for the in-between seasons. It is the lighter, more versatile of the two layers. $77.00, sold via Shopbop (an Amazon company).",
+          "A knit top in a soft Porcelain Blue that sits well over a bralette for the in-between seasons. It is the lighter, more versatile of the two layers. $61.60, sold via Shopbop (an Amazon company).",
         url: amazon("B0FP46RRCG"),
         glance: "Knit top",
       },
@@ -450,8 +450,8 @@ const kitTotal = (items: Item[]) =>
     currency: "USD",
   });
 
-const STARTER_TOTAL = kitTotal(STARTER_KIT); // $174.77
-const FULL_TOTAL = kitTotal(FULL_EDIT); // $944.85
+const STARTER_TOTAL = kitTotal(STARTER_KIT);
+const FULL_TOTAL = kitTotal(FULL_EDIT);
 
 const GLANCE = ALL_ITEMS.filter((i) => i.glance);
 
@@ -462,7 +462,7 @@ const FAQS = [
   },
   {
     q: "What does a pilates princess wear to class?",
-    a: "Usually a matching legging-and-bralette set in a soft colour, grip socks, and hair up in a claw clip, with a knit or sweatshirt for after class. Our pick is the Varley Freesoft Piped Full Leggings ($98.00) with the Harley Bralette ($66.00), both in Marina, so they genuinely match. The budget version is the CRZ YOGA Butterluxe leggings ($32.00) and U Back bra ($28.00).",
+    a: "Usually a matching legging-and-bralette set in a soft colour, grip socks, and hair up in a claw clip, with a knit or sweatshirt for after class. Our pick is the Varley Freesoft Piped Full Leggings ($78.40) with the Harley Bralette ($52.80), both in Marina, so they genuinely match. The budget version is the CRZ YOGA Butterluxe leggings ($32.00) and U Back bra ($28.00).",
   },
   {
     q: "How much does the pilates princess aesthetic cost?",
@@ -703,7 +703,7 @@ export default function PilatesPrincessEssentialsPage() {
                 <KitList title="The full edit" subtitle="The premium pick in every category" items={FULL_EDIT} total={FULL_TOTAL} />
               </div>
               <p className="text-xs leading-relaxed" style={mutedStyle}>
-                Our advice: you do not need to buy either kit in one go. Start with the pieces you will use every class (leggings, grip socks, a claw clip) and treat the layers, bangles and mat as upgrades. The Varley set alone is $164.00 for the pair, close to the entire starter kit, so the dupe route is a completely reasonable place to begin.
+                Our advice: you do not need to buy either kit in one go. Start with the pieces you will use every class (leggings, grip socks, a claw clip) and treat the layers, bangles and mat as upgrades. The Varley set alone is $131.20 for the pair, close to the entire starter kit, so the dupe route is a completely reasonable place to begin.
               </p>
             </div>
 

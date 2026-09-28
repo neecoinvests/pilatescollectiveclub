@@ -78,6 +78,9 @@ const SHOP_CATEGORIES = [
   {
     label: "Lagree & Spin",
     links: [
+      { label: "Lagree Fitness (Brand Guide)", href: "/blog/lagree-fitness" },
+      { label: "Lagree Essentials", href: "/blog/lagree-essentials" },
+      { label: "Lagree for Beginners", href: "/blog/lagree-for-beginners" },
       { label: "Best Megaformer", href: "/blog/best-megaformer-machine" },
       { label: "Lagree Springs & Cables", href: "/blog/best-lagree-resistance-springs-cables" },
       { label: "Lagree Carriage Handles", href: "/blog/best-lagree-carriage-handles" },

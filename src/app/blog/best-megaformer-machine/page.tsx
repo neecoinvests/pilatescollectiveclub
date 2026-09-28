@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Megaformer Machine (2026): Lagree Equipment Reviewed",
-  description: "The best Megaformer machines for home and studio use — Lagree M3S, The Micro, M3X, and more compared for Lagree method training, spring resistance, and build quality.",
+  description: "The best Megaformer machines for home and studio — Lagree M3S, M3X and The Micro ($990 on Amazon from Lagree Fitness) compared for Lagree training and build.",
   keywords: ["best megaformer machine", "lagree megaformer 2026", "lagree m3s review", "lagree micro review", "lagree m3x", "home megaformer machine", "lagree equipment for home", "best lagree machine buy", "megaformer vs reformer"],
   openGraph: {
     title: "Best Megaformer Machine (2026): Lagree Equipment Reviewed",
@@ -34,19 +33,19 @@ const PRODUCTS = [
     price: "From $8,995",
     verdict: "Best professional Megaformer — the studio standard",
     description:
-      "The Lagree Fitness M3S is the current commercial flagship from Sebastien Lagree's brand and the machine used across licensed Lagree Method studios. Note before anything else: no Amazon affiliate data exists for Lagree Fitness equipment — nothing in this section is an Amazon link, and we could not independently verify detailed engineering specifics (exact footprint, spring calibration changes generation to generation, carriage-runner materials) beyond what Lagree Fitness publishes itself. What we can say plainly: it is a real, current commercial machine used in professional studios, sold direct through Lagree Fitness or an authorized dealer, and it requires dedicated studio floor space. For practitioners opening a Lagree-licensed studio or investing in the highest-quality home machine, contact Lagree Fitness directly for current commercial and home pricing and exact specifications rather than relying on figures quoted secondhand.",
+      "The Lagree Fitness M3S is the current commercial flagship from Sebastien Lagree's brand and the machine used across licensed Lagree Method studios. Note before anything else: the Megaformer itself is not sold on Amazon (only The Micro and its accessories are, below) — this link goes to Lagree Fitness, and we could not independently verify detailed engineering specifics (exact footprint, spring calibration changes generation to generation, carriage-runner materials) beyond what Lagree Fitness publishes itself. What we can say plainly: it is a real, current commercial machine used in professional studios, sold direct through Lagree Fitness or an authorized dealer, and it requires dedicated studio floor space. For practitioners opening a Lagree-licensed studio or investing in the highest-quality home machine, contact Lagree Fitness directly for current commercial and home pricing and exact specifications rather than relying on figures quoted secondhand.",
     affiliateUrl: "https://www.lagreefitness.com/megaformer",
     tag: "Studio Standard",
   },
   {
     rank: "02",
     name: "The Micro by Lagree Fitness",
-    price: "From $990",
+    price: "$990.00",
     verdict: "Best home-format Megaformer",
     description:
-      "The Micro is Lagree Fitness&apos;s compact home machine, positioned and sized for a spare bedroom or apartment rather than a studio floor. A note on verification: we could not confirm a live, currently-sold Amazon listing for this product, so this link goes to Lagree Fitness directly rather than to an unverified Amazon page. Confirm the current price, exact dimensions, and included accessories directly with Lagree Fitness before buying — do not assume a spec quoted here or elsewhere is current. It is Lagree Fitness&apos;s own compact home format rather than a third-party copy, aimed at home practitioners who want Lagree-style training without commercial machine scale or price.",
-    affiliateUrl: "https://www.lagreefitness.com/megaformer",
-    tag: "Not Verified on Amazon",
+      "The Micro is Lagree Fitness&apos;s compact home machine, designed to deliver the Megaformer-style workout — low-impact, high-intensity strength and cardio — in a smaller, lightweight, portable machine. It accommodates users up to 6&apos;8&quot; and stores under a bed, against a wall, or on a bike rack, which is what makes it realistic for a spare bedroom or apartment rather than a studio floor. It is sold on Amazon by Lagree Fitness itself, through the brand&apos;s own Amazon store, at $990.00 — this is Lagree&apos;s own machine, not a third-party copy. Stock on the listing can be limited; if it shows as unavailable, buy direct from <a href=\"https://www.lagreefitness.com/\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">lagreefitness.com</a>. Accessories are sold separately in the same store: the <a href=\"https://www.amazon.com/dp/B0BKN2LSWD?tag=pilatescollective-20\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow sponsored\">Micro Rear Platform</a> ($290.00) adds a sturdy rear surface for feet, hands and knees and unlocks moves like the express lunge, super crunch and giant wheelbarrow, and the <a href=\"https://www.amazon.com/dp/B0BKMP89SH?tag=pilatescollective-20\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow sponsored\">Micro Handlebars</a> ($190.00, sold as a pair) add stability at the front or back — using them at the back requires the rear platform, and you need two pairs to have handlebars at both ends.",
+    affiliateUrl: "https://www.amazon.com/dp/B0BBT7YV93?tag=pilatescollective-20",
+    tag: "Sold by Lagree Fitness on Amazon",
   },
   {
     rank: "03",
@@ -79,7 +78,7 @@ const jsonLd = {
       "description": "The genuine Lagree Fitness machines and the one real Pilates reformer alternative we could verify — a fabricated \"Align Pilates F3\" and an unbranded third-party search link have been removed.",
       "url": "https://pilatescollectiveclub.com/blog/best-megaformer-machine",
       "datePublished": "2026-06-28",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-09-28",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -96,7 +95,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description.replace(/<[^>]+>/g, ""),
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, "") || "0", "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -113,7 +112,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "What is a Megaformer?", "acceptedAnswer": { "@type": "Answer", "text": "A Megaformer is the specialized equipment used in Lagree Method fitness classes, developed by Sebastien Lagree in Los Angeles in the early 2000s. It resembles a Pilates reformer in its basic structure — a moving carriage on a track with adjustable spring resistance — but has key differences: front and rear platforms of the same height (unlike the stepped reformer), a spring configuration optimised for slow eccentric loading rather than classical spring resistance, and a layout that accommodates the specific multi-limb positions of the Lagree exercise library. The Megaformer is designed specifically for the slow-tempo, high-time-under-tension training style that defines the Lagree Method." } },
         { "@type": "Question", "name": "Megaformer vs Pilates reformer — what is the difference?", "acceptedAnswer": { "@type": "Answer", "text": "The Megaformer and Pilates reformer share a moving carriage and spring resistance but differ in design intent. The Pilates reformer is designed for classical Pilates programming across the full apparatus repertoire — footwork, arm work, long box, short box, standing. The Megaformer is designed specifically for Lagree Method training — slow-tempo, high-time-under-tension, continuous multi-muscle loading without rest between exercises. The Megaformer's front and rear platforms are level and larger, supporting the plank, pike, lunge, and bear positions central to Lagree programming. The Pilates reformer's box end and footbar are designed for classical apparatus work. You cannot fully practice the Lagree Method on a standard Pilates reformer, nor do most classical Pilates exercises translate optimally to the Megaformer." } },
-        { "@type": "Question", "name": "How much does a Megaformer cost?", "acceptedAnswer": { "@type": "Answer", "text": "Lagree Fitness lists the M3S from approximately $8,995 and the newer M3X from approximately $13,495 for commercial units, with current pricing available directly from Lagree Fitness. The Micro, Lagree's compact home machine, is referenced from around $990, though we could not independently verify that specific Amazon listing's current price or specifications — confirm directly before buying. We could not verify a genuine, specifically identifiable low-cost Megaformer-style alternative to recommend, so be cautious of very low-priced listings claiming to replicate Lagree equipment." } },
+        { "@type": "Question", "name": "How much does a Megaformer cost?", "acceptedAnswer": { "@type": "Answer", "text": "Lagree Fitness lists the M3S from approximately $8,995 and the newer M3X from approximately $13,495 for commercial units, with current pricing available directly from Lagree Fitness. The Micro, Lagree's compact home machine, is $990.00 on Amazon, sold by Lagree Fitness through its own Amazon store (stock can be limited — if it is unavailable, buy direct from lagreefitness.com); the rear platform ($290.00) and handlebars ($190.00 a pair) are extra. We could not verify a genuine, specifically identifiable low-cost Megaformer-style alternative to recommend, so be cautious of very low-priced listings claiming to replicate Lagree equipment." } },
       ],
     },
   ],
@@ -139,7 +138,7 @@ export default function BestMegaformerMachinePage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Megaformer is not a Pilates reformer — it is the proprietary equipment of the Lagree Method, designed for slow-tempo eccentric loading, continuous time under tension, and multi-muscle compound positions that classical Pilates apparatus work does not program. An earlier version of this guide included a fabricated &quot;Align Pilates F3&quot; reformer and a generic third-party Amazon search link — neither could be verified as real, specific products, and both have been removed. If you have taken a Lagree class at a boutique studio and want to replicate that training at home, or you are opening a studio and need to understand the commercial equipment landscape, this guide covers the genuine Lagree Fitness machines and the one professional Pilates reformer we could verify as a real, live Amazon listing for hybrid-style training.
+              The Megaformer is not a Pilates reformer — it is the proprietary equipment of the Lagree Method, designed for slow-tempo eccentric loading, continuous time under tension, and multi-muscle compound positions that classical Pilates apparatus work does not program. An earlier version of this guide included a fabricated &quot;Align Pilates F3&quot; reformer and a generic third-party Amazon search link — neither could be verified as real, specific products, and both have been removed. If you have taken a Lagree class at a boutique studio and want to replicate that training at home, or you are opening a studio and need to understand the commercial equipment landscape, this guide covers the genuine Lagree Fitness machines — including The Micro, which Lagree Fitness sells through its own Amazon store — and the one professional Pilates reformer we could verify as a real, live Amazon listing for hybrid-style training.
             </p>
           </div>
         </section>
@@ -157,7 +156,7 @@ export default function BestMegaformerMachinePage() {
 
             <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Price note</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Megaformer prices fluctuate and are not always published online. The figures here reflect 2026 launch and reference pricing from manufacturer sites. Contact Lagree Fitness directly for current commercial and home pricing before purchasing.</p>
+              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Megaformer prices fluctuate and are not always published online. The figures here reflect 2026 launch and reference pricing from manufacturer sites. Contact Lagree Fitness directly for current Megaformer pricing before purchasing. The Micro&apos;s $990.00 price is from its live Amazon listing, sold by Lagree Fitness.</p>
             </div>
 
             <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
@@ -246,7 +245,7 @@ export default function BestMegaformerMachinePage() {
                 {[
                   { q: "What is a Megaformer?", a: "A Megaformer is the specialized equipment used in Lagree Method fitness classes, developed by Sebastien Lagree in Los Angeles in the early 2000s. It resembles a Pilates reformer in its basic structure — a moving carriage on a track with adjustable spring resistance — but has key differences: front and rear platforms of the same height, a spring configuration optimised for slow eccentric loading, and a layout that accommodates the specific multi-limb positions of the Lagree exercise library. The Megaformer is designed specifically for the slow-tempo, high-time-under-tension training style that defines the Lagree Method." },
                   { q: "Megaformer vs Pilates reformer — what is the difference?", a: "The Megaformer and Pilates reformer share a moving carriage and spring resistance but differ in design intent. The Pilates reformer is designed for classical Pilates programming across the full apparatus repertoire. The Megaformer is designed specifically for Lagree Method training — slow-tempo, high-time-under-tension, continuous multi-muscle loading without rest. The Megaformer's front and rear platforms are level and larger, supporting the plank, pike, lunge, and bear positions central to Lagree programming. You cannot fully practice the Lagree Method on a standard Pilates reformer." },
-                  { q: "How much does a Megaformer cost?", a: "Lagree Fitness lists the M3S from approximately $8,995 and the newer M3X from approximately $13,495 for commercial units, with current pricing available directly from Lagree Fitness. The Micro, Lagree's compact home machine, is referenced from around $990, though we could not independently verify that specific Amazon listing's current price or specifications — confirm directly before buying. We could not verify a genuine, specifically identifiable low-cost Megaformer-style alternative to recommend, so be cautious of very low-priced listings claiming to replicate Lagree equipment." },
+                  { q: "How much does a Megaformer cost?", a: "Lagree Fitness lists the M3S from approximately $8,995 and the newer M3X from approximately $13,495 for commercial units, with current pricing available directly from Lagree Fitness. The Micro, Lagree's compact home machine, is $990.00 on Amazon, sold by Lagree Fitness through its own Amazon store (stock can be limited — if it is unavailable, buy direct from lagreefitness.com); the rear platform ($290.00) and handlebars ($190.00 a pair) are extra. We could not verify a genuine, specifically identifiable low-cost Megaformer-style alternative to recommend, so be cautious of very low-priced listings claiming to replicate Lagree equipment." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

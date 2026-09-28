@@ -275,7 +275,7 @@ export default function BestGripSocksPage() {
               title="Socks sorted? Here's what regulars upgrade next"
               body="Grip socks are the entry ticket to reformer class. The two purchases that change the experience most are leggings that stay opaque and put on the carriage, and — once you are going three times a week — a home reformer that pays for itself against class fees."
               picks={[
-                { name: "Varley Freesoft Piped Full Leggings", price: "$98", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Sold via Shopbop (an Amazon company). A studio-favourite brand; listing shown in Marina." },
+                { name: "Varley Freesoft Piped Full Leggings", price: "$78.40", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Sold via Shopbop (an Amazon company). A studio-favourite brand; listing shown in Marina." },
                 { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — roughly the cost of 10 studio classes." },
               ]}
               guideHref="/blog/best-pilates-reformer-under-500"

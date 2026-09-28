@@ -248,6 +248,8 @@ export default function BestLagreeGripSocksPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree — best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Lagree Fitness: The Brand Guide" excerpt="The company behind the Megaformer — and the compact Micro home machine it sells on Amazon." href="/blog/lagree-fitness" category="Lagree" readTime="12 min read" date="September 2026" />
                 <ArticleCard title="Lagree vs Pilates" excerpt="What separates the two methods, and which suits your goals and body." href="/blog/lagree-vs-pilates" category="Comparison" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
                 <ArticleCard title="Best Sweat Towel for Lagree" excerpt="Studio towels ranked for absorbency, size and how fast they dry." href="/blog/best-sweat-towel-for-lagree" category="Lagree" readTime="6 min read" date="June 2026" imageUrl="/pictures/stitch-studio-bench-towels.png" />
               </div>

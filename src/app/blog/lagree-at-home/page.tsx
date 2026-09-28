@@ -9,11 +9,11 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Lagree at Home (2026): The Full Setup, Honestly Costed",
-  description: "What a home Lagree setup actually costs — why the machine cannot be bought on Amazon, which accessories can, and the kit that makes the practice work.",
+  description: "What a home Lagree setup really costs — The Micro ($990, sold on Amazon by Lagree Fitness), the direct-only Megaformer, and the kit that makes it work.",
   keywords: ["lagree at home", "home lagree setup", "megaformer at home", "microformer home", "lagree home workout equipment", "lagree machine for home", "lagree accessories", "home lagree studio", "lagree equipment cost", "lagree at home 2026"],
   openGraph: {
     title: "Lagree at Home (2026): The Full Setup, Honestly Costed",
-    description: "The machine comes direct from Lagree. Everything else that makes a home setup work — ranked.",
+    description: "The Micro is on Amazon from Lagree Fitness; the Megaformer comes direct. Everything else that makes a home setup work — ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/lagree-at-home",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png", width: 1200, height: 630, alt: "Lagree at Home — Pilates Collective Club" }],
@@ -31,62 +31,62 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Multi-Sport Interval Timer Wall Clock",
-    price: "From $45",
+    name: "Gymboss Interval Timer",
+    price: "$20.95",
     verdict: "The one piece of kit a home Lagree setup genuinely needs",
     description:
-      "Lagree is built on time under tension — sets run 60 seconds and beyond with no rest, and the whole method depends on holding an effort for a prescribed duration rather than counting repetitions. Without a visible countdown you will unconsciously shorten sets as they get hard, which is precisely when the adaptation happens. A large wall-mounted interval timer solves this in a way a phone cannot: it is readable from a plank position across the room, it does not need unlocking mid-set, and it does not interrupt itself with notifications. Look for digits at least two inches tall, a remote, and programmable work and rest intervals so you can set a whole class rather than restarting between exercises. This is the cheapest purchase on the list and the one that most changes how the sessions actually go.",
-    affiliateUrl: "https://www.amazon.com/s?k=multi+sport+interval+timer+wall+clock+gym&tag=pilatescollective-20",
+      "Lagree is built on time under tension — sets run 60 seconds and beyond with no rest, and the whole method depends on holding an effort for a prescribed duration rather than counting repetitions. Without a visible countdown you will unconsciously shorten sets as they get hard, which is precisely when the adaptation happens. A dedicated interval timer solves this in a way a phone cannot: it does not need unlocking mid-set, it does not interrupt itself with notifications, and once your work and rest intervals are programmed you can run a whole session rather than restarting between exercises. The Gymboss is the pick here because it does exactly that job and nothing else. If you would rather read the countdown from across the room, our interval timer guide covers wall-mounted clocks. This is the cheapest purchase on the list and the one that most changes how the sessions actually go.",
+    affiliateUrl: "https://www.amazon.com/dp/B00CO8HO6O?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Full-Sole Grip Socks",
-    price: "From $20",
+    name: "toesox Low Rise Grip Socks (2-Pack)",
+    price: "$30.00",
     verdict: "Non-negotiable on any carriage machine",
     description:
-      "Whatever machine you end up with, the carriage surface is slick vinyl and it moves under load. Full-sole silicone grip socks are the difference between a secure plank and an unplanned slide, and the specification matters more at home than in a studio because there is no instructor watching to catch a bad position. Insist on continuous silicone coverage across the whole footbed rather than scattered dots — dots hold under straight-down load and shear sideways off vinyl, which is the exact direction Lagree loads them during lunges and lateral work. Buy several pairs if you are training three or more times a week; sweat-soaked grip socks are not something you rewear. A snug arch band stops the sock rotating underfoot, which is the other common failure.",
-    affiliateUrl: "https://www.amazon.com/s?k=full+sole+grip+socks+non+slip+pilates&tag=pilatescollective-20",
+      "Whatever machine you end up with, the carriage surface is slick vinyl and it moves under load. Grip socks are the difference between a secure plank and an unplanned slide, and the specification matters more at home than in a studio because there is no instructor watching to catch a bad position. Insist on continuous silicone coverage across the whole footbed rather than scattered dots — dots hold under straight-down load and shear sideways off vinyl, which is the exact direction Lagree loads them during lunges and lateral work. The pick here is the toesox full-toe 2-pack. Buy several pairs if you are training three or more times a week; sweat-soaked grip socks are not something you rewear. A snug arch band stops the sock rotating underfoot, which is the other common failure.",
+    affiliateUrl: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
     tag: "Essential",
   },
   {
     rank: "03",
-    name: "Heavy-Duty Resistance Cable Set",
-    price: "From $35",
+    name: "WHATAFIT Resistance Bands with Handles (150 lb set)",
+    price: "$22.07",
     verdict: "Best way to train the method without the machine",
     description:
-      "If the machine is out of budget for now — and at several thousand dollars it is for most people — a heavy resistance cable set is the closest you can get to the loading pattern Lagree uses. The method is built on slow eccentric control against continuous spring tension, and a cable with a long elastic travel reproduces that resistance curve far better than a dumbbell, which loads by gravity alone and unloads at the top of every movement. Anchored to a door, a cable set covers the standing, kneeling and lunging sequences that make up a large share of a Lagree class. It will not reproduce the carriage instability, which is the part you cannot substitute. Choose a set with graduated resistance and a load-rated door anchor rather than a moulded plastic one.",
-    affiliateUrl: "https://www.amazon.com/s?k=heavy+duty+resistance+cable+set+door+anchor&tag=pilatescollective-20",
+      "If the machine is out of budget for now, a resistance band set with handles and a door anchor is the closest you can get to the loading pattern Lagree uses. The method is built on slow eccentric control against continuous spring tension, and a cable with a long elastic travel reproduces that resistance curve far better than a dumbbell, which loads by gravity alone and unloads at the top of every movement. Anchored to a door, a cable set covers the standing, kneeling and lunging sequences that make up a large share of a Lagree class. It will not reproduce the carriage instability, which is the part you cannot substitute. This WHATAFIT set is the verified pick here: five stackable bands from 10 to 50 lb (up to 150 lb combined) with two cushioned handles and a door anchor, sold by the brand on Amazon. Check the door anchor seats firmly before loading it.",
+    affiliateUrl: "https://www.amazon.com/dp/B07DWSPQQY?tag=pilatescollective-20",
     tag: "Best Machine Substitute",
   },
   {
     rank: "04",
-    name: "Padded Knee Sleeves",
-    price: "From $22",
+    name: "Mizuno T10 Plus Kneepad (Padded Sleeve)",
+    price: "$19.99",
     verdict: "Best fix for the kneeling sequences",
     description:
-      "Kneeling work is a large share of the Lagree repertoire and the carriage is a thin vinyl pad over a rigid platform, which becomes uncomfortable within a minute or two. The instinct is to buy a cushion, and on a moving carriage that is the wrong answer — a loose pad stays put while the platform travels, leaving your knee balanced on a sliding object. Wearable padding moves with your leg, so the protection is present in every position and every transition. Keep it thin, around 10 to 25mm: thicker padding raises the knee enough to tip the pelvis and change the geometry of a kneeling lunge, trading a comfort problem for a technique one. Look for coverage over the patella and the bony point just below it.",
-    affiliateUrl: "https://www.amazon.com/s?k=padded+knee+sleeves+volleyball+low+profile&tag=pilatescollective-20",
+      "Kneeling work is a large share of the Lagree repertoire and the carriage is a thin vinyl pad over a rigid platform, which becomes uncomfortable within a minute or two. The instinct is to buy a cushion, and on a moving carriage that is the wrong answer — a loose pad stays put while the platform travels, leaving your knee balanced on a sliding object. Wearable padding moves with your leg, so the protection is present in every position and every transition. Keep it thin, around 10 to 25mm: thicker padding raises the knee enough to tip the pelvis and change the geometry of a kneeling lunge, trading a comfort problem for a technique one. The Mizuno T10 Plus, a volleyball kneepad sold by Amazon.com, is the verified pick: a high-density foam pad built into a moisture-wicking sleeve, one size for knees roughly 12 to 17.5 inches around. Check the listing's quantity before ordering — you want one for each knee.",
+    affiliateUrl: "https://www.amazon.com/dp/B00OP86QSS?tag=pilatescollective-20",
     tag: "Best Knee Protection",
   },
   {
     rank: "05",
-    name: "Large Leaning Floor Mirror",
-    price: "From $130",
+    name: "DUMOS Arched Full Length Floor Mirror (64 x 21 in)",
+    price: "$48.96",
     verdict: "Best substitute for an instructor's eye",
     description:
-      "The thing you lose training at home is correction, and a mirror is the only practical replacement. Lagree positions are held long enough that small faults — a dropped hip in a plank, a collapsed lower back in a kneeling lunge — compound over a 45-minute session, and without feedback you will not notice. A leaning mirror is the right format because the slight backward tilt drops the sightline toward the floor, where most of the work happens; a mirror mounted flat at standing height shows you very little once you are on the carriage. Anchor it to the wall regardless of what the instructions say, since a 65-inch glass panel near a moving machine is not something to leave free-standing.",
-    affiliateUrl: "https://www.amazon.com/s?k=large+leaning+floor+mirror+65+x+22+full+length&tag=pilatescollective-20",
+      "The thing you lose training at home is correction, and a mirror is the only practical replacement. Lagree positions are held long enough that small faults — a dropped hip in a plank, a collapsed lower back in a kneeling lunge — compound over a 45-minute session, and without feedback you will not notice. A leaning mirror is the right format because the slight backward tilt drops the sightline toward the floor, where most of the work happens; a mirror mounted flat at standing height shows you very little once you are on the carriage. Anchor it to the wall regardless of what the instructions say, since a 64-inch glass panel near a moving machine is not something to leave free-standing.",
+    affiliateUrl: "https://www.amazon.com/dp/B0H5JK3V8X?tag=pilatescollective-20",
     tag: "Best Form Feedback",
   },
   {
     rank: "06",
-    name: "Microfibre Sweat Towel (Multipack)",
-    price: "From $22",
+    name: "Shandali Stickyfiber Yoga Towel",
+    price: "$19.99",
     verdict: "More functional than it sounds",
     description:
-      "Lagree produces continuous rather than intermittent sweat, and on a machine that matters for a practical reason beyond comfort: sweat on a vinyl carriage makes it slippery in exactly the places your hands and feet need grip. A towel within reach is a safety item as much as a convenience. Microfibre is the right material because it absorbs several times its weight and dries fast enough to be used again the same day, where cotton stays damp and starts to smell. Buy a multipack rather than a single premium towel — you want one on the machine, one for your hands, and clean ones in rotation. Wash without fabric softener, which coats the fibres and destroys absorbency, the single most common way people ruin microfibre.",
-    affiliateUrl: "https://www.amazon.com/s?k=microfiber+gym+sweat+towel+multipack&tag=pilatescollective-20",
+      "Lagree produces continuous rather than intermittent sweat, and on a machine that matters for a practical reason beyond comfort: sweat on a vinyl carriage makes it slippery in exactly the places your hands and feet need grip. A towel within reach is a safety item as much as a convenience. A dedicated yoga towel like the Shandali is a better choice than a cotton gym towel, which stays damp and starts to smell. Buy two rather than one — you want one on the machine, one for your hands, and a clean one in rotation. Wash without fabric softener, which coats towel fibres and reduces absorbency, the single most common way people ruin a performance towel.",
+    affiliateUrl: "https://www.amazon.com/dp/B011IU43WG?tag=pilatescollective-20",
     tag: "Best Value",
   },
 ];
@@ -97,10 +97,10 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Lagree at Home (2026): The Full Setup, Honestly Costed",
-      "description": "A practical guide to setting up Lagree at home — what the machine costs and why it is not on Amazon, which accessories are, and the kit that makes it work.",
+      "description": "A practical guide to setting up Lagree at home — The Micro ($990, sold on Amazon by Lagree Fitness), the direct-only Megaformer, and the kit that makes it work.",
       "url": "https://pilatescollectiveclub.com/blog/lagree-at-home",
       "datePublished": "2026-09-14",
-      "dateModified": "2026-09-14",
+      "dateModified": "2026-09-28",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -117,7 +117,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, "") || "0", "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -132,9 +132,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Can you buy a Megaformer for home use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, but not from Amazon. Lagree Fitness sells its machines directly, and the Megaformer, Microformer and Proformer are proprietary equipment rather than general retail products. Expect several thousand dollars for a Megaformer and rather less for the smaller Microformer, and expect to deal with the manufacturer for delivery and servicing. This is worth knowing before you start searching, because the Lagree-branded items you will find on general marketplaces are accessories and consumables rather than machines." } },
+        { "@type": "Question", "name": "Can you buy a Megaformer for home use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The full-size Megaformer is sold direct by Lagree Fitness rather than on Amazon — expect several thousand dollars and to deal with the manufacturer for delivery and servicing. The Micro, Lagree Fitness's compact home machine, is the realistic home option: it is $990.00 on Amazon, sold by Lagree Fitness through its own Amazon store, with a rear platform ($290.00), handlebars ($190.00 a pair) and pulley cables ($230.00) sold separately. Stock can be limited; if it is unavailable, buy direct from lagreefitness.com. Be wary of other listings claiming to be Lagree machines — the genuine one is sold by Lagree Fitness." } },
         { "@type": "Question", "name": "Can you do Lagree without a Megaformer?", "acceptedAnswer": { "@type": "Answer", "text": "You can train the principles without reproducing the method exactly. Lagree is built on slow eccentric control against continuous spring tension with no rest, and a heavy resistance cable set anchored to a door reproduces that loading pattern reasonably well for standing, kneeling and lunging sequences. What you cannot substitute is the moving carriage, which adds a constant stabilisation demand to every exercise. Treat cable work as effective training in the same style rather than as Lagree itself." } },
-        { "@type": "Question", "name": "What does a home Lagree setup cost in total?", "acceptedAnswer": { "@type": "Answer", "text": "The machine dominates everything else. A Megaformer runs into several thousand dollars direct from Lagree Fitness; the smaller Microformer is considerably less. Against that, the supporting kit is minor — an interval timer, grip socks, towels, knee sleeves and a mirror come to roughly $250 to $300 in total. If the machine is out of reach, a cable-based setup with the same accessories lands under $400 and still gives you a genuine training stimulus while you decide." } },
+        { "@type": "Question", "name": "What does a home Lagree setup cost in total?", "acceptedAnswer": { "@type": "Answer", "text": "The machine dominates everything else. A Megaformer runs into several thousand dollars direct from Lagree Fitness; The Micro is $990.00 on Amazon from Lagree Fitness, or $1,700.00 with the rear platform, one pair of handlebars and the pulley cables. Against that, the supporting kit is minor — an interval timer, grip socks, a towel, knee sleeves and a mirror come to roughly $225 to $300 in total. If the machine is out of reach, a cable-based setup with the same accessories lands under $400 and still gives you a genuine training stimulus while you decide." } },
         { "@type": "Question", "name": "Is training Lagree at home a good idea without an instructor?", "acceptedAnswer": { "@type": "Answer", "text": "It works better once you have some studio time behind you. Lagree holds positions long enough that small faults compound — a dropped hip in a plank, a collapsed lower back in a kneeling lunge — and at home nobody corrects them. A reasonable approach is a block of studio classes first to learn the positions and the cueing, then home training for volume, with a mirror for feedback and periodic studio sessions to recalibrate. Going straight to home training with no instruction is where most technique problems start." } },
       ],
     },
@@ -142,7 +142,7 @@ const jsonLd = {
 };
 
 const CLUSTER = [
-  { label: "The machine itself", body: "Megaformer, Microformer and Proformer compared, plus the studio-grade alternatives.", href: "/blog/best-megaformer-machine", cta: "Megaformer machines" },
+  { label: "The machine itself", body: "The Megaformer M3S and M3X and The Micro compared, plus the studio-grade alternatives.", href: "/blog/best-megaformer-machine", cta: "Megaformer machines" },
   { label: "Springs and cables", body: "OEM replacement springs, resistance cables and how spring load maps to difficulty.", href: "/blog/best-lagree-resistance-springs-cables", cta: "Springs and cables" },
   { label: "Carriage handles and grips", body: "Replacement handles, grip wraps and wrist support for carriage pulls.", href: "/blog/best-lagree-carriage-handles", cta: "Handles and grips" },
   { label: "Platform extenders", body: "Extenders and risers that widen the working surface for plank and lunge sequences.", href: "/blog/best-megaformer-platform-extender", cta: "Platform extenders" },
@@ -172,7 +172,7 @@ export default function LagreeAtHomePage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Start with the part nobody tells you: the machine is not on Amazon. Lagree Fitness sells the Megaformer, Microformer and Proformer directly, as proprietary equipment, at several thousand dollars for the full-size machines. Everything else — the timer that actually governs your sets, the socks that stop you sliding, the mirror doing the job an instructor would — is ordinary kit, costs about $250 in total, and is what this page covers.
+              Start with the machine. The full-size Megaformer is sold direct by Lagree Fitness at several thousand dollars and is not on Amazon — but The Micro, Lagree Fitness&apos;s compact home machine, is: it is $990.00, sold by Lagree Fitness through its own Amazon store. Everything else — the timer that actually governs your sets, the socks that stop you sliding, the mirror doing the job an instructor would — is ordinary kit, costs roughly $225 to $300 in total, and is what most of this page covers.
             </p>
           </div>
         </section>
@@ -187,7 +187,21 @@ export default function LagreeAtHomePage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+            <div className="mb-12 mt-4">
+              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The machine: The Micro</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                The Micro is Lagree Fitness&apos;s answer to Lagree at home: a compact, lightweight, portable machine designed to deliver the Megaformer-style workout in a smaller footprint. It accommodates users up to 6&apos;8&quot; and stores under a bed, against a wall, or on a bike rack. It is sold on Amazon by Lagree Fitness itself, through the brand&apos;s own store. Stock can be limited — if the listing shows as unavailable, buy direct from{" "}
+                <a href="https://www.lagreefitness.com/" target="_blank" rel="noopener noreferrer nofollow" style={{ color: "#8b4a31" }}>lagreefitness.com</a>. The rear platform ($290.00), handlebars ($190.00 a pair) and pulley cables ($230.00) are sold separately, which takes a full Micro setup to $1,700.00. The full-size Megaformer is not on Amazon; it is sold direct by Lagree Fitness.
+              </p>
+              <ProductCard
+                name="The Micro by Lagree Fitness"
+                description="Lagree Fitness's compact home machine — low-impact, high-intensity strength and cardio in a smaller, portable format. Sold by Lagree Fitness's own Amazon store; stock can be limited, so check lagreefitness.com if it is unavailable."
+                price="$990.00"
+                affiliateUrl="https://www.amazon.com/dp/B0BBT7YV93?tag=pilatescollective-20"
+              />
+            </div>
+
+            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Kit — At a Glance</p>
               </div>
@@ -244,9 +258,9 @@ export default function LagreeAtHomePage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Can you buy a Megaformer for home use?", a: "Yes, but not from Amazon. Lagree Fitness sells its machines directly, and the Megaformer, Microformer and Proformer are proprietary equipment rather than general retail products. Expect several thousand dollars for a Megaformer and rather less for the smaller Microformer, and expect to deal with the manufacturer for delivery and servicing. This is worth knowing before you start searching, because the Lagree-branded items you will find on general marketplaces are accessories and consumables rather than machines." },
+                  { q: "Can you buy a Megaformer for home use?", a: "Yes. The full-size Megaformer is sold direct by Lagree Fitness rather than on Amazon — expect several thousand dollars and to deal with the manufacturer for delivery and servicing. The Micro, Lagree Fitness's compact home machine, is the realistic home option: it is $990.00 on Amazon, sold by Lagree Fitness through its own Amazon store, with a rear platform ($290.00), handlebars ($190.00 a pair) and pulley cables ($230.00) sold separately. Stock can be limited; if it is unavailable, buy direct from lagreefitness.com. Be wary of other listings claiming to be Lagree machines — the genuine one is sold by Lagree Fitness." },
                   { q: "Can you do Lagree without a Megaformer?", a: "You can train the principles without reproducing the method exactly. Lagree is built on slow eccentric control against continuous spring tension with no rest, and a heavy resistance cable set anchored to a door reproduces that loading pattern reasonably well for standing, kneeling and lunging sequences. What you cannot substitute is the moving carriage, which adds a constant stabilisation demand to every exercise. Treat cable work as effective training in the same style rather than as Lagree itself." },
-                  { q: "What does a home Lagree setup cost in total?", a: "The machine dominates everything else. A Megaformer runs into several thousand dollars direct from Lagree Fitness; the smaller Microformer is considerably less. Against that, the supporting kit is minor — an interval timer, grip socks, towels, knee sleeves and a mirror come to roughly $250 to $300 in total. If the machine is out of reach, a cable-based setup with the same accessories lands under $400 and still gives you a genuine training stimulus while you decide." },
+                  { q: "What does a home Lagree setup cost in total?", a: "The machine dominates everything else. A Megaformer runs into several thousand dollars direct from Lagree Fitness; The Micro is $990.00 on Amazon from Lagree Fitness, or $1,700.00 with the rear platform, one pair of handlebars and the pulley cables. Against that, the supporting kit is minor — an interval timer, grip socks, a towel, knee sleeves and a mirror come to roughly $225 to $300 in total. If the machine is out of reach, a cable-based setup with the same accessories lands under $400 and still gives you a genuine training stimulus while you decide." },
                   { q: "Is training Lagree at home a good idea without an instructor?", a: "It works better once you have some studio time behind you. Lagree holds positions long enough that small faults compound — a dropped hip in a plank, a collapsed lower back in a kneeling lunge — and at home nobody corrects them. A reasonable approach is a block of studio classes first to learn the positions and the cueing, then home training for volume, with a mirror for feedback and periodic studio sessions to recalibrate. Going straight to home training with no instruction is where most technique problems start." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

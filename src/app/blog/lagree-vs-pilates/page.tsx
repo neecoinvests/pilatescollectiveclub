@@ -492,6 +492,8 @@ export default function LagreevsPilatesPage() {
                 Further reading
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ArticleCard title="Lagree for Beginners" excerpt="What your first Lagree class really feels like, the mistakes to avoid, and the short kit worth buying." href="/blog/lagree-for-beginners" category="Lagree" readTime="11 min read" date="September 2026" />
+                <ArticleCard title="Lagree Fitness: The Brand Guide" excerpt="The company behind the Megaformer — and the compact Micro home machine it sells on Amazon." href="/blog/lagree-fitness" category="Lagree" readTime="12 min read" date="September 2026" />
                 <ArticleCard
                   title="Best Home Pilates Reformer (2026)"
                   excerpt="Every price point honestly reviewed — AeroPilates to Balanced Body to Merrithew."

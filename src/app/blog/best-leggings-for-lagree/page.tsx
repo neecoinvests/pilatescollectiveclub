@@ -248,6 +248,8 @@ export default function BestLeggingsForLagreePage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree — best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Lagree for Beginners" excerpt="What your first Lagree class really feels like, the mistakes to avoid, and the short kit worth buying." href="/blog/lagree-for-beginners" category="Lagree" readTime="11 min read" date="September 2026" />
                 <ArticleCard title="Best Grip Socks for Lagree" excerpt="Why full-sole silicone beats dot grip on a moving carriage — six pairs ranked." href="/blog/best-lagree-grip-socks" category="Lagree" readTime="8 min read" date="September 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
                 <ArticleCard title="Lululemon Align Review" excerpt="An honest look at what Align is built for — and the sessions it is wrong for." href="/blog/lululemon-align-review" category="Brand Guide" readTime="9 min read" date="June 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
               </div>

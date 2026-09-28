@@ -33,10 +33,10 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Varley Freesoft Piped Full Leggings",
-    price: "$98.00",
+    price: "$78.40",
     verdict: "Best Varley legging for Pilates",
     description:
-      "The Freesoft Piped Full Leggings are Varley&apos;s full-length legging, made from the brand&apos;s Freesoft fabric and finished with a piped seam down the outer leg — a small detail that reads as considered rather than plain. This listing is the Marina colourway, a deep tonal blue that fits the muted, boutique-studio palette Varley is known for. At $98, it&apos;s one of the more accessible entry points into the brand&apos;s legging range.",
+      "The Freesoft Piped Full Leggings are Varley&apos;s full-length legging, made from the brand&apos;s Freesoft fabric and finished with a piped seam down the outer leg — a small detail that reads as considered rather than plain. This listing is the Marina colourway, a deep tonal blue that fits the muted, boutique-studio palette Varley is known for. At $78.40, it&apos;s one of the more accessible entry points into the brand&apos;s legging range.",
     affiliateUrl: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20",
     tag: "Top Pick",
   },
@@ -53,30 +53,30 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Varley Callie Knit Top",
-    price: "$77.00",
+    price: "$61.60",
     verdict: "Best Varley top for studio-to-street",
     description:
-      "The Callie Knit Top is built for the transition between studio and the rest of the day — not a technical class top, but the kind of piece that makes a Pilates wardrobe work outside the studio too. Shown here in Porcelain Blue, a pale, soft blue in keeping with Varley&apos;s understated colour sensibility. At $77 it&apos;s one of the more wallet-friendly ways into the brand.",
+      "The Callie Knit Top is built for the transition between studio and the rest of the day — not a technical class top, but the kind of piece that makes a Pilates wardrobe work outside the studio too. Shown here in Porcelain Blue, a pale, soft blue in keeping with Varley&apos;s understated colour sensibility. At $61.60 it&apos;s one of the more wallet-friendly ways into the brand.",
     affiliateUrl: "https://www.amazon.com/dp/B0FP46RRCG?tag=pilatescollective-20",
     tag: "Studio-to-Street",
   },
   {
     rank: "04",
-    name: "Varley Shea Crop Tank",
-    price: "$76.04",
-    verdict: "Best Varley fitted tank",
+    name: "Varley Marla Button Placket Tank",
+    price: "$71.68",
+    verdict: "Best Varley tank",
     description:
-      "The Shea Crop Tank is Varley&apos;s cropped tank top — a simple, fitted layer designed to sit over a bra or under the Davidson Sweat. This listing is in Ivory Marl, a soft off-white heather that works as a near-neutral base for pairing with any of Varley&apos;s other tonal pieces. At $76.04 it&apos;s an easy first tank to add to a Varley rotation.",
-    affiliateUrl: "https://www.amazon.com/dp/B0DKR27N1G?tag=pilatescollective-20",
+      "The Marla is a Varley tank with a button-placket front — a simple layer to wear over a sports bra or under the Davidson Sweat, with the placket adding a little polish for studio-to-street wear. This listing is in Black, sold via Shopbop (an Amazon company), which makes it the easiest Varley tank to pair with anything else on this list. At $71.68 it&apos;s a straightforward first tank to add to a Varley rotation.",
+    affiliateUrl: "https://www.amazon.com/dp/B0FP3MWK1Z?tag=pilatescollective-20",
     tag: "Best Tank",
   },
   {
     rank: "05",
     name: "Varley Freesoft Harley Bralette",
-    price: "$66.00",
+    price: "$52.80",
     verdict: "Best Varley bra for studio wear",
     description:
-      "The Freesoft Harley Bralette is Varley&apos;s bralette, cut from the same Freesoft fabric as the Piped Full Legging above and shown here in the matching Marina colourway — an easy way to build a tonal, matching set. At $66 it&apos;s the most affordable piece on this list and a low-commitment way to try the Freesoft fabric before buying into a full legging.",
+      "The Freesoft Harley Bralette is Varley&apos;s bralette, cut from the same Freesoft fabric as the Piped Full Legging above and shown here in the matching Marina colourway — an easy way to build a tonal, matching set. At $52.80 it&apos;s the most affordable piece on this list and a low-commitment way to try the Freesoft fabric before buying into a full legging.",
     affiliateUrl: "https://www.amazon.com/dp/B0FXN42JWR?tag=pilatescollective-20",
     tag: "Matching Set",
   },
