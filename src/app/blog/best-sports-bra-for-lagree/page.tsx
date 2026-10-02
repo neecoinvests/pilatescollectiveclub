@@ -7,87 +7,97 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Best Sports Bras for Lagree (2026): Tested & Ranked",
-  description: "Sports bras for Lagree — why bulky back hardware digs in during supine carriage work, and the high-support, smooth-back, wicking options that do not.",
-  keywords: ["best sports bra for lagree", "lagree sports bra", "megaformer sports bra", "high support bra pilates", "smooth back sports bra", "longline sports bra lagree", "seamless sports bra reformer", "sweat wicking sports bra", "lagree outfit", "lagree sports bra 2026"],
+  title: "Best Sports Bra for Lagree (2026): 6 Picks by Support",
+  description: "The best sports bra for Lagree, matched to support level: high-impact picks for jumps and lunges, smooth backs for supine carriage work, and longline options.",
+  keywords: ["sports bra for lagree", "best sports bra for lagree", "lagree sports bra", "high support bra megaformer", "megaformer sports bra", "high impact sports bra lagree", "longline sports bra lagree", "lagree outfit", "what to wear to lagree", "sports bra for reformer"],
   openGraph: {
-    title: "Best Sports Bras for Lagree (2026): Tested & Ranked",
-    description: "You lie on your back on a firm carriage — so back hardware matters as much as support. Six ranked.",
+    title: "Best Sports Bra for Lagree (2026): 6 Picks by Support",
+    description: "Six sports bras for Lagree, from high-impact support to a light matching-set bralette — with Amazon prices verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-sports-bra-for-lagree",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Best Sports Bras for Lagree — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Best Sports Bra for Lagree — Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Sports Bras for Lagree (2026)",
-    description: "High support, smooth backs, genuine wicking — ranked for Megaformer classes.",
+    title: "Best Sports Bra for Lagree (2026)",
+    description: "High, mid and light support picks for Megaformer classes — and what to check on the back before you buy.",
     images: ["https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-sports-bra-for-lagree" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
+const amazon = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
+
 const PRODUCTS = [
   {
     rank: "01",
-    name: "High-Support Compression Bra with Smooth Back",
-    price: "From $54",
-    verdict: "Best overall sports bra for Lagree",
+    name: "Under Armour Women's Infinity 2 High Impact Sports Bra",
+    price: "$47.85",
+    verdict: "Best high support — jump and lunge work",
     description:
-      "Two requirements drive this category and only one of them is obvious. The obvious one is support: Lagree includes pulse work, plank series and often rebounder intervals, which puts it well above mat Pilates on the impact scale and means a light bralette is not enough. The less obvious one is what happens on your back. A large share of the repertoire is performed supine on a firm vinyl carriage, and a bra with a bulky racerback clasp, thick crossed elastic or a plastic slider sitting between your shoulder blades will press into your spine for the entire set. A smooth-back compression bra solves both: firm all-over support with nothing raised along the spine. Look for flatlock or bonded seams rather than overlocked ones, and a wide underband that will not roll when you invert. Pull-on styles avoid hardware entirely.",
-    affiliateUrl: "https://www.amazon.com/s?k=high+support+compression+sports+bra+smooth+back+seamless&tag=pilatescollective-20",
-    tag: "Editor's Pick",
+      "If your studio programs jumping lunges, rebounder intervals or fast cardio blocks, start here. This is a bra Under Armour sells specifically as high impact, which is the support tier you want when the class stops being slow and controlled. Lagree is mostly slow tempo with long time under tension, but the moments that are not — a burst of jumps off the platform, a run of fast lunges — are exactly where an under-supportive bra becomes the only thing you can think about. It is sold and shipped by Amazon.com, which keeps returns simple if the band size is off. Before you commit, do the one check that matters for Lagree: lie back on the floor or a bench in it and see whether anything on the back presses into your spine, because a large share of the repertoire is performed supine on a firm carriage. If you only buy one supportive bra for Lagree, this is the one we would point most people to.",
+    affiliateUrl: amazon("B0C12Q3L89"),
+    tag: "Best High Support",
   },
   {
     rank: "02",
-    name: "Longline Sports Bra",
-    price: "From $48",
-    verdict: "Best coverage and most secure underband",
+    name: "Varley Freesoft Harley Bralette",
+    price: "$52.80",
+    verdict: "Premium matching-set pick — light support",
     description:
-      "A longline bra extends the band several inches down the ribcage, and that extra surface area does two useful things in a Lagree class. It spreads support across a wider area rather than concentrating it on a narrow underband, which is more comfortable across a 45-minute session with no real rest. And it stays put through inversions and plank transitions, where a standard narrow band tends to ride up and need resetting. The longer cut also means you can train in just the bra in a hot studio without the midriff exposure a standard crop gives, which is why it has become the default in a lot of Lagree studios. The trade-off is heat — more fabric over the ribcage runs warmer, and it can restrict the lateral rib expansion that good breathing depends on if you size down. Buy true to size.",
-    affiliateUrl: "https://www.amazon.com/s?k=longline+sports+bra+high+support+wide+band&tag=pilatescollective-20",
-    tag: "Best Coverage",
+      "Varley has become a studio staple, and the Freesoft Harley is the bralette half of its Freesoft line — the same line and Marina colourway as the Varley Freesoft leggings in our Lagree leggings guide, so it makes a genuine matching set. Be clear about what it is: a bralette, which means light support. That makes it a good choice for smaller busts, for slower sessions built around long holds and controlled pulses, and for anyone who wants one set that works for class and coffee afterwards. It is the wrong choice for a class with jumps or rebounder work, where you want the Under Armour Infinity 2 above instead. On Amazon this listing is sold through Shopbop, an Amazon company, rather than a third-party reseller. If you like the look of matching sets, pair it with a high-impact bra in your rotation for your harder classes rather than asking one piece to do both jobs.",
+    affiliateUrl: amazon("B0FXN42JWR"),
+    tag: "Premium Pick",
   },
   {
     rank: "03",
-    name: "Seamless Medium-Support Bra",
-    price: "From $32",
-    verdict: "Most comfortable for supine carriage work",
+    name: "CRZ YOGA Butterluxe U Back Sports Bra",
+    price: "$28.00",
+    verdict: "Best overall value",
     description:
-      "If your main complaint is something digging into your back when you lie down, a fully seamless knit bra is the most direct fix available. Knitted as a single tube with no seams, no clasps and no sliders, there is simply nothing on the back to press into the spine against a firm carriage. They are also the coolest option here, which matters in a warm studio, and the most comfortable to wear under a top. The honest limitation is support level: seamless knits provide medium compression at best, so this is the right choice for smaller busts or for classes without a rebounder component, and the wrong one if you need genuine high support for jumping intervals. Check the underband is a proper wide knit rib rather than a thin elastic, which is where cheap seamless bras fail and start riding up.",
-    affiliateUrl: "https://www.amazon.com/s?k=seamless+medium+support+sports+bra+no+clasp&tag=pilatescollective-20",
-    tag: "Best Seamless",
+      "CRZ YOGA's Butterluxe line is the brand's soft-handfeel fabric — the same family as the Butterluxe leggings we recommend for Lagree — and this U Back cut is the one we would pick for everyday classes. The relevance to Lagree is the back. A U-shaped back leaves the area between your shoulder blades open rather than putting a racerback join there, and that join is precisely the spot that takes your weight when you lie supine on the carriage. Soft, buttery fabrics generally trade some compression for comfort, so treat this as an everyday, lower-impact bra for slow, heavy sessions rather than your jumping-day bra. At under $30 it is easy to buy two for a weekly rotation, which matters more than it sounds: Lagree sweat is continuous, and a bra worn damp once is due a wash.",
+    affiliateUrl: amazon("B09ZP9VXLJ"),
+    tag: "Best Value",
   },
   {
     rank: "04",
-    name: "Encapsulation Bra with Adjustable Straps",
-    price: "From $68",
-    verdict: "Best support for larger busts",
+    name: "Heathyoga High Impact Sports Bra (Padded Racerback)",
+    price: "$24.99",
+    verdict: "Best budget high support",
     description:
-      "Compression bras work by flattening, which is why they stop being adequate above roughly a D cup regardless of how high the stated support level is. Encapsulation designs use separate moulded cups to support each side independently, and for larger busts that is the difference between a class you can concentrate on and one you spend managing. Adjustable straps matter here too, since torso length varies far more than bra sizing accounts for and a fixed strap either digs or leaves slack. The thing to watch for Lagree specifically is the back closure: many encapsulation bras use a conventional hook-and-eye, which is exactly the hardware that presses into your spine on a firm carriage. Look for a flat, low-profile closure or a pull-on encapsulation hybrid, and check the strap adjusters are flat sliders rather than raised plastic.",
-    affiliateUrl: "https://www.amazon.com/s?k=encapsulation+high+impact+sports+bra+adjustable+straps&tag=pilatescollective-20",
-    tag: "Best for Larger Busts",
+      "The budget way to get a high-impact bra into your rotation. Heathyoga sells this as a high-impact, padded racerback, which puts it in the same support tier as our top pick at roughly half the price. The racerback cut is useful in Lagree because it keeps the straps on your shoulders through plank series, bear crawls and overhead work, where standard straps tend to slide outward. The trade-off of any racerback is the join between the shoulder blades, so run a hand over it when it arrives: a flat, smooth join is fine on the carriage; a raised clasp or slider is something you will feel through every supine set. Removable padding, where present, is worth checking after washing too — pads that fold or shift are a common annoyance with budget bras. For a second or third high-support bra, or a first one on a tight budget, it is the obvious pick.",
+    affiliateUrl: amazon("B08DKWH76W"),
+    tag: "Best Budget High Support",
   },
   {
     rank: "05",
-    name: "Racerback Wicking Bra (Flat Hardware)",
-    price: "From $38",
-    verdict: "Best for hot studios and heavy sweat",
+    name: "Under Armour Women's Crossback Mid Impact Sports Bra",
+    price: "$24.50",
+    verdict: "Best mid support",
     description:
-      "Lagree runs hot and the sweat is continuous rather than intermittent, so genuine moisture transport matters more here than in a mat class. A technical racerback with a mesh panel across the upper back ventilates where you sweat most, and a polyester or nylon knit with a real wicking finish moves moisture rather than holding it — the practical difference being whether you finish class damp or soaked. The racerback cut also keeps straps clear of the shoulder during overhead and plank work, where standard straps slide. The Lagree-specific caveat is the one that runs through this whole list: choose a racerback with flat bonded hardware, not a raised plastic clasp at the join. That clasp sits precisely between the shoulder blades, which is precisely where your weight rests on the carriage in supine work.",
-    affiliateUrl: "https://www.amazon.com/s?k=racerback+sports+bra+mesh+back+moisture+wicking&tag=pilatescollective-20",
-    tag: "Most Breathable",
+      "Mid impact is the honest support level for a lot of Lagree classes. The method is built on slow, controlled reps and long holds rather than bouncing, so if your studio does not program jumps or rebounder work, a mid-support bra is often all you need — and it is more comfortable over a 45-minute class than a high-impact bra with a firmer band. This Under Armour model is sold by Amazon.com at under $25, which makes it an easy everyday bra. The crossback straps stay put through plank and arm work. The one Lagree caveat with any crossed-strap design is where the straps cross: if the crossing point sits flat, you will not notice it on the carriage; if it is bulky, you will. If supine work is where you feel your bra most, the U-back CRZ above is the alternative to try.",
+    affiliateUrl: amazon("B0874WGZ92"),
+    tag: "Best Mid Support",
   },
   {
     rank: "06",
-    name: "Sports Bra Multipack Under $40",
-    price: "From $32",
-    verdict: "Best value for frequent classes",
+    name: "Oalka Longline Padded Sports Bra",
+    price: "$14.99",
+    verdict: "Best longline and best budget",
     description:
-      "Three or four Lagree classes a week means three or four bras in rotation, and sweat-soaked technical fabric genuinely cannot be rewered. Multipacks solve the laundry arithmetic at a price where you are not precious about wear. Quality in this segment has improved and the better packs offer pull-on seamless or lightly padded compression styles with no back hardware, which happens to be the right specification for carriage work. Set expectations on longevity: elastane recovery in cheap knits degrades faster under heat and sweat, so expect the band to loosen within six to nine months of frequent use rather than a couple of years. Wash cold, never tumble dry. Support level will be medium at most, so treat these as your everyday rotation and keep one properly supportive bra for rebounder classes.",
-    affiliateUrl: "https://www.amazon.com/s?k=sports+bra+multipack+seamless+pull+on&tag=pilatescollective-20",
-    tag: "Best Value",
+      "A longline bra extends the band down the ribcage, and in a Lagree class that extra length does two useful things. It spreads support over a wider area rather than concentrating it on a narrow underband, and it tends to stay put through inversions, plank transitions and kneeling work, where a short band rides up and needs resetting. The longer cut also means you can train in just the bra in a hot studio without the midriff exposure of a standard crop, which is why longlines are so common in Megaformer rooms. The trade-off is warmth — more fabric over the ribs runs hotter — and if you size down, a longline can restrict the lateral rib expansion that good breathing depends on, so buy true to size. At $14.99 it is the cheapest bra here and an easy way to try the style before spending more.",
+    affiliateUrl: amazon("B08JTQ4JHP"),
+    tag: "Best Longline",
   },
+];
+
+const FAQS = [
+  { q: "What is the best sports bra for Lagree?", a: "For most people, a high-impact bra for harder classes plus a cheaper everyday bra for the rest. Our high-support pick is the Under Armour Infinity 2 High Impact Sports Bra; for value, the CRZ YOGA Butterluxe U Back. Whatever you choose, check the back before buying: much of Lagree is performed lying on a firm carriage, so any raised clasp or slider between your shoulder blades presses into your spine for the whole set." },
+  { q: "What support level do you need for Lagree?", a: "It depends on your class and your bust size. Lagree is mostly slow tempo with long time under tension, so mid support is enough for many people in many classes. If your studio programs jumps, fast lunges or rebounder intervals, step up to a bra sold as high impact. Light-support bralettes suit smaller busts and slower sessions. Larger busts are usually better served by high-support designs across the board, since compression styles work by flattening and become less effective as cup size goes up." },
+  { q: "Why does my sports bra dig into my back during Lagree?", a: "Because you are lying on it. A large share of Lagree is performed supine on a firm vinyl carriage, so any raised hardware on the back of the bra — a racerback clasp, a plastic strap slider, a bulky strap crossing, a hook-and-eye closure — is pressed between your spine and a hard surface for the length of the set. It is a hardware problem, not a fit problem. Open-back cuts such as a U back, and racerbacks with flat joins, avoid it." },
+  { q: "Is a longline bra good for Lagree?", a: "For many people, yes. The longer band spreads support over a wider area of the ribcage and tends to stay put through inversions and plank transitions where a short band rides up, and it lets you train in just the bra in a hot studio. The caveats are heat and breathing: more fabric over the ribs runs warmer, and a longline sized down can restrict lateral rib expansion. Buy true to size." },
+  { q: "How many sports bras do you need for regular Lagree?", a: "One per class between washes, so three or four if you go three or four times a week. Lagree sweat is continuous and technical fabrics hold odour once worn damp, so rewearing is not realistic. A practical setup is a rotation of mid-priced everyday bras plus one genuinely high-support bra for jump or rebounder formats. Wash cold and air dry — heat is what breaks down elastane, and the underband is the first thing to go." },
 ];
 
 const jsonLd = {
@@ -95,11 +105,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Sports Bras for Lagree (2026): Tested & Ranked",
-      "description": "Sports bras compared for Lagree and Megaformer classes — support level, back hardware against a firm carriage, breathability and underband security.",
+      "headline": "Best Sports Bra for Lagree (2026): 6 Picks by Support",
+      "description": "Sports bras for Lagree and Megaformer classes, chosen by support level and by what sits on your back during supine carriage work.",
       "url": "https://pilatescollectiveclub.com/blog/best-sports-bra-for-lagree",
       "datePublished": "2026-09-12",
-      "dateModified": "2026-09-12",
+      "dateModified": "2026-10-02",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -116,7 +126,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -130,12 +140,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What support level do you need for Lagree?", "acceptedAnswer": { "@type": "Answer", "text": "Medium to high, which is a step up from mat Pilates. Lagree includes sustained pulse work, plank and inversion series, and many studios run a rebounder or jump-board segment — none of which a light bralette handles well. Smaller busts are generally well served by a medium-support compression or seamless style. Above roughly a D cup, look for an encapsulation design with separate moulded cups, since compression bras work by flattening and stop being adequate at that point regardless of the support rating on the label." } },
-        { "@type": "Question", "name": "Why does my sports bra dig into my back during reformer work?", "acceptedAnswer": { "@type": "Answer", "text": "Because you are lying on it. A large share of Lagree and reformer work is performed supine on a firm vinyl carriage with very little padding, so any raised hardware on the back of the bra — a racerback clasp, a plastic strap slider, thick crossed elastic, a hook-and-eye closure — is pressed between your spine and a hard surface for the length of the set. It is one of the most common complaints from new practitioners and it is entirely a hardware problem, not a fit problem. Pull-on and seamless styles with flat bonded joins solve it." } },
-        { "@type": "Question", "name": "Is a longline bra better for Lagree?", "acceptedAnswer": { "@type": "Answer", "text": "For many people, yes. The extended band spreads support over a wider area of the ribcage rather than concentrating it on a narrow elastic, which is more comfortable across a long continuous class, and it stays put through inversions and plank transitions where a short band rides up. It also allows training in just the bra in a hot studio. The caveats are heat and breathing: more fabric over the ribs runs warmer, and a longline sized down can restrict the lateral rib expansion that good breathing mechanics depend on. Buy true to size." } },
-        { "@type": "Question", "name": "How many sports bras do you need for regular Lagree?", "acceptedAnswer": { "@type": "Answer", "text": "One per class between washes, so three or four if you attend three or four times a week. Lagree sweat is continuous rather than intermittent and technical fabrics hold odour once they have been worn damp, so rewearing is not realistic in the way it might be after a gentle mat class. A practical setup is a rotation of mid-priced everyday bras plus one genuinely supportive bra kept for rebounder or higher-impact formats. Wash cold and air dry — heat is what destroys elastane recovery, and the underband is the first thing to go." } },
-      ],
+      "mainEntity": FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
@@ -156,11 +161,11 @@ export default function BestSportsBraForLagreePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Sports Bras<br /><span style={{ color: "#8b4a31" }}>for Lagree (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Every product link on this page goes to Amazon. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you. Listings and prices were verified on October 2, 2026 and can change.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Support is the obvious requirement and only half the story. Much of Lagree happens lying on your back on a firm vinyl carriage, which means any raised hardware on the back of the bra — a racerback clasp, a plastic slider, a hook-and-eye closure — spends the whole set pressed between your spine and a hard surface. It is the most common complaint from new practitioners, and it is a hardware problem, not a fit one.
+              Support is the obvious requirement and only half the story. Much of Lagree happens lying on your back on a firm vinyl carriage, which means any raised hardware on the back of the bra — a racerback clasp, a plastic slider, a hook-and-eye closure — spends the whole set pressed between your spine and a hard surface. It is the most common complaint from new practitioners, and it is a hardware problem, not a fit one. Below are six bras on Amazon, from high-impact support for jump work to a light matching-set bralette, with notes on what to check on each one for the carriage.
             </p>
           </div>
         </section>
@@ -175,7 +180,17 @@ export default function BestSportsBraForLagreePage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+            <div className="mb-12 mt-4">
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What a Lagree class asks of a sports bra</h2>
+              <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+                <p>Lagree is not a high-impact method by design. It is built on slow tempo and long time under tension: a lunge on the Megaformer carriage can take four or five seconds each way, and a plank series keeps you holding position while the springs try to pull the carriage out from under you. For that work, the demand on a sports bra is less about bounce and more about staying put — a band that does not ride up when you invert, straps that do not slide off your shoulders in plank, and fabric that copes with heavy, continuous sweat.</p>
+                <p>Many studios add faster blocks, though: jumping lunges off the platform, cardio bursts, or rebounder intervals in hybrid formats. Those are where support level suddenly matters, and where a light bralette that felt fine in the slow sections stops feeling fine. That is why we split this list by support tier rather than ranking everything on one scale. Most regulars end up with a mix: one or two high-support bras for harder classes and cheaper mid-support ones for the rest.</p>
+                <p>The third factor is specific to the machine. A big share of the repertoire is performed lying on your back on a firm, lightly padded carriage, often with your weight resting right between your shoulder blades. Anything raised on the back of a bra — a clasp, a plastic slider, a bulky strap crossing, a hook-and-eye closure — gets pressed into your spine for the length of the set. None of the listings below promise a hardware-free back, so we have flagged on each card what to check, and why an open U back or a flat racerback join matters.</p>
+                <p>How we chose: we picked established brands and current Amazon listings across the three support tiers and a spread of prices, confirmed each one was in stock, and verified the prices on October 2, 2026. The notes below explain our reasoning — the cut, the support tier each brand lists, and how that interacts with Lagree — based on the listings and general fit logic, not on lab results.</p>
+              </div>
+            </div>
+
+            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
               </div>
@@ -195,7 +210,7 @@ export default function BestSportsBraForLagreePage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Bras · Ranked</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Bras · By Support Level</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -207,6 +222,12 @@ export default function BestSportsBraForLagreePage() {
                   </div>
                 ))}
               </div>
+              <div className="mt-10 rounded-xl p-6" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not Lagree-specific? That&apos;s fine</p>
+                <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  None of these bras are made for Lagree, and you do not need one that is. There is no Lagree-branded sports bra standard — what matters is the right support tier for your classes, a band that stays put through planks and inversions, and nothing raised on the back where you lie on the carriage. A good training bra from a mainstream brand covers all three.
+                </p>
+              </div>
             </div>
 
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
@@ -216,7 +237,8 @@ export default function BestSportsBraForLagreePage() {
                   "Run a hand over the back before buying. Any raised clasp, slider or hook sits between your spine and a firm carriage for the whole set.",
                   "Prefer pull-on and seamless styles, or racerbacks with flat bonded joins rather than plastic hardware.",
                   "Wide underbands only. Thin elastic bands ride up during inversions and plank transitions.",
-                  "Above a D cup, choose encapsulation over compression — compression works by flattening and stops being enough.",
+                  "Match the support tier to your classes: high impact if your studio programs jumps or rebounder work, mid support for slow, controlled sessions.",
+                  "Larger busts: lean towards high-support designs even for slower classes — compression styles work by flattening and become less effective as cup size goes up.",
                   "Check it does not restrict lateral rib expansion. If you cannot breathe wide into the ribs, it is too tight or sized down too far.",
                   "Buy three or four. Lagree sweat is continuous, and technical fabric holds odour once worn damp.",
                 ].map((tip, i) => (
@@ -231,12 +253,7 @@ export default function BestSportsBraForLagreePage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
-                {[
-                  { q: "What support level do you need for Lagree?", a: "Medium to high, which is a step up from mat Pilates. Lagree includes sustained pulse work, plank and inversion series, and many studios run a rebounder or jump-board segment — none of which a light bralette handles well. Smaller busts are generally well served by a medium-support compression or seamless style. Above roughly a D cup, look for an encapsulation design with separate moulded cups, since compression bras work by flattening and stop being adequate at that point regardless of the support rating on the label." },
-                  { q: "Why does my sports bra dig into my back during reformer work?", a: "Because you are lying on it. A large share of Lagree and reformer work is performed supine on a firm vinyl carriage with very little padding, so any raised hardware on the back of the bra — a racerback clasp, a plastic strap slider, thick crossed elastic, a hook-and-eye closure — is pressed between your spine and a hard surface for the length of the set. It is one of the most common complaints from new practitioners and it is entirely a hardware problem, not a fit problem. Pull-on and seamless styles with flat bonded joins solve it." },
-                  { q: "Is a longline bra better for Lagree?", a: "For many people, yes. The extended band spreads support over a wider area of the ribcage rather than concentrating it on a narrow elastic, which is more comfortable across a long continuous class, and it stays put through inversions and plank transitions where a short band rides up. It also allows training in just the bra in a hot studio. The caveats are heat and breathing: more fabric over the ribs runs warmer, and a longline sized down can restrict the lateral rib expansion that good breathing mechanics depend on. Buy true to size." },
-                  { q: "How many sports bras do you need for regular Lagree?", a: "One per class between washes, so three or four if you attend three or four times a week. Lagree sweat is continuous rather than intermittent and technical fabrics hold odour once they have been worn damp, so rewearing is not realistic in the way it might be after a gentle mat class. A practical setup is a rotation of mid-priced everyday bras plus one genuinely supportive bra kept for rebounder or higher-impact formats. Wash cold and air dry — heat is what destroys elastane recovery, and the underband is the first thing to go." },
-                ].map((item) => (
+                {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
@@ -248,8 +265,10 @@ export default function BestSportsBraForLagreePage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Leggings for Lagree" excerpt="Why buttery fabrics slide on a vinyl carriage, and the compressive pairs that hold." href="/blog/best-leggings-for-lagree" category="Lagree" readTime="8 min read" date="September 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
-                <ArticleCard title="Best Grip Socks for Lagree" excerpt="Full-sole silicone versus dot grip on a moving carriage — six pairs ranked." href="/blog/best-lagree-grip-socks" category="Lagree" readTime="8 min read" date="September 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
+                <ArticleCard title="Best Lagree Tops" excerpt="Why fitted tanks beat loose tees on the Megaformer, and five tops to layer over your sports bra." href="/blog/best-lagree-tops" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Leggings for Lagree" excerpt="Fabric, rise and grip on a moving carriage — the leggings that stay put through lunges and planks." href="/blog/best-leggings-for-lagree" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Lagree Essentials" excerpt="Everything worth bringing to a Lagree class, from grip socks to a sweat towel." href="/blog/lagree-essentials" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-hands-on-carriage.png" />
+                <ArticleCard title="Best Pilates Sports Bras" excerpt="Our wider guide to sports bras for reformer and mat Pilates." href="/blog/best-pilates-sports-bra" category="Pilates Apparel" readTime="8 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
           </div>

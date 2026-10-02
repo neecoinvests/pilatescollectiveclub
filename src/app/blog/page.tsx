@@ -78,6 +78,30 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/stitch-hands-on-carriage.png",
   },
   {
+    title: "Best Lagree Gloves (2026): Do You Need Them?",
+    excerpt: "When grip gloves genuinely help on Megaformer handles and straps — and when bare hands are better.",
+    href: "/blog/best-lagree-gloves",
+    category: "Lagree",
+    readTime: "9 min",
+    imageUrl: "/pictures/stitch-hands-on-carriage.png",
+  },
+  {
+    title: "Best Lagree Bag (2026): Wet & Shoe Compartments",
+    excerpt: "Lagree is sweaty. The gym bags with a separate wet pocket and shoe compartment worth carrying to class.",
+    href: "/blog/best-lagree-bag",
+    category: "Lagree",
+    readTime: "9 min",
+    imageUrl: "/pictures/stitch-studio-entryway.png",
+  },
+  {
+    title: "Best Lagree Tops (2026): Tanks That Stay Put",
+    excerpt: "Fitted, sweat-wicking tanks that don't flip over your head in planks or catch on springs.",
+    href: "/blog/best-lagree-tops",
+    category: "Lagree",
+    readTime: "9 min",
+    imageUrl: "/pictures/stitch-retail-activewear.png",
+  },
+  {
     title: "Allegro 2 vs SPX Max (2026)",
     excerpt: "The two machines buyers cross-shop most. They fold in different directions, and that decides it before price does.",
     href: "/blog/balanced-body-allegro-2-vs-merrithew-spx-max",
@@ -198,7 +222,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/stitch-reformer-morning-light.png",
   },
   {
-    title: "Best Grip Socks for Lagree (2026)",
+    title: "Lagree Socks (2026): Best Grip Socks for Lagree",
     excerpt: "Full-sole silicone versus dot grip — why the sock that works on a mat slips on a moving Megaformer carriage.",
     href: "/blog/best-lagree-grip-socks",
     category: "Lagree",
@@ -576,7 +600,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Lagree Carriage Handles & Grip Accessories (2026)",
-    excerpt: "OEM handle sets, grip wraps, WODFitters pads, and wrist support compared for Megaformer carriage control and comfort.",
+    excerpt: "The Lagree Fitness Micro handlebars sold on Amazon, plus the grip gloves, pads and wrist wraps that help on Megaformer handles.",
     href: "/blog/best-lagree-carriage-handles",
     category: "Lagree",
     readTime: "8 min",
@@ -584,7 +608,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Cardio Rebounder for Lagree & Megaformer (2026)",
-    excerpt: "Mini trampoline rebounders compared for stability, bounce response, and Megaformer-style cardio intervals.",
+    excerpt: "bellicon, JumpSport and budget rebounders for Lagree-style cardio intervals at home — honest about what a rebounder can and cannot replace.",
     href: "/blog/best-lagree-cardio-rebounder-attachment",
     category: "Equipment",
     readTime: "9 min",
@@ -680,7 +704,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Sweat Towel for Lagree & Pilates (2026): Studio Towels Ranked",
-    excerpt: "Rainleaf, Dock & Bay, PackTowl, Manduka Yogitoes — quick-dry microfibre and non-slip surface towels tested for the most intense studio formats.",
+    excerpt: "Manduka Yogitoes, Shandali, Rainleaf and PackTowl — grip towels for the carriage and quick-dry sweat towels for the sweatiest class there is.",
     href: "/blog/best-sweat-towel-for-lagree",
     category: "Studio Essentials",
     readTime: "5 min",

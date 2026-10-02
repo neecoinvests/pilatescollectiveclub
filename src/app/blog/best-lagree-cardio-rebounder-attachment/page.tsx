@@ -1,93 +1,99 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 
+const TITLE = "Best Rebounder for Lagree-Style Cardio at Home (2026)";
+const DESCRIPTION = "The best rebounders for Lagree-style cardio at home, from bellicon and JumpSport to a $70 budget pick. No Megaformer rebounder attachment exists on Amazon.";
+
 export const metadata: Metadata = {
-  title: "Best Cardio Rebounder Attachment for Lagree & Megaformer (2026)",
-  description: "The best mini trampoline rebounder attachments and standalone rebounders for Lagree-style cardio intervals — compared for stability, bounce response, and Megaformer compatibility.",
-  keywords: ["lagree cardio rebounder", "megaformer rebounder attachment", "mini trampoline rebounder 2026", "lagree cardio interval equipment", "best rebounder for lagree", "megaformer cardio platform", "rebounder trampoline pilates"],
+  title: TITLE,
+  description: DESCRIPTION,
+  keywords: ["lagree rebounder", "rebounder for lagree cardio", "mini trampoline lagree", "megaformer cardio attachment", "best rebounder home workout", "best rebounder 2026", "bungee rebounder", "jumpsport fitness trampoline", "bellicon mini trampoline", "lagree at home cardio"],
   openGraph: {
-    title: "Best Cardio Rebounder Attachment for Lagree & Megaformer (2026)",
-    description: "Mini trampoline rebounders compared for stability, bounce response, and Megaformer-style cardio intervals.",
+    title: TITLE,
+    description: "Standalone rebounders for cardio intervals between Lagree sessions or on rest days, compared honestly. There is no Megaformer rebounder attachment on Amazon.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-lagree-cardio-rebounder-attachment",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg", width: 1200, height: 630, alt: "Best Cardio Rebounder Attachment for Lagree 2026" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg", width: 1200, height: 630, alt: "Best rebounder for Lagree-style cardio at home 2026" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Cardio Rebounder for Lagree & Megaformer (2026)",
-    description: "Rebounders compared for Lagree-style cardio intervals and stability.",
+    title: TITLE,
+    description: "Standalone rebounders for cardio between Lagree sessions, from premium bungee builds to a budget pick.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-lagree-cardio-rebounder-attachment" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
 
+const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
+const isAmazon = (url: string) => /amazon\.[a-z.]+\//.test(url);
+const linkRel = (url: string) => (isAmazon(url) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow");
+const linkLabel = (url: string) => (isAmazon(url) ? "Shop on Amazon" : "Shop Direct");
+
 const PRODUCTS = [
   {
     rank: "01",
-    name: "JumpSport Fitness Trampoline 250",
-    price: "From $299",
-    verdict: "Best overall rebounder for cardio intervals",
+    name: "JumpSport 39\" Essential Fitness Trampoline, Model 250",
+    price: "$269.99",
+    verdict: "Best overall: a dedicated fitness rebounder at a sensible price",
     description:
-      "JumpSport's 250 model uses a bungee-cord suspension system rather than metal springs, producing a noticeably softer, lower-impact bounce that's gentler on joints during the rapid cardio intervals many Lagree instructors weave between carriage exercises. The 39-inch diameter mat provides enough surface area for two-footed jump sequences and single-leg stability drills without feeling cramped, and the steel frame is rated for users up to 250 lbs. Unlike cheaper spring-based rebounders, the bungee system stays quiet under repeated use, an important factor for home practitioners in shared or upstairs spaces. For instructors and home practitioners building Lagree-adjacent cardio circuits, this is the rebounder with the best balance of bounce quality and durability.",
-    affiliateUrl: "https://www.amazon.com/s?k=jumpsport+fitness+trampoline+250&tag=pilatescollective-20",
+      "JumpSport is one of the established names in fitness rebounders, and the Model 250 is its Essential line: a 39-inch fitness trampoline built for exactly the kind of short, repeated cardio sessions this guide is about. It sits in the middle of the price range, which is why it is our overall pick. You get a dedicated fitness rebounder from a specialist brand without paying the premium for the bellicon or the PRO model below. For a Lagree regular, that is the right level of commitment: something solid enough to use several times a week between classes, without the price of a second machine. The listing is sold by Spreetail. Check the listing for the suspension type, weight limit and whether the legs fold before you buy, especially if you need to store it between sessions.",
+    affiliateUrl: amz("B0042H4QYS"),
     tag: "Best Overall",
   },
   {
     rank: "02",
-    name: "Bellicon Classic Rebounder",
-    price: "From $549",
-    verdict: "Best premium bungee rebounder",
+    name: "bellicon Mini Trampoline 39\" (Bungee Suspension)",
+    price: "$699.00",
+    verdict: "Premium pick: bungee suspension from a rebounder specialist",
     description:
-      "The Bellicon is widely regarded as the premium standard in the rebounder category, using individually replaceable bungee cords (rather than a single fixed band) that allow fine-tuning of bounce tension to the user's weight and training style. The German-engineered frame folds for storage, a genuine advantage for home studios with limited floor space between Megaformer sessions. The higher price reflects build quality intended for years of daily commercial use rather than occasional home sessions. For studios incorporating rebounder cardio bursts into licensed Lagree classes, or serious home practitioners who want the most refined bounce feel available, the Bellicon is worth the premium.",
-    affiliateUrl: "https://www.amazon.com/s?k=bellicon+classic+rebounder&tag=pilatescollective-20",
-    tag: "Best Premium",
+      "bellicon sells this 39-inch mini trampoline on Amazon itself, and its defining feature is bungee suspension rather than metal springs. Bungee rebounders are generally described as giving a softer, deeper bounce, and they avoid the metallic spring noise that bothers people in apartments and shared homes. Whether that is worth $699.00 depends on how much you will use it. If a rebounder is going to be a near-daily part of your training, alongside Lagree classes or a home Micro, the premium build is easy to justify. If you are still figuring out whether rebounding suits you, start with one of the cheaper picks. Sold by bellicon.",
+    affiliateUrl: amz("B0CNWB1TYG"),
+    tag: "Premium Pick",
   },
   {
     rank: "03",
-    name: "MaXimus Pro Mini Trampoline Rebounder",
-    price: "From $179",
-    verdict: "Best mid-range value",
+    name: "JumpSport 39\" PRO Fitness Trampoline, Model 350 PRO",
+    price: "$409.99",
+    verdict: "Best pro-line option from JumpSport",
     description:
-      "The MaXimus Pro uses a hybrid spring-and-pad system that dampens the metallic clank typical of pure spring rebounders while costing significantly less than bungee-only models like the Bellicon. The 40-inch mat diameter is generous, and the legs fold flat for storage against a wall — practical for home practitioners rotating a rebounder in and out of a Megaformer training space. Bounce response is firmer and more responsive than the JumpSport, which some users training for explosive power intervals prefer, while others find it less joint-friendly over long sessions. For practitioners who want strong bounce performance without premium pricing, this is the standout mid-range pick.",
-    affiliateUrl: "https://www.amazon.com/s?k=maximus+pro+mini+trampoline+rebounder&tag=pilatescollective-20",
-    tag: "Best Mid-Range Value",
+      "The Model 350 PRO is the step up from the Essential Model 250 in JumpSport's line: the same 39-inch format, positioned as the brand's PRO fitness trampoline. It makes sense if you have decided rebounding is a long-term habit and want JumpSport's higher tier without moving all the way up to bellicon pricing. It is sold by Spreetail. As with every pick here, compare the listing details for suspension, weight limit and folding before deciding; we only state what the listing title confirms.",
+    affiliateUrl: amz("B00AR02OKM"),
+    tag: "Best Pro",
   },
   {
     rank: "04",
-    name: "Stamina 36-Inch Folding Rebounder",
-    price: "From $69",
-    verdict: "Best budget entry rebounder",
+    name: "BCAN BT2 40\" Rebounder (Bungees, 450 lb)",
+    price: "$129.99",
+    verdict: "Best mid-price: bungee suspension under $150",
     description:
-      "The Stamina is a straightforward steel-spring rebounder at a fraction of the cost of bungee-based models, with a 36-inch mat and folding legs for storage. The spring system is louder and produces a firmer, less forgiving bounce than premium options, and the maximum weight rating is lower at 250 lbs split across less robust frame hardware. For practitioners testing whether rebounder cardio intervals belong in their routine before investing in a premium model, or for occasional supplemental use rather than daily training, the Stamina delivers functional performance at the lowest price point in this category.",
-    affiliateUrl: "https://www.amazon.com/s?k=stamina+36+inch+folding+rebounder&tag=pilatescollective-20",
-    tag: "Best Budget Pick",
+      "The BCAN BT2 is the cheapest way on this list to get bungee suspension. It is a 40-inch rebounder with bungees rather than springs, and its listing states a 450 lb rating, the highest on this page. That rating is useful context rather than a reason to buy on its own, but it does suggest a frame meant for sustained use. If the bellicon appeals but the price doesn't, this is the obvious alternative. The trade-off is the brand: BCAN is not a specialist name like bellicon or JumpSport, so read the listing&apos;s warranty and parts information before ordering.",
+    affiliateUrl: amz("B0BPSQ4XNN"),
+    tag: "Best Mid-Price",
   },
   {
     rank: "05",
-    name: "JumpSport Stabilizing Bar Attachment",
-    price: "From $89",
-    verdict: "Best balance aid for rebounder training",
+    name: "ACWARM HOME 40\" Mini Rebounder (440 lb Load)",
+    price: "$69.98",
+    verdict: "Best budget: try rebounding for under $70",
     description:
-      "A genuine safety and stability addition rather than a standalone rebounder, the JumpSport stabilizing bar mounts to compatible rebounder frames and provides a handhold during single-leg balance work and high-tempo interval transitions — particularly useful for practitioners newer to rebounder training or those incorporating it into mixed Lagree-and-cardio circuits where fatigue increases fall risk. The bar height is adjustable and the mount is compatible with most JumpSport models and several third-party rebounders sharing similar frame dimensions. For studios or home setups prioritizing safety during rebounder cardio bursts, this is a low-cost, high-value addition.",
-    affiliateUrl: "https://www.amazon.com/s?k=rebounder+stabilizing+bar+attachment&tag=pilatescollective-20",
-    tag: "Best Safety Accessory",
+      "Sold by Amazon.com. A 40-inch mini rebounder with a stated 440 lb load rating, at the lowest price on this page. This is the pick for finding out whether rebounder cardio fits your routine before spending more. Expect a budget build: the listing title doesn&apos;t say whether it uses springs or bungees, so check that detail if noise matters in your home. If you end up jumping several times a week and want a softer feel, you will know exactly what to upgrade to.",
+    affiliateUrl: amz("B0FT2LL9P3"),
+    tag: "Best Budget",
   },
-  {
-    rank: "06",
-    name: "ANCHEER Mini Trampoline with Adjustable Handle",
-    price: "From $89",
-    verdict: "Best all-in-one budget bar combo",
-    description:
-      "The ANCHEER bundles a built-in adjustable stabilizing handle directly into the rebounder frame rather than as a separate purchase, making it the most accessible all-in-one option for practitioners who want balance support without sourcing compatible accessories separately. The spring system and 40-inch mat are comparable in quality to other budget rebounders, and the integrated handle folds down when not needed. For home practitioners who want a single affordable purchase that covers both the rebounder and balance support, this combo unit removes the compatibility guesswork of buying components separately.",
-    affiliateUrl: "https://www.amazon.com/s?k=ancheer+mini+trampoline+adjustable+handle&tag=pilatescollective-20",
-    tag: "Best All-in-One Budget",
-  },
+];
+
+const FAQS = [
+  { q: "Is there a rebounder attachment for the Megaformer?", a: "Not one we could find on Amazon. That is why this guide covers standalone rebounders, which give you the same kind of low-impact cardio interval on your own floor. Lagree Fitness sells its own machines and accessories; contact them directly if you're looking for official Megaformer add-ons." },
+  { q: "Why use a rebounder if I already do Lagree?", a: "Lagree is low-impact and works muscles through slow, sustained tension. A rebounder adds a different stimulus: light, rhythmic, repeated bouncing that raises your heart rate quickly. It is a convenient way to add cardio between Lagree sessions or on rest days without high-impact running or jumping on a hard floor." },
+  { q: "Bungee or spring rebounder?", a: "Bungee rebounders are generally described as softer and quieter, and they usually cost more. Spring rebounders are usually cheaper and can feel firmer. On this list, the bellicon and BCAN BT2 listings state bungee suspension; for the JumpSport and ACWARM models, check each listing for the suspension type." },
+  { q: "What size rebounder should I get?", a: "All five picks here are 39 to 40 inches across, which is the common size for fitness rebounders. Measure your floor space and ceiling height before ordering, and check the listing for leg folding if you need to store it." },
+  { q: "How do I fit rebounding around Lagree classes?", a: "Keep it simple: short intervals of bouncing and rest on non-Lagree days, or a few minutes as a warm-up before a home session. Lagree already loads your legs heavily, so build up gradually and skip it if your legs are still fatigued from class." },
 ];
 
 const jsonLd = {
@@ -95,11 +101,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Cardio Rebounder Attachment for Lagree & Megaformer (2026)",
-      "description": "Mini trampoline rebounders compared for stability, bounce response, and Megaformer-style cardio intervals.",
+      "headline": TITLE,
+      "description": DESCRIPTION,
       "url": "https://pilatescollectiveclub.com/blog/best-lagree-cardio-rebounder-attachment",
       "datePublished": "2026-06-30",
-      "dateModified": "2026-06-30",
+      "dateModified": "2026-10-02",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -107,16 +113,16 @@ const jsonLd = {
     },
     {
       "@type": "ItemList",
-      "name": "Best Cardio Rebounders for Lagree & Megaformer (2026)",
-      "numberOfItems": 6,
+      "name": "Best Rebounders for Lagree-Style Cardio at Home (2026)",
+      "numberOfItems": PRODUCTS.length,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
         "item": {
           "@type": "Product",
           "name": p.name,
-          "description": p.description.replace(/<[^>]+>/g, ""),
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "description": p.description.replace(/<[^>]+>/g, "").replace(/&apos;/g, "'"),
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9.]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -125,19 +131,20 @@ const jsonLd = {
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pilatescollectiveclub.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Best Cardio Rebounder for Lagree & Megaformer", "item": "https://pilatescollectiveclub.com/blog/best-lagree-cardio-rebounder-attachment" },
+        { "@type": "ListItem", "position": 3, "name": "Best Rebounder for Lagree-Style Cardio", "item": "https://pilatescollectiveclub.com/blog/best-lagree-cardio-rebounder-attachment" },
       ],
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "Why do Lagree instructors use rebounders between carriage exercises?", "acceptedAnswer": { "@type": "Answer", "text": "Rebounder cardio bursts are commonly woven between Megaformer exercise blocks to elevate heart rate without interrupting the slow eccentric loading philosophy of the carriage work itself — the low-impact bounce raises cardiovascular intensity while staying joint-friendly, complementing rather than conflicting with the Lagree Method's emphasis on controlled tension." } },
-        { "@type": "Question", "name": "Bungee vs spring rebounder — which is better?", "acceptedAnswer": { "@type": "Answer", "text": "Bungee-cord rebounders, like the JumpSport and Bellicon, produce a softer, quieter, lower-impact bounce that's gentler on joints and better suited to repeated daily use. Spring-based rebounders are typically louder and provide a firmer, more responsive bounce at a lower price, which some users training for explosive power prefer despite the added joint impact." } },
-        { "@type": "Question", "name": "Do I need a stabilizing bar for rebounder training?", "acceptedAnswer": { "@type": "Answer", "text": "Not strictly, but it's a worthwhile low-cost addition for practitioners newer to rebounder training or anyone incorporating single-leg balance work into high-tempo cardio intervals, where fatigue increases fall risk. Experienced users often skip it once balance and confidence are established." } },
-      ],
+      "mainEntity": FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
+
+const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
+const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
+const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
+const buttonStyle = { display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase" as const, color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap" as const, flexShrink: 0 };
 
 export default function BestCardioRebounderPage() {
   return (
@@ -150,16 +157,16 @@ export default function BestCardioRebounderPage() {
             <div className="flex items-center gap-3 mb-6">
               <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
               <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree Method</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree at Home</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Cardio Rebounder<br /><span style={{ color: "#8b4a31" }}>for Lagree (2026)</span>
+            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={h2Style}>
+              Best Rebounder for<br /><span style={{ color: "#8b4a31" }}>Lagree-Style Cardio (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links on this page go to Amazon, where we earn a small commission on qualifying purchases. Prices were verified on October 2, 2026 and can change.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Mini trampoline rebounders have become a common addition to Lagree-style programming, used as low-impact cardio bursts between Megaformer exercise blocks to elevate heart rate without breaking the method's slow-tempo training philosophy. This guide compares the six best rebounders for home and studio use in 2026, from premium bungee-cord builds to dependable budget options.
+            <p className="text-lg leading-relaxed" style={{ ...bodyStyle, fontWeight: 300 }}>
+              If you came here looking for a rebounder attachment for the Megaformer, here&apos;s the honest answer up front: we couldn&apos;t find one on Amazon. What you can buy are standalone rebounders, mini trampolines built for fitness, and they are a genuinely useful partner to Lagree. Use one for short cardio intervals between Lagree sessions, on rest days, or alongside a home setup like The Micro. These are the five worth considering, from a $699 bungee build to a sub-$70 starter.
             </p>
           </div>
         </section>
@@ -167,13 +174,25 @@ export default function BestCardioRebounderPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Best cardio rebounder for Lagree and Megaformer 2026" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Home cardio and Lagree-style training space" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>How we chose these rebounders</p>
+              <p className="text-sm leading-relaxed" style={bodyStyle}>There is no Megaformer rebounder attachment on Amazon that we could verify, so this guide covers standalone rebounders for Lagree-style cardio at home. Every rebounder below links to a specific Amazon listing whose price and availability we verified on October 2, 2026. We haven&apos;t lab-tested these rebounders; we only state specs that appear in each listing&apos;s title, and we tell you where to check the rest.</p>
+            </div>
+
+            <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Why a rebounder pairs well with Lagree</h2>
+            <div className="space-y-5 mb-12 text-base leading-relaxed" style={bodyStyle}>
+              <p>Lagree is built around slow, controlled movement and long time under tension on a moving carriage. It is low-impact, it gets your heart rate up through sustained muscular effort, and it leaves you shaking rather than out of breath in the way a run does. What it doesn&apos;t do much of is fast, rhythmic, repetitive movement.</p>
+              <p>That is the gap a rebounder fills. Bouncing is quick and rhythmic, it raises your heart rate fast, and the mat absorbs much of the landing that would otherwise go into a hard floor. It also takes almost no setup: step on, bounce for a few minutes, step off. That makes it easy to slot around a Lagree schedule in a way a long run or a cycling class often isn&apos;t.</p>
+              <p>A rebounder doesn&apos;t replicate Lagree, and it shouldn&apos;t be sold as if it does. It complements it. Think of it as the cardio side of a home setup whose strength side is either studio classes or a home machine.</p>
+            </div>
 
             <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
@@ -187,15 +206,13 @@ export default function BestCardioRebounderPage() {
                     <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Search →</a>
+                  <a href={p.affiliateUrl} target="_blank" rel={linkRel(p.affiliateUrl)} style={buttonStyle}>{linkLabel(p.affiliateUrl)}</a>
                 </div>
               ))}
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Rebounders · Cardio Intervals</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Rebounders · Home Cardio</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -207,14 +224,12 @@ export default function BestCardioRebounderPage() {
                       <div className="p-6" style={{ backgroundColor: "#ffffff" }}>
                         <div className="flex items-start justify-between gap-4 mb-4">
                           <div>
-                            <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
+                            <h3 className="text-xl font-semibold mb-1" style={h2Style}>{p.name}</h3>
                             <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                           </div>
-                          <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                            style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                          >Search →</a>
+                          <a href={p.affiliateUrl} target="_blank" rel={linkRel(p.affiliateUrl)} style={buttonStyle}>{linkLabel(p.affiliateUrl)}</a>
                         </div>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }} dangerouslySetInnerHTML={{ __html: p.description }} />
+                        <p className="text-sm leading-relaxed" style={bodyStyle} dangerouslySetInnerHTML={{ __html: p.description }} />
                       </div>
                     </div>
                   </div>
@@ -222,27 +237,47 @@ export default function BestCardioRebounderPage() {
               </div>
             </div>
 
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.3)" }}>
+              <h2 className="text-2xl font-semibold mb-4" style={h2Style}>Not Lagree-specific? That&apos;s fine</h2>
+              <p className="text-sm leading-relaxed" style={bodyStyle}>None of these rebounders is a Lagree product, and none attaches to a Megaformer or The Micro. They don&apos;t need to. A good fitness rebounder is a good fitness rebounder whether you do Lagree, Pilates or nothing else at all. Be wary of any listing that uses the Lagree or Megaformer name to sell a generic trampoline: unless it is sold by Lagree Fitness, the name is doing marketing work, not describing compatibility.</p>
+            </div>
+
+            <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What to look for in a rebounder</h2>
+            <div className="space-y-5 mb-12 text-base leading-relaxed" style={bodyStyle}>
+              <p><strong>Suspension: bungee or springs.</strong> This is the biggest difference between rebounders. Bungee suspension is generally described as softer and quieter; steel springs are usually cheaper and firmer. On this list, the bellicon and BCAN BT2 listings state bungee suspension. For the others, check the listing.</p>
+              <p><strong>Size.</strong> Every pick here is 39 or 40 inches across, the standard size for home fitness rebounders. That&apos;s enough room for basic bouncing, jogging in place and simple steps. Measure your space, and remember you need clearance around it and above your head.</p>
+              <p><strong>Weight rating.</strong> The BCAN BT2 lists 450 lb and the ACWARM HOME lists a 440 lb load. A higher rating usually signals a sturdier frame, but treat any rating as a ceiling, not a target.</p>
+              <p><strong>Storage.</strong> If the rebounder has to live under a bed or in a closet between sessions, folding legs or a folding frame matter more than any other feature. Check the listing; we haven&apos;t assumed it for any pick.</p>
+              <p><strong>Noise.</strong> If you live upstairs from someone, suspension type and a mat or rug underneath will make more difference than brand.</p>
+            </div>
+
+            <h2 className="text-3xl font-semibold mb-6" style={h2Style}>How to use a rebounder around Lagree</h2>
+            <div className="space-y-5 mb-12 text-base leading-relaxed" style={bodyStyle}>
+              <p><strong>On rest days.</strong> The simplest pattern: Lagree classes on your training days, short rebounder sessions on the days in between. Start with a few minutes of easy bouncing and build up. Your legs do a lot of work in Lagree, so keep the intensity moderate on the day after a hard class.</p>
+              <p><strong>As intervals.</strong> If you train at home, alternate short bouncing intervals with rest. An <Link href="/blog/best-interval-timer-for-lagree" style={inlineLinkStyle}>interval timer</Link> keeps this honest so you&apos;re not watching the clock.</p>
+              <p><strong>Alongside a home machine.</strong> If you own The Micro, a rebounder gives you the cardio contrast to its slow strength work in the same room. Our <Link href="/blog/lagree-at-home" style={inlineLinkStyle}>Lagree at home guide</Link> covers the full setup and what it costs, and the <Link href="/blog/best-megaformer-machine" style={inlineLinkStyle}>best Megaformer machine guide</Link> covers the machines themselves.</p>
+              <p><strong>Safety basics.</strong> Set it up on a level floor away from furniture, start slowly, and stop if anything hurts. If you are pregnant, recovering from an injury or have a pelvic floor or joint condition, check with a professional first.</p>
+            </div>
+
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
-                {[
-                  { q: "Why do Lagree instructors use rebounders between carriage exercises?", a: "Rebounder cardio bursts are commonly woven between Megaformer exercise blocks to elevate heart rate without interrupting the slow eccentric loading philosophy of the carriage work — the low-impact bounce raises cardiovascular intensity while staying joint-friendly." },
-                  { q: "Bungee vs spring rebounder — which is better?", a: "Bungee-cord rebounders produce a softer, quieter, lower-impact bounce that's gentler on joints and better suited to repeated daily use. Spring-based rebounders are typically louder and provide a firmer, more responsive bounce at a lower price." },
-                  { q: "Do I need a stabilizing bar for rebounder training?", a: "Not strictly, but it's worthwhile for practitioners newer to rebounder training or anyone incorporating single-leg balance work into high-tempo cardio intervals, where fatigue increases fall risk." },
-                ].map((item) => (
+                {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                    <p className="text-base font-semibold mb-2" style={h2Style}>{item.q}</p>
+                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Megaformer Machine (2026)" excerpt="Lagree M3S, The Micro, M3X, and more compared for home and studio Lagree training." href="/blog/best-megaformer-machine" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Best Megaformer Platform Extender (2026)" excerpt="Extending platform space on a Megaformer or reformer for taller practitioners and advanced positions." href="/blog/best-megaformer-platform-extender" category="Equipment" readTime="8 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
+                <ArticleCard title="Lagree at Home" excerpt="How to train the Lagree way at home, from the Micro to floor work between classes." href="/blog/lagree-at-home" category="Lagree" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />
+                <ArticleCard title="Lagree Fitness: The Brand Guide" excerpt="The company behind the Megaformer and The Micro, and what you can actually buy." href="/blog/lagree-fitness" category="Brand" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
+                <ArticleCard title="Best Megaformer Machine" excerpt="Lagree equipment reviewed, plus the studio-grade alternatives worth considering." href="/blog/best-megaformer-machine" category="Lagree" readTime="11 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Interval Timer for Lagree" excerpt="Studio clocks and interval timers for structuring Lagree and Pilates sessions." href="/blog/best-interval-timer-for-lagree" category="Equipment" readTime="8 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
               </div>
             </div>
           </div>

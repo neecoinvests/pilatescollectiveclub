@@ -77,7 +77,7 @@ const PRODUCTS = [
   {
     rank: 6,
     name: "Under Armour Men's HeatGear Armour Leggings",
-    price: "$28.25",
+    price: "$27.00",
     verdict: "Best men's compression tights for reformer",
     description: "Compression tights are the right choice for many men's Pilates practice — they allow instructors to see your leg and hip alignment clearly, they do not shift or bunch on the reformer carriage, and they give proprioceptive feedback that helps with precision footwork. HeatGear is Under Armour's established compression line, and this listing is sold by Amazon.com. Wear them alone or under shorts if you prefer extra coverage.",
     affiliateUrl: "https://www.amazon.com/dp/B0874X381F?tag=pilatescollective-20",

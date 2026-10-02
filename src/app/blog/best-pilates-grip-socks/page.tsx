@@ -64,10 +64,10 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Gaiam Grippy Studio Yoga Socks",
-    price: "$8.97",
+    price: "$8.94",
     verdict: "Established brand, open-toe, non-slip — our budget pick",
     description:
-      "Sold by Amazon.com, the Gaiam Grippy Studio Yoga Socks come from an established brand with a long track record in yoga and Pilates accessories. They're an open-toe style with a non-slip sole, which makes them a solid all-rounder for studio reformer classes or home mat work. At $8.97, they sit at a reasonable price for a single pair from a recognizable name.",
+      "Sold by Amazon.com, the Gaiam Grippy Studio Yoga Socks come from an established brand with a long track record in yoga and Pilates accessories. They're an open-toe style with a non-slip sole, which makes them a solid all-rounder for studio reformer classes or home mat work. At $8.94, they sit at a reasonable price for a single pair from a recognizable name.",
     affiliateUrl: "https://www.amazon.com/dp/B079VX3FBG?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -158,7 +158,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "What's the best overall grip sock for Pilates?",
-      "acceptedAnswer": { "@type": "Answer", "text": "The toesox Low Rise Grip Socks 2-Pack (Full Toe, $30.00) are our top overall pick — from the original studio grip-sock brand. For a premium slouch style, the TAVI Stacy Slouch 2-Pack ($40.00) is our premium pick. On a budget, the Gaiam Grippy Studio Yoga Socks ($8.97) or the Muezna 6-pair pack ($7.99) are the value options." }
+      "acceptedAnswer": { "@type": "Answer", "text": "The toesox Low Rise Grip Socks 2-Pack (Full Toe, $30.00) are our top overall pick — from the original studio grip-sock brand. For a premium slouch style, the TAVI Stacy Slouch 2-Pack ($40.00) is our premium pick. On a budget, the Gaiam Grippy Studio Yoga Socks ($8.94) or the Muezna 6-pair pack ($7.99) are the value options." }
     },
     {
       "@type": "Question",
@@ -308,7 +308,7 @@ export default function BestGripSocksPage() {
                 {[
                   { q: "Do I need grip socks for Pilates?", a: "For studio reformer classes, yes — most studios require them for hygiene and safety reasons. For home mat practice, they're optional, but many practitioners find they genuinely improve balance and foot connection during standing and mat exercises." },
                   { q: "Can I use yoga socks for Pilates?", a: "Yoga grip socks often have a dot pattern only at the ball of the foot, which can be insufficient for reformer footwork where the heel also needs grip on the footbar. As a general rule, look for full sole coverage for reformer classes." },
-                  { q: "What's the best overall grip sock for Pilates?", a: "The toesox Low Rise Grip Socks 2-Pack (Full Toe, $30.00) are our top overall pick — from the original studio grip-sock brand. For a premium slouch style, the TAVI Stacy Slouch 2-Pack ($40.00) is our premium pick. On a budget, the Gaiam Grippy Studio Yoga Socks ($8.97) or the Muezna 6-pair pack ($7.99) are the value options." },
+                  { q: "What's the best overall grip sock for Pilates?", a: "The toesox Low Rise Grip Socks 2-Pack (Full Toe, $30.00) are our top overall pick — from the original studio grip-sock brand. For a premium slouch style, the TAVI Stacy Slouch 2-Pack ($40.00) is our premium pick. On a budget, the Gaiam Grippy Studio Yoga Socks ($8.94) or the Muezna 6-pair pack ($7.99) are the value options." },
                   { q: "How many pairs do I need?", a: "Two pairs minimum as a general rule. If you practice three or more times per week, three or more pairs means you'll always have a fresh, dry pair available without rushing laundry." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
