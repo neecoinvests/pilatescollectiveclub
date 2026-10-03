@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Club Pilates SODO",
-    neighborhood: "SoDo / South Downtown",
+    name: "Pilates on 5th",
+    neighborhood: "Winter Park",
     priceLevel: "$$$",
-    review:
-      "Club Pilates SODO is one of Orlando's most centrally located and consistently top-rated reformer studios, serving the South Orange Avenue corridor that connects Downtown Orlando to the SoDo district. The studio draws a diverse mix of healthcare workers from the nearby ORMC medical complex, young professionals from the surrounding residential developments, and serious practitioners who appreciate the quality of instruction. Consistently earns five-star reviews for attentive instructors and a warm, inclusive community atmosphere.",
-    address: "3123 S Orange Ave #103, Orlando, FL 32806",
-    bestFor: "Central Orlando and SoDo residents, all levels, consistent reformer",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Evening classes fill with the post-work SODO crowd — book 48 hours ahead for prime evening slots.",
+    review: "Pilates on 5th in Winter Park is a design-led reformer studio that members describe as stunning and spa-like, and it holds a perfect 5.0 rating from more than 6,800 reviews on ClassPass — one of the strongest records in Central Florida.",
+    caveat: "its popularity means prime-time classes go quickly — book ahead.",
+    address: "—",
+    bestFor: "Highly rated, spa-like reformer in Winter Park",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Book evening and weekend classes several days in advance.",
   },
   {
     number: "2",
-    name: "Club Pilates Dr. Phillips",
-    neighborhood: "Dr. Phillips / Restaurant Row",
-    priceLevel: "$$$",
-    review:
-      "Club Pilates Dr. Phillips serves one of Orlando's most affluent and wellness-invested communities — the Dr. Phillips corridor along Restaurant Row, home to the theme park industry's executive class and established Florida families. The studio is professionally run and staffed by an instructor team that earns consistently strong reviews from the community's health-savvy clientele. The schedule is wide, the atmosphere is polished, and the proximity to Universal, Disney corporate offices, and the hospitality industry creates a studio community that is both active and demanding of quality.",
-    address: "7600 Dr. Phillips Blvd #86, Orlando, FL 32819",
-    bestFor: "Dr. Phillips and Restaurant Row residents, theme park industry professionals, all levels",
-    signatureClass: "Flow",
-    bookingTip: "Morning slots fill with the Dr. Phillips residential community — book two days ahead.",
-  },
-  {
-    number: "3",
-    name: "Club Pilates Waterford Lakes",
-    neighborhood: "Waterford Lakes / East Orlando",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Waterford Lakes serves East Orlando's large suburban residential population with accessible, well-structured reformer programming at membership rates that make regular attendance genuinely practical. The Waterford Lakes Town Center location is convenient for residents of East Orlando, UCF-adjacent communities, and the surrounding Seminole County suburbs. The studio earns strong reviews for its welcoming atmosphere and instructors who are genuinely patient with practitioners new to the reformer format.",
-    address: "504 N Alafaya Trl #108, Orlando, FL 32828",
-    bestFor: "East Orlando and UCF-area residents, beginners, affordable memberships",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "The intro 3-class package is the most cost-effective way to audit the studio before committing to a membership.",
-  },
-  {
-    number: "4",
-    name: "Studio Halo",
-    neighborhood: "Downtown Orlando",
-    priceLevel: "$$$",
-    review:
-      "Studio Halo is Downtown Orlando's most distinctive independent Pilates studio — a boutique practice on Church Street that serves the city's urban core with a reformer and mat program that takes the method seriously as a movement education discipline. The downtown location draws from the growing residential population of the Thornton Park, Lake Eola Heights, and Parramore communities, as well as professionals from the surrounding office towers. Small class sizes, experienced instructors, and a genuine commitment to individual client development set Studio Halo apart from the franchise options that dominate the broader Orlando market.",
-    address: "520 E Church St #105, Orlando, FL 32801",
-    bestFor: "Downtown residents, boutique reformer, movement-educated practitioners",
-    signatureClass: "Classical Reformer",
-    bookingTip: "Classes are capped small — book online as soon as the weekly schedule opens to secure your spot.",
-  },
-  {
-    number: "5",
-    name: "BODYBAR Pilates",
-    neighborhood: "SoDo / South Downtown",
-    priceLevel: "$$$",
-    review:
-      "BODYBAR Pilates is a premium boutique Pilates brand with a strong Orlando presence in the South Downtown corridor. The brand positions itself as a step above the standard franchise experience — smaller classes, more instructor attention, and a design aesthetic that reflects a genuine investment in the studio environment. The South Orange Avenue location serves the SODO and Delaney Park communities with a program that is physically demanding and thoughtfully sequenced. A strong alternative for practitioners who have plateaued at standard franchise formats and want more intensity and individualization.",
-    address: "2875 S Orange Ave #540, Orlando, FL 32806",
-    bestFor: "SODO and Delaney Park residents, intermediate practitioners, boutique experience",
-    signatureClass: "BODYBAR Reformer",
-    bookingTip: "New clients must complete an intro assessment — schedule it before your first group class.",
-  },
-  {
-    number: "6",
     name: "Winter Park Pilates",
     neighborhood: "Winter Park",
     priceLevel: "$$$",
-    review:
-      "Winter Park Pilates is Orlando's most beloved independent studio — a community anchor in Florida's most charming city that has served Winter Park's sophisticated, wellness-invested residential population for years. The Aloma Avenue location is quintessential Winter Park: unhurried, beautifully appointed, and staffed by instructors who bring genuine mastery of the method alongside the warmth of a neighborhood studio that knows its clients by name. The programming covers the full spectrum from beginner reformer through classical apparatus work, and the studio is particularly well-regarded for its private and duet sessions.",
-    address: "3580 Aloma Ave #3, Winter Park, FL 32792",
-    bestFor: "Winter Park and northeast Orlando residents, classical and contemporary Pilates, private sessions",
-    signatureClass: "Classical Reformer & Apparatus",
-    bookingTip: "Private sessions book out two weeks ahead — contact the studio directly to secure consistent availability.",
+    review: "Winter Park Pilates teaches authentic classical Pilates on original-style Gratz, Pilates Designs and Legacy equipment, specialising in small group classes — the most traditional option in the Orlando area.",
+    caveat: "classical instruction is precise and methodical; we could not confirm the exact street address independently, so check the studio's website before visiting.",
+    address: "—",
+    bestFor: "Classical Pilates on traditional apparatus",
+    signatureClass: "Classical Small Group",
+    bookingTip: "New to classical Pilates? Start with a private session.",
+  },
+  {
+    number: "3",
+    name: "JETSET Pilates — Dr. Phillips",
+    neighborhood: "Dr. Phillips",
+    priceLevel: "$$$",
+    review: "JETSET's Dr. Phillips studio on Via Dellagio Way brings the Miami-founded brand's fast, music-driven reformer classes to Orlando, rated 4.9 on ClassPass.",
+    caveat: "high-energy classes — not slow classical technique.",
+    address: "7940 Via Dellagio Way, Suite 112, Orlando, FL 32819",
+    bestFor: "Music-driven reformer in Dr. Phillips",
+    signatureClass: "JETSET Reformer",
+    bookingTip: "Weekend mornings book out — use the app as soon as the schedule opens.",
+  },
+  {
+    number: "4",
+    name: "Club Pilates SODO",
+    neighborhood: "SoDo / South Downtown",
+    priceLevel: "$$",
+    review: "Club Pilates SODO on South Orange Avenue is the brand's most central Orlando studio, linking downtown and the SoDo district, with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "3123 S Orange Ave, Ste 103, Orlando, FL 32806",
+    bestFor: "Central reformer classes near downtown",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Evening classes fill with the post-work crowd — book 48 hours ahead.",
+  },
+  {
+    number: "5",
+    name: "Club Pilates Dr. Phillips",
+    neighborhood: "Dr. Phillips / Restaurant Row",
+    priceLevel: "$$",
+    review: "Club Pilates Dr. Phillips on Dr. Phillips Boulevard serves the Restaurant Row area and south-west Orlando with levelled group reformer classes.",
+    caveat: "a franchise studio — reliable structure, less individual programming.",
+    address: "7600 Dr. Phillips Blvd, Ste 86, Orlando, FL 32819",
+    bestFor: "South-west Orlando residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Morning slots fill first — book two days ahead.",
+  },
+  {
+    number: "6",
+    name: "Club Pilates Waterford Lakes",
+    neighborhood: "Waterford Lakes / East Orlando",
+    priceLevel: "$$",
+    review: "Club Pilates Waterford Lakes on North Alafaya Trail serves east Orlando and the UCF area with levelled group reformer classes and membership pricing for frequent training.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "504 N Alafaya Trl, Suite 108, Orlando, FL 32828",
+    bestFor: "East Orlando residents new to the reformer",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Use the intro offer to try the studio before committing.",
   },
 ];
 
@@ -292,7 +292,7 @@ export default function OrlandoPage() {
               Best Pilates Studios in Orlando, FL
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Beyond the theme parks, Orlando is one of Florida's most dynamic residential cities — a

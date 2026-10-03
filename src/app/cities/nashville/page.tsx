@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Nashville, TN (2026) — Curated Guide",
-  description: "The best Pilates studios in Nashville — from Green Hills reformer boutiques to classical practices in 12 South and East Nashville. Six verified picks, 2026.",
+  description: "The best Pilates studios in Nashville — from Green Hills reformer and Lagree studios to classical practices in The Nations and East Nashville. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates nashville", "reformer pilates nashville", "best pilates studios nashville tn", "pilates studio nashville", "pilates classes nashville", "green hills pilates", "12 south pilates", "pilates tennessee", "best reformer pilates nashville", "east nashville pilates"],
   openGraph: {
     title: "Best Pilates Studios in Nashville, TN (2026)",
-    description: "Six curated Pilates studios in Nashville — Green Hills and 12 South reformer boutiques. Verified 2026.",
+    description: "Six curated Pilates studios in Nashville — Green Hills, the Gulch and East Nashville picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/nashville",
     images: [{ url: "https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=1200&q=80", width: 1200, height: 630, alt: "Nashville Tennessee city guide — Pilates Collective Club" }],
@@ -39,69 +39,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Nashville Pilates Company",
+    name: "SESSION Pilates — Green Hills",
     neighborhood: "Green Hills",
     priceLevel: "$$$",
-    review: "Nashville Pilates Company is one of Nashville's most established and trusted Pilates studios, earning consistent five-star reviews for its instructor quality and genuine community warmth. The Green Hills location serves Nashville's most wellness-invested residential community with a program that works across levels — from beginners learning the fundamentals to experienced practitioners seeking progressive apparatus work. Instructors are well-trained and take a genuine interest in client development rather than class throughput.",
-    address: "4006 Hillsboro Pike, Nashville, TN 37215",
-    bestFor: "All levels, Green Hills community, classical and contemporary instruction",
-    signatureClass: "Reformer Flow",
-    bookingTip: "New clients should book an intro session first — instructors use it to match you with the right class level.",
+    review: "SESSION Pilates in Green Hills runs a 50-minute, music-synced reformer class on Balanced Body Allegro 2 machines, capped at 15 spots — beat-driven, with quick transitions between exercises.",
+    caveat: "contemporary, music-driven reformer — not classical technique.",
+    address: "2109 Abbott Martin Rd, Nashville, TN 37215",
+    bestFor: "Upbeat, music-synced reformer in Green Hills",
+    signatureClass: "SESSION Reformer (50 min)",
+    bookingTip: "With 15 spots per class, book prime-time slots a few days ahead.",
   },
   {
     number: "02",
-    name: "Club Pilates The Gulch",
-    neighborhood: "The Gulch",
-    priceLevel: "$$$",
-    review: "Club Pilates The Gulch serves Nashville's most rapidly transformed urban neighborhood with a reformer program well-matched to the area's young, fitness-committed professional population. The studio is clean, efficiently run, and staffed by instructors who bring genuine enthusiasm to the curriculum. The Gulch's high density of young professionals — many of them recent Nashville arrivals from coastal cities — has created a studio community with good energy and healthy standards. A reliable option for central Nashville practitioners who want consistent, schedule-dense group reformer access.",
-    address: "403 Davidson St, Nashville, TN 37213",
-    bestFor: "Young professionals, all levels, Gulch and downtown convenience",
-    signatureClass: "Flow",
-    bookingTip: "Monthly memberships cut per-class cost significantly — the intro offer is worth completing before committing.",
+    name: "Frame Pilates",
+    neighborhood: "Hillsboro Pike / Green Hills",
+    priceLevel: "$$",
+    review: "Frame Pilates on Hillsboro Pike specialises in classical reformer Pilates and offers one of the friendliest entry prices in town — an intro offer of three classes for $49.",
+    caveat: "we could not confirm the exact suite address independently — check the studio's website for directions.",
+    address: "—",
+    bestFor: "Classical reformer with an affordable intro offer",
+    signatureClass: "Classical Reformer",
+    bookingTip: "Start with the three-class intro offer before buying a pack.",
   },
   {
     number: "03",
-    name: "Club Pilates 12 South",
-    neighborhood: "12 South",
-    priceLevel: "$$$",
-    review: "Club Pilates 12 South has become one of Nashville's most popular reformer studios, drawing a loyal following from one of the city's most walkable and community-minded neighborhoods. The studio's schedule is dense, the atmosphere is warm and welcoming, and the instructors are attentive to form corrections even in full group classes. 12 South's mix of young professionals and wellness-first residents has created a studio community that takes the work seriously without being intimidating about it.",
-    address: "2303 12th Ave S, Nashville, TN 37204",
-    bestFor: "12 South community, all levels, contemporary reformer",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Weekend morning classes are extremely popular — book by Thursday for the following weekend.",
+    name: "Somos Pilates",
+    neighborhood: "The Nations · East Nashville",
+    priceLevel: "$$",
+    review: "Somos Pilates has two studios, in The Nations and East Nashville, and anchors the classical-roots end of Nashville's Pilates scene, with explicit specialisations in orthopaedic, autoimmune and prenatal clients.",
+    caveat: "a method-led approach — slower and more precise than a sculpt class.",
+    address: "—",
+    bestFor: "Classical Pilates for orthopaedic, autoimmune and prenatal clients",
+    signatureClass: "Classical Reformer",
+    bookingTip: "Tell the studio about any condition when booking so they can place you correctly.",
   },
   {
     number: "04",
-    name: "Club Pilates East Nashville",
-    neighborhood: "East Nashville",
+    name: "Lagree Nashville",
+    neighborhood: "Green Hills",
     priceLevel: "$$$",
-    review: "Club Pilates East Nashville serves the city's arts-forward east side with well-structured franchise reformer programming at pricing accessible to East Nashville's creative and young professional community. The studio has cultivated a genuinely warm atmosphere that reflects the neighborhood's values — unpretentious, community-oriented, and serious about the work without being intimidating. An excellent home studio for East Nashville residents.",
-    address: "1006 Forrest Ave, Nashville, TN 37206",
-    bestFor: "East Nashville community, all levels, accessible pricing",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "Evening classes are popular with the neighborhood's creative workforce — book by mid-week.",
+    review: "Lagree Nashville is Green Hills' dedicated Megaformer studio and has become the city's benchmark for Lagree training, drawing clients from across the metro.",
+    caveat: "Lagree is not traditional Pilates — slower, heavier and sweatier.",
+    address: "—",
+    bestFor: "Lagree on the Megaformer",
+    signatureClass: "Lagree Megaformer class",
+    bookingTip: "New to Lagree? Tell the instructor — the first class has a learning curve.",
   },
   {
     number: "05",
-    name: "Club Pilates Green Hills",
-    neighborhood: "Green Hills",
-    priceLevel: "$$$",
-    review: "Club Pilates Green Hills is a well-run franchise location serving the south Nashville residential corridor with consistent, high-quality reformer programming. The Green Hills clientele is experienced and wellness-savvy, which has attracted an instructor team that engages genuinely with the curriculum. The studio offers a wide class schedule and practical membership tiers for practitioners who want to build a 3–4 times weekly habit without the expense of private sessions.",
-    address: "2120 Crestmoor Rd, Nashville, TN 37215",
-    bestFor: "South Nashville residents, high-frequency practitioners, memberships",
-    signatureClass: "Flow",
-    bookingTip: "The 6 AM and 5:30 PM classes fill fastest — book two days ahead for peak time slots.",
+    name: "Club Pilates North Gulch",
+    neighborhood: "North Gulch",
+    priceLevel: "$$",
+    review: "Club Pilates North Gulch on 11th Avenue North is the brand's most central Nashville studio, convenient for the Gulch, Midtown and downtown, with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "402 11th Ave N, Nashville, TN 37203",
+    bestFor: "Central reformer classes near the Gulch",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Lunchtime classes fill with the downtown crowd — book the night before.",
   },
   {
     number: "06",
-    name: "Club Pilates Hillsboro Village",
-    neighborhood: "Hillsboro Village / Midtown",
+    name: "Club Pilates Belle Meade",
+    neighborhood: "Belle Meade",
     priceLevel: "$$",
-    review: "Club Pilates Hillsboro Village brings accessible, quality reformer programming to Nashville's Vanderbilt University corridor. The Midtown-adjacent location is convenient for the city's large academic and medical community, and the studio's pricing makes regular attendance genuinely practical for students and young professionals. Instructors receive consistent praise for their warmth and clear instruction. One of Nashville's best-value reformer options for practitioners near the university.",
-    address: "1910 Patterson St, Nashville, TN 37203",
-    bestFor: "Vanderbilt community, beginners, accessible pricing, Midtown convenience",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "Lunchtime classes fill quickly with the Midtown office and university crowd — book the night before.",
+    review: "Club Pilates Belle Meade on Harding Pike serves west Nashville — Belle Meade, West Meade and Sylvan Park — with the brand's levelled group reformer programme.",
+    caveat: "a franchise studio — reliable structure, less individual programming.",
+    address: "4326 Harding Pike, Ste 105, Nashville, TN 37205",
+    bestFor: "West Nashville residents wanting structured reformer classes",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Use the intro offer before committing to a membership.",
   },
 ];
 
@@ -179,7 +185,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Pilates Studios in Nashville, TN",
-      "description": "Curated guide to the top Pilates studios in Nashville, Tennessee, verified June 2026.",
+      "description": "Curated guide to the top Pilates studios in Nashville, Tennessee, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/nashville",
       "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
@@ -196,9 +202,9 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "The Best Pilates Studios in Nashville, TN (2026)",
-      "description": "A curated guide to the six best Pilates studios in Nashville, Tennessee — verified June 2026.",
+      "description": "A curated guide to the six best Pilates studios in Nashville, Tennessee — verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/nashville",
-      "dateModified": "2026-06-01",
+      "dateModified": "2026-10-03",
       "author": { "@type": "Organization", "name": "Pilates Collective Club" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
     },
@@ -221,10 +227,10 @@ export default function NashvillePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in Nashville, Tennessee</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 9 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Nashville&apos;s Pilates scene is one of the most interesting in the American South — shaped by the city&apos;s unusual mix of performing arts culture, an influx of coastal transplants, and a healthcare industry that has seeded the market with movement-literate practitioners and clients alike. The city&apos;s rapid growth has produced a studio landscape that spans classical Green Hills practices and contemporary 12 South boutiques to community-oriented East Nashville studios. The range is genuine and the quality has risen sharply in recent years. This guide covers the six studios worth your time, verified June 2026.
+              Nashville&apos;s Pilates scene is one of the most interesting in the American South — shaped by the city&apos;s unusual mix of performing arts culture, an influx of coastal transplants, and a healthcare industry that has seeded the market with movement-literate practitioners and clients alike. The city&apos;s rapid growth has produced a studio landscape that spans classical Green Hills practices and contemporary 12 South boutiques to community-oriented East Nashville studios. The range is genuine and the quality has risen sharply in recent years. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>

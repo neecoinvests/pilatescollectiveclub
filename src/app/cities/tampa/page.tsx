@@ -318,8 +318,8 @@ export default function TampaPage() {
               Tampa has quietly become one of Florida's most interesting Pilates cities. From the upscale reformer
               boutiques of Hyde Park to the community-driven bungalow studios of Seminole Heights and the serious
               reformer scene across the bay in St. Pete, the Tampa Bay area offers genuine depth across every style
-              and price point. We've taken the classes, walked the neighborhoods, and selected the six studios that
-              truly deliver — whether you're a longtime practitioner or stepping onto a reformer for the first time.
+              and price point. We've checked every studio's location and details against public listings and selected six
+              that stand out — whether you're a longtime practitioner or stepping onto a reformer for the first time.
             </p>
           </div>
         </section>

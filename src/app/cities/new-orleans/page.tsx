@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Club Pilates Uptown New Orleans",
+    name: "DEFINE body & mind",
     neighborhood: "Uptown",
     priceLevel: "$$$",
-    review:
-      "Club Pilates Uptown is consistently one of New Orleans' highest-rated reformer studios, earning loyal regulars from the Uptown and Garden District neighborhoods. The studio serves the city's most wellness-invested residential community with a franchise program that meets genuinely high standards. Instructors receive consistent praise for their attentiveness and ability to challenge practitioners of all levels within the same class. The Uptown location is convenient and the atmosphere is warm.",
-    address: "3137 Magazine St, New Orleans, LA 70115",
-    bestFor: "Uptown and Garden District residents, all levels, consistent reformer",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Book intro sessions well in advance during the Mardi Gras and Jazz Fest season when the city fills with visitors.",
+    review: "DEFINE body & mind in Uptown is the top-rated reformer studio in New Orleans on ClassPass, at 4.9 from more than 11,000 reviews. Its reformer and Lagree-influenced classes are praised for breaking the reformer down clearly for newcomers while still challenging experienced clients.",
+    caveat: "popular classes fill quickly — book ahead, especially in festival season.",
+    address: "—",
+    bestFor: "Top-rated reformer for beginners and regulars",
+    signatureClass: "Reformer",
+    bookingTip: "Book well ahead during Mardi Gras and Jazz Fest, when the city fills up.",
   },
   {
     number: "2",
-    name: "Club Pilates Metairie",
-    neighborhood: "Metairie",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Metairie brings consistent, well-structured reformer programming to the New Orleans metro's largest suburb at pricing that makes regular attendance genuinely practical. The studio earns strong reviews from Metairie residents for its instructor quality and welcoming atmosphere. The schedule is wide and well-organized, accommodating the varied schedules of the surrounding professional and family community. A reliable, no-surprises choice for west-metro practitioners.",
-    address: "3801 Veterans Memorial Blvd, Metairie, LA 70002",
-    bestFor: "Metairie and west-metro residents, high-frequency practitioners, memberships",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "Early morning and evening weekday classes fill 48 hours out — book as soon as slots open.",
+    name: "Club Pilates Uptown",
+    neighborhood: "Uptown (Magazine Street)",
+    priceLevel: "$$$",
+    review: "Club Pilates Uptown on Magazine Street serves Uptown and the Garden District with the brand's levelled group reformer system.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "6001 Magazine St, New Orleans, LA 70118",
+    bestFor: "Structured reformer classes Uptown",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Early-morning and evening weekday classes fill 48 hours out.",
   },
   {
     number: "3",
-    name: "NOLA Pilates & Wellness",
-    neighborhood: "Garden District",
-    priceLevel: "$$$",
-    review:
-      "NOLA Pilates & Wellness is one of the Garden District's most beloved independent studios, earning a loyal following for its welcoming atmosphere and high instruction standards. The studio's reformer program is well-sequenced and taught by instructors who take genuine interest in client progression. The Garden District setting — live oaks, historic architecture — makes for a genuinely pleasant morning of movement. Private sessions are particularly strong here for practitioners working on injury recovery.",
-    address: "2200 Magazine St, New Orleans, LA 70130",
-    bestFor: "Garden District community, private sessions, all levels",
-    signatureClass: "Classical Reformer",
-    bookingTip: "Private and duet sessions book out two weeks ahead — reserve early, especially during festival season.",
+    name: "Romney Studios",
+    neighborhood: "Uptown (Magazine Street)",
+    priceLevel: "$$",
+    review: "Romney Studios on Magazine Street is a local Uptown studio offering Pilates classes, listed on ClassPass among the city's reformer options.",
+    caveat: "limited published detail about formats and instructors — take a trial class first.",
+    address: "5619 Magazine St, New Orleans, LA 70115",
+    bestFor: "A local Uptown Pilates studio",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Check the schedule for reformer-specific classes.",
   },
   {
     number: "4",
     name: "Club Pilates Mid-City",
     neighborhood: "Mid-City",
     priceLevel: "$$",
-    review:
-      "Club Pilates Mid-City serves one of New Orleans' most geographically central and diverse neighborhoods with accessible, quality reformer programming. The studio attracts a broad mix of ages, backgrounds, and fitness levels — from City Park joggers looking for complementary training to professionals from the surrounding office corridor. Instructors are warm and encouraging with new clients. One of the city's most conveniently located reformer options for residents without a car.",
-    address: "3201 Bienville Ave, New Orleans, LA 70119",
-    bestFor: "Mid-City residents, beginners, accessible pricing",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "Lunchtime classes fill quickly with the Mid-City office crowd — book the night before.",
+    review: "Club Pilates Mid-City on Orleans Avenue is rated 4.8 on ClassPass and brings levelled group reformer classes to one of the city's most central neighbourhoods, close to City Park.",
+    caveat: "a franchise studio — reliable structure, less individual programming.",
+    address: "3700 Orleans Ave, Suite 103A & B, New Orleans, LA 70119",
+    bestFor: "Central reformer classes near City Park",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Lunchtime classes fill quickly — book the night before.",
   },
   {
     number: "5",
-    name: "The Movement Lab NOLA",
-    neighborhood: "Marigny / Bywater",
-    priceLevel: "$$",
-    review:
-      "The Movement Lab NOLA brings Pilates reformer instruction to the Marigny and Bywater with the inclusive, community-driven spirit that defines these creative neighborhoods. The studio is smaller by design, which means classes are genuinely intimate and instructors know their clients' movement histories. Programming is thoughtful and adapted for the neighborhood's mix of artists, musicians, healthcare workers, and young professionals. A warm, welcoming entry point into Pilates for east-bank New Orleans residents.",
-    address: "2310 St Claude Ave, New Orleans, LA 70117",
-    bestFor: "Marigny and Bywater community, beginners, intimate class sizes",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Weekend classes fill fast with the creative Marigny community — book by Thursday.",
+    name: "The Pilates and Yoga Loft",
+    neighborhood: "Metairie",
+    priceLevel: "$$$",
+    review: "The Pilates and Yoga Loft on Metairie Road brings a classical, systematic approach in a spa-like setting, teaching an integrative classical style that identifies and works on each client's individual weaknesses.",
+    caveat: "a classical studio — expect precise technique rather than a high-energy class.",
+    address: "617 Metairie Rd, Metairie, LA 70005",
+    bestFor: "Classical, integrative Pilates in Metairie",
+    signatureClass: "Classical Reformer",
+    bookingTip: "Start with a private session so the instructor can assess you.",
   },
   {
     number: "6",
-    name: "Club Pilates Lakeview",
-    neighborhood: "Lakeview",
+    name: "Devotion Studios",
+    neighborhood: "French Quarter",
     priceLevel: "$$$",
-    review:
-      "Club Pilates Lakeview serves one of New Orleans' most family-oriented and community-focused residential neighborhoods with a well-run franchise studio that consistently earns five-star reviews. The Lakeview clientele is active and health-invested — lots of walkers, cyclists, and runners who use Pilates as a year-round complement to their outdoor activities. The studio has built a loyal base of regulars who appreciate both the instruction quality and the neighborhood atmosphere.",
-    address: "4141 Canal St, New Orleans, LA 70119",
-    bestFor: "Lakeview residents, active community, all levels",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Morning slots fill with the Lakeview running and walking community — book 48 hours ahead.",
+    review: "Devotion Studios opened in the French Quarter as a reformer Pilates and aerial fitness studio with two rooms, including a dedicated Pilates studio with eight Cadillac reformer machines.",
+    caveat: "we could not confirm the exact street address independently — check the studio's website before visiting.",
+    address: "—",
+    bestFor: "Cadillac-reformer classes and aerial fitness in the Quarter",
+    signatureClass: "Cadillac Reformer",
+    bookingTip: "Eight machines per class — book ahead for weekends.",
   },
 ];
 
@@ -313,14 +313,13 @@ export default function NewOrleansPage() {
               Best Pilates Studios in New Orleans, LA
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               New Orleans is a city that moves to its own rhythm — and its Pilates scene is no different. From
-              the Garden District's premier reformer boutiques to the community-driven studios of the Marigny
-              and Mid-City, the Crescent City offers serious Pilates across every style, budget, and neighborhood
-              character. We've walked the streets, taken the classes, and selected the six studios that genuinely
-              deliver — whether you're a visitor wanting one exceptional session or a local building a long-term practice.
+              the Garden District's premier reformer boutiques to the classical studios in Metairie and Cadillac reformers in the French Quarter, the Crescent City offers serious Pilates across every style, budget, and neighborhood
+              character. We've checked every studio's location and details against public listings and selected six that
+              stand out — whether you're a visitor wanting one exceptional session or a local building a long-term practice.
             </p>
           </div>
         </section>
