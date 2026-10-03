@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates vs Gym (2026): Which is Right for You?",
@@ -139,7 +140,7 @@ const comparisons = [
 export default function PilatesVsGymPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
         <BlogHero

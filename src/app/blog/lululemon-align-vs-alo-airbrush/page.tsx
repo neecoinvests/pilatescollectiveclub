@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Lululemon Align vs Alo Airbrush (2026): Which is Better for Pilates?",
@@ -122,7 +123,7 @@ const jsonLd = {
 export default function LululemonAlignVsAloAirbrushPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
 

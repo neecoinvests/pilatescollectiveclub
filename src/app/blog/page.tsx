@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import BlogFilter from "@/components/BlogFilter";
 import { CATEGORIES } from "@/lib/categories";
 import type { Metadata } from "next";
+import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
@@ -1931,7 +1932,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
   const initialCategory = CATEGORIES.find((c) => c.toLowerCase() === (category ?? "").toLowerCase()) ?? "All";
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(blogJsonLd) }} />
       <Header />
       <main className="pt-20" style={{ backgroundColor: "#fcf9f8", minHeight: "100vh" }}>
 

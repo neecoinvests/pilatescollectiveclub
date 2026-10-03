@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Brand Guides — Activewear & Equipment Reviews",
@@ -289,7 +290,7 @@ const tierColor: Record<string, string> = {
 export default function BrandsPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(brandsJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(brandsJsonLd) }} />
       <Header />
       <main>
         {/* Hero */}

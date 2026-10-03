@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { jsonLdHtml } from "@/lib/schema";
 
 const BASE_URL = "https://pilatescollectiveclub.com";
 
@@ -142,7 +143,7 @@ const s = {
 export default function AdvertisePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main style={{ backgroundColor: "#fcf9f8", minHeight: "100vh" }}>
         <section className="pt-32 pb-20 px-6">

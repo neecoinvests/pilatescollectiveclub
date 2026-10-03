@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Your Reformer Review (2026): Honestly Assessed",
@@ -117,6 +118,8 @@ const jsonLd = {
           "name": p.name,
           "description": p.description,
           "url": p.affiliateUrl,
+          // Non-numeric prices (dealer-quoted, priced direct) are dropped by cleanSchema.
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -146,7 +149,7 @@ const jsonLd = {
 export default function YourReformerPilatesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

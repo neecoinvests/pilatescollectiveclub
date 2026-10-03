@@ -8,6 +8,7 @@ import ArticleCard from "@/components/ArticleCard";
 import ProductCard from "@/components/ProductCard";
 import FeaturedRotator from "@/components/FeaturedRotator";
 import type { FeaturedItem } from "@/components/FeaturedRotator";
+import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Collective Club — Find the Best Pilates Studios Worldwide",
@@ -547,7 +548,7 @@ const label = {
 export default function Home() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(homeJsonLd) }} />
       <Header />
       <main>
 

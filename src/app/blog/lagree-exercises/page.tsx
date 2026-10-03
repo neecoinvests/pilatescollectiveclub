@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import { jsonLdHtml } from "@/lib/schema";
 
 const PAGE_URL = "https://pilatescollectiveclub.com/blog/lagree-exercises";
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-hands-on-carriage.png";
@@ -350,7 +351,7 @@ function Divider({ label }: { label: string }) {
 export default function LagreeExercisesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

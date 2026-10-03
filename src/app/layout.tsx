@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+import { jsonLdHtml } from "@/lib/schema";
 
 const BASE_URL = "https://pilatescollectiveclub.com";
 
@@ -104,7 +105,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           gtag('js', new Date());
           gtag('config', 'G-5H5C236ZVF');
         `}</Script>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(orgSchema) }} />
         {children}
         <Analytics />
       </body>

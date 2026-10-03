@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Studio Guides by City",
@@ -104,7 +105,7 @@ const citiesJsonLd = {
 export default function CitiesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(citiesJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(citiesJsonLd) }} />
       <Header />
       <main className="pt-20" style={{ backgroundColor: "#fcf9f8", minHeight: "100vh" }}>
 

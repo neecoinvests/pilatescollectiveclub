@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import { jsonLdHtml } from "@/lib/schema";
 
 const PAGE_URL = "https://pilatescollectiveclub.com/blog/pilates-essentials";
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-pilates-essentials-logbook.png";
@@ -683,7 +684,7 @@ const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
 export default function PilatesEssentialsPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

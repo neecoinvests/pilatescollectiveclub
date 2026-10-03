@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import { jsonLdHtml } from "@/lib/schema";
 
 const TITLE = "Best Rebounder for Lagree-Style Cardio at Home (2026)";
 const DESCRIPTION = "The best rebounders for Lagree-style cardio at home, from bellicon and JumpSport to a $70 budget pick. No Megaformer rebounder attachment exists on Amazon.";
@@ -149,7 +150,7 @@ const buttonStyle = { display: "block", fontFamily: "'Montserrat', sans-serif", 
 export default function BestCardioRebounderPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

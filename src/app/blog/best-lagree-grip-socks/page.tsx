@@ -6,6 +6,7 @@ import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import UpsellCTA from "@/components/UpsellCTA";
+import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Lagree Socks (2026): Best Grip Socks for Lagree",
@@ -181,7 +182,7 @@ const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
 export default function BestLagreeGripSocksPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

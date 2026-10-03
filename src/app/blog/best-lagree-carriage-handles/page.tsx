@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import { jsonLdHtml } from "@/lib/schema";
 
 const TITLE = "Lagree Handles (2026): Megaformer, Micro & Grip Aids";
 const DESCRIPTION = "Lagree handles, honestly: Megaformer handles come from Lagree Fitness, the Micro Handlebars are on Amazon, and the rest are grip aids for sweaty hands.";
@@ -161,7 +162,7 @@ const buttonStyle = { display: "block", fontFamily: "'Montserrat', sans-serif", 
 export default function BestLagreeCarriageHandlesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
