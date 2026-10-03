@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Lausanne (2026) — Curated Guide",
-  description: "The best Pilates studios in Lausanne — reformer boutiques and classical method in Ouchy, Pully, and the city centre. Five curated picks, verified June 2026.",
+  description: "The best Pilates studios in Lausanne — reformer studios from the city centre to Montchoisi and Avenue de France. Four curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates lausanne", "reformer pilates lausanne", "best pilates studios lausanne", "pilates studio lausanne", "pilates ouchy", "pilates suisse romande", "pilates switzerland", "best pilates lausanne", "pilates classes lausanne", "pilates vaud"],
   openGraph: {
     title: "Best Pilates Studios in Lausanne (2026)",
-    description: "Five curated Pilates studios in Lausanne — reformer and classical method picks from Ouchy to the city centre. Verified 2026.",
+    description: "Four curated Pilates studios in Lausanne — reformer and classical method picks from Ouchy to the city centre. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/lausanne",
     images: [{ url: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80", width: 1200, height: 630, alt: "Lausanne city guide — Pilates Collective Club" }],
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Lausanne (2026)",
-    description: "Our curated guide to Lausanne's best Pilates studios — five verified studios with booking tips.",
+    description: "Our curated guide to Lausanne's best Pilates studios — four verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80"],
   },
   alternates: {
@@ -39,59 +39,52 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "PILAT3S Marterey",
-    neighborhood: "Centre-ville",
-    priceLevel: "CHF ··",
-    review: "PILAT3S Marterey is Lausanne's most recognisable reformer address, operating from the city centre with the confident assurance of a brand that has refined its formula across multiple Swiss locations and understands precisely what its clients expect. The studio's central position makes it accessible from both the old town and the lake-facing districts, drawing a broad professional clientele that values consistency of delivery as much as technical depth. Classes follow the PILAT3S method — structured, progressive, and demanding enough to be credible as a primary training discipline — with instructors who apply the framework intelligently rather than mechanically. Equipment is premium and immaculately maintained throughout, and the booking system is efficient and bilingual. For practitioners new to Lausanne and wanting a reliable, high-quality reformer experience without the research burden of navigating an unfamiliar city, PILAT3S Marterey is the logical first call.",
-    address: "—",
-    bestFor: "Practitioners new to Lausanne and those wanting consistent, method-driven reformer work",
-    signatureClass: "PILAT3S Signature Reformer",
-    bookingTip: "Online booking is straightforward and bilingual; prime slots fill two to three days ahead",
+    name: "Sculpt Pilates Studio",
+    neighborhood: "Avenue de France (west centre)",
+    priceLevel: "$$$",
+    review: "Sculpt Pilates Studio on Avenue de France is Lausanne's most-reviewed reformer studio on ClassPass, rated 4.8 from more than 1,000 ratings. It runs reformer and mat classes for all levels, a short walk from the city centre.",
+    caveat: "its popularity means prime-time classes go quickly — book in advance.",
+    address: "Avenue de France 18C, 1004 Lausanne",
+    bestFor: "Proven group reformer close to the centre",
+    signatureClass: "Reformer & Mat",
+    bookingTip: "Morning classes suit early starters; evening sessions are popular with commuters, so book those first.",
   },
   {
     number: "02",
-    name: "JOIA Studio Lausanne",
-    neighborhood: "Ouchy",
-    priceLevel: "CHF ··",
-    review: "JOIA Studio sits in Ouchy — Lausanne's lakefront district, where the Léman opens wide and the pace drops perceptibly from the city above — and the studio inhabits its setting with an intelligence that elevates it above a simple wellness offering. The interior is calm and generously proportioned, with views that on clear days extend to the French Alps across the water, which creates a training environment of uncommon quality. Instruction is thoughtful and personalised, with a teaching team that takes the time to understand each client's body history before advancing the work. JOIA appeals particularly to practitioners in their thirties and forties who have some movement background and are looking for a studio that offers both physical challenge and genuine restoration. The post-session quality — that particular calm that follows genuinely well-instructed Pilates — is reliably present here.",
-    address: "—",
-    bestFor: "Experienced practitioners seeking a restorative and technically demanding lakefront studio",
-    signatureClass: "JOIA Lakefront Reformer",
-    bookingTip: "Semi-private sessions are particularly well-regarded; worth the modest premium over group rates",
+    name: "Neo Pilates Reformer Studio",
+    neighborhood: "Montchoisi",
+    priceLevel: "$$$",
+    review: "Neo Pilates is a dedicated reformer studio on Avenue de Montchoisi, between the centre and the lake at Ouchy. It is rated 4.9 on ClassPass, from a smaller number of reviews than Sculpt.",
+    caveat: "its review count is still modest, so treat the rating as a promising signal rather than proof.",
+    address: "Avenue de Montchoisi 27, 1006 Lausanne",
+    bestFor: "Dedicated reformer classes near Ouchy",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Pair a morning class with a walk down to the lake at Ouchy.",
   },
   {
     number: "03",
-    name: "Vivid Pilates",
-    neighborhood: "Flon",
-    priceLevel: "CHF ·",
-    review: "Vivid Pilates has positioned itself intelligently in Flon — the former industrial district that now functions as Lausanne's cultural and nightlife hub — where it serves a young, energetic clientele that takes its physical training seriously but does not want its wellness to feel precious or inaccessible. The studio's design reflects the neighbourhood: industrial materials softened with warmth, an atmosphere that feels lived-in rather than aspirationally staged. Instruction emphasises movement quality and body awareness, with classes that build genuine challenge over time rather than recycling the same beginner-appropriate sequences indefinitely. Pricing is the most accessible in central Lausanne for the level of instruction offered, which has built a strong base of regulars — students, young professionals, and creative workers — who treat Vivid as a cornerstone of their weekly routine. A consistently excellent all-rounder.",
-    address: "—",
-    bestFor: "Young professionals and beginners to intermediate practitioners in Lausanne's creative community",
-    signatureClass: "Vivid Flow Reformer",
-    bookingTip: "Monthly memberships represent outstanding value; introductory pack is the best entry point",
+    name: "Kysko Studio",
+    neighborhood: "Flon / Centre",
+    priceLevel: "$$$",
+    review: "Kysko Studio on Rue du Rôtillon sits in the heart of Lausanne beside the Flon district, offering reformer Pilates in a central location that is easy to reach from the metro.",
+    caveat: "limited published detail about class formats — take a trial class first.",
+    address: "Rue du Rôtillon 8, 1003 Lausanne",
+    bestFor: "Central reformer classes near the Flon",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Lunchtime classes are convenient for people working in the centre.",
   },
   {
     number: "04",
-    name: "Studio Rituels",
-    neighborhood: "Montriond",
-    priceLevel: "CHF ··",
-    review: "Studio Rituels occupies a quiet corner of Montriond — one of Lausanne's most pleasantly residential neighbourhoods, where the city's characteristic hills provide a backdrop of green even in the studio's immediate surroundings — and operates with the intentional, ritual-driven philosophy its name suggests. Sessions here are not rushed. Classes are small, instruction is detailed, and the studio's founders have been deliberate about building a space where Pilates is practised as a considered discipline rather than consumed as a fitness product. The teaching team has international training backgrounds and a shared commitment to classical methodology adapted thoughtfully for contemporary bodies. Studio Rituels suits practitioners who have moved beyond curiosity about Pilates and are ready to build a genuine long-term practice, ideally with consistent instructors who will come to know their bodies over time.",
-    address: "—",
-    bestFor: "Dedicated practitioners seeking long-term studio relationships and classical rigour",
-    signatureClass: "Rituels Reformer & Apparatus",
-    bookingTip: "Enrol in a class series rather than booking ad hoc — the studio's depth rewards consistency",
+    name: "Alex Pilates & Yoga",
+    neighborhood: "Lausanne (Longeraie)",
+    priceLevel: "$$",
+    review: "Alex Pilates & Yoga on Chemin de Longeraie combines reformer Pilates with yoga, making it a good fit for people who want both disciplines in one studio.",
+    caveat: "a Pilates-and-yoga studio — check that the class you book is reformer if that is what you want.",
+    address: "Chemin de Longeraie 9b, 1006 Lausanne",
+    bestFor: "Reformer Pilates alongside yoga",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Contact the studio to find the right level before your first reformer class.",
   },
-  {
-    number: "05",
-    name: "Sculpt Pilates Studio",
-    neighborhood: "Chailly",
-    priceLevel: "CHF ·",
-    review: "Sculpt Pilates Studio operates from Chailly — a calm, upper-residential neighbourhood above the city centre with a community-oriented character — where it has built a reputation as Lausanne's most approachable quality studio for practitioners who find the city-centre options either too expensive or too pressured. The programming balances reformer work with mat-based classes and occasional barre fusion formats, giving clients variety without losing the technical core that distinguishes proper Pilates instruction from general fitness classes. Instructors are personable and genuinely invested in client progress, with a teaching approach that meets people where they are rather than assuming a baseline that many newcomers do not have. Sculpt suits families, retirees, and neighbourhood regulars as much as it suits younger fitness-oriented clients — and the scheduling reflects that breadth.",
-    address: "—",
-    bestFor: "All levels, particularly families and neighbourhood regulars seeking quality without pressure",
-    signatureClass: "Sculpt Reformer & Mat",
-    bookingTip: "Morning classes suit the neighbourhood's family schedule; evening sessions are popular with commuters",
-  }
 ];
 
 const BOOKING_TIPS = [
@@ -263,7 +256,7 @@ export default function LausannePage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Lausanne sits on the terraced shores of Lake Geneva — a city of hills, academic energy, and a wellness culture that has evolved quietly into something genuinely impressive. Smaller than Zurich or Geneva, it rewards those who take the time to look. The studios here are intimate, instruction-led, and almost always stunning in location. This guide covers the five we rate most highly.
+              Lausanne sits on the terraced shores of Lake Geneva — a city of hills, academic energy, and a wellness culture that has evolved quietly into something genuinely impressive. Smaller than Zurich or Geneva, it rewards those who take the time to look. The studio scene is compact, so a few well-run reformer studios cover most of the city. This guide covers four we rate highly.
             </p>
           </div>
         </section>
@@ -290,7 +283,7 @@ export default function LausannePage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Studios · Curated & Verified</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Studios · Curated & Verified</p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (<StudioListing key={studio.number} {...studio} />))}
             </div>
