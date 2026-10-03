@@ -54,11 +54,11 @@ const STUDIOS = [
     neighborhood: "Strip District",
     priceLevel: "$$",
     review:
-      "Reform Pilates is one of Pittsburgh's most exciting newer studios — a boutique reformer practice earning a 5.0-star rating on Google and building a loyal following in the Strip District's rapidly evolving wellness corridor. Founder Natalie has created a studio environment that is rigorous without being intimidating, precise without being cold. The on-site red light therapy room is a genuine differentiator, making post-class recovery a natural extension of the visit. Instructors are praised consistently for their attentiveness and genuine investment in client progress — qualities that set the studio well above the franchise average.",
+      "Reform Pilates is one of Pittsburgh's most exciting newer studios — a boutique reformer practice building a loyal following in the Strip District's rapidly evolving wellness corridor. Founder Natalie has created a studio environment that is rigorous without being intimidating, precise without being cold. Its red light therapy bar and bookable red light room — free to use before or after a workout — make post-class recovery a natural extension of the visit.",
     address: "2722 Penn Ave, Pittsburgh, PA 15222",
     bestFor: "Boutique reformer experience, post-class recovery, Strip District residents",
     signatureClass: "Reformer Flow",
-    bookingTip: "The studio fills fast given its 5-star reputation — book at least 48 hours ahead, especially for weekend classes.",
+    bookingTip: "Book at least 48 hours ahead for weekend classes, and use the red light room before or after.",
   },
   {
     number: "2",
@@ -66,11 +66,11 @@ const STUDIOS = [
     neighborhood: "Shadyside",
     priceLevel: "$$",
     review:
-      "Club Pilates Shadyside is Pittsburgh's most centrally located franchise reformer studio, sitting squarely in the heart of one of the city's most walkable and wellness-invested neighborhoods. The Centre Avenue location is convenient for residents of Shadyside, Squirrel Hill, East Liberty, and the Oakland medical corridor. The studio offers the full Club Pilates class menu — Reformer Flow, Cardio Sculpt, Suspend, Restore — with a free intro class for new clients and Wellhub/ClassPass compatibility that makes it accessible to corporate wellness program participants. Instructors are consistent and professional.",
+      "Club Pilates Shadyside is Pittsburgh's most centrally located franchise reformer studio, sitting squarely in the heart of one of the city's most walkable and wellness-invested neighborhoods. The Centre Avenue location is convenient for residents of Shadyside, Squirrel Hill, East Liberty, and the Oakland medical corridor. The studio offers the full Club Pilates class menu — Reformer Flow, Cardio Sculpt, Suspend, Restore — and it is bookable through ClassPass and Wellhub as well as directly.",
     address: "5430 Centre Ave, Pittsburgh, PA 15232",
     bestFor: "Beginners to intermediate, Shadyside and East End residents, ClassPass and Wellhub users",
     signatureClass: "Reformer Flow",
-    bookingTip: "Use the free intro class before committing to a membership — instructors use it to calibrate your starting level.",
+    bookingTip: "Take an intro class before committing to a membership — instructors use it to calibrate your starting level.",
   },
   {
     number: "3",
@@ -90,8 +90,8 @@ const STUDIOS = [
     neighborhood: "Downtown / Market Square",
     priceLevel: "$$$",
     review:
-      "Moxie Mind & Body has served Downtown Pittsburgh from its Market Square location for over a decade, making it one of the city's most established and respected classical Pilates practices. Certified through Power Pilates — a lineage-based method tracing directly to Joseph Pilates — the studio emphasizes precision, progression, and genuine understanding of the method over fitness trends. Sessions are private and semi-private, appointment-driven, and delivered by instructors who know their clients' histories. The best choice in Pittsburgh for practitioners who want to develop a serious, methodologically grounded practice.",
-    address: "24 Market Place, 2nd Floor, Pittsburgh, PA 15222",
+      "Moxie Mind & Body is a fully equipped classical Pilates studio on Market Square downtown, voted Best of the Burgh in 2013. Certified through Power Pilates — a lineage-based method tracing directly to Joseph Pilates — the studio emphasizes precision, progression, and genuine understanding of the method over fitness trends. It is a strong choice for anyone who wants a serious, method-grounded practice downtown.",
+    address: "24 Market Square, Pittsburgh, PA 15222",
     bestFor: "Classical Pilates, private instruction, post-rehab, serious practitioners",
     signatureClass: "Classical Reformer & Apparatus",
     bookingTip: "First session is a private intake assessment — book this before expecting group availability.",
@@ -102,7 +102,7 @@ const STUDIOS = [
     neighborhood: "Mt. Lebanon",
     priceLevel: "$$$",
     review:
-      "Touchstone Pilates is the standard-bearer for classical Pilates in Pittsburgh. Open since 2007, it is the only studio in the city offering Romana's Pilates® — the most strictly lineage-traced branch of the method — and its instructors Lisa Pellow and Heather Bartley are the only accredited Romana's Pilates® teachers in Pittsburgh. The studio uses full Gratz equipment (the gold standard in classical apparatus) and has been recognized by Gratz Pilates in their Featured Studio Series. The approach is demanding, the instruction is exceptional, and the results speak for themselves.",
+      "Touchstone Pilates was the first Pittsburgh studio fully equipped with Gratz apparatus and is the only studio in the city teaching Romana's Pilates® — the method as handed down by Joseph Pilates to Romana Kryzanowska. Lisa Pellow trained with Romana and her daughter Sari Mejia Santo and became a Level Teacher Trainer in 2017, the same year Gratz featured Touchstone in its Featured Studio Series. The approach is demanding, the instruction is exceptional, and the results speak for themselves.",
     address: "250 Mt. Lebanon Blvd, Suite 413, Pittsburgh, PA 15234",
     bestFor: "Romana's classical lineage, serious practitioners, full Gratz apparatus",
     signatureClass: "Romana's Classical Reformer",
@@ -114,11 +114,11 @@ const STUDIOS = [
     neighborhood: "Point Breeze",
     priceLevel: "$$",
     review:
-      "Stellar Pilates is Point Breeze's boutique reformer studio — an intimate eight-reformer practice built on Balanced Body Studio Reformers with a community-first ethos that matches the neighborhood's character. The studio's standout entry point is a free 50-minute intro class every Saturday at noon, one of the most accessible low-barrier samplers in Pittsburgh's pilates market. Small class sizes mean instructors can provide real individual attention rather than generic cuing. The founder brings deep classical training to a modern, approachable format. Ideal for East End residents seeking quality instruction at a more accessible price point.",
+      "Stellar Pilates is Point Breeze's boutique reformer studio, with a community-first feel that matches the neighbourhood. Its standout entry point is a Saturday noon intro class for new clients, one of the easiest ways to try reformer Pilates in the East End. Ideal for East End residents seeking quality instruction at a more accessible price point.",
     address: "6634 Hamilton Ave, Pittsburgh, PA 15206",
     bestFor: "Point Breeze and East End residents, beginners, small-group instruction",
     signatureClass: "Reformer Foundation",
-    bookingTip: "The free Saturday intro class fills — reserve your spot online rather than walking in.",
+    bookingTip: "The Saturday intro class fills — reserve your spot online rather than walking in.",
   },
 ];
 
@@ -292,7 +292,7 @@ export default function PittsburghPage() {
               Best Pilates Studios in Pittsburgh, PA
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Pittsburgh has quietly become one of the mid-Atlantic's most interesting wellness cities. The
