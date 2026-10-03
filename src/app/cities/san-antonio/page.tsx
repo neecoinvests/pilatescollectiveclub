@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in San Antonio, TX (2026) — Curated Guide",
-  description: "The best Pilates studios in San Antonio — reformer boutiques in Alamo Heights, Stone Oak, and the Pearl District. Six verified picks, 2026.",
+  description: "The best Pilates studios in San Antonio — top-rated boutiques on the north side plus Club Pilates from Alamo Heights to the far west. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Club Pilates Quarry Market",
-    neighborhood: "Alamo Heights / Quarry",
-    priceLevel: "$$$",
-    review:
-      "Club Pilates Quarry Market is San Antonio's most centrally located and consistently top-rated reformer studio, drawing a loyal following from the Alamo Heights, Olmos Park, and Monte Vista communities. The Quarry District location is polished and professionally run, with an instructor team that earns consistent five-star reviews for attentiveness and alignment cues across all class levels. The dense schedule and membership tiers make it the practical anchor for practitioners who want to train three or more times a week without hunting for availability.",
-    address: "255 E Basse Rd #360, San Antonio, TX 78209",
-    bestFor: "Alamo Heights and inner-city residents, all levels, consistent reformer programming",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Early morning and post-work slots fill 48 hours out — book on Monday for the full week ahead.",
-  },
-  {
-    number: "2",
-    name: "Club Pilates Dominion",
-    neighborhood: "Dominion / North San Antonio",
-    priceLevel: "$$$",
-    review:
-      "Club Pilates Dominion serves one of San Antonio's most affluent corridors — the gated communities and country clubs of the IH-10 West corridor — with a franchise reformer program that consistently meets the community's high expectations. The Dominion clientele is health-invested and experienced, which has attracted an instructor team that engages genuinely with the curriculum rather than mechanically. The wide schedule accommodates the flexible patterns of the corridor's professional and retired population, and membership tiers make regular attendance financially practical.",
-    address: "21803 IH-10 W, San Antonio, TX 78257",
-    bestFor: "Dominion and northwest corridor residents, experienced practitioners, memberships",
-    signatureClass: "Flow",
-    bookingTip: "Morning drop-in slots are the first to fill with the north-side residential crowd — book two days ahead.",
-  },
-  {
-    number: "3",
-    name: "Club Pilates Alamo Ranch",
-    neighborhood: "Alamo Ranch / Far West Side",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Alamo Ranch brings accessible, well-structured reformer programming to San Antonio's fastest-growing suburban corridor. The Alamo Ranch and Helotes community is active and family-oriented — lots of military families, healthcare workers, and young professionals who use Pilates as a year-round movement anchor. The studio earns strong reviews for its welcoming atmosphere and instructors who are genuinely patient with new clients. Membership pricing is among the most practical in the metro.",
-    address: "12016 Alamo Ranch Pkwy #109, San Antonio, TX 78253",
-    bestFor: "West-side and Helotes residents, beginners, military families, memberships",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "Post-school-drop-off morning slots fill fast with the family-oriented west-side demographic.",
-  },
-  {
-    number: "4",
-    name: "Club Pilates Stevens Ranch",
-    neighborhood: "Stevens Ranch / Southwest",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Stevens Ranch serves San Antonio's expanding southwest suburban population with consistent, professionally taught reformer programming at accessible membership rates. The southwest-side demographic skews military and healthcare — two communities with strong motivation for structured movement practice — and the studio has built a loyal base of regulars who appreciate both the instruction quality and the convenient location. Instructors receive consistent marks for clear cueing and attentiveness to beginners.",
-    address: "14244 Potranco Rd, San Antonio, TX 78253",
-    bestFor: "Southwest-side and Lackland-adjacent residents, beginners, high-frequency practitioners",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "The 5:30 PM class fills first with the post-shift military and healthcare crowd — book 48 hours ahead.",
-  },
-  {
-    number: "5",
-    name: "IM=X Pilates San Antonio",
-    neighborhood: "North Central / Huebner Corridor",
-    priceLevel: "$$$",
-    review:
-      "IM=X Pilates is a nationally recognized boutique brand that brings a more athletic, performance-oriented approach to the reformer than the standard franchise experience. The North Central San Antonio location serves the USAA, Valero, and medical corridor professional community with small-group classes designed to challenge the body beyond beginner format. The IM=X method emphasizes muscular endurance and core integration alongside traditional Pilates principles, making it a strong choice for athletes and fitness-focused practitioners who want more intensity in their sessions.",
-    address: "15614 Huebner Rd #114, San Antonio, TX 78248",
-    bestFor: "Athletic practitioners, fitness-forward clients, North Central professionals",
-    signatureClass: "IM=X Athletic Reformer",
-    bookingTip: "Class sizes are capped small — book the new-client intro to get placed in the right level before joining regular classes.",
-  },
-  {
-    number: "6",
     name: "Studio 1604 Pilates & Fitness",
     neighborhood: "Stone Oak / North San Antonio",
     priceLevel: "$$$",
-    review:
-      "Studio 1604 is Stone Oak's most established independent Pilates and fitness studio, serving the north San Antonio corridor with a program that blends reformer Pilates with functional fitness training. The Stone Oak community — affluent, family-oriented, and deeply invested in physical wellness — has supported this studio through years of consistent quality. Classes are well-structured and instructors are experienced; the studio is particularly strong for practitioners who want a step beyond the standard franchise experience and are interested in how Pilates integrates with broader fitness goals.",
-    address: "434 N Loop 1604 W Acc Rd, San Antonio, TX 78232",
-    bestFor: "Stone Oak and Far North Side residents, fitness-integrated Pilates, experienced practitioners",
-    signatureClass: "Reformer & Functional Fitness",
-    bookingTip: "The studio's loyal North Side community means popular time slots fill quickly — set up recurring bookings once you find your preferred class.",
+    review: "Studio 1604, named for the loop that defines San Antonio's north side, leads ClassPass's San Antonio reformer ranking, with a boutique-first approach that puts member experience and instructor expertise ahead of growth.",
+    caveat: "popular classes fill quickly — book ahead.",
+    address: "434 N Loop 1604 W, Ste 3103, San Antonio, TX 78232",
+    bestFor: "Top-rated boutique reformer on the north side",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Book a few days ahead for prime-time classes.",
+  },
+  {
+    number: "2",
+    name: "IM=X Pilates San Antonio",
+    neighborhood: "North Central / Huebner Corridor",
+    priceLevel: "$$$",
+    review: "IM=X Pilates on Huebner Road combines reformer Pilates with the IM=X functional training system and is rated 4.9 on ClassPass.",
+    caveat: "the IM=X format adds functional strength work — different from classical Pilates.",
+    address: "15614 Huebner Rd, #114, San Antonio, TX 78248",
+    bestFor: "Reformer plus functional IM=X training",
+    signatureClass: "IM=X Reformer",
+    bookingTip: "Start with a beginner class to learn the format.",
+  },
+  {
+    number: "3",
+    name: "Club Pilates Quarry Market",
+    neighborhood: "Alamo Heights / Quarry",
+    priceLevel: "$$",
+    review: "Club Pilates at the Quarry Market on East Basse Road serves Alamo Heights and central-north San Antonio with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "255 E Basse Rd, #360, San Antonio, TX 78209",
+    bestFor: "Alamo Heights residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Use the intro offer before committing.",
+  },
+  {
+    number: "4",
+    name: "Club Pilates Dominion",
+    neighborhood: "Dominion / North San Antonio",
+    priceLevel: "$$",
+    review: "Club Pilates Dominion on IH-10 West serves the Dominion and north-west corridor with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "21803 IH-10 W, San Antonio, TX 78257",
+    bestFor: "North-west San Antonio residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Morning classes fill first — book two days ahead.",
+  },
+  {
+    number: "5",
+    name: "Club Pilates Stone Oak",
+    neighborhood: "Stone Oak",
+    priceLevel: "$$",
+    review: "Club Pilates Stone Oak on Stone Oak Parkway serves the far north side with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "20210 Stone Oak Pkwy, Ste 105, San Antonio, TX 78258",
+    bestFor: "Stone Oak residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Memberships work out cheapest if you train three or more times a week.",
+  },
+  {
+    number: "6",
+    name: "Club Pilates Stevens Ranch",
+    neighborhood: "Stevens Ranch / Far West Side",
+    priceLevel: "$$",
+    review: "Club Pilates Stevens Ranch on Potranco Road brings levelled group reformer classes to the growing far west side.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "14244 Potranco Rd, San Antonio, TX 78253",
+    bestFor: "Far-west-side residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Use the intro offer to try the studio first.",
   },
 ];
 
@@ -292,7 +292,7 @@ export default function SanAntonioPage() {
               Best Pilates Studios in San Antonio, TX
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               San Antonio is the United States' seventh-largest city and one of its most underrated wellness markets.

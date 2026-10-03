@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Salt Lake City, UT (2026) — Curated Guide",
-  description: "The best Pilates studios in Salt Lake City — reformer boutiques in Sugar House, the Avenues, and Murray. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Salt Lake City — reformer and mat studios in Sugar House, the Granary District and downtown. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Club Pilates Sugar House",
-    neighborhood: "Sugar House",
-    priceLevel: "$$",
-    review:
-      "One of Salt Lake City's highest-rated reformer studios, Club Pilates Sugar House consistently earns top marks for its knowledgeable instructors and welcoming community vibe. The Sugar House location draws a loyal mix of athletes, skiers, and beginners — all drawn by the well-structured class formats and flexible membership options. Twelve reformers mean class times are plentiful, and the instructors are attentive to alignment cues even in full group sessions. An ideal entry point into reformer Pilates for newcomers to the Wasatch Front.",
-    address: "2257 S Highland Dr, Salt Lake City, UT 84106",
-    bestFor: "Beginners and high-frequency practitioners seeking structured reformer programming",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "Early-morning and post-work slots fill within 24 hours — book the same time the week before.",
+    name: "The Block SLC",
+    neighborhood: "Granary District / Downtown",
+    priceLevel: "$$$",
+    review: "The Block SLC on South Jefferson Street holds the top spot in ClassPass's Salt Lake City reformer ranking, rated 4.9.",
+    caveat: "popular classes fill quickly — book ahead.",
+    address: "910 S Jefferson St, Salt Lake City, UT 84101",
+    bestFor: "Top-rated reformer near downtown",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Book a few days ahead for evening classes.",
   },
   {
     number: "2",
-    name: "The Pilates Studio SLC",
-    neighborhood: "Downtown / Capitol Hill",
-    priceLevel: "$$$",
-    review:
-      "A long-standing Salt Lake City institution, The Pilates Studio SLC brings classical and contemporary Pilates together in a bright, professionally equipped space near the Capitol. Owner-instructors bring decades of combined teaching experience, and the studio is renowned for its private and duet sessions that address injury recovery, prenatal fitness, and athletic performance alike. The small class sizes ensure every client gets genuine individual attention, and the knowledgeable staff can tailor programming to skiers, trail runners, and climbers navigating the demands of Wasatch Front outdoor life.",
-    address: "263 E 300 S, Salt Lake City, UT 84111",
-    bestFor: "Injury recovery, athletic conditioning, and classical Pilates instruction",
-    signatureClass: "Classical Apparatus Private",
-    bookingTip: "Private sessions book out two weeks in advance — secure your spot before ski season kicks in.",
+    name: "The Point Pilates",
+    neighborhood: "Sugar House",
+    priceLevel: "$$",
+    review: "The Point Pilates on South 900 East specialises in reformer Pilates and is rated 4.9 on ClassPass, a strong option for Sugar House and the East Bench.",
+    caveat: "a reformer-focused studio — no broader apparatus programme.",
+    address: "2695 S 900 E, Salt Lake City, UT 84106",
+    bestFor: "Reformer Pilates in Sugar House",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Use the intro offer to try a class first.",
   },
   {
     number: "3",
-    name: "Centered City Yoga & Pilates",
-    neighborhood: "Downtown Salt Lake City",
+    name: "Seek Studio",
+    neighborhood: "Sugar House",
     priceLevel: "$$",
-    review:
-      "A downtown staple with a genuinely diverse community, Centered City Yoga & Pilates offers reformer and mat classes in a welcoming, non-intimidating environment. The studio is steps from TRAX light rail, making it accessible from across the valley, and the class schedule is dense enough to accommodate the unpredictable schedules of SLC professionals. Instructors bring warmth and precision in equal measure, and the studio's emphasis on inclusivity attracts a broad cross-section of the city — from seasoned practitioners to people trying Pilates for the first time.",
-    address: "669 E 400 S, Salt Lake City, UT 84102",
-    bestFor: "Downtown residents, beginners, and anyone seeking a welcoming mixed-level community",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "The lunchtime reformer class fills fastest — book at least 48 hours ahead.",
+    review: "Seek Studio on 1100 East is a Sugar House studio offering yoga, mat Pilates and indoor cycling, rated 4.9 on ClassPass.",
+    caveat: "mat Pilates rather than reformer.",
+    address: "1790 S 1100 E, Salt Lake City, UT 84105",
+    bestFor: "Mat Pilates alongside yoga and cycling",
+    signatureClass: "Mat Pilates",
+    bookingTip: "Mix mat Pilates with a cycling class for a full week of training.",
   },
   {
     number: "4",
-    name: "Club Pilates Holladay",
-    neighborhood: "Holladay",
+    name: "Seven Sisters Pilates",
+    neighborhood: "Marmalade / Capitol Hill",
     priceLevel: "$$",
-    review:
-      "The Holladay location of Club Pilates brings consistent, professionally led reformer programming to SLC's eastern suburbs. Clean, spacious, and reliably scheduled, this studio works well for practitioners who want a high-frequency practice without hunting for class availability. Unlimited membership tiers make daily practice financially practical, and the instructors maintain solid alignment standards across all class levels. A dependable choice for east-side residents who value regularity and well-paced progression.",
-    address: "4640 S 2300 E, Holladay, UT 84117",
-    bestFor: "East-side residents and high-frequency practitioners",
-    signatureClass: "Club Reformer Flow",
-    bookingTip: "Weekday 6 AM classes fill first — book two days ahead to guarantee your spot.",
+    review: "Seven Sisters Pilates on West 300 North offers mat Pilates in small to medium class sizes, close to downtown.",
+    caveat: "mat-based — choose a reformer studio if machine work is your priority.",
+    address: "244 W 300 N, Suite 103, Salt Lake City, UT 84103",
+    bestFor: "Mat Pilates near downtown",
+    signatureClass: "Mat Pilates",
+    bookingTip: "Small to medium classes — arrive early to set up.",
   },
   {
     number: "5",
-    name: "Kinetics Pilates",
-    neighborhood: "Sugar House",
-    priceLevel: "$$$",
-    review:
-      "Kinetics Pilates is Sugar House's boutique option for clients who want a step above the franchise experience. Small class sizes, a curated reformer-only format, and instructors with deep biomechanics knowledge make this the studio of choice for athletes coming off injury and serious practitioners who want their movement dissected with care. The space is immaculate and purpose-built for Pilates — no yoga mats stacked in corners, no multi-use flooring. If you are training your body for something specific, this is where SLC's dedicated community comes to do it.",
-    address: "2257 S 1100 E, Salt Lake City, UT 84106",
-    bestFor: "Serious practitioners, post-injury athletes, and those wanting boutique small-group instruction",
-    signatureClass: "Athletic Reformer Series",
-    bookingTip: "Book the new-client intro session first — instructors use it to place you in the right class level.",
+    name: "Club Pilates Salt Lake City",
+    neighborhood: "Marmalade / North Downtown",
+    priceLevel: "$$",
+    review: "Club Pilates on North 300 West brings the brand's levelled group reformer system to central Salt Lake City.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "569 N 300 W, Salt Lake City, UT 84103",
+    bestFor: "Structured reformer classes in central SLC",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Use the intro offer before committing to a membership.",
   },
   {
     number: "6",
-    name: "Club Pilates Draper",
-    neighborhood: "Draper",
+    name: "BODYBAR Pilates — Downtown SLC",
+    neighborhood: "Downtown",
     priceLevel: "$$",
-    review:
-      "Serving the fast-growing south valley corridor, Club Pilates Draper is the go-to studio for Draper and South Jordan residents who want consistent, well-structured reformer access without driving into the city. The south-valley clientele skews active and sporty — plenty of Trail runners from Corner Canyon and cyclists who use Pilates to balance their training load. Instructors here are accustomed to athletic clients and readily adjust programming for sport-specific goals. A solid, dependable option for the expanding south Salt Lake valley.",
-    address: "11576 S State St, Draper, UT 84020",
-    bestFor: "South-valley residents and outdoor athletes seeking accessible reformer programming",
-    signatureClass: "Reformer & Core",
-    bookingTip: "The post-school-drop-off morning slots fill fastest — book 48 hours ahead.",
+    review: "BODYBAR Pilates is a reformer studio in downtown Salt Lake City offering a modern take on traditional Pilates.",
+    caveat: "we could not confirm the exact street address independently — check the studio's website before visiting.",
+    address: "—",
+    bestFor: "Modern reformer downtown",
+    signatureClass: "BODYBAR Reformer",
+    bookingTip: "Book after-work classes ahead.",
   },
 ];
 
@@ -313,7 +313,7 @@ export default function SaltLakeCityPage() {
               Best Pilates Studios in Salt Lake City, UT
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Salt Lake City is one of America's most physically active cities — a place where the mountains

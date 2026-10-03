@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in San Diego, CA (2026) — Curated Guide",
-  description: "The best Pilates studios in San Diego — reformer boutiques in La Jolla, Encinitas, and Mission Hills. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in San Diego — reformer studios in Hillcrest, University Heights, La Jolla, North Park, Carmel Valley and Encinitas. Six verified picks, 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   keywords: ["pilates san diego", "reformer pilates san diego", "best pilates studios san diego ca", "pilates studio san diego", "pilates classes san diego", "la jolla pilates", "encinitas pilates", "pilates california", "best reformer pilates san diego", "pilates mission hills san diego"],
   openGraph: {
@@ -32,69 +32,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Club Pilates La Jolla",
-    neighborhood: "La Jolla",
+    name: "Beyond Pilates Hillcrest",
+    neighborhood: "Hillcrest",
     priceLevel: "$$$",
-    review: "Club Pilates La Jolla is one of San Diego's top-rated reformer studios, consistently earning five-star reviews from the coastal enclave's demanding wellness community. The La Jolla clientele — physicians, researchers from UCSD and the Salk Institute, and established professional families — holds the studio to high standards, and the instructor team rises to meet them. The schedule is wide and well-organized, and the studio captures some of the relaxed coastal energy that makes San Diego's wellness culture distinct from Los Angeles's more high-pressure market.",
-    address: "7510 Girard Ave, La Jolla, CA 92037",
-    bestFor: "La Jolla residents, all levels, coastal wellness community",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Monthly memberships are the most financially efficient route for regular practitioners — exhaust the intro offer first.",
+    review: "Beyond Pilates on University Avenue is Hillcrest's reformer studio, a convenient option for Uptown, Mission Hills and North Park residents.",
+    caveat: "limited published detail about class formats — take an intro class first.",
+    address: "423 University Ave, San Diego, CA 92103",
+    bestFor: "Reformer Pilates in Hillcrest",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Weekend classes fill quickly — book ahead.",
   },
   {
     number: "02",
-    name: "Club Pilates North Park",
-    neighborhood: "North Park",
+    name: "The Pilates Studio",
+    neighborhood: "University Heights",
     priceLevel: "$$$",
-    review: "Club Pilates North Park has built one of San Diego's most loyal studio communities in a neighborhood known for its creative independence and genuine community standards. The studio's reformer program is well-sequenced and taught with real investment in client development. North Park's mix of young professionals, artists, and long-term San Diegans has created a diverse clientele that holds the studio to a genuinely useful quality bar. Instructors receive consistent high marks for their warmth and attentiveness to individual form.",
-    address: "3702 Park Blvd, San Diego, CA 92103",
-    bestFor: "All levels, North Park and Hillcrest community, progressive reformer",
-    signatureClass: "Reformer Essentials",
-    bookingTip: "Weekend morning classes fill by Wednesday — book mid-week for Saturday and Sunday slots.",
+    review: "The Pilates Studio on Park Boulevard is an independent studio in University Heights, close to Hillcrest and North Park.",
+    caveat: "limited published detail about class formats — take an intro class first.",
+    address: "4241 Park Blvd, San Diego, CA 92103",
+    bestFor: "Independent Pilates in University Heights",
+    signatureClass: "Pilates Class",
+    bookingTip: "Contact the studio to find the right level.",
   },
   {
     number: "03",
-    name: "Club Pilates Mission Hills",
-    neighborhood: "Mission Hills",
+    name: "Club Pilates La Jolla",
+    neighborhood: "La Jolla",
     priceLevel: "$$$",
-    review: "Club Pilates Mission Hills serves one of San Diego's most architecturally characterful neighborhoods with consistent, quality reformer programming. The studio is clean, professionally run, and particularly strong in its work with intermediate practitioners who want to progress beyond beginner formats. Mission Hills' mix of healthcare workers, established professionals, and longtime San Diego families has created a studio community with high standards and a warm, neighborhood-first atmosphere.",
-    address: "1012 W Washington St, San Diego, CA 92103",
-    bestFor: "Mission Hills and Hillcrest residents, intermediate progression, all levels",
-    signatureClass: "Reformer Intermediate",
-    bookingTip: "Request a standing weekly slot — the studio's loyal community means availability can tighten for popular time windows.",
+    review: "Club Pilates La Jolla on Villa La Jolla Drive serves La Jolla and the UTC area with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "8657 Villa La Jolla Dr, Suite 125, La Jolla, CA 92037",
+    bestFor: "La Jolla and UTC residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Book early-morning classes ahead.",
   },
   {
     number: "04",
-    name: "Club Pilates Del Mar",
-    neighborhood: "Del Mar / Carmel Valley",
-    priceLevel: "$$$",
-    review: "Club Pilates Del Mar is among the best-executed franchise locations in the Southern California network, serving one of the San Diego metro's most affluent and wellness-invested coastal communities. The Del Mar and Carmel Valley demographic — tech professionals, biotech researchers, and established coastal families — has attracted an instructor team that engages genuinely with the curriculum. The schedule is wide and dense, and membership pricing makes regular attendance financially practical.",
-    address: "3725 Del Mar Heights Rd, San Diego, CA 92130",
-    bestFor: "North County coastal residents, memberships, consistent reformer",
-    signatureClass: "Flow",
-    bookingTip: "Monthly memberships are the most financially efficient route for regular practitioners — the intro package is worth exhausting first.",
+    name: "Club Pilates North Park",
+    neighborhood: "North Park",
+    priceLevel: "$$",
+    review: "Club Pilates North Park on 30th Street brings levelled group reformer classes to one of San Diego's most walkable neighbourhoods.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "3959 30th St, Suite 101, San Diego, CA 92104",
+    bestFor: "North Park residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Use the intro offer before committing to a membership.",
   },
   {
     number: "05",
-    name: "Body Central Pilates",
-    neighborhood: "Hillcrest / Uptown",
+    name: "Club Pilates Del Mar",
+    neighborhood: "Carmel Valley / Del Mar",
     priceLevel: "$$$",
-    review: "Body Central Pilates is one of San Diego's most respected independent studios, serving the Hillcrest and Uptown community with a reformer program that values genuine instruction quality over volume. The studio has cultivated an inclusive, welcoming atmosphere that reflects the neighborhood's open community spirit. The instructor team is praised for their clear cueing, anatomical knowledge, and warmth with both beginners and experienced practitioners. A neighborhood institution with a well-deserved loyal following.",
-    address: "3767 5th Ave, San Diego, CA 92103",
-    bestFor: "Hillcrest and Uptown community, inclusive atmosphere, all levels",
+    review: "Club Pilates Del Mar on El Camino Real serves Carmel Valley and Del Mar with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "12843 El Camino Real, Suite 202, San Diego, CA 92130",
+    bestFor: "Carmel Valley and Del Mar residents",
     signatureClass: "Reformer Flow",
-    bookingTip: "Evening classes are popular with the neighborhood's working population — book by mid-week for prime evening slots.",
+    bookingTip: "Morning classes fill first — book two days ahead.",
   },
   {
     number: "06",
     name: "Club Pilates Encinitas",
     neighborhood: "Encinitas / North County",
     priceLevel: "$$",
-    review: "Club Pilates Encinitas captures the spirit of North County San Diego's active wellness culture, serving the coastal communities of Encinitas, Solana Beach, and Cardiff with accessible reformer programming and a welcoming atmosphere. The studio integrates naturally with the area's surfing, running, and yoga cultures — instructors are well-versed in sport-specific applications of the method. Membership pricing is among the most accessible on the North County coast, making regular attendance genuinely practical.",
-    address: "1014 N El Camino Real, Encinitas, CA 92024",
-    bestFor: "North County coastal practitioners, athletes, accessible pricing",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Early morning slots fill with the surfer and runner demographic — book by mid-week for the following week.",
+    review: "Club Pilates Encinitas on 2nd Street is close to downtown Encinitas and the coast, with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "555 2nd St, Suite 2, Encinitas, CA 92024",
+    bestFor: "North County coastal residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Pair an early class with a beach walk.",
   },
 ];
 
@@ -168,7 +174,7 @@ const jsonLd = {
     ]},
     { "@type": "ItemList", "name": "Best Pilates Studios in San Diego, CA", "url": "https://pilatescollectiveclub.com/cities/san-diego", "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({ "@type": "ListItem", "position": i + 1, "item": { "@type": "ExerciseGym", "name": s.name, "description": s.review.slice(0, 200), "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "addressCountry": "US" } } })) },
-    { "@type": "Article", "headline": "The Best Pilates Studios in San Diego, CA (2026)", "url": "https://pilatescollectiveclub.com/cities/san-diego", "dateModified": "2026-06-01", "author": { "@type": "Organization", "name": "Pilates Collective Club" }, "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" } },
+    { "@type": "Article", "headline": "The Best Pilates Studios in San Diego, CA (2026)", "url": "https://pilatescollectiveclub.com/cities/san-diego", "dateModified": "2026-10-03", "author": { "@type": "Organization", "name": "Pilates Collective Club" }, "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" } },
   ],
 };
 
@@ -188,10 +194,10 @@ export default function SanDiegoPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in San Diego, California</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 9 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              San Diego&apos;s Pilates scene is shaped by the city&apos;s distinctly physical character — a year-round outdoor culture built around surfing, running, cycling, and the Pacific, combined with a large military population, a world-class biotech and research cluster, and a wellness consciousness that is genuine rather than fashionable. The studio landscape spans La Jolla&apos;s classical practices and Del Mar&apos;s coastal boutiques to North Park&apos;s independent community studios and the athletic offerings of Encinitas. This guide covers the six studios worth your time, verified June 2026.
+              San Diego&apos;s Pilates scene is shaped by the city&apos;s distinctly physical character — a year-round outdoor culture built around surfing, running, cycling, and the Pacific, combined with a large military population, a world-class biotech and research cluster, and a wellness consciousness that is genuine rather than fashionable. The studio landscape spans La Jolla&apos;s classical practices and Del Mar&apos;s coastal boutiques to North Park&apos;s independent community studios and the athletic offerings of Encinitas. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
