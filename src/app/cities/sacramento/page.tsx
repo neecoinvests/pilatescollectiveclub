@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Sacramento, CA (2026) — Curated Guide",
-  description: "The best Pilates studios in Sacramento — reformer boutiques in Midtown, East Sacramento, and Roseville. Six verified picks, 2026.",
+  description: "The best Pilates studios in Sacramento — reformer and hot Pilates in Midtown, East Sacramento, Arden-Arcade and Land Park. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -52,73 +52,73 @@ const STUDIOS = [
     number: "1",
     name: "Club Pilates Midtown Sacramento",
     neighborhood: "Midtown",
-    priceLevel: "$$$",
-    review:
-      "Club Pilates Midtown Sacramento is the highest-rated reformer studio in the city's most walkable and culturally vibrant neighborhood, consistently earning five-star reviews from Sacramento's young professional and arts community. The 21st Street location is convenient for Midtown residents and accessible from the broader grid by bike or light rail. Instructors receive strong marks for their attentiveness and genuine engagement with the curriculum — above the franchise average. The schedule is dense and well-suited to the varied rhythms of Midtown's creative and government worker population.",
-    address: "1330 21st St #101, Sacramento, CA 95811",
-    bestFor: "Midtown residents, all levels, urban professionals",
+    priceLevel: "$$",
+    review: "Club Pilates Midtown on 21st Street is the brand's most central Sacramento studio, with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "1330 21st St, Ste 101, Sacramento, CA 95811",
+    bestFor: "Midtown residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
-    bookingTip: "Lunchtime and evening classes fill fastest with the Midtown professional crowd — book 48 hours ahead.",
+    bookingTip: "Use the intro offer before committing to a membership.",
   },
   {
     number: "2",
-    name: "Club Pilates Loehmann's Plaza",
-    neighborhood: "Arden-Arcade / Fair Oaks Blvd",
-    priceLevel: "$$$",
-    review:
-      "Club Pilates Fair Oaks serves Sacramento's northeast suburban corridor with a well-run franchise studio that consistently meets the community's health-conscious expectations. The Fair Oaks Boulevard location draws from the surrounding Carmichael, Orangevale, and Fair Oaks residential neighborhoods — a wellness-invested, family-oriented demographic that holds the studio to real standards. The schedule is wide, the instructor team is experienced, and membership pricing makes regular attendance financially practical for suburban families and professionals.",
-    address: "2529 Fair Oaks Blvd, Sacramento, CA 95825",
-    bestFor: "Northeast-corridor residents, families, consistent reformer programming",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "Morning drop-off slots are the first to fill with the family-oriented Fair Oaks demographic — book two days ahead.",
+    name: "P2O Hot Pilates & Fitness",
+    neighborhood: "Midtown / Downtown",
+    priceLevel: "$$",
+    review: "P2O on P Street describes itself as Sacramento's first and only dedicated hot Pilates studio.",
+    caveat: "heated classes are demanding — hydrate well, and check with your doctor if heat is a concern.",
+    address: "2012 P St, Sacramento, CA 95811",
+    bestFor: "Hot Pilates in Midtown",
+    signatureClass: "Hot Pilates",
+    bookingTip: "Arrive early to acclimatise to the heat.",
   },
   {
     number: "3",
-    name: "Club Pilates Natomas",
-    neighborhood: "Natomas",
+    name: "DOMA Studio",
+    neighborhood: "Midtown",
     priceLevel: "$$",
-    review:
-      "Club Pilates Natomas brings accessible, quality reformer programming to Sacramento's rapidly growing north-side suburban corridor. The Natomas community is young, active, and diverse — a mix of state government workers, healthcare professionals, and families who want a convenient, well-priced studio close to home. The studio earns strong reviews for its welcoming atmosphere and instructors who are genuinely patient with new clients. Membership pricing is among the most competitive in the Sacramento metro.",
-    address: "2860 Del Paso Rd #200, Sacramento, CA 95834",
-    bestFor: "Natomas and north-side residents, beginners, accessible memberships",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "The intro 3-class package is the best way to audit the studio before committing to a membership.",
+    review: "DOMA is an independent, locally owned heated yoga and Pilates studio in Midtown, founded by Katlyn Matic in 2018. Its classes, including Pilates core and heated power Pilates, run at 93° with humidification.",
+    caveat: "heated, humid classes — not for everyone.",
+    address: "—",
+    bestFor: "Heated Pilates and yoga in Midtown",
+    signatureClass: "Heated Power Pilates",
+    bookingTip: "Bring water and a towel.",
   },
   {
     number: "4",
-    name: "P2O Hot Pilates & Fitness",
-    neighborhood: "Midtown / Downtown",
+    name: "Paz Pilates Studio",
+    neighborhood: "East Sacramento (McKinley Blvd)",
     priceLevel: "$$$",
-    review:
-      "P2O Hot Pilates is Sacramento's most distinctive independent studio — a heated reformer format that combines classical Pilates sequencing with the detoxifying and mobility-enhancing effects of a warm practice environment. The P Street location is steps from the Midtown grid, drawing a loyal following from Sacramento's wellness community who appreciate the studio's commitment to pushing the method beyond its standard parameters. Classes are small, instructors are attentive, and the heated environment adds a challenge that separates serious practitioners from casual ones. One of Sacramento's most talked-about studios.",
-    address: "2012 P St, Sacramento, CA 95811",
-    bestFor: "Intermediate to advanced practitioners, heated reformer, Midtown community",
-    signatureClass: "Hot Pilates Reformer",
-    bookingTip: "Classes are capped small — book the new-client intro to understand the heated format before committing to a full session.",
+    review: "Paz Pilates Studio is an independent studio on McKinley Boulevard offering reformer Pilates, mat Pilates and private sessions.",
+    caveat: "we could not confirm the exact street number independently — check the studio's website.",
+    address: "—",
+    bestFor: "Independent reformer and privates in East Sac",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Start with a private session if you are new to the reformer.",
   },
   {
     number: "5",
     name: "Thrive Movement Arts",
     neighborhood: "Arden-Arcade",
-    priceLevel: "$$$",
-    review:
-      "Thrive Movement Arts is Sacramento's most thoughtfully curated independent movement studio — a space that takes Pilates seriously as both a physical discipline and a movement education practice. The El Camino Avenue location serves the Arden-Arcade and Carmichael communities with small-group reformer classes capped for quality, alongside mat work and apparatus sessions for practitioners who want to develop beyond the standard group format. Instructors bring genuine depth of training and a teaching style that prioritizes body understanding over class throughput.",
+    priceLevel: "$$",
+    review: "Thrive Movement Arts on El Camino Avenue offers reformer Pilates classes and is listed on ClassPass, a convenient option for Arden-Arcade and Carmichael residents.",
+    caveat: "limited published detail about class formats — try a single class first.",
     address: "4128 El Camino Ave, Sacramento, CA 95821",
-    bestFor: "Movement-educated practitioners, small-group reformer, Arden-Arcade community",
-    signatureClass: "Apparatus & Reformer",
-    bookingTip: "Private and semi-private sessions book quickly — contact the studio directly to get on the schedule.",
+    bestFor: "Reformer Pilates in Arden-Arcade",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Compare the intro offer with a single class.",
   },
   {
     number: "6",
     name: "PILAX Pilates",
-    neighborhood: "South Sacramento / Land Park",
+    neighborhood: "Land Park / South Sacramento",
     priceLevel: "$$",
-    review:
-      "PILAX Pilates is one of Sacramento's most welcoming independent studios, serving the South Sacramento and Land Park communities with accessible, quality reformer programming at pricing that reflects the neighborhood's diverse economic profile. The studio has built a genuinely inclusive community — practitioners of all ages, backgrounds, and fitness levels — and the instruction is clear, grounded, and genuinely attentive to individual needs. An excellent entry point for Sacramento practitioners who are new to the reformer format and want a non-intimidating environment to learn.",
+    review: "PILAX is a Pilates studio on Freeport Boulevard, convenient for Land Park and south Sacramento.",
+    caveat: "limited published detail about class formats — try a single class first.",
     address: "4500 Freeport Blvd, Sacramento, CA 95822",
-    bestFor: "Beginners, South Sacramento and Land Park residents, accessible pricing",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Drop-in rates are among the most accessible in Sacramento — great for sampling before committing to a membership.",
+    bestFor: "Pilates near Land Park",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Check the schedule for reformer-specific classes.",
   },
 ];
 
@@ -292,7 +292,7 @@ export default function SacramentoPage() {
               Best Pilates Studios in Sacramento, CA
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Sacramento is California's capital and one of the state's most underrated wellness cities. The

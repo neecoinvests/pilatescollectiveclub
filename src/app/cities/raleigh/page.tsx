@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Raleigh, NC (2026) — Curated Guide",
-  description: "The best Pilates studios in Raleigh — reformer boutiques in North Hills, Five Points, and Cary. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Raleigh — top-rated reformer boutiques plus Club Pilates across Raleigh, Durham and Chapel Hill. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Club Pilates North Hills",
-    neighborhood: "North Hills",
+    name: "BK Pilates Raleigh",
+    neighborhood: "Raleigh",
     priceLevel: "$$$",
-    review:
-      "Club Pilates North Hills anchors Raleigh's most polished mid-city wellness corridor, consistently earning five-star reviews from the Triangle's health-savvy professional community. The North Hills location draws clients from across Raleigh for its instructor quality and well-organized schedule. The studio is clean, well-equipped, and professionally run — making it the most reliable reformer option for central Raleigh practitioners who want quality without uncertainty.",
-    address: "4351 The Circle at N Hills, Raleigh, NC 27609",
-    bestFor: "Central Raleigh professionals, all levels, consistent reformer",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Book the intake session at least two weeks ahead — it's the gateway to all group classes.",
+    review: "BK Pilates runs reformer classes in a clean, focused boutique setting and has become a go-to for Triangle professionals, with a perfect 5.0 rating from more than 4,100 reviews on ClassPass. The Carolinas-based brand also has studios in Charlotte and beyond.",
+    caveat: "we could not confirm the exact street address independently — check the booking app for directions.",
+    address: "—",
+    bestFor: "Highly rated boutique reformer",
+    signatureClass: "Group Reformer",
+    bookingTip: "Prime-time classes fill quickly — book a few days ahead.",
   },
   {
     number: "2",
-    name: "Club Pilates Five Points",
-    neighborhood: "Five Points",
+    name: "JETSET Pilates — Downtown Raleigh",
+    neighborhood: "Downtown",
     priceLevel: "$$$",
-    review:
-      "Club Pilates Five Points serves one of Raleigh's most beloved residential neighborhoods with franchise reformer programming that fits the area's community-first character. The Five Points location has cultivated a loyal following from the surrounding homes and historic district — regulars return week after week for instructors who know their clients' movement histories and adapt programming accordingly. The neighborhood atmosphere is warm and welcoming.",
-    address: "2013 Fairview Rd, Raleigh, NC 27608",
-    bestFor: "Five Points and Hayes Barton residents, all levels, neighborhood community",
-    signatureClass: "Reformer Essentials",
-    bookingTip: "Duet sessions are popular here — book directly with the studio for the best availability.",
+    review: "JETSET's Downtown Raleigh studio has more reformer-specific reviews than any other studio in the Triangle on ClassPass (rated 4.6), bringing the Miami-founded brand's fast, music-driven reformer classes to downtown.",
+    caveat: "high-energy classes — not slow classical technique.",
+    address: "—",
+    bestFor: "Music-driven reformer downtown",
+    signatureClass: "JETSET Reformer",
+    bookingTip: "Weekend mornings book out — use the app as soon as the schedule opens.",
   },
   {
     number: "3",
-    name: "Club Pilates Glenwood South",
-    neighborhood: "Glenwood South",
-    priceLevel: "$$$",
-    review:
-      "Club Pilates Glenwood South serves Raleigh's most vibrant dining and entertainment corridor with well-structured reformer programming and a lively, community-driven atmosphere. The studio draws young professionals, creatives, and fitness enthusiasts from the surrounding Glenwood South and Cameron Village neighborhoods. The schedule is dense and the instructors bring genuine energy and expertise to every class. Saturday morning classes are a social ritual for much of Raleigh's under-40 professional community.",
-    address: "606 St Mary's St, Raleigh, NC 27605",
-    bestFor: "Glenwood South community, young professionals, all levels",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Saturday classes open Wednesday — book immediately as they go fast.",
+    name: "Studio 104",
+    neighborhood: "Rolesville",
+    priceLevel: "$$",
+    review: "Studio 104 in Rolesville earns the top spot in ClassPass's Triangle reformer ranking (4.9) through an intimate studio experience that larger reformer chains cannot replicate.",
+    caveat: "Rolesville is north-east of Raleigh — best for residents on that side of the city.",
+    address: "—",
+    bestFor: "Intimate reformer classes north-east of Raleigh",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Small classes fill — book ahead.",
   },
   {
     number: "4",
-    name: "Club Pilates Cary",
-    neighborhood: "Cary",
+    name: "Club Pilates Midtown Raleigh",
+    neighborhood: "Midtown / North Hills",
     priceLevel: "$$",
-    review:
-      "Club Pilates Cary delivers consistent, well-structured reformer programming tailored to suburban Triangle families and professionals. The studio's predictable class formats, flexible membership tiers, and wide schedule make it a practical choice for practitioners aiming to train three or four times weekly. Instructors are attentive to form and receive consistent high marks from regulars. The most reliable reformer option for west-Triangle practitioners.",
-    address: "1500 NW Maynard Rd, Cary, NC 27513",
-    bestFor: "Cary and west-Triangle residents, high-frequency practitioners, memberships",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "The 6 AM and 7 PM slots fill 48 hours out — book early or use the waitlist feature.",
+    review: "Club Pilates Midtown Raleigh on Sherman Oak Place is the brand's closest studio to North Hills, with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "2920 Sherman Oak Place, Suite 130, Raleigh, NC 27609",
+    bestFor: "North Hills and Midtown residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Use the intro offer before committing to a membership.",
   },
   {
     number: "5",
     name: "Club Pilates Durham",
     neighborhood: "Durham",
     priceLevel: "$$",
-    review:
-      "Club Pilates Durham serves the Research Triangle's most creatively vibrant city with accessible, quality reformer programming that fits Durham's diverse community. The studio attracts artists, Duke academics, healthcare workers, and young professionals from the surrounding Ninth Street and downtown corridors. Instructors bring genuine warmth and a welcoming approach to new practitioners. Accessible pricing makes regular attendance practical for the Durham community's wide economic range.",
-    address: "1717 Garrett Rd, Durham, NC 27707",
-    bestFor: "Durham residents, beginners, accessible pricing, diverse community",
+    review: "Club Pilates Durham on NC 54 serves south Durham and the RTP side of the Triangle with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "1125 NC 54, Suite 404, Durham, NC 27707",
+    bestFor: "Durham and RTP residents",
     signatureClass: "Reformer Flow",
-    bookingTip: "Weekday morning classes fill quickly with the academic crowd — book Sunday night for the week ahead.",
+    bookingTip: "Lunchtime classes suit RTP commuters — book the night before.",
   },
   {
     number: "6",
     name: "Club Pilates Chapel Hill",
     neighborhood: "Chapel Hill",
     priceLevel: "$$",
-    review:
-      "Club Pilates Chapel Hill serves the UNC community and broader Chapel Hill population with consistent, well-structured reformer programming at pricing practical for students and academics. The studio is conveniently located for the university corridor and has built a loyal following from both the campus community and the surrounding Southern Village and Meadowmont residential neighborhoods. Instructors are praised for their clarity and patience with new practitioners.",
-    address: "1800 E Franklin St, Chapel Hill, NC 27514",
-    bestFor: "UNC community, students, academics, accessible pricing",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "Check for student discounts — the studio often runs UNC-affiliated pricing for academic community members.",
+    review: "Club Pilates Chapel Hill on East Franklin Street serves Chapel Hill and Carrboro with levelled group reformer classes.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "1800 E Franklin St, #9, Chapel Hill, NC 27514",
+    bestFor: "Chapel Hill and Carrboro residents",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Student-heavy schedules make mid-morning classes easier to get.",
   },
 ];
 
@@ -313,7 +313,7 @@ export default function RaleighPage() {
               Best Pilates Studios in Raleigh, NC
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               The Research Triangle has quietly become one of the South's most sophisticated Pilates markets. From
