@@ -53,72 +53,72 @@ const STUDIOS = [
     name: "12th Street Pilates",
     neighborhood: "Over-the-Rhine (OTR)",
     priceLevel: "$$$",
-    review:
-      "12th Street Pilates is Cincinnati's most credentialed boutique studio — the city's official BASI Pilates host, with all instructors trained in Body Arts and Science International's gold-standard methodology. The Over-the-Rhine location opened in 2012 and has become a fixture in one of the country's most impressive urban revival neighborhoods. The studio's expansion to a third Madisonville location in April 2026 is the most reliable signal of genuine market demand: students are following quality instruction across the city rather than accepting convenient mediocrity. The best choice in Cincinnati for practitioners who want a methodologically grounded, progressive practice.",
+    review: "12th Street Pilates opened in Over-the-Rhine in 2012 and has since grown to studios in Covington and Madisonville. Small-group classes are taught by BASI-trained instructors — Body Arts and Science International is an internationally recognised Pilates education programme — which gives the studio a methodologically grounded, progressive approach.",
+    caveat: "the OTR studio is the most popular, so prime-time classes can be hard to get at short notice.",
     address: "109 E 12th St, Cincinnati, OH 45202",
-    bestFor: "BASI-method classical Pilates, serious practitioners, OTR residents",
-    signatureClass: "BASI Reformer",
-    bookingTip: "The OTR location fills fastest — book the Madisonville location for easier scheduling if you're on the east side.",
+    bestFor: "BASI-trained small-group reformer classes",
+    signatureClass: "Small-Group Reformer",
+    bookingTip: "If OTR is full, the Madisonville studio (4903 Whetsel Ave) or Covington may have space.",
   },
   {
     number: "2",
     name: "Club Pilates Hyde Park",
     neighborhood: "Hyde Park",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Hyde Park is the highest-reviewed franchise location in Cincinnati — 22 Yelp reviews updated through May 2026, with consistent praise for instructor knowledge and class variety. The Rookwood Shopping Center location makes it one of the most conveniently situated studios in the city, adjacent to Nordstrom Rack and a dense cluster of Hyde Park retail and dining. The studio offers ten-plus class formats including TRX reformer fusion, Suspend, and Cardio Sculpt across a full daily schedule. A solid, welcoming option for practitioners who want consistent reformer programming at a price point that supports regular attendance.",
+    priceLevel: "$$$",
+    review: "Club Pilates Hyde Park on Madison Road sits near the Rookwood shopping district, one of the most convenient locations in the city. It offers the full Club Pilates class menu — including Reformer Flow, Cardio Sculpt and Suspend — in a levelled system that makes progress easy to track.",
+    caveat: "a franchise format — consistent and well-organised, but less individual than an owner-run studio.",
     address: "2692 Madison Rd, Cincinnati, OH 45208",
-    bestFor: "Beginners to intermediate, wide class variety, Hyde Park and east-side residents",
+    bestFor: "Structured, levelled reformer classes in Hyde Park",
     signatureClass: "Reformer Flow",
-    bookingTip: "The intro class is free — use it to evaluate instructor fit before committing to a membership tier.",
+    bookingTip: "Ask about an intro class before buying — it helps the studio place you at the right level.",
   },
   {
     number: "3",
     name: "Prism Pilates",
     neighborhood: "Oakley",
     priceLevel: "$$",
-    review:
-      "Prism Pilates is the standout independent reformer studio in Cincinnati — owner-operated, BASI-adjacent in its instructional approach, and capped at seven students per class to ensure the kind of individual attention that distinguishes genuine instruction from generic group fitness. The free intro reformer class for new students is one of the most generous low-barrier entry points in the city. Featured by Cincinnati Refined as a feel-good fitness studio, the studio earns its reputation through results: clients report meaningful improvements in mobility, alignment, and strength within the first month of consistent attendance.",
+    review: "Prism Pilates, featured by Cincinnati Refined as a feel-good fitness studio, is a light, plant-filled space just past Oakley Square. It is owned and run by Rachel, a certified personal trainer and Pilates instructor with nearly a decade in the industry. Classes include reformer Pilates, mat Pilates, bootcamp and vinyasa yoga, and reviewers praise private sessions that ease newcomers into the harder moves.",
+    caveat: "a mixed studio (Pilates, yoga and bootcamp) — if you want a Pilates-only, apparatus-focused studio, 12th Street Pilates is the closer fit.",
     address: "3212 Madison Rd, Cincinnati, OH 45209",
-    bestFor: "Small-group reformer, individualized instruction, Oakley residents",
-    signatureClass: "Reformer Fundamentals",
-    bookingTip: "The free intro class is genuinely worth taking — the 7-student cap makes it a real taster of the instruction quality, not just a sales pitch.",
+    bestFor: "Owner-run reformer and mat classes in Oakley",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "New to the reformer? A private session first makes group classes far easier.",
   },
   {
     number: "4",
     name: "College Hill Pilates and Physical Therapy",
     neighborhood: "College Hill",
     priceLevel: "$$$",
-    review:
-      "College Hill Pilates and Physical Therapy is Cincinnati's most specialized studio — a practice run by licensed physical therapists (Dr. Mindy Nagel, PT, DPT, OCS and Dr. Joe Anneken, PT, DPT, OCS) that fully integrates clinical PT with Pilates apparatus work. The result is a practice genuinely suited to clients coming off surgery, managing chronic pain, or navigating conditions that require medically informed movement programming. The 5.0-star Birdeye rating across 20 reviews, with consistent reports of dramatically improved mobility in just a few sessions, reflects the quality of clinical expertise being applied. The best option in Cincinnati for therapeutic Pilates.",
+    review: "College Hill Pilates and Physical Therapy is a cash-based private physical therapy clinic and Pilates studio owned by Mindy Nagel, PT, DPT — a board-certified orthopaedic clinical specialist, certified Pilates instructor and adjunct instructor at the University of Cincinnati. It treats back, neck, shoulder, hip, knee and foot pain, dance and sports injuries, arthritis, EDS and hypermobility in a one-to-one setting, which makes it the clear choice in Cincinnati for therapeutic Pilates.",
+    caveat: "the physical therapy side is direct-pay and does not bill insurance, and opening hours are limited (Mon and Wed 9–6, Thu 10–2, Fri 11–2, plus appointments).",
     address: "5838 Hamilton Ave, Cincinnati, OH 45224",
-    bestFor: "Rehabilitation, chronic pain, post-surgery recovery, clinically informed Pilates",
-    signatureClass: "Therapeutic Reformer",
-    bookingTip: "Mention your injury or condition history when booking — the intake process is more thorough here than at standard studios, and for good reason.",
+    bestFor: "Therapeutic Pilates and PT for injuries, hypermobility and chronic pain",
+    signatureClass: "One-to-One PT & Pilates",
+    bookingTip: "Share your injury or condition history when booking — sessions are planned around it.",
   },
   {
     number: "5",
     name: "Club Pilates Kenwood",
     neighborhood: "Kenwood",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Kenwood holds a perfect 5.0 rating across multiple directories — an unusual distinction for a franchise studio and a reflection of consistent above-average instruction quality. The Kenwood Road location is conveniently positioned near Kenwood Towne Centre, drawing from the surrounding residential communities of Kenwood, Madeira, and the northeast Cincinnati corridor. The studio delivers the full Club Pilates class menu with flexible scheduling and a welcoming atmosphere that serves both beginners and experienced practitioners without condescension toward either. One of the more reliably high-quality franchise locations in the Ohio market.",
+    priceLevel: "$$$",
+    review: "Club Pilates Kenwood on Kenwood Road is close to Kenwood Towne Centre and draws from Kenwood, Madeira and the northeast Cincinnati corridor. It offers the standard Club Pilates class menu with a broad daily schedule for beginners and experienced members alike.",
+    caveat: "a franchise studio — reliable structure, less individual programming.",
     address: "7827 Kenwood Rd, Cincinnati, OH 45236",
-    bestFor: "Kenwood and northeast Cincinnati residents, consistent reformer training, all levels",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Morning slots are the most competitive — book two days ahead for preferred times.",
+    bestFor: "Northeast Cincinnati residents wanting a convenient reformer studio",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Morning slots are the most competitive — book two days ahead.",
   },
   {
     number: "6",
     name: "Club Pilates Symmes Township",
     neighborhood: "Symmes Township / Northeast Cincinnati",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Symmes Township serves Cincinnati's northeast suburban community with a franchise reformer studio that earns particular recognition for its work with clients managing back pain — a meaningful specialization in a demographic with significant demand for therapeutic movement. The studio has 49 Birdeye reviews praising its instructors' ability to modify programming for chronic conditions without compromising the quality of the workout for pain-free practitioners. The Symmes Township location is convenient for Mason, Blue Ash, and northeast Cincinnati residents who want consistent, accessible reformer programming without the drive to the city center.",
+    priceLevel: "$$$",
+    review: "Club Pilates Symmes Township on Montgomery Road is convenient for Mason, Blue Ash and northeast Cincinnati residents who want levelled group reformer classes without driving into the city. Like all Club Pilates studios, it includes gentler formats such as Restore alongside more demanding classes.",
+    caveat: "a franchise format — consistent, but less personalised than an owner-run studio.",
     address: "12088 Montgomery Rd, Cincinnati, OH 45249",
-    bestFor: "Back pain relief, northeast Cincinnati suburbs, Mason and Blue Ash residents",
-    signatureClass: "Reformer Restore",
-    bookingTip: "The back pain specialization means the Restore class format is particularly popular here — book it separately from the standard reformer classes.",
+    bestFor: "Northeast suburban residents, membership-based training",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Managing back pain? Tell the instructor before class and ask about the gentler Restore format.",
   },
 ];
 
@@ -292,7 +292,7 @@ export default function CincinnatiPage() {
               Best Pilates Studios in Cincinnati, OH
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Cincinnati's Pilates scene has more depth than the city's national fitness profile suggests.

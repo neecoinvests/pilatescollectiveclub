@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates boston", "reformer pilates boston", "best pilates studios boston", "pilates studio boston ma", "pilates classes boston", "back bay pilates", "south end pilates boston", "pilates massachusetts", "best reformer pilates boston", "pilates cambridge ma"],
   openGraph: {
     title: "Best Pilates Studios in Boston, MA (2026)",
-    description: "Six curated Pilates studios in Boston — Back Bay reformer boutiques to South End classical method. Verified June 2026.",
+    description: "Six curated Pilates studios in Boston — Back Bay reformer boutiques to South End classical method. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/boston",
     images: [{ url: "https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80", width: 1200, height: 630, alt: "Boston Massachusetts city guide — Pilates Collective Club" }],
@@ -42,66 +42,72 @@ const STUDIOS = [
     name: "Endurance Pilates and Yoga",
     neighborhood: "South End",
     priceLevel: "$$$",
-    review: "Endurance Pilates at 1636 Washington Street is widely regarded as one of Boston's premier classical Pilates studios, featuring a full suite of authentic Gratz apparatus — reformers, Cadillac, Wunda Chair, and barrels. Small class sizes ensure individualized attention, and instructors are among the most rigorously trained in the city. Rated 4.8 stars, the studio draws a loyal clientele of athletes, dancers, and those recovering from injury who need instruction they can genuinely trust.",
+    review: "Endurance Pilates and Yoga was founded by Master Pilates Trainer Julie Erickson. It opened in Arlington in January 2010 and moved to Washington Street in the South End in January 2015. It is a classical studio built on Gratz apparatus, offering group reformer and tower classes, mat, and private and semi-private sessions. Its injury-informed teaching serves runners, athletes, post-rehab, prenatal and postnatal clients.",
+    caveat: "classical instruction is methodical and precise — if you want a fast, music-driven sculpt class, a contemporary studio will suit you better.",
     address: "1636 Washington St, Boston, MA 02118",
-    bestFor: "Classical Pilates on authentic Gratz apparatus; serious practitioners and rehab clients",
-    signatureClass: "Classical Reformer Session",
-    bookingTip: "Private sessions fill weeks in advance; sign up for a group mat class to get started and build a relationship with instructors first.",
+    bestFor: "Classical Pilates on Gratz apparatus; athletes and post-rehab clients",
+    signatureClass: "Classical Reformer & Tower",
+    bookingTip: "Private sessions fill weeks ahead — start with a group reformer or tower class while you wait for a private slot.",
   },
   {
     number: "02",
-    name: "Boston Pilates Studio",
+    name: "Boston Pilates",
     neighborhood: "Jamaica Plain",
     priceLevel: "$$",
-    review: "Established in 1998 and rated 4.8 stars on Yelp, Boston Pilates Studio at 160 Green Street is a gem of the Jamaica Plain neighborhood committed to the classical Pilates method. Classes are intentionally kept small so every participant receives personalized attention from fully certified instructors. Located steps from the Orange Line's Green Street stop, it is one of the most transit-accessible studios in Boston.",
+    review: "Boston Pilates on Green Street is dedicated to preserving the philosophy, teachings and exercises of Joseph Pilates, and it offers reformer, mat and private training for all levels. It sits directly across from the Green Street stop on the Orange Line and has free parking, which makes it one of the easiest studios in Boston to reach by any mode.",
+    caveat: "a classical, method-focused studio — expect technique and precision rather than a high-energy boutique workout.",
     address: "160 Green St, Jamaica Plain, MA 02130",
-    bestFor: "Classical Pilates method; small groups; neighborhood accessibility",
-    signatureClass: "Classical Apparatus Group",
-    bookingTip: "Walk-in slots are rare; book online ahead of time. Street parking and a lot across the street make driving easy too.",
+    bestFor: "Classical Pilates with easy T access and parking",
+    signatureClass: "Classical Reformer",
+    bookingTip: "Book online ahead of time; driving is easy thanks to the free parking.",
   },
   {
     number: "03",
     name: "Boston Body Pilates — Back Bay",
     neighborhood: "Back Bay",
     priceLevel: "$$$",
-    review: "Boston Body Pilates is one of the largest and most established Pilates studios in the city, with six locations across Greater Boston. Their Back Bay flagship is a welcoming, professionally run studio known for excellent instructor consistency and a clean, calm atmosphere. Instructors are praised for being patient, encouraging, and attentive to individual form. The multi-location network means that with one membership, you're covered across the metro.",
+    review: "Boston Body Pilates is a multi-location group reformer studio with sites in the North End, the Back Bay near Newbury Street, Brookline, Natick, Belmont and beyond. The Back Bay studio on Arlington Street is the most central, and the network lets members train close to home or work across Greater Boston.",
+    caveat: "a larger multi-studio operation — consistent, but with less one-to-one attention than a private-session studio.",
     address: "17 Arlington St, First Floor, Boston, MA 02116",
-    bestFor: "Reformer group classes; all fitness levels; multi-location convenience",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Book at least 3–5 days in advance for prime morning slots; their intro packages offer the best per-class value.",
+    bestFor: "Group reformer classes in central Boston, multi-location access",
+    signatureClass: "Group Reformer",
+    bookingTip: "Book 3–5 days ahead for morning slots; intro packages give the best per-class value.",
   },
   {
     number: "04",
     name: "Boston Body Pilates — Waterfront",
     neighborhood: "Waterfront / North End",
     priceLevel: "$$$",
-    review: "The Waterfront outpost of Boston Body Pilates is a bright, well-equipped studio perched on the historic Commercial Wharf near the North End. It serves the Financial District and waterfront crowds with a flexible schedule including early morning and early evening classes. The jump board reformer classes — a rarity in Boston — are especially popular with clients who want to add a cardiovascular dimension to their Pilates practice.",
+    review: "Boston Body's waterfront studio sits on historic Commercial Wharf at the edge of the North End, convenient for the Financial District and waterfront residents. It runs the same group reformer programme as the brand's other studios, with early-morning and evening classes.",
+    caveat: "popular commuter slots fill quickly — plan ahead if you need a specific time.",
     address: "34 Commercial Wharf, Boston, MA 02110",
-    bestFor: "Downtown location; reformer classes; jump board reformer",
-    signatureClass: "Reformer + Jump Board",
-    bookingTip: "The jump board Reformer class sells out first — book it immediately when the schedule opens for the week.",
+    bestFor: "Financial District and North End commuters",
+    signatureClass: "Group Reformer",
+    bookingTip: "Early-morning classes are the best fit before a downtown workday — book them as soon as the schedule opens.",
   },
   {
     number: "05",
     name: "Pilates Back Bay",
     neighborhood: "Back Bay",
     priceLevel: "$$$",
-    review: "Pilates Back Bay at 376 Boylston Street is a boutique, appointment-based studio that focuses on private and small-group instruction rather than packed group classes. Instructors tailor sessions to individual goals, making this studio especially popular with clients managing injuries, postpartum recovery, or specific athletic training needs. The prime Back Bay location and intimate setting justify the premium pricing.",
-    address: "376 Boylston St, Boston, MA 02116",
-    bestFor: "Private and semi-private sessions; personalized programming",
+    review: "Pilates Back Bay is a fully equipped boutique studio on the third floor of 376 Boylston Street, open Monday to Saturday by appointment. Instructors are classically and contemporarily trained and build customised programmes for clients with specific needs — recovery from back pain or knee and hip replacement, prenatal and postnatal clients, and osteoporosis. Duet and trio sessions let you train with friends while keeping personal attention.",
+    caveat: "it is appointment-based private and small-group work, not a drop-in group class studio.",
+    address: "376 Boylston St, 3rd Floor, Boston, MA 02116",
+    bestFor: "Private, duet and trio sessions; rehab, prenatal and osteoporosis clients",
     signatureClass: "Private Reformer Session",
-    bookingTip: "First-timers should book a private intro session; the small-group reformer classes open up based on instructor availability — check back if slots are full.",
+    bookingTip: "It is a short walk from the Arlington T stop; book a private intro session first.",
   },
   {
     number: "06",
     name: "Club Pilates Back Bay",
     neighborhood: "Back Bay",
     priceLevel: "$$",
-    review: "Club Pilates Back Bay at 255 Newbury Street is one of the most accessible entry points to reformer Pilates in the city, offering a broad class schedule at more affordable membership rates than boutique competitors. Classes are reformer-fusion based and categorized by level — 1.0, 2.0, 3.0 — making it easy to progress without guessing where you stand. The Newbury Street location is polished, clean, and reliably staffed.",
-    address: "255 Newbury St, Boston, MA 02116",
-    bestFor: "Beginners; membership value; consistent reformer class formats",
-    signatureClass: "Reform [+Stretch]",
-    bookingTip: "Purchase a membership for unlimited classes — drop-in rates are steep. Intro offers (first week free or discounted) are regularly available.",
+    review: "Club Pilates Back Bay on St. James Avenue offers the national Club Pilates levelled group reformer system, which makes it one of the most structured entry points to reformer Pilates in central Boston. Membership pricing generally works out cheaper per class than boutique drop-ins for people who train several times a week.",
+    caveat: "a franchise format — consistent and well-organised, but less personalised than Pilates Back Bay or Endurance.",
+    address: "31 St James Ave, Boston, MA 02116",
+    bestFor: "Structured, levelled reformer classes in Back Bay",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Drop-in rates are steep — if you plan to go often, a membership is the better deal.",
   },
 ];
 
@@ -191,7 +197,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Pilates Studios in Boston, MA",
-      "description": "Curated guide to the top Pilates studios in Boston, Massachusetts, verified June 2026.",
+      "description": "Curated guide to the top Pilates studios in Boston, Massachusetts, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/boston",
       "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
@@ -213,9 +219,9 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "The Best Pilates Studios in Boston, MA (2026)",
-      "description": "A curated guide to the six best Pilates studios in Boston, Massachusetts — verified June 2026.",
+      "description": "A curated guide to the six best Pilates studios in Boston, Massachusetts — verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/boston",
-      "dateModified": "2026-06-01",
+      "dateModified": "2026-10-03",
       "author": { "@type": "Organization", "name": "Pilates Collective Club" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
     },
@@ -239,10 +245,10 @@ export default function BostonPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in Boston, Massachusetts</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 9 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Boston's Pilates scene reflects the city itself: historically grounded, intellectually demanding, and quietly excellent in ways that don't require announcement. The concentration of hospitals, universities, and healthcare professionals has produced a particularly strong culture of anatomically literate movement practice — instructors here tend to have more cross-disciplinary training than their counterparts in purely fashion-forward markets. From the South End's classical studios to Cambridge's academic-adjacent practices, the city offers range without compromise. These are the six studios worth your time, verified June 2026.
+              Boston's Pilates scene reflects the city itself: historically grounded, intellectually demanding, and quietly excellent in ways that don't require announcement. The concentration of hospitals, universities, and healthcare professionals has produced a particularly strong culture of anatomically literate movement practice — instructors here tend to have more cross-disciplinary training than their counterparts in purely fashion-forward markets. From the South End's classical studios to Cambridge's academic-adjacent practices, the city offers range without compromise. These are the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>

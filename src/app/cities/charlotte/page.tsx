@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Charlotte, NC (2026) — Curated Guide",
-  description: "The best Pilates studios in Charlotte — reformer boutiques in South End, Myers Park, and Ballantyne. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Charlotte — reformer and Lagree studios in South End, classical studios in Myers Park, Dilworth and Elizabeth. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Club Pilates South End",
-    neighborhood: "South End",
+    name: "Strength and Wellness Collective",
+    neighborhood: "West Morehead / Uptown edge",
     priceLevel: "$$$",
-    review:
-      "Club Pilates South End is one of Charlotte's highest-rated reformer studios, occupying a prime spot in the city's most dynamic fitness and wellness corridor. The South End location draws professionals, athletes, and serious practitioners from across Charlotte's light-rail corridor and surrounding neighborhoods. Instructors are praised for their attentiveness and ability to challenge experienced practitioners while remaining welcoming to beginners. The schedule is dense and well-organized, with classes from early morning through evening.",
-    address: "1422 S Tryon St, Charlotte, NC 28203",
-    bestFor: "South End community, all levels, contemporary reformer",
-    signatureClass: "Reformer Flow",
-    bookingTip: "The 6 AM and 5:30 PM weekday classes fill fast — book 48 hours ahead.",
+    review: "Strength and Wellness Collective on West Morehead Street tops ClassPass's ranking of Charlotte reformer studios, with a 4.8 rating from close to 10,000 reviews. Its carriage-based classes are Lagree Method on the Megaformer, alongside strength and yoga circuits and a hybrid Mega+ format — genuine strength work inside a broader wellness studio.",
+    caveat: "the reformer work here is Lagree on the Megaformer rather than traditional Pilates — slower, heavier and sweatier.",
+    address: "628 W Morehead St, Charlotte, NC 28208",
+    bestFor: "Lagree Megaformer strength training with yoga and strength circuits",
+    signatureClass: "Mega+ (Megaformer hybrid)",
+    bookingTip: "With this many regulars, prime-time classes fill fast — book a few days ahead.",
   },
   {
     number: "2",
-    name: "Club Pilates Myers Park",
-    neighborhood: "Myers Park",
+    name: "BK Pilates — South End",
+    neighborhood: "South End",
     priceLevel: "$$$",
-    review:
-      "Club Pilates Myers Park serves Charlotte's most established residential neighborhood with a franchise reformer program that consistently meets the community's high expectations. The Myers Park clientele is experienced and wellness-savvy, which has attracted an instructor team that engages genuinely with the curriculum. The studio has built a loyal community of long-term practitioners who value the quality of instruction and the consistency of the schedule.",
-    address: "1928 Sharon Rd W, Charlotte, NC 28210",
-    bestFor: "Myers Park residents, all levels, consistent reformer",
-    signatureClass: "Flow",
-    bookingTip: "Morning classes are popular with the residential Myers Park crowd — book by Thursday for weekend sessions.",
+    review: "BK Pilates runs studios across the Carolinas — South End, SouthPark and Optimist Park in Charlotte, plus Concord and Mount Pleasant, SC. The South End studio on South Boulevard sits in what has become Charlotte's Pilates corridor, and its signature group reformer classes build on classical Pilates principles for all levels.",
+    caveat: "a growing multi-studio brand — consistent, but less intimate than the private-session studios on this list.",
+    address: "1520 South Blvd, Suite 120, Charlotte, NC 28203",
+    bestFor: "Group reformer classes in South End, multi-location access",
+    signatureClass: "Signature Group Reformer",
+    bookingTip: "If South End is full, check the SouthPark and Optimist Park schedules.",
   },
   {
     number: "3",
-    name: "Club Pilates NoDa",
-    neighborhood: "NoDa (North Davidson)",
-    priceLevel: "$$",
-    review:
-      "Club Pilates NoDa brings well-structured reformer programming to Charlotte's arts and music district at pricing that fits the neighborhood's creative and young professional community. The studio has captured the warm, community-first energy that makes NoDa one of Charlotte's most beloved neighborhoods. Instructors receive consistent high marks for their warmth with new clients and their attention to form throughout class. An excellent starting point for Charlotte practitioners new to the method.",
-    address: "3300 N Davidson St, Charlotte, NC 28205",
-    bestFor: "NoDa community, beginners, accessible pricing",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "Weekend reformer classes fill fast — book by Thursday.",
+    name: "Iron Butterfly Pilates",
+    neighborhood: "South End (Atherton Lofts)",
+    priceLevel: "$$$",
+    review: "Iron Butterfly Pilates in the Atherton Lofts on South Boulevard offers private sessions, small-group reformer classes and physical therapy under one roof. Expert reformer instructors welcome beginners, and the in-house physical therapy makes it a strong choice if you are coming back from an injury.",
+    caveat: "small-group and private formats mean fewer drop-in spots than the bigger group studios.",
+    address: "2108 South Blvd, #202, Charlotte, NC 28203",
+    bestFor: "Small-group reformer and Pilates alongside physical therapy",
+    signatureClass: "Small Group Reformer",
+    bookingTip: "Coming back from an injury? Ask whether a physical therapy assessment should come before group classes.",
   },
   {
     number: "4",
-    name: "Club Pilates Dilworth",
-    neighborhood: "Dilworth",
+    name: "Charlotte Pilates",
+    neighborhood: "Myers Park",
     priceLevel: "$$$",
-    review:
-      "Club Pilates Dilworth is a well-loved neighborhood studio tucked into one of Charlotte's most charming residential areas. The studio earns consistent five-star reviews for its welcoming atmosphere, attentive instructors, and strong community of regulars who have been training here for years. Dilworth's mix of young families, healthcare professionals, and established Charlotte residents has created a studio community with high standards and genuine warmth.",
-    address: "1427 E Blvd, Charlotte, NC 28203",
-    bestFor: "Dilworth residents, all levels, neighborhood community",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Request a complimentary intro session first — instructors use it to match you with the right class level.",
+    review: "Charlotte Pilates is a boutique Myers Park studio on Randolph Road, run by owner Michele and a team of certified instructors. It offers classical reformer Pilates through private sessions, semi-private sessions for couples and friends, small groups of three to six, and virtual sessions, and it is rated 5.0 on Google (from a small number of reviews).",
+    caveat: "the review count is small — the rating is a promising signal rather than robust proof.",
+    address: "2711 Randolph Rd, Ste 509, Charlotte, NC 28207",
+    bestFor: "Classical reformer in private and small-group formats",
+    signatureClass: "Classical Reformer (small group)",
+    bookingTip: "Small groups cap at six — book recurring slots once you find a time that works.",
   },
   {
     number: "5",
-    name: "Club Pilates Ballantyne",
-    neighborhood: "Ballantyne",
+    name: "Pilates Body Shaping",
+    neighborhood: "Elizabeth",
     priceLevel: "$$",
-    review:
-      "Club Pilates Ballantyne delivers reliable, well-structured reformer programming to South Charlotte's busy professional community. The studio's consistent class formats, unlimited membership options, and dense schedule make it practical for practitioners who want to train three or four times per week. Instructors are thorough with cueing and attentive to form. A dependable, no-surprises option for south-Charlotte residents who prioritize consistency.",
-    address: "15105 John J Delaney Dr, Charlotte, NC 28277",
-    bestFor: "High-frequency practitioners, south Charlotte residents, memberships",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "The 6 AM and 7 PM weekday classes fill fast — book 48 hours out.",
+    review: "Pilates Body Shaping on East 8th Street in the Elizabeth neighbourhood says it teaches Pilates as it was originally developed by Joseph Pilates, in the classical Romana's Pilates lineage. It offers mat and tower classes as well as private lessons, close to Uptown.",
+    caveat: "a classical studio — expect traditional repertoire and precision rather than a modern sculpt class.",
+    address: "1940 E 8th St, Charlotte, NC 28204",
+    bestFor: "Classical mat and tower work near Uptown",
+    signatureClass: "Classical Tower",
+    bookingTip: "New to classical Pilates? Start with a private lesson before joining group mat or tower classes.",
   },
   {
     number: "6",
-    name: "Club Pilates Plaza Midwood",
-    neighborhood: "Plaza Midwood",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Plaza Midwood brings accessible reformer programming to one of Charlotte's most eclectic and walkable neighborhoods. The studio fits the Plaza Midwood character — unpretentious, community-oriented, and welcoming to practitioners of all backgrounds. Instructors know their regulars well and provide genuinely individualized attention within the group class format. Great value in one of Charlotte's most vibrant urban neighborhoods.",
-    address: "1218 The Plaza, Charlotte, NC 28205",
-    bestFor: "Plaza Midwood community, beginners and intermediates, accessible pricing",
-    signatureClass: "Reformer & Core",
-    bookingTip: "Six-reformer capacity means spots go quickly — book as soon as the weekly schedule opens.",
+    name: "Clinging Grace Pilates",
+    neighborhood: "Dilworth",
+    priceLevel: "$$$",
+    review: "Clinging Grace Pilates is a fully equipped private studio in Dilworth run by Julia Hartstein, and one of two Charlotte studios teaching in the classical Romana's Pilates lineage. Sessions are private, so the programme is built around you from the first session.",
+    caveat: "private-session only — not the place for drop-in group classes; we could not confirm the street address independently, so contact the studio for directions.",
+    address: "—",
+    bestFor: "Private classical Pilates on the full apparatus",
+    signatureClass: "Private Classical Session",
+    bookingTip: "Contact the studio directly to book — private studios rarely release slots through class apps.",
   },
 ];
 
@@ -313,13 +313,13 @@ export default function CharlottePage() {
               Best Pilates Studios in Charlotte, NC
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Charlotte has emerged as one of the Southeast's most dynamic Pilates cities. From South End's
-              warehouse-chic reformer boutiques to the classical apparatus studios of Myers Park, the Queen City
-              offers serious Pilates across every style and budget. We've walked through the neighborhoods, taken
-              the classes, and selected the six studios that genuinely deliver — whether you're a first-timer or
+              reformer and Lagree studios to the classical Romana's-lineage studios of Myers Park, Dilworth and Elizabeth, the Queen City
+              offers serious Pilates across every style and budget. We've checked every studio's location and details
+              against public listings and selected six that stand out — whether you're a first-timer or
               a seasoned mover relocating from another city.
             </p>
           </div>

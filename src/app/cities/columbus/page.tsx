@@ -52,73 +52,73 @@ const STUDIOS = [
     number: "1",
     name: "Pilates Plus",
     neighborhood: "Short North",
-    priceLevel: "$",
-    review:
-      "Pilates Plus occupies the best real estate in Columbus's fitness landscape — a studio at the heart of the Short North arts corridor, where High Street culture, Ohio State proximity, and a young professional population converge. The studio's combination of Reformer, Mat Pilates, and yoga under one roof makes it unusually versatile for a city with a large university-adjacent demographic. Student discounts and accessible drop-in rates make regular attendance genuinely practical. ADA accessible with on-street parking nearby. The Short North location means the studio is as easy to reach on foot as it is by car — a genuine rarity in Columbus.",
+    priceLevel: "$$",
+    review: "Pilates Plus is a woman-owned, LGBTQ-friendly studio on North High Street in the Short North, offering reformer classes (including 45-minute beginner reformer), mat Pilates and yoga under one roof. It is rated 4.8 from more than 100 reviews on ClassPass, and reviewers single out instructors by name for welcoming beginners.",
+    caveat: "a mixed reformer, mat and yoga studio — if you want classical apparatus work beyond the reformer, Body Pure Pilates is the better fit.",
     address: "1147 N High St, Columbus, OH 43201",
-    bestFor: "Short North residents, OSU community, beginners, reformer and mat combo",
-    signatureClass: "Reformer & Mat Fusion",
-    bookingTip: "Student discounts are available — ask at the front desk before paying full drop-in rates.",
+    bestFor: "Beginner-friendly reformer and mat classes in the Short North",
+    signatureClass: "Beginner Reformer (45 min)",
+    bookingTip: "Start with the 45-minute beginner reformer class before moving to mixed-level classes.",
   },
   {
     number: "2",
     name: "Club Pilates Grandview Yard",
     neighborhood: "Grandview Heights",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Grandview Yard benefits from one of the best-designed studio settings in the Columbus market — inside the walkable Grandview Yard mixed-use development, with three hours of free attached garage parking that removes the friction that makes urban studio-going inconsistent. The studio earns consistently strong reviews for welcoming, non-intimidating instruction and a clear progression structure that serves beginners without boring intermediate practitioners. The full Club Pilates class menu is available, including Cardio Sculpt and Suspend, across a wide daily schedule. One of the more reliably pleasant franchise experiences in Ohio.",
+    priceLevel: "$$$",
+    review: "Club Pilates Grandview Yard sits inside the walkable Grandview Yard mixed-use development and offers the full Club Pilates class menu — including Reformer Flow, Cardio Sculpt and Suspend — in a levelled system that suits beginners without boring intermediate members.",
+    caveat: "a franchise format — consistent and well-organised, but less individual than an owner-run studio.",
     address: "1080 Yard St, Grandview Heights, OH 43212",
-    bestFor: "Beginners, Grandview and Clintonville residents, accessible reformer training",
+    bestFor: "Structured, levelled reformer classes west of downtown",
     signatureClass: "Reformer Flow",
-    bookingTip: "Free 3-hour garage parking is attached to the development — no meter stress.",
+    bookingTip: "Check the Grandview Yard parking rules before your first visit — the development has garage parking.",
   },
   {
     number: "3",
-    name: "Reform Pilates UA",
-    neighborhood: "Upper Arlington",
+    name: "Reform Pilates",
+    neighborhood: "Upper Arlington (Mallway)",
     priceLevel: "$$",
-    review:
-      "Reform Pilates UA is one of Columbus's most-loved independent studios — a boutique owner-operated practice tucked into Upper Arlington's charming Mallway historic district, where natural light from two sides creates an environment that feels genuinely different from a franchise floor. Instructors are regularly singled out by name in reviews for their ability to tailor sessions to individual goals, including post-surgical recovery, long COVID rehabilitation, and prenatal work. The studio's 5.0 rating is a direct function of the quality of instruction rather than marketing. An exceptional choice for practitioners who want individualized attention within a small-group setting.",
+    review: "Reform Pilates is a boutique studio of more than 1,400 square feet in Upper Arlington's Mallway, with large windows, natural light and newly remodelled plank flooring. It offers private sessions, small group classes at beginner, intermediate and advanced levels, and online classes, and is within walking distance of shops with easy parking out front and on Arlington Avenue.",
+    caveat: "its online review count is small, so treat ratings as a promising signal rather than proof.",
     address: "2064 Arlington Ave, Columbus, OH 43221",
-    bestFor: "Upper Arlington residents, individualized instruction, post-rehab, prenatal",
-    signatureClass: "Reformer Fundamentals",
-    bookingTip: "The small class cap means slots fill fast — book the intro package as soon as possible to claim a recurring spot.",
+    bestFor: "Small-group and private reformer in Upper Arlington",
+    signatureClass: "Small Group Reformer",
+    bookingTip: "Small groups fill quickly — book a recurring slot once you find a time that suits you.",
   },
   {
     number: "4",
-    name: "The Pilates Studio (TPS)",
-    neighborhood: "Bexley",
-    priceLevel: "$$$",
-    review:
-      "The Pilates Studio is one of Columbus's most established boutique practices — a women-owned, full-apparatus studio in Bexley offering Reformer, Gyrotonic, Power Plate, and TRX programming. The Bexley location serves the area's professional and family communities with a methodologically serious approach that extends well beyond standard reformer group classes. TPS is a recognized training venue through its apparatus-based curriculum, making it one of the few Columbus studios equipped to take practitioners from beginner to advanced apparatus work on the same premises. The Gyrotonic equipment is a notable differentiator — one of few Columbus studios to offer it.",
-    address: "2228 E Main St, Bexley, OH 43209",
-    bestFor: "Classical Pilates, Gyrotonic, experienced practitioners, Bexley residents",
-    signatureClass: "Reformer & Gyrotonic",
-    bookingTip: "Gyrotonic slots are limited — book at least a week ahead if that's your focus.",
+    name: "Internal Pilates",
+    neighborhood: "Clintonville",
+    priceLevel: "$$",
+    review: "Internal Pilates is a boutique reformer Pilates and fitness studio on North High Street in Clintonville, and one of the highest-rated reformer studios in Columbus on ClassPass (4.9 from more than 1,000 reviews). Alongside small-group reformer classes it runs Jump Pilates cardio classes, which add a cardio element and work the lower body and core in a different way.",
+    caveat: "Jump Pilates classes are intermediate level — build a reformer foundation first.",
+    address: "4700 N High St, Columbus, OH 43214",
+    bestFor: "Small-group reformer and Jump Pilates cardio",
+    signatureClass: "Jump Pilates Cardio",
+    bookingTip: "Try a standard reformer class before booking a Jump class.",
   },
   {
     number: "5",
     name: "Body Pure Pilates",
     neighborhood: "Northeast Columbus",
-    priceLevel: "$$",
-    review:
-      "Body Pure Pilates is Columbus's most credentialed classical studio — a Power Pilates Host Training Center, which means its instructors are trained to the highest standard in the lineage-based method. The studio offers private, semi-private, small-group apparatus, mat classes, and TRX, with a consistent 4–5 star rating across multiple review platforms driven by real client results: meaningful strength gains, improved mobility, and the kind of body awareness that only develops through principled instruction. The northeast Columbus location serves the Gahanna-adjacent community and is worth the drive for practitioners who want a serious classical practice.",
+    priceLevel: "$$$",
+    review: "Body Pure Pilates and Wellness teaches the classical Pilates method with Power Pilates certified instructors, and it also offers the Gyrotonic and Gyrokinesis methods, TRX and Xtend Barre, plus massage therapy and muscle activation therapy. Clients can choose one-to-one sessions, small groups or classes, and the studio has showers, towels and free parking.",
+    caveat: "the breadth of services (Gyrotonic, barre, TRX, massage) means it is a full wellness studio rather than a Pilates-only room.",
     address: "200 W Johnstown Rd, Columbus, OH 43230",
-    bestFor: "Classical Pilates, Power Pilates lineage, serious practitioners, NE Columbus",
+    bestFor: "Classical Pilates and Gyrotonic on the east side",
     signatureClass: "Classical Apparatus",
-    bookingTip: "Start with a private intake session — the studio uses it to match you with the right class level and format.",
+    bookingTip: "Start with a private session — the studio uses it to match you with the right class level.",
   },
   {
     number: "6",
     name: "Club Pilates East Columbus",
     neighborhood: "East Columbus",
     priceLevel: "$$",
-    review:
-      "Club Pilates East Columbus fills a genuine gap in the city's reformer landscape — before this location opened, east-side residents faced a significant drive to access franchise reformer instruction. The East Broad Street location draws from the Eastland area and surrounding east-side communities, bringing the Club Pilates class menu and modification-savvy instruction within reach of a neighborhood that previously lacked convenient options. Instructors are praised for their warmth and their ability to make beginners feel immediately capable rather than overwhelmed. A solid, welcoming entry point for east-side Columbus residents new to the method.",
+    review: "Club Pilates East Columbus on East Broad Street brings levelled group reformer classes to the east side, with weekday classes from 8am to 8pm and weekend classes until 2pm. It is a convenient entry point for east-side residents new to the method.",
+    caveat: "a franchise studio — reliable structure, less individual programming.",
     address: "6919 E Broad St, Columbus, OH 43213",
-    bestFor: "East Columbus residents, beginners, accessible reformer training",
-    signatureClass: "Reformer 1.0",
-    bookingTip: "The intro package is the best entry point — three sessions at a significant discount before choosing a membership tier.",
+    bestFor: "East-side residents new to reformer Pilates",
+    signatureClass: "Reformer Flow",
+    bookingTip: "An intro offer is the best way to start before choosing a membership.",
   },
 ];
 
@@ -136,8 +136,8 @@ const BOOKING_TIPS = [
     body: "Unlike denser cities, Columbus requires a car for most studio visits. The most successful practitioners choose studios that fall naturally between home and work, or adjacent to a regular errand. A great studio that requires a special trip will lose to a good studio that requires none.",
   },
   {
-    heading: "Classical studios require an intake session first",
-    body: "Body Pure Pilates and The Pilates Studio (Bexley) both expect a private intake session before placing you in group or semi-private classes. This is standard practice in classical studios — the intake informs the instructor how to work with your body. It is not optional and is worth doing properly.",
+    heading: "Start classical studios with a private session",
+    body: "Classical studios such as Body Pure Pilates generally recommend a private session before you join group or semi-private classes. It lets the instructor learn how to work with your body, and it makes group classes far easier to follow.",
   },
   {
     heading: "Grip socks are required at every reformer studio",
@@ -292,14 +292,14 @@ export default function ColumbusPage() {
               Best Pilates Studios in Columbus, OH
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Columbus has become one of the Midwest's most interesting fitness cities. The combination
               of Ohio State's enormous university population, a rapidly expanding tech and professional
               sector, and a serious wellness culture has created a Pilates market that ranges from
-              nationally credentialed classical studios in Bexley and the northeast to accessible
-              boutiques in the Short North arts corridor. Whether you're a first-timer looking for a
+              Power Pilates-certified classical teaching in the northeast to accessible
+              boutiques in the Short North and Clintonville. Whether you're a first-timer looking for a
               welcoming reformer introduction or an experienced practitioner seeking Power Pilates or
               Gyrotonic training, Columbus in 2026 has genuine options at every level.
             </p>

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates atlanta", "reformer pilates atlanta", "best pilates studios atlanta", "pilates studio atlanta ga", "pilates classes atlanta", "buckhead pilates", "midtown atlanta pilates", "pilates georgia", "best reformer pilates atlanta"],
   openGraph: {
     title: "Best Pilates Studios in Atlanta, GA (2026)",
-    description: "Six curated Pilates studios in Atlanta — Buckhead reformer boutiques to Midtown method practices. Verified June 2026.",
+    description: "Six curated Pilates studios in Atlanta — Buckhead reformer boutiques to Midtown method practices. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/atlanta",
     images: [{ url: "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1200&q=80", width: 1200, height: 630, alt: "Atlanta Georgia city guide — Pilates Collective Club" }],
@@ -40,68 +40,74 @@ const STUDIOS = [
   {
     number: "01",
     name: "Club Pilates Buckhead",
-    neighborhood: "Buckhead",
+    neighborhood: "Buckhead (Peachtree Battle)",
     priceLevel: "$$$",
-    review: "Club Pilates Buckhead is consistently rated one of Atlanta's top reformer studios, earning loyal regulars from Buckhead and Brookhaven alike. The Peachtree Road location is clean, well-equipped, and staffed by instructors who take alignment cues seriously across all class levels. The Buckhead clientele is wellness-savvy and expects quality, and this studio reliably delivers it. Membership options are genuinely practical for clients who want to practice three or more times per week without prohibitive per-class costs.",
-    address: "3344 Peachtree Rd NE, Atlanta, GA 30326",
-    bestFor: "All levels, high-frequency practitioners, Buckhead convenience",
+    review: "Club Pilates' first in-town Atlanta studio opened in February 2017 in the Peachtree Battle Shopping Center, in the heart of Buckhead. It runs the national Club Pilates group reformer format, so classes are levelled and standardised: a Level 1 Reformer Flow here follows the same structure as one anywhere else in the country, which makes it an easy, low-risk place to learn the reformer.",
+    caveat: "this is a franchise format — consistent and well-organised, but programming comes from a national curriculum rather than an individual owner-teacher, so it will not feel like a classical boutique.",
+    address: "2391 Peachtree Rd NE, Atlanta, GA 30305",
+    bestFor: "Beginners and regulars who want a structured, levelled reformer programme",
     signatureClass: "Reformer Flow",
-    bookingTip: "Morning and early-evening slots fill by mid-week — book for the following week on Wednesday or Thursday.",
+    bookingTip: "New to Club Pilates? Book an intro class first — studios use it to fit you into the right level before you buy a membership.",
   },
   {
     number: "02",
     name: "Intown Pilates",
-    neighborhood: "Inman Park / Poncey-Highland",
+    neighborhood: "Amsterdam Walk (Virginia-Highland / Morningside)",
     priceLevel: "$$$",
-    review: "One of Atlanta's most enduring independent Pilates studios, Intown Pilates has served the Inman Park and Poncey-Highland community for years with intelligent, carefully programmed instruction that takes the method seriously. The studio occupies a warm, intimate space and the instructor team brings genuine depth — both in classical Pilates lineage and in the anatomical knowledge required to work safely with injured, post-surgical, or athletic clients. Class sizes are intentionally small, and instructors know their regulars well enough to adjust exercises in real time.",
-    address: "1083 Austin Ave NE, Atlanta, GA 30307",
-    bestFor: "Classical and contemporary Pilates, injury recovery, in-town community",
-    signatureClass: "Classical Reformer",
-    bookingTip: "Private and semi-private sessions book out quickly — contact the studio directly and get on the weekly waitlist.",
+    review: "Intown Pilates works across the full range of Pilates apparatus — reformer, Cadillac, towers, Wunda chairs and the ladder barrel — and builds customised programmes around them. Group options include mat and tower classes such as Pilates Sculpt, Pilates Pump and Tower Stretch, alongside private sessions, which makes it one of the more apparatus-complete independent studios in town.",
+    caveat: "group classes here lean toward mat and tower rather than big reformer rooms — if you specifically want a high-energy group reformer class, a reformer-focused studio will suit you better.",
+    address: "500 Amsterdam Ave NE, Suite L5, Atlanta, GA 30306",
+    bestFor: "Private sessions and tower work on the full range of Pilates apparatus",
+    signatureClass: "Tower Stretch",
+    bookingTip: "Scheduling runs through the Mindbody app — check it for private-session availability before you call.",
   },
   {
     number: "03",
-    name: "Club Pilates Midtown",
-    neighborhood: "Midtown",
+    name: "The Studio Pilates — West Midtown",
+    neighborhood: "West Midtown",
     priceLevel: "$$$",
-    review: "Club Pilates Midtown is the most accessible reformer studio for Atlanta's downtown and Midtown professional population. The schedule is dense and well-organised, with classes running from early morning through evening to accommodate the varied rhythms of surrounding office towers and residential buildings. Instructors are well-trained in the Club Pilates curriculum and consistently receive high marks for attentiveness and clear alignment cueing. An ideal home-studio for Atlanta practitioners who want quality reformer access without commuting to Buckhead.",
-    address: "1375 Peachtree St NE, Atlanta, GA 30309",
-    bestFor: "Midtown professionals, all levels, flexible scheduling",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Lunchtime and 5:30 PM classes are the first to fill — book at least 48 hours ahead for prime-time slots.",
+    review: "Opened in 2024 on the Trabert Avenue corridor near Westside Provisions and the BeltLine Westside Trail, The Studio Pilates' West Midtown location is built around premium Balanced Body reformers. The layout covers every format: a 14-reformer group room, a four-person tower/reformer semi-private room, and a private room with a Cadillac and chair. Every group class is reformer-based and led by certified instructors.",
+    caveat: "a 14-reformer room is larger than a true boutique class — if you want very small groups, book the semi-private room or a private session instead.",
+    address: "763 Trabert Ave NW, Unit D, Atlanta, GA 30318",
+    bestFor: "Reformer classes with a step up to semi-private and private apparatus work",
+    signatureClass: "Group Reformer",
+    bookingTip: "The brand also runs a studio at 1583 N Decatur Rd near Emory — handy if West Midtown is out of your way.",
   },
   {
     number: "04",
-    name: "The Pilates Room",
-    neighborhood: "Virginia-Highland",
-    priceLevel: "$$$",
-    review: "The Pilates Room in Virginia-Highland has cultivated one of Atlanta's most loyal studio communities through excellent instruction, genuine neighbourhood integration, and a teaching philosophy that prioritises understanding over spectacle. The studio serves the Inman Park and Virginia-Highland corridor with a programme that takes both beginners and advanced practitioners seriously. Classes are appropriately small, sequencing is intelligent, and instructors bring precise, anatomically grounded cueing that distinguishes this studio from higher-volume boutiques elsewhere in the city.",
-    address: "1020 N Highland Ave NE, Atlanta, GA 30306",
-    bestFor: "All levels, community atmosphere, progressive reformer",
-    signatureClass: "Reformer Essentials",
-    bookingTip: "Weekend morning classes book out early in the week — grab your spot by Thursday.",
+    name: "HIPfit",
+    neighborhood: "Virginia-Highland (on the BeltLine)",
+    priceLevel: "$$",
+    review: "HIPfit is a boutique studio inside The Training Room at 742 Ponce de Leon Place, directly on the Atlanta BeltLine in Virginia-Highland. Its classes blend the precision of Pilates with the intensity of modern conditioning, so expect more sweat and pace than in a traditional method class.",
+    caveat: "this is Pilates-inspired conditioning rather than classical Pilates — purists looking for traditional repertoire should look at Intown Pilates instead.",
+    address: "742 Ponce de Leon Pl NE, Atlanta, GA 30306",
+    bestFor: "Pilates-based conditioning with a BeltLine location",
+    signatureClass: "Pilates conditioning class",
+    bookingTip: "Read the studio's new-client page before your first class, and walk or bike in on the BeltLine to skip parking.",
   },
   {
     number: "05",
     name: "Club Pilates Decatur",
-    neighborhood: "Decatur",
+    neighborhood: "North Decatur / Toco Hills",
     priceLevel: "$$",
-    review: "Serving Decatur's active, health-literate community, Club Pilates Decatur earns consistent five-star reviews for its welcoming atmosphere and high instructor standards. The east-of-Atlanta position makes it genuinely convenient for residents of Decatur, Avondale Estates, and surrounding neighborhoods — no Atlanta traffic required. The instructor team is thorough in its cueing and genuinely helpful to new clients navigating the reformer for the first time. Membership pricing is among the most accessible in the metro area.",
-    address: "101 E Court Square, Decatur, GA 30030",
-    bestFor: "Decatur and east-metro residents, beginners, affordable memberships",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "Early-morning slots are popular with the working-parent demographic — book by mid-week for the following week.",
+    review: "Club Pilates Decatur sits on Church Street in the North Decatur and Toco Hills area, convenient for Decatur, Druid Hills and Emory-area residents. It offers the same levelled Club Pilates class system as the Buckhead studio, which suits people who want a predictable format and membership pricing.",
+    caveat: "despite the name, the studio is on Church Street toward Toco Hills rather than on Decatur Square — check the map before assuming it is walkable from downtown Decatur.",
+    address: "1605 Church St, Suite 660, Decatur, GA 30033",
+    bestFor: "East-side residents who want a levelled reformer programme",
+    signatureClass: "Reformer Flow",
+    bookingTip: "If you hold a Club Pilates membership, check whether your plan lets you book at other Atlanta-area studios too.",
   },
   {
     number: "06",
     name: "Club Pilates Sandy Springs",
-    neighborhood: "Sandy Springs",
+    neighborhood: "Sandy Springs (Exchange at Hammond)",
     priceLevel: "$$$",
-    review: "Club Pilates Sandy Springs serves the affluent north-Atlanta residential corridor with a well-managed franchise studio that brings reliable quality to one of the metro area's most fitness-invested zip codes. The Sandy Springs clientele is experienced and expects instructors who engage thoughtfully with the curriculum — and this location consistently delivers. The studio is clean, professional, and equipped with twelve reformers offering a wide schedule to accommodate the demanding and varied patterns of north-Atlanta professionals and families.",
-    address: "6690 Roswell Rd NE, Sandy Springs, GA 30328",
+    review: "Club Pilates Sandy Springs is in the Exchange at Hammond shopping centre on Roswell Road, serving the north-Atlanta residential corridor inside and just outside I-285. Like the other Club Pilates studios, it runs a levelled group reformer curriculum, which makes it a practical choice for people who want to train several times a week close to home.",
+    caveat: "a franchise studio rather than an independent — reliable structure, less individual programming.",
+    address: "5968 Roswell Rd, Sandy Springs, GA 30328",
     bestFor: "North-Atlanta residents, consistent reformer programming, memberships",
-    signatureClass: "Flow",
-    bookingTip: "Monthly memberships are the most financially efficient option for practitioners attending 3+ times per week.",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Monthly memberships are the most cost-effective option if you plan to attend three or more times per week.",
   },
 ];
 
@@ -110,7 +116,7 @@ const BOOKING_TIPS = [
   { heading: "Traffic in Atlanta is serious business", body: "Atlanta has some of the worst traffic congestion in the United States. The I-285 and I-75/I-85 corridors are genuinely impassable during rush hour. Choose a studio on your home or work commute route rather than the 'best' studio on the other side of the city — attendance consistency is the most important variable in practice development." },
   { heading: "The studio market is neighbourhood-defined", body: "Atlanta's sprawl means the studio scene is more fragmented than comparable US cities. Buckhead, Midtown, and Decatur each have their own distinct studio cultures and clientele profiles. Spend a week exploring the Pilates offering nearest to where you spend most of your time before committing to a membership." },
   { heading: "Summer heat affects scheduling preferences", body: "Atlanta's summers are extremely hot and humid. Pilates studios' climate-controlled environments make morning and early evening classes particularly popular in July and August — book those slots well in advance from May onwards." },
-  { heading: "Grip socks are required at every reformer studio", body: "Universal across Atlanta's studio market. Buying quality grip socks from Amazon before your first class is a consistent saving over front-desk retail prices across every studio in the city." },
+  { heading: "Bring grip socks", body: "Most reformer studios in Atlanta require or strongly recommend grip socks. Buying a pair before your first class is usually cheaper than front-desk retail — check your studio's policy when you book." },
 ];
 
 const NEIGHBORHOODS = [
@@ -185,7 +191,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Pilates Studios in Atlanta, GA",
-      "description": "Curated guide to the top Pilates studios in Atlanta, Georgia, verified June 2026.",
+      "description": "Curated guide to the top Pilates studios in Atlanta, Georgia, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/atlanta",
       "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
@@ -202,9 +208,9 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "The Best Pilates Studios in Atlanta, GA (2026)",
-      "description": "A curated guide to the six best Pilates studios in Atlanta, Georgia — verified June 2026.",
+      "description": "A curated guide to the six best Pilates studios in Atlanta, Georgia — verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/atlanta",
-      "dateModified": "2026-06-01",
+      "dateModified": "2026-10-03",
       "author": { "@type": "Organization", "name": "Pilates Collective Club" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
     },
@@ -227,10 +233,10 @@ export default function AtlantaPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in Atlanta, Georgia</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 9 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Atlanta's Pilates scene has matured significantly over the past decade, shaped by the city's growing population of coastal transplants, a strong arts and performance culture, and an affluent professional class that invests seriously in wellness. The market spans genuine extremes — from classical Buckhead studios serving long-term practitioners to community-oriented in-town practices where accessibility is a founding principle. Understanding which studio suits your level, budget, and commute radius matters more in Atlanta than in more compact cities. This guide covers the six studios that consistently deliver, verified June 2026.
+              Atlanta's Pilates scene has matured significantly over the past decade, shaped by the city's growing population of coastal transplants, a strong arts and performance culture, and an affluent professional class that invests seriously in wellness. The market spans genuine extremes — from structured franchise reformer studios in Buckhead and Sandy Springs to apparatus-rich independents and BeltLine conditioning studios in-town. Understanding which studio suits your level, budget, and commute radius matters more in Atlanta than in more compact cities. This guide covers the six studios that consistently deliver, verified October 2026.
             </p>
           </div>
         </section>
