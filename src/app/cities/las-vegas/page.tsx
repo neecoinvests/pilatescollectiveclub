@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Las Vegas, NV (2026) — Curated Guide",
-  description: "The best Pilates studios in Las Vegas — reformer boutiques in Summerlin, Henderson, and near the Strip. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Las Vegas — top-rated independents, Henderson reformer studios and Club Pilates across the valley. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Las Vegas, NV (2026)",
     description:
-      "Six curated Pilates studios in Las Vegas — Summerlin and Henderson reformer boutiques. Verified 2026.",
+      "Six curated Pilates studios in Las Vegas — independents and Henderson reformer studios. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/las-vegas",
     images: [
@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Club Pilates Summerlin",
-    neighborhood: "Summerlin",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Summerlin is one of Las Vegas's top-rated reformer studios, consistently earning five-star reviews from Summerlin's health-conscious, fitness-invested community. The studio delivers reliable, well-structured reformer programming with instructors who genuinely engage with the curriculum. The schedule is dense — early morning through evening — and the unlimited membership tiers are practical for practitioners who want to train three or more times per week. Clean, well-equipped, and professionally run.",
-    address: "10840 W Charleston Blvd, Las Vegas, NV 89135",
-    bestFor: "Summerlin residents, high-frequency practitioners, all levels",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "Early morning and evening weekday classes fill 48 hours out — book as soon as the schedule opens.",
+    name: "Solidity Studio",
+    neighborhood: "Las Vegas",
+    priceLevel: "$$$",
+    review: "Solidity Studio tops ClassPass's Las Vegas reformer ranking with a 4.97 rating. Its teaching philosophy is about what the reformer builds over time — structural strength, movement confidence and a practice whose benefits compound session after session.",
+    caveat: "we could not confirm the exact street address independently — check the booking app for directions.",
+    address: "—",
+    bestFor: "Progressive, technique-focused reformer",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "The top-rated studio in town fills fast — book a few days ahead.",
   },
   {
     number: "2",
-    name: "Club Pilates Henderson",
+    name: "ReformYou",
     neighborhood: "Henderson",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Henderson brings consistent, well-structured reformer programming to Las Vegas's largest suburban city. The studio earns strong reviews for its instructor quality and welcoming atmosphere, attracting a loyal base of Henderson professionals and families. The schedule is wide and practical, with class times that accommodate the unconventional hours of Las Vegas's hospitality workforce. A reliable, well-managed option for east-valley practitioners.",
-    address: "10000 S Eastern Ave, Henderson, NV 89052",
-    bestFor: "Henderson residents, all levels, consistent reformer",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Mid-morning classes are popular with Henderson's hospitality-shift community — book 48 hours ahead.",
+    priceLevel: "$$$",
+    review: "ReformYou in Henderson focuses exclusively on reformer Pilates on professional-grade equipment, offering controlled, low-impact resistance training in group classes and private one-to-one sessions.",
+    caveat: "reformer-only — no mat or broader apparatus programme.",
+    address: "—",
+    bestFor: "Reformer-only group and private sessions in Henderson",
+    signatureClass: "Group Reformer",
+    bookingTip: "New clients should consider a private session before joining group classes.",
   },
   {
     number: "3",
-    name: "Club Pilates Green Valley",
-    neighborhood: "Green Valley / Henderson",
+    name: "Pilates Land Las Vegas",
+    neighborhood: "East Sahara / Central",
     priceLevel: "$$",
-    review:
-      "Club Pilates Green Valley serves one of Henderson's most established residential corridors with a franchise reformer program that consistently meets the community's high expectations. The Green Valley clientele is experienced and wellness-savvy, which has attracted an instructor team that engages genuinely with the curriculum. The studio has built a loyal community of regulars from Green Valley and the surrounding Henderson neighborhoods.",
-    address: "2500 Windmill Pkwy, Henderson, NV 89074",
-    bestFor: "Green Valley and Henderson residents, memberships, consistent reformer",
-    signatureClass: "Flow",
-    bookingTip: "Monthly memberships cut per-class costs significantly — the intro offer is worth exhausting first.",
+    review: "Pilates Land is a dedicated Pilates studio on East Sahara Avenue, a central location convenient for downtown and the east side of the city.",
+    caveat: "limited published detail about class formats — take a trial class first.",
+    address: "953 E Sahara Ave, Suite B-8, Las Vegas, NV 89104",
+    bestFor: "A central, independent Pilates studio",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Call ahead to confirm class times and formats.",
   },
   {
     number: "4",
-    name: "Club Pilates Southwest Las Vegas",
-    neighborhood: "Spring Valley / Southwest",
+    name: "Club Pilates Green Valley",
+    neighborhood: "Green Valley / Henderson",
     priceLevel: "$$",
-    review:
-      "Club Pilates Southwest serves the densely populated Spring Valley and Southwest Las Vegas corridor with accessible, well-structured reformer programming at practical membership rates. The studio draws from the surrounding residential neighborhoods and provides a welcoming entry point for practitioners new to the reformer format. Instructors receive consistent high marks for their patience with new clients and their attentiveness to form throughout class.",
-    address: "7175 S Durango Dr, Las Vegas, NV 89113",
-    bestFor: "Southwest and Spring Valley residents, beginners, accessible pricing",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "The intro 3-class package is the best way to audit the studio before committing to a membership.",
+    review: "Club Pilates Green Valley on North Green Valley Parkway serves one of Henderson's established residential corridors with the brand's levelled group reformer system.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "1550 N Green Valley Pkwy, Suite 350, Henderson, NV 89074",
+    bestFor: "Green Valley residents wanting structured reformer classes",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Memberships cut per-class cost — use the intro offer first.",
   },
   {
     number: "5",
-    name: "Club Pilates North Las Vegas",
-    neighborhood: "North Las Vegas / Centennial Hills",
+    name: "Club Pilates Henderson",
+    neighborhood: "Henderson (Eastern Ave)",
     priceLevel: "$$",
-    review:
-      "Club Pilates Centennial Hills serves the rapidly growing northwest Las Vegas corridor with consistent, quality reformer programming that meets the needs of the area's expanding professional and family population. The studio is clean, well-organized, and staffed by instructors who earn strong reviews for their engagement with both new and experienced clients. A practical option for Centennial Hills and North Las Vegas residents.",
-    address: "7885 Badura Ave, Las Vegas, NV 89113",
-    bestFor: "Northwest valley residents, all levels, convenient scheduling",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Weekend morning spots fill quickly with the family-oriented northwest community — book by Thursday.",
+    review: "Club Pilates Henderson on South Eastern Avenue brings levelled group reformer classes to southern Henderson, with a wide schedule for professionals and families.",
+    caveat: "a franchise studio — reliable structure, less individual programming.",
+    address: "10525 S Eastern Ave, Ste 140, Henderson, NV 89052",
+    bestFor: "South Henderson residents, membership-based training",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Book mid-morning and evening classes 48 hours ahead.",
   },
   {
     number: "6",
-    name: "Club Pilates Downtown Las Vegas",
-    neighborhood: "Downtown / Arts District",
+    name: "Club Pilates Spring Valley",
+    neighborhood: "Spring Valley / Southwest",
     priceLevel: "$$",
-    review:
-      "Club Pilates Downtown Las Vegas serves the 18b Arts District and downtown residential community with accessible reformer programming that fits the neighborhood's creative and diverse population. The studio attracts artists, hospitality workers, and young professionals drawn by the convenient downtown location and practical membership pricing. An excellent entry point for Las Vegas practitioners who live or work near downtown.",
-    address: "1422 S Main St, Las Vegas, NV 89104",
-    bestFor: "Downtown residents, Arts District community, beginners",
+    review: "Club Pilates Spring Valley on South Fort Apache Road serves the densely populated southwest of the valley with levelled group reformer classes, a practical entry point for beginners.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "5060 S Fort Apache Rd, Ste 115, Las Vegas, NV 89148",
+    bestFor: "Southwest Las Vegas residents new to the reformer",
     signatureClass: "Reformer Flow",
-    bookingTip: "Weekend classes fill with the downtown creative community — book by Thursday for weekend slots.",
+    bookingTip: "An intro class is the best way to start before committing to a membership.",
   },
 ];
 
@@ -313,7 +313,7 @@ export default function LasVegasPage() {
               Best Pilates Studios in Las Vegas, NV
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Las Vegas is far more than the Strip. Beyond the casinos and tourist corridors, a serious local

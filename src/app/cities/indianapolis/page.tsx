@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Indianapolis, IN (2026) — Curated Guide",
-  description: "The best Pilates studios in Indianapolis — reformer boutiques and classical method practices in Broad Ripple, Carmel, and Downtown Indy. Verified 2026.",
+  description: "The best Pilates studios in Indianapolis — small-group reformer in Nora, Downtown Indy and the northern suburbs. Verified 2026.",
   robots: {
     index: true,
     follow: true,
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Indianapolis, IN (2026)",
     description:
-      "Curated Pilates studios in Indianapolis — Broad Ripple and Carmel reformer picks. Verified 2026.",
+      "Curated Pilates studios in Indianapolis — Nora, Downtown and north-suburban reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/indianapolis",
     images: [
@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Club Pilates Downtown Indianapolis",
-    neighborhood: "Mass Ave / Downtown",
-    priceLevel: "$$$",
-    review:
-      "Club Pilates Downtown Indianapolis anchors the Massachusetts Avenue arts and entertainment corridor with a well-run franchise studio that has become a community hub for Indy's young professional population. The Mass Ave location is the most centrally convenient reformer option in the city, drawing from the surrounding downtown residential towers, Lockerbie Square, and the medical district. Instructors are praised for their energy and genuine investment in client progress — above the franchise average for a downtown urban location.",
-    address: "530 Massachusetts Ave #160, Indianapolis, IN 46204",
-    bestFor: "Downtown and Mass Ave residents, young professionals, all levels",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Lunchtime and post-work classes fill with the downtown professional crowd — book 48 hours ahead.",
+    name: "Foundations Studio",
+    neighborhood: "Nora / Far North Side",
+    priceLevel: "$$",
+    review: "Foundations Studio is a woman-owned Pilates and wellness studio on East 86th Street, and it tops ClassPass's Indianapolis reformer ranking with a 4.97 rating. With only four reformers, classes feel personal, and the teaching treats spring selection and body position as skills to build over time. It also offers mat Pilates, yoga, pre/postnatal yoga and myofascial release.",
+    caveat: "only four reformers means reformer classes book up — plan ahead.",
+    address: "1726 E 86th St, Indianapolis, IN 46240",
+    bestFor: "Precise, small-group reformer instruction",
+    signatureClass: "Reformer (4-person class)",
+    bookingTip: "Book reformer classes several days ahead — the small room fills fast.",
   },
   {
     number: "2",
-    name: "Club Pilates North Indianapolis",
-    neighborhood: "Keystone / North Indy",
+    name: "Club Pilates Downtown Indy",
+    neighborhood: "Mass Ave / Downtown",
     priceLevel: "$$$",
-    review:
-      "Club Pilates North Indianapolis serves the Keystone corridor and surrounding north-side residential neighborhoods with consistent, high-quality reformer programming. The 86th Street location is convenient for residents of Nora, Meridian-Kessler, and the broader north Indianapolis communities. The studio has built a loyal base of regulars who appreciate both the instruction quality and the well-organized schedule. Instructors are consistently attentive and the studio atmosphere is welcoming across all experience levels.",
-    address: "2727 E 86th St #145, Indianapolis, IN 46240",
-    bestFor: "North Indy residents, Keystone corridor, all levels",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Morning classes fill with the north-side professional demographic — book two days ahead for prime morning slots.",
+    review: "Club Pilates Downtown Indy on Massachusetts Avenue is the most central reformer studio in the city, convenient for downtown residents, Lockerbie Square and the medical district. It runs the brand's levelled group reformer system.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    address: "530 Massachusetts Ave, Suite 160, Indianapolis, IN 46204",
+    bestFor: "Downtown professionals wanting structured reformer classes",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Lunchtime and post-work classes fill quickly — book 48 hours ahead.",
   },
   {
     number: "3",
-    name: "Indy House of Pilates",
-    neighborhood: "South Indianapolis",
-    priceLevel: "$$$",
-    review:
-      "Indy House of Pilates is one of Indianapolis's most respected independent studios, serving the south-side residential community with a reformer and apparatus program that takes the method seriously as both a physical discipline and a body education practice. The studio is smaller than the franchise options but delivers a more individualized experience — instructors know their clients' movement histories and adjust programming accordingly. Particularly strong for practitioners who want to develop beyond beginner class formats and move toward a more sophisticated practice.",
-    address: "5153 Commerce Square Dr, Indianapolis, IN 46237",
-    bestFor: "South Indy residents, intermediate to advanced, individualized instruction",
-    signatureClass: "Reformer Intermediate",
-    bookingTip: "Book the new-client intro session first — instructors use it to match you with the right class level.",
+    name: "Reforming Indy",
+    neighborhood: "Fall Creek / Northeast (Fishers area)",
+    priceLevel: "$$",
+    review: "Reforming Indy is an independent Pilates and barre studio on Fall Creek Road in the northeast of the city, near Fishers. It is a convenient option for north-east residents who want an independent studio rather than a franchise.",
+    caveat: "there is limited published detail about its instructors and class formats — try a single class first.",
+    address: "11250 Fall Creek Rd, Indianapolis, IN 46256",
+    bestFor: "Northeast-side reformer and barre",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Compare the intro offer with a single class before committing.",
   },
   {
     number: "4",
-    name: "Foundations Studio",
-    neighborhood: "Nora / Far North Side",
+    name: "Club Pilates North Indy",
+    neighborhood: "Keystone at the Crossing",
     priceLevel: "$$$",
-    review:
-      "Foundations Studio is a Nora-area independent studio that lives up to its name — a practice built on genuine instructional foundations rather than fitness trends. The 86th Street location serves the established residential communities of Nora, Crooked Creek, and the surrounding north-side neighborhoods with a program that emphasizes body awareness, progressive skill development, and individualized attention. The studio is particularly well-regarded for its prenatal and postnatal programming, which serves the area's large young-family population with unusual depth and care.",
-    address: "1726 E 86th St, Indianapolis, IN 46240",
-    bestFor: "Nora and far-north residents, prenatal and postnatal, progressive instruction",
-    signatureClass: "Classical Reformer & Mat",
-    bookingTip: "Prenatal classes fill several weeks out — book early if you're expecting.",
+    review: "Club Pilates' North Indy studio at Keystone at the Crossing serves the north side — Nora, Meridian-Kessler and Castleton — with levelled group reformer classes and a wide daily schedule.",
+    caveat: "we could not confirm the exact suite address independently — check the Club Pilates website before your visit.",
+    address: "—",
+    bestFor: "North-side residents wanting a convenient reformer studio",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Morning classes are the most competitive — book two days ahead.",
   },
   {
     number: "5",
-    name: "Indy Pilates Plus",
-    neighborhood: "Broad Ripple / Near North",
-    priceLevel: "$$",
-    review:
-      "Indy Pilates Plus is Broad Ripple's home studio — an accessible, community-oriented practice that reflects the neighborhood's energetic, health-conscious character. The Gladden Drive location serves the Broad Ripple, Nora, and Butler-Tarkington communities with reformer and mat programming at pricing that makes regular attendance genuinely practical for the area's young professional and active family population. The studio earns strong reviews for its warm instructors and welcoming atmosphere. An ideal starting point for Indianapolis practitioners new to the method.",
-    address: "6035 Gladden Dr, Indianapolis, IN 46220",
-    bestFor: "Broad Ripple and near-north residents, beginners, accessible pricing",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Drop-in rates are among the most accessible in Indianapolis — great for sampling before committing to a membership.",
+    name: "Align Pilates Indy",
+    neighborhood: "Noblesville",
+    priceLevel: "$$$",
+    review: "Align Pilates leads ClassPass's Indianapolis aesthetic list with a 4.9 rating, and its Noblesville studio is known for a calm, design-led reformer environment of clean lines and deliberate lighting, paired with a wellness-focused approach.",
+    caveat: "Noblesville is a drive from central Indianapolis — best for north-suburban residents.",
+    address: "470 Lafayette Rd, Noblesville, IN 46060",
+    bestFor: "Design-led reformer studio in the northern suburbs",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Evening classes suit commuters returning north from the city.",
   },
   {
     number: "6",
-    name: "Club Pilates Carmel",
-    neighborhood: "Carmel",
-    priceLevel: "$$$",
-    review:
-      "Club Pilates Carmel serves one of Indiana's most affluent and wellness-invested suburban cities with a franchise reformer studio that consistently meets Carmel's high expectations. The studio draws from Carmel, Westfield, and Zionsville — a demographic that is health-literate, fitness-experienced, and holds studios to real standards. The instructor team is experienced and professional, the schedule is wide, and membership tiers make regular attendance financially practical. One of the most reliably high-quality Club Pilates locations in the Indiana market.",
-    address: "2482 E 146th St, Carmel, IN 46033",
-    bestFor: "Carmel and north-suburb residents, experienced practitioners, memberships",
-    signatureClass: "Flow",
-    bookingTip: "Monthly memberships cut per-class costs significantly — exhaust the intro offer before committing.",
+    name: "Club Pilates Zionsville",
+    neighborhood: "Zionsville",
+    priceLevel: "$$",
+    review: "Club Pilates Zionsville is in The Shoppes at Weston Pointe on North Michigan Road, serving Zionsville, Carmel's west side and northwest Indianapolis with levelled group reformer classes.",
+    caveat: "a franchise studio — reliable structure, less individual programming.",
+    address: "10895 N Michigan Rd, Suite 110, Zionsville, IN 46077",
+    bestFor: "Northwest suburban residents, membership-based training",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Use the intro offer before choosing a membership tier.",
   },
 ];
 
@@ -292,7 +292,7 @@ export default function IndianapolisPage() {
               Best Pilates Studios in Indianapolis, IN
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Indianapolis — the Circle City — has grown into one of the Midwest's most dynamic wellness

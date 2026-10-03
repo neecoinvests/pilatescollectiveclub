@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Pilates Stance Studio",
-    neighborhood: "Brookside East",
+    name: "Pilates Stance",
+    neighborhood: "Kansas City, MO",
     priceLevel: "$$$",
-    review:
-      "Pilates Stance Studio is the most credentialed classical studio in the Kansas City market and the 2026 Quality Business Awards winner for Best Pilates Studio in Kansas City, Missouri — a distinction earned through genuine instructional depth rather than marketing. The studio specializes in Romana's Pilates®, the most strictly lineage-traced branch of the method, with private and small-group sessions conducted on high-end full apparatus. The Brookside East location serves the surrounding residential community with instruction that takes the method seriously as both a physical discipline and a body education practice. The best choice in KC for practitioners who want a genuinely classical practice.",
-    address: "751 E 63rd St, Suite 209, Kansas City, MO 64110",
-    bestFor: "Romana's classical lineage, private instruction, full apparatus, serious practitioners",
-    signatureClass: "Romana's Classical Reformer",
-    bookingTip: "Private slots fill quickly — inquire about opening schedules directly rather than waiting for online availability.",
+    review: "Pilates Stance is a pure Pilates studio where every instructor is certified through Romana's Pilates — the programme that continues Joseph and Clara Pilates' teaching as directly as possible. For people who want authentic classical method rather than a reformer workout, it is the most traditional option in the metro.",
+    caveat: "classical teaching is precise and methodical — and we could not confirm the current street address independently, so check the studio's website before visiting.",
+    address: "—",
+    bestFor: "Authentic classical Pilates (Romana's lineage)",
+    signatureClass: "Classical Reformer",
+    bookingTip: "Contact the studio directly for private-session availability.",
   },
   {
     number: "2",
     name: "Club Pilates Country Club Plaza",
     neighborhood: "Country Club Plaza / Midtown",
-    priceLevel: "$$",
-    review:
-      "Club Pilates Country Club Plaza sits on the west side of KC's most iconic shopping and dining district — a centrally located studio that draws from the surrounding midtown neighborhoods, the Plaza residential community, and practitioners from across the metro who combine a studio session with Plaza errands. The studio offers eleven class formats including Cardio Sculpt, Suspend (TRX), and Restore, with over 500 hours of instructor training required — above the franchise average. Wellhub and ClassPass compatible. The most convenient franchise reformer option for the city core.",
+    priceLevel: "$$$",
+    review: "Club Pilates Country Club Plaza on West 48th Street sits at the west side of the Plaza, convenient for midtown residents and anyone combining a class with the Plaza's shops and restaurants. It runs the brand's levelled group reformer system.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
     address: "610 W 48th St, Kansas City, MO 64112",
-    bestFor: "Country Club Plaza and midtown residents, beginners, ClassPass and Wellhub users",
+    bestFor: "Structured reformer classes at the Plaza",
     signatureClass: "Reformer Flow",
-    bookingTip: "The Plaza location books quickly around lunch hours — the professional midtown demographic fills those slots early.",
+    bookingTip: "Lunchtime classes fill early with midtown professionals — book ahead.",
   },
   {
     number: "3",
     name: "Pilates 1901",
-    neighborhood: "Waldo",
+    neighborhood: "Kansas City, KS (Rosedale)",
     priceLevel: "$$",
-    review:
-      "Pilates 1901 is one of Kansas City's most respected independent boutiques — a STOTT Pilates-certified studio in the Waldo neighborhood that serves the area's active, community-oriented residential community with small-group and private training grounded in one of the most rigorously evidence-based certifications in the field. The studio won the Quality Business Awards' Best Pilates Studio in KC (2023) and maintains a 4.2–5.0 rating across platforms through consistent, results-oriented instruction. The signature T School program — a combined nutrition and movement curriculum — sets the studio apart from the standard reformer offering.",
-    address: "222 W Gregory Blvd, Kansas City, MO 64114",
-    bestFor: "STOTT-certified instruction, injury rehab, nutrition integration, Waldo residents",
+    review: "Pilates 1901 is a STOTT Pilates and fitness studio on West 43rd Avenue in Kansas City, Kansas. It offers personal training and small-group classes across mat, reformer, tower and ball, plus Pilates cardio and tramp stretch, restore and stretch, aerial hammock inversion work and Yamuna body rolling — one of the broadest Pilates menus in the metro.",
+    caveat: "a wide-ranging fitness menu — choose apparatus classes specifically if you want classic Pilates work.",
+    address: "1901 W 43rd Ave, Kansas City, KS 66103",
+    bestFor: "STOTT-based small groups and personal training",
     signatureClass: "STOTT Reformer",
-    bookingTip: "The T School nutrition + movement program fills by referral — ask about current cohort availability when booking your first class.",
+    bookingTip: "Start with a personal training session to find the right small-group class.",
   },
   {
     number: "4",
-    name: "BODYBAR Pilates Kansas City",
-    neighborhood: "Midtown",
-    priceLevel: "$$",
-    review:
-      "BODYBAR Pilates brings boutique reformer quality to Kansas City's midtown corridor — 40 to 50-minute modern reformer classes capped at fourteen students, in a sleek studio environment that prioritizes both the quality of instruction and the cohesion of the client community. The 3660 Broadway Blvd location draws from Midtown, Westport, and the surrounding residential neighborhoods, with a Tuesday through Friday early-morning schedule that serves the city's working professional population. Five-star reviews across multiple platforms reflect a studio that delivers on its promise consistently rather than occasionally.",
-    address: "3660 Broadway Blvd, Kansas City, MO 64111",
-    bestFor: "Boutique reformer, small class caps, Midtown and Westport residents",
-    signatureClass: "BODYBAR Reformer",
-    bookingTip: "Classes are capped at 14 — book 48 hours ahead for prime morning slots.",
+    name: "The Body Lab",
+    neighborhood: "Prairie Village",
+    priceLevel: "$$$",
+    review: "The Body Lab on The Mall in Prairie Village specialises in Lagree Fitness on the Megaformer, and it holds a 5.0 rating on ClassPass. It is the go-to Lagree option for Prairie Village and the Kansas side of the state line.",
+    caveat: "Lagree is very different from Pilates — slower, heavier and sweatier.",
+    address: "11 On The Mall, Prairie Village, KS 66208",
+    bestFor: "Lagree on the Megaformer",
+    signatureClass: "Lagree Megaformer class",
+    bookingTip: "New to Lagree? Tell the instructor — the first class has a learning curve.",
   },
   {
     number: "5",
-    name: "Pilates of Kansas City",
+    name: "Club Pilates Prairie Village",
     neighborhood: "Prairie Village",
     priceLevel: "$$",
-    review:
-      "Pilates of Kansas City is one of the metro's most established boutique brands — a multi-location practice with a long-running Prairie Village studio sitting directly on the Missouri-Kansas state line, making it one of the most conveniently located options for the enormous Johnson County suburban population. The studio offers both classical and contemporary reformer programming with a consistent instructor team that clients follow across multiple years. A second location in Overland Park (6764 W 135th St) extends the brand's reach into the south Johnson County corridor. Well-suited for the area's health-invested, professional suburban demographic.",
-    address: "7656 State Line Rd, Prairie Village, KS 66208",
-    bestFor: "Prairie Village and Johnson County residents, classical and contemporary reformer",
+    review: "Club Pilates Prairie Village on West 83rd Street offers small-group and private reformer training and is rated 4.8 on ClassPass. It is convenient for Prairie Village, Leawood and the northern Johnson County suburbs.",
+    caveat: "a franchise studio — reliable structure, less individual programming.",
+    address: "3905 W 83rd St, Prairie Village, KS 66208",
+    bestFor: "Johnson County residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
-    bookingTip: "The state line location splits evenly between MO and KS practitioners — book early for weekend morning slots.",
+    bookingTip: "Weekend mornings fill first — book by Thursday.",
   },
   {
     number: "6",
     name: "BODYBAR Pilates South Overland Park",
     neighborhood: "South Overland Park",
     priceLevel: "$$",
-    review:
-      "BODYBAR Pilates South Overland Park is one of the newest additions to the Kansas City metro's Pilates landscape — opened in April 2024 in Deer Creek Woods Shopping Center, covered by the Johnson County Post, and already earning strong reviews for its energetic instruction and welcoming community. The Metcalf Avenue location serves the enormous south Overland Park and Leawood residential population, which previously had limited boutique reformer options relative to its size and wellness investment. The BODYBAR format — capped classes, modern reformers, time-efficient 40–50 minute sessions — fits the suburban professional demographic well.",
+    review: "BODYBAR Pilates opened its South Overland Park studio in the Deer Creek Woods shopping centre in April 2024. Its 40–50 minute classes target strength, balance, toning and flexibility using jump boards, tower springs and stability chairs. At opening, single classes were $32 and memberships ran from $99 (four classes a month) to $199 (unlimited).",
+    caveat: "a franchise brand — upbeat and consistent, but less individual than a private-session studio.",
     address: "13340 Metcalf Ave, Overland Park, KS 66213",
-    bestFor: "South Overland Park and Leawood residents, boutique reformer, efficient workouts",
+    bestFor: "Upbeat reformer classes in southern Johnson County",
     signatureClass: "BODYBAR Reformer",
-    bookingTip: "The studio is newest in the market — founding member rates may still be available, check directly with the studio.",
+    bookingTip: "BODYBAR also has a Lenexa studio — check both schedules.",
   },
 ];
 
@@ -129,7 +129,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "The Missouri-Kansas split matters for scheduling",
-    body: "The KC metro spans two states, and a surprisingly large number of practitioners live in one state and work in the other. Studios on State Line Road (like Pilates of Kansas City in Prairie Village) and along the Metcalf corridor serve both sides equally. Factor your daily route across the state line into your studio choice.",
+    body: "The KC metro spans two states, and a surprisingly large number of practitioners live in one state and work in the other. Studios in Prairie Village, close to State Line Road, and along the Metcalf corridor serve both sides easily. Factor your daily route across the state line into your studio choice.",
   },
   {
     heading: "Johnson County has the highest density of fitness investment in the metro",
@@ -292,15 +292,13 @@ export default function KansasCityPage() {
               Best Pilates Studios in Kansas City
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Kansas City's Pilates market spans two states and covers some of the most contrasting
-              fitness geographies in the Midwest — from a Romana's Pilates® classical studio in
-              Brookside that won the 2026 Quality Business Award for best in the city, to BODYBAR
-              boutique studios in Midtown and south Overland Park catering to KC's growing suburban
-              wellness economy. The Country Club Plaza franchise anchors the city core. STOTT-certified
-              instruction and nutrition programming set Waldo apart. If you know where to look, Kansas
+              fitness geographies in the Midwest — from a Romana's Pilates® classical studio to
+              STOTT-based small groups in Kansas City, Kansas, Lagree in Prairie Village and BODYBAR
+              in south Overland Park. The Country Club Plaza franchise anchors the city core. If you know where to look, Kansas
               City in 2026 delivers quality reformer instruction at every level and price point.
             </p>
           </div>
