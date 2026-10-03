@@ -42,8 +42,8 @@ const STUDIOS = [
     name: "Metropolitan Pilates",
     neighborhood: "University District / University Village",
     priceLevel: "$$$",
-    review: "Winner of Best Pilates Studio in Best of Western Washington, Metropolitan Pilates at University Village is a classical studio with soaring 15-foot ceilings and a full complement of Gratz Pilates apparatus. The studio offers private, duet, and semi-private sessions as well as group classes and a certified teacher training program. It is one of the most highly regarded classical studios in the Pacific Northwest — the place serious Pilates practitioners in Seattle point newcomers toward when they want the real thing.",
-    address: "2623 NE University Village St, Seattle, WA 98105",
+    review: "Metropolitan Pilates in the University Village area is a classical studio featured in Gratz Pilates' Featured Studio Series. The studio offers private, duet, and semi-private sessions as well as group classes and a certified teacher training program. It is one of the most highly regarded classical studios in the Pacific Northwest — the place serious Pilates practitioners in Seattle point newcomers toward when they want the real thing.",
+    address: "2688 NE 49th St, Seattle, WA 98105",
     bestFor: "Classical Pilates on authentic Gratz equipment; teacher training",
     signatureClass: "Private Apparatus Session",
     bookingTip: "Private sessions fill quickly; commit to a package to lock in consistent appointment times with a preferred instructor.",
@@ -53,7 +53,7 @@ const STUDIOS = [
     name: "Pilates Seattle International",
     neighborhood: "South Lake Union",
     priceLevel: "$$$",
-    review: "Now in its 31st year, Pilates Seattle International at 501 Dexter Avenue North is the only Romana's Pilates certified instructor school in the Northwest. The South Lake Union studio uniquely integrates a team of physical therapists and Pilates instructors who work together, making it the top choice in the city for anyone dealing with injuries, chronic pain, or post-surgical recovery. Clients routinely report lasting relief from shoulder, back, and hip issues that other approaches failed to resolve.",
+    review: "Pilates Seattle International & Physical Therapy on Dexter Avenue North dates back to 1993, when it was the only Pilates studio in Seattle, and it describes itself as the only true Pilates training facility in the Northwest. The South Lake Union studio uniquely integrates a team of physical therapists and Pilates instructors who work together, making it the top choice in the city for anyone dealing with injuries, chronic pain, or post-surgical recovery. It offers group classes, private sessions and introductory packages.",
     address: "501 Dexter Ave N, Seattle, WA 98109",
     bestFor: "Pilates + physical therapy integration; rehab clients; Romana's method",
     signatureClass: "Therapeutic Reformer Session",
@@ -64,7 +64,7 @@ const STUDIOS = [
     name: "Atlas Pilates",
     neighborhood: "Belltown",
     priceLevel: "$$$",
-    review: "Atlas Pilates at 2612 3rd Avenue is one of Seattle's most tenured studios, operating for over 25 years and consistently rated 4.6 stars or above. The Belltown studio is known for having some of the best Pilates equipment in the city and a staff that effectively blends classical technique with modern athletic training goals. Instructors are praised for improving posture, muscle development, and injury prevention even among skeptical first-timers who arrived doubting the method.",
+    review: "Atlas Pilates is an independently owned studio founded by certified Pilates teachers in 2009, on the ground floor of a Belltown high-rise. It offers private sessions, semi-private sessions and small group classes on classical Pilates apparatus in a purpose-built studio, and an independent physical therapy clinic on site specialises in sports injury rehabilitation.",
     address: "2612 3rd Ave, Seattle, WA 98121",
     bestFor: "Equipment quality; injury prevention; athletic training",
     signatureClass: "Reformer + Tower",
@@ -75,7 +75,7 @@ const STUDIOS = [
     name: "Pilates on 10th",
     neighborhood: "Capitol Hill",
     priceLevel: "$$$",
-    review: "Open since 2003 and rated 4.8 stars on ClassPass with nearly 1,500 reviews, Pilates on 10th at 2351 10th Avenue East is a Capitol Hill institution. The spacious, spotless studio offers reformer, mat, tower, chair, and private session options, with professionally certified instructors known for activating deep core muscles and providing thoughtful individual cues. A favorite of longtime Seattle residents who have returned session after session for over two decades.",
+    review: "Open since 2003 and rated 4.8 stars on ClassPass, Pilates on 10th at 2351 10th Avenue East is a Capitol Hill institution. The spacious, spotless studio offers reformer, mat, tower, chair, and private session options, with professionally certified instructors known for activating deep core muscles and providing thoughtful individual cues. A favorite of longtime Seattle residents who have returned session after session for over two decades.",
     address: "2351 10th Ave E, Seattle, WA 98102",
     bestFor: "Comprehensive apparatus variety; welcoming atmosphere; long-established",
     signatureClass: "Reformer Group Class",
@@ -86,22 +86,22 @@ const STUDIOS = [
     name: "Vitality Pilates — Phinney Ridge",
     neighborhood: "Phinney Ridge",
     priceLevel: "$$",
-    review: "Vitality Pilates has earned consistent top ratings across its three Seattle locations — Phinney Ridge, Ravenna, and Mount Baker — with reviewers noting that classes meaningfully improve both physical and mental well-being. The Phinney Ridge flagship is beloved for its warm instructors, accessible class progressions, and genuine community atmosphere. The studio feels like something the neighborhood built for itself rather than a fitness business that moved in.",
+    review: "Vitality Pilates opened its first studio in Mount Baker in 2001 and now has three Seattle locations, including Phinney Ridge and Ravenna. It specialises in progressive equipment classes and personalised private lessons, and also offers Zoom and on-demand classes. The studio feels like something the neighborhood built for itself rather than a fitness business that moved in.",
     address: "7216 Greenwood Ave N, Seattle, WA 98103",
     bestFor: "Holistic well-being; all levels; neighborhood community feel",
-    signatureClass: "Reformer Fundamentals",
-    bookingTip: "The Fundamentals series is ideal for newcomers — complete it before jumping into open reformer classes.",
+    signatureClass: "Progressive Equipment Class",
+    bookingTip: "Newcomers should start with a beginner-level equipment class or a private lesson before joining open classes.",
   },
   {
     number: "06",
     name: "Vitality Pilates — Ravenna",
     neighborhood: "Ravenna",
     priceLevel: "$$",
-    review: "The Ravenna location of Vitality Pilates brings the same high standard of personalized instruction as the Phinney Ridge flagship to the northeast side of Seattle. The studio is compact and intimate, with a loyal neighborhood following and instructors who remember clients' individual needs class to class. For northeast Seattle residents, it removes the commute barrier that keeps many people from maintaining a consistent Pilates practice.",
+    review: "Vitality's Ravenna studio on NE 65th Street brings the same progressive equipment classes and private lessons to north-east Seattle. For northeast Seattle residents, it removes the commute barrier that keeps many people from maintaining a consistent Pilates practice.",
     address: "2201 NE 65th St, Seattle, WA 98115",
     bestFor: "Northeast Seattle residents; consistent instruction; group reformer",
     signatureClass: "Reformer Open Level",
-    bookingTip: "Class sizes are small — cancellations are strictly enforced, so cancel at least 12 hours ahead to avoid charges.",
+    bookingTip: "Class sizes are small — check the cancellation policy when you book.",
   },
 ];
 
@@ -185,7 +185,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Pilates Studios in Seattle, WA",
-      "description": "Curated guide to the top Pilates studios in Seattle, Washington, verified June 2026.",
+      "description": "Curated guide to the top Pilates studios in Seattle, Washington, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/seattle",
       "numberOfItems": 6,
       "itemListElement": STUDIOS.map((s, i) => ({
@@ -207,9 +207,9 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "The Best Pilates Studios in Seattle, WA (2026)",
-      "description": "A curated guide to the six best Pilates studios in Seattle, Washington — verified June 2026.",
+      "description": "A curated guide to the six best Pilates studios in Seattle, Washington — verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/seattle",
-      "dateModified": "2026-06-01",
+      "dateModified": "2026-10-03",
       "author": { "@type": "Organization", "name": "Pilates Collective Club" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
     },
@@ -233,10 +233,10 @@ export default function SeattlePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in Seattle, Washington</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 9 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Seattle's Pilates scene is more serious than its modesty suggests. Behind the city's outdoor-focused identity lies a strong classical movement culture — shaped in part by Pacific Northwest Ballet, the University of Washington's dance programme, and a technology sector whose workers are increasingly investing in the kind of body knowledge that survives a desk job. From Fremont's classical studios to South Lake Union's high-spec boutiques, the city offers genuine range. This guide covers the six studios that merit your time, verified June 2026.
+              Seattle's Pilates scene is more serious than its modesty suggests. Behind the city's outdoor-focused identity lies a strong classical movement culture — shaped in part by Pacific Northwest Ballet, the University of Washington's dance programme, and a technology sector whose workers are increasingly investing in the kind of body knowledge that survives a desk job. From Fremont's classical studios to South Lake Union's high-spec boutiques, the city offers genuine range. This guide covers the six studios that merit your time, verified October 2026.
             </p>
           </div>
         </section>
