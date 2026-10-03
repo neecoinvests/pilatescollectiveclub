@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "$3,349",
     verdict: "The real SPX-family machine Merrithew sells on Amazon",
     description:
-      "The At Home SPX Reformer Package is the SPX-family machine genuinely, currently sold on Amazon, priced at $3,349 — not the $3,299 or ~$1,400 figures that have circulated for it elsewhere, including in an earlier version of this article. It carries Merrithew's five colour-coded spring system, with unusually fine gradation at the light-resistance end. We could not verify a fold-flat, vertical-storage feature for this listing — an earlier version of this article made that claim, and it did not hold up on closer checking, so treat any folding claim as something to confirm on the current listing rather than assumed fact.",
+      "The At Home SPX Reformer Package is the SPX-family machine genuinely, currently sold on Amazon, priced at $3,349 — not the $3,299 or ~$1,400 figures that circulate for it elsewhere. It carries Merrithew's five colour-coded spring system, with unusually fine gradation at the light-resistance end. We could not verify a fold-flat, vertical-storage feature for this listing, so treat any folding claim as something to confirm on the current listing rather than assumed fact.",
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
     tag: "The Real Listing",
   },
@@ -39,7 +39,7 @@ const PRODUCTS = [
     price: "$8,199",
     verdict: "Merrithew's real clinical/professional machine, sold on Amazon",
     description:
-      "This is the real product behind any \"Merrithew V2 Max\" reference — a raised-frame clinical and professional-grade reformer with a built-in Vertical Frame and Merrithew's patented retractable rope system, genuinely sold on Amazon at $8,199. An earlier version of this article instead described a \"SPX Max Reformer\" at a studio price point, using a fabricated-looking Amazon search link; we could not verify that as a real, standalone listing, so it has been replaced with this confirmed one. If you were looking for a mid-priced studio machine between the At Home SPX and this clinical-grade reformer, we could not confirm one exists as a live Amazon listing — check current listings directly.",
+      "This is the real product behind any \"Merrithew V2 Max\" reference — a raised-frame clinical and professional-grade reformer with a built-in Vertical Frame and Merrithew's patented retractable rope system, genuinely sold on Amazon at $8,199. You may see a \"SPX Max Reformer\" mentioned at a studio price point, but we could not verify it as a real, standalone Amazon listing. If you were looking for a mid-priced studio machine between the At Home SPX and this clinical-grade reformer, we could not confirm one exists as a live Amazon listing — check current listings directly.",
     affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
     tag: "Clinical Grade",
   },
@@ -49,7 +49,7 @@ const PRODUCTS = [
     price: "$470",
     verdict: "The genuine Merrithew jumpboard, sold on Amazon",
     description:
-      "A real Merrithew-branded jumpboard, sized for the SPX-family carriage, converting footwork into a low-impact jumping sequence. An earlier version of this article instead recommended a generic \"STOTT Pilates Flex Band\" and other accessories via lazy Amazon search links we could not verify as real listings; those have been replaced with this confirmed product. Confirm fit against your specific reformer before ordering.",
+      "A real Merrithew-branded jumpboard, sized for the SPX-family carriage, converting footwork into a low-impact jumping sequence. It is a confirmed, live Amazon listing. Confirm fit against your specific reformer before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B004ICZD2Q?tag=pilatescollective-20",
     tag: "Cardio Add-On",
   },

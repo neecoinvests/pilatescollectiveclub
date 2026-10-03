@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "$4,700",
     verdict: "The real Balanced Body flagship sold on Amazon",
     description:
-      "This is often searched for as the \"Allegro 2,\" but we could not find a live Amazon listing under that name. The Balanced Body reformer genuinely sold on Amazon, made to order and shipped by Balanced Body, is the Studio Reformer with the Revo footbar — a Strata rock maple frame, five Signature Springs, and full tower compatibility. One correction to older coverage of this category: the Studio Reformer does not fold. It is a permanent-installation machine, so plan floor space accordingly rather than assuming wall storage.",
+      "This is often searched for as the \"Allegro 2,\" but we could not find a live Amazon listing under that name. The Balanced Body reformer genuinely sold on Amazon, made to order and shipped by Balanced Body, is the Studio Reformer with the Revo footbar — a Strata rock maple frame, five Signature Springs, and full tower compatibility. Worth knowing up front: the Studio Reformer does not fold. It is a permanent-installation machine, so plan floor space accordingly rather than assuming wall storage.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
     tag: "The Real Listing",
   },
@@ -39,7 +39,7 @@ const PRODUCTS = [
     price: "$3,710",
     verdict: "The real, lower-priced Balanced Body reformer on Amazon",
     description:
-      "For a lower price point than the Studio Reformer, this is the widest-carriage machine actually sold on Amazon by Balanced Body. An earlier version of this article recommended a \"Balanced Body Allegro 2\" via a generic Amazon search link; we could not verify that as a real, standalone listing, so this confirmed one is recommended instead.",
+      "For a lower price point than the Studio Reformer, this is the widest-carriage machine actually sold on Amazon by Balanced Body. You'll see \"Allegro 2\" in searches, but we could not verify a real, standalone Amazon listing under that name — this is the confirmed one.",
     affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
     tag: "Lower-Priced Option",
   },
@@ -49,7 +49,7 @@ const PRODUCTS = [
     price: "$189.99",
     verdict: "The real Balanced Body spine corrector, sold on Amazon",
     description:
-      "The Pilates Arc is a practical Balanced Body accessory for home practitioners who don't yet have a full reformer, functioning as a spine corrector and a prop for mat exercises that require spinal extension over a curve. This is the real, currently-sold Amazon listing — an earlier version of this article linked a generic Amazon search rather than this specific product.",
+      "The Pilates Arc is a practical Balanced Body accessory for home practitioners who don't yet have a full reformer, functioning as a spine corrector and a prop for mat exercises that require spinal extension over a curve. This is the real, currently-sold Amazon listing for this specific product.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20",
     tag: "Best Accessory",
   },

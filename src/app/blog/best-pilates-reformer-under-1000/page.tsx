@@ -37,7 +37,7 @@ const PRODUCTS = [
     verdict: "Best genuine spring reformer under $1,000",
     tag: "Top Pick",
     description:
-      "A note before anything else: earlier versions of this guide said no genuine spring reformer existed under $1,000. That was wrong — a fresh check against live Amazon listings surfaced a real tier of budget, generic-brand full reformers with genuine spring construction. This PAETA model is the strongest of them: it uses actual piano-wire springs rather than elastic cord, a 500lb capacity across six legs, removable stands for quick height adjustment, and an 86in extended deck (versus the roughly 75in deck on most foldables), which fits practitioners up to about 5'9\" more comfortably. PAETA is a generic brand without an established track record among instructors, so treat long-term durability claims with appropriate caution — but the resistance mechanism itself is genuine springs, not cords.",
+      "Genuine spring reformers do exist under $1,000: live Amazon listings include a real tier of budget, generic-brand full reformers with genuine spring construction. This PAETA model is the strongest of them: it uses actual piano-wire springs rather than elastic cord, a 500lb capacity across six legs, removable stands for quick height adjustment, and an 86in extended deck (versus the roughly 75in deck on most foldables), which fits practitioners up to about 5'9\" more comfortably. PAETA is a generic brand without an established track record among instructors, so treat long-term durability claims with appropriate caution — but the resistance mechanism itself is genuine springs, not cords.",
     affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20",
     pros: ["Genuine piano-wire spring resistance, not cord", "500lb capacity, extended 86in deck", "Removable stands for quick height adjustment"],
     cons: ["Generic brand, no instructor track record", "No long-term durability data beyond manufacturer claims", "Unclear warranty support compared to established brands"],
@@ -107,7 +107,7 @@ const PRODUCTS = [
 const FAQS = [
   {
     q: "Can you get a decent Pilates reformer for under $1,000?",
-    a: "Yes, and more genuinely than we previously reported. A fresh check against live Amazon listings found a real tier of budget, generic-brand reformers — WINDFOOT, DWKWE, and two PAETA models — that use genuine coil-spring or spring-plus-cord resistance, all well under $1,000. Alongside those, the AeroPilates 287 and 701 Premier offer established-brand cord resistance in the same price range. Which is 'better' depends on whether you prioritize spring feel or brand track record.",
+    a: "Yes. Live Amazon listings include a real tier of budget, generic-brand reformers — WINDFOOT, DWKWE, and two PAETA models — that use genuine coil-spring or spring-plus-cord resistance, all well under $1,000. Alongside those, the AeroPilates 287 and 701 Premier offer established-brand cord resistance in the same price range. Which is 'better' depends on whether you prioritize spring feel or brand track record.",
   },
   {
     q: "What is the difference between the budget spring reformers and AeroPilates?",
@@ -214,7 +214,7 @@ export default function BestPilatesReformerUnder1000Page() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              An earlier version of this guide said no genuine spring reformer existed under $1,000, and listed only two AeroPilates cord machines. That was wrong. A fresh check against live Amazon listings found a real tier of budget, generic-brand reformers — WINDFOOT, DWKWE, and two PAETA models — with genuine coil-spring or spring-plus-cord resistance, all comfortably under $1,000. This guide now covers all six genuine, currently-sold reformers in this bracket: four with real spring resistance from unfamiliar brands, and two established-brand cord machines from AeroPilates.
+              Genuine spring reformers do exist under $1,000. Live Amazon listings include a real tier of budget, generic-brand reformers — WINDFOOT, DWKWE, and two PAETA models — with genuine coil-spring or spring-plus-cord resistance, all comfortably under $1,000. This guide covers all six genuine, currently-sold reformers in this bracket: four with real spring resistance from unfamiliar brands, and two established-brand cord machines from AeroPilates.
             </p>
           </div>
         </section>

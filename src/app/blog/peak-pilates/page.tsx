@@ -54,7 +54,7 @@ const PRODUCTS = [
     price: "Dealer-quoted",
     verdict: "Peak's studio system — dealer-quoted, not confirmed on Amazon",
     description:
-      "The PilateSystem (PPS) Deluxe is positioned by Peak Pilates as a combined reformer-and-Cadillac studio system. An earlier version of this article linked a specific Amazon product page for this item; we could not verify that listing as a genuine, currently-sold offer, so it has been removed. Treat this as a dealer-quoted purchase — get current pricing and specifications directly from Peak Pilates or an authorised dealer.",
+      "The PilateSystem (PPS) Deluxe is positioned by Peak Pilates as a combined reformer-and-Cadillac studio system. We could not verify a genuine, currently-sold Amazon listing for it. Treat this as a dealer-quoted purchase — get current pricing and specifications directly from Peak Pilates or an authorised dealer.",
     affiliateUrl: "https://www.peakpilates.com",
     tag: "Dealer Only",
   },

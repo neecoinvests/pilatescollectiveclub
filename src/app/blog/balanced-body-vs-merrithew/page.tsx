@@ -98,7 +98,7 @@ const comparisons = [
   {
     dimension: "Folding / space-saving options",
     bb: "The Studio Reformer does not fold — it's a permanent-installation machine, made to order. We could not verify a folding, professional-grade Balanced Body option currently sold on Amazon.",
-    m: "The At Home SPX Reformer Package is sized to fit along a wall in most bedrooms. An earlier version of this page claimed it folds flat for storage — we could not verify that claim on the current listing, and it has been removed. Treat any folding claim for either brand as something to confirm on the live listing, not something to assume.",
+    m: "The At Home SPX Reformer Package is sized to fit along a wall in most bedrooms. We could not verify a fold-flat feature on the current listing — confirm storage before buying if that matters to you. Treat any folding claim for either brand as something to confirm on the live listing, not something to assume.",
     verdict: "Neither machine is verified to fold — check current listings directly",
   },
 ];
@@ -131,7 +131,7 @@ export default function BalancedBodyVsMerrithewPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Balanced Body and Merrithew are the two most important reformer brands for practitioners outside the classical Gratz world. This comparison has been rechecked against real, live Amazon listings rather than model names — the &quot;Allegro 2,&quot; the &quot;SPX Max,&quot; and a &quot;V2 Max&quot; at $4,999 — that we could not verify and have removed. The real machines: Balanced Body&apos;s Studio Reformer at $4,700 and Merrithew&apos;s At Home SPX Reformer Package at $3,349, with Merrithew&apos;s genuinely clinical-grade Rehab V2 Max Plus at $8,199 for higher-intensity use.
+              Balanced Body and Merrithew are the two most important reformer brands for practitioners outside the classical Gratz world. This comparison is built on real, live Amazon listings rather than search-term model names — you&apos;ll see &quot;Allegro 2,&quot; &quot;SPX Max,&quot; and a &quot;V2 Max&quot; at $4,999 in searches, but we could not verify any of them as live listings. The real machines: Balanced Body&apos;s Studio Reformer at $4,700 and Merrithew&apos;s At Home SPX Reformer Package at $3,349, with Merrithew&apos;s genuinely clinical-grade Rehab V2 Max Plus at $8,199 for higher-intensity use.
             </p>
           </div>
         </section>

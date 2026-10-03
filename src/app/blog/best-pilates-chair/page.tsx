@@ -39,7 +39,7 @@ const PRODUCTS = [
     price: "$249.90",
     verdict: "A real, budget-tier split-pedal chair genuinely sold on Amazon",
     description:
-      "An update to an earlier version of this article: the classic two-pedal Wunda Chair design is genuinely sold on Amazon — we were wrong to say otherwise. This VEVOR chair is a real, live, in-stock listing at $249.90 with a split-pedal design, rubberwood frame rated to 350lb, adjustable spring resistance, and padded handles. It is a home/budget-tier build rather than a certification-recognized studio brand, so expect a more basic feel than the Balanced Body or Merrithew chairs, but it is a genuine way to try split-pedal Chair work without the professional-tier price.",
+      "The classic two-pedal Wunda Chair design is genuinely sold on Amazon. This VEVOR chair is a real, live, in-stock listing at $249.90 with a split-pedal design, rubberwood frame rated to 350lb, adjustable spring resistance, and padded handles. It is a home/budget-tier build rather than a certification-recognized studio brand, so expect a more basic feel than the Balanced Body or Merrithew chairs, but it is a genuine way to try split-pedal Chair work without the professional-tier price.",
     affiliateUrl: "https://www.amazon.com/dp/B0F6LDT4WK?tag=pilatescollective-20",
     tag: "Budget Split-Pedal",
   },
@@ -141,7 +141,7 @@ export default function BestPilatesChairPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Wunda Chair is one of Joseph Pilates&apos; original apparatus — a deceptively compact piece of equipment that demands more core strength, balance, and body awareness than almost anything else in the classical system. It is among the most underused and least understood pieces of full Pilates apparatus. A correction to an earlier version of this guide: we previously said the classic two-pedal Wunda Chair design isn’t sold on Amazon at all — that was wrong. It is, from budget-tier brands; Balanced Body’s own single-pedal EXO Pilates Chair remains the professional-grade Amazon listing, and Merrithew and Gratz remain dealer-direct only.
+              The Wunda Chair is one of Joseph Pilates&apos; original apparatus — a deceptively compact piece of equipment that demands more core strength, balance, and body awareness than almost anything else in the classical system. It is among the most underused and least understood pieces of full Pilates apparatus. The classic two-pedal Wunda Chair design is sold on Amazon, from budget-tier brands; Balanced Body’s own single-pedal EXO Pilates Chair remains the professional-grade Amazon listing, and Merrithew and Gratz remain dealer-direct only.
             </p>
           </div>
         </section>

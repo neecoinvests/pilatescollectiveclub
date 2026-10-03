@@ -34,7 +34,7 @@ const PRODUCTS = [
     price: "$280",
     verdict: "The real Balanced Body jumpboard sold on Amazon",
     description:
-      "This is the genuine Balanced Body jumpboard listing we could verify on Amazon, at $280. Balanced Body markets it as a footbar-position accessory for its reformer line, but we could not confirm universal fit across every Balanced Body model — the earlier version of this guide named specific compatible models (including an Allegro 2) that we could not verify, and that claim has been removed. Check the current listing against your specific reformer's footbar dimensions before ordering, since Balanced Body's carriage and footbar sizing has varied across product generations.",
+      "This is the genuine Balanced Body jumpboard listing we could verify on Amazon, at $280. Balanced Body markets it as a footbar-position accessory for its reformer line, but we could not confirm universal fit across every Balanced Body model, and we could not verify a list of specific compatible models (including any 'Allegro 2' you may see mentioned). Check the current listing against your specific reformer's footbar dimensions before ordering, since Balanced Body's carriage and footbar sizing has varied across product generations.",
     affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20",
     tag: "Balanced Body",
   },
@@ -120,7 +120,7 @@ export default function BestPilatesJumpboardPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The jumpboard is a genuinely popular accessory for a home reformer, adding a cardio component through jumping and rebounding sequences while keeping the joint-protective, resistance-based feel of reformer work. This guide previously listed jumpboards from four brands; on closer checking, we could only confirm live Amazon listings for two of them — Balanced Body and Merrithew. The AeroPilates and Align Pilates entries have been removed rather than left pointing at a search page, and that gap is disclosed below rather than guessed at.
+              The jumpboard is a genuinely popular accessory for a home reformer, adding a cardio component through jumping and rebounding sequences while keeping the joint-protective, resistance-based feel of reformer work. We could confirm live Amazon listings for jumpboards from two brands — Balanced Body and Merrithew. We could not verify AeroPilates or Align Pilates jumpboards on Amazon, and that gap is covered below rather than guessed at.
             </p>
           </div>
         </section>
@@ -143,7 +143,7 @@ export default function BestPilatesJumpboardPage() {
 
             <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.3)" }}>
               <p className="text-sm font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>What about AeroPilates and Align Pilates jumpboards?</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>An earlier version of this guide listed an &quot;AeroPilates Cardio Rebounder&quot; and an &quot;Align Pilates Jumpboard.&quot; We could not find live, currently-sold Amazon listings for either under those names, so both have been removed rather than pointed at a generic search result. If you own an AeroPilates or Align reformer and want a jumpboard-style accessory, check directly with the manufacturer or an authorised dealer.</p>
+              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>You may see an &quot;AeroPilates Cardio Rebounder&quot; or an &quot;Align Pilates Jumpboard&quot; mentioned in searches, but we could not find live, currently-sold Amazon listings for either under those names, so we don&apos;t link to them here. If you own an AeroPilates or Align reformer and want a jumpboard-style accessory, check directly with the manufacturer or an authorised dealer.</p>
             </div>
 
             <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>

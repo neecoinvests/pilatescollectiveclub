@@ -28,7 +28,7 @@ const PRODUCTS = [
     name: "Balanced Body Studio Reformer (Revo Footbar)",
     price: "$4,700",
     verdict: "The real Balanced Body flagship sold on Amazon",
-    description: "A note before anything else: this is often searched for as the \"Allegro 2,\" but that model is not a live Amazon listing — we checked and found no working offer for it. The Balanced Body reformer genuinely sold on Amazon, made to order and shipped by Balanced Body, is the Studio Reformer with the Revo footbar. It carries a Strata rock maple frame, five Signature Springs, and full tower compatibility — the same machine that populates certification centres and clinics. One important correction to older coverage of this category: the Studio Reformer does not fold. It is a permanent-installation machine, not a fold-and-store option, so plan floor space accordingly before ordering.",
+    description: "First, a naming note: this is often searched for as the \"Allegro 2,\" but that model is not a live Amazon listing — we checked and found no working offer for it. The Balanced Body reformer genuinely sold on Amazon, made to order and shipped by Balanced Body, is the Studio Reformer with the Revo footbar. It carries a Strata rock maple frame, five Signature Springs, and full tower compatibility — the same machine that populates certification centres and clinics. Worth knowing up front: the Studio Reformer does not fold. It is a permanent-installation machine, not a fold-and-store option, so plan floor space accordingly before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
     tag: "The Real Listing",
   },
@@ -159,7 +159,7 @@ export default function BalancedBodyStudioReformerReviewPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              This machine is often searched for as the &quot;Allegro 2,&quot; but we could not find a live Amazon listing under that name. The Balanced Body reformer that is genuinely sold on Amazon, direct from Balanced Body, is the Studio Reformer with the Revo footbar, at $4,700. This review covers that real listing honestly: what it actually offers, one important correction — it does not fold — and how it compares to Merrithew.
+              This machine is often searched for as the &quot;Allegro 2,&quot; but we could not find a live Amazon listing under that name. The Balanced Body reformer that is genuinely sold on Amazon, direct from Balanced Body, is the Studio Reformer with the Revo footbar, at $4,700. This review covers that real listing honestly: what it actually offers, one important limitation — it does not fold — and how it compares to Merrithew.
             </p>
           </div>
         </section>
@@ -190,7 +190,7 @@ export default function BalancedBodyStudioReformerReviewPage() {
                 The Strata rock maple frame is the machine that populates certification centres and clinics, which is the strongest evidence of its build quality: it is the reformer a huge number of instructors trained on before ever considering one for home use. Five Signature Springs cover the resistance range end to end, and full tower compatibility means the machine can grow into a more complete apparatus station without needing to be replaced. This is the same positioning the Allegro line has historically held in Balanced Body&apos;s catalogue — the professional-grade reference machine — but it is important to be precise about which specific model that actually maps to on Amazon today, because product names in this category change and older reviews have not always kept up.
               </p>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Here is the correction that matters most: this machine does not fold. It is a permanent-installation reformer, made to order, and it needs a dedicated footprint rather than wall storage space. If you came to this page expecting an upright-folding, wall-stored machine — a description that circulated for the &quot;Allegro 2&quot; — that description does not apply to the Studio Reformer, and we could not verify it applies to any current Balanced Body Amazon listing. Plan your space around a permanent installation before you order.
+                Here is the point that matters most: this machine does not fold. It is a permanent-installation reformer, made to order, and it needs a dedicated footprint rather than wall storage space. If you came to this page expecting an upright-folding, wall-stored machine — a description that circulated for the &quot;Allegro 2&quot; — that description does not apply to the Studio Reformer, and we could not verify it applies to any current Balanced Body Amazon listing. Plan your space around a permanent installation before you order.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Balanced Body has built accessories for this platform for decades, and that is where the real, verifiable advantage over smaller brands shows up: sitting boxes, jumpboards, platform extenders and replacement parts are widely stocked and easy to source years after purchase. As a practitioner&apos;s practice deepens, the Studio Reformer accommodates tower work and box series without needing to replace the machine.
@@ -216,7 +216,7 @@ export default function BalancedBodyStudioReformerReviewPage() {
               <ul className="space-y-5">
                 {[
                   "$4,700 for the reformer alone, before the box, jumpboard and other accessories most buyers end up adding. Budget several hundred dollars more for a realistic complete setup.",
-                  "It does not fold. Unlike what older coverage of this category implied, this is a permanent-installation machine, not a fold-and-store option — a genuine constraint in a small apartment or multi-use room.",
+                  "It does not fold. This is a permanent-installation machine, not a fold-and-store option — a genuine constraint in a small apartment or multi-use room.",
                   "Made to order, so expect a lead time rather than immediate delivery — plan your purchase timeline accordingly.",
                   "No instruction included. This is professional apparatus; Balanced Body assumes buyers know how to use it or will get instruction separately.",
                   "Assembly takes real time and is best done with two people, which is standard for professional-grade reformers generally.",

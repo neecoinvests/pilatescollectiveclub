@@ -33,7 +33,7 @@ const MODELS = [
     name: "Elina Pilates Elite Wood Reformer",
     verdict: "The brand's best-known model — not a verified Amazon listing",
     description:
-      "The Elite Wood Reformer is the model most associated with Elina's growth in the boutique studio and home practitioner market — a solid wood frame, offered in multiple finish options, that gives it a furniture-appropriate look contemporary steel-and-upholstery reformers don't have. We could not find a live, genuine Elina listing for this model on Amazon — the search link that previously sat here did not resolve to a real, purchasable product, so we've removed it rather than send you to a dead end. Treat spring count, carriage bearings, and upholstery specifics as manufacturer-published claims to confirm with an authorised Elina dealer, not facts we've independently verified.",
+      "The Elite Wood Reformer is the model most associated with Elina's growth in the boutique studio and home practitioner market — a solid wood frame, offered in multiple finish options, that gives it a furniture-appropriate look contemporary steel-and-upholstery reformers don't have. We could not find a live, genuine Elina listing for this model on Amazon, so there's no buy link here — get a quote from an authorised Elina dealer instead. Treat spring count, carriage bearings, and upholstery specifics as manufacturer-published claims to confirm with an authorised Elina dealer, not facts we've independently verified.",
     tag: "Editor's Pick",
   },
   {
@@ -41,7 +41,7 @@ const MODELS = [
     name: "Elina Pilates Elite Reformer (Aluminium)",
     verdict: "The commercial studio variant — not a verified Amazon listing",
     description:
-      "Described by Elina as the aluminium-frame, commercial-studio version of the Elite line, positioned for higher-volume daily use. As with the wood model, we could not find a live Amazon listing for it, and the search link that previously sat here has been removed. If you're considering it for a studio fleet, get current specs and pricing directly from Elina or an authorised dealer rather than from a page like this one.",
+      "Described by Elina as the aluminium-frame, commercial-studio version of the Elite line, positioned for higher-volume daily use. As with the wood model, we could not find a live Amazon listing for it. If you're considering it for a studio fleet, get current specs and pricing directly from Elina or an authorised dealer rather than from a page like this one.",
     tag: "Best for Studios",
   },
   {
@@ -49,7 +49,7 @@ const MODELS = [
     name: "Elina Pilates HL1 Aluminum Reformer",
     verdict: "The brand's entry model — ASIN could not be verified",
     description:
-      "Positioned by Elina as its entry-level aluminium reformer. An ASIN was previously listed here, but it is not among the Amazon listings we were able to independently verify, so we're not asserting it as a live, purchasable product — do not treat it as confirmed. If you want Elina's published feature list (wheel count, footbar, spring set), get it from Elina or an authorised dealer and confirm current Amazon availability yourself before buying.",
+      "Positioned by Elina as its entry-level aluminium reformer. We could not independently verify a live Amazon listing for it, so we're not asserting it as a purchasable product on Amazon — do not treat any listing you find as confirmed. If you want Elina's published feature list (wheel count, footbar, spring set), get it from Elina or an authorised dealer and confirm current Amazon availability yourself before buying.",
     tag: "Best Entry Elina",
   },
   {
@@ -57,7 +57,7 @@ const MODELS = [
     name: "Elina Pilates Elite Cadillac Reformer Combo",
     verdict: "Reformer/Cadillac combo unit — not a verified Amazon listing",
     description:
-      "Marketed by Elina as a combined reformer-and-tower unit for a complete apparatus repertoire in one footprint. We could not find a live Amazon listing for it, and the search link that previously sat here has been removed. Combination units are a real product category across several brands, but get a verified, current listing before treating any specific claim about this one as fact.",
+      "Marketed by Elina as a combined reformer-and-tower unit for a complete apparatus repertoire in one footprint. We could not find a live Amazon listing for it. Combination units are a real product category across several brands, but get a verified, current listing before treating any specific claim about this one as fact.",
     tag: "Complete Apparatus",
   },
   {
@@ -65,7 +65,7 @@ const MODELS = [
     name: "Elina Pilates Baby Chair",
     verdict: "A compact Wunda-style chair — ASIN could not be verified",
     description:
-      "Described by Elina as a compact chair matching the Elite Wood Reformer's finishes. An ASIN was previously listed here, but it is not among the Amazon listings we were able to independently verify, so we've removed the buy link rather than assert it. If a Wunda-style chair is what you actually want and Amazon availability matters to you, the Balanced Body EXO Pilates Chair is a real, currently-sold alternative — a single-pedal chair, not Elina-branded, at $1,255.",
+      "Described by Elina as a compact chair matching the Elite Wood Reformer's finishes. We could not independently verify a live Amazon listing for it, so there's no buy link here. If a Wunda-style chair is what you actually want and Amazon availability matters to you, the Balanced Body EXO Pilates Chair is a real, currently-sold alternative — a single-pedal chair, not Elina-branded, at $1,255.",
     tag: "Best Companion",
     affiliateUrl: "https://www.amazon.com/dp/B002XVZVRQ?tag=pilatescollective-20",
     price: "$1,255 (Balanced Body alternative)",

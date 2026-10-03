@@ -29,7 +29,7 @@ const PRODUCTS = [
     price: "$439.99",
     verdict: "Best genuine spring reformer under $500",
     tag: "Top Pick",
-    description: "A note before anything else: an earlier version of this guide claimed there was exactly one genuine reformer under $500 and that it used cord resistance. That was too narrow — a fresh check against live Amazon listings turned up a real tier of budget, generic-brand full reformers with actual carriage-and-rail spring construction. The PAETA 86\" is the strongest of them: a reinforced carbon steel frame rated to 400lb, dual resistance combining springs and cords, adjustable shoulder rests, and a stated 10,000+ use durability test, shipped with its own box. PAETA is not an established Pilates equipment maker — there's no instructor-recognized track record and no long warranty history to point to — but this is a genuine spring-and-cord carriage reformer, not a cord-only toy, and it is currently sold live on Amazon at $439.99.",
+    description: "Genuine spring reformers do exist under $500: live Amazon listings include a real tier of budget, generic-brand full reformers with actual carriage-and-rail spring construction. The PAETA 86\" is the strongest of them: a reinforced carbon steel frame rated to 400lb, dual resistance combining springs and cords, adjustable shoulder rests, and a stated 10,000+ use durability test, shipped with its own box. PAETA is not an established Pilates equipment maker — there's no instructor-recognized track record and no long warranty history to point to — but this is a genuine spring-and-cord carriage reformer, not a cord-only toy, and it is currently sold live on Amazon at $439.99.",
     affiliateUrl: "https://www.amazon.com/dp/B0G1YL9QTN?tag=pilatescollective-20",
   },
   {
@@ -133,7 +133,7 @@ export default function BestPilatesReformerUnder500Page() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              An earlier version of this guide said the AeroPilates 287 was the only genuine reformer under $500. That was too narrow: a fresh check against live Amazon listings turned up a real tier of generic-brand full reformers — WINDFOOT and DWKWE — that use actual coil-spring or spring-and-cord carriage resistance, not just elastic cords. We&apos;ve rebuilt this guide around all three real options: two genuine spring reformers from unfamiliar brands, and the AeroPilates cord machine from an established one. None of them is equivalent to a $2,000+ studio-grade machine, but under $500, this is the honest, complete picture of what&apos;s actually for sale.
+              Genuine spring reformers do exist under $500. Live Amazon listings include a real tier of generic-brand full reformers — WINDFOOT and DWKWE — that use actual coil-spring or spring-and-cord carriage resistance, not just elastic cords. This guide covers all three real options: two genuine spring reformers from unfamiliar brands, and the AeroPilates 287 cord machine from an established one. None of them is equivalent to a $2,000+ studio-grade machine, but under $500, this is the honest, complete picture of what&apos;s actually for sale.
             </p>
           </div>
         </section>

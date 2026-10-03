@@ -34,7 +34,7 @@ const PRODUCTS = [
     price: "$849.99",
     verdict: "Best fully equipped genuine spring reformer under $2,000",
     description:
-      "A note before anything else: an earlier version of this guide said verified data supported zero genuine spring reformers under $2,000. That was wrong — a fresh check against live Amazon listings found a real tier of budget, generic-brand full reformers with genuine spring construction, several of them well under $2,000. This PAETA model is the most complete: a solid oak frame, 500lb capacity, and a full accessory set included — adjustable headrest, shoulder pads, sitting box, and jump board. PAETA is a generic brand without an established reputation among instructors, so treat long-term durability and warranty claims with appropriate caution — but this is a genuine, well-equipped spring reformer, not a cord machine, at $849.99.",
+      "Genuine spring reformers do exist under $2,000: live Amazon listings include a real tier of budget, generic-brand full reformers with genuine spring construction, several of them well under $2,000. This PAETA model is the most complete: a solid oak frame, 500lb capacity, and a full accessory set included — adjustable headrest, shoulder pads, sitting box, and jump board. PAETA is a generic brand without an established reputation among instructors, so treat long-term durability and warranty claims with appropriate caution — but this is a genuine, well-equipped spring reformer, not a cord machine, at $849.99.",
     affiliateUrl: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
     tag: "Best Equipped",
   },
@@ -169,7 +169,7 @@ export default function BestPilatesReformerUnder2000Page() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A correction first: an earlier version of this guide said verified data supported zero genuine spring reformers under $2,000, and listed only two AeroPilates cord machines. That was too narrow — a fresh check against live Amazon listings found a real tier of budget, generic-brand full reformers (WINDFOOT, DWKWE, and three PAETA models) with genuine coil-spring construction, ranging from $295.99 to $849.99. This guide now covers all six genuine, currently-sold reformers under $2,000, plus the established-brand spring reformers that start just above this budget.
+              Genuine spring reformers do exist under $2,000 — well under it, in fact. Live Amazon listings include a real tier of budget, generic-brand full reformers (WINDFOOT, DWKWE, and three PAETA models) with genuine coil-spring construction, ranging from $295.99 to $849.99. This guide covers all six genuine, currently-sold reformers under $2,000, plus the established-brand spring reformers that start just above this budget.
             </p>
           </div>
         </section>
@@ -220,9 +220,9 @@ export default function BestPilatesReformerUnder2000Page() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What we got wrong before, and the honest picture now</h2>
+              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Budget spring reformers vs. established brands</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Worth saying plainly: an earlier version of this guide claimed we could not verify any genuine spring reformer under $2,000, based on only checking established brands like Balanced Body, Merrithew and Align-Pilates. That conclusion was too narrow. A broader check of live Amazon listings found a real tier of generic and dropship-brand reformers — WINDFOOT, DWKWE, and PAETA — that use genuine coil-spring or spring-plus-cord carriage construction, not cords alone, all priced between $295.99 and $849.99.
+                Worth saying plainly: if you only look at established brands like Balanced Body, Merrithew and Align-Pilates, you won&apos;t find a genuine spring reformer under $2,000. Look more broadly at live Amazon listings and there is a real tier of generic and dropship-brand reformers — WINDFOOT, DWKWE, and PAETA — that use genuine coil-spring or spring-plus-cord carriage construction, not cords alone, all priced between $295.99 and $849.99.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 These are real, currently-sold, full carriage-and-rail reformers — genuine Pilates reformers, not toys. But they come from brands without instructor recognition, certification, or a long warranty history, and we can&apos;t independently verify how they hold up over years of regular use. If an established brand&apos;s track record matters more to you than saving over $1,000, the cheapest genuine spring reformer we could verify from a recognised maker is the Balanced Body Metro IQ at $2,330 — see the table below.

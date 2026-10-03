@@ -41,7 +41,7 @@ const PRODUCTS = [
     name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"",
     price: "$299.99",
     verdict: "Best Genuine Spring Reformer to Gift",
-    description: "A note before anything else: an earlier version of this guide said a full reformer under $500 didn't genuinely exist and pivoted entirely to accessory gifts. That was wrong — a fresh check against live Amazon listings found a real tier of budget, generic-brand full reformers with genuine spring resistance, not just cord machines. The DWKWE is one of them: a reinforced metal frame with a height-adjustable footbar, spring-plus-latex dual resistance, and a jump board and headrest included, at $299.99. It's a genuine carriage-and-rail reformer from a third-party seller rather than an established Pilates brand, so we can't vouch for long-term durability or after-sale support — but it delivers real spring resistance, a genuinely bigger gift than a cord machine or an accessory.",
+    description: "A full reformer is a realistic gift under $500: live Amazon listings include a real tier of budget, generic-brand full reformers with genuine spring resistance, not just cord machines. The DWKWE is one of them: a reinforced metal frame with a height-adjustable footbar, spring-plus-latex dual resistance, and a jump board and headrest included, at $299.99. It's a genuine carriage-and-rail reformer from a third-party seller rather than an established Pilates brand, so we can't vouch for long-term durability or after-sale support — but it delivers real spring resistance, a genuinely bigger gift than a cord machine or an accessory.",
     affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
   },
   {
@@ -104,8 +104,8 @@ const PRODUCTS = [
 
 const CRITERIA = [
   {
-    heading: "There are real full reformers to gift under $500 now",
-    body: "The DWKWE ($299.99) and WINDFOOT ($295.99) are genuine, currently-sold full carriage-and-rail reformers with real spring resistance, not cord-only machines — an earlier version of this guide missed them. Both come from generic brands without an established track record, so pair the gift with clear expectations about that tradeoff.",
+    heading: "There are real full reformers to gift under $500",
+    body: "The DWKWE ($299.99) and WINDFOOT ($295.99) are genuine, currently-sold full carriage-and-rail reformers with real spring resistance, not cord-only machines. Both come from generic brands without an established track record, so pair the gift with clear expectations about that tradeoff.",
   },
   {
     heading: "Springs vs. established brand is the real choice",
@@ -207,7 +207,7 @@ export default function Page() {
             Best Pilates Reformer Gift<br />Under $500
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            An earlier version of this guide said a full reformer under $500 didn&apos;t genuinely exist and pivoted entirely to accessories. That was wrong: the DWKWE and WINDFOOT are both real, currently-sold full reformers with genuine spring resistance, under $300 each. This guide now covers those two, plus the established-brand AeroPilates 287, so you can gift either a genuine spring reformer from an unfamiliar name or a cord machine from a brand the recipient may already trust — with real, well-priced accessory gifts alongside for someone who already owns a machine.
+            A full reformer is a realistic gift under $500: the DWKWE and WINDFOOT are both real, currently-sold full reformers with genuine spring resistance, under $300 each. This guide covers those two, plus the established-brand AeroPilates 287, so you can gift either a genuine spring reformer from an unfamiliar name or a cord machine from a brand the recipient may already trust — with real, well-priced accessory gifts alongside for someone who already owns a machine.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ All under $500</span>

@@ -33,7 +33,7 @@ const PRODUCTS = [
     price: "From $8,995",
     verdict: "Best professional Megaformer — the studio standard",
     description:
-      "The Lagree Fitness M3S is the current commercial flagship from Sebastien Lagree's brand and the machine used across licensed Lagree Method studios. Note before anything else: the Megaformer itself is not sold on Amazon (only The Micro and its accessories are, below) — this link goes to Lagree Fitness, and we could not independently verify detailed engineering specifics (exact footprint, spring calibration changes generation to generation, carriage-runner materials) beyond what Lagree Fitness publishes itself. What we can say plainly: it is a real, current commercial machine used in professional studios, sold direct through Lagree Fitness or an authorized dealer, and it requires dedicated studio floor space. For practitioners opening a Lagree-licensed studio or investing in the highest-quality home machine, contact Lagree Fitness directly for current commercial and home pricing and exact specifications rather than relying on figures quoted secondhand.",
+      "The Lagree Fitness M3S is the current commercial flagship from Sebastien Lagree's brand and the machine used across licensed Lagree Method studios. Worth knowing up front: the Megaformer itself is not sold on Amazon (only The Micro and its accessories are, below) — this link goes to Lagree Fitness, and we could not independently verify detailed engineering specifics (exact footprint, spring calibration changes generation to generation, carriage-runner materials) beyond what Lagree Fitness publishes itself. What we can say plainly: it is a real, current commercial machine used in professional studios, sold direct through Lagree Fitness or an authorized dealer, and it requires dedicated studio floor space. For practitioners opening a Lagree-licensed studio or investing in the highest-quality home machine, contact Lagree Fitness directly for current commercial and home pricing and exact specifications rather than relying on figures quoted secondhand.",
     affiliateUrl: "https://www.lagreefitness.com/megaformer",
     tag: "Studio Standard",
   },
@@ -75,7 +75,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Megaformer Machine (2026): Lagree Equipment, Honestly Assessed",
-      "description": "The genuine Lagree Fitness machines and the one real Pilates reformer alternative we could verify — a fabricated \"Align Pilates F3\" and an unbranded third-party search link have been removed.",
+      "description": "The genuine Lagree Fitness machines and the one real Pilates reformer alternative we could verify as a real, live Amazon listing.",
       "url": "https://pilatescollectiveclub.com/blog/best-megaformer-machine",
       "datePublished": "2026-06-28",
       "dateModified": "2026-09-28",
@@ -138,7 +138,7 @@ export default function BestMegaformerMachinePage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Megaformer is not a Pilates reformer — it is the proprietary equipment of the Lagree Method, designed for slow-tempo eccentric loading, continuous time under tension, and multi-muscle compound positions that classical Pilates apparatus work does not program. An earlier version of this guide included a fabricated &quot;Align Pilates F3&quot; reformer and a generic third-party Amazon search link — neither could be verified as real, specific products, and both have been removed. If you have taken a Lagree class at a boutique studio and want to replicate that training at home, or you are opening a studio and need to understand the commercial equipment landscape, this guide covers the genuine Lagree Fitness machines — including The Micro, which Lagree Fitness sells through its own Amazon store — and the one professional Pilates reformer we could verify as a real, live Amazon listing for hybrid-style training.
+              The Megaformer is not a Pilates reformer — it is the proprietary equipment of the Lagree Method, designed for slow-tempo eccentric loading, continuous time under tension, and multi-muscle compound positions that classical Pilates apparatus work does not program. If you have taken a Lagree class at a boutique studio and want to replicate that training at home, or you are opening a studio and need to understand the commercial equipment landscape, this guide covers the genuine Lagree Fitness machines — including The Micro, which Lagree Fitness sells through its own Amazon store — and the one professional Pilates reformer we could verify as a real, live Amazon listing for hybrid-style training.
             </p>
           </div>
         </section>

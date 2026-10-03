@@ -65,7 +65,7 @@ const PRODUCTS = [
     name: "Merrithew At Home SPX Reformer Package",
     price: "$3,349",
     verdict: "Best Studio-Quality Gift",
-    description: "Merrithew is the professional studio brand behind STOTT PILATES — the method taught in widely certified training programmes. The At Home SPX Reformer Package is the real SPX-family machine Merrithew sells on Amazon, with a genuine coil-spring system built around five colour-coded springs with fine gradation at the light end. We could not verify a folding or space-saving feature for this listing — an earlier version of this guide claimed it folds, and that claim did not hold up, so don't assume it stores away. For someone who has trained in a real pilates studio and knows what good equipment feels like, this is a reformer built to a standard they'll recognise. A gift at this price communicates genuine understanding of the practice.",
+    description: "Merrithew is the professional studio brand behind STOTT PILATES — the method taught in widely certified training programmes. The At Home SPX Reformer Package is the real SPX-family machine Merrithew sells on Amazon, with a genuine coil-spring system built around five colour-coded springs with fine gradation at the light end. We could not verify a folding or space-saving feature for this listing, so don't assume it stores away. For someone who has trained in a real pilates studio and knows what good equipment feels like, this is a reformer built to a standard they'll recognise. A gift at this price communicates genuine understanding of the practice.",
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
   },
   {

@@ -34,7 +34,7 @@ const PRODUCTS = [
     price: "$3,710",
     verdict: "Widest carriage among machines actually sold on Amazon",
     description:
-      "A note before anything else: this guide previously named a \"Balanced Body Allegro 2\" as the top pick. We could not find a live Amazon listing for that model, so it has been removed. The real Balanced Body machine with the widest carriage actually sold on Amazon is the Allegro Stretch — 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. Anodized aluminium frame, TwistLock shoulder rests. We could not independently verify an exact height cutoff for comfortable use, so confirm carriage and rail dimensions against your own height on the current listing before ordering.",
+      "Worth knowing up front: you'll see a \"Balanced Body Allegro 2\" in searches, but we could not find a live Amazon listing for that model. The real Balanced Body machine with the widest carriage actually sold on Amazon is the Allegro Stretch — 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. Anodized aluminium frame, TwistLock shoulder rests. We could not independently verify an exact height cutoff for comfortable use, so confirm carriage and rail dimensions against your own height on the current listing before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -54,7 +54,7 @@ const PRODUCTS = [
     price: "$8,199",
     verdict: "The real V2 Max-family machine sold on Amazon",
     description:
-      "An earlier version of this article named a plain \"Merrithew V2 Max\" at a lower price — that studio-line model is sold through Merrithew and dealers, not as a standalone Amazon listing. The V2 Max-family machine genuinely sold on Amazon is the Rehab V2 Max Plus: a raised frame, wider carriage than the SPX line, a built-in Vertical Frame, and a patented retractable rope system that keeps rope length adjustable — useful if fixed-length ropes have been a problem for you on other machines. It is a significant step up in price from the machines above; it's included here because it's the real, live Amazon listing in Merrithew's wider-carriage range, not because it's the best value for most tall practitioners.",
+      "You'll also see a plain \"Merrithew V2 Max\" at a lower price — that studio-line model is sold through Merrithew and dealers, not as a standalone Amazon listing. The V2 Max-family machine genuinely sold on Amazon is the Rehab V2 Max Plus: a raised frame, wider carriage than the SPX line, a built-in Vertical Frame, and a patented retractable rope system that keeps rope length adjustable — useful if fixed-length ropes have been a problem for you on other machines. It is a significant step up in price from the machines above; it's included here because it's the real, live Amazon listing in Merrithew's wider-carriage range, not because it's the best value for most tall practitioners.",
     affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
     tag: "Widest Merrithew Carriage",
   },

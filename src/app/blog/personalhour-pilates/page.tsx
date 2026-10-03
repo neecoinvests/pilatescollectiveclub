@@ -160,7 +160,7 @@ export default function PersonalHourPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              PersonalHour has built a following in the home reformer market by committing to solid wood in its frames rather than the aluminium or engineered composites most competitors use at this price tier. We verified six genuine, currently-sold Amazon listings across the full range, from the $1,415.51 Zous Pro up to the $2,690 Nano Elite Plus, all sold by PilatesUS. This guide covers the real range as it exists on Amazon today, rather than the single model an earlier version of this review was limited to.
+              PersonalHour has built a following in the home reformer market by committing to solid wood in its frames rather than the aluminium or engineered composites most competitors use at this price tier. We verified six genuine, currently-sold Amazon listings across the full range, from the $1,415.51 Zous Pro up to the $2,690 Nano Elite Plus, all sold by PilatesUS. This guide covers the real range as it exists on Amazon today.
             </p>
           </div>
         </section>

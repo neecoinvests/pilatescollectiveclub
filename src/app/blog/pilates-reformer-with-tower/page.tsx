@@ -159,7 +159,7 @@ export default function PilatesReformerWithTowerPage() {
                   },
                   {
                     heading: "Space requirements",
-                    body: "We could not independently verify specific floor-space or ceiling-height figures for a reformer-and-tower setup, and an earlier version of this article stated precise numbers we can no longer stand behind. Check the manufacturer's current specifications for the exact machine you're considering before measuring your room.",
+                    body: "We could not independently verify specific floor-space or ceiling-height figures for a reformer-and-tower setup, so we don't quote precise numbers here. Check the manufacturer's current specifications for the exact machine you're considering before measuring your room.",
                   },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

@@ -34,7 +34,7 @@ const PRODUCTS = [
     price: "$295.99",
     verdict: "Cheapest genuinely foldable option, smallest stored footprint",
     description:
-      "A fresh check of the live Amazon catalog turned up a real tier of budget, generic-brand full reformers that an earlier pass on this guide missed entirely. WINDFOOT is the cheapest of them and, for a genuinely small space, arguably the most relevant: a real, live, currently-sold Amazon listing at $295.99, sold by YIWU MUZHU, describing a genuine carriage-and-rail spring reformer that's pre-assembled roughly 90% out of the box (a 5–10 minute setup), with a padded rebounder for cardio and a non-slip leather surface, and folds for storage. It's a generic brand with no established track record, no instructor certification recognition, and unclear long-term durability or warranty support — but for a small apartment on a tight budget, it's a real reformer that actually folds away.",
+      "The live Amazon catalog includes a real tier of budget, generic-brand full reformers. WINDFOOT is the cheapest of them and, for a genuinely small space, arguably the most relevant: a real, live, currently-sold Amazon listing at $295.99, sold by YIWU MUZHU, describing a genuine carriage-and-rail spring reformer that's pre-assembled roughly 90% out of the box (a 5–10 minute setup), with a padded rebounder for cardio and a non-slip leather surface, and folds for storage. It's a generic brand with no established track record, no instructor certification recognition, and unclear long-term durability or warranty support — but for a small apartment on a tight budget, it's a real reformer that actually folds away.",
     affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
     tag: "Best Budget Fold",
   },
@@ -64,7 +64,7 @@ const PRODUCTS = [
     price: "$3,349",
     verdict: "Best compact studio-grade reformer",
     description:
-      "The At Home SPX Reformer Package is the real SPX-family machine Merrithew sells on Amazon — a genuine coil-spring system with Merrithew's build quality. Merrithew markets it as sized to fit along a wall in most bedrooms rather than requiring a dedicated studio room, though we could not independently verify exact footprint dimensions. It does not fold — an earlier version of this guide claimed otherwise, and that claim did not hold up, so treat any folding claim for this machine as unverified.",
+      "The At Home SPX Reformer Package is the real SPX-family machine Merrithew sells on Amazon — a genuine coil-spring system with Merrithew's build quality. Merrithew markets it as sized to fit along a wall in most bedrooms rather than requiring a dedicated studio room, though we could not independently verify exact footprint dimensions. It does not fold — treat any folding claim you see for this machine as unverified.",
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
     tag: "Best Studio Quality",
   },
@@ -170,7 +170,7 @@ export default function BestPilatesReformerSmallSpacesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Space is the primary barrier between most practitioners and a home reformer. A standard studio reformer occupies a footprint the size of a twin bed — not viable in the average apartment bedroom or living room. Fortunately, the market for compact and foldable reformers has expanded significantly, and the best of them deliver performance indistinguishable from their full-size counterparts. An earlier version of this guide, drawing only on established brands, missed a genuine tier of budget generic-brand reformers that fold for storage at under $300 — a fresh check of the live Amazon catalog corrected that. This guide now covers the seven best options for practitioners whose space constraints are genuine rather than theoretical, spanning that budget folding tier through established-brand studio-grade machines.
+              Space is the primary barrier between most practitioners and a home reformer. A standard studio reformer occupies a footprint the size of a twin bed — not viable in the average apartment bedroom or living room. Fortunately, the market for compact and foldable reformers has expanded significantly, and the best of them deliver performance indistinguishable from their full-size counterparts. The market now includes a genuine tier of budget generic-brand reformers that fold for storage at under $300. This guide covers the seven best options for practitioners whose space constraints are genuine rather than theoretical, spanning that budget folding tier through established-brand studio-grade machines.
             </p>
           </div>
         </section>

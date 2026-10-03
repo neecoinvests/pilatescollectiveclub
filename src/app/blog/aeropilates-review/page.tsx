@@ -46,7 +46,7 @@ const PRODUCTS = [
     name: "AeroPilates 701 Premier Reformer",
     price: "$539.99",
     verdict: "Best mid-tier AeroPilates model",
-    description: "The 701 Premier is AeroPilates' mid-tier model, a real, live Amazon listing at $539.99 — sitting between the 287 and the Pro XP 557 on price. Like the rest of the range it uses elastic cord resistance rather than coil springs. An earlier version of this article described a separate \"5 Cord Reformer\" at a different ASIN; we could not verify that listing as genuinely current and have removed it. We also could not independently verify a specific cord count, weight capacity, or standing-platform inclusion for the 701 Premier — confirm those details on the current Amazon listing before buying rather than relying on a spec sheet quoted elsewhere.",
+    description: "The 701 Premier is AeroPilates' mid-tier model, a real, live Amazon listing at $539.99 — sitting between the 287 and the Pro XP 557 on price. Like the rest of the range it uses elastic cord resistance rather than coil springs. If you see a separate \"5 Cord Reformer\" in searches, we could not verify that listing as genuinely current. We also could not independently verify a specific cord count, weight capacity, or standing-platform inclusion for the 701 Premier — confirm those details on the current Amazon listing before buying rather than relying on a spec sheet quoted elsewhere.",
     affiliateUrl: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20",
     tag: "Mid-Tier",
   },
