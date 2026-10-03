@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Miami (2026)",
-    description: "Our curated guide to Miami's finest Pilates studios — five verified picks with booking tips.",
+    description: "Our curated guide to Miami's finest Pilates studios — six verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/miami" },
@@ -159,52 +159,52 @@ const GEAR = [
   {
     name: "Pilates Grip Socks",
     note: "Required at most reformer studios. Full-toe grip socks are the standard.",
-    price: "From $16",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
     note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
-    price: "From $52",
+    price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
     note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
-    price: "From $24",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands",
     note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
-    price: "From $22",
+    price: "From $10",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
     note: "Essential for fascial release and spinal mobility work before and after class.",
-    price: "From $32",
+    price: "From $13",
     url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
   },
   {
     name: "Home Pilates Reformer",
     note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "From $450",
+    price: "From $359",
     url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "The most accessible full-function reformer — four cords, a rebounder, and a frame that folds flat for storage.", price: "From $299", url: "https://www.amazon.com/s?k=stamina+aeropilates+287&tag=pilatescollective-20" },
-  { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "A smoother carriage, standing platform, and adjustable footbar for practitioners training several times a week.", price: "From $1,329", url: "https://www.amazon.com/s?k=aeropilates+pro+557&tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro 2", note: "The studio-grade machine serious home practitioners never need to replace — full spring system and fold-flat storage.", price: "From $3,995", url: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$359", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,330", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
-  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 5 },
-  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 5 },
-  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
-  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 5 },
+  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 6 },
+  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 6 },
+  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 6 },
+  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 6 },
 ];
 
 const FURTHER_READING = [
@@ -289,7 +289,7 @@ export default function MiamiPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Miami has always taken fitness seriously — but the city's Pilates scene has matured well beyond the beach-body culture of its past. A city that attracts international residents, professional athletes, and wellness-conscious visitors year-round has built a reformer studio market that is simultaneously premium, diverse, and surprisingly deep. From the classical lineage practices of Coconut Grove to the design-forward boutiques of Wynwood, Miami now offers serious Pilates across every neighbourhood and every level. This guide covers the five studios we rate most highly, with everything you need before booking.
+              Miami has always taken fitness seriously — but the city's Pilates scene has matured well beyond the beach-body culture of its past. A city that attracts international residents, professional athletes, and wellness-conscious visitors year-round has built a reformer studio market that is simultaneously premium, diverse, and surprisingly deep. From the classical lineage practices of Coconut Grove to the design-forward boutiques of Wynwood, Miami now offers serious Pilates across every neighbourhood and every level. This guide covers the six studios we rate most highly, with everything you need before booking.
             </p>
           </div>
         </section>

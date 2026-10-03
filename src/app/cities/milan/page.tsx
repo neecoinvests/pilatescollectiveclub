@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Milan (2026)",
     description:
-      "Find the best Pilates studios in Milan — five curated picks with booking tips for 2026.",
+      "Find the best Pilates studios in Milan — six curated picks with booking tips for 2026.",
     images: ["https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=1200&q=80"],
   },
   alternates: {
@@ -170,47 +170,47 @@ const GEAR = [
   {
     name: "Pilates Grip Socks",
     note: "Required at most reformer studios. Full-toe grip socks are the standard.",
-    price: "From $16",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
     note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
-    price: "From $52",
+    price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
     note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
-    price: "From $24",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands",
     note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
-    price: "From $22",
+    price: "From $10",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
     note: "Essential for fascial release and spinal mobility work before and after class.",
-    price: "From $32",
+    price: "From $13",
     url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
   },
   {
     name: "Home Pilates Reformer",
     note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "From $450",
+    price: "From $359",
     url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
   },
 ];
 
 
 const RELATED_CITIES = [
-  { city: "Rome", country: "Italy", href: "/cities/rome", studioCount: 5 },
-  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
-  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 5 },
-  { city: "Zurich", country: "Switzerland", href: "/cities/zurich", studioCount: 5 },
+  { city: "Rome", country: "Italy", href: "/cities/rome", studioCount: 6 },
+  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 6 },
+  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 6 },
+  { city: "Zurich", country: "Switzerland", href: "/cities/zurich", studioCount: 6 },
 ];
 
 const FURTHER_READING = [
@@ -295,7 +295,7 @@ export default function MilanPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Milan's wellness culture has matured considerably in recent years, and the city's Pilates scene is one of the most compelling in southern Europe. The same instinct for quality and aesthetics that drives Milan's fashion and design industries is increasingly visible in its studios — from the intimate private instruction ateliers of Moscova to the polished reformer boutiques of Brera. This guide covers the five studios that best represent the range and quality of what the city currently offers.
+              Milan's wellness culture has matured considerably in recent years, and the city's Pilates scene is one of the most compelling in southern Europe. The same instinct for quality and aesthetics that drives Milan's fashion and design industries is increasingly visible in its studios — from the intimate private instruction ateliers of Moscova to the polished reformer boutiques of Brera. This guide covers the six studios that best represent the range and quality of what the city currently offers.
             </p>
           </div>
         </section>

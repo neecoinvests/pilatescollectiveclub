@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in St. Louis, MO (2026) — Curated Guide",
-  description: "The best Pilates studios in St. Louis — reformer boutiques in Clayton, Webster Groves, and the Central West End. Six verified picks, 2026.",
+  description: "The best Pilates studios in St. Louis — reformer, Lagree and classical studios in Tower Grove, Brentwood, Ladue and the Central West End. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -51,74 +51,74 @@ const STUDIOS = [
   {
     number: "1",
     name: "The Pilates Center of St. Louis",
-    neighborhood: "Ladue",
+    neighborhood: "St. Louis County",
     priceLevel: "$$$",
-    review:
-      "The Pilates Center of St. Louis is one of the metro area's most enduring and respected Pilates practices — open since 2008, founded by master instructor Karen Prechtl, who has been in the fitness industry since 1980 and brings a depth of experience that is rare in any market. The studio offers a full apparatus program including Reformer, Tower, and Cadillac, alongside a complete Balanced Body Instructor Certification Program that speaks to the seriousness of its instructional standards. A Yelp Neighborhood Favorite with a 5.0 rating, reviewers consistently describe the studio as transformative — not a hyperbolic word when the instruction is this precise and personal.",
-    address: "9825 Clayton Rd, Saint Louis, MO 63124",
-    bestFor: "Classical apparatus Pilates, private and small-group sessions, instructor training",
-    signatureClass: "Reformer & Cadillac",
-    bookingTip: "The studio is appointment-driven — inquire about availability directly rather than expecting open online booking.",
+    review: "The Pilates Center of St. Louis teaches the method as developed by Joseph H. Pilates and is a member of the Pilates Method Alliance, making it one of the area's more traditional, education-focused studios.",
+    caveat: "we could not confirm the current street address independently — check pilatescenterstl.com or call before visiting.",
+    address: "—",
+    bestFor: "Traditional, education-focused Pilates",
+    signatureClass: "Classical Reformer",
+    bookingTip: "Call the studio to arrange a first session.",
   },
   {
     number: "2",
     name: "Club Pilates Brentwood",
     neighborhood: "Brentwood",
     priceLevel: "$$",
-    review:
-      "Club Pilates Brentwood is the most accessible franchise reformer option in the St. Louis market — a well-run studio with a wide daily schedule (6 am to 8:30 pm on weekdays), eleven class formats, and a membership pricing structure that makes regular attendance financially practical. Listed on ClassPass and Wellhub, it's compatible with a broad range of corporate wellness programs. The inner-ring Brentwood location is convenient for residents across south and central St. Louis and attracts a loyal base of regular practitioners who appreciate both the quality of instruction and the predictability of the class schedule.",
+    review: "Club Pilates Brentwood on South Brentwood Boulevard is a convenient inner-ring option for south and central St. Louis, with the brand's levelled group reformer system; it is bookable through ClassPass and Wellhub too.",
+    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
     address: "2535 S Brentwood Blvd, St. Louis, MO 63144",
-    bestFor: "Beginners to intermediate, wide schedule, ClassPass and Wellhub users",
+    bestFor: "Structured reformer classes in inner-ring St. Louis",
     signatureClass: "Reformer Flow",
-    bookingTip: "The free intro class is the smartest way to start — instructors use it to match you with the right progression track.",
+    bookingTip: "Use the intro offer before committing to a membership.",
   },
   {
     number: "3",
     name: "Freeman Pilates",
     neighborhood: "Tower Grove South",
     priceLevel: "$$$",
-    review:
-      "Freeman Pilates is one of St. Louis's most reviewed and recommended boutique studios — an intimate, instructor-led practice run by Emily Freeman in Tower Grove South, with a second location (Studio II by Freeman Pilates) in the Central West End. Classes are capped at four students, ensuring real individual attention rather than generic group instruction. The studio is consistently praised on both Yelp and ClassPass for attentive, corrective cueing and a clean, serene environment that reflects the seriousness with which Freeman approaches the method. An excellent choice for practitioners who want meaningful instruction in a small, focused setting.",
+    review: "Freeman Pilates is an intimate, instructor-led boutique studio on Morganford Road in Tower Grove South, with a second studio — Studio II by Freeman Pilates — on Washington Avenue. Reviewers on ClassPass praise its attentive, corrective cueing.",
+    caveat: "small classes mean limited spots — book ahead.",
     address: "3172 Morganford Rd, St. Louis, MO 63116",
-    bestFor: "Small-group instruction, private sessions, beginners and post-rehab clients",
-    signatureClass: "Reformer & Apparatus",
-    bookingTip: "Classes cap at 4 students — book several days ahead, especially for weekday morning slots.",
+    bestFor: "Small-group reformer with attentive cueing",
+    signatureClass: "Small Group Reformer",
+    bookingTip: "If Morganford is full, try Studio II at 4662 Washington Ave.",
   },
   {
     number: "4",
     name: "PLNK STL",
-    neighborhood: "Ladue Village",
+    neighborhood: "Ladue · Central West End · Town & Country",
     priceLevel: "$$$",
-    review:
-      "PLNK STL is St. Louis's premier Lagree Megaformer studio — the place for practitioners who want the precision and low-impact benefit structure of Pilates with significantly higher intensity. The flagship Lindbergh location has built one of the most-reviewed Lagree practices in the Midwest (53 Yelp reviews at its flagship, 41 at the Central West End location), with instructors consistently praised for their knowledge, energy, and ability to push clients past perceived limits safely. St. Louis Magazine covered PLNK's expansion to the CWE as a notable local fitness story — the studio has earned its following through real results.",
+    review: "PLNK opened in Ladue in 2016 and has grown into St. Louis's best-known Lagree studio, with a Central West End studio in the Citizen Park building (opened 2018) and a Town & Country location. Its 50-minute Lagree Method workouts combine cardio, strength, core, flexibility and balance.",
+    caveat: "Lagree is slower, heavier and sweatier than traditional Pilates.",
     address: "1560 S Lindbergh Blvd, Saint Louis, MO 63131",
-    bestFor: "High-intensity reformer, Lagree Megaformer, strength and conditioning",
-    signatureClass: "Lagree Megaformer",
-    bookingTip: "The Megaformer format is physically demanding — take the intro class before moving to regular sessions.",
+    bestFor: "Lagree Method workouts across three locations",
+    signatureClass: "Lagree (50 min)",
+    bookingTip: "If Ladue is full, check the CWE studio at 4647 Lindell Blvd.",
   },
   {
     number: "5",
     name: "Casa Di Pilates",
     neighborhood: "The Grove / Forest Park Southeast",
     priceLevel: "$$",
-    review:
-      "Casa Di Pilates is one of St. Louis's most distinctive newer studios — an Italian-inspired boutique space in the Grove neighborhood offering two formats not widely combined elsewhere in the city: Reformer Pilates and Infrared Hot Mat Pilates. The studio holds a 5.0 rating on both Yelp and Poyst, earned through small class sizes, genuinely warm instruction, and an atmosphere that makes practitioners feel immediately welcomed. The resident studio dog Milo is a noted fixture and a reliable indicator of the studio's community-first character. An excellent choice for clients who want a boutique experience at a more accessible price point than the classical studios.",
+    review: "Casa Di Pilates on South Kingshighway is a boutique studio in the Grove neighbourhood offering reformer Pilates, listed on ClassPass across several Pilates categories.",
+    caveat: "limited published detail about the instructors — try a single class first.",
     address: "1530 S Kingshighway Blvd, Suite 204, St. Louis, MO 63110",
-    bestFor: "Reformer and infrared hot mat, community atmosphere, accessible boutique pricing",
-    signatureClass: "Infrared Hot Mat Pilates",
-    bookingTip: "The hot mat classes require advance booking — space is limited and demand has grown significantly since opening.",
+    bestFor: "Boutique reformer in the Grove",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Compare the intro offer with a single class before buying a pack.",
   },
   {
     number: "6",
     name: "Studio Ivanhoe Pilates & Movement",
     neighborhood: "Lindenwood Park",
     priceLevel: "$$",
-    review:
-      "Studio Ivanhoe is one of the best-equipped independent studios in St. Louis — a 1,300-square-foot space with five Balanced Body Reformers with towers, a Cadillac/Reformer combo, wall towers, chairs, a ladder barrel, and a separate 400-square-foot hardwood studio for barre and mat classes. The Lindenwood Park location serves south St. Louis's residential community with the kind of full apparatus programming that is rare at this price point. Instructor Laura is consistently praised in reviews for her technical depth and genuine investment in client progress. One of the few south-city options offering the complete classical Pilates apparatus suite.",
+    review: "Studio Ivanhoe Pilates & Movement on Ivanhoe Avenue is an independent studio serving south St. Louis.",
+    caveat: "limited published detail about class formats — take an intro class first.",
     address: "3219 Ivanhoe Ave, St. Louis, MO 63139",
-    bestFor: "Full classical apparatus, barre, south St. Louis residents, intermediate practitioners",
-    signatureClass: "Classical Reformer & Barre",
-    bookingTip: "The full apparatus offering is underutilized — ask about Cadillac and chair sessions if you want to develop beyond reformer work.",
+    bestFor: "Independent Pilates in south St. Louis",
+    signatureClass: "Pilates Class",
+    bookingTip: "Contact the studio to find the right level.",
   },
 ];
 
@@ -172,39 +172,39 @@ const GEAR = [
   {
     name: "Pilates Grip Socks",
     note: "Required at every reformer studio in St. Louis. Full-toe grip socks are the universal standard.",
-    price: "From $16",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat (6mm)",
     note: "Essential for St. Louis's mat classes and home practice through the city's hot summers and cold winters.",
-    price: "From $52",
+    price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
     note: "Standard in St. Louis's classical studios. Useful for at-home reinforcement between sessions.",
-    price: "From $24",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
   {
     name: "Fabric Resistance Bands",
     note: "Versatile for home practice — particularly useful between the intensive sessions common at St. Louis's classical studios.",
-    price: "From $22",
+    price: "From $10",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
     note: "Post-class fascia release — a standard recovery tool across St. Louis's reformer and Megaformer studios.",
-    price: "From $32",
+    price: "From $13",
     url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "The most accessible full-function reformer — four cords, a rebounder, and a frame that folds flat for storage.", price: "From $299", url: "https://www.amazon.com/s?k=stamina+aeropilates+287&tag=pilatescollective-20" },
-  { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "A smoother carriage, standing platform, and adjustable footbar for practitioners training several times a week.", price: "From $1,329", url: "https://www.amazon.com/s?k=aeropilates+pro+557&tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro 2", note: "The studio-grade machine serious home practitioners never need to replace — full spring system and fold-flat storage.", price: "From $3,995", url: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$359", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,330", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -292,7 +292,7 @@ export default function StLouisPage() {
               Best Pilates Studios in St. Louis, MO
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               St. Louis has developed a quietly serious Pilates culture — one that spans the spectrum

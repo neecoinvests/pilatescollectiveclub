@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Dubai (2026) — Curated Guide",
-  description: "The best Pilates studios in Dubai — reformer boutiques in DIFC, Jumeirah, Dubai Marina, and Downtown. Five curated picks, verified October 2026.",
+  description: "The best Pilates studios in Dubai — reformer boutiques in DIFC, Jumeirah, Dubai Marina, and Downtown. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates dubai", "reformer pilates dubai", "best pilates studios dubai", "pilates studio dubai", "pilates difc", "pilates jumeirah", "pilates marina dubai", "pilates uae", "best reformer pilates dubai", "pilates classes dubai"],
   openGraph: {
     title: "Best Pilates Studios in Dubai (2026)",
-    description: "Five curated Pilates studios in Dubai — DIFC, Jumeirah, and Marina reformer picks. Verified October 2026.",
+    description: "Six curated Pilates studios in Dubai — DIFC, Jumeirah, and Marina reformer picks. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/dubai",
     images: [{ url: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80", width: 1200, height: 630, alt: "Dubai city guide — Pilates Collective Club" }],
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Dubai (2026)",
-    description: "Our curated guide to Dubai's finest Pilates studios — five verified picks with booking tips.",
+    description: "Our curated guide to Dubai's finest Pilates studios — six verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/dubai" },
@@ -163,47 +163,47 @@ const GEAR = [
   {
     name: "Pilates Grip Socks",
     note: "Required at most reformer studios. Full-toe grip socks are the standard.",
-    price: "From $16",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
     note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
-    price: "From $52",
+    price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
     note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
-    price: "From $24",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands",
     note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
-    price: "From $22",
+    price: "From $10",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
     note: "Essential for fascial release and spinal mobility work before and after class.",
-    price: "From $32",
+    price: "From $13",
     url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
   },
   {
     name: "Home Pilates Reformer",
     note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "From $450",
+    price: "From $359",
     url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
   },
 ];
 
 
 const RELATED_CITIES = [
-  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
-  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
-  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 5 },
-  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 5 },
+  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 6 },
+  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 6 },
+  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 6 },
+  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 6 },
 ];
 
 const FURTHER_READING = [
@@ -288,7 +288,7 @@ export default function DubaiPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Dubai has transformed into one of the Middle East's most ambitious wellness destinations, and its Pilates scene reflects that ambition fully. A city of high expectations and high standards, Dubai has attracted instructors and studio concepts from London, New York, and Sydney — producing a reformer market that is simultaneously premium, diverse, and competitive. From the financial towers of DIFC to the waterfront studios of Bluewaters Island, the city now offers world-class Pilates across neighbourhoods. This guide covers the five studios we rate most highly, with everything you need to know before booking.
+              Dubai has transformed into one of the Middle East's most ambitious wellness destinations, and its Pilates scene reflects that ambition fully. A city of high expectations and high standards, Dubai has attracted instructors and studio concepts from London, New York, and Sydney — producing a reformer market that is simultaneously premium, diverse, and competitive. From the financial towers of DIFC to the waterfront studios of Bluewaters Island, the city now offers world-class Pilates across neighbourhoods. This guide covers the six studios we rate most highly, with everything you need to know before booking.
             </p>
           </div>
         </section>

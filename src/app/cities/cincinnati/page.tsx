@@ -172,39 +172,39 @@ const GEAR = [
   {
     name: "Pilates Grip Socks",
     note: "Required at every reformer studio in Cincinnati. Full-toe grip socks are the universal standard.",
-    price: "From $16",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat (6mm)",
     note: "Essential for Cincinnati's mat classes and home practice through the city's winter and summer extremes.",
-    price: "From $52",
+    price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
     note: "Standard in Cincinnati's classical studios. Useful for at-home reinforcement between sessions.",
-    price: "From $24",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
   {
     name: "Fabric Resistance Bands",
     note: "Recommended by College Hill PT and classical studio instructors for targeted home practice.",
-    price: "From $22",
+    price: "From $10",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
     note: "Post-class fascia release — particularly valuable for therapeutic studio clients between appointments.",
-    price: "From $32",
+    price: "From $13",
     url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "The most accessible full-function reformer — four cords, a rebounder, and a frame that folds flat for storage.", price: "From $299", url: "https://www.amazon.com/s?k=stamina+aeropilates+287&tag=pilatescollective-20" },
-  { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "A smoother carriage, standing platform, and adjustable footbar for practitioners training several times a week.", price: "From $1,329", url: "https://www.amazon.com/s?k=aeropilates+pro+557&tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro 2", note: "The studio-grade machine serious home practitioners never need to replace — full spring system and fold-flat storage.", price: "From $3,995", url: "https://www.amazon.com/s?k=balanced+body+allegro+2+reformer&tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$359", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,330", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [

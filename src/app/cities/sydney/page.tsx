@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Sydney (2026) — Curated Guide",
-  description: "The best Pilates studios in Sydney — harbourside reformer boutiques in Bondi, Surry Hills, and the CBD. Five curated picks, verified June 2026.",
+  description: "The best Pilates studios in Sydney — reformer studios in Surry Hills, the North Shore, Manly and beyond. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates sydney", "reformer pilates sydney", "best pilates studios sydney", "pilates studio sydney", "pilates classes sydney", "bondi pilates", "surry hills pilates", "pilates sydney cbd", "best reformer pilates sydney", "pilates eastern suburbs sydney"],
   openGraph: {
     title: "Best Pilates Studios in Sydney (2026)",
-    description: "Five curated Pilates studios in Sydney — Bondi, Surry Hills, and CBD reformer picks. Verified June 2026.",
+    description: "Six curated Pilates studios in Sydney — Surry Hills, North Shore and Manly picks. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/sydney",
     images: [{ url: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80", width: 1200, height: 630, alt: "Sydney city guide — Pilates Collective Club" }],
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Sydney (2026)",
-    description: "Our curated guide to Sydney's finest Pilates studios — five verified picks with booking tips.",
+    description: "Our curated guide to Sydney's finest Pilates studios — six verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/sydney" },
@@ -37,70 +37,76 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Fluidform Pilates",
-    neighborhood: "Paddington",
-    priceLevel: "A$$$",
-    review: "Fluidform Pilates has earned a national reputation that extends well beyond its Paddington home, built on a distinctive method that integrates classical Pilates with contemporary movement science and a genuine commitment to intelligent body awareness. Founder Kirsten King's influence is felt throughout the studio — in the quality of the instructors she has trained, the programming architecture, and the considered way the space is designed and managed. The clientele is predominantly women in their thirties and forties who are serious about how they move and willing to invest accordingly. Paddington suits the brand: upscale without being ostentatious, neighbourhood-rooted without being provincial. The online platform has extended the method globally, but the studio sessions carry something extra.",
-    address: "—",
-    bestFor: "Signature Fluidform method, all levels",
-    signatureClass: "Fluidform Reformer",
-    bookingTip: "Book a full week ahead; the studio app shows cancellations in real time for waitlist opportunities",
+    name: "Studio Mouvoir",
+    neighborhood: "Surry Hills",
+    priceLevel: "$$$",
+    review: "Studio Mouvoir is the vision of friends Erin Brooks and Claire Victor, who brought together their love of fitness, design, food and community. It sits in the iconic Paramount building in Surry Hills and takes a fresh, progressive approach to Pilates.",
+    caveat: "a design-led boutique — expect boutique pricing.",
+    address: "Paramount Building, Surry Hills NSW",
+    bestFor: "Progressive reformer in Surry Hills",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Book ahead for after-work classes.",
   },
   {
     number: "02",
     name: "BodyMindLife",
     neighborhood: "Surry Hills",
-    priceLevel: "A$$$",
-    review: "BodyMindLife in Surry Hills is Sydney's most philosophically ambitious wellness studio — a space that takes the mind-body connection seriously as a teaching framework rather than using it as branding. The Pilates programme sits alongside yoga and meditation offerings in an integrated way that reflects genuine institutional conviction, and the instructors are selected for their capacity to work within that broader context. The Surry Hills space is beautiful in the way Sydney's best creative businesses tend to be: natural light, considered materials, and an atmosphere that encourages you to slow down and attend carefully. The clientele is educated, eclectic, and health-committed. Best for practitioners who want their Pilates to be part of something larger.",
-    address: "—",
-    bestFor: "Integrated mind-body Pilates",
-    signatureClass: "Reformer & Restore",
-    bookingTip: "Membership bundles across Pilates and yoga represent excellent value for regular practitioners",
+    priceLevel: "$$",
+    review: "BodyMindLife is a long-running Sydney yoga and Pilates studio on Elizabeth Street in Surry Hills.",
+    caveat: "a yoga-and-Pilates studio — check that your class is Pilates if that is what you want.",
+    address: "432–434 Elizabeth Street, Surry Hills NSW 2010",
+    bestFor: "Pilates alongside yoga in Surry Hills",
+    signatureClass: "Pilates",
+    bookingTip: "Check the timetable for Pilates-specific classes.",
   },
   {
     number: "03",
-    name: "Studio Mouvoir",
-    neighborhood: "Potts Point",
-    priceLevel: "A$$$",
-    review: "Studio Mouvoir occupies a refined Potts Point space and operates with the quiet intensity of a studio that knows exactly what it is doing. The teaching draws from a classical foundation with a strong dance influence — several instructors have professional performance backgrounds — and the emphasis on movement quality over volume is immediately apparent. Classes are small and sessions are sequenced with care, creating a coherent experience from warm-up through to completion that larger studios rarely manage. The Potts Point clientele is cosmopolitan and aesthetically attuned, and the studio's clean, European-influenced design sensibility resonates with them. A particularly good choice for practitioners who have plateaued elsewhere and need more sophisticated instruction.",
+    name: "Fluidform Pilates",
+    neighborhood: "Multiple Sydney locations",
+    priceLevel: "$$$",
+    review: "Fluidform Pilates is the creation of Kirsten King and operates studios across several locations, with a reputation for precise, sculpting reformer classes.",
+    caveat: "we could not confirm which studio is closest to you — check Fluidform's location list before booking.",
     address: "—",
-    bestFor: "Classical Pilates with dance influence",
-    signatureClass: "Reformer Classique",
-    bookingTip: "Small class sizes mean slots are limited; a recurring weekly booking is the most reliable strategy",
+    bestFor: "Sculpting reformer classes across Sydney",
+    signatureClass: "Fluidform Reformer",
+    bookingTip: "Pick the studio closest to home or work and book a few days ahead.",
   },
   {
     number: "04",
     name: "Mode Pilates",
-    neighborhood: "Newtown",
-    priceLevel: "A$$",
-    review: "Mode Pilates has become one of Newtown's most reliable fitness institutions — unpretentious, technically solid, and priced for a neighbourhood that values substance over status. The reformer classes are well-structured and the instructors are genuinely invested in client progression, which creates a loyalty loop that keeps the studio consistently full without needing to oversell itself. The atmosphere is relaxed and inclusive in the way the inner west tends to be: different bodies, different ages, different levels, all working in the same room without hierarchy. Mode suits people who want excellent Pilates without the premium-boutique theatre. An honest, high-quality studio that more than earns its strong local reputation.",
+    neighborhood: "North Sydney · Mosman · Manly",
+    priceLevel: "$$",
+    review: "Mode Pilates has studios in North Sydney, Mosman and Manly, where progressive Pilates meets barre and cardio.",
+    caveat: "a Pilates–barre–cardio blend rather than classical Pilates.",
     address: "—",
-    bestFor: "Accessible, quality reformer for all levels",
-    signatureClass: "Reformer Fundamentals & Flow",
-    bookingTip: "Walk-in availability is better here than at most Sydney studios; ClassPass credits accepted",
+    bestFor: "Pilates with barre and cardio on the North Shore",
+    signatureClass: "Progressive Pilates",
+    bookingTip: "If one studio is full, try another on the North Shore.",
   },
   {
     number: "05",
-    name: "KX Pilates",
-    neighborhood: "Bondi Junction",
-    priceLevel: "A$$$",
-    review: "KX Pilates is Australia's most recognisable reformer brand and the Bondi Junction studio is one of its strongest performing locations, serving a demographic that demands intensity and efficiency in roughly equal measure. The KX method is high-energy, music-led, and deliberately demanding — 50-minute classes designed to be metabolically challenging as well as Pilates-grounded. The instructors are uniformly upbeat and technically competent, managing large class sizes without allowing standards to slip. The Bondi Junction location draws from both the eastern suburbs fitness community and the CBD-adjacent professional crowd, creating a lively and motivating atmosphere. Best suited to practitioners who want their Pilates to double as cardio conditioning.",
-    address: "—",
-    bestFor: "High-energy group reformer",
-    signatureClass: "KX Reformer 50",
-    bookingTip: "The KX app is the fastest booking channel; Tuesday and Thursday evenings are the most competitive slots",
+    name: "Bodylove Pilates",
+    neighborhood: "Manly",
+    priceLevel: "$$",
+    review: "Bodylove Pilates on The Corso in Manly offers its Mindful Burn™ practice — a good option for northern beaches locals.",
+    caveat: "a signature method rather than classical Pilates.",
+    address: "The Corso, Manly NSW 2095",
+    bestFor: "The Mindful Burn™ in Manly",
+    signatureClass: "The Mindful Burn™",
+    bookingTip: "Pair an early class with a swim at Manly Beach.",
   },
   {
     number: "06",
-    name: "Bodylove Pilates",
-    neighborhood: "Manly",
-    priceLevel: "A$$",
-    review: "Bodylove Pilates has established itself as Manly's most trusted reformer studio, earning a devoted following in a neighbourhood where outdoor fitness culture could easily crowd out indoor movement practice. The studio's strength is its consistency: the instruction quality is reliably high, the programming is sensibly progressive, and the atmosphere is warm without being saccharine. It draws a cross-generational clientele — young professionals who surf and want complementary conditioning, as well as clients in their fifties and sixties who have discovered Pilates as a long-term physical investment. The pricing reflects the studio's community-minded positioning: competitive enough to encourage regularity. A genuine neighbourhood asset in the best sense.",
+    name: "KX Pilates",
+    neighborhood: "Multiple Sydney locations",
+    priceLevel: "$$",
+    review: "KX Pilates is one of Australia's best-known reformer chains, known for intense, fast-moving reformer classes, with studios across Sydney.",
+    caveat: "a chain format — consistent and energetic, but less individual than a boutique.",
     address: "—",
-    bestFor: "Community-focused reformer, all ages",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Saturday morning classes are the social highlight of the week; book by Thursday to secure a spot",
-  }
+    bestFor: "High-intensity reformer near home or work",
+    signatureClass: "KX Reformer",
+    bookingTip: "Check which KX studio is closest before buying a pack.",
+  },
 ];
 
 const BOOKING_TIPS = [
@@ -153,47 +159,47 @@ const GEAR = [
   {
     name: "Pilates Grip Socks",
     note: "Required at most reformer studios. Full-toe grip socks are the standard.",
-    price: "From $16",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
     note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
-    price: "From $52",
+    price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
     note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
-    price: "From $24",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands",
     note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
-    price: "From $22",
+    price: "From $10",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
     note: "Essential for fascial release and spinal mobility work before and after class.",
-    price: "From $32",
+    price: "From $13",
     url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
   },
   {
     name: "Home Pilates Reformer",
     note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "From $450",
+    price: "From $359",
     url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
   },
 ];
 
 
 const RELATED_CITIES = [
-  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 5 },
-  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 5 },
-  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
-  { city: "Amsterdam", country: "Netherlands", href: "/cities/amsterdam", studioCount: 5 },
+  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 6 },
+  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 6 },
+  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 6 },
+  { city: "Amsterdam", country: "Netherlands", href: "/cities/amsterdam", studioCount: 6 },
 ];
 
 const FURTHER_READING = [
@@ -278,7 +284,7 @@ export default function SydneyPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Sydney has one of the most developed Pilates cultures in the southern hemisphere. The city's appetite for high-quality movement, outdoor living, and physical wellness has produced a reformer studio scene that punches well above its weight globally. From harbourside boutiques in Mosman to high-energy reformer studios in Bondi, the standard of instruction is consistently impressive. This guide covers the five studios we rate most highly, from the CBD to the eastern suburbs, along with everything you need to know before booking your first class.
+              Sydney has one of the most developed Pilates cultures in the southern hemisphere. The city's appetite for high-quality movement, outdoor living, and physical wellness has produced a reformer studio scene that punches well above its weight globally. From harbourside boutiques in Mosman to high-energy reformer studios in Bondi, the standard of instruction is consistently impressive. This guide covers the six studios we rate most highly, from the CBD to the eastern suburbs, along with everything you need to know before booking your first class.
             </p>
           </div>
         </section>

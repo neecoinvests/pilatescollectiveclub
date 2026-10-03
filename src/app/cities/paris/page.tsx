@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Paris (2026) — Curated Guide",
-  description: "The best Pilates studios in Paris — reformer boutiques in the Marais, Saint-Germain, and the 16th arrondissement. Five curated picks, verified October 2026.",
+  description: "The best Pilates studios in Paris — reformer boutiques in the Marais, Saint-Germain, and the 16th arrondissement. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["pilates paris", "studio pilates paris", "reformer pilates paris", "best pilates studios paris", "pilates paris 16", "pilates marais paris", "pilates saint-germain", "pilates france", "cours pilates paris", "best reformer pilates paris"],
   openGraph: {
     title: "Best Pilates Studios in Paris (2026)",
-    description: "Five curated Pilates studios in Paris — Marais, Saint-Germain, and 16th arrondissement reformer picks. Verified 2026.",
+    description: "Six curated Pilates studios in Paris — Marais, Saint-Germain, and 16th arrondissement reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/paris",
     images: [{ url: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80", width: 1200, height: 630, alt: "Paris city guide — Pilates Collective Club" }],
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Paris (2026)",
-    description: "Our curated guide to the best Pilates studios in Paris — five verified picks with booking tips.",
+    description: "Our curated guide to the best Pilates studios in Paris — six verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80"],
   },
   alternates: {
@@ -161,47 +161,47 @@ const GEAR = [
   {
     name: "Pilates Grip Socks",
     note: "Required at most reformer studios. Full-toe grip socks are the standard.",
-    price: "From $16",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
     note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
-    price: "From $52",
+    price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
     note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
-    price: "From $24",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands",
     note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
-    price: "From $22",
+    price: "From $10",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
     note: "Essential for fascial release and spinal mobility work before and after class.",
-    price: "From $32",
+    price: "From $13",
     url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
   },
   {
     name: "Home Pilates Reformer",
     note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "From $450",
+    price: "From $359",
     url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
   },
 ];
 
 
 const RELATED_CITIES = [
-  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
-  { city: "Zurich", country: "Switzerland", href: "/cities/zurich", studioCount: 5 },
-  { city: "Geneva", country: "Switzerland", href: "/cities/geneva", studioCount: 5 },
-  { city: "Lausanne", country: "Switzerland", href: "/cities/lausanne", studioCount: 5 },
+  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 6 },
+  { city: "Zurich", country: "Switzerland", href: "/cities/zurich", studioCount: 6 },
+  { city: "Geneva", country: "Switzerland", href: "/cities/geneva", studioCount: 6 },
+  { city: "Lausanne", country: "Switzerland", href: "/cities/lausanne", studioCount: 4 },
 ];
 
 const FURTHER_READING = [
@@ -280,7 +280,7 @@ export default function ParisPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Paris has developed a Pilates scene that, like everything in the city, carries its own distinct character. Studios here tend to be intimate, instruction-led, and deeply serious about the method — reflecting a Parisian cultural preference for genuine expertise over spectacle. This guide covers the five studios we rate most highly, from the Marais to the 15th, along with everything you need to navigate the city's booking culture and find your perfect match.
+              Paris has developed a Pilates scene that, like everything in the city, carries its own distinct character. Studios here tend to be intimate, instruction-led, and deeply serious about the method — reflecting a Parisian cultural preference for genuine expertise over spectacle. This guide covers the six studios we rate most highly, from the Marais to the 15th, along with everything you need to navigate the city's booking culture and find your perfect match.
             </p>
           </div>
         </section>

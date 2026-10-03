@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Melbourne (2026)",
-    description: "Our curated guide to Melbourne's five best Pilates studios — verified for 2026.",
+    description: "Our curated guide to Melbourne's six best Pilates studios — verified for 2026.",
     images: ["https://images.unsplash.com/photo-1514395462185-c2de918e8ab9?w=1200&q=80"],
   },
   alternates: {
@@ -129,47 +129,47 @@ const GEAR = [
   {
     name: "Pilates Grip Socks",
     note: "Required at most reformer studios. Full-toe grip socks are the standard.",
-    price: "From $16",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
     note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
-    price: "From $52",
+    price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
     note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
-    price: "From $24",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands",
     note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
-    price: "From $22",
+    price: "From $10",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
     note: "Essential for fascial release and spinal mobility work before and after class.",
-    price: "From $32",
+    price: "From $13",
     url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
   },
   {
     name: "Home Pilates Reformer",
     note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "From $450",
+    price: "From $359",
     url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
   },
 ];
 
 
 const RELATED_CITIES = [
-  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 5 },
-  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 5 },
-  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 5 },
-  { city: "Berlin", country: "Germany", href: "/cities/berlin", studioCount: 5 },
+  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 6 },
+  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 6 },
+  { city: "Los Angeles", country: "United States", href: "/cities/los-angeles", studioCount: 6 },
+  { city: "Berlin", country: "Germany", href: "/cities/berlin", studioCount: 6 },
 ];
 
 const FURTHER_READING = [
@@ -231,7 +231,7 @@ export default function MelbournePage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Melbourne has one of the most sophisticated wellness cultures in the Southern Hemisphere — and Pilates sits at its core. The city's inner suburbs have nurtured a dense, competitive studio scene where quality is the norm and the best venues rival anything in London or New York. From Fitzroy's warehouse conversions to South Yarra's polished heritage spaces, Melbourne's five best studios are worth knowing whether you're a resident or a visitor.
+              Melbourne has one of the most sophisticated wellness cultures in the Southern Hemisphere — and Pilates sits at its core. The city's inner suburbs have nurtured a dense, competitive studio scene where quality is the norm and the best venues rival anything in London or New York. From Fitzroy's warehouse conversions to South Yarra's polished heritage spaces, Melbourne's six best studios are worth knowing whether you're a resident or a visitor.
             </p>
           </div>
         </section>

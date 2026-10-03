@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Rome (2026)",
     description:
-      "Five curated Pilates studios in Rome — Prati, Parioli, and Trastevere reformer picks. Verified October 2026.",
+      "Six curated Pilates studios in Rome — Prati, Parioli, and Trastevere reformer picks. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/rome",
     images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Rome (2026)",
     description:
-      "Discover the best Pilates studios in Rome — five curated picks with booking tips for 2026.",
+      "Discover the best Pilates studios in Rome — six curated picks with booking tips for 2026.",
     images: ["https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80"],
   },
   alternates: {
@@ -170,47 +170,47 @@ const GEAR = [
   {
     name: "Pilates Grip Socks",
     note: "Required at most reformer studios. Full-toe grip socks are the standard.",
-    price: "From $16",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
     note: "A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
-    price: "From $52",
+    price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
     note: "Many studios incorporate the magic circle — worth owning for home reinforcement work.",
-    price: "From $24",
+    price: "From $15",
     url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands",
     note: "Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
-    price: "From $22",
+    price: "From $10",
     url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
     note: "Essential for fascial release and spinal mobility work before and after class.",
-    price: "From $32",
+    price: "From $13",
     url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
   },
   {
     name: "Home Pilates Reformer",
     note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "From $450",
+    price: "From $359",
     url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
   },
 ];
 
 
 const RELATED_CITIES = [
-  { city: "Milan", country: "Italy", href: "/cities/milan", studioCount: 5 },
-  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 5 },
-  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 5 },
-  { city: "Berlin", country: "Germany", href: "/cities/berlin", studioCount: 5 },
+  { city: "Milan", country: "Italy", href: "/cities/milan", studioCount: 6 },
+  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 6 },
+  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 6 },
+  { city: "Berlin", country: "Germany", href: "/cities/berlin", studioCount: 6 },
 ];
 
 const FURTHER_READING = [
@@ -295,7 +295,7 @@ export default function RomePage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Rome may not have the density of Milan's studio scene, but what the capital offers is something different: a Pilates culture with genuine depth, built slowly over two decades and now producing some of the most technically serious instruction in Italy. From the elegant semi-private studios of Parioli to the community-minded reformer spaces of Trastevere, this guide identifies the five studios that represent Rome's Pilates landscape at its best.
+              Rome may not have the density of Milan's studio scene, but what the capital offers is something different: a Pilates culture with genuine depth, built slowly over two decades and now producing some of the most technically serious instruction in Italy. From the elegant semi-private studios of Parioli to the community-minded reformer spaces of Trastevere, this guide identifies the six studios that represent Rome's Pilates landscape at its best.
             </p>
           </div>
         </section>
