@@ -648,6 +648,9 @@ export default function LagreeEssentialsPage() {
               <Link href="/blog/pilates-essentials" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
                 Doing Pilates too? → Pilates essentials
               </Link>
+              <Link href="/blog/what-to-wear-to-lagree" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+                Full outfits? → What to wear to Lagree
+              </Link>
             </div>
 
             {/* At a glance table */}
