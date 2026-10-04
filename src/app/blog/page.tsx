@@ -63,6 +63,22 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/stitch-reformers-aerial-row.png",
   },
   {
+    title: "Lagree Micro Review (2026): Specs, Springs & Real Cost",
+    excerpt: "The Micro by Lagree Fitness from its spec sheet: 72\" x 20\", 60 lb, four springs, users to 6'8\" — plus what each add-on unlocks and five setup budgets.",
+    href: "/blog/lagree-micro-review",
+    category: "Lagree",
+    readTime: "12 min",
+    imageUrl: "/pictures/stitch-reformer-spring-detail.png",
+  },
+  {
+    title: "Lagree Micro vs Megaformer (2026): Home Machine or Studio?",
+    excerpt: "The $990 home machine against the studio Megaformer: what carries over, what you give up, and when the Micro pays for itself.",
+    href: "/blog/lagree-micro-vs-megaformer",
+    category: "Lagree",
+    readTime: "11 min",
+    imageUrl: "/pictures/stitch-reformers-aerial-row.png",
+  },
+  {
     title: "Lagree vs Solidcore (2026): Differences & What to Wear",
     excerpt: "Two slow-burn workouts that look alike from the doorway. The machines, class format and business model compared, plus one kit for both.",
     href: "/blog/lagree-vs-solidcore",

@@ -79,6 +79,8 @@ const SHOP_CATEGORIES = [
     label: "Lagree & Spin",
     links: [
       { label: "Lagree Fitness (Brand Guide)", href: "/blog/lagree-fitness" },
+      { label: "Lagree Micro Review", href: "/blog/lagree-micro-review" },
+      { label: "Lagree Micro vs Megaformer", href: "/blog/lagree-micro-vs-megaformer" },
       { label: "Lagree Essentials", href: "/blog/lagree-essentials" },
       { label: "Lagree for Beginners", href: "/blog/lagree-for-beginners" },
       { label: "Lagree Exercises", href: "/blog/lagree-exercises" },

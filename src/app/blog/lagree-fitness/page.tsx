@@ -33,10 +33,8 @@ export const metadata: Metadata = {
   keywords: [
     "lagree fitness",
     "lagree fitness micro",
-    "lagree micro review",
     "lagree fitness machine",
     "lagree fitness at home",
-    "megaformer vs micro",
     "lagree fitness amazon",
     "the micro by lagree fitness",
     "lagree micro accessories",
@@ -415,7 +413,8 @@ export default function LagreeFitnessPage() {
               </p>
               <TierCard p={MEGAFORMER} />
               <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
-                Comparing Lagree machines and the alternatives? See our{" "}
+                Deciding between classes and a home machine? Read{" "}
+                <Link href="/blog/lagree-micro-vs-megaformer" style={inlineLinkStyle}>Lagree Micro vs Megaformer</Link>. Comparing Lagree machines and the alternatives? See our{" "}
                 <Link href="/blog/best-megaformer-machine" style={inlineLinkStyle}>best Megaformer machine guide</Link>.
               </p>
             </div>
@@ -428,7 +427,8 @@ export default function LagreeFitnessPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The Micro by Lagree Fitness</h2>
               <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
-                The Micro is the reason this page exists. It is Lagree Fitness&apos;s own answer to &ldquo;can I do Lagree at home?&rdquo;, and at {MICRO.price} it is sold by Lagree Fitness through its Amazon store. Here is what the listing says it does, and what that means in practice.
+                The Micro is the reason this page exists. It is Lagree Fitness&apos;s own answer to &ldquo;can I do Lagree at home?&rdquo;, and at {MICRO.price} it is sold by Lagree Fitness through its Amazon store. Here is what the listing says it does, and what that means in practice. For the full spec sheet, the four springs and floor-space planning, see our{" "}
+                <Link href="/blog/lagree-micro-review" style={inlineLinkStyle}>Lagree Micro review</Link>.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 {[
