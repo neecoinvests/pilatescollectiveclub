@@ -27,10 +27,10 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "PAETA 86\" Foldable Reformer, Dual Resistance",
-    price: "$439.99",
+    price: "$449.99",
     verdict: "Best genuine spring reformer under $500",
     tag: "Top Pick",
-    description: "Genuine spring reformers do exist under $500: live Amazon listings include a real tier of budget, generic-brand full reformers with actual carriage-and-rail spring construction. The PAETA 86\" is the strongest of them: a reinforced carbon steel frame rated to 400lb, dual resistance combining springs and cords, adjustable shoulder rests, and a stated 10,000+ use durability test, shipped with its own box. PAETA is not an established Pilates equipment maker — there's no instructor-recognized track record and no long warranty history to point to — but this is a genuine spring-and-cord carriage reformer, not a cord-only toy, and it is currently sold live on Amazon at $439.99.",
+    description: "Genuine spring reformers do exist under $500: live Amazon listings include a real tier of budget, generic-brand full reformers with actual carriage-and-rail spring construction. The PAETA 86\" is the strongest of them: a reinforced carbon steel frame rated to 400lb, dual resistance combining springs and cords, adjustable shoulder rests, and a stated 10,000+ use durability test, shipped with its own box. PAETA is not an established Pilates equipment maker — there's no instructor-recognized track record and no long warranty history to point to — but this is a genuine spring-and-cord carriage reformer, not a cord-only toy, and it is currently sold live on Amazon at $449.99.",
     affiliateUrl: "https://www.amazon.com/dp/B0G1YL9QTN?tag=pilatescollective-20",
   },
   {
@@ -71,7 +71,7 @@ const jsonLd = {
       "description": "Three genuine, currently-sold reformers under $500 — two real spring-based carriage reformers from generic budget brands and one established-brand cord machine, verified against live Amazon listings.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-500",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-04",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -103,7 +103,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a genuine spring-based Pilates reformer under $500?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The PAETA 86\" Dual Resistance ($439.99), DWKWE 88\" ($299.99) and WINDFOOT ($295.99) are all real, currently-sold, full carriage-and-rail reformers with genuine spring or spring-plus-cord resistance under $500. They come from generic or dropship brands rather than established Pilates equipment makers like Balanced Body or Merrithew, so treat brand track record and warranty support with appropriate caution — but the machines themselves are real spring reformers, not toys." } },
+        { "@type": "Question", "name": "Is there a genuine spring-based Pilates reformer under $500?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The PAETA 86\" Dual Resistance ($449.99), DWKWE 88\" ($299.99) and WINDFOOT ($295.99) are all real, currently-sold, full carriage-and-rail reformers with genuine spring or spring-plus-cord resistance under $500. They come from generic or dropship brands rather than established Pilates equipment makers like Balanced Body or Merrithew, so treat brand track record and warranty support with appropriate caution — but the machines themselves are real spring reformers, not toys." } },
         { "@type": "Question", "name": "Is a $359 Pilates reformer worth it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating — in that case, one of the generic-brand spring reformers above may suit you better." } },
         { "@type": "Question", "name": "What is the difference between AeroPilates and these budget spring reformers?", "acceptedAnswer": { "@type": "Answer", "text": "AeroPilates uses elastic cords and comes from an established home-fitness brand with a long track record. The WINDFOOT, DWKWE and PAETA use genuine coil-spring or spring-and-cord resistance — closer in mechanism to a studio reformer — but come from generic or dropship brands with no instructor recognition and unclear long-term durability. Neither category is equivalent to a $2,000+ machine from Balanced Body or Merrithew." } },
         { "@type": "Question", "name": "Should I buy a budget reformer or just go to a studio?", "acceptedAnswer": { "@type": "Answer", "text": "For most beginners, 3–6 months of studio sessions before buying any home equipment is the better investment. A budget reformer makes sense for practitioners who cannot access a studio or who want to supplement regular sessions." } },
@@ -130,7 +130,7 @@ export default function BestPilatesReformerUnder500Page() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Reformer Under $500 (2026):<br /><span style={{ color: "#8b4a31" }}>3 Real Picks</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -151,6 +151,26 @@ export default function BestPilatesReformerUnder500Page() {
         {/* Main content */}
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            {/* Quick reference table */}
+            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
+              </div>
+              {PRODUCTS.map((p, i) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
+                  </div>
+                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Buy →</a>
+                </div>
+              ))}
+            </div>
 
             {/* Cords vs springs */}
             <div className="mb-16 mt-4">
@@ -182,26 +202,6 @@ export default function BestPilatesReformerUnder500Page() {
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* Quick reference table */}
-            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
-              </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
-                  </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Buy →</a>
-                </div>
-              ))}
             </div>
 
             {/* Product cards */}
@@ -244,7 +244,7 @@ export default function BestPilatesReformerUnder500Page() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a genuine spring-based Pilates reformer under $500?", a: "Yes. The PAETA 86\" Dual Resistance ($439.99), DWKWE 88\" ($299.99) and WINDFOOT ($295.99) are all real, currently-sold, full carriage-and-rail reformers with genuine spring or spring-plus-cord resistance under $500. They come from generic or dropship brands rather than established Pilates equipment makers like Balanced Body or Merrithew, so treat brand track record and warranty support with appropriate caution — but the machines themselves are real spring reformers, not toys." },
+                  { q: "Is there a genuine spring-based Pilates reformer under $500?", a: "Yes. The PAETA 86\" Dual Resistance ($449.99), DWKWE 88\" ($299.99) and WINDFOOT ($295.99) are all real, currently-sold, full carriage-and-rail reformers with genuine spring or spring-plus-cord resistance under $500. They come from generic or dropship brands rather than established Pilates equipment makers like Balanced Body or Merrithew, so treat brand track record and warranty support with appropriate caution — but the machines themselves are real spring reformers, not toys." },
                   { q: "Is a $359 Pilates reformer worth it?", a: "Yes, for the right person: someone testing reformer Pilates, someone with a small budget who wants to practice at home, or someone supplementing studio sessions. Not worth it if you have extensive studio experience and will find the cord feel frustrating — in that case, one of the generic-brand spring reformers above may suit you better." },
                   { q: "What is the difference between AeroPilates and these budget spring reformers?", a: "AeroPilates uses elastic cords and comes from an established home-fitness brand with a long track record. The WINDFOOT, DWKWE and PAETA use genuine coil-spring or spring-and-cord resistance — closer in mechanism to a studio reformer — but come from generic or dropship brands with no instructor recognition and unclear long-term durability. Neither category is equivalent to a $2,000+ machine from Balanced Body or Merrithew." },
                   { q: "Should I buy a budget reformer or just go to a studio?", a: "For most beginners, 3–6 months of studio sessions before buying any home equipment is the better investment. A budget reformer makes sense for practitioners who cannot access a studio or who want to supplement regular sessions." },

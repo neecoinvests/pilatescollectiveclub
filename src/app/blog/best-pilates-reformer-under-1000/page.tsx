@@ -34,7 +34,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "PAETA 86\" Foldable Reformer, Piano Wire Springs",
-    price: "$499.99",
+    price: "$439.99",
     verdict: "Best genuine spring reformer under $1,000",
     tag: "Top Pick",
     description:
@@ -46,11 +46,11 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "PAETA 86\" Foldable Reformer, Dual Resistance",
-    price: "$439.99",
+    price: "$449.99",
     verdict: "Best value genuine spring reformer",
     tag: "Value Pick",
     description:
-      "The dual-resistance PAETA combines springs and cords in a reinforced carbon steel frame rated to 400lb, with adjustable shoulder rests and a stated 10,000+ use durability test. It's a genuine carriage-and-rail spring reformer, not a cord-only machine, and a real, live Amazon listing at $439.99, shipped with its own box. As with the piano-wire model above, this is a generic brand rather than an established Pilates equipment maker, so we can vouch for what the listing states, not for how it holds up over years of use.",
+      "The dual-resistance PAETA combines springs and cords in a reinforced carbon steel frame rated to 400lb, with adjustable shoulder rests and a stated 10,000+ use durability test. It's a genuine carriage-and-rail spring reformer, not a cord-only machine, and a real, live Amazon listing at $449.99, shipped with its own box. As with the piano-wire model above, this is a generic brand rather than an established Pilates equipment maker, so we can vouch for what the listing states, not for how it holds up over years of use.",
     affiliateUrl: "https://www.amazon.com/dp/B0G1YL9QTN?tag=pilatescollective-20",
     pros: ["Genuine spring-plus-cord resistance", "400lb-rated reinforced steel frame", "Includes box, tested for 10,000+ uses per listing"],
     cons: ["Generic brand, no established reputation", "Cord component alongside springs, not pure spring", "No independent longevity verification"],
@@ -127,7 +127,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-1000/#article",
       "headline": "Best Pilates Reformer Under $1,000 (2026): 6 Real Picks",
-      "description": "Six genuine, currently-sold reformers under $1,000, spanning genuine budget spring reformers and established-brand cord machines, tested honestly and ranked by resistance quality and build.",
+      "description": "Six genuine, currently-sold reformers under $1,000, spanning genuine budget spring reformers and established-brand cord machines, compared honestly and ranked by resistance quality and build.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
@@ -147,7 +147,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-04",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-1000",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-under-1000",
       "articleSection": "Equipment Guide",
@@ -211,7 +211,7 @@ export default function BestPilatesReformerUnder1000Page() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>Under $1,000 (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>

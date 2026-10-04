@@ -25,9 +25,13 @@ function validOffer(offer: unknown, fallbackUrl: unknown): Node | null {
 
 // Turns a Product node into one Google accepts, or null when it cannot be valid.
 function cleanProduct(p: Node): Node | null {
-  if (p.review || p.aggregateRating) return p;
   const offer = validOffer(p.offers, p.url);
-  return offer ? { ...p, offers: offer } : null;
+  if (offer) return { ...p, offers: offer };
+  if (!p.review && !p.aggregateRating) return null;
+  // Reviewed products stay valid without an offer; drop an unusable one.
+  const { offers: _o, ...rest } = p;
+  void _o;
+  return rest;
 }
 
 function clean(value: unknown): unknown {

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   keywords: ["best pilates sets", "pilates matching sets 2026", "pilates outfit set", "lululemon pilates set", "alo yoga pilates set", "matching pilates leggings bra", "pilates activewear sets", "best workout set pilates"],
   openGraph: {
     title: "Best Pilates Sets (2026): Matching Two-Piece Outfits Ranked",
-    description: "The best matching sets for Pilates — tested for reformer performance and studio style.",
+    description: "The best matching sets for Pilates — compared for reformer performance and studio style.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-sets",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Matching Sets — Pilates Collective Club" }],
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Sets (2026)",
-    description: "The best matching sets for Pilates — tested and ranked.",
+    description: "The best matching sets for Pilates, compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-sets" },
@@ -52,11 +52,15 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Sweaty Betty Power Set",
-    price: "From $168",
-    verdict: "Best for comprehensive sizing",
+    price: "From $155.80",
+    verdict: "Best premium set you can buy on Amazon",
     description:
-      "Sweaty Betty's Power set — pairing the Power Legging with the Power Bra — is the strongest choice for practitioners who need extended sizing or inseam length. The legging is available up to a 31-inch inseam, making it one of the few premium options that genuinely works for tall practitioners, and the brand's size range extends to an inclusive 3XL across both pieces. The PowerForm fabric is firmer and more compressive than Nulu or Airlift, providing a different type of support that many practitioners prefer for the proprioceptive feedback during standing footwork and balance exercises. The UK heritage brand has earned its global reputation.",
-    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+power+set+legging+bra&tag=pilatescollective-20",
+      "Sweaty Betty's Power set pairs the Power legging with the Power Medium Racer Back bra, and unlike Alo or Lululemon, both pieces are sold by Amazon.com. Per the listings, the cropped Power legging is stretchy, sweat-wicking and quick-drying with sculpting seams, a side pocket and a back zip pocket; the bra is medium impact with removable pads, an adjustable T-bar strap and contour seamlines designed to match the Power leggings. Amazon prices vary a lot by colour and size, so check the variant you want.",
+    affiliateUrl: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20",
+    pieces: [
+      { label: "Power Cropped Legging (black)", price: "$98.00", url: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20" },
+      { label: "Power Medium Racer Back Bra (black)", price: "$57.80", url: "https://www.amazon.com/dp/B0BSB22J5P?tag=pilatescollective-20" },
+    ],
     tag: "Best for Sizing",
   },
   {
@@ -65,7 +69,7 @@ const PRODUCTS = [
     price: "From $148",
     verdict: "Best for warm studios",
     description:
-      "Vuori's Halo set prioritises breathability above all else — the lightweight Performance fabric moves moisture away from the skin faster than any other set on this list, making it the preferred choice for heated studios and warm-climate practitioners. The fabric is lighter and less compressive than Alo or Sweaty Betty, but it is completely opaque and provides a clean, streamlined aesthetic appropriate for any studio environment. The Halo Bra has a clean cross-back construction that doesn't interfere with scapular movement during stabilisation exercises, and both pieces are available in Vuori's characteristic muted, nature-inspired colourway palette.",
+      "Vuori's Halo set prioritises breathability above all else — the lightweight, breathable fabric makes it the preferred choice for heated studios and warm-climate practitioners. The fabric is lighter and less compressive than Alo or Sweaty Betty, but it is completely opaque and provides a clean, streamlined aesthetic appropriate for any studio environment. The Halo Bra has a clean cross-back construction that doesn't interfere with scapular movement during stabilisation exercises, and both pieces are available in Vuori's characteristic muted, nature-inspired colourway palette.",
     affiliateUrl: "https://www.amazon.com/s?k=vuori+halo+set+legging+bra+women&tag=pilatescollective-20",
     tag: "Best Breathability",
   },
@@ -82,12 +86,26 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "CRZ YOGA Naked Feeling Set",
-    price: "From $58",
+    price: "From $52.00",
     verdict: "Best value set",
     description:
-      "CRZ YOGA's Naked Feeling set offers the most compelling price-to-quality ratio in coordinated Pilates apparel. The legging and bra are sold as a matched set with consistent fabric, colour, and sizing — the coordination is genuine rather than incidental. The Naked Feeling fabric approaches the Align's softness at a fraction of the price, with four-way stretch and complete opacity through the deepest movements of the Pilates repertoire. For practitioners who are new to the method, building a wardrobe, or simply unwilling to spend £170+ on a two-piece outfit, this set is the starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+set+legging+bra&tag=pilatescollective-20",
+      "Build the set from two pieces in the same Naked Feeling fabric, both sold by CRZ YOGA. The 25-inch high-rise legging is designed for hot yoga or Pilates, with sweat-wicking fabric, decent compression, a seamless waistband and a hidden pocket; the Strappy bra is medium support with removable pads and a wide underband that stays in place. Two pieces for about $52, in matching colours — the starting point for anyone unwilling to spend $150+ on a two-piece outfit.",
+    affiliateUrl: "https://www.amazon.com/dp/B07DCRMWXT?tag=pilatescollective-20",
+    pieces: [
+      { label: "Naked Feeling Legging 25\" (black)", price: "$26.00", url: "https://www.amazon.com/dp/B07DCRMWXT?tag=pilatescollective-20" },
+      { label: "Naked Feeling Strappy Sports Bra (black)", price: "$26.00", url: "https://www.amazon.com/dp/B079PZH7KS?tag=pilatescollective-20" },
+    ],
     tag: "Best Value",
+  },
+  {
+    rank: "07",
+    name: "SUUKSESS 2-Piece Pilates Set",
+    price: "$32.95",
+    verdict: "Best budget set in one listing",
+    description:
+      "A genuine two-piece set sold as one listing: high-waisted, squat-proof leggings with pockets and a racerback top with a built-in medium-support bra, in an 80% nylon, 20% elastane fabric the listing describes as buttery soft, moisture-wicking and not see-through. Check the size chart — the brand maps XS to US 2 through XL to US 10.",
+    affiliateUrl: "https://www.amazon.com/dp/B0HC5YRF1L?tag=pilatescollective-20",
+    tag: "Best Budget",
   },
 ];
 
@@ -97,10 +115,10 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Sets (2026): Matching Two-Piece Outfits Ranked",
-      "description": "The best matching Pilates sets tested for reformer performance, fabric quality, and studio style.",
+      "description": "The best matching Pilates sets compared for reformer performance, fabric quality, and studio style.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-sets",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-05-21",
+      "dateModified": "2026-10-04",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -117,7 +135,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -154,9 +172,9 @@ export default function BestPilatesSetsPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Apparel</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Sets<br /><span style={{ color: "#8b4a31" }}>(2026): Ranked & Tested</span>
+              Best Pilates Sets<br /><span style={{ color: "#8b4a31" }}>(2026): Ranked & Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 8 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -188,7 +206,7 @@ export default function BestPilatesSetsPage() {
                     <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                   >Buy →</a>
                 </div>
@@ -196,7 +214,7 @@ export default function BestPilatesSetsPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Sets · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>7 Sets · Compared</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -205,6 +223,17 @@ export default function BestPilatesSetsPage() {
                       <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                    {"pieces" in p && p.pieces && (
+                      <div className="mt-3 rounded-xl px-5 py-4" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
+                        <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Buy the pieces</p>
+                        {p.pieces.map((pc) => (
+                          <a key={pc.url} href={pc.url} target="_blank" rel="noopener noreferrer sponsored" className="flex justify-between gap-3 py-1.5 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+                            <span style={{ textDecoration: "underline", textUnderlineOffset: "3px" }}>{pc.label}</span>
+                            <span className="font-semibold shrink-0" style={{ color: "#1b1c1c" }}>{pc.price} →</span>
+                          </a>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
@@ -229,8 +258,8 @@ export default function BestPilatesSetsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Bodysuits" excerpt="The clean one-piece alternative to sets — six tested options for the studio." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Leggings" excerpt="Five studio-tested leggings for reformer and mat practice." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Bodysuits" excerpt="The clean one-piece alternative to sets — six options for the studio." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings for reformer and mat practice." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo makes our top-ranked set in this guide — here's our full brand deep-dive." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Sweaty Betty Pilates Activewear" excerpt="The UK brand that dominates Pilates wardrobes — full brand review and buying guide." href="/blog/sweaty-betty-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -83,6 +84,16 @@ const PRODUCTS = [
   },
 ];
 
+const HOME_KIT = [
+  { role: "Mat", name: "Gaiam Premium Yoga Mat (6mm)", price: "$21.00", url: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20", description: "A 6mm mat is the minimum cushioning for rolling and spinal work on a hard floor. Sold by Amazon.com." },
+  { role: "Mat for sensitive knees", name: "Gaiam Essentials Thick Yoga Mat (10mm)", price: "$25.46", url: "https://www.amazon.com/dp/B07H9PZ6MH?tag=pilatescollective-20", description: "10mm of foam with an easy-cinch carry strap — more forgiving for kneeling and rolling, a little less stable for standing work. Sold by Amazon.com." },
+  { role: "Ring", name: "Gaiam Pilates Ring (15\")", price: "$14.48", url: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20", description: "The magic circle used in most mat classes for inner-thigh, arm and core work. Sold by Amazon.com." },
+  { role: "Small ball", name: "ProBody Pilates Ball (9\")", price: "$9.49", url: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20", description: "The small, soft ball instructors use under the pelvis, between the knees or behind the back." },
+  { role: "Bands", name: "THERABAND Resistance Bands Set (Beginner Kit)", price: "$11.99", url: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20", description: "Three non-latex bands in light-to-medium resistances for footwork and arm series. Sold by Amazon.com." },
+  { role: "Grip socks", name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.99", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", description: "Grip socks stop your feet sliding on the mat in standing and side-lying work. Six pairs for under $8." },
+];
+const KIT_TOTAL = [0, 2, 3, 4].reduce((sum, i) => sum + parseFloat(HOME_KIT[i].price.replace(/[^0-9.]/g, "")), 0);
+
 const FAQS = [
   {
     q: "Can online Pilates classes replace studio classes?",
@@ -125,7 +136,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-10-04",
       "url": "https://pilatescollectiveclub.com/blog/best-online-pilates-classes",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-online-pilates-classes",
       "articleSection": "Brand Guide",
@@ -189,11 +200,11 @@ export default function BestOnlinePilatesClassesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Online Pilates Classes<br /><span style={{ color: "#8b4a31" }}>(2026): Platforms Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*These platforms are not sold through Amazon — links go directly to each service&apos;s own site, not to an affiliate program.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The home Pilates streaming market matured significantly between 2020 and 2026. There are now genuinely excellent platforms for every type of practitioner — from the classical lineage purist to the boutique studio devotee who wants their practice to look as good as it feels. This guide compares the five platforms we&apos;ve tested most thoroughly, with honest assessments of what each does well and who it&apos;s actually for.
+              The home Pilates streaming market matured significantly between 2020 and 2026. There are now genuinely excellent platforms for every type of practitioner — from the classical lineage purist to the boutique studio devotee who wants their practice to look as good as it feels. This guide compares the five platforms we&apos;ve researched most thoroughly, with honest assessments of what each does well and who it&apos;s actually for.
             </p>
           </div>
         </section>
@@ -266,6 +277,28 @@ export default function BestOnlinePilatesClassesPage() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Home kit */}
+            <div className="mb-16">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equip your living room</p>
+              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The kit online Pilates classes assume you have</h2>
+              <p className="text-sm leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                Every platform above teaches mat classes that call for a few small props. A mat, ring, small ball and bands cost about ${KIT_TOTAL.toFixed(2)} together on Amazon — roughly what two to three months of a subscription costs — and unlock far more of each library. Prices checked live on October 4, 2026.
+              </p>
+              <div className="space-y-8">
+                {HOME_KIT.map((k) => (
+                  <div key={k.url}>
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{k.role}</span>
+                    </div>
+                    <ProductCard name={k.name} description={k.description} price={k.price} affiliateUrl={k.url} />
+                  </div>
+                ))}
+              </div>
+              <p className="text-sm leading-relaxed mt-2" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                More choice: <Link href="/blog/best-pilates-mat" style={{ color: "#8b4a31", textDecoration: "underline" }}>best Pilates mats</Link>, <Link href="/blog/best-pilates-ball" style={{ color: "#8b4a31", textDecoration: "underline" }}>Pilates balls</Link> and <Link href="/blog/best-pilates-grip-socks" style={{ color: "#8b4a31", textDecoration: "underline" }}>grip socks</Link>.
+              </p>
             </div>
 
             {/* FAQ */}

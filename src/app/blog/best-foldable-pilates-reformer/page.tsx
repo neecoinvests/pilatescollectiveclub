@@ -57,20 +57,20 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "PAETA 86\" Foldable Reformer, Dual Resistance",
-    price: "$439.99",
+    price: "$449.99",
     verdict: "Reinforced carbon steel frame, springs + cords, folds",
     description:
-      "PAETA's 86\" dual-resistance reformer, sold directly by PAETA US, is a real, live Amazon listing at $439.99. The listing specifies a reinforced carbon steel frame rated to support 400 lb, adjustable shoulder rests, a claim of testing for 10,000+ uses, an included storage box, and a design that folds for storage. Like the other budget entries here, PAETA is a generic brand without the instructor recognition or long track record of Balanced Body, Merrithew, or Align-Pilates — treat the 10,000-use and 400 lb figures as seller claims rather than independently verified specs, and check current owner reviews before ordering. The 86\" extended deck is notably longer than most foldable reformers in this price range, which matters if you're taller or prefer more carriage travel.",
+      "PAETA's 86\" dual-resistance reformer, sold directly by PAETA US, is a real, live Amazon listing at $449.99. The listing specifies a reinforced carbon steel frame rated to support 400 lb, adjustable shoulder rests, a claim of testing for 10,000+ uses, an included storage box, and a design that folds for storage. Like the other budget entries here, PAETA is a generic brand without the instructor recognition or long track record of Balanced Body, Merrithew, or Align-Pilates — treat the 10,000-use and 400 lb figures as seller claims rather than independently verified specs, and check current owner reviews before ordering. The 86\" extended deck is notably longer than most foldable reformers in this price range, which matters if you're taller or prefer more carriage travel.",
     affiliateUrl: "https://www.amazon.com/dp/B0G1YL9QTN?tag=pilatescollective-20",
     tag: "Longest Budget Deck",
   },
   {
     rank: "05",
     name: "PAETA 86\" Foldable Reformer, Piano Wire Springs",
-    price: "$499.99",
+    price: "$439.99",
     verdict: "Genuine piano-wire springs, not elastic cord, folds",
     description:
-      "This is PAETA's step-up model from the Dual Resistance version above, also sold directly by PAETA US and also a real, live Amazon listing, at $499.99. The listing describes genuine piano-wire springs rather than elastic cord or latex band resistance — closer in principle to the coil-spring systems used by established studio brands — with a 500 lb capacity distributed across six legs, removable stands for quick height adjustment, and the same 86\" extended deck (versus roughly 75\" on most foldable competitors), which the listing says comfortably fits practitioners up to about 5'9\". It folds for storage. As with the other PAETA and budget listings here, this is a generic brand: no established track record, no certification recognition among instructors, and unclear long-term spring durability or warranty support — but it's the closest thing in this guide's folding budget tier to a genuine spring-resistance feel.",
+      "This is PAETA's step-up model from the Dual Resistance version above, also sold directly by PAETA US and also a real, live Amazon listing, at $439.99. The listing describes genuine piano-wire springs rather than elastic cord or latex band resistance — closer in principle to the coil-spring systems used by established studio brands — with a 500 lb capacity distributed across six legs, removable stands for quick height adjustment, and the same 86\" extended deck (versus roughly 75\" on most foldable competitors), which the listing says comfortably fits practitioners up to about 5'9\". It folds for storage. As with the other PAETA and budget listings here, this is a generic brand: no established track record, no certification recognition among instructors, and unclear long-term spring durability or warranty support — but it's the closest thing in this guide's folding budget tier to a genuine spring-resistance feel.",
     affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20",
     tag: "Best Genuine Springs",
   },

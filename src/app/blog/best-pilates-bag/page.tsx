@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   keywords: ["best pilates bag", "pilates mat bag 2026", "best bag for pilates studio", "pilates tote bag review", "mat carrier pilates bag", "yoga mat bag pilates", "best pilates gym bag", "pilates bag with mat carrier"],
   openGraph: {
     title: "Best Pilates Bags (2026): Studio Totes & Carry-Alls Ranked",
-    description: "The best bags for Pilates — tested for studio organisation and everyday carry.",
+    description: "The best bags for Pilates — compared for studio organisation and everyday carry.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-bag",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Bags — Pilates Collective Club" }],
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Bags (2026)",
-    description: "The best bags for Pilates — tested and ranked.",
+    description: "The best bags for Pilates, compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-bag" },
@@ -81,13 +81,33 @@ const PRODUCTS = [
   },
   {
     rank: "06",
-    name: "CRZ YOGA Lightweight Sports Tote",
-    price: "From $29",
-    verdict: "Best value studio bag",
+    name: "BAGSMART Gym Tote Bag 24L",
+    price: "$37.99",
+    verdict: "Best value studio tote",
     description:
-      "CRZ YOGA's Sports Tote punches well above its price point for studio use. The capacity is generous for a budget tote, the interior organisation includes a zip pocket and a sleeve large enough for a tablet, and the fabric is water-resistant and easy to wipe down. The structured handles maintain their shape through repeated use rather than slouching like many budget totes. As a secondary bag for shorter sessions, a gym bag upgrade from a freebie tote, or a practical alternative while saving for a premium option, it consistently delivers more value than its price suggests.",
-    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+sports+tote+bag+women&tag=pilatescollective-20",
+      "The best-value alternative to the Everywhere Tote. Per the listing: 24L, 18.5\" across the top and 12.6\" tall, just 1.32 lb in soft nylon, with a built-in yoga mat strap, side pockets for a water bottle and room for a 15.6-inch laptop — so it works as a studio bag and a work bag. Sold by the BAGSMART Official Store.",
+    affiliateUrl: "https://www.amazon.com/dp/B0B1VFNFL1?tag=pilatescollective-20",
     tag: "Best Value",
+  },
+  {
+    rank: "07",
+    name: "BAGSMART Reiki Puffy Gym Bag",
+    price: "$27.99",
+    verdict: "Best budget bag with a wet pouch",
+    description:
+      "A compact puffy duffel (16.9\" x 8.6\" x 7.6\") with a roll-top elastic band that holds a standard mat up to 1.5\" thick, a separate dry/wet pouch for sweaty clothes, quick-access side pockets and a removable shoulder strap. Small enough to slide under a studio bench. Sold by BAGSMART.",
+    affiliateUrl: "https://www.amazon.com/dp/B0F5WSGFJX?tag=pilatescollective-20",
+    tag: "Best Budget",
+  },
+  {
+    rank: "08",
+    name: "Gaiam Cargo Yoga Mat Bag",
+    price: "$19.99",
+    verdict: "Best mat bag under $20",
+    description:
+      "A full-zip mat carrier with a front cargo pocket for grip socks and a towel, a back pocket sized for your phone and keys, and an adjustable shoulder strap. If you bring your own mat to mat Pilates, this is the cheap, practical answer. Sold by Amazon.com.",
+    affiliateUrl: "https://www.amazon.com/dp/B011NQZBAI?tag=pilatescollective-20",
+    tag: "Best Mat Bag",
   },
 ];
 
@@ -97,10 +117,10 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Bags (2026): Studio Totes & Carry-Alls Ranked",
-      "description": "The best bags for Pilates studio sessions — tested for capacity, organisation, and studio-to-street carry.",
+      "description": "The best bags for Pilates studio sessions — compared for capacity, organisation, and studio-to-street carry.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-bag",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-05-21",
+      "dateModified": "2026-10-04",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -117,7 +137,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -156,7 +176,7 @@ export default function BestPilatesBagPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Bags<br /><span style={{ color: "#8b4a31" }}>(2026): Studio Totes Ranked</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 7 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -188,7 +208,7 @@ export default function BestPilatesBagPage() {
                     <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                   >Buy →</a>
                 </div>
@@ -196,7 +216,7 @@ export default function BestPilatesBagPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Bags · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>8 Bags · Compared</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

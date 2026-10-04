@@ -355,7 +355,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
-        price: "$13.93",
+        price: "$14.48",
         url: amz("B086HNGNFZ"),
         description:
           "A full-size 15\" ring at under half the price, sold by Amazon.com. A sensible first ring if you are trying out home Pilates.",

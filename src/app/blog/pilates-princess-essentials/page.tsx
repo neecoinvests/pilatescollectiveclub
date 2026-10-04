@@ -339,9 +339,9 @@ const SECTIONS: Section[] = [
         tier: "Budget",
         tag: "Budget — the ring",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
-        price: "$13.93",
+        price: "$14.48",
         description:
-          "A larger 15\" ring from Gaiam at under half the price. Perfectly fine for learning ring work at home. $13.93, sold by Amazon.com.",
+          "A larger 15\" ring from Gaiam at under half the price. Perfectly fine for learning ring work at home. $14.48, sold by Amazon.com.",
         url: amazon("B086HNGNFZ"),
       },
     ],

@@ -38,7 +38,7 @@ const jsonLd = {
       "description": "Evidence-based guide to Pilates for osteoporosis and osteopenia — which exercises help, which to avoid, and the critical modifications for fracture risk reduction.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-osteoporosis",
       "datePublished": "2026-06-01",
-      "dateModified": "2026-06-01",
+      "dateModified": "2026-10-04",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -65,10 +65,10 @@ const jsonLd = {
 };
 
 const PRODUCTS = [
-  { name: "Manduka PRO Yoga Mat (6mm)", description: "A firm, dense mat for osteoporosis Pilates work — joint protection and surface stability matter more here than plush cushioning. The Manduka PRO is the studio-standard dense mat: it resists sinking at the wrists and hips during weight-bearing exercises, and is a long-term purchase rather than a replacement item.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20" },
+  { name: "Manduka PRO Yoga Mat (6mm)", description: "A firm, dense mat for osteoporosis Pilates work — joint protection and surface stability matter more here than plush cushioning. The Manduka PRO is the studio-standard dense mat: it resists sinking at the wrists and hips during weight-bearing exercises, and is a long-term purchase rather than a replacement item.", price: "$143.99", affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20" },
   { name: "THERABAND Resistance Bands Set (Beginner Kit)", description: "Progressive resistance loading for bone density — the mechanical stimulus that drives osteoblast activity. The yellow/red/green beginner kit allows light-to-medium progressive loading appropriate for osteoporotic bone.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Black Mountain Products High Density Foam Roller (36-inch)", description: "For thoracic extension and mobility work. Note: spinal flexion over the roller is contraindicated with osteoporosis — extension work only.", price: "$29.99", affiliateUrl: "https://www.amazon.com/dp/B00DL7BH2O?tag=pilatescollective-20" },
-  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Light resistance for hip and arm strengthening in standing positions — weight-bearing exercises with a magic circle provide bone-loading stimulus without fracture risk.", price: "$13.93", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Light resistance for hip and arm strengthening in standing positions — weight-bearing exercises with a magic circle provide bone-loading stimulus without fracture risk.", price: "$14.48", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
   { name: "Balanced Body Pilates Arc (Step Barrel)", description: "The real Balanced Body-branded arc barrel, sold directly by the manufacturer on Amazon. Supports safe spinal extension exercises for osteoporosis — extension strengthens the posterior spinal muscles that protect vertebral bodies from compression fracture.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
 ];
 
@@ -88,7 +88,7 @@ export default function PilatesForOsteoporosisPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates for<br />Osteoporosis:<br /><span style={{ color: "#8b4a31" }}>Safe Practice Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 12 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 12 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Pilates is one of the most frequently recommended exercise approaches for people with osteoporosis and osteopenia — and one of the most frequently misapplied. The method&apos;s emphasis on controlled movement and spinal alignment makes it naturally well-suited to bone health. But several classical Pilates exercises pose genuine fracture risk for people with low bone density. This guide explains the evidence, the exercises that help, and the critical modifications that make Pilates safe.
@@ -110,7 +110,20 @@ export default function PilatesForOsteoporosisPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-14 mt-4">
+            <div className="mb-14 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The kit used in this guide</p>
+                <p className="text-xs mt-1" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Check with your doctor or physiotherapist before starting a new exercise programme. Prices checked on Amazon on October 4, 2026.</p>
+              </div>
+              {PRODUCTS.map((p, i) => (
+                <a key={p.name} href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" className="flex items-center justify-between gap-4 px-6 py-3" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff", textDecoration: "none" }}>
+                  <span className="text-sm" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</span>
+                  <span className="text-xs font-semibold shrink-0" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price} · Amazon →</span>
+                </a>
+              ))}
+            </div>
+
+            <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why bone health is a movement problem</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Bone is living tissue that responds to mechanical load. When muscles pull on bones through their attachment points, the resulting stress stimulates osteoblast activity — new bone formation. This is Wolff&apos;s Law: bone adapts to the loads placed upon it. Conversely, without adequate load (sedentary behaviour, bed rest, weightlessness), bone density declines.

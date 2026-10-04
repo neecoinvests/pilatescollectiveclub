@@ -127,7 +127,7 @@ const jsonLd = {
           "@type": "Product",
           "name": p.name,
           "description": p.description,
-          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
+          "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
         },
       })),
     },
@@ -207,7 +207,7 @@ export default function BestPilatesReformerSmallSpacesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Reformers · Tested for Small Spaces</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Reformers · Compared for Small Spaces</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

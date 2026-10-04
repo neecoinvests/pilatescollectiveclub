@@ -117,7 +117,7 @@ const jsonLd = {
           "name": p.name,
           "description": p.description.replace(/<[^>]+>/g, ""),
           ...(p.affiliateUrl
-            ? { "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9]/g, ""), "availability": "https://schema.org/InStock", "url": p.affiliateUrl } }
+            ? { "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": "https://schema.org/InStock", "url": p.affiliateUrl } }
             : {}),
         },
       })),

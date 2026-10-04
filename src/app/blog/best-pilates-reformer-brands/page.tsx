@@ -39,7 +39,7 @@ const jsonLd = {
       "description": "The definitive comparison of every major reformer Pilates brand — Balanced Body, Gratz, Merrithew, Peak Pilates, Elina, BASI Systems, Align-Pilates, AeroPilates, Your Reformer, and PersonalHour.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-brands",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-09-22",
+      "dateModified": "2026-10-04",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -114,6 +114,9 @@ const BRANDS = [
     cons: ["Premium pricing — Studio Reformer is $4,700 before accessories", "Spring feel is smoother than Gratz — not historically authentic", "Heavy machines require two people for setup"],
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
     affiliateLabel: "Shop Balanced Body on Amazon →",
+    directUrl: null as string | null,
+    altUrl: null as string | null,
+    altLabel: null as string | null,
   },
   {
     rank: 2,
@@ -129,6 +132,9 @@ const BRANDS = [
     cons: ["Little adjustability compared with contemporary machines", "Not designed for contemporary method modifications", "Limited dealer network outside the US", "Made to order — lead times can run to several months"],
     affiliateUrl: null,
     affiliateLabel: null,
+    directUrl: "https://www.gratzpilates.com" as string | null,
+    altUrl: null as string | null,
+    altLabel: null as string | null,
   },
   {
     rank: 3,
@@ -144,6 +150,9 @@ const BRANDS = [
     cons: ["Spring feel is brand-specific — noticeable transition if switching from Balanced Body", "Tower accessories are not cross-compatible with other brands", "Less suited to classical method practitioners"],
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
     affiliateLabel: "Shop Merrithew on Amazon →",
+    directUrl: null as string | null,
+    altUrl: null as string | null,
+    altLabel: null as string | null,
   },
   {
     rank: 4,
@@ -159,6 +168,9 @@ const BRANDS = [
     cons: ["Limited international dealer network — harder to service outside North America", "Fewer budget entry-level models than Align or Merrithew", "Less prominent training methodology association"],
     affiliateUrl: null,
     affiliateLabel: null,
+    directUrl: "https://www.peakpilates.com" as string | null,
+    altUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" as string | null,
+    altLabel: "Amazon alternative: Merrithew At Home SPX ($3,349) →" as string | null,
   },
   {
     rank: 5,
@@ -174,6 +186,9 @@ const BRANDS = [
     cons: ["Premium pricing — significantly above Merrithew and Balanced Body for comparable models", "Less widely available — boutique dealer network", "Over-engineered for general home use"],
     affiliateUrl: null,
     affiliateLabel: null,
+    directUrl: "https://basisystems.com/product-category/reformers/" as string | null,
+    altUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" as string | null,
+    altLabel: "Amazon alternative: Align-Pilates C8-Pro ($2,750) →" as string | null,
   },
   {
     rank: 6,
@@ -189,6 +204,9 @@ const BRANDS = [
     cons: ["Less established global reputation than the top three brands", "Servicing can be harder to arrange outside Europe and Australia", "Spring feel is less smooth than Balanced Body — an adjustment if switching"],
     affiliateUrl: null,
     affiliateLabel: null,
+    directUrl: "https://www.elinapilates.com" as string | null,
+    altUrl: "https://www.amazon.com/dp/B0D2ZT4Z5H?tag=pilatescollective-20" as string | null,
+    altLabel: "Amazon alternative: DELAVIN Solid Wood Reformer ($1,249.99) →" as string | null,
   },
   {
     rank: 7,
@@ -204,6 +222,9 @@ const BRANDS = [
     cons: ["Not suitable for intensive commercial use with 15+ clients daily", "Lower resale value than Balanced Body or Merrithew", "Tower accessories less extensive than top-tier brands"],
     affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20",
     affiliateLabel: "Shop Align-Pilates on Amazon →",
+    directUrl: null as string | null,
+    altUrl: null as string | null,
+    altLabel: null as string | null,
   },
   {
     rank: 8,
@@ -219,6 +240,9 @@ const BRANDS = [
     cons: ["Elastic cord spring system — noticeably different from calibrated steel springs", "Not suitable for advancing beyond intermediate practice", "Carriage precision is lower than professional-grade machines", "Limited accessory compatibility"],
     affiliateUrl: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20",
     affiliateLabel: "Shop AeroPilates on Amazon →",
+    directUrl: null as string | null,
+    altUrl: null as string | null,
+    altLabel: null as string | null,
   },
   {
     rank: 9,
@@ -234,6 +258,9 @@ const BRANDS = [
     cons: ["App subscription is an ongoing cost after the first three months", "Spring feel is brand-specific — different from studio machines", "Accessories range still developing compared to Balanced Body"],
     affiliateUrl: null,
     affiliateLabel: null,
+    directUrl: "https://yourreformer.com" as string | null,
+    altUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20" as string | null,
+    altLabel: "Amazon alternative: WINDFOOT Foldable Reformer ($295.99) →" as string | null,
   },
   {
     rank: 10,
@@ -249,7 +276,18 @@ const BRANDS = [
     cons: ["Less well-known brand — fewer community resources and independent reviews", "App and online class integration less developed than Your Reformer", "International shipping costs can be significant"],
     affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20",
     affiliateLabel: "Shop PersonalHour on Amazon →",
+    directUrl: null as string | null,
+    altUrl: null as string | null,
+    altLabel: null as string | null,
   },
+];
+
+const AMAZON_PICKS = [
+  { tag: "Best overall", name: "Balanced Body Studio Reformer (Revo Footbar)", price: "$4,700.00", note: "Made to order — ships after a lead time", url: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
+  { tag: "Best for STOTT trainees", name: "Merrithew At Home SPX Reformer Package", price: "$3,349.00", note: "Sold by Amazon.com", url: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
+  { tag: "Best value pro springs", name: "Align-Pilates C8-Pro Reformer", price: "$2,750.00", note: null, url: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" },
+  { tag: "Best foldable premium", name: "PersonalHour Janet La Force Plus Foldable Reformer", price: "$2,555.00", note: "Low stock", url: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20" },
+  { tag: "Best beginner budget", name: "AeroPilates Premier 701 Reformer", price: "$539.99", note: null, url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20" },
 ];
 
 const QUICK_MATCH = [
@@ -280,7 +318,7 @@ export default function BestReformerBrandsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Reformer Pilates Brands<br /><span style={{ color: "#8b4a31" }}>(2026): All 10 Ranked</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 18 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 18 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The reformer brand you buy shapes your entire practice — not just the quality of the machine, but the spring feel, the carriage response, and which version of the Pilates method your body learns. This guide ranks all 10 major reformer Pilates brands honestly: for home practitioners, studio owners, classical purists, and serious athletes. We cover what each brand does best, where each falls short, and who it is actually built for.
@@ -320,6 +358,29 @@ export default function BestReformerBrandsPage() {
                       <p className="text-xs font-semibold whitespace-nowrap" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.brand} →</p>
                     </div>
                   </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Shop on Amazon */}
+            <div>
+              <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand reformers you can buy on Amazon</h2>
+              <p className="text-sm leading-relaxed mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Five of the ten brands sell on Amazon. Prices and stock checked live on October 4, 2026; the final price is whatever Amazon shows at checkout.</p>
+              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
+                {AMAZON_PICKS.map((item, i) => (
+                  <a key={item.url} href={item.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                    <div className="flex items-center justify-between gap-4 px-6 py-4 hover:opacity-80 transition-opacity" style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#fcf9f8", borderBottom: i < AMAZON_PICKS.length - 1 ? "1px solid rgba(217,194,186,0.3)" : "none" }}>
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.tag}</p>
+                        <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.name}</p>
+                        {item.note && <p className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.note}</p>}
+                      </div>
+                      <div className="text-right shrink-0">
+                        <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.price}</p>
+                        <p className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Amazon →</p>
+                      </div>
+                    </div>
+                  </a>
                 ))}
               </div>
             </div>
@@ -398,7 +459,18 @@ export default function BestReformerBrandsPage() {
                             {brand.affiliateLabel}
                           </a>
                         ) : (
-                          <span className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif", fontStyle: "italic" }}>Sold direct from the manufacturer — not available on Amazon</span>
+                          <>
+                            {brand.directUrl && (
+                              <a href={brand.directUrl} target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ border: "1px solid #8b4a31", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                                Visit {brand.name} — not sold on Amazon →
+                              </a>
+                            )}
+                            {brand.altUrl && (
+                              <a href={brand.altUrl} target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
+                                {brand.altLabel}
+                              </a>
+                            )}
+                          </>
                         )}
                         <Link href={`/blog/${brand.slug}`} className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "underline", textUnderlineOffset: "3px" }}>
                           Read full {brand.name} guide →

@@ -167,7 +167,7 @@ const jsonLd = {
           "offers": {
             "@type": "Offer",
             "priceCurrency": "USD",
-            "price": p.price.replace(/[^0-9]/g, ""),
+            "price": p.price,
             "availability": "https://schema.org/InStock",
             "url": p.affiliateUrl,
           },
