@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "ProsourceFit Weighted Toning Exercise Ball (5lb)",
-    price: "$11.99",
+    price: "$10.48",
     verdict: "For advanced standing series and full-body toning work",
     description:
       "The heaviest in the same ProsourceFit line, built for advanced standing arm series or full-body toning circuits rather than classical low-load mat work. It's easy to overshoot with this weight in seated Pilates arm sequences — the shoulders and neck tend to compensate once the load exceeds what slow, controlled reps can manage — so this is best reserved for practitioners who already know their form holds under load. Sold by Amazon.com.",
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Yes4All Weighted Toning Ball (2-10lb range)",
-    price: "$13.85",
+    price: "$12.50",
     verdict: "Best wide-range line for instability training",
     description:
       "Sold by Amazon.com, this line spans 2lb to 10lb, a wider range than the ProsourceFit set covers in one product family. It's a PVC shell with a sand fill, which shifts slightly as you move it — a real plus for instability and balance drills where a rigid dumbbell feels too static, on top of the standard Pilates toning uses.",
@@ -71,12 +71,12 @@ const PRODUCTS = [
   },
   {
     rank: "05",
-    name: "Philosophy Gym Toning Ball (2lb)",
-    price: "$13.99",
+    name: "Philosophy Gym Toning Ball (3lb)",
+    price: "$14.99",
     verdict: "Best durable mini medicine ball for toss-and-catch work",
     description:
-      "A soft-shell PVC mini medicine ball built to hold up to repeated tossing and catching, not just static holds — useful if your routine mixes toning ball work with partner passes or rebound drills where the ProsourceFit's sand-filled design is less suited to repeated impact.",
-    affiliateUrl: "https://www.amazon.com/dp/B0921T3G1C?tag=pilatescollective-20",
+      "A soft-shell, non-burst PVC mini medicine ball filled with sand, built to handle repeated tossing and catching as well as static holds — useful if your routine mixes toning-ball work with partner passes or rebound drills. It comes in colour-coded weights from 2lb up; the 2lb is often out of stock, so we link the 3lb, which suits most Pilates arm work. Stock can be limited.",
+    affiliateUrl: "https://www.amazon.com/dp/B0921HPRJB?tag=pilatescollective-20",
     tag: "Best For Toss & Catch",
   },
 ];
@@ -122,10 +122,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What's the best hand weight sold on Amazon for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The ProsourceFit Weighted Toning Exercise Ball is a live, currently-sold Amazon listing available in 2lb, 3lb, and 5lb versions, all $11.99. The Yes4All Weighted Toning Ball ($13.85) spans a wider 2-10lb range, and the Philosophy Gym Toning Ball ($13.99) is a durable pick for toss-and-catch drills. All are sand or PVC-filled and ergonomically shaped, which puts less strain on the wrist than a bar-style dumbbell during high-repetition arm work." } },
-        { "@type": "Question", "name": "What weight dumbbells should I use for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "In general, light loads — commonly cited as one to three pounds — cover most of the Pilates arm repertoire, since the arm series is high-repetition endurance work performed with long levers and little momentum. The ProsourceFit 2lb, Philosophy Gym 2lb, or the low end of the Yes4All range covers that well; the ProsourceFit 5lb or the upper end of the Yes4All range suits advanced standing series or full-body toning work." } },
+        { "@type": "Question", "name": "What's the best hand weight sold on Amazon for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The ProsourceFit Weighted Toning Exercise Ball is a live, currently-sold Amazon listing available in 2lb, 3lb, and 5lb versions, from $10.48 to $11.99. The Yes4All Weighted Toning Ball ($12.50) spans a wider 2-10lb range, and the Philosophy Gym Toning Ball ($14.99, 3lb) is a durable pick for toss-and-catch drills. All are sand or PVC-filled and ergonomically shaped, which puts less strain on the wrist than a bar-style dumbbell during high-repetition arm work." } },
+        { "@type": "Question", "name": "What weight dumbbells should I use for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "In general, light loads — commonly cited as one to three pounds — cover most of the Pilates arm repertoire, since the arm series is high-repetition endurance work performed with long levers and little momentum. The ProsourceFit 2lb or 3lb, the Philosophy Gym 3lb, or the low end of the Yes4All range covers that well; the ProsourceFit 5lb or the upper end of the Yes4All range suits advanced standing series or full-body toning work." } },
         { "@type": "Question", "name": "Do I need hand weights for Pilates at all?", "acceptedAnswer": { "@type": "Answer", "text": "No. The classical mat repertoire works without them, and beginners are often better off learning the movements unweighted before adding load. Once form is solid, a light toning ball like the ProsourceFit 2lb or Philosophy Gym 2lb adds resistance without changing the character of the exercise." } },
-        { "@type": "Question", "name": "Which of these five should I actually buy?", "acceptedAnswer": { "@type": "Answer", "text": "For most people starting out: the ProsourceFit 2lb ($11.99). For a wider range in one purchase: the Yes4All ($13.85, 2-10lb). For durability against tossing and catching: the Philosophy Gym 2lb ($13.99). For advanced standing series work: the ProsourceFit 5lb ($11.99)." } },
+        { "@type": "Question", "name": "Which of these five should I actually buy?", "acceptedAnswer": { "@type": "Answer", "text": "For most people starting out: the ProsourceFit 2lb ($11.99). For a wider range in one purchase: the Yes4All ($12.50, 2-10lb). For durability against tossing and catching: the Philosophy Gym 2lb ($13.99). For advanced standing series work: the ProsourceFit 5lb ($10.48)." } },
       ],
     },
   ],
@@ -151,7 +151,7 @@ export default function BestPilatesHandWeightsPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A prior version of this article named brands (a neoprene dumbbell set, a vinyl-coated rack, adjustable wrist weights) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real toning ball options are in stock and ready to buy today: the ProsourceFit Weighted Toning Exercise Ball line in 2lb, 3lb, and 5lb versions (all $11.99), the Yes4All Weighted Toning Ball spanning a 2-10lb range ($13.85), and the Philosophy Gym Toning Ball ($13.99, 2lb). They&apos;re a genuinely good fit for Pilates arm work: sand or PVC-filled and ergonomically shaped, so they put less strain on the wrist and finger joints than a bar-style dumbbell during high-repetition sets.
+              A prior version of this article named brands (a neoprene dumbbell set, a vinyl-coated rack, adjustable wrist weights) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real toning ball options are in stock and ready to buy today: the ProsourceFit Weighted Toning Exercise Ball line in 2lb, 3lb, and 5lb versions ($10.48 to $11.99), the Yes4All Weighted Toning Ball spanning a 2-10lb range ($12.50), and the Philosophy Gym Toning Ball ($14.99, 3lb). They&apos;re a genuinely good fit for Pilates arm work: sand or PVC-filled and ergonomically shaped, so they put less strain on the wrist and finger joints than a bar-style dumbbell during high-repetition sets.
             </p>
           </div>
         </section>
@@ -212,7 +212,7 @@ export default function BestPilatesHandWeightsPage() {
                   { heading: "Load range", body: "One to three pounds is commonly cited as the appropriate range for the Pilates arm series — heavier loads tend to bring the neck and upper trapezius into play, which works against the exercise's intent. The 2lb and 3lb balls sit squarely in this range." },
                   { heading: "Grip vs. open-hand designs", body: "The toning ball's rounded shape rests in an open palm rather than requiring a closed grip, which reduces forearm recruitment compared with a handled dumbbell — a genuine advantage for the long, controlled arm circles Pilates favors." },
                   { heading: "Surface material", body: "The sand fill gives a soft-touch surface rather than bare metal, which is more comfortable in a sweaty hand and less likely to mark a floor if set down between exercises." },
-                  { heading: "Progression", body: "Because the 2lb, 3lb, and 5lb balls are the same price and shape, it's reasonable to start with the 2lb and add the 3lb once the lighter one stops feeling like resistance, rather than buying an adjustable set." },
+                  { heading: "Progression", body: "Because the 2lb, 3lb, and 5lb balls are close in price and the same shape, it's reasonable to start with the 2lb and add the 3lb once the lighter one stops feeling like resistance, rather than buying an adjustable set." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
@@ -244,10 +244,10 @@ export default function BestPilatesHandWeightsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What's the best hand weight sold on Amazon for Pilates?", a: "The ProsourceFit Weighted Toning Exercise Ball is a live, currently-sold Amazon listing available in 2lb, 3lb, and 5lb versions, all $11.99. The Yes4All Weighted Toning Ball ($13.85) spans a wider 2-10lb range, and the Philosophy Gym Toning Ball ($13.99) is a durable pick for toss-and-catch drills. All are sand or PVC-filled and ergonomically shaped, which puts less strain on the wrist than a bar-style dumbbell during high-repetition arm work." },
-                  { q: "What weight dumbbells should I use for Pilates?", a: "In general, light loads — commonly cited as one to three pounds — cover most of the Pilates arm repertoire, since the arm series is high-repetition endurance work performed with long levers and little momentum. The ProsourceFit 2lb, Philosophy Gym 2lb, or the low end of the Yes4All range covers that well; the ProsourceFit 5lb or the upper end of the Yes4All range suits advanced standing series or full-body toning work." },
+                  { q: "What's the best hand weight sold on Amazon for Pilates?", a: "The ProsourceFit Weighted Toning Exercise Ball is a live, currently-sold Amazon listing available in 2lb, 3lb, and 5lb versions, from $10.48 to $11.99. The Yes4All Weighted Toning Ball ($12.50) spans a wider 2-10lb range, and the Philosophy Gym Toning Ball ($14.99, 3lb) is a durable pick for toss-and-catch drills. All are sand or PVC-filled and ergonomically shaped, which puts less strain on the wrist than a bar-style dumbbell during high-repetition arm work." },
+                  { q: "What weight dumbbells should I use for Pilates?", a: "In general, light loads — commonly cited as one to three pounds — cover most of the Pilates arm repertoire, since the arm series is high-repetition endurance work performed with long levers and little momentum. The ProsourceFit 2lb or 3lb, the Philosophy Gym 3lb, or the low end of the Yes4All range covers that well; the ProsourceFit 5lb or the upper end of the Yes4All range suits advanced standing series or full-body toning work." },
                   { q: "Do I need hand weights for Pilates at all?", a: "No. The classical mat repertoire works without them, and beginners are often better off learning the movements unweighted before adding load. Once form is solid, a light toning ball like the ProsourceFit 2lb or Philosophy Gym 2lb adds resistance without changing the character of the exercise." },
-                  { q: "Which of these five should I actually buy?", a: "For most people starting out: the ProsourceFit 2lb ($11.99). For a wider range in one purchase: the Yes4All ($13.85, 2-10lb). For durability against tossing and catching: the Philosophy Gym 2lb ($13.99). For advanced standing series work: the ProsourceFit 5lb ($11.99)." },
+                  { q: "Which of these five should I actually buy?", a: "For most people starting out: the ProsourceFit 2lb ($11.99). For a wider range in one purchase: the Yes4All ($12.50, 2-10lb). For durability against tossing and catching: the Philosophy Gym 2lb ($13.99). For advanced standing series work: the ProsourceFit 5lb ($10.48)." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

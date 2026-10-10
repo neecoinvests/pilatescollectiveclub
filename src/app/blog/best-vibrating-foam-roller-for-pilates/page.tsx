@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "LTHTRADE Vibrating Foam Roller",
-    price: "$56.99",
+    price: "$62.99",
     verdict: "Best mid-range value pick",
     description:
       "The LTHTRADE roller matches the FITINDEX's five-speed vibration and rechargeable battery at a noticeably lower price, making it the value pick for practitioners who want a full-featured vibrating roller without paying for a big brand name. It is straightforward to operate — no app required — which suits anyone who just wants to switch it on, pick a speed, and roll out the thoracic spine or hip flexors before or after a session.",

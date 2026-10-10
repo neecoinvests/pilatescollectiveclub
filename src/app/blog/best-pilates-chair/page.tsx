@@ -37,10 +37,10 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "VEVOR Split-Pedal Pilates Combo Chair",
-    price: "$249.90",
+    price: "$224.91",
     verdict: "A real, budget-tier split-pedal chair genuinely sold on Amazon",
     description:
-      "The classic two-pedal Wunda Chair design is genuinely sold on Amazon. This VEVOR chair is a real, live, in-stock listing at $249.90 with a split-pedal design, rubberwood frame rated to 350lb, adjustable spring resistance, and padded handles. It is a home/budget-tier build rather than a certification-recognized studio brand, so expect a more basic feel than the Balanced Body or Merrithew chairs, but it is a genuine way to try split-pedal Chair work without the professional-tier price.",
+      "The classic two-pedal Wunda Chair design is genuinely sold on Amazon. This VEVOR chair is a real, live, in-stock listing at $224.91 with a split-pedal design, rubberwood frame rated to 350lb, adjustable spring resistance, and padded handles. It is a home/budget-tier build rather than a certification-recognized studio brand, so expect a more basic feel than the Balanced Body or Merrithew chairs, but it is a genuine way to try split-pedal Chair work without the professional-tier price.",
     affiliateUrl: "https://www.amazon.com/dp/B0F6LDT4WK?tag=pilatescollective-20",
     tag: "Budget Split-Pedal",
   },
@@ -77,7 +77,7 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "ProsourceFit Interlocking Foam Tiles (48 sq ft)",
-    price: "$49.99",
+    price: "$54.99",
     verdict: "A real, verified way to stabilize the floor under the Chair",
     description:
       "We could not find a purpose-made \"non-slip mat for chair base\" as a live Amazon listing, so instead of inventing one, here is a real, verified alternative: interlocking foam floor tiles laid beneath the chair reduce shifting on smooth or hardwood floors during standing, single-leg work. Confirm the tile thickness doesn't destabilize the chair's own footing before relying on it for balance-intensive exercises.",
@@ -115,7 +115,7 @@ const jsonLd = {
         { "@type": "Question", "name": "Do I need a Pilates Chair if I already have a reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Not immediately. The Chair adds significant exercise variety for intermediate and advanced practitioners. If your reformer practice feels stagnant, a Chair is the logical next apparatus addition. Beginners: focus on the reformer first." } },
         { "@type": "Question", "name": "Can I use a Pilates Chair without an instructor?", "acceptedAnswer": { "@type": "Answer", "text": "Not recommended initially. The Chair exercises require technique cuing that books and videos inadequately convey. Take at least 3–5 supervised Chair sessions before solo practice." } },
         { "@type": "Question", "name": "Is the Balanced Body or Merrithew chair better?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on pedal preference and what's actually available to you: the Balanced Body EXO Pilates Chair is the real single-pedal chair sold on Amazon, at $1,255. Merrithew's split-pedal chair is not sold on Amazon — it's dealer-direct only, and worth it specifically if you want independent-leg rehab work or already train in the STOTT system. For classical practice, Gratz is dealer-direct as well." } },
-        { "@type": "Question", "name": "Is the classic two-pedal Wunda Chair sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, from budget-tier brands — the VEVOR Split-Pedal Pilates Combo Chair ($249.90) is a real, live Amazon listing with the classic two-pedal design. Balanced Body's own chair sold on Amazon, the EXO Pilates Chair ($1,255), is single-pedal. Gratz's classical Wunda Chair and Merrithew's split-pedal chair remain dealer-direct only." } },
+        { "@type": "Question", "name": "Is the classic two-pedal Wunda Chair sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, from budget-tier brands — the VEVOR Split-Pedal Pilates Combo Chair ($224.91) is a real, live Amazon listing with the classic two-pedal design. Balanced Body's own chair sold on Amazon, the EXO Pilates Chair ($1,255), is single-pedal. Gratz's classical Wunda Chair and Merrithew's split-pedal chair remain dealer-direct only." } },
       ],
     },
   ],
@@ -290,7 +290,7 @@ export default function BestPilatesChairPage() {
                   },
                   {
                     q: "Is the classic two-pedal Wunda Chair sold on Amazon?",
-                    a: "Yes, from budget-tier brands — the VEVOR Split-Pedal Pilates Combo Chair ($249.90) is a real, live Amazon listing with the classic two-pedal design. Balanced Body's own chair sold on Amazon, the EXO Pilates Chair ($1,255), is single-pedal. Gratz's classical Wunda Chair and Merrithew's split-pedal chair remain dealer-direct only.",
+                    a: "Yes, from budget-tier brands — the VEVOR Split-Pedal Pilates Combo Chair ($224.91) is a real, live Amazon listing with the classic two-pedal design. Balanced Body's own chair sold on Amazon, the EXO Pilates Chair ($1,255), is single-pedal. Gratz's classical Wunda Chair and Merrithew's split-pedal chair remain dealer-direct only.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

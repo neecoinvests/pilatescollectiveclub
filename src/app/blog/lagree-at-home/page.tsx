@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "WHATAFIT Resistance Bands with Handles (150 lb set)",
-    price: "$22.07",
+    price: "$27.97",
     verdict: "Best way to train the method without the machine",
     description:
       "If the machine is out of budget for now, a resistance band set with handles and a door anchor is the closest you can get to the loading pattern Lagree uses. The method is built on slow eccentric control against continuous spring tension, and a cable with a long elastic travel reproduces that resistance curve far better than a dumbbell, which loads by gravity alone and unloads at the top of every movement. Anchored to a door, a cable set covers the standing, kneeling and lunging sequences that make up a large share of a Lagree class. It will not reproduce the carriage instability, which is the part you cannot substitute. This WHATAFIT set is the verified pick here: five stackable bands from 10 to 50 lb (up to 150 lb combined) with two cushioned handles and a door anchor, sold by the brand on Amazon. Check the door anchor seats firmly before loading it.",

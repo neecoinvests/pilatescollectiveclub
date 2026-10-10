@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Lamicall Bike Gloves",
-    price: "$13.99",
+    price: "$19.99",
     verdict: "Best simple, secure grip",
     description:
       "Lamicall's bike gloves combine an anti-slip palm surface with a shock-absorbing pad, focused on keeping your grip secure through sweaty, high-tempo intervals without the handlebar pressure translating straight into your palms. A straightforward, no-frills option for riders who just want reliable grip and cushioning.",
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "CXWXC Cycling Gloves",
-    price: "$15.28",
+    price: "$16.98",
     verdict: "Best for breathability",
     description:
       "CXWXC's gloves pair breathable fabric with gel padding at the palm, which is the combination that matters most in a heated spin studio where hands sweat quickly through a class. For riders who run hot and want a glove that won't feel clammy by the second interval, the breathable build here is the standout feature.",

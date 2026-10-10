@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Haulcove EVA Foam Floor Tiles (18 pc)",
-    price: "$22.49",
+    price: "$19.99",
     verdict: "Best budget starter set",
     description:
       "The Haulcove set is the cheapest way onto this list and the obvious starting point if you're flooring a single corner rather than a whole room. Eighteen interlocking EVA foam tiles from Haulcove US give you a practical practice area for mat work without committing to a full-room budget. Because the tiles interlock, you can buy a second pack later and extend the coverage as the space you've given over to practice grows, rather than needing to plan the whole room out from day one.",
@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "bemaxx EVA Interlocking Foam Floor Tiles",
-    price: "$22.94",
+    price: "$21.84",
     verdict: "Best budget pick",
     description:
       "At almost exactly the same price as the Haulcove set, the bemaxx tiles (sold by PLConcepts) are the alternative budget pick on this list — worth comparing if you want a second option to check finish, colour or tile size against before you buy, or if the Haulcove set happens to be out of stock. Like the other EVA foam tiles here, they interlock without adhesive and are a straightforward, low-cost way to cover a small practice area.",
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Nazhura Home Gym Mat (12-pack, 48 sq ft)",
-    price: "$39.95",
+    price: "$42.95",
     verdict: "Best for mid-size rooms",
     description:
       "The Nazhura set sits between the small starter packs and the full-room ProsourceFit option. Twelve interlocking tiles from seller PEARSONS1979 cover 48 square feet, which is a sensible amount for a mid-size room without paying for far more coverage than you need. It's the pick for anyone who has measured their space and landed somewhere between 'one corner' and 'the whole room.'",

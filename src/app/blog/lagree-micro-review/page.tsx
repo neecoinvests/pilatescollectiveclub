@@ -113,7 +113,7 @@ const SETUP_KIT: Pick[] = [
     badge: "Floor Mat — Micro Only",
     shortName: "Floor mat (78\")",
     name: "Marcy Equipment Mat & Floor Protector (78\" x 36\")",
-    price: "$32.92",
+    price: "$34.71",
     url: amz("B0041GQH3S"),
     description:
       "A 1/4-inch EVA foam equipment mat with a non-slip matte layer that steadies machines and absorbs impact. At 78\" long it covers the Micro's 72\" length with room to spare, but not the 81.5\" of a Micro with the rear platform. Sold by Amazon.com.",

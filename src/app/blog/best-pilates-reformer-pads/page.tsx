@@ -51,7 +51,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Lconvicely Shoulder Block Covers (2-Pack)",
-    price: "$8.95",
+    price: "$7.99",
     verdict: "Real, verified shoulder-block covers — a different accessory from grip pads",
     description: "Sold by Lconvicely Shop on Amazon. \"Reformer pads\" is a term that actually covers at least two distinct products: carriage/standing grip pads, like the Eccentfit pads above, and shoulder-block covers, which slip over the reformer's shoulder rests to add a softer, washable surface. This is a real, currently-sold pair of polyester shoulder block covers with an anti-slip interior and a drawstring closure, fitted for 7.5x4x4in shoulder blocks. Shoulder block dimensions vary by reformer brand, so measure your own blocks against that spec before ordering — treat \"universal fit\" claims from generic sellers with some skepticism.",
     affiliateUrl: "https://www.amazon.com/dp/B0GTLRCTDW?tag=pilatescollective-20",

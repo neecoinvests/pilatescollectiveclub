@@ -228,7 +228,7 @@ export default function BestFoamRollerPage() {
               title="Rolling covers the big muscles. This covers the rest."
               body="A roller is built for broad areas — back, quads, glutes. The spots that stay tight after reformer class (hip flexors, forearms, calves, the base of the neck) are where a percussion massager earns its place. It is the most common next purchase for people who roll regularly."
               picks={[
-                { name: "Therabody TheraGun Relief Massage Gun", price: "$159.99", url: "https://www.amazon.com/dp/B0CNS894RH?tag=pilatescollective-20", note: "Sold by Therabody. The brand's everyday 3-speed model — made for daily comfort rather than clinical intensity." },
+                { name: "Therabody TheraGun Relief Massage Gun", price: "$119.99", url: "https://www.amazon.com/dp/B0CNS894RH?tag=pilatescollective-20", note: "Sold by Therabody. The brand's everyday 3-speed model — made for daily comfort rather than clinical intensity." },
               ]}
               guideHref="/blog/best-massage-gun-for-pilates"
               guideLabel="Compare all 5 massage guns for Pilates recovery"

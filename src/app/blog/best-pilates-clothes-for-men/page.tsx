@@ -69,7 +69,7 @@ const PRODUCTS = [
   {
     rank: 5,
     name: "Under Armour Men's Tech Mesh Shorts",
-    price: "$33.00",
+    price: "$24.75",
     verdict: "Best mid-price men's short",
     description: "Sold and shipped by Amazon.com, this is an easy, reliable buy from an established athletic brand at well under half the price of the premium picks. It is a general training short rather than a Pilates-specific cut, so check the fit before class: you want it close enough that it does not ride up or catch on the footbar during carriage work. A sensible choice if you are trying a few classes before committing to studio-specific kit.",
     affiliateUrl: "https://www.amazon.com/dp/B07CZBPFTM?tag=pilatescollective-20",

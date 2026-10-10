@@ -37,17 +37,17 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"",
-    price: "$299.99",
+    price: "$284.99",
     verdict: "Dual spring-and-latex resistance, genuinely folds",
     description:
-      "DWKWE's 88\" reformer, sold by Jun's Wonderful Store, is another real, live Amazon listing in the same budget-generic-brand tier as WINDFOOT, at $299.99. Its listing describes a height-adjustable footbar, a dual resistance system combining springs and latex resistance bands, a jump board and headrest included, and a reinforced metal frame — and it explicitly folds for storage. As with WINDFOOT, this is a generic brand rather than an established name like Balanced Body or Merrithew: treat the dual spring-plus-latex system, the frame's long-term rigidity, and any warranty support as unverified beyond what the listing states, and read current owner reviews before ordering. But the underlying machine is a genuine carriage-and-rail reformer, not a toy, and it folds — which is more than we can confirm for several premium spring machines.",
+      "DWKWE's 88\" reformer, sold by Jun's Wonderful Store, is another real, live Amazon listing in the same budget-generic-brand tier as WINDFOOT, at $284.99. Its listing describes a height-adjustable footbar, a dual resistance system combining springs and latex resistance bands, a jump board and headrest included, and a reinforced metal frame — and it explicitly folds for storage. As with WINDFOOT, this is a generic brand rather than an established name like Balanced Body or Merrithew: treat the dual spring-plus-latex system, the frame's long-term rigidity, and any warranty support as unverified beyond what the listing states, and read current owner reviews before ordering. But the underlying machine is a genuine carriage-and-rail reformer, not a toy, and it folds — which is more than we can confirm for several premium spring machines.",
     affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
     tag: "Best Dual Resistance",
   },
   {
     rank: "03",
     name: "AeroPilates Reformer 287",
-    price: "$359",
+    price: "$256.49",
     verdict: "Established brand's own fold-flat design, budget tier",
     description:
       "The AeroPilates 287 is the most accessible entry point into reformer Pilates from an established, recognized brand, and — like the rest of the AeroPilates range — is marketed by the brand around fold-flat storage. It uses elastic cord resistance rather than coil springs, which feels genuinely different from a spring-based machine like WINDFOOT, DWKWE, or the PAETA models below. We could not independently verify exact folded dimensions, weight, or fold time for the current listing — confirm those against your specific storage space on the Amazon product page before buying on the strength of this feature. If brand track record and support matter more to you than spring-based resistance, this is the safer, more established folding choice at a similar price to the generic-brand spring options above.",
@@ -67,10 +67,10 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "PAETA 86\" Foldable Reformer, Piano Wire Springs",
-    price: "$439.99",
+    price: "$419.99",
     verdict: "Genuine piano-wire springs, not elastic cord, folds",
     description:
-      "This is PAETA's step-up model from the Dual Resistance version above, also sold directly by PAETA US and also a real, live Amazon listing, at $439.99. The listing describes genuine piano-wire springs rather than elastic cord or latex band resistance — closer in principle to the coil-spring systems used by established studio brands — with a 500 lb capacity distributed across six legs, removable stands for quick height adjustment, and the same 86\" extended deck (versus roughly 75\" on most foldable competitors), which the listing says comfortably fits practitioners up to about 5'9\". It folds for storage. As with the other PAETA and budget listings here, this is a generic brand: no established track record, no certification recognition among instructors, and unclear long-term spring durability or warranty support — but it's the closest thing in this guide's folding budget tier to a genuine spring-resistance feel.",
+      "This is PAETA's step-up model from the Dual Resistance version above, also sold directly by PAETA US and also a real, live Amazon listing, at $419.99. The listing describes genuine piano-wire springs rather than elastic cord or latex band resistance — closer in principle to the coil-spring systems used by established studio brands — with a 500 lb capacity distributed across six legs, removable stands for quick height adjustment, and the same 86\" extended deck (versus roughly 75\" on most foldable competitors), which the listing says comfortably fits practitioners up to about 5'9\". It folds for storage. As with the other PAETA and budget listings here, this is a generic brand: no established track record, no certification recognition among instructors, and unclear long-term spring durability or warranty support — but it's the closest thing in this guide's folding budget tier to a genuine spring-resistance feel.",
     affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20",
     tag: "Best Genuine Springs",
   },

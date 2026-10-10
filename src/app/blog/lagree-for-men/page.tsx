@@ -12,7 +12,7 @@ const PAGE_URL = "https://pilatescollectiveclub.com/blog/lagree-for-men";
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-reformer-row-studio.png";
 const TITLE = "Lagree for Men (2026): What to Wear & What to Expect";
 const DESCRIPTION =
-  "Lagree for men: why strong guys still shake on the Megaformer, what to wear (lined shorts, fitted tops, men's grip socks) and two complete outfits from about $53.";
+  "Lagree for men: why strong guys still shake on the Megaformer, what to wear (lined shorts, fitted tops, men's grip socks) and two complete outfits from about $54.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -136,7 +136,7 @@ const SOCKS: Pick[] = [
     id: "muezna-men",
     role: "Best Men's Grip Socks",
     name: "Muezna Men's Non-Slip Yoga Socks",
-    price: "$17.99",
+    price: "$19.11",
     url: amz("B07H4F3FXK"),
     description:
       "Men's-sized grip socks. The common problem for bigger feet is a grip pattern that stops short of where your foot actually presses; buy men's sizing so the grip covers your whole sole.",

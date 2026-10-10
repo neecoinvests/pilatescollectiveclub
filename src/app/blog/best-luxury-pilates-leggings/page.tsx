@@ -40,7 +40,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Wolford Energy Leggings",
-    price: "$144",
+    price: "$115.00",
     verdict: "Most Luxurious",
     description: "Wolford, the Austrian hosiery house founded in 1950, applies its knitting expertise to activewear with the Energy Leggings. They're circular-knit, which means very few seams to press into you on the carriage, with a matt finish that reads more polished than typical gym leggings. They dry quickly, are sustainably dyed, and are made from recycled BLUFIBRE yarn derived from tyre waste. Full length. Sold by Wolford's own shop on Amazon; stock by size can be thin, so check yours before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B0G43PB7X4?tag=pilatescollective-20",
@@ -85,10 +85,10 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Beyond Yoga Spacedye Caught in the Midi High Waisted Legging",
-    price: "$97",
+    price: "$99",
     verdict: "Softest Fabric",
     description: "Beyond Yoga's Spacedye is the legging people describe as the softest they own. The heathered, space-dyed fabric (87% polyester, 13% elastane) prioritises comfort over compression, and the 5-inch high waistband gives gentle smoothing without pressure points, which makes it ideal for longer, slower mat sessions and holds. It comes in a wide, inclusive size range and dozens of colours. Sold by Zappos on Amazon.",
-    affiliateUrl: "https://www.amazon.com/dp/B07X3Y5JVL?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07663TDHG?tag=pilatescollective-20",
     tag: "Premium Fabric",
   },
 ];

@@ -43,7 +43,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Varley Freesoft Piped Full Leggings",
-    price: "$78.40",
+    price: "$98.00",
     verdict: "Premium pick, studio to street",
     description:
       "Varley is the pick if you want one pair that looks as considered outside the studio as it does on the carriage. This is a full-length legging with contrast piping, and the price shown is for the Marina colourway on the listing, which is sold by Shopbop (an Amazon company); other colours may be priced differently. The appeal for Lagree is mostly about what a premium pair tends to do well over months rather than weeks: hold its shape through repeated hot, sweaty washes, and keep the waistband sitting where you put it while you work through a long, slow set of lunges and planks. Full length gives maximum coverage on the carriage, which is useful in kneeling and side-lying work, at the cost of extra warmth in a hot room. Look at the waistband and the piping placement on the product photos before buying: you want a wide, flat band and seams that will not press into you in a plank. Treat it the way you would any premium activewear: cold wash, no tumble dryer.",

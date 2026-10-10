@@ -32,7 +32,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Polar H10 Heart Rate Monitor Chest Strap",
-    price: "$104.93",
+    price: "$84.74",
     verdict: "Best overall accuracy",
     description:
       "The Polar H10 is widely regarded as the gold standard among consumer heart rate chest straps, and it's the most expensive option here for that reason. It's sold directly by Amazon.com rather than a third-party listing, which is worth knowing if that matters to you when buying hardware you'll wear against your skin. For Lagree and spin training, where heart rate accuracy during rapid intensity changes genuinely matters for zone-based programming, the H10 is the clear premium pick — the strap you buy once and don't think about again.",
@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "COOSPO H6 Heart Rate Monitor Chest Strap",
-    price: "$25.49",
+    price: "$29.99",
     verdict: "Best budget pick",
     description:
       "The COOSPO H6 is the most affordable chest strap on this list and a sensible starting point if you just want a reliable strap for tracking zones in class without paying premium pricing. Like the pricier options here, it supports both Bluetooth and ANT+, so it pairs with a phone app and a bike console or Pilates equipment display at the same time. For practitioners who mainly want to see their heart rate zone in class rather than chase the last percentage point of accuracy, this covers the basics at a fraction of the H10's price.",
@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Polar H9 Heart Rate Sensor",
-    price: "$69.90",
+    price: "$59.41",
     verdict: "Best mid-tier pick from an established brand",
     description:
       "The Polar H9 is Polar's step-down model from the H10, sold directly by Amazon.com, and it lands squarely between the budget straps and the premium H10 on price. If you want the reassurance of an established, sports-science-trusted brand but don't need every feature the H10 carries, the H9 is the sensible middle option — Polar's core accuracy reputation at a mid-tier price.",

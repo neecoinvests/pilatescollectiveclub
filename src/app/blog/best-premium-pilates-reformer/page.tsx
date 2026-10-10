@@ -127,12 +127,12 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Balanced Body Metro IQ Reformer",
-    price: "$2,350",
+    price: "$2,330",
     verdict: "Best space-saving premium reformer",
     tier: "Premium Compact",
     description:
       "The Metro IQ solves the space problem that keeps most people from owning a full reformer. Its patented telescoping frame extends for training and shortens by 36 inches for storage, sliding under a bed or standing in a closet depending on the wheel kit. You still get genuine Balanced Body engineering: five Signature Springs, a seamless carriage on an 8-wheel system, a 4-position footbar with 9 inches of adjustment, a 3-position headrest and a built-in 5.5-inch standing platform. Sold direct by Balanced Body through Amazon.",
-    affiliateUrl: "https://www.amazon.com/dp/B0F79ZCQMV?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20",
     specs: [
       { label: "Storage reduction", value: "36 inches shorter when stored" },
       { label: "Springs", value: "5 Signature Springs" },
@@ -363,7 +363,7 @@ export default function BestPremiumReformerPage() {
                       { model: "Balanced Body Allegro Stretch", price: "$3,710", springs: "5 springs", rail: "Extended carriage", carriage: "36″ adjustable footbar", best: "Tall / larger bodies" },
                       { model: "Align-Pilates C8-PRO", price: "$2,750", springs: "Rapid Change Spring Bar", rail: "94.3″", carriage: "8 PU wheels", best: "Best value" },
                       { model: "PersonalHour Janet La Force Plus", price: "$2,555", springs: "6 springs", rail: "Foldable", carriage: "Solid walnut", best: "Wood + foldable" },
-                      { model: "Balanced Body Metro IQ", price: "$2,350", springs: "5 springs", rail: "Telescoping (-36″ stored)", carriage: "Standard", best: "Small spaces" },
+                      { model: "Balanced Body Metro IQ", price: "$2,330", springs: "5 springs", rail: "Telescoping (-36″ stored)", carriage: "Standard", best: "Small spaces" },
                     ].map((row, i) => (
                       <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
                         <td className="px-4 py-3 font-semibold whitespace-nowrap" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.model}</td>

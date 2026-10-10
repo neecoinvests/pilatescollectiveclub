@@ -85,7 +85,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Varley Freesoft Piped Full Leggings (Marina)",
-        price: "$78.40",
+        price: "$98.00",
         url: amz("B0FXN378H8"),
         description:
           "Varley is a studio-favourite label, and the Freesoft line is its soft, brushed-feel fabric. This full-length, piped pair is sold through Shopbop, an Amazon company, and the listing is shown in Marina. It is the one to buy if you want a single pair that looks as good on the walk to class as it does on the carriage.",
@@ -121,7 +121,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Varley Freesoft Harley Bralette (Marina)",
-        price: "$52.80",
+        price: "$66.00",
         url: amz("B0FXN42JWR"),
         description:
           "The Harley Bralette is in the same Freesoft fabric and the same Marina colour as the leggings above, so the two make a genuine matching set. Sold through Shopbop. It is a light-support bralette, which suits mat and reformer work but not high-impact cardio.",
@@ -250,7 +250,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "BAGSMART Duffle Bag",
-        price: "$21.43",
+        price: "$29.99",
         url: amz("B0CSYNW3X3"),
         description:
           "A gym and weekender duffle from BAGSMART. It is less Pilates-specific than the tote, but it holds a full change of clothes and works for travel as well as class.",
@@ -326,7 +326,7 @@ const CATEGORIES: Category[] = [
       },
       {
         tier: "Splurge",
-        name: "Liforme Classic Yoga Mat",
+        name: "Liforme Original Yoga Mat",
         price: "$165.00",
         url: amz("B01CGLCGRA"),
         description:
@@ -355,7 +355,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
-        price: "$14.48",
+        price: "$16.39",
         url: amz("B086HNGNFZ"),
         description:
           "A full-size 15\" ring at under half the price, sold by Amazon.com. A sensible first ring if you are trying out home Pilates.",
@@ -508,7 +508,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Therabody TheraGun Relief",
-        price: "$159.99",
+        price: "$119.99",
         url: amz("B0CNS894RH"),
         description:
           "The TheraGun Relief is Therabody's entry-level massage gun, sold by TheraGun. It is simpler than the brand's pro models, which suits general soreness after class.",
@@ -874,7 +874,7 @@ export default function PilatesEssentialsPage() {
                       ))}
                     </div>
                     <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
-                      Most of the gap between the two kits comes from the clothing (Varley vs CRZ YOGA) and the mat (Manduka PRO vs Gaiam). Both totals include a $159.99 massage gun, $74.99 foam roller and $55.00 ankle weights, so if you only go to studio classes and skip recovery and home props, the budget clothing and studio accessories alone come to {fmt(STUDIO_BUDGET_TOTAL)}. Home reformers are priced separately below: WINDFOOT $295.99, AeroPilates $539.99, Merrithew At Home SPX $3,349.00.
+                      Most of the gap between the two kits comes from the clothing (Varley vs CRZ YOGA) and the mat (Manduka PRO vs Gaiam). Both totals include a $119.99 massage gun, $74.99 foam roller and $55.00 ankle weights, so if you only go to studio classes and skip recovery and home props, the budget clothing and studio accessories alone come to {fmt(STUDIO_BUDGET_TOTAL)}. Home reformers are priced separately below: WINDFOOT $295.99, AeroPilates $539.99, Merrithew At Home SPX $3,349.00.
                     </p>
                   </div>
                 )}

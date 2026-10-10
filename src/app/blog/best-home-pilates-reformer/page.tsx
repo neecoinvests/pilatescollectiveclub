@@ -9,8 +9,8 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Home Pilates Reformer (2026): $359 to $4,700 Compared",
-  description: "Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint — plus which budget tier actually fits your space and practice.",
+  title: "Best Home Pilates Reformer (2026): $256.49 to $4,700 Compared",
+  description: "Home Pilates reformers from $256.49 to $4,700 compared on springs, rail length and footprint — plus which budget tier actually fits your space and practice.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
     description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",
@@ -36,7 +36,7 @@ const PRODUCTS = [
     rank: "01",
     name: "Stamina AeroPilates 287",
     tier: "Budget",
-    price: "$359",
+    price: "$256.49",
     verdict: "Best budget entry point",
     description:
       "The 287 is the least expensive way to get a real sliding-carriage reformer at home. Resistance comes from three heavy-duty elastic bungee cords rather than springs, which feels softer than a studio machine but works well for foundational footwork, stretching and the rowing series. It has a padded 3-position headrest, padded footbar, foam hand and foot straps, and it folds on wheels to store. The 17.5-inch platform is narrower than studio carriages, so it suits smaller frames best. Two workout DVDs and a wall chart are included.",
@@ -89,7 +89,7 @@ const FAQS = [
   },
   {
     q: "What is the best entry-level home reformer?",
-    a: "For a tight budget, the AeroPilates 287 (about $359) is the least expensive real sliding-carriage reformer; the AeroPilates Premier 701 (about $540) adds a fourth resistance cord and a 300 lb user limit. Both use elastic cords rather than springs and fold on wheels for storage.",
+    a: "For a tight budget, the AeroPilates 287 (about $256.49) is the least expensive real sliding-carriage reformer; the AeroPilates Premier 701 (about $540) adds a fourth resistance cord and a 300 lb user limit. Both use elastic cords rather than springs and fold on wheels for storage.",
   },
   {
     q: "How much space does a home Pilates reformer need?",
@@ -320,7 +320,7 @@ export default function BestHomeReformerPage() {
                   </thead>
                   <tbody>
                     {[
-                      { model: "Stamina 287", price: "$359", resistance: "3 cords", rail: "85\" overall", best: "Beginners, small spaces" },
+                      { model: "Stamina 287", price: "$256.49", resistance: "3 cords", rail: "85\" overall", best: "Beginners, small spaces" },
                       { model: "AeroPilates 557", price: "$1,330", resistance: "4 springs", rail: "100.5\" overall", best: "Regular practitioners" },
                       { model: "Merrithew At Home SPX", price: "$3,349", resistance: "5 springs", rail: "96.5\" overall", best: "Serious practitioners" },
                       { model: "Balanced Body Studio Reformer", price: "$4,700", resistance: "5 springs", rail: "~8 ft", best: "Professional home studio" },
@@ -342,7 +342,7 @@ export default function BestHomeReformerPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Start from your constraint, not the price list</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Almost nobody buying a reformer is choosing freely between a $359 machine and a $4,700 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
+                Almost nobody buying a reformer is choosing freely between a $256.49 machine and a $4,700 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[

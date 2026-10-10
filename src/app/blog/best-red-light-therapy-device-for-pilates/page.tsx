@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "LumaDoc Handheld Red Light Therapy",
-    price: "$84.99",
+    price: "$99.99",
     verdict: "Best FSA/HSA-eligible option",
     description:
       "The LumaDoc device combines blue and near-infrared light in one handheld unit and is FSA/HSA eligible, which effectively lowers its real cost for anyone with pre-tax health spending funds available. The blue light setting is a genuine point of difference from the pure red/NIR devices elsewhere on this list — it's typically marketed for skin-focused use, so if you're interested in red light therapy for both muscle recovery and skin benefits, this is the device that covers both without buying two separate tools. For Pilates recovery specifically, the near-infrared setting is what you'd use on sore hip flexors, the lower back, or shoulders after a session.",

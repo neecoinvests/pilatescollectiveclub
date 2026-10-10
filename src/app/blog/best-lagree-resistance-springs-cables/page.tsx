@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Aibogiter 5-Pack Reformer Springs",
-    price: "$49.99",
+    price: "$42.74",
     verdict: "Best budget pick",
     description:
       "A five-pack of alloy resistance springs covering two tension levels, this is the most affordable option here for someone who just needs a working replacement set without paying for a wider tension spread. It's a universal, third-party set for standard spring-based reformers — not an official Lagree Fitness part — so check that the hook geometry matches your machine before buying. A sensible choice for a first replacement or a backup set kept on hand.",
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "CHYLMAPHEN 4-Piece Reformer Spring Set",
-    price: "$35.48",
+    price: "$37.66",
     verdict: "Best low-cost 4-spring set",
     description:
       "A four-spring wire steel tension set at the lowest price point in this list, useful for practitioners who want to replace a smaller subset of springs rather than a full five-spring set — for example, swapping out the two or three springs showing the most wear rather than the whole system. As with every product here, it's a generic third-party replacement for standard reformer/Megaformer-style springs, not a Lagree Fitness branded part.",

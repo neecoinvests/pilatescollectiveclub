@@ -36,9 +36,9 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "AeroPilates 287 Reformer",
-    price: "$359",
+    price: "$256.49",
     verdict: "Best budget entry for absolute beginners",
-    description: "For an absolute beginner who wants to try reformer Pilates at home before committing to a studio or a higher investment machine, the AeroPilates 287 is the most accessible starting point among the real, currently-sold reformers we could verify. It uses elastic cord resistance. We could not confirm specific details like carriage material or included accessories beyond what the current listing shows, so check that directly. Buy the 287 as an exploration tool. If you practise on it for three months and the reformer has become central to your practice, consider upgrading to a coil-spring machine. If you practise twice and it becomes a clothes rack, you've spent $359 rather than several thousand.",
+    description: "For an absolute beginner who wants to try reformer Pilates at home before committing to a studio or a higher investment machine, the AeroPilates 287 is the most accessible starting point among the real, currently-sold reformers we could verify. It uses elastic cord resistance. We could not confirm specific details like carriage material or included accessories beyond what the current listing shows, so check that directly. Buy the 287 as an exploration tool. If you practise on it for three months and the reformer has become central to your practice, consider upgrading to a coil-spring machine. If you practise twice and it becomes a clothes rack, you've spent $256.49 rather than several thousand.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
     tag: "Safest First Buy",
   },

@@ -52,14 +52,14 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Sweaty Betty Power Set",
-    price: "From $155.80",
+    price: "From $166.00",
     verdict: "Best premium set you can buy on Amazon",
     description:
       "Sweaty Betty's Power set pairs the Power legging with the Power Medium Racer Back bra, and unlike Alo or Lululemon, both pieces are sold by Amazon.com. Per the listings, the cropped Power legging is stretchy, sweat-wicking and quick-drying with sculpting seams, a side pocket and a back zip pocket; the bra is medium impact with removable pads, an adjustable T-bar strap and contour seamlines designed to match the Power leggings. Amazon prices vary a lot by colour and size, so check the variant you want.",
     affiliateUrl: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20",
     pieces: [
       { label: "Power Cropped Legging (black)", price: "$98.00", url: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20" },
-      { label: "Power Medium Racer Back Bra (black)", price: "$57.80", url: "https://www.amazon.com/dp/B0BSB22J5P?tag=pilatescollective-20" },
+      { label: "Power Medium Racer Back Bra (black)", price: "$68.00", url: "https://www.amazon.com/dp/B0BSB22J5P?tag=pilatescollective-20" },
     ],
     tag: "Best for Sizing",
   },

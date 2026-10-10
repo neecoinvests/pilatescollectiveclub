@@ -9,7 +9,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Bar (2026): 5 Real Options Compared",
-  description: "Five real, currently-sold Pilates bar kits on Amazon — Ayombo, COFOF, Bbtops, RENRANRING, and Goocrun — each a sectioned bar with resistance bands, compared for build quality, resistance range, and price from $19.99 to $29.97.",
+  description: "Five real, currently-sold Pilates bar kits on Amazon — Ayombo, COFOF, Bbtops, RENRANRING, and Goocrun — each a sectioned bar with resistance bands, compared for build quality, resistance range, and price from $19.99 to $26.97.",
   keywords: ["best pilates bar", "pilates bar kit", "portable pilates bar", "pilates bar with resistance bands", "pilates stick", "pilates toning bar", "pilates bar for beginners", "goocrun pilates bar"],
   openGraph: {
     title: "Best Pilates Bar (2026): 5 Real Options Compared",
@@ -32,7 +32,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Ayombo Pilates Bar Kit with Resistance Bands",
-    price: "$29.97",
+    price: "$26.97",
     verdict: "Premium pick",
     description:
       "An adjustable bar kit with 30lb and 40lb band pairs and a genuinely useful upgrade over every other kit here: 360° rotating lugs at the attachment points, which stop the bands from twisting and tangling mid-set the way fixed attachment points do. The rotating hardware is the kind of detail you only appreciate after a few sessions with a kit that doesn't have it.",
@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Bbtops Pilates Bar Kit",
-    price: "$23.99",
+    price: "$22.79",
     verdict: "Widest resistance range",
     description:
       "Four latex bands (two 30lb pairs, two 40lb pairs) that stack for combined resistance, connected to the bar with reinforced nylon rather than bare hooks. This is the widest stackable resistance range of the group, which makes it the pick if you're planning to progress the load over months rather than staying at one setting.",
@@ -122,7 +122,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What is the best Pilates bar on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on priorities. The RENRANRING kit ($19.99) is the budget pick with the most complete accessory set. The COFOF kit ($22.99) assembles fastest via threaded connections. The Goocrun kit ($22.99) is the best all-rounder. The Bbtops kit ($23.99) has the widest stackable resistance range. The Ayombo kit ($29.97) is the premium pick, with 360° rotating lugs that prevent band tangling." } },
+        { "@type": "Question", "name": "What is the best Pilates bar on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on priorities. The RENRANRING kit ($19.99) is the budget pick with the most complete accessory set. The COFOF kit ($22.99) assembles fastest via threaded connections. The Goocrun kit ($22.99) is the best all-rounder. The Bbtops kit ($22.79) has the widest stackable resistance range. The Ayombo kit ($26.97) is the premium pick, with 360° rotating lugs that prevent band tangling." } },
         { "@type": "Question", "name": "What does a Pilates bar actually do?", "acceptedAnswer": { "@type": "Answer", "text": "A bar with attached resistance bands keeps the hands a fixed distance apart and the load symmetrical, letting you load footwork, arm pull and abdominal patterns with resistance that increases through range similarly to a reformer spring. It does not reproduce a reformer's moving carriage or the balance demand that comes with it." } },
         { "@type": "Question", "name": "Do Pilates bar kits normally include resistance bands?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — every Pilates bar kit in this roundup bundles a sectioned bar with resistance bands as standard, since the bands are what provide the loadable resistance against the bar's fixed hand position. This is the normal format for the category, not a compromise." } },
         { "@type": "Question", "name": "What should I look for in a Pilates bar kit?", "acceptedAnswer": { "@type": "Answer", "text": "Bands that clip to the bar ends rather than the centre keep the load symmetrical; rotating attachment lugs, like the Ayombo kit has, prevent bands from twisting during use; stitched foot loops generally outlast moulded ones; and a bar gauge matched to the band strength you intend to use avoids flex. A storage bag and a sectioned, detachable bar also make a kit meaningfully easier to store and travel with." } },
@@ -151,7 +151,7 @@ export default function BestPilatesBarPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A Pilates bar with attached resistance bands is one of the most efficient small-footprint tools for home practice — it loads footwork, arm pull, and abdominal work with resistance that ramps through the range the way a reformer spring does. Below are five real, currently-sold Amazon listings that fit the category well, from a $19.99 budget kit with the most complete accessory set to a $29.97 premium kit with rotating band lugs.
+              A Pilates bar with attached resistance bands is one of the most efficient small-footprint tools for home practice — it loads footwork, arm pull, and abdominal work with resistance that ramps through the range the way a reformer spring does. Below are five real, currently-sold Amazon listings that fit the category well, from a $19.99 budget kit with the most complete accessory set to a $26.97 premium kit with rotating band lugs.
             </p>
           </div>
         </section>
@@ -223,7 +223,7 @@ export default function BestPilatesBarPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is the best Pilates bar on Amazon?", a: "It depends on priorities. The RENRANRING kit ($19.99) is the budget pick with the most complete accessory set. The COFOF kit ($22.99) assembles fastest via threaded connections. The Goocrun kit ($22.99) is the best all-rounder. The Bbtops kit ($23.99) has the widest stackable resistance range. The Ayombo kit ($29.97) is the premium pick, with 360° rotating lugs that prevent band tangling." },
+                  { q: "What is the best Pilates bar on Amazon?", a: "It depends on priorities. The RENRANRING kit ($19.99) is the budget pick with the most complete accessory set. The COFOF kit ($22.99) assembles fastest via threaded connections. The Goocrun kit ($22.99) is the best all-rounder. The Bbtops kit ($22.79) has the widest stackable resistance range. The Ayombo kit ($26.97) is the premium pick, with 360° rotating lugs that prevent band tangling." },
                   { q: "What does a Pilates bar actually do?", a: "A bar with attached resistance bands keeps the hands a fixed distance apart and the load symmetrical, letting you load footwork, arm pull and abdominal patterns with resistance that increases through range similarly to a reformer spring. It does not reproduce a reformer's moving carriage or the balance demand that comes with it." },
                   { q: "Do Pilates bar kits normally include resistance bands?", a: "Yes — every Pilates bar kit in this roundup bundles a sectioned bar with resistance bands as standard, since the bands are what provide the loadable resistance against the bar's fixed hand position. This is the normal format for the category, not a compromise." },
                   { q: "What should I look for in a Pilates bar kit?", a: "Bands that clip to the bar ends rather than the centre keep the load symmetrical; rotating attachment lugs, like the Ayombo kit has, prevent bands from twisting during use; stitched foot loops generally outlast moulded ones; and a bar gauge matched to the band strength you intend to use avoids flex. A storage bag and a sectioned, detachable bar also make a kit meaningfully easier to store and travel with." },

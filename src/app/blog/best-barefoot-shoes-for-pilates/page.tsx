@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "HOBIBEAR Barefoot Minimalist Shoes",
-    price: "$35.99",
+    price: "$39.99",
     verdict: "Best for studio-to-street convenience",
     description:
       "The HOBIBEAR is a slip-on canvas shoe with zero drop and a wide width, which solves the practical annoyance of laces when you are taking shoes off at the studio door and putting them back on afterwards, often while carrying a mat and a bag. The wide-width canvas upper keeps things casual and easy to wear as everyday footwear rather than looking like dedicated training kit, so it is the natural choice if the main reason you want barefoot shoes is what happens either side of class.",
@@ -72,7 +72,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "WHITIN Cross Training Minimalist Shoes",
-    price: "$55.88",
+    price: "$42.99",
     verdict: "Best from an established minimalist-shoe brand",
     description:
       "WHITIN is a name that has been in the minimalist-shoe category longer than most of the newer entrants on this list, and this cross-training model delivers the barefoot feel the brand is known for in a shoe built for general gym use. It costs more than the other options here, but for practitioners who want a barefoot shoe from a brand with a track record specifically in this category, rather than a newer or more generalist maker, it is the safer bet.",

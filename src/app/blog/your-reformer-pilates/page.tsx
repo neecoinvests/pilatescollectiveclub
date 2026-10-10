@@ -82,10 +82,10 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "DWKWE Pilates Reformer",
-    price: "$299.99",
+    price: "$284.99",
     verdict: "Not Your Reformer — a second real, budget-tier Amazon alternative",
     description:
-      "Also not a Your Reformer product and, like the WINDFOOT above, it skips the app and the wood-accented furniture look entirely. We include it as a second genuine, currently-sold Amazon option at $299.99 for readers comparing budget hardware side by side before deciding whether Your Reformer's premium, app-connected package is worth the price difference to them. Confirm current specs and stock directly on the Amazon listing before buying.",
+      "Also not a Your Reformer product and, like the WINDFOOT above, it skips the app and the wood-accented furniture look entirely. We include it as a second genuine, currently-sold Amazon option at $284.99 for readers comparing budget hardware side by side before deciding whether Your Reformer's premium, app-connected package is worth the price difference to them. Confirm current specs and stock directly on the Amazon listing before buying.",
     affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
     tag: "Budget Amazon Alternative",
   },
@@ -139,7 +139,7 @@ const jsonLd = {
         { "@type": "Question", "name": "Is Your Reformer a spring or bungee reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer describes its machines as using spring resistance rather than bungee cords, which would distinguish it from brands like AeroPilates that use elastic cord resistance. We could not independently verify the exact spring configuration, so confirm the current spec directly with the brand." } },
         { "@type": "Question", "name": "Where is Your Reformer made?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer is an Australian brand; production location and other manufacturing details should be confirmed directly with the company rather than assumed." } },
         { "@type": "Question", "name": "Can I use Your Reformer without the app?", "acceptedAnswer": { "@type": "Answer", "text": "Your Reformer describes the app subscription as optional and the hardware as usable without connectivity. Confirm this directly with the brand if it's a deciding factor for you." } },
-        { "@type": "Question", "name": "Is there a cheaper alternative to Your Reformer on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, though these are honest disclosures rather than like-for-like substitutes: the WINDFOOT Pilates Reformer ($295.99) and the DWKWE Pilates Reformer ($299.99) are both real, currently-sold Amazon listings. Neither includes Your Reformer's app or furniture-grade finish — they're basic hardware for buyers who want a purchase-today option at a fraction of the price." } },
+        { "@type": "Question", "name": "Is there a cheaper alternative to Your Reformer on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, though these are honest disclosures rather than like-for-like substitutes: the WINDFOOT Pilates Reformer ($295.99) and the DWKWE Pilates Reformer ($284.99) are both real, currently-sold Amazon listings. Neither includes Your Reformer's app or furniture-grade finish — they're basic hardware for buyers who want a purchase-today option at a fraction of the price." } },
       ],
     },
   ],
@@ -241,7 +241,7 @@ export default function YourReformerPilatesPage() {
                   { q: "Is Your Reformer a spring or bungee reformer?", a: "Your Reformer describes its machines as using spring resistance rather than bungee cords, which would distinguish it from brands like AeroPilates that use elastic cord resistance. We could not independently verify the exact spring configuration, so confirm the current spec directly with the brand." },
                   { q: "Where is Your Reformer made?", a: "Your Reformer is an Australian brand. Production location and other manufacturing details should be confirmed directly with the company rather than assumed." },
                   { q: "Can I use Your Reformer without the app?", a: "Your Reformer describes the app subscription as optional and the hardware as usable without connectivity. Confirm this directly with the brand if it's a deciding factor for you." },
-                  { q: "Is there a cheaper alternative to Your Reformer on Amazon?", a: "Yes, though these are honest disclosures rather than like-for-like substitutes: the WINDFOOT Pilates Reformer ($295.99) and the DWKWE Pilates Reformer ($299.99) are both real, currently-sold Amazon listings. Neither includes Your Reformer's app or furniture-grade finish — they're basic hardware for buyers who want a purchase-today option at a fraction of the price." },
+                  { q: "Is there a cheaper alternative to Your Reformer on Amazon?", a: "Yes, though these are honest disclosures rather than like-for-like substitutes: the WINDFOOT Pilates Reformer ($295.99) and the DWKWE Pilates Reformer ($284.99) are both real, currently-sold Amazon listings. Neither includes Your Reformer's app or furniture-grade finish — they're basic hardware for buyers who want a purchase-today option at a fraction of the price." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

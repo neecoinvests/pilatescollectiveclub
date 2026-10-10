@@ -32,7 +32,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gaiam Yoga Bolster Pillow",
-    price: "$40.17",
+    price: "$37.94",
     verdict: "Best overall bolster for Pilates",
     description:
       "Gaiam is one of the more established names in yoga and Pilates props, which makes this the safe default if you want a single rectangular bolster that covers restorative work, supported stretching and side-lying positions without any guesswork. It's sold and shipped by Amazon.com directly, which simplifies returns if the firmness or footprint isn't right for your frame. As a general-purpose rectangular bolster, it does the core job any bolster is bought for: holding a body part at a fixed height so the surrounding muscles can release during restorative and supported Pilates work — which is why it's the pick to start with if you're buying your first one.",
@@ -61,12 +61,12 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Hihealer Round Yoga Bolster",
-    price: "$41.99",
+    name: "Everyday Yoga Round Cotton Yoga Bolster (25 x 10 in)",
+    price: "$52.95",
     verdict: "Best round bolster for chest opening",
     description:
-      "The round shape is the better choice specifically for supported backbends and thoracic opening — placed lengthwise under the spine, its curved profile lets the ribcage fall open on both sides in a way a flat rectangular bolster can't replicate. Hihealer positions this one as a meditation cushion as much as a yoga prop, which fits: seated use for breathwork and cross-legged sitting is where a round bolster earns its keep once it's braced against something so it can't roll. At $41.99 it's the most expensive product here, so it's worth buying specifically for the round profile rather than as a general first bolster.",
-    affiliateUrl: "https://www.amazon.com/dp/B0H366LRFD?tag=pilatescollective-20",
+      "The round shape is the better choice specifically for supported backbends and thoracic opening — placed lengthwise under the spine, its curved profile lets the ribcage fall open on both sides in a way a flat rectangular bolster can't replicate. This one is 25 x 10 inches with high-density foam for firm support, a removable, machine-washable 100% cotton cover and handles on both sides. At $52.95 it's the most expensive product here, so buy it specifically for the round profile rather than as a general first bolster.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CGTR8BZT?tag=pilatescollective-20",
     tag: "Best for Chest Opening",
   },
   {

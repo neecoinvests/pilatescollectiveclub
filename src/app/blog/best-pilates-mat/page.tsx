@@ -54,10 +54,10 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "YOGATI Yoga Mat with Alignment Lines (6mm)",
-    price: "$19.98",
+    price: "$22.99",
     verdict: "6mm with printed alignment lines for form cues",
     description:
-      "From YOGATI, this 6mm mat adds printed alignment lines across the surface — a feature aimed at helping you check hand, foot, and hip placement during standing and mat exercises. At $19.98, it's priced close to our overall pick while offering a feature the others in this lineup don't.",
+      "From YOGATI, this 6mm mat adds printed alignment lines across the surface — a feature aimed at helping you check hand, foot, and hip placement during standing and mat exercises. At $22.99, it's priced close to our overall pick while offering a feature the others in this lineup don't.",
     affiliateUrl: "https://www.amazon.com/dp/B0CJ39LHNX?tag=pilatescollective-20",
     tag: "Best for Alignment Cues",
   },

@@ -44,7 +44,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Varley Marla Button Placket Tank (Black)",
-    price: "$71.68",
+    price: "$89.60",
     verdict: "Premium pick — studio to street",
     description:
       "For the person whose Lagree class sits between a commute and brunch. Varley is a studio staple, and the Marla is its button-placket tank: the placket gives it more of a going-out look than a standard training tank, which is the point — you can walk out of class and not look like you just walked out of class. In black it pairs with almost anything, including the Varley Freesoft leggings and bralette in our Lagree leggings and bra guides. The Lagree-specific notes are about the buttons and fit. A front placket stays clear of the carriage in supine work, but check how the buttons feel in kneeling and face-down sequences before you commit to it as a class top. And size so it sits close to the body; a top that hangs away will ride up in plank. It is sold on Amazon through Shopbop, an Amazon company. It is a style choice more than a performance one, and priced accordingly.",
@@ -74,7 +74,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Under Armour Women's Tech Knockout Tank",
-    price: "$30.47",
+    price: "$28.50",
     verdict: "Best relaxed fit — tuck or tie it",
     description:
       "Not everyone wants a close-fitting top, and that is fine — but on the Megaformer a relaxed tank needs managing. This Under Armour tank has a looser cut than the others here, which is comfortable in a warm studio and more forgiving if you are self-conscious in fitted kit. The trade-off is fabric that hangs away from the body: in a plank it drops towards the carriage, in an inversion it heads for your face, and in lunges and handle work loose fabric has a habit of brushing springs and getting caught under the carriage edge. The fix is simple: tuck it into high-waisted leggings or knot the hem at the side before class. Do that and you get the comfort of a relaxed fit without the hassle. It is sold by Amazon.com. If you find yourself always tying it, the CRZ crop above is the version that does not need it.",

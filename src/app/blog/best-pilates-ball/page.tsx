@@ -256,7 +256,7 @@ export default function BestPilatesBallPage() {
               body="A ball, a ring and a mat cover the mat repertoire. The next step — the one that most changes results — is spring resistance. These are the two upgrades worth considering once props become routine."
               picks={[
                 { name: "Manduka PRO Yoga Mat (6mm)", price: "$144", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "Sold by Amazon.com. Dense and stable — the studio-standard surface for ball work." },
-                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — the cheapest real spring reformer we have verified." },
+                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — one of the lowest-priced real spring reformers we have verified." },
               ]}
               guideHref="/blog/best-pilates-reformer-under-500"
               guideLabel="See every home reformer under $500"

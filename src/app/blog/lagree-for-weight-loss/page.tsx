@@ -66,7 +66,7 @@ const TRACKING: Pick[] = [
     badge: "Best Heart Rate Monitor",
     shortName: "Chest strap",
     name: "Polar H10 Heart Rate Monitor Chest Strap",
-    price: "$104.88",
+    price: "$84.74",
     url: amz("B07PM54P4N"),
     description:
       "The best way to see what a Lagree class actually does to your heart rate. Chest straps read the heart's electrical signal and are generally more accurate during exercise than wrist sensors, which struggle when you grip handles and plank. Polar calls the H10 the most accurate heart rate sensor in its history. It connects over Bluetooth and ANT+ at the same time, so it pairs with most watches and apps. Sold by Amazon.com.",
@@ -76,7 +76,7 @@ const TRACKING: Pick[] = [
     badge: "Best Budget Chest Strap",
     shortName: "Budget chest strap",
     name: "COOSPO H808S Heart Rate Monitor Chest Strap",
-    price: "$26.63",
+    price: "$36.99",
     url: amz("B07R8741CN"),
     description:
       "A quarter of the Polar's price, with Bluetooth and ANT+, IP67 water resistance and an LED and beep to confirm it is working. It works with third-party apps and sports watches. It is the easy way to get chest-strap heart-rate data without a big outlay.",
@@ -126,7 +126,7 @@ const TRACKING: Pick[] = [
     badge: "Best Kitchen Tool",
     shortName: "Food scale",
     name: "Etekcity Digital Food Kitchen Scale (11 lb)",
-    price: "$9.99",
+    price: "$13.99",
     url: amz("B0113UZJE2"),
     description:
       "The unglamorous truth is that the kitchen decides most weight loss. This scale weighs up to 11 lb in 1 g increments and has a tare function. Weighing portions for a couple of weeks is the fastest way to learn what you actually eat. Sold by Amazon.com.",

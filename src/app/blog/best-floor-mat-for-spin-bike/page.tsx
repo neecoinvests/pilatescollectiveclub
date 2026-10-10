@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Crostice Bike Mat",
-    price: "$29.68",
+    price: "$32.98",
     verdict: "Best Peloton-compatible mid-tier pick",
     description:
       "Crostice Home's mat matches the Cycleclub in thickness at 6mm and is specifically noted as Peloton compatible, sized to fit the Bike and Bike+ footprint. It sits at a similar price to our top pick, making it a strong alternative if the Cycleclub is unavailable.",

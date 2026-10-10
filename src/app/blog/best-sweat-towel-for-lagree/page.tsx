@@ -67,7 +67,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Eunzel Hot Yoga Towel with Grip Dots (2-Pack)",
-    price: "$26.99",
+    price: "$25.49",
     verdict: "Best 2-pack grip towel",
     description: "Lagree regulars who go three or four times a week run into a laundry problem before they run into a grip problem: a sweat-soaked grip towel needs washing after every class. The Eunzel listing is a 2-pack of hot yoga towels with grip dots on the underside, so one can be in the wash while the other is in your bag. Grip dots are a different design from a fully silicone-backed towel — the dots give traction at contact points rather than across the whole back — but the purpose is the same: keep the towel from sliding on a sweaty carriage or mat. For the price of two, it is the best way to cover a full week of classes without doing laundry daily.",
     affiliateUrl: "https://www.amazon.com/dp/B0F5QSYZW8?tag=pilatescollective-20",

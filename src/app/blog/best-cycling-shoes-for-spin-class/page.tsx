@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Kyedoo Road/Spin Cycling Shoes",
-    price: "$52.42",
+    price: "$45.61",
     verdict: "Best budget-mid Peloton & SPD pick",
     description:
       "The Kyedoo is compatible with both Peloton and SPD pedal systems, which makes it a flexible choice for households with more than one type of bike or for riders who aren&apos;t sure which cleat standard their setup uses. At a budget-mid price point, it&apos;s a practical option for anyone who wants dual compatibility without paying premium-tier prices.",

@@ -34,7 +34,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Sportneer Adjustable Ankle Weights (2-10lb per pair)",
-    price: "$27.89",
+    price: "$33.99",
     verdict: "Best for progressive loading across a wide range",
     description:
       "Each weight adjusts from 1 to 5lb in 1lb increments using removable sand bags, giving a 2-10lb range across the pair. That range covers everything from light Pilates standing series work up to more demanding conditioning, without buying multiple sets. Fits ankles from 7.5 to 12.5 inches, and the sand-bag design keeps the profile relatively low against the leg.",
@@ -74,7 +74,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "GALLIA Wrist/Ankle Weights (2-Pack, 2lb adjustable)",
-    price: "$14.99",
+    price: "$16.99",
     verdict: "Best adjustable bangle-style fit",
     description:
       "A silicone bangle-style design with an adjustable velcro closure, so the fit tightens down on a smaller ankle rather than relying on stretch alone to stay put. The 2lb pair sits at the upper end of what's typically recommended for Pilates work, making it a reasonable step-up option once the lighter sets in this roundup stop feeling like resistance.",
@@ -86,7 +86,7 @@ const PRODUCTS = [
 const FAQS = [
   {
     q: "Is there a real ankle weight sold on Amazon that you can verify?",
-    a: "Yes. The Sportneer Adjustable Ankle Weights ($27.89, 2-10lb per pair), the BECOJADDE Ankle Weights ($20.69, set of 2, 1lb each and expandable), the nooncrazy set ($16.97, 1lb each), the BAGAIL set ($9.98, 1lb each), and the GALLIA set ($14.99, 2lb adjustable pair) are all live, currently-sold Amazon listings.",
+    a: "Yes. The Sportneer Adjustable Ankle Weights ($33.99, 2-10lb per pair), the BECOJADDE Ankle Weights ($20.69, set of 2, 1lb each and expandable), the nooncrazy set ($16.97, 1lb each), the BAGAIL set ($9.98, 1lb each), and the GALLIA set ($16.99, 2lb adjustable pair) are all live, currently-sold Amazon listings.",
   },
   {
     q: "What weight ankle weights should I use for Pilates?",
@@ -98,7 +98,7 @@ const FAQS = [
   },
   {
     q: "Which of these five should I actually buy?",
-    a: "For budget: the BAGAIL set ($9.98). For most people: the nooncrazy waterproof set ($16.97) or the GALLIA adjustable bangle set ($14.99). For a wider load range or a premium build: the Sportneer ($27.89) or BECOJADDE ($20.69), both of which adjust across a broader weight range than the simpler fixed sets.",
+    a: "For budget: the BAGAIL set ($9.98). For most people: the nooncrazy waterproof set ($16.97) or the GALLIA adjustable bangle set ($16.99). For a wider load range or a premium build: the Sportneer ($33.99) or BECOJADDE ($20.69), both of which adjust across a broader weight range than the simpler fixed sets.",
   },
 ];
 
@@ -191,7 +191,7 @@ export default function BestPilatesAnkleWeightsPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A prior version of this article named brands (Bala, BWSS, Lululemon, Alo Yoga) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real ankle weight options are in stock and ready to buy today: the Sportneer Adjustable Ankle Weights (2-10lb per pair, $27.89), the BECOJADDE Ankle Weights (set of 2, 1lb each and expandable, $20.69), the nooncrazy set (1lb each, waterproof silicone, $16.97), the BAGAIL set (1lb each, budget pick, $9.98), and the GALLIA set (2lb adjustable pair, $14.99).
+              A prior version of this article named brands (Bala, BWSS, Lululemon, Alo Yoga) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real ankle weight options are in stock and ready to buy today: the Sportneer Adjustable Ankle Weights (2-10lb per pair, $33.99), the BECOJADDE Ankle Weights (set of 2, 1lb each and expandable, $20.69), the nooncrazy set (1lb each, waterproof silicone, $16.97), the BAGAIL set (1lb each, budget pick, $9.98), and the GALLIA set (2lb adjustable pair, $16.99).
             </p>
           </div>
         </section>

@@ -225,7 +225,7 @@ export default function BestMegaformerMachinePage() {
                       ["Carriage", "Moving, spring-loaded", "Moving, spring-loaded"],
                       ["Session tempo", "Extremely slow (10–30s holds)", "Controlled, variable"],
                       ["Class format", "Group boutique", "Group or private"],
-                      ["Price range", "$8,995–$13,495+ (commercial units, direct from Lagree Fitness)", "$359–$4,700 (verified Amazon listings)"],
+                      ["Price range", "$8,995–$13,495+ (commercial units, direct from Lagree Fitness)", "$256.49–$4,700 (verified Amazon listings)"],
                       ["Home viability", "Large footprint", "More compact options available"],
                       ["Exercise library", "Lagree Method only", "Classical + contemporary Pilates"],
                     ].map(([feature, mega, reform]) => (

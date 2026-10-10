@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Therabody TheraGun Relief",
-    price: "$159.99",
+    price: "$119.99",
     verdict: "Best trusted-brand pick for daily comfort",
     description:
       "The TheraGun Relief is Therabody's own entry point into percussion therapy, and buying it gets you the brand's build quality and motor engineering without the cost of their pro-tier devices. It runs a simple three-speed configuration built around daily comfort rather than deep clinical work, which suits practitioners who want reliable, consistent recovery after most Pilates sessions rather than occasional maximum-intensity treatment. If you already trust Therabody's ecosystem — or simply want a name-brand device you know will hold up — the Relief is the honest, right-sized way in.",
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "RENPHO Active Thermacool 2",
-    price: "$99.98",
+    price: "$85.47",
     verdict: "Best for heat and cold contrast therapy",
     description:
       "The RENPHO Active Thermacool 2 is the one device on this list built around thermal contrast rather than percussion alone — it offers both heat and cold control from a single handheld unit. That is a genuine convenience for Pilates recovery: heat before a session to loosen hip flexors and the thoracic spine, cold after an intense reformer block to help manage localized soreness, all without buying a separate compression or ice tool. Sitting in the middle of this list on price, it is the pick for practitioners who specifically want thermal variety in their recovery routine rather than raw percussion power.",
@@ -124,7 +124,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Should you use a massage gun before or after Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Both, at different intensities. Before a session, use 30–60 seconds per muscle group at a lower speed (1400–2000 RPM) to increase tissue temperature and blood flow without fatiguing the muscle. After a session, use 60–90 seconds per area at a comfortable medium speed to flush metabolic waste and reduce delayed-onset soreness. Avoid using a massage gun at maximum intensity immediately before a session — aggressive percussion can temporarily reduce muscle strength." } },
         { "@type": "Question", "name": "Where should you use a massage gun after Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The most effective areas after reformer Pilates are the hip flexors (iliacus and psoas via the inner thigh near the hip), quadriceps, hamstrings, calves, thoracic paraspinals (either side of the thoracic spine), and glute medius. Avoid direct percussion on the lumbar spine, neck vertebrae, and any area with acute pain or recent injury." } },
-        { "@type": "Question", "name": "Is a massage gun worth it for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, with realistic expectations. Percussion therapy demonstrably increases range of motion, reduces DOMS, and improves perceived recovery after exercise. For practitioners attending three or more sessions per week, the cumulative benefit of better inter-session recovery is meaningful. Budget devices like the Elefor at $26.99 make it easy to try percussion therapy for the first time, while a trusted-brand pick like the Therabody TheraGun Relief at $159.99 is a solid step up for daily use." } },
+        { "@type": "Question", "name": "Is a massage gun worth it for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, with realistic expectations. Percussion therapy demonstrably increases range of motion, reduces DOMS, and improves perceived recovery after exercise. For practitioners attending three or more sessions per week, the cumulative benefit of better inter-session recovery is meaningful. Budget devices like the Elefor at $26.99 make it easy to try percussion therapy for the first time, while a trusted-brand pick like the Therabody TheraGun Relief at $119.99 is a solid step up for daily use." } },
       ],
     },
   ],
@@ -205,7 +205,7 @@ export default function BestMassageGunForPilatesPage() {
                 {[
                   { q: "Should you use a massage gun before or after Pilates?", a: "Both, at different intensities. Before a session, use 30–60 seconds per muscle group at a lower speed (1400–2000 RPM) to increase tissue temperature and blood flow without fatiguing the muscle. After a session, use 60–90 seconds per area at a comfortable medium speed to flush metabolic waste and reduce delayed-onset soreness. Avoid using a massage gun at maximum intensity immediately before a session — aggressive percussion can temporarily reduce muscle strength." },
                   { q: "Where should you use a massage gun after Pilates?", a: "The most effective areas after reformer Pilates are the hip flexors (iliacus and psoas via the inner thigh near the hip), quadriceps, hamstrings, calves, thoracic paraspinals (either side of the thoracic spine), and glute medius. Avoid direct percussion on the lumbar spine, neck vertebrae, and any area with acute pain or recent injury." },
-                  { q: "Is a massage gun worth it for Pilates?", a: "Yes, with realistic expectations. Percussion therapy demonstrably increases range of motion, reduces DOMS, and improves perceived recovery after exercise. For practitioners attending three or more sessions per week, the cumulative benefit of better inter-session recovery is meaningful. Budget devices like the Elefor at $26.99 make it easy to try percussion therapy for the first time, while a trusted-brand pick like the Therabody TheraGun Relief at $159.99 is a solid step up for daily use." },
+                  { q: "Is a massage gun worth it for Pilates?", a: "Yes, with realistic expectations. Percussion therapy demonstrably increases range of motion, reduces DOMS, and improves perceived recovery after exercise. For practitioners attending three or more sessions per week, the cumulative benefit of better inter-session recovery is meaningful. Budget devices like the Elefor at $26.99 make it easy to try percussion therapy for the first time, while a trusted-brand pick like the Therabody TheraGun Relief at $119.99 is a solid step up for daily use." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

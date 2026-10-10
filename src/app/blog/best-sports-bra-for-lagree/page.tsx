@@ -44,7 +44,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Varley Freesoft Harley Bralette",
-    price: "$52.80",
+    price: "$66.00",
     verdict: "Premium matching-set pick — light support",
     description:
       "Varley has become a studio staple, and the Freesoft Harley is the bralette half of its Freesoft line — the same line and Marina colourway as the Varley Freesoft leggings in our Lagree leggings guide, so it makes a genuine matching set. Be clear about what it is: a bralette, which means light support. That makes it a good choice for smaller busts, for slower sessions built around long holds and controlled pulses, and for anyone who wants one set that works for class and coffee afterwards. It is the wrong choice for a class with jumps or rebounder work, where you want the Under Armour Infinity 2 above instead. On Amazon this listing is sold through Shopbop, an Amazon company, rather than a third-party reseller. If you like the look of matching sets, pair it with a high-impact bra in your rotation for your harder classes rather than asking one piece to do both jobs.",

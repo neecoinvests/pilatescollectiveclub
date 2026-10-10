@@ -52,7 +52,7 @@ const PRODUCTS = [
     price: "$165",
     verdict: "Best Alignment Lines",
     description: "Liforme's patented AlignForMe markings, etched into the surface, are genuinely useful in Pilates for setting up hands, feet and pelvis symmetrically every time. The GripForMe eco-polyurethane top over rubber has exceptional grip, even with damp hands, and the 4.2mm thickness keeps you feeling connected to the floor for balance work. It's PVC-free, it's extra-long and wide, and it comes with Liforme's own carry bag. Sold by Liforme on Amazon.",
-    affiliateUrl: "https://www.amazon.com/dp/B0CF6213QQ?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B09X66N6GX?tag=pilatescollective-20",
     tag: "Alignment",
   },
   {
@@ -67,7 +67,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Manduka PROlite Yoga Mat 4.7mm",
-    price: "$100",
+    price: "$112.00",
     verdict: "Best Everyday Luxury",
     description: "Manduka's PROlite is the lightweight sibling of the PRO: 4.7mm of the same legendary closed-cell cushioning, in a mat that weighs only 4.6 lbs instead of the PRO's 7.5, so it's genuinely easy to carry to a studio and back. It has the same no-slip dotted underside and the same reputation among teachers for holding its shape and grip for years. If the full PRO feels like overkill for your practice, this is the version to buy. Sold by Amazon.com.",
     affiliateUrl: "https://www.amazon.com/dp/B0F6426TRG?tag=pilatescollective-20",

@@ -26,10 +26,10 @@ export const metadata: Metadata = {
 const PRICE_TIERS = [
   {
     label: "Tier 1",
-    range: "$359–$1,330",
+    range: "$256.49–$1,330",
     heading: "Budget / Cord-Based",
     tag: "Entry Level",
-    body: "Elastic cord resistance (not springs). AeroPilates markets its range around a fold-flat design, though we could not independently verify exact folded dimensions or fold time. Representative machines: AeroPilates 287 ($359), AeroPilates 701 Premier Reformer ($539.99), AeroPilates Pro XP 557 (from $1,329.99).",
+    body: "Elastic cord resistance (not springs). AeroPilates markets its range around a fold-flat design, though we could not independently verify exact folded dimensions or fold time. Representative machines: AeroPilates 287 ($256.49), AeroPilates 701 Premier Reformer ($539.99), AeroPilates Pro XP 557 (from $1,329.99).",
     forWho: "Beginners testing whether reformer Pilates suits them; practitioners with genuine budget constraints.",
     sacrifice: "Spring resistance feel, long-term durability (3–5 year lifespan with regular use), full exercise range, and accessory compatibility.",
     lifespan: "3–5 years",
@@ -39,7 +39,7 @@ const PRICE_TIERS = [
     range: "$296–$750",
     heading: "Budget Spring Reformers (Generic Brands)",
     tag: "Real Springs, Unproven Brand",
-    body: "A genuine budget tier many buyers overlook: real carriage-and-rail spring reformers from generic/dropship brands, not just AeroPilates-style cord machines. Representative, verified live listings: WINDFOOT Foldable Reformer w/ Jump Board ($295.99, dual spring resistance, folds for storage), DWKWE Gray Metal Frame Foldable Reformer ($299.99, adjustable footbar, dual spring+latex resistance), PAETA 86\" Foldable Reformer with piano-wire springs ($439.99, 500 lb capacity), and the PAETA Wooden Foldable Reformer with Sitting Box ($749.99, solid oak frame, full accessory set). These are real spring reformers, not toys — but they come from brands with no track record, no certification recognition among instructors, and unclear long-term durability or warranty support.",
+    body: "A genuine budget tier many buyers overlook: real carriage-and-rail spring reformers from generic/dropship brands, not just AeroPilates-style cord machines. Representative, verified live listings: WINDFOOT Foldable Reformer w/ Jump Board ($295.99, dual spring resistance, folds for storage), DWKWE Gray Metal Frame Foldable Reformer ($284.99, adjustable footbar, dual spring+latex resistance), PAETA 86\" Foldable Reformer with piano-wire springs ($419.99, 500 lb capacity), and the PAETA Wooden Foldable Reformer with Sitting Box ($749.99, solid oak frame, full accessory set). These are real spring reformers, not toys — but they come from brands with no track record, no certification recognition among instructors, and unclear long-term durability or warranty support.",
     forWho: "Budget-constrained buyers who specifically want spring resistance (not cords) and are willing to accept brand-risk uncertainty in exchange for a much lower price.",
     sacrifice: "No established brand history, no instructor/certification recognition, unverified long-term durability, and warranty support that's unclear or minimal compared to Balanced Body or Merrithew.",
     lifespan: "Unknown — no established track record to draw on",
@@ -112,7 +112,7 @@ const FAQS = [
   },
   {
     q: "What is the cheapest real spring reformer?",
-    a: "Depends what you mean by \"real.\" The cheapest genuine spring reformer we can verify as a real, live Amazon listing overall is the WINDFOOT Foldable Reformer at $295.99, with real dual-spring resistance — but it's a generic/dropship brand with no track record, no certification recognition among instructors, and unclear warranty support. If you specifically want an established brand (Balanced Body, Merrithew, Align-Pilates) with a spring system, the Balanced Body Metro IQ Reformer at $2,330 is the cheapest genuine coil-spring reformer from a recognizable name we can currently confirm. We could not verify a live Amazon listing for some lower-priced models sometimes cited elsewhere (for example, an \"Align Pilates H1\" or \"C2-Pro RC\"), so we don't quote pricing for those here. Below roughly $2,300, real springs exist, but you're choosing between an unproven brand and a cord-based machine from an established one.",
+    a: "Depends what you mean by \"real.\" The lowest-priced genuine spring reformers we can verify as real, live Amazon listings are the DWKWE 88\" ($284.99, springs plus latex bands) and the WINDFOOT Foldable Reformer ($295.99, dual-spring resistance) — but both are generic/dropship brands with no track record, no certification recognition among instructors, and unclear warranty support. If you specifically want an established brand (Balanced Body, Merrithew, Align-Pilates) with a spring system, the Balanced Body Metro IQ Reformer at $2,330 is the cheapest genuine coil-spring reformer from a recognizable name we can currently confirm. We could not verify a live Amazon listing for some lower-priced models sometimes cited elsewhere (for example, an \"Align Pilates H1\" or \"C2-Pro RC\"), so we don't quote pricing for those here. Below roughly $2,300, real springs exist, but you're choosing between an unproven brand and a cord-based machine from an established one.",
   },
   {
     q: "Should I buy a used Pilates reformer?",
@@ -164,8 +164,8 @@ const jsonLd = {
 };
 
 const PRODUCTS = [
-  { name: "AeroPilates 287 Reformer (Budget Tier)", description: "The entry point — elastic cord resistance rather than springs, but it provides real Pilates movement patterns at a fraction of the mid-range price. Appropriate for anyone testing whether home reformer practice suits them.", price: "$359", affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
-  { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", description: "A real, currently-sold budget spring reformer — genuine piano-wire spring resistance rather than cords, a 500 lb weight capacity, and folds for storage. A genuine market segment, but PAETA is a generic brand with no established track record, no certification recognition among instructors, and unclear long-term durability or warranty support compared to Balanced Body or Merrithew.", price: "$439.99", affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20" },
+  { name: "AeroPilates 287 Reformer (Budget Tier)", description: "The entry point — elastic cord resistance rather than springs, but it provides real Pilates movement patterns at a fraction of the mid-range price. Appropriate for anyone testing whether home reformer practice suits them.", price: "$256.49", affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", description: "A real, currently-sold budget spring reformer — genuine piano-wire spring resistance rather than cords, a 500 lb weight capacity, and folds for storage. A genuine market segment, but PAETA is a generic brand with no established track record, no certification recognition among instructors, and unclear long-term durability or warranty support compared to Balanced Body or Merrithew.", price: "$419.99", affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20" },
   { name: "Merrithew At Home SPX Reformer Package", description: "A real, mid-range spring-system benchmark — Merrithew's five-spring system and studio-comparable exercise range. The point at which the home reformer becomes a serious practice tool rather than a fitness machine. This is the genuine Amazon-sold SPX machine; the studio-line \"SPX Max\" name is not a live listing.", price: "$3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
   { name: "Gaiam Premium Yoga Mat (6mm)", description: "If a reformer is outside the current budget, a quality mat is the correct starting point. We could not verify a Manduka mat in this price range as a specific live listing; this Gaiam 6mm mat is a real, currently-sold alternative — marketed as a yoga mat, but a firm 6mm mat works for Pilates too.", price: "$21.00", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
   { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", description: "We could not verify a standalone TheraBand-branded set or Balanced Body magic circle as specific live Amazon listings. This kit bundles a ring, ball, and resistance bands — a genuine, currently-sold alternative that provides spring-like loading at minimal cost while saving towards a machine.", price: "$19.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
@@ -574,7 +574,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 }}
               >
                 {[
-                  { label: "Budget setup", total: "$359–$540", note: "No accessories compatible", detail: "AeroPilates 287 or 701 Premier — cord-based machines lack a real accessory ecosystem" },
+                  { label: "Budget setup", total: "$256.49–$540", note: "No accessories compatible", detail: "AeroPilates 287 or 701 Premier — cord-based machines lack a real accessory ecosystem" },
                   { label: "Premium home setup", total: "$3,499", note: "Machine + box", detail: "Merrithew At Home SPX Reformer Package + Balanced Body Sitting Box Lite" },
                   { label: "Professional setup", total: "$5,130", note: "Machine + box + jump board", detail: "Balanced Body Studio Reformer + Sitting Box Lite + Padded Jumpboard" },
                   { label: "Full studio setup", total: "$5,130+", note: "Machine + box + jump board (+ tower)", detail: "As above, plus a tower — we could not verify a specific tower price via Amazon, so add through the manufacturer directly" },

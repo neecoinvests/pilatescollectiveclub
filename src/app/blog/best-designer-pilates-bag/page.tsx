@@ -49,7 +49,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Marc Jacobs The Large Puffy Tote",
-    price: "$298",
+    price: "$223.50",
     verdict: "Best Statement Bag",
     description: "Marc Jacobs' The Tote is one of the most recognisable carryalls of the decade, and the Puffy version is the light, padded-nylon take that suits a studio day. It measures 15 × 12.5 × 7 inches, deeper than most totes, so a folded towel, trainers and a change of clothes fit without a fight, and it weighs just 13 oz. The branding is unmistakable, which is either the point or not your style. Sold by Shopbop (an Amazon company).",
     affiliateUrl: "https://www.amazon.com/dp/B0GXXH5KSV?tag=pilatescollective-20",
@@ -60,8 +60,8 @@ const PRODUCTS = [
     name: "Varley Montlake Club Duffle",
     price: "$164",
     verdict: "Best Studio-to-Street Duffle",
-    description: "Varley's Montlake Club Duffle is the studio bag from the brand that dresses so many reformer regulars. It's structured, with leather trim, gold-tone hardware and retro contrast stripes, and at 17.25 × 15 × 7 inches it holds a full Pilates kit plus shoes. Carry it by the handles or on the adjustable shoulder strap. Sold by Shopbop (an Amazon company); stock by colour is limited.",
-    affiliateUrl: "https://www.amazon.com/dp/B0GGGLLGG1?tag=pilatescollective-20",
+    description: "Varley's Montlake Club Duffle is the studio bag from the brand that dresses so many reformer regulars: structured, with leather trim, gold-tone hardware and retro contrast stripes, sized at 17.25 × 15 × 7 inches to hold a full Pilates kit plus shoes. It is currently out of stock on Amazon, so this link searches Amazon for the Varley bags that are available; the Montlake can also be bought direct from Varley.",
+    affiliateUrl: "https://www.amazon.com/s?k=varley+duffle+bag&tag=pilatescollective-20",
     tag: "Studio-to-Street",
   },
   {

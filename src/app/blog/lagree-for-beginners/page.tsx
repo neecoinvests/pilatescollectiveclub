@@ -201,7 +201,7 @@ const HOME_KIT: KitItem[] = [
       {
         tier: "Pick",
         name: "Gaiam Core Sliding Discs (2)",
-        price: "$15.82",
+        price: "$10.99",
         url: amz("B0964G1N18"),
         description:
           "A pair of dual-sided discs: one side for carpet, one for hard floors. They are small enough to keep in a drawer, which is half the battle for home practice.",

@@ -50,7 +50,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "bellicon Mini Trampoline 39\" (Bungee Suspension)",
-    price: "$699.00",
+    price: "$629.10",
     verdict: "Premium pick: bungee suspension from a rebounder specialist",
     description:
       "bellicon sells this 39-inch mini trampoline on Amazon itself, and its defining feature is bungee suspension rather than metal springs. Bungee rebounders are generally described as giving a softer, deeper bounce, and they avoid the metallic spring noise that bothers people in apartments and shared homes. Whether that is worth $699.00 depends on how much you will use it. If a rebounder is going to be a near-daily part of your training, alongside Lagree classes or a home Micro, the premium build is easy to justify. If you are still figuring out whether rebounding suits you, start with one of the cheaper picks. Sold by bellicon.",

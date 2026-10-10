@@ -129,7 +129,7 @@ const GUNS: Pick[] = [
     badge: "Best Premium",
     shortName: "Premium massage gun",
     name: "TheraGun Mini (3rd Gen)",
-    price: "$219.99",
+    price: "$169.99",
     url: amz("B0DV7JN7ZD"),
     description:
       "Three attachments, one-button control with three speeds, and Bluetooth for guided routines in the Therabody app. Compact enough for a gym bag, with the brand most physical therapists' clients already know. Sold by TheraGun.",

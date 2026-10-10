@@ -40,9 +40,9 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"",
-    price: "$299.99",
+    price: "$284.99",
     verdict: "Best Genuine Spring Reformer to Gift",
-    description: "A full reformer is a realistic gift under $500: live Amazon listings include a real tier of budget, generic-brand full reformers with genuine spring resistance, not just cord machines. The DWKWE is one of them: a reinforced metal frame with a height-adjustable footbar, spring-plus-latex dual resistance, and a jump board and headrest included, at $299.99. It's a genuine carriage-and-rail reformer from a third-party seller rather than an established Pilates brand, so we can't vouch for long-term durability or after-sale support — but it delivers real spring resistance, a genuinely bigger gift than a cord machine or an accessory.",
+    description: "A full reformer is a realistic gift under $500: live Amazon listings include a real tier of budget, generic-brand full reformers with genuine spring resistance, not just cord machines. The DWKWE is one of them: a reinforced metal frame with a height-adjustable footbar, spring-plus-latex dual resistance, and a jump board and headrest included, at $284.99. It's a genuine carriage-and-rail reformer from a third-party seller rather than an established Pilates brand, so we can't vouch for long-term durability or after-sale support — but it delivers real spring resistance, a genuinely bigger gift than a cord machine or an accessory.",
     affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
   },
   {
@@ -50,15 +50,15 @@ const PRODUCTS = [
     name: "WINDFOOT Foldable Pilates Reformer w/ Jump Board",
     price: "$295.99",
     verdict: "Best Easy-Setup Reformer to Gift",
-    description: "The cheapest genuine spring-based full reformer we could verify as a live Amazon listing, at $295.99 — a real advantage as a gift, since it ships roughly 90% pre-assembled with a stated 5–10 minute setup rather than requiring the recipient to build a machine from a box. Includes a padded rebounder for a cardio option and a non-slip leather surface with high-density padding. Generic dropship brand with no track record, so treat durability claims with appropriate caution, but it is a genuine reformer, not a cord machine.",
+    description: "One of the two lowest-priced genuine spring-based full reformers we could verify as a live Amazon listing, at $295.99 — a real advantage as a gift, since it ships roughly 90% pre-assembled with a stated 5–10 minute setup rather than requiring the recipient to build a machine from a box. Includes a padded rebounder for a cardio option and a non-slip leather surface with high-density padding. Generic dropship brand with no track record, so treat durability claims with appropriate caution, but it is a genuine reformer, not a cord machine.",
     affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
   },
   {
     rank: "03",
     name: "AeroPilates 287 Reformer",
-    price: "$359",
+    price: "$256.49",
     verdict: "Best Established-Brand Reformer to Gift",
-    description: "For a safer gift from a name the recipient may already recognize, the AeroPilates 287 is a genuine, currently-sold Amazon listing at $359 from an established home-fitness brand. It uses elastic cord resistance rather than coil springs — gentler and more forgiving than the spring reformers above, well suited to a beginner. We could not verify specific claims about carriage length or fold mechanism beyond what the current listing shows, so check that page before ordering.",
+    description: "For a safer gift from a name the recipient may already recognize, the AeroPilates 287 is a genuine, currently-sold Amazon listing at $256.49 from an established home-fitness brand. It uses elastic cord resistance rather than coil springs — gentler and more forgiving than the spring reformers above, well suited to a beginner. We could not verify specific claims about carriage length or fold mechanism beyond what the current listing shows, so check that page before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
   },
   {
@@ -106,7 +106,7 @@ const PRODUCTS = [
 const CRITERIA = [
   {
     heading: "There are real full reformers to gift under $500",
-    body: "The DWKWE ($299.99) and WINDFOOT ($295.99) are genuine, currently-sold full carriage-and-rail reformers with real spring resistance, not cord-only machines. Both come from generic brands without an established track record, so pair the gift with clear expectations about that tradeoff.",
+    body: "The DWKWE ($284.99) and WINDFOOT ($295.99) are genuine, currently-sold full carriage-and-rail reformers with real spring resistance, not cord-only machines. Both come from generic brands without an established track record, so pair the gift with clear expectations about that tradeoff.",
   },
   {
     heading: "Springs vs. established brand is the real choice",
@@ -125,7 +125,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "Is there a genuine full reformer to gift under $500?",
-    a: "Yes. The DWKWE ($299.99) and WINDFOOT ($295.99) are both real, currently-sold, full carriage-and-rail reformers with genuine spring resistance, well under $500. They come from generic brands without an established track record among instructors, so pair the gift with realistic expectations. The AeroPilates 287 ($359) is the established-brand alternative, using elastic cord resistance instead of springs.",
+    a: "Yes. The DWKWE ($284.99) and WINDFOOT ($295.99) are both real, currently-sold, full carriage-and-rail reformers with genuine spring resistance, well under $500. They come from generic brands without an established track record among instructors, so pair the gift with realistic expectations. The AeroPilates 287 ($256.49) is the established-brand alternative, using elastic cord resistance instead of springs.",
   },
   {
     q: "Is a budget pilates reformer worth gifting?",
@@ -133,7 +133,7 @@ const FAQ = [
   },
   {
     q: "What is the best cheap pilates reformer to gift?",
-    a: "The WINDFOOT ($295.99) is the cheapest genuine spring reformer we could verify as a live Amazon listing, followed closely by the DWKWE ($299.99). The AeroPilates 287 (about $359) is the safer established-brand pick if you'd rather not gift an unfamiliar name. If the recipient already owns a reformer, a Balanced Body accessory — a jumpboard ($280), sitting box ($150), or spine corrector ($189.99) — is a well-priced, verifiable alternative gift.",
+    a: "The DWKWE ($284.99, springs plus latex bands) and the WINDFOOT ($295.99) are the lowest-priced genuine spring reformers we could verify as live Amazon listings. The AeroPilates 287 (about $256) is the safer established-brand pick if you'd rather not gift an unfamiliar name. If the recipient already owns a reformer, a Balanced Body accessory — a jumpboard ($280), sitting box ($150), or spine corrector ($189.99) — is a well-priced, verifiable alternative gift.",
   },
   {
     q: "Will someone who does studio pilates be happy with a budget reformer?",

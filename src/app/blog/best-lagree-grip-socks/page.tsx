@@ -93,7 +93,7 @@ const PRODUCTS = [
   {
     rank: "07",
     name: "Muezna Men's Non-Slip Yoga Socks",
-    price: "$17.99",
+    price: "$19.11",
     verdict: "Best Lagree socks for men",
     description:
       "Most grip socks are sized and styled with women in mind, and the problem for larger feet is not just tightness. If the grip area stops short of where your forefoot actually lands, the sole cannot support you in a lunge or a plank on a moving carriage. A men's-specific sock is sized for a longer foot, so the grip area has a better chance of covering it. This Muezna listing is labelled as a men's non-slip sock, which makes it the easiest starting point if you have struggled to find Lagree socks in your size. Check the listing's size chart against your foot length and the number of pairs included before ordering.",

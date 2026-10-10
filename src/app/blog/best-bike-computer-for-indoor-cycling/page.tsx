@@ -32,7 +32,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "CooSpo CS600 GPS Bike Computer",
-    price: "$97.49",
+    price: "$92.29",
     verdict: "Best overall cycling computer for indoor use",
     description:
       "The CooSpo CS600 pairs a full color touchscreen with both Bluetooth and ANT+ connectivity, so it reads sensors and apps most other computers can, and it adds bike radar support for anyone who also rides outdoors and wants rear-approach alerts built into the same device. The touchscreen makes navigating live data during a session more direct than button-only units, and the dual-protocol connectivity means it isn't locked into a single sensor ecosystem. The best all-round choice for riders who want one capable head unit rather than a phone mount or a stripped-down display.",
@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "iGPSPORT BSC500",
-    price: "$142.49",
+    price: "$149.99",
     verdict: "Best premium cycling computer",
     description:
       "The BSC500 is iGPSPORT's flagship, with a 3.3-inch touchscreen — the largest display on this list — and map voice navigation built in. For riders who want a genuinely premium head unit with a big, easy-to-read screen and spoken turn guidance rather than just a data readout, this is the step up from the CS600. The larger screen and navigation features come at the highest price here, which makes sense for riders who use the same device outdoors as well as on the spin bike.",
@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "CYCPLUS G1",
-    price: "$26.99",
+    price: "$34.99",
     verdict: "Best ultra-lightweight budget pick",
     description:
       "The CYCPLUS G1 weighs around 70 grams, making it the lightest computer on this list by a wide margin, and it does that at a genuinely budget price. For riders who just want basic live metrics on the handlebar without adding bulk or spending much, the G1 is the straightforward entry point — a sensible first head unit before deciding whether to invest in a touchscreen model.",
@@ -72,7 +72,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "BKVTOP Wireless GPS Bike Computer",
-    price: "$24.76",
+    price: "$39.95",
     verdict: "Best lightest-weight budget option",
     description:
       "The BKVTOP is a wireless GPS computer weighing around 50 grams — even lighter than the CYCPLUS G1 — at the lowest price on this list. For riders who want the smallest, least noticeable head unit on the handlebar and don't need a touchscreen or navigation features, this is the most minimal and affordable way to get live ride data during indoor sessions.",

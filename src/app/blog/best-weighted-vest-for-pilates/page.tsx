@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "CAP 40lb Adjustable Weighted Vest",
-    price: "$69.99",
+    price: "$63.99",
     verdict: "Best for advanced, heavier load-bearing work",
     description:
       "CAP is a long-established strength equipment brand, and this is the heaviest vest on this list at 40lb, adjustable so you can work up to that ceiling rather than starting there. It suits a specific and fairly small group: people with an established fitness base who have already outgrown a light vest and want real load behind step-ups, carries, and standing work. This is not a starting vest — arriving at 40lb without first building up through lighter loads over weeks is how people end up with a sore lower back and a vest that sits in a cupboard. For anyone who has already done that groundwork, it is the sensible next purchase rather than replacing a lighter vest they have outgrown.",
@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Poudee Weighted Vest (12lb)",
-    price: "$14.99",
+    price: "$17.99",
     verdict: "Best budget entry point",
     description:
       "At under $15, this is the cheapest way to find out whether a weighted vest is something you will actually use before spending more on one. It comes fixed at 12lb, which sits within the range most beginners are advised to build toward rather than start at, so it is worth easing into gradually — wear it unweighted or for shorter walks at first if 12lb feels like a jump from nothing. There is no adjustability here, which is the trade-off for the price: once you have it, that is the load, so anyone likely to want to progress upward should expect to eventually replace it rather than grow with it. As a low-commitment way to trial the category, it does the job.",

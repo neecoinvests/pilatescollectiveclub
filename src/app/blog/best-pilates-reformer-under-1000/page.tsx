@@ -34,7 +34,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "PAETA 86\" Foldable Reformer, Piano Wire Springs",
-    price: "$439.99",
+    price: "$419.99",
     verdict: "Best genuine spring reformer under $1,000",
     tag: "Top Pick",
     description:
@@ -58,11 +58,11 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"",
-    price: "$299.99",
+    price: "$284.99",
     verdict: "Best value genuine spring reformer under $300",
     tag: "Budget Pick",
     description:
-      "A real, currently-sold Amazon listing at $299.99: a reinforced metal frame reformer with a height-adjustable footbar, a dual resistance system combining springs and latex, and a jump board and headrest included. Sold by a third-party seller rather than an established brand, so treat build-quality and longevity claims with appropriate caution — but it's a genuine carriage-and-rail machine with real spring resistance, not a cord-only unit.",
+      "A real, currently-sold Amazon listing at $284.99: a reinforced metal frame reformer with a height-adjustable footbar, a dual resistance system combining springs and latex, and a jump board and headrest included. Sold by a third-party seller rather than an established brand, so treat build-quality and longevity claims with appropriate caution — but it's a genuine carriage-and-rail machine with real spring resistance, not a cord-only unit.",
     affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
     pros: ["Genuine spring-plus-latex resistance", "Height-adjustable footbar", "Jump board and headrest included"],
     cons: ["Generic third-party seller", "No instructor recognition or track record", "Unclear long-term durability"],
@@ -74,7 +74,7 @@ const PRODUCTS = [
     verdict: "Easiest setup among the genuine spring reformers",
     tag: "Easiest Setup",
     description:
-      "The cheapest genuine spring-based full reformer we could verify as a live Amazon listing, at $295.99. Ships roughly 90% pre-assembled with a stated 5–10 minute setup, includes a padded rebounder for a cardio option, and has a non-slip leather surface with high-density padding. Like the DWKWE, it's a generic dropship brand, so long-term durability and after-sale support are unverified — but the machine itself is a real spring reformer.",
+      "One of the two lowest-priced genuine spring-based full reformers we could verify as a live Amazon listing, at $295.99. Ships roughly 90% pre-assembled with a stated 5–10 minute setup, includes a padded rebounder for a cardio option, and has a non-slip leather surface with high-density padding. Like the DWKWE, it's a generic dropship brand, so long-term durability and after-sale support are unverified — but the machine itself is a real spring reformer.",
     affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
     pros: ["Genuine spring resistance", "Ships ~90% pre-assembled, fast setup", "Includes padded rebounder for cardio"],
     cons: ["Generic brand, no track record", "Lightest-duty frame of the group", "No verified long-term durability data"],
@@ -94,11 +94,11 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "AeroPilates 287 Reformer",
-    price: "$359",
+    price: "$256.49",
     verdict: "Best true entry point for an established brand",
     tag: "Budget Champion",
     description:
-      "The AeroPilates 287 is a genuine, live Amazon listing at $359 and the lowest-cost established-brand reformer we could verify in this category. It uses elastic cord resistance, which the brand markets around a fold-flat design, though we could not independently verify exact folded dimensions or weight for the current listing. For beginners who want brand reliability over spring feel, it remains an honest, verified starting point.",
+      "The AeroPilates 287 is a genuine, live Amazon listing at $256.49 and the lowest-cost established-brand reformer we could verify in this category. It uses elastic cord resistance, which the brand markets around a fold-flat design, though we could not independently verify exact folded dimensions or weight for the current listing. For beginners who want brand reliability over spring feel, it remains an honest, verified starting point.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
     pros: ["Genuine, live Amazon listing", "Lowest-cost established-brand option in this guide", "Brand markets a fold-flat design"],
     cons: ["Cord resistance only", "We could not verify exact folded dimensions or weight capacity", "Rail length shorter than premium AeroPilates models"],

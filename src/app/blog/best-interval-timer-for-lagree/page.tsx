@@ -61,7 +61,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "ANJANK Small Portable Gym Timer Clock",
-    price: "$35.99",
+    price: "$39.99",
     verdict: "Best for mounting on equipment",
     description: "The ANJANK timer attaches with a strong built-in magnet, so it can be stuck directly to a Megaformer's steel frame or any other metal surface in the studio rather than clipped to clothing. It ships with a remote control, which lets an instructor start, pause, or reset the countdown from across the room without walking over to the unit mid-class — useful when you're cueing a group through a 90-second hold and don't want to break form to touch a screen.",
     affiliateUrl: "https://www.amazon.com/dp/B0D1CJW6LV?tag=pilatescollective-20",

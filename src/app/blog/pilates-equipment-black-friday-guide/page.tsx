@@ -67,7 +67,7 @@ const jsonLd = {
 
 const REFORMER_BASELINE = [
   { item: "WINDFOOT Foldable Reformer w/ Jump Board", tier: "Budget spring (generic brand)", price: "$295.99" },
-  { item: "DWKWE Foldable Reformer, 88\"", tier: "Budget spring (generic brand)", price: "$299.99" },
+  { item: "DWKWE Foldable Reformer, 88\"", tier: "Budget spring (generic brand)", price: "$284.99" },
   { item: "PAETA 86\" Foldable Reformer (piano-wire springs)", tier: "Budget spring (generic brand)", price: "$439.99" },
   { item: "PAETA Wooden Foldable Reformer w/ Sitting Box", tier: "Budget spring (generic brand)", price: "$749.99" },
   { item: "AeroPilates Pro XP 557", tier: "Consumer (cord-based)", price: "$1,329.99" },
@@ -94,7 +94,7 @@ const APPARATUS_BASELINE = [
 ];
 
 const REFORMERS = [
-  { name: "WINDFOOT Foldable Reformer w/ Jump Board", description: "The cheapest real spring reformer we could verify as a live Amazon listing at any tier — genuine dual-spring resistance, pre-assembled roughly 90%, and it folds flat for storage. WINDFOOT is a generic/dropship brand with no track record, no certification recognition among instructors, and unclear warranty support, so weigh that against the price before buying.", price: "From $295.99", affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20" },
+  { name: "WINDFOOT Foldable Reformer w/ Jump Board", description: "One of the lowest-priced real spring reformers we could verify as a live Amazon listing at any tier — genuine dual-spring resistance, pre-assembled roughly 90%, and it folds flat for storage. WINDFOOT is a generic/dropship brand with no track record, no certification recognition among instructors, and unclear warranty support, so weigh that against the price before buying.", price: "From $295.99", affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20" },
   { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", description: "Genuine piano-wire spring resistance, a 500 lb weight capacity, and folds for storage — a real spring reformer under $500. Like the other budget entries here, PAETA is a generic brand without an established reputation among instructors, so treat the low price as buying real springs plus brand-risk, not as a discount on an established machine.", price: "From $419.99", affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20" },
   { name: "Balanced Body Metro IQ Reformer", description: "The cheapest genuine spring reformer from a major brand, and the machine that marks the real floor of the category. Short stored length makes it the one that fits where a full studio frame does not.", price: "From $2,330", affiliateUrl: "https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20" },
   { name: "AeroPilates Pro XP 557 Reformer", description: "The one machine from a recognised brand that genuinely costs under $2,000. It uses elastic cord rather than coil springs, which is a real difference in how resistance builds, but for building a habit it is a workable trade.", price: "From $1,329.99", affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },

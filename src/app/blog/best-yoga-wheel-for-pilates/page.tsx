@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "NGT 13-Inch Yoga Wheel",
-    price: "$34.99",
+    price: "$33.19",
     verdict: "Best for back pain relief and gentle stretching",
     description:
       "New Guider Sports builds this one at 13 inches, a touch larger than the more common 12-inch standard, which produces a slightly gentler, broader extension curve rather than a sharp arch. That makes it a sensible pick for anyone using a wheel specifically for back pain relief and stretching rather than for pushing deep into end-range extension — a wider curve spreads the load over more of the spine instead of concentrating it at one point. It is a single fixed-size wheel rather than a set, so it suits someone who already knows roughly what curve they want and does not need to shop across multiple diameters.",
@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "CHNApin Curve Magic Wheel",
-    price: "$26.99",
+    price: "$24.26",
     verdict: "Best budget pick with a supportive cradle",
     description:
       "This is the cheapest wheel on this list, and what sets it apart at the price is a foam-padded centre spine cradle rather than a flat padded curve — a shaped channel that gives the spine somewhere specific to settle into instead of pressing flat against the padding. For anyone new to using a wheel who is a little nervous about the spine sliding or shifting mid-extension, that cradle is a genuinely useful stability feature to get at this price point. It is a straightforward single wheel without the size options a set offers, which is the trade-off for the low cost, but as a first wheel to find out whether the movement suits you, it is a sensible entry point.",

@@ -12,7 +12,7 @@ const PAGE_URL = "https://pilatescollectiveclub.com/blog/what-to-wear-to-lagree"
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-grip-socks-footbar.png";
 const TITLE = "What to Wear to Lagree (2026): 3 Complete Outfits";
 const DESCRIPTION =
-  "What to wear to Lagree, head to toe: the rules for the Megaformer, three complete outfits (about $63, $122 and $243), what to bring and what to leave at home.";
+  "What to wear to Lagree, head to toe: the rules for the Megaformer, three complete outfits (about $63, $122 and $294), what to bring and what to leave at home.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -92,9 +92,9 @@ const OUTFITS: { id: string; title: string; who: string; items: Item[] }[] = [
     title: "The premium outfit",
     who: "The boutique-studio look, head to toe.",
     items: [
-      { id: "varley-leggings", role: "Leggings", name: "Varley Freesoft Piped Full Leggings", price: "$78.40", url: amz("B0FXN378H8"), description: "Varley's soft Freesoft fabric with contrast piping, sold by Shopbop (an Amazon company).", guide: { label: "Best leggings for Lagree", href: "/blog/best-leggings-for-lagree" } },
-      { id: "varley-tank", role: "Top", name: "Varley Marla Button Placket Tank", price: "$71.68", url: amz("B0FP3MWK1Z"), description: "A fitted tank with a button placket — the studio-to-coffee piece. Sold by Shopbop.", guide: { label: "Best Lagree tops", href: "/blog/best-lagree-tops" } },
-      { id: "varley-bra", role: "Sports bra", name: "Varley Freesoft Harley Bralette", price: "$52.80", url: amz("B0FXN42JWR"), description: "A Freesoft bralette that matches the leggings. Light support suits Lagree's low-impact movement. Sold by Shopbop.", guide: { label: "Best sports bra for Lagree", href: "/blog/best-sports-bra-for-lagree" } },
+      { id: "varley-leggings", role: "Leggings", name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: amz("B0FXN378H8"), description: "Varley's soft Freesoft fabric with contrast piping, sold by Shopbop (an Amazon company).", guide: { label: "Best leggings for Lagree", href: "/blog/best-leggings-for-lagree" } },
+      { id: "varley-tank", role: "Top", name: "Varley Marla Button Placket Tank", price: "$89.60", url: amz("B0FP3MWK1Z"), description: "A fitted tank with a button placket — the studio-to-coffee piece. Sold by Shopbop.", guide: { label: "Best Lagree tops", href: "/blog/best-lagree-tops" } },
+      { id: "varley-bra", role: "Sports bra", name: "Varley Freesoft Harley Bralette", price: "$66.00", url: amz("B0FXN42JWR"), description: "A Freesoft bralette that matches the leggings. Light support suits Lagree's low-impact movement. Sold by Shopbop.", guide: { label: "Best sports bra for Lagree", href: "/blog/best-sports-bra-for-lagree" } },
       { id: "tavi-stacy", role: "Grip socks", name: "TAVI Stacy Slouch Pilates Socks (2-Pack)", price: "$40.00", url: amz("B0GFPGMWWS"), description: "Slouchy, closed-toe grip socks from TAVI, a studio favourite. Two pairs per pack.", guide: { label: "Lagree socks", href: "/blog/best-lagree-grip-socks" } },
     ],
   },
@@ -104,7 +104,7 @@ const BRING: Item[] = [
   { id: "rainleaf", role: "Sweat towel", name: "Rainleaf Microfiber Towel (Quick Dry, Compact)", price: "$12.99", url: amz("B01K1TX77W"), description: "A compact, quick-dry microfiber towel. You will sweat onto the carriage and platform; wipe yourself and the machine between moves.", guide: { label: "Best sweat towel for Lagree", href: "/blog/best-sweat-towel-for-lagree" } },
   { id: "gaiam-gloves", role: "Grip gloves (optional)", name: "Gaiam Grippy Yoga Gloves", price: "$7.65", url: amz("B001VROVEM"), description: "Optional. Grippy gloves help if sweaty hands slip on the handles or platform in plank.", guide: { label: "Lagree gloves", href: "/blog/best-lagree-gloves" } },
   { id: "crz-jacket", role: "Layer", name: "CRZ YOGA Butterluxe Jacket (Waist Length)", price: "$48.00", url: amz("B0BJ2G3JNW"), description: "A slim zip layer with thumbholes for the cold studio before class and the walk home after.", guide: { label: "Lagree jacket", href: "/blog/best-lagree-jacket" } },
-  { id: "bagsmart", role: "Bag", name: "BAGSMART Gym Bag (Shoe Compartment)", price: "$29.99", url: amz("B0DMS9Q287"), description: "A lightweight duffel with a shoe compartment — your sneakers go in there while you train in grip socks.", guide: { label: "Lagree bag", href: "/blog/best-lagree-bag" } },
+  { id: "bagsmart", role: "Bag", name: "BAGSMART Gym Bag (Shoe Compartment)", price: "$28.49", url: amz("B0DMS9Q287"), description: "A lightweight duffel with a shoe compartment — your sneakers go in there while you train in grip socks.", guide: { label: "Lagree bag", href: "/blog/best-lagree-bag" } },
 ];
 
 const SUMMER_SWAP: Item = { id: "crz-biker", role: "Summer swap", name: "CRZ YOGA Butterluxe Biker Shorts 6\"", price: "$24.00", url: amz("B0B28B34XX"), description: "Swap leggings for fitted 6-inch biker shorts in summer. Fitted, not loose: loose running shorts ride up and gape in bear and wheelbarrow.", guide: { label: "Lagree shorts", href: "/blog/best-lagree-shorts" } };

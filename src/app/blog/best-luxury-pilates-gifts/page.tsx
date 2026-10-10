@@ -48,10 +48,10 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Beyond Yoga Spacedye Caught in the Midi High Waisted Legging",
-    price: "$97",
+    price: "$99",
     verdict: "Most Luxurious Leggings",
     description: "Ask a room of reformer regulars which leggings they reach for first and Beyond Yoga's Spacedye comes up again and again. The heathered space-dyed fabric is exceptionally soft, with enough stretch for full-range work on the carriage, and the 5-inch high waistband gives gentle, smoothing compression without digging in during roll-ups. They come in a wide, inclusive size range and a long list of colours, which makes them an easy gift to get right. Sold by Zappos on Amazon.",
-    affiliateUrl: "https://www.amazon.com/dp/B07X3Y5JVL?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07663TDHG?tag=pilatescollective-20",
   },
   {
     rank: "03",
@@ -59,7 +59,7 @@ const PRODUCTS = [
     price: "$165",
     verdict: "Best Luxury Mat",
     description: "Liforme is the mat that converts committed Manduka users. Its GripForMe eco-polyurethane top layer over rubber has exceptional grip even when your hands are damp, and the patented AlignForMe markings etched into the surface help you set up hands, feet and hips consistently, which is surprisingly useful for mat Pilates. At 4.2mm it balances cushioning with a stable feel, it's PVC-free, and it comes with Liforme's own carry bag. Sold by Liforme on Amazon.",
-    affiliateUrl: "https://www.amazon.com/dp/B0CF6213QQ?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B09X66N6GX?tag=pilatescollective-20",
   },
   {
     rank: "04",

@@ -36,7 +36,7 @@ const PRODUCTS = [
     verdict: "Best overall value smartwatch for Pilates",
     description:
       "The TRAUSI Smart Watch is the strongest all-around pick on this list for the price. It ships with 120 sport modes, which is more activity-tracking granularity than most trackers in this price range offer, and built-in Alexa support means you can check timers, weather, or your schedule without reaching for your phone between sets. The case is designed for a women's wrist, with a slim band that sits comfortably under reformer straps and doesn't interfere with wrist-weight-bearing moves like planks or side-lying series. For practitioners who want a capable everyday tracker without paying premium-smartwatch prices, this is the sensible starting point.",
-    affiliateUrl: "https://www.amazon.com/dp/B0HFNHBCBT?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0HG9LQ8SG?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "STECEi Smart Watch",
-    price: "$19.99",
+    price: "$21.99",
     verdict: "Best for Bluetooth calling",
     description:
       "The STECEi Smart Watch adds Bluetooth calling on top of 110+ sport modes, letting you answer or make calls directly from the wrist — useful if you keep your phone in a locker or bag during class and don't want to miss a call while working through a reformer sequence. At under $20, it undercuts most of the category while still covering the sport-mode range a Pilates practitioner would actually use, from general cardio settings to yoga-adjacent modes. It's a straightforward, no-frills tracker for anyone who wants call functionality without stepping up to a full smartwatch price point.",
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "MorePro Fitness Tracker",
-    price: "$44.99",
+    price: "$39.99",
     verdict: "Best for blood oxygen tracking",
     description:
       "The MorePro Fitness Tracker is the most feature-dense option here, combining 24/7 heart rate and blood pressure monitoring with blood oxygen (SpO2) tracking. SpO2 readings are a useful data point for practitioners curious about how breath-focused Pilates work affects their oxygen saturation over a session, and pairing that with continuous heart rate gives a more complete picture than heart rate alone. At the top of this list's price range, it's still well under what a mainstream smartwatch costs, making it the pick for anyone who wants the fullest health-metric set without committing to a premium device.",
@@ -72,7 +72,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Choiknbo Smartwatch for Women",
-    price: "$17.99",
+    price: "$21.99",
     verdict: "Best budget pick",
     description:
       "The Choiknbo Smartwatch is the lowest-cost option on this list and still includes call functionality, making it a sensible entry point for anyone trying a fitness tracker for the first time or wanting a lightweight backup watch for the studio. It's built with a women's-fit case and band, so it stays comfortable through mat work, side planks, and reformer footwork without feeling bulky. It won't match the sensor depth of the pricier trackers above, but for basic step counts, workout logging, and staying reachable during class, it does the job at the lowest price in the category.",

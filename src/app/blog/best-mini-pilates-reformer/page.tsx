@@ -38,7 +38,7 @@ const PRODUCTS = [
     verdict: "Cheapest genuine full reformer we could verify",
     tag: "Best Budget",
     description:
-      "Worth knowing up front: you'll see a generic \"Pilates Foldable Mini Reformer (FB-F01)\" in Amazon search results, but we could not confirm it as a specific, real, currently-sold listing. What the live Amazon catalog does have is a real tier of budget, generic-brand full reformers. WINDFOOT is the cheapest of them: a real, live, currently-sold Amazon listing at $295.99, sold by YIWU MUZHU, describing a genuine carriage-and-rail spring reformer that is pre-assembled roughly 90% out of the box (a 5–10 minute setup), with a padded rebounder for cardio and a non-slip leather surface, and folds for compact storage. It's a generic brand with no established track record or instructor certification recognition, and unclear long-term durability — but it's a real, small-footprint reformer at a genuinely low price.",
+      "Worth knowing up front: you'll see a generic \"Pilates Foldable Mini Reformer (FB-F01)\" in Amazon search results, but we could not confirm it as a specific, real, currently-sold listing. What the live Amazon catalog does have is a real tier of budget, generic-brand full reformers. WINDFOOT is one of the two lowest-priced of them: a real, live, currently-sold Amazon listing at $295.99, sold by YIWU MUZHU, describing a genuine carriage-and-rail spring reformer that is pre-assembled roughly 90% out of the box (a 5–10 minute setup), with a padded rebounder for cardio and a non-slip leather surface, and folds for compact storage. It's a generic brand with no established track record or instructor certification recognition, and unclear long-term durability — but it's a real, small-footprint reformer at a genuinely low price.",
     affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
     pros: ["Genuine, live Amazon listing", "Lowest price of any real reformer in this guide", "Folds for compact storage, pre-assembled ~90%"],
     cons: ["Generic brand, no established track record", "No certification recognition among instructors", "Unclear long-term durability or warranty support"],
@@ -46,11 +46,11 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"",
-    price: "$299.99",
+    price: "$284.99",
     verdict: "Dual spring-and-latex resistance in a foldable frame",
     tag: "Best Dual Resistance",
     description:
-      "DWKWE's 88\" reformer, sold by Jun's Wonderful Store, is another real, live Amazon listing in the same budget-generic-brand tier as WINDFOOT, at $299.99. The listing describes a height-adjustable footbar, a dual resistance system combining springs and latex resistance bands, a jump board and headrest included, a reinforced metal frame, and a design that folds for storage. As with WINDFOOT, treat the brand's durability and warranty support as unverified beyond the listing itself — this is a generic brand, not an established Pilates equipment maker — but the underlying machine is a genuine carriage-and-rail reformer that folds down to a compact footprint.",
+      "DWKWE's 88\" reformer, sold by Jun's Wonderful Store, is another real, live Amazon listing in the same budget-generic-brand tier as WINDFOOT, at $284.99. The listing describes a height-adjustable footbar, a dual resistance system combining springs and latex resistance bands, a jump board and headrest included, a reinforced metal frame, and a design that folds for storage. As with WINDFOOT, treat the brand's durability and warranty support as unverified beyond the listing itself — this is a generic brand, not an established Pilates equipment maker — but the underlying machine is a genuine carriage-and-rail reformer that folds down to a compact footprint.",
     affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
     pros: ["Genuine, live Amazon listing", "Height-adjustable footbar and included jump board", "Folds for compact storage"],
     cons: ["Generic brand, no established track record", "Dual spring-and-latex system's long-term durability unverified", "No certification recognition among instructors"],
@@ -58,11 +58,11 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "AeroPilates Reformer 287",
-    price: "$359",
+    price: "$256.49",
     verdict: "Best budget compact reformer from an established brand",
     tag: "Established Brand Budget",
     description:
-      "The AeroPilates 287 is the smallest full-function reformer from a recognized, established brand that we could verify as a real, live Amazon listing, at $359. It uses elastic cord resistance rather than coil springs, which feels genuinely different from the spring-based WINDFOOT and DWKWE models above, and covers much of the foundational reformer repertoire. We could not independently verify exact folded dimensions or assembly time for the current listing — confirm those on the product page.",
+      "The AeroPilates 287 is the smallest full-function reformer from a recognized, established brand that we could verify as a real, live Amazon listing, at $256.49. It uses elastic cord resistance rather than coil springs, which feels genuinely different from the spring-based WINDFOOT and DWKWE models above, and covers much of the foundational reformer repertoire. We could not independently verify exact folded dimensions or assembly time for the current listing — confirm those on the product page.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
     pros: ["Genuine, live Amazon listing", "Established brand with support infrastructure", "Good for beginners and flexibility work"],
     cons: ["Elastic cord resistance differs from springs", "Shorter rail limits some exercises", "Less stable than full studio reformers"],
@@ -108,7 +108,7 @@ const PRODUCTS = [
 const FAQS = [
   {
     q: "Is a mini or compact Pilates reformer worth it?",
-    a: "For the tightest budgets, WINDFOOT ($295.99) and DWKWE ($299.99) are real, currently-sold, genuine spring reformers that fold for storage — generic brands without an established track record, but real machines. For beginners or space-constrained practitioners who prefer a recognized brand, the AeroPilates 287 at $359 is a genuine, real Amazon listing worth considering. For practitioners who train frequently and want spring-based resistance from an established brand, the Balanced Body Metro IQ ($2,330) or Align-Pilates C8-PRO ($2,750) are real steps up. We could not verify a specific repertoire-coverage percentage for any of these machines, so treat that as a general impression rather than a measured figure.",
+    a: "For the tightest budgets, WINDFOOT ($295.99) and DWKWE ($284.99) are real, currently-sold, genuine spring reformers that fold for storage — generic brands without an established track record, but real machines. For beginners or space-constrained practitioners who prefer a recognized brand, the AeroPilates 287 at $256.49 is a genuine, real Amazon listing worth considering. For practitioners who train frequently and want spring-based resistance from an established brand, the Balanced Body Metro IQ ($2,330) or Align-Pilates C8-PRO ($2,750) are real steps up. We could not verify a specific repertoire-coverage percentage for any of these machines, so treat that as a general impression rather than a measured figure.",
   },
   {
     q: "Are the budget WINDFOOT and DWKWE reformers genuine spring reformers?",

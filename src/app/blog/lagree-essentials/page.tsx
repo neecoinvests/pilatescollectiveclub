@@ -115,7 +115,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Varley Freesoft Piped Full Leggings",
-        price: "$78.40",
+        price: "$98.00",
         url: amz("B0FXN378H8"),
         description:
           "Varley's Freesoft line is its soft, brushed-feel fabric, and this full-length piped pair is sold through Shopbop, an Amazon company. It is the pick if you want one pair that looks polished on the way to class and stays put through a slow, sweaty 45 minutes.",
@@ -143,7 +143,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Varley Freesoft Harley Bralette",
-        price: "$52.80",
+        price: "$66.00",
         url: amz("B0FXN42JWR"),
         description:
           "Made in the same Freesoft fabric as the Varley leggings, so the two form a matching set. Sold through Shopbop. It is a light-support bralette, which suits the slow, controlled pace of Lagree rather than high-impact cardio.",
@@ -333,7 +333,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Gaiam Core Sliding Discs (2)",
-        price: "$15.82",
+        price: "$10.99",
         url: amz("B0964G1N18"),
         description:
           "A pair of sliding discs from an established fitness brand. Two discs let you do both single-leg and two-hand moves.",
@@ -397,7 +397,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Splurge",
         name: "Therabody TheraGun Relief",
-        price: "$159.99",
+        price: "$119.99",
         url: amz("B0CNS894RH"),
         description:
           "Therabody's entry-level massage gun. It is simpler than the brand's pro models, which suits general post-class soreness.",
@@ -811,7 +811,7 @@ export default function LagreeEssentialsPage() {
                       ))}
                     </div>
                     <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
-                      If you only go to class and skip the home and recovery gear, what you wear and bring comes to {fmt(CLASS_BUDGET_TOTAL)} on a budget or {fmt(CLASS_BEST_TOTAL)} for the best picks. Most of the gap between the two kits is clothing: Varley leggings and bralette ($78.40 + $52.80) against CRZ YOGA ($32.00 + $28.00). Swapping leggings for $24.00 biker shorts saves $8.00 on the budget kit and $54.40 on the best kit. The Micro setup is extra: {fmt(990)} for the machine, {fmt(MICRO_SETUP_TOTAL)} with all three accessories.
+                      If you only go to class and skip the home and recovery gear, what you wear and bring comes to {fmt(CLASS_BUDGET_TOTAL)} on a budget or {fmt(CLASS_BEST_TOTAL)} for the best picks. Most of the gap between the two kits is clothing: Varley leggings and bralette ($98.00 + $66.00) against CRZ YOGA ($32.00 + $28.00). Swapping leggings for $24.00 biker shorts saves $8.00 on the budget kit and $54.40 on the best kit. The Micro setup is extra: {fmt(990)} for the machine, {fmt(MICRO_SETUP_TOTAL)} with all three accessories.
                     </p>
                   </div>
                 )}

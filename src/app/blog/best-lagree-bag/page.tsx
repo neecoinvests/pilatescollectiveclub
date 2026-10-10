@@ -10,7 +10,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Lagree Bag (2026): Best Gym Bags for Lagree Class",
-  description: "The best Lagree bag keeps a soaked towel and studio shoes away from clean clothes. Six picks, from $29.99 bags with shoe and wet pockets to a 37L gym bag.",
+  description: "The best Lagree bag keeps a soaked towel and studio shoes away from clean clothes. Six picks, from $28.49 bags with shoe and wet pockets to a 37L gym bag.",
   keywords: ["lagree bag", "best bag for lagree", "gym bag for lagree class", "lagree gym bag shoe compartment", "what to bring to lagree", "megaformer gym bag", "gym bag with wet compartment", "gym bag with shoe compartment", "lagree tote bag", "lagree bag 2026"],
   openGraph: {
     title: "Lagree Bag (2026): Best Gym Bags for Lagree Class",
@@ -55,21 +55,21 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Under Armour Undeniable 5.0 Duffle MD",
-    price: "$49.95",
+    price: "$37.50",
     verdict: "Best classic duffle",
     description:
-      "Some people simply prefer a traditional duffle: one big main compartment you can open wide, throw a towel into, and find things in without unpacking. The Undeniable 5.0 is Under Armour's long-running duffle line, this is the medium size, and it is sold by Amazon.com, which keeps returns simple if the size turns out wrong. A duffle shape works well for Lagree because the bulkiest things you carry — a rolled grip towel and a change of clothes — are soft and long, which suits a wide opening better than a narrow backpack. The trade-off is organisation: if you want guaranteed separation for wet kit and shoes, confirm the compartment layout on the listing, or add a washable pouch for the damp towel. At $49.95 it is a durable, no-fuss middle option from a brand most people already trust for training gear.",
-    affiliateUrl: "https://www.amazon.com/dp/B093LPX4G1?tag=pilatescollective-20",
+      "Some people simply prefer a traditional duffle: one big main compartment you can open wide, throw a towel into, and find things in without unpacking. The Undeniable 5.0 is Under Armour's long-running duffle line, this is the medium size, and it is sold by Amazon.com, which keeps returns simple if the size turns out wrong. A duffle shape works well for Lagree because the bulkiest things you carry — a rolled grip towel and a change of clothes — are soft and long, which suits a wide opening better than a narrow backpack. The trade-off is organisation: if you want guaranteed separation for wet kit and shoes, confirm the compartment layout on the listing, or add a washable pouch for the damp towel. At $37.50 it is a durable, no-fuss middle option from a brand most people already trust for training gear.",
+    affiliateUrl: "https://www.amazon.com/dp/B093LSTLVK?tag=pilatescollective-20",
     brandDirect: false,
     tag: "Best Duffle",
   },
   {
     rank: "04",
     name: "BAGSMART Gym Bag for Women (Shoe Compartment)",
-    price: "$29.99",
+    price: "$28.49",
     verdict: "Best value",
     description:
-      "At $29.99, this is the cheapest route to the single feature that makes the biggest everyday difference: a shoe compartment. Studio floors are grip-sock territory, so the trainers you walk in with come off at the door, and putting outdoor soles back into the same space as a clean top after class is the habit a separate shoe section breaks. It is a sensible first Lagree bag for anyone who is still deciding whether the class is a three-times-a-week habit, and a perfectly good long-term one for people who go straight home after class and do not need a full change of clothes. Pair it with a separate washable pouch for your sweaty towel and socks if you want the same wet-dry separation as the Fitgriff.",
+      "At $28.49, this is the cheapest route to the single feature that makes the biggest everyday difference: a shoe compartment. Studio floors are grip-sock territory, so the trainers you walk in with come off at the door, and putting outdoor soles back into the same space as a clean top after class is the habit a separate shoe section breaks. It is a sensible first Lagree bag for anyone who is still deciding whether the class is a three-times-a-week habit, and a perfectly good long-term one for people who go straight home after class and do not need a full change of clothes. Pair it with a separate washable pouch for your sweaty towel and socks if you want the same wet-dry separation as the Fitgriff.",
     affiliateUrl: "https://www.amazon.com/dp/B0DMS9Q287?tag=pilatescollective-20",
     brandDirect: false,
     tag: "Best Value",
@@ -80,7 +80,7 @@ const PRODUCTS = [
     price: "$29.99",
     verdict: "Best tote",
     description:
-      "A tote is the right shape for people who would rather carry a shoulder bag than a duffle, and this one covers both Lagree essentials in a 20-litre body: its listing names a shoe compartment and a wet pocket. Twenty litres is smaller than the duffles above but comfortably enough for a towel, bottle, grip socks and a top to change into, and the tote format slides more easily into a studio cubby than a long duffle does. It is also designed as a yoga-mat bag, so if you take mat Pilates or yoga on other days you can carry a mat with it — you will not need one for Lagree itself, since you work on the machine. At $29.99 it ties with the BAGSMART as the cheapest bag here; choose between them on shape, since both cover the shoe question.",
+      "A tote is the right shape for people who would rather carry a shoulder bag than a duffle, and this one covers both Lagree essentials in a 20-litre body: its listing names a shoe compartment and a wet pocket. Twenty litres is smaller than the duffles above but comfortably enough for a towel, bottle, grip socks and a top to change into, and the tote format slides more easily into a studio cubby than a long duffle does. It is also designed as a yoga-mat bag, so if you take mat Pilates or yoga on other days you can carry a mat with it — you will not need one for Lagree itself, since you work on the machine. At $29.99 it is one of the two cheapest bags here, alongside the BAGSMART; choose between them on shape, since both cover the shoe question.",
     affiliateUrl: "https://www.amazon.com/dp/B0BHP38PNG?tag=pilatescollective-20",
     brandDirect: false,
     tag: "Best Tote",

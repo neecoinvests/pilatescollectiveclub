@@ -36,9 +36,9 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "AeroPilates Reformer 287",
-    price: "$359",
+    price: "$256.49",
     verdict: "Best entry-level home reformer",
-    description: "The 287 is the most accessible full-function reformer available — a real, live Amazon listing at $359. Like the rest of the AeroPilates range, it uses elastic cord resistance rather than coil springs, which covers foundational footwork, the rowing series, stretching, and much of the beginner Pilates repertoire, but feels genuinely different from a spring-based studio machine. The rebounder adds a cardio dimension studio reformers don't offer. We could not independently verify exact folded dimensions or storage clearance for the current listing, so confirm those on the product page if under-bed storage is a requirement. For a practitioner who wants to learn the basic reformer vocabulary at home before deciding whether to invest further, the 287 is a sensible starting point.",
+    description: "The 287 is the most accessible full-function reformer available — a real, live Amazon listing at $256.49. Like the rest of the AeroPilates range, it uses elastic cord resistance rather than coil springs, which covers foundational footwork, the rowing series, stretching, and much of the beginner Pilates repertoire, but feels genuinely different from a spring-based studio machine. The rebounder adds a cardio dimension studio reformers don't offer. We could not independently verify exact folded dimensions or storage clearance for the current listing, so confirm those on the product page if under-bed storage is a requirement. For a practitioner who wants to learn the basic reformer vocabulary at home before deciding whether to invest further, the 287 is a sensible starting point.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
     tag: "Best Entry",
   },
@@ -98,7 +98,7 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Is AeroPilates as good as a real Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "No — and AeroPilates doesn't claim to be. The cord vs spring distinction is real and significant for advanced work: springs provide progressive resistance that builds as the spring lengthens, giving instructors and practitioners precise control over tension. Cords are softer and more elastic, with a different feel at end range. For beginners and home fitness, AeroPilates is a legitimate option. For advanced practitioners, the gap is meaningful." } },
-        { "@type": "Question", "name": "Which AeroPilates model is best: 287 or 557?", "acceptedAnswer": { "@type": "Answer", "text": "The 557 if budget allows, at $1,329.99 — the standing platform is a meaningful upgrade that expands what you can do with the machine. The 287, at $359, is a genuine entry point if price is the deciding factor. Both use AeroPilates' elastic cord resistance system rather than springs; we could not independently verify an exact cord count for either model, so treat that detail as something to confirm on the current listing." } },
+        { "@type": "Question", "name": "Which AeroPilates model is best: 287 or 557?", "acceptedAnswer": { "@type": "Answer", "text": "The 557 if budget allows, at $1,329.99 — the standing platform is a meaningful upgrade that expands what you can do with the machine. The 287, at $256.49, is a genuine entry point if price is the deciding factor. Both use AeroPilates' elastic cord resistance system rather than springs; we could not independently verify an exact cord count for either model, so treat that detail as something to confirm on the current listing." } },
         { "@type": "Question", "name": "Can I learn Pilates on an AeroPilates machine?", "acceptedAnswer": { "@type": "Answer", "text": "You can learn the foundations. The exercise vocabulary is the same as studio reformer work; the resistance feel is different because AeroPilates uses elastic cord rather than coil springs. Following up with studio sessions is worthwhile because instructors can correct technique that the cord system's different feedback might have allowed to develop incorrectly. Use AeroPilates to build the habit and the basic repertoire; use studio sessions to refine it." } },
         { "@type": "Question", "name": "How long do AeroPilates cords last?", "acceptedAnswer": { "@type": "Answer", "text": "Cords wear with use and should be checked periodically for fraying, uneven stretch, or visible wear near the attachment points, since a worn cord affects resistance consistency and creates a snap risk. We could not independently verify a specific lifespan figure — replacement cords are available on Amazon and directly from Stamina Products, so match the cord to your specific model number when you order." } },
       ],
@@ -127,7 +127,7 @@ export default function AeroPilatesReviewPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              AeroPilates is a genuine, real Amazon brand — three of its models are live listings we&apos;ve verified directly, from $359 to $1,329.99. It uses elastic cord resistance rather than the coil-spring system found in studio machines, which is not a minor distinction. This review is honest about what that difference means, which of the real models are worth buying, and who this machine genuinely suits.
+              AeroPilates is a genuine, real Amazon brand — three of its models are live listings we&apos;ve verified directly, from $256.49 to $1,329.99. It uses elastic cord resistance rather than the coil-spring system found in studio machines, which is not a minor distinction. This review is honest about what that difference means, which of the real models are worth buying, and who this machine genuinely suits.
             </p>
           </div>
         </section>
@@ -233,7 +233,7 @@ export default function AeroPilatesReviewPage() {
                   },
                   {
                     q: "Which AeroPilates model is best: 287 or 557?",
-                    a: "The 557 if budget allows, at $1,329.99 — the standing platform is a meaningful upgrade that expands what you can do with the machine. The 287, at $359, is a genuine entry point if price is the deciding factor. Both use AeroPilates' elastic cord resistance system rather than springs; we could not independently verify an exact cord count for either model, so treat that detail as something to confirm on the current listing.",
+                    a: "The 557 if budget allows, at $1,329.99 — the standing platform is a meaningful upgrade that expands what you can do with the machine. The 287, at $256.49, is a genuine entry point if price is the deciding factor. Both use AeroPilates' elastic cord resistance system rather than springs; we could not independently verify an exact cord count for either model, so treat that detail as something to confirm on the current listing.",
                   },
                   {
                     q: "Can I learn Pilates on an AeroPilates machine?",

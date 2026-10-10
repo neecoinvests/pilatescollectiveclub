@@ -88,7 +88,7 @@ const PICKS: Pick[] = [
     badge: "Best Fitted Zip",
     shortName: "IUGA zip jacket",
     name: "IUGA Women's Lightweight Full-Zip Workout Jacket",
-    price: "$42.99",
+    price: "$18.04",
     url: amz("B0FGXVD8XD"),
     verdict: "Slim, breathable, with pockets that actually zip",
     description:
@@ -110,11 +110,11 @@ const PICKS: Pick[] = [
     badge: "Best Value",
     shortName: "Dalavch 3-pack",
     name: "Dalavch Cropped Full-Zip Workout Jacket (3-Pack)",
-    price: "$29.69",
+    price: "$32.99",
     url: amz("B0GXBJSY47"),
-    verdict: "Three fitted cropped layers for under $30",
+    verdict: "Three fitted cropped layers for about $33",
     description:
-      "Three slim, cropped full-zip jackets with thumbholes in breathable stretch fabric. The listing advises sizing up for a looser fit. At about $10 each, this is the way to keep one in your gym bag, one in the car and one at home.",
+      "Three slim, cropped full-zip jackets with thumbholes in breathable stretch fabric. The listing advises sizing up for a looser fit. At about $11 each, this is the way to keep one in your gym bag, one in the car and one at home.",
   },
   {
     id: "gym-people-fleece",
@@ -260,7 +260,7 @@ export default function LagreeJacketPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on each product&apos;s published specifications and how a layer is used around a Lagree class, not a hands-on test.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Nobody keeps a jacket on through a Lagree class — five minutes of slow lunges on the Megaformer and you&apos;re peeling it off. But you need one for the other two moments: waiting in a cool studio before class, and walking out drenched afterwards. That calls for a fitted zip layer that goes on fast over a damp top, keeps its shape and holds your phone. Here are seven, from the lululemon Define Jacket to a three-pack under $30.
+              Nobody keeps a jacket on through a Lagree class — five minutes of slow lunges on the Megaformer and you&apos;re peeling it off. But you need one for the other two moments: waiting in a cool studio before class, and walking out drenched afterwards. That calls for a fitted zip layer that goes on fast over a damp top, keeps its shape and holds your phone. Here are seven, from the lululemon Define Jacket to a three-pack for about $33.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Every Amazon price and stock status was checked live on October 4, 2026. Prices change, so the final price is whatever Amazon shows at checkout.
@@ -332,7 +332,7 @@ export default function LagreeJacketPage() {
                 <a href={LULULEMON} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>lululemon.com</a>.
               </p>
               <p className="text-sm leading-relaxed" style={bodyStyle}>
-                <span className="font-semibold" style={strongStyle}>Buy the alternative</span> if it is mostly a studio layer. The CRZ YOGA Butterluxe Jacket ($48) shares the slim fit, thumbholes and zip pockets; the IUGA ($42.99) and 90 Degree ($39.99) add a sportier, more breathable finish. Spend the difference on{" "}
+                <span className="font-semibold" style={strongStyle}>Buy the alternative</span> if it is mostly a studio layer. The CRZ YOGA Butterluxe Jacket ($48) shares the slim fit, thumbholes and zip pockets; the IUGA ($18.04) and 90 Degree ($39.99) add a sportier, more breathable finish. Spend the difference on{" "}
                 <Link href="/blog/best-lagree-grip-socks" style={inlineLinkStyle}>better grip socks</Link>, which matter far more during class.
               </p>
             </div>

@@ -9,7 +9,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Ring (2026): 5 Real Options Compared",
-  description: "Five real Pilates rings sold on Amazon, compared by price — Gaiam ($15.17), ProBody ($22.95), URBNFit ($12.29), LIONSCOOL ($15.33), JKSHMYT ($9.99).",
+  description: "Five real Pilates rings sold on Amazon, compared by price — Gaiam ($16.39), ProBody ($22.95), URBNFit ($13.99), LIONSCOOL ($35.99), JKSHMYT ($9.99).",
   keywords: ["best pilates ring", "pilates magic circle 2026", "pilates ring review", "pilates ring resistance", "pilates ring exercises", "gaiam pilates ring", "probody pilates circle", "urbnfit pilates circle"],
   openGraph: {
     title: "Best Pilates Ring / Magic Circle (2026): 5 Real Options Compared",
@@ -34,7 +34,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "URBNFit Pilates Circle (12-inch)",
-    price: "$12.29",
+    price: "$13.99",
     verdict: "Best budget pick",
     description:
       "A true fiberglass-core ring at the lowest price point in this roundup. The 12-inch diameter suits upper body and smaller-frame lower body work particularly well, and the sweat-resistant dual-sided foam pads hold up to repeated sessions without breaking down quickly. Under a pound and packs flat, so it's an easy add to a gym bag or a small home setup.",
@@ -44,7 +44,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Gaiam Pilates Ring Fitness Circle (15-inch)",
-    price: "$15.17",
+    price: "$16.39",
     verdict: "Best all-rounder",
     description:
       "Sold directly by Amazon.com, the Gaiam ring is the most widely stocked option in the category for a reason: padded, non-slip foam handles, a lightweight build, and a 15-inch diameter that gives a bit more room for inner-thigh, lateral hip, and full-arm sequences than the smaller options here. A sensible default if you just want one reliable ring.",
@@ -64,7 +64,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "LIONSCOOL Pilates Ring Set (14-inch + Mini Ball + Bands)",
-    price: "$15.33",
+    price: "$35.99",
     verdict: "Best bundle for starting a full mat-prop kit",
     description:
       "A bundle format rather than a ring alone: a 14-inch fiberglass Pilates ring, a 9-inch mini stability ball, and a set of resistance bands, all in one purchase. Useful if you're building a home mat-prop kit from scratch and want the ring plus a couple of complementary small props without ordering three separate items.",
@@ -124,9 +124,9 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "What is the best Pilates ring on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Pilates Ring Fitness Circle (15-inch, $15.17) is the most versatile all-rounder. The JKSHMYT Fitness Circle ($9.99) is the cheapest genuine ring, the URBNFit Pilates Circle ($12.29) is a step-up budget option, the LIONSCOOL Ring Set ($15.33) bundles a ring with a mini ball and bands, and the ProBody Pilates Circle ($22.95) is the instructor-grade premium pick with a real fiberglass core and roughly 30lb of squeezable resistance." } },
+      { "@type": "Question", "name": "What is the best Pilates ring on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Pilates Ring Fitness Circle (15-inch, $16.39) is the most versatile all-rounder. The JKSHMYT Fitness Circle ($9.99) is the cheapest genuine ring, the URBNFit Pilates Circle ($13.99) is a step-up budget option, the LIONSCOOL Ring Set ($35.99) bundles a ring with a mini ball and bands, and the ProBody Pilates Circle ($22.95) is the instructor-grade premium pick with a real fiberglass core and roughly 30lb of squeezable resistance." } },
       { "@type": "Question", "name": "What resistance level should I start with?", "acceptedAnswer": { "@type": "Answer", "text": "Medium resistance is appropriate for most beginners as a general rule. The common mistake is buying light resistance assuming it's 'for beginners' — light rings are often too easy for lower body work to provide a training stimulus, though genuinely useful for rehabilitation contexts and upper body exercises where arm strength is the limiting factor. Check the resistance level on the specific listing before buying." } },
-      { "@type": "Question", "name": "Which of these five should I actually buy?", "acceptedAnswer": { "@type": "Answer", "text": "For budget: the JKSHMYT ($9.99) or URBNFit ($12.29). For most people: the Gaiam ($15.17) as a reliable all-rounder, or the LIONSCOOL bundle ($15.33) if you also want a mini ball and bands. For premium: the ProBody ($22.95), the instructor-grade pick with the most controllable resistance curve." } },
+      { "@type": "Question", "name": "Which of these five should I actually buy?", "acceptedAnswer": { "@type": "Answer", "text": "For budget: the JKSHMYT ($9.99) or URBNFit ($13.99). For most people: the Gaiam ($16.39) as a reliable all-rounder, or the LIONSCOOL bundle ($35.99) if you also want a mini ball and bands. For premium: the ProBody ($22.95), the instructor-grade pick with the most controllable resistance curve." } },
       { "@type": "Question", "name": "Can I do a full Pilates workout with just a ring?", "acceptedAnswer": { "@type": "Answer", "text": "A ring and a mat can form a substantial workout for experienced practitioners — the ring adds resistance to a large portion of the classical mat sequence, and several exercises (inner thigh work, arm series, lateral work) are more effective with one than without." } },
       { "@type": "Question", "name": "How do I store a Pilates ring?", "acceptedAnswer": { "@type": "Answer", "text": "Store flat in a cool, dry location. Avoid leaving it in compressed positions (e.g., under books or equipment) for extended periods — prolonged compression can deform the spring or fiberglass core over time. Wipe pads down after use with a mild disinfectant." } }
     ]
@@ -244,9 +244,9 @@ export default function BestPilatesRingPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is the best Pilates ring on Amazon?", a: "The Gaiam Pilates Ring Fitness Circle (15-inch, $15.17) is the most versatile all-rounder. The JKSHMYT Fitness Circle ($9.99) is the cheapest genuine ring, the URBNFit Pilates Circle ($12.29) is a step-up budget option, the LIONSCOOL Ring Set ($15.33) bundles a ring with a mini ball and bands, and the ProBody Pilates Circle ($22.95) is the instructor-grade premium pick with a real fiberglass core and roughly 30lb of squeezable resistance." },
+                  { q: "What is the best Pilates ring on Amazon?", a: "The Gaiam Pilates Ring Fitness Circle (15-inch, $16.39) is the most versatile all-rounder. The JKSHMYT Fitness Circle ($9.99) is the cheapest genuine ring, the URBNFit Pilates Circle ($13.99) is a step-up budget option, the LIONSCOOL Ring Set ($35.99) bundles a ring with a mini ball and bands, and the ProBody Pilates Circle ($22.95) is the instructor-grade premium pick with a real fiberglass core and roughly 30lb of squeezable resistance." },
                   { q: "What resistance level should I start with?", a: "Medium resistance is appropriate for most beginners as a general rule. The common mistake is buying light resistance assuming it's 'for beginners' — light rings are often too easy for lower body work to provide a training stimulus, though genuinely useful for rehabilitation contexts and upper body exercises where arm strength is the limiting factor. Check the resistance level on the specific listing before buying." },
-                  { q: "Which of these five should I actually buy?", a: "For budget: the JKSHMYT ($9.99) or URBNFit ($12.29). For most people: the Gaiam ($15.17) as a reliable all-rounder, or the LIONSCOOL bundle ($15.33) if you also want a mini ball and bands. For premium: the ProBody ($22.95), the instructor-grade pick with the most controllable resistance curve." },
+                  { q: "Which of these five should I actually buy?", a: "For budget: the JKSHMYT ($9.99) or URBNFit ($13.99). For most people: the Gaiam ($16.39) as a reliable all-rounder, or the LIONSCOOL bundle ($35.99) if you also want a mini ball and bands. For premium: the ProBody ($22.95), the instructor-grade pick with the most controllable resistance curve." },
                   { q: "Can I do a full Pilates workout with just a ring?", a: "A ring and a mat can form a substantial workout for experienced practitioners — the ring adds resistance to a large portion of the classical mat sequence, and several exercises (inner thigh work, arm series, lateral work) are more effective with one than without." },
                   { q: "How do I store a Pilates ring?", a: "Store flat in a cool, dry location. Avoid leaving it in compressed positions (e.g., under books or equipment) for extended periods — prolonged compression can deform the spring or fiberglass core over time. Wipe pads down after use with a mild disinfectant." },
                 ].map((item) => (

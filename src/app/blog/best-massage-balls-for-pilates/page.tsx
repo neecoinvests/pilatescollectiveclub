@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "TriggerPoint MBX Extra Firm (2.6-inch)",
-    price: "$27.99",
+    price: "$26.00",
     verdict: "Best for aggressive, targeted deep-tissue work",
     description:
       "Sold by Amazon.com, the MBX has a foam surface rather than the cloth cover found on some trigger point balls, which makes it noticeably easier to clean between sessions. It's built extra firm, so it's better suited to aggressive deep-tissue work on small, dense areas like the calves and piriformis than to general full-body rolling.",
@@ -122,9 +122,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a real massage/trigger-point ball for Pilates sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The TriggerPoint GRID Ball ($24.99, 5-inch), the TriggerPoint MobiPoint ($13.99, 2-inch), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($27.99, 2.6-inch), and the Coniflor Deep Tissue Massage Ball ($8.97, 2.8-inch, textured) are all live, currently-sold Amazon listings." } },
+        { "@type": "Question", "name": "Is there a real massage/trigger-point ball for Pilates sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The TriggerPoint GRID Ball ($24.99, 5-inch), the TriggerPoint MobiPoint ($13.99, 2-inch), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($26.00, 2.6-inch), and the Coniflor Deep Tissue Massage Ball ($8.97, 2.8-inch, textured) are all live, currently-sold Amazon listings." } },
         { "@type": "Question", "name": "Which massage ball should I buy first?", "acceptedAnswer": { "@type": "Answer", "text": "The TriggerPoint GRID Ball is the best all-around starting point — it's sized for larger muscle groups like the shoulders, traps, and hips. Add the smaller MobiPoint later for the hands and feet, the budget Kieba or Coniflor ball if cost is the main factor, or the MBX Extra Firm once you want more aggressive, targeted pressure on small, dense areas." } },
-        { "@type": "Question", "name": "Which of these five should I actually buy?", "acceptedAnswer": { "@type": "Answer", "text": "For budget: the Kieba set ($7.99) or Coniflor ball ($8.97). For most people: the TriggerPoint GRID Ball ($24.99) as an all-around large-muscle option. For small, precise areas: the MobiPoint ($13.99). For advanced, aggressive deep-tissue work: the TriggerPoint MBX Extra Firm ($27.99)." } },
+        { "@type": "Question", "name": "Which of these five should I actually buy?", "acceptedAnswer": { "@type": "Answer", "text": "For budget: the Kieba set ($7.99) or Coniflor ball ($8.97). For most people: the TriggerPoint GRID Ball ($24.99) as an all-around large-muscle option. For small, precise areas: the MobiPoint ($13.99). For advanced, aggressive deep-tissue work: the TriggerPoint MBX Extra Firm ($26.00)." } },
         { "@type": "Question", "name": "Where do people generally use massage balls in a Pilates context?", "acceptedAnswer": { "@type": "Answer", "text": "Commonly cited areas include the plantar fascia, the thoracic erectors either side of the spine, the glutes and hip rotators, and the area under the shoulder blade. The MobiPoint suits the smaller, more precise areas like the feet; the GRID Ball and Kieba lacrosse balls suit the larger areas." } },
       ],
     },
@@ -151,7 +151,7 @@ export default function BestMassageBallsForPilatesPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A prior version of this article named brands (Rad, Pso-Rite, Chirp Wheel) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real massage ball options are in stock and ready to buy today: the TriggerPoint GRID Ball ($24.99), the TriggerPoint MobiPoint ($13.99), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($27.99), and the Coniflor Deep Tissue Massage Ball ($8.97).
+              A prior version of this article named brands (Rad, Pso-Rite, Chirp Wheel) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real massage ball options are in stock and ready to buy today: the TriggerPoint GRID Ball ($24.99), the TriggerPoint MobiPoint ($13.99), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($26.00), and the Coniflor Deep Tissue Massage Ball ($8.97).
             </p>
           </div>
         </section>
@@ -226,9 +226,9 @@ export default function BestMassageBallsForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a real massage/trigger-point ball for Pilates sold on Amazon?", a: "Yes. The TriggerPoint GRID Ball ($24.99, 5-inch), the TriggerPoint MobiPoint ($13.99, 2-inch), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($27.99, 2.6-inch), and the Coniflor Deep Tissue Massage Ball ($8.97, 2.8-inch, textured) are all live, currently-sold Amazon listings." },
+                  { q: "Is there a real massage/trigger-point ball for Pilates sold on Amazon?", a: "Yes. The TriggerPoint GRID Ball ($24.99, 5-inch), the TriggerPoint MobiPoint ($13.99, 2-inch), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($26.00, 2.6-inch), and the Coniflor Deep Tissue Massage Ball ($8.97, 2.8-inch, textured) are all live, currently-sold Amazon listings." },
                   { q: "Which massage ball should I buy first?", a: "The TriggerPoint GRID Ball is the best all-around starting point — it's sized for larger muscle groups like the shoulders, traps, and hips. Add the smaller MobiPoint later for the hands and feet, the budget Kieba or Coniflor ball if cost is the main factor, or the MBX Extra Firm once you want more aggressive, targeted pressure on small, dense areas." },
-                  { q: "Which of these five should I actually buy?", a: "For budget: the Kieba set ($7.99) or Coniflor ball ($8.97). For most people: the TriggerPoint GRID Ball ($24.99) as an all-around large-muscle option. For small, precise areas: the MobiPoint ($13.99). For advanced, aggressive deep-tissue work: the TriggerPoint MBX Extra Firm ($27.99)." },
+                  { q: "Which of these five should I actually buy?", a: "For budget: the Kieba set ($7.99) or Coniflor ball ($8.97). For most people: the TriggerPoint GRID Ball ($24.99) as an all-around large-muscle option. For small, precise areas: the MobiPoint ($13.99). For advanced, aggressive deep-tissue work: the TriggerPoint MBX Extra Firm ($26.00)." },
                   { q: "Where do people generally use massage balls in a Pilates context?", a: "Commonly cited areas include the plantar fascia, the thoracic erectors either side of the spine, the glutes and hip rotators, and the area under the shoulder blade. The MobiPoint suits the smaller, more precise areas like the feet; the GRID Ball and Kieba lacrosse balls suit the larger areas." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

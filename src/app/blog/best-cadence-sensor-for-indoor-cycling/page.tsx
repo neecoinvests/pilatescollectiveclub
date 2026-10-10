@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "GEOID CS600 Cadence/Speed Sensor",
-    price: "$14.99",
+    price: "$14.24",
     verdict: "Best budget pick",
     description:
       "The GEOID CS600 is the least expensive option here, offering both ANT+ and Bluetooth connectivity, which covers the vast majority of training apps and head units. It's a straightforward choice for riders who want to add cadence tracking to a non-connected spin bike without spending much to find out whether they'll use the data regularly. There's nothing exotic about it — it does the core job of reporting cadence and speed at the lowest price in this lineup.",

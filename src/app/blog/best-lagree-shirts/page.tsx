@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Lagree Shirts & Hoodies (2026)",
-    description: "Fitted tees for class and Lagree fan tees and hoodies, from $18.75.",
+    description: "Fitted tees for class and Lagree fan tees and hoodies, from $19.97.",
     images: [HERO_IMAGE],
   },
   keywords: [
@@ -87,7 +87,7 @@ const CLASS_TEES: Pick[] = [
     badge: "Best Budget Tee",
     shortName: "UA Tech Twist",
     name: "Under Armour Women's Tech Twist Short-Sleeve Crew",
-    price: "$18.75",
+    price: "$19.97",
     url: amz("B0C12FMNZN"),
     verdict: "Quick-dry and soft, sold by Amazon",
     description:
