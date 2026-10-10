@@ -13,6 +13,19 @@ const NAV = [
 
 const SHOP_CATEGORIES = [
   {
+    label: "Black Friday",
+    links: [
+      { label: "Black Friday Deals Hub", href: "/blog/black-friday-pilates-deals" },
+      { label: "Reformer Deals", href: "/blog/black-friday-pilates-reformer-deals" },
+      { label: "Pilates Clothing Deals", href: "/blog/black-friday-pilates-clothing-deals" },
+      { label: "Pilates Gifts Under $50", href: "/blog/black-friday-pilates-gifts-under-50" },
+      { label: "Equipment Price Guide", href: "/blog/pilates-equipment-black-friday-guide" },
+      { label: "Lagree Deals", href: "/blog/black-friday-lagree-deals" },
+      { label: "Lagree Clothing & Gear", href: "/blog/black-friday-lagree-clothing-gear" },
+      { label: "Spin & Cycling Deals", href: "/blog/black-friday-spin-deals" },
+    ],
+  },
+  {
     label: "Reformers",
     links: [
       { label: "Best Home Reformers", href: "/blog/best-home-pilates-reformer" },

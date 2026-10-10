@@ -7,9 +7,10 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
+import { BF_GUIDES } from "@/lib/blackFriday";
 
 export const metadata: Metadata = {
-  title: "Pilates Equipment Black Friday Guide (2026): What Discounts",
+  title: "Pilates Equipment Black Friday Guide (2026): What Really Gets Discounted",
   description: "Which Pilates equipment actually moves on price in November, which never does, and the list prices to measure any Black Friday claim against.",
   keywords: ["pilates black friday", "pilates equipment black friday", "pilates reformer black friday", "black friday pilates deals 2026", "cyber monday pilates", "pilates reformer sale", "when to buy a pilates reformer", "pilates equipment discount"],
   openGraph: {
@@ -94,7 +95,7 @@ const APPARATUS_BASELINE = [
 
 const REFORMERS = [
   { name: "WINDFOOT Foldable Reformer w/ Jump Board", description: "The cheapest real spring reformer we could verify as a live Amazon listing at any tier — genuine dual-spring resistance, pre-assembled roughly 90%, and it folds flat for storage. WINDFOOT is a generic/dropship brand with no track record, no certification recognition among instructors, and unclear warranty support, so weigh that against the price before buying.", price: "From $295.99", affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20" },
-  { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", description: "Genuine piano-wire spring resistance, a 500 lb weight capacity, and folds for storage — a real spring reformer under $500. Like the other budget entries here, PAETA is a generic brand without an established reputation among instructors, so treat the low price as buying real springs plus brand-risk, not as a discount on an established machine.", price: "From $439.99", affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20" },
+  { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", description: "Genuine piano-wire spring resistance, a 500 lb weight capacity, and folds for storage — a real spring reformer under $500. Like the other budget entries here, PAETA is a generic brand without an established reputation among instructors, so treat the low price as buying real springs plus brand-risk, not as a discount on an established machine.", price: "From $419.99", affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20" },
   { name: "Balanced Body Metro IQ Reformer", description: "The cheapest genuine spring reformer from a major brand, and the machine that marks the real floor of the category. Short stored length makes it the one that fits where a full studio frame does not.", price: "From $2,330", affiliateUrl: "https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20" },
   { name: "AeroPilates Pro XP 557 Reformer", description: "The one machine from a recognised brand that genuinely costs under $2,000. It uses elastic cord rather than coil springs, which is a real difference in how resistance builds, but for building a habit it is a workable trade.", price: "From $1,329.99", affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
   { name: "PersonalHour Janet La Force Plus Reformer", description: "An aluminium-frame studio machine with a real, live Amazon listing — worth a look if the C8-PRO is out of stock at your price point.", price: "From $2,555", affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20" },
@@ -115,7 +116,7 @@ const PRODUCTS = [
   { name: "Balanced Body Padded Jumpboard", description: "If you already own a reformer, this is the highest-value addition available to it and a sensible thing to put on a November shortlist. Confirm the fit for your exact model before ordering: jumpboards mount to the footbar or frame and mountings are not universal across brands.", price: "From $280", affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20" },
   { name: "Balanced Body Replacement Reformer Ropes with Clips", description: "An unglamorous thing to buy in a sale and one of the more useful. Ropes stretch and lose tension long before they visibly fail, and a set that has quietly drifted changes every resistance setting you use. Stocking a spare set at a lower price is genuinely worth doing. Check compatibility with your model before ordering.", price: "From $35", affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
   { name: "TriggerPoint GRID 2.0 Foam Roller", description: "Recovery gear discounts reliably because it is a crowded marketplace category with little brand loyalty. A dense roller covers most of what a recovery routine needs and never wears out. This listing is the roller only — massage balls are sold separately if you want both.", price: "From $75", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
-  { name: "Muezna Pilates Grip Socks, 6-Pair", description: "Required by most studios, easily forgotten, and a category where a multipack in a sale is straightforwardly better value than buying pairs through the year. Sizing runs small on many brands, so read the chart rather than ordering your shoe size.", price: "From $7.99", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
+  { name: "Muezna Pilates Grip Socks, 6-Pair", description: "Required by most studios, easily forgotten, and a category where a multipack in a sale is straightforwardly better value than buying pairs through the year. Sizing runs small on many brands, so read the chart rather than ordering your shoe size.", price: "From $7.59", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
 ];
 
 function BaselineTable({ rows }: { rows: { item: string; tier: string; price: string }[] }) {
@@ -179,6 +180,14 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+            <div className="mb-12 mt-4 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Black Friday 2026 deal guides</p>
+              <div className="flex flex-wrap gap-2">
+                {BF_GUIDES.filter((g) => g.href !== "/blog/pilates-equipment-black-friday-guide").map((g) => (
+                  <Link key={g.href} href={g.href} className="text-xs font-semibold px-3 py-2 rounded-full" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.6)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>{g.title} →</Link>
+                ))}
+              </div>
+            </div>
 
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Live deal status</p>
