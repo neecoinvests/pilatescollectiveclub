@@ -113,7 +113,7 @@ const BRANDS = [
     pros: ["Global studio standard — matches most in-person class machines", "Deepest accessory ecosystem of any brand", "Commercial-grade durability at every price tier", "Sold direct on Amazon at every price tier"],
     cons: ["Premium pricing — Studio Reformer is $4,700 before accessories", "Spring feel is smoother than Gratz — not historically authentic", "Heavy machines require two people for setup"],
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
-    affiliateLabel: "Shop Balanced Body on Amazon →",
+    affiliateLabel: "Shop Now →",
     directUrl: null as string | null,
     altUrl: null as string | null,
     altLabel: null as string | null,
@@ -149,7 +149,7 @@ const BRANDS = [
     pros: ["Machine and curriculum designed together — exercises transfer directly", "Best rehabilitation positioning options of any brand", "At Home SPX package ($3,349) is sold and shipped by Amazon; studio SPX Max is $3,499", "Strong global dealer and certified service network"],
     cons: ["Spring feel is brand-specific — noticeable transition if switching from Balanced Body", "Tower accessories are not cross-compatible with other brands", "Less suited to classical method practitioners"],
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
-    affiliateLabel: "Shop Merrithew on Amazon →",
+    affiliateLabel: "Shop Now →",
     directUrl: null as string | null,
     altUrl: null as string | null,
     altLabel: null as string | null,
@@ -170,7 +170,7 @@ const BRANDS = [
     affiliateLabel: null,
     directUrl: "https://www.peakpilates.com" as string | null,
     altUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" as string | null,
-    altLabel: "Amazon alternative: Merrithew At Home SPX ($3,349) →" as string | null,
+    altLabel: "Shop the alternative: Merrithew At Home SPX →" as string | null,
   },
   {
     rank: 5,
@@ -188,7 +188,7 @@ const BRANDS = [
     affiliateLabel: null,
     directUrl: "https://basisystems.com/product-category/reformers/" as string | null,
     altUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" as string | null,
-    altLabel: "Amazon alternative: Align-Pilates C8-Pro ($2,750) →" as string | null,
+    altLabel: "Shop the alternative: Align-Pilates C8-Pro →" as string | null,
   },
   {
     rank: 6,
@@ -206,7 +206,7 @@ const BRANDS = [
     affiliateLabel: null,
     directUrl: "https://www.elinapilates.com" as string | null,
     altUrl: "https://www.amazon.com/dp/B0D2ZT4Z5H?tag=pilatescollective-20" as string | null,
-    altLabel: "Amazon alternative: DELAVIN Solid Wood Reformer ($1,249.99) →" as string | null,
+    altLabel: "Shop the alternative: DELAVIN Solid Wood Reformer →" as string | null,
   },
   {
     rank: 7,
@@ -221,7 +221,7 @@ const BRANDS = [
     pros: ["Best quality-to-price ratio in the professional tier", "Genuine steel springs — not the elastic cords found in budget machines", "C8-Pro stacks for storage and takes optional leg extensions", "Growing accessory range with increasing cross-compatibility"],
     cons: ["Not suitable for intensive commercial use with 15+ clients daily", "Lower resale value than Balanced Body or Merrithew", "Tower accessories less extensive than top-tier brands"],
     affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20",
-    affiliateLabel: "Shop Align-Pilates on Amazon →",
+    affiliateLabel: "Shop Now →",
     directUrl: null as string | null,
     altUrl: null as string | null,
     altLabel: null as string | null,
@@ -239,7 +239,7 @@ const BRANDS = [
     pros: ["Most accessible price point — full machines from under $600", "Cardio rebounder available on many models for jumpboard-style cardio", "Widely available from major retailers", "Genuinely foldable and lightweight for apartment living"],
     cons: ["Elastic cord spring system — noticeably different from calibrated steel springs", "Not suitable for advancing beyond intermediate practice", "Carriage precision is lower than professional-grade machines", "Limited accessory compatibility"],
     affiliateUrl: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20",
-    affiliateLabel: "Shop AeroPilates on Amazon →",
+    affiliateLabel: "Shop Now →",
     directUrl: null as string | null,
     altUrl: null as string | null,
     altLabel: null as string | null,
@@ -260,7 +260,7 @@ const BRANDS = [
     affiliateLabel: null,
     directUrl: "https://yourreformer.com" as string | null,
     altUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20" as string | null,
-    altLabel: "Amazon alternative: WINDFOOT Foldable Reformer ($295.99) →" as string | null,
+    altLabel: "Shop the alternative: WINDFOOT Foldable Reformer →" as string | null,
   },
   {
     rank: 10,
@@ -275,7 +275,7 @@ const BRANDS = [
     pros: ["Solid walnut frame on the La Force Plus", "Solid hardwood construction with genuine calibrated springs", "Folds upright on wheels; tower-ready frame", "Competitively priced against equivalent Elina Pilates models"],
     cons: ["Less well-known brand — fewer community resources and independent reviews", "App and online class integration less developed than Your Reformer", "International shipping costs can be significant"],
     affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20",
-    affiliateLabel: "Shop PersonalHour on Amazon →",
+    affiliateLabel: "Shop Now →",
     directUrl: null as string | null,
     altUrl: null as string | null,
     altLabel: null as string | null,
@@ -377,7 +377,7 @@ export default function BestReformerBrandsPage() {
                       </div>
                       <div className="text-right shrink-0">
                         <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.price}</p>
-                        <p className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Amazon →</p>
+                        <p className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Shop Now →</p>
                       </div>
                     </div>
                   </a>
@@ -462,7 +462,7 @@ export default function BestReformerBrandsPage() {
                           <>
                             {brand.directUrl && (
                               <a href={brand.directUrl} target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ border: "1px solid #8b4a31", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-                                Visit {brand.name} — not sold on Amazon →
+                                Shop Now →
                               </a>
                             )}
                             {brand.altUrl && (

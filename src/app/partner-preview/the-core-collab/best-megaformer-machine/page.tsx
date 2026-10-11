@@ -8,9 +8,11 @@ import PartnerBrandEntry from "@/components/PartnerBrandEntry";
 import { Fragment } from "react";
 
 export const metadata: Metadata = {
-  title: "Preview — Best Megaformer Machine (2026)",
-  description: "Private partner preview — not published.",
+  title: "Preview: Best Megaformer Machine (2026)",
+  description: "Private partner preview, not published.",
   robots: { index: false, follow: false, nocache: true, googleBot: { index: false, follow: false } },
+  openGraph: { title: "Preview: Best Megaformer Machine (2026)", description: "Private partner preview, not published." },
+  twitter: { title: "Preview: Best Megaformer Machine (2026)", description: "Private partner preview, not published." },
 };
 
 const PRODUCTS = [
@@ -18,9 +20,9 @@ const PRODUCTS = [
     rank: "01",
     name: "Lagree Fitness M3S Megaformer",
     price: "From $8,995",
-    verdict: "Best professional Megaformer — the studio standard",
+    verdict: "Best professional Megaformer, the studio standard",
     description:
-      "The Lagree Fitness M3S is the current commercial flagship from Sebastien Lagree's brand and the machine used across licensed Lagree Method studios. Worth knowing up front: the Megaformer itself is not sold on Amazon (only The Micro and its accessories are, below) — this link goes to Lagree Fitness, and we could not independently verify detailed engineering specifics (exact footprint, spring calibration changes generation to generation, carriage-runner materials) beyond what Lagree Fitness publishes itself. What we can say plainly: it is a real, current commercial machine used in professional studios, sold direct through Lagree Fitness or an authorized dealer, and it requires dedicated studio floor space. For practitioners opening a Lagree-licensed studio or investing in the highest-quality home machine, contact Lagree Fitness directly for current commercial and home pricing and exact specifications rather than relying on figures quoted secondhand.",
+      "The Lagree Fitness M3S is the current commercial flagship from Sebastien Lagree's brand and the machine used across licensed Lagree Method studios. Worth knowing up front: the Megaformer itself is not sold on Amazon (only The Micro and its accessories are, below), this link goes to Lagree Fitness, and we could not independently verify detailed engineering specifics (exact footprint, spring calibration changes generation to generation, carriage-runner materials) beyond what Lagree Fitness publishes itself. What we can say plainly: it is a real, current commercial machine used in professional studios, sold direct through Lagree Fitness or an authorized dealer, and it requires dedicated studio floor space. For practitioners opening a Lagree-licensed studio or investing in the highest-quality home machine, contact Lagree Fitness directly for current commercial and home pricing and exact specifications rather than relying on figures quoted secondhand.",
     affiliateUrl: "https://www.lagreefitness.com/megaformer",
     tag: "Studio Standard",
   },
@@ -30,7 +32,7 @@ const PRODUCTS = [
     price: "$990.00",
     verdict: "Best home-format Megaformer",
     description:
-      "The Micro is Lagree Fitness&apos;s compact home machine, designed to deliver the Megaformer-style workout — low-impact, high-intensity strength and cardio — in a smaller, lightweight, portable machine. It accommodates users up to 6&apos;8&quot; and stores under a bed, against a wall, or on a bike rack, which is what makes it realistic for a spare bedroom or apartment rather than a studio floor. It is sold on Amazon by Lagree Fitness itself, through the brand&apos;s own Amazon store, at $990.00 — this is Lagree&apos;s own machine, not a third-party copy. Stock on the listing can be limited; if it shows as unavailable, buy direct from <a href=\"https://www.lagreefitness.com/\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">lagreefitness.com</a>. Accessories are sold separately in the same store: the <a href=\"https://www.amazon.com/dp/B0BKN2LSWD?tag=pilatescollective-20\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow sponsored\">Micro Rear Platform</a> ($290.00) adds a sturdy rear surface for feet, hands and knees and unlocks moves like the express lunge, super crunch and giant wheelbarrow, and the <a href=\"https://www.amazon.com/dp/B0BKMP89SH?tag=pilatescollective-20\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow sponsored\">Micro Handlebars</a> ($190.00, sold as a pair) add stability at the front or back — using them at the back requires the rear platform, and you need two pairs to have handlebars at both ends.",
+      "The Micro is Lagree Fitness&apos;s compact home machine, designed to deliver the Megaformer-style workout (low-impact, high-intensity strength and cardio) in a smaller, lightweight, portable machine. It accommodates users up to 6&apos;8&quot; and stores under a bed, against a wall, or on a bike rack, which is what makes it realistic for a spare bedroom or apartment rather than a studio floor. It is sold on Amazon by Lagree Fitness itself, through the brand&apos;s own Amazon store, at $990.00, this is Lagree&apos;s own machine, not a third-party copy. Stock on the listing can be limited; if it shows as unavailable, buy direct from <a href=\"https://www.lagreefitness.com/\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">lagreefitness.com</a>. Accessories are sold separately in the same store: the <a href=\"https://www.amazon.com/dp/B0BKN2LSWD?tag=pilatescollective-20\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow sponsored\">Micro Rear Platform</a> ($290.00) adds a sturdy rear surface for feet, hands and knees and unlocks moves like the express lunge, super crunch and giant wheelbarrow, and the <a href=\"https://www.amazon.com/dp/B0BKMP89SH?tag=pilatescollective-20\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow sponsored\">Micro Handlebars</a> ($190.00, sold as a pair) add stability at the front or back, using them at the back requires the rear platform, and you need two pairs to have handlebars at both ends.",
     affiliateUrl: "https://www.amazon.com/dp/B0BBT7YV93?tag=pilatescollective-20",
     tag: "Sold by Lagree Fitness on Amazon",
   },
@@ -40,7 +42,7 @@ const PRODUCTS = [
     price: "From $13,495",
     verdict: "Best next-generation commercial machine",
     description:
-      "The M3X is described by Lagree Fitness as the newest Megaformer generation, positioned above the M3S. We could not independently verify specific engineering claims (which generation number it is, exact spring calibration or carriage-travel differences from the M3S) beyond what the manufacturer states, so treat any such detail as the brand's own claim rather than our independent finding. This is a premium studio investment, not a budget alternative, and current units are typically sold on a pre-order basis through authorized dealers. Not sold on Amazon — purchased direct through Lagree Fitness or an authorized dealer, who can confirm current price and specifications.",
+      "The M3X is described by Lagree Fitness as the newest Megaformer generation, positioned above the M3S. We could not independently verify specific engineering claims (which generation number it is, exact spring calibration or carriage-travel differences from the M3S) beyond what the manufacturer states, so treat any such detail as the brand's own claim rather than our independent finding. This is a premium studio investment, not a budget alternative, and current units are typically sold on a pre-order basis through authorized dealers. Not sold on Amazon; it is purchased direct through Lagree Fitness or an authorized dealer, who can confirm current price and specifications.",
     affiliateUrl: "https://www.lagreefitness.com/megaformer",
     tag: "Latest Generation",
   },
@@ -50,7 +52,7 @@ const PRODUCTS = [
     price: "$4,700",
     verdict: "Best established Pilates reformer for hybrid training",
     description:
-      "The Balanced Body Studio Reformer — the real Balanced Body flagship sold on Amazon, not the discontinued &quot;Allegro 2&quot; listing some guides still reference — earns its place on this list for practitioners who want a professional-grade machine that also supports comprehensive classical Pilates programming. It is fully compatible with Balanced Body&apos;s extensive accessory ecosystem — jumpboard, tower, platform extender — which allows extension of the basic reformer into a more complete training environment. It cannot replicate the Megaformer experience — the platform geometry differs, and the spring calibration is optimised for classical Pilates rather than Lagree eccentric loading, and it is a permanent-installation machine that does not fold. For practitioners who want one machine that delivers professional-grade classical Pilates at this price point, it remains the most established option. See our <a href=\"/blog/balanced-body-allegro-2-review\" style=\"color:#8b4a31\">full Studio Reformer review</a> for a detailed assessment.",
+      "The Balanced Body Studio Reformer, the real Balanced Body flagship sold on Amazon, not the discontinued &quot;Allegro 2&quot; listing some guides still reference, earns its place on this list for practitioners who want a professional-grade machine that also supports comprehensive classical Pilates programming. It is fully compatible with Balanced Body&apos;s extensive accessory ecosystem (jumpboard, tower, platform extender), which allows extension of the basic reformer into a more complete training environment. It cannot replicate the Megaformer experience, the platform geometry differs, and the spring calibration is optimised for classical Pilates rather than Lagree eccentric loading, and it is a permanent-installation machine that does not fold. For practitioners who want one machine that delivers professional-grade classical Pilates at this price point, it remains the most established option. See our <a href=\"/blog/balanced-body-allegro-2-review\" style=\"color:#8b4a31\">full Studio Reformer review</a> for a detailed assessment.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
     tag: "Best Established Reformer",
   },
@@ -60,23 +62,27 @@ const PRODUCTS = [
 const PARTNER_ENTRY = (
   <PartnerBrandEntry
     variant="machine"
-    brandName="The Core Collab"
+    brandName="The Core Collab Sculptformer"
+    sponsorName="The Core Collab"
     imageSrc="/pictures/stitch-reformer-spring-detail.png"
-    imageAlt="Machine image placeholder for The Core Collab"
-    intro="The Core Collab is featured here as a partner brand for readers comparing Megaformer-style and Lagree-format machines."
-    placeholderCopy="Machine description (2–3 sentences, supplied by The Core Collab): the machine you would like to feature, how it is used, and whether it suits home or studio training. Final copy is reviewed by our editors before publishing."
+    imageAlt="Carriage and springs, image placeholder for The Core Collab Sculptformer"
+    details={[
+      { label: "Machine", value: "Sculptformer" },
+      { label: "Best for", value: "Studios and committed trainers who want a Lagree-style machine" },
+      { label: "Sold", value: "Direct from The Core Collab, with financing listed on its US store" },
+      { label: "Price", value: "Listed from about $8,000 on The Core Collab's US store, to be confirmed", toConfirm: true },
+    ]}
+    description="The Sculptformer is The Core Collab's Lagree-style machine, which the company positions as an alternative to the Megaformer for studios and serious home trainers. It is sold direct by The Core Collab through its US store rather than through a Lagree dealer."
     pointsHeading="Key product features"
     points={[
-      "Feature 1 — e.g. carriage, springs or platforms",
-      "Feature 2 — e.g. footprint, storage or set-up",
-      "Feature 3 — e.g. home or studio use, warranty",
-    ]}
-    details={[
-      { label: "Machine", value: "Model name to be confirmed" },
-      { label: "Best for", value: "Audience to be confirmed" },
-      { label: "Price", value: "To be confirmed by The Core Collab" },
+      "Eight-spring system (2 × 5 lb, 2 × 11 lb, 2 × 26 lb, 2 × 88 lb), according to the brand",
+      "10-year frame warranty and 2-year warranty on moving parts, according to the brand",
+      "Sold direct from the manufacturer, with financing available on its US store",
+      "Designed for the slow, time-under-tension training style covered in this guide",
     ]}
     ctaLabel="Visit The Core Collab →"
+    ctaHref="https://thecorecollabusa.com/products/sculptformer"
+    sourceNote="Product details are taken from The Core Collab's published product pages."
   />
 );
 
@@ -99,7 +105,7 @@ export default function BestMegaformerMachinePage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Megaformer is not a Pilates reformer — it is the proprietary equipment of the Lagree Method, designed for slow-tempo eccentric loading, continuous time under tension, and multi-muscle compound positions that classical Pilates apparatus work does not program. If you have taken a Lagree class at a boutique studio and want to replicate that training at home, or you are opening a studio and need to understand the commercial equipment landscape, this guide covers the genuine Lagree Fitness machines — including The Micro, which Lagree Fitness sells through its own Amazon store — and the one professional Pilates reformer we could verify as a real, live Amazon listing for hybrid-style training.
+              The Megaformer is not a Pilates reformer; it is the proprietary equipment of the Lagree Method, designed for slow-tempo eccentric loading, continuous time under tension, and multi-muscle compound positions that classical Pilates apparatus work does not program. If you have taken a Lagree class at a boutique studio and want to replicate that training at home, or you are opening a studio and need to understand the commercial equipment landscape, this guide covers the genuine Lagree Fitness machines, including The Micro, which Lagree Fitness sells through its own Amazon store, and the one professional Pilates reformer we could verify as a real, live Amazon listing for hybrid-style training.
             </p>
           </div>
         </section>
@@ -107,13 +113,16 @@ export default function BestMegaformerMachinePage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Best Megaformer machine 2026 — Lagree equipment guide" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Best Megaformer machine 2026: Lagree equipment guide" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            {/* Partner placement */}
+            <div className="mb-12 mt-4">{PARTNER_ENTRY}</div>
 
             <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Price note</p>
@@ -122,10 +131,20 @@ export default function BestMegaformerMachinePage() {
 
             <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks: At a Glance</p>
               </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+              <div className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ backgroundColor: "#f6f8f5" }}>
+                <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#536257", fontFamily: "'Playfair Display', serif" }}>✦</span>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>The Core Collab Sculptformer <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
+                  <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Lagree-style machine, positioned as a Megaformer alternative</p>
+                </div>
+                <a href="https://thecorecollabusa.com/products/sculptformer" target="_blank" rel="noopener noreferrer sponsored"
+                  style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#536257", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                >Shop Now →</a>
+              </div>
+              {PRODUCTS.map((p) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
                   <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
@@ -134,27 +153,16 @@ export default function BestMegaformerMachinePage() {
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
                   <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Search →</a>
+                  >Shop Now →</a>
                 </div>
               ))}
-              <div className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#f6f8f5" }}>
-                <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#536257", fontFamily: "'Playfair Display', serif" }}>✦</span>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>The Core Collab <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
-                  <p className="text-xs mt-0.5" style={{ color: "#9a857d", fontFamily: "'Montserrat', sans-serif", fontStyle: "italic" }}>[One-line positioning to be supplied]</p>
-                </div>
-                <a href="#"
-                  style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#536257", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                >Visit →</a>
-              </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Machines + 1 Partner · Lagree & Pilates</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Machines · Lagree & Pilates</p>
               <div className="space-y-10">
-                {PRODUCTS.map((p, idx) => (
+                {PRODUCTS.map((p) => (
                   <Fragment key={p.name}>
-                  {idx === 2 && PARTNER_ENTRY}
                   <div>
                     <div className="flex items-center gap-3 mb-4">
                       <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
@@ -169,7 +177,7 @@ export default function BestMegaformerMachinePage() {
                           </div>
                           <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                          >Search →</a>
+                          >Shop Now →</a>
                         </div>
                         <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }} dangerouslySetInnerHTML={{ __html: p.description }} />
                       </div>
@@ -217,9 +225,9 @@ export default function BestMegaformerMachinePage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is a Megaformer?", a: "A Megaformer is the specialized equipment used in Lagree Method fitness classes, developed by Sebastien Lagree in Los Angeles in the early 2000s. It resembles a Pilates reformer in its basic structure — a moving carriage on a track with adjustable spring resistance — but has key differences: front and rear platforms of the same height, a spring configuration optimised for slow eccentric loading, and a layout that accommodates the specific multi-limb positions of the Lagree exercise library. The Megaformer is designed specifically for the slow-tempo, high-time-under-tension training style that defines the Lagree Method." },
-                  { q: "Megaformer vs Pilates reformer — what is the difference?", a: "The Megaformer and Pilates reformer share a moving carriage and spring resistance but differ in design intent. The Pilates reformer is designed for classical Pilates programming across the full apparatus repertoire. The Megaformer is designed specifically for Lagree Method training — slow-tempo, high-time-under-tension, continuous multi-muscle loading without rest. The Megaformer's front and rear platforms are level and larger, supporting the plank, pike, lunge, and bear positions central to Lagree programming. You cannot fully practice the Lagree Method on a standard Pilates reformer." },
-                  { q: "How much does a Megaformer cost?", a: "Lagree Fitness lists the M3S from approximately $8,995 and the newer M3X from approximately $13,495 for commercial units, with current pricing available directly from Lagree Fitness. The Micro, Lagree's compact home machine, is $990.00 on Amazon, sold by Lagree Fitness through its own Amazon store (stock can be limited — if it is unavailable, buy direct from lagreefitness.com); the rear platform ($290.00) and handlebars ($190.00 a pair) are extra. We could not verify a genuine, specifically identifiable low-cost Megaformer-style alternative to recommend, so be cautious of very low-priced listings claiming to replicate Lagree equipment." },
+                  { q: "What is a Megaformer?", a: "A Megaformer is the specialized equipment used in Lagree Method fitness classes, developed by Sebastien Lagree in Los Angeles in the early 2000s. It resembles a Pilates reformer in its basic structure: a moving carriage on a track with adjustable spring resistance, but has key differences: front and rear platforms of the same height, a spring configuration optimised for slow eccentric loading, and a layout that accommodates the specific multi-limb positions of the Lagree exercise library. The Megaformer is designed specifically for the slow-tempo, high-time-under-tension training style that defines the Lagree Method." },
+                  { q: "Megaformer vs Pilates reformer: what is the difference?", a: "The Megaformer and Pilates reformer share a moving carriage and spring resistance but differ in design intent. The Pilates reformer is designed for classical Pilates programming across the full apparatus repertoire. The Megaformer is designed specifically for Lagree Method training: slow-tempo, high-time-under-tension, continuous multi-muscle loading without rest. The Megaformer's front and rear platforms are level and larger, supporting the plank, pike, lunge, and bear positions central to Lagree programming. You cannot fully practice the Lagree Method on a standard Pilates reformer." },
+                  { q: "How much does a Megaformer cost?", a: "Lagree Fitness lists the M3S from approximately $8,995 and the newer M3X from approximately $13,495 for commercial units, with current pricing available directly from Lagree Fitness. The Micro, Lagree's compact home machine, is $990.00 on Amazon, sold by Lagree Fitness through its own Amazon store (stock can be limited; if it is unavailable, buy direct from lagreefitness.com); the rear platform ($290.00) and handlebars ($190.00 a pair) are extra. We could not verify a genuine, specifically identifiable low-cost Megaformer-style alternative to recommend, so be cautious of very low-priced listings claiming to replicate Lagree equipment." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -232,8 +240,8 @@ export default function BestMegaformerMachinePage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Lagree vs Pilates: What's the Difference?" excerpt="A complete breakdown of method, equipment, tempo, and goals — what separates Lagree from classical Pilates." href="/blog/lagree-vs-pilates" category="Method Guide" readTime="10 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The complete guide to buying a reformer for home use — spring vs cord, footprint, and budget across every price point." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="12 min read" date="April 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Lagree vs Pilates: What's the Difference?" excerpt="A complete breakdown of method, equipment, tempo, and goals: what separates Lagree from classical Pilates." href="/blog/lagree-vs-pilates" category="Method Guide" readTime="10 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The complete guide to buying a reformer for home use: spring vs cord, footprint, and budget across every price point." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="12 min read" date="April 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
               </div>
             </div>
           </div>

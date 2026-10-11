@@ -2,19 +2,22 @@ import Image from "next/image";
 
 // A paid "partner" entry rendered inside an existing buying guide. Styled to
 // match the guide's own cards; used only by the hidden partner-preview mockups.
-// Anything the brand has not supplied yet is shown as a marked placeholder.
+// Brand facts come from the partner's own published pages and are attributed
+// as such; assets not supplied yet are shown as marked placeholders.
 
 export type PartnerBrandEntryProps = {
   variant: "brand" | "machine";
   brandName: string;
   imageSrc: string;
   imageAlt: string;
-  intro: string;
-  placeholderCopy: string;
+  description: string;
   points: string[];
   pointsHeading: string;
-  details: { label: string; value: string }[];
+  details: { label: string; value: string; toConfirm?: boolean }[];
   ctaLabel: string;
+  ctaHref: string;
+  sourceNote: string;
+  sponsorName?: string;
 };
 
 const sans = "'Montserrat', sans-serif";
@@ -60,18 +63,16 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
 
         <div className="p-8">
           {/* Header row */}
-          <div className="flex items-start justify-between gap-4 mb-5">
-            <div className="flex items-center gap-4">
-              <div
-                className="shrink-0 rounded-xl flex items-center justify-center text-center"
-                style={{ width: 64, height: 64, border: "1.5px dashed #c5a882", backgroundColor: "#fcf9f8", color: "#9a857d", fontFamily: sans, fontSize: "9px", fontWeight: 600, letterSpacing: "0.12em", lineHeight: 1.3 }}
-              >
-                LOGO<br />PLACE-<br />HOLDER
-              </div>
-              <div>
-                {isBrand && <div className="mb-2"><PartnerChip /></div>}
-                <h3 className="text-2xl font-semibold" style={{ color: "#1b1c1c", fontFamily: serif }}>{props.brandName}</h3>
-              </div>
+          <div className="flex items-center gap-4 mb-5">
+            <div
+              className="shrink-0 rounded-xl flex items-center justify-center text-center"
+              style={{ width: 64, height: 64, border: "1.5px dashed #c5a882", backgroundColor: "#fcf9f8", color: "#9a857d", fontFamily: sans, fontSize: "9px", fontWeight: 600, letterSpacing: "0.12em", lineHeight: 1.3 }}
+            >
+              LOGO<br />PLACE-<br />HOLDER
+            </div>
+            <div>
+              {isBrand && <div className="mb-2"><PartnerChip /></div>}
+              <h3 className="text-2xl font-semibold" style={{ color: "#1b1c1c", fontFamily: serif }}>{props.brandName}</h3>
             </div>
           </div>
 
@@ -79,13 +80,13 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
           <div className="mb-4 space-y-1">
             {props.details.map((d) => (
               <p key={d.label} className="text-xs" style={{ color: "#86736d", fontFamily: sans }}>
-                <span className="font-semibold" style={{ color: "#8b4a31" }}>{d.label}:</span> <Placeholder>{d.value}</Placeholder>
+                <span className="font-semibold" style={{ color: "#8b4a31" }}>{d.label}:</span>{" "}
+                {d.toConfirm ? <Placeholder>{d.value}</Placeholder> : d.value}
               </p>
             ))}
           </div>
 
-          <p className="text-sm leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: sans }}>{props.intro}</p>
-          <p className="text-sm leading-relaxed mb-6" style={{ fontFamily: sans }}><Placeholder>{props.placeholderCopy}</Placeholder></p>
+          <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: sans }}>{props.description}</p>
 
           {/* Selling points */}
           <div className="rounded-xl p-4 mb-6" style={{ backgroundColor: "#f6f8f5" }}>
@@ -93,7 +94,7 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
             <ul className="space-y-1.5">
               {props.points.map((p) => (
                 <li key={p} className="text-xs leading-relaxed flex gap-2" style={{ color: "#53433e", fontFamily: sans }}>
-                  <span style={{ color: "#536257", flexShrink: 0 }}>+</span><Placeholder>{p}</Placeholder>
+                  <span style={{ color: "#536257", flexShrink: 0 }}>+</span>{p}
                 </li>
               ))}
             </ul>
@@ -102,17 +103,18 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
           {/* CTA row */}
           <div className="flex items-center gap-4 flex-wrap">
             <a
-              href="#"
+              href={props.ctaHref}
+              target="_blank"
+              rel="noopener noreferrer sponsored"
               className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90"
               style={{ backgroundColor: "#536257", color: "#ffffff", fontFamily: sans, textDecoration: "none" }}
             >
               {props.ctaLabel}
             </a>
-            <span className="text-xs" style={{ fontFamily: sans }}><Placeholder>Destination URL to be confirmed</Placeholder></span>
           </div>
 
-          <p className="text-[11px] mt-6 pt-4" style={{ color: "#a08f88", fontFamily: sans, borderTop: "1px solid rgba(217,194,186,0.3)" }}>
-            Sponsored placement: {props.brandName} has paid to be featured in this guide. Our rankings and reviews remain independent.
+          <p className="text-[11px] mt-6 pt-4 leading-relaxed" style={{ color: "#a08f88", fontFamily: sans, borderTop: "1px solid rgba(217,194,186,0.3)" }}>
+            Sponsored placement: {props.sponsorName ?? props.brandName} has paid to be featured in this guide. Our rankings and reviews remain independent. {props.sourceNote}
           </p>
         </div>
       </div>
