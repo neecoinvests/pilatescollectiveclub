@@ -11,18 +11,18 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Tampa, FL (2026) — Curated Guide",
-  description: "The best Pilates studios in Tampa — reformer boutiques in South Tampa, Hyde Park, and Westchase. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Tampa: reformer studios in South Tampa, Westchase, Carrollwood, New Tampa and St. Pete. Six picks, addresses verified October 2026.",
   robots: {
     index: true,
     follow: true,
     "max-image-preview": "large",
     "max-snippet": -1,
   },
-  keywords: ["pilates tampa", "reformer pilates tampa", "best pilates studios tampa fl", "pilates studio tampa", "pilates classes tampa", "south tampa pilates", "hyde park pilates tampa", "pilates florida", "best reformer pilates tampa", "pilates westchase fl"],
+  keywords: ["pilates tampa", "reformer pilates tampa", "best pilates studios tampa fl", "pilates studio tampa", "pilates classes tampa", "south tampa pilates", "carrollwood pilates", "pilates florida", "best reformer pilates tampa", "pilates westchase fl"],
   openGraph: {
     title: "Best Pilates Studios in Tampa, FL (2026)",
     description:
-      "Six curated Pilates studios in Tampa — South Tampa and Hyde Park reformer boutiques. Verified 2026.",
+      "Six Pilates studios across Tampa Bay, from South Tampa to St. Pete. Verified October 2026.",
     url: "https://pilatescollectiveclub.com/cities/tampa",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Tampa (2026)",
     description:
-      "The 6 best Pilates studios in Tampa — curated, verified, and reviewed for 2026.",
+      "Six Pilates studios across Tampa Bay, addresses verified October 2026.",
     images: [
       "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80",
     ],
@@ -50,75 +50,75 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "1",
-    name: "Club Pilates Hyde Park",
-    neighborhood: "Hyde Park / South Tampa",
-    priceLevel: "$$$",
-    review:
-      "Club Pilates Hyde Park is one of Tampa Bay's highest-rated reformer studios, earning consistent five-star reviews from South Tampa's health-conscious professional community. The Hyde Park location serves the Bayshore Boulevard corridor and surrounding South Tampa neighborhoods with well-structured, expertly taught reformer programming. The schedule is dense and the instructor team is praised for their attentiveness and ability to challenge practitioners of all levels. One of the most reliably excellent reformer experiences in the Tampa Bay area.",
-    address: "1509 W Swann Ave, Tampa, FL 33606",
-    bestFor: "Hyde Park and South Tampa residents, all levels, consistent reformer",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Morning spots along Bayshore fill fast — book 48 hours ahead for the most popular time windows.",
-  },
-  {
-    number: "2",
     name: "Club Pilates South Tampa",
     neighborhood: "South Tampa",
     priceLevel: "$$$",
     review:
-      "Club Pilates South Tampa serves the area's large residential population with a well-run franchise studio that consistently meets the expectations of South Tampa's wellness-savvy clientele. The studio is clean, professionally staffed, and offers a schedule wide enough to accommodate the varied patterns of busy families and professionals. Instructors receive strong marks from regulars for their clear cueing and genuine investment in client progress.",
-    address: "3909 W Neptuno St, Tampa, FL 33629",
-    bestFor: "South Tampa professionals and families, high-frequency practitioners, memberships",
-    signatureClass: "Reformer 1.5",
-    bookingTip: "Monthly memberships cut per-class costs significantly — the intro offer is worth completing before committing.",
+      "Club Pilates' South Tampa studio sits on South Howard Avenue, close to Hyde Park and the Bayshore Boulevard corridor. Like every Club Pilates studio, it runs a timetable of reformer-based group classes taught to the brand's own curriculum, with levels that let beginners start slowly and build up.",
+    address: "940 S. Howard Ave., Tampa, FL 33606",
+    bestFor: "South Tampa and Hyde Park residents, all levels",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Use the intro offer to try a few class formats before choosing a membership.",
   },
   {
-    number: "3",
+    number: "2",
     name: "Club Pilates Westchase",
     neighborhood: "Westchase",
     priceLevel: "$$",
     review:
-      "Club Pilates Westchase is one of Tampa Bay's busiest franchise locations, serving the area's dense population of professionals and young families with a consistent, well-run reformer program. The studio's flexible membership tiers and wide class schedule make it the practical choice for practitioners who want to train three or four times a week. Instructors are thorough with cueing and attentive to form corrections. An excellent base for building a regular Pilates habit in the northwest Tampa corridor.",
-    address: "12921 Sheldon Rd, Tampa, FL 33626",
-    bestFor: "Westchase and northwest Tampa residents, high-frequency practitioners, memberships",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "The 6 AM and 7 PM weekday slots fill 48 hours out — plan accordingly.",
+      "The Westchase studio is on West Linebaugh Avenue and serves northwest Tampa. The franchise's tiered memberships and wide schedule suit people who want to train several times a week close to home.",
+    address: "12125 W. Linebaugh Ave., Suite 202, Tampa, FL 33626",
+    bestFor: "Westchase and northwest Tampa, regular practice",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Early-morning and after-work slots are the busiest; book a few days ahead.",
+  },
+  {
+    number: "3",
+    name: "Club Pilates Carrollwood",
+    neighborhood: "Carrollwood",
+    priceLevel: "$$",
+    review:
+      "Carrollwood's studio is on North Dale Mabry Highway, an easy drive for north-central Tampa. It offers the standard Club Pilates format of small reformer group classes at several levels.",
+    address: "13254 N. Dale Mabry Hwy, Tampa, FL 33618",
+    bestFor: "North-central Tampa, beginners and regulars",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Check the level of each class on the schedule before you book.",
   },
   {
     number: "4",
-    name: "Club Pilates Seminole Heights",
-    neighborhood: "Seminole Heights",
+    name: "Club Pilates New Tampa",
+    neighborhood: "New Tampa",
     priceLevel: "$$",
     review:
-      "Club Pilates Seminole Heights brings accessible, quality reformer programming to Tampa's most artistically vibrant and community-focused neighborhood. The studio fits the Seminole Heights character — unpretentious, welcoming, and warm — and has built a loyal following from the surrounding residential community. Instructors receive consistent praise for their patience with beginners and their attentiveness to individual form. One of Tampa's most welcoming entry points into the Pilates method.",
-    address: "4960 N Florida Ave, Tampa, FL 33603",
-    bestFor: "Seminole Heights community, beginners, accessible pricing",
-    signatureClass: "Reformer Foundations",
-    bookingTip: "Saturday morning classes are a neighborhood social event — book by Thursday.",
+      "The New Tampa studio on Amberly Drive covers the city's fast-growing northeast suburbs. Expect the same reformer curriculum and membership structure as the brand's other Tampa studios.",
+    address: "15341 Amberly Drive, Tampa, FL 33647",
+    bestFor: "New Tampa and Wesley Chapel side, memberships",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Memberships can usually be used across studios; confirm the rules for yours.",
   },
   {
     number: "5",
     name: "Club Pilates St. Petersburg",
-    neighborhood: "St. Petersburg",
+    neighborhood: "Downtown St. Petersburg",
     priceLevel: "$$$",
     review:
-      "Club Pilates St. Petersburg serves the growing downtown and midtown St. Pete population with consistent, high-quality reformer programming. The studio is one of the most popular in the Tampa Bay area, earning strong reviews from St. Pete's active, outdoor-lifestyle community. Instructors bring genuine attentiveness to the curriculum and the studio's welcoming atmosphere has made it a community anchor on the south side of the bay.",
-    address: "2701 4th St N, St. Petersburg, FL 33704",
-    bestFor: "St. Pete residents, all levels, Tampa Bay south-side convenience",
+      "Club Pilates' downtown St. Pete studio is on Central Avenue, a short walk from the waterfront. A second studio, North St. Pete, is at 347 62nd Ave N if you live further north.",
+    address: "120 Central Ave, Saint Petersburg, FL 33701",
+    bestFor: "Downtown St. Pete, all levels",
     signatureClass: "Reformer Flow",
-    bookingTip: "Book online — St. Pete's reputation for outdoor wellness means classes fill faster than you might expect.",
+    bookingTip: "Allow time for downtown parking before class.",
   },
   {
     number: "6",
-    name: "Club Pilates Brandon",
-    neighborhood: "Brandon (East Tampa)",
+    name: "Club Pilates Valrico",
+    neighborhood: "Valrico (near Brandon)",
     priceLevel: "$$",
     review:
-      "Club Pilates Brandon serves the Tampa Bay area's large east-suburban population with accessible, well-structured reformer programming at membership rates that make regular attendance financially practical. The Brandon location draws professionals, families, and active adults from the surrounding Hillsborough County communities who want quality reformer access close to home. The studio earns strong reviews for its consistent instruction and welcoming atmosphere.",
-    address: "1540 W Brandon Blvd, Brandon, FL 33511",
-    bestFor: "East Tampa and Brandon residents, affordable memberships, all levels",
-    signatureClass: "Club Reformer 57",
-    bookingTip: "Drop-in rates are among the most accessible in the Tampa Bay market — ideal for sampling before committing.",
+      "The Valrico studio on Lithia Pinecrest Road is the closest Club Pilates to Brandon and the eastern Hillsborough suburbs, with the brand's usual reformer class levels and memberships.",
+    address: "3438 Lithia Pinecrest Rd., Valrico, FL 33596",
+    bestFor: "Brandon, Valrico and east Hillsborough",
+    signatureClass: "Reformer Flow",
+    bookingTip: "Try the intro offer before committing to a membership.",
   },
 ];
 
@@ -147,24 +147,24 @@ const BOOKING_TIPS = [
 
 const NEIGHBORHOODS = [
   {
-    name: "Hyde Park / South Tampa",
+    name: "South Tampa",
     description:
-      "South Tampa's most upscale corridor, anchored by Bayshore Boulevard and Hyde Park Village. This is where you'll find Tampa's most polished studio experiences alongside excellent post-class dining, coffee, and waterfront walking paths.",
+      "South Tampa runs from Hyde Park and Bayshore Boulevard down through the peninsula's residential streets. It's dense with fitness studios, coffee shops and places to eat after class.",
   },
   {
-    name: "Seminole Heights",
+    name: "North Tampa: Carrollwood and New Tampa",
     description:
-      "Tampa's most characterful neighborhood — a grid of craftsman bungalows, independent restaurants, and small creative businesses. The Pilates scene here is owner-operated and community-first, making it the best neighborhood for those who want a local studio that knows your name.",
+      "Suburban, family-oriented areas north of the city centre. Studios here are in shopping plazas with easy parking, which makes regular weekday classes practical.",
   },
   {
     name: "St. Petersburg",
     description:
-      "Across the Sunshine Skyway bridge, St. Pete has evolved into one of Florida's most exciting arts and wellness destinations. The reformer studios here attract serious practitioners and benefit from the city's growing reputation as a creative hub with strong community identity.",
+      "Across the bay, St. Pete has a walkable downtown and a strong arts and wellness scene. Club Pilates has studios both downtown and in North St. Pete.",
   },
   {
     name: "Westchase",
     description:
-      "A planned suburban community in northwest Tampa popular with families and professionals. Studios here prioritize accessibility, flexible scheduling, and membership value — ideal for those building a consistent weekly Pilates practice around a busy schedule.",
+      "A planned community in northwest Tampa popular with families and professionals. Studios here prioritise flexible schedules and membership value.",
   },
 ];
 
@@ -177,7 +177,7 @@ const GEAR = [
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "For mat classes at South Tampa Pilates and Seminole Heights Movement — slightly thicker than a yoga mat for joint comfort on hard floors.",
+    note: "For mat work at home between classes: slightly thicker than a yoga mat for joint comfort on hard floors.",
     price: "From $18",
     url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
   },
@@ -282,7 +282,7 @@ const jsonLd = {
           "@type": "ExerciseGym",
           name: s.name,
           description: s.review.slice(0, 160),
-          address: { "@type": "PostalAddress", addressLocality: "Tampa", addressRegion: "FL", addressCountry: "US" },
+          address: { "@type": "PostalAddress", streetAddress: s.address, addressRegion: "FL", addressCountry: "US" },
         },
       })),
     },
@@ -313,14 +313,12 @@ export default function TampaPage() {
               Best Pilates Studios in Tampa, FL
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
-              Updated June 2026 · 6 studios reviewed
+              Updated October 2026 · 6 studios
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
-              Tampa has quietly become one of Florida's most interesting Pilates cities. From the upscale reformer
-              boutiques of Hyde Park to the community-driven bungalow studios of Seminole Heights and the serious
-              reformer scene across the bay in St. Pete, the Tampa Bay area offers genuine depth across every style
-              and price point. We've checked every studio's location and details against public listings and selected six
-              that stand out — whether you're a longtime practitioner or stepping onto a reformer for the first time.
+              Reformer Pilates is easy to find across Tampa Bay, from South Tampa and Westchase to Carrollwood, New Tampa
+              and across the bay in St. Pete. Below are six studios whose addresses we checked against the operator&apos;s
+              own location listings in October 2026, spread across the area so there is one close to most of the city.
             </p>
           </div>
         </section>
