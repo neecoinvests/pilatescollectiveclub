@@ -241,7 +241,7 @@ export default function PilatesForOsteoporosisPage() {
               title="Why many people with osteoporosis move to a home reformer"
               body="As covered above, the reformer's springs load bone while the carriage supports the spine in neutral — which is why it is so often recommended for low bone density. Once you have learned safe modifications with a qualified instructor, a home reformer lets you keep that loading consistent between sessions. Check with your clinician first."
               picks={[
-                { name: "AeroPilates Reformer by Stamina", price: "$539.99", url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20", note: "An established home-reformer brand. Cord-based resistance, low to the floor, folds for storage." },
+                { name: "AeroPilates Reformer by Stamina", price: "$555.99", url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20", note: "An established home-reformer brand. Cord-based resistance, low to the floor, folds for storage." },
                 { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — less track record, so best for confident, instructor-trained users." },
               ]}
               guideHref="/blog/best-pilates-reformer-for-beginners"

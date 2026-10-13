@@ -261,7 +261,7 @@ export default function HowLongToSeeResultsPage() {
               body="The single biggest factor in how fast Pilates results show up is how often you train with resistance. Studio classes cap that at your budget; a home reformer removes the cap. For people going two or three times a week, one pays for itself in a few months of class fees."
               picks={[
                 { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — roughly the cost of 10 studio classes." },
-                { name: "AeroPilates Reformer by Stamina", price: "$539.99", url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20", note: "An established home-reformer brand. Cord-based resistance, folds for storage." },
+                { name: "AeroPilates Reformer by Stamina", price: "$555.99", url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20", note: "An established home-reformer brand. Cord-based resistance, folds for storage." },
               ]}
               guideHref="/blog/best-pilates-reformer-under-500"
               guideLabel="See every home reformer under $500"

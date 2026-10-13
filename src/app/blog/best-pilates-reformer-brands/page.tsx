@@ -283,11 +283,11 @@ const BRANDS = [
 ];
 
 const AMAZON_PICKS = [
-  { tag: "Best overall", name: "Balanced Body Studio Reformer (Revo Footbar)", price: "$4,700.00", note: "Made to order — ships after a lead time", url: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
+  { tag: "Best overall", name: "Balanced Body Studio Reformer (Revo Footbar)", price: "$4,700.00", note: "Made to order, ships after a lead time", url: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
   { tag: "Best for STOTT trainees", name: "Merrithew At Home SPX Reformer Package", price: "$3,349.00", note: "Sold by Amazon.com", url: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
   { tag: "Best value pro springs", name: "Align-Pilates C8-Pro Reformer", price: "$2,750.00", note: null, url: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" },
   { tag: "Best foldable premium", name: "PersonalHour Janet La Force Plus Foldable Reformer", price: "$2,555.00", note: "Low stock", url: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20" },
-  { tag: "Best beginner budget", name: "AeroPilates Premier 701 Reformer", price: "$539.99", note: null, url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20" },
+  { tag: "Best beginner budget", name: "AeroPilates Premier 701 Reformer", price: "$555.99", note: null, url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20" },
 ];
 
 const QUICK_MATCH = [
@@ -343,6 +343,26 @@ export default function BestReformerBrandsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto space-y-20">
 
+            {/* Quick picks */}
+            <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks: At a Glance</p>
+              </div>
+              {AMAZON_PICKS.map((item, i) => (
+                <div key={item.url} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{i + 1}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-[10px] font-semibold uppercase tracking-widest" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.tag}</p>
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.price}{item.note ? ` · ${item.note}` : ""}</p>
+                  </div>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer sponsored"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Shop Now →</a>
+                </div>
+              ))}
+            </div>
+
             {/* Quick match */}
             <div>
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Find your brand in 10 seconds</h2>
@@ -358,29 +378,6 @@ export default function BestReformerBrandsPage() {
                       <p className="text-xs font-semibold whitespace-nowrap" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.brand} →</p>
                     </div>
                   </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Shop on Amazon */}
-            <div>
-              <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand reformers you can buy on Amazon</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Five of the ten brands sell on Amazon. Prices and stock checked live on October 4, 2026; the final price is whatever Amazon shows at checkout.</p>
-              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                {AMAZON_PICKS.map((item, i) => (
-                  <a key={item.url} href={item.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                    <div className="flex items-center justify-between gap-4 px-6 py-4 hover:opacity-80 transition-opacity" style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#fcf9f8", borderBottom: i < AMAZON_PICKS.length - 1 ? "1px solid rgba(217,194,186,0.3)" : "none" }}>
-                      <div>
-                        <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.tag}</p>
-                        <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.name}</p>
-                        {item.note && <p className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.note}</p>}
-                      </div>
-                      <div className="text-right shrink-0">
-                        <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.price}</p>
-                        <p className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Shop Now →</p>
-                      </div>
-                    </div>
-                  </a>
                 ))}
               </div>
             </div>

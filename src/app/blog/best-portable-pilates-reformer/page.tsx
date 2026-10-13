@@ -64,7 +64,7 @@ const REFORMERS = [
   {
     rank: 4,
     name: "AeroPilates 701 Premier Reformer",
-    price: "$539.99",
+    price: "$555.99",
     verdict: "Best budget established-brand portable reformer",
     tag: "Best Value",
     description: "A more accessible entry point in the AeroPilates range at roughly a third of the Pro XP 557's price. It uses the same elastic cord resistance system rather than coil springs. We could not verify specific spring/cord counts, fold mechanism, or included accessories for this exact listing beyond what's on the current Amazon page — confirm those details there before ordering rather than assuming they match another AeroPilates model.",

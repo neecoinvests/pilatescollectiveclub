@@ -82,11 +82,11 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "AeroPilates 701 Premier Reformer",
-    price: "$539.99",
+    price: "$555.99",
     verdict: "Best established-brand cord reformer",
     tag: "Established Brand",
     description:
-      "For readers who'd rather have brand track record than spring resistance, the 701 Premier is a genuine, live Amazon listing at $539.99 from AeroPilates, an established home-fitness brand. It uses elastic cord resistance rather than coil springs — a real and meaningful difference from the spring reformers above — but comes with a longer history and more predictable after-sale support than the generic brands in this bracket.",
+      "For readers who'd rather have brand track record than spring resistance, the 701 Premier is a genuine, live Amazon listing at $555.99 from AeroPilates, an established home-fitness brand. It uses elastic cord resistance rather than coil springs — a real and meaningful difference from the spring reformers above — but comes with a longer history and more predictable after-sale support than the generic brands in this bracket.",
     affiliateUrl: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20",
     pros: ["Established brand with a long track record", "Genuine, live Amazon listing well within budget", "More predictable after-sale support than generic brands"],
     cons: ["Cord resistance, not springs", "Costs more than any of the genuine spring options here", "Not a substitute for spring resistance in advanced programming"],

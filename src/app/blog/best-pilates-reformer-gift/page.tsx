@@ -48,7 +48,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "AeroPilates 701 Premier Reformer",
-    price: "$539.99",
+    price: "$555.99",
     verdict: "Best Under-$600 Complete System",
     description: "The AeroPilates 701 Premier is a step up from the entry-level 287 at a real, currently-sold price point. Like other AeroPilates machines, it uses elastic cord resistance rather than traditional coil springs, which provides a gentler, more forgiving feel than a spring reformer — often a good fit for home practice and returning-to-movement practitioners. We could not verify specific carriage length, included accessories, or a fold mechanism for this exact listing beyond what the current Amazon page shows, so confirm those details before ordering rather than assuming.",
     affiliateUrl: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20",

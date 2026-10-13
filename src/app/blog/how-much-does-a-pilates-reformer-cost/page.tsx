@@ -29,7 +29,7 @@ const PRICE_TIERS = [
     range: "$256.49–$1,330",
     heading: "Budget / Cord-Based",
     tag: "Entry Level",
-    body: "Elastic cord resistance (not springs). AeroPilates markets its range around a fold-flat design, though we could not independently verify exact folded dimensions or fold time. Representative machines: AeroPilates 287 ($256.49), AeroPilates 701 Premier Reformer ($539.99), AeroPilates Pro XP 557 (from $1,329.99).",
+    body: "Elastic cord resistance (not springs). AeroPilates markets its range around a fold-flat design, though we could not independently verify exact folded dimensions or fold time. Representative machines: AeroPilates 287 ($256.49), AeroPilates 701 Premier Reformer ($555.99), AeroPilates Pro XP 557 (from $1,329.99).",
     forWho: "Beginners testing whether reformer Pilates suits them; practitioners with genuine budget constraints.",
     sacrifice: "Spring resistance feel, long-term durability (3–5 year lifespan with regular use), full exercise range, and accessory compatibility.",
     lifespan: "3–5 years",

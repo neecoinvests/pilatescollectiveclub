@@ -388,9 +388,9 @@ const DREAM: Item[] = [
     tier: "Best",
     tag: "The established middle",
     name: "AeroPilates Reformer by Stamina",
-    price: "$539.99",
+    price: "$555.99",
     description:
-      "An established home brand with a long track record. It uses cord resistance rather than springs, so it feels different from a studio reformer, and it folds for storage. A sensible middle ground at $539.99.",
+      "An established home brand with a long track record. It uses cord resistance rather than springs, so it feels different from a studio reformer, and it folds for storage. A sensible middle ground at $555.99.",
     url: amazon("B07G5J3SKS"),
   },
   {

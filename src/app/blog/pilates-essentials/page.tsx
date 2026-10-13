@@ -537,7 +537,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "AeroPilates Reformer by Stamina",
-        price: "$539.99",
+        price: "$555.99",
         url: amz("B07G5J3SKS"),
         description:
           "AeroPilates is the established home reformer brand. It uses cord resistance rather than springs, which feels different from a studio machine but is smooth and quiet, and it folds for storage. The safest first reformer for most homes.",
@@ -598,7 +598,7 @@ const FAQS = [
   },
   {
     q: "Is a home reformer worth it?",
-    a: "Studio reformer classes in major US cities commonly cost $30–$40 or more each. At those prices, the $539.99 AeroPilates reformer costs roughly the same as 13–18 classes, so if you currently go several times a week, a home machine can pay for itself within a few months. It will not replace an instructor's feedback, so many people combine the two.",
+    a: "Studio reformer classes in major US cities commonly cost $30–$40 or more each. At those prices, the $555.99 AeroPilates reformer costs roughly the same as 14–19 classes, so if you currently go several times a week, a home machine can pay for itself within a few months. It will not replace an instructor's feedback, so many people combine the two.",
   },
   {
     q: "What is the single most important Pilates purchase?",
@@ -874,7 +874,7 @@ export default function PilatesEssentialsPage() {
                       ))}
                     </div>
                     <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
-                      Most of the gap between the two kits comes from the clothing (Varley vs CRZ YOGA) and the mat (Manduka PRO vs Gaiam). Both totals include a $119.99 massage gun, $74.99 foam roller and $55.00 ankle weights, so if you only go to studio classes and skip recovery and home props, the budget clothing and studio accessories alone come to {fmt(STUDIO_BUDGET_TOTAL)}. Home reformers are priced separately below: WINDFOOT $295.99, AeroPilates $539.99, Merrithew At Home SPX $3,349.00.
+                      Most of the gap between the two kits comes from the clothing (Varley vs CRZ YOGA) and the mat (Manduka PRO vs Gaiam). Both totals include a $119.99 massage gun, $74.99 foam roller and $55.00 ankle weights, so if you only go to studio classes and skip recovery and home props, the budget clothing and studio accessories alone come to {fmt(STUDIO_BUDGET_TOTAL)}. Home reformers are priced separately below: WINDFOOT $295.99, AeroPilates $555.99, Merrithew At Home SPX $3,349.00.
                     </p>
                   </div>
                 )}

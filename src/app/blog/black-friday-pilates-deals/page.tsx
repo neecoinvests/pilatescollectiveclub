@@ -56,7 +56,7 @@ const GUIDE: DealsGuideProps = {
           "name": "AeroPilates Premier 701 Reformer",
           "badge": "Best-known beginner brand",
           "note": "Stamina's AeroPilates is the long-established home brand. Cord-based resistance rather than steel springs.",
-          "price": "$539.99"
+          "price": "$555.99"
         },
         {
           "asin": "B099ZJ4C25",

@@ -34,7 +34,7 @@ function Placeholder({ children }: { children: React.ReactNode }) {
 function PartnerChip() {
   return (
     <span className="text-xs font-semibold uppercase tracking-[0.18em] px-3 py-1 rounded-full" style={{ backgroundColor: "#eef1ec", color: "#536257", fontFamily: sans }}>
-      Partner · Sponsored
+      Featured Partner
     </span>
   );
 }
@@ -56,9 +56,6 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
         {/* Image */}
         <div className="relative w-full" style={{ height: isBrand ? "260px" : "230px" }}>
           <Image src={props.imageSrc} alt={props.imageAlt} fill className="object-cover" style={{ filter: "brightness(0.92)" }} />
-          <span className="absolute top-4 right-4 text-[10px] font-semibold uppercase tracking-widest px-2.5 py-1 rounded-full" style={{ backgroundColor: "rgba(255,255,255,0.88)", color: "#86736d", fontFamily: sans }}>
-            Image placeholder · brand photography to be supplied
-          </span>
         </div>
 
         <div className="p-8">
@@ -114,7 +111,7 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
           </div>
 
           <p className="text-[11px] mt-6 pt-4 leading-relaxed" style={{ color: "#a08f88", fontFamily: sans, borderTop: "1px solid rgba(217,194,186,0.3)" }}>
-            Sponsored placement: {props.sponsorName ?? props.brandName} has paid to be featured in this guide. Our rankings and reviews remain independent. {props.sourceNote}
+            {props.sourceNote}
           </p>
         </div>
       </div>

@@ -91,7 +91,7 @@ const GUIDE: DealsGuideProps = {
           "name": "AeroPilates Premier 701 Reformer",
           "badge": "Best-selling home reformer",
           "note": "The AeroPilates Premier, Stamina's popular home model with cord resistance.",
-          "price": "$539.99"
+          "price": "$555.99"
         },
         {
           "asin": "B0D7M7JNFV",

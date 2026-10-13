@@ -205,7 +205,7 @@ const AMAZON_PICKS = [
   { tag: "Best for STOTT trainees", name: "Merrithew At Home SPX Reformer Package", price: "$3,349.00", note: "Sold by Amazon.com", url: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
   { tag: "Best value pro springs", name: "Align-Pilates C8-Pro Reformer", price: "$2,750.00", note: null, url: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" },
   { tag: "Best foldable premium", name: "PersonalHour Janet La Force Plus Foldable Reformer", price: "$2,555.00", note: "Low stock", url: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20" },
-  { tag: "Best beginner budget", name: "AeroPilates Premier 701 Reformer", price: "$539.99", note: null, url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20" },
+  { tag: "Best beginner budget", name: "AeroPilates Premier 701 Reformer", price: "$555.99", note: null, url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20" },
 ];
 
 const QUICK_MATCH = [
@@ -230,7 +230,7 @@ const PARTNER_ENTRY = (
         { label: "Flagship", value: "Queen Studio Pilates Reformer" },
         { label: "Range", value: "Eco Folding, Queen Folding and Queen Studio reformers, plus studio equipment" },
         { label: "Best for", value: "Home practitioners and studio owners who want a customizable, studio-style machine" },
-        { label: "Pricing", value: "Listed from $2,399 (Eco Folding) on The Core Collab's US store, to be confirmed", toConfirm: true },
+        { label: "Pricing", value: "Listed from $2,399 (Eco Folding) on The Core Collab's US store" },
       ]}
       description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from the Eco and Queen folding reformers, built for homes where the machine has to be put away, to the Queen Studio Reformer and full studio set-ups. Many models can be customized with your choice of upholstery and colour."
       pointsHeading="Key selling points"
@@ -242,7 +242,7 @@ const PARTNER_ENTRY = (
       ]}
       ctaLabel="Visit The Core Collab →"
       ctaHref="https://thecorecollabusa.com/collections/pilates-reformers"
-      sourceNote="Product details are taken from The Core Collab's published product pages."
+      sourceNote="Details from The Core Collab's product pages."
     />
   </div>
 );
@@ -291,6 +291,36 @@ export default function BestReformerBrandsPage() {
             {/* Partner placement */}
             <div className="pt-4">{PARTNER_ENTRY}</div>
 
+            {/* Quick picks */}
+            <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks: At a Glance</p>
+              </div>
+              <div className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ backgroundColor: "#f6f8f5" }}>
+                <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#536257", fontFamily: "'Playfair Display', serif" }}>✦</span>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>The Core Collab Reformers <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
+                  <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Folding and studio reformers for home and studio use</p>
+                </div>
+                <a href="https://thecorecollabusa.com/collections/pilates-reformers" target="_blank" rel="noopener noreferrer sponsored"
+                  style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#536257", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                >Shop Now →</a>
+              </div>
+              {AMAZON_PICKS.map((item, i) => (
+                <div key={item.url} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{i + 1}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-[10px] font-semibold uppercase tracking-widest" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.tag}</p>
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.price}{item.note ? ` · ${item.note}` : ""}</p>
+                  </div>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer sponsored"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Shop Now →</a>
+                </div>
+              ))}
+            </div>
+
             {/* Quick match */}
             <div>
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Find your brand in 10 seconds</h2>
@@ -312,29 +342,6 @@ export default function BestReformerBrandsPage() {
                       <p className="text-xs font-semibold whitespace-nowrap" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.brand} →</p>
                     </div>
                   </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Shop on Amazon */}
-            <div>
-              <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand reformers you can buy on Amazon</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Five of the ten brands sell on Amazon. Prices and stock checked live on October 4, 2026; the final price is whatever Amazon shows at checkout.</p>
-              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                {AMAZON_PICKS.map((item, i) => (
-                  <a key={item.url} href={item.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                    <div className="flex items-center justify-between gap-4 px-6 py-4 hover:opacity-80 transition-opacity" style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#fcf9f8", borderBottom: i < AMAZON_PICKS.length - 1 ? "1px solid rgba(217,194,186,0.3)" : "none" }}>
-                      <div>
-                        <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.tag}</p>
-                        <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.name}</p>
-                        {item.note && <p className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.note}</p>}
-                      </div>
-                      <div className="text-right shrink-0">
-                        <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.price}</p>
-                        <p className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Shop Now →</p>
-                      </div>
-                    </div>
-                  </a>
                 ))}
               </div>
             </div>

@@ -82,7 +82,7 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "AeroPilates 701 Premier Reformer",
-    price: "$539.99",
+    price: "$555.99",
     verdict: "Best budget mid-tier compact option",
     description:
       "The AeroPilates 701 Premier sits below the Pro XP 557 in price while using the same elastic cord resistance approach rather than coil springs. We could not verify specific claims about carriage length, folding mechanism, or footbar adjustability for this exact listing beyond what the current Amazon page shows. It's a reasonable option for a practitioner prioritising a lower price and a genuinely space-conscious machine over spring feel.",

@@ -70,7 +70,7 @@ const PARTNER_ENTRY = (
       { label: "Machine", value: "Sculptformer" },
       { label: "Best for", value: "Studios and committed trainers who want a Lagree-style machine" },
       { label: "Sold", value: "Direct from The Core Collab, with financing listed on its US store" },
-      { label: "Price", value: "Listed from about $8,000 on The Core Collab's US store, to be confirmed", toConfirm: true },
+      { label: "Price", value: "Listed from about $8,000 on The Core Collab's US store" },
     ]}
     description="The Sculptformer is The Core Collab's Lagree-style machine, which the company positions as an alternative to the Megaformer for studios and serious home trainers. It is sold direct by The Core Collab through its US store rather than through a Lagree dealer."
     pointsHeading="Key product features"
@@ -82,7 +82,7 @@ const PARTNER_ENTRY = (
     ]}
     ctaLabel="Visit The Core Collab →"
     ctaHref="https://thecorecollabusa.com/products/sculptformer"
-    sourceNote="Product details are taken from The Core Collab's published product pages."
+    sourceNote="Details from The Core Collab's product pages."
   />
 );
 
@@ -124,10 +124,6 @@ export default function BestMegaformerMachinePage() {
             {/* Partner placement */}
             <div className="mb-12 mt-4">{PARTNER_ENTRY}</div>
 
-            <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Price note</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Megaformer prices fluctuate and are not always published online. The figures here reflect 2026 launch and reference pricing from manufacturer sites. Contact Lagree Fitness directly for current Megaformer pricing before purchasing. The Micro&apos;s $990.00 price is from its live Amazon listing, sold by Lagree Fitness.</p>
-            </div>
 
             <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>

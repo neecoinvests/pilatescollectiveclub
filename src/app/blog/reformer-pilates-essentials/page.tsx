@@ -104,7 +104,7 @@ const P = {
   waveRoller: { name: "Therabody WaveRoller (Vibrating)", price: "$179.99", url: amz("B08HW7GXSQ") },
   theragun: { name: "Therabody TheraGun Relief Massage Gun", price: "$119.99", url: amz("B0CNS894RH") },
   windfoot: { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: amz("B0D31767J1") },
-  aero: { name: "AeroPilates Reformer by Stamina", price: "$539.99", url: amz("B07G5J3SKS") },
+  aero: { name: "AeroPilates Reformer by Stamina", price: "$555.99", url: amz("B07G5J3SKS") },
   spx: { name: "Merrithew At Home SPX Reformer Package", price: "$3,349.00", url: amz("B004FGT0TM") },
   arc: { name: "Balanced Body Pilates Arc", price: "$189.99", url: amz("B002XVSNRG") },
 };
@@ -338,7 +338,7 @@ const FAQS = [
   },
   {
     q: "Is a home reformer cheaper than reformer classes?",
-    a: "It can be, if you use it. Studio reformer classes in major US cities commonly cost $30–$40 or more each. At those prices, the WINDFOOT reformer ($295.99) costs about the same as 7–10 classes, the AeroPilates reformer ($539.99) about 13–18 classes, and the Merrithew At Home SPX package ($3,349.00) about 84–112 classes. A home machine works best alongside some instruction rather than as a total replacement for a teacher.",
+    a: "It can be, if you use it. Studio reformer classes in major US cities commonly cost $30–$40 or more each. At those prices, the WINDFOOT reformer ($295.99) costs about the same as 7–10 classes, the AeroPilates reformer ($555.99) about 14–19 classes, and the Merrithew At Home SPX package ($3,349.00) about 84–112 classes. A home machine works best alongside some instruction rather than as a total replacement for a teacher.",
   },
 ];
 
