@@ -18,6 +18,7 @@ export type PartnerBrandEntryProps = {
   ctaHref: string;
   sourceNote: string;
   sponsorName?: string;
+  logoSrc?: string;
 };
 
 const sans = "'Montserrat', sans-serif";
@@ -61,12 +62,18 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
         <div className="p-8">
           {/* Header row */}
           <div className="flex items-center gap-4 mb-5">
-            <div
-              className="shrink-0 rounded-xl flex items-center justify-center text-center"
-              style={{ width: 64, height: 64, border: "1.5px dashed #c5a882", backgroundColor: "#fcf9f8", color: "#9a857d", fontFamily: sans, fontSize: "9px", fontWeight: 600, letterSpacing: "0.12em", lineHeight: 1.3 }}
-            >
-              LOGO<br />PLACE-<br />HOLDER
-            </div>
+            {props.logoSrc ? (
+              <div className="shrink-0 relative rounded-xl overflow-hidden" style={{ width: 64, height: 64, backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)" }}>
+                <Image src={props.logoSrc} alt={`${props.sponsorName ?? props.brandName} logo`} fill sizes="64px" className="object-contain p-1.5" />
+              </div>
+            ) : (
+              <div
+                className="shrink-0 rounded-xl flex items-center justify-center text-center"
+                style={{ width: 64, height: 64, border: "1.5px dashed #c5a882", backgroundColor: "#fcf9f8", color: "#9a857d", fontFamily: sans, fontSize: "9px", fontWeight: 600, letterSpacing: "0.12em", lineHeight: 1.3 }}
+              >
+                LOGO<br />PLACE-<br />HOLDER
+              </div>
+            )}
             <div>
               {isBrand && <div className="mb-2"><PartnerChip /></div>}
               <h3 className="text-2xl font-semibold" style={{ color: "#1b1c1c", fontFamily: serif }}>{props.brandName}</h3>

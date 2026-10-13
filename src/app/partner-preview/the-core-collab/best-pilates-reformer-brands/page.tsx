@@ -224,24 +224,25 @@ const PARTNER_ENTRY = (
     <PartnerBrandEntry
       variant="brand"
       brandName="The Core Collab"
+      logoSrc="/pictures/partners/the-core-collab-logo.png"
       imageSrc="/pictures/stitch-reformer-sunlit-minimal.png"
       imageAlt="Studio reformer, image placeholder for The Core Collab"
       details={[
-        { label: "Flagship", value: "Queen Studio Pilates Reformer" },
-        { label: "Range", value: "Eco Folding, Queen Folding and Queen Studio reformers, plus studio equipment" },
+        { label: "Flagship", value: "The Core Collab Queen Studio Pilates Reformer" },
+        { label: "Range", value: "The Core Collab Eco Folding Reformer, The Core Collab Queen Folding Reformer and The Core Collab Queen Studio Pilates Reformer, plus studio equipment" },
         { label: "Best for", value: "Home practitioners and studio owners who want a customizable, studio-style machine" },
-        { label: "Pricing", value: "Listed from $2,399 (Eco Folding) on The Core Collab's US store" },
+        { label: "Pricing", value: "From $2,399 (The Core Collab Eco Folding Reformer); The Core Collab Queen Studio Pilates Reformer is $2,999" },
       ]}
-      description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from the Eco and Queen folding reformers, built for homes where the machine has to be put away, to the Queen Studio Reformer and full studio set-ups. Many models can be customized with your choice of upholstery and colour."
+      description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from The Core Collab Eco Folding Reformer and The Core Collab Queen Folding Reformer, built for homes where the machine has to be put away, to The Core Collab Queen Studio Pilates Reformer and full studio set-ups. Many models can be customized with your choice of upholstery and colour."
       pointsHeading="Key selling points"
       points={[
-        "Folding Eco and Queen models for homes with limited space",
-        "Six-spring system on the Eco and Queen (3 heavy, 2 medium, 1 light), according to the brand",
+        "The Core Collab Eco Folding and Queen Folding reformers for homes with limited space",
+        "Six-spring system on The Core Collab Eco and Queen reformers (3 heavy, 2 medium, 1 light), according to the brand",
         "10-year frame warranty and 2-year warranty on moving parts, according to the brand",
         "Custom upholstery and colour options, plus studio branding for studio owners",
       ]}
       ctaLabel="Visit The Core Collab →"
-      ctaHref="https://thecorecollabusa.com/collections/pilates-reformers"
+      ctaHref="https://thecorecollabusa.com/?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=best-reformer-brands"
       sourceNote="Details from The Core Collab's product pages."
     />
   </div>
@@ -300,9 +301,9 @@ export default function BestReformerBrandsPage() {
                 <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#536257", fontFamily: "'Playfair Display', serif" }}>✦</span>
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>The Core Collab Reformers <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
-                  <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Folding and studio reformers for home and studio use</p>
+                  <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>From $2,399 · Folding and studio reformers for home and studio use</p>
                 </div>
-                <a href="https://thecorecollabusa.com/collections/pilates-reformers" target="_blank" rel="noopener noreferrer sponsored"
+                <a href="https://thecorecollabusa.com/?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=best-reformer-brands" target="_blank" rel="noopener noreferrer sponsored"
                   style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#536257", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                 >Shop Now →</a>
               </div>
