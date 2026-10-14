@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
@@ -49,7 +50,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Marc Jacobs The Large Puffy Tote",
-    price: "$223.50",
+    price: "$298.00",
     verdict: "Best Statement Bag",
     description: "Marc Jacobs' The Tote is one of the most recognisable carryalls of the decade, and the Puffy version is the light, padded-nylon take that suits a studio day. It measures 15 × 12.5 × 7 inches, deeper than most totes, so a folded towel, trainers and a change of clothes fit without a fight, and it weighs just 13 oz. The branding is unmistakable, which is either the point or not your style. Sold by Shopbop (an Amazon company).",
     affiliateUrl: "https://www.amazon.com/dp/B0GXXH5KSV?tag=pilatescollective-20",
@@ -67,7 +68,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Herschel Novel Duffle (43L)",
-    price: "$110",
+    price: "$109.99",
     verdict: "Best Accessible Luxury",
     description: "The Novel is Herschel's signature duffle, and its best feature for Pilates is the separate zippered shoe compartment in the end panel, which keeps trainers and damp kit away from clean clothes. The 43-litre body (20.5 × 11.75 × 11 inches) is roomy enough for a weekend, the 600D fabric is made from recycled polyester, and the zips are waterproof. Clean, low-key styling with vegan leather handles. Sold and shipped by Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B0C3B2TWFN?tag=pilatescollective-20",
@@ -133,6 +134,12 @@ const jsonLd = {
   ],
 };
 
+const FAQS = [
+  { q: "What should a luxury Pilates bag include?", a: "A well-designed luxury Pilates bag should have: a main compartment large enough for a rolled mat (or a separate mat sleeve), a separated shoe or wet-kit pocket, internal pockets for keys, card, and phone, water-resistant base material, and a strap configuration comfortable enough for a 20-minute walk to the studio. Bonus: a towel loop, external water bottle pocket, and a padded shoulder strap." },
+  { q: "Is a luxury gym bag a worthwhile investment for Pilates?", a: "Yes, in the same way that a quality mat or legging is worthwhile. A luxury bag made from quality materials will outlast three or four budget alternatives, meaning the cost per year of ownership is comparable or lower. More importantly, a bag you love using reinforces the ritual and intentionality that makes a regular Pilates practice sustainable." },
+  { q: "Which designer brands make the best Pilates bags?", a: "Varley makes the most studio-specific luxury bags, like the Montlake Club Duffle. For fashion-house credibility, Tory Burch's nylon Ella Tote and Marc Jacobs' The Tote are the two designer carryalls you'll see most in studio changing rooms. Herschel's Novel Duffle is the best value, thanks to its separate shoe compartment, and Stoney Clover Lane's Clear Pouchette has become one of the most popular small bags for class." },
+];
+
 export default function BestDesignerPilatesBagPage() {
   return (
     <>
@@ -142,83 +149,84 @@ export default function BestDesignerPilatesBagPage() {
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
-              <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490" }}>Studio Essentials</span>
-              <span style={{ color: "#d4c5b5", fontSize: "10px" }}>·</span>
-              <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 400, color: "#b5a99a" }}>9 min read</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Studio Essentials</span>
+              <span style={{ color: "#d9c2ba" }}>·</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Bags</span>
             </div>
-            <h1 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(2rem, 5vw, 3.2rem)", fontWeight: 400, lineHeight: 1.2, color: "#1a1714", marginBottom: "24px" }}>
-              Best Designer &amp; Luxury Pilates Bags (2026)
+            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              Best Designer &amp; Luxury<br /><span style={{ color: "#8b4a31" }}>Pilates Bags (2026)</span>
             </h1>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "16px" }}>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <p className="text-lg leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The bag you carry to the studio is the first and last impression of your practice. For practitioners who have invested in premium kit, a considered bag completes the picture — and the right one transitions from studio changing room to board meeting without drawing a second glance.
             </p>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>
+            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               We assessed six luxury and designer options for functional design, material quality, interior organisation, and the intangible quality of a bag that looks expensive without announcing itself.
-            </p>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.7, borderLeft: "2px solid #d4c5b5", paddingLeft: "16px" }}>
-              This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.
             </p>
           </div>
         </section>
 
         <section className="px-6 mb-8">
-          <div className="max-w-3xl mx-auto">
-            <div style={{ position: "relative", height: "420px", borderRadius: "4px", overflow: "hidden" }}>
-              <Image src="/pictures/stitch-studio-changing-area.png" alt="Best Designer Pilates Bags 2026" fill style={{ objectFit: "cover" }} priority />
+          <div className="max-w-5xl mx-auto">
+            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+              <Image src="/pictures/stitch-studio-changing-area.png" alt="Best Designer Pilates Bags 2026" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <div style={{ backgroundColor: "#faf7f4", border: "1px solid #e8e0d6", borderRadius: "4px", padding: "28px 32px", marginBottom: "48px" }}>
-              <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "20px" }}>Quick Picks</h2>
-              {PRODUCTS.map((p) => (
-                <div key={p.rank} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", paddingBottom: "12px", marginBottom: "12px", borderBottom: "1px solid #ede6dc" }}>
-                  <div>
-                    <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#b5a99a", marginRight: "10px" }}>{p.rank}</span>
-                    <span style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 400, color: "#1a1714" }}>{p.name}</span>
+
+            <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks: At a Glance</p>
+              </div>
+              {PRODUCTS.map((p, i) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
                   </div>
-                  <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 300, color: "#9a9490" }}>{p.verdict}</span>
+                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
+                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  >Shop Now →</a>
                 </div>
               ))}
             </div>
 
-            <div style={{ display: "flex", flexDirection: "column", gap: "48px" }}>
-              {PRODUCTS.map((p) => (
-                <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "36px" }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", marginBottom: "8px" }}>
-                    <div style={{ display: "flex", alignItems: "baseline", gap: "14px" }}>
-                      <span style={{ fontFamily: "var(--font-serif)", fontSize: "13px", color: "#c5a882" }}>{p.rank}</span>
-                      <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "1.3rem", fontWeight: 400, color: "#1a1714", margin: 0 }}>{p.name}</h3>
+            <div className="mb-16">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Bags · Compared</p>
+              <div className="space-y-10">
+                {PRODUCTS.map((p) => (
+                  <div key={p.name}>
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
                     </div>
-                    <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#c5a882", whiteSpace: "nowrap" }}>{p.price}</span>
+                    <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} ctaLabel="Shop Now →" />
                   </div>
-                  <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
-                    {p.affiliateUrl.includes("amazon.com") ? "Shop on Amazon" : "Shop Direct"}
-                  </a>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
 
-            <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
-              {[
-                { q: "What should a luxury Pilates bag include?", a: "A well-designed luxury Pilates bag should have: a main compartment large enough for a rolled mat (or a separate mat sleeve), a separated shoe or wet-kit pocket, internal pockets for keys, card, and phone, water-resistant base material, and a strap configuration comfortable enough for a 20-minute walk to the studio. Bonus: a towel loop, external water bottle pocket, and a padded shoulder strap." },
-                { q: "Is a luxury gym bag a worthwhile investment for Pilates?", a: "Yes, in the same way that a quality mat or legging is worthwhile. A luxury bag made from quality materials will outlast three or four budget alternatives, meaning the cost per year of ownership is comparable or lower. More importantly, a bag you love using reinforces the ritual and intentionality that makes a regular Pilates practice sustainable." },
-                { q: "Which designer brands make the best Pilates bags?", a: "Varley makes the most studio-specific luxury bags, like the Montlake Club Duffle. For fashion-house credibility, Tory Burch's nylon Ella Tote and Marc Jacobs' The Tote are the two designer carryalls you'll see most in studio changing rooms. Herschel's Novel Duffle is the best value, thanks to its separate shoe compartment, and Stoney Clover Lane's Clear Pouchette has become one of the most popular small bags for class." },
-              ].map((item) => (
-                <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
-                  <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#4a4540", lineHeight: 1.75 }}>{item.a}</p>
-                </div>
-              ))}
+            <div className="mb-16">
+              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <div className="space-y-6">
+                {FAQS.map((item) => (
+                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  </div>
+                ))}
+              </div>
             </div>
 
-            <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
+            <div>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Studio Bag for Women" excerpt="The full bag roundup — totes, duffles, and backpacks for every budget and studio type." href="/blog/best-pilates-studio-bag-women" category="Studio Essentials" readTime="8 min" imageUrl="/pictures/stitch-studio-changing-area.png" />
                 <ArticleCard title="Best Luxury Pilates Leggings (2026)" excerpt="Wolford, Splits59, Varley, and Alo Yoga — the investment-grade leggings for serious practitioners." href="/blog/best-luxury-pilates-leggings" category="Clothing" readTime="10 min" imageUrl="/pictures/stitch-retail-activewear.png" />
