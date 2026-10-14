@@ -7,6 +7,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 import { BF_DATES, BF_GUIDES, BF_PRICES_CHECKED, BF_PRICES_CHECKED_ISO } from "@/lib/blackFriday";
+import { CM_DATE, CM_GUIDES, XMAS_DATE, XMAS_GUIDES, SEASONAL_PRICES_CHECKED, SEASONAL_PRICES_CHECKED_ISO } from "@/lib/seasonalGuides";
 
 export type DealItem = {
   asin: string;
@@ -14,6 +15,7 @@ export type DealItem = {
   price: string;
   badge: string;
   note: string;
+  lowStock?: boolean;
 };
 
 export type DealSection = {
@@ -40,7 +42,57 @@ export type DealsGuideProps = {
   faqs: { q: string; a: string }[];
   guides?: { label: string; href: string }[];
   ctaPlaceholder?: string;
+  season?: "black-friday" | "cyber-monday" | "christmas";
+  datePublished?: string;
 };
+
+type Related = { href: string; title: string; excerpt: string; imageUrl: string; group: string };
+
+// Per-season wording. Black Friday keeps the original copy and dates.
+const SEASONS = {
+  "black-friday": {
+    label: "Black Friday 2026",
+    checked: BF_PRICES_CHECKED,
+    checkedIso: BF_PRICES_CHECKED_ISO,
+    disclaimer: "*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The prices shown are the current Amazon prices we checked, not sale prices — we are tracking these listings and will update this page as Black Friday deals go live.",
+    dates: [{ label: "Black Friday", value: BF_DATES.blackFriday }, { label: "Cyber Monday", value: BF_DATES.cyberMonday }],
+    listLabel: "The watchlist — price to beat",
+    cta: "Check price →",
+    tipsHeading: "How to tell a real Black Friday deal",
+    relatedHeading: "More Black Friday 2026 guides",
+    related: BF_GUIDES as Related[],
+    cardDate: "November 2026",
+    section: "Deals",
+  },
+  "cyber-monday": {
+    label: "Cyber Monday 2026",
+    checked: SEASONAL_PRICES_CHECKED,
+    checkedIso: SEASONAL_PRICES_CHECKED_ISO,
+    disclaimer: "*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Prices shown are today's Amazon prices, not sale prices. We are tracking these listings and will update this page with real Cyber Monday deals before the day.",
+    dates: [{ label: "Black Friday", value: BF_DATES.blackFriday }, { label: "Cyber Monday", value: CM_DATE }],
+    listLabel: "The watchlist: price to beat",
+    cta: "Check price →",
+    tipsHeading: "How to tell a real Cyber Monday deal",
+    relatedHeading: "More Cyber Monday 2026 guides",
+    related: [...CM_GUIDES, ...BF_GUIDES.slice(0, 2)] as Related[],
+    cardDate: "November 2026",
+    section: "Deals",
+  },
+  christmas: {
+    label: "Christmas 2026",
+    checked: SEASONAL_PRICES_CHECKED,
+    checkedIso: SEASONAL_PRICES_CHECKED_ISO,
+    disclaimer: "*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Prices are today's Amazon prices and can change; we will refresh them ahead of the holidays.",
+    dates: [{ label: "Cyber Monday", value: CM_DATE }, { label: "Christmas Day", value: XMAS_DATE }],
+    listLabel: "The gift list at a glance",
+    cta: "Shop Now →",
+    tipsHeading: "How to choose a Pilates gift",
+    relatedHeading: "More Pilates gift guides",
+    related: [...XMAS_GUIDES, CM_GUIDES[4]] as Related[],
+    cardDate: "December 2026",
+    section: "Gift Guides",
+  },
+} as const;
 
 const SITE = "https://pilatescollectiveclub.com";
 const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
@@ -57,7 +109,8 @@ export default function DealsGuide(props: DealsGuideProps) {
   const pageUrl = `${SITE}/blog/${props.slug}`;
   const heroUrl = `${SITE}${props.heroImage}`;
   const allItems = props.sections.flatMap((s) => s.items);
-  const related = BF_GUIDES.filter((g) => g.href !== `/blog/${props.slug}`);
+  const season = SEASONS[props.season ?? "black-friday"];
+  const related = season.related.filter((g) => g.href !== `/blog/${props.slug}`);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -75,11 +128,11 @@ export default function DealsGuide(props: DealsGuideProps) {
           "name": "Pilates Collective Club",
           "logo": { "@type": "ImageObject", "url": `${SITE}/pictures/pcc-logo.png` },
         },
-        "datePublished": "2026-10-10",
-        "dateModified": BF_PRICES_CHECKED_ISO,
+        "datePublished": props.datePublished ?? "2026-10-10",
+        "dateModified": season.checkedIso,
         "url": pageUrl,
         "mainEntityOfPage": pageUrl,
-        "articleSection": "Deals",
+        "articleSection": season.section,
         "inLanguage": "en-US",
       },
       {
@@ -93,7 +146,7 @@ export default function DealsGuide(props: DealsGuideProps) {
             "@type": "Product",
             "name": p.name,
             "description": p.note,
-            "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": "https://schema.org/InStock", "url": amz(p.asin) },
+            "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": p.lowStock ? "https://schema.org/LimitedAvailability" : "https://schema.org/InStock", "url": amz(p.asin) },
           },
         })),
       },
@@ -120,15 +173,15 @@ export default function DealsGuide(props: DealsGuideProps) {
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Black Friday 2026</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>{season.label}</span>
               <span style={{ color: "#d9c2ba" }}>·</span>
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{props.eyebrow}</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               {props.h1}<br /><span style={{ color: "#8b4a31" }}>{props.h1Accent}</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked {BF_PRICES_CHECKED} · {props.readTime}</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The prices shown are the current Amazon prices we checked, not sale prices — we are tracking these listings and will update this page as Black Friday deals go live.</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked {season.checked} · {props.readTime}</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{season.disclaimer}</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>{props.intro}</p>
           </div>
@@ -148,9 +201,8 @@ export default function DealsGuide(props: DealsGuideProps) {
             {/* Key dates */}
             <div className="mb-12 mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
               {[
-                { label: "Black Friday", value: BF_DATES.blackFriday },
-                { label: "Cyber Monday", value: BF_DATES.cyberMonday },
-                { label: "Baseline prices checked", value: BF_PRICES_CHECKED },
+                ...season.dates,
+                { label: "Baseline prices checked", value: season.checked },
               ].map((d) => (
                 <div key={d.label} className="rounded-xl p-4" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
                   <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={eyebrowStyle}>{d.label}</p>
@@ -162,7 +214,7 @@ export default function DealsGuide(props: DealsGuideProps) {
             {/* Watchlist table */}
             <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>The watchlist — price to beat</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>{season.listLabel}</p>
               </div>
               {allItems.map((p, i) => (
                 <div key={p.asin} className="flex items-center gap-3 sm:gap-4 px-6 py-3" style={rowStyle(i)}>
@@ -172,7 +224,7 @@ export default function DealsGuide(props: DealsGuideProps) {
                   </div>
                   <a href={amz(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Check price →</a>
+                  >{season.cta}</a>
                 </div>
               ))}
             </div>
@@ -192,7 +244,7 @@ export default function DealsGuide(props: DealsGuideProps) {
                       <div className="flex items-center gap-3 mb-4">
                         <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
                       </div>
-                      <ProductCard name={p.name} description={p.note} price={p.price} affiliateUrl={amz(p.asin)} />
+                      <ProductCard name={p.name} description={p.note} price={p.price} affiliateUrl={amz(p.asin)} ctaLabel={props.season && props.season !== "black-friday" ? "Shop Now →" : undefined} />
                     </div>
                   ))}
                 </div>
@@ -202,7 +254,7 @@ export default function DealsGuide(props: DealsGuideProps) {
             {/* How to judge a deal */}
             <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>Before you buy</p>
-              <h2 className="text-2xl font-semibold mb-4" style={h2Style}>How to tell a real Black Friday deal</h2>
+              <h2 className="text-2xl font-semibold mb-4" style={h2Style}>{season.tipsHeading}</h2>
               <ul className="space-y-3">
                 {props.watchFor.map((w) => (
                   <li key={w.h} className="text-sm leading-relaxed" style={bodyStyle}>
@@ -239,10 +291,10 @@ export default function DealsGuide(props: DealsGuideProps) {
 
             {/* All Black Friday guides */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>More Black Friday 2026 guides</h2>
+              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>{season.relatedHeading}</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {related.map((g) => (
-                  <ArticleCard key={g.href} title={g.title} excerpt={g.excerpt} href={g.href} category={g.group} readTime="Deals" date="November 2026" imageUrl={g.imageUrl} />
+                  <ArticleCard key={g.href} title={g.title} excerpt={g.excerpt} href={g.href} category={g.group} readTime={season.section} date={season.cardDate} imageUrl={g.imageUrl} />
                 ))}
               </div>
             </div>

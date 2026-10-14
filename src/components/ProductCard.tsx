@@ -8,10 +8,11 @@ interface ProductCardProps {
   price?: string;
   affiliateUrl?: string;
   imageUrl?: string;
+  ctaLabel?: string;
 }
 
-export default function ProductCard({ name, description, price, affiliateUrl = "#", imageUrl }: ProductCardProps) {
-  const buttonLabel = /amazon\.[a-z.]+\//.test(affiliateUrl) ? "Shop on Amazon" : "Shop Direct";
+export default function ProductCard({ name, description, price, affiliateUrl = "#", imageUrl, ctaLabel }: ProductCardProps) {
+  const buttonLabel = ctaLabel ?? (/amazon\.[a-z.]+\//.test(affiliateUrl) ? "Shop on Amazon" : "Shop Direct");
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       {imageUrl && (

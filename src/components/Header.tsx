@@ -26,6 +26,16 @@ const SHOP_CATEGORIES = [
     ],
   },
   {
+    label: "Cyber Monday",
+    links: [
+      { label: "Cyber Monday Deals Hub", href: "/blog/cyber-monday-pilates-deals" },
+      { label: "Reformer Deals", href: "/blog/cyber-monday-pilates-reformer-deals" },
+      { label: "Equipment Deals", href: "/blog/cyber-monday-pilates-equipment-deals" },
+      { label: "Clothing Deals", href: "/blog/cyber-monday-pilates-clothing-deals" },
+      { label: "Gift Deals", href: "/blog/cyber-monday-pilates-gift-deals" },
+    ],
+  },
+  {
     label: "Reformers",
     links: [
       { label: "Best Home Reformers", href: "/blog/best-home-pilates-reformer" },
@@ -128,10 +138,14 @@ const SHOP_CATEGORIES = [
     label: "Gift Guides",
     links: [
       { label: "Christmas Gifts", href: "/blog/best-pilates-christmas-gifts" },
+      { label: "Stocking Stuffers", href: "/blog/pilates-stocking-stuffers" },
+      { label: "Secret Santa Gifts", href: "/blog/pilates-secret-santa-gifts" },
+      { label: "Reformer Pilates Gifts", href: "/blog/best-reformer-pilates-gifts" },
       { label: "Reformer as a Gift", href: "/blog/best-pilates-reformer-gift" },
       { label: "Reformer Gift Under $500", href: "/blog/best-pilates-reformer-gift-under-500" },
       { label: "Gift Sets & Bundles", href: "/blog/best-pilates-gift-sets" },
-      { label: "Gifts for Her", href: "/blog/best-pilates-gifts-for-girlfriend" },
+      { label: "Gifts for Her", href: "/blog/best-pilates-gifts-for-her" },
+      { label: "Gifts for Girlfriend", href: "/blog/best-pilates-gifts-for-girlfriend" },
       { label: "Gifts for Him", href: "/blog/best-pilates-gifts-for-him" },
       { label: "Gifts for Mom", href: "/blog/best-pilates-gifts-for-mom" },
       { label: "Gifts for Instructor", href: "/blog/best-pilates-gifts-for-pilates-instructor" },
