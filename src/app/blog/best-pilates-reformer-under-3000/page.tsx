@@ -133,7 +133,7 @@ const GUIDE: EquipmentGuideProps = {
         ["PersonalHour Janet La Force Plus", "$2,555", "Solid walnut", "6 springs", "Folds upright", "92\" L; 120 lb"],
         ["PersonalHour Nano Elite Plus", "$2,690", "Layered maple, 2\"", "Not stated", "Fixed", "91\" L; 290 lb"],
         ["PersonalHour Nour 2.0", "$1,480", "Hand-finished wood", "Not stated", "Fixed", "90\" L; 100 lb"],
-        ["DELAVIN with tower", "$1,249.99", "Solid wood + steel tower", "Not stated", "Fixed", "90.5\" L; 287 lb"],
+        ["DELAVIN with tower", "$1,229.99", "Solid wood + steel tower", "Not stated", "Fixed", "90.5\" L; 287 lb"],
         ["PAETA with tower", "$1,299.99", "Oak + steel tubing", "Piano-wire springs", "Fixed", "Ships in 3 boxes"],
       ],
       note: "Where a listing does not state a spec, we say so rather than guess.",
@@ -163,7 +163,7 @@ const GUIDE: EquipmentGuideProps = {
   faqs: [
     { q: "What is the best Pilates reformer under $3,000?", a: "For most home buyers, the Align-Pilates C8-PRO ($2,750 on Amazon). It uses the same springs as Align's professional machines, has an 8-wheel PU carriage and stacks for storage. If space is tight, Balanced Body's Metro IQ ($2,330) telescopes down to 62 inches." },
     { q: "Is a $3,000 reformer worth it over a $500 one?", a: "If you practise several times a week, usually yes. Machines in this band use real springs, sturdier frames and studio-style carriages, and established brands hold resale value. Budget machines are fine to start, but often use cords and lighter frames." },
-    { q: "Can I get a reformer with a tower under $3,000?", a: "Yes. The DELAVIN Solid Wood Reformer with Tower ($1,249.99) and the PAETA Wooden Reformer with Tower & Mat ($1,299.99) both include a tower. They are from newer brands, so check warranty terms on the listing." },
+    { q: "Can I get a reformer with a tower under $3,000?", a: "Yes. The DELAVIN Solid Wood Reformer with Tower ($1,229.99) and the PAETA Wooden Reformer with Tower & Mat ($1,299.99) both include a tower. They are from newer brands, so check warranty terms on the listing." },
     { q: "Which reformer under $3,000 is best for a small apartment?", a: "The Balanced Body Metro IQ. Its telescoping frame goes from 98 inches in use to 62 inches for storage, and it weighs 85 lb. The PersonalHour Janet La Force Plus, which folds upright on wheels, is the best wood option." },
     { q: "Are wood reformers better than aluminium?", a: "Neither is better across the board. Wood is heavier, quieter-looking and warmer; aluminium is lighter and easier to move. See our wood vs aluminium reformer guide for the full comparison." },
   ],

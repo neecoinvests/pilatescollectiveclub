@@ -88,7 +88,8 @@ const SEASONS = {
     cta: "Shop Now →",
     tipsHeading: "How to choose a Pilates gift",
     relatedHeading: "More Pilates gift guides",
-    related: [...XMAS_GUIDES, CM_GUIDES[4]] as Related[],
+    related: XMAS_GUIDES as Related[],
+    maxRelated: 6,
     cardDate: "December 2026",
     section: "Gift Guides",
   },
@@ -110,7 +111,7 @@ export default function DealsGuide(props: DealsGuideProps) {
   const heroUrl = `${SITE}${props.heroImage}`;
   const allItems = props.sections.flatMap((s) => s.items);
   const season = SEASONS[props.season ?? "black-friday"];
-  const related = season.related.filter((g) => g.href !== `/blog/${props.slug}`);
+  const related = season.related.filter((g) => g.href !== `/blog/${props.slug}`).slice(0, "maxRelated" in season ? season.maxRelated : undefined);
 
   const jsonLd = {
     "@context": "https://schema.org",

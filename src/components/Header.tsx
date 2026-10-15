@@ -138,6 +138,10 @@ const SHOP_CATEGORIES = [
     label: "Gift Guides",
     links: [
       { label: "Christmas Gifts", href: "/blog/best-pilates-christmas-gifts" },
+      { label: "Gifts Over $500", href: "/blog/pilates-christmas-gifts-over-500" },
+      { label: "Home Studio Gift", href: "/blog/home-pilates-studio-christmas-gift" },
+      { label: "Luxury Recovery Gifts", href: "/blog/luxury-recovery-gifts-for-pilates" },
+      { label: "Home Machine Gifts", href: "/blog/best-home-workout-machine-christmas-gift" },
       { label: "Stocking Stuffers", href: "/blog/pilates-stocking-stuffers" },
       { label: "Secret Santa Gifts", href: "/blog/pilates-secret-santa-gifts" },
       { label: "Reformer Pilates Gifts", href: "/blog/best-reformer-pilates-gifts" },

@@ -43,7 +43,7 @@ export const CATALOG = {
     body: "PersonalHour's entry wood reformer: a hand-finished wooden frame, PU wheels for a quiet ride, and an adjustable footbar, at roughly half the price of the brand's flagship machines.",
   },
   delavinTower: {
-    id: "delavin-wood-reformer-tower", name: "DELAVIN Solid Wood Reformer with Tower", brand: "DELAVIN", price: "$1,249.99", url: amz("B0D2ZT4Z5H"),
+    id: "delavin-wood-reformer-tower", name: "DELAVIN Solid Wood Reformer with Tower", brand: "DELAVIN", price: "$1,229.99", url: amz("B0D2ZT4Z5H"),
     availability: "in-stock", soldBy: "Neohome",
     specs: ["One-piece solid wood frame, about 90% pre-assembled", "Stainless steel tower", "7-level adjustable footbar", "5-position pulley tower; push-through and roll-down bars", "Max user weight 440 lb", "90.5\" L × 29.1\" W × 76.4\" H; 287 lb"],
     body: "A reformer and tower in one, with a solid wood frame and a stainless steel tower. It arrives mostly assembled, so you attach the tower and start. A newer brand than the established names, so check warranty terms.",
