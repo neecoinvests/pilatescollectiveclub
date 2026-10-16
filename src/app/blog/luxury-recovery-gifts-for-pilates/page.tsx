@@ -29,7 +29,7 @@ const GUIDE: EquipmentGuideProps = {
   h1Accent: "(2026): 14 Picks",
   readTime: "11 min read",
   updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
-  datePublished: GIFTS_CHECKED_ISO,
+  datePublished: "2026-10-15",
   dateModified: GIFTS_CHECKED_ISO,
   heroImage: HERO,
   heroAlt: "Folded towels on a bench in a Pilates studio",
@@ -82,7 +82,7 @@ const GUIDE: EquipmentGuideProps = {
       items: [
         gift("thermBack", { badge: "Best for Desk Workers", pros: ["Heat, infrared, LED and vibration"], cons: ["Lower back only"] }),
         gift("theragunPrimePlus", { badge: "Best Heated Massage Gun", pros: ["3 heat levels", "Works with Plus attachments"], cons: ["4 attachments vs 6 on the PRO"] }),
-        gift("theragunPro", { badge: "Best Classic Massage Gun", pros: ["6 attachments", "Built-in routines"], cons: ["Low stock"] }),
+        gift("theragunPro", { badge: "Best Classic Massage Gun", pros: ["6 attachments", "Built-in routines"], cons: ["Ships at a later date: check the listing"] }),
         gift("theragunProPlus", { badge: "Best Massage Gun", pros: ["Adds heat and vibration therapy"], cons: ["Cold attachment sold separately"] }),
       ],
     },

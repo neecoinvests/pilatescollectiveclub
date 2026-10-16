@@ -30,7 +30,7 @@ const GUIDE: EquipmentGuideProps = {
   h1Accent: "(2026): Reformers, Towers & Apparatus",
   readTime: "12 min read",
   updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
-  datePublished: GIFTS_CHECKED_ISO,
+  datePublished: "2026-10-15",
   dateModified: GIFTS_CHECKED_ISO,
   heroImage: HERO,
   heroAlt: "A row of Pilates reformers in a studio",
@@ -91,7 +91,6 @@ const GUIDE: EquipmentGuideProps = {
       heading: "Merrithew and premium wood",
       items: [
         item("nanoElitePlus", { badge: "Best Premium Wood", pros: ["2\" layered maple frame", "Box and jumpboard included"], cons: ["290 lb", "Made to order"] }),
-        item("spxHomeStand", { badge: "Best for Upright Storage", pros: ["Vertical stand included", "Box, pole, extender and straps"], cons: ["Low stock"] }),
         item("v2MaxPlus", { badge: "Best Rehab Reformer", pros: ["Raised frame for easier transfers", "Vertical Frame for tower-style work"], cons: ["$8,199", "Made to order"] }),
       ],
     },

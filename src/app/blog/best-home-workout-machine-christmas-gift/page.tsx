@@ -30,7 +30,7 @@ const GUIDE: EquipmentGuideProps = {
   h1Accent: "The Best Home Machine Gifts (2026)",
   readTime: "11 min read",
   updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
-  datePublished: GIFTS_CHECKED_ISO,
+  datePublished: "2026-10-15",
   dateModified: GIFTS_CHECKED_ISO,
   heroImage: HERO,
   heroAlt: "Close-up of reformer springs",

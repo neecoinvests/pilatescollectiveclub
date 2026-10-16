@@ -30,7 +30,7 @@ const GUIDE: EquipmentGuideProps = {
   h1Accent: "(2026): 16 Splurge Gifts",
   readTime: "12 min read",
   updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
-  datePublished: GIFTS_CHECKED_ISO,
+  datePublished: "2026-10-15",
   dateModified: GIFTS_CHECKED_ISO,
   heroImage: HERO,
   heroAlt: "A light-filled Pilates studio at sunset",
@@ -91,7 +91,7 @@ const GUIDE: EquipmentGuideProps = {
       eyebrow: "Luxury recovery",
       heading: "Recovery gifts",
       items: [
-        gift("theragunPro", { badge: "Classic Massage Gun", pros: ["6 attachments", "Built-in routines"], cons: ["Low stock"] }),
+        gift("theragunPro", { badge: "Classic Massage Gun", pros: ["6 attachments", "Built-in routines"], cons: ["Ships at a later date: check the listing"] }),
         gift("jetbootsPrime", { badge: "Best Value Boots", pros: ["Wireless", "Folds into a backpack"], cons: ["Choose the right inseam size"] }),
         gift("normatecHips", { badge: "Best for Hips & Back", pros: ["Cordless", "Up to 4 hours of battery"], cons: ["Hips and lower back only"] }),
         gift("theragunProPlus", { badge: "Best Massage Gun", pros: ["Heat and vibration on top of percussion"], cons: ["Cold attachment sold separately"] }),

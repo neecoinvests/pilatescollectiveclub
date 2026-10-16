@@ -1,12 +1,12 @@
 import type { GuideItem } from "@/components/EquipmentGuide";
 
-// Verified high-value gift listings (Amazon Creators API, checked 2026-10-15).
+// Verified high-value gift listings (Amazon Creators API, checked 2026-10-16).
 // Specs are taken from each listing. Pages spread an entry and override
 // badge/body/pros/cons for their own context. Reformers and studio apparatus
 // live in reformerCatalog.ts.
 
-export const GIFTS_CHECKED = "October 15, 2026";
-export const GIFTS_CHECKED_ISO = "2026-10-15";
+export const GIFTS_CHECKED = "October 16, 2026";
+export const GIFTS_CHECKED_ISO = "2026-10-16";
 
 const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
 
@@ -69,7 +69,7 @@ export const GIFTS = {
   },
   theragunPro: {
     id: "therabody-theragun-pro", name: "Therabody Theragun PRO (5th Gen)", brand: "Therabody", price: "$529.99", url: amz("B0B6RL7NQJ"),
-    availability: "low-stock", soldBy: "TheraGun",
+    availability: "back-order", soldBy: "TheraGun",
     specs: ["Professional-grade deep-tissue massage gun", "6 attachments", "Built-in routines: Sleep, Warm Up, Post Workout Recovery and Theragun Break", "Patented triangle handle; Bluetooth app"],
     body: "The classic professional Theragun, with six attachments and built-in routines for warm-up and recovery.",
   },
@@ -144,6 +144,102 @@ export const GIFTS = {
     availability: "in-stock", soldBy: "PAETA US",
     specs: ["Solid oak frame supporting up to 500 lb, per the listing", "Foldable", "Platform, carriage, adjustable headrest and shoulder pads included", "Sitting box included"],
     body: "A wooden, foldable home reformer with a sitting box, at the gateway price for a real reformer gift.",
+  },
+  appleWatch12: {
+    id: "apple-watch-series-12", name: "Apple Watch Series 12 (GPS, 42mm)", brand: "Apple", price: "$389.99", url: amz("B0HJ9ZXCSD"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["Measures HRV as often as every five minutes, per the listing", "Overnight health metrics in the Vitals app", "Readiness score for the day", "Heart Rate Zones and workout metrics"],
+    body: "Apple's main smartwatch: health, sleep and workout tracking that suits someone who mixes Pilates with walking, running or strength work. The link opens the 42mm Light Gold; other sizes and colours are on the listing.",
+  },
+  appleWatchUltra4: {
+    id: "apple-watch-ultra-4", name: "Apple Watch Ultra 4 (GPS + Cellular, 49mm)", brand: "Apple", price: "$774.00", url: amz("B0HJB6C34Y"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["Black titanium case, 49mm", "GPS + Cellular", "Up to 45 hours of battery in Max Extended mode, per the listing", "HRV, Vitals and readiness tracking"],
+    body: "Apple's toughest, longest-lasting watch, with cellular built in. The luxury pick for someone who trains every day.",
+  },
+  appleWatchSE3: {
+    id: "apple-watch-se-3", name: "Apple Watch SE 3 (GPS, 40mm)", brand: "Apple", price: "$199.99", url: amz("B0HJ9ZNRKT"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["Temperature sensing with Vitals and Cycle Tracking apps", "Workout and step tracking", "Fall and crash detection", "18-hour battery; charges up to twice as fast as SE 2"],
+    body: "The most affordable current Apple Watch, with the essentials for tracking workouts and sleep.",
+  },
+  garminVenu4: {
+    id: "garmin-venu-4", name: "Garmin Venu 4 (41mm)", brand: "Garmin", price: "$549.99", url: amz("B0FRGDGRXY"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["Up to 10 days of battery life", "Stainless steel design with a built-in flashlight", "Sleep score and personalised sleep coaching", "Health status feature tracks heart rate, HRV and skin temperature trends"],
+    body: "Garmin's lifestyle smartwatch: long battery life and detailed health and sleep tracking in a refined 41mm design.",
+  },
+  garminFR970: {
+    id: "garmin-forerunner-970", name: "Garmin Forerunner 970 (47mm, Titanium)", brand: "Garmin", price: "$749.99", url: amz("B0F8QWPVNK"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["AMOLED touchscreen with titanium bezel and sapphire lens", "Up to 15 days in smartwatch mode, 26 hours in GPS mode", "Built-in LED flashlight", "Garmin Coach running and triathlon plans"],
+    body: "Garmin's premium running and triathlon watch, for the Pilates lover who also trains for races.",
+  },
+  galaxyWatch8: {
+    id: "samsung-galaxy-watch-8", name: "Samsung Galaxy Watch 8 (44mm)", brand: "Samsung", price: "$324.71", url: amz("B0F7PZNZQD"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["Advanced sleep coaching", "Running Coach with real-time feedback", "Rotating bezel and Quick Button", "Lighter, thinner design than before, per the listing"],
+    body: "The best smartwatch for Android phone users, with sleep coaching and an energy score.",
+  },
+  whoopOne: {
+    id: "whoop-one", name: "WHOOP 5.0 with 12-Month WHOOP One Membership", brand: "WHOOP", price: "$199.00", url: amz("B0DY2VVZWZ"),
+    availability: "in-stock", soldBy: "WHOOP AUTHORIZED",
+    specs: ["Price is a 12-month membership; the WHOOP 5.0 device is included", "Screenless design for 24/7 wear", "Sleep tracking including REM and deep sleep", "14+ day battery life"],
+    body: "A screenless band that tracks sleep, strain and recovery. The price covers a full year of membership with the device included.",
+  },
+  whoopLife: {
+    id: "whoop-life", name: "WHOOP MG with 12-Month WHOOP Life Membership", brand: "WHOOP", price: "$359.00", url: amz("B0DY2PB7RB"),
+    availability: "in-stock", soldBy: "WHOOP AUTHORIZED",
+    specs: ["Price is a 12-month WHOOP Life membership; the WHOOP MG device is included", "On-demand ECG to check for signs of AFib, per the listing", "WHOOP AI coaching across 140+ metrics", "HSA/FSA eligible, per the listing"],
+    body: "WHOOP's top tier, adding ECG and heart health features to sleep and recovery tracking.",
+  },
+  airpodsPro3: {
+    id: "apple-airpods-pro-3", name: "Apple AirPods Pro 3", brand: "Apple", price: "$199.00", url: amz("B0FQFB8FMG"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["Active noise cancellation, up to 2x more than AirPods Pro 2, per the listing", "Built-in heart rate sensing for 50 workout types", "Live Translation with Apple Intelligence"],
+    body: "Apple's best earbuds, now with heart rate sensing for workouts.",
+  },
+  powerbeatsPro2: {
+    id: "beats-powerbeats-pro-2", name: "Beats Powerbeats Pro 2", brand: "Beats", price: "$249.00", url: amz("B0DT2344N3"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["Secure-fit earhooks", "Active noise cancelling", "Heart rate sensors in the earbuds", "Up to 45 hours with the charging case"],
+    body: "Workout earbuds with earhooks that stay put through planks, jumps and rolling work.",
+  },
+  boseQCUltra2: {
+    id: "bose-quietcomfort-ultra-earbuds-2", name: "Bose QuietComfort Ultra Earbuds (2nd Gen)", brand: "Bose", price: "$299.00", url: amz("B0F7M3HPBD"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["Bose's best noise cancellation in earbuds, per the listing", "CustomTune adapts to the shape of your ears", "Bose Immersive Audio", "IPX4 rated"],
+    body: "Premium noise-cancelling earbuds for the commute to class and everything after.",
+  },
+  hypervolt3Pro: {
+    id: "hyperice-hypervolt-3-pro", name: "Hyperice Hypervolt 3 Pro (Heated Head)", brand: "Hyperice", price: "$349.00", url: amz("B0G82HR62V"),
+    availability: "in-stock", soldBy: "Hyperice",
+    specs: ["6 speeds", "5 attachments including a Heated Head", "4-hour battery; Bluetooth to the Hyperice app", "2.5 lb; carry case included"],
+    body: "Hyperice's professional massage gun, now with a heated attachment.",
+  },
+  marcyMat: {
+    id: "marcy-equipment-floor-mat", name: "Marcy Equipment Mat & Floor Protector (78\" x 36\")", brand: "Marcy", price: "$42.29", url: amz("B0041GQH3S"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["78\" \u00d7 36\" \u00d7 0.25\" EVA foam", "Absorbs impact and protects floors", "Non-slip surface to stabilise machines"],
+    body: "A floor protector to put under a home machine. Measure the machine first: the Micro with its rear platform is 81.5 inches long, per Lagree Fitness.",
+  },
+  taviGloves: {
+    id: "tavi-half-finger-gloves", name: "TAVI Half Finger Grip Gloves", brand: "TAVI", price: "$31.99", url: amz("B09GPVMF86"),
+    availability: "in-stock", soldBy: "The Active Footwear Store",
+    specs: ["Half-finger design with full palm coverage", "Extra grip and blister protection", "For Pilates, barre, yoga and weights"],
+    body: "Grippy half-finger gloves that many Lagree regulars wear for planks on the carriage and platform.",
+  },
+  taviSocks: {
+    id: "tavi-stacy-slouch-socks", name: "TAVI Stacy Slouch Grip Socks (2-Pack)", brand: "TAVI", price: "$40.00", url: amz("B0GFPGMWWS"),
+    availability: "in-stock", soldBy: "The Active Footwear Store",
+    specs: ["Patented triangle grip pattern", "Certified organic cotton knit", "Two pairs"],
+    body: "Stylish grip socks from a studio favourite brand, the finishing touch for a Lagree gift.",
+  },
+  lagreeHoodie: {
+    id: "i-love-lagree-hoodie", name: "I Love Lagree Pullover Hoodie", brand: "Dreadful Scrawl", price: "$31.99", url: amz("B0CY821PTP"),
+    availability: "in-stock", soldBy: "Amazon.com",
+    specs: ["Classic fit pullover hoodie", "Pouch pocket and double-lined hood", "'I love Lagree' design"],
+    body: "A fun fan hoodie to wrap with the machine. It is fan merchandise, not official Lagree Fitness apparel.",
   },
 } satisfies Record<string, Base>;
 

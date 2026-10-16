@@ -17,6 +17,8 @@ const SHOP_CATEGORIES = [
     links: [
       { label: "Black Friday Deals Hub", href: "/blog/black-friday-pilates-deals" },
       { label: "Reformer Deals", href: "/blog/black-friday-pilates-reformer-deals" },
+      { label: "Studio Reformer Deals", href: "/blog/black-friday-cyber-monday-studio-reformer-deals" },
+      { label: "Recovery Deals", href: "/blog/black-friday-cyber-monday-recovery-deals" },
       { label: "Pilates Clothing Deals", href: "/blog/black-friday-pilates-clothing-deals" },
       { label: "Pilates Gifts Under $50", href: "/blog/black-friday-pilates-gifts-under-50" },
       { label: "Equipment Price Guide", href: "/blog/pilates-equipment-black-friday-guide" },
@@ -30,6 +32,8 @@ const SHOP_CATEGORIES = [
     links: [
       { label: "Cyber Monday Deals Hub", href: "/blog/cyber-monday-pilates-deals" },
       { label: "Reformer Deals", href: "/blog/cyber-monday-pilates-reformer-deals" },
+      { label: "Studio Reformer Deals", href: "/blog/black-friday-cyber-monday-studio-reformer-deals" },
+      { label: "Recovery Deals", href: "/blog/black-friday-cyber-monday-recovery-deals" },
       { label: "Equipment Deals", href: "/blog/cyber-monday-pilates-equipment-deals" },
       { label: "Clothing Deals", href: "/blog/cyber-monday-pilates-clothing-deals" },
       { label: "Gift Deals", href: "/blog/cyber-monday-pilates-gift-deals" },
@@ -142,6 +146,9 @@ const SHOP_CATEGORIES = [
       { label: "Home Studio Gift", href: "/blog/home-pilates-studio-christmas-gift" },
       { label: "Luxury Recovery Gifts", href: "/blog/luxury-recovery-gifts-for-pilates" },
       { label: "Home Machine Gifts", href: "/blog/best-home-workout-machine-christmas-gift" },
+      { label: "Lagree Micro Gift", href: "/blog/lagree-micro-christmas-gift" },
+      { label: "Fitness Tech Gifts", href: "/blog/fitness-tech-gifts-for-pilates-lovers" },
+      { label: "Luxury Gifts for Him", href: "/blog/luxury-fitness-gifts-for-him" },
       { label: "Stocking Stuffers", href: "/blog/pilates-stocking-stuffers" },
       { label: "Secret Santa Gifts", href: "/blog/pilates-secret-santa-gifts" },
       { label: "Reformer Pilates Gifts", href: "/blog/best-reformer-pilates-gifts" },
