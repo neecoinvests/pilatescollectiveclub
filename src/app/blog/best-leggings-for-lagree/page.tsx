@@ -77,7 +77,7 @@ const PRODUCTS = [
     verdict: "Best option for men",
     description:
       "Men often arrive at their first Lagree class in loose gym shorts and discover within ten minutes why that does not work: loose fabric rides up in a lunge, can catch on the carriage edge or springs, and leaves bare skin on vinyl in kneeling positions, which sticks and leaves sweat on a shared machine. A fitted legging fixes all of it, and Under Armour's HeatGear Armour legging is the straightforward, widely available option. HeatGear is the name Under Armour gives its warm-conditions gear, which suits a studio that runs hot. Wear it on its own or under a short, whichever you are comfortable with. A fitted leg also lets your instructor see your hip and knee alignment, which is half the value of a coached class. If you prefer shorts, see our Lagree shorts guide, which includes men's options with a built-in liner.",
-    affiliateUrl: "https://www.amazon.com/dp/B0874X381F?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0874W7Z7R?tag=pilatescollective-20",
     tag: "Best for Men",
   },
 ];

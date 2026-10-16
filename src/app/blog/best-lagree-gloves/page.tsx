@@ -72,10 +72,10 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "MhIL Workout Gloves with Wrist Wraps",
-    price: "$9.99",
+    price: "$8.99",
     verdict: "Best gloves with wrist support",
     description:
-      "Lagree uses a lot of plank variations, held slowly and for long sets, and that puts sustained load through the wrists in extension. If your wrists are the first thing to complain, a glove with an integrated wrist wrap gives you some support and palm coverage in one piece. That is the appeal of this MhIL glove: a workout glove with built-in wrist wraps for $9.99. It is a gym glove rather than a studio glove, so it is chunkier than the yoga-style options above; that is the trade-off for the support. Wrap the wrist firmly but not tightly enough to cut off circulation, and loosen it between plank sequences. Persistent wrist pain is a reason to see a professional, not just to add support.",
+      "Lagree uses a lot of plank variations, held slowly and for long sets, and that puts sustained load through the wrists in extension. If your wrists are the first thing to complain, a glove with an integrated wrist wrap gives you some support and palm coverage in one piece. That is the appeal of this MhIL glove: a workout glove with built-in wrist wraps for $8.99. It is a gym glove rather than a studio glove, so it is chunkier than the yoga-style options above; that is the trade-off for the support. Wrap the wrist firmly but not tightly enough to cut off circulation, and loosen it between plank sequences. Persistent wrist pain is a reason to see a professional, not just to add support.",
     affiliateUrl: "https://www.amazon.com/dp/B08R6CB2K6?tag=pilatescollective-20",
     tag: "Best Wrist Support",
   },

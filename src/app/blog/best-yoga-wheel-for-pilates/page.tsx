@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "NGT 13-Inch Yoga Wheel",
-    price: "$33.19",
+    price: "$34.99",
     verdict: "Best for back pain relief and gentle stretching",
     description:
       "New Guider Sports builds this one at 13 inches, a touch larger than the more common 12-inch standard, which produces a slightly gentler, broader extension curve rather than a sharp arch. That makes it a sensible pick for anyone using a wheel specifically for back pain relief and stretching rather than for pushing deep into end-range extension — a wider curve spreads the load over more of the spine instead of concentrating it at one point. It is a single fixed-size wheel rather than a set, so it suits someone who already knows roughly what curve they want and does not need to shop across multiple diameters.",

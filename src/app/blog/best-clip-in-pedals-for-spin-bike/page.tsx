@@ -42,11 +42,11 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "BUCKLOS Bike Clip Pedals (Peloton/Delta/SPD)",
-    price: "$39.99",
+    price: "$53.99",
     verdict: "Best if you're not sure which cleat standard you need",
     description:
       "BUCKLOS builds these as multi-cleat compatible, working across Peloton, Delta, and SPD cleat types. That matters most for households where the bike gets ridden by more than one person with different shoes, or for anyone replacing worn stock pedals without wanting to also commit to a new shoe-and-cleat system right away. Being compatible across standards means you can switch which cleat type you ride without buying a second set of pedals. As with any indoor pedal, confirm the 9/16 inch spindle fits your bike before ordering.",
-    affiliateUrl: "https://www.amazon.com/dp/B0DL5R9FB4?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0DLZP1T3J?tag=pilatescollective-20",
     tag: "Best Multi-Cleat Compatible",
   },
   {
@@ -62,17 +62,17 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Dual-Sided Clip-in Pedals (Peloton/Delta/SPD)",
-    price: "$35.99",
+    price: "$39.99",
     verdict: "Best budget pick",
     description:
-      "This dual-sided pedal covers Peloton, Delta, and SPD cleats and clips in from either face, so you don't have to flip the pedal to find the right side. At just under $36, it's the lowest-cost option here that still covers all three major cleat standards, making it a sensible starting point if you want broad compatibility without paying a premium for it.",
-    affiliateUrl: "https://www.amazon.com/dp/B0F2NBBC49?tag=pilatescollective-20",
+      "This dual-sided pedal covers Peloton, Look Delta and Shimano SPD cleats, with a different clip standard on each side, per the listing. That makes it easy for riders with different shoes to share one bike, and it installs with a standard pedal wrench. At $39.99 it is an affordable way to cover all three major cleat standards.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DQVHH9LG?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
   {
     rank: "05",
     name: "BUCKLOS Mountain Bike Clip/Flat Combo Pedals",
-    price: "$35.09",
+    price: "$38.18",
     verdict: "Best flat-and-clip combo pedal",
     description:
       "This BUCKLOS pedal pairs an SPD-cleat-compatible clip side with a flat platform on the reverse, the same combo-pedal logic that makes sense for any shared bike: clip in with cycling shoes, or ride flat in trainers, on the same pedal without swapping hardware. It's built to mountain-bike pedal standards, which typically means a wider platform than road-oriented pedals — useful if you want a bit more foot support on the flat side during longer sessions.",

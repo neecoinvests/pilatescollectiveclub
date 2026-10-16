@@ -92,7 +92,7 @@ const PRODUCTS = [
   {
     rank: "07",
     name: "AeroPilates 287 Reformer",
-    price: "$256.49",
+    price: "$359.00",
     verdict: "Most affordable entry-level option",
     description:
       "The AeroPilates 287 is the lowest-priced reformer in this guide and a reasonable starting point for a practitioner in a genuinely small space who wants to try reformer Pilates before a larger investment. It uses elastic cord resistance, and the resistance range is suitable for beginners and maintenance practice, though it will feel limiting as proficiency develops. We could not verify specific carriage length or fold behaviour for this listing — check the current Amazon page for those details.",

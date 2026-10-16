@@ -86,7 +86,7 @@ const SHORTS: Pick[] = [
     role: "Best Tights",
     name: "Under Armour Men's HeatGear Armour Leggings",
     price: "$28.00",
-    url: amz("B0874X381F"),
+    url: amz("B0874W7Z7R"),
     description:
       "Compression-fit, super-light HeatGear leggings with a 28\" inseam, ergonomic seams and a side drop-in pocket. Wear them alone or under shorts — full coverage for kneeling on the carriage, and nothing rides up. Sold by Amazon.com.",
   },
@@ -124,7 +124,7 @@ const TOPS: Pick[] = [
     id: "tacvasen-tank",
     role: "Best Tank",
     name: "TACVASEN Men's Sleeveless Workout Shirt",
-    price: "$9.99",
+    price: "$12.99",
     url: amz("B0C6T8MFPT"),
     description:
       "A tagless, crew-neck sleeveless shirt in an 89% polyester, 11% spandex blend with 4-way stretch, quick-dry fabric. A close fit and no sleeves mean nothing flaps around in plank.",

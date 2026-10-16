@@ -122,7 +122,7 @@ const PICKS: Pick[] = [
     shortName: "Fleece crop hoodie",
     name: "THE GYM PEOPLE Fleece-Lined Full-Zip Crop Hoodie",
     price: "$19.99",
-    url: amz("B0BD5D5QLH"),
+    url: amz("B0BD51NP2R"),
     verdict: "For the walk home in winter",
     description:
       "Fleece-lined, waist-length and full-zip, with thumbholes and a kangaroo pocket. Moderate stretch, so it is a cover-up for before and after class rather than something to train in. Sold by THE GYM PEOPLE.",

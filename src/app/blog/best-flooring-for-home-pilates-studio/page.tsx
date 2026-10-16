@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Haulcove EVA Foam Floor Tiles (18 pc)",
-    price: "$19.99",
+    price: "$24.99",
     verdict: "Best budget starter set",
     description:
       "The Haulcove set is the cheapest way onto this list and the obvious starting point if you're flooring a single corner rather than a whole room. Eighteen interlocking EVA foam tiles from Haulcove US give you a practical practice area for mat work without committing to a full-room budget. Because the tiles interlock, you can buy a second pack later and extend the coverage as the space you've given over to practice grows, rather than needing to plan the whole room out from day one.",

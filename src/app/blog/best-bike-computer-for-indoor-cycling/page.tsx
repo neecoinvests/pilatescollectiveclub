@@ -32,7 +32,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "CooSpo CS600 GPS Bike Computer",
-    price: "$92.29",
+    price: "$98.78",
     verdict: "Best overall cycling computer for indoor use",
     description:
       "The CooSpo CS600 pairs a full color touchscreen with both Bluetooth and ANT+ connectivity, so it reads sensors and apps most other computers can, and it adds bike radar support for anyone who also rides outdoors and wants rear-approach alerts built into the same device. The touchscreen makes navigating live data during a session more direct than button-only units, and the dual-protocol connectivity means it isn't locked into a single sensor ecosystem. The best all-round choice for riders who want one capable head unit rather than a phone mount or a stripped-down display.",
@@ -72,7 +72,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "BKVTOP Wireless GPS Bike Computer",
-    price: "$39.95",
+    price: "$35.96",
     verdict: "Best lightest-weight budget option",
     description:
       "The BKVTOP is a wireless GPS computer weighing around 50 grams — even lighter than the CYCPLUS G1 — at the lowest price on this list. For riders who want the smallest, least noticeable head unit on the handlebar and don't need a touchscreen or navigation features, this is the most minimal and affordable way to get live ride data during indoor sessions.",

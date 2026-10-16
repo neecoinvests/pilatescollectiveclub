@@ -128,7 +128,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Gaiam Core Sliding Discs (Set of 2)",
           "badge": "Best sliders",
           "note": "Dual-sided sliding discs for any floor.",
-          "price": "$10.99"
+          "price": "$16.99"
         },
         {
           "asin": "B0GSJHPSQT",

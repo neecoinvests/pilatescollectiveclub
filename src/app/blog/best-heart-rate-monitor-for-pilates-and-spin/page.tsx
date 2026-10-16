@@ -32,7 +32,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Polar H10 Heart Rate Monitor Chest Strap",
-    price: "$84.74",
+    price: "$104.45",
     verdict: "Best overall accuracy",
     description:
       "The Polar H10 is widely regarded as the gold standard among consumer heart rate chest straps, and it's the most expensive option here for that reason. It's sold directly by Amazon.com rather than a third-party listing, which is worth knowing if that matters to you when buying hardware you'll wear against your skin. For Lagree and spin training, where heart rate accuracy during rapid intensity changes genuinely matters for zone-based programming, the H10 is the clear premium pick — the strap you buy once and don't think about again.",
@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Polar H9 Heart Rate Sensor",
-    price: "$59.41",
+    price: "$69.90",
     verdict: "Best mid-tier pick from an established brand",
     description:
       "The Polar H9 is Polar's step-down model from the H10, sold directly by Amazon.com, and it lands squarely between the budget straps and the premium H10 on price. If you want the reassurance of an established, sports-science-trusted brand but don't need every feature the H10 carries, the H9 is the sensible middle option — Polar's core accuracy reputation at a mid-tier price.",

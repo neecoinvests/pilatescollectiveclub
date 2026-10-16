@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "BONTANNY Portable Red Light Therapy",
-    price: "$132.99",
+    price: "$139.99",
     verdict: "Best premium handheld pick",
     description:
       "The BONTANNY device is the most feature-forward option on this list, with three selectable wavelengths and clinical-grade LEDs, giving practitioners more control over treatment depth than a single-wavelength wand allows. Being able to switch between wavelength settings matters if you're targeting different tissue depths — a more superficial red setting for surface soreness versus a near-infrared setting intended to reach deeper into larger muscle groups like the quads or glutes. It's the highest-priced device here, and that premium buys genuine flexibility for practitioners who want to fine-tune their recovery routine rather than use a single fixed setting.",

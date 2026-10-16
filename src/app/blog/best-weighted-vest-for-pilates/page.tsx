@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "CAP 40lb Adjustable Weighted Vest",
-    price: "$63.99",
+    price: "$69.99",
     verdict: "Best for advanced, heavier load-bearing work",
     description:
       "CAP is a long-established strength equipment brand, and this is the heaviest vest on this list at 40lb, adjustable so you can work up to that ceiling rather than starting there. It suits a specific and fairly small group: people with an established fitness base who have already outgrown a light vest and want real load behind step-ups, carries, and standing work. This is not a starting vest — arriving at 40lb without first building up through lighter loads over weeks is how people end up with a sore lower back and a vest that sits in a cupboard. For anyone who has already done that groundwork, it is the sensible next purchase rather than replacing a lighter vest they have outgrown.",

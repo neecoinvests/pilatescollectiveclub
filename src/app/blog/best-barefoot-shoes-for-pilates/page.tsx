@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "ELETON Barefoot Shoes",
-    price: "$22.99",
+    price: "$20.21",
     verdict: "Best for hiking, water use, and outdoor versatility",
     description:
       "The ELETON pairs a wide toe box and zero drop with a build meant for hiking and water use, which makes it the pick for anyone who wants the same foot mechanics they train in class to carry over to trail walks, beach days, or anything that gets the shoe wet. Where the MIFAWA reads as a general cross-trainer, the ELETON is aimed more specifically at outdoor and water conditions, so it suits Pilates practitioners who are also active hikers or swimmers and want one barefoot shoe that covers both the gym and the outdoors.",

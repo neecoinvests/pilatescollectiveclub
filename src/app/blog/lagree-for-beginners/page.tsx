@@ -155,8 +155,8 @@ const STUDIO_KIT: KitItem[] = [
       {
         tier: "Upgrade",
         name: "STANLEY Quencher H2.0 40 oz",
-        price: "$45.00",
-        url: amz("B0CRMP3RQT"),
+        price: "$39.99",
+        url: amz("B0CP9Y3152"),
         description:
           "If you want one bottle for the whole day, not just class, the 40 oz Quencher holds far more. It is bulkier, so leave it by the wall rather than on the machine.",
       },
@@ -201,7 +201,7 @@ const HOME_KIT: KitItem[] = [
       {
         tier: "Pick",
         name: "Gaiam Core Sliding Discs (2)",
-        price: "$10.99",
+        price: "$16.99",
         url: amz("B0964G1N18"),
         description:
           "A pair of dual-sided discs: one side for carpet, one for hard floors. They are small enough to keep in a drawer, which is half the battle for home practice.",

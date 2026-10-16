@@ -56,7 +56,7 @@ const PRODUCTS = [
     verdict: "Best SPD-compatible mid-tier pick",
     description:
       "KOFUBOKE&apos;s indoor cycling shoe is built around SPD cleat compatibility, making it a straightforward match for the many home and studio bikes that ship with SPD-style pedals. Sitting in the same price range as the Shimano option, it&apos;s a reasonable mid-tier pick for riders whose bikes are already set up for SPD cleats.",
-    affiliateUrl: "https://www.amazon.com/dp/B0DL5NP6QM?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0BMQ2WN6Z?tag=pilatescollective-20",
     tag: "Best SPD Compatible",
   },
   {

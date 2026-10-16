@@ -55,7 +55,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Amazon Basics High-Density Foam Roller (36\")",
-    price: "$24.14",
+    price: "$22.49",
     verdict: "Best budget full-length roller",
     description:
       "A smooth, full-length 36-inch roller sold directly by Amazon.com. At full length, it's long enough to support the spine from tailbone to head in one position, which makes it a solid choice for the spinal-opening sequence below. It's a smooth (non-textured) surface, so it's gentler for myofascial work than a textured roller like the GRID 2.0 — a reasonable tradeoff at less than a third of the price.",
@@ -75,7 +75,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "TRIGGERPOINT CORE Foam Roller (18\")",
-    price: "$24.99",
+    price: "$34.99",
     verdict: "Best compact/travel roller",
     description:
       "The 18-inch CORE roller from TriggerPoint, sold directly by Amazon.com — a compact version of the brand's roller line, half the length of the full-size options above, which makes it easy to pack for travel or store in a small space. At this length it suits targeted myofascial work on the hip flexors, ITB, and calves rather than the full-spine opening sequence.",
@@ -125,7 +125,7 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Which foam roller is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The TriggerPoint GRID 2.0 ($74.99) is our top pick for its textured, multi-density surface, but the Amazon Basics High-Density Foam Roller ($24.14) is a strong budget alternative at full 36-inch length." } },
+      { "@type": "Question", "name": "Which foam roller is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The TriggerPoint GRID 2.0 ($74.99) is our top pick for its textured, multi-density surface, but the Amazon Basics High-Density Foam Roller ($22.49) is a strong budget alternative at full 36-inch length." } },
       { "@type": "Question", "name": "What density foam roller should I use for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "As a general rule, standard or medium-high density suits most Pilates applications — soft rollers compress too easily to provide meaningful pressure or stable support, while extra-firm rollers, like the Black Mountain Products roller on this list, can be more aggressive for spinal work. Check the specific density rating on the current listing." } },
       { "@type": "Question", "name": "Do I need a long or short foam roller for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For Pilates specifically, a longer 36-inch roller is generally preferred so it can support the spine from coccyx to occiput in one position for the classic opening sequence. An 18-inch roller, like the TriggerPoint CORE on this list, is easier to travel with and works well for targeted myofascial work on specific areas, but is too short for the full-spine sequence." } },
       { "@type": "Question", "name": "Can I use a foam roller if I have osteoporosis?", "acceptedAnswer": { "@type": "Answer", "text": "Use caution. A full-round roller can place the thoracic spine in significant extension. Always consult with your Pilates instructor or physiotherapist before foam roller use if you have bone density concerns — this is general safety guidance, not specific to any one product." } }
@@ -154,7 +154,7 @@ export default function BestFoamRollerPage() {
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              We checked five foam rollers against live Amazon listings and confirmed all five as real, currently-sold, in-stock products — from the premium TriggerPoint GRID 2.0 at $74.99 down to a budget-friendly Amazon Basics roller at $24.14. Below is our honest, ranked comparison, with exact prices and what each roller is (and isn&apos;t) best suited for.
+              We checked five foam rollers against live Amazon listings and confirmed all five as real, currently-sold, in-stock products — from the premium TriggerPoint GRID 2.0 at $74.99 down to a budget-friendly Amazon Basics roller at $22.49. Below is our honest, ranked comparison, with exact prices and what each roller is (and isn&apos;t) best suited for.
             </p>
           </div>
         </section>
@@ -228,7 +228,7 @@ export default function BestFoamRollerPage() {
               title="Rolling covers the big muscles. This covers the rest."
               body="A roller is built for broad areas — back, quads, glutes. The spots that stay tight after reformer class (hip flexors, forearms, calves, the base of the neck) are where a percussion massager earns its place. It is the most common next purchase for people who roll regularly."
               picks={[
-                { name: "Therabody TheraGun Relief Massage Gun", price: "$119.99", url: "https://www.amazon.com/dp/B0CNS894RH?tag=pilatescollective-20", note: "Sold by Therabody. The brand's everyday 3-speed model — made for daily comfort rather than clinical intensity." },
+                { name: "Therabody TheraGun Relief Massage Gun", price: "$159.99", url: "https://www.amazon.com/dp/B0CNS894RH?tag=pilatescollective-20", note: "Sold by Therabody. The brand's everyday 3-speed model — made for daily comfort rather than clinical intensity." },
               ]}
               guideHref="/blog/best-massage-gun-for-pilates"
               guideLabel="Compare all 5 massage guns for Pilates recovery"
@@ -257,7 +257,7 @@ export default function BestFoamRollerPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Which foam roller is best for Pilates?", a: "The TriggerPoint GRID 2.0 ($74.99) is our top pick for its textured, multi-density surface, but the Amazon Basics High-Density Foam Roller ($24.14) is a strong budget alternative at full 36-inch length." },
+                  { q: "Which foam roller is best for Pilates?", a: "The TriggerPoint GRID 2.0 ($74.99) is our top pick for its textured, multi-density surface, but the Amazon Basics High-Density Foam Roller ($22.49) is a strong budget alternative at full 36-inch length." },
                   { q: "What density foam roller should I use for Pilates?", a: "As a general rule, standard or medium-high density suits most Pilates applications — soft rollers compress too easily to provide meaningful pressure or stable support, while extra-firm rollers, like the Black Mountain Products roller on this list, can be more aggressive for spinal work. Check the specific density rating on the current listing." },
                   { q: "Do I need a long or short foam roller for Pilates?", a: "For Pilates specifically, a longer 36-inch roller is generally preferred so it can support the spine from coccyx to occiput in one position for the classic opening sequence. An 18-inch roller, like the TriggerPoint CORE on this list, is easier to travel with and works well for targeted myofascial work on specific areas, but is too short for the full-spine sequence." },
                   { q: "Can I use a foam roller if I have osteoporosis?", a: "Use caution. A full-round roller can place the thoracic spine in significant extension. Always consult with your Pilates instructor or physiotherapist before foam roller use if you have bone density concerns — this is general safety guidance, not specific to any one product." },

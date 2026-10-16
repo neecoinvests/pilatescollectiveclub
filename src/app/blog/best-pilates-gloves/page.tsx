@@ -82,7 +82,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "MhIL Workout Gloves for Women",
-    price: "$9.99",
+    price: "$8.99",
     verdict: "Best wrist support — for Lagree and weighted work",
     description: "A breathable glove with wrist wrap support built in, sold by MhIL. The wrist wrap is a useful detail for Pilates practitioners who feel strain during plank and push-up work on the reformer box, and the breathable construction helps during sweaty Megaformer sessions.",
     affiliateUrl: "https://www.amazon.com/dp/B08R6CB2K6?tag=pilatescollective-20",

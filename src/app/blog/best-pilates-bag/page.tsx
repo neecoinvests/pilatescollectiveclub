@@ -92,7 +92,7 @@ const PRODUCTS = [
   {
     rank: "07",
     name: "BAGSMART Reiki Puffy Gym Bag",
-    price: "$27.99",
+    price: "$19.99",
     verdict: "Best budget bag with a wet pouch",
     description:
       "A compact puffy duffel (16.9\" x 8.6\" x 7.6\") with a roll-top elastic band that holds a standard mat up to 1.5\" thick, a separate dry/wet pouch for sweaty clothes, quick-access side pockets and a removable shoulder strap. Small enough to slide under a studio bench. Sold by BAGSMART.",

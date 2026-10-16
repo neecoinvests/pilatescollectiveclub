@@ -77,7 +77,7 @@ const PICKS: Pick[] = [
     shortName: "Closed-toe socks",
     name: "TAVI Savvy Grip Socks",
     price: "$16.00",
-    url: amz("B07KRPY2SQ"),
+    url: amz("B08VYL1XFT"),
     description:
       "If toe socks feel strange, this is the classic closed-toe alternative. TAVI uses a patented triangle grip pattern that the brand says was designed with instructors, on a certified organic cotton knit. One pair, in fashion colours. Check the size on the listing before you add it to your cart (this listing is Medium).",
   },

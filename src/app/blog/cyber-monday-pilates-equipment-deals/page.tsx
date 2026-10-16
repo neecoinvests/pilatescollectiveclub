@@ -70,7 +70,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Gaiam Premium Yoga Mat (6mm)",
           "badge": "Best budget mat",
           "note": "A 6mm printed mat that is thick enough for rolling work.",
-          "price": "$21.00"
+          "price": "$39.99"
         },
         {
           "asin": "B0000DZFXZ",
@@ -148,7 +148,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Gaiam Core Sliding Discs (Set of 2)",
           "badge": "Best sliders",
           "note": "Dual-sided sliding discs for core and leg work on any floor.",
-          "price": "$10.99"
+          "price": "$16.99"
         }
       ]
     },
@@ -162,7 +162,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Amazon Basics High-Density Foam Roller (36\")",
           "badge": "Best value roller",
           "note": "A long, high-density roller for back and spine release.",
-          "price": "$24.14"
+          "price": "$22.49"
         },
         {
           "asin": "B006GUC9KC",

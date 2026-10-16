@@ -72,7 +72,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Choiknbo Smartwatch for Women",
-    price: "$21.99",
+    price: "$17.99",
     verdict: "Best budget pick",
     description:
       "The Choiknbo Smartwatch is the lowest-cost option on this list and still includes call functionality, making it a sensible entry point for anyone trying a fitness tracker for the first time or wanting a lightweight backup watch for the studio. It's built with a women's-fit case and band, so it stays comfortable through mat work, side planks, and reformer footwork without feeling bulky. It won't match the sensor depth of the pricier trackers above, but for basic step counts, workout logging, and staying reachable during class, it does the job at the lowest price in the category.",

@@ -43,12 +43,12 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Synergee Mini Band Resistance Loop Set of 5",
-    price: "$13.95",
+    name: "Lebert Mini Bands (Set of 5)",
+    price: "$14.95",
     verdict: "Best for trainers and serious practitioners",
     description:
-      "Sold by Synergee USA, this is the professional-grade option — the same color-coded, five-band format trainers and physical therapists use, spanning roughly 5–40lb of resistance across the set. Slightly sturdier construction than budget sets, which matters if you're using bands several times a week rather than occasionally.",
-    affiliateUrl: "https://www.amazon.com/dp/B06XPGJZQT?tag=pilatescollective-20",
+      "Sold by Synergee USA, Lebert's set puts five color-coded loops in one pack, from yellow (5 to 20 lb) up through green and blue to heavier bands, per the listing. It covers the full range for hip activation and glute work before a session, and the listing says the bands are built not to snap or roll.",
+    affiliateUrl: "https://www.amazon.com/dp/B0GF8L7XL4?tag=pilatescollective-20",
     tag: "Pro Pick",
   },
   {
@@ -124,7 +124,7 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "What is the best Pilates resistance band set on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on budget. The WIKDAY set ($4.99) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Synergee set ($13.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." } },
+      { "@type": "Question", "name": "What is the best Pilates resistance band set on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on budget. The WIKDAY set ($4.99) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Lebert set sold by Synergee ($14.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." } },
       { "@type": "Question", "name": "Can resistance bands replace a Pilates reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Not fully — a reformer's spring system provides a quality of resistance (bidirectional, calibrated, consistent) that bands generally approximate but don't match. Most serious practitioners use bands to supplement, not replace, reformer or apparatus work." } },
       { "@type": "Question", "name": "What resistance level should I start with?", "acceptedAnswer": { "@type": "Answer", "text": "As a general rule, err toward lighter than you think you need when starting out — in Pilates, proper form with less resistance produces better results than poor form with heavy resistance. All five sets here include a spread of resistance levels, so you can start light and progress within the same set." } },
       { "@type": "Question", "name": "Are latex or fabric bands better for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "As general knowledge: latex bands are typically more economical and available in a wider resistance range, while fabric bands are often more comfortable against bare skin and less prone to rolling during leg work. Four of the five sets here (Fit Simplify, Synergee, Perform Better, WIKDAY) are latex loop bands, while the Tribe set uses woven fabric." } },
@@ -231,7 +231,7 @@ export default function BestResistanceBandsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is the best Pilates resistance band set on Amazon?", a: "It depends on budget. The WIKDAY set ($4.99) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Synergee set ($13.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." },
+                  { q: "What is the best Pilates resistance band set on Amazon?", a: "It depends on budget. The WIKDAY set ($4.99) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Lebert set sold by Synergee ($14.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." },
                   { q: "Can resistance bands replace a Pilates reformer?", a: "Not fully — a reformer's spring system provides a quality of resistance (bidirectional, calibrated, consistent) that bands generally approximate but don't match. Most serious practitioners use bands to supplement, not replace, reformer or apparatus work." },
                   { q: "What resistance level should I start with?", a: "As a general rule, err toward lighter than you think you need when starting out — in Pilates, proper form with less resistance produces better results than poor form with heavy resistance. All five sets here include a spread of resistance levels, so you can start light and progress within the same set." },
                   { q: "Are latex or fabric bands better for Pilates?", a: "As general knowledge: latex bands are typically more economical and available in a wider resistance range, while fabric bands are often more comfortable against bare skin and less prone to rolling during leg work. Four of the five sets here (Fit Simplify, Synergee, Perform Better, WIKDAY) are latex loop bands, while the Tribe set uses woven fabric." },

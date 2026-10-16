@@ -221,9 +221,9 @@ const CATEGORIES: Category[] = [
       },
       {
         tier: "Splurge",
-        name: "STANLEY Quencher H2.0 Flow State Tumbler 40 oz (Peony)",
-        price: "$45.00",
-        url: amz("B0CRMP3RQT"),
+        name: "STANLEY Quencher H2.0 Flow State Tumbler 40 oz (Cream)",
+        price: "$39.99",
+        url: amz("B0CP9Y3152"),
         description:
           "The 40 oz Quencher holds far more than you need for one class, which makes it better for all-day desk-to-studio use. Note that a straw tumbler is not a fully sealed bottle, so keep it upright. Sold by Amazon.com.",
       },
@@ -242,7 +242,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Sportsnew Tote Yoga Mat Gym Bag 20L",
-        price: "$29.99",
+        price: "$21.56",
         url: amz("B0BHP38PNG"),
         description:
           "A 20L tote with a separate shoe compartment and a wet pocket for used socks and towels, sold by Sportsnew. It is built around the studio routine: clothes, bottle, socks and a mat in one bag.",
@@ -250,7 +250,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "BAGSMART Duffle Bag",
-        price: "$29.99",
+        price: "$24.21",
         url: amz("B0CSYNW3X3"),
         description:
           "A gym and weekender duffle from BAGSMART. It is less Pilates-specific than the tote, but it holds a full change of clothes and works for travel as well as class.",
@@ -319,7 +319,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "Gaiam Premium Yoga Mat 6mm",
-        price: "$21.00",
+        price: "$39.99",
         url: amz("B09WF4GPPC"),
         description:
           "The same 6mm thickness at a fraction of the price, from an established brand and sold by Amazon.com. It is the right mat if you are just starting home practice and want to find out whether it will stick.",
@@ -355,7 +355,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
-        price: "$16.39",
+        price: "$24.99",
         url: amz("B086HNGNFZ"),
         description:
           "A full-size 15\" ring at under half the price, sold by Amazon.com. A sensible first ring if you are trying out home Pilates.",
@@ -384,7 +384,7 @@ const CATEGORIES: Category[] = [
         tier: "Alternative",
         name: "Bala Pilates Ball",
         price: "$29.00",
-        url: amz("B0BQCGM6N9"),
+        url: amz("B0D1VP474D"),
         description:
           "A small, non-weighted Pilates ball from Bala, sold by Bala Bangles. Essentially the same price as the Balanced Body ball, so choose on colour and which brand you prefer.",
       },
@@ -508,7 +508,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Therabody TheraGun Relief",
-        price: "$119.99",
+        price: "$159.99",
         url: amz("B0CNS894RH"),
         description:
           "The TheraGun Relief is Therabody's entry-level massage gun, sold by TheraGun. It is simpler than the brand's pro models, which suits general soreness after class.",
@@ -874,7 +874,7 @@ export default function PilatesEssentialsPage() {
                       ))}
                     </div>
                     <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
-                      Most of the gap between the two kits comes from the clothing (Varley vs CRZ YOGA) and the mat (Manduka PRO vs Gaiam). Both totals include a $119.99 massage gun, $74.99 foam roller and $55.00 ankle weights, so if you only go to studio classes and skip recovery and home props, the budget clothing and studio accessories alone come to {fmt(STUDIO_BUDGET_TOTAL)}. Home reformers are priced separately below: WINDFOOT $295.99, AeroPilates $555.99, Merrithew At Home SPX $3,349.00.
+                      Most of the gap between the two kits comes from the clothing (Varley vs CRZ YOGA) and the mat (Manduka PRO vs Gaiam). Both totals include a $159.99 massage gun, $74.99 foam roller and $55.00 ankle weights, so if you only go to studio classes and skip recovery and home props, the budget clothing and studio accessories alone come to {fmt(STUDIO_BUDGET_TOTAL)}. Home reformers are priced separately below: WINDFOOT $295.99, AeroPilates $555.99, Merrithew At Home SPX $3,349.00.
                     </p>
                   </div>
                 )}

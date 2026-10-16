@@ -9,7 +9,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Vibrating Foam Roller for Pilates (2026): Ranked",
-  description: "The best vibrating foam rollers for Pilates — FITINDEX, Therabody WaveRoller, LTHTRADE, Kucttiu, and PURSONIC compared for thoracic mobility, hip flexor release, and Pilates-specific recovery.",
+  description: "The best vibrating foam rollers for Pilates — TriggerPoint, Therabody WaveRoller, LTHTRADE, Kucttiu, and PURSONIC compared for thoracic mobility, hip flexor release, and Pilates-specific recovery.",
   keywords: ["best vibrating foam roller pilates", "hyperice vyper 3 pilates", "therabody wave roller pilates", "vibrating foam roller 2026", "pilates foam roller recovery", "electric foam roller pilates", "best vibration roller for back", "pilates thoracic mobility roller"],
   openGraph: {
     title: "Best Vibrating Foam Roller for Pilates (2026)",
@@ -31,13 +31,13 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "FITINDEX Vibrating Foam Roller",
-    price: "$79.99",
-    verdict: "Best all-round vibrating roller for Pilates",
+    name: "TriggerPoint GRID Vibe Plus (Roller + Vibe Ball)",
+    price: "$214.34",
+    verdict: "Best vibrating roller and ball set",
     description:
-      "The FITINDEX offers five vibration speeds, enough range to move from a gentle warm-up setting before a reformer session to a firmer setting for working out post-session thoracic and hip flexor tightness. It is rechargeable rather than battery-powered, so there is no ongoing cost to keep it running, and the standard full-length roller format handles broad thoracic extension work as well as rolling out the hamstrings and calves. At a mid-range price, it is a sensible default pick for a practitioner who wants a genuinely capable vibrating roller without stepping up to app-connected premium pricing.",
-    affiliateUrl: "https://www.amazon.com/dp/B07KFD7KLP?tag=pilatescollective-20",
-    tag: "Best All-Round",
+      "TriggerPoint's GRID Vibe Plus pairs a cordless, rechargeable vibrating foam roller (four vibration frequencies) with a 4-inch vibrating massage ball (three frequencies), per the listing. The roller handles broad thoracic and leg work before or after a reformer session, while the ball gets into the glutes, hip flexors and other spots a roller can't reach. Sold and shipped by Amazon.com.",
+    affiliateUrl: "https://www.amazon.com/dp/B09TQXW39F?tag=pilatescollective-20",
+    tag: "Best Roller + Ball Set",
   },
   {
     rank: "02",
@@ -52,10 +52,10 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "LTHTRADE Vibrating Foam Roller",
-    price: "$62.99",
+    price: "$59.99",
     verdict: "Best mid-range value pick",
     description:
-      "The LTHTRADE roller matches the FITINDEX's five-speed vibration and rechargeable battery at a noticeably lower price, making it the value pick for practitioners who want a full-featured vibrating roller without paying for a big brand name. It is straightforward to operate — no app required — which suits anyone who just wants to switch it on, pick a speed, and roll out the thoracic spine or hip flexors before or after a session.",
+      "The LTHTRADE roller offers five-speed vibration and a rechargeable battery at a noticeably lower price than the premium picks, making it the value pick for practitioners who want a full-featured vibrating roller without paying for a big brand name. It is straightforward to operate — no app required — which suits anyone who just wants to switch it on, pick a speed, and roll out the thoracic spine or hip flexors before or after a session.",
     affiliateUrl: "https://www.amazon.com/dp/B0DNSND2KJ?tag=pilatescollective-20",
     tag: "Best Value",
   },

@@ -63,7 +63,7 @@ const GUIDE: DealsGuideProps = {
           "name": "AeroPilates 287 Reformer",
           "badge": "Established brand, entry level",
           "note": "Stamina's entry AeroPilates with bungee-cord resistance — a known brand at a budget price.",
-          "price": "$256.49"
+          "price": "$359.00"
         },
         {
           "asin": "B0DFXQX3XV",

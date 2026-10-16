@@ -73,13 +73,6 @@ const GUIDE: DealsGuideProps = {
           "price": "$12.99"
         },
         {
-          "asin": "B086HNGNFZ",
-          "name": "Gaiam Pilates Ring (15\")",
-          "badge": "Classic prop",
-          "note": "The magic circle used in most mat classes. Sold by Amazon.com.",
-          "price": "$16.39"
-        },
-        {
           "asin": "B011NQZBAI",
           "name": "Gaiam Cargo Yoga Mat Bag",
           "badge": "Mat carrier",
@@ -101,25 +94,25 @@ const GUIDE: DealsGuideProps = {
       "intro": "A proper upgrade they would not buy themselves.",
       "items": [
         {
-          "asin": "B09WF4GPPC",
-          "name": "Gaiam Premium Yoga Mat (6mm)",
-          "badge": "Home mat",
-          "note": "A 6mm mat for rolling and spinal work at home. Sold by Amazon.com.",
-          "price": "$21.00"
+          "asin": "B086HNGNFZ",
+          "name": "Gaiam Pilates Ring (15\")",
+          "badge": "Classic prop",
+          "note": "The magic circle used in most mat classes. Sold by Amazon.com.",
+          "price": "$24.99"
         },
         {
           "asin": "B00XM2MRGI",
           "name": "Amazon Basics High-Density Foam Roller (36\")",
           "badge": "Recovery",
           "note": "A full-length firm roller for back and leg release.",
-          "price": "$24.14"
+          "price": "$22.49"
         },
         {
           "asin": "B01BVACFAK",
           "name": "TriggerPoint CORE Foam Roller (18\")",
           "badge": "Compact roller",
           "note": "A shorter roller that fits in a gym bag.",
-          "price": "$24.99"
+          "price": "$34.99"
         },
         {
           "asin": "B07QHNDHW3",
@@ -135,6 +128,13 @@ const GUIDE: DealsGuideProps = {
       "title": "$35 to $50",
       "intro": "The splurge — still under $50.",
       "items": [
+        {
+          "asin": "B09WF4GPPC",
+          "name": "Gaiam Premium Yoga Mat (6mm)",
+          "badge": "Home mat",
+          "note": "A 6mm mat for rolling and spinal work at home. Sold by Amazon.com.",
+          "price": "$39.99"
+        },
         {
           "asin": "B0B1VFNFL1",
           "name": "BAGSMART Gym Tote Bag 24L",

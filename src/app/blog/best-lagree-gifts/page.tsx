@@ -85,7 +85,7 @@ const TIERS: Tier[] = [
         shortName: "Grip socks",
         name: "TAVI Savvy Grip Socks",
         price: "$16.00",
-        url: amz("B07KRPY2SQ"),
+        url: amz("B08VYL1XFT"),
         description:
           "Every Lagree regular goes through grip socks, so you can never give too many. TAVI's patented triangle grip and certified organic cotton knit come in fashion colours, which makes them feel like a gift rather than a chore. Check the size on the listing (this one is Medium).",
       },
@@ -94,7 +94,7 @@ const TIERS: Tier[] = [
         badge: "For Home Workouts",
         shortName: "Core sliders",
         name: "Gaiam Core Sliding Discs (Set of 2)",
-        price: "$10.99",
+        price: "$16.99",
         url: amz("B0964G1N18"),
         description:
           "Sliders are the closest a floor gets to a moving carriage, which is why they are the backbone of Lagree-inspired home workouts. Dual-sided for carpet and hard floors, light enough to pack. Sold by Amazon.com.",
@@ -230,7 +230,7 @@ const TIERS: Tier[] = [
         badge: "The Gift Upgrade",
         shortName: "Premium massage gun",
         name: "TheraGun Mini (3rd Gen) Massage Gun",
-        price: "$169.99",
+        price: "$219.99",
         url: amz("B0DV7JN7ZD"),
         description:
           "The name most people recognise. It has three attachments, one-button control with three speeds, and Bluetooth for guided routines in the Therabody app. Compact enough for travel, and it comes in several colours. Sold by TheraGun.",
@@ -309,7 +309,7 @@ const FAQS = [
   },
   {
     q: "What is the best recovery gift for Lagree?",
-    a: "A massage gun. The Hyperice Hypervolt Go 3 ($149.00) is the value pick and the TheraGun Mini 3rd Gen ($169.99) is the premium pick. For an under-$110 option, the Hyperice Hypersphere Go vibrating ball reaches glutes and calves well. See our guide to recovering after Lagree for more.",
+    a: "A massage gun. The Hyperice Hypervolt Go 3 ($149.00) is the value pick and the TheraGun Mini 3rd Gen ($219.99) is the premium pick. For an under-$110 option, the Hyperice Hypersphere Go vibrating ball reaches glutes and calves well. See our guide to recovering after Lagree for more.",
   },
   {
     q: "What gift avoids sizing problems?",

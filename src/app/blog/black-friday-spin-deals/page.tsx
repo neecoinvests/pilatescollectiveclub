@@ -108,7 +108,7 @@ const GUIDE: DealsGuideProps = {
           "price": "$39.98"
         },
         {
-          "asin": "B0BQ6Q1KXH",
+          "asin": "B0BQ6ND4BF",
           "name": "Baleaf Women's 4D Padded Bike Shorts 7\"",
           "badge": "Padded shorts",
           "note": "High-waist 4D padded shorts with a side pocket.",
@@ -147,7 +147,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Polar H10 Heart Rate Monitor",
           "badge": "Best heart rate",
           "note": "Polar's chest strap, sold by Amazon.com.",
-          "price": "$84.74"
+          "price": "$104.45"
         }
       ]
     }

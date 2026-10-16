@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Lamicall Bike Gloves",
-    price: "$19.99",
+    price: "$13.99",
     verdict: "Best simple, secure grip",
     description:
       "Lamicall's bike gloves combine an anti-slip palm surface with a shock-absorbing pad, focused on keeping your grip secure through sweaty, high-tempo intervals without the handlebar pressure translating straight into your palms. A straightforward, no-frills option for riders who just want reliable grip and cushioning.",
@@ -72,7 +72,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "ATERCEL Workout/Cycling Gloves",
-    price: "$13.95",
+    price: "$11.86",
     verdict: "Best crossover glove for gym and spin",
     description:
       "ATERCEL's gloves are built as a breathable, snug-fitting crossover pick for both general gym workouts and spin class, which makes them a good choice for anyone who doesn't want a glove that only comes out for cycling. If you lift or do other gym work alongside your spin sessions, this is the pick that covers both without needing a second pair.",

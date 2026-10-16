@@ -204,11 +204,11 @@ const SECTIONS: Section[] = [
       {
         tier: "Splurge",
         tag: "The aesthetic bottle",
-        name: "STANLEY Quencher H2.0 Flow State Tumbler 40 oz (Peony)",
-        price: "$45.00",
+        name: "STANLEY Quencher H2.0 Flow State Tumbler 40 oz (Cream)",
+        price: "$39.99",
         description:
-          "The tumbler that became shorthand for the whole wellness aesthetic, here in a soft Peony. At 40 oz it covers a long class plus the walk home, and the handle makes it easy to carry alongside a mat. The trade-off is size: it is tall, and a tumbler with a straw lid is designed for sipping upright rather than tossing on its side in a bag. Sold by Amazon.com at $45.00.",
-        url: amazon("B0CRMP3RQT"),
+          "The tumbler that became shorthand for the whole wellness aesthetic, here in a soft Cream. At 40 oz it covers a long class plus the walk home, and the handle makes it easy to carry alongside a mat. The trade-off is size: it is tall, and a tumbler with a straw lid is designed for sipping upright rather than tossing on its side in a bag. Sold by Stelli Products at $39.99.",
+        url: amazon("B0CP9Y3152"),
       },
       {
         tier: "Best",
@@ -244,9 +244,9 @@ const SECTIONS: Section[] = [
         tier: "Best",
         tag: "Best — the tote",
         name: "Sportsnew Tote Yoga Mat Gym Bag 20L",
-        price: "$29.99",
+        price: "$21.56",
         description:
-          "A tote that actually works as a Pilates bag: 20L of space, a separate shoe compartment so trainers stay away from your set, and a wet pocket for used grip socks. It is the functional answer to carrying a whole kit without looking like you are headed to the gym. $29.99, sold by Sportsnew.",
+          "A tote that actually works as a Pilates bag: 20L of space, a separate shoe compartment so trainers stay away from your set, and a wet pocket for used grip socks. It is the functional answer to carrying a whole kit without looking like you are headed to the gym. $21.56, sold by Sportsnew.",
         url: amazon("B0BHP38PNG"),
         glance: "Tote bag",
       },
@@ -310,9 +310,9 @@ const SECTIONS: Section[] = [
         tier: "Budget",
         tag: "Budget — the mat",
         name: "Gaiam Premium Yoga Mat 6mm",
-        price: "$21.00",
+        price: "$39.99",
         description:
-          "The honest budget alternative. A 6mm mat is on the thicker side for yoga mats, which is welcome for Pilates rolling work, and Gaiam is a long-established brand. $21.00, sold by Amazon.com.",
+          "The honest budget alternative. A 6mm mat is on the thicker side for yoga mats, which is welcome for Pilates rolling work, and Gaiam is a long-established brand. $39.99, sold by Amazon.com.",
         url: amazon("B09WF4GPPC"),
       },
       {
@@ -322,7 +322,7 @@ const SECTIONS: Section[] = [
         price: "$29.00",
         description:
           "A small, non-weighted Pilates ball is one of the most versatile props there is: under the pelvis for support, between the knees for inner-thigh work, behind the back for a gentle curl. Bala's version keeps the look consistent with your bangles. $29.00, sold by Bala Bangles.",
-        url: amazon("B0BQCGM6N9"),
+        url: amazon("B0D1VP474D"),
         glance: "Pilates ball",
       },
       {
@@ -339,9 +339,9 @@ const SECTIONS: Section[] = [
         tier: "Budget",
         tag: "Budget — the ring",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
-        price: "$16.39",
+        price: "$24.99",
         description:
-          "A larger 15\" ring from Gaiam at under half the price. Perfectly fine for learning ring work at home. $16.39, sold by Amazon.com.",
+          "A larger 15\" ring from Gaiam for less. Perfectly fine for learning ring work at home. $24.99, sold by Amazon.com.",
         url: amazon("B086HNGNFZ"),
       },
     ],
@@ -362,9 +362,9 @@ const SECTIONS: Section[] = [
         tier: "Splurge",
         tag: "The recovery splurge",
         name: "Therabody TheraGun Relief Massage Gun",
-        price: "$119.99",
+        price: "$159.99",
         description:
-          "The TheraGun Relief is Therabody's more approachable massage gun, from one of the best-known names in percussive therapy. Use it on large muscle groups such as calves, quads, glutes and the upper back, and keep it away from the neck, spine and bony areas. $119.99, sold by TheraGun.",
+          "The TheraGun Relief is Therabody's more approachable massage gun, from one of the best-known names in percussive therapy. Use it on large muscle groups such as calves, quads, glutes and the upper back, and keep it away from the neck, spine and bony areas. $159.99, sold by TheraGun.",
         url: amazon("B0CNS894RH"),
         glance: "Massage gun",
       },
@@ -433,7 +433,7 @@ const FULL_EDIT = [
   "Varley Freesoft Harley Bralette (Marina)",
   "TAVI Stacy Slouch Pilates Socks, 2-Pack",
   "Bala Bangles Wrist & Ankle Weights, 1 lb (pair)",
-  "STANLEY Quencher H2.0 Flow State Tumbler 40 oz (Peony)",
+  "STANLEY Quencher H2.0 Flow State Tumbler 40 oz (Cream)",
   "Kitsch 5\" Large Claw Clips (Black & Tort)",
   "Sportsnew Tote Yoga Mat Gym Bag 20L",
   "Varley Callie Knit Top (Porcelain Blue)",
@@ -475,7 +475,7 @@ const FAQS = [
   },
   {
     q: "Stanley or Owala for Pilates?",
-    a: "For performance, the Owala FreeSip 24 oz ($29.99) is more practical: it is compact and fits a bag pocket or studio cubby easily. The Stanley Quencher 40 oz in Peony ($45.00) holds more and is the more aesthetic choice, but it is tall and best carried upright.",
+    a: "For performance, the Owala FreeSip 24 oz ($29.99) is more practical: it is compact and fits a bag pocket or studio cubby easily. The Stanley Quencher 40 oz in Cream ($39.99) holds more and is the more aesthetic choice, but it is tall and best carried upright.",
   },
   {
     q: "Is a home reformer worth it for the pilates princess lifestyle?",

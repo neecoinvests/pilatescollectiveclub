@@ -704,7 +704,7 @@ export default function HomePilatesStudioSetupPage() {
                       <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Elastic cord resistance (not springs) rather than a studio-grade machine, but a genuine entry point into reformer movement patterns without the studio price.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$256.49</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$359.00</span>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
@@ -728,7 +728,7 @@ export default function HomePilatesStudioSetupPage() {
                       <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A Gaiam Premium 6mm mat — marketed as a yoga mat, but a firm, non-slip 6mm mat works well for daily Pilates practice.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$21</span>
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$39.99</span>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>

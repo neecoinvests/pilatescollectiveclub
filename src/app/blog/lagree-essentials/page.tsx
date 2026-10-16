@@ -292,8 +292,8 @@ const CATEGORIES: Category[] = [
       {
         tier: "Splurge",
         name: "STANLEY Quencher H2.0 Tumbler 40 oz",
-        price: "$45.00",
-        url: amz("B0CRMP3RQT"),
+        price: "$39.99",
+        url: amz("B0CP9Y3152"),
         description:
           "Far more capacity than one class needs, which makes it better for all-day desk-to-studio use. A straw tumbler is not a fully sealed bottle, so keep it upright.",
       },
@@ -333,7 +333,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Gaiam Core Sliding Discs (2)",
-        price: "$10.99",
+        price: "$16.99",
         url: amz("B0964G1N18"),
         description:
           "A pair of sliding discs from an established fitness brand. Two discs let you do both single-leg and two-hand moves.",
@@ -397,7 +397,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Splurge",
         name: "Therabody TheraGun Relief",
-        price: "$119.99",
+        price: "$159.99",
         url: amz("B0CNS894RH"),
         description:
           "Therabody's entry-level massage gun. It is simpler than the brand's pro models, which suits general post-class soreness.",

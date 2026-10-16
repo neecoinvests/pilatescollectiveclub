@@ -128,7 +128,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Gaiam Core Sliding Discs (Set of 2)",
           "badge": "Best for reformer-style moves",
           "note": "Sliders that mimic the carriage for lunges and planks.",
-          "price": "$10.99"
+          "price": "$16.99"
         },
         {
           "asin": "B0BQCJRL6Q",

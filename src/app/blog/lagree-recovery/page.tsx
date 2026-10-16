@@ -105,14 +105,14 @@ const BASICS: Pick[] = [
 
 const GUNS: Pick[] = [
   {
-    id: "renpho-ascend",
+    id: "renpho-active",
     badge: "Best Budget Massage Gun",
     shortName: "Budget massage gun",
-    name: "RENPHO Ascend Massage Gun",
-    price: "$59.99",
-    url: amz("B0F9WKKZYS"),
+    name: "RENPHO Active Massage Gun",
+    price: "$69.98",
+    url: amz("B0F29VM2KV"),
     description:
-      "Seven amplitude settings from 6 to 12mm, five speeds (1,800 to 2,600 RPM), five heads and a joystick with a display. It covers most of what a premium gun does for a third of the price. Sold by Renpho Wellness.",
+      "A metal-bodied massage gun with a brushless motor, five speeds from 1,800 to 3,200 RPM and USB-C charging, per the listing. It covers the basics of a premium gun for a fraction of the price. Sold by Renpho Wellness.",
   },
   {
     id: "hypervolt-go-3",
@@ -129,7 +129,7 @@ const GUNS: Pick[] = [
     badge: "Best Premium",
     shortName: "Premium massage gun",
     name: "TheraGun Mini (3rd Gen)",
-    price: "$169.99",
+    price: "$219.99",
     url: amz("B0DV7JN7ZD"),
     description:
       "Three attachments, one-button control with three speeds, and Bluetooth for guided routines in the Therabody app. Compact enough for a gym bag, with the brand most physical therapists' clients already know. Sold by TheraGun.",

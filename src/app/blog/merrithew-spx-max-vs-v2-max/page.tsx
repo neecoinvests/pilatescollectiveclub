@@ -40,7 +40,6 @@ const GUIDE: EquipmentGuideProps = {
   ],
   quickPicks: [
     { label: "Best for most homes", itemId: "merrithew-at-home-spx" },
-    { label: "Best SPX for upright storage", itemId: "merrithew-at-home-spx-stand" },
     { label: "Compact studio machine", itemId: "merrithew-spx-max" },
     { label: "Best for clinics and rehab", itemId: "merrithew-rehab-v2-max-plus" },
   ],
@@ -90,17 +89,12 @@ const GUIDE: EquipmentGuideProps = {
       id: "spx",
       eyebrow: "The SPX family",
       heading: "SPX: the compact choice",
-      intro: "Amazon carries the At Home SPX package, sold by Amazon.com, plus a version with a vertical storage stand. The SPX Max itself is sold through Merrithew and its dealers.",
+      intro: "Amazon carries the At Home SPX package, sold by Amazon.com. The SPX Max itself is sold through Merrithew and its dealers.",
       items: [
         item("spxHome", {
           badge: "Best for Most Homes",
           pros: ["Box, roll-up pole, platform extender and straps included", "Sold and shipped by Amazon.com, in stock", "Aluminium rails, 115 lb"],
           cons: ["Lower frame than the V2 Max", "22\" carriage is narrower"],
-        }),
-        item("spxHomeStand", {
-          badge: "Best for Upright Storage",
-          pros: ["Includes a vertical stand", "Same package contents"],
-          cons: ["$200 more", "Low stock"],
         }),
         item("spxMaxDirect", {
           badge: "Compact Studio Machine",

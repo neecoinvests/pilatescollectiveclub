@@ -68,13 +68,13 @@ const PRODUCTS = [
     verdict: "Best crop top",
     description:
       "A crop solves the biggest problem with tops on the Megaformer in the simplest possible way: there is no hem to ride up. In planks, inversions and the many moves where your torso tips forward or upside down, a long tank either slides towards your chin or needs tucking. A cropped top ending near the ribs never gets the chance, and it pairs naturally with high-waisted leggings or biker shorts. This one is a quick-dry racerback from CRZ YOGA, so it combines the open-shoulder cut that suits plank and row work with a fabric made to shed sweat rather than hold it. It is a good option for hot studios and for anyone who would otherwise train in just a sports bra but wants a little more coverage. It does sit over a sports bra rather than replace one, so pair it with one of the bras from our Lagree bra guide.",
-    affiliateUrl: amazon("B0H1HK895W"),
+    affiliateUrl: amazon("B0H1HV6YXB"),
     tag: "Best Crop",
   },
   {
     rank: "05",
     name: "Under Armour Women's Tech Knockout Tank",
-    price: "$28.50",
+    price: "$34.20",
     verdict: "Best relaxed fit — tuck or tie it",
     description:
       "Not everyone wants a close-fitting top, and that is fine — but on the Megaformer a relaxed tank needs managing. This Under Armour tank has a looser cut than the others here, which is comfortable in a warm studio and more forgiving if you are self-conscious in fitted kit. The trade-off is fabric that hangs away from the body: in a plank it drops towards the carriage, in an inversion it heads for your face, and in lunges and handle work loose fabric has a habit of brushing springs and getting caught under the carriage edge. The fix is simple: tuck it into high-waisted leggings or knot the hem at the side before class. Do that and you get the comfort of a relaxed fit without the hassle. It is sold by Amazon.com. If you find yourself always tying it, the CRZ crop above is the version that does not need it.",

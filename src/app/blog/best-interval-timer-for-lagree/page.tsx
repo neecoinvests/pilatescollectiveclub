@@ -70,7 +70,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Tempospark Gym Timer Clock",
-    price: "$28.49",
+    price: "$32.99",
     verdict: "Best large-display option",
     description: "Tempospark's clock uses a 12-inch LED display, big enough to read from across a full studio floor rather than from a single machine. It comes with a remote and supports Tabata- and EMOM-style interval structures, which maps well onto Lagree's work/transition pattern for a class where every client needs to see the countdown, not just the ones near the front.",
     affiliateUrl: "https://www.amazon.com/dp/B0FX9L6L33?tag=pilatescollective-20",

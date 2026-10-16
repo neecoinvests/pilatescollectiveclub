@@ -103,11 +103,11 @@ const GUIDE: DealsGuideProps = {
           "price": "$29.99"
         },
         {
-          "asin": "B01BVACFAK",
-          "name": "TriggerPoint CORE Foam Roller (18\")",
+          "asin": "B00XM2MXK8",
+          "name": "Amazon Basics High-Density Foam Roller (18\")",
           "badge": "Best roller",
-          "note": "A compact 18-inch foam roller that travels well.",
-          "price": "$24.99"
+          "note": "A firm, compact 18-inch foam roller for post-class release that is easy to store.",
+          "price": "$17.84"
         }
       ]
     },
@@ -177,7 +177,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Gaiam Core Sliding Discs (Set of 2)",
           "badge": "Best for home",
           "note": "Sliding discs for core work on any floor.",
-          "price": "$10.99"
+          "price": "$16.99"
         }
       ]
     }

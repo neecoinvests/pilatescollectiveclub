@@ -105,7 +105,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Gaiam Pilates Ring (15\")",
           "badge": "Gift under $20",
           "note": "The magic circle used in most mat classes. Sold by Amazon.com.",
-          "price": "$16.39"
+          "price": "$24.99"
         },
         {
           "asin": "B0GSJHPSQT",

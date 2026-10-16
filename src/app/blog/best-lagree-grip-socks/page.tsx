@@ -67,7 +67,7 @@ const PRODUCTS = [
     verdict: "Best closed-toe value",
     description:
       "The Savvy is TAVI's everyday closed-toe grip sock and the cheapest way into the brand. For most people, closed-toe is the practical default for Lagree: no toe pockets to fiddle with, quick to put on, and a single sock shape that is easier to fit if your toes do not like being separated. What you give up is independent toe grip, which some people value in single-leg work and others never notice. The $16.00 price is for the Haze, Medium listing we checked — TAVI sells colours and sizes as separate listings, so prices can differ. Look at the sole photos on the listing before you buy and pick the size by the brand's chart rather than your shoe size alone.",
-    affiliateUrl: "https://www.amazon.com/dp/B07KRPY2SQ?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08VYL1XFT?tag=pilatescollective-20",
     tag: "Best Closed-Toe Value",
   },
   {

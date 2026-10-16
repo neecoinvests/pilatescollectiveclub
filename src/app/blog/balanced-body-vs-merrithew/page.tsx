@@ -109,7 +109,7 @@ const PRODUCTS = [
   { name: "Merrithew At Home SPX Reformer Package", description: "Merrithew's real home-market reformer sold on Amazon — five-spring system with fine light-end gradation, sized to fit along a wall in most bedrooms. We could not verify a folding feature for this listing.", price: "$3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
   { name: "Byrex Pilates Prop Kit (Ring, Ball, Bands)", description: "A real, currently-sold prop kit rather than a brand-specific magic circle — works regardless of which reformer brand you choose, and is a useful addition to any home practice.", price: "$19.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
   { name: "Eccentfit Pilates Grip Pads (4-Pack)", description: "Cheap insurance for standing and kneeling work on either brand's carriage, and it protects the upholstery. Check pad dimensions against your carriage width before ordering.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B0GGR4QXNH?tag=pilatescollective-20" },
-  { name: "Gaiam Premium Yoga Mat, 6mm", description: "A real, useful mat for home practice while you're deciding between reformer brands, or for the mat work that complements either machine.", price: "$21.00", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
+  { name: "Gaiam Premium Yoga Mat, 6mm", description: "A real, useful mat for home practice while you're deciding between reformer brands, or for the mat work that complements either machine.", price: "$39.99", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
 ];
 
 export default function BalancedBodyVsMerrithewPage() {

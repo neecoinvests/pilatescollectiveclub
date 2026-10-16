@@ -67,7 +67,7 @@ const FLOOR_KIT: Pick[] = [
     badge: "Best Sliders",
     shortName: "Core sliders",
     name: "Gaiam Core Sliding Discs (Set of 2)",
-    price: "$10.99",
+    price: "$16.99",
     url: amz("B0964G1N18"),
     description:
       "Sliders are the closest thing to a carriage you can put on a floor: your hand or foot glides out under control and you have to pull it back. That is why every move in the home workout below uses them. These are dual-sided for carpet and hard floors, light enough to take to class, and sold by Amazon.com.",

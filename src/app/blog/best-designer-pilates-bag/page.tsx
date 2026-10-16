@@ -89,7 +89,7 @@ const PRODUCTS = [
     price: "$62",
     verdict: "Best Lightweight Carryall",
     description: "BAGGU's puffy nylon Cloud Bag is light, squashy and surprisingly roomy (12.75 × 13.75 × 8 inches), with a top zip and an exterior pocket. It's big enough for a studio change of clothes and a towel, and when you don't need it, it packs into its own detachable interior pouch. The colours are the fun part. Sold by BAGGU on Amazon.",
-    affiliateUrl: "https://www.amazon.com/dp/B0FMC4PJM8?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08JYLLYS6?tag=pilatescollective-20",
     tag: "Lightweight",
   },
 ];

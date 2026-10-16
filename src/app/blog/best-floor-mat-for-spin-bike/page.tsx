@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Crostice Bike Mat",
-    price: "$32.98",
+    price: "$29.99",
     verdict: "Best Peloton-compatible mid-tier pick",
     description:
       "Crostice Home's mat matches the Cycleclub in thickness at 6mm and is specifically noted as Peloton compatible, sized to fit the Bike and Bike+ footprint. It sits at a similar price to our top pick, making it a strong alternative if the Cycleclub is unavailable.",
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Marcy Fitness Equipment Mat",
-    price: "$32.98",
+    price: "$42.29",
     verdict: "Best from an established brand",
     description:
       "Marcy is a long-standing name in home fitness equipment, and this mat is sold directly by Amazon.com, which some buyers prefer for the added confidence in fulfillment and returns. It's a solid, no-surprises floor protector from a brand many practitioners already recognize from other gym equipment.",

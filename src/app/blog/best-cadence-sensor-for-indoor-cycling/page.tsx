@@ -45,7 +45,7 @@ const PRODUCTS = [
     price: "$16.99",
     verdict: "Best for sweaty, humid training spaces",
     description:
-      "The CYCPLUS sensor transmits over both Bluetooth and ANT+, so it pairs with a phone-based app and a dedicated head unit at once. Its standout feature is an IP67 waterproof rating, which matters more indoors than it sounds — spin bikes sit under riders who sweat heavily, and a sensor mounted near the crank takes the brunt of it. For anyone training in a garage, basement, or heavily air-conditioned studio where moisture and condensation are a recurring issue, the CYCPLUS is the sturdier long-term choice.",
+      "The CYCPLUS sensor transmits over both Bluetooth and ANT+, so it pairs with a phone-based app and a dedicated head unit at once. Its standout feature is an IP67 waterproof rating, which matters more indoors than it sounds — spin bikes sit under riders who sweat heavily, and a sensor mounted near the crank takes the brunt of it. For anyone training in a garage, basement, or heavily air-conditioned studio where moisture and condensation are a recurring issue, the CYCPLUS is the sturdier long-term choice. It currently shows a later ship date on Amazon, so check the delivery estimate before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B08X49WVV2?tag=pilatescollective-20",
     tag: "Best Sweat & Moisture Resistance",
   },
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "GEOID CS600 Cadence/Speed Sensor",
-    price: "$14.24",
+    price: "$14.99",
     verdict: "Best budget pick",
     description:
       "The GEOID CS600 is the least expensive option here, offering both ANT+ and Bluetooth connectivity, which covers the vast majority of training apps and head units. It's a straightforward choice for riders who want to add cadence tracking to a non-connected spin bike without spending much to find out whether they'll use the data regularly. There's nothing exotic about it — it does the core job of reporting cadence and speed at the lowest price in this lineup.",

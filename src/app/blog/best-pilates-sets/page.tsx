@@ -59,7 +59,7 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20",
     pieces: [
       { label: "Power Cropped Legging (black)", price: "$98.00", url: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20" },
-      { label: "Power Medium Racer Back Bra (black)", price: "$68.00", url: "https://www.amazon.com/dp/B0BSB22J5P?tag=pilatescollective-20" },
+      { label: "Power Medium Racer Back Bra (black)", price: "$55.76", url: "https://www.amazon.com/dp/B0BSB22J5P?tag=pilatescollective-20" },
     ],
     tag: "Best for Sizing",
   },
@@ -90,9 +90,9 @@ const PRODUCTS = [
     verdict: "Best value set",
     description:
       "Build the set from two pieces in the same Naked Feeling fabric, both sold by CRZ YOGA. The 25-inch high-rise legging is designed for hot yoga or Pilates, with sweat-wicking fabric, decent compression, a seamless waistband and a hidden pocket; the Strappy bra is medium support with removable pads and a wide underband that stays in place. Two pieces for about $52, in matching colours — the starting point for anyone unwilling to spend $150+ on a two-piece outfit.",
-    affiliateUrl: "https://www.amazon.com/dp/B07DCRMWXT?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20",
     pieces: [
-      { label: "Naked Feeling Legging 25\" (black)", price: "$26.00", url: "https://www.amazon.com/dp/B07DCRMWXT?tag=pilatescollective-20" },
+      { label: "Naked Feeling Legging 25\" (black)", price: "$26.00", url: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20" },
       { label: "Naked Feeling Strappy Sports Bra (black)", price: "$26.00", url: "https://www.amazon.com/dp/B079PZH7KS?tag=pilatescollective-20" },
     ],
     tag: "Best Value",
@@ -103,8 +103,8 @@ const PRODUCTS = [
     price: "$32.95",
     verdict: "Best budget set in one listing",
     description:
-      "A genuine two-piece set sold as one listing: high-waisted, squat-proof leggings with pockets and a racerback top with a built-in medium-support bra, in an 80% nylon, 20% elastane fabric the listing describes as buttery soft, moisture-wicking and not see-through. Check the size chart — the brand maps XS to US 2 through XL to US 10.",
-    affiliateUrl: "https://www.amazon.com/dp/B0HC5YRF1L?tag=pilatescollective-20",
+      "A genuine two-piece set sold as one listing: high-waisted, squat-proof leggings with pockets and a racerback top with a built-in medium-support bra, in a 75% polyamide, 25% spandex fabric the listing describes as buttery soft, breathable and moisture-wicking. Check the size chart before ordering.",
+    affiliateUrl: "https://www.amazon.com/dp/B0HJCN5LF6?tag=pilatescollective-20",
     tag: "Best Budget",
   },
 ];

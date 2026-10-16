@@ -42,7 +42,7 @@ const PRODUCTS = [
     name: "Theragun PRO (5th Generation)",
     price: "$530",
     verdict: "The Ultimate Recovery Gift",
-    description: "The Theragun PRO is Therabody's flagship percussive massager, and it's the one physios and serious athletes actually own. Its 16mm amplitude reaches deeper into the glutes, hip flexors and upper back than the cheap lookalikes, the patented triangle handle lets you reach your own back without straining your wrist, and it comes with six attachments (including a Supersoft head for bony areas). Built-in Warm Up, Post Workout, Sleep and Break routines run from the screen, or pair it with the Therabody app. Sold by Therabody on Amazon.",
+    description: "The Theragun PRO is Therabody's flagship percussive massager, and it's the one physios and serious athletes actually own. Its 16mm amplitude reaches deeper into the glutes, hip flexors and upper back than the cheap lookalikes, the patented triangle handle lets you reach your own back without straining your wrist, and it comes with six attachments (including a Supersoft head for bony areas). Built-in Warm Up, Post Workout, Sleep and Break routines run from the screen, or pair it with the Therabody app. Sold by Therabody on Amazon; at the moment it ships at a later date, so check the delivery estimate if it is a gift.",
     affiliateUrl: "https://www.amazon.com/dp/B0B6RL7NQJ?tag=pilatescollective-20",
   },
   {

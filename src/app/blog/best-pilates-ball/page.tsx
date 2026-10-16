@@ -50,7 +50,7 @@ const PRODUCTS = [
     tag: "Most Stylish",
     description:
       "Bala is a design-led barre and Pilates brand (best known for its Bangles), and its small non-weighted Pilates ball is sold on Amazon by Bala Bangles directly. Functionally it does the same job as any mini ball — squeezes, supports and feedback during mat work — so the reason to choose it is the look. If your props live out in the open and you care how they sit alongside the rest of your kit, this is the pick.",
-    affiliateUrl: "https://www.amazon.com/dp/B0BQCGM6N9?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0D1VP474D?tag=pilatescollective-20",
   },
   {
     rank: "03",

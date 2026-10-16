@@ -52,7 +52,7 @@ const GUIDE: DealsGuideProps = {
           "price": "$32.00"
         },
         {
-          "asin": "B07DCRMWXT",
+          "asin": "B07DCSM69V",
           "name": "CRZ YOGA Naked Feeling Leggings 25\"",
           "badge": "Best for hot classes",
           "note": "High-rise, sweat-wicking, with a hidden waistband pocket. Designed for hot yoga or Pilates.",
@@ -98,7 +98,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Sweaty Betty Power Medium Racer Back Bra",
           "badge": "Premium bra",
           "note": "Medium impact with removable pads and an adjustable T-bar strap. Sold by Amazon.com.",
-          "price": "$68.00"
+          "price": "$55.76"
         },
         {
           "asin": "B0FXN42JWR",

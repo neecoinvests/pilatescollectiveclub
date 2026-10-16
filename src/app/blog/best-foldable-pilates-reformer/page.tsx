@@ -47,7 +47,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "AeroPilates Reformer 287",
-    price: "$256.49",
+    price: "$359.00",
     verdict: "Established brand's own fold-flat design, budget tier",
     description:
       "The AeroPilates 287 is the most accessible entry point into reformer Pilates from an established, recognized brand, and — like the rest of the AeroPilates range — is marketed by the brand around fold-flat storage. It uses elastic cord resistance rather than coil springs, which feels genuinely different from a spring-based machine like WINDFOOT, DWKWE, or the PAETA models below. We could not independently verify exact folded dimensions, weight, or fold time for the current listing — confirm those against your specific storage space on the Amazon product page before buying on the strength of this feature. If brand track record and support matter more to you than spring-based resistance, this is the safer, more established folding choice at a similar price to the generic-brand spring options above.",

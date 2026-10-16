@@ -40,10 +40,10 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Wolford Energy Leggings",
-    price: "$115.00",
+    price: "$144.00",
     verdict: "Most Luxurious",
     description: "Wolford, the Austrian hosiery house founded in 1950, applies its knitting expertise to activewear with the Energy Leggings. They're circular-knit, which means very few seams to press into you on the carriage, with a matt finish that reads more polished than typical gym leggings. They dry quickly, are sustainably dyed, and are made from recycled BLUFIBRE yarn derived from tyre waste. Full length. Sold by Wolford's own shop on Amazon; stock by size can be thin, so check yours before ordering.",
-    affiliateUrl: "https://www.amazon.com/dp/B0G43PB7X4?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0G43JFT1F?tag=pilatescollective-20",
     tag: "Pinnacle Luxury",
   },
   {

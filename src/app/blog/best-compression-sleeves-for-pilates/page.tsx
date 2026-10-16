@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Rymora Calf Compression Sleeves",
-    price: "$14.99",
+    price: "$13.49",
     verdict: "Best fit range across sizes",
     description:
       "Rymora's calf compression sleeves come as a pair and are offered across multiple sizes, which matters for a garment that only works when the fit is right — too loose and the graduated compression doesn't do its job, too tight and it restricts rather than supports. For practitioners who've struggled to find a one-size-fits-all sleeve that actually fits their calf, Rymora's sizing options make it easier to land on a snug, comfortable fit for Lagree and reformer sessions.",
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Cambivo Calf Compression Sleeves (3 Pairs)",
-    price: "$16.99",
+    price: "$15.29",
     verdict: "Best multi-pack value",
     description:
       "Cambivo sells its calf compression sleeves in a 3-pair pack, which brings the per-pair cost down considerably and means you always have a clean pair on hand — genuinely useful if you're wearing sleeves to every Lagree or reformer session and washing them between classes. For practitioners who've decided calf compression is a regular part of their routine, this multi-pack is the most economical way to stock up.",

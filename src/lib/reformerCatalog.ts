@@ -68,7 +68,7 @@ export const CATALOG = {
   },
   spxHomeStand: {
     id: "merrithew-at-home-spx-stand", name: "Merrithew At Home SPX Reformer Package with Vertical Stand", brand: "Merrithew", price: "$3,549.00", url: amz("B0BSZ92NMH"),
-    availability: "low-stock", soldBy: "Merrithew",
+    availability: "back-order", soldBy: "Merrithew",
     specs: ["Includes a vertical stand to store the reformer upright", "Aluminum rails", "5 springs: 4 × 100%, 1 × 50%", "Box, roll-up pole, platform extender and straps included", "96.5\" L × 26\" W × 10\" H; 115 lb"],
     body: "The same At Home SPX package with a vertical stand, so the reformer can be stored upright when not in use.",
   },

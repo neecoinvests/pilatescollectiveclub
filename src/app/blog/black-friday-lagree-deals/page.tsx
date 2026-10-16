@@ -84,7 +84,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Marcy Equipment Mat & Floor Protector (78\" x 36\")",
           "badge": "Floor mat — Micro only",
           "note": "Covers the Micro's 72\" length. Not long enough with the rear platform.",
-          "price": "$34.71"
+          "price": "$42.29"
         },
         {
           "asin": "B005SUKZJ8",

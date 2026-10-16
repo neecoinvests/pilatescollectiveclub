@@ -108,7 +108,7 @@ const GUIDE: DealsGuideProps = {
           "price": "$24.00"
         },
         {
-          "asin": "B0H1HK895W",
+          "asin": "B0H1HV6YXB",
           "name": "CRZ YOGA Quick Dry Racerback Crop Tank",
           "badge": "Crop tank",
           "note": "A quick-dry crop with nothing to slide up upside down.",
