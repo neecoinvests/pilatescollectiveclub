@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import DealsGuide, { type DealsGuideProps } from "@/components/DealsGuide";
 
 export const metadata: Metadata = {
-  "title": "Pilates Stocking Stuffers 2026: 15 Gifts Under $35",
-  "description": "15 Pilates stocking stuffers under $35 for Christmas 2026: grip socks, mini props, bands, sliders, claw clips, towels and recovery treats, with today's prices.",
+  "title": "Pilates Christmas Stocking Stuffers 2026: 15 Gifts Under $35",
+  "description": "15 Pilates Christmas stocking stuffers under $35 for 2026: grip socks, mini props, bands, sliders, claw clips, towels and treats, with today's prices.",
   "keywords": [
+    "pilates christmas stocking stuffers",
+    "christmas stocking stuffers for pilates lovers",
     "pilates stocking stuffers",
     "pilates stocking fillers",
     "stocking stuffers for pilates lovers",
@@ -14,10 +16,10 @@ export const metadata: Metadata = {
     "grip socks gift"
   ],
   "openGraph": {
-    "title": "Pilates Stocking Stuffers 2026: 15 Gifts Under $35",
-    "description": "15 Pilates stocking stuffers under $35 for Christmas 2026: grip socks, mini props, bands, sliders, claw clips, towels and recovery treats, with today's prices.",
+    "title": "Pilates Christmas Stocking Stuffers 2026: 15 Gifts Under $35",
+    "description": "15 Pilates Christmas stocking stuffers under $35 for 2026: grip socks, mini props, bands, sliders, claw clips, towels and treats, with today's prices.",
     "type": "article",
-    "url": "https://pilatescollectiveclub.com/blog/pilates-stocking-stuffers",
+    "url": "https://pilatescollectiveclub.com/blog/pilates-christmas-stocking-stuffers",
     "images": [
       {
         "url": "https://pilatescollectiveclub.com/pictures/stitch-grip-socks-footbar.png",
@@ -29,14 +31,14 @@ export const metadata: Metadata = {
   },
   "twitter": {
     "card": "summary_large_image",
-    "title": "Pilates Stocking Stuffers 2026: 15 Gifts Under $35",
-    "description": "15 Pilates stocking stuffers under $35 for Christmas 2026: grip socks, mini props, bands, sliders, claw clips, towels and recovery treats, with today's prices.",
+    "title": "Pilates Christmas Stocking Stuffers 2026: 15 Gifts Under $35",
+    "description": "15 Pilates Christmas stocking stuffers under $35 for 2026: grip socks, mini props, bands, sliders, claw clips, towels and treats, with today's prices.",
     "images": [
       "https://pilatescollectiveclub.com/pictures/stitch-grip-socks-footbar.png"
     ]
   },
   "alternates": {
-    "canonical": "https://pilatescollectiveclub.com/blog/pilates-stocking-stuffers"
+    "canonical": "https://pilatescollectiveclub.com/blog/pilates-christmas-stocking-stuffers"
   },
   "robots": {
     "index": true,
@@ -48,12 +50,12 @@ export const metadata: Metadata = {
 
 // Prices are the live Amazon prices checked on October 14, 2026.
 const GUIDE: DealsGuideProps = {
-  "slug": "pilates-stocking-stuffers",
-  "title": "Pilates Stocking Stuffers 2026: 15 Gifts Under $35",
-  "description": "15 Pilates stocking stuffers under $35 for Christmas 2026: grip socks, mini props, bands, sliders, claw clips, towels and recovery treats, with today's prices.",
-  "breadcrumb": "Pilates Stocking Stuffers",
+  "slug": "pilates-christmas-stocking-stuffers",
+  "title": "Pilates Christmas Stocking Stuffers 2026: 15 Gifts Under $35",
+  "description": "15 Pilates Christmas stocking stuffers under $35 for 2026: grip socks, mini props, bands, sliders, claw clips, towels and treats, with today's prices.",
+  "breadcrumb": "Pilates Christmas Stocking Stuffers",
   "eyebrow": "Stocking Stuffers",
-  "h1": "Pilates Stocking Stuffers",
+  "h1": "Pilates Christmas Stocking Stuffers",
   "h1Accent": "2026: 15 Gifts Under $35",
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-grip-socks-footbar.png",

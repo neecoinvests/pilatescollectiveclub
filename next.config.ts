@@ -13,6 +13,18 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Christmas guides renamed to include "christmas" in the URL (October 2026).
+  async redirects() {
+    return [
+      ["pilates-stocking-stuffers", "pilates-christmas-stocking-stuffers"],
+      ["pilates-secret-santa-gifts", "pilates-secret-santa-christmas-gifts"],
+      ["best-pilates-gifts-for-her", "best-pilates-christmas-gifts-for-her"],
+      ["best-reformer-pilates-gifts", "reformer-pilates-christmas-gifts"],
+      ["luxury-recovery-gifts-for-pilates", "luxury-recovery-christmas-gifts-for-pilates"],
+      ["fitness-tech-gifts-for-pilates-lovers", "fitness-tech-christmas-gifts-for-pilates-lovers"],
+      ["luxury-fitness-gifts-for-him", "luxury-fitness-christmas-gifts-for-him"],
+    ].map(([from, to]) => ({ source: `/blog/${from}`, destination: `/blog/${to}`, permanent: true }));
+  },
 };
 
 export default nextConfig;

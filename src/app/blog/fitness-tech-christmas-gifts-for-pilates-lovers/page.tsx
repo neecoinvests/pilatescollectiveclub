@@ -2,18 +2,18 @@ import type { Metadata } from "next";
 import EquipmentGuide, { type EquipmentGuideProps } from "@/components/EquipmentGuide";
 import { gift, GIFTS_CHECKED, GIFTS_CHECKED_ISO } from "@/lib/giftCatalog";
 
-const SLUG = "fitness-tech-gifts-for-pilates-lovers";
+const SLUG = "fitness-tech-christmas-gifts-for-pilates-lovers";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-pilates-essentials-logbook.png";
-const TITLE = "Best Fitness Tech Gifts for Pilates Lovers (2026): 13 Picks";
+const TITLE = "Fitness Tech Christmas Gifts for Pilates Lovers (2026)";
 const DESCRIPTION = "Fitness tech Christmas gifts for Pilates lovers: Apple Watch Series 12 and Ultra 4, Garmin Venu 4, Oura Ring 5, WHOOP, AirPods Pro 3 and Powerbeats Pro 2.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: ["fitness tech gifts", "fitness tech gifts for her", "best smartwatch for pilates", "oura vs whoop gift", "apple watch christmas gift 2026", "garmin venu 4 gift", "best workout earbuds gift", "tech gifts for pilates lovers"],
+  keywords: ["fitness tech christmas gifts", "tech christmas gifts for pilates lovers", "fitness tech gifts", "fitness tech gifts for her", "best smartwatch for pilates", "oura vs whoop gift", "apple watch christmas gift 2026", "garmin venu 4 gift", "best workout earbuds gift", "tech gifts for pilates lovers"],
   openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "A Pilates logbook and essentials" }] },
-  twitter: { card: "summary_large_image", title: "Best Fitness Tech Gifts for Pilates Lovers (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
+  twitter: { card: "summary_large_image", title: "Fitness Tech Christmas Gifts for Pilates Lovers (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -22,11 +22,11 @@ const GUIDE: EquipmentGuideProps = {
   slug: SLUG,
   title: TITLE,
   description: DESCRIPTION,
-  breadcrumb: "Fitness Tech Gifts",
+  breadcrumb: "Fitness Tech Christmas Gifts",
   eyebrow: "Christmas 2026",
   eyebrowAccent: "Fitness Tech",
-  h1: "Best Fitness Tech Gifts for Pilates Lovers",
-  h1Accent: "(2026): 13 Picks",
+  h1: "Best Fitness Tech Christmas Gifts",
+  h1Accent: "for Pilates Lovers (2026): 13 Picks",
   readTime: "11 min read",
   updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
   datePublished: GIFTS_CHECKED_ISO,
@@ -111,10 +111,10 @@ const GUIDE: EquipmentGuideProps = {
     { q: "Are these prices final?", a: `They are the Amazon prices we checked on ${GIFTS_CHECKED}. Tech is often discounted around Black Friday (November 27) and Cyber Monday (November 30).` },
   ],
   related: [
-    { title: "Luxury Recovery Gifts for Pilates Lovers", excerpt: "Normatec, JetBoots, Theragun and more.", href: "/blog/luxury-recovery-gifts-for-pilates", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Gifts", readTime: "11 min read" },
+    { title: "Luxury Recovery Christmas Gifts", excerpt: "Normatec, JetBoots, Theragun and more.", href: "/blog/luxury-recovery-christmas-gifts-for-pilates", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Gifts", readTime: "11 min read" },
     { title: "Pilates Christmas Gifts Over $500", excerpt: "16 splurge gifts.", href: "/blog/pilates-christmas-gifts-over-500", imageUrl: "/pictures/stitch-luxury-studio-wide.png", category: "Gifts", readTime: "12 min read" },
     { title: "Best Heart Rate Monitor for Pilates and Spin", excerpt: "Chest straps and arm bands compared.", href: "/blog/best-heart-rate-monitor-for-pilates-and-spin", imageUrl: "/pictures/stitch-studio-modern-row.png", category: "Equipment", readTime: "9 min read" },
-    { title: "Best Pilates Gifts for Her", excerpt: "18 ideas she'll use.", href: "/blog/best-pilates-gifts-for-her", imageUrl: "/pictures/stitch-retail-activewear.png", category: "Gifts", readTime: "9 min read" },
+    { title: "Pilates Christmas Gifts for Her", excerpt: "18 ideas she'll use.", href: "/blog/best-pilates-christmas-gifts-for-her", imageUrl: "/pictures/stitch-retail-activewear.png", category: "Gifts", readTime: "9 min read" },
   ],
   ctaTitle: "Find a studio near you",
   ctaSubtitle: "Use our curated city guides to find the best Pilates studios worldwide.",

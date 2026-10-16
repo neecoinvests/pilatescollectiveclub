@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-retail-act
 
 export const metadata: Metadata = {
   title: "Pilates Clothing Black Friday Deals 2026",
-  description: "Pilates clothing Black Friday 2026: leggings, sports bras, tops, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI — with today's Amazon price to beat.",
+  description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with prices to beat.",
   keywords: ["pilates clothing black friday", "black friday leggings deals", "pilates leggings black friday", "grip socks black friday", "activewear black friday 2026", "varley black friday", "sweaty betty black friday", "cyber monday activewear"],
   openGraph: {
     title: "Pilates Clothing Black Friday Deals 2026: Leggings, Bras & Socks",
-    description: "Pilates clothing Black Friday 2026: leggings, sports bras, tops, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI — with today's Amazon price to beat.",
+    description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with prices to beat.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Activewear on a rail — Pilates clothing Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Clothing Black Friday Deals 2026",
-    description: "Pilates clothing Black Friday 2026: leggings, sports bras, tops, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI — with today's Amazon price to beat.",
+    description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with prices to beat.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-clothing-deals",
   "title": "Pilates Clothing Black Friday Deals 2026: Leggings, Bras & Socks",
-  "description": "Pilates clothing Black Friday 2026: leggings, sports bras, tops, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI — with today's Amazon price to beat.",
+  "description": "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with prices to beat.",
   "breadcrumb": "Pilates Clothing Black Friday Deals",
   "eyebrow": "Clothing",
   "h1": "Pilates Clothing Black Friday",

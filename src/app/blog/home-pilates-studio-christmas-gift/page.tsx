@@ -6,15 +6,15 @@ import { GIFTS_CHECKED, GIFTS_CHECKED_ISO } from "@/lib/giftCatalog";
 const SLUG = "home-pilates-studio-christmas-gift";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-reformer-row-studio.png";
-const TITLE = "Ultimate Home Pilates Studio Gift (2026): Reformers & Towers";
-const DESCRIPTION = "Give a home Pilates studio for Christmas: reformers with towers, a Cadillac, a ladder barrel and a chair from Balanced Body and Merrithew, with live prices and lead times.";
+const TITLE = "Home Pilates Studio Christmas Gift (2026): Reformers & Towers";
+const DESCRIPTION = "The ultimate Pilates Christmas gift: a home studio. Reformers with towers, a Cadillac, barrel and chair from Balanced Body and Merrithew, with live prices.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: ["home pilates studio gift", "pilates reformer with tower gift", "balanced body christmas gift", "pilates cadillac for home", "home pilates studio equipment", "luxury pilates christmas gift", "reformer tower christmas", "pilates apparatus for home"],
+  keywords: ["home pilates studio christmas gift", "pilates reformer christmas gift", "home pilates studio gift", "pilates reformer with tower gift", "balanced body christmas gift", "pilates cadillac for home", "home pilates studio equipment", "luxury pilates christmas gift", "reformer tower christmas", "pilates apparatus for home"],
   openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "Reformers in a Pilates studio" }] },
-  twitter: { card: "summary_large_image", title: "The Ultimate Home Pilates Studio Gift (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
+  twitter: { card: "summary_large_image", title: "Home Pilates Studio Christmas Gift (2026): Reformers & Towers", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -23,11 +23,11 @@ const GUIDE: EquipmentGuideProps = {
   slug: SLUG,
   title: TITLE,
   description: DESCRIPTION,
-  breadcrumb: "Home Pilates Studio Gift",
+  breadcrumb: "Home Pilates Studio Christmas Gift",
   eyebrow: "Christmas 2026",
   eyebrowAccent: "The Ultimate Gift",
-  h1: "The Ultimate Home Pilates Studio Gift",
-  h1Accent: "(2026): Reformers, Towers & Apparatus",
+  h1: "The Ultimate Home Pilates Studio",
+  h1Accent: "Christmas Gift (2026): Reformers & Towers",
   readTime: "12 min read",
   updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
   datePublished: "2026-10-15",

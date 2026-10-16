@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-studio-mod
 
 export const metadata: Metadata = {
   title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-  description: "Spin and indoor cycling Black Friday 2026: bikes from Sunny, YOSUDA, Schwinn and Echelon, plus cycling shoes, pedals, padded shorts, mats and sensors — with today's Amazon price to beat.",
+  description: "Spin bike Black Friday 2026: indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts, mats and sensors, with prices to beat.",
   keywords: ["spin bike black friday", "indoor cycling bike black friday", "exercise bike black friday 2026", "schwinn ic4 black friday", "cycling shoes black friday", "peloton alternative black friday", "spin class gear deals", "cyber monday exercise bike"],
   openGraph: {
     title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-    description: "Spin and indoor cycling Black Friday 2026: bikes from Sunny, YOSUDA, Schwinn and Echelon, plus cycling shoes, pedals, padded shorts, mats and sensors — with today's Amazon price to beat.",
+    description: "Spin bike Black Friday 2026: indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts, mats and sensors, with prices to beat.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A modern studio — spin and indoor cycling Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-    description: "Spin and indoor cycling Black Friday 2026: bikes from Sunny, YOSUDA, Schwinn and Echelon, plus cycling shoes, pedals, padded shorts, mats and sensors — with today's Amazon price to beat.",
+    description: "Spin bike Black Friday 2026: indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts, mats and sensors, with prices to beat.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-spin-deals",
   "title": "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-  "description": "Spin and indoor cycling Black Friday 2026: bikes from Sunny, YOSUDA, Schwinn and Echelon, plus cycling shoes, pedals, padded shorts, mats and sensors — with today's Amazon price to beat.",
+  "description": "Spin bike Black Friday 2026: indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts, mats and sensors, with prices to beat.",
   "breadcrumb": "Spin Black Friday Deals",
   "eyebrow": "Spin",
   "h1": "Spin & Indoor Cycling",

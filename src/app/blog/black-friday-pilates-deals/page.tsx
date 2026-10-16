@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-luxury-stu
 
 export const metadata: Metadata = {
   title: "Pilates Black Friday Deals 2026: The Watchlist",
-  description: "Pilates Black Friday 2026: the reformers, clothing, grip socks and gifts worth watching, with today's Amazon price for each so you can spot a real discount on November 27.",
+  description: "Pilates Black Friday 2026 deals to watch: reformers, clothing, grip socks and gifts, with today's Amazon price so you can spot a real discount on November 27.",
   keywords: ["pilates black friday", "pilates black friday deals", "black friday pilates deals 2026", "pilates cyber monday", "reformer black friday", "pilates sale", "black friday lagree", "pilates deals"],
   openGraph: {
     title: "Pilates Black Friday Deals 2026: The Watchlist",
-    description: "Pilates Black Friday 2026: the reformers, clothing, grip socks and gifts worth watching, with today's Amazon price for each so you can spot a real discount on November 27.",
+    description: "Pilates Black Friday 2026 deals to watch: reformers, clothing, grip socks and gifts, with today's Amazon price so you can spot a real discount on November 27.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A bright Pilates studio — Pilates Black Friday deals 2026" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Black Friday Deals 2026: The Watchlist",
-    description: "Pilates Black Friday 2026: the reformers, clothing, grip socks and gifts worth watching, with today's Amazon price for each so you can spot a real discount on November 27.",
+    description: "Pilates Black Friday 2026 deals to watch: reformers, clothing, grip socks and gifts, with today's Amazon price so you can spot a real discount on November 27.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-deals",
   "title": "Pilates Black Friday Deals 2026: The Watchlist",
-  "description": "Pilates Black Friday 2026: the reformers, clothing, grip socks and gifts worth watching, with today's Amazon price for each so you can spot a real discount on November 27.",
+  "description": "Pilates Black Friday 2026 deals to watch: reformers, clothing, grip socks and gifts, with today's Amazon price so you can spot a real discount on November 27.",
   "breadcrumb": "Pilates Black Friday Deals",
   "eyebrow": "Deals Hub",
   "h1": "Pilates Black Friday Deals",

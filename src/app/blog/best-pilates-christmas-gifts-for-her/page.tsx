@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import DealsGuide, { type DealsGuideProps } from "@/components/DealsGuide";
 
 export const metadata: Metadata = {
-  "title": "Best Pilates Gifts for Her 2026: 18 Ideas She'll Use",
-  "description": "Pilates gifts for her in 2026: Varley and Beyond Yoga activewear, grip socks, premium mats, Bala weights, massage guns and home reformers, at every budget.",
+  "title": "Best Pilates Christmas Gifts for Her (2026): 18 Ideas",
+  "description": "Pilates Christmas gifts for her in 2026: Varley and Beyond Yoga activewear, grip socks, premium mats, Bala weights, massage guns and home reformers.",
   "keywords": [
+    "pilates christmas gifts for her",
+    "christmas gifts for her who loves pilates",
     "pilates gifts for her",
     "gifts for pilates lovers women",
     "pilates christmas gifts for her",
@@ -14,10 +16,10 @@ export const metadata: Metadata = {
     "reformer pilates gifts for her"
   ],
   "openGraph": {
-    "title": "Best Pilates Gifts for Her 2026: 18 Ideas She'll Use",
-    "description": "Pilates gifts for her in 2026: Varley and Beyond Yoga activewear, grip socks, premium mats, Bala weights, massage guns and home reformers, at every budget.",
+    "title": "Best Pilates Christmas Gifts for Her (2026): 18 Ideas",
+    "description": "Pilates Christmas gifts for her in 2026: Varley and Beyond Yoga activewear, grip socks, premium mats, Bala weights, massage guns and home reformers.",
     "type": "article",
-    "url": "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-her",
+    "url": "https://pilatescollectiveclub.com/blog/best-pilates-christmas-gifts-for-her",
     "images": [
       {
         "url": "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png",
@@ -29,14 +31,14 @@ export const metadata: Metadata = {
   },
   "twitter": {
     "card": "summary_large_image",
-    "title": "Best Pilates Gifts for Her 2026: 18 Ideas She'll Use",
-    "description": "Pilates gifts for her in 2026: Varley and Beyond Yoga activewear, grip socks, premium mats, Bala weights, massage guns and home reformers, at every budget.",
+    "title": "Best Pilates Christmas Gifts for Her (2026): 18 Ideas",
+    "description": "Pilates Christmas gifts for her in 2026: Varley and Beyond Yoga activewear, grip socks, premium mats, Bala weights, massage guns and home reformers.",
     "images": [
       "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png"
     ]
   },
   "alternates": {
-    "canonical": "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-her"
+    "canonical": "https://pilatescollectiveclub.com/blog/best-pilates-christmas-gifts-for-her"
   },
   "robots": {
     "index": true,
@@ -48,12 +50,12 @@ export const metadata: Metadata = {
 
 // Prices are the live Amazon prices checked on October 14, 2026.
 const GUIDE: DealsGuideProps = {
-  "slug": "best-pilates-gifts-for-her",
-  "title": "Best Pilates Gifts for Her 2026: 18 Ideas She'll Use",
-  "description": "Pilates gifts for her in 2026: Varley and Beyond Yoga activewear, grip socks, premium mats, Bala weights, massage guns and home reformers, at every budget.",
-  "breadcrumb": "Pilates Gifts for Her",
+  "slug": "best-pilates-christmas-gifts-for-her",
+  "title": "Best Pilates Christmas Gifts for Her (2026): 18 Ideas",
+  "description": "Pilates Christmas gifts for her in 2026: Varley and Beyond Yoga activewear, grip socks, premium mats, Bala weights, massage guns and home reformers.",
+  "breadcrumb": "Pilates Christmas Gifts for Her",
   "eyebrow": "Gifts for Her",
-  "h1": "Best Pilates Gifts for Her",
+  "h1": "Best Pilates Christmas Gifts for Her",
   "h1Accent": "2026: 18 Ideas She'll Use",
   "readTime": "9 min read",
   "heroImage": "/pictures/stitch-retail-activewear.png",

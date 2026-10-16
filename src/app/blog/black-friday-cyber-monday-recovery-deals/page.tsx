@@ -116,7 +116,7 @@ const GUIDE: EquipmentGuideProps = {
     { q: "When are Black Friday and Cyber Monday 2026?", a: "Black Friday is Friday, November 27, 2026 and Cyber Monday is Monday, November 30, 2026." },
   ],
   related: [
-    { title: "Luxury Recovery Gifts for Pilates Lovers", excerpt: "The same products as Christmas gifts, compared.", href: "/blog/luxury-recovery-gifts-for-pilates", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Gifts", readTime: "11 min read" },
+    { title: "Luxury Recovery Christmas Gifts", excerpt: "The same products as Christmas gifts, compared.", href: "/blog/luxury-recovery-christmas-gifts-for-pilates", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Gifts", readTime: "11 min read" },
     { title: "Black Friday & Cyber Monday Studio Reformer Deals", excerpt: "Balanced Body, Merrithew and Align: prices to beat.", href: "/blog/black-friday-cyber-monday-studio-reformer-deals", imageUrl: "/pictures/stitch-reformers-aerial-row.png", category: "Deals", readTime: "Deals" },
     { title: "Pilates Black Friday Deals 2026", excerpt: "The Black Friday hub.", href: "/blog/black-friday-pilates-deals", imageUrl: "/pictures/stitch-luxury-studio-wide.png", category: "Deals", readTime: "Deals" },
     { title: "Best Massage Gun for Pilates", excerpt: "Massage guns compared for Pilates recovery.", href: "/blog/best-massage-gun-for-pilates", imageUrl: "/pictures/stitch-studio-shelf-props.png", category: "Recovery", readTime: "9 min read" },

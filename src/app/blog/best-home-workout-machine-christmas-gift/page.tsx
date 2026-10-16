@@ -6,15 +6,15 @@ import { gift, GIFTS_CHECKED, GIFTS_CHECKED_ISO } from "@/lib/giftCatalog";
 const SLUG = "best-home-workout-machine-christmas-gift";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-reformer-spring-detail.png";
-const TITLE = "Reformer, Lagree Micro or Bike? Best Home Machine Gifts (2026)";
-const DESCRIPTION = "The best home workout machine to give for Christmas 2026: Pilates reformers, the Lagree Micro and its add-ons, and indoor bikes, compared on space, workout and price.";
+const TITLE = "Best Home Workout Machine Christmas Gifts (2026)";
+const DESCRIPTION = "The best home workout machine Christmas gifts for 2026: Pilates reformers, the Lagree Micro and add-ons, and indoor bikes, compared on space and price.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: ["home workout machine gift", "best home gym christmas gift", "pilates reformer vs lagree micro", "lagree micro christmas gift", "reformer or spin bike", "home fitness machine gift for her", "best home exercise machine 2026", "lagree micro accessories"],
+  keywords: ["home workout machine christmas gift", "home gym christmas gifts 2026", "home workout machine gift", "best home gym christmas gift", "pilates reformer vs lagree micro", "lagree micro christmas gift", "reformer or spin bike", "home fitness machine gift for her", "best home exercise machine 2026", "lagree micro accessories"],
   openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "Reformer springs close-up" }] },
-  twitter: { card: "summary_large_image", title: "Best Home Workout Machine Gifts (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
+  twitter: { card: "summary_large_image", title: "Best Home Workout Machine Christmas Gifts (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -23,11 +23,11 @@ const GUIDE: EquipmentGuideProps = {
   slug: SLUG,
   title: TITLE,
   description: DESCRIPTION,
-  breadcrumb: "Home Workout Machine Gifts",
+  breadcrumb: "Home Workout Machine Christmas Gifts",
   eyebrow: "Christmas 2026",
   eyebrowAccent: "Home Machines",
   h1: "Reformer, Lagree Micro or Indoor Bike?",
-  h1Accent: "The Best Home Machine Gifts (2026)",
+  h1Accent: "The Best Home Workout Christmas Gifts (2026)",
   readTime: "11 min read",
   updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
   datePublished: "2026-10-15",

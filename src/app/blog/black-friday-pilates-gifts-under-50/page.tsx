@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-props-cork
 
 export const metadata: Metadata = {
   title: "Pilates Gifts Under $50: Black Friday 2026",
-  description: "13 Pilates gifts under $50 to buy on Black Friday 2026 — rings, mats, balls, bands, grip socks, rollers, towels and bags — with today's Amazon price to compare against.",
+  description: "13 Pilates gifts under $50 for Black Friday 2026: rings, mats, balls, bands, grip socks, rollers, towels and bags, with today's Amazon price to beat.",
   keywords: ["pilates gifts under 50", "black friday pilates gifts", "pilates gift ideas", "gifts for pilates lovers", "pilates stocking stuffers", "pilates christmas gifts", "cheap pilates gifts", "pilates gift guide 2026"],
   openGraph: {
     title: "Pilates Gifts Under $50: Black Friday 2026 Picks",
-    description: "13 Pilates gifts under $50 to buy on Black Friday 2026 — rings, mats, balls, bands, grip socks, rollers, towels and bags — with today's Amazon price to compare against.",
+    description: "13 Pilates gifts under $50 for Black Friday 2026: rings, mats, balls, bands, grip socks, rollers, towels and bags, with today's Amazon price to beat.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates props including a ring — Pilates gifts under $50" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Gifts Under $50: Black Friday 2026",
-    description: "13 Pilates gifts under $50 to buy on Black Friday 2026 — rings, mats, balls, bands, grip socks, rollers, towels and bags — with today's Amazon price to compare against.",
+    description: "13 Pilates gifts under $50 for Black Friday 2026: rings, mats, balls, bands, grip socks, rollers, towels and bags, with today's Amazon price to beat.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-gifts-under-50",
   "title": "Pilates Gifts Under $50: Black Friday 2026 Picks",
-  "description": "13 Pilates gifts under $50 to buy on Black Friday 2026 — rings, mats, balls, bands, grip socks, rollers, towels and bags — with today's Amazon price to compare against.",
+  "description": "13 Pilates gifts under $50 for Black Friday 2026: rings, mats, balls, bands, grip socks, rollers, towels and bags, with today's Amazon price to beat.",
   "breadcrumb": "Pilates Gifts Under $50",
   "eyebrow": "Gifts",
   "h1": "Pilates Gifts Under $50",

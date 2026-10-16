@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-grip-socks
 
 export const metadata: Metadata = {
   title: "Lagree Clothing & Gear Black Friday Deals 2026",
-  description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and Lagree fan merch — with today's Amazon price to beat.",
+  description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and fan merch, with today's Amazon price to beat.",
   keywords: ["lagree black friday", "lagree clothing deals", "lagree socks black friday", "lagree gifts black friday", "lagree outfit deals", "lagree merch", "lagree gear sale", "black friday lagree gifts"],
   openGraph: {
     title: "Lagree Clothing & Gear Black Friday Deals 2026",
-    description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and Lagree fan merch — with today's Amazon price to beat.",
+    description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and fan merch, with today's Amazon price to beat.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Grip socks on a machine — Lagree clothing and gear Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Lagree Clothing & Gear Black Friday Deals 2026",
-    description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and Lagree fan merch — with today's Amazon price to beat.",
+    description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and fan merch, with today's Amazon price to beat.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-lagree-clothing-gear",
   "title": "Lagree Clothing & Gear Black Friday Deals 2026",
-  "description": "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and Lagree fan merch — with today's Amazon price to beat.",
+  "description": "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and fan merch, with today's Amazon price to beat.",
   "breadcrumb": "Lagree Clothing & Gear Black Friday",
   "eyebrow": "Lagree",
   "h1": "Lagree Clothing & Gear",

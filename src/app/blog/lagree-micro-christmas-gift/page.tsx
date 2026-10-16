@@ -11,7 +11,7 @@ const DESCRIPTION = "Give Lagree at home this Christmas: the Lagree Micro, its r
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: ["lagree micro christmas gift", "lagree micro", "lagree micro accessories", "lagree at home", "lagree gifts", "megaformer at home gift", "lagree micro bundle", "lagree micro price"],
+  keywords: ["lagree christmas gifts", "lagree micro christmas gift", "lagree micro", "lagree micro accessories", "lagree at home", "lagree gifts", "megaformer at home gift", "lagree micro bundle", "lagree micro price"],
   openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "Close-up of loops and hooks on a machine" }] },
   twitter: { card: "summary_large_image", title: "The Lagree Micro Christmas Gift Guide (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
@@ -116,7 +116,7 @@ const GUIDE: EquipmentGuideProps = {
     { title: "Best Megaformer Machine", excerpt: "Megaformers and Lagree-style machines compared.", href: "/blog/best-megaformer-machine", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Equipment", readTime: "12 min read" },
     { title: "Lagree Black Friday Deals", excerpt: "The Micro and add-ons: prices to beat.", href: "/blog/black-friday-lagree-deals", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Deals", readTime: "Deals" },
     { title: "Best Lagree Gifts", excerpt: "Gifts for Lagree lovers at every budget.", href: "/blog/best-lagree-gifts", imageUrl: "/pictures/stitch-grip-socks-footbar.png", category: "Gifts", readTime: "9 min read" },
-    { title: "Reformer, Lagree Micro or Bike?", excerpt: "The best home machine gifts compared.", href: "/blog/best-home-workout-machine-christmas-gift", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Gifts", readTime: "11 min read" },
+    { title: "Home Workout Machine Christmas Gifts", excerpt: "The best home machine gifts compared.", href: "/blog/best-home-workout-machine-christmas-gift", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Gifts", readTime: "11 min read" },
   ],
   ctaTitle: "Find a Lagree studio near you",
   ctaSubtitle: "Use our city guides to find Lagree and boutique Pilates studios worldwide.",

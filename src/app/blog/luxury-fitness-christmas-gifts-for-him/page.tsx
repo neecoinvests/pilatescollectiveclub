@@ -3,18 +3,18 @@ import EquipmentGuide, { type EquipmentGuideProps } from "@/components/Equipment
 import { item } from "@/lib/reformerCatalog";
 import { gift, GIFTS_CHECKED, GIFTS_CHECKED_ISO } from "@/lib/giftCatalog";
 
-const SLUG = "luxury-fitness-gifts-for-him";
+const SLUG = "luxury-fitness-christmas-gifts-for-him";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-studio-modern-row.png";
-const TITLE = "Luxury Fitness Gifts for Him (2026): 14 Premium Picks";
+const TITLE = "Luxury Fitness Christmas Gifts for Him (2026): 14 Picks";
 const DESCRIPTION = "Luxury Christmas gifts for men who train: Garmin Forerunner 970, Apple Watch Ultra 4, WHOOP, Normatec, Theragun, the Lagree Micro and home reformers.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: ["luxury fitness gifts for him", "luxury gifts for men who work out", "premium fitness gifts for him", "pilates gifts for men", "lagree gifts for him", "best christmas gifts for active men 2026", "expensive fitness gifts for husband", "recovery gifts for him"],
+  keywords: ["luxury fitness christmas gifts for him", "christmas gifts for men who work out", "luxury fitness gifts for him", "luxury gifts for men who work out", "premium fitness gifts for him", "pilates gifts for men", "lagree gifts for him", "best christmas gifts for active men 2026", "expensive fitness gifts for husband", "recovery gifts for him"],
   openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "A modern studio with a row of machines" }] },
-  twitter: { card: "summary_large_image", title: "Luxury Fitness Gifts for Him (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
+  twitter: { card: "summary_large_image", title: "Luxury Fitness Christmas Gifts for Him (2026): 14 Picks", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -23,10 +23,10 @@ const GUIDE: EquipmentGuideProps = {
   slug: SLUG,
   title: TITLE,
   description: DESCRIPTION,
-  breadcrumb: "Luxury Fitness Gifts for Him",
+  breadcrumb: "Luxury Fitness Christmas Gifts for Him",
   eyebrow: "Christmas 2026",
   eyebrowAccent: "Gifts for Him",
-  h1: "Luxury Fitness Gifts for Him",
+  h1: "Luxury Fitness Christmas Gifts for Him",
   h1Accent: "(2026): 14 Premium Picks",
   readTime: "11 min read",
   updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
@@ -106,9 +106,9 @@ const GUIDE: EquipmentGuideProps = {
   ],
   related: [
     { title: "Best Pilates Gifts for Him", excerpt: "Gifts for men who do Pilates, at every budget.", href: "/blog/best-pilates-gifts-for-him", imageUrl: "/pictures/stitch-studio-modern-row.png", category: "Gifts", readTime: "8 min read" },
-    { title: "Best Fitness Tech Gifts", excerpt: "Watches, rings, bands and earbuds compared.", href: "/blog/fitness-tech-gifts-for-pilates-lovers", imageUrl: "/pictures/stitch-pilates-essentials-logbook.png", category: "Gifts", readTime: "11 min read" },
+    { title: "Fitness Tech Christmas Gifts", excerpt: "Watches, rings, bands and earbuds compared.", href: "/blog/fitness-tech-christmas-gifts-for-pilates-lovers", imageUrl: "/pictures/stitch-pilates-essentials-logbook.png", category: "Gifts", readTime: "11 min read" },
     { title: "The Lagree Micro Christmas Gift Guide", excerpt: "The complete home Lagree setup.", href: "/blog/lagree-micro-christmas-gift", imageUrl: "/pictures/stitch-reformer-loops-hooks.png", category: "Gifts", readTime: "10 min read" },
-    { title: "Luxury Recovery Gifts", excerpt: "Normatec, JetBoots, Theragun and more.", href: "/blog/luxury-recovery-gifts-for-pilates", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Gifts", readTime: "11 min read" },
+    { title: "Luxury Recovery Christmas Gifts", excerpt: "Normatec, JetBoots, Theragun and more.", href: "/blog/luxury-recovery-christmas-gifts-for-pilates", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Gifts", readTime: "11 min read" },
   ],
   ctaTitle: "Find a studio near you",
   ctaSubtitle: "Use our curated city guides to find the best Pilates and Lagree studios worldwide.",

@@ -2,18 +2,18 @@ import type { Metadata } from "next";
 import EquipmentGuide, { type EquipmentGuideProps } from "@/components/EquipmentGuide";
 import { gift, GIFTS_CHECKED, GIFTS_CHECKED_ISO } from "@/lib/giftCatalog";
 
-const SLUG = "luxury-recovery-gifts-for-pilates";
+const SLUG = "luxury-recovery-christmas-gifts-for-pilates";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-studio-bench-towels.png";
-const TITLE = "Luxury Recovery Gifts for Pilates Lovers (2026): 14 Picks";
-const DESCRIPTION = "14 luxury recovery gifts for Pilates lovers: Normatec and JetBoots compression boots, Theragun massage guns, a HigherDOSE sauna blanket and Oura Ring 5, compared.";
+const TITLE = "Luxury Recovery Christmas Gifts for Pilates Lovers (2026)";
+const DESCRIPTION = "14 luxury recovery Christmas gifts for Pilates lovers: Normatec and JetBoots compression boots, Theragun, a HigherDOSE sauna blanket and Oura Ring 5.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: ["luxury recovery gifts", "recovery gifts for pilates lovers", "normatec christmas gift", "theragun christmas gift", "best compression boots gift", "infrared sauna blanket gift", "oura ring 5 gift", "luxury wellness gifts 2026"],
+  keywords: ["luxury recovery christmas gifts", "recovery christmas gifts for pilates lovers", "luxury recovery gifts", "recovery gifts for pilates lovers", "normatec christmas gift", "theragun christmas gift", "best compression boots gift", "infrared sauna blanket gift", "oura ring 5 gift", "luxury wellness gifts 2026"],
   openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "Towels on a studio bench" }] },
-  twitter: { card: "summary_large_image", title: "Luxury Recovery Gifts for Pilates Lovers (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
+  twitter: { card: "summary_large_image", title: "Luxury Recovery Christmas Gifts for Pilates Lovers (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -22,11 +22,11 @@ const GUIDE: EquipmentGuideProps = {
   slug: SLUG,
   title: TITLE,
   description: DESCRIPTION,
-  breadcrumb: "Luxury Recovery Gifts",
+  breadcrumb: "Luxury Recovery Christmas Gifts",
   eyebrow: "Christmas 2026",
   eyebrowAccent: "Recovery & Wellness",
-  h1: "Luxury Recovery Gifts for Pilates Lovers",
-  h1Accent: "(2026): 14 Picks",
+  h1: "Luxury Recovery Christmas Gifts",
+  h1Accent: "for Pilates Lovers (2026): 14 Picks",
   readTime: "11 min read",
   updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
   datePublished: "2026-10-15",
@@ -120,7 +120,7 @@ const GUIDE: EquipmentGuideProps = {
     { title: "Pilates Christmas Gifts Over $500", excerpt: "16 splurge gifts, from reformers to recovery.", href: "/blog/pilates-christmas-gifts-over-500", imageUrl: "/pictures/stitch-luxury-studio-wide.png", category: "Gifts", readTime: "12 min read" },
     { title: "Best Massage Gun for Pilates", excerpt: "Massage guns compared for Pilates recovery.", href: "/blog/best-massage-gun-for-pilates", imageUrl: "/pictures/stitch-studio-shelf-props.png", category: "Recovery", readTime: "9 min read" },
     { title: "Best Luxury Pilates Gifts", excerpt: "Premium gifts for the Pilates lover.", href: "/blog/best-luxury-pilates-gifts", imageUrl: "/pictures/stitch-retail-activewear.png", category: "Gifts", readTime: "9 min read" },
-    { title: "Best Pilates Gifts for Her", excerpt: "18 ideas she'll use, at every budget.", href: "/blog/best-pilates-gifts-for-her", imageUrl: "/pictures/stitch-retail-activewear.png", category: "Gifts", readTime: "9 min read" },
+    { title: "Pilates Christmas Gifts for Her", excerpt: "18 ideas she'll use, at every budget.", href: "/blog/best-pilates-christmas-gifts-for-her", imageUrl: "/pictures/stitch-retail-activewear.png", category: "Gifts", readTime: "9 min read" },
   ],
   ctaTitle: "Find a studio near you",
   ctaSubtitle: "Use our curated city guides to find the best Pilates studios worldwide.",

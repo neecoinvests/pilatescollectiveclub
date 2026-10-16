@@ -10,12 +10,12 @@ import { jsonLdHtml } from "@/lib/schema";
 import { BF_GUIDES } from "@/lib/blackFriday";
 
 export const metadata: Metadata = {
-  title: "Pilates Equipment Black Friday Guide (2026): What Really Gets Discounted",
+  title: "Pilates Equipment Black Friday Guide (2026): What Goes on Sale",
   description: "Which Pilates equipment actually moves on price in November, which never does, and the list prices to measure any Black Friday claim against.",
   keywords: ["pilates black friday", "pilates equipment black friday", "pilates reformer black friday", "black friday pilates deals 2026", "cyber monday pilates", "pilates reformer sale", "when to buy a pilates reformer", "pilates equipment discount"],
   openGraph: {
     title: "Pilates Equipment Black Friday Guide (2026)",
-    description: "What discounts, what never does, and the baseline list prices to judge any deal against.",
+    description: "Black Friday 2026: which Pilates equipment discounts, what never does, and the list prices to judge any deal against.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-equipment-black-friday-guide",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", width: 1200, height: 630, alt: "Pilates Equipment Black Friday Guide — Pilates Collective Club" }],
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Equipment Black Friday Guide (2026)",
-    description: "What actually discounts in November, and the prices to measure a deal against.",
+    description: "Black Friday 2026: what Pilates equipment actually discounts, and the prices to measure a deal against.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/pilates-equipment-black-friday-guide" },

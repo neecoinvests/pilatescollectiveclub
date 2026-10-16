@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import DealsGuide, { type DealsGuideProps } from "@/components/DealsGuide";
 
 export const metadata: Metadata = {
-  "title": "Pilates Secret Santa Gifts 2026: 14 Ideas Under $30",
-  "description": "14 Pilates Secret Santa gifts under $30 for 2026: props, grip socks, bottles, towels and small treats that suit any studio or office gift swap.",
+  "title": "Pilates Secret Santa Christmas Gifts 2026: 14 Under $30",
+  "description": "14 Pilates Secret Santa Christmas gifts under $30 for 2026: props, grip socks, bottles, towels and treats for any studio or office gift swap.",
   "keywords": [
+    "pilates secret santa christmas gifts",
+    "christmas secret santa gifts for pilates lovers",
     "pilates secret santa gifts",
     "secret santa gifts for pilates lovers",
     "pilates gifts under 30",
@@ -14,10 +16,10 @@ export const metadata: Metadata = {
     "cheap pilates gifts"
   ],
   "openGraph": {
-    "title": "Pilates Secret Santa Gifts 2026: 14 Ideas Under $30",
-    "description": "14 Pilates Secret Santa gifts under $30 for 2026: props, grip socks, bottles, towels and small treats that suit any studio or office gift swap.",
+    "title": "Pilates Secret Santa Christmas Gifts 2026: 14 Under $30",
+    "description": "14 Pilates Secret Santa Christmas gifts under $30 for 2026: props, grip socks, bottles, towels and treats for any studio or office gift swap.",
     "type": "article",
-    "url": "https://pilatescollectiveclub.com/blog/pilates-secret-santa-gifts",
+    "url": "https://pilatescollectiveclub.com/blog/pilates-secret-santa-christmas-gifts",
     "images": [
       {
         "url": "https://pilatescollectiveclub.com/pictures/stitch-studio-shelf-props.png",
@@ -29,14 +31,14 @@ export const metadata: Metadata = {
   },
   "twitter": {
     "card": "summary_large_image",
-    "title": "Pilates Secret Santa Gifts 2026: 14 Ideas Under $30",
-    "description": "14 Pilates Secret Santa gifts under $30 for 2026: props, grip socks, bottles, towels and small treats that suit any studio or office gift swap.",
+    "title": "Pilates Secret Santa Christmas Gifts 2026: 14 Under $30",
+    "description": "14 Pilates Secret Santa Christmas gifts under $30 for 2026: props, grip socks, bottles, towels and treats for any studio or office gift swap.",
     "images": [
       "https://pilatescollectiveclub.com/pictures/stitch-studio-shelf-props.png"
     ]
   },
   "alternates": {
-    "canonical": "https://pilatescollectiveclub.com/blog/pilates-secret-santa-gifts"
+    "canonical": "https://pilatescollectiveclub.com/blog/pilates-secret-santa-christmas-gifts"
   },
   "robots": {
     "index": true,
@@ -48,12 +50,12 @@ export const metadata: Metadata = {
 
 // Prices are the live Amazon prices checked on October 14, 2026.
 const GUIDE: DealsGuideProps = {
-  "slug": "pilates-secret-santa-gifts",
-  "title": "Pilates Secret Santa Gifts 2026: 14 Ideas Under $30",
-  "description": "14 Pilates Secret Santa gifts under $30 for 2026: props, grip socks, bottles, towels and small treats that suit any studio or office gift swap.",
-  "breadcrumb": "Pilates Secret Santa Gifts",
+  "slug": "pilates-secret-santa-christmas-gifts",
+  "title": "Pilates Secret Santa Christmas Gifts 2026: 14 Under $30",
+  "description": "14 Pilates Secret Santa Christmas gifts under $30 for 2026: props, grip socks, bottles, towels and treats for any studio or office gift swap.",
+  "breadcrumb": "Pilates Secret Santa Christmas Gifts",
   "eyebrow": "Secret Santa",
-  "h1": "Pilates Secret Santa Gifts",
+  "h1": "Pilates Secret Santa Christmas Gifts",
   "h1Accent": "2026: 14 Ideas Under $30",
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-studio-shelf-props.png",

@@ -7,12 +7,12 @@ const SLUG = "pilates-christmas-gifts-over-500";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-luxury-studio-wide.png";
 const TITLE = "Pilates Christmas Gifts Over $500 (2026): 16 Splurge Gifts";
-const DESCRIPTION = "16 splurge Christmas gifts for Pilates lovers, from $529.99 to $3,349: home reformers, the Lagree Micro, Normatec boots, Theragun, a sauna blanket and indoor bikes.";
+const DESCRIPTION = "16 splurge Pilates Christmas gifts from $529.99 to $3,349: home reformers, the Lagree Micro, Normatec boots, Theragun, a sauna blanket and indoor bikes.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: ["pilates christmas gifts over 500", "luxury pilates christmas gifts", "splurge gifts for pilates lovers", "expensive pilates gifts", "home reformer christmas gift", "normatec christmas gift", "best luxury fitness gifts 2026", "big christmas gifts for her fitness"],
+  keywords: ["luxury pilates christmas gifts over 500", "pilates christmas gifts over 500", "luxury pilates christmas gifts", "splurge gifts for pilates lovers", "expensive pilates gifts", "home reformer christmas gift", "normatec christmas gift", "best luxury fitness gifts 2026", "big christmas gifts for her fitness"],
   openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "A light-filled Pilates studio" }] },
   twitter: { card: "summary_large_image", title: "Pilates Christmas Gifts Over $500 (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
@@ -119,9 +119,9 @@ const GUIDE: EquipmentGuideProps = {
     { q: "Are these prices final?", a: `They are the Amazon prices we checked on ${GIFTS_CHECKED}. Prices often drop around Black Friday (November 27) and Cyber Monday (November 30), so it can pay to wait if delivery time allows.` },
   ],
   related: [
-    { title: "The Ultimate Home Pilates Studio Gift", excerpt: "Reformers with towers, Cadillacs and studio apparatus.", href: "/blog/home-pilates-studio-christmas-gift", imageUrl: "/pictures/stitch-reformer-row-studio.png", category: "Gifts", readTime: "12 min read" },
-    { title: "Luxury Recovery Gifts for Pilates Lovers", excerpt: "Normatec, JetBoots, Theragun and more.", href: "/blog/luxury-recovery-gifts-for-pilates", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Gifts", readTime: "11 min read" },
-    { title: "Best Home Workout Machine Gifts", excerpt: "Reformer, Lagree Micro or indoor bike?", href: "/blog/best-home-workout-machine-christmas-gift", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Gifts", readTime: "11 min read" },
+    { title: "Home Pilates Studio Christmas Gift", excerpt: "Reformers with towers, Cadillacs and studio apparatus.", href: "/blog/home-pilates-studio-christmas-gift", imageUrl: "/pictures/stitch-reformer-row-studio.png", category: "Gifts", readTime: "12 min read" },
+    { title: "Luxury Recovery Christmas Gifts", excerpt: "Normatec, JetBoots, Theragun and more.", href: "/blog/luxury-recovery-christmas-gifts-for-pilates", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Gifts", readTime: "11 min read" },
+    { title: "Home Workout Machine Christmas Gifts", excerpt: "Reformer, Lagree Micro or indoor bike?", href: "/blog/best-home-workout-machine-christmas-gift", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Gifts", readTime: "11 min read" },
     { title: "Best Pilates Christmas Gifts", excerpt: "Our main Christmas gift guide at every budget.", href: "/blog/best-pilates-christmas-gifts", imageUrl: "/pictures/stitch-props-cork-ring.png", category: "Gifts", readTime: "9 min read" },
   ],
   ctaTitle: "Find a studio near you",

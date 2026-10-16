@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import DealsGuide, { type DealsGuideProps } from "@/components/DealsGuide";
 
 export const metadata: Metadata = {
-  "title": "Best Gifts for Reformer Pilates Lovers (2026): 17 Ideas",
-  "description": "17 gifts for reformer Pilates lovers in 2026: grip socks, class bags, recovery tools, home props, reformer accessories and home reformers, with today's prices.",
+  "title": "Best Reformer Pilates Christmas Gifts (2026): 17 Ideas",
+  "description": "17 Christmas gifts for reformer Pilates lovers in 2026: grip socks, class bags, recovery tools, reformer accessories and home reformers, with prices.",
   "keywords": [
+    "reformer pilates christmas gifts",
+    "christmas gifts for reformer pilates lovers",
     "reformer pilates gifts",
     "gifts for reformer pilates lovers",
     "reformer pilates christmas gifts",
@@ -14,10 +16,10 @@ export const metadata: Metadata = {
     "home reformer gift"
   ],
   "openGraph": {
-    "title": "Best Gifts for Reformer Pilates Lovers (2026): 17 Ideas",
-    "description": "17 gifts for reformer Pilates lovers in 2026: grip socks, class bags, recovery tools, home props, reformer accessories and home reformers, with today's prices.",
+    "title": "Best Reformer Pilates Christmas Gifts (2026): 17 Ideas",
+    "description": "17 Christmas gifts for reformer Pilates lovers in 2026: grip socks, class bags, recovery tools, reformer accessories and home reformers, with prices.",
     "type": "article",
-    "url": "https://pilatescollectiveclub.com/blog/best-reformer-pilates-gifts",
+    "url": "https://pilatescollectiveclub.com/blog/reformer-pilates-christmas-gifts",
     "images": [
       {
         "url": "https://pilatescollectiveclub.com/pictures/stitch-reformer-sunlit-minimal.png",
@@ -29,14 +31,14 @@ export const metadata: Metadata = {
   },
   "twitter": {
     "card": "summary_large_image",
-    "title": "Best Gifts for Reformer Pilates Lovers (2026): 17 Ideas",
-    "description": "17 gifts for reformer Pilates lovers in 2026: grip socks, class bags, recovery tools, home props, reformer accessories and home reformers, with today's prices.",
+    "title": "Best Reformer Pilates Christmas Gifts (2026): 17 Ideas",
+    "description": "17 Christmas gifts for reformer Pilates lovers in 2026: grip socks, class bags, recovery tools, reformer accessories and home reformers, with prices.",
     "images": [
       "https://pilatescollectiveclub.com/pictures/stitch-reformer-sunlit-minimal.png"
     ]
   },
   "alternates": {
-    "canonical": "https://pilatescollectiveclub.com/blog/best-reformer-pilates-gifts"
+    "canonical": "https://pilatescollectiveclub.com/blog/reformer-pilates-christmas-gifts"
   },
   "robots": {
     "index": true,
@@ -48,13 +50,13 @@ export const metadata: Metadata = {
 
 // Prices are the live Amazon prices checked on October 14, 2026.
 const GUIDE: DealsGuideProps = {
-  "slug": "best-reformer-pilates-gifts",
+  "slug": "reformer-pilates-christmas-gifts",
   "title": "Best Gifts for Reformer Pilates Lovers 2026",
-  "description": "17 gifts for reformer Pilates lovers in 2026: grip socks, class bags, recovery tools, home props, reformer accessories and home reformers, with today's prices.",
-  "breadcrumb": "Reformer Pilates Gifts",
+  "description": "17 Christmas gifts for reformer Pilates lovers in 2026: grip socks, class bags, recovery tools, reformer accessories and home reformers, with prices.",
+  "breadcrumb": "Reformer Pilates Christmas Gifts",
   "eyebrow": "Reformer Gifts",
-  "h1": "Best Gifts for Reformer Pilates Lovers",
-  "h1Accent": "2026: 17 Ideas",
+  "h1": "Best Reformer Pilates Christmas Gifts",
+  "h1Accent": "2026: 17 Ideas They'll Love",
   "readTime": "9 min read",
   "heroImage": "/pictures/stitch-reformer-sunlit-minimal.png",
   "heroAlt": "A Pilates reformer in a sunlit room",

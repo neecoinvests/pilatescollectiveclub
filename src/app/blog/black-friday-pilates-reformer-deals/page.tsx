@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-reformer-s
 
 export const metadata: Metadata = {
   title: "Pilates Reformer Black Friday Deals 2026",
-  description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to premium studio brands, with today's Amazon price for each so you can tell a real deal on November 27.",
+  description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to studio brands, with today's Amazon price to beat on November 27.",
   keywords: ["pilates reformer black friday", "reformer black friday deal", "black friday pilates reformer 2026", "pilates machine black friday", "cyber monday pilates reformer", "pilates reformer sale", "aeropilates black friday", "balanced body black friday"],
   openGraph: {
     title: "Pilates Reformer Black Friday Deals 2026: Prices to Beat",
-    description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to premium studio brands, with today's Amazon price for each so you can tell a real deal on November 27.",
+    description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to studio brands, with today's Amazon price to beat on November 27.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A home Pilates reformer in a sunlit room — reformer Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Reformer Black Friday Deals 2026",
-    description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to premium studio brands, with today's Amazon price for each so you can tell a real deal on November 27.",
+    description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to studio brands, with today's Amazon price to beat on November 27.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-reformer-deals",
   "title": "Pilates Reformer Black Friday Deals 2026: Prices to Beat",
-  "description": "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to premium studio brands, with today's Amazon price for each so you can tell a real deal on November 27.",
+  "description": "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to studio brands, with today's Amazon price to beat on November 27.",
   "breadcrumb": "Reformer Black Friday Deals",
   "eyebrow": "Reformers",
   "h1": "Pilates Reformer Black Friday",

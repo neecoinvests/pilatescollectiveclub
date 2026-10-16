@@ -238,7 +238,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "label": "Pilates stocking stuffers",
-      "href": "/blog/pilates-stocking-stuffers"
+      "href": "/blog/pilates-christmas-stocking-stuffers"
     },
     {
       "label": "gifts under $50",

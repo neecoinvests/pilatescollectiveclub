@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-reformer-s
 
 export const metadata: Metadata = {
   title: "Lagree Black Friday Deals 2026: Micro & Setup",
-  description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home-setup gear around it — with today's Amazon price to beat.",
+  description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with today's Amazon price to beat.",
   keywords: ["lagree black friday", "lagree micro black friday", "lagree micro sale", "lagree fitness black friday", "megaformer black friday", "lagree deals 2026", "lagree cyber monday", "lagree at home deal"],
   openGraph: {
     title: "Lagree Black Friday Deals 2026: The Micro & Home Setup",
-    description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home-setup gear around it — with today's Amazon price to beat.",
+    description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with today's Amazon price to beat.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Springs on a carriage machine — Lagree Micro Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Lagree Black Friday Deals 2026: Micro & Setup",
-    description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home-setup gear around it — with today's Amazon price to beat.",
+    description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with today's Amazon price to beat.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-lagree-deals",
   "title": "Lagree Black Friday Deals 2026: The Micro & Home Setup",
-  "description": "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home-setup gear around it — with today's Amazon price to beat.",
+  "description": "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with today's Amazon price to beat.",
   "breadcrumb": "Lagree Black Friday Deals",
   "eyebrow": "Lagree",
   "h1": "Lagree Black Friday Deals",
