@@ -56,6 +56,7 @@ export type EquipmentGuideProps = {
   blocks: GuideBlock[];
   faqs: { q: string; a: string }[];
   related: { title: string; excerpt: string; href: string; imageUrl: string; category: string; readTime: string }[];
+  sources?: { label: string; url: string }[];
   ctaTitle?: string;
   ctaSubtitle?: string;
 };
@@ -376,6 +377,19 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
                 ))}
               </div>
             </div>
+
+            {props.sources && props.sources.length > 0 && (
+              <div className="mb-16">
+                <h2 className="text-2xl font-semibold mb-6" style={h2Style}>Sources</h2>
+                <ul className="space-y-2 list-disc pl-5">
+                  {props.sources.map((s) => (
+                    <li key={s.url} className="text-sm leading-relaxed" style={bodyStyle}>
+                      <a href={s.url} target="_blank" rel="noopener noreferrer" style={{ color: "#8b4a31", textDecoration: "underline" }}>{s.label}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
