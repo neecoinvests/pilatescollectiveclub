@@ -12,11 +12,12 @@ interface UpsellCTAProps {
   title: string;
   body: string;
   picks: UpsellPick[];
+  ctaLabel?: string;
   guideHref: string;
   guideLabel: string;
 }
 
-export default function UpsellCTA({ eyebrow, title, body, picks, guideHref, guideLabel }: UpsellCTAProps) {
+export default function UpsellCTA({ eyebrow, title, body, picks, guideHref, guideLabel, ctaLabel = "View on Amazon →" }: UpsellCTAProps) {
   return (
     <aside className="my-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
       <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{eyebrow}</p>
@@ -38,7 +39,7 @@ export default function UpsellCTA({ eyebrow, title, body, picks, guideHref, guid
               className="shrink-0 text-center"
               style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "10px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "10px 16px", textDecoration: "none" }}
             >
-              View on Amazon →
+              {ctaLabel}
             </a>
           </div>
         ))}

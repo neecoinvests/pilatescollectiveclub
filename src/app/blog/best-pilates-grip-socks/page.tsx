@@ -6,22 +6,23 @@ import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import UpsellCTA from "@/components/UpsellCTA";
+import TopPick from "@/components/TopPick";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Grip Socks (2026): 5 Verified Picks",
-  description: "5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam and a 6-pair budget multi-pack.",
+  description: "5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam and a 6-pair budget multi-pack from $7.59.",
   openGraph: {
     title: "Best Pilates Grip Socks (2026): 5 Verified Picks",
-    description: "Five grip socks we verified as real, in-stock Amazon listings — from toesox and TAVI to budget picks — ranked and compared.",
+    description: "Five grip socks we verified as real, in-stock Amazon listings, from toesox and TAVI to budget picks, ranked and compared.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Grip Socks — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Grip Socks, Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Grip Socks (2026)",
-    description: "5 verified, in-stock picks — from toesox and TAVI to budget picks.",
+    description: "5 verified, in-stock picks, from toesox and TAVI to budget multi-packs.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
   keywords: ["best pilates grip socks", "pilates grip socks 2026", "toesox grip socks", "tavi pilates socks", "gaiam grippy studio socks", "tucketts grip socks pilates", "muezna grip socks pilates", "full toe grip socks pilates", "best non-slip socks pilates", "reformer pilates socks", "grip socks studio pilates"],
@@ -36,7 +37,7 @@ const PRODUCTS = [
     rank: "01",
     name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)",
     price: "$30.00",
-    verdict: "The original studio grip-sock brand, full-toe design — our top overall pick",
+    verdict: "The original studio grip-sock brand, full-toe design: our top overall pick",
     description:
       "toesox is the original studio grip-sock brand, and this low-rise 2-pack uses its full-toe design, with each toe in its own pocket. It's sold on Amazon by The Active Footwear Store, toesox's official distributor. At $30.00 for two pairs it costs more than the budget options below, but it's the brand many reformer regulars recognise from the studio floor.",
     affiliateUrl: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
@@ -46,9 +47,9 @@ const PRODUCTS = [
     rank: "02",
     name: "TAVI Stacy Slouch Pilates Socks, 2-Pack",
     price: "$40.00",
-    verdict: "Premium slouch-style grip socks from TAVI — our premium pick",
+    verdict: "Premium slouch-style grip socks from TAVI: our premium pick",
     description:
-      "TAVI's Stacy is a premium slouch-style Pilates sock, sold as a 2-pack by The Active Footwear Store, the brand's official distributor on Amazon. At $40.00 it's the most expensive option in this lineup — worth it if you want a slouch look for studio classes rather than a low-rise or toeless cut.",
+      "TAVI's Stacy is a premium slouch-style Pilates sock, sold as a 2-pack by The Active Footwear Store, the brand's official distributor on Amazon. At $40.00 it's the most expensive option in this lineup, and worth it if you want a slouch look for studio classes rather than a low-rise or toeless cut.",
     affiliateUrl: "https://www.amazon.com/dp/B0GFPGMWWS?tag=pilatescollective-20",
     tag: "Premium Pick",
   },
@@ -65,20 +66,20 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Gaiam Grippy Studio Yoga Socks",
-    price: "$8.94",
-    verdict: "Established brand, open-toe, non-slip — our budget pick",
+    price: "$9.01",
+    verdict: "Established brand, open-toe, non-slip: our budget pick",
     description:
-      "Sold by Amazon.com, the Gaiam Grippy Studio Yoga Socks come from an established brand with a long track record in yoga and Pilates accessories. They're an open-toe style with a non-slip sole, which makes them a solid all-rounder for studio reformer classes or home mat work. At $8.94, they sit at a reasonable price for a single pair from a recognizable name.",
+      "Sold by Amazon.com, the Gaiam Grippy Studio Yoga Socks come from an established brand with a long track record in yoga and Pilates accessories. They're an open-toe style with a non-slip sole, which makes them a solid all-rounder for studio reformer classes or home mat work. At $9.01, they sit at a reasonable price for a single pair from a recognizable name.",
     affiliateUrl: "https://www.amazon.com/dp/B079VX3FBG?tag=pilatescollective-20",
     tag: "Best Budget",
   },
   {
     rank: "05",
     name: "Muezna Pilates Grip Socks (6-pair)",
-    price: "$7.99",
-    verdict: "Six pairs for under $8 — the multi-pack value pick",
+    price: "$7.59",
+    verdict: "Six pairs for under $8: the multi-pack value pick",
     description:
-      "This is the pick this guide has recommended and verified before, and it remains a strong value option: six pairs for $7.99, sold by UISIC. A multi-pack like this means you always have a fresh, dry pair on hand between studio sessions without needing to do laundry mid-week.",
+      "The value pick: six pairs for $7.59, sold by UISIC. A multi-pack like this means you always have a fresh, dry pair on hand between studio sessions without needing to do laundry mid-week.",
     affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20",
     tag: "Best Multi-Pack Value",
   },
@@ -91,7 +92,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks/#article",
       "headline": "Best Pilates Grip Socks (2026): 5 Verified Picks",
-      "description": "Five grip socks verified as real, in-stock Amazon listings — toesox and TAVI from their official distributor, Tucketts toeless socks, Gaiam and a budget multi-pack.",
+      "description": "Five grip socks verified as real, in-stock Amazon listings: toesox and TAVI from their official distributor, Tucketts toeless socks, Gaiam and a budget multi-pack.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
@@ -114,7 +115,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-09-27",
+      "dateModified": "2026-10-18",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-grip-socks",
       "articleSection": "Equipment",
@@ -149,7 +150,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "Do I need grip socks for Pilates?",
-      "acceptedAnswer": { "@type": "Answer", "text": "For studio reformer classes, yes — most studios require them for hygiene and safety reasons. For home mat practice, they're optional, but many practitioners find they genuinely improve balance and foot connection during standing and mat exercises." }
+      "acceptedAnswer": { "@type": "Answer", "text": "For studio reformer classes, yes: most studios require them for hygiene and safety reasons. For home mat practice, they're optional, but many practitioners find they genuinely improve balance and foot connection during standing and mat exercises." }
     },
     {
       "@type": "Question",
@@ -159,7 +160,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "What's the best overall grip sock for Pilates?",
-      "acceptedAnswer": { "@type": "Answer", "text": "The toesox Low Rise Grip Socks 2-Pack (Full Toe, $30.00) are our top overall pick — from the original studio grip-sock brand. For a premium slouch style, the TAVI Stacy Slouch 2-Pack ($40.00) is our premium pick. On a budget, the Gaiam Grippy Studio Yoga Socks ($8.94) or the Muezna 6-pair pack ($7.99) are the value options." }
+      "acceptedAnswer": { "@type": "Answer", "text": "The toesox Low Rise Grip Socks 2-Pack (Full Toe, $30.00) are our top overall pick, from the original studio grip-sock brand. For a premium slouch style, the TAVI Stacy Slouch 2-Pack ($40.00) is our premium pick. On a budget, the Gaiam Grippy Studio Yoga Socks ($9.01) or the Muezna 6-pair pack ($7.59) are the value options." }
     },
     {
       "@type": "Question",
@@ -187,11 +188,12 @@ export default function BestGripSocksPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Grip Socks<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Verified Picks</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 6 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 18, 2026 · 6 min read</p>
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Full-toe 2-pack from the original studio grip-sock brand" url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              We checked five grip sock options against live, in-stock Amazon listings — from toesox, the original studio grip-sock brand, and TAVI (both sold by their official distributor), to Tucketts, a label built specifically for barre and Pilates, plus two budget picks from Gaiam and Muezna. Here&apos;s how they compare, ranked by what they actually offer.
+              We checked five grip sock options against live, in-stock Amazon listings: toesox, the original studio grip-sock brand, and TAVI (both sold by their official distributor), to Tucketts, a label built specifically for barre and Pilates, plus two budget picks from Gaiam and Muezna. Here&apos;s how they compare, ranked by what they actually offer.
             </p>
           </div>
         </section>
@@ -199,7 +201,7 @@ export default function BestGripSocksPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Best Pilates grip socks — honestly verified against live Amazon listings" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Best Pilates grip socks, verified against live Amazon listings" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -210,33 +212,47 @@ export default function BestGripSocksPage() {
             {/* Quick reference table */}
             <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>At a Glance</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks: At a Glance</p>
               </div>
               {PRODUCTS.map((p, i) => (
                 <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
                   <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}<span className="md:hidden"> · <span className="font-semibold" style={{ color: "#1b1c1c" }}>{p.price}</span></span></p>
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow sponsored"
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Buy →</a>
+                  >Shop Now →</a>
                 </div>
               ))}
             </div>
+
+            <UpsellCTA
+              eyebrow="Complete Your Studio Kit"
+              title="Socks sorted? Here's what regulars upgrade next"
+              body="Grip socks are the entry ticket to reformer class. The two purchases that change the experience most are leggings that stay opaque and put on the carriage, and, once you are going three times a week, a home reformer that pays for itself against class fees."
+              picks={[
+                { name: "Varley FreeSoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Sold by Shopbop (an Amazon company). Soft, light-compression leggings from a studio-favourite brand." },
+                { name: "Buytime 96\" Wooden Pilates Reformer", price: "$529.99", url: "https://www.amazon.com/dp/B0HDCZHW6K?tag=pilatescollective-20", note: "Full-length 95.7\" wooden frame, 5 springs, jump board and sitting box included, per the listing." },
+                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget foldable reformer from a newer brand, with a jump board." },
+              ]}
+              guideHref="/blog/best-home-pilates-reformer"
+              guideLabel="See the best home reformers"
+              ctaLabel="Shop Now →"
+            />
 
             {/* What to look for */}
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a grip sock worth buying</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                General guidance on what makes any grip sock effective for Pilates — use it alongside the specific picks below to decide which one fits your practice.
+                General guidance on what makes any grip sock effective for Pilates. Use it alongside the specific picks below to decide which one fits your practice.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Grip pattern coverage", body: "The most effective grip socks cover the full sole and heel. A sparse dot pattern at the ball of the foot only can be insufficient for reformer footwork." },
-                  { heading: "Toe style", body: "Individual toe pockets can improve proprioception for some practitioners. Full-toe styles are more comfortable for others, especially wide feet. Neither is objectively better — it's personal preference." },
+                  { heading: "Toe style", body: "Individual toe pockets can improve proprioception for some practitioners. Full-toe styles are more comfortable for others, especially wide feet. Neither is objectively better: it's personal preference." },
                   { heading: "Fabric quality", body: "Breathable cotton or bamboo blends tend to resist retaining odour better than pure synthetic fabrics in a studio environment." },
                   { heading: "Compression fit", body: "The sock needs to stay in place during dynamic movement. A loose grip sock that bunches or slides is both annoying and a safety issue on a moving carriage." },
                 ].map((item) => (
@@ -265,23 +281,12 @@ export default function BestGripSocksPage() {
                       description={p.description}
                       price={p.price}
                       affiliateUrl={p.affiliateUrl}
+                      ctaLabel="Shop Now →"
                     />
                   </div>
                 ))}
               </div>
             </div>
-
-            <UpsellCTA
-              eyebrow="Complete Your Studio Kit"
-              title="Socks sorted? Here's what regulars upgrade next"
-              body="Grip socks are the entry ticket to reformer class. The two purchases that change the experience most are leggings that stay opaque and put on the carriage, and — once you are going three times a week — a home reformer that pays for itself against class fees."
-              picks={[
-                { name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Sold via Shopbop (an Amazon company). A studio-favourite brand; listing shown in Marina." },
-                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — roughly the cost of 10 studio classes." },
-              ]}
-              guideHref="/blog/best-pilates-reformer-under-500"
-              guideLabel="See every home reformer under $500"
-            />
 
             {/* Care tips */}
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
@@ -292,7 +297,7 @@ export default function BestGripSocksPage() {
                   "Air dry flat rather than tumble drying. Heat can damage both the grip and the elastane that keeps the sock fitted.",
                   "Never iron over the grip dots.",
                   "Buy at least two pairs so you always have a fresh pair while one is drying.",
-                  "Replace when the grip dots are significantly worn — compromised grip is not just annoying, it's a slip risk on a moving carriage.",
+                  "Replace when the grip dots are significantly worn. Compromised grip is not just annoying, it's a slip risk on a moving carriage.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -307,9 +312,9 @@ export default function BestGripSocksPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Do I need grip socks for Pilates?", a: "For studio reformer classes, yes — most studios require them for hygiene and safety reasons. For home mat practice, they're optional, but many practitioners find they genuinely improve balance and foot connection during standing and mat exercises." },
+                  { q: "Do I need grip socks for Pilates?", a: "For studio reformer classes, yes: most studios require them for hygiene and safety reasons. For home mat practice, they're optional, but many practitioners find they genuinely improve balance and foot connection during standing and mat exercises." },
                   { q: "Can I use yoga socks for Pilates?", a: "Yoga grip socks often have a dot pattern only at the ball of the foot, which can be insufficient for reformer footwork where the heel also needs grip on the footbar. As a general rule, look for full sole coverage for reformer classes." },
-                  { q: "What's the best overall grip sock for Pilates?", a: "The toesox Low Rise Grip Socks 2-Pack (Full Toe, $30.00) are our top overall pick — from the original studio grip-sock brand. For a premium slouch style, the TAVI Stacy Slouch 2-Pack ($40.00) is our premium pick. On a budget, the Gaiam Grippy Studio Yoga Socks ($8.94) or the Muezna 6-pair pack ($7.99) are the value options." },
+                  { q: "What's the best overall grip sock for Pilates?", a: "The toesox Low Rise Grip Socks 2-Pack (Full Toe, $30.00) are our top overall pick, from the original studio grip-sock brand. For a premium slouch style, the TAVI Stacy Slouch 2-Pack ($40.00) is our premium pick. On a budget, the Gaiam Grippy Studio Yoga Socks ($9.01) or the Muezna 6-pair pack ($7.59) are the value options." },
                   { q: "How many pairs do I need?", a: "Two pairs minimum as a general rule. If you practice three or more times per week, three or more pairs means you'll always have a fresh, dry pair available without rushing laundry." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -324,8 +329,10 @@ export default function BestGripSocksPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category — clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
-                <ArticleCard title="Reformer Pilates Essentials" excerpt="What to wear, bring and buy for reformer class — and when a home reformer starts paying for itself." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings for reformer and mat, from $26 to $134." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="October 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Home Pilates Reformer" excerpt="Ready to train at home? Reformers at every budget." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="12 min read" date="October 2026" imageUrl="/pictures/stitch-reformer-morning-light.png" />
+                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category: clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
+                <ArticleCard title="Reformer Pilates Essentials" excerpt="What to wear, bring and buy for reformer class, and when a home reformer starts paying for itself." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="12 min read" date="September 2026" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Mats, resistance bands, rings, and reformer alternatives for your home setup." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
               </div>

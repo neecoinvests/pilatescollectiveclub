@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import TopPick from "@/components/TopPick";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -318,7 +319,9 @@ export default function BestReformerBrandsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Reformer Pilates Brands<br /><span style={{ color: "#8b4a31" }}>(2026): All 10 Ranked</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 18 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 18, 2026 · 18 min read</p>
+            <p className="text-xs mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+            <TopPick label="Top pick for most homes" name={AMAZON_PICKS[2].name} price={AMAZON_PICKS[2].price} note="Professional springs at a home-reformer price; in stock" url={AMAZON_PICKS[2].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The reformer brand you buy shapes your entire practice — not just the quality of the machine, but the spring feel, the carriage response, and which version of the Pilates method your body learns. This guide ranks all 10 major reformer Pilates brands honestly: for home practitioners, studio owners, classical purists, and serious athletes. We cover what each brand does best, where each falls short, and who it is actually built for.
