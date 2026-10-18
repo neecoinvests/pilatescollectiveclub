@@ -5,7 +5,6 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import PartnerBrandEntry from "@/components/PartnerBrandEntry";
-import { Fragment } from "react";
 
 export const metadata: Metadata = {
   title: "Preview: Best Megaformer Machine (2026)",
@@ -158,46 +157,40 @@ export default function BestMegaformerMachinePage() {
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Machines · Lagree & Pilates</p>
               <div className="space-y-10">
-                {PRODUCTS.map((p) => (
-                  <Fragment key={p.name}>
-                  <div>
-                    <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
-                    </div>
-                    <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <div className="p-6" style={{ backgroundColor: "#ffffff" }}>
-                        <div className="flex items-start justify-between gap-4 mb-4">
-                          <div>
-                            <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
-                            <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
-                          </div>
-                          <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                            style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                          >Shop Now →</a>
+                {PRODUCTS.map((p) => {
+                  const onAmazon = p.affiliateUrl.includes("amazon.com");
+                  return (
+                    <div key={p.name}>
+                      <div className="flex items-center gap-3 mb-4">
+                        <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      </div>
+                      <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "28px" }}>
+                        <div className="flex justify-between items-start gap-4 mb-2.5">
+                          <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", lineHeight: 1.2, margin: 0 }}>{p.name}</h3>
+                          <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#c5a882", whiteSpace: "nowrap", letterSpacing: "0.05em" }}>{p.price}</span>
                         </div>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }} dangerouslySetInnerHTML={{ __html: p.description }} />
+                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#8b4a31", marginBottom: "14px" }}>{p.verdict}</p>
+                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75, marginBottom: "18px" }} dangerouslySetInnerHTML={{ __html: p.description }} />
+                        <a href={p.affiliateUrl} target="_blank" rel={onAmazon ? "noopener noreferrer sponsored nofollow" : "noopener noreferrer nofollow"}
+                          style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "14px 20px", textAlign: "center" }}
+                        >{onAmazon ? "Shop Now →" : "Shop Lagree Fitness Direct (not on Amazon) →"}</a>
                       </div>
                     </div>
-                  </div>
-                  </Fragment>
-                ))}
+                  );
+                })}
               </div>
             </div>
 
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.3)" }}>
               <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Megaformer vs Pilates reformer</h2>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                  <thead>
-                    <tr style={{ borderBottom: "2px solid rgba(217,194,186,0.5)" }}>
-                      <th className="text-left py-3 pr-4 font-semibold" style={{ color: "#1b1c1c" }}>Feature</th>
-                      <th className="text-left py-3 pr-4 font-semibold" style={{ color: "#8b4a31" }}>Megaformer</th>
-                      <th className="text-left py-3 font-semibold" style={{ color: "#536257" }}>Pilates Reformer</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {[
+              <div style={{ fontFamily: "'Montserrat', sans-serif" }}>
+                <div className="hidden sm:grid grid-cols-[1fr_1.4fr_1.4fr] gap-4 py-3 text-sm font-semibold" style={{ borderBottom: "2px solid rgba(217,194,186,0.5)" }}>
+                  <p style={{ color: "#1b1c1c" }}>Feature</p>
+                  <p style={{ color: "#8b4a31" }}>Megaformer</p>
+                  <p style={{ color: "#536257" }}>Pilates Reformer</p>
+                </div>
+                {[
                       ["Training style", "Slow eccentric, high TUT", "Classical apparatus Pilates"],
                       ["Platforms", "Level front and rear", "Footbar + head rest"],
                       ["Carriage", "Moving, spring-loaded", "Moving, spring-loaded"],
@@ -207,14 +200,18 @@ export default function BestMegaformerMachinePage() {
                       ["Home viability", "Large footprint", "More compact options available"],
                       ["Exercise library", "Lagree Method only", "Classical + contemporary Pilates"],
                     ].map(([feature, mega, reform]) => (
-                      <tr key={feature} style={{ borderBottom: "1px solid rgba(217,194,186,0.25)" }}>
-                        <td className="py-3 pr-4 font-medium" style={{ color: "#1b1c1c" }}>{feature}</td>
-                        <td className="py-3 pr-4" style={{ color: "#53433e" }}>{mega}</td>
-                        <td className="py-3" style={{ color: "#53433e" }}>{reform}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+                  <div key={feature} className="grid grid-cols-2 sm:grid-cols-[1fr_1.4fr_1.4fr] gap-x-4 gap-y-1.5 py-3 text-sm" style={{ borderBottom: "1px solid rgba(217,194,186,0.25)" }}>
+                    <p className="col-span-2 sm:col-span-1 font-medium" style={{ color: "#1b1c1c" }}>{feature}</p>
+                    <div>
+                      <p className="sm:hidden text-[10px] font-semibold uppercase tracking-widest mb-0.5" style={{ color: "#8b4a31" }}>Megaformer</p>
+                      <p style={{ color: "#53433e" }}>{mega}</p>
+                    </div>
+                    <div>
+                      <p className="sm:hidden text-[10px] font-semibold uppercase tracking-widest mb-0.5" style={{ color: "#536257" }}>Pilates Reformer</p>
+                      <p style={{ color: "#53433e" }}>{reform}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
 
