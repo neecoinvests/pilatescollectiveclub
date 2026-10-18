@@ -70,14 +70,14 @@ const PARTNER_ENTRY = (
       { label: "Machine", value: "The Core Collab Sculptformer" },
       { label: "Best for", value: "Studios and committed trainers who want a Lagree-style machine" },
       { label: "Sold", value: "Direct from The Core Collab" },
-      { label: "Price", value: "The Core Collab Sculptformer is $8,499, with financing available on its US store." },
+      { label: "Price", value: "$8,499 (RRP $9,999), including white-glove delivery and installation, with an in-house payment plan on its US store." },
     ]}
-    description="The Core Collab Sculptformer is the brand's Lagree-style machine, which the company positions as an alternative to the Megaformer for studios and serious home trainers. It is sold direct by The Core Collab through its US store rather than through a Lagree dealer."
+    description="The Core Collab Sculptformer is the brand's Lagree-style machine, which the company positions as an alternative to the Megaformer for studios and serious home trainers. It is sold direct by The Core Collab through its US store rather than through a Lagree dealer, and the brand says there is no ongoing licensing fee to use it in a studio."
     pointsHeading="Key product features"
     points={[
       "Eight-spring system (2 × 5 lb, 2 × 11 lb, 2 × 26 lb, 2 × 88 lb), according to the brand",
       "10-year frame warranty and 2-year warranty on moving parts, according to the brand",
-      "Sold direct from the manufacturer, with financing available on its US store",
+      "Sold direct from the manufacturer, with an in-house 10-month payment plan",
       "Designed for the slow, time-under-tension training style covered in this guide",
     ]}
     ctaLabel="Visit The Core Collab →"
