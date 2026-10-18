@@ -5,9 +5,9 @@ import type { ReactNode } from "react";
 // or just before the first product list), not in the page header.
 export default function AffiliateNote({ children, className = "mb-10" }: { children?: ReactNode; className?: string }) {
   return (
-    <p className={`text-xs leading-relaxed ${className}`} style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+    <p className={`text-[11px] leading-relaxed ${className}`} style={{ color: "#c4b8b3", fontFamily: "'Montserrat', sans-serif" }}>
       {children ?? "Some links on this page go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you."}{" "}
-      <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>Affiliate disclosure</Link>
+      <Link href="/affiliate-disclosure" style={{ color: "#c4b8b3", textDecoration: "underline" }}>Affiliate disclosure</Link>
     </p>
   );
 }
