@@ -123,27 +123,27 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Required at every reformer studio in Minneapolis. Full-toe grip socks are the standard.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every reformer studio in Minneapolis. Full-toe grip socks are the standard.",
+    price: "$30.00",
+    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
-    note: "Essential for mat classes and home practice through Minneapolis's long, brutal winters.",
-    price: "From $18",
-    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). Essential for mat classes and home practice through Minneapolis's long, brutal winters.",
+    price: "$144.00",
+    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands Set",
-    note: "Fabric bands are invaluable for home Pilates practice during Minneapolis's many winter days when outdoor movement is impossible.",
-    price: "From $10",
-    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric bands are invaluable for home Pilates practice during Minneapolis's many winter days when outdoor movement is impossible.",
+    price: "$29.00",
+    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Standard in Minneapolis classical studios. Owning one supports at-home practice between sessions.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Standard in Minneapolis classical studios. Owning one supports at-home practice between sessions.",
+    price: "$35.00",
+    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
 ];
 

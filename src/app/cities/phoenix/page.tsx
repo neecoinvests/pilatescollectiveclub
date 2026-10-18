@@ -123,27 +123,27 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Required at every reformer studio in the Phoenix metro. Full-toe grip socks are the standard.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every reformer studio in the Phoenix metro. Full-toe grip socks are the standard.",
+    price: "$30.00",
+    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
-    note: "Phoenix's year-round sunshine makes outdoor mat practice practical for much of the year. A quality 6mm mat is worth owning.",
-    price: "From $18",
-    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). Phoenix's year-round sunshine makes outdoor mat practice practical for much of the year. A quality 6mm mat is worth owning.",
+    price: "$144.00",
+    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands Set",
-    note: "Portable fabric bands extend your practice at home on Phoenix summer days when outdoor movement is impossible.",
-    price: "From $10",
-    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable fabric bands extend your practice at home on Phoenix summer days when outdoor movement is impossible.",
+    price: "$29.00",
+    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
-    note: "Essential for post-class fascial release — particularly useful after outdoor activities during Phoenix's pleasant October–April season.",
-    price: "From $13",
-    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Essential for post-class fascial release — particularly useful after outdoor activities during Phoenix's pleasant October–April season.",
+    price: "$62.99",
+    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 

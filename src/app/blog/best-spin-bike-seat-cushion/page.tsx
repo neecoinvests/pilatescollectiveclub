@@ -42,12 +42,12 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Gel Seat Cover with Drawstring and Anti-Slip Base",
-    price: "From $22",
+    name: "Zacro Gel Bike Seat Cushion Cover",
+    price: "$17.99",
     verdict: "Best cover if you cannot change the saddle",
     description:
       "If the bike is shared, rented, or in a studio where swapping the saddle is not an option, a well-fitted gel cover is the right compromise. The two specifications that separate a usable cover from a frustrating one are the fixing and the thickness. A drawstring plus an underside strap keeps the cover from rotating, which is the standard failure mode — a cover that creeps sideways mid-class concentrates pressure worse than the bare saddle did. And keep the gel layer under about 15mm: thicker covers feel plush for five minutes, then you sink through and the pressure lands on soft tissue again while your effective saddle height drops. Fit the cover taut rather than loose, check it after your warm-up, and accept that it is a mitigation rather than a cure.",
-    affiliateUrl: "https://www.amazon.com/s?k=gel+bike+seat+cover+drawstring+anti+slip&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B01H71AZ36?tag=pilatescollective-20",
     tag: "Best Cover",
   },
   {
@@ -62,12 +62,12 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Women's Anatomic Saddle with Central Cutout",
-    price: "From $55",
+    name: "Selle SMP TRK Lady Saddle",
+    price: "$94.00",
     verdict: "Best anatomic fit for wider sit bones",
     description:
       "Sit bone width varies considerably between individuals and is on average wider in women, while stock indoor bike saddles are almost universally cut to a narrow unisex shape. That mismatch is the mechanical reason so many riders describe the same problem in the same words. A saddle designed around a wider platform with a pronounced central cutout addresses it directly rather than padding over it. Expect a short adjustment period — a correctly supportive saddle can feel firmer than the squashy one it replaced, because your weight is now on bone rather than sinking into foam, and that is the point. Pair the swap with a saddle height check: a saddle roughly 5mm too high causes rocking that produces chafing no amount of padding will fix.",
-    affiliateUrl: "https://www.amazon.com/s?k=womens+anatomic+bike+saddle+central+cutout+wide&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00ZG6BF7U?tag=pilatescollective-20",
     tag: "Best Anatomic Fit",
   },
   {

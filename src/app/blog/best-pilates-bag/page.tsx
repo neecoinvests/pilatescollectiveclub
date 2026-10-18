@@ -56,8 +56,8 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best duffel for studio",
     description:
-      "Manduka's Go Play 2.0 Duffel is purpose-built for studio-to-street carry. The main compartment is structured and spacious — large enough for a full change of clothes, towel, and accessories with room to spare — and the shoe compartment at the base keeps studio shoes separate from clean clothes and personal items. The duffel format distributes weight more evenly than a tote on longer commutes, and the padded shoulder strap makes it comfortable for 20-minute walks or transit journeys. The interior organisation includes multiple pockets and a key hook. Manduka's reputation for durability means this bag outlasts most fabric-only alternatives significantly.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+go+play+duffel+bag&tag=pilatescollective-20",
+      "Manduka's Go Play 2.0 Duffel is purpose-built for studio-to-street carry. The main compartment is structured and spacious — large enough for a full change of clothes, towel, and accessories with room to spare — and the shoe compartment at the base keeps studio shoes separate from clean clothes and personal items. The duffel format distributes weight more evenly than a tote on longer commutes, and the padded shoulder strap makes it comfortable for 20-minute walks or transit journeys. The interior organisation includes multiple pockets and a key hook. Manduka's reputation for durability means this bag outlasts most fabric-only alternatives significantly. Not sold on Amazon: this link goes to Manduka's own site.",
+    affiliateUrl: "https://www.manduka.com",
     tag: "Best Duffel",
   },
   {

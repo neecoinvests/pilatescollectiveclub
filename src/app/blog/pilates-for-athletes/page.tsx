@@ -107,7 +107,7 @@ const PRODUCTS = [
   { name: "TheraBand Resistance Bands Set", description: "Sport-specific strength work between Pilates sessions. Resistance bands allow targeted hip, shoulder, and rotator cuff work that translates directly to athletic performance.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "A high-density mat built for athletes who practice with intensity. The PRO handles repeated high-load exercises and provides consistent surface quality across years of use.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "The magic circle adds loading to hip adductor and glute work — muscle groups that directly support athletic power and reduce injury risk in lateral movement sports.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "Pilates Arc Barrel", description: "The arc barrel supports spinal extension and hip flexor lengthening — the mobility work most athletes need but most training programmes neglect.", price: "From $120", affiliateUrl: "https://www.amazon.com/s?k=pilates+arc+barrel+balanced+body&tag=pilatescollective-20" },
+  { name: "Balanced Body Pilates Arc", description: "The arc barrel supports spinal extension and hip flexor lengthening — the mobility work most athletes need but most training programmes neglect.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
 ];
 
 export default function PilatesForAthletesPage() {

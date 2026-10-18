@@ -32,12 +32,12 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Gaiam Classic Yoga Mat Bag",
-    price: "From $28",
+    name: "Gaiam Cargo Yoga Mat Bag",
+    price: "$19.99",
     verdict: "Best overall mat tote",
     description:
       "The Gaiam Classic is the default recommendation for practitioners who want a dedicated mat carrier without overthinking it. The zippered main compartment fits most standard Pilates and yoga mats rolled to their natural diameter, and the side mesh pocket holds a water bottle securely without the bag tipping. The shoulder strap is padded and adjustable, distributing the weight of a filled mat bag comfortably across a 15-minute walk to class. The range of colourways is broad, and the fabric holds up to repeated daily use without fraying at the seams. For mat Pilates practitioners attending regular classes, this bag solves the mat-carry problem cleanly and economically.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+yoga+mat+bag+tote&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B079W416C6?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {

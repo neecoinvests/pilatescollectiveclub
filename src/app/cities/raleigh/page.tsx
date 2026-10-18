@@ -172,33 +172,33 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Required at every Raleigh-area studio. ToeSox and Tavi Noir both offer excellent reformer grip and hold up through frequent washing.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every Raleigh-area studio. ToeSox and Tavi Noir both offer excellent reformer grip and hold up through frequent washing.",
+    price: "$30.00",
+    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "For mat classes at Five Points Pilates and Chapel Hill Pilates — slightly thicker than a yoga mat for joint comfort on hardwood floors.",
-    price: "From $18",
-    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at Five Points Pilates and Chapel Hill Pilates — slightly thicker than a yoga mat for joint comfort on hardwood floors.",
+    price: "$144.00",
+    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "A staple of classical mat sequences at Five Points Pilates — worth owning if you follow a classical program at home between sessions.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). A staple of classical mat sequences at Five Points Pilates — worth owning if you follow a classical program at home between sessions.",
+    price: "$35.00",
+    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Fabric Resistance Bands",
-    note: "Versatile for warm-ups, hip strengthening, and supplemental home practice — particularly useful between sessions at Durham Pilates.",
-    price: "From $10",
-    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip strengthening, and supplemental home practice — particularly useful between sessions at Durham Pilates.",
+    price: "$29.00",
+    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
-    note: "Great for thoracic mobility work and recovery — a complement to Chapel Hill Pilates' evidence-informed programming and a useful home tool for Triangle movers with desk-heavy workdays.",
-    price: "From $13",
-    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Great for thoracic mobility work and recovery — a complement to Chapel Hill Pilates' evidence-informed programming and a useful home tool for Triangle movers with desk-heavy workdays.",
+    price: "$62.99",
+    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 

@@ -103,7 +103,7 @@ const jsonLd = {
   ],
 };
 const PRODUCTS = [
-  { name: "Exercise Ball for Pregnancy Pilates", description: "A 65cm stability ball is the most versatile piece of prenatal Pilates equipment — used for seated pelvic circles, supported squats, and gentle core work throughout all trimesters.", price: "From $28", affiliateUrl: "https://www.amazon.com/s?k=exercise+ball+pregnancy+pilates+65cm&tag=pilatescollective-20" },
+  { name: "Trideer Pregnancy Ball", description: "A 65cm stability ball is the most versatile piece of prenatal Pilates equipment — used for seated pelvic circles, supported squats, and gentle core work throughout all trimesters.", price: "$29.99", affiliateUrl: "https://www.amazon.com/dp/B0C5R1S9D1?tag=pilatescollective-20" },
   { name: "Manduka eKO Pilates Mat", description: "Natural rubber construction provides grip without chemical off-gassing — relevant during pregnancy. The 5mm thickness balances cushioning with stability for prenatal floor work.", price: "$114.00", affiliateUrl: "https://www.amazon.com/dp/B00DJQF9D0?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "Light and medium resistance bands for arm, shoulder, and back strengthening during pregnancy. Maintains upper body strength when reformer access is limited.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Pregnancy Wedge Pillow", description: "A positioning wedge for side-lying Pilates exercises in the second and third trimesters — supports the abdomen and pelvis in the positions recommended for safe prenatal movement.", price: "From $30", affiliateUrl: "https://www.amazon.com/s?k=pregnancy+wedge+pillow+exercise+support&tag=pilatescollective-20" },

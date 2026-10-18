@@ -51,12 +51,12 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "ProSource Stretch Strap with Loops",
-    price: "From $14",
+    name: "OPTP Stretch Out Strap",
+    price: "$15.95",
     verdict: "Best for hip flexor and hamstring release",
     description:
       "The hip flexor shortening that accumulates over hours of cycling requires sustained static stretching to reverse — a 15-second stretch does not meaningfully lengthen chronically shortened tissue. A looped stretch strap allows 60-90 second holds of the hip flexor, hamstring, and calf — the exact muscles that accumulate tightness through cycling — in supine positions that do not require balance or active muscle engagement. This makes the stretch more effective and more comfortable than standing or kneeling hip flexor stretches after a fatiguing ride. For cyclists who follow rides with Pilates sessions, the strap provides the bridge between the two that prevents Pilates exercises from being limited by post-ride stiffness.",
-    affiliateUrl: "https://www.amazon.com/s?k=prosource+stretch+strap+with+loops&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00065X222?tag=pilatescollective-20",
     tag: "Best for Hip Flexors",
   },
   {
@@ -71,12 +71,12 @@ const PRODUCTS = [
   },
   {
     rank: "05",
-    name: "Lacrosse Ball Set for Massage",
-    price: "From $12",
+    name: "Tune Up Fitness Therapy Balls (in Tote)",
+    price: "$19.99",
     verdict: "Best for targeted soft tissue release",
     description:
       "A lacrosse or massage ball is more effective than a foam roller for the targeted release cyclists need most: the piriformis (deep hip rotator, compressed during saddle time), the pectoral muscles and anterior shoulder (tightened by the forward lean of the riding position), and the plantar fascia (loaded by foot-intensive pedalling). Rolling the piriformis in a figure-four seated position and the pectorals against a wall before a Pilates spinal extension or shoulder mobility session produces better range of motion outcomes than foam rolling alone. A set of two balls allows bilateral hip release simultaneously, which is practical for time-constrained cyclists.",
-    affiliateUrl: "https://www.amazon.com/s?k=lacrosse+ball+massage+set+2+pack&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00ERFBX9G?tag=pilatescollective-20",
     tag: "Best Targeted Release",
   },
 ];

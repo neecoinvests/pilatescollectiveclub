@@ -61,12 +61,12 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Apple Watch SE (2nd Gen)",
-    price: "From $199",
+    name: "Apple Watch SE 3",
+    price: "$199.99",
     verdict: "Best for iPhone users",
     description:
       "The Apple Watch SE delivers Apple's optical heart rate sensor and calorie algorithms in the most affordable Apple Watch configuration. For iPhone users already in the Apple Health ecosystem, the integration is seamless — Pilates sessions are logged automatically with calorie data that feeds directly into broader health trends. The Workout app includes Pilates as a specific exercise type in recent watchOS versions, improving calorie accuracy over the generic 'Other' workout category. The watch faces and band options available make it the most aesthetically considered fitness tracker for studio use, where the overall aesthetic of your kit is a consideration.",
-    affiliateUrl: "https://www.amazon.com/s?k=apple+watch+se+2nd+generation&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0HJ9ZNRKT?tag=pilatescollective-20",
     tag: "Best for Apple Users",
   },
   {

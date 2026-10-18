@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 };
 
 const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
-const DEFINE_SEARCH = "https://www.amazon.com/s?k=lululemon+define+jacket&tag=pilatescollective-20";
+const DEFINE_SEARCH = "https://www.amazon.com/dp/B0CMYVDPQ6?tag=pilatescollective-20";
 const LULULEMON = "https://shop.lululemon.com/";
 
 type Pick = {
@@ -67,7 +67,7 @@ const PICKS: Pick[] = [
     badge: "The Icon",
     shortName: "lululemon Define",
     name: "lululemon Define Jacket",
-    price: "From $188.00",
+    price: "$188.00",
     url: DEFINE_SEARCH,
     verdict: "The one everyone at the studio is wearing",
     description:

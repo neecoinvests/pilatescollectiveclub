@@ -71,7 +71,7 @@ const PRODUCTS = [
   { name: "OPTP Foam Roller (36-inch)", description: "For thoracic mobility and lateral curve release. Placed laterally under the convex side of the curve, a foam roller allows passive opening of the compressed side.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "For asymmetric strengthening — loading the weaker side of the curve to address the muscular imbalances that develop alongside structural scoliosis.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Provides lateral resistance that can be applied asymmetrically — useful for loading the convex side musculature and building the strength that helps manage curve progression.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "Pilates Arc Barrel", description: "Particularly useful for scoliosis work — lateral flexion over the arc opens compressed rib spaces and provides three-dimensional movement that flat mat work cannot replicate.", price: "From $120", affiliateUrl: "https://www.amazon.com/s?k=pilates+arc+barrel+spine+corrector&tag=pilatescollective-20" },
+  { name: "Balanced Body Pilates Arc", description: "Particularly useful for scoliosis work — lateral flexion over the arc opens compressed rib spaces and provides three-dimensional movement that flat mat work cannot replicate.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
 ];
 
 export default function PilatesForScoliosisPage() {

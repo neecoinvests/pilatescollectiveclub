@@ -71,7 +71,7 @@ const PRODUCTS = [
   { name: "TheraBand Resistance Bands Set", description: "Hip abductor and glute strengthening between sessions. The glute medius weakness that causes most running injuries is precisely what Pilates resistance band work targets.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "Runners need a stable, high-density mat for the hip and core work that makes Pilates most effective as a running complement. A non-slip surface matters during single-leg balance work.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Hip adductor and abductor resistance work to complement the unilateral strength that running develops. Efficient for the lateral hip work runners most commonly neglect.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "Gaiam Pilates Ball (9-inch)", description: "Used for hip and glute activation during mat Pilates — between the knees during bridging, it activates the adductor-glute chain that stabilises the pelvis during running gait.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
+  { name: "Trideer 9-inch Pilates Ball", description: "Used for hip and glute activation during mat Pilates — between the knees during bridging, it activates the adductor-glute chain that stabilises the pelvis during running gait.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20" },
 ];
 
 export default function PilatesForRunnersPage() {

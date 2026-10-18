@@ -62,12 +62,12 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Splits59 Pilates Bodysuit",
-    price: "From $88",
+    name: "Splits59 Airweight Jumpsuit",
+    price: "$158.00",
     verdict: "Best for studio aesthetics",
     description:
       "Splits59 is the brand most deeply embedded in the studio Pilates world — their bodysuits are designed explicitly for reformer and mat practice, not adapted from gym or running apparel. The Splits59 bodysuit features a high-cut leg for freedom of movement during footwork sequences, a supportive under-bust band that stays in place during spinal articulation, and a minimal aesthetic that reads as polished in a boutique studio environment. The Supplex-blend fabric is mid-weight and compressive without feeling restrictive. A serious option for practitioners who spend multiple sessions per week in the studio.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+bodysuit+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0BMF9SM9B?tag=pilatescollective-20",
     tag: "Studio Favourite",
   },
   {

@@ -123,33 +123,33 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Required at every reformer studio in Portland. Full-toe grip socks are the standard.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every reformer studio in Portland. Full-toe grip socks are the standard.",
+    price: "$30.00",
+    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
-    note: "Essential for mat classes and home practice through Portland's long, rainy season.",
-    price: "From $18",
-    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). Essential for mat classes and home practice through Portland's long, rainy season.",
+    price: "$144.00",
+    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands Set",
-    note: "Portable fabric bands are ideal for home Pilates practice on Portland's many grey winter days.",
-    price: "From $10",
-    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable fabric bands are ideal for home Pilates practice on Portland's many grey winter days.",
+    price: "$29.00",
+    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Standard in Portland's classical studios. Own one for at-home reinforcement between sessions.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Standard in Portland's classical studios. Own one for at-home reinforcement between sessions.",
+    price: "$35.00",
+    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
-    note: "Practical for pre- and post-class fascial release — especially useful for Portland's cycling and hiking community.",
-    price: "From $13",
-    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Practical for pre- and post-class fascial release — especially useful for Portland's cycling and hiking community.",
+    price: "$62.99",
+    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 

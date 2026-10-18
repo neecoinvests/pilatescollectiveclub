@@ -196,7 +196,7 @@ export default function PilatesVsGymPage() {
                 For home Pilates alongside a gym membership, a quality{" "}
                 mat{" "}
                 and{" "}
-                <a href="https://www.amazon.com/s?k=pilates+resistance+bands&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>resistance bands</a>{" "}
+                <a href="https://www.amazon.com/dp/B07D7KX9PX?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>resistance bands</a>{" "}
                 extend your home practice considerably.
               </p>
               <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>

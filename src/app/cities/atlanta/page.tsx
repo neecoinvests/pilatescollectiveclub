@@ -130,33 +130,33 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Required at every reformer studio in Atlanta. Full-toe grip socks are the universal standard.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every reformer studio in Atlanta. Full-toe grip socks are the universal standard.",
+    price: "$30.00",
+    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
-    note: "A quality 6mm mat is essential for mat classes and home practice in Atlanta's climate-controlled studios.",
-    price: "From $18",
-    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A quality 6mm mat is essential for mat classes and home practice in Atlanta's climate-controlled studios.",
+    price: "$144.00",
+    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Standard prop in many Atlanta classical studios. Useful for at-home reinforcement between sessions.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Standard prop in many Atlanta classical studios. Useful for at-home reinforcement between sessions.",
+    price: "$35.00",
+    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands Set",
-    note: "Fabric-loop resistance bands extend your studio practice and are ideal for home use on days Atlanta traffic makes the commute impractical.",
-    price: "From $10",
-    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric-loop resistance bands extend your studio practice and are ideal for home use on days Atlanta traffic makes the commute impractical.",
+    price: "$29.00",
+    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "Foam Roller",
-    note: "Essential for post-class myofascial release — particularly useful after long commutes in Atlanta traffic.",
-    price: "From $13",
-    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Essential for post-class myofascial release — particularly useful after long commutes in Atlanta traffic.",
+    price: "$62.99",
+    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 

@@ -32,12 +32,12 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Wall-Mounted Mat Rack (Horizontal Bar Style)",
-    price: "From $45",
+    name: "SPRI Wall-Mounted Mat Rack",
+    price: "$28.15",
     verdict: "Best overall storage for mats",
     description:
       "A wall-mounted horizontal rack is the highest-value storage purchase in a home studio, because a mat is the item you use every session and therefore the one whose storage friction matters most. Rolled mats stood in a corner slump, unroll themselves, and gather dust on the end that touches the floor; a wall rack holds two to four mats horizontally, off the ground, visible and reachable in one movement. The visibility is doing real work here — equipment you can see gets used, and equipment in a cupboard quietly stops being part of your week. Look for a rack with a depth of at least 5 inches to take a 6mm mat plus a rolled towel, and mount into studs or use proper cavity anchors, since a loaded rack carries more weight than the bracket alone suggests. Many models double as a shelf on top, which is where the small props end up living.",
-    affiliateUrl: "https://www.amazon.com/s?k=wall+mounted+yoga+mat+storage+rack+horizontal&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00LY9LBR2?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
@@ -62,12 +62,12 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Storage Ottoman Bench",
-    price: "From $80",
+    name: "SONGMICS Folding Storage Ottoman Bench",
+    price: "$39.99",
     verdict: "Best for a living room that hides its equipment",
     description:
       "If the practice space is also the room you entertain in, the goal is storage that does not read as gym storage at all. A storage ottoman swallows a surprising amount — a rolled mat, blocks, bands, hand weights, a folded blanket — while presenting as furniture, and it gives you a bench to sit on for seated work or to put shoes on before leaving. This is the option that keeps a household happy, which matters more to whether a home practice survives than any equipment decision. Check the internal dimensions rather than the external ones, since the frame and padding eat several inches, and confirm the lid is hinged with a soft-close or a stay rather than being a loose lift-off top, which becomes annoying quickly. A firm top is more useful than a plush one if you intend to sit on it during practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=storage+ottoman+bench+large+hinged+lid&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07JNFKYC3?tag=pilatescollective-20",
     tag: "Best Hidden Storage",
   },
   {
@@ -82,12 +82,12 @@ const PRODUCTS = [
   },
   {
     rank: "06",
-    name: "Collapsible Fabric Storage Bins",
-    price: "From $25",
+    name: "Amazon Basics Collapsible Storage Bins",
+    price: "$17.99",
     verdict: "Best budget and best for renters",
     description:
       "Fabric bins are the least interesting option here and the most broadly useful. A set of two or three under a bed, on a shelf, or in the base of a wardrobe holds every small prop you own for the price of a single studio class, requires no mounting, no tools and no landlord conversation, and collapses flat when not needed. For anyone whose home practice consists of a mat and a handful of props, this is genuinely all the storage required, and buying a rack system instead would be solving a problem you do not have. Label them or choose bins with a clear window, because the drawback of opaque soft storage is that props become invisible and forgotten. Look for reinforced sides that hold shape when loaded — the very cheapest bins collapse inward under any weight and become impossible to pack neatly.",
-    affiliateUrl: "https://www.amazon.com/s?k=collapsible+fabric+storage+bins+with+handles&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07TXL7CPQ?tag=pilatescollective-20",
     tag: "Best Budget",
   },
 ];

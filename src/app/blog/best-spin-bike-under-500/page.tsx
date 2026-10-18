@@ -82,12 +82,12 @@ const PRODUCTS = [
   },
   {
     rank: "06",
-    name: "Budget Indoor Cycling Bike Under $250",
-    price: "From $230",
+    name: "pooboo Magnetic Exercise Bike",
+    price: "$189.99",
     verdict: "Cheapest bike worth considering",
     description:
       "Below about $250 the compromises stop being about features and start being about whether the bike is pleasant to ride at all. Flywheels drop under 30lb, which produces a lurching pedal stroke rather than a smooth one, frames flex when you stand, and adjustment ranges narrow to the point that taller riders cannot set the saddle correctly. That said, if the alternative is not riding, a cheap bike that gets used beats a good bike you did not buy. Set expectations honestly: plan to replace it rather than upgrade it, keep every bolt checked since budget frames loosen, and verify the return window before assembly. Two specifications are worth insisting on even here — a flywheel of at least 30lb, and a stated inseam range that covers you.",
-    affiliateUrl: "https://www.amazon.com/s?k=indoor+cycling+bike+under+250&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0HFNFRLNJ?tag=pilatescollective-20",
     tag: "Best Cheapest",
   },
 ];

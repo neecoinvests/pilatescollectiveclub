@@ -32,12 +32,12 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Adjustable Handlebar Clamp Mount (Tablet & Phone)",
-    price: "From $28",
+    name: "Lamicall Spin Bike Tablet Mount",
+    price: "$19.99",
     verdict: "Best overall tablet holder for indoor bikes",
     description:
       "A rigid clamp that grips the handlebar tube directly is the most reliable format, and the reason is vibration rather than weight. Out-of-saddle sprints shake the bars hard enough that any mount with a long unsupported arm oscillates, and a wobbling screen is both unusable and a slow way to loosen the fitting. A short clamp with a spring-loaded cradle keeps the device close to the bar where the movement is smallest. Look for three things: a clamp rated for your bar diameter, which on indoor bikes is usually thicker than a road bike at around 31.8 to 35mm; a cradle that expands to at least 11 inches if you use a full-size tablet; and rubber-lined jaws, which both protect the finish and stop rotation. Corrosion is the eventual killer here, so prefer anodised aluminium or plastic over bare steel hardware.",
-    affiliateUrl: "https://www.amazon.com/s?k=adjustable+handlebar+tablet+mount+bike+clamp&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08BZ72L5Q?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
@@ -52,12 +52,12 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Gooseneck Arm Mount with Floor or Frame Clamp",
-    price: "From $35",
+    name: "Lamicall Tablet Floor Stand",
+    price: "$27.99",
     verdict: "Best for adjustable screen height",
     description:
       "The overlooked problem with handlebar mounts is neck position: a tablet on the bars sits low, so you spend 45 minutes looking down with the neck flexed, which is the same posture the rest of this site spends its time correcting. A gooseneck arm clamped to the frame or a floor stand lets you place the screen at eye level, where your neck stays neutral. That makes it the right choice for anyone who already has neck or upper back complaints. The trade-off is stability: a long flexible arm is the format most prone to bouncing during sprints, so choose the shortest arm that reaches eye level and a clamp with a genuinely wide jaw. Set it up once, mark the position, and avoid re-adjusting it constantly, which is what loosens gooseneck joints.",
-    affiliateUrl: "https://www.amazon.com/s?k=gooseneck+tablet+holder+floor+stand+clamp&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08TC36KJL?tag=pilatescollective-20",
     tag: "Best for Neck Position",
   },
   {
@@ -82,12 +82,12 @@ const PRODUCTS = [
   },
   {
     rank: "06",
-    name: "Budget Universal Tablet Clamp Under $20",
-    price: "From $16",
+    name: "Lamicall Spin Bike Tablet Mount",
+    price: "$19.99",
     verdict: "Cheapest serviceable mount",
     description:
       "The budget end of this category is serviceable because the engineering requirement is genuinely modest — hold a light object steady on a tube. What you give up is longevity in a sweaty environment. Cheap mounts use plated steel screws and springs that corrode within months of regular use, and the plastic cradles become brittle. Two habits extend their life considerably: wipe the mount down at the end of each session rather than letting sweat dry on it, and remove the device between rides so the spring is not held under permanent tension. Check the listing states a bar diameter that covers indoor bikes, since many budget mounts are specified for slimmer road bars and will not close around a thicker indoor handlebar. Fine as a first mount to establish how you actually want the screen positioned.",
-    affiliateUrl: "https://www.amazon.com/s?k=universal+tablet+clamp+mount+exercise+bike&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08BZ72L5Q?tag=pilatescollective-20",
     tag: "Best Budget",
   },
 ];

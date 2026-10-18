@@ -267,10 +267,10 @@ export default function BlogEquipmentPage() {
                 good magic circle should spring back cleanly without wobbling.
               </p>
               <ProductCard
-                name="Precision Magic Circle"
+                name="Balanced Body Ultra-Fit Circle (15-inch)"
                 description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
-                price="From $35"
-                affiliateUrl="https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20"
+                price="$35.00"
+                affiliateUrl="https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20"
                 imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg"
               />
             </section>
@@ -301,10 +301,10 @@ export default function BlogEquipmentPage() {
                 strength develops, and you won&apos;t need to buy multiple pairs.
               </p>
               <ProductCard
-                name="Adjustable Ankle Weights"
+                name="Sportneer Adjustable Ankle Weights"
                 description="Neoprene-covered with adjustable fill pockets, 0.5–2kg per weight. Machine washable, secure velcro closure, and a slim profile that doesn't restrict movement range. A rare combination of quality and versatility."
-                price="From $38"
-                affiliateUrl="https://www.amazon.com/s?k=adjustable+ankle+weights+pilates+neoprene&tag=pilatescollective-20"
+                price="$33.99"
+                affiliateUrl="https://www.amazon.com/dp/B07F25L7QK?tag=pilatescollective-20"
                 imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"
               />
             </section>
@@ -337,10 +337,10 @@ export default function BlogEquipmentPage() {
                 they&apos;re genuinely useful.
               </p>
               <ProductCard
-                name="Home Pilates Board"
+                name="JANUA Pilates Board"
                 description="Spring-loaded sliding board with adjustable resistance. Foldable and wall-mountable. Covers footwork, squat series, and standing balance exercises. A smart option before committing to a full reformer."
-                price="From $179"
-                affiliateUrl="https://www.amazon.com/s?k=pilates+board+home+workout+sliding&tag=pilatescollective-20"
+                price="$69.90"
+                affiliateUrl="https://www.amazon.com/dp/B0DJZF4T7K?tag=pilatescollective-20"
                 imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"
               />
             </section>

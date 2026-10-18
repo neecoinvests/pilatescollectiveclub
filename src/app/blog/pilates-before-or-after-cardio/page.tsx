@@ -51,12 +51,12 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Stretch Strap with Loops",
-    price: "From $14",
+    name: "OPTP Stretch Out Strap",
+    price: "$15.95",
     verdict: "Best flexibility tool post-cardio into Pilates",
     description:
       "A stretch strap with multiple loops allows longer-hold static stretching of the hamstrings, hip flexors, and calves in supine positions — the type of mobility work that is most effective post-cardio and most compatible with the Pilates movement vocabulary. Holding a hamstring stretch with a strap for 60-90 seconds post-run, then moving into a Pilates mat session, creates the optimal sequence for flexibility gains without the performance decrement that pre-exercise static stretching causes. The multiple loops allow precise adjustment of stretch intensity, which matters when fatigued muscles after cardio have less range of motion than during a rested session.",
-    affiliateUrl: "https://www.amazon.com/s?k=stretch+strap+yoga+pilates+loops+flexibility&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00065X222?tag=pilatescollective-20",
     tag: "Best for Post-Cardio Mobility",
   },
   {

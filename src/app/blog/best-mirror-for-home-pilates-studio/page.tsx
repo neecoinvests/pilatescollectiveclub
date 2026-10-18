@@ -32,22 +32,22 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Large Leaning Floor Mirror (65in x 22in)",
-    price: "From $130",
+    name: "TheiaMo Full-Length Floor Mirror (65 x 22 in)",
+    price: "$208.99",
     verdict: "Best overall mirror for a home Pilates studio",
     description:
       "A single large leaning mirror is the right first purchase for most home studios, and the reason is the lean itself. Pilates is done largely on the floor, and a mirror mounted flat on a wall at standing height shows you almost nothing useful when you are lying down. A leaning mirror tilts back a few degrees, which drops the reflected sightline toward the floor and lets you actually check pelvic position and rib alignment during supine work — the two things a mirror is genuinely useful for. At 65 by 22 inches it captures a full body standing and most of one lying down if positioned along the long edge of the mat. Real glass rather than acrylic is essential at this size, since acrylic panels of these dimensions flex and distort. Check that the frame includes a wall anchor strap and use it: a mirror this size is heavy enough to be dangerous if knocked, particularly with children or pets in the house.",
-    affiliateUrl: "https://www.amazon.com/s?k=large+leaning+floor+mirror+65+x+22+full+length&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0D87MPSFT?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
-    name: "Frameless Wall Mirror Panel Kit",
-    price: "From $200",
+    name: "Honyee Frameless Home Gym Mirror (3 x 48 x 24 in)",
+    price: "$119.99",
     verdict: "Best for a true studio mirror wall",
     description:
       "If you want the look and function of a commercial studio, a multi-panel frameless kit is what actually delivers it. Panels typically come in 48-by-72-inch sheets designed to butt together with minimal visible seam, covering a full wall for a fraction of what a bespoke glazier charges. The functional advantage over a single leaning mirror is width rather than height: a wall of mirror lets you see lateral position during side-lying work and check symmetry from more than one angle, which a narrow panel cannot do. Mount the bottom edge low — around 12 to 18 inches from the floor rather than the 30 inches typical for a domestic mirror — so floor work is actually visible. This is a two-person installation involving heavy glass and either adhesive or J-channel clips, and it is worth being honest with yourself about whether that is a job you want. Confirm the panels have a safety backing film before ordering.",
-    affiliateUrl: "https://www.amazon.com/s?k=frameless+wall+mirror+panels+gym+48+x+72&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0D4PMK8F2?tag=pilatescollective-20",
     tag: "Best Mirror Wall",
   },
   {
@@ -62,32 +62,32 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Rolling Gym Mirror on Casters",
-    price: "From $280",
+    name: "AISUNDY Tilting Full-Length Mirror on Wheels (65 x 22 in)",
+    price: "$139.99",
     verdict: "Best when the room has another purpose",
     description:
       "A mirror on a wheeled frame solves the multi-use room problem better than anything else here. It rolls into position for a session and back against a wall — or out of the room entirely — afterwards, which makes it the only option that suits a living room or a shared home office. The mobility has a second, less obvious benefit: you can reposition it mid-session to check a movement from the side, an angle a fixed wall mirror can never give you and which is genuinely more informative than the front view for spinal alignment and hip position. Look for locking casters, a wide stable base, and a tilt mechanism, which together address the two failure modes of cheap rolling mirrors — creeping across the floor during use and being fixed at an angle that is wrong for floor work. It is the most expensive option on this list and the most flexible.",
-    affiliateUrl: "https://www.amazon.com/s?k=rolling+gym+mirror+casters+tilting+full+length&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08358HF23?tag=pilatescollective-20",
     tag: "Best Movable",
   },
   {
     rank: "05",
-    name: "Arched Full-Length Floor Mirror",
-    price: "From $160",
+    name: "BEAUTYPEAK Arched Full-Length Mirror (65 x 24 in)",
+    price: "$90.00",
     verdict: "Best-looking option for a room you live in",
     description:
       "The arched floor mirror has become the default in home studios that appear on social media, and the popularity is not purely aesthetic — it reflects a real constraint. Most people's Pilates space is a corner of a room they also live in, and a commercial-looking mirror wall makes that room feel like a gym permanently. An arched mirror reads as furniture, so the space stays a bedroom or living room between sessions. Functionally it is a standard leaning mirror: typically 64 to 71 inches tall, real glass, with the same tilt advantage for floor work. The narrower top does cost you a little peripheral view during standing work, which is a fair trade for most people. Check the frame depth and the weight rating on the leaning stand, since the thin decorative frames common in this category are less stable than they look. Anchor it to the wall regardless of what the instructions say.",
-    affiliateUrl: "https://www.amazon.com/s?k=arched+full+length+floor+mirror+gold+black&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0C1JNLD85?tag=pilatescollective-20",
     tag: "Best Aesthetic",
   },
   {
     rank: "06",
-    name: "Over-Door Full-Length Mirror",
-    price: "From $35",
+    name: "Antok Over-the-Door Full-Length Mirror (58 x 20 in)",
+    price: "$59.99",
     verdict: "Best budget option for a small space",
     description:
       "An over-door mirror is the minimum viable option and, for a beginner practising in a bedroom, an entirely reasonable one. It hangs on existing door hardware with no drilling, costs less than a single studio class, and provides enough reflection to check standing alignment and the basics of rib and shoulder position. Where it falls short is floor work: mounted high on a door and perfectly vertical, it shows you very little of what happens below waist height, which is where most Pilates actually happens. The narrow width — typically 14 to 16 inches — also means you see a slice of yourself rather than a full frame. Treat this as a starting point rather than a solution: it is the right purchase if you are unsure whether you will use a mirror at all, and the thing you replace first once you know you will.",
-    affiliateUrl: "https://www.amazon.com/s?k=over+the+door+full+length+mirror&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0GLMSSH79?tag=pilatescollective-20",
     tag: "Best Budget",
   },
 ];

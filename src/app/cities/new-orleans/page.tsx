@@ -172,33 +172,33 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Required at every New Orleans studio. ToeSox and Tavi Noir both grip well on reformer footbars — especially important in the city's heat.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every New Orleans studio. ToeSox and Tavi Noir both grip well on reformer footbars — especially important in the city's heat.",
+    price: "$30.00",
+    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "For mat classes at Uptown Pilates and Marigny Movement Studio — slightly thicker than a yoga mat for joint comfort on studio floors.",
-    price: "From $18",
-    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at Uptown Pilates and Marigny Movement Studio — slightly thicker than a yoga mat for joint comfort on studio floors.",
+    price: "$144.00",
+    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Used in classical mat sequences at Uptown Pilates — great to own if you're following a classical program or practicing at home between sessions.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Used in classical mat sequences at Uptown Pilates — great to own if you're following a classical program or practicing at home between sessions.",
+    price: "$35.00",
+    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Fabric Resistance Bands",
-    note: "Versatile for warm-ups, hip work, and supplemental home practice — useful between sessions at any New Orleans studio.",
-    price: "From $10",
-    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip work, and supplemental home practice — useful between sessions at any New Orleans studio.",
+    price: "$29.00",
+    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
-    note: "A great complement to Lakeview Pilates' therapeutic programming — excellent for thoracic mobility and post-class recovery.",
-    price: "From $13",
-    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). A great complement to Lakeview Pilates' therapeutic programming — excellent for thoracic mobility and post-class recovery.",
+    price: "$62.99",
+    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 

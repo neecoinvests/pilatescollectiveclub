@@ -55,11 +55,11 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Theragun Elite (4th Gen)",
-    price: "$299",
+    name: "Theragun Elite (5th Gen)",
+    price: "$399.00",
     verdict: "Best Recovery Gift for Men",
     description: "For a man who trains regularly — in pilates or otherwise — the Theragun Elite is the recovery tool that makes a genuine, immediately-felt difference. It reaches 16mm of amplitude at 1,750–2,400 RPM, penetrating deep enough to address the hip flexors, thoracic extensors, and shoulders that accumulate tension through reformer practice. Five attachments cover every muscle group from the glutes to the neck. 120-minute battery life, quieter operation than previous generations, and Bluetooth connectivity to the Therabody app for guided protocols. A premium gift he'll use daily.",
-    affiliateUrl: "https://www.amazon.com/s?k=theragun+elite+4th+generation+men+recovery&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0C42NTLYC?tag=pilatescollective-20",
   },
   {
     rank: "04",
@@ -109,7 +109,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is the best pilates gift for a man?",
-    a: "The Lululemon ABC Pant ($128) is the best pilates gift for a man — it is the standard men's pilates pant, loved for its range of motion, clean look, and premium fabric. For recovery, the Theragun Elite ($299) is the most impactful investment at a higher price point. At a more accessible budget, the TriggerPoint GRID Roller ($28.99) is the best value recovery gift available.",
+    a: "The Lululemon ABC Pant ($128) is the best pilates gift for a man — it is the standard men's pilates pant, loved for its range of motion, clean look, and premium fabric. For recovery, the Theragun Elite ($399) is the most impactful investment at a higher price point. At a more accessible budget, the TriggerPoint GRID Roller ($28.99) is the best value recovery gift available.",
   },
   {
     q: "What do men need for pilates?",

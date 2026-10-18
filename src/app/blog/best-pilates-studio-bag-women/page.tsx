@@ -66,8 +66,8 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best duffel for studio",
     description:
-      "Manduka's Go Play 3.0 Duffel is the most thoughtfully engineered bag on this list for pure studio functionality. The shoe compartment at the base keeps studio shoes separated from clothing and personal items — a feature that matters more than it sounds after a sweaty reformer session. The main compartment is spacious and structured, with a padded shoulder strap that makes the bag comfortable over a 20-minute walk or transit commute. Manduka's reputation for durability means this bag outlasts most alternatives, a relevant consideration given the wear that five weekly sessions generates over years of practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+go+play+duffel+bag&tag=pilatescollective-20",
+      "Manduka's Go Play 3.0 Duffel is the most thoughtfully engineered bag on this list for pure studio functionality. The shoe compartment at the base keeps studio shoes separated from clothing and personal items — a feature that matters more than it sounds after a sweaty reformer session. The main compartment is spacious and structured, with a padded shoulder strap that makes the bag comfortable over a 20-minute walk or transit commute. Manduka's reputation for durability means this bag outlasts most alternatives, a relevant consideration given the wear that five weekly sessions generates over years of practice. Not sold on Amazon: this link goes to Manduka's own site.",
+    affiliateUrl: "https://www.manduka.com",
     tag: "Best Duffel",
   },
   {

@@ -68,10 +68,10 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Nike Dri-FIT Legend Training Tee",
-    price: "$30",
+    price: "$37.00",
     verdict: "Best Budget",
-    description: "Nike's standard-issue Dri-FIT Legend is the workhorse pick for practitioners who train daily and don't want to think too hard about laundry. It wicks effectively, holds its shape through dozens of washes, and is available in an extensive colour range. At $30, it's the most cost-effective option on this list.",
-    affiliateUrl: "https://www.amazon.com/s?k=nike+dri-fit+legend+training+tee+women&tag=pilatescollective-20",
+    description: "Nike's standard-issue Dri-FIT Legend is the workhorse pick for practitioners who train daily and don't want to think too hard about laundry. It wicks effectively, holds its shape through dozens of washes, and is available in an extensive colour range. At $37, it's the most cost-effective option on this list.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CR775CQR?tag=pilatescollective-20",
     tag: "Best Value",
   },
   {

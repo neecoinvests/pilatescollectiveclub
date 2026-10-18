@@ -70,11 +70,11 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Asutra Yoga Mat Cleaner Spray — Tea Tree & Lavender",
-    price: "From $13",
+    name: "ASUTRA Yoga Mat Cleaner Spray (Lavender)",
+    price: "$13.99",
     verdict: "Best scented option",
     description: "Asutra's yoga mat cleaner combines tea tree oil (antimicrobial), lavender (refreshing), and witch hazel in a pre-mixed spray. The scent profile is among the best in the category — noticeable enough to refresh the mat without being overwhelming in a closed studio. Safe for TPE, PVC, and standard rubber mats. Not recommended for open-cell natural rubber.",
-    affiliateUrl: "https://www.amazon.com/s?k=Asutra+Yoga+Mat+Cleaner+Spray+Tea+Tree+Lavender&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00XQBHJOU?tag=pilatescollective-20",
     tag: "Best Scent",
   },
   {

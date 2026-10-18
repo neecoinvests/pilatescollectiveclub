@@ -40,9 +40,9 @@ const SETS = [
   {
     rank: "01",
     name: "The Complete Beginner Set",
-    price: "$79 total",
+    price: "$55 total",
     verdict: "Best First Pilates Gift Bundle",
-    description: "For someone just starting pilates, assemble: a Gaiam Premium Mat ($35), ToeSox Half-Toe Grip Socks ($18), and a Theraband Resistance Band Set ($26). Together these three items cover everything a beginner needs for their first reformer class and at-home practice — a mat to work on, socks the studio requires, and bands for supplementary conditioning. Total cost: around $79, and every item gets immediate use from day one. Wrap them together with a note explaining each piece and why it matters.",
+    description: "For someone just starting pilates, assemble: a Gaiam Premium Mat ($19.29), ToeSox Half-Toe Grip Socks ($16), and a Theraband Resistance Band Set ($19.58). Together these three items cover everything a beginner needs for their first reformer class and at-home practice — a mat to work on, socks the studio requires, and bands for supplementary conditioning. Total cost: around $55, and every item gets immediate use from day one. Wrap them together with a note explaining each piece and why it matters.",
     affiliateUrl: "https://www.amazon.com/s?k=gaiam+premium+pilates+mat+beginners+kit&tag=pilatescollective-20",
   },
   {
@@ -56,15 +56,15 @@ const SETS = [
   {
     rank: "03",
     name: "The Recovery Set",
-    price: "$82 total",
+    price: "$57 total",
     verdict: "Best Wellness Gift Bundle",
-    description: "For the practitioner who trains hard and needs to recover well: TriggerPoint GRID Foam Roller ($36) plus a Theraband Resistance Band Set ($26) for active recovery and mobility work, and a Trideer Pilates Ball ($20) for targeted spinal mobility and stretching. Together these three pieces cover myofascial release, resistance mobility, and ball work — a complete recovery and maintenance kit for any level of practitioner. Approximately $82 total, presented in a simple basket with a handwritten card.",
+    description: "For the practitioner who trains hard and needs to recover well: TriggerPoint GRID Foam Roller ($28.99) plus a Theraband Resistance Band Set ($19.58) for active recovery and mobility work, and a Trideer Pilates Ball ($7.99) for targeted spinal mobility and stretching. Together these three pieces cover myofascial release, resistance mobility, and ball work — a complete recovery and maintenance kit for any level of practitioner. Approximately $57 total, presented in a simple basket with a handwritten card.",
     affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+grid+foam+roller+recovery+set&tag=pilatescollective-20",
   },
   {
     rank: "04",
     name: "The Luxury Mat & Bag Bundle",
-    price: "$268 total",
+    price: "$292 total",
     verdict: "Best Investment Gift Bundle",
     description: "The pairing that serious practitioners build toward: a Manduka PRO Mat ($144) and a Liforme Original Mat Bag ($148). The Manduka PRO is the lifetime-guaranteed professional mat; the Liforme bag is designed specifically to carry it, with a padded shoulder strap, water bottle pocket, and accessory compartment. Together they make an heirloom-grade set — the mat and bag she'll still be using a decade from now. A gift that communicates genuine understanding of the practice and what it deserves.",
     affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+mat+bag+set+pilates+gift&tag=pilatescollective-20",
@@ -74,15 +74,15 @@ const SETS = [
     name: "The Alo Yoga Pilates Set",
     price: "$176 total",
     verdict: "Best Clothing Bundle",
-    description: "Alo's two most coveted pilates pieces paired together: the Airlift 7/8 Legging ($114) and the Airlift Strappy Bra ($62). Both are made from Alo's signature Airlift fabric — precision-compression, sculpting, and engineered for zero movement during exercise. Choosing matching or tonal colourways (both come in bone, black, espresso, and seasonal shades) creates a complete studio look that is as intentional and refined as the practice itself. This is the bundle that arrives and goes directly into her next-class bag.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airlift+legging+bra+set+women&tag=pilatescollective-20",
+    description: "Alo's two most coveted pilates pieces paired together: the Airlift 7/8 Legging ($114) and the Airlift Strappy Bra ($62). Both are made from Alo's signature Airlift fabric — precision-compression, sculpting, and engineered for zero movement during exercise. Choosing matching or tonal colourways (both come in bone, black, espresso, and seasonal shades) creates a complete studio look that is as intentional and refined as the practice itself. This is the bundle that arrives and goes directly into her next-class bag. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
   },
   {
     rank: "06",
     name: "The Tech & Recovery Bundle",
-    price: "$335 total",
+    price: "$428 total",
     verdict: "Best High-End Gift Bundle",
-    description: "For the serious practitioner ready for the next level of recovery: Theragun Elite ($299) plus a TriggerPoint GRID Roller ($36). The Theragun handles deep percussive therapy for the hip flexors, thoracic spine, and shoulders; the GRID covers myofascial rolling for the IT band, calves, and thoracic extensors. Together they build a complete recovery toolkit that professional athletes use. Approximately $335 total — an exceptional end-of-year gift, or a pooled gift from a group of studio friends.",
+    description: "For the serious practitioner ready for the next level of recovery: Theragun Elite ($399) plus a TriggerPoint GRID Roller ($28.99). The Theragun handles deep percussive therapy for the hip flexors, thoracic spine, and shoulders; the GRID covers myofascial rolling for the IT band, calves, and thoracic extensors. Together they build a complete recovery toolkit that professional athletes use. Approximately $428 total — an exceptional end-of-year gift, or a pooled gift from a group of studio friends.",
     affiliateUrl: "https://www.amazon.com/s?k=theragun+elite+recovery+set+pilates&tag=pilatescollective-20",
   },
 ];
@@ -109,7 +109,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is a good pilates gift set?",
-    a: "The best pilates gift set for a beginner is: Gaiam mat ($35) + ToeSox grip socks ($18) + Theraband set ($26) = $79 total. For an experienced practitioner: Lululemon Align Legging ($98) + Lululemon Belt Bag ($48) = $146 total. Both bundles feel complete and intentional — every item has a clear purpose in her daily practice.",
+    a: "The best pilates gift set for a beginner is: Gaiam mat ($19.29) + ToeSox grip socks ($16) + Theraband set ($19.58) = about $55 total. For an experienced practitioner: Lululemon Align Legging ($98) + Lululemon Belt Bag ($48) = $146 total. Both bundles feel complete and intentional — every item has a clear purpose in her daily practice.",
   },
   {
     q: "How do I make a pilates gift basket?",
@@ -121,7 +121,7 @@ const FAQ = [
   },
   {
     q: "What is the best pilates gift bundle under $100?",
-    a: "The best pilates gift bundle under $100 is: ToeSox grip socks ($42 for a 3-pack) + TriggerPoint GRID Foam Roller ($36) = $78 total. This covers studio essentials and daily recovery in two items, both from brands practitioners recognise and trust. The Gaiam mat ($35) + ToeSox ($18) + Theraband set ($26) = $79 is the best beginner-specific bundle under $100.",
+    a: "The best pilates gift bundle under $100 is: ToeSox grip socks ($44 for a 3-pack) + TriggerPoint GRID Foam Roller ($28.99) = about $73 total. This covers studio essentials and daily recovery in two items, both from brands practitioners recognise and trust. The Gaiam mat ($35) + ToeSox ($18) + Theraband set ($26) = $79 is the best beginner-specific bundle under $100.",
   },
 ];
 
@@ -182,7 +182,7 @@ export default function Page() {
             Best Pilates Gift Sets & Bundles
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            A single great gift is good. A curated set of two or three items that work together — covering training, recovery, and every daily ritual around her practice — is better. This guide builds six complete pilates gift bundles across every budget tier, from a $79 beginner kit to a $335 high-performance recovery set. Each bundle is designed so every item in it earns its place, with guidance on how to choose the right bundle for the practitioner you're gifting.
+            A single great gift is good. A curated set of two or three items that work together — covering training, recovery, and every daily ritual around her practice — is better. This guide builds six complete pilates gift bundles across every budget tier, from a $55 beginner kit to a $428 high-performance recovery set. Each bundle is designed so every item in it earns its place, with guidance on how to choose the right bundle for the practitioner you're gifting.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Curated bundles at every budget</span>

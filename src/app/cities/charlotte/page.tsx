@@ -172,33 +172,33 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Required at every Charlotte studio. ToeSox and Tavi Noir both have excellent grip for reformer work.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every Charlotte studio. ToeSox and Tavi Noir both have excellent grip for reformer work.",
+    price: "$30.00",
+    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "For mat classes at Myers Park Pilates and Plaza Midwood — slightly thicker than a yoga mat for joint comfort.",
-    price: "From $18",
-    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at Myers Park Pilates and Plaza Midwood — slightly thicker than a yoga mat for joint comfort.",
+    price: "$144.00",
+    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Used in classical mat sequences — great to own if you're practicing at Myers Park or following a classical program at home.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Used in classical mat sequences — great to own if you're practicing at Myers Park or following a classical program at home.",
+    price: "$35.00",
+    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Fabric Resistance Bands",
-    note: "Versatile for warm-ups, hip work, and supplemental home practice between studio sessions.",
-    price: "From $10",
-    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip work, and supplemental home practice between studio sessions.",
+    price: "$29.00",
+    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
-    note: "Ideal for thoracic mobility work — a great complement to Dilworth Pilates' therapeutic programming.",
-    price: "From $13",
-    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Ideal for thoracic mobility work — a great complement to Dilworth Pilates' therapeutic programming.",
+    price: "$62.99",
+    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 

@@ -32,23 +32,23 @@ export const metadata: Metadata = {
 const ITEMS = [
   {
     rank: "01",
-    name: "Pilates Grip Socks",
-    price: "From $18",
+    name: "toesox Low Rise Half-Toe Grip Socks (2-Pack)",
+    price: "$30.00",
     verdict: "The one non-negotiable",
     tag: "Essential",
     description:
       "Grip socks are required at virtually every reformer and mat Pilates studio — for hygiene, safety, and effective footwork. Most studios sell them at the desk at a markup. Buying your own ToeSox, Tavi Noir, or Shashi grip socks costs less per pair and gives you a better fit. The half-toe design (ToeSox) improves proprioception; full-toe designs (Tavi Noir) are more comfortable for wide feet. Pack two pairs if you practise more than twice a week.",
-    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+pilates+grip+socks&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08ZGNC7X6?tag=pilatescollective-20",
   },
   {
     rank: "02",
-    name: "Insulated Water Bottle",
-    price: "From $30",
+    name: "Hydro Flask 21 oz Standard Mouth Bottle",
+    price: "$30.00",
     verdict: "Cold water, 50 minutes in",
     tag: "Practical",
     description:
       "Boutique studios run warm. A quality insulated bottle keeps water genuinely cold through an entire 50-minute reformer session — something a standard plastic bottle cannot do. The Hydro Flask Standard Mouth 21oz and the Stanley IceFlow are the two most popular studio options: both fit in a reformer side-slot and neither sweats condensation onto the carriage. Avoid anything with a loose lid or straw that can spill.",
-    affiliateUrl: "https://www.amazon.com/s?k=insulated+water+bottle+21oz+gym+studio&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0DG34PXZT?tag=pilatescollective-20",
   },
   {
     rank: "03",

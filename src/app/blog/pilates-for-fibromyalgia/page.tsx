@@ -61,12 +61,12 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Massage Ball Set — Deep Tissue Trigger Point",
-    price: "From $14",
+    name: "Tune Up Fitness Therapy Balls (in Tote)",
+    price: "$19.99",
     verdict: "Best for targeted tender point relief",
     description:
       "The 18 defined tender points of fibromyalgia — located at the neck, shoulders, upper chest, elbows, hips, and knees — respond to targeted myofascial release work before and after exercise. A set of massage balls (typically including a lacrosse ball size and a smaller spiked ball) allows precise application of pressure to specific tender points in a controlled way. Using a massage ball against a wall or the floor allows the practitioner to control pressure completely, making it appropriate even during moderate fibromyalgia flares. Five to ten minutes of targeted ball work on the most symptomatic areas before a Pilates session can reduce local pain sensitisation and improve the range of motion available during the class. Post-session ball work also supports recovery by addressing the muscle tension that accumulates during exercise.",
-    affiliateUrl: "https://www.amazon.com/s?k=massage+ball+set+trigger+point+deep+tissue&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00ERFBX9G?tag=pilatescollective-20",
     tag: "Best for Tender Points",
   },
   {

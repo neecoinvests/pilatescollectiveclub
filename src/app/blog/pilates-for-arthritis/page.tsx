@@ -41,22 +41,22 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Wrist Support Brace for Exercise",
-    price: "From $16",
+    name: "FUTURO Compression Stabilizing Wrist Brace",
+    price: "$23.49",
     verdict: "Best wrist support for hand and wrist arthritis",
     description:
       "For practitioners with wrist or hand arthritis, a lightweight compression wrist brace during Pilates exercises that require wrist loading — quadruped, planks, push-up positions on the reformer — can meaningfully reduce pain and allow fuller participation. The brace provides proprioceptive feedback that reinforces neutral wrist positioning and reduces the micro-movements that provoke arthritic pain. Look for a design with a palmar stay for support and an open-finger configuration that does not restrict the grip needed for reformer straps. Most practitioners with moderate wrist arthritis find they can participate in exercises they would otherwise avoid with appropriate wrist support in place.",
-    affiliateUrl: "https://www.amazon.com/s?k=wrist+support+brace+compression+exercise+arthritis&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0026RHGAM?tag=pilatescollective-20",
     tag: "Best for Wrist Arthritis",
   },
   {
     rank: "03",
-    name: "Copper Compression Knee Sleeve",
-    price: "From $20",
+    name: "Copper Fit Freedom Knee Compression Sleeve",
+    price: "$11.99",
     verdict: "Best knee support for Pilates",
     description:
       "A knee compression sleeve worn during Pilates provides warmth, proprioceptive support, and mild compression that can reduce pain and improve joint awareness for practitioners with knee osteoarthritis or inflammatory arthritis. The warmth effect is particularly relevant in studio environments where lying on a cool reformer can stiffen arthritic joints mid-session. Copper Compression's sleeve design is low-profile enough to wear under standard Pilates leggings without bulk, and the graduated compression maintains position through a full class without sliding down. The sleeve is most effective as a complement to appropriate exercise modification — not as a substitute for informing an instructor about joint limitations.",
-    affiliateUrl: "https://www.amazon.com/s?k=copper+compression+knee+sleeve+arthritis&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07NQF4HNV?tag=pilatescollective-20",
     tag: "Best for Knee Arthritis",
   },
   {

@@ -62,12 +62,12 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Honeywell HT-900 TurboForce Fan",
-    price: "From $19",
+    name: "Honeywell HT-900 TurboForce Fan (2-Pack)",
+    price: "$72.85",
     verdict: "Best budget directional fan",
     description:
       "The Honeywell HT-900 is a compact, powerful directional fan that clips or stands and can be positioned to blow directly at the face and chest — the most targeted cooling approach for spin bike riders who want a stream of air at a fixed position during stationary cycling. The three-speed motor produces strong airflow for its size, and the wide-angle pivot allows adjustment from floor placement up to handlebar height without a stand. At under $20, it's the lowest-risk trial of whether desk-position fan cooling improves your spin sessions before investing in a floor fan or tower unit.",
-    affiliateUrl: "https://www.amazon.com/s?k=honeywell+ht-900+turboforce+fan&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07Z5GBRMT?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
   {

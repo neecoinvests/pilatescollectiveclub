@@ -172,33 +172,33 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Required at every Las Vegas studio. ToeSox and Tavi Noir both perform well on reformer footbars — worth owning before your first class.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every Las Vegas studio. ToeSox and Tavi Noir both perform well on reformer footbars — worth owning before your first class.",
+    price: "$30.00",
+    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "For mat classes at The Pilates Room and Henderson Pilates & Wellness — slightly thicker than a yoga mat for joint comfort on hard studio floors.",
-    price: "From $18",
-    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at The Pilates Room and Henderson Pilates & Wellness — slightly thicker than a yoga mat for joint comfort on hard studio floors.",
+    price: "$144.00",
+    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Used in classical mat sequences — a worthwhile investment if you're practicing at The Pilates Room Las Vegas or following a classical program at home.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Used in classical mat sequences — a worthwhile investment if you're practicing at The Pilates Room Las Vegas or following a classical program at home.",
+    price: "$35.00",
+    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Fabric Resistance Bands",
-    note: "Versatile for warm-ups, hip activation, and home practice between studio sessions — especially useful for supplementing the therapeutic work at Henderson Pilates & Wellness.",
-    price: "From $10",
-    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip activation, and home practice between studio sessions — especially useful for supplementing the therapeutic work at Henderson Pilates & Wellness.",
+    price: "$29.00",
+    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
-    note: "Ideal for thoracic mobility and myofascial release — a natural complement to the therapeutic programming at Henderson Pilates & Wellness and Spring Valley Pilates.",
-    price: "From $13",
-    url: "https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Ideal for thoracic mobility and myofascial release — a natural complement to the therapeutic programming at Henderson Pilates & Wellness and Spring Valley Pilates.",
+    price: "$62.99",
+    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 

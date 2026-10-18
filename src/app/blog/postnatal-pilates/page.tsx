@@ -61,12 +61,12 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Lacrosse Ball Massage Set",
-    price: "From $12",
+    name: "Tune Up Fitness Therapy Balls (in Tote)",
+    price: "$19.99",
     verdict: "Best recovery tool for tight postpartum muscles",
     description:
       "Targeted soft-tissue release using a lacrosse or massage ball is one of the most effective self-care tools for postnatal practitioners dealing with the shoulder and upper back tension that accumulates from feeding, carrying, and sleep positions. Rolling the thoracic spine, releasing the pectorals against a wall, and releasing the glutes in a figure-four position can meaningfully improve the mobility available for Pilates exercises. The dense rubber lacrosse ball provides more specific pressure than a foam roller, allowing targeted release of individual muscles rather than broad compression. A set of two allows bilateral hip and glute release simultaneously.",
-    affiliateUrl: "https://www.amazon.com/s?k=lacrosse+ball+massage+set+2+pack&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00ERFBX9G?tag=pilatescollective-20",
     tag: "Best Recovery Tool",
   },
   {

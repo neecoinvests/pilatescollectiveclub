@@ -127,7 +127,7 @@ const PRODUCTS = [
   { name: "ToeSox Grip Socks", description: "Non-negotiable for reformer class — grip socks prevent sliding on the footbar and carriage. Individual toe pockets improve proprioception and are required by most studios for hygiene.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "Resistance bands allow beginners to practise reformer-style movements at home between classes. Many foundational reformer exercises can be replicated with bands during the early weeks of practice.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Introduced in most beginner reformer progressions by the third or fourth session. Having your own allows home reinforcement of the inner thigh and arm activation patterns learned in class.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "Pilates Studio Bag", description: "A dedicated bag for grip socks, mat, water, and a change of clothes keeps studio logistics simple — removing friction from the habit of getting to class consistently.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+studio+bag+tote&tag=pilatescollective-20" },
+  { name: "Under Armour Studio Lite Tote", description: "A dedicated bag for grip socks, mat, water, and a change of clothes keeps studio logistics simple — removing friction from the habit of getting to class consistently.", price: "$39.36", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
 ];
 
 export default function BeginnerGuideReformerPage() {

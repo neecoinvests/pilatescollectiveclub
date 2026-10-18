@@ -207,7 +207,7 @@ export default function BestPilatesRetreatsEuropePage() {
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
               
-                <a href="https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                <a href="https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Grip Socks</h3>
@@ -219,7 +219,7 @@ export default function BestPilatesRetreatsEuropePage() {
                     </div>
                   </div>
                 </a>
-                <a href="https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                <a href="https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Mat (6mm)</h3>
@@ -231,7 +231,7 @@ export default function BestPilatesRetreatsEuropePage() {
                     </div>
                   </div>
                 </a>
-                <a href="https://www.amazon.com/s?k=pilates+yoga+mat+bag+carrier&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                <a href="https://www.amazon.com/dp/B079W416C6?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Mat Bag</h3>
@@ -255,7 +255,7 @@ export default function BestPilatesRetreatsEuropePage() {
                     </div>
                   </div>
                 </a>
-                <a href="https://www.amazon.com/s?k=high+density+foam+roller+pilates&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
+                <a href="https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Foam Roller</h3>

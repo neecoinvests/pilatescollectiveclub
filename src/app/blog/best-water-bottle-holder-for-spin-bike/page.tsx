@@ -55,13 +55,13 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Peloton Original Water Bottle Cage",
-    price: "$29",
+    name: "TrubliFit XL Bottle Holder for Peloton",
+    price: "$49.99",
     verdict: "Best for Peloton",
     description:
       "Designed to fit Peloton's proprietary frame rails exactly, this is the only holder that attaches without any adapters or modification. The spring-loaded cage grips bottles from 20 oz to 32 oz securely even during climbs and sprints. If you have a Peloton Bike or Bike+, start here.",
     affiliateUrl:
-      "https://www.amazon.com/s?k=peloton+water+bottle+cage+holder&tag=pilatescollective-20",
+      "https://www.amazon.com/dp/B0CT3TTVJH?tag=pilatescollective-20",
     tag: "Peloton Pick",
   },
   {
@@ -89,12 +89,12 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "CyclingDeal Water Bottle Cage with Handlebar Mount",
-    price: "$14",
+    price: "$9.98",
     verdict: "Best Handlebar Mount",
     description:
       "For spin bikes with no frame cage mounts, this clamp-on handlebar adapter solves everything. The adjustable clamp fits handlebars from 22 mm to 32 mm and positions the bottle within easy reach during your ride. Budget-friendly and easy to install without tools.",
     affiliateUrl:
-      "https://www.amazon.com/s?k=spin+bike+handlebar+water+bottle+cage+mount&tag=pilatescollective-20",
+      "https://www.amazon.com/dp/B0CYBY862S?tag=pilatescollective-20",
     tag: "No-Mount Solution",
   },
   {

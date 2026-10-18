@@ -124,33 +124,33 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Required at every reformer studio in Seattle. Full-toe grip socks are standard.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+grip+socks+toesox&tag=pilatescollective-20",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every reformer studio in Seattle. Full-toe grip socks are standard.",
+    price: "$30.00",
+    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat",
-    note: "Useful for mat classes and home practice. A 6mm closed-cell mat handles Seattle's climate well.",
-    price: "From $18",
-    url: "https://www.amazon.com/s?k=pilates+mat+6mm+non+slip&tag=pilatescollective-20",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). Useful for mat classes and home practice. A 6mm closed-cell mat handles Seattle's climate well.",
+    price: "$144.00",
+    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Resistance Bands Set",
-    note: "Extend your studio work at home. Fabric-loop bands in three resistance levels are the versatile choice.",
-    price: "From $10",
-    url: "https://www.amazon.com/s?k=fabric+resistance+bands+set+pilates&tag=pilatescollective-20",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Extend your studio work at home. Fabric-loop bands in three resistance levels are the versatile choice.",
+    price: "$29.00",
+    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Many Seattle classical studios incorporate the magic circle — useful for at-home reinforcement.",
-    price: "From $15",
-    url: "https://www.amazon.com/s?k=pilates+magic+circle+resistance+ring&tag=pilatescollective-20",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many Seattle classical studios incorporate the magic circle — useful for at-home reinforcement.",
+    price: "$35.00",
+    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Home Pilates Reformer",
-    note: "A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "From $285",
-    url: "https://www.amazon.com/s?k=home+pilates+reformer+aeropilates+align&tag=pilatescollective-20",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    price: "$699.98",
+    url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
 ];
 

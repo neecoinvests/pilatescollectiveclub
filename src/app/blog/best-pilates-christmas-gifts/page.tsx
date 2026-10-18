@@ -47,11 +47,11 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Theragun Elite (4th Generation)",
-    price: "$299",
+    name: "Theragun Elite (5th Gen)",
+    price: "$399.00",
     verdict: "Best Premium Christmas Gift",
     description: "The Theragun Elite is the Christmas gift that serious practitioners quietly wish for and rarely buy themselves. It delivers percussive therapy at professional depth — 16mm amplitude, five attachments for every muscle group, 120-minute battery — and is meaningfully quieter than previous Theragun models. For someone who trains seriously, this is the recovery upgrade that changes their post-class routine. Comes in a clean retail package that's as giftable as any tech product. The kind of gift that gets brought up long after Christmas.",
-    affiliateUrl: "https://www.amazon.com/s?k=theragun+elite+4th+generation+christmas+gift&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0C42NTLYC?tag=pilatescollective-20",
   },
   {
     rank: "03",
@@ -98,7 +98,7 @@ const CRITERIA = [
   },
   {
     heading: "Budget by relationship",
-    body: "For a close partner or parent: the Lululemon Align ($98), Manduka PRO ($144), or Theragun Elite ($299) are appropriate. For a friend or colleague: Lululemon Belt Bag ($48) or ToeSox 3-pack ($42). Secret Santa under $30: ToeSox single pair ($18) is the universally safe choice.",
+    body: "For a close partner or parent: the Lululemon Align ($98), Manduka PRO ($144), or Theragun Elite ($399) are appropriate. For a friend or colleague: Lululemon Belt Bag ($48) or ToeSox 3-pack ($42). Secret Santa under $30: ToeSox single pair ($18) is the universally safe choice.",
   },
   {
     heading: "Clothing needs correct sizing",
@@ -109,7 +109,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is the best pilates Christmas gift for 2026?",
-    a: "The best pilates Christmas gift for 2026 is the Lululemon Align High-Rise Legging ($98) — the studio standard that nearly every practitioner wants and wears. For a premium Christmas gift, the Theragun Elite ($299) or Manduka PRO mat ($144) are outstanding investments she'll use every day. All three are available on Amazon with fast holiday shipping.",
+    a: "The best pilates Christmas gift for 2026 is the Lululemon Align High-Rise Legging ($98) — the studio standard that nearly every practitioner wants and wears. For a premium Christmas gift, the Theragun Elite ($399) or Manduka PRO mat ($144) are outstanding investments she'll use every day. All three are available on Amazon with fast holiday shipping.",
   },
   {
     q: "What is a good pilates Secret Santa gift?",
@@ -182,7 +182,7 @@ export default function Page() {
             Best Pilates Christmas Gifts
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            Christmas is the one moment in the year when a pilates practitioner might actually receive the Lululemon leggings, the Manduka mat, or the Theragun she's been quietly wanting for months. This guide covers every price tier — from a $42 stocking stuffer to a $299 premium gift — with picks that land because they're exactly what practitioners want, chosen from the brands they actually trust. Order early: the best colourways sell out before December.
+            Christmas is the one moment in the year when a pilates practitioner might actually receive the Lululemon leggings, the Manduka mat, or the Theragun she's been quietly wanting for months. This guide covers every price tier — from a $42 stocking stuffer to a $399 premium gift — with picks that land because they're exactly what practitioners want, chosen from the brands they actually trust. Order early: the best colourways sell out before December.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Every budget covered</span>
