@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -176,7 +177,6 @@ export default function BestLagreeCarriageHandlesPage() {
               Lagree Handles<br /><span style={{ color: "#8b4a31" }}>& Grip Aids (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Most links on this page go to Amazon, where we earn a small commission on qualifying purchases. One link goes directly to lagreefitness.com because Megaformer parts are not sold on Amazon. Amazon prices were verified on October 2, 2026 and can change.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ ...bodyStyle, fontWeight: 300 }}>
               Search for &quot;Lagree handles&quot; and you&apos;ll find plenty of listings that hint at Megaformer compatibility. Very few of them are what they seem. Here is the honest picture: the handles on a studio Megaformer are original parts you get from Lagree Fitness. The one genuine Lagree handle product on Amazon is the Micro Handlebars, for Lagree&apos;s compact home machine. Everything else worth buying is a grip aid, something that helps your hands hold the handles you already have.
@@ -224,6 +224,7 @@ export default function BestLagreeCarriageHandlesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Most links on this page go to Amazon, where we earn a small commission on qualifying purchases. One link goes directly to lagreefitness.com because Megaformer parts are not sold on Amazon. Amazon prices were verified on October 2, 2026 and can change.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Picks · Handles, Grip Aids & Wrist Support</p>

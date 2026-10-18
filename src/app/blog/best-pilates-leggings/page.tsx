@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -180,7 +181,6 @@ export default function BestPilatesLeggingsPage() {
               Best Pilates Leggings<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Picks, Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: sans }}>Prices checked {CHECKED} · 9 min read</p>
-            <p className="text-xs mb-6" style={{ color: "#86736d", fontFamily: sans }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={'High rise, flat waistband, 25" inseam'} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: sans, fontWeight: 300 }}>
@@ -220,6 +220,7 @@ export default function BestPilatesLeggingsPage() {
               ))}
               <p className="px-6 py-3 text-xs" style={{ color: "#86736d", fontFamily: sans, backgroundColor: "#ffffff", borderTop: "1px solid rgba(217,194,186,0.25)" }}>Amazon prices checked {CHECKED} for the size and colour linked; prices vary by size and colour.</p>
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: serif }}>What to look for in Pilates leggings</h2>

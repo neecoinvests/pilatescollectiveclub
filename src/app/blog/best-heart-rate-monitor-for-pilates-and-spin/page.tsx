@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -147,7 +148,6 @@ export default function BestHeartRateMonitorPage() {
               Best Heart Rate Monitor<br /><span style={{ color: "#8b4a31" }}>for Pilates & Spin (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree&apos;s slow, sustained tension and spin&apos;s rapid interval bursts both benefit from knowing your heart rate zone in real time, and a dedicated chest strap reads it more reliably than a wrist wearable during fast-changing effort. This guide compares five chest strap monitors, from a budget-friendly starter strap through Polar&apos;s mid-tier and premium models, plus options built around long battery life and specific app compatibility.
@@ -184,6 +184,7 @@ export default function BestHeartRateMonitorPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Chest Straps · Ranked</p>

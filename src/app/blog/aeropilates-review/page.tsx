@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -124,7 +125,6 @@ export default function AeroPilatesReviewPage() {
               AeroPilates Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Budget Home Reformer, Honestly Assessed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               AeroPilates is a genuine, real Amazon brand — three of its models are live listings we&apos;ve verified directly, from $359.00 to $1,329.99. It uses elastic cord resistance rather than the coil-spring system found in studio machines, which is not a minor distinction. This review is honest about what that difference means, which of the real models are worth buying, and who this machine genuinely suits.
@@ -152,6 +152,8 @@ export default function AeroPilatesReviewPage() {
           <div className="max-w-3xl mx-auto">
 
             {/* Brand overview */}
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What AeroPilates actually is (and what it isn&apos;t)</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

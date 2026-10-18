@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -8,7 +9,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best High-Waist Pilates Leggings (2026)",
-  description: "The best high-waist leggings for Pilates — tested for waistband hold, squat-proof fabric, and reformer performance. Lululemon Align, Alo Airbrush, CRZ YOGA, and more.",
+  description: "The best high-waist leggings for Pilates — compared on waistband hold, squat-proof fabric, and reformer performance. Lululemon Align, Alo Airbrush, CRZ YOGA, and more.",
   keywords: [
     "best high waist pilates leggings",
     "high waist leggings pilates",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best High-Waist Pilates Leggings (2026)",
-    description: "Tested for waistband hold, squat-proof opacity, and reformer performance. Our top high-rise legging picks for Pilates.",
+    description: "Compared on waistband hold, squat-proof opacity, and reformer performance. Our top high-rise legging picks for Pilates.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-high-waist-pilates-leggings",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best High-Waist Pilates Leggings 2026" }],
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best High-Waist Pilates Leggings (2026)",
-    description: "Tested for waistband hold, squat-proof opacity, and reformer performance. Our top high-rise legging picks.",
+    description: "Compared on waistband hold, squat-proof opacity, and reformer performance. Our top high-rise legging picks.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-high-waist-pilates-leggings" },
@@ -99,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best High-Waist Pilates Leggings (2026)",
-      description: "The best high-waist leggings for Pilates — tested for waistband hold, squat-proof fabric, and reformer performance.",
+      description: "The best high-waist leggings for Pilates — compared on waistband hold, squat-proof fabric, and reformer performance.",
       url: "https://pilatescollectiveclub.com/blog/best-high-waist-pilates-leggings",
       datePublished: "2026-07-06",
       dateModified: "2026-07-06",
@@ -152,9 +153,6 @@ export default function BestHighWaistPilatesLeggingsPage() {
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>
               High-waist leggings are the near-universal choice for serious Pilates practitioners. They stay put through roll-ups, swan, and reformer footwork sequences without adjustment — and the wide waistband provides a subtle proprioceptive cue for lumbar awareness. These are the six worth investing in.
             </p>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.7, borderLeft: "2px solid #d4c5b5", paddingLeft: "16px" }}>
-              This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.
-            </p>
           </div>
         </section>
 
@@ -180,6 +178,7 @@ export default function BestHighWaistPilatesLeggingsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.</AffiliateNote>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "48px" }}>
               {PRODUCTS.map((p) => (

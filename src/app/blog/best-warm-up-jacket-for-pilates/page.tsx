@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   keywords: ["best warm up jacket pilates", "pilates warm up jacket 2026", "alo yoga define jacket pilates", "lululemon define jacket pilates", "beyond yoga jacket pilates", "studio layer jacket pilates", "pilates cover up jacket", "reformer pilates warm up layer"],
   openGraph: {
     title: "Best Warm-Up Jacket for Pilates (2026)",
-    description: "Studio layers for Pilates — worn on the reformer, between classes, and in transit. Tested and ranked.",
+    description: "Studio layers for Pilates — worn on the reformer, between classes, and in transit. Compared and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-warm-up-jacket-for-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", width: 1200, height: 630, alt: "Best Warm-Up Jacket for Pilates — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Warm-Up Jacket for Pilates (2026)",
-    description: "Studio layers for Pilates warm-up and transit — tested and ranked.",
+    description: "Studio layers for Pilates warm-up and transit — compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-warm-up-jacket-for-pilates" },
@@ -157,7 +158,6 @@ export default function BestWarmUpJacketForPilatesPage() {
               Best Warm-Up Jacket<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 7 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A Pilates warm-up jacket is a specific garment: fitted enough that alignment is visible during early exercises, stretchy enough to move through overhead reach and lateral work, removable quickly mid-session without disrupting a reformer carriage position, and polished enough for the boutique studio environment. These six options — from the Alo Accolade Bomber to the Splits59 Lagree-specific jacket — cover every material, cut, and price point across the studio wardrobe.
@@ -193,9 +193,10 @@ export default function BestWarmUpJacketForPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Jackets · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Jackets · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -229,7 +230,7 @@ export default function BestWarmUpJacketForPilatesPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to Pilates clothing — what instructors see, what restricts movement, and what the studio expects." href="/blog/what-to-wear-to-pilates" category="Style Guide" readTime="8 min read" date="March 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="The leggings that make sense on a reformer — grip, compression, and coverage tested across every brand." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="The leggings that make sense on a reformer — grip, compression, and coverage compared across every brand." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>
           </div>

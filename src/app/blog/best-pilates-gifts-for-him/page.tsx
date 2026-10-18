@@ -127,7 +127,7 @@ const FAQ = [
 
 const RELATED = [
   { title: "Best Pilates Equipment for Men", excerpt: "The complete guide to pilates gear for male practitioners.", href: "/blog/best-pilates-equipment-for-men", category: "Equipment", readTime: "11 min", imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" },
-  { title: "Best Pilates Clothes for Men", excerpt: "The best activewear for men doing pilates — tested and ranked.", href: "/blog/best-pilates-clothes-for-men", category: "Clothing", readTime: "9 min", imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" },
+  { title: "Best Pilates Clothes for Men", excerpt: "The best activewear for men doing pilates — compared and ranked.", href: "/blog/best-pilates-clothes-for-men", category: "Clothing", readTime: "9 min", imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" },
   { title: "Best Luxury Pilates Gifts", excerpt: "Investment-grade gifts for the serious practitioner.", href: "/blog/best-luxury-pilates-gifts", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-studio-bench-towels.png" },
 ];
 

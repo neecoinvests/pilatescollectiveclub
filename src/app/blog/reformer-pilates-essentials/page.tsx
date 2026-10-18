@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -483,9 +484,6 @@ export default function ReformerPilatesEssentialsPage() {
               Reformer Pilates Essentials<br /><span style={{ color: "#8b4a31" }}>(2026): What to Bring &amp; Wear</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: sans }}>Updated September 2026 · 12 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: sans }}>
-              *Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) are not sold on Amazon and link directly to the brand&apos;s own website; those are marked in the product description. Prices were verified on 27 September 2026 and can change.
-            </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: sans, fontWeight: 300 }}>
               A reformer class asks more of your kit than a mat class does. The carriage moves, your feet press a metal footbar, your legs go up into straps, and you spend half the class lying on your back. The wrong socks slip, loose shorts catch, and a back clasp digs into your spine on the headrest.
@@ -530,6 +528,7 @@ export default function ReformerPilatesEssentialsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) are not sold on Amazon and link directly to the brand&apos;s own website; those are marked in the product description. Prices were verified on 27 September 2026 and can change.</AffiliateNote>
 
             {/* The short answer */}
             <div className="mb-16">

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -126,7 +127,6 @@ export default function PilatesForFlatStomachPage() {
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
 
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
 
             <section className="pb-20">
               <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -171,6 +171,7 @@ export default function PilatesForFlatStomachPage() {
 
               <div className="mb-10 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment recommendations for core training at home</h2>
+                <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For home abdominal work, a{" "}
                   quality firm mat{" "}

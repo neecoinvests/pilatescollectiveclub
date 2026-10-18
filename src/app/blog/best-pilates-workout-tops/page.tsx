@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -12,8 +13,8 @@ export const metadata: Metadata = {
   description: "The best tops for Pilates class — fitted tanks, bra tops, and long-sleeve options reviewed for reformer coverage, stretch quality, and non-bunching fit.",
   keywords: ["best pilates tops", "pilates tank top 2026", "best workout top for pilates", "pilates bra top review", "lululemon tank pilates", "alo yoga top pilates", "pilates fitted top", "best top for reformer pilates class"],
   openGraph: {
-    title: "Best Pilates Tops & Sports Bras (2026): Tested for Studio Wear",
-    description: "The best workout tops and sports bras for Pilates — tested for coverage, instructor visibility, and reformer comfort.",
+    title: "Best Pilates Tops & Sports Bras (2026): Picks for Studio Wear",
+    description: "The best workout tops and sports bras for Pilates — compared on coverage, instructor visibility, and reformer comfort.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-workout-tops",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Workout Tops — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Tops & Sports Bras (2026)",
-    description: "The best workout tops and sports bras for Pilates — tested and ranked.",
+    description: "The best workout tops and sports bras for Pilates — compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
   alternates: {
@@ -88,8 +89,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Tops & Sports Bras (2026): Tested for Studio Wear",
-      "description": "The best workout tops and sports bras for Pilates in 2026 — tested for coverage, visibility, and reformer comfort.",
+      "headline": "Best Pilates Tops & Sports Bras (2026): Picks for Studio Wear",
+      "description": "The best workout tops and sports bras for Pilates in 2026 — compared on coverage, visibility, and reformer comfort.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-workout-tops",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
@@ -132,10 +133,9 @@ export default function BestPilatesWorkoutTopsPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Apparel</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Tops &amp; Sports Bras<br /><span style={{ color: "#8b4a31" }}>(2026): Studio-Tested</span>
+              Best Pilates Tops &amp; Sports Bras<br /><span style={{ color: "#8b4a31" }}>(2026): Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Pilates tops need to do something most activewear tops don&apos;t: stay in place and provide clean lines for instructor observation across an enormous range of body positions — lying supine, prone, side-lying, seated, standing, and everything in between. A top that rides up during the hundred, bunches during shoulder bridge, or restricts shoulder mobility during long stretch makes the class both uncomfortable and less effective. These five options have been selected because they actually solve these problems.
@@ -146,13 +146,15 @@ export default function BestPilatesWorkoutTopsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Best Pilates workout tops and sports bras for studio and reformer — Lululemon, Alo, and Varley tested" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Best Pilates workout tops and sports bras for studio and reformer — Lululemon, Alo, and Varley compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a Pilates top different</h2>
@@ -172,7 +174,7 @@ export default function BestPilatesWorkoutTopsPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Tops & Bras · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Tops & Bras · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -225,7 +227,7 @@ export default function BestPilatesWorkoutTopsPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Leggings" excerpt="From Lululemon Align to CRZ YOGA — tested for opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings" excerpt="From Lululemon Align to CRZ YOGA — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>
           </div>

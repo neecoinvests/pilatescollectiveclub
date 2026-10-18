@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -618,7 +619,6 @@ export default function LagreeEssentialsPage() {
               Lagree Essentials<br /><span style={{ color: "#8b4a31" }}>(2026): What to Wear, Bring &amp; Buy</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One item (the Lagree Megaformer) is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree looks like reformer Pilates from the doorway, but it trains differently: slow, controlled, continuous movement on a moving carriage, with time under tension until your muscles shake. That changes what you should wear and bring. This is our master list of Lagree essentials, with a best, budget and (where it is worth it) splurge pick in every category, from the grip socks in your bag to The Micro, Lagree Fitness&apos;s own home machine.
@@ -678,6 +678,7 @@ export default function LagreeEssentialsPage() {
                 );
               })}
             </div>
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One item (the Lagree Megaformer) is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</AffiliateNote>
 
             {/* Lagree-specific advice */}
             <div className="mb-16">

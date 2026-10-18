@@ -7,7 +7,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Brand Guides — Activewear & Equipment Reviews",
-  description: "Honest brand guides for every major Pilates activewear and equipment brand. Lululemon, Alo, Varley, Splits59, Manduka, Gymshark — tested by practitioners, not marketers.",
+  description: "Honest brand guides for every major Pilates activewear and equipment brand. Lululemon, Alo, Varley, Splits59, Manduka, Gymshark, chosen for practitioners, not marketers.",
   keywords: ["pilates activewear brands", "best pilates brand", "lululemon pilates review", "alo yoga pilates review", "varley pilates review", "splits59 pilates", "manduka pilates mat", "gymshark pilates", "sweaty betty pilates", "pilates brand comparison", "best pilates clothes", "pilates equipment brands"],
   openGraph: {
     title: "Pilates Brand Guides — Activewear & Equipment Reviews",
@@ -304,7 +304,7 @@ export default function BrandsPage() {
             </h1>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              We have tested every major Pilates activewear and equipment brand so you can buy with confidence. Each guide covers the best pieces, what to avoid, sizing notes, and our honest verdict on whether the brand is worth your money.
+              We cover every major Pilates activewear and equipment brand so you can buy with confidence. Each guide covers the best pieces, what to avoid, sizing notes, and our honest verdict on whether the brand is worth your money.
             </p>
           </div>
         </section>

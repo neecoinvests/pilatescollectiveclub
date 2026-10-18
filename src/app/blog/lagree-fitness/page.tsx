@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -305,7 +306,6 @@ export default function LagreeFitnessPage() {
               Lagree Fitness<br /><span style={{ color: "#8b4a31" }}>(2026): The Micro, Megaformer &amp; What to Buy</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree Fitness is the company behind the Lagree method and the Megaformer, the spring-loaded machine you shake on in Lagree studios. What most people do not realise is that you can buy genuine Lagree-branded equipment for home: The Micro, Lagree Fitness&apos;s compact home machine, and its accessories are sold by Lagree Fitness through its own Amazon store. This guide covers who the brand is, how the method works, the machine family, and exactly what a full home setup costs.
@@ -364,6 +364,7 @@ export default function LagreeFitnessPage() {
                 <span>{fmt(SETUP_TOTAL)}</span>
               </div>
             </div>
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</AffiliateNote>
 
             {/* What Lagree Fitness is */}
             <div className="mb-16">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -157,7 +158,6 @@ export default function BestPaddedCyclingShortsPage() {
               Best Padded Cycling<br /><span style={{ color: "#8b4a31" }}>Shorts for Spin (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A narrow spin saddle and 45 minutes of seated and standing intervals will find every pressure point a generic athletic short can't address. Padded cycling shorts — built around a chamois insert and compression fit — are the single most impactful comfort upgrade for regular spin riders. This guide compares the six best women's and men's options for 2026.
@@ -194,6 +194,7 @@ export default function BestPaddedCyclingShortsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Shorts · Women's & Men's</p>

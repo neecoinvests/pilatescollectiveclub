@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -189,7 +190,6 @@ export default function BestGripSocksPage() {
               Best Pilates Grip Socks<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Verified Picks</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 18, 2026 · 6 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Full-toe 2-pack from the original studio grip-sock brand" url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -228,6 +228,7 @@ export default function BestGripSocksPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <UpsellCTA
               eyebrow="Complete Your Studio Kit"

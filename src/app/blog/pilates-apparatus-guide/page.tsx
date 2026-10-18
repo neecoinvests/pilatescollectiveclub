@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -436,6 +437,8 @@ export default function PilatesApparatusGuidePage() {
             </div>
 
             {/* Accessories to start with */}
+            <AffiliateNote />
+
             <div style={{ marginBottom: "64px" }}>
               <p style={{ fontSize: "10px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", marginBottom: "16px" }}>
                 Verified listings

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -175,7 +176,6 @@ export default function BestPilatesSetsPage() {
               Best Pilates Sets<br /><span style={{ color: "#8b4a31" }}>(2026): Ranked & Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A matching set removes a decision from your morning — and in Pilates, where mental clarity and presence matter, that simplicity has real value. Beyond the aesthetic appeal, coordinated two-piece sets are designed as systems: the fabric weight, compression level, and waistband height are engineered to work together. These six sets represent the best of what the Pilates apparel market currently offers, from investment-grade premium options to exceptional value alternatives.
@@ -212,6 +212,7 @@ export default function BestPilatesSetsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>7 Sets · Compared</p>

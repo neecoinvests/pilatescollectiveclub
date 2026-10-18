@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   keywords: ["best pilates mat tote bag", "pilates mat bag 2026", "yoga mat tote bag", "best mat carrier pilates", "pilates mat carry bag women", "mat bag for pilates", "best mat tote 2026", "pilates mat carry tote"],
   openGraph: {
     title: "Best Pilates Mat Tote Bags (2026)",
-    description: "The best mat tote bags for Pilates — tested for mat fit, capacity, and everyday carry.",
+    description: "The best mat tote bags for Pilates — compared on mat fit, capacity, and everyday carry.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-mat-tote",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Mat Tote Bags — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Mat Tote Bags (2026)",
-    description: "The best mat tote bags for Pilates — tested and ranked.",
+    description: "The best mat tote bags for Pilates — compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-mat-tote" },
@@ -157,7 +158,6 @@ export default function BestPilatesMatTotePage() {
               Best Pilates Mat Tote Bags<br /><span style={{ color: "#8b4a31" }}>(2026): Carry in Style</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 6 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Carrying a Pilates mat without a proper bag is a friction tax on every class. The mat slips, the strap cuts into your shoulder, and you arrive feeling like you have already been to the gym before the class starts. A good mat tote eliminates that friction entirely — the mat is secured, your hands are free, and you arrive composed. These six bags cover every scenario from the minimalist open carrier to the full studio tote with integrated mat straps, all chosen for Pilates-specific use.
@@ -194,9 +194,10 @@ export default function BestPilatesMatTotePage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Mat Bags · Pilates-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Mat Bags · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

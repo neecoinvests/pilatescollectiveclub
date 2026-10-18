@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -139,7 +140,6 @@ export default function BlogEquipmentPage() {
               Updated May 2026 · 10 min read
             </p>
 
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
 
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
 
@@ -170,6 +170,8 @@ export default function BlogEquipmentPage() {
 
             {/* Section 1 — Mat */}
             <section>
+              <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
               <h2
                 className="text-3xl font-semibold mb-6"
                 style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}

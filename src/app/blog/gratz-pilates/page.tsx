@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -157,9 +158,6 @@ export default function GratzPilatesPage() {
               Gratz Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>The Classical Apparatus Standard, Reviewed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-              *Gratz apparatus is sold directly through gratzpilates.com and certified dealers — not on Amazon. The apparatus links below go to gratzpilates.com. For accessories, we could not find genuine Gratz leather straps or classical-spec springs on Amazon, so those two items link instead to real, currently-sold (but non-Gratz) Amazon alternatives — clearly labelled as such. We earn a small commission on qualifying Amazon purchases.
-            </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Gratz Industries has manufactured Pilates apparatus since the 1920s — building the original equipment for Joseph Pilates&apos; studio at 939 8th Avenue in New York City. Today, trading as Gratz Pilates, they remain the only production manufacturer that holds an unbroken line to those original specifications. Every piece of apparatus they make is handcrafted in New York, using the same spring tensions, dimensions, and material choices that the classical repertoire was built around. This guide is for classical practitioners, studio owners, and serious enthusiasts trying to understand whether the Gratz premium is warranted — and exactly what they are buying.
@@ -187,6 +185,8 @@ export default function GratzPilatesPage() {
           <div className="max-w-3xl mx-auto">
 
             {/* Brand overview */}
+            <AffiliateNote>Gratz apparatus is sold directly through gratzpilates.com and certified dealers — not on Amazon. The apparatus links below go to gratzpilates.com. For accessories, we could not find genuine Gratz leather straps or classical-spec springs on Amazon, so those two items link instead to real, currently-sold (but non-Gratz) Amazon alternatives — clearly labelled as such. We earn a small commission on qualifying Amazon purchases.</AffiliateNote>
+
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
                 The manufacturer that built equipment for Joseph Pilates himself

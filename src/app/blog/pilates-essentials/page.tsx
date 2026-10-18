@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -698,7 +699,6 @@ export default function PilatesEssentialsPage() {
               Pilates Essentials<br /><span style={{ color: "#8b4a31" }}>(2026): Every Must-Have in One List</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 12 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One pick (the Alo Yoga Airbrush Legging) is not sold on Amazon and links directly to aloyoga.com; it is labelled as such.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Pilates needs less gear than most workouts, but the few things you do need make a real difference: socks that grip, leggings that stay put, a mat thick enough for your spine. This is our master list of Pilates essentials, with a best, budget and (where it is worth it) splurge pick in every category, organised from what you wear to what you might one day put in your living room.
@@ -755,6 +755,7 @@ export default function PilatesEssentialsPage() {
                 );
               })}
             </div>
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One pick (the Alo Yoga Airbrush Legging) is not sold on Amazon and links directly to aloyoga.com; it is labelled as such.</AffiliateNote>
 
             {/* How to use this list */}
             <div className="mb-16">

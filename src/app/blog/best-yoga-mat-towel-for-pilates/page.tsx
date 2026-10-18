@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -8,12 +9,12 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Yoga Mat Towel for Pilates (2026): Tested & Ranked",
+  title: "Best Yoga Mat Towel for Pilates (2026): Compared & Ranked",
   description: "The best yoga mat towels for Pilates — Manduka eQua, Liforme, Gaiam, and more compared for grip, sweat absorption, and mat coverage during hot Pilates and Lagree classes.",
   keywords: ["best yoga mat towel pilates", "pilates mat towel 2026", "manduka equa towel pilates", "hot pilates mat towel", "lagree sweat towel mat", "non slip mat towel pilates", "yoga towel pilates review", "best mat towel for sweaty practice"],
   openGraph: {
     title: "Best Yoga Mat Towel for Pilates (2026)",
-    description: "Mat towels for grip, sweat absorption, and hygiene during hot Pilates and Lagree sessions — tested and ranked.",
+    description: "Mat towels for grip, sweat absorption, and hygiene during hot Pilates and Lagree sessions — compared and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-yoga-mat-towel-for-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Best Yoga Mat Towel for Pilates — Pilates Collective Club" }],
@@ -96,8 +97,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Yoga Mat Towel for Pilates (2026): Tested & Ranked",
-      "description": "Mat towels for grip, sweat absorption, and hygiene during Pilates and Lagree sessions — tested and ranked.",
+      "headline": "Best Yoga Mat Towel for Pilates (2026): Compared & Ranked",
+      "description": "Mat towels for grip, sweat absorption, and hygiene during Pilates and Lagree sessions — compared and ranked.",
       "url": "https://pilatescollectiveclub.com/blog/best-yoga-mat-towel-for-pilates",
       "datePublished": "2026-06-28",
       "dateModified": "2026-06-28",
@@ -157,7 +158,6 @@ export default function BestYogaMatTowelForPilatesPage() {
               Best Yoga Mat Towel<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 6 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A mat towel serves two functions in a Pilates context: hygiene and grip. For standard temperature studios the hygiene function is the primary use case — a personal towel layer between skin and a shared or well-used mat. For heated Pilates and Lagree sessions, grip becomes equally important as perspiration reduces the mat&apos;s natural friction. These six towels have been selected for how well they perform at both functions, with specific attention to grip behaviour under moisture — the condition where most mat towels fail.
@@ -193,9 +193,10 @@ export default function BestYogaMatTowelForPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Towels · Grip-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Towels · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

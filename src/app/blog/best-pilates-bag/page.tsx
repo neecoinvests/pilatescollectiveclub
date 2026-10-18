@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -177,7 +178,6 @@ export default function BestPilatesBagPage() {
               Best Pilates Bags<br /><span style={{ color: "#8b4a31" }}>(2026): Studio Totes Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 7 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A good studio bag is one you barely notice — it holds everything, stays organised, and transitions from studio to street without announcing itself as gym kit. A bad one means tangled grip socks, a wet towel against clean clothes, and a ten-second locker-room excavation to find your card. These six bags have been selected for Pilates-specific use: the right capacity for a studio kit, the right organisation for changing quickly, and the durability to survive multiple sessions per week across years of practice.
@@ -214,6 +214,7 @@ export default function BestPilatesBagPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>8 Bags · Compared</p>

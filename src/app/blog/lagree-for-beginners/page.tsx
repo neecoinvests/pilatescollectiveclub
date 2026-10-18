@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -477,7 +478,6 @@ export default function LagreeForBeginnersPage() {
               Lagree for Beginners<br /><span style={{ color: "#8b4a31" }}>(2026): Your First-Class Guide</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon; where we mention it, or where The Micro may be out of stock, we point you to lagreefitness.com, which is not an affiliate link.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Your first Lagree class will probably be one of the hardest slow workouts you have ever done. That is not a warning to stay away — it is the whole point of the method. This guide explains what Lagree is, what a class actually feels like, what happens at the studio, the mistakes almost every beginner makes, and how often to go. At the end there is a short, honest kit list, with a total, so you can turn up prepared without buying things you do not need.
@@ -530,6 +530,7 @@ export default function LagreeForBeginnersPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon; where we mention it, or where The Micro may be out of stock, we point you to lagreefitness.com, which is not an affiliate link.</AffiliateNote>
 
             {/* What is Lagree */}
             <div className="mb-16">

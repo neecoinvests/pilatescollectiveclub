@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -232,6 +233,7 @@ export default function BestLagreeGripSocksPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote />
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What makes a good Lagree sock</h2>

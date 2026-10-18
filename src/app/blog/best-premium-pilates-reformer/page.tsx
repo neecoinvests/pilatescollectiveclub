@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -223,7 +224,6 @@ export default function BestPremiumReformerPage() {
               Best Premium Pilates Reformers<br /><span style={{ color: "#8b4a31" }}>(2026): $2,000–$5,000+</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 14 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               At $2,000 and above, you are no longer shopping by compromise. Every machine in this roundup uses a true steel spring system, supports the full classical and contemporary repertoire, and will outlast a decade of serious daily practice. The question is not which one works — they all work. The question is which one fits your training style, available space, and tolerance for the specific trade-offs each brand makes.
@@ -298,6 +298,7 @@ export default function BestPremiumReformerPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             {/* Products */}
             <div className="mb-16">

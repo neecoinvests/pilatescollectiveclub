@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -171,7 +172,6 @@ export default function BestLagreeShortsPage() {
               Best Lagree Shorts<br /><span style={{ color: "#8b4a31" }}>for Class (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*All product links on this page go to Amazon. We earn a small commission on qualifying purchases. Prices were checked on October 2, 2026 and can change.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Inseam length decides this category, and the reason has nothing to do with modesty. Lagree puts you in kneeling, seated and side-lying positions directly on a vinyl carriage, and bare skin on warm vinyl sticks at exactly the wrong moment — as well as leaving sweat on a shared machine. A fitted biker short with a 6 to 8 inch inseam keeps fabric between you and the carriage in most of the repertoire, and a fitted leg has nothing to ride up in a lunge or catch on the springs, handles and straps. Here are seven verified pairs, from a $12.99 long-inseam budget pick to men&apos;s lined and linerless options.
@@ -207,6 +207,7 @@ export default function BestLagreeShortsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>All product links on this page go to Amazon. We earn a small commission on qualifying purchases. Prices were checked on October 2, 2026 and can change.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Pairs · Picked by Use</p>

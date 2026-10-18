@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -175,7 +176,6 @@ export default function BestPilatesCadillaPage() {
               Best Pilates Cadillac &amp; Trapeze Table (2026):<br /><span style={{ color: "#8b4a31" }}>The Complete Apparatus Guide</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The Pilates Cadillac — also called the Trapeze Table — is the most comprehensive single piece of apparatus in the classical Pilates system, and the one most people have never used. It combines the spring resistance of a reformer with hanging, suspension, and vertical spring work that no other apparatus can replicate. This guide explains what the Cadillac does, who genuinely needs one, and which real options exist at every budget — honestly: Balanced Body&apos;s Trapeze Table/Cadillac is the professional, certification-recognized standalone apparatus, verified as a real, live Amazon listing. Below it sit four genuine, currently-sold budget reformer/Cadillac/tower combo units from LeisureKing, Gndigufa, Yorkgargen and PAETA — 2-in-1 home machines, not standalone Cadillacs, but a real way to add trapeze and tower work without two separate large purchases. Merrithew, Align-Pilates and Gratz build genuine Cadillac apparatus too, but it&apos;s dealer-direct only, so we&apos;ve linked to the manufacturers rather than a fabricated Amazon offer.
@@ -196,6 +196,8 @@ export default function BestPilatesCadillaPage() {
           <div className="max-w-3xl mx-auto">
 
             {/* What is the Pilates Cadillac */}
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is the Pilates Cadillac and what does it do?</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

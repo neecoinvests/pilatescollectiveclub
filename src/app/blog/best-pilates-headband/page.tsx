@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -9,7 +10,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Headbands (2026): Non-Slip & Studio-Ready",
-  description: "The best headbands for Pilates — non-slip, sweat-wicking, and secure through reformer inversions. Lululemon, Alo, Nike, Sweaty Betty and more tested for studio use.",
+  description: "The best headbands for Pilates — non-slip, sweat-wicking, and secure through reformer inversions. Lululemon, Alo, Nike, Sweaty Betty and more compared on studio use.",
   keywords: ["best pilates headband", "pilates headband 2026", "non slip headband pilates", "best workout headband women", "headband for reformer pilates", "lululemon headband pilates", "alo yoga headband pilates", "sweat headband pilates studio"],
   openGraph: {
     title: "Best Pilates Headbands (2026): Non-Slip & Studio-Ready",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Headbands (2026)",
-    description: "The best headbands for Pilates — tested and ranked.",
+    description: "The best headbands for Pilates — compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-headband" },
@@ -157,7 +158,6 @@ export default function BestPilatesHeadbandPage() {
               Best Pilates Headbands<br /><span style={{ color: "#8b4a31" }}>(2026): Non-Slip & Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 5 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A Pilates headband that slides has one job and fails at it. The non-slip grip, fabric weight, and profile all matter differently in a reformer class than they do in a spin session — particularly for exercises in supine and inverted positions where gravity works against a poorly designed band. These six headbands have been chosen specifically for studio Pilates: non-slip enough for dynamic reformer work, comfortable enough for a 60-minute supine session, and considered enough in their design to wear as part of a polished studio kit.
@@ -193,9 +193,10 @@ export default function BestPilatesHeadbandPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Headbands · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Headbands · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

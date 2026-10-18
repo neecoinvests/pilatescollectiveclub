@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -154,7 +155,6 @@ export default function BestFoldablePilatesReformerPage() {
               Best Foldable Pilates Reformer (2026):<br /><span style={{ color: "#8b4a31" }}>Which Folding Claims Actually Hold Up</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               This category is where fabricated folding claims turn up most often — a &quot;Balanced Body Allegro 2&quot; that isn&apos;t a real Amazon listing, and a Merrithew SPX fold-flat claim we could not verify on the current listing. Set those aside and there are still genuinely folding reformers worth buying: the live Amazon catalog includes a real tier of budget, generic-brand full reformers — WINDFOOT, DWKWE, and PAETA — that are genuine carriage-and-rail spring machines whose current listings explicitly describe folding for storage. They&apos;re not established Pilates equipment brands, and we say so plainly below, but they are real, live, currently-sold folding reformers. Combined with AeroPilates&apos; own established fold-flat line, this guide covers six genuinely folding machines across every price tier from $295.99 to $1,329.99.
@@ -220,6 +220,7 @@ export default function BestFoldablePilatesReformerPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             {/* Product cards */}
             <div className="mb-16">

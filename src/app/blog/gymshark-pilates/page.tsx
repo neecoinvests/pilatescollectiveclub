@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   keywords: ["gymshark pilates", "gymshark leggings pilates review", "gymshark vital legging pilates", "gymshark vs lululemon pilates", "best gymshark for reformer pilates", "gymshark activewear pilates 2026", "gymshark training leggings pilates"],
   openGraph: {
     title: "Gymshark for Pilates (2026): Best Pieces & Honest Review",
-    description: "The best Gymshark pieces for Pilates — training leggings, seamless sets, and sports bras tested for reformer and mat classes.",
+    description: "The best Gymshark pieces for Pilates — training leggings, seamless sets, and sports bras compared on reformer and mat classes.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/gymshark-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "Gymshark for Pilates — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Gymshark for Pilates (2026): Best Pieces & Honest Review",
-    description: "The best Gymshark pieces for Pilates — tested for reformer and mat classes.",
+    description: "The best Gymshark pieces for Pilates — compared on reformer and mat classes.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"],
   },
   alternates: {
@@ -89,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Gymshark for Pilates (2026): Best Pieces & Honest Review",
-      "description": "The best Gymshark pieces for Pilates — training leggings, seamless sets, and sports bras tested for reformer and mat classes.",
+      "description": "The best Gymshark pieces for Pilates — training leggings, seamless sets, and sports bras compared on reformer and mat classes.",
       "url": "https://pilatescollectiveclub.com/blog/gymshark-pilates",
       "datePublished": "2026-05-14",
       "dateModified": "2026-05-14",
@@ -135,7 +136,6 @@ export default function GymsharkPilatesPage() {
               Gymshark for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces &amp; Honest Review</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Gymshark started life as a bodybuilding brand. The pivot to lifestyle and Pilates has been deliberate and commercially successful — but it has also left a catalogue full of pieces that are wrong for the method sitting alongside pieces that are genuinely good. This guide identifies the five Gymshark pieces worth buying for Pilates and explains exactly why, along with an honest assessment of where the brand still falls short compared to Lululemon and Alo at higher price points.
@@ -153,6 +153,8 @@ export default function GymsharkPilatesPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How Gymshark fits into the Pilates activewear market</h2>
@@ -177,7 +179,7 @@ export default function GymsharkPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Gymshark Pieces · Pilates-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Gymshark Pieces · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -228,8 +230,8 @@ export default function GymsharkPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — tested for opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
-                <ArticleCard title="Lululemon for Pilates (2026)" excerpt="The best Lululemon pieces for Pilates — tested across reformer, mat, and barre classes." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Lululemon for Pilates (2026)" excerpt="The best Lululemon pieces for Pilates — chosen for reformer, mat, and barre classes." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>
           </div>

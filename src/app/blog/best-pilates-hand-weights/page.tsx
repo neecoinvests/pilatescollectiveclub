@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -148,7 +149,6 @@ export default function BestPilatesHandWeightsPage() {
               Best Pilates Hand Weights<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 5 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A prior version of this article named brands (a neoprene dumbbell set, a vinyl-coated rack, adjustable wrist weights) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real toning ball options are in stock and ready to buy today: the ProsourceFit Weighted Toning Exercise Ball line in 2lb, 3lb, and 5lb versions ($10.48 to $11.99), the Yes4All Weighted Toning Ball spanning a 2-10lb range ($13.81), and the Philosophy Gym Toning Ball ($14.99, 3lb). They&apos;re a genuinely good fit for Pilates arm work: sand or PVC-filled and ergonomically shaped, so they put less strain on the wrist and finger joints than a bar-style dumbbell during high-repetition sets.
@@ -186,6 +186,7 @@ export default function BestPilatesHandWeightsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Full Lineup</p>

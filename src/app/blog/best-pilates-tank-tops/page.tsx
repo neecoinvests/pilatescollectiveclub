@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -8,7 +9,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Tank Tops (2026)",
-  description: "The best tank tops for Pilates — racerbacks, strappy styles, and seamless options tested for breathability, support, and reformer-ready fit. Our top picks for 2026.",
+  description: "The best tank tops for Pilates — racerbacks, strappy styles, and seamless options compared on breathability, support, and reformer-ready fit. Our top picks for 2026.",
   keywords: [
     "best pilates tank top",
     "best tank top for pilates",
@@ -99,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Pilates Tank Tops (2026)",
-      description: "The best tank tops for Pilates — racerbacks, strappy styles, and seamless options tested for breathability, support, and reformer-ready fit.",
+      description: "The best tank tops for Pilates — racerbacks, strappy styles, and seamless options compared on breathability, support, and reformer-ready fit.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-tank-tops",
       datePublished: "2026-07-06",
       dateModified: "2026-07-06",
@@ -152,9 +153,6 @@ export default function BestPilatesTankTopsPage() {
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>
               A tank top might be the most-worn item in a Pilates practitioner&apos;s wardrobe. It needs to stay put through footwork, float-free during roll-ups, and not draw a single distracted thought mid-class. These six picks earn their place in any studio kit.
             </p>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.7, borderLeft: "2px solid #d4c5b5", paddingLeft: "16px" }}>
-              This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.
-            </p>
           </div>
         </section>
 
@@ -180,6 +178,7 @@ export default function BestPilatesTankTopsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.</AffiliateNote>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "48px" }}>
               {PRODUCTS.map((p) => (
@@ -217,7 +216,7 @@ export default function BestPilatesTankTopsPage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates T-Shirts (2026)" excerpt="Technical tees from Lululemon, Vuori, Alo Yoga, Nike, and more — tested for breathability and studio-ready style." href="/blog/best-pilates-tshirts" category="Clothing" readTime="8 min" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Pilates T-Shirts (2026)" excerpt="Technical tees from Lululemon, Vuori, Alo Yoga, Nike, and more — compared on breathability and studio-ready style." href="/blog/best-pilates-tshirts" category="Clothing" readTime="8 min" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Moisture-Wicking Tops for Pilates & Spin" excerpt="The best sweat-wicking tops for high-intensity Lagree and spin sessions, ranked by breathability and fit." href="/blog/best-moisture-wicking-top-for-pilates-and-spin" category="Clothing" readTime="9 min" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>

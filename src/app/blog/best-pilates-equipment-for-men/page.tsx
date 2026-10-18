@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   description: "The best Pilates equipment for men — reformers, mats, resistance bands, and accessories reviewed for male practitioners at every experience level.",
   keywords: ["best pilates equipment for men", "men pilates equipment 2026", "pilates reformer for men", "men home pilates setup", "pilates gear men", "best pilates mat for men", "pilates resistance bands men"],
   openGraph: {
-    title: "Best Pilates Equipment for Men (2026): Tested and Ranked",
+    title: "Best Pilates Equipment for Men (2026): Compared and Ranked",
     description: "Six essential Pilates equipment picks for men — mat, foam roller, magic circle, resistance bands, arc barrel, and home reformer.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-men",
@@ -91,7 +92,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Equipment for Men (2026): Mat, Reformer and More Tested",
+      "headline": "Best Pilates Equipment for Men (2026): Mat, Reformer and More Ranked",
       "description": "The best Pilates equipment for men — mats, foam rollers, magic circles, resistance bands, arc barrels, and home reformers reviewed honestly.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-men",
       "datePublished": "2026-05-21",
@@ -196,6 +197,8 @@ export default function BestPilatesEquipmentForMenPage() {
             </div>
 
             {/* Products */}
+            <AffiliateNote />
+
             <div>
               <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The 6 best Pilates equipment picks for men</h2>
               <div className="space-y-8">

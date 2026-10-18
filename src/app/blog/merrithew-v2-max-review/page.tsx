@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -97,7 +98,6 @@ export default function MerrithewV2MaxReviewPage() {
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
 
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
 
             <section className="pb-20">
 
@@ -116,6 +116,7 @@ export default function MerrithewV2MaxReviewPage() {
                     Shop At Home SPX (lower price) →
                   </a>
                 </div>
+                <AffiliateNote className="mt-4">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
               </div>
 
               {/* Specs */}

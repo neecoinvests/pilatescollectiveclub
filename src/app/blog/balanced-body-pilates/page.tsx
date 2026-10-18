@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -129,7 +130,6 @@ export default function BalancedBodyPilatesPage() {
               Balanced Body for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Equipment, Quality &amp; Honest Guide</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Balanced Body is the world&apos;s largest Pilates equipment manufacturer — a company founded in 1976 that has shaped what professional Pilates equipment looks and performs like for five decades. Practitioners choose Balanced Body because their machines represent the clearest path from entry-level practice to professional-grade work without changing brands. This guide covers their most important equipment, who it is actually for, and what to understand before committing to a purchase at any price point.
@@ -157,6 +157,8 @@ export default function BalancedBodyPilatesPage() {
           <div className="max-w-3xl mx-auto">
 
             {/* Brand overview */}
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Balanced Body leads the professional Pilates equipment market</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

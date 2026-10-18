@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -147,7 +148,6 @@ export default function BestBikeComputerPage() {
               Best Bike Computer<br /><span style={{ color: "#8b4a31" }}>for Indoor Cycling (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated July 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A dedicated cycling computer turns a non-connected spin bike into a data-rich training environment — displaying live speed, cadence, and heart rate from paired sensors without needing a phone mounted on the handlebar. This guide compares five GPS bike computers in 2026, from a full-featured touchscreen flagship to ultra-light, ultra-budget units.
@@ -183,6 +183,7 @@ export default function BestBikeComputerPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Computers · GPS Head Units</p>

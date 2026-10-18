@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -56,8 +57,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Jumpboards (2026): Tested & Ranked",
-      "description": "The best jumpboards for Pilates reformers — tested for compatibility, bounce quality, and build.",
+      "headline": "Best Pilates Jumpboards (2026): Compared & Ranked",
+      "description": "The best jumpboards for Pilates reformers — compared on compatibility, bounce quality, and build.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-jumpboard",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",
@@ -118,7 +119,6 @@ export default function BestPilatesJumpboardPage() {
               Best Pilates Jumpboard<br /><span style={{ color: "#8b4a31" }}>(2026): Honestly Verified</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The jumpboard is a genuinely popular accessory for a home reformer, adding a cardio component through jumping and rebounding sequences while keeping the joint-protective, resistance-based feel of reformer work. We could confirm live Amazon listings for jumpboards from two brands — Balanced Body and Merrithew. We could not verify AeroPilates or Align Pilates jumpboards on Amazon, and that gap is covered below rather than guessed at.
@@ -165,6 +165,7 @@ export default function BestPilatesJumpboardPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>2 Jumpboards · Verified Amazon Listings</p>

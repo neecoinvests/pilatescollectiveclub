@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -8,7 +9,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Hoodies & Warm-Up Jackets (2026)",
-  description: "The best hoodies and warm-up jackets for Pilates — tested for warmth, movement freedom, and studio style. Our top picks from Lululemon, Alo Yoga, Vuori, Gymshark, and more.",
+  description: "The best hoodies and warm-up jackets for Pilates — compared on warmth, movement freedom, and studio style. Our top picks from Lululemon, Alo Yoga, Vuori, Gymshark, and more.",
   keywords: [
     "best pilates hoodie",
     "best warm up jacket pilates",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Hoodies & Warm-Up Jackets (2026)",
-    description: "The best hoodies and warm-up jackets for Pilates — tested for warmth, movement freedom, and studio style.",
+    description: "The best hoodies and warm-up jackets for Pilates — compared on warmth, movement freedom, and studio style.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-hoodie",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Hoodies 2026" }],
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Hoodies & Warm-Up Jackets (2026)",
-    description: "The best hoodies and warm-up jackets for Pilates — tested for warmth, movement freedom, and studio style.",
+    description: "The best hoodies and warm-up jackets for Pilates — compared on warmth, movement freedom, and studio style.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-hoodie" },
@@ -99,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Pilates Hoodies & Warm-Up Jackets (2026)",
-      description: "The best hoodies and warm-up jackets for Pilates — tested for warmth, movement freedom, and studio style.",
+      description: "The best hoodies and warm-up jackets for Pilates — compared on warmth, movement freedom, and studio style.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-hoodie",
       datePublished: "2026-07-06",
       dateModified: "2026-07-06",
@@ -152,9 +153,6 @@ export default function BestPilatesHoodiePage() {
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>
               The warm-up layer you throw on before class and reach for immediately after is as much a part of your Pilates kit as your leggings. The right hoodie keeps muscles warm between exercises and signals the kind of considered approach to training that the Pilates method demands.
             </p>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.7, borderLeft: "2px solid #d4c5b5", paddingLeft: "16px" }}>
-              This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.
-            </p>
           </div>
         </section>
 
@@ -180,6 +178,7 @@ export default function BestPilatesHoodiePage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.</AffiliateNote>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "48px" }}>
               {PRODUCTS.map((p) => (
@@ -217,7 +216,7 @@ export default function BestPilatesHoodiePage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates T-Shirts (2026)" excerpt="Technical tees from Lululemon, Vuori, Alo Yoga, and Nike — tested for breathability and studio-ready style." href="/blog/best-pilates-tshirts" category="Clothing" readTime="8 min" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Pilates T-Shirts (2026)" excerpt="Technical tees from Lululemon, Vuori, Alo Yoga, and Nike — compared on breathability and studio-ready style." href="/blog/best-pilates-tshirts" category="Clothing" readTime="8 min" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to Pilates clothing — what works, what to avoid, and how to dress for reformer vs mat." href="/blog/what-to-wear-to-pilates" category="Beginners" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
               </div>
             </div>

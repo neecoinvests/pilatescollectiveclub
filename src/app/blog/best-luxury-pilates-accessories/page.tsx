@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -155,9 +156,6 @@ export default function BestLuxuryPilatesAccessoriesPage() {
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>
               These are the six accessories we recommend to practitioners who have moved past beginner kit and want equipment that reflects the seriousness of their practice.
             </p>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.7, borderLeft: "2px solid #d4c5b5", paddingLeft: "16px" }}>
-              This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.
-            </p>
           </div>
         </section>
 
@@ -183,6 +181,7 @@ export default function BestLuxuryPilatesAccessoriesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.</AffiliateNote>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "48px" }}>
               {PRODUCTS.map((p) => (

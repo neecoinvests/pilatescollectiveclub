@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -135,7 +136,6 @@ export default function GirlfriendCollectivePilatesPage() {
               Girlfriend Collective<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): Honest Review</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Girlfriend Collective is the Seattle-based brand making activewear from recycled plastic bottles and fishing nets — and unlike most brands with a strong ethics story, the performance genuinely stands on its own. B Corp certified, XXS to 6X sizing, and a Compressive Legging that competes directly with Lululemon&apos;s Wunder Train at a lower price. This guide separates the ethics story from the performance review, then brings them back together.
@@ -163,6 +163,8 @@ export default function GirlfriendCollectivePilatesPage() {
                 The sustainability story, once the performance baseline is established, is genuinely good. B Corp certification involves third-party auditing of social and environmental performance — it is not a self-issued label. The RPET fabric is made from post-consumer plastic waste, and the brand publishes its factory list and audit results. For the practitioner who wants their purchasing decisions to reflect their values without compromising on what they wear in the studio, Girlfriend Collective is the clearest choice in the category.
               </p>
             </div>
+
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-12 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes Girlfriend Collective different</h2>
@@ -237,7 +239,7 @@ export default function GirlfriendCollectivePilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — tested for opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The definitive guide to dressing for reformer and mat Pilates — what works, what to avoid, and why it matters." href="/blog/what-to-wear-to-pilates" category="Style Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>

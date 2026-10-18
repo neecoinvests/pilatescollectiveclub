@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -136,7 +137,6 @@ export default function BestMegaformerMachinePage() {
               Best Megaformer<br /><span style={{ color: "#8b4a31" }}>Machine (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The Megaformer is not a Pilates reformer — it is the proprietary equipment of the Lagree Method, designed for slow-tempo eccentric loading, continuous time under tension, and multi-muscle compound positions that classical Pilates apparatus work does not program. If you have taken a Lagree class at a boutique studio and want to replicate that training at home, or you are opening a studio and need to understand the commercial equipment landscape, this guide covers the genuine Lagree Fitness machines — including The Micro, which Lagree Fitness sells through its own Amazon store — and the one professional Pilates reformer we could verify as a real, live Amazon listing for hybrid-style training.
@@ -178,6 +178,7 @@ export default function BestMegaformerMachinePage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Machines · Lagree & Pilates</p>

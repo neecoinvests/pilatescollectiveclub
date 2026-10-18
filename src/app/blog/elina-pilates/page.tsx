@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -171,7 +172,6 @@ export default function ElinaPilatesPage() {
               Elina Pilates<br /><span style={{ color: "#8b4a31" }}>(2026): Equipment Reviewed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 12 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not verify live Amazon listings for Elina Pilates equipment — see the disclosure below. Four links on this page go to verified, non-Elina Amazon products, and we earn a small commission on qualifying purchases through them.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Elina Pilates markets itself as a European manufacturer offering studio-grade reformers, including wood-finish models aimed at the home market. Before publishing this guide we checked whether the models people search for are genuinely sold on Amazon — including a fresh, live Amazon catalog search for &quot;Elina Pilates reformer,&quot; which returned zero genuine Elina-brand results. We could not find live, verifiable Amazon listings for any of Elina&apos;s reformer or chair models covered here. Because Elina is known specifically for wood-framed reformers, we&apos;ve added three genuine wood-frame reformer alternatives that are actually sold on Amazon today, clearly disclosed as not being Elina products. This is an honest guide to what Elina publishes about its own equipment, plus real options for buyers who want that same material category with Amazon purchase protection.
@@ -189,6 +189,8 @@ export default function ElinaPilatesPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <AffiliateNote>We could not verify live Amazon listings for Elina Pilates equipment — see the disclosure below. Four links on this page go to verified, non-Elina Amazon products, and we earn a small commission on qualifying purchases through them.</AffiliateNote>
 
             <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand overview</h2>

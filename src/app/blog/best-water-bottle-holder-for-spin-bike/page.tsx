@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -270,19 +271,6 @@ export default function BestWaterBottleHolderPage() {
               Staying hydrated during a 45-minute spin session is non-negotiable, but most riders underestimate how much the right cage matters. A bottle that pops out mid-sprint, wobbles during climbs, or simply doesn&apos;t fit your bike costs you focus and momentum. These are the holders worth installing.
             </p>
 
-            <p
-              style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: "14px",
-                fontWeight: 300,
-                color: "#9a9490",
-                lineHeight: 1.7,
-                borderLeft: "2px solid #d4c5b5",
-                paddingLeft: "16px",
-              }}
-            >
-              This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.
-            </p>
           </div>
         </section>
 
@@ -381,6 +369,7 @@ export default function BestWaterBottleHolderPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.</AffiliateNote>
 
             {/* Product cards */}
             <div className="space-y-10">

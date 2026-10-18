@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -8,12 +9,12 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Biker Shorts (2026): Studio-Tested Picks",
-  description: "The best biker shorts for Pilates — Lululemon Align, Alo Airlift, and more tested for compression, waistband stability, and reformer performance.",
+  title: "Best Pilates Biker Shorts (2026): Top Picks",
+  description: "The best biker shorts for Pilates — Lululemon Align, Alo Airlift, and more compared on compression, waistband stability, and reformer performance.",
   keywords: ["best pilates biker shorts", "pilates biker shorts 2026", "best shorts for reformer pilates", "lululemon align shorts pilates", "alo airlift shorts pilates", "high waist biker shorts pilates", "pilates bike shorts review", "best activewear shorts pilates"],
   openGraph: {
-    title: "Best Pilates Biker Shorts (2026): Studio-Tested & Ranked",
-    description: "The best biker shorts for Pilates — tested for reformer performance and studio comfort.",
+    title: "Best Pilates Biker Shorts (2026): Compared & Ranked",
+    description: "The best biker shorts for Pilates — compared on reformer performance and studio comfort.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-biker-shorts",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Biker Shorts — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Biker Shorts (2026)",
-    description: "The best biker shorts for Pilates — tested and ranked.",
+    description: "The best biker shorts for Pilates — compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-biker-shorts" },
@@ -85,7 +86,7 @@ const PRODUCTS = [
     price: "From $26",
     verdict: "Best value biker short",
     description:
-      "CRZ YOGA's Naked Feeling Biker Short consistently surprises practitioners who try it expecting a significant quality gap from premium brands. The fabric approaches the Align's softness at less than half the price, the high-waist construction stays in place reliably through Pilates movement, and the opacity holds up through deep squats and hip-flexion exercises. Multiple practitioners have reported using these as their primary studio short after testing them alongside options costing three times as much. An exceptional value for anyone building a studio wardrobe, filling out a rotation, or looking for a lower-stakes first biker short.",
+      "CRZ YOGA's Naked Feeling Biker Short consistently surprises practitioners who try it expecting a significant quality gap from premium brands. The fabric approaches the Align's softness at less than half the price, the high-waist construction stays in place reliably through Pilates movement, and the opacity holds up through deep squats and hip-flexion exercises. An exceptional value for anyone building a studio wardrobe, filling out a rotation, or looking for a lower-stakes first biker short.",
     affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+biker+short&tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -96,8 +97,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Biker Shorts (2026): Studio-Tested & Ranked",
-      "description": "The best biker shorts for Pilates in 2026 — tested for reformer performance, compression, and studio comfort.",
+      "headline": "Best Pilates Biker Shorts (2026): Compared & Ranked",
+      "description": "The best biker shorts for Pilates in 2026 — compared on reformer performance, compression, and studio comfort.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-biker-shorts",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",
@@ -154,13 +155,12 @@ export default function BestPilatesBikerShortsPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Apparel</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Biker Shorts<br /><span style={{ color: "#8b4a31" }}>(2026): Tested & Ranked</span>
+              Best Pilates Biker Shorts<br /><span style={{ color: "#8b4a31" }}>(2026): Compared & Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Biker shorts have overtaken leggings as the most popular bottom in many boutique reformer studios. They offer full thigh coverage without the restriction of a full-length legging, and the compact silhouette gives instructors a clearer view of hip alignment and knee tracking during footwork and standing exercises. Not all biker shorts are built for Pilates — fabric weight, waistband construction, and inseam length all matter significantly. These six have been tested across reformer, mat, and tower sessions and genuinely serve the method.
+              Biker shorts have overtaken leggings as the most popular bottom in many boutique reformer studios. They offer full thigh coverage without the restriction of a full-length legging, and the compact silhouette gives instructors a clearer view of hip alignment and knee tracking during footwork and standing exercises. Not all biker shorts are built for Pilates — fabric weight, waistband construction, and inseam length all matter significantly. These six suit reformer, mat, and tower sessions.
             </p>
           </div>
         </section>
@@ -194,9 +194,10 @@ export default function BestPilatesBikerShortsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Biker Shorts · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Biker Shorts · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -229,7 +230,7 @@ export default function BestPilatesBikerShortsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Leggings" excerpt="Five studio-tested leggings for when biker shorts aren't enough coverage." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings for when biker shorts aren't enough coverage." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Sets" excerpt="Six coordinated two-piece sets for a complete studio wardrobe." href="/blog/best-pilates-sets" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo's biker shorts are consistently ranked among the best for studio practice — full brand review." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Splits59 Pilates Activewear" excerpt="Splits59 makes the most technical biker shorts specifically designed for Pilates movement." href="/blog/splits59-pilates" category="Brand Review" readTime="9 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

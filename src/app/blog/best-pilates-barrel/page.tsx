@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -149,7 +150,6 @@ export default function BestPilatesBarrelPage() {
               Best Pilates Barrel (2026):<br /><span style={{ color: "#8b4a31" }}>Arc, Spine Corrector & Ladder Barrel Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The Pilates barrel is one of the least understood and most underutilised pieces of apparatus in the system — regularly present in good studios, rarely seen in home practice. There are three distinct barrel functions (Arc, Spine Corrector, Ladder Barrel), each serving different needs and appropriate for different levels of experience. This guide explains what each does and who it is for — honestly: Balanced Body sells one Amazon-listed barrel that covers Arc/spine-corrector-style work, plus its professional Ladder Barrel. Below that professional tier sit two real, currently-sold budget-brand Ladder Barrel alternatives, from PAETA and GDMSTIH — genuine, functional generic-brand options at a fraction of the price, no brand pedigree attached. Merrithew and Gratz make genuine barrels too, but they&apos;re dealer-direct only.
@@ -232,6 +232,7 @@ export default function BestPilatesBarrelPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             {/* Product Cards */}
             <div className="mb-16">

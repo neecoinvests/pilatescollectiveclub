@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -8,12 +9,12 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Bodysuits (2026): 9 Tested on the Reformer",
-  description: "Nine Pilates bodysuits tested for stretch recovery, opacity and coverage through inversions — from buttery-soft picks to the best value option.",
+  title: "Best Pilates Bodysuits (2026): 9 Picks for the Reformer",
+  description: "Nine Pilates bodysuits compared on stretch recovery, opacity and coverage through inversions — from buttery-soft picks to the best value option.",
   keywords: ["best pilates bodysuits", "pilates bodysuit 2026", "best bodysuit for reformer pilates", "alo yoga bodysuit pilates", "lululemon bodysuit pilates", "pilates activewear bodysuit review", "best workout bodysuit pilates"],
   openGraph: {
-    title: "Best Pilates Bodysuits (2026): Tested & Ranked",
-    description: "The best bodysuits for Pilates — tested for reformer performance and studio style.",
+    title: "Best Pilates Bodysuits (2026): Compared & Ranked",
+    description: "The best bodysuits for Pilates — compared on reformer performance and studio style.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-bodysuits",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Bodysuits — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Bodysuits (2026)",
-    description: "The best bodysuits for Pilates — tested and ranked.",
+    description: "The best bodysuits for Pilates — compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-bodysuits" },
@@ -96,8 +97,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Bodysuits (2026): Tested & Ranked",
-      "description": "The best bodysuits for Pilates in 2026 — tested for reformer performance, coverage, and studio style.",
+      "headline": "Best Pilates Bodysuits (2026): Compared & Ranked",
+      "description": "The best bodysuits for Pilates in 2026 — compared on reformer performance, coverage, and studio style.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-bodysuits",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",
@@ -109,7 +110,7 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Pilates Bodysuits (2026)",
-      "description": "The six best bodysuits for Pilates, tested and ranked.",
+      "description": "The six best bodysuits for Pilates, compared and ranked.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-bodysuits",
       "numberOfItems": 6,
       "itemListElement": PRODUCTS.map((p, i) => ({
@@ -158,10 +159,9 @@ export default function BestPilatesBodysuitsPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Apparel</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Bodysuits<br /><span style={{ color: "#8b4a31" }}>(2026): Tested & Ranked</span>
+              Best Pilates Bodysuits<br /><span style={{ color: "#8b4a31" }}>(2026): Compared & Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The bodysuit has become the dominant silhouette in boutique Pilates studios — and for practical reasons, not just aesthetic ones. Unlike a separate top, a bodysuit cannot ride up, bunch at the waist, or come untucked during the continuous transitions of a reformer class. Instructors can observe spinal position and hip alignment without fabric interference, and practitioners can move through the full repertoire without interruption. These six bodysuits have been selected for reformer performance, fabric quality, and staying power in serious studios.
@@ -198,6 +198,7 @@ export default function BestPilatesBodysuitsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a bodysuit work for Pilates</h2>
@@ -217,7 +218,7 @@ export default function BestPilatesBodysuitsPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Bodysuits · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Bodysuits · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -269,7 +270,7 @@ export default function BestPilatesBodysuitsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Leggings" excerpt="Five studio-tested leggings that pair perfectly with any bodysuit." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings that pair perfectly with any bodysuit." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo makes two of the six bodysuits in this guide — here's our full brand review." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Lululemon Align Review" excerpt="The most popular Pilates bodysuit in the world — honestly reviewed." href="/blog/lululemon-align-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />

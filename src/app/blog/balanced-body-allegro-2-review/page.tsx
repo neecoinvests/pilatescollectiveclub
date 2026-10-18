@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -157,7 +158,6 @@ export default function BalancedBodyStudioReformerReviewPage() {
               Balanced Body Studio Reformer Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Real Amazon-Sold Flagship, Honestly Assessed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               This machine is often searched for as the &quot;Allegro 2,&quot; but we could not find a live Amazon listing under that name. The Balanced Body reformer that is genuinely sold on Amazon, direct from Balanced Body, is the Studio Reformer with the Revo footbar, at $4,700. This review covers that real listing honestly: what it actually offers, one important limitation — it does not fold — and how it compares to Merrithew.
@@ -257,6 +257,7 @@ export default function BalancedBodyStudioReformerReviewPage() {
                   </div>
                 ))}
               </div>
+              <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
               {/* Product cards */}
               <div className="space-y-10">

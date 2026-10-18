@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -214,6 +215,7 @@ export default function BestSweatTowelForLagreePage() {
                 ))}
               </ul>
             </div>
+            <AffiliateNote />
 
             <div className="mb-12">
               <h2 className="text-2xl font-bold mb-4" style={{ color: "#2d1f17" }}>One towel or two? The two jobs a Lagree towel does</h2>

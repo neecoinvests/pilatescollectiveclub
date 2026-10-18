@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -135,7 +136,6 @@ export default function PilatesStudioBagEssentialsPage() {
               What to Pack in Your<br /><span style={{ color: "#8b4a31" }}>Pilates Studio Bag (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 6 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Here&apos;s exactly what goes in a well-packed Pilates studio bag — from instructors who carry one five times a week. The short answer: it&apos;s a lot less than you think. Studios provide all equipment. You need grip socks, water, a towel, your kit, and a bag to put it all in. This guide covers each item, the specific products worth buying, and what you can safely leave at home.
@@ -155,6 +155,8 @@ export default function PilatesStudioBagEssentialsPage() {
           <div className="max-w-3xl mx-auto">
 
             {/* What studios provide */}
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
             <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the studio provides (leave these at home)</h2>
               <ul className="space-y-2">
@@ -233,7 +235,7 @@ export default function PilatesStudioBagEssentialsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="The grip socks tested across reformer, mat, and barre — from ToeSox to Tavi Noir." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
+                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="The grip socks compared for reformer, mat, and barre — from ToeSox to Tavi Noir." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>

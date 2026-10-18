@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -286,7 +287,6 @@ export default function LagreeShirtsPage() {
               Lagree Shirts &amp; Hoodies<br /><span style={{ color: "#8b4a31" }}>(2026): Fitted Tees &amp; Fan Merch</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The fan tees and hoodies below are unofficial designs, not Lagree Fitness products. Our picks are based on published specifications, not a hands-on test.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               &ldquo;Lagree shirt&rdquo; means two different things. One is the shirt you actually wear on the Megaformer — and it has to be fitted, because a loose tee slides up your back in bear and falls over your face in plank. The other is the shirt that says you do Lagree: the fan tees and hoodies you wear to class, after class, or give to the friend who won&apos;t stop talking about it. Here are the best of both.
@@ -309,6 +309,8 @@ export default function LagreeShirtsPage() {
           <div className="max-w-3xl mx-auto">
 
             {/* Quick picks */}
+            <AffiliateNote>Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The fan tees and hoodies below are unofficial designs, not Lagree Fitness products. Our picks are based on published specifications, not a hands-on test.</AffiliateNote>
+
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Quick picks</h2>
               <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>

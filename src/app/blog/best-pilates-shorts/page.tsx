@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -105,7 +106,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-pilates-shorts/#article",
       "headline": "Best Pilates Shorts (2026): For Reformer, Mat & Studio",
-      "description": "The best shorts for Pilates — biker shorts, flowy shorts, and compression options tested for reformer coverage, mat grip, and studio comfort.",
+      "description": "The best shorts for Pilates — biker shorts, flowy shorts, and compression options compared on reformer coverage, mat grip, and studio comfort.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
@@ -190,7 +191,6 @@ export default function BestPilatesShortsPage() {
               Best Pilates Shorts<br /><span style={{ color: "#8b4a31" }}>(2026): Reformer & Mat</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Shorts give your instructor something leggings don't — a direct view of your knee tracking, hip alignment, and thigh engagement through every exercise. At most boutique reformer studios, biker shorts have largely displaced leggings as the preferred bottom. This guide covers the five best options, from the gold standard Lululemon Align short to the value champion that costs a third of the price.
@@ -250,9 +250,10 @@ export default function BestPilatesShortsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Shorts · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Shorts · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -288,9 +289,9 @@ export default function BestPilatesShortsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Sports Bra (2026)" excerpt="Coverage, support, and studio-ready style — the bras tested for reformer and mat practice." href="/blog/best-pilates-sports-bra" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Sports Bra (2026)" excerpt="Coverage, support, and studio-ready style — the bras compared on reformer and mat practice." href="/blog/best-pilates-sports-bra" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — tested for opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>
 

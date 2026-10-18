@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -8,7 +9,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Seamless Sports Bras for Pilates (2026)",
-  description: "The best seamless sports bras for Pilates — no pressure points, no chafing, full movement. Tested from Lululemon, Alo, Gymshark, Girlfriend Collective, and more.",
+  description: "The best seamless sports bras for Pilates — no pressure points, no chafing, full movement. Picks from Lululemon, Alo, Gymshark, Girlfriend Collective, and more.",
   keywords: [
     "best seamless sports bra pilates",
     "seamless sports bra reformer pilates",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Seamless Sports Bras for Pilates (2026)",
-    description: "No pressure points, no chafing, full movement — the best seamless sports bras for Pilates tested and ranked.",
+    description: "No pressure points, no chafing, full movement — the best seamless sports bras for Pilates compared and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-seamless-sports-bra",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Seamless Sports Bras for Pilates 2026" }],
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Seamless Sports Bras for Pilates (2026)",
-    description: "No pressure points, no chafing, full movement — the best seamless sports bras for Pilates tested and ranked.",
+    description: "No pressure points, no chafing, full movement — the best seamless sports bras for Pilates compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-seamless-sports-bra" },
@@ -99,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Seamless Sports Bras for Pilates (2026)",
-      description: "The best seamless sports bras for Pilates — no pressure points, no chafing, full movement. Tested and ranked.",
+      description: "The best seamless sports bras for Pilates — no pressure points, no chafing, full movement. Compared and ranked.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-seamless-sports-bra",
       datePublished: "2026-07-06",
       dateModified: "2026-07-06",
@@ -152,9 +153,6 @@ export default function BestPilatesSeamlessSportsBraPage() {
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>
               Seam placement becomes noticeable fast when you&apos;re spending forty minutes on a reformer in supine. A seamless sports bra is one of those kit investments that seems minor until you make it — and then you wonder how you trained without it.
             </p>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.7, borderLeft: "2px solid #d4c5b5", paddingLeft: "16px" }}>
-              This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.
-            </p>
           </div>
         </section>
 
@@ -180,6 +178,7 @@ export default function BestPilatesSeamlessSportsBraPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.</AffiliateNote>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "48px" }}>
               {PRODUCTS.map((p) => (

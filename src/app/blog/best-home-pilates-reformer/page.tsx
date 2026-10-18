@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   description: "Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint — plus which budget tier actually fits your space and practice.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
-    description: "The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.",
+    description: "The best home Pilates reformers compared at every price point — from AeroPilates to Merrithew and Balanced Body.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Home Pilates Reformer — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Home Pilates Reformer (2026)",
-    description: "The best home Pilates reformers tested across every price point.",
+    description: "The best home Pilates reformers compared at every price point.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
   keywords: ["best home pilates reformer", "best home pilates reformer 2026", "pilates reformer for home use", "home reformer pilates review", "best pilates reformer to buy", "top rated home pilates reformer", "pilates reformer home workout", "best reformer for beginners at home"],
@@ -108,7 +109,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer/#article",
       "headline": "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
-      "description": "The best home Pilates reformers tested across every price point — from budget AeroPilates to professional Merrithew and Balanced Body machines.",
+      "description": "The best home Pilates reformers compared at every price point — from budget AeroPilates to professional Merrithew and Balanced Body machines.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
@@ -207,10 +208,9 @@ export default function BestHomeReformerPage() {
               Best Home Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): Honestly Reviewed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The best home Pilates reformers tested across every price point — from AeroPilates to Merrithew and Balanced Body.
+              The best home Pilates reformers compared at every price point — from AeroPilates to Merrithew and Balanced Body.
             </p>
           </div>
         </section>
@@ -269,6 +269,7 @@ export default function BestHomeReformerPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             {/* Products */}
             <div className="mb-16">

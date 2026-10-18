@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -135,7 +136,6 @@ export default function VuoriPilatesPage() {
               Vuori for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces for Men &amp; Women</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Vuori launched in San Diego in 2015 with a proposition that most activewear brands miss: make clothes that look good outside the gym without sacrificing what you need inside it. For Pilates, that positioning is useful. The brand&apos;s men&apos;s range in particular fills a gap that every other premium activewear brand leaves open — and this is the only guide on this site that covers men&apos;s Pilates activewear in any depth.
@@ -163,6 +163,8 @@ export default function VuoriPilatesPage() {
                 For women, Vuori is a strong alternative to Lululemon at a comparable quality level and slightly lower price — with a more relaxed, coastal feel than the technical precision of Lululemon or the trend-driven positioning of Alo. The women&apos;s range is less extensive than the category leaders, but every piece listed here has been selected specifically for Pilates performance.
               </p>
             </div>
+
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-12 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>A note on men&apos;s Pilates activewear</h2>
@@ -225,7 +227,7 @@ export default function VuoriPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — tested for opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The definitive guide to dressing for reformer and mat Pilates — what works, what to avoid, and why it matters." href="/blog/what-to-wear-to-pilates" category="Style Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>

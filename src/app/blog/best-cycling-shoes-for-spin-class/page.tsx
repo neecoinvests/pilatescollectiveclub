@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -147,7 +148,6 @@ export default function BestCyclingShoesPage() {
               Best Cycling Shoes<br /><span style={{ color: "#8b4a31" }}>for Spin Class (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The right cycling shoe locks your foot to the pedal and turns a generic spin session into genuine power-transfer training, but cleat compatibility, fit, and price vary widely between brands. This guide compares the five shoes most worth considering for home and studio cycling in 2026, from the dedicated-brand TIEM Slipstream to budget-friendly Peloton and SPD compatible picks.
@@ -184,6 +184,7 @@ export default function BestCyclingShoesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Shoes · Clip-In Cycling</p>

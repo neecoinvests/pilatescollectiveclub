@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -9,7 +10,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Moisture-Wicking Tops for Pilates & Spin (2026)",
-  description: "Stay dry and comfortable through the hardest Lagree and spin sessions. We tested the best moisture-wicking tops for women and men across breathability, fit, and durability.",
+  description: "Stay dry and comfortable through the hardest Lagree and spin sessions. We compared the best moisture-wicking tops for women and men across breathability, fit, and durability.",
   keywords: [
     "best moisture wicking top pilates",
     "best workout top spin class",
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Moisture-Wicking Tops for Pilates & Spin (2026)",
-    description: "Stay dry through Lagree and spin sessions. Top-tested moisture-wicking shirts for breathability, fit, and durability.",
+    description: "Stay dry through Lagree and spin sessions. Top-rated moisture-wicking shirts for breathability, fit, and durability.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-moisture-wicking-top-for-pilates-and-spin",
     images: [
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Moisture-Wicking Tops for Pilates & Spin (2026)",
-    description: "Stay dry through Lagree and spin sessions. Top-tested moisture-wicking shirts for breathability, fit, and durability.",
+    description: "Stay dry through Lagree and spin sessions. Top-rated moisture-wicking shirts for breathability, fit, and durability.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
   alternates: {
@@ -127,7 +128,7 @@ const jsonLd = {
       "@type": "Article",
       headline: "Best Moisture-Wicking Tops for Pilates & Spin (2026)",
       description:
-        "Stay dry and comfortable through the hardest Lagree and spin sessions. We tested the best moisture-wicking tops across breathability, fit, and durability.",
+        "Stay dry and comfortable through the hardest Lagree and spin sessions. We compared the best moisture-wicking tops across breathability, fit, and durability.",
       url: "https://pilatescollectiveclub.com/blog/best-moisture-wicking-top-for-pilates-and-spin",
       datePublished: "2026-07-02",
       dateModified: "2026-07-02",
@@ -269,19 +270,6 @@ export default function BestMoistureWickingTopPage() {
               A soaked cotton tee in a Lagree session is not just uncomfortable — it throws off your grip, your instructor&apos;s visibility of your form, and your motivation to push through the last four minutes. The right moisture-wicking top makes an outsized difference in how your training feels and performs.
             </p>
 
-            <p
-              style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: "14px",
-                fontWeight: 300,
-                color: "#9a9490",
-                lineHeight: 1.7,
-                borderLeft: "2px solid #d4c5b5",
-                paddingLeft: "16px",
-              }}
-            >
-              This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.
-            </p>
           </div>
         </section>
 
@@ -380,6 +368,7 @@ export default function BestMoistureWickingTopPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.</AffiliateNote>
 
             {/* Product cards */}
             <div className="space-y-10">

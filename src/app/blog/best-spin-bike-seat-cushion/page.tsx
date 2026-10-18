@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -8,11 +9,11 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Spin Bike Seat Cushions (2026): Tested & Ranked",
+  title: "Best Spin Bike Seat Cushions (2026): Compared & Ranked",
   description: "Spin bike seat cushions and replacement saddles ranked — plus the honest fix order, because a thick gel cover often makes saddle pain worse, not better.",
   keywords: ["best spin bike seat cushion", "spin bike seat cushion", "peloton seat cushion", "gel bike seat cover", "indoor cycling saddle pain", "bikeroo saddle", "replacement saddle spin bike", "bike seat cushion for women", "spin bike saddle comfort", "seat cushion 2026"],
   openGraph: {
-    title: "Best Spin Bike Seat Cushions (2026): Tested & Ranked",
+    title: "Best Spin Bike Seat Cushions (2026): Compared & Ranked",
     description: "Cushions and replacement saddles ranked — and why a thick gel cover often makes saddle pain worse.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-spin-bike-seat-cushion",
@@ -96,7 +97,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Spin Bike Seat Cushions (2026): Tested & Ranked",
+      "headline": "Best Spin Bike Seat Cushions (2026): Compared & Ranked",
       "description": "Seat cushions, gel covers and replacement saddles compared for indoor cycling — plus the fit checks that solve saddle pain before any purchase.",
       "url": "https://pilatescollectiveclub.com/blog/best-spin-bike-seat-cushion",
       "datePublished": "2026-09-14",
@@ -158,7 +159,6 @@ export default function BestSpinBikeSeatCushionPage() {
               Best Spin Bike<br /><span style={{ color: "#8b4a31" }}>Seat Cushions (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The uncomfortable truth about this category: a thick gel cushion is often the wrong fix and sometimes makes things worse. Saddle pain is usually a fit problem — a saddle too narrow for your sit bones, or set too high — and padding over it lets you sink further into soft tissue while raising your effective saddle height. Work through the fix order below before you buy anything, then buy the right thing.
@@ -213,6 +213,7 @@ export default function BestSpinBikeSeatCushionPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Options · Ranked</p>

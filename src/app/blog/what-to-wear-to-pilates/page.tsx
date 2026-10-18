@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -189,7 +190,6 @@ export default function WhatToWearToPilatesPage() {
               What to Wear<br /><span style={{ color: "#8b4a31" }}>to Pilates (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 6 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               What you wear to Pilates matters more than it does in most fitness contexts. Instructors need to see your body alignment — how your spine curves, where your shoulders are, whether your pelvis is neutral — to give you accurate corrections. Loose or baggy clothing obscures this and makes good instruction harder. Here&apos;s exactly what to wear, what to avoid, and the specific pieces that work best across reformer, mat, and barre classes.
@@ -266,6 +266,8 @@ export default function WhatToWearToPilatesPage() {
             </div>
 
             {/* Products */}
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our recommended pieces</h2>
               <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Selected for fit, function, and value — all available on Amazon.</p>
@@ -300,7 +302,7 @@ export default function WhatToWearToPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="Studio-tested grip socks ranked — from ToeSox to Tavi Noir and the best budget picks." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="grip socks ranked — from ToeSox to Tavi Noir and the best budget picks." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
               </div>
             </div>

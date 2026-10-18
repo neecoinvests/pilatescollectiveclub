@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -12,8 +13,8 @@ export const metadata: Metadata = {
   description: "The best mat bags for Pilates — open carriers, zip totes, and backpacks reviewed for size, shoulder strap comfort, and fit for thick Pilates mats.",
   keywords: ["best pilates mat bag", "pilates mat carrier 2026", "mat bag for pilates", "pilates mat tote review", "best mat bag thick mat", "yoga mat bag pilates", "pilates mat backpack", "carry pilates mat bag"],
   openGraph: {
-    title: "Best Pilates Mat Bags (2026): Carriers & Slings Tested",
-    description: "The best Pilates mat bags and carriers — tested for durability, comfort, and mat fit.",
+    title: "Best Pilates Mat Bags (2026): Carriers & Slings Compared",
+    description: "The best Pilates mat bags and carriers — compared on durability, comfort, and mat fit.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-mat-bag",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Mat Bags — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Mat Bags (2026)",
-    description: "The best Pilates mat bags and carriers — tested and ranked.",
+    description: "The best Pilates mat bags and carriers — compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-mat-bag" },
@@ -86,8 +87,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Mat Bags (2026): Carriers & Slings Tested",
-      "description": "The best Pilates mat bags and carriers — tested for durability, comfort, and mat compatibility.",
+      "headline": "Best Pilates Mat Bags (2026): Carriers & Slings Compared",
+      "description": "The best Pilates mat bags and carriers — compared on durability, comfort, and mat compatibility.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-mat-bag",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",
@@ -144,10 +145,9 @@ export default function BestPilatesMatBagPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Mat Bags<br /><span style={{ color: "#8b4a31" }}>(2026): Carriers Tested</span>
+              Best Pilates Mat Bags<br /><span style={{ color: "#8b4a31" }}>(2026): Carriers Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A mat bag is one of those purchases that most practitioners delay until they have suffered through enough awkward one-handed commutes with a mat tucked under an arm. The right carrier makes the mat feel lighter, protects it from urban grime and rain, and keeps your hands free — a meaningful quality-of-life improvement for practitioners who walk or transit to class. These five cover the range from open slings to fully enclosed bags, and from budget-conscious to investment-grade, with a focus on Pilates mats specifically, which tend to be longer and heavier than standard yoga mats.
@@ -184,9 +184,10 @@ export default function BestPilatesMatBagPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Mat Bags · Carry-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Mat Bags · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -219,7 +220,7 @@ export default function BestPilatesMatBagPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Mats" excerpt="The best mats for Pilates — five options tested for thickness, grip, and durability." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Mats" excerpt="The best mats for Pilates — five options compared on thickness, grip, and durability." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Bags" excerpt="The best studio carry-alls for your full Pilates kit." href="/blog/best-pilates-bag" category="Accessories" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>

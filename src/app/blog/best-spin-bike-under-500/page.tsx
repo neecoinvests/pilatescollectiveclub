@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -8,11 +9,11 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Spin Bikes Under $500 (2026): Tested & Ranked",
+  title: "Best Spin Bikes Under $500 (2026): Compared & Ranked",
   description: "Indoor cycling bikes under $500 ranked on flywheel weight, drive type and resistance — plus why magnetic beats friction at this price and what you give up.",
   keywords: ["best spin bike under 500", "cheap spin bike", "budget indoor cycling bike", "yosuda indoor cycling bike", "sunny health spin bike", "magnetic spin bike under 500", "belt drive spin bike", "affordable exercise bike", "spin bike for home under 500", "budget spin bike 2026"],
   openGraph: {
-    title: "Best Spin Bikes Under $500 (2026): Tested & Ranked",
+    title: "Best Spin Bikes Under $500 (2026): Compared & Ranked",
     description: "Flywheel weight, drive type and resistance compared — and why magnetic beats friction at this price.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-spin-bike-under-500",
@@ -96,7 +97,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Spin Bikes Under $500 (2026): Tested & Ranked",
+      "headline": "Best Spin Bikes Under $500 (2026): Compared & Ranked",
       "description": "Budget indoor cycling bikes compared on flywheel weight, magnetic versus friction resistance, drive type, frame stability and adjustment range.",
       "url": "https://pilatescollectiveclub.com/blog/best-spin-bike-under-500",
       "datePublished": "2026-09-14",
@@ -158,7 +159,6 @@ export default function BestSpinBikeUnder500Page() {
               Best Spin Bikes<br /><span style={{ color: "#8b4a31" }}>Under $500 (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Two specifications decide a bike at this price and neither appears in the marketing. Flywheel weight determines whether the pedal stroke feels like cycling or like pushing against a brake — 35lb and up. And resistance type determines whether you are still happy with the bike in year three: magnets are silent and wear-free, friction pads squeak and need replacing. Everything else on the spec sheet at this price is noise.
@@ -194,6 +194,7 @@ export default function BestSpinBikeUnder500Page() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Bikes · Ranked</p>

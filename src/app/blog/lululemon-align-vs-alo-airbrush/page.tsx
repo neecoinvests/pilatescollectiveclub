@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -11,8 +12,8 @@ export const metadata: Metadata = {
   description: "Lululemon Align vs Alo Airbrush legging compared for Pilates — fabric feel, compression, opacity on the reformer, waistband stability, and price value.",
   keywords: ["lululemon align vs alo airbrush", "align vs airbrush pilates 2026", "best legging for pilates lululemon vs alo", "alo airbrush vs lululemon align comparison", "which is better lululemon or alo pilates", "pilates legging showdown lululemon alo"],
   openGraph: {
-    title: "Lululemon Align vs Alo Airbrush (2026): Tested for Pilates",
-    description: "Lululemon Align vs Alo Airbrush — tested head-to-head across 8 criteria for reformer and mat Pilates. Fabric, compression, opacity, and our honest pick.",
+    title: "Lululemon Align vs Alo Airbrush (2026): Compared on Pilates",
+    description: "Lululemon Align vs Alo Airbrush compared head-to-head across 8 criteria for reformer and mat Pilates. Fabric, compression, opacity, and our honest pick.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/lululemon-align-vs-alo-airbrush",
     images: [
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Lululemon Align vs Alo Airbrush (2026): The Honest Verdict",
-    description: "Tested head-to-head for reformer Pilates. Which legging actually wins?",
+    description: "Compared head-to-head for reformer Pilates. Which legging actually wins?",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"],
   },
   alternates: {
@@ -42,7 +43,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Lululemon Align vs Alo Airbrush Leggings (2026): The Honest Verdict",
-      "description": "A detailed head-to-head comparison of the Lululemon Align and Alo Airbrush leggings tested specifically for reformer Pilates — fabric, compression, opacity, waistband, price, and durability.",
+      "description": "A detailed head-to-head comparison of the Lululemon Align and Alo Airbrush leggings compared specifically for reformer Pilates — fabric, compression, opacity, waistband, price, and durability.",
       "url": "https://pilatescollectiveclub.com/blog/lululemon-align-vs-alo-airbrush",
       "datePublished": "2026-05-16",
       "dateModified": "2026-05-16",
@@ -161,17 +162,6 @@ export default function LululemonAlignVsAloAirbrushPage() {
               Updated May 2026 · 10 min read
             </p>
 
-            <p
-              className="text-xs mb-8 px-4 py-3 rounded-lg"
-              style={{
-                color: "#86736d",
-                fontFamily: "'Montserrat', sans-serif",
-                backgroundColor: "#f6f3f2",
-                border: "1px solid rgba(217,194,186,0.4)",
-              }}
-            >
-              <span style={{ fontWeight: 600 }}>Affiliate disclosure:</span> Some links on this page go to Amazon. We earn a small commission on qualifying purchases at no extra cost to you. This does not affect our editorial judgement — we compare both products honestly.
-            </p>
 
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
 
@@ -179,7 +169,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
               className="text-lg leading-relaxed"
               style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
             >
-              This comparison is written for practitioners who already know they want to invest in a premium studio legging and are deciding between the two most-discussed options in Pilates circles. We tested both across reformer, mat, and tower sessions — specifically examining the criteria that matter in a Pilates context, where your instructor observes alignment closely and the equipment places unusual demands on fabric. Here is what we actually found.
+              This comparison is written for practitioners who already know they want to invest in a premium studio legging and are deciding between the two most-discussed options in Pilates circles. We compared both across reformer, mat, and tower sessions — specifically examining the criteria that matter in a Pilates context, where your instructor observes alignment closely and the equipment places unusual demands on fabric. Here is what we actually found.
             </p>
           </div>
         </section>
@@ -205,6 +195,8 @@ export default function LululemonAlignVsAloAirbrushPage() {
 
         {/* Main editorial content */}
         <section className="px-6 pb-20">
+          <AffiliateNote><span style={{ fontWeight: 600 }}>Affiliate disclosure:</span> Some links on this page go to Amazon. We earn a small commission on qualifying purchases at no extra cost to you. This does not affect our editorial judgement — we compare both products honestly.</AffiliateNote>
+
           <div className="max-w-3xl mx-auto">
 
             {/* Quick verdict table */}
@@ -323,7 +315,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
               className="text-sm mb-10"
               style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
             >
-              Each criterion tested specifically within a Pilates context.
+              Each criterion is judged specifically within a Pilates context.
             </p>
 
             {/* Criteria sections */}
@@ -488,7 +480,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                   className="text-sm leading-relaxed mb-4"
                   style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  The Align in black is completely opaque under all testing conditions. However, lighter colourways — ivory, soft blush, pale stone, and pastel tones — show measurable sheerness in deep hip flexion. This is a consequence of Nulu&apos;s lower fabric weight and the way it stretches: the weave opens under tension. Lululemon&apos;s own squat-test marketing focuses on squatting, but the Pilates hip-flexion position is a more extreme fabric stress test than a bodyweight squat.
+                  Black is the safest Align colour for opacity. Lighter colourways — ivory, soft blush, pale stone, and pastel tones — are more likely to show sheerness in deep hip flexion. This is a consequence of Nulu&apos;s lower fabric weight and the way it stretches: the weave opens under tension. Lululemon&apos;s own squat-test marketing focuses on squatting, but the Pilates hip-flexion position is a more extreme fabric stress test than a bodyweight squat.
                 </p>
                 <p
                   className="text-sm leading-relaxed"
@@ -540,7 +532,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                   className="text-sm leading-relaxed mb-4"
                   style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  The Align&apos;s wide, smooth waistband performs very well here. It does not roll, does not dig, and sits flat whether you are lying on your back, side, or stomach. The band is seamless at the body-contact edge, which matters when performing exercises lying prone on the reformer carriage. In our testing, it held its position across a full 55-minute reformer session without any adjustment.
+                  The Align&apos;s wide, smooth waistband performs very well here. It does not roll, does not dig, and sits flat whether you are lying on your back, side, or stomach. The band is seamless at the body-contact edge, which matters when performing exercises lying prone on the reformer carriage. It is designed to stay in place through a full reformer session without any adjustment.
                 </p>
                 <p
                   className="text-sm leading-relaxed"
@@ -950,7 +942,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
               </h2>
               <ArticleCard
                 title="Best Pilates Leggings (2026)"
-                excerpt="The five best leggings for Pilates studio-tested across reformer, mat, and tower — ranked by opacity, waistband stability, and overall value."
+                excerpt="The five best leggings for Pilates across reformer, mat, and tower — ranked by opacity, waistband stability, and overall value."
                 href="/blog/best-pilates-leggings"
                 category="Equipment Guide"
                 readTime="9 min read"

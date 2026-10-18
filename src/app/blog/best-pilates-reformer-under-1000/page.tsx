@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -212,7 +213,6 @@ export default function BestPilatesReformerUnder1000Page() {
               Best Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>Under $1,000 (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Genuine spring reformers do exist under $1,000. Live Amazon listings include a real tier of budget, generic-brand reformers — WINDFOOT, DWKWE, and two PAETA models — with genuine coil-spring or spring-plus-cord resistance, all comfortably under $1,000. This guide covers all six genuine, currently-sold reformers in this bracket: four with real spring resistance from unfamiliar brands, and two established-brand cord machines from AeroPilates.
@@ -262,6 +262,7 @@ export default function BestPilatesReformerUnder1000Page() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Verified Reformers · Under $1,000</p>

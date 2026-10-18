@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -228,7 +229,6 @@ export default function WhatToWearToLagreePage() {
               What to Wear to Lagree<br /><span style={{ color: "#8b4a31" }}>(2026): 3 Complete Outfits</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on published specifications and how Lagree is taught, not a hands-on test.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree looks gentle from the doorway — slow moves on a sliding machine — and then you&apos;re shaking in a plank on the Megaformer, drenched, with your top sliding up to your armpits. What you wear matters more than in most classes. Here are the five rules, three complete head-to-toe outfits at three budgets, what to bring, and what to leave at home.
@@ -251,6 +251,8 @@ export default function WhatToWearToLagreePage() {
           <div className="max-w-3xl mx-auto">
 
             {/* Outfits at a glance */}
+            <AffiliateNote>Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on published specifications and how Lagree is taught, not a hands-on test.</AffiliateNote>
+
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The three outfits at a glance</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

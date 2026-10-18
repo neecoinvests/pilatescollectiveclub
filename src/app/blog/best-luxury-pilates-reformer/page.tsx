@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -168,7 +169,6 @@ export default function BestLuxuryPilatesReformerPage() {
               Best Luxury Pilates Reformers<br /><span style={{ color: "#8b4a31" }}>for Home Studios (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. Every reformer in this guide is sold direct through Amazon. Prices checked September 2026.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               At the summit of the Pilates equipment market sits a small number of machines built to a standard that has nothing to do with price sensitivity. Balanced Body&apos;s Studio and Rialto lines, and Merrithew&apos;s clinical-grade Rehab V2 Max Plus, represent decades of manufacturing craft and precision engineering — and, unlike most boutique reformer makers, they&apos;re sold direct through Amazon rather than only through a dealer network.
@@ -211,6 +211,7 @@ export default function BestLuxuryPilatesReformerPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. Every reformer in this guide is sold direct through Amazon. Prices checked September 2026.</AffiliateNote>
 
             {/* Product cards */}
             <div className="mb-16">

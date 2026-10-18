@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -295,7 +296,6 @@ export default function LagreeRecoveryPage() {
               Sore After Lagree?<br /><span style={{ color: "#8b4a31" }}>What Helps, and the Gear Worth Buying</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. This article is general information, not medical advice.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               You survived the class. You even enjoyed the shakes. Then you tried to sit down the next morning. Lagree has a reputation for next-day soreness that surprises even people who lift or run, and there is a good reason for it. This guide explains why it happens and how long it lasts. It covers what genuinely helps, which is less than marketing suggests, and the recovery tools worth your money at every budget.
@@ -454,6 +454,7 @@ export default function LagreeRecoveryPage() {
                   <span>{fmt(BASICS_TOTAL)}</span>
                 </div>
               </div>
+              <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. This article is general information, not medical advice.</AffiliateNote>
 
               <h3 className="text-2xl font-semibold mb-6" style={h2Style}>The basics</h3>
               <div className="space-y-8 mb-12">

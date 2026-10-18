@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -106,7 +107,6 @@ export default function AlignPilatesReformerReviewPage() {
               Align-Pilates C8-PRO Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Real Amazon-Sold Reformer, Honestly Assessed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Align-Pilates is not the brand you find in Pilates textbooks or on the walls of established studios. You may see several Align models, including a &quot;C2 Pro RC,&quot; mentioned online, but we could not verify those as genuine, live Amazon listings — so this review focuses on the one Align reformer we could actually confirm: the C8-PRO, sold on Amazon by Merrithew at $2,750. This is an honest review of that real listing, and an honest note about what we couldn&apos;t confirm.
@@ -202,6 +202,7 @@ export default function AlignPilatesReformerReviewPage() {
                   </div>
                 ))}
               </div>
+              <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
               {/* ProductCards */}
               <div className="space-y-10">

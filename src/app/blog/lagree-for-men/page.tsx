@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -275,7 +276,6 @@ export default function LagreeForMenPage() {
               Lagree for Men<br /><span style={{ color: "#8b4a31" }}>(2026): What to Wear &amp; What to Expect</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on published specifications and how Lagree is taught, not a hands-on test.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Plenty of men walk into their first Lagree class expecting a gentle stretch on a fancy machine, and walk out with shaking legs. The Megaformer is a strength workout built on slow, unbroken tension — and it rewards control, not ego. Here is what to expect, and exactly what to wear, because the standard men&apos;s gym kit of loose shorts and a baggy tee is the wrong choice for this class.
@@ -308,6 +308,8 @@ export default function LagreeForMenPage() {
             </div>
 
             {/* Expect */}
+            <AffiliateNote>Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on published specifications and how Lagree is taught, not a hands-on test.</AffiliateNote>
+
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What to expect from your first class</h2>
               <ul className="space-y-4">

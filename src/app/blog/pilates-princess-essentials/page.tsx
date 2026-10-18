@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -609,9 +610,6 @@ export default function PilatesPrincessEssentialsPage() {
               Pilates Princess Essentials<br /><span style={{ color: "#8b4a31" }}>(2026): The Aesthetic Edit</span>
             </h1>
             <p className="text-sm mb-6" style={mutedStyle}>Updated September 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={mutedStyle}>
-              *Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) link directly to the brand&apos;s own website and are clearly marked. Prices were verified on 27 September 2026 and can change.
-            </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ ...bodyStyle, fontWeight: 300 }}>
               The pilates princess aesthetic is soft colours, matching sets, slouchy grip socks, a claw clip and a beautiful water bottle. It is easy to buy the look and end up with leggings that go sheer on the footbar or a bra that slides every time you roll. This edit works the other way round: <strong style={{ fontWeight: 600 }}>performance first, pretty second</strong>. Every pick has a job in class, every price was checked against a live listing, and wherever a budget dupe does the job, we say so.
@@ -651,6 +649,7 @@ export default function PilatesPrincessEssentialsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) link directly to the brand&apos;s own website and are clearly marked. Prices were verified on 27 September 2026 and can change.</AffiliateNote>
 
             {/* Principles */}
             <div className="mb-16 mt-4">

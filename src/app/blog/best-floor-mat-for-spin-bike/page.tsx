@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -147,7 +148,6 @@ export default function BestFloorMatSpinBikePage() {
               Best Floor Mat<br /><span style={{ color: "#8b4a31" }}>for Spin Bike (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 7 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A spin bike without a floor mat scratches hardwood, vibrates into surrounding rooms, and leaves sweat pooling directly on the floor. The right mat solves all three problems and costs a fraction of the bike itself. This guide compares the five best-value options for 2026, from budget Peloton-compatible mats to a pick from an established fitness brand.
@@ -184,6 +184,7 @@ export default function BestFloorMatSpinBikePage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Mats · All Floor Types</p>

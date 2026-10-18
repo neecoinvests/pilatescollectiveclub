@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -328,7 +329,6 @@ export default function LagreeMicroVsMegaformerPage() {
               Lagree Micro vs Megaformer<br /><span style={{ color: "#8b4a31" }}>(2026): Home Machine or Studio?</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Micro links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The Megaformer is not sold on Amazon; its link goes to lagreefitness.com and is not an affiliate link. This comparison is based on Lagree Fitness&apos;s published listings and information, not a hands-on test.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Every Lagree regular eventually does the maths: three classes a week adds up fast, and Lagree Fitness sells a home machine. So is the Micro ({MICRO.price}) a substitute for the Megaformer you shake on in class? Not quite — but for the right person it is the best Lagree purchase there is. Here is exactly what each machine is for, what carries over at home and what doesn&apos;t, and the cost-per-workout numbers.
@@ -374,6 +374,8 @@ export default function LagreeMicroVsMegaformerPage() {
             </div>
 
             {/* Comparison table */}
+            <AffiliateNote>Micro links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The Megaformer is not sold on Amazon; its link goes to lagreefitness.com and is not an affiliate link. This comparison is based on Lagree Fitness&apos;s published listings and information, not a hands-on test.</AffiliateNote>
+
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Side by side</h2>
               <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -169,7 +170,6 @@ export default function BestLagreeBagPage() {
               The Best Lagree Bag<br /><span style={{ color: "#8b4a31" }}>for Class (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Amazon prices were checked on 2 October 2026 and can change. One pick (Lululemon) is not sold on Amazon and links directly to lululemon.com; we earn no commission on it.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree is the sweatiest thing most people do in a studio. Slow tempo and long time under tension mean you sweat steadily for the whole class, and you walk out with a damp towel, damp grip socks and a top you would rather not fold back in with your clean clothes. That is why the best Lagree bag is not the prettiest or the biggest — it is the one that separates wet kit and outdoor shoes from everything else.
@@ -205,6 +205,7 @@ export default function BestLagreeBagPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Amazon prices were checked on 2 October 2026 and can change. One pick (Lululemon) is not sold on Amazon and links directly to lululemon.com; we earn no commission on it.</AffiliateNote>
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a good Lagree bag</h2>

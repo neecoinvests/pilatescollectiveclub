@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   keywords: ["beyond yoga pilates", "beyond yoga leggings pilates review", "beyond yoga spacedye pilates", "beyond yoga vs lululemon pilates", "best beyond yoga for reformer", "beyond yoga activewear pilates", "beyond yoga 2026 pilates"],
   openGraph: {
     title: "Beyond Yoga for Pilates (2026): Brand Review & Best Pieces",
-    description: "Beyond Yoga reviewed for Pilates — Spacedye leggings, bras, and sets tested for studio performance.",
+    description: "Beyond Yoga reviewed for Pilates — Spacedye leggings, bras, and sets compared on studio performance.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/beyond-yoga-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Beyond Yoga for Pilates — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Beyond Yoga for Pilates (2026)",
-    description: "Beyond Yoga reviewed for Pilates — tested and ranked.",
+    description: "Beyond Yoga reviewed for Pilates — compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/beyond-yoga-pilates" },
@@ -87,7 +88,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Beyond Yoga for Pilates (2026): Brand Review & Best Pieces",
-      "description": "Beyond Yoga reviewed for Pilates — the Spacedye leggings, bras, and sets tested for reformer and mat performance.",
+      "description": "Beyond Yoga reviewed for Pilates — the Spacedye leggings, bras, and sets compared on reformer and mat performance.",
       "url": "https://pilatescollectiveclub.com/blog/beyond-yoga-pilates",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",
@@ -132,7 +133,6 @@ export default function BeyondYogaPilatesPage() {
               Beyond Yoga<br /><span style={{ color: "#8b4a31" }}>for Pilates: Brand Review</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Beyond Yoga is one of the most underrepresented brands in the Pilates conversation — surprising, given that its Spacedye fabric is among the most genuinely soft options available for studio practice, and its size range (XXS to 3XL across most styles) addresses a significant gap left by brands like Alo Yoga and Splits59. The brand was acquired by Levi Strauss in 2021 and has continued to expand without meaningfully compromising its original quality. For practitioners who find Lululemon too minimal aesthetically or want more size options without compromising fabric quality, Beyond Yoga warrants close attention.
@@ -151,6 +151,8 @@ export default function BeyondYogaPilatesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
             <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is Spacedye fabric?</h2>
               <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
@@ -159,7 +161,7 @@ export default function BeyondYogaPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Best Pieces · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Best Pieces · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -192,7 +194,7 @@ export default function BeyondYogaPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Leggings" excerpt="Five studio-tested leggings including Beyond Yoga, ranked across all price points." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings including Beyond Yoga, ranked across all price points." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Lululemon Align Review" excerpt="An honest review of the most popular Pilates legging — is it worth it?" href="/blog/lululemon-align-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Sets" excerpt="Six coordinated sets — see how Beyond Yoga's Spacedye set compares." href="/blog/best-pilates-sets" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Bodysuits" excerpt="One-piece options for Pilates practice — an alternative to Beyond Yoga's legging-led line." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />

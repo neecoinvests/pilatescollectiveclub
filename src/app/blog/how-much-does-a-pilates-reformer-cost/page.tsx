@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -844,6 +845,8 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
             </div>
 
             {/* ── Real Amazon listings by tier ── */}
+            <AffiliateNote />
+
             <div className="mb-16">
               <p
                 className="text-xs font-semibold uppercase tracking-[0.2em] mb-2"

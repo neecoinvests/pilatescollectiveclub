@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -147,7 +148,6 @@ export default function BestSmartRingForPilatesPage() {
               Best Smart Ring<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 7 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A smartwatch on a reformer is a liability — thick bezels catch on straps, crown buttons snag on carriage edges, and the constant wrist presence interrupts hand placements that Pilates demands. Smart rings eliminate every one of those problems. The finger is also the superior measurement site for optical heart rate versus the wrist, producing cleaner readings through the same exercises that confound wrist-worn sensors. These five rings cover the range worth knowing about: the premium, category-leading Oura Ring 5 at the top, and four budget-to-midrange alternatives that cover the core metrics — heart rate, sleep and blood oxygen — for a fraction of the price.
@@ -183,9 +183,10 @@ export default function BestSmartRingForPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Smart Rings · Studio-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Smart Rings · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

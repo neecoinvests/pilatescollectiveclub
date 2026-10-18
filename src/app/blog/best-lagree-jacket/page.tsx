@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -257,7 +258,6 @@ export default function LagreeJacketPage() {
               Lagree Jacket<br /><span style={{ color: "#8b4a31" }}>(2026): The Define Jacket &amp; 6 Fitted Layers</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on each product&apos;s published specifications and how a layer is used around a Lagree class, not a hands-on test.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Nobody keeps a jacket on through a Lagree class — five minutes of slow lunges on the Megaformer and you&apos;re peeling it off. But you need one for the other two moments: waiting in a cool studio before class, and walking out drenched afterwards. That calls for a fitted zip layer that goes on fast over a damp top, keeps its shape and holds your phone. Here are seven, from the lululemon Define Jacket to a three-pack for about $33.
@@ -280,6 +280,8 @@ export default function LagreeJacketPage() {
           <div className="max-w-3xl mx-auto">
 
             {/* Quick picks */}
+            <AffiliateNote>Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on each product&apos;s published specifications and how a layer is used around a Lagree class, not a hands-on test.</AffiliateNote>
+
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Quick picks</h2>
               <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>

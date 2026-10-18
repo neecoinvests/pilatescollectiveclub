@@ -191,7 +191,7 @@ export default function Page() {
             If she's just starting pilates — or just signed up for her first reformer session — the right gift can transform her experience from the very beginning. Beginners need fundamentals, not gimmicks: the grip socks the studio requires, the mat for home practice, the resistance bands that extend her training. This guide covers exactly those — the equipment that gives a beginner the right foundation, ranked by what gets used most and bought least.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Beginner-tested picks</span>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Beginner-friendly picks</span>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Amazon links confirmed</span>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Updated 2026</span>
           </div>

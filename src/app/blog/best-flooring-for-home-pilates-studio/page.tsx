@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -147,7 +148,6 @@ export default function BestFlooringForHomePilatesStudioPage() {
               Best Flooring for a<br /><span style={{ color: "#8b4a31" }}>Home Pilates Studio</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Flooring is the decision people make last and regret first. Buy too little coverage and you&apos;re stuck taping tiles together at the edge of your mat; buy the wrong type and equipment leaves permanent dents within weeks. Interlocking EVA foam tiles are the practical, do-it-yourself answer for almost every home Pilates room — no adhesive, no professional installation, and tiles that lift out individually if one gets damaged or come up entirely when you move. The real decisions are how much square footage you need and whether anything heavier than a mat will sit on the floor. These five options span a small budget starter pack up to full-room coverage, plus a heavier rubber-top tile built to take equipment.
@@ -183,6 +183,7 @@ export default function BestFlooringForHomePilatesStudioPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Options · Ranked</p>

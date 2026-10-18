@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -204,6 +205,7 @@ export default function BestPilatesMatCleanerPage() {
                 ))}
               </ul>
             </div>
+            <AffiliateNote />
 
             {PRODUCTS.map((p) => (
               <div key={p.rank} className="mb-10">
@@ -262,7 +264,7 @@ export default function BestPilatesMatCleanerPage() {
                   imageUrl="/pictures/stitch-mat-setup-beige.png"
                 />
                 <ArticleCard
-                  title="Best Yoga Mat Towel for Pilates (2026): Non-Slip Picks Tested"
+                  title="Best Yoga Mat Towel for Pilates (2026): Non-Slip Picks Ranked"
                   excerpt="Manduka eQua, Liforme, Gaiam — the mat towels that turn any surface into a non-slip Pilates platform."
                   href="/blog/best-yoga-mat-towel-for-pilates"
                   category="Equipment"

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -221,7 +222,6 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
               {props.h1}<br /><span style={{ color: "#8b4a31" }}>{props.h1Accent}</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: sans }}>{props.updatedLabel} · {props.readTime}</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: sans }}>*Some links on this page are affiliate links: we earn a small commission on qualifying purchases at no extra cost to you. Specifications are taken from each product&apos;s listing or the manufacturer, not from our own testing. Prices were checked live on Amazon on the date above and change often.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             {props.intro.map((p, i) => (
               <p key={i} className={i === 0 ? "text-lg leading-relaxed mb-5" : "text-base leading-relaxed mb-5"} style={{ ...bodyStyle, fontWeight: i === 0 ? 300 : 400 }}>{p}</p>
@@ -246,7 +246,7 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
           <div className="max-w-3xl mx-auto">
 
             {props.quickPicks && props.quickPicks.length > 0 && (
-              <div className="mb-16 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="mb-4 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
                 <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
                   <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Quick picks: at a glance</p>
                 </div>
@@ -269,6 +269,7 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
                 })}
               </div>
             )}
+            <AffiliateNote className={props.quickPicks && props.quickPicks.length > 0 ? "mb-16" : "mb-10 mt-4"}>Some links on this page are affiliate links: we earn a small commission on qualifying purchases at no extra cost to you. Specifications are taken from each product&apos;s listing or the manufacturer, not from our own testing. Prices were checked live on Amazon on the date above and change often.</AffiliateNote>
 
             {props.blocks.map((b, bi) => {
               switch (b.kind) {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -163,7 +164,6 @@ export default function YourReformerPilatesPage() {
               Your Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): The Connected Home Studio</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not find a live Amazon listing for Your Reformer — four links on this page go directly to yourreformer.com and we earn no commission from them. Two links go to real, verified Amazon products (not Your Reformer-branded), and we earn a small commission on qualifying purchases through them.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Your Reformer pairs a reformer with an integrated app — hardware plus content, in the vein of Peloton&apos;s approach to home cycling. It is sold direct through yourreformer.com rather than on Amazon, so this review is honest about what we could and couldn&apos;t independently verify: we could not confirm the brand&apos;s specific spring count, exact pricing, or precise hardware specifications. What follows covers what the brand itself claims, flags what we couldn&apos;t verify, points you to yourreformer.com to confirm specifics before buying, and adds two real, honestly-disclosed budget Amazon alternatives for readers who want purchase-today hardware instead.
@@ -216,6 +216,7 @@ export default function YourReformerPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>We could not find a live Amazon listing for Your Reformer — four links on this page go directly to yourreformer.com and we earn no commission from them. Two links go to real, verified Amazon products (not Your Reformer-branded), and we earn a small commission on qualifying purchases through them.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Items · 4 Your Reformer Products + 2 Verified Amazon Alternatives</p>

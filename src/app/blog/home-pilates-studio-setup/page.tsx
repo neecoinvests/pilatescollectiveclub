@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AffiliateNote from "@/components/AffiliateNote";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -693,8 +694,9 @@ export default function HomePilatesStudioSetupPage() {
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>Equipment</p>
             <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "28px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Everything you need to build your home studio</h2>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", color: "#53433e", marginBottom: "32px", lineHeight: 1.7 }}>
-              The core equipment list for a functional home Pilates space, from essential to aspirational.{" "}Affiliate disclosure.
+              The core equipment list for a functional home Pilates space, from essential to aspirational.
             </p>
+            <AffiliateNote className="mb-8" />
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
               
                 <a href="https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -411,7 +412,6 @@ export default function BestLagreeGiftsPage() {
               The Best Lagree Gifts<br /><span style={{ color: "#8b4a31" }}>(2026): 18 Ideas for Every Budget</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 11 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Every link on this page goes to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Shopping for someone who talks about &ldquo;the shakes&rdquo; like it is a good thing? Lagree people are easy to buy for once you know the secret: they go through grip socks and towels fast, they are always a little sore, and they would never buy themselves the premium version of either. Here are 18 gifts they will actually use, sorted by budget, from a $6 stocking stuffer to the brand&apos;s own home machine.
@@ -471,6 +471,7 @@ export default function BestLagreeGiftsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Every link on this page goes to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you.</AffiliateNote>
 
             {/* How to choose */}
             <div className="mb-16">

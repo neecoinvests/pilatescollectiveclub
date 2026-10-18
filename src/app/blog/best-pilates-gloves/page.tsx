@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -219,6 +220,7 @@ export default function BestPilatesGlovesPage() {
                 ))}
               </ul>
             </div>
+            <AffiliateNote />
 
             {/* Product cards */}
             {PRODUCTS.map((p) => (

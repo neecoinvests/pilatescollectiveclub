@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -335,7 +336,6 @@ export default function LagreeMicroReviewPage() {
               The Lagree Micro<br /><span style={{ color: "#8b4a31" }}>(2026): Specs, Springs &amp; Real Cost</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 12 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links on this page go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Lagree On Demand and lagreefitness.com links are not affiliate links. This review is based on Lagree Fitness&apos;s published specifications and listings, not a hands-on test.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The Micro is the only machine Lagree Fitness sells for the home, and its Amazon listing has one blunt line in the title: &ldquo;Not Pilates, it&apos;s Lagree.&rdquo; Before you spend {MICRO.price} on it, here is everything the spec sheet tells you — the exact size and weight, what each of the four springs does, how much floor you really need, which add-ons are worth it, and what a complete setup costs against a studio class pack.
@@ -381,6 +381,8 @@ export default function LagreeMicroReviewPage() {
             </div>
 
             {/* Spec sheet */}
+            <AffiliateNote>Product links on this page go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Lagree On Demand and lagreefitness.com links are not affiliate links. This review is based on Lagree Fitness&apos;s published specifications and listings, not a hands-on test.</AffiliateNote>
+
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The spec sheet</h2>
               <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>

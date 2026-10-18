@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   keywords: ["best massage gun for pilates", "percussion massager pilates recovery", "theragun pilates", "hypervolt pilates", "best percussive therapy device 2026", "massage gun reformer pilates", "pilates recovery tool", "theragun pro plus review"],
   openGraph: {
     title: "Best Massage Gun for Pilates Recovery (2026)",
-    description: "Percussion devices that actually work for post-reformer muscle release — tested and ranked.",
+    description: "Percussion devices that actually work for post-reformer muscle release — compared and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-massage-gun-for-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Massage Gun for Pilates Recovery — Pilates Collective Club" }],
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Massage Gun for Pilates Recovery (2026)",
-    description: "Percussion devices for post-reformer recovery — tested and ranked.",
+    description: "Percussion devices for post-reformer recovery — compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-massage-gun-for-pilates" },
@@ -147,7 +148,6 @@ export default function BestMassageGunForPilatesPage() {
               Best Massage Gun<br /><span style={{ color: "#8b4a31" }}>for Pilates Recovery (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 7 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Reformer Pilates creates a distinctive pattern of muscular fatigue: deep hip flexors, thoracic paraspinals, and the smaller stabilising muscles of the shoulder girdle accumulate tension across sessions in ways that foam rolling alone cannot fully address. Percussion therapy — applied correctly — accelerates inter-session recovery and improves tissue extensibility before the next class. These five devices range from budget-friendly options like TOLOCO and Elefor to a trusted Therabody pick, evaluated specifically for post-Pilates application.
@@ -183,9 +183,10 @@ export default function BestMassageGunForPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Devices · Pilates-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Devices · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

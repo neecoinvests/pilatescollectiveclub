@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -283,7 +284,6 @@ export default function LagreeVsSolidcorePage() {
               Lagree vs Solidcore<br /><span style={{ color: "#8b4a31" }}>(2026): What Actually Differs</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. We are not affiliated with Lagree Fitness or [solidcore].</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               From the doorway, a Lagree class and a Solidcore class look almost identical: a dim room, a row of long spring-loaded machines, people shaking through a lunge that seems to last forever. Underneath, they are two different businesses with two different machines and two different ideas about how a class should run. This guide explains the real differences, helps you pick the one that suits you, and lists the kit that works in both studios.
@@ -447,6 +447,7 @@ export default function LagreeVsSolidcorePage() {
                   <span>{fmt(KIT_TOTAL)}</span>
                 </div>
               </div>
+              <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. We are not affiliated with Lagree Fitness or [solidcore].</AffiliateNote>
 
               <div className="space-y-8">
                 {PICKS.map((p) => (

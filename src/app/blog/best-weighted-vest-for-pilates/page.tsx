@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -148,7 +149,6 @@ export default function BestWeightedVestForPilatesPage() {
               Best Weighted Vests<br /><span style={{ color: "#8b4a31" }}>for Pilates Practitioners</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               First, the thing most listings will not tell you: you do not wear this in a Pilates class. Supine work would put the load on your ribcage, spinal articulation needs segmental movement a rigid vest prevents, and a vest blocks the lateral rib expansion the breathing depends on. A weighted vest is for the walking and standing work that sits alongside your practice — the load-bearing Pilates itself does not provide. Judged on that, these five are the ones worth owning.
@@ -184,6 +184,7 @@ export default function BestWeightedVestForPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Vests · Ranked</p>

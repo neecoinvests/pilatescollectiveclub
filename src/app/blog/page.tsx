@@ -897,7 +897,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Seamless Sports Bras for Pilates (2026)",
-    excerpt: "Lululemon Align, Alo Airlift, Gymshark Vital, and sustainable picks tested for comfort, support, and zero pressure points.",
+    excerpt: "Lululemon Align, Alo Airlift, Gymshark Vital, and sustainable picks compared on comfort, support, and zero pressure points.",
     href: "/blog/best-pilates-seamless-sports-bra",
     category: "Clothing",
     readTime: "8 min",
@@ -921,7 +921,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates T-Shirts (2026)",
-    excerpt: "Technical tees from Lululemon Metal Vent, Vuori Strato, Alo Triumph, and Nike tested for breathability and studio style.",
+    excerpt: "Technical tees from Lululemon Metal Vent, Vuori Strato, Alo Triumph, and Nike compared on breathability and studio style.",
     href: "/blog/best-pilates-tshirts",
     category: "Clothing",
     readTime: "8 min",
@@ -937,7 +937,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Moisture-Wicking Tops for Pilates & Spin (2026)",
-    excerpt: "Lululemon Swiftly Tech, Nike Dri-FIT ADV, Alo Amplify, and sustainable picks tested for breathability, fit, and durability.",
+    excerpt: "Lululemon Swiftly Tech, Nike Dri-FIT ADV, Alo Amplify, and sustainable picks compared on breathability, fit, and durability.",
     href: "/blog/best-moisture-wicking-top-for-pilates-and-spin",
     category: "Clothing",
     readTime: "9 min",
@@ -1112,7 +1112,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
   },
   {
-    title: "Best Yoga Mat Towel for Pilates (2026): Non-Slip Picks Tested",
+    title: "Best Yoga Mat Towel for Pilates (2026): Non-Slip Picks Ranked",
     excerpt: "Manduka eQua, Liforme, Gaiam — the mat towels that turn any surface into a non-slip Pilates platform, ranked by grip, drying speed, and value.",
     href: "/blog/best-yoga-mat-towel-for-pilates",
     category: "Equipment",
@@ -1136,7 +1136,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
   },
   {
-    title: "Best Exercise Sliders for Pilates (2026): Gliding Discs Tested",
+    title: "Best Exercise Sliders for Pilates (2026): Gliding Discs Compared",
     excerpt: "Valslide, SPRI, Synergee — the sliders that replicate reformer carriage movement on any floor, for every price point.",
     href: "/blog/best-exercise-sliders-for-pilates",
     category: "Equipment",
@@ -1145,7 +1145,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Yoga Blocks for Pilates (2026): Foam, Cork & Bamboo Compared",
-    excerpt: "Manduka, Hugger Mugger cork, Lululemon, and more — tested for thoracic support, hip alignment, and Pilates-specific modifications.",
+    excerpt: "Manduka, Hugger Mugger cork, Lululemon, and more — compared on thoracic support, hip alignment, and Pilates-specific modifications.",
     href: "/blog/best-yoga-blocks-for-pilates",
     category: "Equipment",
     readTime: "6 min",
@@ -1353,7 +1353,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Home Pilates Reformer (2026): Every Budget",
-    excerpt: "A quality home reformer changes your practice permanently. We tested every price tier so you know exactly what you get.",
+    excerpt: "A quality home reformer changes your practice permanently. We compared every price tier so you know exactly what you get.",
     href: "/blog/best-home-pilates-reformer",
     category: "Equipment",
     readTime: "11 min",
@@ -1361,7 +1361,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     featured: true,
   },
   {
-    title: "Best Pilates Grip Socks (2026): Tested & Ranked",
+    title: "Best Pilates Grip Socks (2026): Compared & Ranked",
     excerpt: "Required at virtually every reformer studio. Five options across every price point and preference.",
     href: "/blog/best-pilates-grip-socks",
     category: "Equipment",
@@ -1481,8 +1481,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg",
   },
   {
-    title: "Best Pilates Leggings (2026): Tested & Ranked",
-    excerpt: "From Lululemon Align to CRZ YOGA — the leggings that genuinely serve the method, tested for opacity, waistband stability, and reformer performance.",
+    title: "Best Pilates Leggings (2026): Compared & Ranked",
+    excerpt: "From Lululemon Align to CRZ YOGA — the leggings that genuinely serve the method, compared on opacity, waistband stability, and reformer performance.",
     href: "/blog/best-pilates-leggings",
     category: "Equipment",
     readTime: "9 min",
@@ -1521,8 +1521,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
   },
   {
-    title: "Best Pilates Mat (2026): Firmness, Grip & Durability Tested",
-    excerpt: "The Pilates mat is your most important equipment purchase. We tested five across firmness, grip, and spinal feedback — from Manduka PRO to travel options.",
+    title: "Best Pilates Mat (2026): Firmness, Grip & Durability Compared",
+    excerpt: "The Pilates mat is your most important equipment purchase. We compared five across firmness, grip, and spinal feedback — from Manduka PRO to travel options.",
     href: "/blog/best-pilates-mat",
     category: "Equipment",
     readTime: "9 min",
@@ -1538,7 +1538,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Ring / Magic Circle (2026)",
-    excerpt: "Joseph Pilates invented it. We tested five versions — from STOTT to Balanced Body — for resistance, pad quality, and durability.",
+    excerpt: "Joseph Pilates invented it. We compared five versions — from STOTT to Balanced Body — for resistance, pad quality, and durability.",
     href: "/blog/best-pilates-ring",
     category: "Equipment",
     readTime: "8 min",
@@ -1554,7 +1554,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Tops & Sports Bras (2026)",
-    excerpt: "Tested for coverage across positions, instructor visibility, and reformer comfort. Lululemon, Alo, Varley, and more ranked honestly.",
+    excerpt: "Compared on coverage across positions, instructor visibility, and reformer comfort. Lululemon, Alo, Varley, and more ranked honestly.",
     href: "/blog/best-pilates-workout-tops",
     category: "Equipment",
     readTime: "8 min",
@@ -1769,8 +1769,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg",
   },
   {
-    title: "Best Leggings for Reformer Pilates (2026): Studio-Tested",
-    excerpt: "The best leggings for reformer Pilates — tested for opacity, seam placement, and performance on the carriage.",
+    title: "Best Leggings for Reformer Pilates (2026): Ranked",
+    excerpt: "The best leggings for reformer Pilates — compared on opacity, seam placement, and performance on the carriage.",
     href: "/blog/best-leggings-for-reformer-pilates",
     category: "Equipment",
     readTime: "9 min",
@@ -1778,7 +1778,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Bags (2026): Studio Totes & Carry-Alls Ranked",
-    excerpt: "The best bags for Pilates — tested for studio organisation and everyday carry.",
+    excerpt: "The best bags for Pilates — compared on studio organisation and everyday carry.",
     href: "/blog/best-pilates-bag",
     category: "Equipment",
     readTime: "8 min",
@@ -1793,16 +1793,16 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
   },
   {
-    title: "Best Pilates Biker Shorts (2026): Studio-Tested & Ranked",
-    excerpt: "The best biker shorts for Pilates — tested for reformer performance and studio comfort.",
+    title: "Best Pilates Biker Shorts (2026): Compared & Ranked",
+    excerpt: "The best biker shorts for Pilates — compared on reformer performance and studio comfort.",
     href: "/blog/best-pilates-biker-shorts",
     category: "Equipment",
     readTime: "8 min",
     imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
   },
   {
-    title: "Best Pilates Bodysuits (2026): Tested & Ranked",
-    excerpt: "The best bodysuits for Pilates — tested for reformer performance and studio style.",
+    title: "Best Pilates Bodysuits (2026): Compared & Ranked",
+    excerpt: "The best bodysuits for Pilates — compared on reformer performance and studio style.",
     href: "/blog/best-pilates-bodysuits",
     category: "Equipment",
     readTime: "8 min",
@@ -1825,15 +1825,15 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
   },
   {
-    title: "Best Pilates Clothes for Men (2026): Tested Shorts, Tights & Tops",
-    excerpt: "What men should actually wear to Pilates — six tested pieces across every budget.",
+    title: "Best Pilates Clothes for Men (2026): Shorts, Tights & Tops Ranked",
+    excerpt: "What men should actually wear to Pilates — six pieces across every budget.",
     href: "/blog/best-pilates-clothes-for-men",
     category: "Equipment",
     readTime: "9 min",
     imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
   },
   {
-    title: "Best Pilates Equipment for Men (2026): Tested and Ranked",
+    title: "Best Pilates Equipment for Men (2026): Compared and Ranked",
     excerpt: "Six essential Pilates equipment picks for men — mat, foam roller, magic circle, resistance bands, arc barrel, and home reformer.",
     href: "/blog/best-pilates-equipment-for-men",
     category: "Equipment",
@@ -1873,8 +1873,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
   },
   {
-    title: "Best Water Bottles for Pilates (2026): Tested & Ranked",
-    excerpt: "Stanley, Hydro Flask, Owala, S'well — the best studio water bottles tested for insulation, lid design, and reformer-side stability.",
+    title: "Best Water Bottles for Pilates (2026): Compared & Ranked",
+    excerpt: "Stanley, Hydro Flask, Owala, S'well — the best studio water bottles compared on insulation, lid design, and reformer-side stability.",
     href: "/blog/best-pilates-water-bottle",
     category: "Equipment",
     readTime: "6 min",
@@ -1913,16 +1913,16 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
   },
   {
-    title: "Best Pilates Jumpboards (2026): Tested & Ranked",
-    excerpt: "The best jumpboards for Pilates reformers — tested for compatibility and cardio performance.",
+    title: "Best Pilates Jumpboards (2026): Compared & Ranked",
+    excerpt: "The best jumpboards for Pilates reformers — compared on compatibility and cardio performance.",
     href: "/blog/best-pilates-jumpboard",
     category: "Equipment",
     readTime: "8 min",
     imageUrl: "/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg",
   },
   {
-    title: "Best Pilates Mat Bags (2026): Carriers & Slings Tested",
-    excerpt: "The best Pilates mat bags and carriers — tested for durability, comfort, and mat fit.",
+    title: "Best Pilates Mat Bags (2026): Carriers & Slings Compared",
+    excerpt: "The best Pilates mat bags and carriers — compared on durability, comfort, and mat fit.",
     href: "/blog/best-pilates-mat-bag",
     category: "Equipment",
     readTime: "7 min",
@@ -1946,7 +1946,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer for Tall People (2026): Long-Carriage Options",
-    excerpt: "If you're 6ft+ and struggling to find a reformer that fits, here are the 5 machines with the longest carriages — tested and ranked.",
+    excerpt: "If you're 6ft+ and struggling to find a reformer that fits, here are the 5 machines with the longest carriages — compared and ranked.",
     href: "/blog/best-pilates-reformer-for-tall-people",
     category: "Equipment",
     readTime: "9 min",
@@ -1970,7 +1970,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Sets (2026): Matching Two-Piece Outfits Ranked",
-    excerpt: "The best matching sets for Pilates — tested for reformer performance and studio style.",
+    excerpt: "The best matching sets for Pilates — compared on reformer performance and studio style.",
     href: "/blog/best-pilates-sets",
     category: "Equipment",
     readTime: "8 min",
@@ -1986,7 +1986,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Beyond Yoga for Pilates (2026): Brand Review & Best Pieces",
-    excerpt: "Beyond Yoga reviewed for Pilates — Spacedye leggings, bras, and sets tested for studio performance.",
+    excerpt: "Beyond Yoga reviewed for Pilates — Spacedye leggings, bras, and sets compared on studio performance.",
     href: "/blog/beyond-yoga-pilates",
     category: "Brand Guide",
     readTime: "8 min",
@@ -1994,7 +1994,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Elina Pilates (2026): Equipment Review — Elite & HL1 Reformers",
-    excerpt: "Elina Pilates reviewed — Elite and HL1 reformers tested for studios and serious home practitioners.",
+    excerpt: "Elina Pilates reviewed — Elite and HL1 reformers compared on studios and serious home practitioners.",
     href: "/blog/elina-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -2042,7 +2042,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lululemon Align Review (2026): Is It Worth It for Pilates?",
-    excerpt: "Honest Lululemon Align review for Pilates — tested across reformer, mat, and tower sessions.",
+    excerpt: "Honest Lululemon Align review for Pilates — compared for reformer, mat, and tower sessions.",
     href: "/blog/lululemon-align-review",
     category: "Brand Guide",
     readTime: "10 min",
@@ -2066,7 +2066,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Peak Pilates (2026): Equipment Review & Best Models Ranked",
-    excerpt: "Peak Pilates reviewed — classical wood reformers tested for home studios and serious practitioners.",
+    excerpt: "Peak Pilates reviewed — classical wood reformers compared on home studios and serious practitioners.",
     href: "/blog/peak-pilates",
     category: "Brand Guide",
     readTime: "10 min",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AffiliateNote from "@/components/AffiliateNote";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
@@ -85,7 +86,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   // 1 — Product
   {
     title: "Best Pilates Reformer Under $1,000 (2026): Honest Reviews",
-    excerpt: "The best mid-range reformers tested honestly — AeroPilates, Stamina, and Merrithew entry-level machines ranked by resistance quality, build, and long-term value.",
+    excerpt: "The best mid-range reformers compared honestly — AeroPilates, Stamina, and Merrithew entry-level machines ranked by resistance quality, build, and long-term value.",
     href: "/blog/best-pilates-reformer-under-1000",
     category: "Best For · Equipment",
     readTime: "10 min read",
@@ -96,7 +97,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   // 2 — City
   {
     title: "The Best Pilates Studios in London",
-    excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios. We visited every studio, tested every format, and ranked them honestly.",
+    excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios. Every studio compared on format, price and reviews.",
     href: "/cities/london",
     category: "City Guide",
     readTime: "8 min read",
@@ -114,7 +115,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   // 4 — Product
   {
     title: "Best Home Pilates Reformer (2026): Every Budget",
-    excerpt: "A quality home reformer changes your practice permanently. We tested every price tier — from the AeroPilates 435 to the Gratz — so you know exactly what you get at each level.",
+    excerpt: "A quality home reformer changes your practice permanently. We compared every price tier — from the AeroPilates 435 to the Gratz — so you know exactly what you get at each level.",
     href: "/blog/best-home-pilates-reformer",
     category: "Best For · Equipment",
     readTime: "11 min read",
@@ -140,8 +141,8 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   },
   // 7 — Product
   {
-    title: "Best Pilates Leggings (2026): Tested & Ranked",
-    excerpt: "From Lululemon Align to Splits59 Raquel — the leggings that genuinely serve the method, tested for opacity, waistband stability, and reformer performance across fifteen sessions.",
+    title: "Best Pilates Leggings (2026): Compared & Ranked",
+    excerpt: "From Lululemon Align to Splits59 Raquel — the leggings that genuinely serve the method, compared on opacity, waistband stability, and reformer performance across fifteen sessions.",
     href: "/blog/best-pilates-leggings",
     category: "Best For · Equipment",
     readTime: "9 min read",
@@ -169,8 +170,8 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   },
   // 10 — Product
   {
-    title: "Best Pilates Grip Socks (2026): Tested & Ranked",
-    excerpt: "Required at virtually every reformer studio worldwide. We tested five options across grip, durability, and comfort — from ToeSox to Tavi Noir — so you don't have to.",
+    title: "Best Pilates Grip Socks (2026): Compared & Ranked",
+    excerpt: "Required at virtually every reformer studio worldwide. We compared five options across grip, durability, and comfort — from ToeSox to Tavi Noir — so you don't have to.",
     href: "/blog/best-pilates-grip-socks",
     category: "Best For · Equipment",
     readTime: "7 min read",
@@ -199,7 +200,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   // 13 — Product
   {
     title: "Best Pilates Mat (2026): Firmness, Grip & Durability",
-    excerpt: "The mat is your most important equipment purchase. We tested five across firmness, grip, and spinal feedback — from the Manduka PRO to travel-friendly options under $40.",
+    excerpt: "The mat is your most important equipment purchase. We compared five across firmness, grip, and spinal feedback — from the Manduka PRO to travel-friendly options under $40.",
     href: "/blog/best-pilates-mat",
     category: "Best For · Equipment",
     readTime: "9 min read",
@@ -219,7 +220,7 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   // 15 — Product
   {
     title: "Best Premium Pilates Reformers (2026): $2K–$5K+",
-    excerpt: "Merrithew V2 Max, Balanced Body Studio Reformer, and Gratz Maple Classic tested side by side. Which professional-grade machine is worth the investment?",
+    excerpt: "Merrithew V2 Max, Balanced Body Studio Reformer, and Gratz Maple Classic compared side by side. Which professional-grade machine is worth the investment?",
     href: "/blog/best-premium-pilates-reformer",
     category: "Best For · Home Studio",
     readTime: "12 min read",
@@ -229,8 +230,8 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   },
   // 16 — Product
   {
-    title: "Best Pilates Magic Circle (2026): Tested",
-    excerpt: "Joseph Pilates invented it. We tested five versions — from STOTT to Balanced Body — for resistance feel, pad quality, and durability across 30 sessions of inner thigh and arm work.",
+    title: "Best Pilates Magic Circle (2026): Ranked",
+    excerpt: "Joseph Pilates invented it. We compared five versions — from STOTT to Balanced Body — for resistance feel, pad quality, and durability across 30 sessions of inner thigh and arm work.",
     href: "/blog/best-pilates-ring",
     category: "Best For · Equipment",
     readTime: "8 min read",
@@ -740,6 +741,7 @@ export default function Home() {
                 Carefully selected. Available on Amazon.
               </p>
             </div>
+            <AffiliateNote className="mb-12 -mt-12" />
 
             {PRODUCT_CATEGORIES.map((cat, ci) => (
               <div key={cat.label} style={{ marginBottom: ci < PRODUCT_CATEGORIES.length - 1 ? "72px" : 0 }}>

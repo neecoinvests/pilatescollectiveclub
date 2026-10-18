@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   keywords: ["peak pilates review", "peak pilates reformer 2026", "peak pilates mve review", "peak pilates fit reformer", "peak pilates vs merrithew", "peak pilates equipment buy", "peak pilates cadillac review"],
   openGraph: {
     title: "Peak Pilates (2026): Equipment Review & Best Models Ranked",
-    description: "Peak Pilates reviewed — classical wood reformers tested for home studios and serious practitioners.",
+    description: "Peak Pilates reviewed — classical wood reformers compared on home studios and serious practitioners.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/peak-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg", width: 1200, height: 630, alt: "Peak Pilates equipment review — Pilates Collective Club" }],
@@ -87,7 +87,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Peak Pilates (2026): Equipment Review & Best Models Ranked",
-      "description": "Peak Pilates equipment reviewed — the MVe, casa, fit, and PilateSystem Deluxe reformers and Wunda Chair tested for classical and contemporary practitioners.",
+      "description": "Peak Pilates equipment reviewed — the MVe, casa, fit, and PilateSystem Deluxe reformers and Wunda Chair compared on classical and contemporary practitioners.",
       "url": "https://pilatescollectiveclub.com/blog/peak-pilates",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",

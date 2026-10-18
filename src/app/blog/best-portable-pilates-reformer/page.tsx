@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -169,7 +170,6 @@ export default function BestPortablePilatesReformerPage() {
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The home reformer market has matured significantly since 2020. Where early consumer-grade reformers were crude approximations of the studio experience, today&apos;s best portable reformers deliver genuine Pilates exercise capability — including most of the classical repertoire through intermediate level — in a format that stores in a closet and sets up in two minutes. Genuine, portable spring reformers also go further down the price range than many shoppers expect: the live Amazon catalog has budget generic-brand models that fold and ship for under $300. Here is what is worth buying in 2026, honestly labeled by brand tier.
             </p>
-            <p className="text-xs mt-4" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
           </div>
         </section>
 
@@ -183,6 +183,8 @@ export default function BestPortablePilatesReformerPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
 
             <div className="mb-10 mt-4 rounded-xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <p className="text-sm font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Reformers at a glance</p>

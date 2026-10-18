@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -148,7 +149,6 @@ export default function BestMassageBallsForPilatesPage() {
               Best Massage Balls<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): 5 Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 6 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A prior version of this article named brands (Rad, Pso-Rite, Chirp Wheel) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real massage ball options are in stock and ready to buy today: the TriggerPoint GRID Ball ($24.99), the TriggerPoint MobiPoint ($13.99), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($26.00), and the Coniflor Deep Tissue Massage Ball ($8.97).
@@ -186,6 +186,7 @@ export default function BestMassageBallsForPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Full Lineup</p>

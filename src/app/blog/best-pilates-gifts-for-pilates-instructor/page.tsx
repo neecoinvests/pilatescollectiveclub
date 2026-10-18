@@ -185,7 +185,7 @@ export default function Page() {
             Giving a gift to your pilates instructor is a meaningful gesture — and the gifts that land are always the practical ones. Not a candle or a card, but the grip socks they go through by the dozen, the recovery tool they use after five back-to-back classes, the legging that holds up to daily studio wear. This guide is built around what professional instructors actually use, at price points that work for individual clients and pooled group gifts alike.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Instructor-tested picks</span>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Picks for instructors</span>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Amazon links confirmed</span>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Updated 2026</span>
           </div>

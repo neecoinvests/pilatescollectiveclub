@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -182,7 +183,6 @@ export default function DealsGuide(props: DealsGuideProps) {
               {props.h1}<br /><span style={{ color: "#8b4a31" }}>{props.h1Accent}</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked {season.checked} · {props.readTime}</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{season.disclaimer}</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>{props.intro}</p>
           </div>
@@ -211,6 +211,8 @@ export default function DealsGuide(props: DealsGuideProps) {
                 </div>
               ))}
             </div>
+
+            <AffiliateNote>{season.disclaimer.replace(/^\*/, "")}</AffiliateNote>
 
             {/* Watchlist table */}
             <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>

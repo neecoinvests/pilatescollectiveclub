@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   keywords: ["best pilates reformer for tall people", "pilates reformer tall person 2026", "long reformer pilates", "pilates reformer 6 foot tall", "extended frame pilates reformer", "balanced body reformer tall", "merrithew reformer tall people", "pilates for tall practitioners"],
   openGraph: {
     title: "Best Pilates Reformers for Tall People (2026): Long Carriage Options",
-    description: "The best Pilates reformers for tall practitioners — long carriage options tested and ranked.",
+    description: "The best Pilates reformers for tall practitioners — long carriage options compared and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-tall-people",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Reformers for Tall People — Pilates Collective Club" }],
@@ -87,7 +88,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Reformers for Tall People (2026): Long Carriage Options",
-      "description": "The best Pilates reformers for tall practitioners — long carriage options from Balanced Body, Gratz, Merrithew, and more tested.",
+      "description": "The best Pilates reformers for tall practitioners — long carriage options from Balanced Body, Gratz, Merrithew, and more compared.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-tall-people",
       "datePublished": "2026-05-21",
       "dateModified": "2026-05-21",
@@ -147,7 +148,6 @@ export default function BestPilatesReformerTallPeoplePage() {
               Best Pilates Reformers<br /><span style={{ color: "#8b4a31" }}>for Tall People (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Tall practitioners face a specific and underacknowledged challenge when buying a home reformer: most machines are designed for the average height range of 5&apos;4&quot; to 5&apos;11&quot;, and the carriage lengths, footbar reach, and spring rope configurations reflect that. Above 6&apos;1&quot;, a standard reformer begins to limit the full extension exercises that form the backbone of the Pilates repertoire. This guide covers the five reformers that genuinely accommodate tall practitioners through the complete repertoire without modification or compromise.
@@ -184,9 +184,10 @@ export default function BestPilatesReformerTallPeoplePage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Reformers · Tested for Tall Practitioners</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Reformers · Compared on Tall Practitioners</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

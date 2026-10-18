@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -182,7 +183,6 @@ export default function BestPilatesBooksPage() {
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
 
             {/* Affiliate disclaimer */}
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
 
             <section className="pb-20">
               {/* Reading path */}
@@ -195,6 +195,8 @@ export default function BestPilatesBooksPage() {
                   Add the anatomy text when you&apos;re genuinely intermediate and starting to ask &ldquo;why does this exercise target that?&rdquo; rather than just following the instruction. The reference and rehabilitation books serve different practitioners at different moments — buy them when you need them.
                 </p>
               </div>
+
+              <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
               {/* Books */}
               <div className="mb-16">

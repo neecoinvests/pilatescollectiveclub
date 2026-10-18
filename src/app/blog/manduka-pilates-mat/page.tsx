@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -135,7 +136,6 @@ export default function MandukaMatPage() {
               Manduka Pilates Mat (2026):<br /><span style={{ color: "#8b4a31" }}>PRO, eKO, and PRO Lite Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Founded in 1997, Manduka has spent nearly three decades making the case that a mat is a long-term investment rather than a commodity purchase. The PRO mat — their flagship — remains the reference point for serious practitioners worldwide. But navigating the range requires clarity: the PRO, eKO, PRO Lite, and Superlite serve genuinely different needs, and choosing the wrong one means either overspending on weight you don&apos;t need, or undershooting on the density that makes Pilates mat work effective. This guide clarifies the decision.
@@ -175,6 +175,8 @@ export default function MandukaMatPage() {
                 ))}
               </div>
             </div>
+
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Which Manduka is right for you?</h2>
@@ -249,7 +251,7 @@ export default function MandukaMatPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Mat (2026)" excerpt="Every major Pilates mat tested and ranked — from budget picks to the professional-grade options used in studios worldwide." href="/blog/best-pilates-mat" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Mat (2026)" excerpt="Every major Pilates mat compared and ranked — from budget picks to the professional-grade options used in studios worldwide." href="/blog/best-pilates-mat" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="The complete home studio guide — everything you need to replicate the studio experience without reformer-sized budgets." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="12 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
               </div>
             </div>

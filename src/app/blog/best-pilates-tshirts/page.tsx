@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -8,7 +9,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates T-Shirts (2026)",
-  description: "The best t-shirts for Pilates — tested for breathability, stretch, and studio-ready style. Our top picks from Lululemon, Vuori, Alo Yoga, Nike, and more.",
+  description: "The best t-shirts for Pilates — compared on breathability, stretch, and studio-ready style. Our top picks from Lululemon, Vuori, Alo Yoga, Nike, and more.",
   keywords: [
     "best pilates t shirt",
     "best tshirt for pilates",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates T-Shirts (2026)",
-    description: "Top-tested t-shirts for Pilates — breathable, stretchy, and studio-ready from Lululemon, Vuori, Alo Yoga, Nike, and more.",
+    description: "Top-rated t-shirts for Pilates — breathable, stretchy, and studio-ready from Lululemon, Vuori, Alo Yoga, Nike, and more.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-tshirts",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", width: 1200, height: 630, alt: "Best Pilates T-Shirts 2026" }],
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates T-Shirts (2026)",
-    description: "Top-tested t-shirts for Pilates — breathable, stretchy, and studio-ready.",
+    description: "Top-rated t-shirts for Pilates — breathable, stretchy, and studio-ready.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-tshirts" },
@@ -99,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Pilates T-Shirts (2026)",
-      description: "The best t-shirts for Pilates — tested for breathability, stretch, and studio-ready style.",
+      description: "The best t-shirts for Pilates — compared on breathability, stretch, and studio-ready style.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-tshirts",
       datePublished: "2026-07-06",
       dateModified: "2026-07-06",
@@ -152,9 +153,6 @@ export default function BestPilatesTshirtsPage() {
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>
               The t-shirt you choose for Pilates matters more than most people realise. A cotton tee becomes a wet, restrictive layer within twenty minutes of reformer work. A quality technical tee stays light, moves with you, and keeps you looking as composed in the last exercise as the first.
             </p>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.7, borderLeft: "2px solid #d4c5b5", paddingLeft: "16px" }}>
-              This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.
-            </p>
           </div>
         </section>
 
@@ -181,6 +179,7 @@ export default function BestPilatesTshirtsPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.</AffiliateNote>
 
             {/* Products */}
             <div style={{ display: "flex", flexDirection: "column", gap: "48px" }}>

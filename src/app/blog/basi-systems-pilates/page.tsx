@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -153,7 +154,6 @@ export default function BasiSystemsPilatesPage() {
               BASI Systems<br /><span style={{ color: "#8b4a31" }}>(2026): Equipment Reviewed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 10 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not find a live Amazon listing for BASI Systems equipment — four links on this page go directly to basisystems.com and we earn no commission from them. One link goes to a real, verified Amazon product (not BASI-branded), and we earn a small commission on qualifying purchases through it.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz. The brand markets its apparatus around extended carriage travel and premium materials, positioning it for professional athletes, dancers, and taller practitioners. As far as we could verify, none of it is sold on Amazon — it&apos;s a direct and dealer-network brand — and we could not independently confirm several of the specific superlatives and specifications the brand and other coverage have claimed. We&apos;ve included one real, honestly-disclosed budget Amazon alternative for readers who want a purchase-today option rather than a dealer quote. This guide is honest about what we could verify and what you should confirm yourself before buying.
@@ -206,6 +206,7 @@ export default function BasiSystemsPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>We could not find a live Amazon listing for BASI Systems equipment — four links on this page go directly to basisystems.com and we earn no commission from them. One link goes to a real, verified Amazon product (not BASI-branded), and we earn a small commission on qualifying purchases through it.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Items · 4 BASI Models + 1 Verified Amazon Alternative</p>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -147,7 +148,6 @@ export default function BestYogaBlocksForPilatesPage() {
               Best Yoga Blocks<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): 5 Real Options Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 5 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A prior version of this article named brands (Manduka, Hugger Mugger, Lululemon, REEHUT, Node Fitness) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five solid yoga block options are real, in stock, and ready to buy today: the Gaiam Yoga Block, a single EVA foam block at $14.09; the Septo 2 Pcs Yoga Blocks, a water-resistant EVA rubber pair at $11.69; the Fitvids 2-Pack at $13.60; the KEEP Yoga Block 2-Pack at $13.99; and the POUYRBA 2-Pack at $11.99.
@@ -185,6 +185,7 @@ export default function BestYogaBlocksForPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Full Lineup</p>

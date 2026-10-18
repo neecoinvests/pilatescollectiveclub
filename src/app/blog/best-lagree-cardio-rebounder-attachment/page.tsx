@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -164,7 +165,6 @@ export default function BestCardioRebounderPage() {
               Best Rebounder for<br /><span style={{ color: "#8b4a31" }}>Lagree-Style Cardio (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links on this page go to Amazon, where we earn a small commission on qualifying purchases. Prices were verified on October 2, 2026 and can change.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ ...bodyStyle, fontWeight: 300 }}>
               If you came here looking for a rebounder attachment for the Megaformer, here&apos;s the honest answer up front: we couldn&apos;t find one on Amazon. What you can buy are standalone rebounders, mini trampolines built for fitness, and they are a genuinely useful partner to Lagree. Use one for short cardio intervals between Lagree sessions, on rest days, or alongside a home setup like The Micro. These are the five worth considering, from a $699 bungee build to a sub-$70 starter.
@@ -211,6 +211,7 @@ export default function BestCardioRebounderPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Product links on this page go to Amazon, where we earn a small commission on qualifying purchases. Prices were verified on October 2, 2026 and can change.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Rebounders · Home Cardio</p>

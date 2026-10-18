@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -8,11 +9,11 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Leggings for Reformer Pilates (2026): Studio-Tested & Ranked",
-  description: "The best leggings for reformer Pilates in 2026: Lululemon Align, Alo Airbrush, Varley, Vuori, and Gymshark tested for opacity, waistband security, and reformer performance.",
+  title: "Best Leggings for Reformer Pilates (2026): Compared & Ranked",
+  description: "The best leggings for reformer Pilates in 2026: Lululemon Align, Alo Airbrush, Varley, Vuori, and Gymshark compared on opacity, waistband security, and reformer performance.",
   openGraph: {
-    title: "Best Leggings for Reformer Pilates (2026): Studio-Tested & Ranked",
-    description: "The best leggings for reformer Pilates — tested for opacity, seam placement, and performance on the carriage.",
+    title: "Best Leggings for Reformer Pilates (2026): Compared & Ranked",
+    description: "The best leggings for reformer Pilates — compared on opacity, seam placement, and performance on the carriage.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-leggings-for-reformer-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-teaser-pose-back.png", width: 1200, height: 630, alt: "Best Leggings for Reformer Pilates — Pilates Collective Club" }],
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Leggings for Reformer Pilates (2026)",
-    description: "The best leggings for reformer Pilates — studio-tested and ranked.",
+    description: "The best leggings for reformer Pilates — studio-compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-teaser-pose-back.png"],
   },
   keywords: ["best leggings for reformer pilates", "reformer pilates leggings", "best pilates leggings", "lululemon align reformer pilates", "alo airbrush pilates leggings", "varley leggings pilates", "opaque pilates leggings", "no inner seam pilates leggings", "pilates leggings 2026", "gymshark pilates leggings"],
@@ -87,8 +88,8 @@ const jsonLd = {
     {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-leggings-for-reformer-pilates/#article",
-      "headline": "Best Leggings for Reformer Pilates (2026): Studio-Tested & Ranked",
-      "description": "The best leggings for reformer Pilates — tested for opacity, seam placement, waistband security, and performance on the carriage.",
+      "headline": "Best Leggings for Reformer Pilates (2026): Compared & Ranked",
+      "description": "The best leggings for reformer Pilates — compared on opacity, seam placement, waistband security, and performance on the carriage.",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-teaser-pose-back.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" } },
@@ -137,7 +138,6 @@ export default function BestLeggingsForReformerPilatesPage() {
               Best Leggings for<br /><span style={{ color: "#8b4a31" }}>Reformer Pilates (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 8 min read</p>
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Reformer Pilates places specific demands on a legging that a general yoga or gym class does not. You move through deep hip flexion, spinal articulation, and supine exercises that expose you from multiple angles simultaneously — and your instructor needs to observe your alignment clearly throughout. That means the right reformer legging must be fully opaque, have no inner-thigh seams to cause friction during footwork, sit secure at the waist during all positions, and move without restriction. These five leggings meet every criterion.
@@ -174,6 +174,7 @@ export default function BestLeggingsForReformerPilatesPage() {
                 </div>
               ))}
             </div>
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             {/* Reformer-specific buying criteria */}
             <div className="mb-16 mt-4">
@@ -195,7 +196,7 @@ export default function BestLeggingsForReformerPilatesPage() {
 
             {/* Products list */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Leggings · Reformer-Tested</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Leggings · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -250,7 +251,7 @@ export default function BestLeggingsForReformerPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Bodysuits" excerpt="Five studio-tested bodysuits that pair perfectly with any legging for a complete reformer outfit." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Pilates Bodysuits" excerpt="Five bodysuits that pair perfectly with any legging for a complete reformer outfit." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Lululemon Align Review" excerpt="An honest deep-dive into the most popular Pilates legging in the world." href="/blog/lululemon-align-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Lululemon Align vs Alo Airbrush" excerpt="The two most-recommended reformer leggings compared head to head." href="/blog/lululemon-align-vs-alo-airbrush" category="Comparison" readTime="8 min read" date="May 2026" imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" />
