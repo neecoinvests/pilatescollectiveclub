@@ -411,75 +411,57 @@ export default function BestReformerBrandsPage() {
             <div>
               <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>All 10 reformer Pilates brands ranked</h2>
               <div className="space-y-10">
-                {BRANDS.map((brand) => (
-                  <div key={brand.name} className="rounded-2xl overflow-hidden" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", boxShadow: "0 1px 8px rgba(0,0,0,0.05)" }}>
-                    <div className="p-6 sm:p-8">
-                      {/* Header row */}
-                      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-4 mb-5">
-                        <div>
-                          <div className="flex items-center gap-3 mb-2">
-                            <span className="text-xs font-semibold uppercase tracking-[0.15em] w-6 h-6 rounded-full flex items-center justify-center text-white" style={{ backgroundColor: "#1b1c1c", fontFamily: "'Montserrat', sans-serif", fontSize: "10px" }}>{brand.rank}</span>
-                            <span className="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.12em] sm:tracking-[0.18em] px-3 py-1 rounded-full whitespace-nowrap" style={{ backgroundColor: "#f6f3f2", color: brand.badgeColor, fontFamily: "'Montserrat', sans-serif" }}>{brand.badge}</span>
+                {BRANDS.map((brand) => {
+                  const shopUrl = brand.affiliateUrl ?? brand.altUrl ?? brand.directUrl;
+                  const shopLabel = brand.affiliateUrl ? "Shop Now →" : brand.altUrl ? (brand.altLabel ?? "Shop the Alternative →") : `Shop ${brand.name} Direct (not on Amazon) →`;
+                  return (
+                    <div key={brand.name}>
+                      <div className="flex items-center gap-3 mb-4">
+                        <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(brand.rank).padStart(2, "0")}</span>
+                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{brand.badge}</span>
+                      </div>
+                      <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "28px" }}>
+                        <div className="flex justify-between items-start gap-4 mb-2.5">
+                          <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", lineHeight: 1.2, margin: 0 }}>{brand.name}</h3>
+                          <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#c5a882", whiteSpace: "nowrap", letterSpacing: "0.05em" }}>{brand.price}</span>
+                        </div>
+                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#8b4a31", marginBottom: "14px" }}>Flagship: {brand.flagship} · Best for: {brand.bestFor}</p>
+                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75, marginBottom: "18px" }}>{brand.summary}</p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-6">
+                          <div>
+                            <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#536257", marginBottom: "8px" }}>Strengths</p>
+                            <ul className="space-y-1.5">
+                              {brand.pros.map((pr, i) => (
+                                <li key={i} className="flex gap-2" style={{ fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 300, color: "#6b6560", lineHeight: 1.6 }}><span style={{ color: "#536257", flexShrink: 0 }}>+</span>{pr}</li>
+                              ))}
+                            </ul>
                           </div>
-                          <h3 className="text-2xl font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{brand.name}</h3>
+                          <div>
+                            <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#7a6a64", marginBottom: "8px" }}>Limitations</p>
+                            <ul className="space-y-1.5">
+                              {brand.cons.map((c, i) => (
+                                <li key={i} className="flex gap-2" style={{ fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 300, color: "#6b6560", lineHeight: 1.6 }}><span style={{ color: "#c5a882", flexShrink: 0 }}>–</span>{c}</li>
+                              ))}
+                            </ul>
+                          </div>
                         </div>
-                        <span className="text-sm font-semibold whitespace-nowrap" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>{brand.price}</span>
-                      </div>
-                      <p className="text-xs font-semibold mb-1" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Flagship: {brand.flagship}</p>
-                      <p className="text-xs mb-4" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Best for: {brand.bestFor}</p>
-                      <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{brand.summary}</p>
-
-                      {/* Pros / Cons */}
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-                        <div className="rounded-xl p-4" style={{ backgroundColor: "#f9f6f5" }}>
-                          <p className="text-xs font-semibold uppercase tracking-widest mb-2.5" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Strengths</p>
-                          <ul className="space-y-1.5">
-                            {brand.pros.map((p, i) => (
-                              <li key={i} className="text-xs leading-relaxed flex gap-2" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                                <span style={{ color: "#536257", flexShrink: 0 }}>+</span>{p}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                        <div className="rounded-xl p-4" style={{ backgroundColor: "#f9f6f5" }}>
-                          <p className="text-xs font-semibold uppercase tracking-widest mb-2.5" style={{ color: "#7a6a64", fontFamily: "'Montserrat', sans-serif" }}>Limitations</p>
-                          <ul className="space-y-1.5">
-                            {brand.cons.map((c, i) => (
-                              <li key={i} className="text-xs leading-relaxed flex gap-2" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                                <span style={{ color: "#c5a882", flexShrink: 0 }}>–</span>{c}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
-
-                      {/* CTA row */}
-                      <div className="flex items-center gap-4 flex-wrap">
-                        {brand.affiliateUrl ? (
-                          <a href={brand.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                            {brand.affiliateLabel}
-                          </a>
-                        ) : (
-                          <>
-                            {brand.directUrl && (
-                              <a href={brand.directUrl} target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ border: "1px solid #8b4a31", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
-                                Shop Now →
-                              </a>
-                            )}
-                            {brand.altUrl && (
-                              <a href={brand.altUrl} target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                                {brand.altLabel}
-                              </a>
-                            )}
-                          </>
+                        {shopUrl && (
+                          <a href={shopUrl} target="_blank" rel={brand.affiliateUrl || brand.altUrl ? "noopener noreferrer sponsored nofollow" : "noopener noreferrer"}
+                            style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "14px 20px", textAlign: "center" }}
+                          >{shopLabel}</a>
                         )}
-                        <Link href={`/blog/${brand.slug}`} className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                        {!brand.affiliateUrl && brand.altUrl && brand.directUrl && (
+                          <a href={brand.directUrl} target="_blank" rel="noopener noreferrer"
+                            style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#0a0a0a", textDecoration: "none", border: "1px solid #0a0a0a", padding: "13px 20px", textAlign: "center", marginTop: "10px" }}
+                          >Shop {brand.name} Direct (not on Amazon) →</a>
+                        )}
+                        <Link href={`/blog/${brand.slug}`} className="inline-block mt-4" style={{ fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 600, color: "#8b4a31", textDecoration: "underline", textUnderlineOffset: "3px" }}>
                           Read full {brand.name} guide →
                         </Link>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
 
