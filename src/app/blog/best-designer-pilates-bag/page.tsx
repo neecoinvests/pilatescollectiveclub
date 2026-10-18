@@ -60,10 +60,10 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Varley Montlake Club Duffle",
-    price: "$164",
+    price: "$163.50",
     verdict: "Best Studio-to-Street Duffle",
     description: "Varley's Montlake Club Duffle is the studio bag from the brand that dresses so many reformer regulars: structured, with leather trim, gold-tone hardware and retro contrast stripes, sized at 17.25 × 15 × 7 inches to hold a full Pilates kit plus shoes. It is currently out of stock on Amazon, so this link searches Amazon for the Varley bags that are available; the Montlake can also be bought direct from Varley.",
-    affiliateUrl: "https://www.amazon.com/s?k=varley+duffle+bag&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0GGGLLGG1?tag=pilatescollective-20",
     tag: "Studio-to-Street",
   },
   {

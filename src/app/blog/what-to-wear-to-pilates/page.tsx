@@ -35,11 +35,11 @@ const PRODUCTS = [
   {
     category: "Leggings",
     name: "CRZ YOGA Naked Feeling High Waist Leggings",
-    price: "From $28",
+    price: "$26.00",
     tag: "Best Leggings",
     description:
       "CRZ YOGA's Naked Feeling fabric has become a genuine cult choice among Pilates practitioners who want the performance of Lululemon Align at a fraction of the price. The fabric is buttery-soft, squat-proof, and has enough compression to stay put during leg circles and side-lying work without feeling restrictive. The high waist stays up through all inversions and doesn't roll. Available in 20+ colours. Consistently one of the highest-rated Pilates leggings on Amazon.",
-    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+high+waist+leggings&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20",
     imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
   },
   {
@@ -75,11 +75,11 @@ const PRODUCTS = [
   {
     category: "Socks",
     name: "ToeSox Half Toe Low Rise Grip Sock",
-    price: "From $18",
+    price: "$16.00",
     tag: "Essential Accessory",
     description:
       "Required at most reformer studios and genuinely useful for mat work — grip socks are as much a part of your Pilates outfit as the leggings. ToeSox individual-toe design allows the foot to function naturally on the footbar, improving the proprioceptive feedback that makes Pilates effective. See our full grip sock guide for alternatives and detailed comparisons.",
-    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+low+rise&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B074HNPQ9Y?tag=pilatescollective-20",
     imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
   },
 ];

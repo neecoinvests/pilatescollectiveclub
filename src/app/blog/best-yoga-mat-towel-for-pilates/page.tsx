@@ -53,31 +53,31 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Gaiam Yoga Mat Towel (Full Length)",
-    price: "From $35",
+    price: "$17.60",
     verdict: "Best mid-price mat towel",
     description:
       "The Gaiam Full Length Yoga Mat Towel is the most widely available mid-price mat towel and the appropriate recommendation for practitioners who want reliable coverage and grip at a meaningfully lower price than the Manduka and Liforme options. The microfibre construction absorbs sweat adequately for standard temperature Pilates studios, though in heated or Lagree environments the towel saturates faster than the Manduka eQua. The corner pockets grip the mat to prevent bunching during session transitions — a practical feature the eQua and Liforme achieve through silicone grip dots rather than pockets. The 68x24 inch format provides full mat coverage. The Gaiam towel is machine washable and quick-drying. Available in a range of prints and solid colourways. For practitioners who attend one or two sessions per week in non-heated studios, the Gaiam towel is adequate for hygiene and light grip support at a price that does not require justification.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+yoga+mat+towel+full+length&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07XYZ3Z2Q?tag=pilatescollective-20",
     tag: "Best Mid-Price",
   },
   {
     rank: "04",
     name: "Shandali Hot Yoga Towel (Non-Slip)",
-    price: "From $25",
+    price: "$19.99",
     verdict: "Best for heated Pilates and Lagree",
     description:
-      "The Shandali Hot Yoga Towel is designed specifically for heated practice environments, and for practitioners attending hot Pilates or Lagree classes where perspiration is heavy and continuous, it addresses the grip challenge that standard mat towels fail at. The suede microfibre surface activates grip under moisture — the wetter the surface, the more friction the towel provides — which inverts the slippery-when-wet problem that afflicts dry-oriented microfibre towels in heated studios. The full 72x24 inch length provides extra coverage at the mat head end. The silicone dot underside anchors the towel to the mat from the first use without requiring the pre-wetting activation that some competing hot yoga towels need. Machine washable. At $25 it is competitively priced relative to the Manduka eQua for practitioners who specifically practise in heated environments. Less impressive than the eQua in dry conditions but meaningfully superior in the heavy-sweat scenario it is designed for.",
-    affiliateUrl: "https://www.amazon.com/s?k=shandali+hot+yoga+towel+non+slip&tag=pilatescollective-20",
+      "The Shandali Hot Yoga Towel is designed specifically for heated practice environments, and for practitioners attending hot Pilates or Lagree classes where perspiration is heavy and continuous, it addresses the grip challenge that standard mat towels fail at. The suede microfibre surface activates grip under moisture — the wetter the surface, the more friction the towel provides — which inverts the slippery-when-wet problem that afflicts dry-oriented microfibre towels in heated studios. The full 72x24 inch length provides extra coverage at the mat head end. The silicone dot underside anchors the towel to the mat from the first use without requiring the pre-wetting activation that some competing hot yoga towels need. Machine washable. At $19.99 it is competitively priced relative to the Manduka eQua for practitioners who specifically practise in heated environments. Less impressive than the eQua in dry conditions but meaningfully superior in the heavy-sweat scenario it is designed for.",
+    affiliateUrl: "https://www.amazon.com/dp/B011IU43WG?tag=pilatescollective-20",
     tag: "Best for Heated Classes",
   },
   {
     rank: "05",
     name: "IUGA Non-Slip Yoga Mat Towel",
-    price: "From $19",
+    price: "$22.99",
     verdict: "Best budget full-coverage towel",
     description:
       "The IUGA Non-Slip Mat Towel is the correct entry-level recommendation for practitioners new to using mat towels who want to assess whether a full-coverage towel improves their practice before committing to premium pricing. The microfibre construction is thinner than the Manduka eQua and Shandali, which reduces sweat absorption capacity but also reduces drying time significantly — the IUGA towel dries in 30–40 minutes versus 60 minutes for heavier towels. The silicone grip dots on the underside prevent shifting during standard temperature Pilates sessions. The 72x24 inch format provides full mat coverage with some overhang. The IUGA towel is machine washable and available in multiple colourways. The thinner microfibre makes it less suitable for heavy-sweat heated environments, but for standard studio Pilates where a hygiene layer and moderate grip improvement are the primary goals, the IUGA performs reliably at its price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=iuga+non+slip+yoga+mat+towel&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0719NT7KL?tag=pilatescollective-20",
     tag: "Best Budget",
   },
   {

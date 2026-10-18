@@ -106,11 +106,11 @@ const criteria = [
 ];
 
 const PRODUCTS = [
-  { name: "ToeSox Grip Socks", description: "Required for all Club Pilates classes. Grip socks are mandatory for reformer and equipment sessions — ToeSox are the most widely used brand across studios globally.", price: "From $18", affiliateUrl: "https://www.amazon.com/s?k=ToeSox+pilates+grip+socks&tag=pilatescollective-20" },
-  { name: "Manduka PRO Pilates Mat", description: "For home practice between Club Pilates sessions. A mat at home makes the consistency between studio classes achievable — and consistency is what produces results.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "Required for all Club Pilates classes. Grip socks are mandatory for reformer and equipment sessions — ToeSox are the most widely used brand across studios globally.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "For home practice between Club Pilates sessions. A mat at home makes the consistency between studio classes achievable — and consistency is what produces results.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "Pilates Studio Bag", description: "A dedicated bag for your Club Pilates kit — grip socks, mat, water, and a change of clothes. Simple organisational tools are underrated for making studio attendance a sustainable habit.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=pilates+studio+bag+tote&tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "Club Pilates uses resistance-based reformer work extensively. A set of resistance bands at home allows you to replicate many of the class exercises on rest days.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Used in many Club Pilates class formats. Having your own magic circle allows home reinforcement of the adductor and arm activation work that appears regularly in group classes.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Club Pilates uses resistance-based reformer work extensively. A set of resistance bands at home allows you to replicate many of the class exercises on rest days.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Used in many Club Pilates class formats. Having your own magic circle allows home reinforcement of the adductor and arm activation work that appears regularly in group classes.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
 ];
 
 export default function ClubPilatesReviewPage() {

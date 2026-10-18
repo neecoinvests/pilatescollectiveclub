@@ -35,31 +35,31 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Manduka PRO Yoga Mat (6mm)",
-    price: "From $120",
+    price: "$143.99",
     verdict: "Best mat for serious beginners",
     description:
       "A quality mat is the single most important Pilates purchase. The Manduka PRO is denser and firmer than standard yoga mats — essential for Pilates, where a spongy mat undermines spinal articulation exercises and destabilises footwork. The 6mm thickness cushions the spine adequately without compromising the grounded feeling that Pilates requires. The surface has appropriate grip without being overly sticky. Crucially, it will last a decade with regular use, making the upfront cost genuinely economical over time.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+mat+6mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
     tag: "First Purchase",
   },
   {
     rank: "02",
     name: "ToeSox Half Toe Low Rise (2 pack)",
-    price: "From $18",
+    price: "$30.00",
     verdict: "Essential for studio attendance",
     description:
       "Grip socks are required at virtually every reformer studio and strongly recommended for mat classes. ToeSox are the industry standard — individual toe pockets improve proprioception and grip on the footbar, and the quality holds up to intensive regular washing. Buy two pairs immediately so you always have a clean pair available. Don't underestimate this purchase: studios often refuse entry without grip socks, and going to a class without them wastes your time and money.",
-    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+grip+socks+2+pack&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08ZGNC7X6?tag=pilatescollective-20",
     tag: "Studio Essential",
   },
   {
     rank: "03",
     name: "TheraBand Resistance Band Set (3 levels)",
-    price: "From $22",
+    price: "$11.99",
     verdict: "Best band set for home practice",
     description:
       "A set of TheraBand long flat bands in light, medium, and heavy resistance opens up a significant range of mat-based Pilates exercises that bridge between bodyweight work and reformer-level challenge. Wrap the light band around your feet for leg press and footwork variations; use the medium for arm work and stretching; progress to heavy as your strength develops. This is the piece of equipment that most closely mimics reformer spring resistance during home mat practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+band+set+3+pack&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20",
     tag: "Home Essential",
   },
   {

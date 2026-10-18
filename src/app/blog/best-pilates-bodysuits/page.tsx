@@ -36,8 +36,8 @@ const PRODUCTS = [
     price: "From $118",
     verdict: "Best overall Pilates bodysuit",
     description:
-      "The Airlift Suit is the reference point for premium Pilates bodysuits. Alo's Airlift fabric is uniquely engineered — a medium-weight compression that smooths without restricting breath or spinal flexion, which matters enormously in exercises like the hundred, roll-up, and teaser. The scoop neck sits high enough to stay put during inversions, and the built-in shelf bra provides enough support for a full reformer session without requiring a separate sports bra. The clean, sculptural silhouette has made this a studio staple across New York, London, and Los Angeles. Available in a wide range of neutral and seasonal colourways.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airlift+suit+bodysuit&tag=pilatescollective-20",
+      "The Airlift Suit is the reference point for premium Pilates bodysuits. Alo's Airlift fabric is uniquely engineered — a medium-weight compression that smooths without restricting breath or spinal flexion, which matters enormously in exercises like the hundred, roll-up, and teaser. The scoop neck sits high enough to stay put during inversions, and the built-in shelf bra provides enough support for a full reformer session without requiring a separate sports bra. The clean, sculptural silhouette has made this a studio staple across New York, London, and Los Angeles. Available in a wide range of neutral and seasonal colourways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Editor's Pick",
   },
   {
@@ -46,8 +46,8 @@ const PRODUCTS = [
     price: "From $108",
     verdict: "Best for buttery softness",
     description:
-      "Lululemon's Align fabric translated into a bodysuit form is exactly as good as it sounds. The Nulu material is so lightweight and skin-soft that most practitioners forget they're wearing it — which is ideal for the deep proprioceptive focus that Pilates demands. The high-neck variant offers exceptional coverage for exercises performed in supine and prone positions on the reformer carriage, while the scoop-neck version works better for hot studios. The integrated gusset sits smoothly during all seated and standing exercises. If you already love the Align Legging, this bodysuit is the natural wardrobe companion.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+bodysuit&tag=pilatescollective-20",
+      "Lululemon's Align fabric translated into a bodysuit form is exactly as good as it sounds. The Nulu material is so lightweight and skin-soft that most practitioners forget they're wearing it — which is ideal for the deep proprioceptive focus that Pilates demands. The high-neck variant offers exceptional coverage for exercises performed in supine and prone positions on the reformer carriage, while the scoop-neck version works better for hot studios. The integrated gusset sits smoothly during all seated and standing exercises. If you already love the Align Legging, this bodysuit is the natural wardrobe companion. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Most Popular",
   },
   {
@@ -86,8 +86,8 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best breathable bodysuit",
     description:
-      "Vuori's Halo Bodysuit uses a lighter, more breathable fabric than most competitors — making it the preferred choice for practitioners in heated studios or warm climates. The Performance fabric is moisture-wicking and quick-drying, which matters in a 55-minute reformer class. The racerback construction keeps straps completely clear of the shoulder blade area, which is particularly relevant in exercises involving scapular movement and stabilisation. The fit is secure without being compressive, and the minimalist design works across a variety of studio environments.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+bodysuit+performance+women&tag=pilatescollective-20",
+      "Vuori's Halo Bodysuit uses a lighter, more breathable fabric than most competitors — making it the preferred choice for practitioners in heated studios or warm climates. The Performance fabric is moisture-wicking and quick-drying, which matters in a 55-minute reformer class. The racerback construction keeps straps completely clear of the shoulder blade area, which is particularly relevant in exercises involving scapular movement and stabilisation. The fit is secure without being compressive, and the minimalist design works across a variety of studio environments. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathability",
   },
 ];

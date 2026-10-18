@@ -36,8 +36,8 @@ const PRODUCTS = [
     price: "From $98",
     verdict: "Best overall studio bag",
     description:
-      "The Lululemon Everywhere Tote has become the de facto standard studio bag across boutique Pilates, and its dominance is justified. The 29-litre capacity comfortably holds a change of clothes, grip socks, water bottle, and full-size toiletries without feeling bulky. The structured base keeps the bag upright on studio benches and locker-room floors, an underappreciated feature when you're changing quickly between appointments. The internal organisation — a zip pocket, card slots, and a key clip — is genuinely thoughtful rather than decorative, and the smooth exterior fabric wipes clean easily after studio use. The dual-carry design transitions from hand to shoulder as needed.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+everywhere+tote+29l&tag=pilatescollective-20",
+      "The Lululemon Everywhere Tote has become the de facto standard studio bag across boutique Pilates, and its dominance is justified. The 29-litre capacity comfortably holds a change of clothes, grip socks, water bottle, and full-size toiletries without feeling bulky. The structured base keeps the bag upright on studio benches and locker-room floors, an underappreciated feature when you're changing quickly between appointments. The internal organisation — a zip pocket, card slots, and a key clip — is genuinely thoughtful rather than decorative, and the smooth exterior fabric wipes clean easily after studio use. The dual-carry design transitions from hand to shoulder as needed. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
   {
@@ -46,8 +46,8 @@ const PRODUCTS = [
     price: "From $88",
     verdict: "Best for mat carriers",
     description:
-      "Alo's Move Mat Tote is the rare bag that solves the mat-carrying problem elegantly. External straps secure a rolled mat to the exterior of the bag, keeping your gear contained in a single carry rather than requiring a separate mat strap. The main compartment is spacious enough for a full studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo — clean, minimal, and appropriate for both studio and street. Note that this bag is best suited for mat Pilates practitioners; reformer-focused practitioners who don't travel with a mat may prefer a simpler tote.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+move+mat+tote+bag&tag=pilatescollective-20",
+      "Alo's Move Mat Tote is the rare bag that solves the mat-carrying problem elegantly. External straps secure a rolled mat to the exterior of the bag, keeping your gear contained in a single carry rather than requiring a separate mat strap. The main compartment is spacious enough for a full studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo — clean, minimal, and appropriate for both studio and street. Note that this bag is best suited for mat Pilates practitioners; reformer-focused practitioners who don't travel with a mat may prefer a simpler tote. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Mat Carrier",
   },
   {
@@ -76,8 +76,8 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best convertible carry",
     description:
-      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a tote — a versatility that suits the varied commutes of urban studio-goers. The 20-litre capacity is on the moderate side but handles a complete Pilates studio kit without issue. The organisation is clean rather than elaborate, with a shoe pocket and two exterior slip pockets covering the essentials. The fabric is scratch-resistant and wipes clean, and the structured base keeps the bag off locker-room floors. The convertible strap system adds meaningful practical value for practitioners who walk to the studio, commute by transit, and then carry the bag to subsequent appointments.",
-    affiliateUrl: "https://www.amazon.com/s?k=calpak+luka+duffel+bag&tag=pilatescollective-20",
+      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a tote — a versatility that suits the varied commutes of urban studio-goers. The 20-litre capacity is on the moderate side but handles a complete Pilates studio kit without issue. The organisation is clean rather than elaborate, with a shoe pocket and two exterior slip pockets covering the essentials. The fabric is scratch-resistant and wipes clean, and the structured base keeps the bag off locker-room floors. The convertible strap system adds meaningful practical value for practitioners who walk to the studio, commute by transit, and then carry the bag to subsequent appointments. Not sold on Amazon: this link goes to Calpak's own site.",
+    affiliateUrl: "https://www.calpaktravel.com",
     tag: "Best Convertible",
   },
   {

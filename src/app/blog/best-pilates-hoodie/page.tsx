@@ -43,8 +43,8 @@ const PRODUCTS = [
     name: "Lululemon Scuba Oversized Half-Zip Hoodie",
     price: "$118",
     verdict: "Best Overall",
-    description: "The Lululemon Scuba is the most-recognised hoodie in the global Pilates community. The French terry fabric is soft enough to wear against bare skin and warm enough for cold studios, pre-class warm-ups, and post-class cool-downs. The oversized fit layers easily over any Pilates outfit. The half-zip makes removal easy between exercises without needing to fully undress.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+scuba+oversized+half+zip+hoodie&tag=pilatescollective-20",
+    description: "The Lululemon Scuba is the most-recognised hoodie in the global Pilates community. The French terry fabric is soft enough to wear against bare skin and warm enough for cold studios, pre-class warm-ups, and post-class cool-downs. The oversized fit layers easily over any Pilates outfit. The half-zip makes removal easy between exercises without needing to fully undress. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Top Pick",
   },
   {
@@ -52,8 +52,8 @@ const PRODUCTS = [
     name: "Alo Yoga Muse Sweatshirt",
     price: "$114",
     verdict: "Best Premium",
-    description: "Alo's Muse Sweatshirt has become a studio staple for practitioners who want their warm-up layer to look as considered as their workout kit. The heavyweight French terry drapes beautifully and the dropped shoulders allow complete arm mobility for warm-up stretches. A crossover piece that transitions from studio to daily wear without looking like gym kit.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+muse+sweatshirt&tag=pilatescollective-20",
+    description: "Alo's Muse Sweatshirt has become a studio staple for practitioners who want their warm-up layer to look as considered as their workout kit. The heavyweight French terry drapes beautifully and the dropped shoulders allow complete arm mobility for warm-up stretches. A crossover piece that transitions from studio to daily wear without looking like gym kit. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Premium",
   },
   {
@@ -61,8 +61,8 @@ const PRODUCTS = [
     name: "Vuori Halo Performance Hoodie",
     price: "$89",
     verdict: "Best Performance Hoodie",
-    description: "Vuori's Halo Performance Hoodie bridges technical and lifestyle wear better than almost any other option. The CloudKnit fabric is moisture-wicking, quick-drying, and soft against the skin — meaning you can keep it on through your entire session if the studio is cool. The athletic-tapered silhouette doesn't bunch during reformer exercises or restrict shoulder movement.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+halo+performance+hoodie+women&tag=pilatescollective-20",
+    description: "Vuori's Halo Performance Hoodie bridges technical and lifestyle wear better than almost any other option. The CloudKnit fabric is moisture-wicking, quick-drying, and soft against the skin — meaning you can keep it on through your entire session if the studio is cool. The athletic-tapered silhouette doesn't bunch during reformer exercises or restrict shoulder movement. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Performance",
   },
   {
@@ -70,8 +70,8 @@ const PRODUCTS = [
     name: "Gymshark Crest Hoodie",
     price: "$60",
     verdict: "Best Value",
-    description: "The Gymshark Crest Hoodie is the most straightforward, no-nonsense option on this list. The brushed-back fleece interior is genuinely warm, the kangaroo pocket is functional, and the relaxed fit accommodates layers underneath without feeling sloppy. Excellent durability at $60 — a reliable pick for practitioners who need a warm-up layer without the premium price tag.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+crest+hoodie+women&tag=pilatescollective-20",
+    description: "The Gymshark Crest Hoodie is the most straightforward, no-nonsense option on this list. The brushed-back fleece interior is genuinely warm, the kangaroo pocket is functional, and the relaxed fit accommodates layers underneath without feeling sloppy. Excellent durability at $60 — a reliable pick for practitioners who need a warm-up layer without the premium price tag. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
     tag: "Best Value",
   },
   {
@@ -86,10 +86,10 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Amazon Essentials Full-Zip Fleece Hoodie",
-    price: "$28",
+    price: "$15.50",
     verdict: "Best Budget",
-    description: "At $28, Amazon's Essentials Full-Zip Fleece Hoodie is the most accessible warm-up option on this list. The full-zip design makes layering and removal effortless, the fleece is adequately warm for most studio temperatures, and the classic cut suits any studio environment. For practitioners just building out their Pilates wardrobe, this is the sensible starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=amazon+essentials+full+zip+fleece+hoodie+women&tag=pilatescollective-20",
+    description: "At $15.50, Amazon's Essentials Full-Zip Fleece Hoodie is the most accessible warm-up option on this list. The full-zip design makes layering and removal effortless, the fleece is adequately warm for most studio temperatures, and the classic cut suits any studio environment. For practitioners just building out their Pilates wardrobe, this is the sensible starting point.",
+    affiliateUrl: "https://www.amazon.com/dp/B07BJ8GVFJ?tag=pilatescollective-20",
     tag: "Budget Pick",
   },
 ];

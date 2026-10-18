@@ -67,10 +67,10 @@ const jsonLd = {
 };
 
 const PRODUCTS = [
-  { name: "Manduka PRO Pilates Mat", description: "A consistent, high-quality mat for daily home practice — the regularity that makes Pilates most effective for managing menopausal symptoms including sleep disruption and mood changes.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "Resistance bands for progressive bone-loading work — critical during the perimenopausal period when oestrogen decline accelerates bone density loss.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
-  { name: "OPTP Foam Roller (36-inch)", description: "For thoracic opening and self-myofascial release — addresses the postural changes and joint stiffness that often accompany hormonal transition.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Inner thigh and hip work — directly targets pelvic floor and adductor strength, areas of common weakness during and after menopause.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "A consistent, high-quality mat for daily home practice — the regularity that makes Pilates most effective for managing menopausal symptoms including sleep disruption and mood changes.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands for progressive bone-loading work — critical during the perimenopausal period when oestrogen decline accelerates bone density loss.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "For thoracic opening and self-myofascial release — addresses the postural changes and joint stiffness that often accompany hormonal transition.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Inner thigh and hip work — directly targets pelvic floor and adductor strength, areas of common weakness during and after menopause.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
   { name: "Gaiam Pilates Ball (9-inch)", description: "Used in pelvic floor, hip, and breathing exercises — supporting the multidimensional approach to menopausal wellbeing that Pilates is particularly well-suited to.", price: "From $15", affiliateUrl: "https://www.amazon.com/s?k=gaiam+pilates+ball+9+inch&tag=pilatescollective-20" },
 ];
 

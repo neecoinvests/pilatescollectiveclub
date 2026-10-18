@@ -33,11 +33,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Lululemon Align High-Rise Pant 28\"",
-    price: "From $98",
+    price: "$104.00",
     verdict: "The flagship — and the right choice for most",
     description:
       "The 28-inch Align Pant is the most purchased piece of activewear in the history of studio Pilates, and it earns that position. Nulu fabric — Lululemon's proprietary blend — is lighter and softer than any comparable legging at any price point, creating a sensation of wearing almost nothing during practice. This is not a marketing claim: practitioners who transition to the Align from other premium leggings consistently describe the same experience. For Pilates specifically, the absence of fabric resistance through hip flexion, spinal rotation, and articulation exercises is a genuine performance advantage. The waistband is wide, flat, and non-rolling. The fabric is completely opaque through every movement in the Pilates repertoire. At $98–$128, it is expensive — but it lasts through years of consistent studio practice with proper care.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+pant+28+inch&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07ZS49W1Z?tag=pilatescollective-20",
     tag: "Most Popular",
   },
   {
@@ -46,8 +46,8 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "The best biker short for Pilates",
     description:
-      "The 6-inch Align Short delivers the same Nulu fabric experience in biker short form. The inseam length is precisely calibrated — long enough to prevent ride-up during reformer transitions, short enough to allow freedom of movement in deep hip-flexion exercises. The high-rise waistband from the legging translates identically into the short: it stays in place, doesn't roll, and provides a flat surface that doesn't create pressure points during supine exercises. The Align Short has become the single most visible item of clothing in boutique reformer studios across global cities, and the usage pattern reflects its performance. If you practice in a warm studio or prefer the feel of shorts, this is the starting point.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+short+6+inch&tag=pilatescollective-20",
+      "The 6-inch Align Short delivers the same Nulu fabric experience in biker short form. The inseam length is precisely calibrated — long enough to prevent ride-up during reformer transitions, short enough to allow freedom of movement in deep hip-flexion exercises. The high-rise waistband from the legging translates identically into the short: it stays in place, doesn't roll, and provides a flat surface that doesn't create pressure points during supine exercises. The Align Short has become the single most visible item of clothing in boutique reformer studios across global cities, and the usage pattern reflects its performance. If you practice in a warm studio or prefer the feel of shorts, this is the starting point. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Studio Favourite",
   },
   {
@@ -56,18 +56,18 @@ const PRODUCTS = [
     price: "From $108",
     verdict: "The cleanest silhouette for reformer",
     description:
-      "The Align Bodysuit extends the Nulu fabric proposition into a one-piece form that many reformer practitioners consider the ideal Pilates garment. A bodysuit cannot come untucked, ride up, or bunch at the waist during transitions — the most common annoyances of a separate top and legging combination. The Align Bodysuit's integrated shelf bra provides sufficient support for a 55-minute reformer session for B-D cup sizes without requiring an additional undergarment layer. Available in scoop-neck and high-neck variants; the high-neck is preferred for exercises performed lying down, the scoop-neck for warmer studios. Pairs with any Align legging or short for a fully coordinated studio kit.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+bodysuit&tag=pilatescollective-20",
+      "The Align Bodysuit extends the Nulu fabric proposition into a one-piece form that many reformer practitioners consider the ideal Pilates garment. A bodysuit cannot come untucked, ride up, or bunch at the waist during transitions — the most common annoyances of a separate top and legging combination. The Align Bodysuit's integrated shelf bra provides sufficient support for a 55-minute reformer session for B-D cup sizes without requiring an additional undergarment layer. Available in scoop-neck and high-neck variants; the high-neck is preferred for exercises performed lying down, the scoop-neck for warmer studios. Pairs with any Align legging or short for a fully coordinated studio kit. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Best for Reformer",
   },
   {
     rank: "04",
     name: "Lululemon Align High-Rise Pant 25\"",
-    price: "From $98",
+    price: "$98.00",
     verdict: "Best for petite frames",
     description:
       "The 25-inch Align Pant is the right choice for practitioners under 5'4\" who find the standard 28-inch length bunches at the ankle or sits slightly above it. The shorter inseam creates a full-length silhouette on petite frames that the 28-inch cannot achieve. Functionally identical to the flagship in fabric, waistband construction, and performance — the only variable is length. Some taller practitioners also choose the 25-inch intentionally for a 7/8 silhouette. Lululemon also offers a 21-inch crop if you want a defined capri length. The sizing advice from Lululemon's website is reliable for selecting the right inseam.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+pant+25+inch&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
     tag: "Best Petite",
   },
   {
@@ -76,8 +76,8 @@ const PRODUCTS = [
     price: "From $58",
     verdict: "Best bra to complete the set",
     description:
-      "The Align Reversible Bra completes a coordinated studio kit with a sports bra built from the same Nulu fabric family. Light support — appropriate for Pilates, yoga, and barre — and a clean aesthetic that reads as polished in any studio environment. The reversible design effectively gives you two colourways in a single garment, which is genuinely useful for building a studio wardrobe with limited individual purchases. The straps are thin enough to wear under bodysuit-style back cut-outs, and the underband is flat-seamed for comfort during floor exercises. This is not a high-impact sports bra — it is purpose-built for the low-impact demands of the Pilates repertoire.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+reversible+bra&tag=pilatescollective-20",
+      "The Align Reversible Bra completes a coordinated studio kit with a sports bra built from the same Nulu fabric family. Light support — appropriate for Pilates, yoga, and barre — and a clean aesthetic that reads as polished in any studio environment. The reversible design effectively gives you two colourways in a single garment, which is genuinely useful for building a studio wardrobe with limited individual purchases. The straps are thin enough to wear under bodysuit-style back cut-outs, and the underband is flat-seamed for comfort during floor exercises. This is not a high-impact sports bra — it is purpose-built for the low-impact demands of the Pilates repertoire. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Best Companion Bra",
   },
 ];

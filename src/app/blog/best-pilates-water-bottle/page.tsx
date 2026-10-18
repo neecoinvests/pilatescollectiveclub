@@ -33,11 +33,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Stanley Quencher H2.0 FlowState 40oz",
-    price: "From $45",
+    price: "$44.95",
     verdict: "Best overall Pilates water bottle",
     description:
       "The Stanley Quencher has become ubiquitous in studio changing rooms and reformer classes for good reason. The 40oz capacity means you will not run dry through a double session, and the vacuum insulation keeps water cold for over 12 hours without condensation forming on the exterior — a meaningful consideration when the bottle sits on a studio floor or bench. The rotating lid handles three positions: a wide straw opening for drinking mid-exercise, a fully open position, and a closed seal for transport. The broad base is stable on reformer side rails and studio floors, and the handle integrates grip loops for slipping onto a bag exterior. Available in over 40 colourways.",
-    affiliateUrl: "https://www.amazon.com/s?k=stanley+quencher+h2.0+flowstate+40oz&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0CP9Z1S51?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
@@ -53,41 +53,41 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Owala FreeSip 32oz Insulated",
-    price: "From $35",
+    price: "$29.99",
     verdict: "Best for sipping mid-exercise",
     description:
       "The Owala FreeSip earns its position through the most thoughtfully designed drinking mechanism on this list. The patented FreeSip spout integrates both a built-in straw for sipping in any position and a wide opening for drinking directly — no switching lids for different activities. The lid locks securely for transport and opens with a single button press, keeping it closed in a bag. The insulation matches Hydro Flask at a lower price, keeping water cold for 24 hours. The tapered base fits standard cup holders and most bag side pockets. For practitioners who want to drink comfortably between exercises without stopping to remove or replace a lid, the FreeSip mechanism is the cleanest solution available.",
-    affiliateUrl: "https://www.amazon.com/s?k=owala+freesip+32oz+insulated+water+bottle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B085DVHQ57?tag=pilatescollective-20",
     tag: "Best Lid Design",
   },
   {
     rank: "04",
     name: "S'well 17oz Stainless Bottle",
-    price: "From $35",
+    price: "$24.50",
     verdict: "Best compact studio bottle",
     description:
       "The S'well 17oz is the right choice for practitioners who want a compact, refined bottle that fits in bag side pockets and sits neatly beside a reformer without dominating the space. The narrow profile fits standard bag water bottle pockets, gym cubbies, and studio benches more cleanly than the wider Stanley and Hydro Flask formats. The triple-layer insulation keeps water cold for 24 hours and hot drinks warm for 12. The lid is leak-proof when closed, and the smooth exterior has no exposed paint or powder coat to chip — it looks consistently clean through years of studio use. Best for lighter sessions or practitioners who prefer a smaller carry.",
-    affiliateUrl: "https://www.amazon.com/s?k=swell+17oz+stainless+steel+water+bottle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07G2VPWPT?tag=pilatescollective-20",
     tag: "Best Compact",
   },
   {
     rank: "05",
     name: "Nalgene Tritan Wide Mouth 32oz",
-    price: "From $14",
+    price: "$16.07",
     verdict: "Best budget Pilates bottle",
     description:
       "The Nalgene Tritan 32oz is the honest budget recommendation for practitioners who want a reliable, durable water bottle without paying a premium for insulation they may not need. The BPA-free Tritan plastic is virtually indestructible — Nalgene bottles routinely outlast insulated steel alternatives by years. The wide mouth makes it easy to fill, add ice, and clean thoroughly. The lid is leak-proof when closed and attaches to bags via the loop. It does not insulate (water will warm to room temperature over a session), which is an honest trade-off at this price. For practitioners who refill frequently or keep their bottle in an insulated bag, the temperature limitation rarely matters in practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=nalgene+tritan+wide+mouth+32oz+water+bottle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0B9T4KCV7?tag=pilatescollective-20",
     tag: "Best Budget",
   },
   {
     rank: "06",
     name: "Takeya Actives Insulated 24oz",
-    price: "From $28",
+    price: "$29.99",
     verdict: "Best mid-size insulated bottle",
     description:
       "Takeya's Actives 24oz sits between the compact S'well and the full-size Stanley in both capacity and price. The insulated stainless construction keeps water cold for 24 hours, the spout lid opens and closes with one hand without touching your mouth, and the carrying loop doubles as a bag attachment point. The 24oz format is the right size for a single reformer session without the weight of a 32oz or 40oz bottle. The bottle fits most car cup holders and bag side pockets without forcing. Takeya's quality control is consistent and their bottles match or exceed Hydro Flask's performance at a meaningfully lower price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=takeya+actives+insulated+24oz+water+bottle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0B6QFSBCB?tag=pilatescollective-20",
     tag: "Best Mid-Size",
   },
 ];

@@ -35,11 +35,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Girlfriend Collective Compressive High-Rise Legging",
-    price: "From $68",
+    price: "$95.14",
     verdict: "Best Overall Legging",
     description:
       "The Compressive High-Rise is Girlfriend Collective&apos;s most technically accomplished piece — made from RPET fabric (recycled post-consumer plastic bottles), it provides medium-to-firm compression that holds position through the full Pilates mat repertoire without restricting the deep hip and spinal flexion the method requires. The fabric is fully opaque from every angle, which matters on a mat or reformer carriage where the instructor views your legs from below. The high waistband is wide, structured, and does not roll during abdominal series. At this price, it competes directly with Lululemon&apos;s Wunder Train — and outperforms it on ethics.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+compressive+high+rise+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0CLS9YMG5?tag=pilatescollective-20",
     tag: "Top Pick",
   },
   {
@@ -65,11 +65,11 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Girlfriend Collective Bike Short",
-    price: "From $38",
+    price: "$62.66",
     verdict: "Best Short for Pilates",
     description:
       "The Girlfriend Collective Bike Short has a 5-inch inseam — long enough to provide full coverage during all reformer exercises including those where the legs are elevated, and short enough not to bunch behind the knee during seated or bent-leg positions. The fabric is the same recycled RPET construction as the Compressive Legging, which means the opacity and compression hold up wash after wash. No ride-up on the reformer carriage, which is the specific functional test a studio short needs to pass. At under $40, this is excellent value for a performance short.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+bike+short&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0CLS2GT5G?tag=pilatescollective-20",
     tag: "Best Short",
   },
   {

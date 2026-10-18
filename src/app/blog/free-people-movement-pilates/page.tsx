@@ -35,11 +35,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "FP Movement Good Karma Legging",
-    price: "From $78",
+    price: "$74.10",
     verdict: "Best Legging",
     description:
       "The Good Karma is Free People Movement&apos;s flagship legging for a reason — buttery-soft fabric with a high waist that genuinely stays in place through the full Pilates mat repertoire. The compression is light to medium, which suits mat work and private session formats where proprioceptive feedback matters less than comfort over a long class. Fully opaque at every angle, which is non-negotiable in a method where you are frequently horizontal with an instructor present. The range of muted, earthy tones is exactly what the FP Movement customer expects from the brand — and it delivers on that aesthetic consistently.",
-    affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+good+karma+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0CGC7HJLZ?tag=pilatescollective-20",
     tag: "Top Pick",
   },
   {

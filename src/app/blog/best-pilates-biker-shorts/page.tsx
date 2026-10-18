@@ -36,8 +36,8 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best overall biker short",
     description:
-      "The Align Short is the single most popular biker short in reformer studios globally — and the praise is fully earned. The Nulu fabric is so lightweight and frictionless that it disappears during practice, allowing full proprioceptive focus without fabric distraction. The high-rise waistband stays perfectly anchored through hip flexion, leg circles, and rolling exercises, and the 6-inch inseam hits at a flattering position that works for all proportions. The fabric is completely opaque even under the low angles and bright lighting typical of boutique studio environments. Available in a comprehensive range of neutral and seasonal colourways throughout the year.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+short+6+inch&tag=pilatescollective-20",
+      "The Align Short is the single most popular biker short in reformer studios globally — and the praise is fully earned. The Nulu fabric is so lightweight and frictionless that it disappears during practice, allowing full proprioceptive focus without fabric distraction. The high-rise waistband stays perfectly anchored through hip flexion, leg circles, and rolling exercises, and the 6-inch inseam hits at a flattering position that works for all proportions. The fabric is completely opaque even under the low angles and bright lighting typical of boutique studio environments. Available in a comprehensive range of neutral and seasonal colourways throughout the year. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
   {
@@ -46,8 +46,8 @@ const PRODUCTS = [
     price: "From $62",
     verdict: "Best compression biker short",
     description:
-      "Alo's Biker Short provides a noticeably firmer compression than the Align — a quality that a significant number of reformer practitioners actively prefer for the supportive, body-aware feeling during footwork sequences and standing exercises. The Airlift fabric maintains its shape perfectly through an entire session and washes without pilling or sagging. The high-waist band is wide enough to provide genuine core support and coverage through forward-fold exercises, and the inseam length prevents any ride-up during reformer transitions. The clean matte finish photographs beautifully, which accounts for much of its visibility in the wider Pilates social media community.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+high+waist+biker+short&tag=pilatescollective-20",
+      "Alo's Biker Short provides a noticeably firmer compression than the Align — a quality that a significant number of reformer practitioners actively prefer for the supportive, body-aware feeling during footwork sequences and standing exercises. The Airlift fabric maintains its shape perfectly through an entire session and washes without pilling or sagging. The high-waist band is wide enough to provide genuine core support and coverage through forward-fold exercises, and the inseam length prevents any ride-up during reformer transitions. The clean matte finish photographs beautifully, which accounts for much of its visibility in the wider Pilates social media community. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Compression",
   },
   {
@@ -76,18 +76,18 @@ const PRODUCTS = [
     price: "From $58",
     verdict: "Best breathable option",
     description:
-      "Vuori's Daily Short uses a lighter, more breathable fabric than most competing biker shorts — a meaningful advantage for practitioners in heated studios, warm climates, or anyone who runs hot during vigorous reformer sessions. The fabric is moisture-wicking and quick-drying while remaining completely opaque. The fit is relaxed compared to compression-focused alternatives, which some practitioners find more comfortable for the sustained floor-based work in mat Pilates. The brand's design aesthetic is clean and understated, appropriate for both studio and everyday wear, making these shorts an investment that earns use well beyond class hours.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+daily+short+women&tag=pilatescollective-20",
+      "Vuori's Daily Short uses a lighter, more breathable fabric than most competing biker shorts — a meaningful advantage for practitioners in heated studios, warm climates, or anyone who runs hot during vigorous reformer sessions. The fabric is moisture-wicking and quick-drying while remaining completely opaque. The fit is relaxed compared to compression-focused alternatives, which some practitioners find more comfortable for the sustained floor-based work in mat Pilates. The brand's design aesthetic is clean and understated, appropriate for both studio and everyday wear, making these shorts an investment that earns use well beyond class hours. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathability",
   },
   {
     rank: "06",
     name: "CRZ YOGA Naked Feeling Biker Short",
-    price: "From $26",
+    price: "$18.00",
     verdict: "Best value biker short",
     description:
       "CRZ YOGA's Naked Feeling Biker Short consistently surprises practitioners who try it expecting a significant quality gap from premium brands. The fabric approaches the Align's softness at less than half the price, the high-waist construction stays in place reliably through Pilates movement, and the opacity holds up through deep squats and hip-flexion exercises. An exceptional value for anyone building a studio wardrobe, filling out a rotation, or looking for a lower-stakes first biker short.",
-    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+biker+short&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B087JSRQ8H?tag=pilatescollective-20",
     tag: "Best Value",
   },
 ];

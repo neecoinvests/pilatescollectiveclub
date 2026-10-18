@@ -33,31 +33,31 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Peloton Bike+",
-    price: "From $2,495",
+    price: "$2,695.00",
     verdict: "Best overall connected spin bike",
     description:
       "The Peloton Bike+ remains the benchmark for connected indoor cycling, pairing magnetic resistance with a rotating 23.8-inch HD touchscreen and access to live and on-demand instructor-led classes. The auto-follow resistance feature adjusts the knob automatically to match instructor cues, which is genuinely useful for riders who want a structured class experience rather than free-ride training. Build quality is excellent — the frame is rated for riders up to 297 lbs, and the belt-drive system is near-silent, an important consideration for home studios in shared or multi-floor housing. The toe-cage pedals are SPD and Delta compatible out of the box. The subscription cost ($44/month for All-Access) is the main ongoing expense to weigh against the hardware price, but for practitioners who want studio-quality cycling instruction at home, the Bike+ is the most complete package available.",
-    affiliateUrl: "https://www.amazon.com/s?k=peloton+bike+plus&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0FLQNCDJK?tag=pilatescollective-20",
     tag: "Best Overall",
   },
   {
     rank: "02",
     name: "Schwinn IC4 Indoor Cycling Bike",
-    price: "From $999",
+    price: "$795.99",
     verdict: "Best value connected bike",
     description:
       "The Schwinn IC4 delivers the core experience of a premium connected bike — magnetic resistance, a 40-lb flywheel, dual-link pedals (SPD and toe cage), and Bluetooth connectivity to Peloton, Zwift, and the Schwinn Trainer app — without requiring a proprietary screen or locking riders into one ecosystem. The console displays cadence, resistance, heart rate, and power output, and riders can mount their own tablet for class streaming. The resistance knob is a simple friction-based dial rather than auto-follow, which some riders prefer for precise manual control. The frame and flywheel feel comparable to bikes costing twice as much. For home studio builders who want flexibility across multiple training apps rather than a single subscription ecosystem, the IC4 is the strongest value proposition in the category.",
-    affiliateUrl: "https://www.amazon.com/s?k=schwinn+ic4+indoor+cycling+bike&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07WZXSDKW?tag=pilatescollective-20",
     tag: "Best Value",
   },
   {
     rank: "03",
     name: "NordicTrack Commercial S22i Studio Cycle",
-    price: "From $1,799",
+    price: "$1,189.00",
     verdict: "Best for incline/decline simulation",
     description:
       "The NordicTrack S22i is the only bike in this category that simulates incline and decline terrain — up to 20% incline and -10% decline — via automatic resistance adjustment synced to iFIT's location-based outdoor ride content. The 22-inch rotating touchscreen and iFIT trainer-led programming make this the closest indoor approximation to outdoor road and trail cycling. Build quality is solid, with a 39-lb flywheel and dual-sided SPD/cage pedals. The iFIT subscription ($39/month) is required to unlock the auto-incline feature and most content, similar to Peloton's model. For riders who find flat resistance training monotonous and want terrain variation built into their sessions, the S22i is the standout option.",
-    affiliateUrl: "https://www.amazon.com/s?k=nordictrack+s22i+studio+cycle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08KBWQ9FJ?tag=pilatescollective-20",
     tag: "Best Terrain Simulation",
   },
   {
@@ -73,11 +73,11 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Yosuda Indoor Cycling Bike",
-    price: "From $329",
+    price: "$199.98",
     verdict: "Best budget entry-level bike",
     description:
       "The Yosuda is a straightforward friction-resistance bike with a 35-lb flywheel, adjustable seat and handlebars, and a basic LCD console tracking speed, distance, and calories. It has no app connectivity or auto-resistance features, but the chain-drive mechanism and flywheel weight provide a genuinely solid ride feel for the price, and the bike has become one of the most consistently well-reviewed budget options on the market. For practitioners testing whether indoor cycling fits into their training routine before committing to a premium connected bike, or building a basic home studio on a tight budget, the Yosuda delivers dependable performance well above its price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=yosuda+indoor+cycling+bike&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0BVHN3D72?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
   {

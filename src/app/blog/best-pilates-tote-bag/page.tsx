@@ -36,8 +36,8 @@ const PRODUCTS = [
     price: "From $88",
     verdict: "Best overall Pilates tote",
     description:
-      "The Lululemon Everywhere Tote 22L has become the benchmark against which other Pilates totes are judged — and for good reason. The 22-litre capacity is the sweet spot for a studio kit: generous enough for grip socks, a change of clothes, a water bottle, and personal items, but compact enough to sit neatly under a bench without dominating the changing room. The structured base keeps the bag upright rather than collapsing in a heap, and the interior organisation — zip pocket, card slots, key clip — is genuinely functional rather than decorative. The smooth exterior wipes clean after studio use, and the dual-carry handles transition naturally from hand to shoulder without awkwardness.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+everywhere+tote+22l&tag=pilatescollective-20",
+      "The Lululemon Everywhere Tote 22L has become the benchmark against which other Pilates totes are judged — and for good reason. The 22-litre capacity is the sweet spot for a studio kit: generous enough for grip socks, a change of clothes, a water bottle, and personal items, but compact enough to sit neatly under a bench without dominating the changing room. The structured base keeps the bag upright rather than collapsing in a heap, and the interior organisation — zip pocket, card slots, key clip — is genuinely functional rather than decorative. The smooth exterior wipes clean after studio use, and the dual-carry handles transition naturally from hand to shoulder without awkwardness. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
   {
@@ -46,8 +46,8 @@ const PRODUCTS = [
     price: "From $98",
     verdict: "Best premium Pilates tote",
     description:
-      "Alo's Accolade Tote occupies the premium end of the Pilates tote market and justifies its price through a combination of materials quality, thoughtful organisation, and unmistakable aesthetic. The bag is structured enough to stand on its own, with a reinforced base that survives daily studio use without losing its shape. Interior pockets are positioned logically for studio use — phone and cards accessible at the top, a deeper compartment for clothes and shoes below. The exterior fabric is water-resistant and maintains its appearance through repeated use. For practitioners who want a bag that reads as polished in a boardroom as it does in a studio changing room, the Accolade is the natural choice.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+accolade+tote+bag&tag=pilatescollective-20",
+      "Alo's Accolade Tote occupies the premium end of the Pilates tote market and justifies its price through a combination of materials quality, thoughtful organisation, and unmistakable aesthetic. The bag is structured enough to stand on its own, with a reinforced base that survives daily studio use without losing its shape. Interior pockets are positioned logically for studio use — phone and cards accessible at the top, a deeper compartment for clothes and shoes below. The exterior fabric is water-resistant and maintains its appearance through repeated use. For practitioners who want a bag that reads as polished in a boardroom as it does in a studio changing room, the Accolade is the natural choice. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Premium",
   },
   {
@@ -76,8 +76,8 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best minimalist tote",
     description:
-      "Vuori's Ripstop Tote strips the studio bag back to its essentials — a clean silhouette, durable ripstop nylon, and just enough organisation to function without visual clutter. The result is a bag that looks equally appropriate in a studio, a café, and a weekend market, which suits practitioners whose tote doubles as their daily carry. The capacity is focused rather than expansive, which keeps the bag light when partially loaded — a meaningful advantage for practitioners who walk or cycle to class. The ripstop construction is more durable than standard nylon and resists the snags and abrasions that come with repeated locker-room use.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+ripstop+tote+bag&tag=pilatescollective-20",
+      "Vuori's Ripstop Tote strips the studio bag back to its essentials — a clean silhouette, durable ripstop nylon, and just enough organisation to function without visual clutter. The result is a bag that looks equally appropriate in a studio, a café, and a weekend market, which suits practitioners whose tote doubles as their daily carry. The capacity is focused rather than expansive, which keeps the bag light when partially loaded — a meaningful advantage for practitioners who walk or cycle to class. The ripstop construction is more durable than standard nylon and resists the snags and abrasions that come with repeated locker-room use. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Minimalist",
   },
   {
@@ -86,8 +86,8 @@ const PRODUCTS = [
     price: "From $58",
     verdict: "Best sporty tote",
     description:
-      "Athleta's Studio Tote leans into its athletic identity with a design that prioritises function over form without sacrificing style. The capacity is generous, the interior organisation includes a dedicated wet pocket for damp items, and the exterior material handles the wear of daily studio commutes without showing it. The bag's sporty aesthetic is well-matched to practitioners who attend high-intensity reformer or mat classes and want their bag to reflect that energy rather than trying to pass as a fashion tote. The price-to-feature ratio is strong for a mid-market option, and Athleta's quality control is consistent across their bag range.",
-    affiliateUrl: "https://www.amazon.com/s?k=athleta+studio+tote+bag&tag=pilatescollective-20",
+      "Athleta's Studio Tote leans into its athletic identity with a design that prioritises function over form without sacrificing style. The capacity is generous, the interior organisation includes a dedicated wet pocket for damp items, and the exterior material handles the wear of daily studio commutes without showing it. The bag's sporty aesthetic is well-matched to practitioners who attend high-intensity reformer or mat classes and want their bag to reflect that energy rather than trying to pass as a fashion tote. The price-to-feature ratio is strong for a mid-market option, and Athleta's quality control is consistent across their bag range. Not sold on Amazon: this link goes to Athleta's own site.",
+    affiliateUrl: "https://athleta.gap.com",
     tag: "Best Sporty",
   },
 ];

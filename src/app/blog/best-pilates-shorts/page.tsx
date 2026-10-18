@@ -39,8 +39,8 @@ const PRODUCTS = [
     verdict: "Best biker short",
     tag: "Editor's Pick",
     description:
-      "The Align fabric is the softest thing in activewear, and the shorts version delivers all the properties that make the legging famous — buttery compression, excellent stretch, and absolute opacity through the full movement range. The 6-inch inseam provides full reformer coverage without the restriction of a legging. Instructors get clear sightlines to the hip and knee alignment, which is the point.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+short&tag=pilatescollective-20",
+      "The Align fabric is the softest thing in activewear, and the shorts version delivers all the properties that make the legging famous — buttery compression, excellent stretch, and absolute opacity through the full movement range. The 6-inch inseam provides full reformer coverage without the restriction of a legging. Instructors get clear sightlines to the hip and knee alignment, which is the point. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
   },
   {
     rank: "02",
@@ -49,18 +49,18 @@ const PRODUCTS = [
     verdict: "Best for studio aesthetics",
     tag: "Studio Favourite",
     description:
-      "The Airbrush short is a boutique studio staple for good reason. The high-waist sculpted design creates a clean silhouette from footwork to standing work, the compression is consistent and non-restrictive, and the 5-inch inseam keeps coverage during all seated and supine work. Available in an extensive colour range including the neutrals that define the reformer studio look.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airbrush+short&tag=pilatescollective-20",
+      "The Airbrush short is a boutique studio staple for good reason. The high-waist sculpted design creates a clean silhouette from footwork to standing work, the compression is consistent and non-restrictive, and the 5-inch inseam keeps coverage during all seated and supine work. Available in an extensive colour range including the neutrals that define the reformer studio look. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
   },
   {
     rank: "03",
     name: "Splits59 Airweight Short",
-    price: "From $88",
+    price: "$68.00",
     verdict: "Best premium option",
     tag: "Premium Pick",
     description:
       "Splits59 was designed for Pilates and barre, and the Airweight Short reflects that. Featherlight fabric, four-way stretch, and a 3-inch inseam that reveals enough leg for instructor assessment without compromising coverage. The wide waistband sits flat without rolling. The most Pilates-specific short in this roundup.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+shorts+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08BQ9QG3Z?tag=pilatescollective-20",
   },
   {
     rank: "04",
@@ -69,18 +69,18 @@ const PRODUCTS = [
     verdict: "Best for men",
     tag: "Men's Pick",
     description:
-      "Most Pilates apparel brands produce almost nothing usable for men. The Vuori Daily Short is the exception — a 5-inch inseam in a soft, four-way stretch fabric with enough compression to stay in place through all reformer work without being uncomfortably tight. Clean design, no logos, and a colour range that fits the reformer studio environment.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+daily+short&tag=pilatescollective-20",
+      "Most Pilates apparel brands produce almost nothing usable for men. The Vuori Daily Short is the exception — a 5-inch inseam in a soft, four-way stretch fabric with enough compression to stay in place through all reformer work without being uncomfortably tight. Clean design, no logos, and a colour range that fits the reformer studio environment. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
   },
   {
     rank: "05",
     name: "CRZ YOGA Butterluxe Biker Short",
-    price: "From $28",
+    price: "$24.00",
     verdict: "Best budget option",
     tag: "Best Value",
     description:
       "CRZ YOGA produces some of the best Lululemon alternatives on the market, and the Butterluxe biker short is a genuine contender at a third of the price. The fabric drape mimics Align's Nulu well, opacity is excellent, and the high-rise waistband is stable through all mat work. For those who want the biker short experience without the Lululemon price, this is the obvious choice.",
-    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+butterluxe+biker+short&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0B287V65J?tag=pilatescollective-20",
   },
 ];
 

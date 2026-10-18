@@ -32,21 +32,21 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "TriggerPoint GRID Foam Roller",
-    price: "From $35",
+    price: "$28.99",
     verdict: "Best recovery tool for cyclists",
     description:
       "Cycling creates predictable tightness patterns: the hip flexors shorten from sustained flexion, the IT band tightens from repetitive pedalling, the thoracic spine stiffens from the sustained flexed riding position, and the glutes deactivate from hours of seated loading. The TriggerPoint GRID Foam Roller addresses all four of these patterns efficiently in the 10-15 minutes before a Pilates session or after a ride. The multi-density surface provides more targeted release than flat foam rollers, particularly for the thoracic spine and IT band — two areas where specific pressure rather than broad compression is needed. Used consistently, it maintains the range of motion that Pilates work develops across a full training week.",
-    affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+grid+foam+roller+black&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
     tag: "Best Recovery Roller",
   },
   {
     rank: "02",
     name: "Fit Simplify Resistance Loop Bands Set",
-    price: "From $12",
+    price: "$9.98",
     verdict: "Best for glute activation before rides",
     description:
       "Cyclists chronically underactivate their gluteus medius — the hip abductor responsible for pelvis stability in the single-leg stance phase of the pedal stroke. Weak gluteus medius activation leads to pelvic drop, knee tracking issues, and lower back pain on longer rides. A 10-minute resistance band activation sequence before cycling — lateral band walks, clam shells, single-leg bridges with band resistance — is one of the most evidence-supported pre-ride warm-ups available. The Fit Simplify fabric band set provides the progressive resistance needed to take a cyclist from minimal activation through challenging hip stability work as glute strength improves over weeks of consistent practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=fit+simplify+resistance+loop+bands+set&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B01AVDVHTI?tag=pilatescollective-20",
     tag: "Best Glute Activation",
   },
   {
@@ -62,11 +62,11 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Manduka PRO Yoga Mat 6mm",
-    price: "From $120",
+    price: "$143.99",
     verdict: "Best mat for post-ride Pilates",
     description:
       "Cyclists doing post-ride Pilates need a mat that performs when they are sweating. The Manduka PRO's closed-cell surface does not absorb moisture, maintaining grip through an entire post-cycling Pilates session without the slipping that occurs on cheaper mats once sweat saturates the open-cell foam. The 6mm thickness provides meaningful cushioning for hip-bone-prominent side-lying exercises and kneeling positions that are uncomfortable on thinner mats after long time in the saddle has compressed the hip area. The mat's length (180cm) accommodates the longer leg extension exercises that are particularly relevant for cyclists working on hip mobility.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+mat+6mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
     tag: "Best Post-Ride Mat",
   },
   {

@@ -36,18 +36,18 @@ const PRODUCTS = [
     price: "From $168",
     verdict: "Best overall studio jacket for Pilates",
     description:
-      "The Alo Accolade Bomber is the jacket most consistently seen in boutique Pilates and Lagree studio environments, and its prevalence reflects genuine performance rather than trend alone. The ribbed cuffs and hem seal body heat during reformer warm-up while allowing immediate removal when intensity rises — the bomber cut means it slides off one arm at a time without disrupting a reformer carriage position. The nylon shell is smooth enough that it does not catch on reformer upholstery or leather straps during the transitional exercises where practitioners shift between on-reformer and standing positions. The slim fit allows an instructor to see spinal alignment and shoulder position during warm-up — the same fit requirement that governs all Pilates and Lagree clothing. The front zip opens fully for rapid cooling. The Alo Accolade is also the jacket that holds its appearance through studio washing cycles better than most knit alternatives — the woven nylon resists pilling across consistent use. Available in 12 colourways.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+accolade+bomber+jacket+women&tag=pilatescollective-20",
+      "The Alo Accolade Bomber is the jacket most consistently seen in boutique Pilates and Lagree studio environments, and its prevalence reflects genuine performance rather than trend alone. The ribbed cuffs and hem seal body heat during reformer warm-up while allowing immediate removal when intensity rises — the bomber cut means it slides off one arm at a time without disrupting a reformer carriage position. The nylon shell is smooth enough that it does not catch on reformer upholstery or leather straps during the transitional exercises where practitioners shift between on-reformer and standing positions. The slim fit allows an instructor to see spinal alignment and shoulder position during warm-up — the same fit requirement that governs all Pilates and Lagree clothing. The front zip opens fully for rapid cooling. The Alo Accolade is also the jacket that holds its appearance through studio washing cycles better than most knit alternatives — the woven nylon resists pilling across consistent use. Available in 12 colourways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
     name: "Lululemon Define Jacket",
-    price: "From $118",
+    price: "$188.00",
     verdict: "Best fitted studio jacket",
     description:
       "The Lululemon Define Jacket has been the standard fitted studio layer for a decade, and its persistence in the market is earned by a specific combination of properties that Pilates requires: the four-way stretch Luon fabric moves with the body through every arm reach, spinal extension, and lateral exercise without bunching or resisting, the fitted silhouette allows visibility of the thoracic spine and shoulder alignment that Pilates instruction depends on, and the thumbholes keep sleeves in position during the hand placements of mat warm-up sequences. The Define Jacket can be worn through early reformer warm-up exercises and removed mid-session without disruption. The Luon construction is warmer than the Alo Accolade nylon — making it the better choice for cold morning studio sessions and unheated spaces — but it breathes less effectively once intensity rises. Machine washable; maintains shape through consistent studio use. Available in an extensive colourway range each season.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+define+jacket+women&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0CMYVDPQ6?tag=pilatescollective-20",
     tag: "Best Fitted Stretch Layer",
   },
   {

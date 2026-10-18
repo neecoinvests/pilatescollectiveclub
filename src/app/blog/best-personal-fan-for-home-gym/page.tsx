@@ -33,31 +33,31 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Dreo Smart Tower Fan",
-    price: "From $79",
+    price: "$116.94",
     verdict: "Best overall home gym fan",
     description:
       "The Dreo Smart Tower Fan consistently tops independent home gym fan tests for its combination of strong airflow, low noise, and app-controlled scheduling — a useful feature for practitioners who want the fan running before they begin a session without manually adjusting it at the start of each workout. The 90-degree oscillation covers a wide zone that suits both a spin bike facing one direction and a Megaformer or mat area beside it. At its highest setting, airflow is strong enough to noticeably cool a 300-400 square foot exercise room. The noise at maximum speed is measurably lower than comparable-airflow tower fans from other brands. WiFi and voice assistant (Alexa/Google) control are built in at no additional subscription cost.",
-    affiliateUrl: "https://www.amazon.com/s?k=dreo+smart+tower+fan&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B09M8PMW26?tag=pilatescollective-20",
     tag: "Best Overall",
   },
   {
     rank: "02",
     name: "Dyson Pure Cool TP07",
-    price: "From $549",
+    price: "$548.00",
     verdict: "Best premium air purifier and fan combo",
     description:
       "The Dyson TP07 combines a HEPA air purifier with a bladeless fan — relevant for home gym spaces where dust, pet dander, or general air quality compounds the elevated breathing rate of a high-output session. The bladeless design produces smooth, consistent airflow without the buffeting of bladed fans. App control, voice assistant integration, and auto-mode that adjusts to air quality sensors are all included. The price is significantly above any other fan on this list, and for most practitioners the air purification feature alone doesn't justify the premium. For home gyms in apartments or dusty environments where breathing quality matters alongside cooling, the TP07 is genuinely dual-purpose.",
-    affiliateUrl: "https://www.amazon.com/s?k=dyson+pure+cool+tp07+tower+fan&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0F6B7P155?tag=pilatescollective-20",
     tag: "Best Premium",
   },
   {
     rank: "03",
     name: "Vornado 660 Large Room Air Circulator",
-    price: "From $119",
+    price: "$110.18",
     verdict: "Best for moving air throughout an entire room",
     description:
       "Where tower fans push air in a narrow stream, Vornado's whole-room circulation design moves air in a vortex pattern that creates continuous circulation throughout the space rather than cooling only the person directly in front of the unit. For home gym rooms where multiple people train, or for practitioners who move between a spin bike and a Megaformer in different parts of the room, the 660's room-wide circulation is more effective than a directional fan at any single position. Noise is moderate at high settings, and the simple 4-speed dial is the opposite of smart-fan complexity — intentional for practitioners who want to set it and forget it.",
-    affiliateUrl: "https://www.amazon.com/s?k=vornado+660+large+room+air+circulator&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0025QKUE8?tag=pilatescollective-20",
     tag: "Best Room Circulator",
   },
   {

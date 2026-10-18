@@ -36,28 +36,28 @@ const PRODUCTS = [
     price: "From $148",
     verdict: "Best overall bag for men",
     description:
-      "The Lululemon Commuter Backpack is the bag that makes the most sense for men whose Pilates practice is part of a broader daily routine — it handles a full studio kit while functioning equally well as a work and travel bag. The capacity is substantial without the bag reading as a gym bag in professional contexts, and the organisation is genuinely considered: a dedicated laptop compartment, interior organisation for a studio kit including shoes and a change of clothes, and external pockets positioned for things that need to be accessed without opening the main compartment. The padded back panel and shoulder straps are comfortable across both short studio commutes and longer travel days. Build quality is consistent with Lululemon's premium positioning.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+commuter+backpack+men&tag=pilatescollective-20",
+      "The Lululemon Commuter Backpack is the bag that makes the most sense for men whose Pilates practice is part of a broader daily routine — it handles a full studio kit while functioning equally well as a work and travel bag. The capacity is substantial without the bag reading as a gym bag in professional contexts, and the organisation is genuinely considered: a dedicated laptop compartment, interior organisation for a studio kit including shoes and a change of clothes, and external pockets positioned for things that need to be accessed without opening the main compartment. The padded back panel and shoulder straps are comfortable across both short studio commutes and longer travel days. Build quality is consistent with Lululemon's premium positioning. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
     name: "Herschel Novel Duffel Bag",
-    price: "From $75",
+    price: "$109.99",
     verdict: "Best duffel for men",
     description:
       "Herschel's Novel Duffel is the clean, unfussy studio duffel that handles a complete Pilates kit without drawing attention to itself. The capacity is generous — a full change of clothes, gym shoes, a towel, and accessories fit without compromising organisation — and the separate shoe compartment isolates footwear cleanly from the rest of the bag. The design avoids the overtly athletic branding that makes many gym bags feel out of place in other contexts, which suits practitioners who head from class to work or social commitments. The construction is durable and consistent with Herschel's reputation, and the range of colourways skews appropriately neutral for practitioners who prefer their bag to read as a bag rather than a sports statement.",
-    affiliateUrl: "https://www.amazon.com/s?k=herschel+novel+duffel+bag+men&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0C3B2TWFN?tag=pilatescollective-20",
     tag: "Best Duffel",
   },
   {
     rank: "03",
     name: "Nike Brasilia 9.5 Gym Bag",
-    price: "From $38",
+    price: "$49.99",
     verdict: "Best value bag for men",
     description:
       "Nike's Brasilia 9.5 is the practical, no-nonsense studio bag for men who want reliable function at a straightforward price. The separate shoe compartment is a genuine standout at this price point — properly sized and ventilated, it handles larger men's shoes that budget bags struggle with. The main compartment is spacious enough for a full kit change, and the organisation includes an interior zip pocket and exterior slip pockets for items that need to be accessed quickly. The durability is consistent across the Brasilia line, and the bag handles the wear of multiple sessions per week without premature ageing. For practitioners who want to invest budget in quality gear rather than the bag that carries it, the Brasilia is the standard recommendation.",
-    affiliateUrl: "https://www.amazon.com/s?k=nike+brasilia+9.5+gym+bag+men&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07Z56RJ28?tag=pilatescollective-20",
     tag: "Best Value",
   },
   {
@@ -66,18 +66,18 @@ const PRODUCTS = [
     price: "From $98",
     verdict: "Best aesthetic bag for men",
     description:
-      "Vuori's Ripstop Duffel is the studio bag for men who care about how their kit looks as much as how it performs. The ripstop nylon construction is durable and distinctive without being loud, and the silhouette reads as considered rather than athletic — a bag you'd take to a premium reformer studio and also carry to a weekend away. The capacity suits a full studio kit, the organisation is clean and functional, and the hardware quality reflects the premium price. For practitioners at premium boutique studios where the gear in the changing room receives its own quiet appraisal, the Vuori positions correctly — functional enough to be the everyday bag, refined enough not to look like a concession.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+ripstop+duffel+bag+men&tag=pilatescollective-20",
+      "Vuori's Ripstop Duffel is the studio bag for men who care about how their kit looks as much as how it performs. The ripstop nylon construction is durable and distinctive without being loud, and the silhouette reads as considered rather than athletic — a bag you'd take to a premium reformer studio and also carry to a weekend away. The capacity suits a full studio kit, the organisation is clean and functional, and the hardware quality reflects the premium price. For practitioners at premium boutique studios where the gear in the changing room receives its own quiet appraisal, the Vuori positions correctly — functional enough to be the everyday bag, refined enough not to look like a concession. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Aesthetic",
   },
   {
     rank: "05",
     name: "Adidas Linear Duffel",
-    price: "From $28",
+    price: "$46.00",
     verdict: "Best budget bag for men",
     description:
       "Adidas's Linear Duffel is the entry-level option for men who need a capable studio bag without a significant outlay. The capacity is sufficient for a standard Pilates kit — grip socks, a change of clothes, a water bottle — and the zippered front pocket and end pockets provide enough organisation for the basics. The polyester construction is durable and wipes clean easily, and the adjustable shoulder strap handles both hand and shoulder carry. Where it underperforms relative to premium options is in the shoe compartment — the Linear doesn't have one, which means footwear shares space with clean clothes unless managed with a separate shoe bag. For practitioners who don't carry studio shoes or who use a dedicated shoe bag, this limitation is manageable.",
-    affiliateUrl: "https://www.amazon.com/s?k=adidas+linear+duffel+bag+medium&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0CZS6F91Q?tag=pilatescollective-20",
     tag: "Best Budget",
   },
   {

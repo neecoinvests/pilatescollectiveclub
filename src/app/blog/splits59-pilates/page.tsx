@@ -35,11 +35,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Splits59 Raquel High Waist Legging",
-    price: "From $138",
+    price: "$118.00",
     verdict: "Best Pilates Legging Available",
     description:
       "The Raquel is the legging most serious Pilates practitioners reference when asked what they actually wear — and the reason is specific. The wide, flat waistband was engineered for the repeated hip flexion of reformer footwork: it does not fold, roll, or create pressure points through hundreds of repetitions in a bent-knee position. The fabric has a precise compression level — held but not restricted — that provides proprioceptive feedback on leg alignment without limiting spinal articulation or rotation. Full opacity in every position, including the deep hip flexion of standing split-squat balance work. The price is significant but the Raquel outlasts almost everything else in terms of wash cycles and maintained compression quality. If you practise four or more times per week, this is the economically rational choice.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+raquel+high+waist+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08THBM215?tag=pilatescollective-20",
     tag: "Top Pick",
   },
   {
@@ -75,11 +75,11 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Splits59 Airweight Short",
-    price: "From $88",
+    price: "$68.00",
     verdict: "Best Shorts",
     description:
       "Splits59 makes the best Pilates-specific shorts in the market because they understand exactly what the reformer requires: a fitted mid-thigh cut with no inner-seam bulk, a waistband that does not create pressure at the hip crease in deep flexion, and opacity in all positions including the internally-rotated hip positions common in footwork. The Airweight fabric is the brand&apos;s lightest, which makes these appropriate for warm studios and summer mat practice. The distinction from Gymshark or generic athletic shorts is immediate in wear — the construction is specifically calibrated for the movement patterns of Pilates rather than adapted from a gym or running context.",
-    affiliateUrl: "https://www.amazon.com/s?k=splits59+airweight+shorts&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08BQ9QG3Z?tag=pilatescollective-20",
     tag: "Best Shorts",
   },
 ];
@@ -110,7 +110,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Splits59 worth the price?", "acceptedAnswer": { "@type": "Answer", "text": "For the Raquel Legging specifically — yes, and decisively. The Raquel is one of the few pieces of activewear where the design brief was explicitly the demands of the Pilates reformer, and the engineering reflects that origin. The waistband does not fold during footwork, the compression does not restrict spinal articulation, and the fabric maintains its performance over significantly more wash cycles than comparable premium leggings. Practitioners who invest in the Raquel consistently report wearing it for two or more years without degradation. At $138-148, the cost-per-wear calculation is often better than cheaper alternatives that need replacing annually." } },
+        { "@type": "Question", "name": "Is Splits59 worth the price?", "acceptedAnswer": { "@type": "Answer", "text": "For the Raquel Legging specifically — yes, and decisively. The Raquel is one of the few pieces of activewear where the design brief was explicitly the demands of the Pilates reformer, and the engineering reflects that origin. The waistband does not fold during footwork, the compression does not restrict spinal articulation, and the fabric maintains its performance over significantly more wash cycles than comparable premium leggings. Practitioners who invest in the Raquel consistently report wearing it for two or more years without degradation. At $118, the cost-per-wear calculation is often better than cheaper alternatives that need replacing annually." } },
         { "@type": "Question", "name": "How does Splits59 sizing run?", "acceptedAnswer": { "@type": "Answer", "text": "Splits59 runs true to size in the Raquel and Hartley leggings. The brand does not have a bodybuilding compression bias, so sizing up is rarely necessary. If you are between sizes and prefer a held, structured feeling through dynamic reformer work, size down. If you prefer a softer compression for mat-focused practice, stay true to size. The Sylvie top runs slightly small in the bust — practitioners with a larger bust measurement than their band size should size up in the Sylvie specifically." } },
         { "@type": "Question", "name": "Where can I buy Splits59?", "acceptedAnswer": { "@type": "Answer", "text": "Splits59 sells directly at splits59.com with the full range. They are stocked at select boutique studios and activewear retailers in LA, New York, and London. Amazon carries a curated selection, which is useful for Prime delivery and returns convenience. The brand does not have the retail footprint of Lululemon or Alo — online is the primary channel for most practitioners outside major US cities." } },
         { "@type": "Question", "name": "Splits59 vs Lululemon for Pilates — which is better?", "acceptedAnswer": { "@type": "Answer", "text": "For Pilates specifically, the Raquel Legging is better than the Lululemon Align for reformer work. The Align is softer and more comfortable for extended mat sessions where you want minimal sensation from the legging. The Raquel is better for active reformer classes where waistband stability and compression calibration matter. For bras and tops, the difference is narrower — both brands offer excellent options. The Splits59 range is narrower overall (they do not make shoes, bags, or casual wear), which is a feature rather than a limitation if you are buying specifically for Pilates." } },
@@ -163,7 +163,7 @@ export default function Splits59PilatesPage() {
                 The result is a narrow range — Splits59 does not make shoes, casual loungewear, or lifestyle accessories — that is consistently excellent within its scope. The brand has developed a cult following among serious practitioners and working Pilates instructors, particularly in LA and New York, that is based on product performance rather than marketing spend.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The price point is the primary barrier: the Raquel at $138-148 is among the most expensive Pilates leggings available. The case for that price is made below — but it requires a specific kind of practitioner: frequent, committed, and willing to invest in gear that will perform at the highest level for two or more years.
+                The price point is the primary barrier: the Raquel at $118 is among the most expensive Pilates leggings available. The case for that price is made below — but it requires a specific kind of practitioner: frequent, committed, and willing to invest in gear that will perform at the highest level for two or more years.
               </p>
             </div>
 
@@ -224,7 +224,7 @@ export default function Splits59PilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Splits59 worth the price?", a: "For the Raquel Legging specifically — yes, and decisively. The Raquel is one of the few pieces of activewear where the design brief was explicitly the demands of the Pilates reformer. The waistband does not fold during footwork, the compression does not restrict spinal articulation, and the fabric maintains its performance over significantly more wash cycles than comparable premium leggings. At $138-148, the cost-per-wear calculation is often better than cheaper alternatives that need replacing annually." },
+                  { q: "Is Splits59 worth the price?", a: "For the Raquel Legging specifically — yes, and decisively. The Raquel is one of the few pieces of activewear where the design brief was explicitly the demands of the Pilates reformer. The waistband does not fold during footwork, the compression does not restrict spinal articulation, and the fabric maintains its performance over significantly more wash cycles than comparable premium leggings. At $118, the cost-per-wear calculation is often better than cheaper alternatives that need replacing annually." },
                   { q: "How does Splits59 sizing run?", a: "Splits59 runs true to size in the Raquel and Hartley leggings. The brand does not have a bodybuilding compression bias, so sizing up is rarely necessary. If you prefer a held, structured feeling through dynamic reformer work, size down. If you prefer softer compression for mat-focused practice, stay true to size. The Sylvie top runs slightly small in the bust — practitioners with a larger bust measurement than their band size should size up in the Sylvie." },
                   { q: "Where can I buy Splits59?", a: "Splits59 sells directly at splits59.com with the full range. They are stocked at select boutique studios and activewear retailers in LA, New York, and London. Amazon carries a curated selection, useful for Prime delivery and returns convenience. The brand does not have the retail footprint of Lululemon or Alo — online is the primary channel for most practitioners." },
                   { q: "Splits59 vs Lululemon for Pilates — which is better?", a: "For Pilates specifically, the Raquel Legging is better than the Lululemon Align for reformer work. The Align is softer and more comfortable for extended mat sessions. The Raquel is better for active reformer classes where waistband stability and compression calibration matter. The Splits59 range is narrower overall — they do not make shoes, bags, or casual wear — which is a feature rather than a limitation if you are buying specifically for Pilates." },

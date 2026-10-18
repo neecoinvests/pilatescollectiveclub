@@ -32,41 +32,41 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Leonisa Postpartum Belly Band",
-    price: "From $38",
+    price: "$27.50",
     verdict: "Best abdominal support for early recovery",
     description:
       "A firm but comfortable postpartum belly band provides external support for the linea alba during early diastasis recti recovery, reducing strain on the separation during standing, walking, and gentle exercises. The Leonisa band uses a wide panel design that distributes compression evenly across the abdominal wall without digging into the hips or rolling down during movement. It is worn under clothing during the day and removed for Pilates sessions where intentional core activation is the goal. Evidence supports abdominal binders as a short-term adjunct to reduce discomfort and improve function in the early postpartum period — not as a substitute for progressive rehabilitation.",
-    affiliateUrl: "https://www.amazon.com/s?k=leonisa+postpartum+belly+band+support&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00AWB0M9G?tag=pilatescollective-20",
     tag: "Best Recovery Support",
   },
   {
     rank: "02",
     name: "Gaiam Essentials Thick Yoga Mat 10mm",
-    price: "From $35",
+    price: "$20.93",
     verdict: "Best mat for floor-based recovery work",
     description:
       "A thick, well-cushioned mat is particularly important for diastasis recti rehabilitation Pilates, where a significant proportion of exercises are performed in supine and prone positions and where excessive spinal extension from a thin mat can load the abdominal wall inappropriately. The Gaiam 10mm Essentials mat provides enough cushioning to keep the thoracic spine in a supported neutral position during lying exercises without the instability that comes from overly soft foam. The non-slip texture handles the seated and quadruped positions central to early rehabilitation, and the 68-inch length is adequate for most practitioners working through the full range of diastasis recti exercises.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+essentials+thick+yoga+mat+10mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07H9PZDQW?tag=pilatescollective-20",
     tag: "Best Rehabilitation Mat",
   },
   {
     rank: "03",
     name: "Fit Simplify Resistance Loop Bands Set",
-    price: "From $12",
+    price: "$9.98",
     verdict: "Best resistance bands for DR rehab",
     description:
       "Light resistance loop bands are a core tool in diastasis recti Pilates rehabilitation, used for hip and glute exercises that load the core indirectly without creating the direct intra-abdominal pressure that worsens separation. The Fit Simplify set includes five resistance levels — from extra light to extra heavy — which allows progressive overload as the rehabilitation advances. The bands are fabric-backed rather than plain latex, reducing the rolling and digging that makes plain latex bands uncomfortable on bare skin during floor exercises. All five levels are relevant to a typical DR rehabilitation programme: the lightest for early glute work and the heavier levels as strength returns over months.",
-    affiliateUrl: "https://www.amazon.com/s?k=fit+simplify+resistance+loop+bands+set+5&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B01AVDVHTI?tag=pilatescollective-20",
     tag: "Best for Progressive Rehab",
   },
   {
     rank: "04",
     name: "Trideer Pilates Ball 9 Inch Overball",
-    price: "From $14",
+    price: "$7.99",
     verdict: "Best prop for breathing exercises",
     description:
       "A small Pilates overball is one of the most useful props for diastasis recti rehabilitation. Placed between the knees in supine exercises, it encourages medial hip activation which creates indirect transverse abdominis engagement without the direct loading that crunches and sit-ups generate. Placed against the wall in standing exercises, it provides tactile feedback for neutral spine positioning. The 9-inch size is appropriate for most practitioners' hip widths and provides enough resistance to be useful without requiring significant force production. Trideer's overball is reliably firm — some budget alternatives deflate quickly — and available in a range of muted colours appropriate for home studio use.",
-    affiliateUrl: "https://www.amazon.com/s?k=trideer+pilates+ball+9+inch+overball&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
     tag: "Best Rehabilitation Prop",
   },
   {

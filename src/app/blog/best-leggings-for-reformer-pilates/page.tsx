@@ -33,11 +33,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Lululemon Align High-Rise Pant",
-    price: "From $98",
+    price: "$98.00",
     verdict: "Best overall legging for reformer",
     description:
       "The Lululemon Align is the undisputed standard for reformer Pilates leggings — and the reasons are specific, not just hype. The Nulu fabric is the softest, most skin-like material in mass-produced activewear: it moves with you through hip flexion, spinal articulation, and all ranges of reformer footwork without creating resistance or bunching. The high-waist band sits securely at the natural waist and doesn't roll down during exercises performed in supine or prone positions. Critically, the fabric is fully opaque at all angles and in all positions — including deep lunges and forward-fold transitions on the carriage. No inner-thigh seams to cause irritation during sustained reformer sessions. The Align is available in a wide range of lengths (21\", 25\", 28\") to suit different heights.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+pant+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
@@ -46,8 +46,8 @@ const PRODUCTS = [
     price: "From $114",
     verdict: "Best compressive legging",
     description:
-      "Where the Lululemon Align is soft and cloud-like, the Alo Airbrush is firm and sculpting. The Airbrush fabric applies gentle compression that many practitioners find supportive during longer reformer sessions and standing exercises. The fabric is fully opaque — meaningfully more so than many competitors — and maintains that opacity under the studio lighting conditions where cheaper leggings often fail. The high-waist band is substantial and stays locked in position throughout any sequence. No distracting inner-thigh seams. For practitioners who prefer compression over a second-skin feel, the Airbrush is the strongest choice in this category at any price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airbrush+high+waist+legging&tag=pilatescollective-20",
+      "Where the Lululemon Align is soft and cloud-like, the Alo Airbrush is firm and sculpting. The Airbrush fabric applies gentle compression that many practitioners find supportive during longer reformer sessions and standing exercises. The fabric is fully opaque — meaningfully more so than many competitors — and maintains that opacity under the studio lighting conditions where cheaper leggings often fail. The high-waist band is substantial and stays locked in position throughout any sequence. No distracting inner-thigh seams. For practitioners who prefer compression over a second-skin feel, the Airbrush is the strongest choice in this category at any price point. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Compression",
   },
   {
@@ -66,8 +66,8 @@ const PRODUCTS = [
     price: "From $89",
     verdict: "Best for breathability",
     description:
-      "Vuori's Performance Legging uses a softer, more breathable fabric construction than the compression-focused options above — making it the preferred choice for practitioners in heated studios or those who run warm during exercise. The fabric is fully opaque and has a smooth, flat finish that doesn't pill or develop texture with regular washing. The waistband is high-cut and secure without being rigid. Seaming is minimal and placed away from the inner thigh. Vuori is less well-known than Lululemon or Alo in studio circles, but consistently outperforms its price point in terms of fabric quality and construction longevity.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+performance+legging+women+high+waist&tag=pilatescollective-20",
+      "Vuori's Performance Legging uses a softer, more breathable fabric construction than the compression-focused options above — making it the preferred choice for practitioners in heated studios or those who run warm during exercise. The fabric is fully opaque and has a smooth, flat finish that doesn't pill or develop texture with regular washing. The waistband is high-cut and secure without being rigid. Seaming is minimal and placed away from the inner thigh. Vuori is less well-known than Lululemon or Alo in studio circles, but consistently outperforms its price point in terms of fabric quality and construction longevity. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathability",
   },
   {
@@ -76,8 +76,8 @@ const PRODUCTS = [
     price: "From $55",
     verdict: "Best budget legging",
     description:
-      "Gymshark's Flex Legging is the strongest budget option for reformer Pilates — meaningfully cheaper than any other legging on this list while maintaining the key reformer-specific qualities: full opacity, no distracting inner-thigh seam placement, a high-waist band that stays put, and a four-way stretch that accommodates the full range of motion required on the carriage. The Flex fabric is softer than most budget activewear, though it doesn't approach the Align or Airbrush for hand feel. For practitioners who go through leggings quickly, or those new to studio Pilates who want a capable option before committing to a premium pair, the Gymshark Flex is the clear recommendation at this price.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+flex+high+waist+legging&tag=pilatescollective-20",
+      "Gymshark's Flex Legging is the strongest budget option for reformer Pilates — meaningfully cheaper than any other legging on this list while maintaining the key reformer-specific qualities: full opacity, no distracting inner-thigh seam placement, a high-waist band that stays put, and a four-way stretch that accommodates the full range of motion required on the carriage. The Flex fabric is softer than most budget activewear, though it doesn't approach the Align or Airbrush for hand feel. For practitioners who go through leggings quickly, or those new to studio Pilates who want a capable option before committing to a premium pair, the Gymshark Flex is the clear recommendation at this price. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
     tag: "Best Value",
   },
 ];

@@ -42,32 +42,32 @@ const PRODUCTS = [
     name: "Lululemon Align Reversible Bra",
     price: "$48",
     verdict: "Best Under-$50 Gift",
-    description: "The Align Bra is Lululemon's most popular sports bra — made from the same Nulu fabric as the iconic Align leggings. It's light, buttery, fully reversible (two colours in one), and designed for low-impact activities like pilates, yoga, and barre where comfort and aesthetics matter as much as performance. The removable cups provide modest coverage and the smoothed silhouette works under fitted studio tops. At $48 it's one of the most thoughtful under-$50 gifts in pilates — she'll wear it to every class.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+reversible+bra+women&tag=pilatescollective-20",
+    description: "The Align Bra is Lululemon's most popular sports bra — made from the same Nulu fabric as the iconic Align leggings. It's light, buttery, fully reversible (two colours in one), and designed for low-impact activities like pilates, yoga, and barre where comfort and aesthetics matter as much as performance. The removable cups provide modest coverage and the smoothed silhouette works under fitted studio tops. At $48 it's one of the most thoughtful under-$50 gifts in pilates — she'll wear it to every class. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
   },
   {
     rank: "02",
     name: "Gaiam Premium Print Yoga Mat (6mm)",
-    price: "$35",
+    price: "$24.49",
     verdict: "Best Beginner-to-Intermediate Mat",
     description: "Gaiam is the brand that introduced millions of practitioners to quality mats — and their Premium Print line remains genuinely excellent for the price. At 6mm, it provides real joint cushioning for pilates floor work. The non-slip surface grips on both sides, the foam core holds its shape through years of use, and it rolls into a compact cylinder that fits any mat bag. For a gift under $40, this is the most practical choice — she'll use it for home practice immediately.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+premium+print+yoga+mat+6mm+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B09WF2LLWP?tag=pilatescollective-20",
   },
   {
     rank: "03",
     name: "TriggerPoint GRID Foam Roller",
-    price: "$36",
+    price: "$28.99",
     verdict: "Best Recovery Gift",
     description: "The TriggerPoint GRID is the foam roller that physical therapists recommend and pilates instructors keep in their own kit. Its multi-density surface — three distinct patterns that replicate the pressure of a therapist's hand — targets muscle tissue with a precision that flat-surface rollers cannot match. The hollow core is reinforced to support up to 500 lbs and will never compress over years of use. At $36, it's the single most impactful recovery tool she can own for under $40.",
-    affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+grid+foam+roller+original&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
   },
   {
     rank: "04",
     name: "Theraband Professional Resistance Band Set",
-    price: "$26",
+    price: "$19.58",
     verdict: "Best Accessory Under $30",
     description: "Theraband is the clinical gold standard in resistance bands — the same brand used in hospital physiotherapy departments and prescribed by sports medicine professionals. The professional set includes six resistance levels from yellow through black, covering every stage of pilates progression from gentle rehabilitation to advanced conditioning. Each band is colour-coded, pre-cut to exercise length, and made from a latex blend that won't snap or degrade. For a practitioner of any level, this is the highest-value-for-money gift on this list.",
-    affiliateUrl: "https://www.amazon.com/s?k=theraband+professional+latex+resistance+band+set&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
   },
   {
     rank: "05",
@@ -80,10 +80,10 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "ToeSox Half-Toe Grip Socks — 3-Pack",
-    price: "$52",
+    price: "$44.00",
     verdict: "Best Multi-Pack Gift",
     description: "ToeSox grip socks are required equipment for reformer studios and the preferred choice of the majority of serious practitioners. The half-toe design is specifically engineered for footbar work — the exposed toes provide full proprioceptive feedback on the reformer carriage while the full-grip sole keeps feet anchored on every surface. The three-pack in a coordinated colour set is a gift that's practical, repeatable, and genuinely appreciated. She'll reach for these every class.",
-    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+grip+socks+3+pack+pilates&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07Q5JM1G5?tag=pilatescollective-20",
   },
 ];
 
@@ -95,10 +95,10 @@ const CRITERIA = [
 ];
 
 const FAQ = [
-  { q: "What are the best pilates gifts under $100?", a: "The best pilates gifts under $100 are: ToeSox grip socks ($18–52), Theraband resistance set ($26), Gaiam Premium mat ($35), TriggerPoint GRID roller ($36), Lululemon Align Bra ($48), and Manduka Cork Blocks ($64). All are practical, high-quality gifts she'll use every class." },
-  { q: "What is a good pilates gift for under $50?", a: "For under $50, the best pilates gifts are: Lululemon Align Bra ($48), Theraband Professional Set ($26), ToeSox Half-Toe Grip Socks ($18), TriggerPoint GRID Roller ($36), and Gaiam Premium Mat ($35). The Theraband set offers the best value-per-dollar at this price point." },
+  { q: "What are the best pilates gifts under $100?", a: "The best pilates gifts under $100 are: ToeSox grip socks (from $16), Theraband resistance set ($19.58), Gaiam Premium mat ($24.49), TriggerPoint GRID roller ($28.99), Lululemon Align Bra ($48), and Manduka Cork Blocks ($64). All are practical, high-quality gifts she'll use every class." },
+  { q: "What is a good pilates gift for under $50?", a: "For under $50, the best pilates gifts are: Lululemon Align Bra ($48), Theraband Professional Set ($19.58), ToeSox Half-Toe Grip Socks ($18), TriggerPoint GRID Roller ($28.99), and Gaiam Premium Mat ($24.49). The Theraband set offers the best value-per-dollar at this price point." },
   { q: "What do pilates practitioners actually need?", a: "Practically, every pilates practitioner needs: grip socks (required by studios), a personal mat for home practice, resistance bands for supplementary work, and a foam roller for recovery. Of these, grip socks and resistance bands are the most universally appreciated gifts because practitioners go through them regularly and rarely buy them in advance." },
-  { q: "Should I buy one $100 gift or multiple smaller gifts?", a: "For a close friend or partner, one thoughtful $100 gift (like a Manduka cork block set or Lululemon bra) tends to feel more intentional than a collection of small items. For a colleague, Secret Santa, or someone you know less well, combining a $26 Theraband set with a $18 ToeSox pack makes a complete, practical gift basket at $44 total." },
+  { q: "Should I buy one $100 gift or multiple smaller gifts?", a: "For a close friend or partner, one thoughtful $100 gift (like a Manduka cork block set or Lululemon bra) tends to feel more intentional than a collection of small items. For a colleague, Secret Santa, or someone you know less well, combining a $19.58 Theraband set with a $18 ToeSox pack makes a complete, practical gift basket at $44 total." },
 ];
 
 const RELATED = [

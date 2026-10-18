@@ -33,11 +33,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Yosuda Indoor Cycling Bike",
-    price: "From $299",
+    price: "$199.98",
     verdict: "Best overall spin bike under $500",
     description:
       "The Yosuda has become the default budget recommendation for a straightforward reason: it gets the two specifications that matter right at a price where most competitors get one of them wrong. The flywheel is heavy enough — around 35lb on the standard model — to carry momentum through the dead spot at the top of the pedal stroke, which is what separates a bike that feels like cycling from one that feels like pedalling against a brake. And the frame is genuinely stable when you stand up, which many sub-$300 bikes are not. It is friction-resistance rather than magnetic, so expect the felt pad to need replacing after a year or two of heavy use and expect some noise. No console worth the name, no power measurement, and the stock saddle is poor. Budget for a saddle swap and a tablet mount and it is still comfortably the best value here.",
-    affiliateUrl: "https://www.amazon.com/s?k=yosuda+indoor+cycling+bike&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0BVHN3D72?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
@@ -73,11 +73,11 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Pooboo Magnetic Indoor Cycling Bike",
-    price: "From $350",
+    price: "$189.99",
     verdict: "Best value magnetic option",
     description:
       "Pooboo occupies the gap between the friction-resistance entry bikes and the $420-plus magnetic ones, and for riders who want quiet operation without stretching the budget it is the sensible compromise. Magnetic resistance, a belt drive and a flywheel in the low-to-mid 30lb range make for a quiet bike that needs no consumable parts. The compromises are in the details rather than the fundamentals: the adjustment ranges are narrower than on pricier bikes, which matters if you are much above or below average height, and the finish quality is a step below the Joroto. Check the stated inseam range against your own before ordering, because a bike you cannot set up correctly is worse value than no bike. For an average-height rider wanting quiet, this is the cheapest way to get it.",
-    affiliateUrl: "https://www.amazon.com/s?k=pooboo+magnetic+indoor+cycling+bike&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0HFNFRLNJ?tag=pilatescollective-20",
     tag: "Best Value Magnetic",
   },
   {

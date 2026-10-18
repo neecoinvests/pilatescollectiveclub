@@ -43,11 +43,11 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Gaiam On-The-Go Yoga Mat Bag",
-    price: "From $28",
+    price: "$19.99",
     verdict: "Best enclosed mat bag",
     description:
       "Gaiam's On-The-Go Mat Bag is a fully enclosed bag rather than an open-sling carrier — the mat slides in through a wide zip opening and is completely protected from rain, dust, and contact. This makes it preferable for transit journeys where an open sling would expose the mat, or for practitioners who store their mat in shared spaces and want full enclosure. The bag is sized to fit mats up to 68 inches long and 6mm thick — which accommodates most standard Pilates mats. The exterior pocket is large enough for a small towel and grip socks. A practical, durable option for practitioners who prioritise mat protection over minimal-carry aesthetics.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+on+the+go+yoga+mat+bag&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B010I7BGUW?tag=pilatescollective-20",
     tag: "Best Enclosed Bag",
   },
   {
@@ -66,8 +66,8 @@ const PRODUCTS = [
     price: "From $44",
     verdict: "Best for wide or thick mats",
     description:
-      "The Athleta Prana Mat Carrier is sized and constructed for mats at the wider and thicker end of the market — which includes several popular Pilates mats that struggle with standard yoga mat carriers. The adjustable cinch system accommodates diameters up to approximately 6 inches when rolled, which covers thick 8mm mats and mats with significant diameter from a rubber or TPE construction. The padded shoulder strap distributes weight more evenly than a thin cord strap, which matters over longer carry distances. For practitioners with premium, thicker Pilates mats that don't fit comfortably into standard carriers, the Prana provides a reliable solution.",
-    affiliateUrl: "https://www.amazon.com/s?k=athleta+yoga+mat+carrier+bag&tag=pilatescollective-20",
+      "The Athleta Prana Mat Carrier is sized and constructed for mats at the wider and thicker end of the market — which includes several popular Pilates mats that struggle with standard yoga mat carriers. The adjustable cinch system accommodates diameters up to approximately 6 inches when rolled, which covers thick 8mm mats and mats with significant diameter from a rubber or TPE construction. The padded shoulder strap distributes weight more evenly than a thin cord strap, which matters over longer carry distances. For practitioners with premium, thicker Pilates mats that don't fit comfortably into standard carriers, the Prana provides a reliable solution. Not sold on Amazon: this link goes to Athleta's own site.",
+    affiliateUrl: "https://athleta.gap.com",
     tag: "Best for Thick Mats",
   },
   {

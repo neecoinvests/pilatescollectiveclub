@@ -32,21 +32,21 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Theraband Resistance Band Set",
-    price: "From $18",
+    price: "$11.99",
     verdict: "Best resistance bands for postnatal rehab",
     description:
       "Theraband's colour-coded resistance bands are the standard in physiotherapy clinics for postnatal rehabilitation and are equally effective for home Pilates practice. The flat band format allows a wider range of grip positions than loop bands — wrapping around the foot for supine leg exercises, anchored under the mat for arm work, or held for standing exercises. The progressive resistance system (yellow through black, lightest to heaviest) allows the safe incremental progression that postnatal recovery demands: starting with minimal resistance and advancing as core and whole-body strength returns over months. Each band is long enough to create multiple exercise setups from a single cut.",
-    affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+band+set+light+medium+heavy&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20",
     tag: "Best for Progressive Recovery",
   },
   {
     rank: "02",
     name: "Manduka PRO Yoga Mat 6mm",
-    price: "From $120",
+    price: "$143.99",
     verdict: "Best mat for postnatal practice",
     description:
       "The Manduka PRO is the recommended mat for postnatal Pilates for two reasons specific to postpartum practice: its 6mm thickness provides meaningful cushioning for joints that have increased laxity from relaxin, and its closed-cell surface does not absorb moisture — relevant for the increased perspiration that accompanies the early postpartum period. The non-slip surface performs consistently whether the practitioner is dry or sweating, and the mat is dense enough to resist compression under kneeling positions without bottoming out. The Manduka PRO is an investment that outlasts most alternatives by years, which suits practitioners building a long-term home Pilates practice through the postnatal period and beyond.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+mat+6mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
     tag: "Best Postnatal Mat",
   },
   {

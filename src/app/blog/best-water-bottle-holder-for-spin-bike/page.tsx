@@ -67,12 +67,12 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Topeak Modula Cage EX",
-    price: "$18",
+    price: "$11.64",
     verdict: "Best Adjustable Cage",
     description:
       "The Modula Cage EX adjusts to fit bottles from 550 ml to 1 litre with a simple hex-key screw. It mounts to any standard 74 mm bolt pattern, making it compatible with Schwinn IC4, NordicTrack S22i, and most belt-drive spin bikes. A reliable workhorse for any home studio setup.",
     affiliateUrl:
-      "https://www.amazon.com/s?k=topeak+modula+cage+EX+bottle+holder&tag=pilatescollective-20",
+      "https://www.amazon.com/dp/B000ZKCLEI?tag=pilatescollective-20",
     tag: "Most Versatile",
   },
   {
@@ -100,12 +100,12 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Arundel Mandible Cage",
-    price: "$35",
+    price: "$104.95",
     verdict: "Best Premium Option",
     description:
       "Arundel makes some of the best road cycling cages in the world, and the Mandible's fibreglass construction and side-entry design translate perfectly to intense indoor training. It grips bottles from the top third rather than the base, preventing loosening as the bottle empties and vibration increases.",
     affiliateUrl:
-      "https://www.amazon.com/s?k=arundel+mandible+water+bottle+cage&tag=pilatescollective-20",
+      "https://www.amazon.com/dp/B006M4ONN8?tag=pilatescollective-20",
     tag: "Premium",
   },
   {

@@ -42,16 +42,16 @@ const PRODUCTS = [
     name: "Lululemon ABC Pant (Classic Fit)",
     price: "$128",
     verdict: "The Best Men's Pilates Pant",
-    description: "The Lululemon ABC pant is the men's activewear piece that converts sceptics — designed with a gusseted crotch for full range of motion, four-way stretch fabric, and a tailored silhouette that works on the reformer as well as in a meeting. Made from Warpstreme fabric, which is moisture-wicking, lightweight, and wrinkle-resistant. The flat waistband sits flush against the reformer carriage padding. Available in slim and classic fits, in neutral and seasonal colours. For a man who does pilates regularly, this is the gift that immediately becomes the pant he reaches for every class.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+abc+pant+classic+fit+men&tag=pilatescollective-20",
+    description: "The Lululemon ABC pant is the men's activewear piece that converts sceptics — designed with a gusseted crotch for full range of motion, four-way stretch fabric, and a tailored silhouette that works on the reformer as well as in a meeting. Made from Warpstreme fabric, which is moisture-wicking, lightweight, and wrinkle-resistant. The flat waistband sits flush against the reformer carriage padding. Available in slim and classic fits, in neutral and seasonal colours. For a man who does pilates regularly, this is the gift that immediately becomes the pant he reaches for every class. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
   },
   {
     rank: "02",
     name: "Vuori Ponto Performance Jogger",
     price: "$89",
     verdict: "Best Relaxed-Fit Training Pant",
-    description: "Vuori is the activewear brand that the pilates and wellness community has quietly adopted for men who want quality without the Lululemon logo. The Ponto Jogger is their most refined piece — made from a four-way stretch French terry that's soft enough for mat work and structured enough to wear out of the studio. Tapered leg, hidden side pockets, and a waistband that stays put through every spinal articulation and footbar press. Available in Vuori's muted, earthy palette. A gift that earns its keep in his regular rotation.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+ponto+performance+jogger+men&tag=pilatescollective-20",
+    description: "Vuori is the activewear brand that the pilates and wellness community has quietly adopted for men who want quality without the Lululemon logo. The Ponto Jogger is their most refined piece — made from a four-way stretch French terry that's soft enough for mat work and structured enough to wear out of the studio. Tapered leg, hidden side pockets, and a waistband that stays put through every spinal articulation and footbar press. Available in Vuori's muted, earthy palette. A gift that earns its keep in his regular rotation. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
   },
   {
     rank: "03",
@@ -64,26 +64,26 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Manduka PRO Yoga & Pilates Mat",
-    price: "$120",
+    price: "$144.00",
     verdict: "Best Mat for Serious Practitioners",
     description: "The Manduka PRO is the professional standard in pilates and yoga mats — and one of the few pieces of studio equipment that men and women buy identically. At 6mm thick, it provides full joint protection for knees and spine during mat work; the closed-cell PVC surface grips without sticking, and the lifetime guarantee means it's the last mat he'll need to buy. Professional instructors buy this for themselves. For a man who is serious about his practice, it's the most impactful equipment upgrade available at this price.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+mat+men+6mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     rank: "05",
     name: "Hydro Flask 32oz Wide Mouth Water Bottle",
-    price: "$45",
+    price: "$44.70",
     verdict: "Best Everyday Gift",
     description: "The 32oz Hydro Flask is the water bottle that the serious training community has settled on — genuinely double-wall vacuum insulated, so water stays cold for 24 hours and hot drinks stay warm for 12. The 32oz wide mouth is the men's standard: large enough to cover a full class and a post-class stretch without needing a refill, with a wide opening that takes ice easily. The flex cap is simple, leak-proof, and secure in any bag. Available in a wide range of solid colours. A practical, premium gift that travels everywhere he does.",
-    affiliateUrl: "https://www.amazon.com/s?k=hydro+flask+32oz+wide+mouth+water+bottle+men&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0FJZHK6YQ?tag=pilatescollective-20",
   },
   {
     rank: "06",
     name: "TriggerPoint GRID Foam Roller",
-    price: "$36",
+    price: "$28.99",
     verdict: "Best Value Recovery Gift",
     description: "TriggerPoint is the foam roller brand that physical therapists prescribe and professional sports teams specify. The GRID's multi-density surface works harder than a uniform roller — three zone patterns that replicate the varying pressure of a therapist's hand, targeting the IT band, thoracic spine, and glutes that accumulate tension in pilates training. The hollow core supports up to 500 lbs and won't compress over time. At $36 it is the single best-value recovery gift in this category — he'll use it before and after every training session.",
-    affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+grid+foam+roller+men+recovery&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
   },
 ];
 
@@ -109,7 +109,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is the best pilates gift for a man?",
-    a: "The Lululemon ABC Pant ($128) is the best pilates gift for a man — it is the standard men's pilates pant, loved for its range of motion, clean look, and premium fabric. For recovery, the Theragun Elite ($299) is the most impactful investment at a higher price point. At a more accessible budget, the TriggerPoint GRID Roller ($36) is the best value recovery gift available.",
+    a: "The Lululemon ABC Pant ($128) is the best pilates gift for a man — it is the standard men's pilates pant, loved for its range of motion, clean look, and premium fabric. For recovery, the Theragun Elite ($299) is the most impactful investment at a higher price point. At a more accessible budget, the TriggerPoint GRID Roller ($28.99) is the best value recovery gift available.",
   },
   {
     q: "What do men need for pilates?",
@@ -121,7 +121,7 @@ const FAQ = [
   },
   {
     q: "What is a good under-$50 pilates gift for a man?",
-    a: "The TriggerPoint GRID Foam Roller ($36) is the best under-$50 pilates gift for a man — physical therapists recommend it, it addresses the thoracic spine, IT band, and hip flexors that accumulate tension in pilates, and the quality is obvious on first use. A Hydro Flask 32oz ($45) is the best non-equipment option at this budget.",
+    a: "The TriggerPoint GRID Foam Roller ($28.99) is the best under-$50 pilates gift for a man — physical therapists recommend it, it addresses the thoracic spine, IT band, and hip flexors that accumulate tension in pilates, and the quality is obvious on first use. A Hydro Flask 32oz ($45) is the best non-equipment option at this budget.",
   },
 ];
 

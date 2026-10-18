@@ -41,10 +41,10 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Lululemon Align High-Rise Pant 25\"",
-    price: "$98",
+    price: "$98.00",
     verdict: "Best Overall",
     description: "The Lululemon Align is the most recommended legging in Pilates studios worldwide. The Nulu fabric is featherweight and buttery-soft — described by long-term users as 'wearing nothing'. The high-rise waistband sits just below the navel, stays put through every inversion and reformer sequence, and never digs or rolls. The gold standard at this price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+pant+25+inch&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
     tag: "Top Pick",
   },
   {
@@ -52,17 +52,17 @@ const PRODUCTS = [
     name: "Alo Yoga Airbrush High-Waist Legging",
     price: "$114",
     verdict: "Best Sculpting",
-    description: "Alo's Airbrush fabric applies light compression that creates a sculpted appearance without restricting movement or breathing. The high waistband is wide (around 3.5 inches) and completely opaque, making it one of the most secure feeling options for inverted and prone reformer positions. The matte finish and seamless construction photograph beautifully.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airbrush+high+waist+legging&tag=pilatescollective-20",
+    description: "Alo's Airbrush fabric applies light compression that creates a sculpted appearance without restricting movement or breathing. The high waistband is wide (around 3.5 inches) and completely opaque, making it one of the most secure feeling options for inverted and prone reformer positions. The matte finish and seamless construction photograph beautifully. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Sculpting",
   },
   {
     rank: "03",
     name: "Beyond Yoga Spacedye High-Waist Midi Legging",
-    price: "$109",
+    price: "$99.00",
     verdict: "Best for Tall Practitioners",
     description: "Beyond Yoga's Spacedye fabric has a distinctive heathered texture that moves with the body rather than against it. Their sizing runs long — excellent for tall practitioners who find most leggings mid-calf rather than ankle-length. The high waistband has sufficient compression to stay put without feeling tight, and the fabric is fully squat-proof in all colours.",
-    affiliateUrl: "https://www.amazon.com/s?k=beyond+yoga+spacedye+high+waist+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07663TDHG?tag=pilatescollective-20",
     tag: "Best for Tall",
   },
   {
@@ -70,8 +70,8 @@ const PRODUCTS = [
     name: "Gymshark Vital Seamless High-Waist Legging",
     price: "$48",
     verdict: "Best Mid-Range",
-    description: "Gymshark's Vital Seamless uses a seamless knit construction that eliminates chafing seams entirely — important during long reformer sessions with lateral movements. The high waistband has good hold without excessive compression. Subtle ribbed texture panels on the sides add visual structure without adding bulk. A consistent best-seller for value.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+vital+seamless+high+waist+legging&tag=pilatescollective-20",
+    description: "Gymshark's Vital Seamless uses a seamless knit construction that eliminates chafing seams entirely — important during long reformer sessions with lateral movements. The high waistband has good hold without excessive compression. Subtle ribbed texture panels on the sides add visual structure without adding bulk. A consistent best-seller for value. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
     tag: "Best Mid-Range",
   },
   {
@@ -79,17 +79,17 @@ const PRODUCTS = [
     name: "Vuori Daily Performance Legging",
     price: "$84",
     verdict: "Best Versatile",
-    description: "The Vuori Daily Performance Legging bridges the gap between technical workout wear and everyday comfort. The high rise waistband is substantial but never constrictive, and the anti-microbial finish keeps the legging fresh across multiple sessions. The streamlined design transitions seamlessly from studio to errands — a practical choice for busy practitioners.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+daily+performance+high+waist+legging+women&tag=pilatescollective-20",
+    description: "The Vuori Daily Performance Legging bridges the gap between technical workout wear and everyday comfort. The high rise waistband is substantial but never constrictive, and the anti-microbial finish keeps the legging fresh across multiple sessions. The streamlined design transitions seamlessly from studio to errands — a practical choice for busy practitioners. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
     tag: "Most Versatile",
   },
   {
     rank: "06",
     name: "CRZ YOGA Naked Feeling High-Waist Legging",
-    price: "$28",
+    price: "$26.00",
     verdict: "Best Budget",
     description: "The CRZ YOGA Naked Feeling legging has become a cult favourite for budget-conscious Pilates practitioners. The fabric is genuinely comparable to the Lululemon Align in softness and weight. The high waistband holds without rolling. Completely squat-proof. At $28, it's the most remarkable value on this list — and a credible alternative to leggings costing three times the price.",
-    affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+high+waist+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20",
     tag: "Best Value",
   },
 ];
@@ -128,7 +128,7 @@ const jsonLd = {
       mainEntity: [
         { "@type": "Question", name: "Why do high-waist leggings work better for Pilates?", acceptedAnswer: { "@type": "Answer", text: "High-waist leggings stay in place through the full range of Pilates movement — particularly during supine, inverted, and rolling exercises where mid-rise leggings tend to slip down. The wider waistband also provides light core support and can aid proprioception (body awareness) in the lumbar region, which is beneficial for spinal articulation exercises." } },
         { "@type": "Question", name: "How do I know if a high-waist legging is squat-proof?", acceptedAnswer: { "@type": "Answer", text: "The stretch test: hold the fabric at full extension (both hands pulling outward) and look through it. Squat-proof fabric remains opaque when stretched. Thin fabrics and light-coloured leggings in pale pink or white are most susceptible to becoming see-through. Fabric weight above 200 GSM is generally squat-proof; lighter fabrics need to be tested." } },
-        { "@type": "Question", name: "What is the best high-waist legging for Pilates under $50?", acceptedAnswer: { "@type": "Answer", text: "The CRZ YOGA Naked Feeling High-Waist Legging (around $28) and the Gymshark Vital Seamless (around $48) are both excellent picks under $50. The CRZ YOGA competes directly with Lululemon's Align in fabric feel and opacity. The Gymshark offers seamless construction and consistent sizing. Both outperform many leggings in the $70–$90 range." } },
+        { "@type": "Question", name: "What is the best high-waist legging for Pilates under $50?", acceptedAnswer: { "@type": "Answer", text: "The CRZ YOGA Naked Feeling High-Waist Legging (around $26) and the Gymshark Vital Seamless (around $48) are both excellent picks under $50. The CRZ YOGA competes directly with Lululemon's Align in fabric feel and opacity. The Gymshark offers seamless construction and consistent sizing. Both outperform many leggings in the $70–$90 range." } },
       ],
     },
   ],
@@ -204,7 +204,7 @@ export default function BestHighWaistPilatesLeggingsPage() {
               {[
                 { q: "Why do high-waist leggings work better for Pilates?", a: "High-waist leggings stay in place through the full range of Pilates movement — particularly during supine, inverted, and rolling exercises where mid-rise leggings tend to slip down. The wider waistband also provides light core support and can aid proprioception (body awareness) in the lumbar region, which is beneficial for spinal articulation exercises." },
                 { q: "How do I know if a high-waist legging is squat-proof?", a: "The stretch test: hold the fabric at full extension (both hands pulling outward) and look through it. Squat-proof fabric remains opaque when stretched. Thin fabrics and light-coloured leggings in pale pink or white are most susceptible to becoming see-through. Fabric weight above 200 GSM is generally squat-proof; lighter fabrics need to be tested." },
-                { q: "What is the best high-waist legging for Pilates under $50?", a: "The CRZ YOGA Naked Feeling High-Waist Legging (around $28) and the Gymshark Vital Seamless (around $48) are both excellent picks under $50. The CRZ YOGA competes directly with Lululemon's Align in fabric feel and opacity. The Gymshark offers seamless construction and consistent sizing. Both outperform many leggings in the $70–$90 range." },
+                { q: "What is the best high-waist legging for Pilates under $50?", a: "The CRZ YOGA Naked Feeling High-Waist Legging (around $26) and the Gymshark Vital Seamless (around $48) are both excellent picks under $50. The CRZ YOGA competes directly with Lululemon's Align in fabric feel and opacity. The Gymshark offers seamless construction and consistent sizing. Both outperform many leggings in the $70–$90 range." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
                   <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>

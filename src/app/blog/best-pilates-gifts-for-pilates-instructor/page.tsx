@@ -40,34 +40,34 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Theragun Pro (5th Generation)",
-    price: "$599",
+    price: "$529.99",
     verdict: "The Ultimate Instructor Gift",
     description: "A pilates instructor's body is their instrument — and it takes significant wear over the course of a teaching day: demonstrating exercises, cueing with physical assists, standing on hard floors for hours at a time. The Theragun Pro is what serious professionals use for genuine recovery. 16mm amplitude, 1,750–2,400 RPM, six attachments, 150-minute battery, and connection to the Therabody app for protocol guidance. This is not a consumer device dressed up as professional — it is the professional device. An instructor who doesn't own one will immediately understand that you understand their work.",
-    affiliateUrl: "https://www.amazon.com/s?k=theragun+pro+5th+generation+professional+recovery&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0B6RL7NQJ?tag=pilatescollective-20",
   },
   {
     rank: "02",
     name: "Lululemon Align High-Rise Legging 25\"",
-    price: "$98",
+    price: "$98.00",
     verdict: "The Studio Standard",
     description: "Walk into any quality pilates studio and count how many instructors are wearing Lululemon Align leggings. The number will be high. The Nulu fabric is extraordinarily comfortable for a full day of movement — light enough to not restrict during demonstration, opaque enough for professional appearance at every angle, and durable enough to handle daily wear without pilling. An instructor who is on their feet teaching five or six classes a day needs leggings that hold up to that demand. A second or third pair is always welcomed.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+high+rise+legging+25+inch+women&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
   },
   {
     rank: "03",
     name: "Manduka PRO Yoga & Pilates Mat",
-    price: "$120",
+    price: "$144.00",
     verdict: "The Professional's Mat",
     description: "Many instructors bring their own mat to the studio for demonstrations — and the Manduka PRO is what serious professionals choose. At 6mm thick, it cushions the knees and spine during demonstration exercises; its closed-cell surface grips under both hands and feet without slipping. The lifetime guarantee means it will outlast years of professional use. An instructor who is still using a standard studio mat for their demonstrations will immediately feel the difference. This is the mat that professionals buy for themselves when they're ready to invest.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+yoga+mat+professional+6mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     rank: "04",
     name: "Balanced Body Magic Circle",
-    price: "From $75",
+    price: "$35.00",
     verdict: "Best Studio Equipment Gift",
     description: "The Magic Circle — also called the Pilates ring — is one of the most used props in classical and contemporary Pilates teaching, and Balanced Body makes the most trusted version in the professional market. Their ring uses a flexible steel core with foam-padded handles designed to withstand commercial studio use. Instructors use it for adductor work, arm strengthening, and as a teaching prop to illustrate alignment and muscle engagement. A Balanced Body Magic Circle is a considered, practical gift that an instructor will use in class rather than leave in a drawer.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates+ring+professional&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     rank: "05",
@@ -80,10 +80,10 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Hydro Flask 40oz Wide Mouth Bottle",
-    price: "$50",
+    price: "$48.45",
     verdict: "Best Practical Gift",
     description: "An instructor teaching back-to-back classes across a full day needs a water bottle that doesn't run out before the last session. The 40oz Hydro Flask is the right size for a professional's teaching day — large enough to cover four to five hours without a refill, double-wall vacuum insulated so water stays cold the entire time. The wide mouth takes ice easily and the flex cap is secure in any bag. A simple, premium, genuinely useful gift that requires no knowledge of their personal style or preferences.",
-    affiliateUrl: "https://www.amazon.com/s?k=hydro+flask+40oz+wide+mouth+water+bottle&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0G996RFY4?tag=pilatescollective-20",
   },
 ];
 
@@ -98,7 +98,7 @@ const CRITERIA = [
   },
   {
     heading: "Match budget to relationship",
-    body: "A client-to-instructor gift sits comfortably at $20–$65: ToeSox socks, a Hydro Flask, grip socks in bulk. A group gift from a class pool can reach the Theragun Pro ($599) or Manduka PRO ($120). Don't overspend as an individual client — a $50 Hydro Flask is more appropriate and more appreciated than an extravagant gesture.",
+    body: "A client-to-instructor gift sits comfortably at $20–$65: ToeSox socks, a Hydro Flask, grip socks in bulk. A group gift from a class pool can reach the Theragun Pro ($529.99) or Manduka PRO ($144). Don't overspend as an individual client — a $50 Hydro Flask is more appropriate and more appreciated than an extravagant gesture.",
   },
   {
     heading: "Avoid props they already own",
@@ -113,7 +113,7 @@ const FAQ = [
   },
   {
     q: "How much should you spend on a pilates instructor gift?",
-    a: "A thoughtful teacher appreciation gift for a pilates instructor typically falls in the $20–$65 range: ToeSox socks ($18–65), a Hydro Flask ($50), or a quality foam roller ($36). For a more significant gift (end of year, or from a group of students), the Theragun Pro ($599) or Lululemon leggings ($98) are outstanding choices. As an individual client, $50 is appropriate; a group can pool for something more substantial.",
+    a: "A thoughtful teacher appreciation gift for a pilates instructor typically falls in the $20–$65 range: ToeSox socks ($18–65), a Hydro Flask ($50), or a quality foam roller ($36). For a more significant gift (end of year, or from a group of students), the Theragun Pro ($529.99) or Lululemon leggings ($98) are outstanding choices. As an individual client, $50 is appropriate; a group can pool for something more substantial.",
   },
   {
     q: "Do pilates instructors like gift cards?",

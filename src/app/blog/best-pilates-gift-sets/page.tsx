@@ -66,7 +66,7 @@ const SETS = [
     name: "The Luxury Mat & Bag Bundle",
     price: "$268 total",
     verdict: "Best Investment Gift Bundle",
-    description: "The pairing that serious practitioners build toward: a Manduka PRO Mat ($120) and a Liforme Original Mat Bag ($148). The Manduka PRO is the lifetime-guaranteed professional mat; the Liforme bag is designed specifically to carry it, with a padded shoulder strap, water bottle pocket, and accessory compartment. Together they make an heirloom-grade set — the mat and bag she'll still be using a decade from now. A gift that communicates genuine understanding of the practice and what it deserves.",
+    description: "The pairing that serious practitioners build toward: a Manduka PRO Mat ($144) and a Liforme Original Mat Bag ($148). The Manduka PRO is the lifetime-guaranteed professional mat; the Liforme bag is designed specifically to carry it, with a padded shoulder strap, water bottle pocket, and accessory compartment. Together they make an heirloom-grade set — the mat and bag she'll still be using a decade from now. A gift that communicates genuine understanding of the practice and what it deserves.",
     affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+mat+bag+set+pilates+gift&tag=pilatescollective-20",
   },
   {

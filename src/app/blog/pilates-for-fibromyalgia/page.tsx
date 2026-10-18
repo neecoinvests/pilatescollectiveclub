@@ -32,11 +32,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gaiam Essentials Thick Yoga Mat 10mm",
-    price: "From $35",
+    price: "$20.93",
     verdict: "Best mat for pain-sensitive practice",
     description:
       "A 10mm mat is one of the most important equipment choices for practitioners with fibromyalgia. The widespread musculoskeletal tenderness that characterises fibromyalgia makes standard 4-6mm mats genuinely uncomfortable for exercises that require lying prone, side-lying, or any position that places bony prominences against the floor. A 10mm mat provides enough cushioning to meaningfully reduce that discomfort without creating the instability that very thick foam can produce during standing or balance exercises. The Gaiam Essentials mat is a well-established option at a sensible price point — it provides adequate cushioning for most practitioners without the premium cost of specialist thick mats. For fibromyalgia, the investment in a thicker mat is not optional comfort — it is a prerequisite for consistent practice.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+essentials+thick+yoga+mat+10mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07H9PZDQW?tag=pilatescollective-20",
     tag: "Best Thick Mat",
   },
   {
@@ -52,11 +52,11 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Fit Simplify Resistance Loop Bands Set",
-    price: "From $11",
+    price: "$9.98",
     verdict: "Best light resistance tool for fibromyalgia",
     description:
       "Resistance bands are ideally suited to fibromyalgia Pilates practice because they allow extremely fine control over load — something that dumbbells and reformer spring stacks cannot provide at the low end. On a high-pain day, using the lightest loop band (typically 5-15lb resistance) for side-lying clam shells, glute bridges, or standing hip abduction keeps the cardiovascular and neuromuscular benefits of exercise while keeping effort well below the threshold that triggers post-exertional malaise in fibromyalgia. The Fit Simplify set provides five resistance levels, giving practitioners the flexibility to self-adjust based on daily symptom variation — a critical feature for fibromyalgia, where functional capacity can vary dramatically day to day.",
-    affiliateUrl: "https://www.amazon.com/s?k=fit+simplify+resistance+loop+bands+set&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B01AVDVHTI?tag=pilatescollective-20",
     tag: "Best Light Resistance",
   },
   {

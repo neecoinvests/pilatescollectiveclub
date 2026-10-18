@@ -59,9 +59,9 @@ const PRODUCTS = [
     price: "$78",
     verdict: "Best Overall",
     description:
-      "Lululemon's Swiftly Tech fabric wicks sweat faster than almost anything on the market. The four-way stretch and flatlock seams mean zero chafing during Megaformer planks or a 45-minute spin climb. Available in a slim or relaxed fit and holds its shape after dozens of washes.",
+      "Lululemon's Swiftly Tech fabric wicks sweat faster than almost anything on the market. The four-way stretch and flatlock seams mean zero chafing during Megaformer planks or a 45-minute spin climb. Available in a slim or relaxed fit and holds its shape after dozens of washes. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl:
-      "https://www.amazon.com/s?k=lululemon+swiftly+tech+long+sleeve&tag=pilatescollective-20",
+      "https://shop.lululemon.com",
     tag: "Top Pick",
   },
   {
@@ -81,20 +81,20 @@ const PRODUCTS = [
     price: "$64",
     verdict: "Best for Lagree",
     description:
-      "Alo's Amplify fabric is thick enough for full Megaformer sessions without feeling heavy, and the elongated hem stays tucked during inversion-adjacent moves like pike and mountain climber. The ribbed texture adds stretch recovery that keeps the silhouette clean set after set.",
+      "Alo's Amplify fabric is thick enough for full Megaformer sessions without feeling heavy, and the elongated hem stays tucked during inversion-adjacent moves like pike and mountain climber. The ribbed texture adds stretch recovery that keeps the silhouette clean set after set. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl:
-      "https://www.amazon.com/s?k=alo+yoga+amplify+tank+top&tag=pilatescollective-20",
+      "https://www.aloyoga.com",
     tag: "Lagree Pick",
   },
   {
     rank: "04",
     name: "Under Armour HeatGear Armour Compression Top",
-    price: "$35",
+    price: "$23.98",
     verdict: "Best Budget",
     description:
       "HeatGear moves sweat to the surface almost instantly and dries in minutes. The compression fit supports muscle engagement cues during Lagree slow-twitch work and the UPF 30 protection is a bonus for outdoor cooldowns. Exceptional value — stock up in two colours.",
     affiliateUrl:
-      "https://www.amazon.com/s?k=under+armour+heatgear+compression+top+women&tag=pilatescollective-20",
+      "https://www.amazon.com/dp/B0874WTGVM?tag=pilatescollective-20",
     tag: "Best Value",
   },
   {
@@ -103,9 +103,9 @@ const PRODUCTS = [
     price: "$45",
     verdict: "Best Seamless Construction",
     description:
-      "Seamless construction eliminates all pressure points and rubbing that can occur in long Megaformer sessions. The Speed fabric is engineered for high-output workouts with ventilation zones across the upper back and underarm. A cult favourite in Lagree studios worldwide.",
+      "Seamless construction eliminates all pressure points and rubbing that can occur in long Megaformer sessions. The Speed fabric is engineered for high-output workouts with ventilation zones across the upper back and underarm. A cult favourite in Lagree studios worldwide. Not sold on Amazon: this link goes to Gymshark's own site.",
     affiliateUrl:
-      "https://www.amazon.com/s?k=gymshark+speed+seamless+top&tag=pilatescollective-20",
+      "https://www.gymshark.com",
     tag: "Studio Favourite",
   },
   {

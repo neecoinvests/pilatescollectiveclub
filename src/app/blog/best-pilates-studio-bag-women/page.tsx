@@ -36,8 +36,8 @@ const PRODUCTS = [
     price: "From $118",
     verdict: "Best overall studio bag",
     description:
-      "The Lululemon Wunderlust Duffle is purpose-built for the practitioner who commutes to class. The structured silhouette holds its shape fully loaded, and the 27-litre capacity handles a complete kit change — clothes, towel, grip socks, shoes, and toiletries — without stretching at the seams. The wet-dry separation pocket keeps damp post-class kit away from clean items, and the interior organisation is thorough enough to make packing and unpacking swift. The padded shoulder strap manages the bag's weight over longer commutes. Lululemon's material quality translates directly into longevity.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+wunderlust+duffle+bag&tag=pilatescollective-20",
+      "The Lululemon Wunderlust Duffle is purpose-built for the practitioner who commutes to class. The structured silhouette holds its shape fully loaded, and the 27-litre capacity handles a complete kit change — clothes, towel, grip socks, shoes, and toiletries — without stretching at the seams. The wet-dry separation pocket keeps damp post-class kit away from clean items, and the interior organisation is thorough enough to make packing and unpacking swift. The padded shoulder strap manages the bag's weight over longer commutes. Lululemon's material quality translates directly into longevity. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
   {
@@ -56,8 +56,8 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best aesthetic studio bag",
     description:
-      "Alo's Hatha Gym Bag brings the brand's signature aesthetic sensibility to a fully functional studio bag. The clean lines and neutral colourway look appropriate in upscale studios and transition naturally to post-class errands without announcing themselves as gym kit. The capacity is generous, the interior organisation is practical without being elaborate, and the coated canvas fabric wipes clean easily and maintains its appearance through regular use. For practitioners who attend premium reformer studios where the changing room doubles as a social space, the Hatha Bag's presentation is a genuine consideration alongside its functionality.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+hatha+gym+bag&tag=pilatescollective-20",
+      "Alo's Hatha Gym Bag brings the brand's signature aesthetic sensibility to a fully functional studio bag. The clean lines and neutral colourway look appropriate in upscale studios and transition naturally to post-class errands without announcing themselves as gym kit. The capacity is generous, the interior organisation is practical without being elaborate, and the coated canvas fabric wipes clean easily and maintains its appearance through regular use. For practitioners who attend premium reformer studios where the changing room doubles as a social space, the Hatha Bag's presentation is a genuine consideration alongside its functionality. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Aesthetic",
   },
   {
@@ -73,11 +73,11 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Nike Brasilia 9.5 Training Duffel",
-    price: "From $35",
+    price: "$49.99",
     verdict: "Best budget studio bag",
     description:
       "Nike's Brasilia 9.5 is the standard against which budget studio bags are measured, and it earns that position through consistent delivery of the fundamentals. The capacity is generous for the price, the shoe bag pocket keeps footwear separated, and the main compartment handles a full studio kit without issue. The organisation is straightforward rather than elaborate, and the fabric handles repeated use without showing it disproportionately. For practitioners who want a reliable functional bag while keeping costs low — or want a second bag to leave packed and ready at home — the Brasilia 9.5 is the honest recommendation.",
-    affiliateUrl: "https://www.amazon.com/s?k=nike+brasilia+9.5+gym+bag+women&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07Z56RJ28?tag=pilatescollective-20",
     tag: "Best Budget",
   },
   {
@@ -86,8 +86,8 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best convertible carry",
     description:
-      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a shoulder bag — practical versatility for practitioners whose commute involves a mix of walking, transit, and carrying the bag into subsequent appointments. The 20-litre capacity covers a complete studio kit without the bulk of a full-size duffel. The organisation is efficient rather than exhaustive, with a shoe pocket and exterior slip pockets for essentials. The backpack conversion distributes weight well on longer walks to the studio or across town afterwards, making this the most versatile option on the list for urban practitioners.",
-    affiliateUrl: "https://www.amazon.com/s?k=calpak+luka+duffel+bag&tag=pilatescollective-20",
+      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a shoulder bag — practical versatility for practitioners whose commute involves a mix of walking, transit, and carrying the bag into subsequent appointments. The 20-litre capacity covers a complete studio kit without the bulk of a full-size duffel. The organisation is efficient rather than exhaustive, with a shoe pocket and exterior slip pockets for essentials. The backpack conversion distributes weight well on longer walks to the studio or across town afterwards, making this the most versatile option on the list for urban practitioners. Not sold on Amazon: this link goes to Calpak's own site.",
+    affiliateUrl: "https://www.calpaktravel.com",
     tag: "Best Convertible",
   },
 ];

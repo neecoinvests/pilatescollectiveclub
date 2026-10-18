@@ -33,11 +33,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Bikeroo Padded Replacement Saddle (Wide)",
-    price: "From $38",
+    price: "$16.40",
     verdict: "Best overall — replace the saddle, do not cover it",
     description:
       "The most effective fix in this category is not a cushion at all. Stock spin bike saddles are narrow racing shapes chosen to look serious, and most riders' sit bones are wider than the saddle can support — so body weight lands on soft tissue instead of bone. A wider replacement saddle with a central relief channel moves the load back onto the sit bones where it belongs, which is what actually stops the pain. Bikeroo's wide model fits the standard rail clamp used by almost every indoor bike, so it is a ten-minute swap with one Allen key. The central cutout matters more than the padding depth: it relieves perineal pressure, which is the specific complaint most riders describe as numbness rather than soreness. Measure your sit bone width before buying — most bike shops will do it free, and it turns this from a guess into a fitting.",
-    affiliateUrl: "https://www.amazon.com/s?k=bikeroo+wide+padded+bike+saddle+replacement&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07B646ZZY?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {

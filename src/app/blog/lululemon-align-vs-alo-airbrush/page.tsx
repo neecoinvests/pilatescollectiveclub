@@ -772,7 +772,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
             {/* Affiliate CTA buttons */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-10">
               <a
-                href="https://www.amazon.com/s?k=lululemon+align+high+rise+pant&tag=pilatescollective-20"
+                href="https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 className="flex items-center justify-between px-6 py-4 rounded-xl transition-opacity hover:opacity-90"
@@ -794,7 +794,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                 <span style={{ fontSize: "22px", opacity: 0.4 }}>↗</span>
               </a>
               <a
-                href="https://www.amazon.com/s?k=alo+yoga+airbrush+high+waist+legging&tag=pilatescollective-20"
+                href="https://www.aloyoga.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 className="flex items-center justify-between px-6 py-4 rounded-xl transition-opacity hover:opacity-90"
@@ -807,7 +807,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
               >
                 <div>
                   <p style={{ fontSize: "10px", letterSpacing: "0.15em", textTransform: "uppercase", opacity: 0.75, marginBottom: "4px" }}>
-                    Shop on Amazon
+                    Not on Amazon: shop Alo
                   </p>
                   <p style={{ fontSize: "15px", fontFamily: "'Playfair Display', serif" }}>
                     Alo Airbrush →

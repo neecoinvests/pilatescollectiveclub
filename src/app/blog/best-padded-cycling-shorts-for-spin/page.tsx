@@ -33,21 +33,21 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Baleaf Women's High Waisted Padded Cycling Shorts",
-    price: "From $32",
+    price: "$36.99",
     verdict: "Best overall women's pick",
     description:
       "The Baleaf high-waisted short pairs a multi-density 3D chamois pad with a four-way stretch compression fabric, and the high-rise waistband stays in place through standing climbs and out-of-saddle intervals without rolling — a common complaint with lower-rise shorts during high-intensity spin. The chamois is foam-based rather than gel, which breathes better over a 45-60 minute class but provides slightly less cushioning than premium gel pads for very long rides. Side pockets fit a phone or key, useful since most spin classes don't have storage at the bike. For studio-length sessions, this is the strongest all-around value in women's padded shorts.",
-    affiliateUrl: "https://www.amazon.com/s?k=baleaf+womens+padded+cycling+shorts&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B091T8FYXR?tag=pilatescollective-20",
     tag: "Best Overall (Women's)",
   },
   {
     rank: "02",
     name: "Pearl Izumi Men's Quest Cycling Shorts",
-    price: "From $70",
+    price: "$65.00",
     verdict: "Best overall men's pick",
     description:
       "Pearl Izumi is a heritage cycling brand and the Quest short reflects that — a multi-panel anatomical chamois designed around sustained pedaling position rather than a generic insert, with a wide elastic waistband and gripper leg hem that stays put without compressing uncomfortably. The fabric is rated UPF 50+ and wicks moisture aggressively, which matters in a heated or high-output spin studio. The price sits well above budget options, but the chamois quality and fit precision are noticeably better for riders doing multiple weekly sessions.",
-    affiliateUrl: "https://www.amazon.com/s?k=pearl+izumi+mens+quest+cycling+shorts&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B09N2F5XM1?tag=pilatescollective-20",
     tag: "Best Overall (Men's)",
   },
   {
@@ -63,21 +63,21 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "ZOIC Men's Essential Cycling Shorts",
-    price: "From $55",
+    price: "$46.00",
     verdict: "Best looser-fit option",
     description:
       "Not every rider wants a skin-tight compression short, and ZOIC's Essential addresses that with a looser mountain-bike-style outer short over a removable padded liner — effectively two garments in one. This construction allows the outer layer to look like a normal athletic short while the inner liner provides the chamois padding, and the liner can be removed for non-cycling workouts. For riders who find traditional compression cycling shorts too tight or revealing for a mixed-use gym bag, this hybrid design is the most comfortable alternative without sacrificing chamois support.",
-    affiliateUrl: "https://www.amazon.com/s?k=zoic+essential+cycling+shorts&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0822TL74G?tag=pilatescollective-20",
     tag: "Best Loose Fit",
   },
   {
     rank: "05",
     name: "Baleaf Men's 3D Padded Cycling Shorts",
-    price: "From $28",
+    price: "$19.99",
     verdict: "Best budget men's pick",
     description:
       "The men's counterpart to Baleaf's women's short, this budget option uses the same 3D foam chamois construction at a price well below premium brands like Pearl Izumi. Compression fit is snug without being restrictive, and the fabric breathes adequately for studio-length sessions. The chamois pad is noticeably thinner than the Pearl Izumi Quest, which is the main trade-off — fine for 2-3 sessions a week but riders training daily may find the padding wears thin faster. For occasional spin riders or those testing whether padded shorts improve their comfort before investing in a premium pair, this is the lowest-risk entry point.",
-    affiliateUrl: "https://www.amazon.com/s?k=baleaf+mens+padded+cycling+shorts&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00MTE6OTQ?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
   {

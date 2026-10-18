@@ -32,21 +32,21 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "TriggerPoint GRID Foam Roller",
-    price: "From $35",
+    price: "$28.99",
     verdict: "Best recovery tool between Pilates and cardio",
     description:
       "The TriggerPoint GRID is the most commonly used foam roller for pre-run and post-Pilates tissue preparation. The multi-density surface mimics the pressure of a massage therapist's fingers more accurately than flat foam rollers, releasing the iliotibial band, hip flexors, and thoracic spine before cardio without the deep tissue fatigue that aggressive manual massage creates. Used for 5-10 minutes between a Pilates session and a run, it maintains the mobility gains from the Pilates work while preparing the legs for repetitive impact. The hollow core construction makes it more durable than solid foam alternatives — it does not compress and lose density with regular use.",
-    affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+grid+foam+roller&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
     tag: "Best Between Sessions",
   },
   {
     rank: "02",
     name: "Theraband Resistance Band Set",
-    price: "From $18",
+    price: "$11.99",
     verdict: "Best for Pilates activation before cardio",
     description:
       "A short glute and hip activation sequence using light resistance bands before cardio — typically 5-10 minutes of clam shells, lateral band walks, and glute bridges — is one of the most evidence-supported warm-up protocols for runners and cyclists. This activation sequence is identical to Pilates hip work, meaning a brief Pilates mini-session before cardio serves a functional warm-up role rather than competing with it. Theraband's colour-coded flat band set provides the light resistance appropriate for activation work — light enough to perform with full neuromuscular control, heavy enough to create the proprioceptive feedback that switches on underactive glutes before impact loading begins.",
-    affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+band+set+light+medium&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20",
     tag: "Best Activation Tool",
   },
   {
@@ -62,11 +62,11 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Manduka PRO Yoga Mat 6mm",
-    price: "From $120",
+    price: "$143.99",
     verdict: "Best mat for combined training days",
     description:
       "On days combining cardio and Pilates, a high-quality non-slip mat eliminates the practical friction of post-run sweat degrading grip during Pilates floor work. The Manduka PRO's closed-cell surface does not absorb moisture — the mat wipes clean between a sweaty run and a Pilates session without becoming slippery. The 6mm cushioning protects joints that have already absorbed impact loading from running, reducing the cumulative fatigue that kneeling and prone exercises create on a standard thin mat after a distance run. The Manduka PRO's longevity — it is guaranteed for life — makes it the right investment for practitioners who train multiple modalities daily.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+yoga+mat+6mm+non+slip&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
     tag: "Best Combined Training Mat",
   },
   {

@@ -46,8 +46,8 @@ const PRODUCTS = [
     price: "From $88",
     verdict: "Best premium mat tote",
     description:
-      "Alo's Move Mat Tote is the rare bag that solves the mat-carry problem elegantly for practitioners who also need a full studio kit in the same carry. External straps secure a rolled mat to the exterior of the bag, keeping mat and gear contained without requiring a separate carrier. The main compartment holds a complete studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo — clean, minimal, and appropriate for both studio and street. Best suited for mat Pilates practitioners; those who only do reformer work may prefer a simpler tote without external straps.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+move+mat+tote&tag=pilatescollective-20",
+      "Alo's Move Mat Tote is the rare bag that solves the mat-carry problem elegantly for practitioners who also need a full studio kit in the same carry. External straps secure a rolled mat to the exterior of the bag, keeping mat and gear contained without requiring a separate carrier. The main compartment holds a complete studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo — clean, minimal, and appropriate for both studio and street. Best suited for mat Pilates practitioners; those who only do reformer work may prefer a simpler tote without external straps. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Premium",
   },
   {
@@ -66,8 +66,8 @@ const PRODUCTS = [
     price: "From $48",
     verdict: "Best structured mat bag",
     description:
-      "Lululemon's Yoga Mat Bag takes the enclosed bag approach and executes it with the brand's characteristic attention to detail. The main compartment fits a standard mat snugly, the exterior pocket handles personal items, and the carry handle and adjustable shoulder strap give flexible carrying options for different commute lengths. The fabric is water-resistant and maintains its structure rather than slouching when the mat is removed — a minor but meaningful quality-of-life improvement over cheaper fabric bags. For practitioners who want their mat bag to match a Lululemon studio kit, the integration is seamless.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+yoga+mat+bag+carrier&tag=pilatescollective-20",
+      "Lululemon's Yoga Mat Bag takes the enclosed bag approach and executes it with the brand's characteristic attention to detail. The main compartment fits a standard mat snugly, the exterior pocket handles personal items, and the carry handle and adjustable shoulder strap give flexible carrying options for different commute lengths. The fabric is water-resistant and maintains its structure rather than slouching when the mat is removed — a minor but meaningful quality-of-life improvement over cheaper fabric bags. For practitioners who want their mat bag to match a Lululemon studio kit, the integration is seamless. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Best Structured",
   },
   {

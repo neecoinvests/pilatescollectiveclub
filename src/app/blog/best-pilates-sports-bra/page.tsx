@@ -39,8 +39,8 @@ const PRODUCTS = [
     verdict: "Best overall",
     tag: "Editor's Pick",
     description:
-      "The Free to Be is the gold standard for Pilates. Buttery-soft Nulu fabric, a scoop neck that stays in place through every roll-down and swan, and just enough structure for medium-impact work. The internal shelf provides coverage in inversions without restrictive underwire. It is the bra your instructor is wearing — there is a reason for that.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+free+to+be+bra&tag=pilatescollective-20",
+      "The Free to Be is the gold standard for Pilates. Buttery-soft Nulu fabric, a scoop neck that stays in place through every roll-down and swan, and just enough structure for medium-impact work. The internal shelf provides coverage in inversions without restrictive underwire. It is the bra your instructor is wearing — there is a reason for that. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
   },
   {
     rank: "02",
@@ -49,8 +49,8 @@ const PRODUCTS = [
     verdict: "Best for open-back studios",
     tag: "Studio Favourite",
     description:
-      "The Airlift Bra defines the boutique studio aesthetic. The spaghetti strap and open keyhole back look exceptional, but the real story is the fabric — Alo's signature Airlift material lifts and compresses without wires. Medium support, excellent shape retention, and the only bra in this roundup that genuinely improves with wear. One caveat: the open back requires a long tank or legging with a high waist.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airlift+bra&tag=pilatescollective-20",
+      "The Airlift Bra defines the boutique studio aesthetic. The spaghetti strap and open keyhole back look exceptional, but the real story is the fabric — Alo's signature Airlift material lifts and compresses without wires. Medium support, excellent shape retention, and the only bra in this roundup that genuinely improves with wear. One caveat: the open back requires a long tank or legging with a high waist. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
   },
   {
     rank: "03",
@@ -69,8 +69,8 @@ const PRODUCTS = [
     verdict: "Best value",
     tag: "Best Value",
     description:
-      "At roughly half the price of Lululemon or Alo, the Gymshark Flex Strappy punches genuinely well. Medium support, good coverage through inversions, attractive strappy back detail, and the Flex fabric holds shape wash after wash. The main difference from the premium options is a slightly less luxurious fabric feel — but the functional performance is excellent for its price.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+flex+strappy+sports+bra&tag=pilatescollective-20",
+      "At roughly half the price of Lululemon or Alo, the Gymshark Flex Strappy punches genuinely well. Medium support, good coverage through inversions, attractive strappy back detail, and the Flex fabric holds shape wash after wash. The main difference from the premium options is a slightly less luxurious fabric feel — but the functional performance is excellent for its price. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
   },
   {
     rank: "05",

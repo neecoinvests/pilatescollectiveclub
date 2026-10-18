@@ -33,11 +33,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Beyond Yoga Spacedye Caught in the Midi High Waisted Legging",
-    price: "From $98",
+    price: "$99.00",
     verdict: "Best Beyond Yoga piece for Pilates",
     description:
       "The Spacedye Midi Legging is Beyond Yoga's defining product and the clearest expression of the brand's design philosophy: exceptional softness, inclusive sizing, and a distinctive spacedye pattern that photographs beautifully in any studio. The fabric — Beyond Yoga's proprietary Spacedye knit — is genuinely comparable in softness to Lululemon Nulu, with a slightly heavier weight that provides more smoothing compression without feeling restrictive. The high-waisted construction sits comfortably above the hip through all Pilates movement, and the flat inner seams prevent irritation during the sustained floor work of mat practice. Available in a comprehensive range of heathered colourways, none of which look cheap at any price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=beyond+yoga+spacedye+high+waist+legging&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07663TDHG?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
@@ -73,11 +73,11 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Beyond Yoga Spacedye Slim Racerback Tank",
-    price: "From $54",
+    price: "$68.00",
     verdict: "Best top for Pilates",
     description:
       "Beyond Yoga's Slim Racerback Tank is the most functional top in the brand's range for Pilates use. The racerback construction keeps straps away from the shoulder blade area — relevant for exercises involving scapular movement and arm work on the reformer — while the slim-fit silhouette stays tucked through active movement without requiring a bodysuit. The Spacedye fabric breathes well and matches the legging range for a complete studio ensemble. The tank is cut slightly longer than most activewear tops, sitting reliably below the waistband of the high-rise legging through all spinal articulation.",
-    affiliateUrl: "https://www.amazon.com/s?k=beyond+yoga+spacedye+racerback+tank&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07D2VDMZ2?tag=pilatescollective-20",
     tag: "Best Top",
   },
 ];

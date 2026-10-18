@@ -32,11 +32,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gaiam Essentials Thick Yoga Mat 10mm",
-    price: "From $35",
+    price: "$20.93",
     verdict: "Best mat for arthritic joints",
     description:
       "A 10mm mat is the most important equipment upgrade for practitioners with arthritis. Standard 4-6mm mats provide insufficient cushioning for kneeling, quadruped (hands and knees), and seated exercises that place direct pressure on arthritic knees, wrists, and hips. The Gaiam Essentials 10mm mat provides enough cushioning to meaningfully reduce discomfort in these positions without creating the instability that very thick foam can cause. The non-slip surface handles perspiration, and the mat is light enough to carry to class without adding physical strain. For practitioners with significant knee or wrist arthritis, a 10mm mat is often the single change that makes floor-based Pilates consistently accessible.",
-    affiliateUrl: "https://www.amazon.com/s?k=gaiam+essentials+thick+yoga+mat+10mm&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07H9PZDQW?tag=pilatescollective-20",
     tag: "Best for Joint Cushioning",
   },
   {
@@ -62,11 +62,11 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Trideer Pilates Ball 9 Inch Overball",
-    price: "From $14",
+    price: "$7.99",
     verdict: "Best low-impact prop for joint-friendly Pilates",
     description:
       "The small Pilates overball is one of the most useful props for arthritis-modified Pilates because it allows practitioners to reduce range of motion and joint loading in exercises without requiring the instructor to redesign the whole class. Placed between the knees in supine exercises, it reduces hip adductor and knee stress while maintaining the activation intent of the exercise. Held in the hands during standing exercises, it provides gentle grip resistance that is appropriate for hand arthritis where larger free weights create excessive joint compression. The 9-inch overball is the standard size for Pilates prop work and fits most practitioners without adjustment.",
-    affiliateUrl: "https://www.amazon.com/s?k=trideer+pilates+ball+9+inch+overball&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
     tag: "Best Low-Impact Prop",
   },
   {

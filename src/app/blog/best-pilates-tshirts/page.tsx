@@ -43,8 +43,8 @@ const PRODUCTS = [
     name: "Lululemon Metal Vent Tech Short-Sleeve Shirt",
     price: "$68",
     verdict: "Best Overall",
-    description: "Lululemon's Metal Vent Tech is the benchmark for Pilates tees. The back panel is open-weave mesh for maximum ventilation during reformer work, while the front stays structured enough for studio settings. Four-way stretch means the fabric moves with you through every rotation and extension without bunching or restricting.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+metal+vent+tech+short+sleeve+shirt&tag=pilatescollective-20",
+    description: "Lululemon's Metal Vent Tech is the benchmark for Pilates tees. The back panel is open-weave mesh for maximum ventilation during reformer work, while the front stays structured enough for studio settings. Four-way stretch means the fabric moves with you through every rotation and extension without bunching or restricting. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Top Pick",
   },
   {
@@ -52,8 +52,8 @@ const PRODUCTS = [
     name: "Vuori Strato Tech Tee",
     price: "$64",
     verdict: "Best Breathable",
-    description: "Vuori's Strato Tech uses a proprietary anti-microbial polyester that stays fresh through back-to-back sessions. The relaxed fit is on-trend for Pilates studios without being sloppy — it doesn't ride up during supine footwork or aerial work on the reformer. The neutral colourways suit any studio aesthetic.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+strato+tech+tee&tag=pilatescollective-20",
+    description: "Vuori's Strato Tech uses a proprietary anti-microbial polyester that stays fresh through back-to-back sessions. The relaxed fit is on-trend for Pilates studios without being sloppy — it doesn't ride up during supine footwork or aerial work on the reformer. The neutral colourways suit any studio aesthetic. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathable",
   },
   {
@@ -61,8 +61,8 @@ const PRODUCTS = [
     name: "Alo Yoga The Triumph Tee",
     price: "$58",
     verdict: "Best Studio Style",
-    description: "If aesthetics matter in your studio — and they do — the Triumph Tee is Alo's most popular silhouette for a reason. The micro-rib fabric has a polished look that reads elevated without sacrificing movement. It's slightly fitted through the torso, which keeps it from interfering with strap work or carriage-based exercises.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+triumph+tee&tag=pilatescollective-20",
+    description: "If aesthetics matter in your studio — and they do — the Triumph Tee is Alo's most popular silhouette for a reason. The micro-rib fabric has a polished look that reads elevated without sacrificing movement. It's slightly fitted through the torso, which keeps it from interfering with strap work or carriage-based exercises. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Studio Favourite",
   },
   {
@@ -79,8 +79,8 @@ const PRODUCTS = [
     name: "Gymshark Vital Seamless T-Shirt",
     price: "$38",
     verdict: "Best Seamless",
-    description: "Seamless construction eliminates every seam that could press into skin during floor work. The Vital fabric is lightweight but substantial enough to feel like real clothing rather than a performance layer. Subtle texture panels on the side add visual interest without adding bulk — a good choice for those who prefer minimalist styling.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+vital+seamless+t+shirt&tag=pilatescollective-20",
+    description: "Seamless construction eliminates every seam that could press into skin during floor work. The Vital fabric is lightweight but substantial enough to feel like real clothing rather than a performance layer. Subtle texture panels on the side add visual interest without adding bulk — a good choice for those who prefer minimalist styling. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
     tag: "Seamless Pick",
   },
   {

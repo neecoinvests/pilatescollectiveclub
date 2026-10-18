@@ -33,11 +33,11 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Lululemon Fly Away Tamer Headband",
-    price: "From $18",
+    price: "$26.90",
     verdict: "Best overall Pilates headband",
     description:
       "The Lululemon Fly Away Tamer is the most recommended headband in reformer studios, and the reasons are straightforward. The silicone grip strips on the interior hold the band in place through inversions, leg circles, and any position that puts your head at an angle — without requiring the band to be so tight it creates pressure. The fabric is stretchy enough to sit comfortably for a full 60-minute session without tightening or shifting, and sweat-wicking enough to keep hair off your face at the point where it matters most. The low-profile design does not add bulk at the back of the head, which matters for exercises in a supine position on the reformer carriage.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+fly+away+tamer+headband&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B08JXGVL4R?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
   {
@@ -46,18 +46,18 @@ const PRODUCTS = [
     price: "From $22",
     verdict: "Best premium Pilates headband",
     description:
-      "Alo's Ribbed Headband sits at the premium end of the studio headband market and justifies its price through materials quality and aesthetic. The ribbed fabric is thicker and more structured than most workout headbands, giving it a polished appearance that reads as a deliberate accessory rather than an afterthought. The stretch is calibrated to hold firmly without cutting into the scalp, and the slightly wider profile keeps more hair contained without becoming a full turban. For practitioners who attend premium reformer studios where the overall aesthetic of their kit matters, the Alo Ribbed Headband integrates cleanly into a coordinated studio look.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+ribbed+headband&tag=pilatescollective-20",
+      "Alo's Ribbed Headband sits at the premium end of the studio headband market and justifies its price through materials quality and aesthetic. The ribbed fabric is thicker and more structured than most workout headbands, giving it a polished appearance that reads as a deliberate accessory rather than an afterthought. The stretch is calibrated to hold firmly without cutting into the scalp, and the slightly wider profile keeps more hair contained without becoming a full turban. For practitioners who attend premium reformer studios where the overall aesthetic of their kit matters, the Alo Ribbed Headband integrates cleanly into a coordinated studio look. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Premium",
   },
   {
     rank: "03",
     name: "Nike Swoosh Sport Headband",
-    price: "From $14",
+    price: "$19.79",
     verdict: "Best for high-sweat sessions",
     description:
       "Nike's Swoosh Sport Headband is the choice for practitioners who prioritise sweat management over aesthetics. The Dri-FIT fabric actively pulls moisture away from the hairline and dries quickly, making it more effective at managing sweat during intense Lagree-style sessions or heated reformer classes than softer cotton or modal alternatives. The wide band keeps more hair contained than narrow styles, and the fabric is thick enough to absorb meaningfully rather than simply redirecting sweat. The silicone grip strip on the interior holds position reliably. Less polished-looking than the Lululemon or Alo options, but functionally superior in genuinely sweaty conditions.",
-    affiliateUrl: "https://www.amazon.com/s?k=nike+swoosh+sport+headband+dri-fit&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00OY9KCH4?tag=pilatescollective-20",
     tag: "Best for Sweat",
   },
   {
@@ -73,11 +73,11 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Kitsch Soft Ribbed Spa Headband",
-    price: "From $12",
+    price: "$11.99",
     verdict: "Best value headband",
     description:
       "Kitsch's Soft Ribbed Headband punches above its price bracket for Pilates use. The plush ribbed fabric is gentler against the scalp than performance-fabric alternatives, making it comfortable for practitioners who find workout headbands too tight or abrasive. The stretch is appropriate for mat Pilates and lower-intensity reformer work — less grippy than the Lululemon Fly Away Tamer in extreme inversions, but entirely adequate for standard class positions. Available in packs of multiple colourways, which suits practitioners who want a fresh headband for each session without the cost of buying premium options individually.",
-    affiliateUrl: "https://www.amazon.com/s?k=kitsch+soft+ribbed+headband+workout&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0GY9XFPLX?tag=pilatescollective-20",
     tag: "Best Value",
   },
   {

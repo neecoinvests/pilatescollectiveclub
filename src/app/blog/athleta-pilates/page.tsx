@@ -38,8 +38,8 @@ const PRODUCTS = [
     price: "From $89",
     verdict: "Best Overall",
     description:
-      "The Salutation Stash is the Athleta legging that most consistently performs well in Pilates studio conditions. Designed originally for yoga — a movement modality with overlapping demands — the fabric has a four-way stretch and a soft, smooth hand feel that works particularly well for reformer carriage contact. The high-rise waistband is wide and flat, providing hold through spinal articulation without digging into the abdomen during deep flexion. The &apos;stash&apos; refers to a small waistband pocket — useful for grip socks; irrelevant to Pilates performance but harmless. Full opacity. The price at $89-99 is notably below Lululemon Align at $98 while offering comparable functionality for Pilates practitioners.",
-    affiliateUrl: "https://www.amazon.com/s?k=athleta+salutation+stash+tight+legging&tag=pilatescollective-20",
+      "The Salutation Stash is the Athleta legging that most consistently performs well in Pilates studio conditions. Designed originally for yoga — a movement modality with overlapping demands — the fabric has a four-way stretch and a soft, smooth hand feel that works particularly well for reformer carriage contact. The high-rise waistband is wide and flat, providing hold through spinal articulation without digging into the abdomen during deep flexion. The &apos;stash&apos; refers to a small waistband pocket — useful for grip socks; irrelevant to Pilates performance but harmless. Full opacity. The price at $89-99 is notably below Lululemon Align at $98 while offering comparable functionality for Pilates practitioners. Not sold on Amazon: this link goes to Athleta's own site.",
+    affiliateUrl: "https://athleta.gap.com",
     tag: "Top Pick",
   },
   {
@@ -48,8 +48,8 @@ const PRODUCTS = [
     price: "From $79",
     verdict: "Best for Flow Work",
     description:
-      "The Transcend uses Athleta&apos;s lightest, softest fabric — described internally as having a barely-there quality that many practitioners compare directly to the Lululemon Align Nulu. For Pilates mat work, gentle reformer sessions, and private instruction where the priority is movement freedom over structured compression, the Transcend is the correct Athleta choice. The fabric is lighter than the Salutation Stash and has less compression, which makes it less appropriate for vigorous group reformer classes where waistband security matters more. The price at $79-89 is excellent given the fabric quality — this is where Athleta most clearly demonstrates its value advantage over premium competitors.",
-    affiliateUrl: "https://www.amazon.com/s?k=athleta+transcend+tight+legging&tag=pilatescollective-20",
+      "The Transcend uses Athleta&apos;s lightest, softest fabric — described internally as having a barely-there quality that many practitioners compare directly to the Lululemon Align Nulu. For Pilates mat work, gentle reformer sessions, and private instruction where the priority is movement freedom over structured compression, the Transcend is the correct Athleta choice. The fabric is lighter than the Salutation Stash and has less compression, which makes it less appropriate for vigorous group reformer classes where waistband security matters more. The price at $79-89 is excellent given the fabric quality — this is where Athleta most clearly demonstrates its value advantage over premium competitors. Not sold on Amazon: this link goes to Athleta's own site.",
+    affiliateUrl: "https://athleta.gap.com",
     tag: "Best for Flow Work",
   },
   {
@@ -58,8 +58,8 @@ const PRODUCTS = [
     price: "From $79",
     verdict: "Best 7/8 Length",
     description:
-      "The 7/8 length — sitting at the mid-calf rather than the ankle — has become the dominant Pilates legging format for a functional reason: it keeps fabric clear of the reformer footbar during standing footwork and eliminates the bunching at the ankle that full-length leggings can develop during kneeling sequences. The Elation is Athleta&apos;s best 7/8 option because the fabric has a smooth, substantial quality that provides adequate compression for dynamic reformer work while maintaining the softness needed for extended floor contact. The cropped length is particularly useful during jump board sequences where ankle restriction is a minor but real concern.",
-    affiliateUrl: "https://www.amazon.com/s?k=athleta+elation+tight+7%2F8&tag=pilatescollective-20",
+      "The 7/8 length — sitting at the mid-calf rather than the ankle — has become the dominant Pilates legging format for a functional reason: it keeps fabric clear of the reformer footbar during standing footwork and eliminates the bunching at the ankle that full-length leggings can develop during kneeling sequences. The Elation is Athleta&apos;s best 7/8 option because the fabric has a smooth, substantial quality that provides adequate compression for dynamic reformer work while maintaining the softness needed for extended floor contact. The cropped length is particularly useful during jump board sequences where ankle restriction is a minor but real concern. Not sold on Amazon: this link goes to Athleta's own site.",
+    affiliateUrl: "https://athleta.gap.com",
     tag: "Best 7/8 Length",
   },
   {
@@ -68,8 +68,8 @@ const PRODUCTS = [
     price: "From $55",
     verdict: "Best Bra",
     description:
-      "The Exhale is Athleta&apos;s most technically considered bra for Pilates. The name is a reference to the breathing-oriented design: the band construction is less constrictive around the ribcage than most sports bras, which allows the full lateral ribcage expansion that Pilates breathing technique requires. The medium support level is appropriate for all Pilates except vigorous jump board sequences. The back coverage is generous — more coverage than a racerback, less than a full back — which provides comfort during the prone back extension exercises of the classical repertoire. At $55-65, the value is strong compared to Lululemon Energy Bra ($68) and Sweaty Betty Super Sculpt ($65).",
-    affiliateUrl: "https://www.amazon.com/s?k=athleta+exhale+sports+bra&tag=pilatescollective-20",
+      "The Exhale is Athleta&apos;s most technically considered bra for Pilates. The name is a reference to the breathing-oriented design: the band construction is less constrictive around the ribcage than most sports bras, which allows the full lateral ribcage expansion that Pilates breathing technique requires. The medium support level is appropriate for all Pilates except vigorous jump board sequences. The back coverage is generous — more coverage than a racerback, less than a full back — which provides comfort during the prone back extension exercises of the classical repertoire. At $55-65, the value is strong compared to Lululemon Energy Bra ($68) and Sweaty Betty Super Sculpt ($65). Not sold on Amazon: this link goes to Athleta's own site.",
+    affiliateUrl: "https://athleta.gap.com",
     tag: "Best Bra",
   },
   {
@@ -78,8 +78,8 @@ const PRODUCTS = [
     price: "From $99",
     verdict: "Best Layer",
     description:
-      "The layer question for Pilates is specific: you want something warm enough for the arrival and cool-down periods of a class, fitted enough to wear during warm-up sequences without fabric interference, and easy to remove quickly when the carriage work begins. The Athleta Headlands Hoodie meets all three requirements. The fitted cut does not pool on a reformer carriage if worn during warm-up mat work. The fabric is the correct weight for the transition from outdoor cold to studio temperature. At $99-109, it is meaningfully less expensive than comparable Lululemon layers. The B Corp certification is genuine — Athleta is among the few major activewear brands with credible sustainability credentials.",
-    affiliateUrl: "https://www.amazon.com/s?k=athleta+headlands+hoodie+layer&tag=pilatescollective-20",
+      "The layer question for Pilates is specific: you want something warm enough for the arrival and cool-down periods of a class, fitted enough to wear during warm-up sequences without fabric interference, and easy to remove quickly when the carriage work begins. The Athleta Headlands Hoodie meets all three requirements. The fitted cut does not pool on a reformer carriage if worn during warm-up mat work. The fabric is the correct weight for the transition from outdoor cold to studio temperature. At $99-109, it is meaningfully less expensive than comparable Lululemon layers. The B Corp certification is genuine — Athleta is among the few major activewear brands with credible sustainability credentials. Not sold on Amazon: this link goes to Athleta's own site.",
+    affiliateUrl: "https://athleta.gap.com",
     tag: "Best Layer",
   },
 ];

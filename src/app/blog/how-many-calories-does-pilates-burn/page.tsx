@@ -42,21 +42,21 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Garmin Vivosmart 5",
-    price: "From $100",
+    price: "$142.99",
     verdict: "Best slim tracker for studio use",
     description:
       "Garmin's Vivosmart 5 is the slimmest wrist tracker on this list — relevant for Pilates practitioners who find standard fitness bands distracting during reformer exercises where the wrist is in contact with the carriage. The continuous heart rate monitoring and Garmin's Body Battery energy tracking produce calorie data that is reliably within 10-15% of laboratory measurements, which is the realistic accuracy ceiling for optical wrist sensors during low-to-moderate intensity activity. The seven-day battery life is genuinely useful, and Garmin's health data ecosystem is the most comprehensive available for long-term trend analysis.",
-    affiliateUrl: "https://www.amazon.com/s?k=garmin+vivosmart+5+fitness+tracker&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B09VY63659?tag=pilatescollective-20",
     tag: "Best Slim Profile",
   },
   {
     rank: "03",
     name: "Polar H10 Heart Rate Monitor Chest Strap",
-    price: "From $95",
+    price: "$104.88",
     verdict: "Most accurate calorie measurement",
     description:
       "If accuracy is the priority, a chest-based ECG heart rate monitor is meaningfully more accurate than optical wrist sensors for low-to-moderate intensity activity like Pilates, where wrist movement patterns can confuse optical sensors. The Polar H10 chest strap is the gold standard for consumer heart rate monitoring, used as the reference device in most fitness tracker accuracy studies. Paired with a fitness app on your phone, it records a calorie burn that is as close to laboratory accuracy as consumer equipment allows. The electrode strap is comfortable during supine and prone Pilates exercises. Best for practitioners who want precise data rather than convenience.",
-    affiliateUrl: "https://www.amazon.com/s?k=polar+h10+heart+rate+monitor+chest+strap&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B07PM54P4N?tag=pilatescollective-20",
     tag: "Most Accurate",
   },
   {
@@ -72,11 +72,11 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Samsung Galaxy Fit3",
-    price: "From $40",
+    price: "$49.99",
     verdict: "Best budget tracker",
     description:
       "Samsung's Galaxy Fit3 delivers continuous heart rate monitoring and calorie tracking at a price point significantly below the Fitbit and Garmin alternatives. The slim band design is comfortable during all Pilates positions including supine exercises where a thicker watch face creates discomfort. Accuracy is comparable to other optical wrist sensors at similar price points — within 15-20% of laboratory measurements for low-intensity activity. For Android users who want a functional activity tracker without committing to a premium price, the Galaxy Fit3 covers the core calorie-tracking function adequately. Battery life is excellent at up to 13 days.",
-    affiliateUrl: "https://www.amazon.com/s?k=samsung+galaxy+fit3+fitness+tracker&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0CW3VWC3X?tag=pilatescollective-20",
     tag: "Best Budget Tracker",
   },
 ];

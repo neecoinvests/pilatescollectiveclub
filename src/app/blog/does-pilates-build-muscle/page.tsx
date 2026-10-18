@@ -32,41 +32,41 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Bala Bangles Wrist & Ankle Weights 1lb",
-    price: "From $55",
+    price: "$55.00",
     verdict: "Best for adding load to Pilates",
     description:
       "Bala Bangles are the most studio-appropriate way to add progressive resistance to Pilates without disrupting the flow of a class. The 1lb weight per bangle is calibrated for the end-range movements Pilates uses — leg circles, arm series, footwork — where even modest additional load creates meaningful muscular challenge. The cast iron weights are distributed evenly in a silicone sleeve that sits flush against the wrist or ankle without shifting during movement. Unlike dumbbells held in the hands, Bangles leave fingers free for strap work and reformer exercises. The aesthetic is intentionally considered — they read as a deliberate accessory rather than improvised gym equipment in a studio context.",
-    affiliateUrl: "https://www.amazon.com/s?k=bala+bangles+wrist+ankle+weights+1lb&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B09SNTB8DF?tag=pilatescollective-20",
     tag: "Best Wearable Weights",
   },
   {
     rank: "02",
     name: "Yes4All Neoprene Dumbbell Set 1-3lb",
-    price: "From $22",
+    price: "$9.99",
     verdict: "Best light dumbbell set for Pilates",
     description:
       "A set of light dumbbells — 1lb, 2lb, and 3lb — used during the standing arm series in mat and reformer Pilates creates genuine muscular overload in the shoulder stabilisers and rotator cuff that bodyweight Pilates alone does not provide. The neoprene coating gives secure grip with sweaty hands, and the hex shape prevents rolling on studio floors. The 1-3lb range is specifically appropriate for Pilates: heavier weights compromise form and shift the exercise away from the precision Pilates requires. This set covers the full progression from beginner to advanced mat arm work without becoming the kind of gym equipment that feels out of place in a studio.",
-    affiliateUrl: "https://www.amazon.com/s?k=yes4all+neoprene+dumbbell+set+1+2+3+lb&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00A6MKU7A?tag=pilatescollective-20",
     tag: "Best Light Dumbbells",
   },
   {
     rank: "03",
     name: "Fit Simplify Resistance Loop Bands Set",
-    price: "From $12",
+    price: "$9.98",
     verdict: "Best resistance bands for Pilates muscle work",
     description:
       "Fabric resistance loop bands add progressive overload to the hip, glute, and thigh exercises in Pilates that bodyweight versions under-challenge once a baseline level of strength is established. Placed above the knees in bridges, clam shells, and side-lying leg work, even light resistance creates the sustained muscular tension that drives hypertrophy more effectively than unloaded repetitions. The five-level Fit Simplify set progresses from minimal resistance (appropriate for early rehabilitation work) through heavy resistance (appropriate for experienced practitioners doing glute-focused sequences). The fabric construction avoids the rolling and digging that makes plain latex loops impractical for bare-skin exercises.",
-    affiliateUrl: "https://www.amazon.com/s?k=fit+simplify+resistance+loop+bands+fabric+set&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B01AVDVHTI?tag=pilatescollective-20",
     tag: "Best Resistance Bands",
   },
   {
     rank: "04",
     name: "Balanced Body Pilates Magic Circle",
-    price: "From $38",
+    price: "$35.00",
     verdict: "Best classic Pilates prop for muscle activation",
     description:
       "The Pilates magic circle (ring) is the original Pilates resistance prop, designed by Joseph Pilates himself using a beer keg ring. Squeezed between the palms, placed between the inner thighs, or pressed with the outer ankles, it creates isometric and isotonic resistance in the muscle groups Pilates targets most: inner thighs, glutes, pectoral stabilisers, and shoulder adductors. The Balanced Body version uses a flexible fiberglass ring with padded handles — more durable and consistently resilient than the cheap foam-and-metal alternatives. The resistance is fixed rather than progressive, which is appropriate for the activation and endurance work Pilates uses the ring for rather than maximal load exercises.",
-    affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+magic+circle+ring&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
     tag: "Best Pilates Prop",
   },
   {
@@ -82,11 +82,11 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Trideer Pilates Ball 9 Inch Overball",
-    price: "From $14",
+    price: "$7.99",
     verdict: "Best prop for deep muscle activation",
     description:
       "The small Pilates overball creates instability and proprioceptive challenge that recruits deep stabiliser muscles the standard flat-surface exercises do not reach. Placed under the lumbar spine in supine exercises, it challenges the multifidus and deep spinal extensors. Placed between the knees, it maintains inner thigh and adductor activation through exercises that would otherwise allow these muscles to disengage. The overball is particularly effective for practitioners who have plateaued on standard mat Pilates — adding it to familiar exercises creates fresh muscular challenge from the same movement patterns. The 9-inch size fits most practitioners' hip and knee widths without adjustment.",
-    affiliateUrl: "https://www.amazon.com/s?k=trideer+pilates+ball+9+inch+overball&tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
     tag: "Best for Deep Muscles",
   },
 ];

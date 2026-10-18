@@ -43,8 +43,8 @@ const PRODUCTS = [
     name: "Lululemon Swiftly Tech Racerback Tank",
     price: "$58",
     verdict: "Best Overall",
-    description: "The Swiftly Tech Racerback is the most recommended tank in Pilates studios globally for good reason. The Swiftly fabric is buttery-soft, wicks sweat almost instantly, and the racerback cut provides full shoulder freedom for overhead reaches and shoulder bridge variations. It doesn't ride up, pill, or lose its shape after repeated washing.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+swiftly+tech+racerback+tank&tag=pilatescollective-20",
+    description: "The Swiftly Tech Racerback is the most recommended tank in Pilates studios globally for good reason. The Swiftly fabric is buttery-soft, wicks sweat almost instantly, and the racerback cut provides full shoulder freedom for overhead reaches and shoulder bridge variations. It doesn't ride up, pill, or lose its shape after repeated washing. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Top Pick",
   },
   {
@@ -52,8 +52,8 @@ const PRODUCTS = [
     name: "Alo Yoga Airlift Intrigue Tank",
     price: "$62",
     verdict: "Best Premium",
-    description: "Alo's Airlift fabric is their most technical offering — ultra-lightweight, compressive, and opaque in every colour. The Intrigue Tank features an open-cross back that elevates the silhouette while maximising airflow during heated reformer sessions. Worn equally for Pilates, yoga, and studio barre.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airlift+intrigue+tank&tag=pilatescollective-20",
+    description: "Alo's Airlift fabric is their most technical offering — ultra-lightweight, compressive, and opaque in every colour. The Intrigue Tank features an open-cross back that elevates the silhouette while maximising airflow during heated reformer sessions. Worn equally for Pilates, yoga, and studio barre. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Premium",
   },
   {
@@ -61,8 +61,8 @@ const PRODUCTS = [
     name: "Gymshark Flex Strappy Back Tank",
     price: "$35",
     verdict: "Best for Lagree",
-    description: "The multi-strap back of the Gymshark Flex Tank keeps you cool during high-output Lagree sessions while the fitted front stays in place through plank, pike, and mountain climber. Gymshark's Flex fabric has a subtle compression that doesn't restrict breathing — important during slow-twitch Megaformer work where breath control is essential.",
-    affiliateUrl: "https://www.amazon.com/s?k=gymshark+flex+strappy+back+tank&tag=pilatescollective-20",
+    description: "The multi-strap back of the Gymshark Flex Tank keeps you cool during high-output Lagree sessions while the fitted front stays in place through plank, pike, and mountain climber. Gymshark's Flex fabric has a subtle compression that doesn't restrict breathing — important during slow-twitch Megaformer work where breath control is essential. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
     tag: "Lagree Favourite",
   },
   {

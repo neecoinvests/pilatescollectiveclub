@@ -36,8 +36,8 @@ const PRODUCTS = [
     price: "From $176",
     verdict: "Best overall Pilates set",
     description:
-      "Alo's Airbrush set is the default choice in boutique reformer studios across New York, Los Angeles, and London — and for good reason. The matching legging and bra combination is engineered as a coordinated system: the high-waist legging sits perfectly at the waist regardless of the bra style, the fabric weight is consistent across both pieces, and the colourways are designed to complement rather than merely match. The medium-weight compression fabric supports without restricting breath, which is particularly important in exercises like the hundred and long-box series. The sports bra component offers enough coverage and support for a full reformer session without requiring a separate layer.",
-    affiliateUrl: "https://www.amazon.com/s?k=alo+yoga+airbrush+set+legging+bra&tag=pilatescollective-20",
+      "Alo's Airbrush set is the default choice in boutique reformer studios across New York, Los Angeles, and London — and for good reason. The matching legging and bra combination is engineered as a coordinated system: the high-waist legging sits perfectly at the waist regardless of the bra style, the fabric weight is consistent across both pieces, and the colourways are designed to complement rather than merely match. The medium-weight compression fabric supports without restricting breath, which is particularly important in exercises like the hundred and long-box series. The sports bra component offers enough coverage and support for a full reformer session without requiring a separate layer. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
     tag: "Editor's Pick",
   },
   {
@@ -46,8 +46,8 @@ const PRODUCTS = [
     price: "From $186",
     verdict: "Best for softness",
     description:
-      "The Lululemon Align set pairs the iconic Align High-Rise Pant with the Free to Be Bra or Energy Bra, and the result is the softest coordinated Pilates outfit available at any price point. The Nulu fabric's near-weightless quality is immediately apparent in movement — there's no fabric resistance through hip flexion, spinal rotation, or the deep stretches of the full Pilates repertoire. The set is available in a comprehensive range of neutral and seasonal colourways, and the pieces can be purchased individually to build multiple combinations. A wardrobe investment that justifies itself across hundreds of studio sessions.",
-    affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+set+legging+bra&tag=pilatescollective-20",
+      "The Lululemon Align set pairs the iconic Align High-Rise Pant with the Free to Be Bra or Energy Bra, and the result is the softest coordinated Pilates outfit available at any price point. The Nulu fabric's near-weightless quality is immediately apparent in movement — there's no fabric resistance through hip flexion, spinal rotation, or the deep stretches of the full Pilates repertoire. The set is available in a comprehensive range of neutral and seasonal colourways, and the pieces can be purchased individually to build multiple combinations. A wardrobe investment that justifies itself across hundreds of studio sessions. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
     tag: "Most Popular",
   },
   {
@@ -70,8 +70,8 @@ const PRODUCTS = [
     price: "From $148",
     verdict: "Best for warm studios",
     description:
-      "Vuori's Halo set prioritises breathability above all else — the lightweight, breathable fabric makes it the preferred choice for heated studios and warm-climate practitioners. The fabric is lighter and less compressive than Alo or Sweaty Betty, but it is completely opaque and provides a clean, streamlined aesthetic appropriate for any studio environment. The Halo Bra has a clean cross-back construction that doesn't interfere with scapular movement during stabilisation exercises, and both pieces are available in Vuori's characteristic muted, nature-inspired colourway palette.",
-    affiliateUrl: "https://www.amazon.com/s?k=vuori+halo+set+legging+bra+women&tag=pilatescollective-20",
+      "Vuori's Halo set prioritises breathability above all else — the lightweight, breathable fabric makes it the preferred choice for heated studios and warm-climate practitioners. The fabric is lighter and less compressive than Alo or Sweaty Betty, but it is completely opaque and provides a clean, streamlined aesthetic appropriate for any studio environment. The Halo Bra has a clean cross-back construction that doesn't interfere with scapular movement during stabilisation exercises, and both pieces are available in Vuori's characteristic muted, nature-inspired colourway palette. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathability",
   },
   {

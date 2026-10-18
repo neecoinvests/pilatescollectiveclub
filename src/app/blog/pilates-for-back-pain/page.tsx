@@ -123,10 +123,10 @@ const jsonLd = {
   ],
 };
 const PRODUCTS = [
-  { name: "Manduka PRO Pilates Mat", description: "The mat used in clinical Pilates settings — 6mm density absorbs reformer and floor work alike. Non-slip surface works on hardwood and carpet.", price: "From $98", affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+pilates+mat&tag=pilatescollective-20" },
-  { name: "OPTP Foam Roller (36-inch)", description: "Full-length foam roller for thoracic mobilisation and spinal articulation — an essential tool for anyone using Pilates to address back pain.", price: "From $29", affiliateUrl: "https://www.amazon.com/s?k=OPTP+foam+roller+36+inch&tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Provides light resistance for inner thigh, hip flexor, and glute activation — all muscle groups that directly support spinal stability.", price: "From $35", affiliateUrl: "https://www.amazon.com/s?k=balanced+body+magic+circle+pilates&tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "Three resistance levels for progressive loading of back and core exercises. Used in both clinical and home Pilates settings.", price: "From $22", affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+bands+set&tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "The mat used in clinical Pilates settings — 6mm density absorbs reformer and floor work alike. Non-slip surface works on hardwood and carpet.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Full-length foam roller for thoracic mobilisation and spinal articulation — an essential tool for anyone using Pilates to address back pain.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Provides light resistance for inner thigh, hip flexor, and glute activation — all muscle groups that directly support spinal stability.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Three resistance levels for progressive loading of back and core exercises. Used in both clinical and home Pilates settings.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Gaiam Restore Lower Back Support", description: "A lumbar support cushion useful during mat work and seated recovery — helpful in the sub-acute phase when floor exercises require positioning support.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=gaiam+restore+lower+back+support+cushion&tag=pilatescollective-20" },
 ];
 
