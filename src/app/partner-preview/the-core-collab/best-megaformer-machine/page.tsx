@@ -64,8 +64,8 @@ const PARTNER_ENTRY = (
     brandName="The Core Collab Sculptformer"
     sponsorName="The Core Collab"
     logoSrc="/pictures/partners/the-core-collab-logo.png"
-    imageSrc="/pictures/stitch-reformer-spring-detail.png"
-    imageAlt="Carriage and springs, image placeholder for The Core Collab Sculptformer"
+    imageSrc="/pictures/partners/the-core-collab-sculptformer.jpg"
+    imageAlt="The Core Collab Sculptformer Lagree-style machine in black"
     details={[
       { label: "Machine", value: "The Core Collab Sculptformer" },
       { label: "Best for", value: "Studios and committed trainers who want a Lagree-style machine" },
