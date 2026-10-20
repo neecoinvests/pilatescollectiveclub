@@ -41,7 +41,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Manduka PRO Yoga & Pilates Mat 6mm",
-    price: "$144",
+    price: "$141.00",
     verdict: "Best Overall Luxury",
     description: "The Manduka PRO is the studio standard, and it comes with a lifetime guarantee. Its 6mm ultra-dense cushioning is the right amount for spinal articulation and kneeling work without the wobble of soft foam, the closed-cell surface keeps sweat from soaking in and wipes clean easily, and a dotted underside keeps it planted. At 71 × 26 inches it's a little wider than most mats, and at 7.5 lbs it's a home mat rather than one you carry around. Expect a short break-in before it reaches full grip. Sold by Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B01I5CFUHM?tag=pilatescollective-20",
@@ -59,7 +59,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Hugger Mugger Para Rubber Yoga Mat",
-    price: "$116",
+    price: "$128.00",
     verdict: "Best Heavyweight Mat",
     description: "If you want a mat that lies absolutely flat and never slides, the Para Rubber is it. It's a quarter-inch (about 6.4mm) of natural rubber with non-slip grip on both sides, which gives excellent cushioning for supine and kneeling work, and the density means it doesn't bottom out under the sacrum in rolling exercises. The trade-off is weight: this is a mat that lives in your home studio. Natural rubber isn't suitable if you have a latex allergy. Sold by Backcountry on Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B00TI8V6SK?tag=pilatescollective-20",
@@ -77,10 +77,10 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "JadeYoga Harmony Mat",
-    price: "$115",
+    price: "$114.95",
     verdict: "Best Natural Rubber",
     description: "JadeYoga's Harmony is made in the USA from natural open-cell rubber, with no PVC or phthalates, and it's the mat people with sweaty hands tend to swear by: the open-cell surface grips in a way synthetic mats don't. At 3/16 inch (about 4.8mm) it's cushioned enough for rolling work while staying stable for balance. JadeYoga also plants a tree for every mat sold. Natural rubber has a smell at first and isn't suitable with a latex allergy. Sold by JadeYoga on Amazon.",
-    affiliateUrl: "https://www.amazon.com/dp/B000EC7KW0?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B000ECDSYE?tag=pilatescollective-20",
     tag: "Made in USA",
   },
   {

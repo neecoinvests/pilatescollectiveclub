@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "KESCOO Cycling Shoes",
-    price: "$41.74",
+    price: "$41.82",
     verdict: "Best budget pick",
     description:
       "KESCOO&apos;s cycling shoe is Peloton compatible and the least expensive option on this list, making it the entry point for riders who want to try clip-in shoes before committing to a pricier pair. For Peloton owners specifically looking to spend as little as possible while still getting a compatible clip-in shoe, this is the pick.",

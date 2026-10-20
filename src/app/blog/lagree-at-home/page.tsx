@@ -54,7 +54,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "WHATAFIT Resistance Bands with Handles (150 lb set)",
-    price: "$27.97",
+    price: "$22.99",
     verdict: "Best way to train the method without the machine",
     description:
       "If the machine is out of budget for now, a resistance band set with handles and a door anchor is the closest you can get to the loading pattern Lagree uses. The method is built on slow eccentric control against continuous spring tension, and a cable with a long elastic travel reproduces that resistance curve far better than a dumbbell, which loads by gravity alone and unloads at the top of every movement. Anchored to a door, a cable set covers the standing, kneeling and lunging sequences that make up a large share of a Lagree class. It will not reproduce the carriage instability, which is the part you cannot substitute. This WHATAFIT set is the verified pick here: five stackable bands from 10 to 50 lb (up to 150 lb combined) with two cushioned handles and a door anchor, sold by the brand on Amazon. Check the door anchor seats firmly before loading it.",
@@ -74,7 +74,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "DUMOS Arched Full Length Floor Mirror (64 x 21 in)",
-    price: "$48.96",
+    price: "$48.94",
     verdict: "Best substitute for an instructor's eye",
     description:
       "The thing you lose training at home is correction, and a mirror is the only practical replacement. Lagree positions are held long enough that small faults — a dropped hip in a plank, a collapsed lower back in a kneeling lunge — compound over a 45-minute session, and without feedback you will not notice. A leaning mirror is the right format because the slight backward tilt drops the sightline toward the floor, where most of the work happens; a mirror mounted flat at standing height shows you very little once you are on the carriage. Anchor it to the wall regardless of what the instructions say, since a 64-inch glass panel near a moving machine is not something to leave free-standing.",

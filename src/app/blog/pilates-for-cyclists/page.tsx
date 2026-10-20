@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Manduka PRO Yoga Mat 6mm",
-    price: "$143.99",
+    price: "$144.00",
     verdict: "Best mat for post-ride Pilates",
     description:
       "Cyclists doing post-ride Pilates need a mat that performs when they are sweating. The Manduka PRO's closed-cell surface does not absorb moisture, maintaining grip through an entire post-cycling Pilates session without the slipping that occurs on cheaper mats once sweat saturates the open-cell foam. The 6mm thickness provides meaningful cushioning for hip-bone-prominent side-lying exercises and kneeling positions that are uncomfortable on thinner mats after long time in the saddle has compressed the hip area. The mat's length (180cm) accommodates the longer leg extension exercises that are particularly relevant for cyclists working on hip mobility.",

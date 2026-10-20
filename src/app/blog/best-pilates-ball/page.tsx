@@ -57,7 +57,7 @@ const PRODUCTS = [
     rank: "03",
     name: "ProBody Pilates Ball Small (9-inch)",
     type: "Mini Ball",
-    price: "$9.49",
+    price: "$9.95",
     tag: "Best Budget Mini Ball",
     description:
       "A 9-inch mini ball for under $10, sold by ProBody Pilates. It covers the same core uses as the pricier picks above — inner-thigh squeezes, ball-supported bridges and thoracic extension — at a third of the price. If you just want to try small-ball work at home before spending more, start here.",
@@ -67,7 +67,7 @@ const PRODUCTS = [
     rank: "04",
     name: "ProBody Pilates Yoga Ball (65cm, gym grade)",
     type: "Stability Ball",
-    price: "$17.95",
+    price: "$18.45",
     tag: "Best Stability Ball",
     description:
       "If you need the full-size stability ball rather than a mini ball, this 65cm gym-grade ball from ProBody Pilates is the pick. A stability ball is a different tool entirely: it is for roll-outs, pikes, supported back extension, hamstring stretches and seated balance work. Sizing matters — 65cm is a common middle size, so check it suits your height before ordering.",
@@ -77,10 +77,10 @@ const PRODUCTS = [
     rank: "05",
     name: "Byrex Pilates Prop Kit",
     type: "Bundle",
-    price: "$19.99",
+    price: "$24.99",
     tag: "Best Starter Bundle",
     description:
-      "Rather than a ball on its own, the Byrex kit bundles a Pilates ring, a 10-inch mini ball, resistance bands and sliding discs for $19.99 (sold by ByrexLtd). That makes it the best value if you are building a home mat setup from scratch and want the main small props in one order. It does not include a large stability ball — pair it with the ProBody 65cm ball above if you want both.",
+      "Rather than a ball on its own, the Byrex kit bundles a Pilates ring, a 10-inch mini ball, resistance bands and sliding discs for $24.99 (sold by ByrexLtd). That makes it the best value if you are building a home mat setup from scratch and want the main small props in one order. It does not include a large stability ball — pair it with the ProBody 65cm ball above if you want both.",
     affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20",
   },
   {
@@ -102,10 +102,10 @@ const EXERCISES = [
 ];
 
 const FAQS = [
-  { q: "What is the best Pilates ball?", a: "For most people, the Balanced Body Inflatable Workout Ball (12-inch, $30.00) is our top pick — it comes from an established studio-equipment brand and is sold on Amazon by the manufacturer. On a budget, the ProBody 9-inch mini ball ($9.49) does the same core jobs for much less." },
+  { q: "What is the best Pilates ball?", a: "For most people, the Balanced Body Inflatable Workout Ball (12-inch, $30.00) is our top pick — it comes from an established studio-equipment brand and is sold on Amazon by the manufacturer. On a budget, the ProBody 9-inch mini ball ($9.95) does the same core jobs for much less." },
   { q: "What is the difference between a mini Pilates ball and a stability ball?", a: "A mini Pilates ball (roughly 8–12 inches) is a prop for tactile feedback and precision cueing — squeezed between the knees, placed behind the back or under the upper spine. A stability ball (roughly 55–75cm) is used for seated balance, roll-outs, pikes and supported stretches. Our mini ball picks are the Balanced Body, Bala and ProBody 9-inch balls; our stability ball pick is the ProBody 65cm." },
   { q: "How inflated should a Pilates mini ball be?", a: "As a general rule, firm enough to maintain shape but soft enough to compress under pressure. Check the specific product's instructions, since inflation guidance varies by model." },
-  { q: "Does the Byrex Pilates Prop Kit include a large stability ball?", a: "No. It bundles a Pilates ring, a 10-inch mini ball, resistance bands and sliding discs for $19.99. If you also want a full-size stability ball, the ProBody 65cm ball ($17.95) is our pick." },
+  { q: "Does the Byrex Pilates Prop Kit include a large stability ball?", a: "No. It bundles a Pilates ring, a 10-inch mini ball, resistance bands and sliding discs for $24.99. If you also want a full-size stability ball, the ProBody 65cm ball ($18.45) is our pick." },
   { q: "Is a BOSU ball a Pilates ball?", a: "Not in the classical sense. The BOSU Balance Ball Trainer is a half-dome balance trainer rather than a traditional Pilates prop, but it is widely used in Pilates-fusion and balance classes. Treat it as an upgrade once you already have a mini ball, not a replacement for one." },
 ];
 

@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "CYCPLUS G1",
-    price: "$34.99",
+    price: "$26.99",
     verdict: "Best ultra-lightweight budget pick",
     description:
       "The CYCPLUS G1 weighs around 70 grams, making it the lightest computer on this list by a wide margin, and it does that at a genuinely budget price. For riders who just want basic live metrics on the handlebar without adding bulk or spending much, the G1 is the straightforward entry point — a sensible first head unit before deciding whether to invest in a touchscreen model.",

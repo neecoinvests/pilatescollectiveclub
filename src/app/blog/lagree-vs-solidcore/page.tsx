@@ -97,7 +97,7 @@ const PICKS: Pick[] = [
     badge: "Best Sports Bra",
     shortName: "Sports bra",
     name: "Under Armour Women's Infinity 2 High Impact Sports Bra",
-    price: "$47.85",
+    price: "$48.66",
     url: amz("B0C12Q3L89"),
     description:
       "Neither class has jumping, so why high support? Because both put you in long planks, inversions and kneeling work where a light bralette shifts. This one has a locked-in, high-support fit, an injection-molded pad and a front mesh panel for breathability. Sold by Amazon.com.",

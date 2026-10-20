@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "PhysFlex Calf Compression Sleeves",
-    price: "$9.93",
+    price: "$9.85",
     verdict: "Best budget calf sleeve",
     description:
       "PhysFlex is the lowest-priced option here and is built with shin splint and general lower-leg pain relief support in mind — a useful overlap for Pilates and Lagree practitioners managing calf or shin soreness from repeated footbar and carriage work. It's a low-commitment way to find out whether calf compression actually helps your recovery before spending more on a premium sleeve.",

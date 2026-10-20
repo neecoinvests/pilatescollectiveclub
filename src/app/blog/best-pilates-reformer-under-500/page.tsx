@@ -55,10 +55,10 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "AeroPilates 287 Reformer",
-    price: "$359.00",
+    price: "$349.99",
     verdict: "Best if you'd rather have an established brand than a spring",
     tag: "Established Brand",
-    description: "The AeroPilates 287 is a genuine, live Amazon listing at $359.00 from an established home-fitness brand with a long track record — a real advantage over the generic-brand spring reformers above if brand reliability matters more to you than resistance type. It uses elastic cord resistance rather than coil springs, a real and meaningful difference from a studio machine, and the brand markets it around a fold-flat design, though we could not independently verify exact folded dimensions or weight capacity for the current listing. If you want spring resistance specifically, the PAETA or DWKWE above are the honest answer at this price; if you'd rather have brand history than springs, this is it.",
+    description: "The AeroPilates 287 is a genuine, live Amazon listing at $349.99 from an established home-fitness brand with a long track record — a real advantage over the generic-brand spring reformers above if brand reliability matters more to you than resistance type. It uses elastic cord resistance rather than coil springs, a real and meaningful difference from a studio machine, and the brand markets it around a fold-flat design, though we could not independently verify exact folded dimensions or weight capacity for the current listing. If you want spring resistance specifically, the PAETA or DWKWE above are the honest answer at this price; if you'd rather have brand history than springs, this is it.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
   },
 ];

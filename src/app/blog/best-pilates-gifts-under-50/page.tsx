@@ -48,9 +48,9 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Theraband Professional Resistance Band Set",
-    price: "$19.58",
+    price: "$19.47",
     verdict: "Best Value Gift",
-    description: "For $19.58, the Theraband Professional Set is the most value-dense pilates gift that exists at any budget. Six resistance levels — from yellow (very light) through black (extra heavy) — cover the full spectrum of pilates and physiotherapy applications. Theraband is the brand that hospital physiotherapy departments use; their bands are more durable, more precisely graded, and more consistently calibrated than alternatives. The set comes pre-cut to exercise length and colour-coded. For a beginner or experienced practitioner alike, this is a gift she'll reach for constantly.",
+    description: "For $19.47, the Theraband Professional Set is the most value-dense pilates gift that exists at any budget. Six resistance levels — from yellow (very light) through black (extra heavy) — cover the full spectrum of pilates and physiotherapy applications. Theraband is the brand that hospital physiotherapy departments use; their bands are more durable, more precisely graded, and more consistently calibrated than alternatives. The set comes pre-cut to exercise length and colour-coded. For a beginner or experienced practitioner alike, this is a gift she'll reach for constantly.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
   },
   {
@@ -109,11 +109,11 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is the best pilates gift under $50?",
-    a: "The best pilates gift under $50 is ToeSox grip socks ($18–42 depending on pack size) — required at every reformer studio and genuinely appreciated by all practitioners. The Theraband Resistance Set ($19.58) is the best value for money at any price in pilates gifting. Both together cost around $44 and make an excellent paired gift.",
+    a: "The best pilates gift under $50 is ToeSox grip socks ($18–42 depending on pack size) — required at every reformer studio and genuinely appreciated by all practitioners. The Theraband Resistance Set ($19.47) is the best value for money at any price in pilates gifting. Both together cost around $44 and make an excellent paired gift.",
   },
   {
     q: "What are good pilates stocking stuffers?",
-    a: "The best pilates stocking stuffers are: ToeSox grip socks ($16), Theraband resistance bands ($19.58), a Trideer pilates ball ($7.99), and a Manduka cork block ($26). All are practical, compact, and genuinely useful in every class. A single ToeSox pair at $18 is the classic stocking stuffer — small, needed, and from a brand practitioners recognise.",
+    a: "The best pilates stocking stuffers are: ToeSox grip socks ($16), Theraband resistance bands ($19.47), a Trideer pilates ball ($7.99), and a Manduka cork block ($26). All are practical, compact, and genuinely useful in every class. A single ToeSox pair at $18 is the classic stocking stuffer — small, needed, and from a brand practitioners recognise.",
   },
   {
     q: "Is a Lululemon belt bag a good pilates gift?",
@@ -121,7 +121,7 @@ const FAQ = [
   },
   {
     q: "Can you make a good pilates gift basket under $50?",
-    a: "Yes — the best under-$50 pilates gift basket combines three small items: ToeSox grip socks ($16), a Trideer pilates ball ($7.99), and a Theraband set ($19.58). That's about $44 total for three genuinely useful items, or you can pick any two to stay under $50. Present them in a simple white box or drawstring bag rather than a traditional gift basket.",
+    a: "Yes — the best under-$50 pilates gift basket combines three small items: ToeSox grip socks ($16), a Trideer pilates ball ($7.99), and a Theraband set ($19.47). That's about $44 total for three genuinely useful items, or you can pick any two to stay under $50. Present them in a simple white box or drawstring bag rather than a traditional gift basket.",
   },
 ];
 

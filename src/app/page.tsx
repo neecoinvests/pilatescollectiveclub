@@ -375,7 +375,7 @@ const PRODUCT_CATEGORIES = [
       {
         name: "Stamina AeroPilates 287 Reformer",
         description: "AeroPilates' compact home reformer with cord resistance, a padded footbar and an adjustable headrest. An accessible entry point to home reformer work.",
-        price: "$359.00",
+        price: "$349.99",
         affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
         imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
       },
@@ -389,7 +389,7 @@ const PRODUCT_CATEGORIES = [
       {
         name: "Yes4All Pilates Spine Corrector",
         description: "A foldable spine corrector for spinal extension and chest opening, compact enough for most home spaces.",
-        price: "$116.74",
+        price: "$117.99",
         affiliateUrl: "https://www.amazon.com/dp/B0CK253K55?tag=pilatescollective-20",
         imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg",
       },

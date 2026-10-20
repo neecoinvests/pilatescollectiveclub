@@ -70,7 +70,7 @@ const PRODUCTS = [
   {
     rank: 5,
     name: "Under Armour Men's Tech Mesh Shorts",
-    price: "$24.75",
+    price: "$24.99",
     verdict: "Best mid-price men's short",
     description: "Sold and shipped by Amazon.com, this is an easy, reliable buy from an established athletic brand at well under half the price of the premium picks. It is a general training short rather than a Pilates-specific cut, so check the fit before class: you want it close enough that it does not ride up or catch on the footbar during carriage work. A sensible choice if you are trying a few classes before committing to studio-specific kit.",
     affiliateUrl: "https://www.amazon.com/dp/B07D17QDRM?tag=pilatescollective-20",
@@ -79,7 +79,7 @@ const PRODUCTS = [
   {
     rank: 6,
     name: "Under Armour Men's HeatGear Armour Leggings",
-    price: "$27.00",
+    price: "$28.25",
     verdict: "Best men's compression tights for reformer",
     description: "Compression tights are the right choice for many men's Pilates practice — they allow instructors to see your leg and hip alignment clearly, they do not shift or bunch on the reformer carriage, and they give proprioceptive feedback that helps with precision footwork. HeatGear is Under Armour's established compression line, and this listing is sold by Amazon.com. Wear them alone or under shorts if you prefer extra coverage.",
     affiliateUrl: "https://www.amazon.com/dp/B0874W7Z7R?tag=pilatescollective-20",

@@ -33,7 +33,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Yosuda Indoor Cycling Bike",
-    price: "$199.98",
+    price: "$199.99",
     verdict: "Best overall spin bike under $500",
     description:
       "The Yosuda has become the default budget recommendation for a straightforward reason: it gets the two specifications that matter right at a price where most competitors get one of them wrong. The flywheel is heavy enough — around 35lb on the standard model — to carry momentum through the dead spot at the top of the pedal stroke, which is what separates a bike that feels like cycling from one that feels like pedalling against a brake. And the frame is genuinely stable when you stand up, which many sub-$300 bikes are not. It is friction-resistance rather than magnetic, so expect the felt pad to need replacing after a year or two of heavy use and expect some noise. No console worth the name, no power measurement, and the stock saddle is poor. Budget for a saddle swap and a tablet mount and it is still comfortably the best value here.",

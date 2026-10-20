@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "WHITIN Cross Training Minimalist Shoes",
-    price: "$42.99",
+    price: "$40.84",
     verdict: "Best from an established minimalist-shoe brand",
     description:
       "WHITIN is a name that has been in the minimalist-shoe category longer than most of the newer entrants on this list, and this cross-training model delivers the barefoot feel the brand is known for in a shoe built for general gym use. It costs more than the other options here, but for practitioners who want a barefoot shoe from a brand with a track record specifically in this category, rather than a newer or more generalist maker, it is the safer bet.",

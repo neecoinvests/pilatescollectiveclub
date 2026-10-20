@@ -33,7 +33,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Stanley Quencher H2.0 FlowState 40oz",
-    price: "$44.95",
+    price: "$44.70",
     verdict: "Best overall Pilates water bottle",
     description:
       "The Stanley Quencher has become ubiquitous in studio changing rooms and reformer classes for good reason. The 40oz capacity means you will not run dry through a double session, and the vacuum insulation keeps water cold for over 12 hours without condensation forming on the exterior — a meaningful consideration when the bottle sits on a studio floor or bench. The rotating lid handles three positions: a wide straw opening for drinking mid-exercise, a fully open position, and a closed seal for transport. The broad base is stable on reformer side rails and studio floors, and the handle integrates grip loops for slipping onto a bag exterior. Available in over 40 colourways.",

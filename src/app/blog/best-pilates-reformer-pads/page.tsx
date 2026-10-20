@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Lconvicely Shoulder Block Covers (2-Pack)",
-    price: "$7.99",
+    price: "$7.59",
     verdict: "Real, verified shoulder-block covers — a different accessory from grip pads",
     description: "Sold by Lconvicely Shop on Amazon. \"Reformer pads\" is a term that actually covers at least two distinct products: carriage/standing grip pads, like the Eccentfit pads above, and shoulder-block covers, which slip over the reformer's shoulder rests to add a softer, washable surface. This is a real, currently-sold pair of polyester shoulder block covers with an anti-slip interior and a drawstring closure, fitted for 7.5x4x4in shoulder blocks. Shoulder block dimensions vary by reformer brand, so measure your own blocks against that spec before ordering — treat \"universal fit\" claims from generic sellers with some skepticism.",
     affiliateUrl: "https://www.amazon.com/dp/B0GTLRCTDW?tag=pilatescollective-20",
@@ -70,7 +70,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "COSHNIBI Reformer Protective Cover",
-    price: "$43.22",
+    price: "$40.70",
     verdict: "A real, verified way to protect carriage padding between sessions",
     description: "We could not find a genuine \"universal carriage pad cover\" from any of the brands or aftermarket names commonly searched for. This full protective cover is a real, currently-sold Amazon accessory that does a related but different job from the pads and shoulder-block covers above: it covers the reformer's existing upholstery when not in use, protecting it from dust and general wear rather than adding cushioning or a softer surface during a session. Confirm sizing against your specific reformer's dimensions before ordering, since it is not marketed as model-specific.",
     affiliateUrl: "https://www.amazon.com/dp/B0G2LHY784?tag=pilatescollective-20",

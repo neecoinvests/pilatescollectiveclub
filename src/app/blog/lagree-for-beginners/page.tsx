@@ -89,10 +89,10 @@ const STUDIO_KIT: KitItem[] = [
       {
         tier: "Budget",
         name: "Muezna Grip Socks (6 Pairs)",
-        price: "$7.99",
+        price: "$7.59",
         url: amz("B0DQ53GSP5"),
         description:
-          "Six pairs for $7.99 is the low-risk way to find out whether Lagree is for you before investing in premium socks. Keep a pair in every bag so you never arrive without them.",
+          "Six pairs for $7.59 is the low-risk way to find out whether Lagree is for you before investing in premium socks. Keep a pair in every bag so you never arrive without them.",
       },
     ],
   },
@@ -173,7 +173,7 @@ const STUDIO_KIT: KitItem[] = [
       {
         tier: "Pick",
         name: "Impulse Yoga Knee Pad Cushion (1\" / 25mm)",
-        price: "$19.99",
+        price: "$20.72",
         url: amz("B06WV6XVV9"),
         description:
           "At 1\" (25mm) thick it offers real cushioning for kneeling holds. Check with your instructor before using your own pad on the machine so it does not get in the way of the carriage.",
@@ -202,7 +202,7 @@ const HOME_KIT: KitItem[] = [
       {
         tier: "Pick",
         name: "Gaiam Core Sliding Discs (2)",
-        price: "$16.99",
+        price: "$16.59",
         url: amz("B0964G1N18"),
         description:
           "A pair of dual-sided discs: one side for carpet, one for hard floors. They are small enough to keep in a drawer, which is half the battle for home practice.",
@@ -681,7 +681,7 @@ export default function LagreeForBeginnersPage() {
                 ))}
               </div>
               <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
-                Almost all the difference between the two kits is the grip socks ($30.00 vs $7.99) and the knee pad ($19.99 vs $14.99). If you skip the knee pad and borrow the studio&apos;s towel, the true minimum is grip socks, shorts and a bottle you probably already own. Buy the budget kit for your first month, then upgrade whatever you actually use.
+                Almost all the difference between the two kits is the grip socks ($30.00 vs $7.59) and the knee pad ($20.72 vs $14.99). If you skip the knee pad and borrow the studio&apos;s towel, the true minimum is grip socks, shorts and a bottle you probably already own. Buy the budget kit for your first month, then upgrade whatever you actually use.
               </p>
             </div>
 

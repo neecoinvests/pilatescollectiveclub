@@ -40,9 +40,9 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "AeroPilates 287 Reformer",
-    price: "$359.00",
+    price: "$349.99",
     verdict: "Best Entry-Level Reformer Gift",
-    description: "The AeroPilates 287 is one of the most accessible ways to bring a reformer-style workout into someone's home. It uses elastic cord resistance rather than coil springs, which gives a genuinely different, more forgiving feel than a studio machine — well suited to a beginner or someone building a home practice. We could not verify specific claims about resistance levels, fold mechanism, or included accessories beyond what the current Amazon listing shows, so check that page before assuming it matches other AeroPilates models. At $359.00, this is a reasonable gift for someone who has taken studio classes and wants to build a home practice without a four-figure investment.",
+    description: "The AeroPilates 287 is one of the most accessible ways to bring a reformer-style workout into someone's home. It uses elastic cord resistance rather than coil springs, which gives a genuinely different, more forgiving feel than a studio machine — well suited to a beginner or someone building a home practice. We could not verify specific claims about resistance levels, fold mechanism, or included accessories beyond what the current Amazon listing shows, so check that page before assuming it matches other AeroPilates models. At $349.99, this is a reasonable gift for someone who has taken studio classes and wants to build a home practice without a four-figure investment.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
   },
   {
@@ -113,7 +113,7 @@ const FAQ = [
   },
   {
     q: "What is the best pilates reformer to give as a gift?",
-    a: "For a beginner: the AeroPilates 287 ($359.00) — a genuine, currently-sold entry point and a meaningful upgrade from studio-only practice. For someone with studio experience: the Align-Pilates C8-PRO ($2,750) or Merrithew At Home SPX Reformer Package ($3,349), which use real coil springs for an authentic feel. For a serious or advanced practitioner: the Balanced Body Studio Reformer ($4,700) — the professional standard, though it does not fold and needs dedicated floor space.",
+    a: "For a beginner: the AeroPilates 287 ($349.99) — a genuine, currently-sold entry point and a meaningful upgrade from studio-only practice. For someone with studio experience: the Align-Pilates C8-PRO ($2,750) or Merrithew At Home SPX Reformer Package ($3,349), which use real coil springs for an authentic feel. For a serious or advanced practitioner: the Balanced Body Studio Reformer ($4,700) — the professional standard, though it does not fold and needs dedicated floor space.",
   },
   {
     q: "How do I gift a pilates reformer without ruining the surprise?",
@@ -183,7 +183,7 @@ export default function Page() {
             Best Pilates Reformer<br />to Gift (2026)
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            A pilates reformer is the most significant gift you can give a practitioner — and the one that delivers the most lasting return on that investment. This guide covers six real, currently-sold reformers across every price tier, from a $359.00 entry-level home machine to Merrithew&apos;s clinical-grade Rehab V2 Max Plus at $8,199. Each pick is chosen for the gifting context: space requirements, delivery logistics, assembly, and the question of how much to involve the recipient in the decision — and we flag anywhere we couldn&apos;t verify a specific spec, like folding or exact included accessories, rather than assert it.
+            A pilates reformer is the most significant gift you can give a practitioner — and the one that delivers the most lasting return on that investment. This guide covers six real, currently-sold reformers across every price tier, from a $349.99 entry-level home machine to Merrithew&apos;s clinical-grade Rehab V2 Max Plus at $8,199. Each pick is chosen for the gifting context: space requirements, delivery logistics, assembly, and the question of how much to involve the recipient in the decision — and we flag anywhere we couldn&apos;t verify a specific spec, like folding or exact included accessories, rather than assert it.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Every budget covered</span>

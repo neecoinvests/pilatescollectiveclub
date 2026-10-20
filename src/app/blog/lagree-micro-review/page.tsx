@@ -144,7 +144,7 @@ const SETUP_KIT: Pick[] = [
     badge: "Kneeling",
     shortName: "Knee pad",
     name: "Impulse Yoga Knee Pad Cushion (1\")",
-    price: "$19.99",
+    price: "$20.72",
     url: amz("B06WV6XVV9"),
     description:
       "One inch of foam for kneeling moves on the carriage or floor work beside the machine.",

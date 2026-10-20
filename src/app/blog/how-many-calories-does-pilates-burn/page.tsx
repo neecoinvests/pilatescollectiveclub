@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Polar H10 Heart Rate Monitor Chest Strap",
-    price: "$104.88",
+    price: "$104.65",
     verdict: "Most accurate calorie measurement",
     description:
       "If accuracy is the priority, a chest-based ECG heart rate monitor is meaningfully more accurate than optical wrist sensors for low-to-moderate intensity activity like Pilates, where wrist movement patterns can confuse optical sensors. The Polar H10 chest strap is the gold standard for consumer heart rate monitoring, used as the reference device in most fitness tracker accuracy studies. Paired with a fitness app on your phone, it records a calorie burn that is as close to laboratory accuracy as consumer equipment allows. The electrode strap is comfortable during supine and prone Pilates exercises. Best for practitioners who want precise data rather than convenience.",
@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Apple Watch SE 3",
-    price: "$199.99",
+    price: "$239.99",
     verdict: "Best for iPhone users",
     description:
       "The Apple Watch SE delivers Apple's optical heart rate sensor and calorie algorithms in the most affordable Apple Watch configuration. For iPhone users already in the Apple Health ecosystem, the integration is seamless — Pilates sessions are logged automatically with calorie data that feeds directly into broader health trends. The Workout app includes Pilates as a specific exercise type in recent watchOS versions, improving calorie accuracy over the generic 'Other' workout category. The watch faces and band options available make it the most aesthetically considered fitness tracker for studio use, where the overall aesthetic of your kit is a consideration.",

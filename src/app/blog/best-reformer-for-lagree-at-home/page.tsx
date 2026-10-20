@@ -28,7 +28,7 @@ const windfoot: Omit<GuideItem, "badge"> = {
 };
 
 const balanceFrom: Omit<GuideItem, "badge"> = {
-  id: "balancefrom-foldable-reformer", name: "BalanceFrom Foldable Pilates Reformer with Adjustable Height", brand: "BalanceFrom", price: "$309.99", url: amz("B0G5Y6RJZF"),
+  id: "balancefrom-foldable-reformer", name: "BalanceFrom Foldable Pilates Reformer with Adjustable Height", brand: "BalanceFrom", price: "$319.99", url: amz("B0G5Y6RJZF"),
   availability: "in-stock", soldBy: "Spreetail",
   specs: ["89\" long", "Removable stands: high or low position", "Piano-wire springs", "Supports up to 500 lb on six legs", "550 LRO high-density foam padding", "Folds; no tools needed"],
   body: "A budget reformer with two things Lagree-style training needs: an 89-inch length and a 500 lb rating. The listing says the high position is for standing flows and lunges. The frame is metal rather than wood.",
@@ -76,7 +76,7 @@ const GUIDE: EquipmentGuideProps = {
       columns: ["Machine", "Price", "Length", "Max user weight", "Folds"],
       rows: [
         ["WINDFOOT Foldable", "$295.99", "Not listed", "300 lb", "Yes"],
-        ["BalanceFrom Foldable", "$309.99", "89\"", "500 lb", "Yes"],
+        ["BalanceFrom Foldable", "$319.99", "89\"", "500 lb", "Yes"],
         ["Buytime 96\" Wooden", "$529.99", "95.7\"", "500 lb", "Yes, vertically"],
         ["PAETA Wooden Foldable", "$699.98", "See listing", "500 lb", "Yes"],
         ["VEVOR Foldable Maple", "$779.31", "See listing", "400 lb", "Yes"],

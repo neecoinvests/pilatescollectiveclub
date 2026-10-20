@@ -95,7 +95,7 @@ const TIERS: Tier[] = [
         badge: "For Home Workouts",
         shortName: "Core sliders",
         name: "Gaiam Core Sliding Discs (Set of 2)",
-        price: "$16.99",
+        price: "$16.59",
         url: amz("B0964G1N18"),
         description:
           "Sliders are the closest a floor gets to a moving carriage, which is why they are the backbone of Lagree-inspired home workouts. Dual-sided for carpet and hard floors, light enough to pack. Sold by Amazon.com.",

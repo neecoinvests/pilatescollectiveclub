@@ -43,7 +43,7 @@ const ITEMS: Record<string, Omit<GuideItem, "badge">> = {
     body: "Sweaty Betty's multi-sport legging is sweat-wicking and quick-drying, which matters in a class as sweaty as Lagree. The back zip pocket holds a key or card.",
   },
   sbBra: {
-    id: "sweaty-betty-power-medium-bra", name: "Sweaty Betty Power Medium Racer Back Sports Bra", brand: "Sweaty Betty", price: "$49.96", url: amz("B0BW197M92"),
+    id: "sweaty-betty-power-medium-bra", name: "Sweaty Betty Power Medium Racer Back Sports Bra", brand: "Sweaty Betty", price: "$26.10", url: amz("B0BW197M92"),
     availability: "in-stock", soldBy: "Amazon.com",
     specs: ["Medium support", "Stretchy, sweat-wicking, quick-drying", "Scoop neck", "Looped back with adjustable T-bar strap"],
     body: "Sweaty Betty's bestselling Power Bra, with an adjustable strap. Sold and shipped by Amazon.com; colours and prices vary by size.",
@@ -106,7 +106,7 @@ const GUIDE: EquipmentGuideProps = {
       rows: [
         ["Beyond Yoga Spacedye", "$99.00", "$68.00", "$167.00"],
         ["Varley FreeSoft", "$98.00", "$72.00", "$170.00"],
-        ["Sweaty Betty Power", "$134.00", "$49.96", "$183.96"],
+        ["Sweaty Betty Power", "$134.00", "$26.10", "$183.96"],
         ["CRZ YOGA Butterluxe", "$32.00", "$28.00", "$60.00"],
         ["SUUKSESS two-piece", "Included", "Built-in-bra tank", "$39.95"],
       ],

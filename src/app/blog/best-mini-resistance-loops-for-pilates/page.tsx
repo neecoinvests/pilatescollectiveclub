@@ -10,7 +10,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Mini Resistance Loops for Pilates (2026): 5 Picks",
-  description: "Five real, currently-sold mini resistance loop band sets for Pilates glute and hip activation — Fit Simplify, Synergee, Perform Better, WIKDAY, and Tribe — spanning every price tier from $4.99 to $19.97.",
+  description: "Five real, currently-sold mini resistance loop band sets for Pilates glute and hip activation — Fit Simplify, Synergee, Perform Better, WIKDAY, and Tribe — spanning every price tier from $5.39 to $19.97.",
   keywords: ["best mini resistance loops pilates", "glute bands pilates 2026", "mini resistance bands pilates", "hip activation bands pilates", "fit simplify mini bands", "synergee mini bands"],
   openGraph: {
     title: "Best Mini Resistance Loops for Pilates (2026): 5 Real Options Compared",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Mini Resistance Loops for Pilates (2026)",
-    description: "Five real mini loop band sets compared for Pilates use, from $4.99 to $19.97.",
+    description: "Five real mini loop band sets compared for Pilates use, from $5.39 to $19.97.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-mini-resistance-loops-for-pilates" },
@@ -63,7 +63,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "WIKDAY Resistance Loop Bands (Set of 5)",
-    price: "$4.99",
+    price: "$5.39",
     verdict: "Cheapest genuine option",
     description:
       "Five multicolor natural rubber loop bands across five distinct thickness levels, at a price that undercuts everything else in this roundup. It's a bare-bones set with no bag or guide included, but the bands themselves are genuine, purpose-built loops — a reasonable entry point if you just want to try hip activation work before spending more.",
@@ -123,7 +123,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What is the best mini resistance loop band for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on budget. The WIKDAY set ($4.99) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Lebert set sold by Synergee ($14.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." } },
+        { "@type": "Question", "name": "What is the best mini resistance loop band for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on budget. The WIKDAY set ($5.39) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Lebert set sold by Synergee ($14.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." } },
         { "@type": "Question", "name": "What are mini resistance loops used for in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Mini loop bands are used for glute and hip activation before a session, and for adding resistance to hip abduction, clamshell, and lateral leg work within warm-up sequences. All five sets here are purpose-built closed loop or fabric bands sized for exactly this." } },
         { "@type": "Question", "name": "How many resistance levels do I need?", "acceptedAnswer": { "@type": "Answer", "text": "A graduated set spanning four or five resistance levels, like most options here, covers most needs — light for ankle and shoulder work, medium for standard glute activation, and heavy for advanced hip work. Buying a single-resistance band tends to be limiting within a few weeks of regular use." } },
       ],
@@ -203,7 +203,7 @@ export default function BestMiniResistanceLoopsForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is the best mini resistance loop band for Pilates?", a: "It depends on budget. The WIKDAY set ($4.99) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Lebert set sold by Synergee ($14.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." },
+                  { q: "What is the best mini resistance loop band for Pilates?", a: "It depends on budget. The WIKDAY set ($5.39) is the cheapest genuine option. The Fit Simplify set ($9.98) is the best all-round budget pick. The Perform Better set ($19.95) is what trainers and physical therapists actually use in clinics. The Lebert set sold by Synergee ($14.95) and Tribe fabric bands ($19.97) round out the mid-to-premium tiers." },
                   { q: "What are mini resistance loops used for in Pilates?", a: "Mini loop bands are used for glute and hip activation before a session, and for adding resistance to hip abduction, clamshell, and lateral leg work within warm-up sequences. All five sets here are purpose-built closed loop or fabric bands sized for exactly this." },
                   { q: "How many resistance levels do I need?", a: "A graduated set spanning four or five resistance levels, like most options here, covers most needs — light for ankle and shoulder work, medium for standard glute activation, and heavy for advanced hip work. Buying a single-resistance band tends to be limiting within a few weeks of regular use." },
                 ].map((item) => (

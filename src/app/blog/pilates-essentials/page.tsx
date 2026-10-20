@@ -159,10 +159,10 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "Muezna Pilates Grip Socks (6 Pairs)",
-        price: "$7.99",
+        price: "$7.59",
         url: amz("B0DQ53GSP5"),
         description:
-          "Six pairs for $7.99, sold by UISIC. A multi-pack means you always have a clean pair in your bag, which matters more than most people expect once you are going to class several times a week.",
+          "Six pairs for $7.59, sold by UISIC. A multi-pack means you always have a clean pair in your bag, which matters more than most people expect once you are going to class several times a week.",
       },
       {
         tier: "Splurge",
@@ -243,7 +243,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Sportsnew Tote Yoga Mat Gym Bag 20L",
-        price: "$21.56",
+        price: "$24.35",
         url: amz("B0BHP38PNG"),
         description:
           "A 20L tote with a separate shoe compartment and a wet pocket for used socks and towels, sold by Sportsnew. It is built around the studio routine: clothes, bottle, socks and a mat in one bag.",
@@ -251,7 +251,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "BAGSMART Duffle Bag",
-        price: "$24.21",
+        price: "$21.43",
         url: amz("B0CSYNW3X3"),
         description:
           "A gym and weekender duffle from BAGSMART. It is less Pilates-specific than the tote, but it holds a full change of clothes and works for travel as well as class.",
@@ -291,7 +291,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Kitsch 5\" Large Claw Clips (Black & Tort)",
-        price: "$11.87",
+        price: "$9.99",
         url: amz("B09GYPV213"),
         description:
           "Large claw clips in black and tortoiseshell, sold by Kitsch. The 5\" size holds thick or long hair in one twist.",
@@ -356,7 +356,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
-        price: "$24.99",
+        price: "$19.78",
         url: amz("B086HNGNFZ"),
         description:
           "A full-size 15\" ring at under half the price, sold by Amazon.com. A sensible first ring if you are trying out home Pilates.",

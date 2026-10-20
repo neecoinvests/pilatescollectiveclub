@@ -84,10 +84,10 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Muezna Pilates Grip Socks (6 Pairs)",
-    price: "$7.99",
+    price: "$7.59",
     verdict: "Best multi-pack on a budget",
     description:
-      "Six pairs for $7.99 solves the real Lagree sock problem, which is volume rather than prestige. If you take three or four classes a week, you need a rotation — every pair comes off damp — and buying that many branded pairs is an expensive way to stay ahead of your laundry. A budget multi-pack like this is ideal for a first month of classes, for keeping a spare pair in your car or bag, or as the everyday pairs that let your premium socks last longer. Set your expectations accordingly: at this price, do not expect the same finish or longevity as toesox or TAVI. Look at the sole photos and choose a pattern with grip reaching under the ball of the foot, which is where your weight lands in planks and lunges.",
+      "Six pairs for $7.59 solves the real Lagree sock problem, which is volume rather than prestige. If you take three or four classes a week, you need a rotation — every pair comes off damp — and buying that many branded pairs is an expensive way to stay ahead of your laundry. A budget multi-pack like this is ideal for a first month of classes, for keeping a spare pair in your car or bag, or as the everyday pairs that let your premium socks last longer. Set your expectations accordingly: at this price, do not expect the same finish or longevity as toesox or TAVI. Look at the sole photos and choose a pattern with grip reaching under the ball of the foot, which is where your weight lands in planks and lunges.",
     affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20",
     tag: "Best Multi-Pack",
   },
@@ -114,10 +114,10 @@ const PRODUCTS = [
   {
     rank: "09",
     name: "Gaiam Grippy Studio Yoga Socks",
-    price: "$8.94",
+    price: "$9.00",
     verdict: "Best open-toe budget option",
     description:
-      "If you have a trial class booked tomorrow and want to avoid paying studio-reception prices, Gaiam is the cheap, widely available fallback. It is a yoga sock first, not a Lagree-specific design, and the open-toe style has the same pros and cons as the Tucketts pair above: cooler and more toe contact, less coverage. At $8.94 (sold by Amazon.com at the time we checked) it is a reasonable way to find out whether you enjoy Lagree before you spend more. If you keep going, upgrade to a pair you choose deliberately for the sole pattern and fit.",
+      "If you have a trial class booked tomorrow and want to avoid paying studio-reception prices, Gaiam is the cheap, widely available fallback. It is a yoga sock first, not a Lagree-specific design, and the open-toe style has the same pros and cons as the Tucketts pair above: cooler and more toe contact, less coverage. At $9.00 (sold by Amazon.com at the time we checked) it is a reasonable way to find out whether you enjoy Lagree before you spend more. If you keep going, upgrade to a pair you choose deliberately for the sole pattern and fit.",
     affiliateUrl: "https://www.amazon.com/dp/B079VX3FBG?tag=pilatescollective-20",
     tag: "Budget Open-Toe",
   },

@@ -60,7 +60,7 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20",
     pieces: [
       { label: "Power Cropped Legging (black)", price: "$98.00", url: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20" },
-      { label: "Power Medium Racer Back Bra (black)", price: "$55.76", url: "https://www.amazon.com/dp/B0BSB22J5P?tag=pilatescollective-20" },
+      { label: "Power Medium Racer Back Bra (black)", price: "$59.84", url: "https://www.amazon.com/dp/B0BSB22J5P?tag=pilatescollective-20" },
     ],
     tag: "Best for Sizing",
   },
@@ -101,7 +101,7 @@ const PRODUCTS = [
   {
     rank: "07",
     name: "SUUKSESS 2-Piece Pilates Set",
-    price: "$32.95",
+    price: "$33.95",
     verdict: "Best budget set in one listing",
     description:
       "A genuine two-piece set sold as one listing: high-waisted, squat-proof leggings with pockets and a racerback top with a built-in medium-support bra, in a 75% polyamide, 25% spandex fabric the listing describes as buttery soft, breathable and moisture-wicking. Check the size chart before ordering.",

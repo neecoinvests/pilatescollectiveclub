@@ -97,7 +97,7 @@ const BASICS: Pick[] = [
     badge: "Best Compression Socks",
     shortName: "Compression socks",
     name: "FITRELL Compression Socks 20–30 mmHg (3 Pairs)",
-    price: "$14.99",
+    price: "$12.99",
     url: amz("B07VWT4XRG"),
     description:
       "Three pairs of knee-high, graduated compression socks with moisture-wicking fabric. Many people like how they feel on calves after heavy leg days, though research on compression for recovery is mixed. Size by calf circumference: this listing is S/M, which fits a 9–15 inch calf. If you have a circulation condition, ask your doctor before using 20–30 mmHg compression.",
@@ -110,7 +110,7 @@ const GUNS: Pick[] = [
     badge: "Best Budget Massage Gun",
     shortName: "Budget massage gun",
     name: "RENPHO Active Massage Gun",
-    price: "$69.98",
+    price: "$79.98",
     url: amz("B0F29VM2KV"),
     description:
       "A metal-bodied massage gun with a brushless motor, five speeds from 1,800 to 3,200 RPM and USB-C charging, per the listing. It covers the basics of a premium gun for a fraction of the price. Sold by Renpho Wellness.",

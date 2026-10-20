@@ -43,7 +43,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "FLEXLIFT Exercise Bike Mat",
-    price: "$19.99",
+    price: "$19.98",
     verdict: "Best budget pick",
     description:
       "FLEXLIFT's mat is confirmed compatible with Peloton bikes and is the least expensive option on this list. For Peloton owners who want a simple, affordable floor protector without paying for extra thickness or features they don't need, this is the straightforward choice.",

@@ -43,7 +43,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Schwinn IC4 Indoor Cycling Bike",
-    price: "$795.99",
+    price: "$899.00",
     verdict: "Best value connected bike",
     description:
       "The Schwinn IC4 delivers the core experience of a premium connected bike — magnetic resistance, a 40-lb flywheel, dual-link pedals (SPD and toe cage), and Bluetooth connectivity to Peloton, Zwift, and the Schwinn Trainer app — without requiring a proprietary screen or locking riders into one ecosystem. The console displays cadence, resistance, heart rate, and power output, and riders can mount their own tablet for class streaming. The resistance knob is a simple friction-based dial rather than auto-follow, which some riders prefer for precise manual control. The frame and flywheel feel comparable to bikes costing twice as much. For home studio builders who want flexibility across multiple training apps rather than a single subscription ecosystem, the IC4 is the strongest value proposition in the category.",
@@ -52,12 +52,12 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "NordicTrack Commercial S22i Studio Cycle",
-    price: "$1,189.00",
+    name: "NordicTrack X24 Bike",
+    price: "$1,999.00",
     verdict: "Best for incline/decline simulation",
     description:
-      "The NordicTrack S22i is the only bike in this category that simulates incline and decline terrain — up to 20% incline and -10% decline — via automatic resistance adjustment synced to iFIT's location-based outdoor ride content. The 22-inch rotating touchscreen and iFIT trainer-led programming make this the closest indoor approximation to outdoor road and trail cycling. Build quality is solid, with a 39-lb flywheel and dual-sided SPD/cage pedals. The iFIT subscription ($39/month) is required to unlock the auto-incline feature and most content, similar to Peloton's model. For riders who find flat resistance training monotonous and want terrain variation built into their sessions, the S22i is the standout option.",
-    affiliateUrl: "https://www.amazon.com/dp/B08KBWQ9FJ?tag=pilatescollective-20",
+      "The NordicTrack X24 is the only bike in this category that simulates incline and decline terrain, from 20% incline to -10% decline, with 24 digital resistance levels. Its pivoting 24-inch HD touchscreen turns for off-bike classes such as yoga and strength, and the dual-sided pedals take SPD cleats or athletic shoes with toe cages. Per the listing it measures 4 ft 9 in by 1 ft 10 in, compact enough for a spare room, and it is sold by Amazon.com. An iFIT Pro membership ($39/month) is required for the connected features and most content, similar to Peloton's model. For riders who find flat resistance training monotonous and want terrain variation built into their sessions, the X24 is the standout option.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DK7QZQBM?tag=pilatescollective-20",
     tag: "Best Terrain Simulation",
   },
   {
@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Yosuda Indoor Cycling Bike",
-    price: "$199.98",
+    price: "$199.99",
     verdict: "Best budget entry-level bike",
     description:
       "The Yosuda is a straightforward friction-resistance bike with a 35-lb flywheel, adjustable seat and handlebars, and a basic LCD console tracking speed, distance, and calories. It has no app connectivity or auto-resistance features, but the chain-drive mechanism and flywheel weight provide a genuinely solid ride feel for the price, and the bike has become one of the most consistently well-reviewed budget options on the market. For practitioners testing whether indoor cycling fits into their training routine before committing to a premium connected bike, or building a basic home studio on a tight budget, the Yosuda delivers dependable performance well above its price point.",
@@ -134,7 +134,7 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Do I need a connected bike with a subscription, or is a basic bike enough?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on your training style. Connected bikes like Peloton and NordicTrack provide structured, instructor-led classes that many riders find essential for motivation and pacing, but require an ongoing monthly subscription. Basic bikes like the Yosuda or manually-resistance bikes like the Schwinn IC4 cost less upfront and have no required subscription, but you'll need to self-program your sessions or pair them with free apps. If you already train independently and want flexibility, a non-proprietary bike is the better value. If structured class programming is what keeps you consistent, a connected bike is worth the subscription." } },
-        { "@type": "Question", "name": "What resistance type is best — magnetic or friction?", "acceptedAnswer": { "@type": "Answer", "text": "Magnetic resistance, used in the Peloton, Schwinn IC4, NordicTrack S22i, Bowflex VeloCore, and Echelon, is quieter, requires no brake pad replacement, and provides smoother, more consistent resistance across the full range. Friction resistance, used in budget bikes like the Yosuda, uses a felt or leather pad against the flywheel and requires occasional pad replacement, but tends to feel more like an authentic road bike under heavy load. For home studios, especially in shared housing, magnetic resistance is the better choice for noise and maintenance." } },
+        { "@type": "Question", "name": "What resistance type is best — magnetic or friction?", "acceptedAnswer": { "@type": "Answer", "text": "Magnetic resistance, used in the Peloton, Schwinn IC4, NordicTrack X24, Bowflex VeloCore, and Echelon, is quieter, requires no brake pad replacement, and provides smoother, more consistent resistance across the full range. Friction resistance, used in budget bikes like the Yosuda, uses a felt or leather pad against the flywheel and requires occasional pad replacement, but tends to feel more like an authentic road bike under heavy load. For home studios, especially in shared housing, magnetic resistance is the better choice for noise and maintenance." } },
         { "@type": "Question", "name": "What flywheel weight should I look for?", "acceptedAnswer": { "@type": "Answer", "text": "Flywheel weight affects ride smoothness — heavier flywheels (35-40+ lbs) maintain momentum better and feel closer to outdoor cycling, especially during standing climbs and sprints. Lighter flywheels feel choppier at low cadence. Most quality home spin bikes, including all bikes on this list, use flywheels in the 32-40 lb range, which is sufficient for home training. Studio-grade commercial bikes sometimes use 40+ lb flywheels for the smoothest possible ride under heavy class loads." } },
       ],
     },

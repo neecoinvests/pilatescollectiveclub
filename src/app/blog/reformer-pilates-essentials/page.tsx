@@ -83,13 +83,13 @@ const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescoll
 
 // ─── Individual verified products (prices verified 2026-09-27) ──────────────
 const P = {
-  sportsnewTote: { name: "Sportsnew Tote Yoga Mat Gym Bag 20L", price: "$21.56", url: amz("B0BHP38PNG") },
-  bagsmartDuffle: { name: "BAGSMART Duffle Bag (Gym / Weekender)", price: "$24.21", url: amz("B0CSYNW3X3") },
+  sportsnewTote: { name: "Sportsnew Tote Yoga Mat Gym Bag 20L", price: "$24.35", url: amz("B0BHP38PNG") },
+  bagsmartDuffle: { name: "BAGSMART Duffle Bag (Gym / Weekender)", price: "$21.43", url: amz("B0CSYNW3X3") },
   lululemonBelt: { name: "Lululemon Everywhere Belt Bag", price: "~$38", url: "https://shop.lululemon.com/", directSite: "lululemon.com" },
   owala: { name: "Owala FreeSip Stainless Steel Water Bottle, 24 oz", price: "$29.99", url: amz("B0BZYCJK89") },
   stanley: { name: "STANLEY Quencher H2.0 FlowState Tumbler, 40 oz (Cream)", price: "$39.99", url: amz("B0CP9Y3152") },
   toesox: { name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: amz("B07QHNDHW3") },
-  muezna: { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.99", url: amz("B0DQ53GSP5") },
+  muezna: { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: amz("B0DQ53GSP5") },
   tavi: { name: "TAVI Stacy Slouch Pilates Socks, 2-Pack", price: "$40.00", url: amz("B0GFPGMWWS") },
   tucketts: { name: "Tucketts Toeless Grip Socks (Allegro)", price: "$18.99", url: amz("B072F6QR84") },
   taviGloves: { name: "TAVI Half Finger Gym Gloves (Full-Coverage Grips)", price: "$31.99", url: amz("B09GPVMF86") },
@@ -99,7 +99,7 @@ const P = {
   alo: { name: "Alo Yoga Airbrush Legging", price: "~$128", url: "https://www.aloyoga.com/", directSite: "aloyoga.com" },
   varleyBra: { name: "Varley Freesoft Harley Bralette (Marina)", price: "$66.00", url: amz("B0FXN42JWR") },
   crzBra: { name: "CRZ YOGA Butterluxe U Back Sports Bra", price: "$28.00", url: amz("B09ZP9VXLJ") },
-  kitsch: { name: "Kitsch 5\" Large Claw Clips (Black & Tort)", price: "$11.87", url: amz("B09GYPV213") },
+  kitsch: { name: "Kitsch 5\" Large Claw Clips (Black & Tort)", price: "$9.99", url: amz("B09GYPV213") },
   shandali: { name: "Shandali Stickyfiber Yoga Towel (Mat-Size)", price: "$19.99", url: amz("B011IU43WG") },
   grid: { name: "TriggerPoint GRID 2.0 Foam Roller", price: "$74.99", url: amz("B006GUC9KC") },
   waveRoller: { name: "Therabody WaveRoller (Vibrating)", price: "$179.99", url: amz("B08HW7GXSQ") },
@@ -128,7 +128,7 @@ const STAGES: Stage[] = [
           "You do not need a mat for most reformer classes, so a reformer bag is less about carrying bulk and more about organisation: a spot for shoes you take off at the door, a pocket for damp socks after class, and room for a layer.",
         items: [
           { tier: "Best", ...P.sportsnewTote, description: "A 20L tote with a separate shoe compartment and a wet pocket — exactly the two features a reformer bag needs. Shoes go in their own section at check-in, used grip socks go in the wet pocket afterwards, and nothing damp touches your post-class layer. It also has room for a mat on days you do a mat class instead." },
-          { tier: "Budget", ...P.bagsmartDuffle, description: "If you commute to class from work or prefer a structured holdall, this BAGSMART duffle is one of the lowest-priced options in our pool at $24.21. It works as a gym bag and a weekender, so it earns its keep outside the studio too." },
+          { tier: "Budget", ...P.bagsmartDuffle, description: "If you commute to class from work or prefer a structured holdall, this BAGSMART duffle is one of the lowest-priced options in our pool at $21.43. It works as a gym bag and a weekender, so it earns its keep outside the studio too." },
           { tier: "Add-On", ...P.lululemonBelt, description: "Not a class bag, but a small crossbody for the essentials you want on you rather than in a cubby: phone, keys, card, a claw clip. Handy if your studio has open shelving instead of lockers." + directNote("lululemon.com") },
         ],
         guideHref: "/blog/best-pilates-bag",
@@ -164,7 +164,7 @@ const STAGES: Stage[] = [
           "Most studios require grip socks on the reformer for hygiene and safety. Look for grip across the whole sole, including the heel: in footwork your heels press into the bar, and a sock with dots only under the ball of the foot can slip.",
         items: [
           { tier: "Best", ...P.toesox, description: "toesox is the original studio grip-sock brand, and this low-rise 2-pack is its full-toe design, sold on Amazon by The Active Footwear Store, the official distributor. Two pairs means one to wear and one in the wash." },
-          { tier: "Budget", ...P.muezna, description: "Six pairs for $7.99 from seller UISIC. If you take three or more classes a week, a multi-pack means a fresh, dry pair every time. Ideal for a first month of classes before you know which style you prefer." },
+          { tier: "Budget", ...P.muezna, description: "Six pairs for $7.59 from seller UISIC. If you take three or more classes a week, a multi-pack means a fresh, dry pair every time. Ideal for a first month of classes before you know which style you prefer." },
           { tier: "Splurge", ...P.tavi, description: "TAVI's Stacy is a slouch-style Pilates sock, sold as a 2-pack by The Active Footwear Store. You are paying for the look more than extra function — but if you like a slouch sock over the ankle, this is the one." },
           { tier: "Best Toeless", ...P.tucketts, description: "Tucketts builds specifically for barre and Pilates. The Allegro is a toeless cut, which many people with wide feet or painted toenails prefer." },
         ],
@@ -572,7 +572,7 @@ export default function ReformerPilatesEssentialsPage() {
                     </ul>
                     <p className="text-sm leading-relaxed mt-5" style={bodyText}>
                       For hair, a large claw clip at the nape is the reformer regulars&apos; trick: it holds everything without a bump at the back of your head. The{" "}
-                      <a href={P.kitsch.url} target="_blank" rel="noopener noreferrer nofollow" style={linkStyle}>Kitsch 5&quot; Large Claw Clips (Black &amp; Tort, $11.87)</a>{" "}
+                      <a href={P.kitsch.url} target="_blank" rel="noopener noreferrer nofollow" style={linkStyle}>Kitsch 5&quot; Large Claw Clips (Black &amp; Tort, $9.99)</a>{" "}
                       are big enough for thick hair. More on clothing in our guide to{" "}
                       <Link href="/blog/what-to-wear-to-pilates" style={linkStyle}>what to wear to Pilates</Link>.
                     </p>

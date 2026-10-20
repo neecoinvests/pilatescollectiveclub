@@ -33,7 +33,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gaiam Yoga Bolster Pillow",
-    price: "$37.94",
+    price: "$46.98",
     verdict: "Best overall bolster for Pilates",
     description:
       "Gaiam is one of the more established names in yoga and Pilates props, which makes this the safe default if you want a single rectangular bolster that covers restorative work, supported stretching and side-lying positions without any guesswork. It's sold and shipped by Amazon.com directly, which simplifies returns if the firmness or footprint isn't right for your frame. As a general-purpose rectangular bolster, it does the core job any bolster is bought for: holding a body part at a fixed height so the surrounding muscles can release during restorative and supported Pilates work — which is why it's the pick to start with if you're buying your first one.",
@@ -53,10 +53,10 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "JZHLLA 2-PC Yoga Bolster Set",
-    price: "$30.99",
+    price: "$29.99",
     verdict: "Best value — two shapes in one purchase",
     description:
-      "This is the only set on this list, pairing a rectangular bolster with a cylinder in a single $30.99 purchase — effectively giving you both of the two most useful bolster shapes (flat-topped for knees, ribs and spinal support; round for chest-opening and supported backbend work) at a price where either shape alone would usually be a compromise. The washable velvet cover is worth calling out on its own: plenty of budget bolsters only advertise a removable cover, not a machine-washable one, and washability matters more on a prop you rest directly against.",
+      "This is the only set on this list, pairing a rectangular bolster with a cylinder in a single $29.99 purchase — effectively giving you both of the two most useful bolster shapes (flat-topped for knees, ribs and spinal support; round for chest-opening and supported backbend work) at a price where either shape alone would usually be a compromise. The washable velvet cover is worth calling out on its own: plenty of budget bolsters only advertise a removable cover, not a machine-washable one, and washability matters more on a prop you rest directly against.",
     affiliateUrl: "https://www.amazon.com/dp/B0FN681FYG?tag=pilatescollective-20",
     tag: "Best Value Set",
   },

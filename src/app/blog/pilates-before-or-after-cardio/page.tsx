@@ -62,7 +62,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Manduka PRO Yoga Mat 6mm",
-    price: "$143.99",
+    price: "$144.00",
     verdict: "Best mat for combined training days",
     description:
       "On days combining cardio and Pilates, a high-quality non-slip mat eliminates the practical friction of post-run sweat degrading grip during Pilates floor work. The Manduka PRO's closed-cell surface does not absorb moisture — the mat wipes clean between a sweaty run and a Pilates session without becoming slippery. The 6mm cushioning protects joints that have already absorbed impact loading from running, reducing the cumulative fatigue that kneeling and prone exercises create on a standard thin mat after a distance run. The Manduka PRO's longevity — it is guaranteed for life — makes it the right investment for practitioners who train multiple modalities daily.",

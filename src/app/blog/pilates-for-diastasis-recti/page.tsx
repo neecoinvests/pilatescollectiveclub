@@ -36,13 +36,13 @@ const PRODUCTS = [
     verdict: "Best abdominal support for early recovery",
     description:
       "A firm but comfortable postpartum belly band provides external support for the linea alba during early diastasis recti recovery, reducing strain on the separation during standing, walking, and gentle exercises. The Leonisa band uses a wide panel design that distributes compression evenly across the abdominal wall without digging into the hips or rolling down during movement. It is worn under clothing during the day and removed for Pilates sessions where intentional core activation is the goal. Evidence supports abdominal binders as a short-term adjunct to reduce discomfort and improve function in the early postpartum period — not as a substitute for progressive rehabilitation.",
-    affiliateUrl: "https://www.amazon.com/dp/B00AWB0M9G?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B00AWB11FU?tag=pilatescollective-20",
     tag: "Best Recovery Support",
   },
   {
     rank: "02",
     name: "Gaiam Essentials Thick Yoga Mat 10mm",
-    price: "$20.93",
+    price: "$24.98",
     verdict: "Best mat for floor-based recovery work",
     description:
       "A thick, well-cushioned mat is particularly important for diastasis recti rehabilitation Pilates, where a significant proportion of exercises are performed in supine and prone positions and where excessive spinal extension from a thin mat can load the abdominal wall inappropriately. The Gaiam 10mm Essentials mat provides enough cushioning to keep the thoracic spine in a supported neutral position during lying exercises without the instability that comes from overly soft foam. The non-slip texture handles the seated and quadruped positions central to early rehabilitation, and the 68-inch length is adequate for most practitioners working through the full range of diastasis recti exercises.",

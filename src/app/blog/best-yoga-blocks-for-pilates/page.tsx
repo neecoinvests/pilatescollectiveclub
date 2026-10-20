@@ -33,7 +33,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gaiam Yoga Block",
-    price: "$14.09",
+    price: "$15.43",
     verdict: "Best single block for most Pilates props work",
     description:
       "A single latex-free EVA foam block with a non-slip surface and beveled edges, built to support stability, balance, and alignment work. The foam density holds its shape under body-weight loading — useful under the hips in a bridge variation or under the sacrum for a passive opener — while the beveled edges keep it comfortable against skin where a sharp-edged block would dig in. Sold by Amazon.com.",
@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Fitvids High Density Yoga Blocks (Set of 2)",
-    price: "$15.13",
+    price: "$11.71",
     verdict: "Best budget pair sold directly by Amazon",
     description:
       "A two-block set sold directly by Amazon.com. Each block is high-density foam, 9 x 6 x 4 inches, with a slip-resistant surface and rounded edges for a comfortable grip. It fills the same two-block role as the Septo pair at a similar price, and being an Amazon.com listing makes returns simple if the firmness isn't right for you.",
@@ -63,7 +63,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "KEEP Yoga Block, 2-Pack (Grey)",
-    price: "$13.99",
+    price: "$13.98",
     verdict: "Best lightweight, high-density pair",
     description:
       "A high-density EVA pair with a closed-cell non-slip surface, each block weighing just 0.44lb — noticeably lighter than most foam blocks in this roundup without sacrificing the firmness needed for weight-bearing support under the hips or sacrum. The light weight makes this pair easy to toss in a bag for studio classes where you're carrying your own props.",
@@ -123,7 +123,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is there a real yoga block sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Gaiam Yoga Block ($14.09), the Septo 2 Pcs Yoga Blocks set ($11.69), the Fitvids High Density Yoga Blocks 2-Pack ($15.13), the KEEP Yoga Block 2-Pack ($13.99), and the POUYRBA Yoga Blocks 2-Pack ($11.99) are all live, currently-sold Amazon listings, made from EVA foam or EVA rubber." } },
+        { "@type": "Question", "name": "Is there a real yoga block sold on Amazon that you can verify?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Gaiam Yoga Block ($15.43), the Septo 2 Pcs Yoga Blocks set ($11.69), the Fitvids High Density Yoga Blocks 2-Pack ($11.71), the KEEP Yoga Block 2-Pack ($13.98), and the POUYRBA Yoga Blocks 2-Pack ($11.99) are all live, currently-sold Amazon listings, made from EVA foam or EVA rubber." } },
         { "@type": "Question", "name": "Are yoga blocks used in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — practitioners commonly use blocks under the hips for elevation, between the knees for adductor cueing, or under the thoracic spine for a passive extension opener. Both single blocks and two-packs support all of these uses." } },
         { "@type": "Question", "name": "Should I buy one block or a pair?", "acceptedAnswer": { "@type": "Answer", "text": "A single block, like the Gaiam Yoga Block, covers most single-point support uses. A pair — the Septo, Fitvids, KEEP, or POUYRBA sets — is worth the extra cost if you regularly need support at two points at once, for example under the head and the mid-back simultaneously. With five verified options now spanning roughly $12-15, you can pick a pair on price, weight, or firmness without settling." } },
       ],
@@ -150,7 +150,7 @@ export default function BestYogaBlocksForPilatesPage() {
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 5 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A prior version of this article named brands (Manduka, Hugger Mugger, Lululemon, REEHUT, Node Fitness) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five solid yoga block options are real, in stock, and ready to buy today: the Gaiam Yoga Block, a single EVA foam block at $14.09; the Septo 2 Pcs Yoga Blocks, a water-resistant EVA rubber pair at $11.69; the Fitvids 2-Pack at $13.60; the KEEP Yoga Block 2-Pack at $13.99; and the POUYRBA 2-Pack at $11.99.
+              A prior version of this article named brands (Manduka, Hugger Mugger, Lululemon, REEHUT, Node Fitness) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five solid yoga block options are real, in stock, and ready to buy today: the Gaiam Yoga Block, a single EVA foam block at $15.43; the Septo 2 Pcs Yoga Blocks, a water-resistant EVA rubber pair at $11.69; the Fitvids 2-Pack at $13.60; the KEEP Yoga Block 2-Pack at $13.98; and the POUYRBA 2-Pack at $11.99.
             </p>
           </div>
         </section>
@@ -226,7 +226,7 @@ export default function BestYogaBlocksForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is there a real yoga block sold on Amazon that you can verify?", a: "Yes. The Gaiam Yoga Block ($14.09) and the Septo 2 Pcs Yoga Blocks set ($11.69) are both live, currently-sold Amazon listings, made from EVA foam and EVA rubber respectively." },
+                  { q: "Is there a real yoga block sold on Amazon that you can verify?", a: "Yes. The Gaiam Yoga Block ($15.43) and the Septo 2 Pcs Yoga Blocks set ($11.69) are both live, currently-sold Amazon listings, made from EVA foam and EVA rubber respectively." },
                   { q: "Are yoga blocks used in Pilates?", a: "Yes — practitioners commonly use blocks under the hips for elevation, between the knees for adductor cueing, or under the thoracic spine for a passive extension opener. Both the Gaiam single block and the Septo pair support all of these uses." },
                   { q: "Should I buy one block or a pair?", a: "A single block, like the Gaiam Yoga Block, covers most single-point support uses. A pair, like the Septo 2-Pack, is worth the extra cost if you regularly need support at two points at once — for example under the head and the mid-back simultaneously." },
                 ].map((item) => (

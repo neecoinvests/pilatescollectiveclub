@@ -94,7 +94,7 @@ const PRODUCTS = [
 
 const BRAS = [
   { name: "Beyond Yoga Spacedye Lift Your Spirits Bra", price: "$68.00", url: amz("B07HRVHSST"), note: "Matches the Beyond Yoga legging. Medium support, removable pads." },
-  { name: "Sweaty Betty Power Medium Racer Back Sports Bra", price: "$49.97", url: amz("B0BW197M92"), note: "Matches the Sweaty Betty legging. Adjustable T-bar strap; sold by Amazon.com." },
+  { name: "Sweaty Betty Power Medium Racer Back Sports Bra", price: "$26.10", url: amz("B0BW197M92"), note: "Matches the Sweaty Betty legging. Adjustable T-bar strap; sold by Amazon.com." },
   { name: "CRZ YOGA Butterluxe Y Back Sports Bra", price: "$28.00", url: amz("B0B3CP6VY9"), note: "A soft, light-support bra for the budget rotation." },
 ];
 

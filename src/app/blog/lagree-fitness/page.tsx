@@ -143,7 +143,7 @@ type Gear = { category: string; name: string; price: string; url: string; note: 
 
 const GEAR: Gear[] = [
   { category: "Grip socks", name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: amz("B07QHNDHW3"), note: "Lagree is sweaty and slow — grip on the carriage and platform matters.", guideHref: "/blog/best-lagree-grip-socks" },
-  { category: "Knee pad", name: "Impulse Yoga Knee Pad Cushion (1\")", price: "$19.99", url: amz("B06WV6XVV9"), note: "Cushions kneeling work on the carriage or the floor.", guideHref: "/blog/best-lagree-knee-pads" },
+  { category: "Knee pad", name: "Impulse Yoga Knee Pad Cushion (1\")", price: "$20.72", url: amz("B06WV6XVV9"), note: "Cushions kneeling work on the carriage or the floor.", guideHref: "/blog/best-lagree-knee-pads" },
   { category: "Gloves", name: "Gaiam Grippy Yoga Gloves", price: "$7.65", url: amz("B001VROVEM"), note: "Helps sweaty hands on handlebars and platforms.", guideHref: "/blog/best-pilates-gloves" },
   { category: "Shorts", name: "CRZ YOGA Butterluxe Biker Shorts 6\"", price: "$24.00", url: amz("B0B28B34XX"), note: "Tight biker shorts do not ride up or catch on the carriage.", guideHref: "/blog/best-lagree-shorts" },
   { category: "Towel", name: "Shandali Stickyfiber Yoga Towel", price: "$19.99", url: amz("B011IU43WG"), note: "Keeps a sweaty carriage from getting slippery.", guideHref: "/blog/best-sweat-towel-for-lagree" },

@@ -11,7 +11,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Lagree Bag (2026): Best Gym Bags for Lagree Class",
-  description: "The best Lagree bag keeps a soaked towel and studio shoes away from clean clothes. Six picks, from $21.56 bags with shoe and wet pockets to a 37L gym bag.",
+  description: "The best Lagree bag keeps a soaked towel and studio shoes away from clean clothes. Six picks, from $24.35 bags with shoe and wet pockets to a 37L gym bag.",
   keywords: ["lagree bag", "best bag for lagree", "gym bag for lagree class", "lagree gym bag shoe compartment", "what to bring to lagree", "megaformer gym bag", "gym bag with wet compartment", "gym bag with shoe compartment", "lagree tote bag", "lagree bag 2026"],
   openGraph: {
     title: "Lagree Bag (2026): Best Gym Bags for Lagree Class",
@@ -67,10 +67,10 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "BAGSMART Gym Bag for Women (Shoe Compartment)",
-    price: "$29.99",
+    price: "$25.19",
     verdict: "Best value",
     description:
-      "At $29.99, this is one of the cheapest routes to the single feature that makes the biggest everyday difference: a shoe compartment. Studio floors are grip-sock territory, so the trainers you walk in with come off at the door, and putting outdoor soles back into the same space as a clean top after class is the habit a separate shoe section breaks. It is a sensible first Lagree bag for anyone who is still deciding whether the class is a three-times-a-week habit, and a perfectly good long-term one for people who go straight home after class and do not need a full change of clothes. Pair it with a separate washable pouch for your sweaty towel and socks if you want the same wet-dry separation as the Fitgriff.",
+      "At $25.19, this is one of the cheapest routes to the single feature that makes the biggest everyday difference: a shoe compartment. Studio floors are grip-sock territory, so the trainers you walk in with come off at the door, and putting outdoor soles back into the same space as a clean top after class is the habit a separate shoe section breaks. It is a sensible first Lagree bag for anyone who is still deciding whether the class is a three-times-a-week habit, and a perfectly good long-term one for people who go straight home after class and do not need a full change of clothes. Pair it with a separate washable pouch for your sweaty towel and socks if you want the same wet-dry separation as the Fitgriff.",
     affiliateUrl: "https://www.amazon.com/dp/B0DMS9Q287?tag=pilatescollective-20",
     brandDirect: false,
     tag: "Best Value",
@@ -78,10 +78,10 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Sportsnew Tote Yoga Mat Gym Bag 20L",
-    price: "$21.56",
+    price: "$24.35",
     verdict: "Best tote",
     description:
-      "A tote is the right shape for people who would rather carry a shoulder bag than a duffle, and this one covers both Lagree essentials in a 20-litre body: its listing names a shoe compartment and a wet pocket. Twenty litres is smaller than the duffles above but comfortably enough for a towel, bottle, grip socks and a top to change into, and the tote format slides more easily into a studio cubby than a long duffle does. It is also designed as a yoga-mat bag, so if you take mat Pilates or yoga on other days you can carry a mat with it — you will not need one for Lagree itself, since you work on the machine. At $21.56 it is the cheapest bag here, alongside the BAGSMART; choose between them on shape, since both cover the shoe question.",
+      "A tote is the right shape for people who would rather carry a shoulder bag than a duffle, and this one covers both Lagree essentials in a 20-litre body: its listing names a shoe compartment and a wet pocket. Twenty litres is smaller than the duffles above but comfortably enough for a towel, bottle, grip socks and a top to change into, and the tote format slides more easily into a studio cubby than a long duffle does. It is also designed as a yoga-mat bag, so if you take mat Pilates or yoga on other days you can carry a mat with it — you will not need one for Lagree itself, since you work on the machine. At $24.35 it is the cheapest bag here, alongside the BAGSMART; choose between them on shape, since both cover the shoe question.",
     affiliateUrl: "https://www.amazon.com/dp/B0BHP38PNG?tag=pilatescollective-20",
     brandDirect: false,
     tag: "Best Tote",

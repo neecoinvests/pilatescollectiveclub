@@ -43,7 +43,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "MOREOK Cycling Gloves",
-    price: "$12.74",
+    price: "$12.23",
     verdict: "Best budget pick",
     description:
       "MOREOK's half-finger gloves use 5mm gel padding at the palm, which is a genuinely generous cushioning spec for the price. For riders who want gel-level palm protection during high-output spin sessions without paying premium-brand prices, this is the clearest budget recommendation on the list.",

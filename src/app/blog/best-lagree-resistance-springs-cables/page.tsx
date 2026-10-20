@@ -63,7 +63,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "5-Piece Reformer Spring Set with Stated Dimensions",
-    price: "$49.39",
+    price: "$73.74",
     verdict: "Best for matching spring length",
     description:
       "A five-spring steel set (two yellow, two green, one red) whose listing states exact dimensions: 18.58 inches long including hooks, with wire diameters given for each colour. That makes it easier to check against the springs on your machine before ordering. As with every product here, it's a generic third-party replacement for standard reformer/Megaformer-style springs, not a Lagree Fitness branded part.",

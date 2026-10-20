@@ -40,7 +40,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gaiam Premium Yoga & Pilates Mat (6mm)",
-    price: "$19.29",
+    price: "$21.90",
     verdict: "The Ideal First Mat",
     description: "Every pilates practitioner needs a mat — and the Gaiam Premium is the ideal first one. At 6mm thick it provides genuine joint cushioning for pilates floor work (abs, stretching, rolling) without being so thick that ground contact is lost. The non-slip surface grips on both sides; it rolls into a clean cylinder, fits any mat bag, and holds its shape over years of regular use. Gaiam has been the leading accessible mat brand for over two decades — she'll know the name and trust the quality. A foundational gift that never misses.",
     affiliateUrl: "https://www.amazon.com/dp/B0BYFFX51Z?tag=pilatescollective-20",
@@ -109,7 +109,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is the best pilates gift for a beginner?",
-    a: "The best pilates gift for a beginner is grip socks (ToeSox, $16) — they are required equipment at every reformer studio and consistently the item new practitioners show up without. A close second is a quality mat (Gaiam Premium, $19.29) for home practice. If budget allows, combine both with a Theraband set ($26) for a complete beginner kit around $79.",
+    a: "The best pilates gift for a beginner is grip socks (ToeSox, $16) — they are required equipment at every reformer studio and consistently the item new practitioners show up without. A close second is a quality mat (Gaiam Premium, $21.90) for home practice. If budget allows, combine both with a Theraband set ($26) for a complete beginner kit around $79.",
   },
   {
     q: "What equipment does a pilates beginner need?",

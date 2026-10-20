@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "NEEWER Bi-Color 660 LED Light Kit (2-Pack with Stands)",
-    price: "$189.99",
+    price: "$199.99",
     verdict: "Best if you film your practice",
     description:
       "Anyone recording sessions — for form checks, for teaching, or for an online audience — quickly discovers that a room lit comfortably for practice films badly, because overhead light casts downward shadows that hide exactly the spinal and pelvic detail you are trying to see. A bi-colour LED panel on a stand, placed to the side and slightly in front, solves it: soft directional light that reveals the body's shape and adjusts from tungsten to daylight to match whatever else is in the room. For form review this is genuinely more useful than a mirror, since you can watch the movement back rather than trying to observe yourself mid-exercise. Look for adjustable colour temperature, a proper diffusion panel rather than bare LEDs, and either mains power or a battery mount. Not everyday lighting — it is a tool you set up when filming and put away afterwards.",

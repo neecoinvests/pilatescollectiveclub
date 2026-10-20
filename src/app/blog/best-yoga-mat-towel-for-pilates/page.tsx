@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Gaiam Yoga Mat Towel (Full Length)",
-    price: "$17.60",
+    price: "$17.64",
     verdict: "Best mid-price mat towel",
     description:
       "The Gaiam Full Length Yoga Mat Towel is the most widely available mid-price mat towel and the appropriate recommendation for practitioners who want reliable coverage and grip at a meaningfully lower price than the Manduka and Liforme options. The microfibre construction absorbs sweat adequately for standard temperature Pilates studios, though in heated or Lagree environments the towel saturates faster than the Manduka eQua. The corner pockets grip the mat to prevent bunching during session transitions — a practical feature the eQua and Liforme achieve through silicone grip dots rather than pockets. The 68x24 inch format provides full mat coverage. The Gaiam towel is machine washable and quick-drying. Available in a range of prints and solid colourways. For practitioners who attend one or two sessions per week in non-heated studios, the Gaiam towel is adequate for hygiene and light grip support at a price that does not require justification.",

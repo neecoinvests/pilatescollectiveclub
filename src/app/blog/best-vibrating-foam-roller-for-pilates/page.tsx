@@ -33,7 +33,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "TriggerPoint GRID Vibe Plus (Roller + Vibe Ball)",
-    price: "$214.34",
+    price: "$208.67",
     verdict: "Best vibrating roller and ball set",
     description:
       "TriggerPoint's GRID Vibe Plus pairs a cordless, rechargeable vibrating foam roller (four vibration frequencies) with a 4-inch vibrating massage ball (three frequencies), per the listing. The roller handles broad thoracic and leg work before or after a reformer session, while the ball gets into the glutes, hip flexors and other spots a roller can't reach. Sold and shipped by Amazon.com.",
@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "LTHTRADE Vibrating Foam Roller",
-    price: "$59.99",
+    price: "$62.99",
     verdict: "Best mid-range value pick",
     description:
       "The LTHTRADE roller offers five-speed vibration and a rechargeable battery at a noticeably lower price than the premium picks, making it the value pick for practitioners who want a full-featured vibrating roller without paying for a big brand name. It is straightforward to operate — no app required — which suits anyone who just wants to switch it on, pick a speed, and roll out the thoracic spine or hip flexors before or after a session.",
@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "PURSONIC Vibrating Foam Roller",
-    price: "$43.99",
+    price: "$44.99",
     verdict: "Best budget pick for beginners",
     description:
       "The PURSONIC is the entry point on this list, sold directly by Amazon.com and offering five intensity levels for a fraction of the price of the premium options. It is the pick for a Pilates practitioner who wants to try vibration-assisted rolling for the first time before deciding whether to invest further — the five-speed range still covers gentle pre-session warm-up through firmer post-session release, even if the build and motor quality will not match the pricier rollers on this list.",
@@ -123,7 +123,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is a vibrating foam roller worth it for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Vibration-assisted rolling consistently outperforms static foam rolling in studies measuring range of motion and perceived muscle soreness. For Pilates specifically, the thoracic mobility work that precedes most classes is meaningfully more effective with a vibrating roller — the vibration inhibits the stretch reflex, allowing passive thoracic extension to proceed further with less discomfort. The Therabody WaveRoller at $179.99 is the clear premium, app-connected recommendation, while budget options like the PURSONIC at $43.99 make it easy to try the technology first." } },
+        { "@type": "Question", "name": "Is a vibrating foam roller worth it for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Vibration-assisted rolling consistently outperforms static foam rolling in studies measuring range of motion and perceived muscle soreness. For Pilates specifically, the thoracic mobility work that precedes most classes is meaningfully more effective with a vibrating roller — the vibration inhibits the stretch reflex, allowing passive thoracic extension to proceed further with less discomfort. The Therabody WaveRoller at $179.99 is the clear premium, app-connected recommendation, while budget options like the PURSONIC at $44.99 make it easy to try the technology first." } },
         { "@type": "Question", "name": "When should you foam roll before Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "5–10 minutes before a Pilates session is the optimal window. Use a vibrating roller at a medium frequency (2–3 on a 5-speed device) for 45–60 seconds per area: thoracic spine, hip flexors, quadriceps, and calves. This increases tissue temperature and extensibility without causing the muscular fatigue that aggressive pre-session rolling can produce. Avoid rolling the lumbar spine directly — work the thoracic region only." } },
         { "@type": "Question", "name": "Can you use a foam roller during Pilates class?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A full-length foam roller is a standard Pilates prop used extensively in mat and semi-private reformer classes for spinal articulation, balance challenges, and opening exercises. The vibrating rollers listed here are too loud (40–60dB) for active in-class use in a studio context, but are ideal for pre- and post-class rolling in changing rooms or at home." } },
       ],
@@ -204,7 +204,7 @@ export default function BestVibratingFoamRollerForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is a vibrating foam roller worth it for Pilates?", a: "Yes. Vibration-assisted rolling consistently outperforms static foam rolling in studies measuring range of motion and perceived muscle soreness. For Pilates specifically, the thoracic mobility work that precedes most classes is meaningfully more effective with a vibrating roller — the vibration inhibits the stretch reflex, allowing passive thoracic extension to proceed further with less discomfort. The Therabody WaveRoller at $179.99 is the clear premium, app-connected recommendation, while budget options like the PURSONIC at $43.99 make it easy to try the technology first." },
+                  { q: "Is a vibrating foam roller worth it for Pilates?", a: "Yes. Vibration-assisted rolling consistently outperforms static foam rolling in studies measuring range of motion and perceived muscle soreness. For Pilates specifically, the thoracic mobility work that precedes most classes is meaningfully more effective with a vibrating roller — the vibration inhibits the stretch reflex, allowing passive thoracic extension to proceed further with less discomfort. The Therabody WaveRoller at $179.99 is the clear premium, app-connected recommendation, while budget options like the PURSONIC at $44.99 make it easy to try the technology first." },
                   { q: "When should you foam roll before Pilates?", a: "5–10 minutes before a Pilates session is the optimal window. Use a vibrating roller at a medium frequency (2–3 on a 5-speed device) for 45–60 seconds per area: thoracic spine, hip flexors, quadriceps, and calves. This increases tissue temperature and extensibility without causing the muscular fatigue that aggressive pre-session rolling can produce. Avoid rolling the lumbar spine directly — work the thoracic region only." },
                   { q: "Can you use a foam roller during Pilates class?", a: "Yes. A full-length foam roller is a standard Pilates prop used extensively in mat and semi-private reformer classes for spinal articulation, balance challenges, and opening exercises. The vibrating rollers listed here are too loud (40–60dB) for active in-class use in a studio context, but are ideal for pre- and post-class rolling in changing rooms or at home." },
                 ].map((item) => (

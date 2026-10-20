@@ -33,7 +33,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "FARINOK Yoga Wheel Set of 3+1",
-    price: "$42.99",
+    price: "$40.99",
     verdict: "Best value for a complete set",
     description:
       "This set gives you three wheel sizes in one purchase, which matters because different diameters do genuinely different jobs — a larger wheel produces a gentler, broader extension curve while a smaller one arches the spine more sharply, and having a range on hand lets you match the wheel to how much extension you actually have that day rather than owning a single fixed curve. FARINOK pads these to 10mm, which is on the thicker side for the category and means more cushioning between a bony thoracic spine and the core of the wheel. For anyone building a home mobility routine from scratch, a multi-size set like this is the most complete single purchase — you are far less likely to end up needing a second wheel later because the one you bought turned out to be the wrong size.",
@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "CHNApin Curve Magic Wheel",
-    price: "$24.26",
+    price: "$23.62",
     verdict: "Best budget pick with a supportive cradle",
     description:
       "This is the cheapest wheel on this list, and what sets it apart at the price is a foam-padded centre spine cradle rather than a flat padded curve — a shaped channel that gives the spine somewhere specific to settle into instead of pressing flat against the padding. For anyone new to using a wheel who is a little nervous about the spine sliding or shifting mid-extension, that cradle is a genuinely useful stability feature to get at this price point. It is a straightforward single wheel without the size options a set offers, which is the trade-off for the low cost, but as a first wheel to find out whether the movement suits you, it is a sensible entry point.",

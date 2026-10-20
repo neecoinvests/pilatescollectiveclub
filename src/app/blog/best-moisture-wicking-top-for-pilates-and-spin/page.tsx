@@ -89,7 +89,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Under Armour HeatGear Armour Compression Top",
-    price: "$23.98",
+    price: "$23.88",
     verdict: "Best Budget",
     description:
       "HeatGear moves sweat to the surface almost instantly and dries in minutes. The compression fit supports muscle engagement cues during Lagree slow-twitch work and the UPF 30 protection is a bonus for outdoor cooldowns. Exceptional value — stock up in two colours.",

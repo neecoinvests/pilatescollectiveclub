@@ -35,7 +35,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Manduka PRO Yoga Mat (6mm)",
-    price: "$143.99",
+    price: "$144.00",
     verdict: "Best for Serious Home Practice",
     description:
       "The PRO is the mat that serious practitioners buy once and keep for a decade. The 6mm density is the critical spec for Pilates: dense enough to provide clear spinal feedback during rolling exercises, articulation work, and seated positions — without the spongy absorption that thinner mats create against hard floors. The weight (7.5 lbs) is the only meaningful drawback for studio commuters, but for a home practice setup it is irrelevant. The lifetime guarantee is genuine — Manduka replaces defective PRO mats regardless of age. At this price point, the PRO is the benchmark against which every other mat is measured.",

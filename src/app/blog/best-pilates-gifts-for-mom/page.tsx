@@ -80,7 +80,7 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Theraband Professional Resistance Band Set",
-    price: "$19.58",
+    price: "$19.47",
     verdict: "Most Useful Under-$30 Gift",
     description: "Theraband is the clinical standard — the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The professional set includes six colour-coded resistance levels, pre-cut to exercise length, covering everything from gentle warm-up to serious conditioning. For a practitioner building a home practice or doing supplementary work between studio sessions, this set becomes a daily tool. At $26 it is the highest-value pilates gift per dollar on this list — practical, durable, and genuinely useful every week.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",

@@ -181,10 +181,10 @@ const CATEGORIES: Category[] = [
       {
         tier: "Budget",
         name: "Muezna Pilates Grip Socks (6 Pairs)",
-        price: "$7.99",
+        price: "$7.59",
         url: amz("B0DQ53GSP5"),
         description:
-          "Six pairs for $7.99. Because Lagree socks get soaked, a multi-pack that means you always have a clean, dry pair in your bag is worth more than it sounds.",
+          "Six pairs for $7.59. Because Lagree socks get soaked, a multi-pack that means you always have a clean, dry pair in your bag is worth more than it sounds.",
       },
       {
         tier: "Splurge",
@@ -237,7 +237,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Impulse Yoga Knee Pad Cushion (1\" / 25mm)",
-        price: "$19.99",
+        price: "$20.72",
         url: amz("B06WV6XVV9"),
         description:
           "At 1\" (25mm) thick, this is the more cushioned of our two picks, and the one to choose if kneeling is already uncomfortable for you.",
@@ -334,7 +334,7 @@ const CATEGORIES: Category[] = [
       {
         tier: "Best",
         name: "Gaiam Core Sliding Discs (2)",
-        price: "$16.99",
+        price: "$16.59",
         url: amz("B0964G1N18"),
         description:
           "A pair of sliding discs from an established fitness brand. Two discs let you do both single-leg and two-hand moves.",

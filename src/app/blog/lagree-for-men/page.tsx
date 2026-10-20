@@ -68,7 +68,7 @@ const SHORTS: Pick[] = [
     id: "pudolla",
     role: "Best Budget Shorts",
     name: "Pudolla Men's 2-in-1 Running Shorts 5\"",
-    price: "$24.99",
+    price: "$19.74",
     url: amz("B08BNFYKXR"),
     description:
       "A 5-inch 2-in-1 short: a lightweight outer layer over a breathable compression liner, with a phone pocket and a back zip pocket, plus an elastic waistband with internal drawcord. The liner is the point — it keeps you covered in wheelbarrow, bear and wide lunges.",
@@ -86,7 +86,7 @@ const SHORTS: Pick[] = [
     id: "ua-heatgear-leggings",
     role: "Best Tights",
     name: "Under Armour Men's HeatGear Armour Leggings",
-    price: "$28.00",
+    price: "$28.25",
     url: amz("B0874W7Z7R"),
     description:
       "Compression-fit, super-light HeatGear leggings with a 28\" inseam, ergonomic seams and a side drop-in pocket. Wear them alone or under shorts — full coverage for kneeling on the carriage, and nothing rides up. Sold by Amazon.com.",
@@ -98,7 +98,7 @@ const TOPS: Pick[] = [
     id: "ua-tech-2",
     role: "Best Budget Tee",
     name: "Under Armour Men's Tech 2.0 Short-Sleeve T-Shirt",
-    price: "$18.75",
+    price: "$19.60",
     url: amz("B07D126W6P"),
     description:
       "UA Tech fabric that is quick-drying, ultra-soft, wicks sweat and has anti-odor technology, in a streamlined fit with a shaped hem. Sold by Amazon.com. Size down if you want it to stay put on all fours.",
@@ -107,7 +107,7 @@ const TOPS: Pick[] = [
     id: "ua-compression",
     role: "Best Fitted Tee",
     name: "Under Armour Men's HeatGear Compression T-Shirt",
-    price: "$24.50",
+    price: "$24.99",
     url: amz("B0874X72WP"),
     description:
       "An ultra-tight, second-skin compression tee in super-light HeatGear fabric, with mesh underarm and back panels for ventilation and hybrid raglan sleeves for range of motion. Compression is the surest way to keep a top in place upside down. Sold by Amazon.com.",

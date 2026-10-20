@@ -134,7 +134,7 @@ export const GIFTS = {
     body: "A connected indoor bike with a big rotating screen, for anyone who likes to mix Pilates with cardio classes at home.",
   },
   schwinnIC4: {
-    id: "schwinn-ic4", name: "Schwinn IC4 Indoor Cycling Bike", brand: "Schwinn", price: "$795.99", url: amz("B07WZXSDKW"),
+    id: "schwinn-ic4", name: "Schwinn IC4 Indoor Cycling Bike", brand: "Schwinn", price: "$899.00", url: amz("B07WZXSDKW"),
     availability: "in-stock", soldBy: "Amazon.com",
     specs: ["Works with apps such as Peloton and Zwift (separate subscriptions)", "2-month JRNY mobile-only membership trial", "Sold and shipped by Amazon.com"],
     body: "A well-regarded indoor bike that works with the apps people already use, at a lower price than screen-equipped bikes.",
@@ -158,7 +158,7 @@ export const GIFTS = {
     body: "Apple's toughest, longest-lasting watch, with cellular built in. The luxury pick for someone who trains every day.",
   },
   appleWatchSE3: {
-    id: "apple-watch-se-3", name: "Apple Watch SE 3 (GPS, 40mm)", brand: "Apple", price: "$199.99", url: amz("B0HJ9ZNRKT"),
+    id: "apple-watch-se-3", name: "Apple Watch SE 3 (GPS, 40mm)", brand: "Apple", price: "$239.99", url: amz("B0HJ9ZNRKT"),
     availability: "in-stock", soldBy: "Amazon.com",
     specs: ["Temperature sensing with Vitals and Cycle Tracking apps", "Workout and step tracking", "Fall and crash detection", "18-hour battery; charges up to twice as fast as SE 2"],
     body: "The most affordable current Apple Watch, with the essentials for tracking workouts and sleep.",
@@ -176,7 +176,7 @@ export const GIFTS = {
     body: "Garmin's premium running and triathlon watch, for the Pilates lover who also trains for races.",
   },
   galaxyWatch8: {
-    id: "samsung-galaxy-watch-8", name: "Samsung Galaxy Watch 8 (44mm)", brand: "Samsung", price: "$324.71", url: amz("B0F7PZNZQD"),
+    id: "samsung-galaxy-watch-8", name: "Samsung Galaxy Watch 8 (44mm)", brand: "Samsung", price: "$318.99", url: amz("B0F7PZNZQD"),
     availability: "in-stock", soldBy: "Amazon.com",
     specs: ["Advanced sleep coaching", "Running Coach with real-time feedback", "Rotating bezel and Quick Button", "Lighter, thinner design than before, per the listing"],
     body: "The best smartwatch for Android phone users, with sleep coaching and an energy score.",

@@ -13,7 +13,7 @@ const DESCRIPTION = "How many calories a 50-minute Lagree class burns: studio cl
 const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
 
 const polarH10: Omit<GuideItem, "badge"> = {
-  id: "polar-h10", name: "Polar H10 Heart Rate Monitor Chest Strap", brand: "Polar", price: "$104.45", url: amz("B07PM54P4N"),
+  id: "polar-h10", name: "Polar H10 Heart Rate Monitor Chest Strap", brand: "Polar", price: "$104.65", url: amz("B07PM54P4N"),
   availability: "in-stock", soldBy: "Amazon.com",
   specs: ["Chest strap heart rate sensor", "Bluetooth and ANT+, usable at the same time", "Pro chest strap with silicone dots to stay in place", "Works with most HRM-compatible apps and watches", "Size M-XXL"],
   body: "Polar calls the H10 the most accurate heart rate sensor in its history. A chest strap reads heart rate from the electrical signal of the heart rather than light through the skin, which suits a workout full of gripping, planks and wrist flexion.",
@@ -27,7 +27,7 @@ const polarH9: Omit<GuideItem, "badge"> = {
 };
 
 const coospo: Omit<GuideItem, "badge"> = {
-  id: "coospo-h6", name: "COOSPO H6 Heart Rate Monitor Chest Strap", brand: "CooSpo", price: "$29.99", url: amz("B07BS6B4PD"),
+  id: "coospo-h6", name: "COOSPO H6 Heart Rate Monitor Chest Strap", brand: "CooSpo", price: "$25.49", url: amz("B07BS6B4PD"),
   availability: "in-stock", soldBy: "CooSpo",
   specs: ["Chest strap heart rate sensor", "Bluetooth and ANT+", "IP67", "Works with apps such as Strava and Polar Beat, per the listing"],
   body: "The budget way to get chest-strap heart rate into your phone or watch. Pair it with a free app and you have a heart rate record of every class.",

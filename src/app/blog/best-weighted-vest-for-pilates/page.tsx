@@ -63,7 +63,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "APEXUP Weighted Vest (30lb)",
-    price: "$89.95",
+    price: "$79.95",
     verdict: "Best adjustable option for running and strength work",
     description:
       "APEXUP builds this one for a dual purpose — running and strength training — rather than purely gentle walking, and the 30lb capacity with adjustability reflects that. It suits someone who wants a single vest that scales from a light walking load up toward genuinely demanding strength or conditioning sessions, rather than a vest bought specifically for low-intensity load-bearing work alongside Pilates. If your interest is purely the gentle bone-and-posture walking case this category is often recommended for, this is more vest than you need; if you also train more intensely and want one piece of equipment that covers both, the adjustability and higher ceiling make it a reasonable single purchase.",
@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "RUNmax Run Fast Weighted Vest",
-    price: "$38.82",
+    price: "$37.38",
     verdict: "Best expandable system for growing into heavier loads",
     description:
       "RUNmax ships this vest at 20lb but built on an expandable system rated up to 140lb of total capacity, which is a genuinely different proposition from a fixed vest — you are buying the harness once and adding weight to it over months or years rather than replacing the whole vest when 20lb stops being enough. That makes it a sensible middle purchase for anyone who suspects they will want to progress past a beginner load but does not yet know how far. The honest caveat is the same one that applies to any heavier vest: 140lb of capacity does not mean you should load anywhere near that for Pilates-adjacent walking and standing work, and the useful range for most people stays well under a fraction of what the harness can technically hold.",

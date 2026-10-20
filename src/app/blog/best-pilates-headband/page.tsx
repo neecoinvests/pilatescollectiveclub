@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Kitsch Soft Ribbed Spa Headband",
-    price: "$11.99",
+    price: "$9.99",
     verdict: "Best value headband",
     description:
       "Kitsch's Soft Ribbed Headband punches above its price bracket for Pilates use. The plush ribbed fabric is gentler against the scalp than performance-fabric alternatives, making it comfortable for practitioners who find workout headbands too tight or abrasive. The stretch is appropriate for mat Pilates and lower-intensity reformer work — less grippy than the Lululemon Fly Away Tamer in extreme inversions, but entirely adequate for standard class positions. Available in packs of multiple colourways, which suits practitioners who want a fresh headband for each session without the cost of buying premium options individually.",

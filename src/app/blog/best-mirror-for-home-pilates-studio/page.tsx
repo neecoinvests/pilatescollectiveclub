@@ -63,7 +63,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "AISUNDY Tilting Full-Length Mirror on Wheels (65 x 22 in)",
-    price: "$139.99",
+    price: "$142.99",
     verdict: "Best when the room has another purpose",
     description:
       "A mirror on a wheeled frame solves the multi-use room problem better than anything else here. It rolls into position for a session and back against a wall — or out of the room entirely — afterwards, which makes it the only option that suits a living room or a shared home office. The mobility has a second, less obvious benefit: you can reposition it mid-session to check a movement from the side, an angle a fixed wall mirror can never give you and which is genuinely more informative than the front view for spinal alignment and hip position. Look for locking casters, a wide stable base, and a tilt mechanism, which together address the two failure modes of cheap rolling mirrors — creeping across the floor during use and being fixed at an angle that is wrong for floor work. It is the most expensive option on this list and the most flexible.",

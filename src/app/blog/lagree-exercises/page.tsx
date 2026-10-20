@@ -68,7 +68,7 @@ const FLOOR_KIT: Pick[] = [
     badge: "Best Sliders",
     shortName: "Core sliders",
     name: "Gaiam Core Sliding Discs (Set of 2)",
-    price: "$16.99",
+    price: "$16.59",
     url: amz("B0964G1N18"),
     description:
       "Sliders are the closest thing to a carriage you can put on a floor: your hand or foot glides out under control and you have to pull it back. That is why every move in the home workout below uses them. These are dual-sided for carpet and hard floors, light enough to take to class, and sold by Amazon.com.",
@@ -78,7 +78,7 @@ const FLOOR_KIT: Pick[] = [
     badge: "Budget Sliders",
     shortName: "Budget sliders",
     name: "A AZURELIFE Exercise Core Sliders",
-    price: "$8.99",
+    price: "$7.12",
     url: amz("B07M96HMDJ"),
     description:
       "A 7-inch, dual-sided pair at half the price: a smooth plastic side for carpet and a foam side for hard floors, wood or tile. One honest note from the listing itself: used plastic-side down, the slider can scratch and scratch your floor, so use the foam side on hardwood.",
@@ -108,7 +108,7 @@ const FLOOR_KIT: Pick[] = [
     badge: "Best Mat",
     shortName: "Thick mat",
     name: "Gaiam Essentials Thick Yoga Mat (10mm)",
-    price: "$21.23",
+    price: "$24.98",
     url: amz("B07H9PZDQW"),
     description:
       "10mm high-density NBR foam that the listing says reduces pressure on knees, plus an easy-cinch carry strap. Lagree-style floor work spends a lot of time on knees and forearms, where a thin mat hurts. Use sliders on the floor beside the mat rather than on it; foam is too grippy for gliding. Sold by Amazon.com.",
@@ -118,7 +118,7 @@ const FLOOR_KIT: Pick[] = [
     badge: "Best Knee Cushion",
     shortName: "Knee pad",
     name: "Impulse Yoga Knee Pad Cushion (1\")",
-    price: "$19.99",
+    price: "$20.72",
     url: amz("B06WV6XVV9"),
     description:
       "One inch of foam for kneeling planks, saws and crunches, which is far more than a mat gives you. Slip it under your knees or forearms for the plank-family moves in the workout below.",

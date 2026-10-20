@@ -56,9 +56,9 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "AeroPilates 287 Reformer",
-    price: "$359.00",
+    price: "$349.99",
     verdict: "Best Established-Brand Reformer to Gift",
-    description: "For a safer gift from a name the recipient may already recognize, the AeroPilates 287 is a genuine, currently-sold Amazon listing at $359.00 from an established home-fitness brand. It uses elastic cord resistance rather than coil springs — gentler and more forgiving than the spring reformers above, well suited to a beginner. We could not verify specific claims about carriage length or fold mechanism beyond what the current listing shows, so check that page before ordering.",
+    description: "For a safer gift from a name the recipient may already recognize, the AeroPilates 287 is a genuine, currently-sold Amazon listing at $349.99 from an established home-fitness brand. It uses elastic cord resistance rather than coil springs — gentler and more forgiving than the spring reformers above, well suited to a beginner. We could not verify specific claims about carriage length or fold mechanism beyond what the current listing shows, so check that page before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
   },
   {
@@ -125,7 +125,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "Is there a genuine full reformer to gift under $500?",
-    a: "Yes. The DWKWE ($284.99) and WINDFOOT ($295.99) are both real, currently-sold, full carriage-and-rail reformers with genuine spring resistance, well under $500. They come from generic brands without an established track record among instructors, so pair the gift with realistic expectations. The AeroPilates 287 ($359.00) is the established-brand alternative, using elastic cord resistance instead of springs.",
+    a: "Yes. The DWKWE ($284.99) and WINDFOOT ($295.99) are both real, currently-sold, full carriage-and-rail reformers with genuine spring resistance, well under $500. They come from generic brands without an established track record among instructors, so pair the gift with realistic expectations. The AeroPilates 287 ($349.99) is the established-brand alternative, using elastic cord resistance instead of springs.",
   },
   {
     q: "Is a budget pilates reformer worth gifting?",

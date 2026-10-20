@@ -51,10 +51,10 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "bellicon Mini Trampoline 39\" (Bungee Suspension)",
-    price: "$699.00",
+    price: "$649.00",
     verdict: "Premium pick: bungee suspension from a rebounder specialist",
     description:
-      "bellicon sells this 39-inch mini trampoline on Amazon itself, and its defining feature is bungee suspension rather than metal springs. Bungee rebounders are generally described as giving a softer, deeper bounce, and they avoid the metallic spring noise that bothers people in apartments and shared homes. Whether that is worth $699.00 depends on how much you will use it. If a rebounder is going to be a near-daily part of your training, alongside Lagree classes or a home Micro, the premium build is easy to justify. If you are still figuring out whether rebounding suits you, start with one of the cheaper picks. Sold by bellicon.",
+      "bellicon sells this 39-inch mini trampoline on Amazon itself, and its defining feature is bungee suspension rather than metal springs. Bungee rebounders are generally described as giving a softer, deeper bounce, and they avoid the metallic spring noise that bothers people in apartments and shared homes. Whether that is worth $649.00 depends on how much you will use it. If a rebounder is going to be a near-daily part of your training, alongside Lagree classes or a home Micro, the premium build is easy to justify. If you are still figuring out whether rebounding suits you, start with one of the cheaper picks. Sold by bellicon.",
     affiliateUrl: amz("B0CNWB1TYG"),
     tag: "Premium Pick",
   },
@@ -81,7 +81,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "ACWARM HOME 40\" Mini Rebounder (440 lb Load)",
-    price: "$77.37",
+    price: "$69.98",
     verdict: "Best budget: try rebounding for under $70",
     description:
       "Sold by Amazon.com. A 40-inch mini rebounder with a stated 440 lb load rating, at the lowest price on this page. This is the pick for finding out whether rebounder cardio fits your routine before spending more. Expect a budget build: the listing title doesn&apos;t say whether it uses springs or bungees, so check that detail if noise matters in your home. If you end up jumping several times a week and want a softer feel, you will know exactly what to upgrade to.",

@@ -74,7 +74,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Under Armour Men's HeatGear Armour Leggings",
-    price: "$27.00",
+    price: "$28.25",
     verdict: "Best option for men",
     description:
       "Men often arrive at their first Lagree class in loose gym shorts and discover within ten minutes why that does not work: loose fabric rides up in a lunge, can catch on the carriage edge or springs, and leaves bare skin on vinyl in kneeling positions, which sticks and leaves sweat on a shared machine. A fitted legging fixes all of it, and Under Armour's HeatGear Armour legging is the straightforward, widely available option. HeatGear is the name Under Armour gives its warm-conditions gear, which suits a studio that runs hot. Wear it on its own or under a short, whichever you are comfortable with. A fitted leg also lets your instructor see your hip and knee alignment, which is half the value of a coached class. If you prefer shorts, see our Lagree shorts guide, which includes men's options with a built-in liner.",
@@ -226,7 +226,7 @@ export default function BestLeggingsForLagreePage() {
               body="Two more pieces make the biggest difference on a Megaformer: grip socks, because most studios require them and bare feet slip on a sweaty platform, and a supportive sports bra for the jump and lunge sequences."
               picks={[
                 { name: "toesox Low Rise Grip Socks 2-Pack", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "The original studio grip-sock brand, full-toe." },
-                { name: "Under Armour Women's Infinity 2 High Impact Sports Bra", price: "$47.85", url: "https://www.amazon.com/dp/B0C12Q3L89?tag=pilatescollective-20", note: "Sold by Amazon.com. High-impact support for jump and lunge work." },
+                { name: "Under Armour Women's Infinity 2 High Impact Sports Bra", price: "$48.66", url: "https://www.amazon.com/dp/B0C12Q3L89?tag=pilatescollective-20", note: "Sold by Amazon.com. High-impact support for jump and lunge work." },
               ]}
               guideHref="/blog/lagree-essentials"
               guideLabel="See the complete Lagree essentials list"

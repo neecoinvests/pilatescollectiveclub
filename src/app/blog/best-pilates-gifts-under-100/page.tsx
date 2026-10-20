@@ -48,7 +48,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Gaiam Premium Print Yoga Mat (6mm)",
-    price: "$24.49",
+    price: "$39.99",
     verdict: "Best Beginner-to-Intermediate Mat",
     description: "Gaiam is the brand that introduced millions of practitioners to quality mats — and their Premium Print line remains genuinely excellent for the price. At 6mm, it provides real joint cushioning for pilates floor work. The non-slip surface grips on both sides, the foam core holds its shape through years of use, and it rolls into a compact cylinder that fits any mat bag. For a gift under $40, this is the most practical choice — she'll use it for home practice immediately.",
     affiliateUrl: "https://www.amazon.com/dp/B09WF2LLWP?tag=pilatescollective-20",
@@ -64,7 +64,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Theraband Professional Resistance Band Set",
-    price: "$19.58",
+    price: "$19.47",
     verdict: "Best Accessory Under $30",
     description: "Theraband is the clinical gold standard in resistance bands — the same brand used in hospital physiotherapy departments and prescribed by sports medicine professionals. The professional set includes six resistance levels from yellow through black, covering every stage of pilates progression from gentle rehabilitation to advanced conditioning. Each band is colour-coded, pre-cut to exercise length, and made from a latex blend that won't snap or degrade. For a practitioner of any level, this is the highest-value-for-money gift on this list.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
@@ -95,10 +95,10 @@ const CRITERIA = [
 ];
 
 const FAQ = [
-  { q: "What are the best pilates gifts under $100?", a: "The best pilates gifts under $100 are: ToeSox grip socks (from $16), Theraband resistance set ($19.58), Gaiam Premium mat ($24.49), TriggerPoint GRID roller ($28.99), Lululemon Align Bra ($48), and Manduka Cork Blocks ($64). All are practical, high-quality gifts she'll use every class." },
-  { q: "What is a good pilates gift for under $50?", a: "For under $50, the best pilates gifts are: Lululemon Align Bra ($48), Theraband Professional Set ($19.58), ToeSox Half-Toe Grip Socks ($18), TriggerPoint GRID Roller ($28.99), and Gaiam Premium Mat ($24.49). The Theraband set offers the best value-per-dollar at this price point." },
+  { q: "What are the best pilates gifts under $100?", a: "The best pilates gifts under $100 are: ToeSox grip socks (from $16), Theraband resistance set ($19.47), Gaiam Premium mat ($39.99), TriggerPoint GRID roller ($28.99), Lululemon Align Bra ($48), and Manduka Cork Blocks ($64). All are practical, high-quality gifts she'll use every class." },
+  { q: "What is a good pilates gift for under $50?", a: "For under $50, the best pilates gifts are: Lululemon Align Bra ($48), Theraband Professional Set ($19.47), ToeSox Half-Toe Grip Socks ($18), TriggerPoint GRID Roller ($28.99), and Gaiam Premium Mat ($39.99). The Theraband set offers the best value-per-dollar at this price point." },
   { q: "What do pilates practitioners actually need?", a: "Practically, every pilates practitioner needs: grip socks (required by studios), a personal mat for home practice, resistance bands for supplementary work, and a foam roller for recovery. Of these, grip socks and resistance bands are the most universally appreciated gifts because practitioners go through them regularly and rarely buy them in advance." },
-  { q: "Should I buy one $100 gift or multiple smaller gifts?", a: "For a close friend or partner, one thoughtful $100 gift (like a Manduka cork block set or Lululemon bra) tends to feel more intentional than a collection of small items. For a colleague, Secret Santa, or someone you know less well, combining a $19.58 Theraband set with a $18 ToeSox pack makes a complete, practical gift basket at $44 total." },
+  { q: "Should I buy one $100 gift or multiple smaller gifts?", a: "For a close friend or partner, one thoughtful $100 gift (like a Manduka cork block set or Lululemon bra) tends to feel more intentional than a collection of small items. For a colleague, Secret Santa, or someone you know less well, combining a $19.47 Theraband set with a $18 ToeSox pack makes a complete, practical gift basket at $44 total." },
 ];
 
 const RELATED = [

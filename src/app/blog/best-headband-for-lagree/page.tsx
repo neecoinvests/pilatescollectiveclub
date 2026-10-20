@@ -31,7 +31,7 @@ const ITEMS: Record<string, Omit<GuideItem, "badge">> = {
     body: "A wide Dri-FIT headband sold and shipped by Amazon.com. The width covers more of the forehead, so it soaks up more sweat than slim bands.",
   },
   ua: {
-    id: "under-armour-play-up-headband", name: "Under Armour Women's Play Up Headband", brand: "Under Armour", price: "$10.97", url: amz("B08LMSGBHY"),
+    id: "under-armour-play-up-headband", name: "Under Armour Women's Play Up Headband", brand: "Under Armour", price: "$12.00", url: amz("B08LMSGBHY"),
     availability: "in-stock", soldBy: "Amazon.com",
     specs: ["Breathable, stretchy fabric", "Anti-odor technology", "Exposed spandex elastic interior for grip", "One size"],
     body: "An inexpensive band with an exposed elastic interior that grips without pulling hair. Sold by Amazon.com.",
@@ -89,7 +89,7 @@ const GUIDE: EquipmentGuideProps = {
         ["Halo Headband II", "$16.95", "Heavy sweat", "Non-slip grip + SweatSeal"],
         ["Sweaty Bands 5/8\"", "$19.99", "Flyaways, style", "Velvet lining"],
         ["Nike Dri-FIT Fury Wide", "$16.00", "Sweat absorption", "Elastic"],
-        ["Under Armour Play Up", "$10.97", "Budget", "Exposed elastic interior"],
+        ["Under Armour Play Up", "$12.00", "Budget", "Exposed elastic interior"],
         ["Bondi Band Tapered", "$9.99", "Lying on the carriage", "Non-slip design"],
         ["QiShang 6-Pack", "$9.99", "A clean band every class", "Silicone strips"],
       ],

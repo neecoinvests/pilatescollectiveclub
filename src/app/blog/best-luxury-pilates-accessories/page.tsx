@@ -50,7 +50,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "TriggerPoint GRID 2.0 Foam Roller (26\")",
-    price: "$75",
+    price: "$74.99",
     verdict: "Best Premium Foam Roller",
     description: "The GRID 2.0 is the 26-inch version of TriggerPoint's original GRID: a rigid hollow core wrapped in EVA foam with a patented multi-density surface (flat 'palm' zones, tubular 'finger' zones and firmer ridges). The hard core means it doesn't compress and go soft the way solid foam rollers do, and the extra length gives enough surface to roll the whole back or lie along it for thoracic opening after a reformer session. Rated to 500 lbs. Sold and shipped by Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20",
@@ -59,7 +59,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "THERABAND Professional Latex Resistance Band Set (7-Pack)",
-    price: "$20",
+    price: "$19.47",
     verdict: "Best Professional Resistance Bands",
     description: "THERABAND is the band physiotherapists and clinical Pilates teachers actually use, and its colour-coded system is the one most rehab programmes are written around. This professional set gives you seven 6-foot bands in seven progressive resistance levels, which covers everything from shoulder rehab to leg work in the mat repertoire. Natural latex gives smooth, progressive tension (choose THERABAND's non-latex bands if you have a latex allergy). It's the least expensive item on this list and one of the most useful.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
@@ -77,7 +77,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "Balanced Body Pilates Arc",
-    price: "$190",
+    price: "$189.99",
     verdict: "Best Spine Corrector",
     description: "The Pilates Arc is Balanced Body's lightweight take on the classical spine corrector, and it's the single accessory that adds the most new repertoire to home practice. It's high-density foam weighing only about 4 lbs, with an asymmetrical profile: use it one way as a spine corrector for extension and side-bending, or turn it around for a gentler barrel curve. A detachable wedge flips over for core and balance work, and the Arc slides onto a reformer's shoulder rests to use as a wedge there too. Sold by Balanced Body on Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20",

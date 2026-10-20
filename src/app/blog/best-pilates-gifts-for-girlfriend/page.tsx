@@ -80,7 +80,7 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "Theraband Professional Resistance Band Set",
-    price: "$19.58",
+    price: "$19.47",
     verdict: "Best Training Accessory",
     description: "Theraband is the clinical standard in physical therapy and Pilates training — the brand that actual physiotherapists prescribe and the bands most certified Pilates instructors keep in their kit. The professional set includes six resistance levels from yellow (light) to black (extra-heavy). Perfect for at-home pilates practice, pre-class warm-up, and post-class stretching. At $26, this is the highest-value-per-dollar gift on this list — she'll use these for years.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",

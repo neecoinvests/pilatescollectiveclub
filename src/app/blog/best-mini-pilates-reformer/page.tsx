@@ -59,11 +59,11 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "AeroPilates Reformer 287",
-    price: "$359.00",
+    price: "$349.99",
     verdict: "Best budget compact reformer from an established brand",
     tag: "Established Brand Budget",
     description:
-      "The AeroPilates 287 is the smallest full-function reformer from a recognized, established brand that we could verify as a real, live Amazon listing, at $359.00. It uses elastic cord resistance rather than coil springs, which feels genuinely different from the spring-based WINDFOOT and DWKWE models above, and covers much of the foundational reformer repertoire. We could not independently verify exact folded dimensions or assembly time for the current listing — confirm those on the product page.",
+      "The AeroPilates 287 is the smallest full-function reformer from a recognized, established brand that we could verify as a real, live Amazon listing, at $349.99. It uses elastic cord resistance rather than coil springs, which feels genuinely different from the spring-based WINDFOOT and DWKWE models above, and covers much of the foundational reformer repertoire. We could not independently verify exact folded dimensions or assembly time for the current listing — confirm those on the product page.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
     pros: ["Genuine, live Amazon listing", "Established brand with support infrastructure", "Good for beginners and flexibility work"],
     cons: ["Elastic cord resistance differs from springs", "Shorter rail limits some exercises", "Less stable than full studio reformers"],
@@ -109,7 +109,7 @@ const PRODUCTS = [
 const FAQS = [
   {
     q: "Is a mini or compact Pilates reformer worth it?",
-    a: "For the tightest budgets, WINDFOOT ($295.99) and DWKWE ($284.99) are real, currently-sold, genuine spring reformers that fold for storage — generic brands without an established track record, but real machines. For beginners or space-constrained practitioners who prefer a recognized brand, the AeroPilates 287 at $359.00 is a genuine, real Amazon listing worth considering. For practitioners who train frequently and want spring-based resistance from an established brand, the Balanced Body Metro IQ ($2,330) or Align-Pilates C8-PRO ($2,750) are real steps up. We could not verify a specific repertoire-coverage percentage for any of these machines, so treat that as a general impression rather than a measured figure.",
+    a: "For the tightest budgets, WINDFOOT ($295.99) and DWKWE ($284.99) are real, currently-sold, genuine spring reformers that fold for storage — generic brands without an established track record, but real machines. For beginners or space-constrained practitioners who prefer a recognized brand, the AeroPilates 287 at $349.99 is a genuine, real Amazon listing worth considering. For practitioners who train frequently and want spring-based resistance from an established brand, the Balanced Body Metro IQ ($2,330) or Align-Pilates C8-PRO ($2,750) are real steps up. We could not verify a specific repertoire-coverage percentage for any of these machines, so treat that as a general impression rather than a measured figure.",
   },
   {
     q: "Are the budget WINDFOOT and DWKWE reformers genuine spring reformers?",

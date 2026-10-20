@@ -67,7 +67,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Topeak Modula Cage EX",
-    price: "$11.64",
+    price: "$11.57",
     verdict: "Best Adjustable Cage",
     description:
       "The Modula Cage EX adjusts to fit bottles from 550 ml to 1 litre with a simple hex-key screw. It mounts to any standard 74 mm bolt pattern, making it compatible with Schwinn IC4, NordicTrack S22i, and most belt-drive spin bikes. A reliable workhorse for any home studio setup.",

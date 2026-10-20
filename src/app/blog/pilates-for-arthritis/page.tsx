@@ -32,7 +32,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gaiam Essentials Thick Yoga Mat 10mm",
-    price: "$20.93",
+    price: "$24.98",
     verdict: "Best mat for arthritic joints",
     description:
       "A 10mm mat is the most important equipment upgrade for practitioners with arthritis. Standard 4-6mm mats provide insufficient cushioning for kneeling, quadruped (hands and knees), and seated exercises that place direct pressure on arthritic knees, wrists, and hips. The Gaiam Essentials 10mm mat provides enough cushioning to meaningfully reduce discomfort in these positions without creating the instability that very thick foam can cause. The non-slip surface handles perspiration, and the mat is light enough to carry to class without adding physical strain. For practitioners with significant knee or wrist arthritis, a 10mm mat is often the single change that makes floor-based Pilates consistently accessible.",
@@ -52,7 +52,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Copper Fit Freedom Knee Compression Sleeve",
-    price: "$11.99",
+    price: "$11.39",
     verdict: "Best knee support for Pilates",
     description:
       "A knee compression sleeve worn during Pilates provides warmth, proprioceptive support, and mild compression that can reduce pain and improve joint awareness for practitioners with knee osteoarthritis or inflammatory arthritis. The warmth effect is particularly relevant in studio environments where lying on a cool reformer can stiffen arthritic joints mid-session. Copper Compression's sleeve design is low-profile enough to wear under standard Pilates leggings without bulk, and the graduated compression maintains position through a full class without sliding down. The sleeve is most effective as a complement to appropriate exercise modification — not as a substitute for informing an instructor about joint limitations.",

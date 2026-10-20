@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Yes4All Neoprene Dumbbell Set 1-3lb",
-    price: "$9.99",
+    price: "$10.61",
     verdict: "Best light dumbbell set for Pilates",
     description:
       "A set of light dumbbells — 1lb, 2lb, and 3lb — used during the standing arm series in mat and reformer Pilates creates genuine muscular overload in the shoulder stabilisers and rotator cuff that bodyweight Pilates alone does not provide. The neoprene coating gives secure grip with sweaty hands, and the hex shape prevents rolling on studio floors. The 1-3lb range is specifically appropriate for Pilates: heavier weights compromise form and shift the exercise away from the precision Pilates requires. This set covers the full progression from beginner to advanced mat arm work without becoming the kind of gym equipment that feels out of place in a studio.",

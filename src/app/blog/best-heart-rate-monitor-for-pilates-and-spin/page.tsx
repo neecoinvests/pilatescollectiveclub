@@ -33,7 +33,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Polar H10 Heart Rate Monitor Chest Strap",
-    price: "$104.45",
+    price: "$104.65",
     verdict: "Best overall accuracy",
     description:
       "The Polar H10 is widely regarded as the gold standard among consumer heart rate chest straps, and it's the most expensive option here for that reason. It's sold directly by Amazon.com rather than a third-party listing, which is worth knowing if that matters to you when buying hardware you'll wear against your skin. For Lagree and spin training, where heart rate accuracy during rapid intensity changes genuinely matters for zone-based programming, the H10 is the clear premium pick — the strap you buy once and don't think about again.",
@@ -43,7 +43,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "COOSPO H6 Heart Rate Monitor Chest Strap",
-    price: "$29.99",
+    price: "$25.49",
     verdict: "Best budget pick",
     description:
       "The COOSPO H6 is the most affordable chest strap on this list and a sensible starting point if you just want a reliable strap for tracking zones in class without paying premium pricing. Like the pricier options here, it supports both Bluetooth and ANT+, so it pairs with a phone app and a bike console or Pilates equipment display at the same time. For practitioners who mainly want to see their heart rate zone in class rather than chase the last percentage point of accuracy, this covers the basics at a fraction of the H10's price.",

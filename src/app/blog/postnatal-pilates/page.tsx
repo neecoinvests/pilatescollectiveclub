@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Manduka PRO Yoga Mat 6mm",
-    price: "$143.99",
+    price: "$144.00",
     verdict: "Best mat for postnatal practice",
     description:
       "The Manduka PRO is the recommended mat for postnatal Pilates for two reasons specific to postpartum practice: its 6mm thickness provides meaningful cushioning for joints that have increased laxity from relaxin, and its closed-cell surface does not absorb moisture — relevant for the increased perspiration that accompanies the early postpartum period. The non-slip surface performs consistently whether the practitioner is dry or sweating, and the mat is dense enough to resist compression under kneeling positions without bottoming out. The Manduka PRO is an investment that outlasts most alternatives by years, which suits practitioners building a long-term home Pilates practice through the postnatal period and beyond.",

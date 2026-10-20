@@ -43,10 +43,10 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Mirlray Smart Ring",
-    price: "$32.99",
+    price: "$39.99",
     verdict: "Best budget entry point",
     description:
-      "Mirlray's ring is the cheapest option on this list at $32.99, and it focuses on the two metrics most Pilates practitioners actually check day to day — blood oxygen and heart rate. It won't match the depth or brand pedigree of the Oura Ring 5, but for anyone who wants a basic read on resting heart rate and SpO2 without spending anywhere near premium-ring money, it's a low-risk way to find out whether a ring-form tracker fits into your routine at all.",
+      "Mirlray's ring is the cheapest option on this list at $39.99, and it focuses on the two metrics most Pilates practitioners actually check day to day — blood oxygen and heart rate. It won't match the depth or brand pedigree of the Oura Ring 5, but for anyone who wants a basic read on resting heart rate and SpO2 without spending anywhere near premium-ring money, it's a low-risk way to find out whether a ring-form tracker fits into your routine at all.",
     affiliateUrl: "https://www.amazon.com/dp/B0HCTNZ2WN?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
@@ -63,10 +63,10 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "ZBNMY Smart Ring",
-    price: "$39.98",
+    price: "$39.97",
     verdict: "Best no-subscription smart ring",
     description:
-      "The ZBNMY ring's standout feature is structural rather than a sensor spec: no subscription fee, which stands out once you weigh it against a premium ring like the Oura Ring 5 that comes with an ongoing membership model on top of the purchase price. A 7-day battery life is also the longest quoted runtime among the budget options on this list, meaning fewer charging interruptions to a regular Pilates and sleep-tracking routine — all for a one-time cost of $39.98.",
+      "The ZBNMY ring's standout feature is structural rather than a sensor spec: no subscription fee, which stands out once you weigh it against a premium ring like the Oura Ring 5 that comes with an ongoing membership model on top of the purchase price. A 7-day battery life is also the longest quoted runtime among the budget options on this list, meaning fewer charging interruptions to a regular Pilates and sleep-tracking routine — all for a one-time cost of $39.97.",
     affiliateUrl: "https://www.amazon.com/dp/B0HCSW68ZB?tag=pilatescollective-20",
     tag: "Best No Subscription",
   },

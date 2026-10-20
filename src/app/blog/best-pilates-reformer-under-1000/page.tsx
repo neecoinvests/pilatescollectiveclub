@@ -95,11 +95,11 @@ const PRODUCTS = [
   {
     rank: "06",
     name: "AeroPilates 287 Reformer",
-    price: "$359.00",
+    price: "$349.99",
     verdict: "Best true entry point for an established brand",
     tag: "Budget Champion",
     description:
-      "The AeroPilates 287 is a genuine, live Amazon listing at $359.00 and the lowest-cost established-brand reformer we could verify in this category. It uses elastic cord resistance, which the brand markets around a fold-flat design, though we could not independently verify exact folded dimensions or weight for the current listing. For beginners who want brand reliability over spring feel, it remains an honest, verified starting point.",
+      "The AeroPilates 287 is a genuine, live Amazon listing at $349.99 and the lowest-cost established-brand reformer we could verify in this category. It uses elastic cord resistance, which the brand markets around a fold-flat design, though we could not independently verify exact folded dimensions or weight for the current listing. For beginners who want brand reliability over spring feel, it remains an honest, verified starting point.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
     pros: ["Genuine, live Amazon listing", "Lowest-cost established-brand option in this guide", "Brand markets a fold-flat design"],
     cons: ["Cord resistance only", "We could not verify exact folded dimensions or weight capacity", "Rail length shorter than premium AeroPilates models"],

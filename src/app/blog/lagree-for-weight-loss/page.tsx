@@ -67,7 +67,7 @@ const TRACKING: Pick[] = [
     badge: "Best Heart Rate Monitor",
     shortName: "Chest strap",
     name: "Polar H10 Heart Rate Monitor Chest Strap",
-    price: "$104.45",
+    price: "$104.65",
     url: amz("B07PM54P4N"),
     description:
       "The best way to see what a Lagree class actually does to your heart rate. Chest straps read the heart's electrical signal and are generally more accurate during exercise than wrist sensors, which struggle when you grip handles and plank. Polar calls the H10 the most accurate heart rate sensor in its history. It connects over Bluetooth and ANT+ at the same time, so it pairs with most watches and apps. Sold by Amazon.com.",
@@ -77,7 +77,7 @@ const TRACKING: Pick[] = [
     badge: "Best Budget Chest Strap",
     shortName: "Budget chest strap",
     name: "COOSPO H808S Heart Rate Monitor Chest Strap",
-    price: "$26.63",
+    price: "$29.99",
     url: amz("B07R8741CN"),
     description:
       "A quarter of the Polar's price, with Bluetooth and ANT+, IP67 water resistance and an LED and beep to confirm it is working. It works with third-party apps and sports watches. It is the easy way to get chest-strap heart-rate data without a big outlay.",
@@ -97,7 +97,7 @@ const TRACKING: Pick[] = [
     badge: "Best Budget Scale",
     shortName: "Budget smart scale",
     name: "Etekcity Smart Scale (Weight, Body Fat & BMI)",
-    price: "$23.99",
+    price: "$19.94",
     url: amz("B095YJW56C"),
     description:
       "Weight, body fat and BMI estimates for under $20, syncing with Apple Health and other popular fitness apps through the VeSync app. Like all bathroom-scale body fat readings, the number shifts with hydration, so watch the weekly trend, not the daily figure. Sold by Amazon.com.",
@@ -117,7 +117,7 @@ const TRACKING: Pick[] = [
     badge: "Best Smart Tape",
     shortName: "Smart tape",
     name: "RENPHO Smart Body Measuring Tape",
-    price: "$26.99",
+    price: "$29.99",
     url: amz("B082W886W9"),
     description:
       "A 60-inch Bluetooth tape that sends each measurement to an app and graphs your progress over time. The retractable easy-lock hook means you can measure without help. Choose it over a plain tape if you will actually look at the graphs.",

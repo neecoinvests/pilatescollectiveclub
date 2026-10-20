@@ -40,7 +40,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Theragun PRO (5th Generation)",
-    price: "$530",
+    price: "$529.99",
     verdict: "The Ultimate Recovery Gift",
     description: "The Theragun PRO is Therabody's flagship percussive massager, and it's the one physios and serious athletes actually own. Its 16mm amplitude reaches deeper into the glutes, hip flexors and upper back than the cheap lookalikes, the patented triangle handle lets you reach your own back without straining your wrist, and it comes with six attachments (including a Supersoft head for bony areas). Built-in Warm Up, Post Workout, Sleep and Break routines run from the screen, or pair it with the Therabody app. Sold by Therabody on Amazon; at the moment it ships at a later date, so check the delivery estimate if it is a gift.",
     affiliateUrl: "https://www.amazon.com/dp/B0B6RL7NQJ?tag=pilatescollective-20",
@@ -72,7 +72,7 @@ const PRODUCTS = [
   {
     rank: "05",
     name: "TriggerPoint GRID 2.0 Foam Roller (26\")",
-    price: "$75",
+    price: "$74.99",
     verdict: "Best Recovery Gift Under $100",
     description: "TriggerPoint's GRID is the roller physical therapists and athletic trainers use, and the 2.0 is the 26-inch version: long enough to roll the whole back or lie along the spine after a reformer class. The patented multi-density surface has three zones that mimic a therapist's palm, fingers and fingertips, and the rigid hollow core wrapped in EVA foam doesn't soften over time the way solid foam rollers do. Rated to 500 lbs. Sold and shipped by Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20",
@@ -95,7 +95,7 @@ const CRITERIA = [
 ];
 
 const FAQ = [
-  { q: "What is the best luxury pilates gift?", a: "The Theragun PRO ($530) is the most impactful luxury pilates gift — professional-grade percussive therapy that serious practitioners use daily for recovery. For a more accessible luxury gift, the Liforme mat ($165) or Beyond Yoga Spacedye leggings ($97) are gifts she'll use every week." },
+  { q: "What is the best luxury pilates gift?", a: "The Theragun PRO ($529.99) is the most impactful luxury pilates gift — professional-grade percussive therapy that serious practitioners use daily for recovery. For a more accessible luxury gift, the Liforme mat ($165) or Beyond Yoga Spacedye leggings ($97) are gifts she'll use every week." },
   { q: "What luxury pilates gifts are worth the money?", a: "Theragun PRO, Manduka PRO mat (lifetime guarantee), Liforme mat and TriggerPoint GRID 2.0 are all genuinely worth their premium price. The Manduka PRO in particular is among the best-value luxury gifts in pilates — it lasts for years and is guaranteed for life." },
   { q: "Is the Theragun worth it for pilates practitioners?", a: "Yes — the Theragun Pro reaches muscle tissue that foam rollers and standard massage tools cannot. For practitioners training three or more times a week, it is the single most impactful recovery investment available. Its 16mm amplitude is deeper than most budget massage guns, which is what lets it work into the glutes, hip flexors and upper back." },
   { q: "What is the most luxurious pilates mat?", a: "The Liforme Original ($165) is generally considered the highest-performing luxury mat — an eco-polyurethane and rubber mat with alignment markers built into the surface. The Manduka PRO ($144) is the professional standard and offers a lifetime guarantee that Liforme does not. Both are excellent; the choice depends on whether she values grip and alignment markers (Liforme) or lifetime durability (Manduka PRO)." },

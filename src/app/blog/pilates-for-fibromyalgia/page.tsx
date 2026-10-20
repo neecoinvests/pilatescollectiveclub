@@ -32,7 +32,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gaiam Essentials Thick Yoga Mat 10mm",
-    price: "$20.93",
+    price: "$24.98",
     verdict: "Best mat for pain-sensitive practice",
     description:
       "A 10mm mat is one of the most important equipment choices for practitioners with fibromyalgia. The widespread musculoskeletal tenderness that characterises fibromyalgia makes standard 4-6mm mats genuinely uncomfortable for exercises that require lying prone, side-lying, or any position that places bony prominences against the floor. A 10mm mat provides enough cushioning to meaningfully reduce that discomfort without creating the instability that very thick foam can produce during standing or balance exercises. The Gaiam Essentials mat is a well-established option at a sensible price point — it provides adequate cushioning for most practitioners without the premium cost of specialist thick mats. For fibromyalgia, the investment in a thicker mat is not optional comfort — it is a prerequisite for consistent practice.",

@@ -78,7 +78,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Impulse Yoga Knee Pad Cushion (1\" / 25mm)",
-    price: "$19.99",
+    price: "$20.72",
     verdict: "Thickest cushion for sensitive knees",
     description:
       "At 1 inch (25mm), this is the thickest option here and the one to consider if your knees are the actual reason you avoid kneeling work — bony knees with little natural padding, or simply a hard floor at home. Thickness is a double-edged feature, which is why this sits below the sleeves. A 25mm cushion spreads pressure well, but it also lifts the knee enough to change the geometry of a kneeling lunge, tipping the pelvis and shifting where the work lands. Use it for floor sequences where comfort is the priority, and treat it as the upper limit of how thick kneeling padding should be. As with any cushion, it belongs on the floor at home rather than on a moving carriage.",
