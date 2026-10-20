@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import TopPick from "@/components/TopPick";
+import PartnerBrandEntry from "@/components/PartnerBrandEntry";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -303,6 +304,35 @@ const QUICK_MATCH = [
   { scenario: "You want studio quality at a boutique price", brand: "Elina Pilates Elite Wood", href: "/blog/elina-pilates" },
 ];
 
+const PARTNER_ENTRY = (
+  <div id="the-core-collab" className="scroll-mt-28">
+    <PartnerBrandEntry
+      variant="brand"
+      brandName="The Core Collab"
+      logoSrc="/pictures/partners/the-core-collab-logo.png"
+      imageSrc="/pictures/partners/the-core-collab-sculptformer.jpg"
+      imageAlt="The Core Collab Sculptformer machine in black"
+      details={[
+        { label: "Flagship", value: "The Core Collab Queen Studio Pilates Reformer" },
+        { label: "Range", value: "Folding Eco, Queen Folding, Queen Studio and Full Track Queen Studio reformers, a reformer with tower, and the Lagree-style Sculptformer, plus studio equipment" },
+        { label: "Best for", value: "Home practitioners and studio owners who want a customizable, studio-style machine" },
+        { label: "Pricing", value: "From $2,399 (Folding Eco Pilates Reformer); the Queen Studio Pilates Reformer is $2,999 and the Sculptformer is $8,499" },
+      ]}
+      description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from the Folding Eco and Queen Folding reformers, built for homes where the machine has to be put away, to the Queen Studio Pilates Reformer, the Lagree-style Sculptformer and full studio set-ups. Many models can be customized with your choice of frame finish and upholstery colour."
+      pointsHeading="Key selling points"
+      points={[
+        "Folding Eco and Queen Folding reformers for homes with limited space",
+        "Six springs on the Folding Eco, Queen Folding and Queen Studio reformers (3 heavy, 2 medium, 1 light on the Queen Studio), according to the brand",
+        "10-year frame warranty and 2-year warranty on moving parts, according to the brand",
+        "Custom frame finish and upholstery colours, plus your studio logo for studio owners",
+      ]}
+      ctaLabel="Visit The Core Collab →"
+      ctaHref="https://thecorecollabusa.com/?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=best-reformer-brands"
+      sourceNote="Details from The Core Collab's product pages."
+    />
+  </div>
+);
+
 export default function BestReformerBrandsPage() {
   return (
     <>
@@ -346,10 +376,23 @@ export default function BestReformerBrandsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto space-y-20">
 
+            {/* Partner placement */}
+            <div className="pt-4">{PARTNER_ENTRY}</div>
+
             {/* Quick picks */}
             <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks: At a Glance</p>
+              </div>
+              <div className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ backgroundColor: "#f6f8f5" }}>
+                <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#536257", fontFamily: "'Playfair Display', serif" }}>✦</span>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>The Core Collab Reformers <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
+                  <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>From $2,399 · Folding and studio reformers for home and studio use</p>
+                </div>
+                <a href="https://thecorecollabusa.com/?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=best-reformer-brands" target="_blank" rel="noopener noreferrer sponsored"
+                  style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#536257", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                >Shop Now →</a>
               </div>
               {AMAZON_PICKS.map((item, i) => (
                 <div key={item.url} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
@@ -372,6 +415,12 @@ export default function BestReformerBrandsPage() {
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Find your brand in 10 seconds</h2>
               <p className="text-sm leading-relaxed mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Match your situation to the right reformer Pilates brand before reading the full comparisons.</p>
               <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
+                <a href="#the-core-collab" style={{ textDecoration: "none" }}>
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5 sm:gap-6 px-5 sm:px-6 py-4" style={{ backgroundColor: "#f6f8f5", borderBottom: "1px solid rgba(217,194,186,0.3)" }}>
+                    <p className="text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>You want a customizable reformer for home or studio <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
+                    <p className="text-xs font-semibold sm:whitespace-nowrap sm:shrink-0" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>The Core Collab →</p>
+                  </div>
+                </a>
                 {QUICK_MATCH.map((item, i) => (
                   <Link key={i} href={item.href} style={{ textDecoration: "none" }}>
                     <div

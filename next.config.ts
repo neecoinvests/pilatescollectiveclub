@@ -23,7 +23,15 @@ const nextConfig: NextConfig = {
       ["luxury-recovery-gifts-for-pilates", "luxury-recovery-christmas-gifts-for-pilates"],
       ["fitness-tech-gifts-for-pilates-lovers", "fitness-tech-christmas-gifts-for-pilates-lovers"],
       ["luxury-fitness-gifts-for-him", "luxury-fitness-christmas-gifts-for-him"],
-    ].map(([from, to]) => ({ source: `/blog/${from}`, destination: `/blog/${to}`, permanent: true }));
+    ].map(([from, to]) => ({ source: `/blog/${from}`, destination: `/blog/${to}`, permanent: true }))
+      // Core Collab partner previews went live on the real articles (October 2026).
+      .concat(
+        ["best-pilates-reformer-brands", "best-megaformer-machine"].map((slug) => ({
+          source: `/partner-preview/the-core-collab/${slug}`,
+          destination: `/blog/${slug}`,
+          permanent: true,
+        })),
+      );
   },
 };
 

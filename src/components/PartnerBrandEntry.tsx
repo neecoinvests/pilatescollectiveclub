@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // A paid "partner" entry rendered inside an existing buying guide. Styled to
-// match the guide's own cards; used only by the hidden partner-preview mockups.
+// match the guide's own cards; used for paid partner placements.
 // Brand facts come from the partner's own published pages and are attributed
 // as such; assets not supplied yet are shown as marked placeholders.
 

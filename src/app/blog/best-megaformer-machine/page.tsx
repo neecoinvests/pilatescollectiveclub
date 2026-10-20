@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
+import PartnerBrandEntry from "@/components/PartnerBrandEntry";
 
 export const metadata: Metadata = {
   title: "Best Megaformer Machine (2026): Lagree Equipment Reviewed",
@@ -120,6 +121,34 @@ const jsonLd = {
   ],
 };
 
+const PARTNER_ENTRY = (
+  <PartnerBrandEntry
+    variant="machine"
+    brandName="The Core Collab Sculptformer"
+    sponsorName="The Core Collab"
+    logoSrc="/pictures/partners/the-core-collab-logo.png"
+    imageSrc="/pictures/partners/the-core-collab-sculptformer.jpg"
+    imageAlt="The Core Collab Sculptformer Lagree-style machine in black"
+    details={[
+      { label: "Machine", value: "The Core Collab Sculptformer" },
+      { label: "Best for", value: "Studios and committed trainers who want a Lagree-style machine" },
+      { label: "Sold", value: "Direct from The Core Collab" },
+      { label: "Price", value: "$8,499 (RRP $9,999), including white-glove delivery and installation, with an in-house payment plan on its US store." },
+    ]}
+    description="The Core Collab Sculptformer is the brand's Lagree-style machine, which the company positions as an alternative to the Megaformer for studios and serious home trainers. It is sold direct by The Core Collab through its US store rather than through a Lagree dealer, and the brand says there is no ongoing licensing fee to use it in a studio."
+    pointsHeading="Key product features"
+    points={[
+      "Eight-spring system (2 × 5 lb, 2 × 11 lb, 2 × 26 lb, 2 × 88 lb), according to the brand",
+      "10-year frame warranty and 2-year warranty on moving parts, according to the brand",
+      "Sold direct from the manufacturer, with an in-house 10-month payment plan",
+      "Designed for the slow, time-under-tension training style covered in this guide",
+    ]}
+    ctaLabel="Visit The Core Collab →"
+    ctaHref="https://thecorecollabusa.com/products/sculptformer?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=best-megaformer-machine"
+    sourceNote="Details from The Core Collab's product pages."
+  />
+);
+
 export default function BestMegaformerMachinePage() {
   return (
     <>
@@ -155,6 +184,9 @@ export default function BestMegaformerMachinePage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
+            {/* Partner placement */}
+            <div className="mb-12 mt-4">{PARTNER_ENTRY}</div>
+
             <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Price note</p>
               <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Megaformer prices fluctuate and are not always published online. The figures here reflect 2026 launch and reference pricing from manufacturer sites. Contact Lagree Fitness directly for current Megaformer pricing before purchasing. The Micro&apos;s $990.00 price is from its live Amazon listing, sold by Lagree Fitness.</p>
@@ -164,8 +196,18 @@ export default function BestMegaformerMachinePage() {
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks: At a Glance</p>
               </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+              <div className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ backgroundColor: "#f6f8f5" }}>
+                <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#536257", fontFamily: "'Playfair Display', serif" }}>✦</span>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>The Core Collab Sculptformer <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
+                  <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>$8,499 · Lagree-style machine, positioned as a Megaformer alternative</p>
+                </div>
+                <a href="https://thecorecollabusa.com/products/sculptformer?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=best-megaformer-machine" target="_blank" rel="noopener noreferrer sponsored"
+                  style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#536257", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                >Shop Now →</a>
+              </div>
+              {PRODUCTS.map((p) => (
+                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
                   <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
