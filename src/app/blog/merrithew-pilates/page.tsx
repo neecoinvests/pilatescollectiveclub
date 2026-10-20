@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Merrithew Pilates (2026): At Home SPX vs V2 Max Reviewed",
-  description: "Merrithew (STOTT PILATES) equipment reviewed — the real Amazon-sold At Home SPX and Rehab V2 Max Plus reformers, judged on spring quality, build durability, and home versus studio use.",
+  description: "Merrithew (STOTT PILATES) reviewed: the Amazon-sold At Home SPX and Rehab V2 Max Plus reformers, judged on springs, build and home vs studio use.",
   keywords: ["merrithew pilates review", "stott pilates equipment review 2026", "merrithew spx reformer review", "merrithew v2 max review", "merrithew vs balanced body", "best merrithew reformer", "merrithew halo training system", "merrithew pilates buy"],
   openGraph: {
     title: "Merrithew for Pilates (2026): STOTT Equipment & Honest Review",

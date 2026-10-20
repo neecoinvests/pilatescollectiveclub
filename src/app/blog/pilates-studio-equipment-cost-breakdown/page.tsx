@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Studio Equipment Cost Breakdown (2026): 3 Budgets",
@@ -149,10 +149,13 @@ function BudgetTable({ rows, total, note }: { rows: { item: string; qty: string;
 
 const QP_NOTES = ["Rings, bands and balls in one studio kit", "Low-cost apparatus that carries a lot of teaching", "Adds cardio classes to existing reformers", "Wear items every studio budget should include", "A level, protective floor under apparatus", "Vinyl-safe cleaner that protects upholstery"];
 
+const ITEM_LIST = productItemList("Quick picks: Pilates Studio Equipment Cost Breakdown (2026): 3 Budgets", (PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function PilatesStudioEquipmentCostBreakdownPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

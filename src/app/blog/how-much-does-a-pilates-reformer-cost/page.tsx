@@ -8,11 +8,11 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How Much Does a Pilates Reformer Cost? (2026 Price Guide)",
-  description: "How much does a Pilates reformer cost in 2026? Budget cord ($350–$1.3K), budget spring ($296–$750), entry spring ($2.3K–$3.7K), and professional/clinical ($4.5K–$8K+) machines compared by price tier.",
+  description: "How much does a Pilates reformer cost in 2026? Price tiers from $296 budget spring machines to $8,000+ professional and clinical reformers, compared.",
   keywords: ["how much does a pilates reformer cost", "pilates reformer price", "pilates reformer cost 2026", "how much is a pilates reformer", "pilates reformer price range", "cheap pilates reformer cost", "studio pilates reformer price", "pilates reformer budget", "pilates reformer investment", "cost of pilates reformer"],
   openGraph: {
     title: "How Much Does a Pilates Reformer Cost? (2026 Price Guide)",
@@ -183,10 +183,13 @@ const QUICK_PICKS = [
   { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", price: "$24.99", url: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20", note: "Ring, ball and bands in one kit" },
 ];
 
+const ITEM_LIST = productItemList("Quick picks: How Much Does a Pilates Reformer Cost? (2026 Price Guide)", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function HowMuchDoesAPilatesReformerCostPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
 

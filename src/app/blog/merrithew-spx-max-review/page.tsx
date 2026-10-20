@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Merrithew At Home SPX Review (2026): Worth $3,349?",
-  description: "Merrithew's At Home SPX Reformer Package reviewed at $3,349 — the real Amazon-sold SPX machine, since a standalone 'SPX Max' is not actually sold there. Spring feel, what's included, and how it compares to Balanced Body.",
+  description: "Merrithew At Home SPX Reformer Package review at $3,349, the SPX sold on Amazon (no standalone SPX Max is listed). Springs, what's included, vs Balanced Body.",
   keywords: ["merrithew at home spx review", "merrithew spx reformer 2026", "stott pilates spx review", "merrithew spx price", "merrithew spx vs balanced body", "best home reformer merrithew spx", "is merrithew at home spx worth it", "stott spx reformer comparison"],
   openGraph: {
     title: "Merrithew At Home SPX Review (2026): Honestly Assessed",

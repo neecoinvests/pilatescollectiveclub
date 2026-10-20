@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Interval Timer for Lagree & Pilates (2026): Top Picks",
-  description: "The best interval timers and gym clocks for Lagree Fitness and Pilates studios — GymNext Flex, BTB Multi-Sport, Rogue Echo Timer, and more. Loud buzzers, large displays, and app-free setup compared.",
+  description: "The best interval timers and gym clocks for Lagree and Pilates: GymNext Flex, Rogue Echo and more, compared for loud buzzers, big displays and easy setup.",
   keywords: [
     "best interval timer for lagree",
     "gym interval timer",
@@ -170,9 +170,6 @@ export default function BestIntervalTimerForLagreePage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 6 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="p-4 rounded-xl mb-8 text-sm" style={{ backgroundColor: "#f0ebe8", color: "#7a6358" }}>
-              <strong>Affiliate disclosure:</strong> We may earn a commission on purchases made through links on this page, at no extra cost to you. We only recommend products we have researched thoroughly.
-            </div>
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
               Lagree Fitness lives and dies by the clock. The 90-second hold, the 10-second transition, the moment the buzzer fires and the class shifts position — these are the heartbeats of every class. A reliable timer lets instructors cue freely without glancing at a phone, and lets clients self-manage their own tempo. Here are five timers that deliver, from a $17.99 budget stopwatch to a magnet-mount, remote-controlled clock built for the studio floor.

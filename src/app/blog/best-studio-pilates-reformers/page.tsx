@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Studio Pilates Reformers (2026): Commercial Grade Guide",
-  description: "The best studio-grade Pilates reformers available on Amazon — Align-Pilates C8-PRO, Balanced Body Metro IQ, Studio Reformer and Studio Reformer with Tower, and PersonalHour reviewed with verified specs and prices.",
+  description: "The best studio-grade Pilates reformers on Amazon: Align-Pilates C8-PRO, Balanced Body Metro IQ and Studio Reformer, and PersonalHour, with specs and prices.",
   openGraph: {
     title: "Best Studio-Grade Pilates Reformers (2026): Align, Balanced Body & More",
     description: "Five studio-grade reformers, all sold on Amazon, that serious home practitioners and studio owners often overlook — with verified specs and honest trade-offs.",

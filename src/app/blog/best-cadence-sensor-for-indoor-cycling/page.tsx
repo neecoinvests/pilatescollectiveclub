@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Cadence Sensor for Indoor Cycling & Spin (2026)",
-  description: "The best cadence sensors for indoor cycling — CooSpo, CYCPLUS, Magene, GEOID, and iGPSPORT compared for accuracy, connectivity, and compatibility with Zwift, Peloton app, and non-connected bikes.",
+  description: "The best cadence sensors for indoor cycling: CooSpo, CYCPLUS, Magene and more compared for accuracy, connectivity and Zwift and Peloton app compatibility.",
   keywords: ["best cadence sensor indoor cycling", "bike cadence sensor 2026", "coospo cadence sensor review", "cycplus cadence sensor", "rpm sensor spin bike", "cadence sensor for zwift", "best rpm meter spin class", "cadence meter indoor bike"],
   openGraph: {
     title: "Best Cadence Sensor for Indoor Cycling & Spin (2026)",
@@ -190,7 +190,7 @@ export default function BestCadenceSensorPage() {
                             <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
                             <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                           </div>
-                          <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                          <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                           >Search →</a>
                         </div>

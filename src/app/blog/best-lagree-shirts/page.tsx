@@ -15,7 +15,7 @@ const PAGE_URL = "https://pilatescollectiveclub.com/blog/best-lagree-shirts";
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png";
 const TITLE = "Lagree Shirts & Hoodies (2026): Fitted Tees & Fan Merch";
 const DESCRIPTION =
-  "The best Lagree shirts: fitted tees that stay put on the Megaformer, plus the 'I Love Lagree' and 'Lagree Superstar' tees and hoodies on Amazon — with what's official and what isn't.";
+  "The best Lagree shirts: fitted tees that stay put on the Megaformer, plus the 'I Love Lagree' tees and hoodies on Amazon, and which ones are official.";
 
 export const metadata: Metadata = {
   title: TITLE,

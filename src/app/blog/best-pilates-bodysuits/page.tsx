@@ -11,7 +11,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Bodysuits (2026): 9 Picks for the Reformer",
+  title: "Best Pilates Bodysuits (2026): 6 Picks for the Reformer",
   description: "Nine Pilates bodysuits compared on stretch recovery, opacity and coverage through inversions — from buttery-soft picks to the best value option.",
   keywords: ["best pilates bodysuits", "pilates bodysuit 2026", "best bodysuit for reformer pilates", "alo yoga bodysuit pilates", "lululemon bodysuit pilates", "pilates activewear bodysuit review", "best workout bodysuit pilates"],
   openGraph: {

@@ -11,8 +11,8 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Barrel (2026): 4 Real Barrels, Pro to Budget",
-  description: "The best Pilates barrels of 2026 — Balanced Body's professional Arc and Ladder Barrel, plus real budget-tier alternatives from PAETA and GDMSTIH, compared for home and studio use, build quality, and spinal mobility benefits.",
+  title: "Best Pilates Barrel (2026): 6 Barrels, Pro to Budget",
+  description: "The best Pilates barrels: Balanced Body's Arc and Ladder Barrel plus budget options from PAETA and GDMSTIH, compared for build, home use and spinal mobility.",
   keywords: ["best pilates barrel", "pilates spine corrector review 2026", "pilates arc barrel", "ladder barrel pilates", "pilates barrel for home use", "best pilates barrel buy", "budget pilates ladder barrel", "pilates barrel exercises"],
   openGraph: {
     title: "Best Pilates Barrel (2026): Arc, Spine Corrector & Ladder Barrel",

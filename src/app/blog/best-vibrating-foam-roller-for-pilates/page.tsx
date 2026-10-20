@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Vibrating Foam Roller for Pilates (2026): Ranked",
-  description: "The best vibrating foam rollers for Pilates — TriggerPoint, Therabody WaveRoller, LTHTRADE, Kucttiu, and PURSONIC compared for thoracic mobility, hip flexor release, and Pilates-specific recovery.",
+  description: "The best vibrating foam rollers for Pilates: TriggerPoint, Therabody WaveRoller and more compared for thoracic mobility, hip flexor release and recovery.",
   keywords: ["best vibrating foam roller pilates", "hyperice vyper 3 pilates", "therabody wave roller pilates", "vibrating foam roller 2026", "pilates foam roller recovery", "electric foam roller pilates", "best vibration roller for back", "pilates thoracic mobility roller"],
   openGraph: {
     title: "Best Vibrating Foam Roller for Pilates (2026)",

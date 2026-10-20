@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Indoor Spin Bike for Home Studios (2026)",
-  description: "The best indoor spin bikes for building a home cycling studio — Peloton, Schwinn IC4, NordicTrack, and budget picks compared for resistance, ride feel, and connected apps.",
+  description: "The best indoor spin bikes for a home cycling studio: Peloton, Schwinn IC4, NordicTrack and budget picks compared for resistance, ride feel and apps.",
   keywords: ["best indoor spin bike", "spin bike for home studio 2026", "peloton bike review", "schwinn ic4 review", "nordictrack spin bike", "best indoor cycling bike home", "spin bike vs peloton", "indoor cycling bike buying guide"],
   openGraph: {
     title: "Best Indoor Spin Bike for Home Studios (2026)",
@@ -200,7 +200,7 @@ export default function BestIndoorSpinBikePage() {
                             <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
                             <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                           </div>
-                          <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                          <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                           >Search →</a>
                         </div>

@@ -428,7 +428,7 @@ export default function LagreeMicroVsMegaformerPage() {
               </ul>
               <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
                 The best fix for the missing instructor is{" "}
-                <a href={LAGREE_OD} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>Lagree On Demand</a>, which the Micro&apos;s listing recommends for virtual classes. To learn the moves by name first, read{" "}
+                <a href={LAGREE_OD} target="_blank" rel={/amazon\./i.test(LAGREE_OD) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>Lagree On Demand</a>, which the Micro&apos;s listing recommends for virtual classes. To learn the moves by name first, read{" "}
                 <Link href="/blog/lagree-exercises" style={inlineLinkStyle}>Lagree exercises explained</Link>.
               </p>
             </div>
@@ -533,7 +533,7 @@ export default function LagreeMicroVsMegaformerPage() {
               </div>
               <p className="text-sm leading-relaxed mt-8" style={bodyStyle}>
                 Brand site:{" "}
-                <a href={LAGREE_DIRECT} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>lagreefitness.com</a>.
+                <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>.
               </p>
             </div>
           </div>

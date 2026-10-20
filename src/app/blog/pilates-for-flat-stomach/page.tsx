@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for a Flat Stomach (2026): What Actually Works",
@@ -118,10 +118,13 @@ const QUICK_PICKS = [
   { name: "Sportneer Adjustable Ankle Weights (2-10 lb)", price: "$29.77", url: "https://www.amazon.com/dp/B07F25L7QK?tag=pilatescollective-20", note: "Adds load to leg and core series" },
 ];
 
+const ITEM_LIST = productItemList("Quick picks: Pilates for a Flat Stomach (2026): What Actually Works", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function PilatesForFlatStomachPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero

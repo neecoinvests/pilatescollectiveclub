@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in San Diego, CA (2026)",
-  description: "The best Pilates studios in San Diego — reformer studios in Hillcrest, University Heights, La Jolla, North Park, Carmel Valley and Encinitas. Six verified picks, 2026.",
+  description: "The best Pilates studios in San Diego: reformer studios in Hillcrest, La Jolla, North Park, Carmel Valley, Encinitas and more. Six verified picks for 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   keywords: ["pilates san diego", "reformer pilates san diego", "best pilates studios san diego ca", "pilates studio san diego", "pilates classes san diego", "la jolla pilates", "encinitas pilates", "pilates california", "best reformer pilates san diego", "pilates mission hills san diego"],
   openGraph: {

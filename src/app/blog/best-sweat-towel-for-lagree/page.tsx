@@ -186,9 +186,6 @@ export default function BestSweatTowelForLagreePage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="p-4 rounded-xl mb-8 text-sm" style={{ backgroundColor: "#f0ebe8", color: "#7a6358" }}>
-              <strong>Affiliate disclosure:</strong> Product links on this page go to Amazon, and we may earn a commission on qualifying purchases at no extra cost to you. Listings and prices were checked on Amazon on October 2, 2026 and can change. Our picks are based on the listing details and on how each towel suits Lagree.
-            </div>
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#5c4a3d" }}>
               Lagree generates more sweat per class than almost any other studio format. The tempo is slow, the sets are long and the muscles never really get a break, so instead of a burst of sweat at the end you get a steady build that has soaked your hands, face and the carriage by the halfway point. A towel is not an afterthought in this method; it is part of the kit.

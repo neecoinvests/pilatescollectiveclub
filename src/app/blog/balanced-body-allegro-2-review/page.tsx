@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Balanced Body Studio Reformer Review (2026): Worth $4,700?",
-  description: "Balanced Body Studio Reformer reviewed in full — the real flagship Balanced Body reformer sold on Amazon, since the 'Allegro 2' is not a live listing. Carriage, springs, and value compared to Merrithew.",
+  description: "Balanced Body Studio Reformer review: the flagship Balanced Body reformer on Amazon (the Allegro 2 isn't listed). Carriage, springs and value vs Merrithew.",
   keywords: ["balanced body studio reformer review", "balanced body reformer review 2026", "balanced body allegro 2 review", "studio reformer vs merrithew spx", "balanced body studio reformer price", "best balanced body reformer on amazon", "balanced body reformer buy"],
   openGraph: {
     title: "Balanced Body Studio Reformer Review (2026): Honestly Assessed",

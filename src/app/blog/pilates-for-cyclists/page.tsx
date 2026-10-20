@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Cyclists (2026): Power, Posture & Recovery",
-  description: "How Pilates benefits cyclists — core stability on the bike, hip flexor and IT band relief, spinal extension for aggressive positions, and the best exercises to add to your training.",
+  description: "How Pilates helps cyclists: core stability on the bike, hip flexor and IT band relief, spinal extension for aggressive positions and the best exercises.",
   keywords: ["pilates for cyclists", "pilates cycling benefits", "pilates for road cycling", "pilates for mountain biking", "pilates hip flexor cyclists", "pilates core stability cycling", "cycling pilates exercises", "pilates for bike fit"],
   openGraph: {
     title: "Pilates for Cyclists: Power, Posture & Recovery",

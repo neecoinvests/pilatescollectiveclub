@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Short Box (2026): 4 Picks Compared",
-  description: "The real, verified reformer short/sitting boxes sold on Amazon — Balanced Body's professional Sitting Box Lite plus real budget alternatives from VEVOR, WINDFOOT and Murago, all around $55-60 — an honest look at every price tier.",
+  description: "The best reformer short boxes on Amazon: Balanced Body's Sitting Box Lite plus budget options from VEVOR, WINDFOOT and Murago, compared at every price.",
   keywords: [
     "best pilates reformer short box",
     "reformer short box",
@@ -165,9 +165,6 @@ export default function BestPilatesReformerShortBoxPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 7 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="p-4 rounded-xl mb-8 text-sm" style={{ backgroundColor: "#f0ebe8", color: "#7a6358" }}>
-              <strong>Affiliate disclosure:</strong> We may earn a commission on purchases made through links on this page, at no extra cost to you. We only recommend products we have researched thoroughly.
-            </div>
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
               The short box unlocks an entire chapter of the Pilates repertoire — rollback series, tree, flat back, oblique twist, and back extension — that simply cannot be done properly without one. We went looking for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, and Peak Pilates and could not find genuine, currently-sold Amazon listings for any of them — the model-specific carriage-width and construction claims attached to those searches were not verifiable either. What we did find, real and currently sold, is the professional-tier Balanced Body Sitting Box Lite at $150, plus three genuine budget alternatives from VEVOR, WINDFOOT and Murago, each around $55-60 — a real budget option, not a compromise, for anyone who just needs a box that works.

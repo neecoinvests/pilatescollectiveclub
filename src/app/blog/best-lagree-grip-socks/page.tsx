@@ -202,7 +202,6 @@ export default function BestLagreeGripSocksPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Product links on this page go to Amazon. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you. Listings and prices were verified on Amazon on October 2, 2026 and may change.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree socks are not a special product — they are grip socks — but Lagree asks more of them than almost any other class. You hold slow lunges and planks for long sets on a carriage that moves under you, you sweat heavily, and you kneel, step and transition between platforms all class. Below are nine verified pairs covering every style that works: full-toe, closed-toe, toeless, men&apos;s and budget multi-packs.

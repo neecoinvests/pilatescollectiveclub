@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Bike Computer for Indoor Cycling & Spin (2026)",
-  description: "The best GPS bike computers for indoor spin training — touchscreen, ANT+/Bluetooth, and budget units compared for speed, cadence, heart rate display, and battery life.",
+  description: "The best bike computers for indoor spin training: touchscreen, ANT+/Bluetooth and budget units compared for speed, cadence, heart rate and battery life.",
   keywords: ["best bike computer indoor cycling", "GPS bike computer touchscreen", "budget bike computer 2026", "bike computer for spin bike", "cycling head unit for home training", "ANT+ Bluetooth bike computer", "indoor cycling display unit"],
   openGraph: {
     title: "Best Bike Computer for Indoor Cycling & Spin (2026)",
@@ -189,7 +189,7 @@ export default function BestBikeComputerPage() {
                             <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
                             <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                           </div>
-                          <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                          <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                           >Buy →</a>
                         </div>

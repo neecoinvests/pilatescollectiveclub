@@ -11,7 +11,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best High-Waist Pilates Leggings (2026)",
-  description: "The best high-waist leggings for Pilates — compared on waistband hold, squat-proof fabric, and reformer performance. Lululemon Align, Alo Airbrush, CRZ YOGA, and more.",
+  description: "The best high-waist leggings for Pilates, compared on waistband hold, squat-proof fabric and reformer performance: Lululemon Align, CRZ YOGA and more.",
   keywords: [
     "best high waist pilates leggings",
     "high waist leggings pilates",
@@ -189,7 +189,7 @@ export default function BestHighWaistPilatesLeggingsPage() {
                   </div>
                   <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
                   <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
+                  <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
                     Shop on Amazon
                   </a>
                 </div>

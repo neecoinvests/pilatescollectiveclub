@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Lisbon (2026)",
     description: "Six curated Pilates studios in Lisbon — Príncipe Real, Amoreiras and Saldanha reformer picks. Verified October 2026.",
+    type: "article",
     url: "https://pilatescollectiveclub.com/cities/lisbon",
     images: [{ url: "https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?w=1200&q=80", width: 1200, height: 630, alt: "Lisbon city guide — Pilates Collective Club" }],
   },

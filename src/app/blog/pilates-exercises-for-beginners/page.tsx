@@ -7,10 +7,10 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates Exercises for Beginners (2026): 15 Moves to Start",
+  title: "Pilates Exercises for Beginners (2026): 10 Moves to Start",
   description: "15 foundational Pilates exercises for beginners — reformer and mat moves explained with modifications, spring settings, and progression tips for new practitioners.",
   openGraph: {
     title: "10 Pilates Exercises for Beginners: The Essential Foundation",
@@ -192,10 +192,13 @@ const QUICK_PICKS = [
   { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Grip socks for your first studio class" },
 ];
 
+const ITEM_LIST = productItemList("Quick picks: Pilates Exercises for Beginners (2026): 10 Moves to Start", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function PilatesExercisesForBeginnersPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero

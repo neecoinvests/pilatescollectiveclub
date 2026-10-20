@@ -8,6 +8,7 @@ import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -113,7 +114,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "How do I stay motivated to practice Pilates regularly?",
-      "acceptedAnswer": { "@type": "Answer", "text": "The most reliable strategies: book classes in advance, find a studio or community you enjoy, track your progress, and vary the format \u2014 mixing reformer and mat, group and private sessions. Motivation follows results." }
+      "acceptedAnswer": { "@type": "Answer", "text": "The most reliable strategies: book classes in advance, find a studio or community you enjoy, track your progress, and vary the format, mixing reformer and mat, group and private sessions. Motivation follows results." }
     },
     {
       "@type": "Question",
@@ -135,6 +136,8 @@ const PRODUCTS = [
 const QP_NOTES = ["A mat that makes home practice easy to start", "Meaningful home sessions in 15 to 20 minutes", "A 10-minute spinal opening any time", "Track sessions to stay consistent", "Compact and quick to pick up at home"];
 
 const ITEM_LIST = productItemList("How to Build a Consistent Pilates Practice (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
+const FAQS = faqsFromJsonLd(jsonLd);
 
 export default function ConsistentPracticePage() {
   return (
@@ -199,6 +202,7 @@ export default function ConsistentPracticePage() {
             </article>
 
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

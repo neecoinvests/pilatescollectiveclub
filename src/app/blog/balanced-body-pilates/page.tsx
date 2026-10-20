@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Balanced Body Pilates (2026): Props to $4,700 Reformers",
-  description: "Balanced Body reviewed across the real, verified Amazon range — from a $189.99 Pilates Arc to the $4,700 Studio Reformer — since the 'Allegro 2' is not a live listing. Which pieces are worth it and which to skip.",
+  description: "Balanced Body reviewed across its Amazon range, from the $189.99 Pilates Arc to the $4,700 Studio Reformer. Which pieces are worth it and which to skip.",
   keywords: ["balanced body pilates review", "balanced body reformer", "balanced body pilates equipment", "balanced body vs gratz", "balanced body vs merrithew", "balanced body studio reformer", "balanced body pilates 2026"],
   openGraph: {
     title: "Balanced Body for Pilates (2026): Equipment Review & Guide",

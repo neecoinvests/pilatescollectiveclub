@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -83,17 +84,17 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "What is the main difference between Pilates and yoga?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Pilates focuses on spinal alignment, core stability, and controlled precision movement \u2014 often using spring-resistance apparatus. Yoga combines movement, breathwork, and philosophy. Pilates tends to be more exercise-science informed; yoga carries spiritual and meditative dimensions." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates focuses on spinal alignment, core stability, and controlled precision movement, often using spring-resistance apparatus. Yoga combines movement, breathwork, and philosophy. Pilates tends to be more exercise-science informed; yoga carries spiritual and meditative dimensions." }
     },
     {
       "@type": "Question",
       "name": "Is Pilates or yoga better for back pain?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Both have evidence for back pain relief, but Pilates has stronger research for lower back pain due to its emphasis on spinal articulation and core stabilisation. Yoga benefit depends on style \u2014 restorative yoga is gentler, dynamic vinyasa can aggravate certain conditions." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Both have evidence for back pain relief, but Pilates has stronger research for lower back pain due to its emphasis on spinal articulation and core stabilisation. Yoga benefit depends on style: restorative yoga is gentler, dynamic vinyasa can aggravate certain conditions." }
     },
     {
       "@type": "Question",
       "name": "Can I do both Pilates and yoga?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes \u2014 many practitioners do both. They complement each other well: Pilates builds the precision and core stability that makes yoga postures safer; yoga's flexibility and breath focus deepens Pilates practice." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, many practitioners do both. They complement each other well: Pilates builds the precision and core stability that makes yoga postures safer; yoga's flexibility and breath focus deepens Pilates practice." }
     },
     {
       "@type": "Question",
@@ -115,6 +116,8 @@ const PRODUCTS = [
 const QP_NOTES = ["Works equally well for Pilates and yoga", "Adds the spring-style resistance yoga lacks", "Cork blocks used in both disciplines", "A Pilates prop with no yoga equivalent", "Grip for studio floors in either class"];
 
 const ITEM_LIST = productItemList("Pilates vs Yoga (2026): Key Differences & How to Choose", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
+const FAQS = faqsFromJsonLd(jsonLd);
 
 export default function PilatesVsYogaPage() {
   return (
@@ -207,6 +210,7 @@ export default function PilatesVsYogaPage() {
 
             {/* Equipment */}
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>

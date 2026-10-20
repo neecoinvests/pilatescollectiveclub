@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How Often Should You Do Pilates? (2026 Expert Guide)",
@@ -109,10 +109,13 @@ const QUICK_PICKS = [
   { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Enough grip socks for several classes a week" },
 ];
 
+const ITEM_LIST = productItemList("Quick picks: How Often Should You Do Pilates? (2026 Expert Guide)", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function HowOftenShouldYouDoPilatesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero

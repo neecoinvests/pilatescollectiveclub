@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Diastasis Recti (2026): Safe Exercises",
-  description: "Pilates for diastasis recti — which exercises are safe, which to avoid, how to progress, and what equipment actually helps. Evidence-based guide for postpartum recovery.",
+  description: "Pilates for diastasis recti: which exercises are safe, which to avoid, how to progress and what equipment helps. An evidence-based postpartum guide.",
   keywords: ["pilates for diastasis recti", "diastasis recti pilates exercises", "safe pilates diastasis recti", "pilates postpartum diastasis recti", "diastasis recti exercise guide", "pilates ab separation recovery", "diastasis recti healing pilates", "reformer pilates diastasis recti"],
   openGraph: {
     title: "Pilates for Diastasis Recti: What Works & What to Avoid",

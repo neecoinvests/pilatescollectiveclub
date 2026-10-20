@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Massage Balls for Pilates (2026): 5 Picks Compared",
-  description: "The TriggerPoint GRID Ball, TriggerPoint MobiPoint, Kieba Lacrosse Balls, TriggerPoint MBX, and Coniflor Massage Ball are all live, currently-sold Amazon listings with verified prices. Here's how they compare for Pilates recovery work.",
+  description: "Five massage balls for Pilates recovery: TriggerPoint GRID Ball, MobiPoint and MBX, Kieba lacrosse balls and Coniflor, compared with live Amazon prices.",
   keywords: ["best massage ball pilates", "triggerpoint grid ball", "triggerpoint mobipoint", "kieba lacrosse balls", "trigger point ball pilates", "pilates myofascial release ball"],
   openGraph: {
     title: "Best Massage Balls for Pilates (2026): 5 Real Options Compared",

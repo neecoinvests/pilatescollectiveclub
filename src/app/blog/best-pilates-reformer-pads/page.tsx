@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Pads (2026): 4 Real Amazon Accessories",
-  description: "\"Reformer pads\" covers at least two product types: carriage/standing grip pads and shoulder-block covers. We found real, verified options in both categories from Eccentfit, Lconvicely, Plantzia and COSHNIBI, all confirmed live on Amazon.",
+  description: "The best Pilates reformer pads: carriage grip pads and shoulder-block covers from Eccentfit, Lconvicely, Plantzia and COSHNIBI, all live on Amazon.",
   keywords: [
     "best pilates reformer pads",
     "reformer shoulder block cover",
@@ -165,9 +165,6 @@ export default function BestPilatesReformerPadsPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 7 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="p-4 rounded-xl mb-8 text-sm" style={{ backgroundColor: "#f0ebe8", color: "#7a6358" }}>
-              <strong>Affiliate disclosure:</strong> We may earn a commission on purchases made through links on this page, at no extra cost to you. We only recommend products we have researched thoroughly.
-            </div>
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
               The padding between your body and a reformer&apos;s metal frame matters more than most practitioners realise — until a shoulder rest pad compresses flat, or a carriage pad develops a permanent groove from repeated footwork sessions. &quot;Reformer pads&quot; is actually a term that covers at least two distinct product types, though: carriage/standing grip pads, and shoulder-block covers. We went looking for OEM replacement pads from Balanced Body, Merrithew, AeroPilates and Align Pilates and could not find genuine, currently-sold Amazon listings for any of them — the model-specific claims attached to those searches (exact foam density, memory-foam thickness, colourways) were not verifiable either. Below are the real, verified accessories we could confirm instead, in both categories, plus honest guidance on where to go for genuine OEM parts.

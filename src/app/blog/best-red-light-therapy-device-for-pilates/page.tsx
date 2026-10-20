@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Red Light Therapy Device for Pilates Recovery (2026)",
-  description: "The best handheld red light therapy devices for Pilates recovery — compared for muscle recovery, inflammation, and post-reformer use, from budget wands to clinical-grade options.",
+  description: "The best handheld red light therapy devices for Pilates recovery, compared for post-reformer use, from budget wands to clinical-grade options.",
   keywords: ["best red light therapy device pilates", "red light therapy pilates recovery", "handheld red light therapy wand", "infrared light therapy device pilates", "photobiomodulation pilates recovery", "red light therapy muscle recovery 2026", "best rlt device home use", "near infrared light therapy pilates"],
   openGraph: {
     title: "Best Red Light Therapy Device for Pilates Recovery (2026)",

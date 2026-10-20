@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -115,6 +116,8 @@ const PRODUCTS = [
 const QP_NOTES = ["Buy before you trial a new instructor", "For the home sessions your instructor suggests", "A reference for judging an instructor's grounding", "For the exercises your instructor prescribes", "Carries socks, mat, water and props"];
 
 const ITEM_LIST = productItemList("How to Choose a Pilates Instructor (2026): Red Flags", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
+const FAQS = faqsFromJsonLd(jsonLd);
 
 export default function HowToChoosePilatesInstructorPage() {
   return (
@@ -253,6 +256,7 @@ export default function HowToChoosePilatesInstructorPage() {
 
             {/* Equipment */}
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>

@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer for Beginners (2026): 6 Starter Picks",
-  description: "The best Pilates reformers for beginners — six real, verified Amazon listings from a $295.99 genuine-spring budget entry point through established-brand studio-grade machines.",
+  description: "The best Pilates reformers for beginners: six live Amazon listings, from a $295.99 spring-based starter machine to established-brand studio-grade models.",
   keywords: ["best pilates reformer for beginners", "pilates reformer beginner 2026", "easiest pilates reformer to use", "starter pilates reformer", "beginner home pilates reformer", "best first pilates reformer", "pilates reformer beginner guide", "budget spring reformer"],
   openGraph: {
     title: "Best Pilates Reformer for Beginners (2026): 6 Starter Picks",
@@ -237,7 +237,7 @@ export default function BestPilatesReformerForBeginnersPage() {
                       <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
                     </div>
                     <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                    <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                    <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                       style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                     >Buy →</a>
                   </div>

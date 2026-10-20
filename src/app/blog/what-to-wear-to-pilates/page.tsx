@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -179,6 +180,8 @@ const QP_NOTES = ["Best Leggings", "Best for Reformer", "Best Warm-Up Layer", "B
 
 const ITEM_LIST = productItemList("What to Wear to Pilates (2026): Complete Studio Outfit Guide", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
+const FAQS = faqsFromJsonLd(jsonLd);
+
 export default function WhatToWearToPilatesPage() {
   return (
     <>
@@ -308,6 +311,7 @@ export default function WhatToWearToPilatesPage() {
               </p>
             </div>
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Further reading */}
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>

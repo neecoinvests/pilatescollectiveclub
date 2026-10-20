@@ -11,7 +11,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Luxury Pilates Accessories (2026)",
-  description: "The finest small equipment for serious practitioners — STOTT PILATES Fitness Circle Pro, TriggerPoint GRID 2.0, Balanced Body Pilates Arc, Manduka cork block, THERABAND Professional bands and more, reviewed and ranked.",
+  description: "The best luxury Pilates accessories: STOTT PILATES Fitness Circle Pro, TriggerPoint GRID, Balanced Body Pilates Arc, Manduka cork block and more, ranked.",
   keywords: [
     "best luxury pilates accessories",
     "premium pilates props",
@@ -192,7 +192,7 @@ export default function BestLuxuryPilatesAccessoriesPage() {
                   </div>
                   <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
                   <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
+                  <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
                     Shop on Amazon
                   </a>
                 </div>

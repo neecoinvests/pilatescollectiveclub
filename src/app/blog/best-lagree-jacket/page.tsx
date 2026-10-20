@@ -15,7 +15,7 @@ const PAGE_URL = "https://pilatescollectiveclub.com/blog/best-lagree-jacket";
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-studio-entryway.png";
 const TITLE = "Lagree Jacket (2026): The Define Jacket & 6 Fitted Layers";
 const DESCRIPTION =
-  "The best jackets for Lagree class: the lululemon Define Jacket, a $48 Butterluxe alternative and fitted zip layers with thumbholes — for the cold studio and the sweaty walk home.";
+  "The best jackets for Lagree: the lululemon Define Jacket, a $48 Butterluxe alternative and fitted zip layers with thumbholes for the cold studio and walk home.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -330,7 +330,7 @@ export default function LagreeJacketPage() {
               <h2 className="text-2xl font-semibold mb-4" style={h2Style}>Is the Define Jacket worth four times the price?</h2>
               <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
                 <span className="font-semibold" style={strongStyle}>Pay for the Define</span> if you want the specific lululemon fit and fabric, will wear it daily outside the studio, and buy it at full size range from{" "}
-                <a href={LULULEMON} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>lululemon.com</a>.
+                <a href={LULULEMON} target="_blank" rel={/amazon\./i.test(LULULEMON) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lululemon.com</a>.
               </p>
               <p className="text-sm leading-relaxed" style={bodyStyle}>
                 <span className="font-semibold" style={strongStyle}>Buy the alternative</span> if it is mostly a studio layer. The CRZ YOGA Butterluxe Jacket ($48) shares the slim fit, thumbholes and zip pockets; the IUGA ($18.04) and 90 Degree ($39.99) add a sportier, more breathable finish. Spend the difference on{" "}

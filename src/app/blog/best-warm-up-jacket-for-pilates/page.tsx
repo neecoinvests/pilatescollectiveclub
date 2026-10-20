@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Warm-Up Jacket for Pilates (2026): Studio Layers Ranked",
-  description: "The best warm-up jackets for Pilates — Alo Accolade, Lululemon Define, Beyond Yoga, and more compared for studio transit, reformer warm-up, and post-session coverage.",
+  description: "The best warm-up jackets for Pilates: Alo Accolade, Lululemon Define, Beyond Yoga and more, compared for the trip to the studio and after class.",
   keywords: ["best warm up jacket pilates", "pilates warm up jacket 2026", "alo yoga define jacket pilates", "lululemon define jacket pilates", "beyond yoga jacket pilates", "studio layer jacket pilates", "pilates cover up jacket", "reformer pilates warm up layer"],
   openGraph: {
     title: "Best Warm-Up Jacket for Pilates (2026)",

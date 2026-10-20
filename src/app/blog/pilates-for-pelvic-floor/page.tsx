@@ -7,11 +7,11 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Pelvic Floor (2026): Exercises & Guidance",
-  description: "Pilates for pelvic floor health — the best reformer and mat exercises for pelvic floor strengthening, the connection to the deep core, and guidance for postpartum practitioners.",
+  description: "Pilates for pelvic floor health: the best reformer and mat exercises for pelvic floor strength, the link to the deep core and postpartum guidance.",
   openGraph: {
     title: "Pilates and the Pelvic Floor: What Actually Works",
     description: "The evidence on Pilates for pelvic floor health — which exercises help, which to avoid, and postpartum considerations.",
@@ -108,10 +108,13 @@ const QUICK_PICKS = [
   { name: "THERABAND Resistance Bands Set (Beginner Kit)", price: "$11.99", url: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20", note: "Light bands for hip and glute work" },
 ];
 
+const ITEM_LIST = productItemList("Quick picks: Pilates for Pelvic Floor (2026): Exercises & Guidance", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function PilatesForPelvicFloorPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero

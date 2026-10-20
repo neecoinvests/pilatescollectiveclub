@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Under $500 (2026): 3 Real Picks",
-  description: "Three genuine, currently-sold reformers under $500: two real spring-based carriage reformers from generic budget brands (WINDFOOT, DWKWE) and the AeroPilates 287 cord machine. Honest picks, honest tradeoffs.",
+  description: "Three reformers under $500: two spring-based carriage reformers (WINDFOOT, DWKWE) and the AeroPilates 287 cord machine, with honest trade-offs.",
   keywords: ["best pilates reformer under 500", "cheap pilates reformer 2026", "budget reformer pilates buy", "pilates reformer under 500 dollars", "affordable home reformer pilates", "best budget pilates reformer", "entry level pilates reformer review", "windfoot reformer review", "dwkwe reformer review"],
   openGraph: {
     title: "Best Pilates Reformer Under $500 (2026): 3 Real Picks",

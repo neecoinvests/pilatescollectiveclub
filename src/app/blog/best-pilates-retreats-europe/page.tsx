@@ -6,7 +6,8 @@ import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
-import { jsonLdHtml } from "@/lib/schema";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Retreats in Europe (2026): Top Picks by Country",
@@ -110,10 +111,15 @@ const QUICK_PICKS = [
   { name: "Gaiam Cargo Yoga Mat Bag", price: "$19.99", url: "https://www.amazon.com/dp/B079W416C6?tag=pilatescollective-20", note: "Full-zip carrier for travel" },
 ];
 
+const FAQS = faqsFromJsonLd(jsonLd);
+
+const ITEM_LIST = productItemList("Quick picks: Best Pilates Retreats in Europe (2026): Top Picks by Country", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function BestPilatesRetreatsEuropePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero
@@ -202,6 +208,7 @@ export default function BestPilatesRetreatsEuropePage() {
                 <p>Travel insurance that specifically covers retreat cancellations is worth purchasing, particularly for higher-priced programmes. Most retreats have strict cancellation policies — review them carefully before booking.</p>
                 <p>Pack light, neutral-coloured movement clothing. Reformer work requires grip socks — most retreats provide them, but confirm in advance. A good quality mat (3–5mm) is worth bringing if you&apos;re attached to one; retreat mats vary considerably in quality.</p>
               </Section>
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             </section>
           </div>
 

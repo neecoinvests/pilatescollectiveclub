@@ -373,7 +373,7 @@ export default function BestHomeReformerPage() {
               <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
                 If budget is genuinely no constraint, the Studio Reformer is the machine you will never need to replace. If you want a professional-brand spring reformer with Amazon delivery at a lower price, the Merrithew At Home SPX package is the one to buy. For regular practice on a smaller budget, the spring-based AeroPilates Pro XP 557 is a real step up from entry-level machines, and the AeroPilates 287 is the lowest-cost way to start.
               </p>
-              <a href="https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+              <a href="https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow sponsored" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
                 Shop Balanced Body Studio Reformer on Amazon →
               </a>
             </div>

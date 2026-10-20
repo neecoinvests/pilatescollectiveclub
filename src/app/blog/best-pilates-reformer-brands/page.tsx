@@ -504,7 +504,7 @@ export default function BestReformerBrandsPage() {
                           >{shopLabel}</a>
                         )}
                         {!brand.affiliateUrl && brand.altUrl && brand.directUrl && (
-                          <a href={brand.directUrl} target="_blank" rel="noopener noreferrer"
+                          <a href={brand.directUrl} target="_blank" rel={/amazon\./i.test(brand.directUrl) ? "noopener noreferrer sponsored" : "noopener noreferrer"}
                             style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#0a0a0a", textDecoration: "none", border: "1px solid #0a0a0a", padding: "13px 20px", textAlign: "center", marginTop: "10px" }}
                           >Shop {brand.name} Direct (not on Amazon) →</a>
                         )}

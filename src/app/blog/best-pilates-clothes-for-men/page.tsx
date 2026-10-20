@@ -98,6 +98,13 @@ const PRODUCTS = [
   },
 ];
 
+const FAQS = [
+  { q: "What should men wear to Pilates?", a: "Close-fitting shorts (7–9\" inseam) or compression tights, with a fitted top. Loose shorts and baggy T-shirts prevent your instructor from seeing your alignment — which defeats the purpose of a correction-based practice. The Rhone Pursuit Short and Under Armour HeatGear compression leggings are two good starting points at different price points." },
+  { q: "Can men wear shorts to Pilates?", a: "Yes — shorts are perfectly appropriate. A 7–9 inch inseam is ideal: long enough for coverage during hip flexor and footwork exercises, short enough for instructors to see knee and hip tracking. Avoid very short athletic shorts (under 5\") which create coverage problems, and basketball-length shorts (11\"+) which bunch on the reformer and hide alignment." },
+  { q: "Do men need grip socks for Pilates?", a: "Yes — grip socks are required or strongly recommended at most studios. The grippy sole prevents slipping on reformer footbars and mat surfaces during standing balance work. Standard athletic socks are too slippery. Toesox and Tavi Noir are the most studio-recommended brands for men." },
+  { q: "What is the difference between Lululemon and Vuori for Pilates?", a: "Both are excellent for Pilates. Lululemon's ABC Short has a more technical, performance-focused cut built around a gusseted, four-way stretch design. Vuori's Kore Short has a tailored fit and a cleaner, more muted aesthetic. Neither brand sells on Amazon, so we link directly to lululemon.com and vuoriclothing.com." },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -130,23 +137,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What should men wear to Pilates?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Men should wear close-fitting shorts or compression tights to Pilates — not loose shorts or tracksuit bottoms. Close-fitting clothing allows your instructor to see your alignment and corrects a major source of wasted feedback. The Rhone Pursuit Short or Under Armour HeatGear compression leggings are two good starting points." },
-        },
-        {
-          "@type": "Question",
-          "name": "Can men wear shorts to Pilates?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes — shorts are perfectly appropriate for Pilates. A 7–9 inch inseam works best: long enough that you are covered during hip and footwork, short enough that instructors can see your knee and hip alignment. Avoid very short athletic shorts (under 5\") and basketball-length shorts (over 11\") — both create practical problems on the reformer." },
-        },
-        {
-          "@type": "Question",
-          "name": "Do men wear leggings to Pilates?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes, and for serious practice, compression tights are often the better choice. They prevent the shifting and bunching that shorts experience on the reformer carriage, allow your instructor to see full leg alignment through the whole foot-to-hip chain, and provide proprioceptive feedback that helps with precision work. Under Armour HeatGear leggings are the best value option in our guide." },
-        },
-      ],
+      "mainEntity": FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
@@ -250,12 +241,7 @@ export default function BestPilatesClothesForMenPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Men&apos;s Pilates clothing — common questions</h2>
               <div className="space-y-4">
-                {[
-                  { q: "What should men wear to Pilates?", a: "Close-fitting shorts (7–9\" inseam) or compression tights, with a fitted top. Loose shorts and baggy T-shirts prevent your instructor from seeing your alignment — which defeats the purpose of a correction-based practice. The Rhone Pursuit Short and Under Armour HeatGear compression leggings are two good starting points at different price points." },
-                  { q: "Can men wear shorts to Pilates?", a: "Yes — shorts are perfectly appropriate. A 7–9 inch inseam is ideal: long enough for coverage during hip flexor and footwork exercises, short enough for instructors to see knee and hip tracking. Avoid very short athletic shorts (under 5\") which create coverage problems, and basketball-length shorts (11\"+) which bunch on the reformer and hide alignment." },
-                  { q: "Do men need grip socks for Pilates?", a: "Yes — grip socks are required or strongly recommended at most studios. The grippy sole prevents slipping on reformer footbars and mat surfaces during standing balance work. Standard athletic socks are too slippery. Toesox and Tavi Noir are the most studio-recommended brands for men." },
-                  { q: "What is the difference between Lululemon and Vuori for Pilates?", a: "Both are excellent for Pilates. Lululemon's ABC Short has a more technical, performance-focused cut built around a gusseted, four-way stretch design. Vuori's Kore Short has a tailored fit and a cleaner, more muted aesthetic. Neither brand sells on Amazon, so we link directly to lululemon.com and vuoriclothing.com." },
-                ].map((faq, i) => (
+                {FAQS.map((faq, i) => (
                   <div key={i} className="rounded-xl p-5" style={{ backgroundColor: "#fcf9f8", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{faq.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{faq.a}</p>

@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Arthritis (2026): Safe Exercises & What to Avoid",
-  description: "Pilates for arthritis — evidence-based benefits, which exercises are safest for OA and RA, modifications for joint pain, and the equipment that makes practice more comfortable.",
+  description: "Pilates for arthritis: the evidence on benefits, the safest exercises for OA and RA, modifications for joint pain and equipment that makes practice easier.",
   keywords: ["pilates for arthritis", "pilates osteoarthritis", "pilates rheumatoid arthritis", "pilates for joint pain", "gentle pilates for arthritis", "pilates for arthritis in knees", "pilates for arthritis in hands", "reformer pilates arthritis"],
   openGraph: {
     title: "Pilates for Arthritis: Benefits, Safe Exercises & Modifications",

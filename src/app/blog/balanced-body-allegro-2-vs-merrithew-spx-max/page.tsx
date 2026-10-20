@@ -13,7 +13,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Balanced Body vs Merrithew (2026): Studio vs At Home SPX",
-  description: "Balanced Body's Studio Reformer against Merrithew's At Home SPX Reformer Package — the two commercial-brand reformers actually sold on Amazon, compared on springs, frame, accessory ecosystem and price.",
+  description: "Balanced Body Studio Reformer vs Merrithew At Home SPX: the two big-brand reformers sold on Amazon, compared on springs, frame, accessories and price.",
   keywords: ["balanced body studio reformer vs merrithew at home spx", "balanced body vs merrithew reformer", "best home reformer comparison", "studio reformer review", "at home spx review", "which reformer to buy", "balanced body reformer price", "merrithew reformer price"],
   openGraph: {
     title: "Balanced Body Studio Reformer vs Merrithew At Home SPX (2026)",
@@ -176,7 +176,7 @@ export default function Allegro2VsSpxMaxPage() {
                     <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
                     <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                   </div>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                  <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                   >Buy &rarr;</a>
                 </div>

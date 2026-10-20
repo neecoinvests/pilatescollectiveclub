@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -97,12 +98,14 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "Can I do Pilates at home without equipment?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Mat Pilates requires only floor space and a mat. The core mat repertoire \u2014 hundreds, roll-up, single leg circles, rolling like a ball \u2014 requires no equipment and constitutes a full workout when performed with precision." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Mat Pilates requires only floor space and a mat. The core mat repertoire (hundreds, roll-up, single leg circles, rolling like a ball) requires no equipment and constitutes a full workout when performed with precision." }
     }
       ]
     },
   ],
 };
+const FAQS = faqsFromJsonLd(jsonLd);
+
 export default function BlogEquipmentPage() {
   return (
     <>
@@ -509,6 +512,7 @@ export default function BlogEquipmentPage() {
               </a>
             </section>
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Further reading */}
             <section>
               <h2

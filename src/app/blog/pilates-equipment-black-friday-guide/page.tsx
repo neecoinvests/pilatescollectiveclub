@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 import { BF_GUIDES } from "@/lib/blackFriday";
 
 export const metadata: Metadata = {
@@ -151,10 +151,13 @@ function BaselineTable({ rows }: { rows: { item: string; tier: string; price: st
 
 const QP_NOTES = ["Props are the category most worth buying on sale", "The most-used piece of equipment you own", "Adds cardio if you already own a reformer", "Replacement ropes, a useful buy in a sale", "Recovery gear that discounts reliably", "Grip socks required by most studios"];
 
+const ITEM_LIST = productItemList("Quick picks: Pilates Equipment Black Friday Guide (2026): Sale Picks", (PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function PilatesEquipmentBlackFridayGuidePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

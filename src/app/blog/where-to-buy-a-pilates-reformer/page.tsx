@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Where to Buy a Pilates Reformer (2026): Direct vs Dealer",
@@ -109,10 +109,13 @@ const PRODUCTS = [
 
 const QP_NOTES = ["Know replacement spring prices before you buy", "Replacement ropes, the other wear item", "Move a crated reformer safely at kerbside", "Measure doorways and stairs before you order", "Protects floors under the reformer's feet", "First clean for any previously owned machine"];
 
+const ITEM_LIST = productItemList("Quick picks: Where to Buy a Pilates Reformer (2026): Direct vs Dealer", (PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function WhereToBuyAPilatesReformerPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

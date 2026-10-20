@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Mini Pilates Reformer (2026): 6 Real Picks, Verified",
-  description: "The best compact Pilates reformers for home use — real, verified Amazon listings and prices only, from budget folding generic brands to an established-brand compact spring machine.",
+  description: "The best compact Pilates reformers for home use, from budget folding models to an established-brand compact spring machine. Live Amazon listings only.",
   openGraph: {
     title: "Best Mini Pilates Reformer (2026): 6 Real Picks, Verified",
     description: "Compact reformers reviewed against real, verified Amazon listings — what we could confirm, and what to check yourself.",

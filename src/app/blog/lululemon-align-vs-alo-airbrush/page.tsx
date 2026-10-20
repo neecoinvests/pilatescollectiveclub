@@ -776,7 +776,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
               <a
                 href="https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20"
                 target="_blank"
-                rel="noopener noreferrer nofollow"
+                rel="noopener noreferrer nofollow sponsored"
                 className="flex items-center justify-between px-6 py-4 rounded-xl transition-opacity hover:opacity-90"
                 style={{
                   backgroundColor: "#0a0a0a",

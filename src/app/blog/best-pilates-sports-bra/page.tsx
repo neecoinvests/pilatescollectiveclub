@@ -11,7 +11,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Sports Bras (2026): 8 Picks for Reformer",
+  title: "Best Pilates Sports Bras (2026): 5 Picks for Reformer",
   description: "Eight sports bras compared on Pilates — light to medium support judged on reformer coverage, strap stability and how the back feels lying down.",
   openGraph: {
     title: "Best Sports Bras for Pilates (2026): Coverage & Studio Style",

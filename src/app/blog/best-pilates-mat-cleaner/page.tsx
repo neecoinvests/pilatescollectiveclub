@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Mat Cleaner (2026): Sprays & Wipes",
-  description: "The best Pilates mat cleaners for rubber, PU, TPE, and natural rubber mats — Manduka All Purpose Cleaner, Gaiam, Branch Basics, and more. What actually cleans without degrading your mat.",
+  description: "The best Pilates mat cleaners for rubber, PU and TPE mats: Manduka, Gaiam, Branch Basics and more. What cleans well without damaging your mat.",
   keywords: [
     "best pilates mat cleaner",
     "yoga mat cleaner spray",
@@ -179,9 +179,6 @@ export default function BestPilatesMatCleanerPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 6 min read</p>
             <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
-            <div className="p-4 rounded-xl mb-8 text-sm" style={{ backgroundColor: "#f0ebe8", color: "#7a6358" }}>
-              <strong>Affiliate disclosure:</strong> We may earn a commission on purchases made through links on this page, at no extra cost to you. We only recommend products we have researched thoroughly.
-            </div>
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
               The wrong cleaner can destroy a $150 Pilates mat in months — essential oils degrade natural rubber, bleach breaks down PVC, and alcohol strips the grip surface from PU leather. The right cleaner extends mat life, keeps the surface hygienic, and doesn&apos;t leave a residue that makes you slip during downward dog or spine stretch. Here are six cleaners that actually work, matched to mat type and practice frequency.

@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Weight Loss (2026): Honest Expectations",
@@ -109,10 +109,13 @@ const QUICK_PICKS = [
   { name: "Etekcity Smart Scale", price: "$19.94", url: "https://www.amazon.com/dp/B095YJW56C?tag=pilatescollective-20", note: "Track weight and body fat at home" },
 ];
 
+const ITEM_LIST = productItemList("Quick picks: Pilates for Weight Loss (2026): Honest Expectations", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function PilatesForWeightLossPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero

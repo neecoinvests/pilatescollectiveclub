@@ -658,7 +658,7 @@ export default function PilatesPrincessEssentialsPage() {
                     <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={mutedStyle}>{p.price}</span>
-                  <a href={p.url} target="_blank" rel="noopener noreferrer nofollow"
+                  <a href={p.url} target="_blank" rel={/amazon\./i.test(p.url) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                   >Shop →</a>
                 </div>

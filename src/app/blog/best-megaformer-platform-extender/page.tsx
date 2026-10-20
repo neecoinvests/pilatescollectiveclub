@@ -10,7 +10,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Megaformer Platform Extender (2026): Boxes & Risers",
-  description: "The best platform extenders, risers, and jump boards for Megaformer and Pilates reformer machines — compared for taller practitioners, advanced positions, and compatibility.",
+  description: "The best platform extenders, risers and jump boards for Megaformer and Pilates reformers, compared for taller riders, advanced positions and fit.",
   keywords: ["megaformer platform extender", "reformer platform extender 2026", "lagree platform riser", "pilates reformer jump board", "reformer box extender", "megaformer accessories for tall practitioners", "reformer platform extension"],
   openGraph: {
     title: "Best Megaformer Platform Extender (2026)",
@@ -192,7 +192,7 @@ export default function BestPlatformExtenderPage() {
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
                   {p.affiliateUrl ? (
-                    <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                    <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                       style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                     >Buy →</a>
                   ) : (
@@ -220,7 +220,7 @@ export default function BestPlatformExtenderPage() {
                             <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                           </div>
                           {p.affiliateUrl ? (
-                            <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                            <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                               style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                             >Buy →</a>
                           ) : (

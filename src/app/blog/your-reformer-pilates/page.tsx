@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Your Reformer Review (2026): Honestly Assessed",
-  description: "Your Reformer reviewed — the Australian wood reformer with a built-in app, sold direct rather than on Amazon, plus two real budget-tier Amazon alternatives for buyers who want purchase-today hardware.",
+  description: "Your Reformer review: the Australian wood reformer with a built-in app, sold direct rather than on Amazon, plus two budget Amazon alternatives to buy today.",
   keywords: ["your reformer review", "your reformer pilates", "your reformer app", "connected pilates reformer", "your reformer original", "yr studio pilates", "best home pilates reformer app", "your reformer australia", "premium wood pilates reformer", "your reformer 2026", "budget pilates reformer amazon"],
   openGraph: {
     title: "Your Reformer Review (2026): Honestly Assessed",
@@ -35,7 +35,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Your Reformer The Original",
-    price: "Priced direct — confirm on yourreformer.com",
+    price: "Priced direct: confirm on yourreformer.com",
     verdict: "The brand's entry connected home reformer",
     description:
       "Worth knowing up front: Your Reformer is not sold on Amazon, so this section links directly to the brand's own site rather than an Amazon listing, and we could not independently verify the exact price or full spec sheet — confirm both on yourreformer.com before buying. Your Reformer's The Original is positioned as a spring-resistance machine with a wood-accented frame designed to read as furniture rather than gym equipment. The brand's own marketing describes an integrated app with on-demand and live classes, accessible through a tablet mount on the machine. We could not independently verify specific figures such as spring count, class-length ranges, or bearing type, so treat any precise spec quoted elsewhere as something to confirm directly with Your Reformer rather than an established fact.",
@@ -45,7 +45,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Your Reformer The Studio",
-    price: "Priced direct — confirm on yourreformer.com",
+    price: "Priced direct: confirm on yourreformer.com",
     verdict: "The brand's premium tier reformer",
     description:
       "The Studio is described by Your Reformer as its premium machine — an extended version of The Original aimed at taller practitioners and more advanced work. We could not independently verify the exact carriage length, footbar reach, or height range this model accommodates, so treat any specific figure (including a height cutoff) as a claim to confirm directly with Your Reformer rather than an established fact. The construction is described as consistent with The Original — wood and aluminium — at a larger specification and a higher price point that you should confirm on the brand's own site before ordering.",
@@ -55,7 +55,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "Your Reformer App Subscription",
-    price: "Priced direct — confirm on yourreformer.com",
+    price: "Priced direct: confirm on yourreformer.com",
     verdict: "The content ecosystem",
     description:
       "The YR app is the component of Your Reformer that most distinguishes the brand from conventional reformer manufacturers, at least according to the brand's own marketing. It is described as a library of reformer classes filmed for Your Reformer machines and structured into progressive programmes rather than standalone sessions. We could not independently verify the subscription price or the exact content library size — confirm current pricing directly on yourreformer.com. The subscription is described as optional; the hardware does not require connectivity to operate.",
@@ -65,7 +65,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Your Reformer Accessories",
-    price: "Priced direct — confirm on yourreformer.com",
+    price: "Priced direct: confirm on yourreformer.com",
     verdict: "Brand-specific add-ons",
     description:
       "Your Reformer sells reformer-specific accessories, including a box set that the brand describes as unlocking short box, long box, and kneeling series work. We could not independently verify current pricing or exactly what ships in any bundle, so confirm contents and cost directly on yourreformer.com before ordering. These are brand-specific accessories designed for Your Reformer machines rather than universal parts.",

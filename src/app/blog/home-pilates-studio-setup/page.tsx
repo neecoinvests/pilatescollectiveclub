@@ -7,7 +7,7 @@ import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How to Set Up a Home Pilates Studio (2026): Complete Guide",
@@ -195,10 +195,13 @@ const QUICK_PICKS = [
   { name: "Byrex Pilates Prop Kit (Ring, Ball, Bands & Sliders)", price: "$24.99", url: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20", note: "Small props in one kit" },
 ];
 
+const ITEM_LIST = productItemList("Quick picks: How to Set Up a Home Pilates Studio (2026): Complete Guide", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function HomePilatesStudioSetupPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
 

@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Hand Weights (2026): 5 Real Options Compared",
-  description: "The ProsourceFit Weighted Toning Exercise Ball line (2lb, 3lb, 5lb), the Yes4All Weighted Toning Ball, and the Philosophy Gym Toning Ball are all live, currently-sold Amazon listings. Here's how the five weights compare and which one to buy.",
+  description: "Five Pilates hand weights compared: the ProsourceFit toning ball line (2, 3 and 5 lb), Yes4All and Philosophy Gym, with live prices and which one to buy.",
   keywords: ["best pilates hand weights", "pilates toning balls", "prosourcefit weighted toning ball", "pilates wrist weights", "hand weights for pilates 2026"],
   openGraph: {
     title: "Best Pilates Hand Weights (2026): 5 Real Options Compared",

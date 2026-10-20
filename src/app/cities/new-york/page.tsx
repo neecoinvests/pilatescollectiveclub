@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in New York City (2026)",
-  description: "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Six curated picks across Manhattan, independently verified September 2026.",
+  description: "The best Pilates studios in New York City, from SoHo reformer boutiques to classical Tribeca studios. Six curated picks across Manhattan, verified for 2026.",
   robots: {
     index: true,
     follow: true,
@@ -207,7 +207,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in New York City (2026)",
-      "description": "The best Pilates studios in New York City — from SoHo reformer boutiques to classical Tribeca studios. Six curated picks across Manhattan, independently verified September 2026.",
+      "description": "The best Pilates studios in New York City, from SoHo reformer boutiques to classical Tribeca studios. Six curated picks across Manhattan, verified for 2026.",
       "url": "https://pilatescollectiveclub.com/cities/new-york",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",

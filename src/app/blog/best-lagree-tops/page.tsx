@@ -159,7 +159,6 @@ export default function BestLagreeTopsPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Every product link on this page goes to Amazon. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you. Listings and prices were verified on October 2, 2026 and can change.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The best Lagree top is the one you forget you are wearing. On the Megaformer that means fitted rather than loose: so much of the class happens in planks, inversions and kneeling work that a loose top spends the session sliding towards your chin, flipping over your head, or brushing the springs and handles. Add the heavy, continuous sweat of a slow-tempo class and the brief is clear — close to the body, sweat-wicking, and layered over a sports bra that does the support work. Below are four tops on Amazon that fit that brief, plus one relaxed tank and how to wear it.

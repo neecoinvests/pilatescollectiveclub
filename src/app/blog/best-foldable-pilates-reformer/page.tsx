@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Foldable Pilates Reformer (2026): 6 Verified Picks",
-  description: "Six genuine carriage-and-rail reformers that actually fold for storage, from a $295 budget generic-brand model to AeroPilates' established fold-flat line. Real, live Amazon listings and prices only.",
+  description: "Six carriage-and-rail reformers that fold for storage, from a $295 budget model to AeroPilates' fold-flat line. Live Amazon listings and prices only.",
   keywords: ["best foldable pilates reformer", "foldable pilates reformer 2026", "folding pilates reformer review", "pilates reformer small space", "compact folding reformer", "best portable pilates reformer", "aeropilates folding reformer", "budget folding reformer"],
   openGraph: {
     title: "Best Foldable Pilates Reformer (2026): 6 Real Picks, Verified",

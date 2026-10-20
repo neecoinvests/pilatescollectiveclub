@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Hong Kong (2026)",
     description: "Six curated Pilates studios in Hong Kong — Central, Wan Chai, and Causeway Bay reformer picks. Verified 2026.",
+    type: "article",
     url: "https://pilatescollectiveclub.com/cities/hong-kong",
     images: [{ url: "https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=1200&q=80", width: 1200, height: 630, alt: "Hong Kong city guide — Pilates Collective Club" }],
   },

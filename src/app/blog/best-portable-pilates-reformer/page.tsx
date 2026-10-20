@@ -11,7 +11,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Portable Pilates Reformer (2026): 6 Real Picks",
-  description: "The best portable and foldable Pilates reformers in 2026 — six real, verified Amazon listings from a $295.99 budget folding tier through professional-grade coil-spring machines.",
+  description: "The best portable and foldable Pilates reformers in 2026: six live Amazon listings, from a $295.99 folding machine to professional coil-spring models.",
   keywords: ["best portable pilates reformer", "foldable pilates reformer", "portable pilates reformer 2026", "compact pilates reformer home", "pilates reformer amazon", "travel pilates reformer", "best home pilates reformer portable", "lightweight pilates reformer", "pilates reformer small space", "aeropilates reformer", "budget folding reformer"],
   openGraph: {
     title: "Best Portable Pilates Reformer (2026): 6 Real Picks",

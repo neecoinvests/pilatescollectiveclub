@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Heart Rate Monitor for Pilates & Spin (2026)",
-  description: "The best heart rate monitor chest straps for Pilates, Lagree, and spin class — Polar, CooSpo, CYCPLUS and Powr Labs compared for accuracy, price, and compatibility with Peloton, Zwift, and Garmin.",
+  description: "The best heart rate monitor chest straps for Pilates, Lagree and spin: Polar, CooSpo and more compared for accuracy, price and Peloton and Zwift support.",
   keywords: ["best heart rate monitor 2026", "heart rate monitor for pilates", "heart rate monitor for spin class", "polar h10 review", "polar h9 review", "chest strap heart rate monitor", "best chest strap heart rate", "heart rate monitor peloton compatible"],
   openGraph: {
     title: "Best Heart Rate Monitor for Pilates & Spin (2026)",
@@ -190,7 +190,7 @@ export default function BestHeartRateMonitorPage() {
                             <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
                             <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                           </div>
-                          <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                          <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                           >Buy →</a>
                         </div>

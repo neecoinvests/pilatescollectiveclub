@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Melbourne (2026)",
     description: "Six curated Pilates studios in Melbourne — CBD, South Yarra, Fitzroy, Collingwood and Southbank picks. Verified 2026.",
+    type: "article",
     url: "https://pilatescollectiveclub.com/cities/melbourne",
     images: [{ url: "https://images.unsplash.com/photo-1514395462185-c2de918e8ab9?w=1200&q=80", width: 1200, height: 630, alt: "Melbourne city guide — Pilates Collective Club" }],
   },

@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Toronto (2026)",
     description: "Six curated Pilates studios in Toronto — Yorkville, Leslieville, and Rosedale reformer picks. Verified 2026.",
+    type: "article",
     url: "https://pilatescollectiveclub.com/cities/toronto",
     images: [{ url: "https://images.unsplash.com/photo-1517090186835-e348b621c9ca?w=1200&q=80", width: 1200, height: 630, alt: "Toronto city guide — Pilates Collective Club" }],
   },

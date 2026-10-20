@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Cycling Shoes for Spin Class (2026)",
-  description: "The best clip-in cycling shoes for indoor spin class — TIEM, Shimano, and budget-friendly Peloton and SPD compatible picks compared for value, compatibility, and comfort.",
+  description: "The best clip-in cycling shoes for spin class: TIEM, Shimano and budget Peloton and SPD-compatible picks compared for value, compatibility and comfort.",
   keywords: ["best cycling shoes for spin class", "spin shoes 2026", "peloton cycling shoes", "tiem cycling shoes review", "shimano spin shoes", "spd cycling shoes indoor", "clip in shoes spin class", "best indoor cycling shoes"],
   openGraph: {
     title: "Best Cycling Shoes for Spin Class (2026)",
@@ -190,7 +190,7 @@ export default function BestCyclingShoesPage() {
                             <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
                             <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                           </div>
-                          <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                          <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                           >View →</a>
                         </div>

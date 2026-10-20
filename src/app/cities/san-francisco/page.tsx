@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in San Francisco (2026)",
-  description: "The best Pilates studios in San Francisco — from Laurel Heights reformer and tower classes to classical studios in the Richmond, Castro and West Portal. Six verified picks, 2026.",
+  description: "The best Pilates studios in San Francisco, from Laurel Heights reformer and tower classes to classical studios in the Richmond and Castro. Six picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -248,7 +248,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in San Francisco (2026)",
-      "description": "The best Pilates studios in San Francisco — from Laurel Heights reformer and tower classes to classical studios in the Richmond, Castro and West Portal. Six verified picks, 2026.",
+      "description": "The best Pilates studios in San Francisco, from Laurel Heights reformer and tower classes to classical studios in the Richmond and Castro. Six picks, 2026.",
       "url": "https://pilatescollectiveclub.com/cities/san-francisco",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",

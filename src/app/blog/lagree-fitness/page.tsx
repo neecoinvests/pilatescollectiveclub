@@ -323,7 +323,7 @@ export default function LagreeFitnessPage() {
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Every Amazon listing below was checked as live on September 28, 2026, at the price shown. The Micro and the Micro Pulley Cables were low on stock at that time; if either is unavailable, buy direct from{" "}
-              <a href={LAGREE_DIRECT} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>lagreefitness.com</a>. Prices change, so the final price is whatever the retailer shows at checkout.
+              <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>. Prices change, so the final price is whatever the retailer shows at checkout.
             </p>
           </div>
         </section>
@@ -460,7 +460,7 @@ export default function LagreeFitnessPage() {
               <TierCard p={MICRO} />
               <p className="text-sm leading-relaxed mt-2 mb-4" style={bodyStyle}>
                 <span className="font-semibold" style={{ color: "#1b1c1c" }}>Limited stock:</span> the Micro was showing low stock on Amazon when we checked. If the listing is unavailable, the same machine is sold direct at{" "}
-                <a href={LAGREE_DIRECT} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>lagreefitness.com</a>.
+                <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>.
               </p>
               <p className="text-sm leading-relaxed" style={bodyStyle}>
                 An honest caveat: a machine at home does not come with an instructor. Lagree relies heavily on cueing (slower, lower, tuck), so the Micro makes most sense for people who already know the method from class. New to Lagree? Take a few studio classes first — our{" "}
@@ -491,7 +491,7 @@ export default function LagreeFitnessPage() {
                   </li>
                   <li className="text-sm leading-relaxed" style={bodyStyle}>
                     <span className="font-semibold" style={{ color: "#1b1c1c" }}>Pulley cables last.</span> Useful for cable work, but the listing gives no further detail and stock is limited. If Amazon is out, check{" "}
-                    <a href={LAGREE_DIRECT} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>lagreefitness.com</a>.
+                    <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>.
                   </li>
                 </ul>
               </div>

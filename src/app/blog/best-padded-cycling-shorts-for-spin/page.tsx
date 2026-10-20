@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Padded Cycling Shorts for Spin Class (2026)",
-  description: "The best padded cycling shorts for indoor spin class — chamois quality, compression fit, and breathability compared across women's and men's options for long studio sessions.",
+  description: "The best padded cycling shorts for spin class: chamois quality, compression fit and breathability compared across women's and men's options.",
   keywords: ["best padded cycling shorts", "spin class shorts 2026", "chamois padded shorts indoor cycling", "womens cycling shorts spin", "mens padded bike shorts", "best chamois for spin class", "compression cycling shorts review"],
   openGraph: {
     title: "Best Padded Cycling Shorts for Spin Class (2026)",
@@ -200,7 +200,7 @@ export default function BestPaddedCyclingShortsPage() {
                             <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
                             <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
                           </div>
-                          <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                          <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                             style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                           >Search →</a>
                         </div>

@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Premium Pilates Reformer (2026): On Amazon Now",
-  description: "The best premium Pilates reformers you can actually buy today — Balanced Body, Merrithew, Align-Pilates and PersonalHour reviewed for professional-grade spring systems, carriage glide, and longevity.",
+  description: "The best premium Pilates reformers you can buy today: Balanced Body, Merrithew, Align-Pilates and PersonalHour compared for springs, glide and longevity.",
   openGraph: {
     title: "Best Premium Pilates Reformers (2026): $2,350–$4,700",
     description: "Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX, Align-Pilates C8-PRO and PersonalHour — the definitive premium reformer guide for serious home practitioners.",
@@ -397,7 +397,7 @@ export default function BestPremiumReformerPage() {
               <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
                 If you are training seriously, training frequently, and want one machine that will serve the full classical and contemporary repertoire for the next twenty years, the Studio Reformer at $4,700 is the clearest answer in the premium category. The solid maple carriage, Revo footbar and springbar, and Balanced Body&apos;s huge accessory range are a combination no competitor matches at this price, and it&apos;s sold direct on Amazon. If budget matters more than brand, the Align-Pilates C8-PRO at $2,750 is the best value here — a genuine professional spring system for well under the price of the maple machines.
               </p>
-              <a href="https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+              <a href="https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
                 Shop Balanced Body Studio Reformer on Amazon →
               </a>
             </div>

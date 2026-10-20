@@ -237,7 +237,7 @@ export default function BestPilatesChairPage() {
                   <a
                     href={p.affiliateUrl}
                     target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                   >
                     Buy →

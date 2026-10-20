@@ -60,20 +60,20 @@ export default function AffiliateDisclosurePage() {
               Pilates Collective Club is a participant in the Amazon Services LLC Associates Programme, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com and its international variants (Amazon.co.uk, Amazon.de, Amazon.fr, etc.).
             </p>
             <p style={s.p}>
-              When you click a product link marked with <strong>Buy →</strong> on this site and make a qualifying purchase on Amazon, we may earn a small commission — typically 1–8% depending on the product category. This commission is paid by Amazon and does not increase the price you pay.
+              When you click a product link marked <strong>Shop Now →</strong> on this site and make a qualifying purchase on Amazon, we may earn a small commission, typically 1–8% depending on the product category. This commission is paid by Amazon and does not increase the price you pay.
             </p>
 
             <h2 style={s.h2}>How We Mark Affiliate Links</h2>
             <p style={s.p}>
-              All articles containing affiliate links carry the following notice at the top of the page:
+              Articles containing affiliate links carry a short notice where the product recommendations begin, like this one:
             </p>
             <div style={{ backgroundColor: "#f6f3f2", borderRadius: "12px", padding: "20px 24px", marginBottom: "16px" }}>
               <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#86736d", margin: 0, fontStyle: "italic" }}>
-                *Some links on this page go to Amazon. We earn a small commission on qualifying purchases.
+                Some links on this page go to Amazon. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you.
               </p>
             </div>
             <p style={s.p}>
-              Product links within articles (the <strong>Buy →</strong> buttons in product cards and comparison tables) are affiliate links. Internal links to other pages on this site, city guide links, and studio website links are not affiliate links.
+              Product links within articles (the <strong>Shop Now →</strong> buttons in product cards, Quick Picks and comparison tables) are affiliate links. Links marked <strong>Shop Direct →</strong> go to a brand&apos;s own website for products not sold on Amazon. Internal links to other pages on this site, city guide links, and studio website links are not affiliate links.
             </p>
 
             <h2 style={s.h2}>Our Editorial Independence</h2>

@@ -11,7 +11,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Luxury Pilates Leggings (2026)",
-  description: "The finest pilates leggings money can buy on Amazon — Wolford, Splits59, Varley, Sweaty Betty, Year of Ours and Beyond Yoga reviewed for fabric quality, precision fit, and investment-grade durability.",
+  description: "The best luxury Pilates leggings on Amazon: Wolford, Splits59, Varley, Sweaty Betty, Year of Ours and Beyond Yoga compared for fabric, fit and durability.",
   keywords: [
     "best luxury pilates leggings",
     "luxury pilates leggings 2026",
@@ -102,7 +102,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Luxury Pilates Leggings (2026)",
-      description: "The finest pilates leggings money can buy on Amazon — Wolford, Splits59, Varley, Sweaty Betty, Year of Ours and Beyond Yoga reviewed for fabric quality, precision fit, and investment-grade durability.",
+      description: "The best luxury Pilates leggings on Amazon: Wolford, Splits59, Varley, Sweaty Betty, Year of Ours and Beyond Yoga compared for fabric, fit and durability.",
       url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-leggings",
       datePublished: "2026-07-06",
       dateModified: "2026-10-20",
@@ -192,7 +192,7 @@ export default function BestLuxuryPilatesLeggingsPage() {
                   </div>
                   <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
                   <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
+                  <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
                     {p.affiliateUrl.includes("amazon.com") ? "Shop on Amazon" : "Shop Direct"}
                   </a>
                 </div>

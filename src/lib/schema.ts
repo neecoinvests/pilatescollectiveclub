@@ -94,7 +94,8 @@ export function productItemList(name: string, items: { name: string; description
           priceCurrency: "USD",
           price: p.price,
           url: p.url,
-          ...(p.inStock === false ? {} : { availability: "https://schema.org/InStock" }),
+          // inStock: false marks made-to-order listings (Amazon shows a lead time).
+          availability: p.inStock === false ? "https://schema.org/MadeToOrder" : "https://schema.org/InStock",
         },
       },
     })),

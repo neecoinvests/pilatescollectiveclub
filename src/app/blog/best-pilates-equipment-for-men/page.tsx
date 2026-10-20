@@ -89,6 +89,13 @@ const PRODUCTS = [
   },
 ];
 
+const FAQS = [
+  { q: "Is Pilates good for men?", a: "Yes — Pilates was originally developed by Joseph Pilates for men, and was first practised by boxers, soldiers, and male dancers. The method directly targets the physical patterns most men carry: tight hip flexors, anterior pelvic tilt, limited thoracic mobility, and under-developed stabilisers relative to prime movers. Many professional male athletes — including Premier League footballers, elite cyclists, and professional rugby players — use Pilates as primary cross-training." },
+  { q: "Do men need different Pilates equipment?", a: "No — the equipment is the same. But men use certain pieces more frequently and at higher loads. An extra-long mat matters because men are taller. An arc barrel matters because anterior pelvic tilt is more common in men. A heavier-resistance magic circle matters because men typically need more load to activate adductors meaningfully. The equipment list is the same; the emphasis differs." },
+  { q: "What is the best home Pilates reformer for men?", a: "The Align-Pilates C8 Pro is the best home reformer for men. It accommodates practitioners up to 6'2\", uses genuine calibrated springs, and folds flat without compromising the spring system. At $1,699 it is significantly less expensive than Balanced Body or Merrithew equivalents and is the most frequently recommended machine by instructors for male home practitioners." },
+  { q: "How long does Pilates take to work for men?", a: "Most men notice meaningful changes in posture and movement quality within 6–8 sessions. Hamstring flexibility and thoracic extension — the areas men most commonly lack — respond relatively quickly to regular Pilates practice because they are driven by motor pattern change rather than structural tissue change. Strength changes take 8–12 weeks of consistent practice." },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -121,23 +128,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What Pilates equipment do men need?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Men benefit most from a mat (Manduka PRO extra long), foam roller (OPTP 36\"), magic circle (Balanced Body), and resistance bands (TheraBand CLX). These four pieces address the specific areas most men present — restricted thoracic extension, weak inner thighs, and limited hip mobility. The arc barrel is the most impactful add-on for men with anterior pelvic tilt or desk posture. A home reformer (Align-Pilates C8 Pro) is the investment for men who want to practise the full Pilates method at home." },
-        },
-        {
-          "@type": "Question",
-          "name": "Is Pilates good for men?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes — Pilates was originally developed by a man (Joseph Pilates) for men, and was first practised primarily by male athletes, boxers, and dancers. The method addresses the specific physical patterns most men have: tight hip flexors, limited thoracic mobility, anterior pelvic tilt, and over-developed prime movers with under-developed stabilisers. Many elite male athletes — including professional footballers, rugby players, and cyclists — use Pilates as a primary cross-training method." },
-        },
-        {
-          "@type": "Question",
-          "name": "What is the best home Pilates reformer for men?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The Align-Pilates C8 Pro is the best home reformer for men. It accommodates practitioners up to 6'2\", uses genuine calibrated springs (not elastic cords), and folds flat without compromising the spring system. It is significantly less expensive than equivalent Balanced Body or Merrithew machines and is the most frequently recommended home reformer by instructors for male home practitioners." },
-        },
-      ],
+      "mainEntity": FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
   ],
 };
@@ -260,12 +251,7 @@ export default function BestPilatesEquipmentForMenPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Men&apos;s Pilates equipment — common questions</h2>
               <div className="space-y-4">
-                {[
-                  { q: "Is Pilates good for men?", a: "Yes — Pilates was originally developed by Joseph Pilates for men, and was first practised by boxers, soldiers, and male dancers. The method directly targets the physical patterns most men carry: tight hip flexors, anterior pelvic tilt, limited thoracic mobility, and under-developed stabilisers relative to prime movers. Many professional male athletes — including Premier League footballers, elite cyclists, and professional rugby players — use Pilates as primary cross-training." },
-                  { q: "Do men need different Pilates equipment?", a: "No — the equipment is the same. But men use certain pieces more frequently and at higher loads. An extra-long mat matters because men are taller. An arc barrel matters because anterior pelvic tilt is more common in men. A heavier-resistance magic circle matters because men typically need more load to activate adductors meaningfully. The equipment list is the same; the emphasis differs." },
-                  { q: "What is the best home Pilates reformer for men?", a: "The Align-Pilates C8 Pro is the best home reformer for men. It accommodates practitioners up to 6'2\", uses genuine calibrated springs, and folds flat without compromising the spring system. At $1,699 it is significantly less expensive than Balanced Body or Merrithew equivalents and is the most frequently recommended machine by instructors for male home practitioners." },
-                  { q: "How long does Pilates take to work for men?", a: "Most men notice meaningful changes in posture and movement quality within 6–8 sessions. Hamstring flexibility and thoracic extension — the areas men most commonly lack — respond relatively quickly to regular Pilates practice because they are driven by motor pattern change rather than structural tissue change. Strength changes take 8–12 weeks of consistent practice." },
-                ].map((faq, i) => (
+                {FAQS.map((faq, i) => (
                   <div key={i} className="rounded-xl p-5" style={{ backgroundColor: "#fcf9f8", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{faq.q}</p>
                     <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{faq.a}</p>

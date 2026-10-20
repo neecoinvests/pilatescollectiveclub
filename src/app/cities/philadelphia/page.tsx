@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Philadelphia, PA (2026)",
-  description: "The best Pilates studios in Philadelphia — private classical studios and reformer boutiques in Rittenhouse, Fishtown and Spring Garden. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Philadelphia: classical studios and reformer boutiques in Rittenhouse, Fishtown and Spring Garden. Six verified picks for 2026.",
   robots: {
     index: true,
     follow: true,

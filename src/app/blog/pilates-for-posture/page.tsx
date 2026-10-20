@@ -7,11 +7,11 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Posture (2026): Best Exercises for Alignment",
-  description: "Pilates for posture improvement — the best reformer and mat exercises to correct forward head posture, rounded shoulders, and anterior pelvic tilt. Evidence-based 2026 guide.",
+  description: "Pilates for posture: the best reformer and mat exercises for forward head posture, rounded shoulders and anterior pelvic tilt. An evidence-based guide.",
   openGraph: {
     title: "Pilates for Better Posture: The Exercises That Work",
     description: "Forward head, rounded shoulders, anterior pelvic tilt — the Pilates exercises that specifically correct each pattern.",
@@ -135,10 +135,13 @@ const QUICK_PICKS = [
   { name: "Gaiam Pilates Ring Fitness Circle (15-inch)", price: "$19.78", url: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20", note: "Ring work for shoulder and core control" },
 ];
 
+const ITEM_LIST = productItemList("Quick picks: Pilates for Posture (2026): Best Exercises for Alignment", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function PilatesForPosturePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero

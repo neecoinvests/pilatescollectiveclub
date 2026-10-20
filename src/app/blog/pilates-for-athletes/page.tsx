@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -88,7 +89,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "What sports benefit most from Pilates?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Running, cycling, swimming, tennis, and golf show the strongest benefit. These sports involve repetitive single-plane movement that creates muscular imbalances \u2014 exactly what Pilates addresses through multi-plane core work and rotational control." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Running, cycling, swimming, tennis, and golf show the strongest benefit. These sports involve repetitive single-plane movement that creates muscular imbalances, exactly what Pilates addresses through multi-plane core work and rotational control." }
     },
     {
       "@type": "Question",
@@ -115,6 +116,8 @@ const PRODUCTS = [
 const QP_NOTES = ["Recovery and release tool for athletes", "Sport-specific hip, shoulder and cuff work", "A high-density mat for intense practice", "Adds load to adductor and glute work", "Spinal extension and hip flexor lengthening"];
 
 const ITEM_LIST = productItemList("Pilates for Athletes (2026): Cross-Training That Works", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
+const FAQS = faqsFromJsonLd(jsonLd);
 
 export default function PilatesForAthletesPage() {
   return (
@@ -214,6 +217,7 @@ export default function PilatesForAthletesPage() {
 
             {/* Equipment */}
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>

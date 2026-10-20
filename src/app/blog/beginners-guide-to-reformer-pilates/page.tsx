@@ -8,6 +8,7 @@ import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -108,12 +109,12 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "Is reformer Pilates hard for beginners?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Reformer Pilates has a learning curve \u2014 the equipment is unfamiliar and the repertoire can feel complex. Most practitioners feel comfortable with the basics after four to six classes. The first session is largely observational." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Reformer Pilates has a learning curve: the equipment is unfamiliar and the repertoire can feel complex. Most practitioners feel comfortable with the basics after four to six classes. The first session is largely observational." }
     },
     {
       "@type": "Question",
       "name": "What should I wear to my first reformer class?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Fitted or tapered trousers and a fitted top. Avoid loose clothing that can catch in the springs. Grip socks are required at most studios \u2014 bring a pair or purchase them on arrival." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Fitted or tapered trousers and a fitted top. Avoid loose clothing that can catch in the springs. Grip socks are required at most studios, so bring a pair or purchase them on arrival." }
     },
     {
       "@type": "Question",
@@ -135,6 +136,8 @@ const PRODUCTS = [
 const QP_NOTES = ["A quality mat for home practice between classes", "Required at reformer class to stop sliding", "Practise reformer-style moves at home", "Usually introduced by your third or fourth class", "Keeps socks, water and a change of clothes together"];
 
 const ITEM_LIST = productItemList("Beginner's Guide to Reformer Pilates (2026): What to Expect", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
+const FAQS = faqsFromJsonLd(jsonLd);
 
 export default function BeginnerGuideReformerPage() {
   return (
@@ -211,6 +214,7 @@ export default function BeginnerGuideReformerPage() {
             </article>
 
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

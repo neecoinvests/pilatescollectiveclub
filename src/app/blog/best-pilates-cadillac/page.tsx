@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Cadillac (2026): 8 Real Trapeze Tables Compared",
-  description: "The best Pilates Cadillac and Cadillac-combo tables of 2026 — Balanced Body's professional Trapeze Table plus real budget reformer/Cadillac/tower combo units from LeisureKing, Gndigufa, Yorkgargen and PAETA, all verified live on Amazon.",
+  description: "The best Pilates Cadillac and combo tables: Balanced Body's Trapeze Table plus budget reformer, Cadillac and tower combos, all live on Amazon.",
   keywords: ["best pilates cadillac", "pilates trapeze table review 2026", "pilates cadillac buy", "best pilates trapeze table", "balanced body cadillac review", "budget pilates cadillac", "reformer cadillac combo", "pilates cadillac vs reformer", "pilates cadillac table home"],
   openGraph: {
     title: "Best Pilates Cadillac & Trapeze Table (2026)",
@@ -261,7 +261,7 @@ export default function BestPilatesCadillaPage() {
                     <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
+                  <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                     style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                   >Buy →</a>
                 </div>

@@ -7,11 +7,12 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Merrithew Rehab V2 Max Plus Review (2026): Worth $8,199?",
-  description: "Merrithew Rehab V2 Max Plus reviewed at $8,199 — the real Amazon-sold machine in the V2 Max family, its Vertical Frame, spring range, and whether the jump up from the At Home SPX is justified.",
+  description: "Merrithew Rehab V2 Max Plus review at $8,199: the V2 Max model sold on Amazon, its Vertical Frame and springs, and whether it beats the At Home SPX.",
   openGraph: {
     title: "Merrithew Rehab V2 Max Plus Reformer Review (2026): Is It Worth the Upgrade?",
     description: "The Merrithew Rehab V2 Max Plus reviewed in detail — patented retractable rope system, built-in Vertical Frame, high-precision springs, and the honest answer on whether it justifies the price over the At Home SPX.",
@@ -62,7 +63,7 @@ const jsonLd = {
         { "@type": "Question", "name": "Is the plain Merrithew V2 Max sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "No. The studio-line V2 Max and V2 Max Plus are sold through Merrithew's own site and authorised dealers, not as standalone Amazon listings. The V2 Max-family machine that Amazon does carry is the Rehab V2 Max Plus, a raised-frame version built for clinics that includes the Vertical Frame. If you want to buy through Amazon, that is the real option in this family; for the studio SPX Max, the equivalent Amazon-sold machine is the At Home SPX Reformer Package." } },
         { "@type": "Question", "name": "How much does the Merrithew Rehab V2 Max Plus cost?", "acceptedAnswer": { "@type": "Answer", "text": "$8,199, sold on Amazon by Merrithew's own storefront (made to order, ships on a lead time). It is Merrithew's most expensive reformer and includes the Vertical Frame, which most other Merrithew reformers sell as a separate accessory." } },
         { "@type": "Question", "name": "Is the Rehab V2 Max Plus worth it over the At Home SPX?", "acceptedAnswer": { "@type": "Answer", "text": "For clinics, rehab practices, and practitioners who specifically want the raised frame (easier to mount and dismount) and the built-in Vertical Frame for tower-style work, yes. For home practitioners who mainly want genuine Merrithew spring quality at a lower price, the At Home SPX Reformer Package covers the core repertoire for well under half the price." } },
-        { "@type": "Question", "name": "What does 'Rehab' mean on the Merrithew V2 Max Plus?", "acceptedAnswer": { "@type": "Answer", "text": "Rehab denotes the raised-frame version of the V2 Max Plus, built taller so clients with limited mobility can get on and off more easily — which is why clinics and physiotherapy practices buy it. It uses the same spring system and retractable rope system as the standard V2 Max Plus." } },
+        { "@type": "Question", "name": "What does 'Rehab' mean on the Merrithew V2 Max Plus?", "acceptedAnswer": { "@type": "Answer", "text": "Rehab denotes the raised-frame version of the V2 Max Plus, built taller so clients with limited mobility can get on and off more easily, which is why clinics and physiotherapy practices buy it. It uses the same spring system and retractable rope system as the standard V2 Max Plus." } },
       ],
     },
     {
@@ -87,6 +88,8 @@ const QUICK_PICKS = [
   { name: "Merrithew Jumpboard (22-inch, SPX/SPX Max)", price: "$470.00", url: "https://www.amazon.com/dp/B004ICZD2Q?tag=pilatescollective-20", note: "Adds jump work to SPX machines" },
   { name: "Replacement Reformer Ropes with Clips", price: "$35.00", url: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20", note: "Replacement ropes for when they stretch" },
 ];
+
+const FAQS = faqsFromJsonLd(jsonLd);
 
 export default function MerrithewV2MaxReviewPage() {
   return (
@@ -288,6 +291,7 @@ export default function MerrithewV2MaxReviewPage() {
                 </div>
               </div>
 
+              {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
               {/* Further reading */}
               <div>
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>

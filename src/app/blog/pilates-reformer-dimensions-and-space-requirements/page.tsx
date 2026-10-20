@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Reformer Dimensions & Space Requirements (2026)",
@@ -115,10 +115,13 @@ const PRODUCTS = [
 
 const QP_NOTES = ["Protects a reformer kept in a living space", "Move a heavy reformer without damaging floors", "Measure doorways and room size before you order", "Spreads the reformer's weight over the floor", "Extra grip for working in a tight space"];
 
+const ITEM_LIST = productItemList("Quick picks: Pilates Reformer Dimensions & Space Requirements (2026)", (PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function PilatesReformerDimensionsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>

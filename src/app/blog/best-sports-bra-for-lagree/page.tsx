@@ -169,7 +169,6 @@ export default function BestSportsBraForLagreePage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Every product link on this page goes to Amazon. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you. Listings and prices were verified on October 2, 2026 and can change.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Support is the obvious requirement and only half the story. Much of Lagree happens lying on your back on a firm vinyl carriage, which means any raised hardware on the back of the bra — a racerback clasp, a plastic slider, a hook-and-eye closure — spends the whole set pressed between your spine and a hard surface. It is the most common complaint from new practitioners, and it is a hardware problem, not a fit one. Below are six bras on Amazon, from high-impact support for jump work to a light matching-set bralette, with notes on what to check on each one for the carriage.

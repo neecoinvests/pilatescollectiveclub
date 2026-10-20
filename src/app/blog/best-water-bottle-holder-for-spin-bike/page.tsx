@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Water Bottle Holders for Spin Bikes (2026)",
-  description: "Never lose your water mid-ride. We ranked the best water bottle holders and cages for Peloton, Schwinn, NordicTrack, and other spin bikes by grip, fit, and stability.",
+  description: "The best water bottle holders and cages for Peloton, Schwinn, NordicTrack and other spin bikes, ranked by grip, fit and stability mid-ride.",
   keywords: [
     "best water bottle holder spin bike",
     "spin bike water bottle cage",

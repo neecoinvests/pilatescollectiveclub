@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Minneapolis, MN (2026)",
-  description: "The best Pilates studios in Minneapolis — Lagree and reformer studios in Uptown, the lakes, the southwest suburbs and St Paul. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Minneapolis: Lagree and reformer studios in Uptown, the lakes, the southwest suburbs and St Paul. Six verified picks for 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   keywords: ["pilates minneapolis", "reformer pilates minneapolis", "best pilates studios minneapolis", "pilates studio minneapolis mn", "pilates classes minneapolis", "uptown pilates minneapolis", "edina pilates mn", "pilates minnesota", "best reformer pilates minneapolis"],
   openGraph: {

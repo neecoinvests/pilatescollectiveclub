@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Tokyo (2026)",
     description: "Six curated Pilates studios in Tokyo — Omotesando, Ebisu, and Daikanyama reformer picks. Verified June 2026.",
+    type: "article",
     url: "https://pilatescollectiveclub.com/cities/tokyo",
     images: [{ url: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80", width: 1200, height: 630, alt: "Tokyo city guide — Pilates Collective Club" }],
   },

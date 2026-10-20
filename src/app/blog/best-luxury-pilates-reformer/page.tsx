@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Luxury Pilates Reformers for Home Studios (2026)",
-  description: "The finest Pilates reformers available on Amazon — Balanced Body's full Studio and Rialto luxury line, plus Merrithew's Rehab V2 Max Plus, compared for craftsmanship, performance, and investment value.",
+  description: "The best luxury Pilates reformers on Amazon: Balanced Body's Studio and Rialto line and Merrithew's Rehab V2 Max Plus, compared for build and value.",
   keywords: [
     "best luxury pilates reformer",
     "best high end pilates reformer home",

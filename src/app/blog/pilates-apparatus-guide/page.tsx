@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Apparatus Guide (2026): Every Machine Explained",
@@ -236,11 +236,14 @@ const QUICK_PICKS = [
   { name: "Muezna Pilates Grip Socks (6-Pair)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Six pairs of grip socks" },
 ];
 
+const ITEM_LIST = productItemList("Quick picks: Pilates Apparatus Guide (2026): Every Machine Explained", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function PilatesApparatusGuidePage() {
   return (
     <>
       <style>{`.apparatus-internal-link { text-decoration: none; } .apparatus-internal-link:hover { text-decoration: underline; }`}</style>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
 

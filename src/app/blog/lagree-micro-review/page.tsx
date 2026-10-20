@@ -500,7 +500,7 @@ export default function LagreeMicroReviewPage() {
               </div>
               <p className="text-sm leading-relaxed" style={bodyStyle}>
                 Class equivalents assume Lagree classes at $35–$45 each, a common range in major US cities. Train three times a week and the Micro with its platform equals roughly two to three months of classes; once a week, closer to half a year. Most owners keep some studio classes for the coaching, so treat these numbers as the ceiling on savings. Add a streaming subscription from{" "}
-                <a href={LAGREE_OD} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>Lagree On Demand</a> if you want guided Micro classes.
+                <a href={LAGREE_OD} target="_blank" rel={/amazon\./i.test(LAGREE_OD) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>Lagree On Demand</a> if you want guided Micro classes.
               </p>
             </div>
 
@@ -541,7 +541,7 @@ export default function LagreeMicroReviewPage() {
               <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
                 Not sure the home machine is the right Lagree purchase at all? Our{" "}
                 <Link href="/blog/lagree-micro-vs-megaformer" style={inlineLinkStyle}>Micro vs Megaformer comparison</Link> lays out what you keep and what you lose compared with studio classes, and{" "}
-                <a href={LAGREE_DIRECT} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>lagreefitness.com</a> lists the brand&apos;s full range.
+                <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a> lists the brand&apos;s full range.
               </p>
             </div>
 

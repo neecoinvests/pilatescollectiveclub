@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Bar (2026): 5 Real Options Compared",
-  description: "Five real, currently-sold Pilates bar kits on Amazon — Ayombo, COFOF, Bbtops, RENRANRING, and Goocrun — each a sectioned bar with resistance bands, compared for build quality, resistance range, and price from $19.99 to $26.97.",
+  description: "Five Pilates bar kits on Amazon from Ayombo, COFOF, Bbtops, RENRANRING and Goocrun, compared for build quality, band resistance and price from $19.99.",
   keywords: ["best pilates bar", "pilates bar kit", "portable pilates bar", "pilates bar with resistance bands", "pilates stick", "pilates toning bar", "pilates bar for beginners", "goocrun pilates bar"],
   openGraph: {
     title: "Best Pilates Bar (2026): 5 Real Options Compared",

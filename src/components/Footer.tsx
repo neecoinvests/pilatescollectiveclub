@@ -161,7 +161,7 @@ export default function Footer() {
               letterSpacing: "0.05em",
             }}
           >
-            © 2026 Pilates Collective Club. All rights reserved.
+            © 2026 Pilates Collective Club. All rights reserved. As an Amazon Associate we earn from qualifying purchases.
           </p>
           <p
             style={{

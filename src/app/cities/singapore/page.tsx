@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Singapore (2026)",
-  description: "The best Pilates studios in Singapore — reformer and physio-led studios on Orchard Road, in the CBD, Holland Village and beyond. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Singapore: reformer and physio-led studios on Orchard Road, in the CBD, Holland Village and beyond. Six picks, verified 2026.",
   robots: {
     index: true,
     follow: true,
@@ -238,7 +238,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Singapore (2026)",
-      "description": "The best Pilates studios in Singapore — reformer and physio-led studios on Orchard Road, in the CBD, Holland Village and beyond. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Singapore: reformer and physio-led studios on Orchard Road, in the CBD, Holland Village and beyond. Six picks, verified 2026.",
       "url": "https://pilatescollectiveclub.com/cities/singapore",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",

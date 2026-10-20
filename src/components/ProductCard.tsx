@@ -43,7 +43,9 @@ export default function ProductCard({ name, description, price, affiliateUrl = "
               fontSize: "12px",
               fontWeight: 400,
               color: "#c5a882",
-              whiteSpace: "nowrap",
+              whiteSpace: price.length > 16 ? "normal" : "nowrap",
+              maxWidth: price.length > 16 ? "45%" : undefined,
+              textAlign: "right",
               letterSpacing: "0.05em",
             }}>
               {price}
@@ -66,7 +68,7 @@ export default function ProductCard({ name, description, price, affiliateUrl = "
         <a
           href={affiliateUrl}
           target="_blank"
-          rel="noopener noreferrer nofollow"
+          rel={/amazon\./i.test(affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
           style={{
             display: "block",
             fontFamily: "var(--font-sans)",

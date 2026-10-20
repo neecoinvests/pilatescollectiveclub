@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Designer & Luxury Pilates Bags (2026)",
-  description: "The finest bags for Pilates practitioners — Tory Burch, Marc Jacobs, Varley, Herschel, Stoney Clover Lane and BAGGU compared for structure, capacity, and studio-to-life versatility, all available on Amazon.",
+  description: "The best designer Pilates bags on Amazon: Tory Burch, Marc Jacobs, Varley, Herschel and more compared for structure, capacity and studio-to-street style.",
   keywords: [
     "best luxury pilates bag",
     "designer gym bag pilates",

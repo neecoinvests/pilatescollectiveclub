@@ -539,7 +539,7 @@ export default function ReformerPilatesEssentialsPage() {
                     <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: sans }}>{row.stage} · {row.item.tier} pick</p>
                   </div>
                   <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: sans }}>{row.item.price}</span>
-                  <a href={row.item.url} target="_blank" rel="noopener noreferrer nofollow" style={buttonStyle}>Shop →</a>
+                  <a href={row.item.url} target="_blank" rel={/amazon\./i.test(row.item.url) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={buttonStyle}>Shop →</a>
                 </div>
               ))}
             </div>
@@ -586,7 +586,7 @@ export default function ReformerPilatesEssentialsPage() {
                     </ul>
                     <p className="text-sm leading-relaxed mt-5" style={bodyText}>
                       For hair, a large claw clip at the nape is the reformer regulars&apos; trick: it holds everything without a bump at the back of your head. The{" "}
-                      <a href={P.kitsch.url} target="_blank" rel="noopener noreferrer nofollow" style={linkStyle}>Kitsch 5&quot; Large Claw Clips (Black &amp; Tort, $9.99)</a>{" "}
+                      <a href={P.kitsch.url} target="_blank" rel={/amazon\./i.test(P.kitsch.url) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={linkStyle}>Kitsch 5&quot; Large Claw Clips (Black &amp; Tort, $9.99)</a>{" "}
                       are big enough for thick hair. More on clothing in our guide to{" "}
                       <Link href="/blog/what-to-wear-to-pilates" style={linkStyle}>what to wear to Pilates</Link>.
                     </p>

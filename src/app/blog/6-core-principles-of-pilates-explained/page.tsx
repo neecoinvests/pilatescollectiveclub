@@ -8,6 +8,7 @@ import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -151,7 +152,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "What does 'control' mean in Pilates?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Control in Pilates means every movement is directed by muscular effort \u2014 no momentum, no collapsing, no relying on joints rather than muscles. Joseph Pilates originally called his method 'Contrology' \u2014 the complete coordination of body, mind, and spirit." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Control in Pilates means every movement is directed by muscular effort: no momentum, no collapsing, no relying on joints rather than muscles. Joseph Pilates originally called his method 'Contrology': the complete coordination of body, mind, and spirit." }
     }
       ]
     },
@@ -168,6 +169,8 @@ const PRODUCTS = [
 const QP_NOTES = ["A stable, consistent surface for mat practice", "Teaches centring, control and integration", "Spinal articulation and thoracic mobility work", "Resistance work to practise the principles at home", "Joseph Pilates' original text"];
 
 const ITEM_LIST = productItemList("The 6 Core Principles of Pilates Explained", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
+const FAQS = faqsFromJsonLd(jsonLd);
 
 export default function SixPrinciplesPage() {
   return (
@@ -231,6 +234,7 @@ export default function SixPrinciplesPage() {
             </article>
 
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

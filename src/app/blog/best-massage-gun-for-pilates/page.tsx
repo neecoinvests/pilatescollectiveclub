@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Massage Gun for Pilates Recovery (2026): Ranked",
-  description: "The best massage guns for Pilates recovery — TOLOCO, AERLANG, Therabody TheraGun Relief, RENPHO Active Thermacool 2, and Elefor compared for post-reformer muscle release and soreness relief.",
+  description: "The best massage guns for Pilates recovery: TOLOCO, AERLANG, TheraGun Relief, RENPHO and Elefor compared for post-reformer muscle release and soreness.",
   keywords: ["best massage gun for pilates", "percussion massager pilates recovery", "theragun pilates", "hypervolt pilates", "best percussive therapy device 2026", "massage gun reformer pilates", "pilates recovery tool", "theragun pro plus review"],
   openGraph: {
     title: "Best Massage Gun for Pilates Recovery (2026)",

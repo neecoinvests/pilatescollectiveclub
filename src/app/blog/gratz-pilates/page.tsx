@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Gratz Pilates Equipment Review (2026): Classical Standard",
-  description: "Gratz Pilates equipment reviewed — the classical universal reformer, cadillac, and accessories assessed for build quality, spring tension, and classical method adherence.",
+  description: "Gratz Pilates equipment reviewed: the classical Universal Reformer, Cadillac and accessories, judged on build quality, springs and classical method fidelity.",
   keywords: ["gratz pilates review", "gratz universal reformer review 2026", "gratz vs balanced body", "gratz pilates equipment", "classical pilates reformer gratz", "gratz pilates buy", "best classical pilates reformer", "gratz pilates price"],
   openGraph: {
     title: "Gratz Pilates (2026): Classical Apparatus Honestly Reviewed",

@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Under $1,000 (2026): 6 Real Picks",
-  description: "Six genuine, currently-sold reformers under $1,000: four real spring-based budget reformers (WINDFOOT, DWKWE, two PAETA models) plus two established-brand AeroPilates cord machines. Full honest lineup.",
+  description: "Six reformers under $1,000: four spring-based budget machines (WINDFOOT, DWKWE, two PAETA models) and two AeroPilates cord machines, compared honestly.",
   openGraph: {
     title: "Best Pilates Reformer Under $1,000 (2026): 6 Real Picks",
     description: "The honest guide to every real reformer under four figures — genuine budget spring reformers and cord machines, side by side.",

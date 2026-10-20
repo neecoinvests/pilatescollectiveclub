@@ -376,7 +376,7 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
                 <ul className="space-y-2 list-disc pl-5">
                   {props.sources.map((s) => (
                     <li key={s.url} className="text-sm leading-relaxed" style={bodyStyle}>
-                      <a href={s.url} target="_blank" rel="noopener noreferrer" style={{ color: "#8b4a31", textDecoration: "underline" }}>{s.label}</a>
+                      <a href={s.url} target="_blank" rel={/amazon\./i.test(s.url) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={{ color: "#8b4a31", textDecoration: "underline" }}>{s.label}</a>
                     </li>
                   ))}
                 </ul>

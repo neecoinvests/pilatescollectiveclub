@@ -8,6 +8,7 @@ import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -136,6 +137,8 @@ const QP_NOTES = ["The classical canon of 34 exercises", "The contemporary view 
 
 const ITEM_LIST = productItemList("Classical vs Contemporary Pilates (2026): Key Differences", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
+const FAQS = faqsFromJsonLd(jsonLd);
+
 export default function ClassicalVsContemporaryPage() {
   return (
     <>
@@ -228,6 +231,7 @@ export default function ClassicalVsContemporaryPage() {
             </article>
 
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

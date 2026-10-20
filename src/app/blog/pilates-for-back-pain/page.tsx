@@ -8,6 +8,7 @@ import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
 import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -113,7 +114,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "Should I see a doctor before starting Pilates for back pain?",
-      "acceptedAnswer": { "@type": "Answer", "text": "For chronic back pain with a known cause, Pilates is generally safe after informing your instructor. For new, acute, or radiating pain \u2014 especially with numbness or weakness \u2014 see a doctor first to rule out pathological causes." }
+      "acceptedAnswer": { "@type": "Answer", "text": "For chronic back pain with a known cause, Pilates is generally safe after informing your instructor. For new, acute, or radiating pain, especially with numbness or weakness, see a doctor first to rule out pathological causes." }
     },
     {
       "@type": "Question",
@@ -135,6 +136,8 @@ const PRODUCTS = [
 const QP_NOTES = ["The dense mat used in clinical Pilates settings", "Thoracic mobilisation and spinal articulation", "Light resistance for hip and glute activation", "Three resistance levels for back and core work", "Lumbar support for mat work and recovery"];
 
 const ITEM_LIST = productItemList("Pilates for Back Pain (2026): What the Research Shows", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
+const FAQS = faqsFromJsonLd(jsonLd);
 
 export default function PilatesForBackPainPage() {
   return (
@@ -239,6 +242,7 @@ export default function PilatesForBackPainPage() {
             </article>
 
 
+            {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Equipment */}
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

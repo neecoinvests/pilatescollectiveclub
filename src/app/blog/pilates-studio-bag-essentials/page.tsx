@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "What to Pack in Your Pilates Bag (2026): Studio Checklist",
-  description: "Everything that goes in a well-packed Pilates studio bag — from the non-negotiable grip socks to the insulated water bottle. What instructors carry, five days a week.",
+  description: "What to pack in a Pilates studio bag, from non-negotiable grip socks to an insulated water bottle. The checklist instructors carry five days a week.",
   openGraph: {
     title: "What to Pack in Your Pilates Studio Bag (2026)",
     description: "The instructor-approved list of what actually belongs in your Pilates bag — and what you can leave at home.",

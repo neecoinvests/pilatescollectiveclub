@@ -8,7 +8,8 @@ import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
-import { jsonLdHtml } from "@/lib/schema";
+import FaqSection, { faqsFromJsonLd } from "@/components/FaqSection";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Books (2026): Classics & Modern Guides Reviewed",
@@ -170,10 +171,15 @@ const QUICK_PICKS = [
   { name: "Pilates Anatomy", price: "$17.81", url: "https://www.amazon.com/dp/1492567701?tag=pilatescollective-20", note: "Anatomy behind each exercise" },
 ];
 
+const FAQS = faqsFromJsonLd(jsonLd);
+
+const ITEM_LIST = productItemList("Quick picks: Best Pilates Books (2026): Classics & Modern Guides Reviewed", (QUICK_PICKS).filter((p) => !p.url.includes("/s?k=")).map((p) => ({ name: p.name, description: p.note, price: p.price, url: p.url })));
+
 export default function BestPilatesBooksPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero
@@ -247,6 +253,7 @@ export default function BestPilatesBooksPage() {
                 </p>
               </div>
 
+              {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
               {/* Further reading */}
               <div>
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>

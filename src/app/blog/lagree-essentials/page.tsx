@@ -781,7 +781,7 @@ export default function LagreeEssentialsPage() {
                       <div className="text-sm leading-relaxed mb-4 space-y-3" style={bodyStyle}>
                         <p>
                           <span className="font-semibold" style={{ color: "#1b1c1c" }}>If The Micro is out of stock:</span> Amazon stock has been limited, so if the listing shows it as unavailable, buy it direct from{" "}
-                          <a href={LAGREE_DIRECT} target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>lagreefitness.com</a>.
+                          <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>.
                         </p>
                         <p>
                           <span className="font-semibold" style={{ color: "#1b1c1c" }}>Not a Lagree machine:</span> a home Pilates reformer is a spring-and-carriage machine too, but it is built for a different method. If that is what you actually want, see{" "}

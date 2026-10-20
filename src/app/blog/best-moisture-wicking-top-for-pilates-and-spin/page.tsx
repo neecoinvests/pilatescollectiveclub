@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Moisture-Wicking Tops for Pilates & Spin (2026)",
-  description: "Stay dry and comfortable through the hardest Lagree and spin sessions. We compared the best moisture-wicking tops for women and men across breathability, fit, and durability.",
+  description: "The best moisture-wicking tops for Pilates, Lagree and spin, for women and men, compared on breathability, fit and durability so you stay dry all class.",
   keywords: [
     "best moisture wicking top pilates",
     "best workout top spin class",
