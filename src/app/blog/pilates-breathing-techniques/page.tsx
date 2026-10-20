@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Breathing Techniques (2026): Lateral Breathing",
@@ -38,7 +40,7 @@ const jsonLd = {
       "description": "A guide to breathing in Pilates — lateral ribcage breathing, how it differs from diaphragmatic belly breathing, breath patterns for key exercises, and common faults.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-breathing-techniques",
       "datePublished": "2026-09-09",
-      "dateModified": "2026-09-09",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -72,10 +74,15 @@ const PRODUCTS = [
   { name: "Manduka PRO Pilates Mat", description: "Breathing work is done lying down for long stretches. A 6mm mat keeps the spine comfortable enough that you can stay there for the ten minutes the practice actually takes.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Tactile feedback that makes lateral breathing click", "Opens the ribcage for lateral breathing practice", "A reference point for where the breath should travel", "Classic drill linking arms, ribs and deep abdominals", "A 6mm mat for long stretches of floor breathing work"];
+
+const ITEM_LIST = productItemList("Pilates Breathing Techniques (2026): Lateral Breathing", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesBreathingTechniquesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -88,7 +95,8 @@ export default function PilatesBreathingTechniquesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates Breathing:<br /><span style={{ color: "#8b4a31" }}>Lateral Breathing Explained</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 10 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Breathing is the first of the six classical Pilates principles and the one most people quietly ignore for their first year. That is understandable — it feels like an instruction about something you already know how to do. But the breath pattern is not decoration on top of the exercises; it is the mechanism that makes abdominal engagement possible while you are still taking in air. Once it clicks, the rest of the method becomes noticeably easier.
@@ -106,6 +114,9 @@ export default function PilatesBreathingTechniquesPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Pilates does not use belly breathing</h2>
@@ -219,7 +230,6 @@ export default function PilatesBreathingTechniquesPage() {
             </div>
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

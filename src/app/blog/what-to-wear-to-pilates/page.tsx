@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "What to Wear to Pilates (2026): Complete Studio Outfit Guide",
@@ -131,7 +133,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
       "articleSection": "Style",
@@ -173,10 +175,15 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best Leggings", "Best for Reformer", "Best Warm-Up Layer", "Best Sports Bra", "Essential Accessory"];
+
+const ITEM_LIST = productItemList("What to Wear to Pilates (2026): Complete Studio Outfit Guide", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function WhatToWearToPilatesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -189,7 +196,8 @@ export default function WhatToWearToPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               What to Wear<br /><span style={{ color: "#8b4a31" }}>to Pilates (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 6 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 6 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               What you wear to Pilates matters more than it does in most fitness contexts. Instructors need to see your body alignment — how your spine curves, where your shoulders are, whether your pelvis is neutral — to give you accurate corrections. Loose or baggy clothing obscures this and makes good instruction harder. Here&apos;s exactly what to wear, what to avoid, and the specific pieces that work best across reformer, mat, and barre classes.
@@ -207,6 +215,9 @@ export default function WhatToWearToPilatesPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             {/* Do and Don't */}
             <div className="mb-16 mt-4">
@@ -266,7 +277,6 @@ export default function WhatToWearToPilatesPage() {
             </div>
 
             {/* Products */}
-            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our recommended pieces</h2>

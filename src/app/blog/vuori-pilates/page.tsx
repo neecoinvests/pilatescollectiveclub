@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -93,7 +95,7 @@ const jsonLd = {
       "description": "The complete guide to Vuori activewear for Pilates — the best pieces for studio and reformer classes.",
       "url": "https://pilatescollectiveclub.com/blog/vuori-pilates",
       "datePublished": "2026-05-14",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -119,6 +121,8 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best Versatile Bottom", "Best Women's Short", "Best Men's Short for Pilates", "Best Women's Legging", "Best Tank"];
+
 export default function VuoriPilatesPage() {
   return (
     <>
@@ -136,6 +140,7 @@ export default function VuoriPilatesPage() {
               Vuori for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces for Men &amp; Women</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Vuori launched in San Diego in 2015 with a proposition that most activewear brands miss: make clothes that look good outside the gym without sacrificing what you need inside it. For Pilates, that positioning is useful. The brand&apos;s men&apos;s range in particular fills a gap that every other premium activewear brand leaves open — and this is the only guide on this site that covers men&apos;s Pilates activewear in any depth.
@@ -154,6 +159,9 @@ export default function VuoriPilatesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The brand that solved men&apos;s Pilates activewear</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
@@ -164,7 +172,6 @@ export default function VuoriPilatesPage() {
               </p>
             </div>
 
-            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-12 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>A note on men&apos;s Pilates activewear</h2>

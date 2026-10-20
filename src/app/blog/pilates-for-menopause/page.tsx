@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Menopause (2026): Bone Density & Hormones",
@@ -40,7 +42,7 @@ const jsonLd = {
       "description": "How Pilates supports women through perimenopause and menopause — bone density, hormonal balance, pelvic floor, and how to adapt your practice.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-menopause",
       "datePublished": "2026-05-14",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -74,10 +76,15 @@ const PRODUCTS = [
   { name: "Trideer 9-inch Pilates Ball", description: "Used in pelvic floor, hip, and breathing exercises — supporting the multidimensional approach to menopausal wellbeing that Pilates is particularly well-suited to.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["A quality mat for daily home practice", "Progressive bone-loading work at home", "Thoracic opening and self-myofascial release", "Inner-thigh and pelvic floor work", "For pelvic floor, hip and breathing exercises"];
+
+const ITEM_LIST = productItemList("Pilates for Menopause (2026): Bone Density & Hormones", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesForMenopausePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -90,7 +97,8 @@ export default function PilatesForMenopausePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates During Menopause:<br /><span style={{ color: "#8b4a31" }}>Bone Density, Hormones &amp; Practice</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 13 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 13 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The conversation around exercise and menopause has changed significantly. Where the guidance once focused primarily on cardiovascular health and weight management, the current understanding is more specific and more nuanced: resistance training matters for bone density; pelvic floor work matters more than most practitioners realise; and the hormonal environment of perimenopause and post-menopause changes how the body responds to exercise. Pilates is exceptionally well-positioned to address these needs — but the approach needs to be informed by what is actually happening physiologically.
@@ -108,6 +116,9 @@ export default function PilatesForMenopausePage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What changes during perimenopause and menopause</h2>
@@ -189,7 +200,6 @@ export default function PilatesForMenopausePage() {
 
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

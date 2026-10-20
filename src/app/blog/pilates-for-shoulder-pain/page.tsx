@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Shoulder Pain (2026): Rotator Cuff Exercises",
@@ -38,7 +40,7 @@ const jsonLd = {
       "description": "Guide to Pilates for shoulder pain — scapular stability, rotator cuff programming, thoracic mobility, and exercise modifications by condition.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-shoulder-pain",
       "datePublished": "2026-09-09",
-      "dateModified": "2026-09-09",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -72,10 +74,15 @@ const PRODUCTS = [
   { name: "Manduka PRO Pilates Mat", description: "A dense, non-slip surface matters for prone Y-T-W work and quadruped scapular drills — on a thin or slippery mat the hands travel and the scapular position you are trying to hold is lost.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Graded light resistance for rotator cuff work", "Lets the shoulders fall into extension", "Pectoral and posterior cuff release against a wall", "Reduce load on the shoulder in quadruped work", "A dense, non-slip mat for scapular drills"];
+
+const ITEM_LIST = productItemList("Pilates for Shoulder Pain (2026): Rotator Cuff Exercises", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesForShoulderPainPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -88,7 +95,8 @@ export default function PilatesForShoulderPainPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates for Shoulder Pain:<br /><span style={{ color: "#8b4a31" }}>Fix the Scapula, Not the Sore Spot</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The shoulder is the most mobile joint in the body and pays for it in stability. Almost none of that stability comes from bone — it comes from muscular control, and most of that control acts on the shoulder blade rather than the shoulder itself. This is why the sore spot at the front of the shoulder is so rarely where the problem lives, and why Pilates, which trains scapular control more thoroughly than almost any other movement discipline, works so well for it.
@@ -106,6 +114,9 @@ export default function PilatesForShoulderPainPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why the shoulder blade decides whether your shoulder hurts</h2>
@@ -212,7 +223,6 @@ export default function PilatesForShoulderPainPage() {
             </div>
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

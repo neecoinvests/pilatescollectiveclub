@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How Many Calories Does Pilates Burn? (2026 Data)",
@@ -99,7 +102,7 @@ const jsonLd = {
       "description": "Accurate calorie data for mat and reformer Pilates by body weight, intensity, and duration.",
       "url": "https://pilatescollectiveclub.com/blog/how-many-calories-does-pilates-burn",
       "datePublished": "2026-06-27",
-      "dateModified": "2026-06-27",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -124,10 +127,15 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best fitness tracker for Pilates calorie tracking", "Best slim tracker for studio use", "Most accurate calorie measurement", "Best for iPhone users", "Best budget tracker"];
+
+const ITEM_LIST = productItemList("How Many Calories Does Pilates Burn? (2026 Data)", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function CaloriesPilatesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -140,7 +148,8 @@ export default function CaloriesPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               How Many Calories<br /><span style={{ color: "#8b4a31" }}>Does Pilates Burn?</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 7 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
+            <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Pilates burns significantly more calories than most people expect — and significantly less than most fitness apps report. The truth is somewhere between the dismissive claim that Pilates is "just stretching" and the inflated numbers that studio marketing uses. Here is what the metabolic research actually shows, broken down by format, intensity, and body weight.
@@ -158,6 +167,9 @@ export default function CaloriesPilatesPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Calories burned per 60-minute session</h2>

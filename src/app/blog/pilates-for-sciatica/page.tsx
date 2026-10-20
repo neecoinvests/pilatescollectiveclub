@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Sciatica (2026): Safe Exercises & What to Avoid",
@@ -38,7 +40,7 @@ const jsonLd = {
       "description": "Guide to Pilates for sciatica — the underlying causes, which exercises calm nerve irritation, which to avoid, and how programming differs by diagnosis.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-sciatica",
       "datePublished": "2026-09-09",
-      "dateModified": "2026-09-09",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -72,10 +74,15 @@ const PRODUCTS = [
   { name: "OPTP Foam Roller (36-inch)", description: "Used lengthwise under the spine for gentle thoracic extension, which restores the mobility the lumbar spine is otherwise forced to provide. Avoid rolling directly over the lower back during an active flare.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["6mm cushioning for supine and side-lying work", "Piriformis and deep glute release", "Hamstring and nerve-glide work with a stable pelvis", "Light loops for the clam and side-lying series", "Gentle thoracic extension to spare the lower back"];
+
+const ITEM_LIST = productItemList("Pilates for Sciatica (2026): Safe Exercises & What to Avoid", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesForSciaticaPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -88,7 +95,8 @@ export default function PilatesForSciaticaPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates for Sciatica:<br /><span style={{ color: "#8b4a31" }}>What Calms It, What Inflames It</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 12 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Sciatica is the one complaint where a well-intentioned Pilates class can genuinely set you back. The classical mat repertoire is built around spinal flexion, and repeated loaded flexion is the most provocative movement pattern there is for disc-related nerve pain. Used correctly, though, Pilates is close to an ideal intervention — it builds the hip strength and spinal control that prevent recurrence, in positions that keep the nerve quiet. The entire outcome depends on knowing which sciatica you have.
@@ -106,6 +114,9 @@ export default function PilatesForSciaticaPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Sciatica is a symptom, not a diagnosis</h2>
@@ -222,7 +233,6 @@ export default function PilatesForSciaticaPage() {
             </div>
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

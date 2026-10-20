@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Merrithew Pilates (2026): At Home SPX vs V2 Max Reviewed",
@@ -86,7 +88,7 @@ const jsonLd = {
       "description": "The complete guide to Merrithew and STOTT Pilates — At Home SPX, V2 Max reformers, accessories, instructor certification, and who their equipment suits.",
       "url": "https://pilatescollectiveclub.com/blog/merrithew-pilates",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-09-22",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -112,10 +114,15 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["The real SPX-family machine Merrithew sells on Amazon", "Merrithew's real clinical/professional machine, sold on Amazon", "The genuine Merrithew jumpboard, sold on Amazon", "A real, live sitting box, not Merrithew-branded", "Keep a spare set on hand"];
+
+const ITEM_LIST = productItemList("Merrithew Pilates (2026): At Home SPX vs V2 Max Reviewed", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function MerrithewPilatesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         {/* Hero section */}
@@ -129,7 +136,8 @@ export default function MerrithewPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Merrithew for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>STOTT Equipment, Certification &amp; Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 12 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Merrithew is one of the two dominant names in professional Pilates equipment — the other being Balanced Body. Founded in Toronto in 1988, the company operates under both the Merrithew and STOTT PILATES® brands: Merrithew on the equipment, STOTT PILATES on the internationally recognised instructor certification programme. Their reformers are found in hotel spas, physical therapy clinics, and certified training facilities on every continent. This guide covers the full product range, the STOTT methodology, and an honest assessment of who their equipment suits — from home practitioners to studio owners.
@@ -155,8 +163,10 @@ export default function MerrithewPilatesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Brand overview */}
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
+            {/* Brand overview */}
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The studio-trusted brand behind STOTT Pilates</h2>

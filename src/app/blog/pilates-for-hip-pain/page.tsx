@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Hip Pain (2026): Exercises That Actually Help",
@@ -37,7 +40,7 @@ const jsonLd = {
       "description": "Evidence-based guide to managing hip pain through Pilates — which exercises help, which to avoid, and how to modify for common hip conditions.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-hip-pain",
       "datePublished": "2026-06-01",
-      "dateModified": "2026-06-01",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -71,10 +74,15 @@ const PRODUCTS = [
   { name: "OPTP Foam Roller (36-inch)", description: "Full-length roller for spinal mobilisation and thoracic work that complements hip-focused Pilates. Thoracic stiffness often contributes to hip restriction.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Stable surface for side-lying and supine hip work", "Hip flexor, glute and IT band release before class", "Mini loops for clamshells and side-lying leg lifts", "Inner-thigh resistance to balance abductor work", "Full-length roller for spinal and thoracic work"];
+
+const ITEM_LIST = productItemList("Pilates for Hip Pain (2026): Exercises That Actually Help", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesForHipPainPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -87,7 +95,8 @@ export default function PilatesForHipPainPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates for Hip Pain:<br /><span style={{ color: "#8b4a31" }}>What Helps, What to Avoid</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Hip pain is one of the most common reasons people seek out Pilates — and for good reason. The method&apos;s emphasis on deep hip stabilisers, glute strength, and movement quality addresses many of the underlying causes of hip discomfort. But Pilates is not a uniform solution. The right approach depends entirely on what is causing the pain, and the wrong exercises can aggravate rather than relieve it.
@@ -105,6 +114,9 @@ export default function PilatesForHipPainPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Understanding the type of hip pain you have</h2>

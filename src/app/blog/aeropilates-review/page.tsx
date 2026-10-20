@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "AeroPilates Reformer Review (2026): Honest Verdict",
@@ -81,7 +83,7 @@ const jsonLd = {
       "description": "The honest AeroPilates review: cord vs spring resistance, the rebounder, which model to buy (287 vs 557), and who this budget reformer actually suits.",
       "url": "https://pilatescollectiveclub.com/blog/aeropilates-review",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -107,10 +109,15 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best AeroPilates model overall", "Best entry-level home reformer", "Best mid-tier AeroPilates model", "A standalone rebounder, unverified as its own live Amazon listing", "Genuine wear-item replacements, confirm the specific listing"];
+
+const ITEM_LIST = productItemList("AeroPilates Reformer Review (2026): Honest Verdict", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function AeroPilatesReviewPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         {/* Hero */}
@@ -124,7 +131,8 @@ export default function AeroPilatesReviewPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               AeroPilates Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Budget Home Reformer, Honestly Assessed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               AeroPilates is a genuine, real Amazon brand — three of its models are live listings we&apos;ve verified directly, from $349.99 to $1,329.99. It uses elastic cord resistance rather than the coil-spring system found in studio machines, which is not a minor distinction. This review is honest about what that difference means, which of the real models are worth buying, and who this machine genuinely suits.
@@ -151,8 +159,10 @@ export default function AeroPilatesReviewPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Brand overview */}
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
+            {/* Brand overview */}
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What AeroPilates actually is (and what it isn&apos;t)</h2>

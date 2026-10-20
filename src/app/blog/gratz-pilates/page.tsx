@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Gratz Pilates Equipment Review (2026): Classical Standard",
@@ -86,7 +88,7 @@ const jsonLd = {
       "description": "Gratz Pilates makes classical apparatus to Joseph Pilates' original specifications. An honest guide to their reformer, cadillac, chair — and whether the price premium is justified.",
       "url": "https://pilatescollectiveclub.com/blog/gratz-pilates",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -140,10 +142,15 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["The classical reformer benchmark", "Best classical chair for advanced work", "Best classical barrel accessory", "A real, currently-sold rope alternative, not Gratz leather straps", "A real aftermarket spring set, not Gratz's original classical springs"];
+
+const ITEM_LIST = productItemList("Gratz Pilates Equipment Review (2026): Classical Standard", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function GratzPilatesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         {/* Hero */}
@@ -157,7 +164,8 @@ export default function GratzPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Gratz Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>The Classical Apparatus Standard, Reviewed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Gratz Industries has manufactured Pilates apparatus since the 1920s — building the original equipment for Joseph Pilates&apos; studio at 939 8th Avenue in New York City. Today, trading as Gratz Pilates, they remain the only production manufacturer that holds an unbroken line to those original specifications. Every piece of apparatus they make is handcrafted in New York, using the same spring tensions, dimensions, and material choices that the classical repertoire was built around. This guide is for classical practitioners, studio owners, and serious enthusiasts trying to understand whether the Gratz premium is warranted — and exactly what they are buying.
@@ -184,8 +192,10 @@ export default function GratzPilatesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Brand overview */}
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote>Gratz apparatus is sold directly through gratzpilates.com and certified dealers — not on Amazon. The apparatus links below go to gratzpilates.com. For accessories, we could not find genuine Gratz leather straps or classical-spec springs on Amazon, so those two items link instead to real, currently-sold (but non-Gratz) Amazon alternatives — clearly labelled as such. We earn a small commission on qualifying Amazon purchases.</AffiliateNote>
+
+            {/* Brand overview */}
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>

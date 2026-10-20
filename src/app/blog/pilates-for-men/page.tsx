@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Men (2026): Benefits, First Class & How to Start",
@@ -38,7 +40,7 @@ const jsonLd = {
       "description": "A practical guide to Pilates for men — the benefits for strength and endurance athletes, common limitations, what to expect in a first class, and how to program it.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-men",
       "datePublished": "2026-09-09",
-      "dateModified": "2026-09-09",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -72,10 +74,15 @@ const PRODUCTS = [
   { name: "Men's Moisture-Wicking Training Top", description: "Fitted rather than loose matters more than it sounds — an instructor needs to see your ribcage and spine position to correct you, and a baggy shirt hides exactly the thing being cued.", price: "From $28", affiliateUrl: "https://www.amazon.com/s?k=mens+fitted+moisture+wicking+training+top&tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["71-inch length for men over six foot", "Men's sizing so the grip sits under a larger foot", "Thoracic and hip flexor release before a session", "Heavier fabric loops for stronger athletes", "A fitted top so your instructor can see alignment"];
+
+const ITEM_LIST = productItemList("Pilates for Men (2026): Benefits, First Class & How to Start", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesForMenPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -88,7 +95,8 @@ export default function PilatesForMenPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates for Men:<br /><span style={{ color: "#8b4a31" }}>What It Actually Delivers</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Joseph Pilates was a boxer and gymnast who built this system training soldiers and athletes, and his early clientele was largely male. The modern perception is almost exactly inverted. That is a marketing accident rather than anything to do with the method — and it means a training tool that addresses the specific weaknesses of a typical male training history is being skipped by the people who would benefit most from it.
@@ -106,6 +114,9 @@ export default function PilatesForMenPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why it maps so well onto male training gaps</h2>
@@ -206,7 +217,6 @@ export default function PilatesForMenPage() {
             </div>
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

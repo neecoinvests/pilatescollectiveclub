@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Diastasis Recti (2026): Safe Exercises",
@@ -90,7 +93,7 @@ const jsonLd = {
       "description": "Safe Pilates exercises for diastasis recti — evidence-based guidance on recovery, progression, and what to avoid.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-diastasis-recti",
       "datePublished": "2026-06-26",
-      "dateModified": "2026-06-26",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -115,10 +118,15 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best abdominal support for early recovery", "Best mat for floor-based recovery work", "Best resistance bands for DR rehab", "Best prop for breathing exercises", "Best structured recovery guide"];
+
+const ITEM_LIST = productItemList("Pilates for Diastasis Recti (2026): Safe Exercises", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesForDiastasisRectiPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -131,7 +139,8 @@ export default function PilatesForDiastasisRectiPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates for<br /><span style={{ color: "#8b4a31" }}>Diastasis Recti</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Diastasis recti — the separation of the rectus abdominis muscles at the linea alba — affects up to 60% of women at some point postpartum. Pilates, when correctly adapted, is one of the most effective rehabilitation modalities available. When incorrectly applied, it can delay recovery and worsen the separation. The distinction is in the details: which exercises, in what sequence, with what breath pattern, at what stage of recovery.
@@ -153,6 +162,9 @@ export default function PilatesForDiastasisRectiPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is diastasis recti?</h2>

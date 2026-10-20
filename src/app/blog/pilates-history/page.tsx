@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "The History of Pilates: From Joseph Pilates to Today (2026)",
@@ -40,7 +42,7 @@ const jsonLd = {
       "description": "The complete history of Pilates — Joseph Pilates' origins, Contrology, his New York studio, the lineage wars, and the method's global expansion.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-history",
       "datePublished": "2026-05-14",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -65,10 +67,15 @@ const PRODUCTS = [
   { name: "Balanced Body Magic Circle", description: "Joseph Pilates invented the magic circle — reportedly from a beer keg ring — to teach lateral body integration. Owning one connects practitioners directly to the history and ingenuity of the original method.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Joseph Pilates' 1945 mat programme", "His first published book (1934)", "The modern anatomy reference for Pilates", "A mat for the original 34 exercises", "The prop Joseph Pilates himself invented"];
+
+const ITEM_LIST = productItemList("The History of Pilates: From Joseph Pilates to Today (2026)", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesHistoryPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -81,7 +88,8 @@ export default function PilatesHistoryPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The History of Pilates:<br /><span style={{ color: "#8b4a31" }}>From Joseph Pilates to Today</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 14 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 14 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Pilates is one of the few exercise methods that bears the name of a specific person — and that person remains both revered and contested nearly sixty years after his death. Joseph Hubertus Pilates was a fighter, an inventor, and an obsessive who developed his method across four decades of iteration before it found its global audience. Understanding the history of the method illuminates why the classical versus contemporary debate exists, why lineage matters, and why the Pilates you encounter in a boutique studio today is both deeply connected to and meaningfully different from what was practised on West 56th Street in 1960.
@@ -99,6 +107,9 @@ export default function PilatesHistoryPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto space-y-14">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Origins: Mönchengladbach to London, 1880–1914</h2>
@@ -164,7 +175,6 @@ export default function PilatesHistoryPage() {
 
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

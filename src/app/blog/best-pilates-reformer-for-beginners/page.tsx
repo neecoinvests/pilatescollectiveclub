@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -90,7 +92,7 @@ const jsonLd = {
       "description": "The best Pilates reformer for beginners — six real, verified Amazon listings, honest advice on which machine to start on, and when NOT to buy before you're ready.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-beginners",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -132,6 +134,8 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best overall reformer for beginners", "Best budget entry for absolute beginners", "Cheapest genuine spring reformer, for a beginner who wants real springs, not cord", "Best premium first reformer", "Best non-folding beginner investment", "Best mid-range first spring reformer"];
+
 export default function BestPilatesReformerForBeginnersPage() {
   return (
     <>
@@ -149,7 +153,8 @@ export default function BestPilatesReformerForBeginnersPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Reformer for Beginners (2026):<br /><span style={{ color: "#8b4a31" }}>What to Buy (and When to Buy It)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Most beginner reformer guides start with the machine. This one starts with an honest question: are you ready to buy? Buying a home reformer before you understand the machine is one of the most reliable ways to spend $300–$3,500 on something that collects dust — this guide tells you when to buy, what to buy, and which beginner mistake to avoid at every price point.
@@ -169,6 +174,9 @@ export default function BestPilatesReformerForBeginnersPage() {
         {/* Main content */}
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             {/* Section A: Should you buy before studio lessons? */}
             <div className="mb-16 mt-4">
@@ -235,7 +243,6 @@ export default function BestPilatesReformerForBeginnersPage() {
                   </div>
                 ))}
               </div>
-              <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
               {/* ProductCards */}
               <div className="space-y-10">

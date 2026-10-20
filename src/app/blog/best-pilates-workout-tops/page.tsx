@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -93,7 +95,7 @@ const jsonLd = {
       "description": "The best workout tops and sports bras for Pilates in 2026 — compared on coverage, visibility, and reformer comfort.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-workout-tops",
       "datePublished": "2026-05-14",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -119,6 +121,8 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best overall Pilates tank top", "Best sports bra for reformer Pilates", "Best boutique studio top", "Best sustainable option", "Best budget top"];
+
 export default function BestPilatesWorkoutTopsPage() {
   return (
     <>
@@ -136,6 +140,7 @@ export default function BestPilatesWorkoutTopsPage() {
               Best Pilates Tops &amp; Sports Bras<br /><span style={{ color: "#8b4a31" }}>(2026): Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Pilates tops need to do something most activewear tops don&apos;t: stay in place and provide clean lines for instructor observation across an enormous range of body positions — lying supine, prone, side-lying, seated, standing, and everything in between. A top that rides up during the hundred, bunches during shoulder bridge, or restricts shoulder mobility during long stretch makes the class both uncomfortable and less effective. These five options have been selected because they actually solve these problems.
@@ -154,7 +159,9 @@ export default function BestPilatesWorkoutTopsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a Pilates top different</h2>

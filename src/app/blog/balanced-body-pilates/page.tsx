@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Balanced Body Pilates (2026): Props to $4,700 Reformers",
@@ -86,7 +88,7 @@ const jsonLd = {
       "description": "The definitive guide to Balanced Body equipment genuinely sold on Amazon — the Studio Reformer, Allegro Stretch, Pilates Arc, and other accessories — since \"Allegro 2\" is not a live listing. Honest review from a practitioner perspective.",
       "url": "https://pilatescollectiveclub.com/blog/balanced-body-pilates",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-09-22",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -112,10 +114,15 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["The real Balanced Body flagship sold on Amazon", "The real, lower-priced Balanced Body reformer on Amazon", "The real Balanced Body spine corrector, sold on Amazon", "The genuine cardio add-on, sold on Amazon", "Keep a spare set on hand"];
+
+const ITEM_LIST = productItemList("Balanced Body Pilates (2026): Props to $4,700 Reformers", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function BalancedBodyPilatesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         {/* Hero section */}
@@ -129,7 +136,8 @@ export default function BalancedBodyPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Balanced Body for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Equipment, Quality &amp; Honest Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Balanced Body is the world&apos;s largest Pilates equipment manufacturer — a company founded in 1976 that has shaped what professional Pilates equipment looks and performs like for five decades. Practitioners choose Balanced Body because their machines represent the clearest path from entry-level practice to professional-grade work without changing brands. This guide covers their most important equipment, who it is actually for, and what to understand before committing to a purchase at any price point.
@@ -156,8 +164,10 @@ export default function BalancedBodyPilatesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Brand overview */}
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
+            {/* Brand overview */}
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Balanced Body leads the professional Pilates equipment market</h2>

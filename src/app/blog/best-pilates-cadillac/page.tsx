@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -116,7 +118,7 @@ const jsonLd = {
       "description": "The Pilates Cadillac (Trapeze Table) explained — Balanced Body's professional standalone table plus real budget reformer/Cadillac/tower combo units from LeisureKing, Gndigufa, Yorkgargen and PAETA, with Merrithew, Align-Pilates and Gratz covered as dealer-direct options. What it does, who needs one, and what a full setup costs at every budget.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-cadillac",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -158,6 +160,8 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["The professional, certification-recognized standalone Cadillac", "Real budget combo, one frame, reformer and Cadillac/tower modes", "Real budget combo, reformer, tower, and a sitting box bundled in", "Real budget combo, same tier as Gndigufa, with a jump board instead", "Real mid-budget combo, wood-frame reformer with Cadillac trapeze", "Not sold on Amazon, genuine STOTT PILATES apparatus, dealer-direct", "Not sold on Amazon, converts an existing Align reformer", "Not sold on Amazon, the classical standard, dealer-direct"];
+
 export default function BestPilatesCadillaPage() {
   return (
     <>
@@ -175,7 +179,8 @@ export default function BestPilatesCadillaPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Cadillac &amp; Trapeze Table (2026):<br /><span style={{ color: "#8b4a31" }}>The Complete Apparatus Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 10 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The Pilates Cadillac — also called the Trapeze Table — is the most comprehensive single piece of apparatus in the classical Pilates system, and the one most people have never used. It combines the spring resistance of a reformer with hanging, suspension, and vertical spring work that no other apparatus can replicate. This guide explains what the Cadillac does, who genuinely needs one, and which real options exist at every budget — honestly: Balanced Body&apos;s Trapeze Table/Cadillac is the professional, certification-recognized standalone apparatus, verified as a real, live Amazon listing. Below it sit four genuine, currently-sold budget reformer/Cadillac/tower combo units from LeisureKing, Gndigufa, Yorkgargen and PAETA — 2-in-1 home machines, not standalone Cadillacs, but a real way to add trapeze and tower work without two separate large purchases. Merrithew, Align-Pilates and Gratz build genuine Cadillac apparatus too, but it&apos;s dealer-direct only, so we&apos;ve linked to the manufacturers rather than a fabricated Amazon offer.
@@ -195,8 +200,10 @@ export default function BestPilatesCadillaPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* What is the Pilates Cadillac */}
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
+            {/* What is the Pilates Cadillac */}
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is the Pilates Cadillac and what does it do?</h2>

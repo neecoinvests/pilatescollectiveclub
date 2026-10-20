@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Runners (2026): Work That Prevents Injury",
@@ -40,7 +42,7 @@ const jsonLd = {
       "description": "How Pilates specifically helps runners — the exercises that address the actual movement deficits that cause running injuries.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-runners",
       "datePublished": "2026-05-14",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -74,10 +76,15 @@ const PRODUCTS = [
   { name: "Trideer 9-inch Pilates Ball", description: "Used for hip and glute activation during mat Pilates — between the knees during bridging, it activates the adductor-glute chain that stabilises the pelvis during running gait.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["The standard release tool for runners", "Glute and hip abductor strength between sessions", "Stable, high-density mat for hip and core work", "Lateral hip resistance runners usually lack", "Glute and adductor activation in bridging"];
+
+const ITEM_LIST = productItemList("Pilates for Runners (2026): Work That Prevents Injury", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesForRunnersPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -90,7 +97,8 @@ export default function PilatesForRunnersPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates for Runners:<br /><span style={{ color: "#8b4a31" }}>The Work That Actually Helps</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Runners who add Pilates to their training often describe the same experience: a gradual disappearance of the niggles that had become background noise — the hip that tightened after long runs, the knee that ached on descents, the lower back that stiffened after speed work. This isn&apos;t coincidence. Pilates systematically addresses the specific movement deficits that running both requires and creates. This guide explains the mechanism, the exercises that matter most, and how to structure Pilates within a running programme.
@@ -108,6 +116,9 @@ export default function PilatesForRunnersPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why running creates the problems Pilates fixes</h2>
@@ -204,7 +215,6 @@ export default function PilatesForRunnersPage() {
 
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
