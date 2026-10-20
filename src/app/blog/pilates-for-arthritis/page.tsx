@@ -240,6 +240,9 @@ export default function PilatesForArthritisPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Seniors" excerpt="Age-appropriate Pilates — safe exercises, modifications, and the genuine benefits of practice over 60." href="/blog/pilates-for-seniors" category="Health" readTime="8 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Pilates for Back Pain" excerpt="Evidence-based Pilates for chronic and acute back pain — what works and what the research says." href="/blog/pilates-for-back-pain" category="Health" readTime="9 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Pilates for Knee Pain (2026): Exercises & What to Avoid" excerpt="Pilates for knee pain: which exercises strengthen the structures around the knee, which are safe with different…" href="/blog/pilates-for-knee-pain" category="Health" readTime="11 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Pilates for Fibromyalgia (2026): Gentle Exercises & Tips" excerpt="How Pilates helps fibromyalgia, the evidence on pain reduction, fatigue management, and sleep improvement, plus…" href="/blog/pilates-for-fibromyalgia" category="Health" readTime="9 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
               </div>
             </div>
           </div>

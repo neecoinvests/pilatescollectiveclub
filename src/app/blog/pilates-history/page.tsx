@@ -191,6 +191,9 @@ export default function PilatesHistoryPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Classical vs Contemporary Pilates" excerpt="The split between the original Contrology method and modern functional interpretations." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="8 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Books" excerpt="From Joseph Pilates' 1945 manifesto to modern biomechanics texts." href="/blog/best-pilates-books" category="Reading" readTime="8 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="The 6 Core Principles of Pilates Explained" excerpt="Centring, concentration, control, precision, breath, flow, the six principles that define the Pilates method…" href="/blog/6-core-principles-of-pilates-explained" category="Guide" readTime="7 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Pilates Exercises for Beginners (2026): 15 Moves to Start" excerpt="15 foundational Pilates exercises for beginners, reformer and mat moves explained with modifications, spring…" href="/blog/pilates-exercises-for-beginners" category="Guide" readTime="11 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Beginner's Guide to Reformer Pilates (2026): What to Expect" excerpt="Everything before your first reformer class, what to wear, what to expect, how to choose a studio, and how to…" href="/blog/beginners-guide-to-reformer-pilates" category="Reformers" readTime="7 min read" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
               </div>
             </div>
           </div>

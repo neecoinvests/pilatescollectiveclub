@@ -243,6 +243,9 @@ export default function PilatesForCyclistsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Runners" excerpt="Why runners benefit from Pilates — the specific muscles it targets and how to programme it alongside training." href="/blog/pilates-for-runners" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Pilates Before or After Cardio?" excerpt="The evidence-based answer on sequencing Pilates with your cardio training." href="/blog/pilates-before-or-after-cardio" category="Guide" readTime="6 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
+                <ArticleCard title="Pilates for Athletes (2026): Cross-Training That Works" excerpt="Pilates for athletes: reformer and mat exercises that build stability, correct imbalances, and improve performance…" href="/blog/pilates-for-athletes" category="Guide" readTime="7 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
+                <ArticleCard title="Best Indoor Spin Bike for Home Studios (2026)" excerpt="The best indoor spin bikes for building a home cycling studio, Peloton, Schwinn IC4, NordicTrack, and budget picks…" href="/blog/best-indoor-spin-bike-for-home-studio" category="Spin" readTime="11 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
+                <ArticleCard title="Pilates for Back Pain (2026): What the Research Shows" excerpt="Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain.…" href="/blog/pilates-for-back-pain" category="Health" readTime="8 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
               </div>
             </div>
           </div>

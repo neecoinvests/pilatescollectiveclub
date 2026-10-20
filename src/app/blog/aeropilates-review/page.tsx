@@ -286,6 +286,9 @@ export default function AeroPilatesReviewPage() {
                   date="May 2026"
                   imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg"
                 />
+                <ArticleCard title="Best Pilates Reformer Under $1,000 (2026): 6 Real Picks" excerpt="Six genuine, currently-sold reformers under $1,000: four real spring-based budget reformers (WINDFOOT, DWKWE, two…" href="/blog/best-pilates-reformer-under-1000" category="Reformers" readTime="9 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer for Beginners (2026): 6 Starter Picks" excerpt="The best Pilates reformers for beginners, six real, verified Amazon listings from a $295.99 genuine-spring budget…" href="/blog/best-pilates-reformer-for-beginners" category="Reformers" readTime="9 min read" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
+                <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
               </div>
             </div>
 

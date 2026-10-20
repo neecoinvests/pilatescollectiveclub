@@ -245,6 +245,9 @@ export default function BestReformerAccessoriesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformer" excerpt="Every price tier reviewed — from budget entry-level to professional studio quality." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Mats, resistance bands, rings, and reformer alternatives for your home setup." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer Brands (2026): Complete Brand Guide" excerpt="The best Pilates reformer brands of 2026: Balanced Body, Merrithew, Gratz, Align, and more compared on spring…" href="/blog/best-pilates-reformer-brands" category="Activewear" readTime="18 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer for Small Spaces (2026): 7 Picks" excerpt="The best Pilates reformers for small spaces, seven real, verified Amazon listings, foldable and compact options…" href="/blog/best-pilates-reformer-for-small-spaces" category="Reformers" readTime="9 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Reformer Pilates Essentials (2026): What to Bring & Wear" excerpt="Balanced Body's Pilates Arc is a step barrel / spine corrector: a small curved prop used for spinal extension…" href="/blog/reformer-pilates-essentials" category="Reformers" readTime="12 min read" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
               </div>
             </div>
           </div>

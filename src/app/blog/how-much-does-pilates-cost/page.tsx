@@ -258,6 +258,9 @@ export default function HowMuchDoesPilatesCostPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How Much Does a Pilates Reformer Cost?" excerpt="Home machines from $330 to studio apparatus past $6,000 — what the money actually buys." href="/blog/how-much-does-a-pilates-reformer-cost" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
                 <ArticleCard title="Is Reformer Pilates Worth It?" excerpt="An honest look at what reformer classes deliver over mat work, and who should pay the premium." href="/blog/is-reformer-pilates-worth-it" category="Guide" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
+                <ArticleCard title="Best Home Pilates Reformer (2026): $359 to $4,700 Compared" excerpt="Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint, plus which budget tier…" href="/blog/best-home-pilates-reformer" category="Reformers" readTime="11 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Pilates Exercises for Beginners (2026): 15 Moves to Start" excerpt="15 foundational Pilates exercises for beginners, reformer and mat moves explained with modifications, spring…" href="/blog/pilates-exercises-for-beginners" category="Guide" readTime="11 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Beginner's Guide to Reformer Pilates (2026): What to Expect" excerpt="Everything before your first reformer class, what to wear, what to expect, how to choose a studio, and how to…" href="/blog/beginners-guide-to-reformer-pilates" category="Reformers" readTime="7 min read" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
               </div>
             </div>
           </div>

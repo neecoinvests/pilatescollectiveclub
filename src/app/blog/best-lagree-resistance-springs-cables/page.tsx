@@ -223,6 +223,9 @@ export default function BestLagreeResistanceSpringsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Megaformer Machine (2026)" excerpt="Lagree M3S, The Micro, M3X, and more compared for home and studio Lagree training." href="/blog/best-megaformer-machine" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Lagree vs Pilates: What's the Difference?" excerpt="A complete breakdown of method, equipment, tempo, and goals — what separates Lagree from classical Pilates." href="/blog/lagree-vs-pilates" category="Method Guide" readTime="10 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Mini Resistance Loops for Pilates (2026): 5 Picks" excerpt="Five real, currently-sold mini resistance loop band sets for Pilates glute and hip activation, Fit Simplify…" href="/blog/best-mini-resistance-loops-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Resistance Bands (2026): 5 Picks Compared" excerpt="Five real, currently-sold resistance band sets for Pilates, Fit Simplify, Synergee, Perform Better, WIKDAY, and…" href="/blog/best-pilates-resistance-bands" category="Guide" readTime="6 min read" imageUrl="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg" />
+                <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
               </div>
             </div>
           </div>

@@ -234,6 +234,9 @@ export default function PilatesVsGymPage() {
             { title: "Pilates vs Yoga", href: "/blog/pilates-vs-yoga", readTime: "9 min read", imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg" },
             { title: "Best Home Pilates Reformer", href: "/blog/best-home-pilates-reformer", readTime: "11 min read", imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" },
             { title: "Pilates for Athletes", href: "/blog/pilates-for-athletes", readTime: "9 min read", imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" },
+            { title: "Does Pilates Build Muscle? What the Science Says (2026)", href: "/blog/does-pilates-build-muscle", readTime: "8 min read", imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" },
+            { title: "Pilates Exercises for Beginners (2026): 15 Moves to Start", href: "/blog/pilates-exercises-for-beginners", readTime: "11 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
+            { title: "Beginner's Guide to Reformer Pilates (2026): What to Expect", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "7 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
           ]} />
         </div>
       </main>

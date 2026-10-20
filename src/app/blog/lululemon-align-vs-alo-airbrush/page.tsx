@@ -960,6 +960,9 @@ export default function LululemonAlignVsAloAirbrushPage() {
                 date="May 2026"
                 imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"
               />
+              <ArticleCard title="Lululemon Align Review (2026): Is It Opaque Enough?" excerpt="Lululemon Align reviewed for Pilates, is Nulu opaque enough on a reformer? Waistband hold, sizing, and an honest…" href="/blog/lululemon-align-review" category="Activewear" readTime="10 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+              <ArticleCard title="Lululemon for Pilates (2026): Align vs Wunder Train" excerpt="Which Lululemon lines suit Pilates, Align, Wunder Train and Define compared on opacity, compression and how they…" href="/blog/lululemon-pilates" category="Activewear" readTime="10 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+              <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
             </div>
 
           </div>

@@ -219,6 +219,9 @@ export default function BestYogaMatTowelForPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Mat (2026)" excerpt="The mat under the towel — thickness, grip, and portability compared across every price point." href="/blog/best-pilates-mat" category="Equipment" readTime="7 min read" date="March 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Lagree vs Pilates: What's the Difference?" excerpt="Method, equipment, tempo, and goals — everything that separates Lagree from classical Pilates." href="/blog/lagree-vs-pilates" category="Method Guide" readTime="10 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Sweat Towel for Lagree (2026): Grip & Hand Towels" excerpt="Two towels, two jobs: a grip towel for a sweaty carriage and a quick-dry hand towel for face and handles. Five…" href="/blog/best-sweat-towel-for-lagree" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-water-towel-bench.png" />
+                <ArticleCard title="Best Yoga Blocks for Pilates (2026): 5 Real Options Compared" excerpt="Five real, in-stock Amazon yoga blocks for Pilates, Gaiam, Septo, Fitvids, KEEP, and POUYRBA, compared by price…" href="/blog/best-yoga-blocks-for-pilates" category="Guide" readTime="5 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Best Bolsters for Pilates (2026): Compared & Ranked" excerpt="The best bolsters for Pilates compared, rectangular, round, pranayama and prenatal bolsters ranked for firmness…" href="/blog/best-yoga-bolster-for-pilates" category="Guide" readTime="8 min read" imageUrl="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" />
               </div>
             </div>
           </div>

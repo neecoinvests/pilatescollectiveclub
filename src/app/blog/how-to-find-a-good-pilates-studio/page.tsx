@@ -236,6 +236,9 @@ export default function HowToFindStudioPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How to Choose a Pilates Instructor" excerpt="Credentials, lineage, teaching style — what actually matters when selecting your teacher." href="/blog/how-to-choose-a-pilates-instructor" category="Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
                 <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Beginners" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
+                <ArticleCard title="How Much Does Pilates Cost? (2026 Price Guide)" excerpt="What Pilates actually costs in 2026, class, pack and membership pricing by format and city, the fees nobody…" href="/blog/how-much-does-pilates-cost" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-reformer-row-studio.png" />
+                <ArticleCard title="Pilates Exercises for Beginners (2026): 15 Moves to Start" excerpt="15 foundational Pilates exercises for beginners, reformer and mat moves explained with modifications, spring…" href="/blog/pilates-exercises-for-beginners" category="Guide" readTime="11 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="How Often Should You Do Pilates? (2026 Expert Guide)" excerpt="How often to do Pilates for results, frequency recommendations for beginners, intermediates, and advanced…" href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
               </div>
             </div>
           </div>

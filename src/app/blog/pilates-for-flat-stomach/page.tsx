@@ -232,6 +232,9 @@ export default function PilatesForFlatStomachPage() {
             { title: "10 Pilates Exercises for Beginners", href: "/blog/pilates-exercises-for-beginners", readTime: "11 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
             { title: "Pilates for Weight Loss", href: "/blog/pilates-for-weight-loss", readTime: "10 min read", imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" },
             { title: "Best Pilates Mat (2026)", href: "/blog/best-pilates-mat", readTime: "9 min read", imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" },
+            { title: "Pilates for Diastasis Recti (2026): Safe Exercises", href: "/blog/pilates-for-diastasis-recti", readTime: "9 min read", imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" },
+            { title: "Best Exercise Sliders for Pilates (2026): 5 Picks Compared", href: "/blog/best-exercise-sliders-for-pilates", readTime: "5 min read", imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" },
+            { title: "Pilates for Back Pain (2026): What the Research Shows", href: "/blog/pilates-for-back-pain", readTime: "8 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
           ]} />
         </div>
       </main>

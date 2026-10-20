@@ -517,7 +517,7 @@ export default function BlogEquipmentPage() {
               >
                 Further reading
               </h2>
-              <div className="max-w-sm">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard
                   title="The Best Pilates Studios in Zurich"
                   excerpt="Our complete guide to Zurich's best reformer studios, mat classes, and private sessions."
@@ -526,6 +526,9 @@ export default function BlogEquipmentPage() {
                   readTime="8 min read"
                   date="May 2026"
                 />
+                <ArticleCard title="Best Pilates Equipment for Men (2026): Reformers & Gear" excerpt="The best Pilates equipment for men, reformers, mats, resistance bands, and accessories reviewed for male…" href="/blog/best-pilates-equipment-for-men" category="Guide" readTime="10 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Equipment Storage (2026): Racks, Carts & Bins" excerpt="Pilates equipment storage ranked, mat racks, rolling prop carts, wall rails, storage benches and bins that keep a…" href="/blog/best-pilates-equipment-storage" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-studio-bench-towels.png" />
+                <ArticleCard title="How to Build a Consistent Pilates Practice (2026)" excerpt="How to build a consistent Pilates practice: scheduling, progressive programming, home vs. studio balance, and…" href="/blog/how-to-build-a-consistent-pilates-practice" category="Guide" readTime="10 min read" imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" />
               </div>
             </section>
           </div>

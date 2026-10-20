@@ -219,6 +219,9 @@ export default function BestPilatesHeadbandPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="What to Wear to Pilates" excerpt="A complete guide to studio-appropriate clothing, grip socks, and accessories." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory — five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Headband for Lagree (2026): 6 Sweatproof, No-Slip Picks" excerpt="The best sweatproof, no-slip headbands for Lagree: Halo, Sweaty Bands, Nike, Under Armour, Bondi Band and a…" href="/blog/best-headband-for-lagree" category="Lagree" readTime="7 min read" imageUrl="/pictures/stitch-studio-round-mirror.png" />
+                <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Athleta for Pilates (2026): Best Leggings & Tops Reviewed" excerpt="Best Athleta pieces for Pilates, Salutation, Elation, and Brooklyn leggings reviewed for reformer class…" href="/blog/athleta-pilates" category="Activewear" readTime="9 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
               </div>
             </div>
           </div>

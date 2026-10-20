@@ -413,6 +413,9 @@ export default function BestMoistureWickingTopPage() {
                   readTime="9 min"
                   imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg"
                 />
+                <ArticleCard title="Best Pilates Tops (2026): Tanks, Bra Tops & Long-Sleeves" excerpt="The best tops for Pilates class, fitted tanks, bra tops, and long-sleeve options reviewed for reformer coverage…" href="/blog/best-pilates-workout-tops" category="Activewear" readTime="8 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Tank Tops (2026)" excerpt="The best tank tops for Pilates, racerbacks, strappy styles, and seamless options compared on breathability…" href="/blog/best-pilates-tank-tops" category="Activewear" readTime="8 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>
           </div>

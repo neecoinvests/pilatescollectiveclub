@@ -220,6 +220,9 @@ export default function BestPilatesToteBagPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Bags (2026)" excerpt="Studio totes, duffels, and mat carriers — the complete guide for every type of practitioner." href="/blog/best-pilates-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory — five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Mat Tote Bags (2026): Carry Your Mat in Style" excerpt="The best mat tote bags for Pilates, reviewed for mat fit, capacity, and durability. Top picks for women who carry…" href="/blog/best-pilates-mat-tote" category="Guide" readTime="6 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
+                <ArticleCard title="Best Pilates Mat (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates mats on Amazon, from thickness tiers to alignment lines and eco-friendlier TPE, led…" href="/blog/best-pilates-mat" category="Guide" readTime="8 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
               </div>
             </div>
           </div>

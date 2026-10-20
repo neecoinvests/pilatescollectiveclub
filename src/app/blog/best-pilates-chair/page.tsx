@@ -335,6 +335,9 @@ export default function BestPilatesChairPage() {
                   date="May 2026"
                   imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"
                 />
+                <ArticleCard title="Best Home Pilates Reformer (2026): $359 to $4,700 Compared" excerpt="Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint, plus which budget tier…" href="/blog/best-home-pilates-reformer" category="Reformers" readTime="11 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer Brands (2026): Complete Brand Guide" excerpt="The best Pilates reformer brands of 2026: Balanced Body, Merrithew, Gratz, Align, and more compared on spring…" href="/blog/best-pilates-reformer-brands" category="Activewear" readTime="18 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer for Small Spaces (2026): 7 Picks" excerpt="The best Pilates reformers for small spaces, seven real, verified Amazon listings, foldable and compact options…" href="/blog/best-pilates-reformer-for-small-spaces" category="Reformers" readTime="9 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
               </div>
             </div>
           </div>

@@ -252,6 +252,9 @@ export default function ClassicalVsContemporaryPage() {
             { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
             { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
             { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
+            { title: "The History of Pilates: From Joseph Pilates to Today (2026)", href: "/blog/pilates-history", readTime: "14 min read", imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" },
+            { title: "Best Pilates Reformer Brands (2026): Complete Brand Guide", href: "/blog/best-pilates-reformer-brands", readTime: "18 min read", imageUrl: "/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" },
+            { title: "Pilates Exercises for Beginners (2026): 15 Moves to Start", href: "/blog/pilates-exercises-for-beginners", readTime: "11 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
           ]} />
         </div>
       </main>

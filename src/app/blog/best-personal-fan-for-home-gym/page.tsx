@@ -232,6 +232,9 @@ export default function BestPersonalFanPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios (2026)" excerpt="Peloton, Schwinn IC4, NordicTrack, and budget bikes compared for resistance and connected apps." href="/blog/best-indoor-spin-bike-for-home-studio" category="Spinning" readTime="11 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
                 <ArticleCard title="Best Floor Mat for Spin Bike (2026)" excerpt="Floor mats compared for sweat absorption, bike stability, and floor protection." href="/blog/best-floor-mat-for-spin-bike" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="How to Set Up a Home Pilates Studio (2026): Complete Guide" excerpt="How to set up a home Pilates studio, space planning, reformer selection, flooring, lighting, and essential…" href="/blog/home-pilates-studio-setup" category="Guide" readTime="10 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Best Flooring for a Home Pilates Studio (2026)" excerpt="Home Pilates studio flooring compared, interlocking EVA foam tiles ranked by price, coverage and durability…" href="/blog/best-flooring-for-home-pilates-studio" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />
+                <ArticleCard title="Best Home Pilates Reformer (2026): $359 to $4,700 Compared" excerpt="Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint, plus which budget tier…" href="/blog/best-home-pilates-reformer" category="Reformers" readTime="11 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
               </div>
             </div>
           </div>

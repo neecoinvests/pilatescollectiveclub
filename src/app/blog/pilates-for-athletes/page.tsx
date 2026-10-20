@@ -229,6 +229,9 @@ export default function PilatesForAthletesPage() {
             { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
             { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
             { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Pilates for Runners (2026): Work That Prevents Injury", href: "/blog/pilates-for-runners", readTime: "11 min read", imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" },
+            { title: "Does Pilates Build Muscle? What the Science Says (2026)", href: "/blog/does-pilates-build-muscle", readTime: "8 min read", imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" },
+            { title: "Pilates for Cyclists (2026): Power, Posture & Recovery", href: "/blog/pilates-for-cyclists", readTime: "8 min read", imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" },
           ]} />
         </div>
       </main>

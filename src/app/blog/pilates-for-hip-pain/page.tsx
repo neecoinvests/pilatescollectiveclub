@@ -248,6 +248,9 @@ export default function PilatesForHipPainPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates to address chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 <ArticleCard title="Pilates for Runners" excerpt="Hip stability, IT band relief, and cadence work — the specific Pilates that helps runners." href="/blog/pilates-for-runners" category="Performance" readTime="11 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
+                <ArticleCard title="Pilates for Sciatica (2026): Safe Exercises & What to Avoid" excerpt="Pilates for sciatica: which exercises calm nerve pain, which aggravate a disc, and how the approach changes for…" href="/blog/pilates-for-sciatica" category="Health" readTime="12 min read" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="Pilates for Knee Pain (2026): Exercises & What to Avoid" excerpt="Pilates for knee pain: which exercises strengthen the structures around the knee, which are safe with different…" href="/blog/pilates-for-knee-pain" category="Health" readTime="11 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
               </div>
             </div>
           </div>

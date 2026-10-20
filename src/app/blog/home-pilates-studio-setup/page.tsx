@@ -690,6 +690,9 @@ export default function HomePilatesStudioSetupPage() {
                   date="May 2026"
                   imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"
                 />
+                <ArticleCard title="Best Flooring for a Home Pilates Studio (2026)" excerpt="Home Pilates studio flooring compared, interlocking EVA foam tiles ranked by price, coverage and durability…" href="/blog/best-flooring-for-home-pilates-studio" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />
+                <ArticleCard title="Best Mirrors for a Home Pilates Studio (2026)" excerpt="Home Pilates studio mirrors compared, leaning, frameless wall panels, shatterproof acrylic and rolling gym…" href="/blog/best-mirror-for-home-pilates-studio" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-luxury-studio-wide.png" />
+                <ArticleCard title="Best Pilates Equipment Storage (2026): Racks, Carts & Bins" excerpt="Pilates equipment storage ranked, mat racks, rolling prop carts, wall rails, storage benches and bins that keep a…" href="/blog/best-pilates-equipment-storage" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-studio-bench-towels.png" />
               </div>
             </div>
 

@@ -253,6 +253,9 @@ export default function CaloriesPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Weight Loss" excerpt="What Pilates does and doesn't do for weight loss — the honest, evidence-based answer." href="/blog/pilates-for-weight-loss" category="Guide" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Does Pilates Build Muscle?" excerpt="The honest science-based answer on Pilates and muscle development." href="/blog/does-pilates-build-muscle" category="Guide" readTime="8 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="How Many Calories Does Lagree Burn? (2026 Honest Numbers)" excerpt="How many calories a 50-minute Lagree class burns: studio claims vs the research, a table by body weight and…" href="/blog/how-many-calories-does-lagree-burn" category="Lagree" readTime="9 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
+                <ArticleCard title="Best Heart Rate Monitor for Pilates & Spin (2026)" excerpt="The best heart rate monitor chest straps for Pilates, Lagree, and spin class, Polar, CooSpo, CYCPLUS and Powr Labs…" href="/blog/best-heart-rate-monitor-for-pilates-and-spin" category="Spin" readTime="8 min read" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Smartwatch for Pilates (2026): Compared & Ranked" excerpt="The best budget smartwatches and fitness trackers for Pilates, heart rate accuracy, thin profile for reformer…" href="/blog/best-smartwatch-for-pilates" category="Guide" readTime="8 min read" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
               </div>
             </div>
           </div>

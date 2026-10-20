@@ -269,6 +269,9 @@ export default function PilatesForFibromyalgiaPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Arthritis" excerpt="Evidence-based guide to Pilates for arthritis — benefits, safe exercises, and how to modify for joint pain." href="/blog/pilates-for-arthritis" category="Health" readTime="8 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Back Pain" excerpt="The evidence on Pilates for chronic and acute back pain — what works, what the research says, and how to start." href="/blog/pilates-for-back-pain" category="Health" readTime="9 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Pilates for Anxiety & Stress (2026): How It Helps" excerpt="How Pilates reduces anxiety and stress: the neuroscience, the breath mechanics, and the specific practice patterns…" href="/blog/pilates-for-anxiety" category="Health" readTime="10 min read" imageUrl="/pictures/stitch-studio-open-window.png" />
+                <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Pilates for Knee Pain (2026): Exercises & What to Avoid" excerpt="Pilates for knee pain: which exercises strengthen the structures around the knee, which are safe with different…" href="/blog/pilates-for-knee-pain" category="Health" readTime="11 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
               </div>
             </div>
           </div>

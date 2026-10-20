@@ -250,6 +250,9 @@ export default function BestPilatesHandWeightsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Ankle Weights (2026)" excerpt="Two real, verified ankle weight options — compared for Pilates use." href="/blog/best-pilates-ankle-weights" category="Equipment" readTime="5 min read" date="September 2026" imageUrl="/pictures/stitch-pilates-ball-mat.png" />
                 <ArticleCard title="Best Pilates Ring (2026)" excerpt="Magic circles — the honest situation, and the closest real bundle option." href="/blog/best-pilates-ring" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/stitch-magic-circle-hand.png" />
+                <ArticleCard title="Best Exercise Sliders for Pilates (2026): 5 Picks Compared" excerpt="Five real, purpose-built core gliding discs for Pilates, Gaiam, A AZURELIFE, Elite Sportz, Gliding, and ZILLEEN…" href="/blog/best-exercise-sliders-for-pilates" category="Guide" readTime="5 min read" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Mini Resistance Loops for Pilates (2026): 5 Picks" excerpt="Five real, currently-sold mini resistance loop band sets for Pilates glute and hip activation, Fit Simplify…" href="/blog/best-mini-resistance-loops-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Ball (2026): 6 Picks, Mini to Stability" excerpt="Six Pilates balls ranked: Balanced Body's 12-inch ball, Bala, ProBody mini and 65cm stability balls, the Byrex…" href="/blog/best-pilates-ball" category="Guide" readTime="7 min read" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
               </div>
             </div>
           </div>

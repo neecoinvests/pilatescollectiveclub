@@ -235,6 +235,9 @@ export default function BestPilatesWorkoutTopsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings" excerpt="From Lululemon Align to CRZ YOGA — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Lagree Tops (2026): Fitted Tanks That Stay Put" excerpt="The best Lagree tops: fitted, sweat-wicking tanks that stay put in planks and never catch on springs or handles…" href="/blog/best-lagree-tops" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Lagree Workout Sets (2026): 5 Matching Outfits" excerpt="Matching legging and bra sets for Lagree: Beyond Yoga, Varley, Sweaty Betty, CRZ YOGA and SUUKSESS, with set…" href="/blog/best-lagree-workout-sets" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Pilates Tank Tops (2026)" excerpt="The best tank tops for Pilates, racerbacks, strappy styles, and seamless options compared on breathability…" href="/blog/best-pilates-tank-tops" category="Activewear" readTime="8 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
           </div>

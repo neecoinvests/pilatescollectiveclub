@@ -219,6 +219,9 @@ export default function BestWarmUpJacketForPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to Pilates clothing — what instructors see, what restricts movement, and what the studio expects." href="/blog/what-to-wear-to-pilates" category="Style Guide" readTime="8 min read" date="March 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings (2026)" excerpt="The leggings that make sense on a reformer — grip, compression, and coverage compared across every brand." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Lagree Jacket (2026): The Define Jacket & 6 Fitted Layers" excerpt="What to layer for Lagree: the Define Jacket, fitted alternatives from $20, and the warm cover-up for after class.…" href="/blog/best-lagree-jacket" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-studio-entryway.png" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Athleta for Pilates (2026): Best Leggings & Tops Reviewed" excerpt="Best Athleta pieces for Pilates, Salutation, Elation, and Brooklyn leggings reviewed for reformer class…" href="/blog/athleta-pilates" category="Activewear" readTime="9 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
               </div>
             </div>
           </div>

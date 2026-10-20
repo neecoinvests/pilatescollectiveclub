@@ -259,6 +259,9 @@ export default function BestResistanceBandsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Mats, resistance rings, foam rollers, and more for a complete home setup." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
                 <ArticleCard title="Pilates Reformer vs Mat" excerpt="What's actually different between reformer and mat Pilates — and how to choose." href="/blog/pilates-reformer-vs-mat" category="Method" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
+                <ArticleCard title="Best Mini Resistance Loops for Pilates (2026): 5 Picks" excerpt="Five real, currently-sold mini resistance loop band sets for Pilates glute and hip activation, Fit Simplify…" href="/blog/best-mini-resistance-loops-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Lagree & Megaformer Replacement Springs (2026)" excerpt="The best third-party replacement springs for Megaformer and Lagree-style reformers, compared for tension range and…" href="/blog/best-lagree-resistance-springs-cables" category="Lagree" readTime="9 min read" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Best Exercise Sliders for Pilates (2026): 5 Picks Compared" excerpt="Five real, purpose-built core gliding discs for Pilates, Gaiam, A AZURELIFE, Elite Sportz, Gliding, and ZILLEEN…" href="/blog/best-exercise-sliders-for-pilates" category="Guide" readTime="5 min read" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
               </div>
             </div>
           </div>

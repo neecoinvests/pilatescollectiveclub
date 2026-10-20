@@ -317,6 +317,9 @@ export default function BestPilatesReformerForBeginnersPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point — from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="Everything you need to know before your first reformer session." href="/blog/beginners-guide-to-reformer-pilates" category="Beginners" readTime="8 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer Under $1,000 (2026): 6 Real Picks" excerpt="Six genuine, currently-sold reformers under $1,000: four real spring-based budget reformers (WINDFOOT, DWKWE, two…" href="/blog/best-pilates-reformer-under-1000" category="Reformers" readTime="9 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer Brands (2026): Complete Brand Guide" excerpt="The best Pilates reformer brands of 2026: Balanced Body, Merrithew, Gratz, Align, and more compared on spring…" href="/blog/best-pilates-reformer-brands" category="Activewear" readTime="18 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer for Small Spaces (2026): 7 Picks" excerpt="The best Pilates reformers for small spaces, seven real, verified Amazon listings, foldable and compact options…" href="/blog/best-pilates-reformer-for-small-spaces" category="Reformers" readTime="9 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
               </div>
             </div>
 

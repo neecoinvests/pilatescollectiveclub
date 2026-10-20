@@ -255,6 +255,9 @@ export default function SixPrinciplesPage() {
             { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
             { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
             { title: "How to Build a Consistent Pilates Practice", href: "/blog/how-to-build-a-consistent-pilates-practice", readTime: "7 min read", imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" },
+            { title: "The History of Pilates: From Joseph Pilates to Today (2026)", href: "/blog/pilates-history", readTime: "14 min read", imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" },
+            { title: "Pilates Breathing Techniques (2026): Lateral Breathing", href: "/blog/pilates-breathing-techniques", readTime: "10 min read", imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" },
+            { title: "Pilates Exercises for Beginners (2026): 15 Moves to Start", href: "/blog/pilates-exercises-for-beginners", readTime: "11 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
           ]} />
         </div>
       </main>

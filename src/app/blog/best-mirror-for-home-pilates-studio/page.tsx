@@ -240,6 +240,9 @@ export default function BestMirrorForHomePilatesStudioPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Flooring for a Home Pilates Studio" excerpt="Foam, cork, rubber and vinyl compared for reformers, noise and subfloor protection." href="/blog/best-flooring-for-home-pilates-studio" category="Equipment" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />
                 <ArticleCard title="Home Pilates Studio Setup" excerpt="Space, flooring, equipment and lighting — how to plan a studio that actually gets used." href="/blog/home-pilates-studio-setup" category="Guide" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />
+                <ArticleCard title="Best Lighting for a Home Pilates Studio (2026)" excerpt="Home Pilates studio lighting ranked, dimmable ceiling fixtures, indirect floor lamps, LED strips and smart bulbs…" href="/blog/best-lighting-for-home-pilates-studio" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-studio-arched-windows.png" />
+                <ArticleCard title="Best Home Pilates Reformer (2026): $359 to $4,700 Compared" excerpt="Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint, plus which budget tier…" href="/blog/best-home-pilates-reformer" category="Reformers" readTime="11 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Equipment Storage (2026): Racks, Carts & Bins" excerpt="Pilates equipment storage ranked, mat racks, rolling prop carts, wall rails, storage benches and bins that keep a…" href="/blog/best-pilates-equipment-storage" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-studio-bench-towels.png" />
               </div>
             </div>
           </div>

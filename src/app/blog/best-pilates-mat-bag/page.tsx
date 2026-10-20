@@ -210,6 +210,9 @@ export default function BestPilatesMatBagPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Mats" excerpt="The best mats for Pilates — five options compared on thickness, grip, and durability." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Bags" excerpt="The best studio carry-alls for your full Pilates kit." href="/blog/best-pilates-bag" category="Accessories" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Mat Tote Bags (2026): Carry Your Mat in Style" excerpt="The best mat tote bags for Pilates, reviewed for mat fit, capacity, and durability. Top picks for women who carry…" href="/blog/best-pilates-mat-tote" category="Guide" readTime="6 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Manduka PRO Mat Review (2026): Worth $144 for Pilates?" excerpt="Manduka PRO and eKO mats reviewed for Pilates at $144, thickness, grip, weight, and whether a cheaper mat does the…" href="/blog/manduka-pilates-mat" category="Guide" readTime="9 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
+                <ArticleCard title="Best Luxury Pilates Mats (2026)" excerpt="The finest Pilates mats for serious practitioners, Manduka PRO, Liforme, Hugger Mugger Para Rubber, Manduka…" href="/blog/best-luxury-pilates-mat" category="Guide" readTime="9 min read" imageUrl="/pictures/stitch-mat-setup-beige.png" />
               </div>
             </div>
           </div>

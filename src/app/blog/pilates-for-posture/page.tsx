@@ -244,6 +244,9 @@ export default function PilatesForPosturePage() {
             { title: "Best Foam Roller for Pilates", href: "/blog/best-pilates-foam-roller", readTime: "8 min read", imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" },
             { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "10 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
             { title: "Best Pilates Mat (2026)", href: "/blog/best-pilates-mat", readTime: "9 min read", imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" },
+            { title: "Pilates for Office Workers (2026): Fix Desk Posture & Pain", href: "/blog/pilates-for-office-workers", readTime: "11 min read", imageUrl: "/pictures/stitch-studio-bench-towels.png" },
+            { title: "Pilates for Neck & Shoulder Pain (2026): Exercises That Help", href: "/blog/pilates-for-neck-pain", readTime: "11 min read", imageUrl: "/pictures/stitch-hands-on-carriage.png" },
+            { title: "Pilates for Osteoporosis (2026): Safe Exercise Guide", href: "/blog/pilates-for-osteoporosis", readTime: "12 min read", imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" },
           ]} />
         </div>
       </main>

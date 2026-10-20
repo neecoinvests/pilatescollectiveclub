@@ -216,6 +216,9 @@ export default function PilatesForScoliosisPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates to address chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
                 <ArticleCard title="How to Choose a Pilates Instructor" excerpt="Credentials, lineage, teaching style — what actually matters when selecting your teacher." href="/blog/how-to-choose-a-pilates-instructor" category="Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="Pilates for Posture (2026): Best Exercises for Alignment" excerpt="Pilates for posture improvement, the best reformer and mat exercises to correct forward head posture, rounded…" href="/blog/pilates-for-posture" category="Guide" readTime="9 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Pilates for Sciatica (2026): Safe Exercises & What to Avoid" excerpt="Pilates for sciatica: which exercises calm nerve pain, which aggravate a disc, and how the approach changes for…" href="/blog/pilates-for-sciatica" category="Health" readTime="12 min read" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
               </div>
             </div>
           </div>

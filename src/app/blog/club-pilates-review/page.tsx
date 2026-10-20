@@ -266,6 +266,9 @@ export default function ClubPilatesReviewPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How to Find a Great Pilates Studio" excerpt="The specific questions, green flags, and red flags that separate excellent studios from mediocre ones." href="/blog/how-to-find-a-good-pilates-studio" category="Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer Brands" excerpt="Gratz vs Balanced Body vs Merrithew vs Align — an honest comparison for home and studio use." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
+                <ArticleCard title="Beginner's Guide to Reformer Pilates (2026): What to Expect" excerpt="Everything before your first reformer class, what to wear, what to expect, how to choose a studio, and how to…" href="/blog/beginners-guide-to-reformer-pilates" category="Reformers" readTime="7 min read" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
               </div>
             </div>
           </div>

@@ -223,6 +223,9 @@ export default function BestHeartRateMonitorPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios (2026)" excerpt="Peloton, Schwinn, NordicTrack, and budget bikes compared for building a home cycling studio." href="/blog/best-indoor-spin-bike-for-home-studio" category="Equipment" readTime="11 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
                 <ArticleCard title="Best Megaformer Machine (2026)" excerpt="Lagree M3S, The Micro, M3X, and more compared for home and studio Lagree training." href="/blog/best-megaformer-machine" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Smartwatch for Pilates (2026): Compared & Ranked" excerpt="The best budget smartwatches and fitness trackers for Pilates, heart rate accuracy, thin profile for reformer…" href="/blog/best-smartwatch-for-pilates" category="Guide" readTime="8 min read" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="Best Smart Ring for Pilates (2026): Oura & Budget Picks" excerpt="The best smart rings for Pilates, the premium Oura Ring 5 compared against four budget-friendly rings for heart…" href="/blog/best-smart-ring-for-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="How Many Calories Does Pilates Burn? (2026 Data)" excerpt="How many calories does Pilates burn per session? Accurate data for mat vs reformer Pilates by body weight…" href="/blog/how-many-calories-does-pilates-burn" category="Activewear" readTime="7 min read" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
               </div>
             </div>
           </div>

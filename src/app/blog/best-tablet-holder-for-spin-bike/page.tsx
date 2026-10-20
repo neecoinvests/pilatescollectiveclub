@@ -240,6 +240,9 @@ export default function BestTabletHolderForSpinBikePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Bike Computer for Indoor Cycling" excerpt="Head units and consoles for riders who want real metrics rather than a class screen." href="/blog/best-bike-computer-for-indoor-cycling" category="Spinning" readTime="9 min read" date="June 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
                 <ArticleCard title="Best Personal Fan for a Home Gym" excerpt="Airflow is the difference between a tolerable indoor ride and a miserable one." href="/blog/best-personal-fan-for-home-gym" category="Spinning" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />
+                <ArticleCard title="Best Water Bottle Holders for Spin Bikes (2026)" excerpt="Never lose your water mid-ride. We ranked the best water bottle holders and cages for Peloton, Schwinn…" href="/blog/best-water-bottle-holder-for-spin-bike" category="Spin" readTime="7 min read" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
+                <ArticleCard title="Best Clip-In Pedals for Spin Bikes (2026): SPD vs Delta" excerpt="Clip-in pedals and cleats for indoor bikes ranked, why SPD beats Delta for studio cycling, which pedals fit…" href="/blog/best-clip-in-pedals-for-spin-bike" category="Spin" readTime="9 min read" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
+                <ArticleCard title="Best Floor Mat for Spin Bike (2026): Top Picks Compared" excerpt="The best floor mats for spin bikes and indoor cycling, compared for thickness, sweat absorption, bike stability…" href="/blog/best-floor-mat-for-spin-bike" category="Spin" readTime="7 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
               </div>
             </div>
           </div>

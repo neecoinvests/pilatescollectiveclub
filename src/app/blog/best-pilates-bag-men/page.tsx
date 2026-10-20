@@ -220,6 +220,9 @@ export default function BestPilatesBagMenPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Bags (2026)" excerpt="Studio totes, duffels, and mat carriers — the complete guide for every type of practitioner." href="/blog/best-pilates-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory — five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Clothes for Men (2026): What to Wear" excerpt="The best Pilates clothes for men, fitted shorts, tops and compression tights from Rhone, Lululemon, Vuori, Under…" href="/blog/best-pilates-clothes-for-men" category="Guide" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Equipment for Men (2026): Reformers & Gear" excerpt="The best Pilates equipment for men, reformers, mats, resistance bands, and accessories reviewed for male…" href="/blog/best-pilates-equipment-for-men" category="Guide" readTime="10 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Lagree for Men (2026): What to Wear & What to Expect" excerpt="A man's guide to Lagree: what the class is really like, the clothing that works on a Megaformer, and two complete…" href="/blog/lagree-for-men" category="Lagree" readTime="9 min read" imageUrl="/pictures/stitch-reformer-row-studio.png" />
               </div>
             </div>
           </div>

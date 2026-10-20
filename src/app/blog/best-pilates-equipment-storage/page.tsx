@@ -240,6 +240,9 @@ export default function BestPilatesEquipmentStoragePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Home Pilates Studio Setup" excerpt="Space, flooring, equipment and lighting — how to plan a studio that actually gets used." href="/blog/home-pilates-studio-setup" category="Guide" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />
                 <ArticleCard title="Best Flooring for a Home Pilates Studio" excerpt="Foam, cork, rubber and vinyl compared for reformers, noise and subfloor protection." href="/blog/best-flooring-for-home-pilates-studio" category="Equipment" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />
+                <ArticleCard title="Best Pilates Equipment for Home Practice (2026)" excerpt="The best Pilates equipment for home, reformers, mats, rings, and resistance bands reviewed for durability, value…" href="/blog/best-pilates-equipment-for-home-practice" category="Guide" readTime="10 min read" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Equipment for Men (2026): Reformers & Gear" excerpt="The best Pilates equipment for men, reformers, mats, resistance bands, and accessories reviewed for male…" href="/blog/best-pilates-equipment-for-men" category="Guide" readTime="10 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Pilates Studio Equipment Cost Breakdown (2026): 3 Budgets" excerpt="Itemised equipment budgets for a 3, 6 and 10 reformer Pilates studio, built from current list prices, with the…" href="/blog/pilates-studio-equipment-cost-breakdown" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
               </div>
             </div>
           </div>

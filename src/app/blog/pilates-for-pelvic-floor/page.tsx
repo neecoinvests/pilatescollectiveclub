@@ -224,6 +224,9 @@ export default function PilatesForPelvicFloorPage() {
             { title: "Pilates and Pregnancy", href: "/blog/pilates-and-pregnancy", readTime: "11 min read", imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" },
             { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "10 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
             { title: "Best Pilates Mat (2026)", href: "/blog/best-pilates-mat", readTime: "9 min read", imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" },
+            { title: "Postnatal Pilates (2026): When to Start & How to Progress", href: "/blog/postnatal-pilates", readTime: "10 min read", imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" },
+            { title: "Pilates for Diastasis Recti (2026): Safe Exercises", href: "/blog/pilates-for-diastasis-recti", readTime: "9 min read", imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" },
+            { title: "Pilates for Menopause (2026): Bone Density & Hormones", href: "/blog/pilates-for-menopause", readTime: "13 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
           ]} />
         </div>
       </main>

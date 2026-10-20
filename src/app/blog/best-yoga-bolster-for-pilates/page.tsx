@@ -230,6 +230,9 @@ export default function BestYogaBolsterForPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates and Pregnancy" excerpt="What changes each trimester, which positions to set aside, and how to keep practising safely." href="/blog/pilates-and-pregnancy" category="Health" readTime="11 min read" date="June 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
                 <ArticleCard title="Best Yoga Blocks for Pilates (2026)" excerpt="Cork, foam and wood blocks compared for support, height and stability." href="/blog/best-yoga-blocks-for-pilates" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-props-cork-ring.png" />
+                <ArticleCard title="Best Yoga Mat Towel for Pilates (2026): Compared & Ranked" excerpt="The best yoga mat towels for Pilates, Manduka eQua, Liforme, Gaiam, and more compared for grip, sweat absorption…" href="/blog/best-yoga-mat-towel-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Best Exercise Sliders for Pilates (2026): 5 Picks Compared" excerpt="Five real, purpose-built core gliding discs for Pilates, Gaiam, A AZURELIFE, Elite Sportz, Gliding, and ZILLEEN…" href="/blog/best-exercise-sliders-for-pilates" category="Guide" readTime="5 min read" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Mini Resistance Loops for Pilates (2026): 5 Picks" excerpt="Five real, currently-sold mini resistance loop band sets for Pilates glute and hip activation, Fit Simplify…" href="/blog/best-mini-resistance-loops-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
           </div>

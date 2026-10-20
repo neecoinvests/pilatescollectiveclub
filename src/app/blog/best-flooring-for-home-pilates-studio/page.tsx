@@ -228,6 +228,9 @@ export default function BestFlooringForHomePilatesStudioPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Home Pilates Studio Setup" excerpt="Space, flooring, equipment and lighting — how to plan a home studio that actually gets used." href="/blog/home-pilates-studio-setup" category="Guide" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />
                 <ArticleCard title="Best Pilates Reformer for Small Spaces" excerpt="Foldable and compact machines that fit a flat without dominating it." href="/blog/best-pilates-reformer-for-small-spaces" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
+                <ArticleCard title="Best Mirrors for a Home Pilates Studio (2026)" excerpt="Home Pilates studio mirrors compared, leaning, frameless wall panels, shatterproof acrylic and rolling gym…" href="/blog/best-mirror-for-home-pilates-studio" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-luxury-studio-wide.png" />
+                <ArticleCard title="Best Lighting for a Home Pilates Studio (2026)" excerpt="Home Pilates studio lighting ranked, dimmable ceiling fixtures, indirect floor lamps, LED strips and smart bulbs…" href="/blog/best-lighting-for-home-pilates-studio" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-studio-arched-windows.png" />
+                <ArticleCard title="Best Home Pilates Reformer (2026): $359 to $4,700 Compared" excerpt="Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint, plus which budget tier…" href="/blog/best-home-pilates-reformer" category="Reformers" readTime="11 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
               </div>
             </div>
           </div>

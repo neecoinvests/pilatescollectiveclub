@@ -229,6 +229,9 @@ export default function PilatesAndPregnancyPage() {
             { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
             { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
             { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Postnatal Pilates (2026): When to Start & How to Progress", href: "/blog/postnatal-pilates", readTime: "10 min read", imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" },
+            { title: "Pilates for Pelvic Floor (2026): Exercises & Guidance", href: "/blog/pilates-for-pelvic-floor", readTime: "10 min read", imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" },
+            { title: "Pilates for Diastasis Recti (2026): Safe Exercises", href: "/blog/pilates-for-diastasis-recti", readTime: "9 min read", imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" },
           ]} />
         </div>
       </main>

@@ -240,6 +240,9 @@ export default function BestSpinBikeUnder500Page() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios" excerpt="The full range including Peloton, Schwinn, NordicTrack and Bowflex." href="/blog/best-indoor-spin-bike-for-home-studio" category="Spinning" readTime="12 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
                 <ArticleCard title="Best Spin Bike Seat Cushions" excerpt="Why the stock saddle hurts, and the fix order that solves it properly." href="/blog/best-spin-bike-seat-cushion" category="Spinning" readTime="8 min read" date="September 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Best Clip-In Pedals for Spin Bikes (2026): SPD vs Delta" excerpt="Clip-in pedals and cleats for indoor bikes ranked, why SPD beats Delta for studio cycling, which pedals fit…" href="/blog/best-clip-in-pedals-for-spin-bike" category="Spin" readTime="9 min read" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
+                <ArticleCard title="Best Floor Mat for Spin Bike (2026): Top Picks Compared" excerpt="The best floor mats for spin bikes and indoor cycling, compared for thickness, sweat absorption, bike stability…" href="/blog/best-floor-mat-for-spin-bike" category="Spin" readTime="7 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Best Tablet Holders for Spin Bikes (2026): Compared & Ranked" excerpt="Tablet and phone holders for indoor bikes ranked, clamp mounts, trays and gooseneck arms compared on sweat…" href="/blog/best-tablet-holder-for-spin-bike" category="Spin" readTime="8 min read" imageUrl="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg" />
               </div>
             </div>
           </div>

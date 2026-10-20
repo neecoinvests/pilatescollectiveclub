@@ -237,6 +237,9 @@ export default function PilatesForNeckPainPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates to address chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 <ArticleCard title="Pilates for Posture" excerpt="How Pilates restores alignment and counteracts the postural collapse of modern life." href="/blog/pilates-for-posture" category="Health" readTime="9 min read" date="June 2026" imageUrl="/pictures/stitch-teaser-pose-back.png" />
+                <ArticleCard title="Pilates for Shoulder Pain (2026): Rotator Cuff Exercises" excerpt="Pilates for shoulder pain: scapular stability work that resolves impingement, rotator cuff programming, and the…" href="/blog/pilates-for-shoulder-pain" category="Health" readTime="11 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Pilates for Office Workers (2026): Fix Desk Posture & Pain" excerpt="Pilates for desk workers: the exercises that counteract sitting, tech neck, and hip flexor tightness. A practical…" href="/blog/pilates-for-office-workers" category="Guide" readTime="11 min read" imageUrl="/pictures/stitch-studio-bench-towels.png" />
+                <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
               </div>
             </div>
           </div>

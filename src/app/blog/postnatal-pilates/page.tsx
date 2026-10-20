@@ -243,6 +243,9 @@ export default function PostnatalPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates and Pregnancy" excerpt="Safe Pilates practice through all trimesters — what changes, what stays, what to avoid." href="/blog/pilates-and-pregnancy" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Diastasis Recti" excerpt="Which exercises help, which to avoid, and how to progress through abdominal separation recovery." href="/blog/pilates-for-diastasis-recti" category="Health" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Pilates for Pelvic Floor (2026): Exercises & Guidance" excerpt="Pilates for pelvic floor health, the best reformer and mat exercises for pelvic floor strengthening, the…" href="/blog/pilates-for-pelvic-floor" category="Health" readTime="10 min read" imageUrl="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" />
+                <ArticleCard title="Pilates for Back Pain (2026): What the Research Shows" excerpt="Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain.…" href="/blog/pilates-for-back-pain" category="Health" readTime="8 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
               </div>
             </div>
           </div>

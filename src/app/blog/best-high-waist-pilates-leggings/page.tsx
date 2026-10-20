@@ -215,6 +215,9 @@ export default function BestHighWaistPilatesLeggingsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings" excerpt="The full roundup — all lengths, rises, and fabrics compared for reformer and mat Pilates performance." href="/blog/best-pilates-leggings" category="Clothing" readTime="9 min" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
                 <ArticleCard title="Lululemon Align vs Alo Airbrush" excerpt="The two most-compared Pilates leggings head to head — fabric feel, waistband hold, and value." href="/blog/lululemon-align-vs-alo-airbrush" category="Comparison" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Leggings for Lagree (2026): 5 Pairs by Use" excerpt="The best leggings for Lagree: what matters on a moving Megaformer carriage, plus five verified pairs from budget…" href="/blog/best-leggings-for-lagree" category="Lagree" readTime="9 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Leggings for Reformer Pilates (2026): Compared & Ranked" excerpt="The best leggings for reformer Pilates in 2026: Lululemon Align, Alo Airbrush, Varley, Vuori, and Gymshark…" href="/blog/best-leggings-for-reformer-pilates" category="Activewear" readTime="8 min read" imageUrl="/pictures/stitch-teaser-pose-back.png" />
+                <ArticleCard title="Best Luxury Pilates Leggings (2026)" excerpt="The finest pilates leggings money can buy on Amazon, Wolford, Splits59, Varley, Sweaty Betty, Year of Ours and…" href="/blog/best-luxury-pilates-leggings" category="Activewear" readTime="10 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
               </div>
             </div>
           </div>

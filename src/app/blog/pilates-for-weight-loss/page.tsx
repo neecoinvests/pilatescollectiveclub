@@ -239,6 +239,9 @@ export default function PilatesForWeightLossPage() {
             { title: "Best Pilates Mat (2026)", href: "/blog/best-pilates-mat", readTime: "9 min read", imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" },
             { title: "Best Home Pilates Reformer", href: "/blog/best-home-pilates-reformer", readTime: "11 min read", imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" },
             { title: "Pilates for a Flat Stomach", href: "/blog/pilates-for-flat-stomach", readTime: "8 min read", imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" },
+            { title: "Lagree for Weight Loss (2026): What to Really Expect", href: "/blog/lagree-for-weight-loss", readTime: "11 min read", imageUrl: "/pictures/stitch-studio-modern-row.png" },
+            { title: "How Many Calories Does Pilates Burn? (2026 Data)", href: "/blog/how-many-calories-does-pilates-burn", readTime: "7 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
+            { title: "Pilates for Back Pain (2026): What the Research Shows", href: "/blog/pilates-for-back-pain", readTime: "8 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
           ]} />
         </div>
       </main>

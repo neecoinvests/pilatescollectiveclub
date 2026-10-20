@@ -209,6 +209,9 @@ export default function BestPilatesRetreatsEuropePage() {
             { title: "Best Pilates Retreats in Europe", href: "/blog/best-pilates-retreats-europe", readTime: "8 min read", imageUrl: "/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" },
             { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
             { title: "Pilates and Pregnancy", href: "/blog/pilates-and-pregnancy", readTime: "8 min read", imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" },
+            { title: "Best Pilates Mat Bag (2026): Carriers & Totes Reviewed", href: "/blog/best-pilates-mat-bag", readTime: "7 min read", imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg" },
+            { title: "Best Pilates Grip Socks (2026): 5 Verified Picks", href: "/blog/best-pilates-grip-socks", readTime: "6 min read", imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg" },
+            { title: "What to Wear to Pilates (2026): Complete Studio Outfit Guide", href: "/blog/what-to-wear-to-pilates", readTime: "6 min read", imageUrl: "/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" },
           ]} />
         </div>
 

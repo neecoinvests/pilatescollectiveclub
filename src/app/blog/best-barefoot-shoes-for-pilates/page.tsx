@@ -230,6 +230,9 @@ export default function BestBarefootShoesForPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="The socks studios actually require — grip patterns, toe styles and fit compared." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="What works on a reformer, what rides up, and what studios ask you to bring." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Tops (2026): Tanks, Bra Tops & Long-Sleeves" excerpt="The best tops for Pilates class, fitted tanks, bra tops, and long-sleeve options reviewed for reformer coverage…" href="/blog/best-pilates-workout-tops" category="Activewear" readTime="8 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Seamless Sports Bras for Pilates (2026)" excerpt="The best seamless sports bras for Pilates, no pressure points, no chafing, full movement. Picks from Lululemon…" href="/blog/best-pilates-seamless-sports-bra" category="Activewear" readTime="8 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>
           </div>

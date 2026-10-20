@@ -263,6 +263,9 @@ export default function MandukaMatPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Mat (2026)" excerpt="Every major Pilates mat compared and ranked — from budget picks to the professional-grade options used in studios worldwide." href="/blog/best-pilates-mat" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="The complete home studio guide — everything you need to replicate the studio experience without reformer-sized budgets." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="12 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Luxury Pilates Mats (2026)" excerpt="The finest Pilates mats for serious practitioners, Manduka PRO, Liforme, Hugger Mugger Para Rubber, Manduka…" href="/blog/best-luxury-pilates-mat" category="Guide" readTime="9 min read" imageUrl="/pictures/stitch-mat-setup-beige.png" />
+                <ArticleCard title="Best Pilates Mat Cleaner (2026): Sprays & Wipes" excerpt="The best Pilates mat cleaners for rubber, PU, TPE, and natural rubber mats, Manduka All Purpose Cleaner, Gaiam…" href="/blog/best-pilates-mat-cleaner" category="Guide" readTime="6 min read" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />
+                <ArticleCard title="Best Yoga Mat Towel for Pilates (2026): Compared & Ranked" excerpt="The best yoga mat towels for Pilates, Manduka eQua, Liforme, Gaiam, and more compared for grip, sweat absorption…" href="/blog/best-yoga-mat-towel-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
               </div>
             </div>
           </div>

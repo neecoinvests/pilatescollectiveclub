@@ -230,6 +230,9 @@ export default function BestYogaWheelForPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Foam Roller (2026)" excerpt="Density, length and texture compared for thoracic mobility and myofascial release." href="/blog/best-pilates-foam-roller" category="Equipment" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Pilates for Office Workers" excerpt="A desk-worker's routine for thoracic stiffness, hip flexor tightness and postural fatigue." href="/blog/pilates-for-office-workers" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Yoga Blocks for Pilates (2026): 5 Real Options Compared" excerpt="Five real, in-stock Amazon yoga blocks for Pilates, Gaiam, Septo, Fitvids, KEEP, and POUYRBA, compared by price…" href="/blog/best-yoga-blocks-for-pilates" category="Guide" readTime="5 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Best Stretch Strap for Pilates (2026): 5 Picks Compared" excerpt="The Gaiam Yoga Strap, OPTP Original Stretch Out Strap, Oak-Sports Strap, CTRL Sports Strap, and Acozycoo Strap are…" href="/blog/best-stretch-strap-for-pilates" category="Guide" readTime="5 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
               </div>
             </div>
           </div>

@@ -218,6 +218,9 @@ export default function BestLuxuryPilatesAccessoriesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Luxury Pilates Mat (2026)" excerpt="Manduka PRO, Liforme, Alo Warrior, and more — the premium mats serious practitioners buy once and keep for years." href="/blog/best-luxury-pilates-mat" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Best Luxury Pilates Reformer (2026)" excerpt="Gratz, Balanced Body Studio, Peak Pilates MVe — investment-grade reformers for the serious home studio." href="/blog/best-luxury-pilates-reformer" category="Equipment" readTime="10 min" imageUrl="/pictures/stitch-reformer-morning-light.png" />
+                <ArticleCard title="Best Pilates Reformer Accessories (2026): Must-Have Add-Ons" excerpt="The best Pilates reformer accessories, box sets, jump boards, sticky pads, and headrests reviewed for…" href="/blog/best-pilates-reformer-accessories" category="Reformers" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
+                <ArticleCard title="Best Pilates Mat (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates mats on Amazon, from thickness tiers to alignment lines and eco-friendlier TPE, led…" href="/blog/best-pilates-mat" category="Guide" readTime="8 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
               </div>
             </div>
           </div>

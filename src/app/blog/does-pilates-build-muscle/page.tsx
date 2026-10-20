@@ -245,6 +245,9 @@ export default function DoesPilatesBuildMusclePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Weight Loss" excerpt="What Pilates does and doesn't do for weight loss — the honest, evidence-based answer." href="/blog/pilates-for-weight-loss" category="Guide" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="How Long to See Results from Pilates?" excerpt="Realistic timelines for strength, posture, flexibility, and body composition changes." href="/blog/how-long-to-see-results-pilates" category="Guide" readTime="6 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="How Often Should You Do Pilates? (2026 Expert Guide)" excerpt="How often to do Pilates for results, frequency recommendations for beginners, intermediates, and advanced…" href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Ankle Weights (2026): 5 Real Options Compared" excerpt="Five real, live Amazon ankle weight listings for Pilates, Sportneer, BECOJADDE, nooncrazy, BAGAIL, and GALLIA…" href="/blog/best-pilates-ankle-weights" category="Guide" readTime="5 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Pilates for Athletes (2026): Cross-Training That Works" excerpt="Pilates for athletes: reformer and mat exercises that build stability, correct imbalances, and improve performance…" href="/blog/pilates-for-athletes" category="Guide" readTime="7 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
               </div>
             </div>
           </div>

@@ -246,6 +246,9 @@ export default function PilatesBreathingTechniquesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="The 6 Core Principles of Pilates" excerpt="Breath, concentration, centring, control, precision and flow — what each actually means in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Pelvic Floor" excerpt="How breath-led Pilates supports pelvic floor function postnatally and beyond." href="/blog/pilates-for-pelvic-floor" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Pilates for Anxiety & Stress (2026): How It Helps" excerpt="How Pilates reduces anxiety and stress: the neuroscience, the breath mechanics, and the specific practice patterns…" href="/blog/pilates-for-anxiety" category="Health" readTime="10 min read" imageUrl="/pictures/stitch-studio-open-window.png" />
+                <ArticleCard title="Pilates Exercises for Beginners (2026): 15 Moves to Start" excerpt="15 foundational Pilates exercises for beginners, reformer and mat moves explained with modifications, spring…" href="/blog/pilates-exercises-for-beginners" category="Guide" readTime="11 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Beginner's Guide to Reformer Pilates (2026): What to Expect" excerpt="Everything before your first reformer class, what to wear, what to expect, how to choose a studio, and how to…" href="/blog/beginners-guide-to-reformer-pilates" category="Reformers" readTime="7 min read" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
               </div>
             </div>
           </div>

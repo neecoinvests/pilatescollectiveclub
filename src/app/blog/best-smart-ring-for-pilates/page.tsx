@@ -219,6 +219,9 @@ export default function BestSmartRingForPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Smartwatch for Pilates (2026)" excerpt="Apple Watch Ultra 2, Garmin Forerunner 965, and Whoop — compared for HRV, profile, and reformer compatibility." href="/blog/best-smartwatch-for-pilates" category="Tech & Devices" readTime="8 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
                 <ArticleCard title="Does Pilates Build Muscle?" excerpt="What the evidence says about Pilates as a strength-building method — and the exercises that matter most." href="/blog/does-pilates-build-muscle" category="Health" readTime="9 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
+                <ArticleCard title="Best Heart Rate Monitor for Pilates & Spin (2026)" excerpt="The best heart rate monitor chest straps for Pilates, Lagree, and spin class, Polar, CooSpo, CYCPLUS and Powr Labs…" href="/blog/best-heart-rate-monitor-for-pilates-and-spin" category="Spin" readTime="8 min read" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="How Many Calories Does Pilates Burn? (2026 Data)" excerpt="How many calories does Pilates burn per session? Accurate data for mat vs reformer Pilates by body weight…" href="/blog/how-many-calories-does-pilates-burn" category="Activewear" readTime="7 min read" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Ring (2026): 5 Real Options Compared" excerpt="Five real Pilates rings sold on Amazon, compared by price, Gaiam ($19.78), ProBody ($22.95), URBNFit ($14.99)…" href="/blog/best-pilates-ring" category="Guide" readTime="8 min read" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
               </div>
             </div>
           </div>

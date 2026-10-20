@@ -301,6 +301,9 @@ export default function PilatesExercisesForBeginnersPage() {
             { title: "Best Pilates Mat (2026)", href: "/blog/best-pilates-mat", readTime: "9 min read", imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" },
             { title: "Best Pilates Starter Kit", href: "/blog/best-pilates-starter-kit", readTime: "9 min read", imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" },
             { title: "How Often Should You Do Pilates?", href: "/blog/how-often-should-you-do-pilates", readTime: "7 min read", imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" },
+            { title: "Beginner's Guide to Reformer Pilates (2026): What to Expect", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "7 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
+            { title: "Pilates Essentials (2026): Every Must-Have in One List", href: "/blog/pilates-essentials", readTime: "12 min read", imageUrl: "/pictures/stitch-pilates-essentials-logbook.png" },
+            { title: "Best Pilates Reformer Brands (2026): Complete Brand Guide", href: "/blog/best-pilates-reformer-brands", readTime: "18 min read", imageUrl: "/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" },
           ]} />
         </div>
       </main>

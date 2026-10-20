@@ -235,6 +235,9 @@ export default function PilatesBeforeOrAfterCardioPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Runners" excerpt="Why runners benefit from Pilates — the specific muscles it targets and how to programme it alongside running training." href="/blog/pilates-for-runners" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Pilates for Athletes" excerpt="How professional and amateur athletes use Pilates for injury prevention, recovery, and performance." href="/blog/pilates-for-athletes" category="Health" readTime="8 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="How Often Should You Do Pilates? (2026 Expert Guide)" excerpt="How often to do Pilates for results, frequency recommendations for beginners, intermediates, and advanced…" href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Pilates for Weight Loss (2026): Honest Expectations" excerpt="Pilates for weight loss, what the research shows, how reformer Pilates supports body composition, and realistic…" href="/blog/pilates-for-weight-loss" category="Guide" readTime="10 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
+                <ArticleCard title="Pilates Exercises for Beginners (2026): 15 Moves to Start" excerpt="15 foundational Pilates exercises for beginners, reformer and mat moves explained with modifications, spring…" href="/blog/pilates-exercises-for-beginners" category="Guide" readTime="11 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
               </div>
             </div>
           </div>

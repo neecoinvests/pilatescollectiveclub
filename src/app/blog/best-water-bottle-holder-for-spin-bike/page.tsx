@@ -414,6 +414,9 @@ export default function BestWaterBottleHolderPage() {
                   readTime="6 min"
                   imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"
                 />
+                <ArticleCard title="Best Tablet Holders for Spin Bikes (2026): Compared & Ranked" excerpt="Tablet and phone holders for indoor bikes ranked, clamp mounts, trays and gooseneck arms compared on sweat…" href="/blog/best-tablet-holder-for-spin-bike" category="Spin" readTime="8 min read" imageUrl="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg" />
+                <ArticleCard title="Best Water Bottles for Pilates (2026): Compared & Ranked" excerpt="The best water bottles for Pilates, insulated, leak-proof, and sized right for studio use. Stanley, Hydro Flask…" href="/blog/best-pilates-water-bottle" category="Guide" readTime="6 min read" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="Best Water Bottle for Lagree (2026): 5 Bottles Ranked" excerpt="The best water bottles for sweaty Lagree classes: LARQ, YETI, Owala and Stanley, compared on one-handed drinking…" href="/blog/best-water-bottle-for-lagree" category="Lagree" readTime="7 min read" imageUrl="/pictures/stitch-water-towel-bench.png" />
               </div>
             </div>
           </div>

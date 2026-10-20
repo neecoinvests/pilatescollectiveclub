@@ -222,6 +222,9 @@ export default function PilatesVsYogaPage() {
             { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
             { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
             { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
+            { title: "Pilates vs Barre (2026): Which Workout Is Right for You?", href: "/blog/pilates-vs-barre", readTime: "8 min read", imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" },
+            { title: "Pilates vs Gym (2026): Which is Right for You?", href: "/blog/pilates-vs-gym", readTime: "10 min read", imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" },
+            { title: "Lagree vs Pilates (2026): Differences & Which to Choose", href: "/blog/lagree-vs-pilates", readTime: "9 min read", imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg" },
           ]} />
         </div>
       </main>

@@ -230,6 +230,9 @@ export default function BestYogaBlocksForPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Mat (2026)" excerpt="The mat your practice starts and ends on — thickness, grip, and portability compared across every price point." href="/blog/best-pilates-mat" category="Equipment" readTime="7 min read" date="March 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Foam Roller (2026)" excerpt="Half-round, full-round, standard length — the rollers that belong in every Pilates studio bag." href="/blog/best-pilates-foam-roller" category="Equipment" readTime="6 min read" date="April 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Bolsters for Pilates (2026): Compared & Ranked" excerpt="The best bolsters for Pilates compared, rectangular, round, pranayama and prenatal bolsters ranked for firmness…" href="/blog/best-yoga-bolster-for-pilates" category="Guide" readTime="8 min read" imageUrl="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" />
+                <ArticleCard title="Best Yoga Mat Towel for Pilates (2026): Compared & Ranked" excerpt="The best yoga mat towels for Pilates, Manduka eQua, Liforme, Gaiam, and more compared for grip, sweat absorption…" href="/blog/best-yoga-mat-towel-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Best Exercise Sliders for Pilates (2026): 5 Picks Compared" excerpt="Five real, purpose-built core gliding discs for Pilates, Gaiam, A AZURELIFE, Elite Sportz, Gliding, and ZILLEEN…" href="/blog/best-exercise-sliders-for-pilates" category="Guide" readTime="5 min read" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
               </div>
             </div>
           </div>

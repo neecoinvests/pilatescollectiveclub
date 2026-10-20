@@ -220,6 +220,9 @@ export default function BestPilatesMatTotePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Mat Bag (2026)" excerpt="The complete guide to mat bags and studio carry-alls for Pilates practitioners." href="/blog/best-pilates-mat-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Mat (2026)" excerpt="Six mats chosen for grip, cushioning, and studio durability." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Tote Bags for Women (2026): Studio Totes Ranked" excerpt="The best Pilates tote bags for women, reviewed for capacity, structure, mat carry, and studio-to-street style in…" href="/blog/best-pilates-tote-bag" category="Guide" readTime="7 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
+                <ArticleCard title="Best Foam Roller for Pilates (2026): 5 Verified Picks" excerpt="Five verified foam rollers for Pilates, from the vibrating Therabody WaveRoller and TriggerPoint GRID 2.0 to a $24…" href="/blog/best-pilates-foam-roller" category="Guide" readTime="7 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
               </div>
             </div>
           </div>

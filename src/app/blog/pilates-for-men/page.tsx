@@ -233,6 +233,9 @@ export default function PilatesForMenPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Equipment for Men" excerpt="Mats, props and reformers sized and specified for larger frames." href="/blog/best-pilates-equipment-for-men" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Pilates vs Gym" excerpt="What each training mode develops, and why the honest answer is usually both." href="/blog/pilates-vs-gym" category="Comparison" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-morning-light.png" />
+                <ArticleCard title="Best Pilates Clothes for Men (2026): What to Wear" excerpt="The best Pilates clothes for men, fitted shorts, tops and compression tights from Rhone, Lululemon, Vuori, Under…" href="/blog/best-pilates-clothes-for-men" category="Guide" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Lagree for Men (2026): What to Wear & What to Expect" excerpt="A man's guide to Lagree: what the class is really like, the clothing that works on a Megaformer, and two complete…" href="/blog/lagree-for-men" category="Lagree" readTime="9 min read" imageUrl="/pictures/stitch-reformer-row-studio.png" />
+                <ArticleCard title="Pilates for Back Pain (2026): What the Research Shows" excerpt="Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain.…" href="/blog/pilates-for-back-pain" category="Health" readTime="8 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
               </div>
             </div>
           </div>

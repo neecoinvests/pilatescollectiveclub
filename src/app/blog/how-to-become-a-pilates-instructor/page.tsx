@@ -273,6 +273,9 @@ export default function HowToBecomeAPilatesInstructorPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How to Choose a Pilates Instructor" excerpt="What certifications actually mean when you are the one hiring a teacher." href="/blog/how-to-choose-a-pilates-instructor" category="Guide" readTime="9 min read" date="June 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />
                 <ArticleCard title="Classical vs Contemporary Pilates" excerpt="The two main lineages, what separates them, and which training route suits you." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
+                <ArticleCard title="Best Pilates Books (2026): Classics & Modern Guides Reviewed" excerpt="The best Pilates books, from Joseph Pilates originals to modern reformer guides, reviewed for depth, clarity, and…" href="/blog/best-pilates-books" category="Guide" readTime="8 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Pilates Exercises for Beginners (2026): 15 Moves to Start" excerpt="15 foundational Pilates exercises for beginners, reformer and mat moves explained with modifications, spring…" href="/blog/pilates-exercises-for-beginners" category="Guide" readTime="11 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Beginner's Guide to Reformer Pilates (2026): What to Expect" excerpt="Everything before your first reformer class, what to wear, what to expect, how to choose a studio, and how to…" href="/blog/beginners-guide-to-reformer-pilates" category="Reformers" readTime="7 min read" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
               </div>
             </div>
           </div>

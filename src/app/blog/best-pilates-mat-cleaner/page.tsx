@@ -267,6 +267,9 @@ export default function BestPilatesMatCleanerPage() {
                   date="2026-06-28"
                   imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"
                 />
+                <ArticleCard title="Manduka PRO Mat Review (2026): Worth $144 for Pilates?" excerpt="Manduka PRO and eKO mats reviewed for Pilates at $144, thickness, grip, weight, and whether a cheaper mat does the…" href="/blog/manduka-pilates-mat" category="Guide" readTime="9 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
+                <ArticleCard title="Best Luxury Pilates Mats (2026)" excerpt="The finest Pilates mats for serious practitioners, Manduka PRO, Liforme, Hugger Mugger Para Rubber, Manduka…" href="/blog/best-luxury-pilates-mat" category="Guide" readTime="9 min read" imageUrl="/pictures/stitch-mat-setup-beige.png" />
+                <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
               </div>
             </div>
           </div>

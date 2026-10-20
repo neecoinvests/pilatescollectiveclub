@@ -223,6 +223,9 @@ export default function BestCyclingGlovesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Cycling Shoes for Spin Class (2026)" excerpt="Clip-in and cage-compatible cycling shoes compared for power transfer and comfort." href="/blog/best-cycling-shoes-for-spin-class" category="Equipment" readTime="9 min read" date="June 2026" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
                 <ArticleCard title="Best Padded Cycling Shorts for Spin Class (2026)" excerpt="Chamois quality and compression fit compared across women's and men's options." href="/blog/best-padded-cycling-shorts-for-spin" category="Equipment" readTime="8 min read" date="June 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Bike Computer for Indoor Cycling & Spin (2026)" excerpt="The best GPS bike computers for indoor spin training, touchscreen, ANT+/Bluetooth, and budget units compared for…" href="/blog/best-bike-computer-for-indoor-cycling" category="Spin" readTime="9 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
+                <ArticleCard title="Best Cadence Sensor for Indoor Cycling & Spin (2026)" excerpt="The best cadence sensors for indoor cycling, CooSpo, CYCPLUS, Magene, GEOID, and iGPSPORT compared for accuracy…" href="/blog/best-cadence-sensor-for-indoor-cycling" category="Spin" readTime="8 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Gloves (2026): 5 Verified Grip Gloves" excerpt="5 verified, in-stock Pilates grip gloves on Amazon: TAVI, Gaiam, oasymala and Eurzom for reformer, barre and mat…" href="/blog/best-pilates-gloves" category="Guide" readTime="6 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
               </div>
             </div>
           </div>

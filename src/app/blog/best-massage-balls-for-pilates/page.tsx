@@ -232,6 +232,9 @@ export default function BestMassageBallsForPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Foam Roller for Pilates (2026)" excerpt="The one foam roller we could verify as a genuine, currently-sold Amazon listing." href="/blog/best-pilates-foam-roller" category="Recovery & Props" readTime="7 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Ring (2026)" excerpt="Honestly verified — the closest real, currently-sold Amazon option for the ring category." href="/blog/best-pilates-ring" category="Props" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Best Massage Gun for Pilates Recovery (2026): Ranked" excerpt="The best massage guns for Pilates recovery, TOLOCO, AERLANG, Therabody TheraGun Relief, RENPHO Active Thermacool…" href="/blog/best-massage-gun-for-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Compression Sleeves for Pilates (2026): Calf Picks" excerpt="The best calf compression sleeves for Pilates, BLITZU, Rymora, PhysFlex, Cambivo, and TheraCopper compared for…" href="/blog/best-compression-sleeves-for-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Best Red Light Therapy Device for Pilates Recovery (2026)" excerpt="The best handheld red light therapy devices for Pilates recovery, compared for muscle recovery, inflammation, and…" href="/blog/best-red-light-therapy-device-for-pilates" category="Guide" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
               </div>
             </div>
           </div>

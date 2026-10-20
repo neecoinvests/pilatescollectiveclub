@@ -244,6 +244,9 @@ export default function LululemonPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Alo Yoga for Pilates" excerpt="Everything Alo Yoga makes that's worth buying for Pilates — best pieces and honest review." href="/blog/alo-yoga-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Lululemon Align Review (2026): Is It Opaque Enough?" excerpt="Lululemon Align reviewed for Pilates, is Nulu opaque enough on a reformer? Waistband hold, sizing, and an honest…" href="/blog/lululemon-align-review" category="Activewear" readTime="10 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Lululemon Align vs Alo Airbrush (2026): Best for Pilates?" excerpt="Lululemon Align vs Alo Airbrush legging compared for Pilates, fabric feel, compression, opacity on the reformer…" href="/blog/lululemon-align-vs-alo-airbrush" category="Activewear" readTime="10 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
           </div>

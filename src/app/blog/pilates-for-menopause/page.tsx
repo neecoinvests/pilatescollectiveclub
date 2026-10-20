@@ -216,6 +216,9 @@ export default function PilatesForMenopausePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates and Pregnancy" excerpt="Safe, effective Pilates throughout pregnancy — trimester by trimester." href="/blog/pilates-and-pregnancy" category="Health" readTime="11 min read" date="May 2026" imageUrl="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" />
                 <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates to address chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Pilates for Pelvic Floor (2026): Exercises & Guidance" excerpt="Pilates for pelvic floor health, the best reformer and mat exercises for pelvic floor strengthening, the…" href="/blog/pilates-for-pelvic-floor" category="Health" readTime="10 min read" imageUrl="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" />
+                <ArticleCard title="Pilates for Seniors (2026): Safe Exercises & Beginner Guide" excerpt="Pilates for seniors, the safest reformer and mat exercises for older adults, modifications for joint concerns, and…" href="/blog/pilates-for-seniors" category="Health" readTime="10 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
               </div>
             </div>
           </div>

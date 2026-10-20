@@ -256,6 +256,9 @@ export default function BestPlatformExtenderPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Megaformer Machine (2026)" excerpt="Lagree M3S, The Micro, M3X, and more compared for home and studio Lagree training." href="/blog/best-megaformer-machine" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Lagree Reformer Springs & Resistance Cables (2026)" excerpt="The best replacement springs and resistance cables for Megaformer and Lagree-style machines." href="/blog/best-lagree-resistance-springs-cables" category="Equipment" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Lagree Micro vs Megaformer (2026): Home Machine or Studio?" excerpt="Lagree Fitness's own home machine, sold by Lagree Fitness on Amazon. Per the listing: 72\\" href="/blog/lagree-micro-vs-megaformer" category="Lagree" readTime="11 min read" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
+                <ArticleCard title="Lagree Essentials (2026): What to Wear, Bring & Buy" excerpt="Everything to wear, bring and buy for Lagree on one page, best, budget and splurge picks, verified prices, and…" href="/blog/lagree-essentials" category="Lagree" readTime="11 min read" imageUrl="/pictures/stitch-reformer-row-studio.png" />
+                <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
               </div>
             </div>
           </div>

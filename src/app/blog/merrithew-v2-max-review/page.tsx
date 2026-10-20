@@ -303,6 +303,9 @@ export default function MerrithewV2MaxReviewPage() {
             { title: "Best Premium Pilates Reformers", href: "/blog/best-premium-pilates-reformer", readTime: "14 min read", imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" },
             { title: "Balanced Body vs Merrithew", href: "/blog/balanced-body-vs-merrithew", readTime: "13 min read", imageUrl: "/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" },
             { title: "Best Home Pilates Reformer", href: "/blog/best-home-pilates-reformer", readTime: "11 min read", imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" },
+            { title: "Merrithew SPX Max vs V2 Max (2026): Which STOTT Reformer?", href: "/blog/merrithew-spx-max-vs-v2-max", readTime: "11 min read", imageUrl: "/pictures/stitch-reformer-spring-detail.png" },
+            { title: "Merrithew At Home SPX Review (2026): Worth $3,349?", href: "/blog/merrithew-spx-max-review", readTime: "11 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
+            { title: "Balanced Body vs Merrithew (2026): Studio vs At Home SPX", href: "/blog/balanced-body-allegro-2-vs-merrithew-spx-max", readTime: "11 min read", imageUrl: "/pictures/stitch-reformer-morning-light.png" },
           ]} />
         </div>
       </main>

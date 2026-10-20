@@ -262,6 +262,9 @@ export default function BestPilatesBooksPage() {
             { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },
             { title: "The 6 Core Principles of Pilates, Explained", href: "/blog/6-core-principles-of-pilates-explained", readTime: "6 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
             { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
+            { title: "The History of Pilates: From Joseph Pilates to Today (2026)", href: "/blog/pilates-history", readTime: "14 min read", imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" },
+            { title: "How to Become a Pilates Instructor (2026): Cost & Timeline", href: "/blog/how-to-become-a-pilates-instructor", readTime: "13 min read", imageUrl: "/pictures/stitch-studio-modern-row.png" },
+            { title: "Pilates Exercises for Beginners (2026): 15 Moves to Start", href: "/blog/pilates-exercises-for-beginners", readTime: "11 min read", imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" },
           ]} />
         </div>
       </main>

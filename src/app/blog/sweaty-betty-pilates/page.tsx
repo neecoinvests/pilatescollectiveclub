@@ -248,6 +248,9 @@ export default function SweatyBettyPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Varley for Pilates (2026)" excerpt="The LA brand with cult status in UK and European Pilates studios — the best pieces, honestly reviewed." href="/blog/varley-pilates-activewear" category="Brand Guide" readTime="9 min read" date="May 2026" imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" />
                 <ArticleCard title="Lululemon for Pilates (2026)" excerpt="The best Lululemon pieces for Pilates — chosen for reformer, mat, and barre classes." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Luxury Pilates Leggings (2026)" excerpt="The finest pilates leggings money can buy on Amazon, Wolford, Splits59, Varley, Sweaty Betty, Year of Ours and…" href="/blog/best-luxury-pilates-leggings" category="Activewear" readTime="10 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Athleta for Pilates (2026): Best Leggings & Tops Reviewed" excerpt="Best Athleta pieces for Pilates, Salutation, Elation, and Brooklyn leggings reviewed for reformer class…" href="/blog/athleta-pilates" category="Activewear" readTime="9 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
               </div>
             </div>
           </div>

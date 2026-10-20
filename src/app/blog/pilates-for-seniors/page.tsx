@@ -238,6 +238,9 @@ export default function PilatesForSeniorsPage() {
             { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "10 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
             { title: "Best Pilates Mat (2026)", href: "/blog/best-pilates-mat", readTime: "9 min read", imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" },
             { title: "How Often Should You Do Pilates?", href: "/blog/how-often-should-you-do-pilates", readTime: "7 min read", imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" },
+            { title: "Pilates for Osteoporosis (2026): Safe Exercise Guide", href: "/blog/pilates-for-osteoporosis", readTime: "12 min read", imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" },
+            { title: "Pilates for Arthritis (2026): Safe Exercises & What to Avoid", href: "/blog/pilates-for-arthritis", readTime: "8 min read", imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" },
+            { title: "Pilates for Posture (2026): Best Exercises for Alignment", href: "/blog/pilates-for-posture", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
           ]} />
         </div>
       </main>

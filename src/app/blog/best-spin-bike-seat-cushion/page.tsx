@@ -240,6 +240,9 @@ export default function BestSpinBikeSeatCushionPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Padded Cycling Shorts for Spin" excerpt="A proper chamois does more for saddle comfort than any cushion — the pairs worth owning." href="/blog/best-padded-cycling-shorts-for-spin" category="Spinning" readTime="8 min read" date="June 2026" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios" excerpt="Peloton, Schwinn, NordicTrack and the budget machines worth considering." href="/blog/best-indoor-spin-bike-for-home-studio" category="Spinning" readTime="12 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
+                <ArticleCard title="Best Clip-In Pedals for Spin Bikes (2026): SPD vs Delta" excerpt="Clip-in pedals and cleats for indoor bikes ranked, why SPD beats Delta for studio cycling, which pedals fit…" href="/blog/best-clip-in-pedals-for-spin-bike" category="Spin" readTime="9 min read" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
+                <ArticleCard title="Best Floor Mat for Spin Bike (2026): Top Picks Compared" excerpt="The best floor mats for spin bikes and indoor cycling, compared for thickness, sweat absorption, bike stability…" href="/blog/best-floor-mat-for-spin-bike" category="Spin" readTime="7 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Best Spin Bikes Under $500 (2026): Compared & Ranked" excerpt="Indoor cycling bikes under $500 ranked on flywheel weight, drive type and resistance, plus why magnetic beats…" href="/blog/best-spin-bike-under-500" category="Spin" readTime="10 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>
           </div>

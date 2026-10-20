@@ -370,6 +370,9 @@ export default function BalancedBodyStudioReformerReviewPage() {
                   date="May 2026"
                   imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"
                 />
+                <ArticleCard title="Balanced Body vs Merrithew (2026): Studio vs At Home SPX" excerpt="Balanced Body's Studio Reformer against Merrithew's At Home SPX Reformer Package, the two commercial-brand…" href="/blog/balanced-body-allegro-2-vs-merrithew-spx-max" category="Guide" readTime="11 min read" imageUrl="/pictures/stitch-reformer-morning-light.png" />
+                <ArticleCard title="Align Pilates vs Balanced Body (2026): Price, Build, Verdict" excerpt="Align-Pilates C8-PRO vs Balanced Body Metro IQ, Allegro Stretch, Rialto and Studio Reformer: specs, storage…" href="/blog/align-pilates-vs-balanced-body" category="Guide" readTime="13 min read" imageUrl="/pictures/stitch-reformer-row-studio.png" />
+                <ArticleCard title="Balanced Body Pilates (2026): Props to $4,700 Reformers" excerpt="Balanced Body reviewed across the real, verified Amazon range, from a $189.99 Pilates Arc to the $4,700 Studio…" href="/blog/balanced-body-pilates" category="Guide" readTime="11 min read" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
               </div>
             </div>
 

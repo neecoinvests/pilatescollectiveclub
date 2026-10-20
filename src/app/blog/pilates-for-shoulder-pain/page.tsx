@@ -239,6 +239,9 @@ export default function PilatesForShoulderPainPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Neck Pain" excerpt="The thoracic and scapular work that resolves most desk-related neck tension." href="/blog/pilates-for-neck-pain" category="Health" readTime="11 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="Pilates for Office Workers" excerpt="A desk-worker's routine for thoracic stiffness, hip flexor tightness, and postural fatigue." href="/blog/pilates-for-office-workers" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Pilates for Posture (2026): Best Exercises for Alignment" excerpt="Pilates for posture improvement, the best reformer and mat exercises to correct forward head posture, rounded…" href="/blog/pilates-for-posture" category="Guide" readTime="9 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Pilates for Back Pain (2026): What the Research Shows" excerpt="Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain.…" href="/blog/pilates-for-back-pain" category="Health" readTime="8 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
               </div>
             </div>
           </div>

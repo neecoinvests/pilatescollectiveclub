@@ -223,6 +223,9 @@ export default function ConsistentPracticePage() {
             { title: "Best Pilates Equipment for Home Practice", href: "/blog/best-pilates-equipment-for-home-practice", readTime: "10 min read", imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" },
             { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },
             { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },
+            { title: "How Often Should You Do Pilates? (2026 Expert Guide)", href: "/blog/how-often-should-you-do-pilates", readTime: "7 min read", imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" },
+            { title: "Pilates Morning Routine (2026): 10, 20 & 30-Minute Options", href: "/blog/pilates-morning-routine", readTime: "10 min read", imageUrl: "/pictures/stitch-reformer-morning-light.png" },
+            { title: "How Long to See Pilates Results? (2026 Timeline)", href: "/blog/how-long-to-see-results-pilates", readTime: "10 min read", imageUrl: "/pictures/stitch-teaser-pose-back.png" },
           ]} />
         </div>
       </main>

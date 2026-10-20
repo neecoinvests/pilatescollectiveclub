@@ -252,6 +252,9 @@ export default function BestPilatesReformerUnder500Page() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point — from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer for Beginners (2026)" excerpt="Which reformer to start on — and what features actually matter in your first machine." href="/blog/best-pilates-reformer-for-beginners" category="Beginners" readTime="9 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer Under $1,000 (2026): 6 Real Picks" excerpt="Six genuine, currently-sold reformers under $1,000: four real spring-based budget reformers (WINDFOOT, DWKWE, two…" href="/blog/best-pilates-reformer-under-1000" category="Reformers" readTime="9 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Foldable Pilates Reformer (2026): 6 Verified Picks" excerpt="Six genuine carriage-and-rail reformers that actually fold for storage, from a $295 budget generic-brand model to…" href="/blog/best-foldable-pilates-reformer" category="Reformers" readTime="9 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer Brands (2026): Complete Brand Guide" excerpt="The best Pilates reformer brands of 2026: Balanced Body, Merrithew, Gratz, Align, and more compared on spring…" href="/blog/best-pilates-reformer-brands" category="Activewear" readTime="18 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
               </div>
             </div>
 

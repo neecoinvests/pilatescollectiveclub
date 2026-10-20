@@ -284,6 +284,9 @@ export default function PilatesMorningRoutinePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How Often Should You Do Pilates?" excerpt="Research-backed frequency recommendations for beginners, regulars, and advanced practitioners." href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-studio-modern-row.png" />
                 <ArticleCard title="How Long to See Results from Pilates?" excerpt="Realistic timelines — when you will feel, see, and sustain the changes from Pilates practice." href="/blog/how-long-to-see-results-pilates" category="Guide" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-teaser-pose-back.png" />
+                <ArticleCard title="How to Build a Consistent Pilates Practice (2026)" excerpt="How to build a consistent Pilates practice: scheduling, progressive programming, home vs. studio balance, and…" href="/blog/how-to-build-a-consistent-pilates-practice" category="Guide" readTime="10 min read" imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" />
+                <ArticleCard title="Wall Pilates Guide (2026): Does It Work & What to Buy" excerpt="Wall Pilates explained: what the exercises actually are, whether they produce real results, and the resistance…" href="/blog/wall-pilates-guide" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-wall-art-line-drawing.png" />
+                <ArticleCard title="Best Pilates Mat (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates mats on Amazon, from thickness tiers to alignment lines and eco-friendlier TPE, led…" href="/blog/best-pilates-mat" category="Guide" readTime="8 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
               </div>
             </div>
           </div>

@@ -348,6 +348,9 @@ export default function MerrithewSPXMaxReviewPage() {
                   date="May 2026"
                   imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"
                 />
+                <ArticleCard title="Balanced Body vs Merrithew (2026): Studio vs At Home SPX" excerpt="Balanced Body's Studio Reformer against Merrithew's At Home SPX Reformer Package, the two commercial-brand…" href="/blog/balanced-body-allegro-2-vs-merrithew-spx-max" category="Guide" readTime="11 min read" imageUrl="/pictures/stitch-reformer-morning-light.png" />
+                <ArticleCard title="Merrithew SPX Max vs V2 Max (2026): Which STOTT Reformer?" excerpt="Merrithew SPX Max vs V2 Max: carriage width (22\\" href="/blog/merrithew-spx-max-vs-v2-max" category="Guide" readTime="11 min read" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
+                <ArticleCard title="Balanced Body vs Merrithew (2026): Real Prices, Verdict" excerpt="Balanced Body vs Merrithew: spring systems, frame quality, and accessory ecosystem compared, using real Amazon…" href="/blog/balanced-body-vs-merrithew" category="Guide" readTime="13 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
               </div>
             </div>
 

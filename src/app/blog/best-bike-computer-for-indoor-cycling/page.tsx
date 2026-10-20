@@ -222,6 +222,9 @@ export default function BestBikeComputerPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Cadence Sensor for Indoor Cycling (2026)" excerpt="Garmin, Wahoo, and budget cadence sensors compared for accuracy and app compatibility." href="/blog/best-cadence-sensor-for-indoor-cycling" category="Tech & Devices" readTime="8 min read" date="June 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios (2026)" excerpt="Peloton, Schwinn IC4, NordicTrack, and budget bikes compared for resistance and connected apps." href="/blog/best-indoor-spin-bike-for-home-studio" category="Spinning" readTime="11 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
+                <ArticleCard title="Best Cycling Gloves for Spin Class (2026): Padded & Grip" excerpt="The best padded cycling gloves for indoor spin class, compared for palm cushioning, grip, breathability, and…" href="/blog/best-cycling-gloves-for-spin-class" category="Spin" readTime="7 min read" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
+                <ArticleCard title="Best Cycling Shoes for Spin Class (2026)" excerpt="The best clip-in cycling shoes for indoor spin class, TIEM, Shimano, and budget-friendly Peloton and SPD…" href="/blog/best-cycling-shoes-for-spin-class" category="Spin" readTime="9 min read" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
+                <ArticleCard title="Best Padded Cycling Shorts for Spin Class (2026)" excerpt="The best padded cycling shorts for indoor spin class, chamois quality, compression fit, and breathability compared…" href="/blog/best-padded-cycling-shorts-for-spin" category="Spin" readTime="8 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
           </div>

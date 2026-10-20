@@ -254,6 +254,9 @@ export default function PilatesForDiastasisRectiPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates and Pregnancy" excerpt="Safe Pilates practice through all trimesters — what changes, what stays, what to avoid." href="/blog/pilates-and-pregnancy" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Pelvic Floor" excerpt="How Pilates supports pelvic floor function — exercises, cues, and what the research says." href="/blog/pilates-for-pelvic-floor" category="Health" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Postnatal Pilates (2026): When to Start & How to Progress" excerpt="A complete guide to postnatal Pilates, when you can safely return, which exercises to start with, how to progress…" href="/blog/postnatal-pilates" category="Health" readTime="10 min read" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
+                <ArticleCard title="Pilates for a Flat Stomach (2026): What Actually Works" excerpt="Pilates for a flatter stomach, the exercises that actually strengthen the deep core, how Pilates shapes the waist…" href="/blog/pilates-for-flat-stomach" category="Guide" readTime="8 min read" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
+                <ArticleCard title="Pilates for Back Pain (2026): What the Research Shows" excerpt="Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain.…" href="/blog/pilates-for-back-pain" category="Health" readTime="8 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
               </div>
             </div>
           </div>

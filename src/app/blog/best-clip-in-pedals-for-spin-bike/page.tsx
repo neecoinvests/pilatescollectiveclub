@@ -230,6 +230,9 @@ export default function BestClipInPedalsForSpinBikePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Cycling Shoes for Spin Class" excerpt="SPD-compatible shoes ranked for fit, stiffness and walkability." href="/blog/best-cycling-shoes-for-spin-class" category="Spinning" readTime="9 min read" date="June 2026" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
                 <ArticleCard title="Best Cycling Gloves for Spin Class" excerpt="Padded, grip and ventilated gloves for long sessions on the bars." href="/blog/best-cycling-gloves-for-spin-class" category="Spinning" readTime="7 min read" date="June 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
+                <ArticleCard title="Best Floor Mat for Spin Bike (2026): Top Picks Compared" excerpt="The best floor mats for spin bikes and indoor cycling, compared for thickness, sweat absorption, bike stability…" href="/blog/best-floor-mat-for-spin-bike" category="Spin" readTime="7 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
+                <ArticleCard title="Best Indoor Spin Bike for Home Studios (2026)" excerpt="The best indoor spin bikes for building a home cycling studio, Peloton, Schwinn IC4, NordicTrack, and budget picks…" href="/blog/best-indoor-spin-bike-for-home-studio" category="Spin" readTime="11 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
+                <ArticleCard title="Best Spin Bike Seat Cushions (2026): Compared & Ranked" excerpt="Spin bike seat cushions and replacement saddles ranked, plus the honest fix order, because a thick gel cover often…" href="/blog/best-spin-bike-seat-cushion" category="Spin" readTime="8 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
               </div>
             </div>
           </div>

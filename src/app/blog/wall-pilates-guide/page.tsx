@@ -289,6 +289,9 @@ export default function WallPilatesGuidePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates Exercises for Beginners" excerpt="Fifteen foundational moves to start Pilates without prior experience, and what to expect in your first month." href="/blog/pilates-exercises-for-beginners" category="Beginners" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Best Pilates Mat (2026)" excerpt="The mats that perform best for home practice — grip, cushioning, and durability compared." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />
+                <ArticleCard title="Pilates Morning Routine (2026): 10, 20 & 30-Minute Options" excerpt="The best Pilates morning routines for 2026, 10, 20, and 30-minute options for before work, with equipment…" href="/blog/pilates-morning-routine" category="Guide" readTime="10 min read" imageUrl="/pictures/stitch-reformer-morning-light.png" />
+                <ArticleCard title="Beginner's Guide to Reformer Pilates (2026): What to Expect" excerpt="Everything before your first reformer class, what to wear, what to expect, how to choose a studio, and how to…" href="/blog/beginners-guide-to-reformer-pilates" category="Reformers" readTime="7 min read" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
+                <ArticleCard title="How Often Should You Do Pilates? (2026 Expert Guide)" excerpt="How often to do Pilates for results, frequency recommendations for beginners, intermediates, and advanced…" href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
               </div>
             </div>
           </div>

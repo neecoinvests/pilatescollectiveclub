@@ -231,6 +231,9 @@ export default function PilatesForAnxietyPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Menopause" excerpt="How Pilates addresses the physical and psychological symptoms of perimenopause and menopause." href="/blog/pilates-for-menopause" category="Health" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates vs Yoga" excerpt="A clear comparison of both methods — philosophy, physical outcomes, and how to choose." href="/blog/pilates-vs-yoga" category="Comparison" readTime="9 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
+                <ArticleCard title="Pilates Breathing Techniques (2026): Lateral Breathing" excerpt="How to breathe in Pilates: lateral ribcage breathing, why it differs from belly breathing, the exhale-on-effort…" href="/blog/pilates-breathing-techniques" category="Guide" readTime="10 min read" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
+                <ArticleCard title="Pilates Morning Routine (2026): 10, 20 & 30-Minute Options" excerpt="The best Pilates morning routines for 2026, 10, 20, and 30-minute options for before work, with equipment…" href="/blog/pilates-morning-routine" category="Guide" readTime="10 min read" imageUrl="/pictures/stitch-reformer-morning-light.png" />
+                <ArticleCard title="Pilates for Fibromyalgia (2026): Gentle Exercises & Tips" excerpt="How Pilates helps fibromyalgia, the evidence on pain reduction, fatigue management, and sleep improvement, plus…" href="/blog/pilates-for-fibromyalgia" category="Health" readTime="9 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
               </div>
             </div>
           </div>

@@ -247,6 +247,9 @@ export default function PilatesStudioBagEssentialsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="The grip socks compared for reformer, mat, and barre — from ToeSox to Tavi Noir." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Bag (2026): Studio & Mat Totes Reviewed" excerpt="The best bags for Pilates, mat totes, studio bags, and gym-to-work options reviewed for size, mat fit, material…" href="/blog/best-pilates-bag" category="Guide" readTime="7 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Reformer Pilates Essentials (2026): What to Bring & Wear" excerpt="Balanced Body's Pilates Arc is a step barrel / spine corrector: a small curved prop used for spinal extension…" href="/blog/reformer-pilates-essentials" category="Reformers" readTime="12 min read" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
+                <ArticleCard title="Pilates Exercises for Beginners (2026): 15 Moves to Start" excerpt="15 foundational Pilates exercises for beginners, reformer and mat moves explained with modifications, spring…" href="/blog/pilates-exercises-for-beginners" category="Guide" readTime="11 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
               </div>
             </div>
 

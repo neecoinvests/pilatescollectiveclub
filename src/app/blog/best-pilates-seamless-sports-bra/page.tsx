@@ -215,6 +215,9 @@ export default function BestPilatesSeamlessSportsBraPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Sports Bras" excerpt="The full roundup of top-rated sports bras for Pilates — padded, wired, and wireless options compared." href="/blog/best-pilates-sports-bra" category="Clothing" readTime="8 min" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Bodysuits" excerpt="One-piece options that eliminate bra-top coordination entirely — the best bodysuits for reformer Pilates." href="/blog/best-pilates-bodysuits" category="Clothing" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Sports Bra for Lagree (2026): 6 Picks by Support" excerpt="The best sports bra for Lagree, matched to support level: high-impact picks for jumps and lunges, smooth backs for…" href="/blog/best-sports-bra-for-lagree" category="Lagree" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>
           </div>
