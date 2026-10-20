@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Compression Sleeves for Pilates (2026): Calf Compression",
+  title: "Best Compression Sleeves for Pilates (2026): Calf Picks",
   description: "The best calf compression sleeves for Pilates — BLITZU, Rymora, PhysFlex, Cambivo, and TheraCopper compared for circulation, comfort, and recovery during reformer and Lagree sessions.",
   keywords: ["best compression sleeves pilates", "pilates compression socks 2026", "calf sleeves pilates", "lagree compression sleeve", "calf compression sleeve reformer", "copper compression sleeve pilates"],
   openGraph: {

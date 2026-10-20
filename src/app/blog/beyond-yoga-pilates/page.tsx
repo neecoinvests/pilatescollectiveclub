@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Beyond Yoga for Pilates (2026): Spacedye Leggings & Sets Reviewed",
+  title: "Beyond Yoga for Pilates (2026): Spacedye Sets Reviewed",
   description: "Beyond Yoga Spacedye leggings and sets reviewed for Pilates — softness, opacity on the reformer, and how Beyond Yoga compares to Lululemon and Alo.",
   keywords: ["beyond yoga pilates", "beyond yoga leggings pilates review", "beyond yoga spacedye pilates", "beyond yoga vs lululemon pilates", "best beyond yoga for reformer", "beyond yoga activewear pilates", "beyond yoga 2026 pilates"],
   openGraph: {

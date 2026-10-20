@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer for Tall People (2026): Long-Frame Picks",
+  title: "Best Pilates Reformer for Tall People (2026): Long Frames",
   description: "The best Pilates reformers for tall practitioners — long-frame and extendable footbar models reviewed for carriage travel, spring alignment, and leg room.",
   keywords: ["best pilates reformer for tall people", "pilates reformer tall person 2026", "long reformer pilates", "pilates reformer 6 foot tall", "extended frame pilates reformer", "balanced body reformer tall", "merrithew reformer tall people", "pilates for tall practitioners"],
   openGraph: {

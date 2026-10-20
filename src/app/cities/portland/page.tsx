@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Portland, OR (2026) — Curated Guide",
+  title: "Best Pilates Studios in Portland, OR (2026)",
   description: "The best Pilates studios in Portland — independent studios in NE Portland, the Pearl and Division, plus Lake Oswego and the west side. Six verified picks, 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   keywords: ["pilates portland", "reformer pilates portland", "best pilates studios portland or", "pilates studio portland", "pilates classes portland", "pearl district pilates", "nw portland pilates", "pilates oregon", "best reformer pilates portland", "pilates lake oswego"],

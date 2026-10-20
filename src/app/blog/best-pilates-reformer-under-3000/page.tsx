@@ -5,7 +5,7 @@ import { item, PRICES_CHECKED, PRICES_CHECKED_ISO } from "@/lib/reformerCatalog"
 const SLUG = "best-pilates-reformer-under-3000";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-reformer-sunlit-minimal.png";
-const TITLE = "Best Pilates Reformer Under $3,000 (2026): 7 Studio-Grade Picks";
+const TITLE = "Best Pilates Reformer Under $3,000 (2026): 7 Studio Picks";
 const DESCRIPTION = "The best Pilates reformers under $3,000 from Align-Pilates, Balanced Body and PersonalHour, plus wood reformers with towers. Specs and prices checked live.";
 
 export const metadata: Metadata = {

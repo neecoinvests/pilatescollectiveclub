@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Girlfriend Collective for Pilates (2026): Compressive Picks Reviewed",
+  title: "Girlfriend Collective for Pilates (2026): Picks Reviewed",
   description: "Girlfriend Collective leggings and sets reviewed for Pilates — compression level, sustainability, opacity on the reformer, and fit compared to Lululemon and Alo.",
   keywords: ["girlfriend collective pilates", "girlfriend collective leggings pilates review", "girlfriend collective vs lululemon pilates", "is girlfriend collective good for pilates", "girlfriend collective activewear pilates 2026", "eco pilates activewear"],
   openGraph: {

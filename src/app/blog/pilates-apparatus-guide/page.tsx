@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates Apparatus Guide (2026): Every Piece of Equipment Explained",
+  title: "Pilates Apparatus Guide (2026): Every Machine Explained",
   description: "The complete Pilates apparatus guide: reformer, Cadillac, Wunda Chair, barrel, and ladder explained. How each piece works and what exercises it enables.",
   keywords: ["pilates apparatus guide", "pilates equipment explained", "what is pilates cadillac", "pilates reformer explained", "pilates wunda chair", "pilates apparatus list", "pilates equipment types", "classical pilates apparatus", "what does pilates reformer do", "pilates apparatus 2026"],
   openGraph: {

@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Nashville, TN (2026) — Curated Guide",
+  title: "Best Pilates Studios in Nashville, TN (2026)",
   description: "The best Pilates studios in Nashville — from Green Hills reformer and Lagree studios to classical practices in The Nations and East Nashville. Six verified picks, 2026.",
   robots: {
     index: true,

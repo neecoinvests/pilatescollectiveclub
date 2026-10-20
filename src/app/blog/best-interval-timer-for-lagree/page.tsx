@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Interval Timer for Lagree & Pilates (2026): Studio Clocks Ranked",
+  title: "Best Interval Timer for Lagree & Pilates (2026): Top Picks",
   description: "The best interval timers and gym clocks for Lagree Fitness and Pilates studios — GymNext Flex, BTB Multi-Sport, Rogue Echo Timer, and more. Loud buzzers, large displays, and app-free setup compared.",
   keywords: [
     "best interval timer for lagree",

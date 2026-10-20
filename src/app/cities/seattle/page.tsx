@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Seattle, WA (2026) — Curated Guide",
+  title: "Best Pilates Studios in Seattle, WA (2026)",
   description: "The best Pilates studios in Seattle — from Capitol Hill reformer boutiques to classical practices in Queen Anne and Bellevue. Six verified picks, 2026.",
   robots: {
     index: true,

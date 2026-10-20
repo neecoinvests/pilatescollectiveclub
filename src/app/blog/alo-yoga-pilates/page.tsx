@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -92,7 +94,7 @@ const jsonLd = {
       "description": "Everything Alo Yoga makes that's worth buying for Pilates — the Airbrush legging, Airlift bra, Alo Moves, and what doesn't deliver.",
       "url": "https://pilatescollectiveclub.com/blog/alo-yoga-pilates",
       "datePublished": "2026-05-14",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -134,7 +136,8 @@ export default function AloYogaPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Alo Yoga for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces &amp; Honest Review</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 10 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 20, 2026 · 10 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Sold at aloyoga.com, not on Amazon" url={PRODUCTS[0].affiliateUrl} cta="Shop Alo →" />
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Alo Yoga&apos;s Amazon presence is real but limited to occasional single-size, single-colour listings — not reliable enough to recommend here. These links go directly to Alo&apos;s own site rather than an affiliate program.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -153,6 +156,12 @@ export default function AloYogaPilatesPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks
+              className="mb-12 mt-4"
+              subtitle="Alo sells these pieces on aloyoga.com; they are not sold on Amazon. Prices are Alo's starting prices."
+              picks={PRODUCTS.map((pr) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: pr.verdict, cta: "Shop Alo →" }))}
+            />
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Alo dominates boutique Pilates studios</h2>
@@ -231,6 +240,9 @@ export default function AloYogaPilatesPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lululemon for Pilates" excerpt="The complete guide to the best Lululemon pieces for studio and reformer Pilates — and what to skip." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Varley for Pilates (2026)" excerpt="The boutique studio brand reviewed: Freesoft leggings, layers and what to buy first." href="/blog/varley-pilates-activewear" category="Brand Guide" readTime="9 min read" date="October 2026" imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" />
+                <ArticleCard title="Best Luxury Pilates Leggings (2026)" excerpt="Premium leggings from Varley, Alo and more, compared on fabric and fit." href="/blog/best-luxury-pilates-leggings" category="Activewear" readTime="10 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="Five verified grip socks for reformer class, from toesox and TAVI to budget packs." href="/blog/best-pilates-grip-socks" category="Accessories" readTime="6 min read" date="October 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>

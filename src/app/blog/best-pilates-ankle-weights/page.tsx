@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -55,7 +57,7 @@ const PRODUCTS = [
   {
     rank: "03",
     name: "nooncrazy Pilates Wrist/Ankle Weights (Set of 2, 1lb each)",
-    price: "$16.97",
+    price: "$16.96",
     verdict: "Best waterproof, dual-purpose pick",
     description:
       "Steel weight plates wrapped in a waterproof silicone shell, so this set doubles as a wrist weight for arm work and an ankle weight for leg work without soaking through during a sweaty session. At 1lb each, it sits right in the range Pilates typically calls for, and the fully sealed silicone is easier to wipe down and disinfect than a fabric-covered weight.",
@@ -65,7 +67,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "BAGAIL Ankle/Wrist Weights (2lb pair, 1lb each)",
-    price: "$9.98",
+    price: "$9.99",
     verdict: "Best budget pick",
     description:
       "The cheapest genuine option here, built from a three-layer Lycra-SBR fabric that stays flexible rather than bulky against the ankle. At 1lb each side, it's a straightforward entry point for anyone who wants to try loaded leg work in Pilates without spending much to find out if they like it.",
@@ -87,7 +89,7 @@ const PRODUCTS = [
 const FAQS = [
   {
     q: "Is there a real ankle weight sold on Amazon that you can verify?",
-    a: "Yes. The Sportneer Adjustable Ankle Weights ($29.77, 2-10lb per pair), the BECOJADDE Ankle Weights ($20.69, set of 2, 1lb each and expandable), the nooncrazy set ($16.97, 1lb each), the BAGAIL set ($9.98, 1lb each), and the GALLIA set ($16.99, 2lb adjustable pair) are all live, currently-sold Amazon listings.",
+    a: "Yes. The Sportneer Adjustable Ankle Weights ($29.77, 2-10lb per pair), the BECOJADDE Ankle Weights ($20.69, set of 2, 1lb each and expandable), the nooncrazy set ($16.96, 1lb each), the BAGAIL set ($9.99, 1lb each), and the GALLIA set ($16.99, 2lb adjustable pair) are all live, currently-sold Amazon listings.",
   },
   {
     q: "What weight ankle weights should I use for Pilates?",
@@ -99,7 +101,7 @@ const FAQS = [
   },
   {
     q: "Which of these five should I actually buy?",
-    a: "For budget: the BAGAIL set ($9.98). For most people: the nooncrazy waterproof set ($16.97) or the GALLIA adjustable bangle set ($16.99). For a wider load range or a premium build: the Sportneer ($29.77) or BECOJADDE ($20.69), both of which adjust across a broader weight range than the simpler fixed sets.",
+    a: "For budget: the BAGAIL set ($9.99). For most people: the nooncrazy waterproof set ($16.96) or the GALLIA adjustable bangle set ($16.99). For a wider load range or a premium build: the Sportneer ($29.77) or BECOJADDE ($20.69), both of which adjust across a broader weight range than the simpler fixed sets.",
   },
 ];
 
@@ -130,7 +132,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-ankle-weights",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-ankle-weights",
       "articleSection": "Equipment Guide",
@@ -188,10 +190,11 @@ export default function BestPilatesAnkleWeightsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Ankle Weights<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Real Options Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 5 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 5 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Adjustable 2 to 10 lb per pair for progressive loading" url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A prior version of this article named brands (Bala, BWSS, Lululemon, Alo Yoga) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real ankle weight options are in stock and ready to buy today: the Sportneer Adjustable Ankle Weights (2-10lb per pair, $29.77), the BECOJADDE Ankle Weights (set of 2, 1lb each and expandable, $20.69), the nooncrazy set (1lb each, waterproof silicone, $16.97), the BAGAIL set (1lb each, budget pick, $9.98), and the GALLIA set (2lb adjustable pair, $16.99).
+              A prior version of this article named brands (Bala, BWSS, Lululemon, Alo Yoga) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real ankle weight options are in stock and ready to buy today: the Sportneer Adjustable Ankle Weights (2-10lb per pair, $29.77), the BECOJADDE Ankle Weights (set of 2, 1lb each and expandable, $20.69), the nooncrazy set (1lb each, waterproof silicone, $16.96), the BAGAIL set (1lb each, budget pick, $9.99), and the GALLIA set (2lb adjustable pair, $16.99).
             </p>
           </div>
         </section>
@@ -209,25 +212,7 @@ export default function BestPilatesAnkleWeightsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Quick reference table */}
-            <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Verified Picks</p>
-              </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
-                  </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Buy →</a>
-                </div>
-              ))}
-            </div>
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: pr.verdict }))} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">

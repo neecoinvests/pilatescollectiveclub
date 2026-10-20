@@ -10,7 +10,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Balanced Body vs Merrithew (2026): Studio Reformer vs At Home SPX",
+  title: "Balanced Body vs Merrithew (2026): Studio vs At Home SPX",
   description: "Balanced Body's Studio Reformer against Merrithew's At Home SPX Reformer Package — the two commercial-brand reformers actually sold on Amazon, compared on springs, frame, accessory ecosystem and price.",
   keywords: ["balanced body studio reformer vs merrithew at home spx", "balanced body vs merrithew reformer", "best home reformer comparison", "studio reformer review", "at home spx review", "which reformer to buy", "balanced body reformer price", "merrithew reformer price"],
   openGraph: {

@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in New Orleans, LA (2026) — Curated Guide",
+  title: "Best Pilates Studios in New Orleans, LA (2026)",
   description: "The best Pilates studios in New Orleans — reformer boutiques in the Garden District, Uptown, and Mid-City. Six verified picks for every level, 2026.",
   robots: {
     index: true,

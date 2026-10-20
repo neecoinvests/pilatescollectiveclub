@@ -8,7 +8,7 @@ import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import TopPick from "@/components/TopPick";
 import PartnerBrandEntry from "@/components/PartnerBrandEntry";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Brands (2026): Complete Brand Guide",
@@ -42,7 +42,7 @@ const jsonLd = {
       "description": "The definitive comparison of every major reformer Pilates brand: Balanced Body, Gratz, Merrithew, Peak Pilates, Elina, BASI Systems, Align-Pilates, AeroPilates, Your Reformer, and PersonalHour.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-brands",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-10-04",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -333,10 +333,13 @@ const PARTNER_ENTRY = (
   </div>
 );
 
+const ITEM_LIST = productItemList("Best reformer from each top brand on Amazon", AMAZON_PICKS.map((a, i) => ({ name: a.name, description: `${a.tag}${a.note ? `. ${a.note}` : ""}`, price: a.price, url: a.url, inStock: i !== 0 })));
+
 export default function BestReformerBrandsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         {/* Hero */}
@@ -350,7 +353,7 @@ export default function BestReformerBrandsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Reformer Pilates Brands<br /><span style={{ color: "#8b4a31" }}>(2026): All 10 Ranked</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 18, 2026 · 18 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 18 min read</p>
             <TopPick label="Top pick for most homes" name={AMAZON_PICKS[2].name} price={AMAZON_PICKS[2].price} note="Professional springs at a home-reformer price; in stock" url={AMAZON_PICKS[2].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>

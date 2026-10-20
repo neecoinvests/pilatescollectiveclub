@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer for Small Spaces (2026): 7 Compact Picks",
+  title: "Best Pilates Reformer for Small Spaces (2026): 7 Picks",
   description: "The best Pilates reformers for small spaces — seven real, verified Amazon listings, foldable and compact options, from a $295.99 budget tier to established-brand studio-grade machines.",
   keywords: ["best pilates reformer for small spaces", "compact pilates reformer 2026", "small space reformer pilates", "foldable reformer small apartment", "best folding pilates reformer", "pilates reformer small room", "portable pilates reformer", "pilates reformer apartment", "budget folding reformer"],
   openGraph: {

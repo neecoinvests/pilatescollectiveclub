@@ -8,7 +8,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "How to Choose a Pilates Instructor (2026): Credentials & Red Flags",
+  title: "How to Choose a Pilates Instructor (2026): Red Flags",
   description: "How to choose a Pilates instructor: certifications, teaching styles, class formats, and red flags. A complete guide for beginners and experienced students.",
   openGraph: {
     title: "How to Choose the Right Pilates Instructor",

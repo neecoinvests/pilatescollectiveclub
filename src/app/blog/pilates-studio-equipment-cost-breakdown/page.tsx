@@ -10,7 +10,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates Studio Equipment Cost Breakdown (2026): 3 Real Budgets",
+  title: "Pilates Studio Equipment Cost Breakdown (2026): 3 Budgets",
   description: "Itemised equipment budgets for a 3, 6 and 10 reformer Pilates studio, built from current list prices, with the costs most first-time owners leave out.",
   keywords: ["pilates studio equipment cost", "pilates studio startup cost", "cost to equip a pilates studio", "pilates reformer bulk pricing", "commercial pilates equipment price", "pilates studio budget", "how much does pilates equipment cost", "pilates studio equipment list"],
   openGraph: {

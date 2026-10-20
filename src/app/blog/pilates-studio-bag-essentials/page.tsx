@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "What to Pack in Your Pilates Studio Bag (2026) — Instructor-Approved List",
+  title: "What to Pack in Your Pilates Bag (2026): Studio Checklist",
   description: "Everything that goes in a well-packed Pilates studio bag — from the non-negotiable grip socks to the insulated water bottle. What instructors carry, five days a week.",
   openGraph: {
     title: "What to Pack in Your Pilates Studio Bag (2026)",

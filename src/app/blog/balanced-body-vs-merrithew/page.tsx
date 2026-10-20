@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Balanced Body vs Merrithew (2026): Real Prices, Verdict",
@@ -40,7 +42,7 @@ const jsonLd = {
       "description": "A detailed head-to-head comparison of Balanced Body and Merrithew reformers, using the machines actually sold on Amazon and their real current prices.",
       "url": "https://pilatescollectiveclub.com/blog/balanced-body-vs-merrithew",
       "datePublished": "2026-05-14",
-      "dateModified": "2026-09-22",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -108,15 +110,26 @@ const comparisons = [
 const PRODUCTS = [
   { name: "Balanced Body Studio Reformer (Revo Footbar)", description: "The real Balanced Body flagship sold on Amazon — Strata rock maple frame, five Signature Springs, full tower compatibility. Made to order; does not fold.", price: "$4,700", affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
   { name: "Merrithew At Home SPX Reformer Package", description: "Merrithew's real home-market reformer sold on Amazon — five-spring system with fine light-end gradation, sized to fit along a wall in most bedrooms. We could not verify a folding feature for this listing.", price: "$3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
-  { name: "Byrex Pilates Prop Kit (Ring, Ball, Bands)", description: "A real, currently-sold prop kit rather than a brand-specific magic circle — works regardless of which reformer brand you choose, and is a useful addition to any home practice.", price: "$19.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
+  { name: "Byrex Pilates Prop Kit (Ring, Ball, Bands)", description: "A real, currently-sold prop kit rather than a brand-specific magic circle — works regardless of which reformer brand you choose, and is a useful addition to any home practice.", price: "$24.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
   { name: "Eccentfit Pilates Grip Pads (4-Pack)", description: "Cheap insurance for standing and kneeling work on either brand's carriage, and it protects the upholstery. Check pad dimensions against your carriage width before ordering.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B0GGR4QXNH?tag=pilatescollective-20" },
   { name: "Gaiam Premium Yoga Mat, 6mm", description: "A real, useful mat for home practice while you're deciding between reformer brands, or for the mat work that complements either machine.", price: "$39.99", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
 ];
+
+const KIT_NOTES = [
+  "Balanced Body's flagship; made to order and does not fold",
+  "Merrithew's home package with a five-spring system",
+  "Ring, ball and bands that work with either brand",
+  "Grip pads for standing and kneeling work on the carriage",
+  "6mm mat for the mat work that complements either machine",
+];
+
+const ITEM_LIST = productItemList("Balanced Body vs Merrithew: verified listings", PRODUCTS.map((pr, i) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl, inStock: i !== 0 })));
 
 export default function BalancedBodyVsMerrithewPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -129,7 +142,8 @@ export default function BalancedBodyVsMerrithewPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Balanced Body vs Merrithew:<br /><span style={{ color: "#8b4a31" }}>Which Reformer Is Right for You?</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 13 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 13 min read</p>
+            <TopPick label="Top pick for home buyers" name={PRODUCTS[1].name} price={PRODUCTS[1].price} note="In stock on Amazon; sized to fit along a wall in most bedrooms" url={PRODUCTS[1].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Balanced Body and Merrithew are the two most important reformer brands for practitioners outside the classical Gratz world. This comparison is built on real, live Amazon listings rather than search-term model names — you&apos;ll see &quot;Allegro 2,&quot; &quot;SPX Max,&quot; and a &quot;V2 Max&quot; at $4,999 in searches, but we could not verify any of them as live listings. The real machines: Balanced Body&apos;s Studio Reformer at $4,700 and Merrithew&apos;s At Home SPX Reformer Package at $3,349, with Merrithew&apos;s genuinely clinical-grade Rehab V2 Max Plus at $8,199 for higher-intensity use.
@@ -147,6 +161,12 @@ export default function BalancedBodyVsMerrithewPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks
+              className="mb-6 mt-4"
+              picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: KIT_NOTES[i] }))}
+            />
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The brands in brief</h2>
@@ -226,8 +246,6 @@ export default function BalancedBodyVsMerrithewPage() {
 
 
             {/* Equipment */}
-            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
-
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit — real, verified listings</h2>
@@ -243,6 +261,10 @@ export default function BalancedBodyVsMerrithewPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Merrithew At Home SPX Review (2026)" excerpt="The real Amazon-sold SPX-family machine, reviewed honestly." href="/blog/merrithew-spx-max-review" category="Equipment Review" readTime="11 min read" date="September 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
                 <ArticleCard title="Balanced Body Studio Reformer Review (2026)" excerpt="The real Balanced Body flagship sold on Amazon, reviewed honestly." href="/blog/balanced-body-allegro-2-review" category="Equipment Review" readTime="11 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer Brands (2026)" excerpt="All 10 major reformer brands ranked, from Balanced Body and Merrithew to Align and AeroPilates." href="/blog/best-pilates-reformer-brands" category="Brand Guide" readTime="18 min read" date="October 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="Align Pilates vs Balanced Body (2026)" excerpt="How Align's home reformers compare with Balanced Body on springs, build and price." href="/blog/align-pilates-vs-balanced-body" category="Brand Guide" readTime="13 min read" date="October 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
+                <ArticleCard title="Merrithew SPX Max vs V2 Max (2026)" excerpt="Merrithew's two main reformers side by side, for home and studio buyers." href="/blog/merrithew-spx-max-vs-v2-max" category="Equipment Review" readTime="11 min read" date="October 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
+                <ArticleCard title="Balanced Body Pilates (2026)" excerpt="The full Balanced Body range, from props to the Studio Reformer." href="/blog/balanced-body-pilates" category="Brand Guide" readTime="11 min read" date="October 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
               </div>
             </div>
           </div>

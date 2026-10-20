@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
 import UpsellCTA from "@/components/UpsellCTA";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How Long to See Pilates Results? (2026 Timeline)",
@@ -39,7 +41,7 @@ const jsonLd = {
       "description": "Honest, research-backed timelines for Pilates results — when you will feel the difference, see physical changes, and build lasting transformation.",
       "url": "https://pilatescollectiveclub.com/blog/how-long-to-see-results-pilates",
       "datePublished": "2026-06-01",
-      "dateModified": "2026-06-01",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-teaser-pose-back.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -124,14 +126,25 @@ const PRODUCTS = [
   { name: "Manduka PRO Yoga Mat (6mm)", description: "The home mat that makes between-session practice possible — and between-session practice is what accelerates the timeline to visible Pilates results. The Manduka PRO is the dense, studio-standard mat; if you plan to practise at home several times a week, it is a buy-once purchase.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20" },
   { name: "THERABAND Resistance Bands Set (Beginner Kit)", description: "Progressive resistance loading at home compounds the studio work. The combination of twice-weekly studio sessions and two home band sessions per week is the fastest route to measurable results.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Black Mountain Products High Density Foam Roller (36-inch)", description: "Daily foam rolling reduces recovery time between sessions and maintains the thoracic mobility that Pilates develops — keeping the results accumulating rather than resetting between classes.", price: "$29.99", affiliateUrl: "https://www.amazon.com/dp/B00DL7BH2O?tag=pilatescollective-20" },
-  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "For the home sessions that bridge studio classes. The magic circle enables real Pilates work — not just stretching — in the time between studio sessions that determines the pace of progress.", price: "$24.99", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "For the home sessions that bridge studio classes. The magic circle enables real Pilates work — not just stretching — in the time between studio sessions that determines the pace of progress.", price: "$19.78", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
   { name: "Mr. Pen Fitness Workout Journal", description: "Tracking sessions and weekly observations is the most accurate way to notice Pilates results as they happen — before they are visible in the mirror. The data motivates continued practice.", price: "$4.99", affiliateUrl: "https://www.amazon.com/dp/B0GNMM4N2Q?tag=pilatescollective-20" },
 ];
+
+const KIT_NOTES = [
+  "Dense, studio-standard mat for home sessions between classes",
+  "Progressive resistance at home to compound studio work",
+  "Daily rolling to cut recovery time between sessions",
+  "Real Pilates resistance work at home, not just stretching",
+  "Track sessions to notice results before the mirror does",
+];
+
+const ITEM_LIST = productItemList("How long to see Pilates results: recommended kit", PRODUCTS.map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function HowLongToSeeResultsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -144,7 +157,8 @@ export default function HowLongToSeeResultsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               How Long to See<br />Results from Pilates?<br /><span style={{ color: "#8b4a31" }}>The Honest Timeline</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 10 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="The dense home mat for the between-class practice that speeds up results" url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Joseph Pilates said: &ldquo;In ten sessions you will feel the difference, in twenty you will see the difference, and in thirty you will have a whole new body.&rdquo; Nearly a century later, this timeline holds up surprisingly well against the research — with some important qualifications. Here is what you should realistically expect, and when.
@@ -163,7 +177,14 @@ export default function HowLongToSeeResultsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-14 mt-4">
+            <QuickPicks
+              className="mb-6 mt-4"
+              subtitle="The kit that makes between-class practice possible, the biggest lever on your timeline."
+              picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: KIT_NOTES[i] }))}
+            />
+            <AffiliateNote />
+
+            <div className="mb-14 mt-12">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The variables that determine your timeline</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 The Pilates results timeline is not fixed — it varies significantly based on a handful of key factors. Understanding these helps you set realistic expectations and optimise your approach.
@@ -246,8 +267,6 @@ export default function HowLongToSeeResultsPage() {
 
 
             {/* Equipment */}
-            <AffiliateNote />
-
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>

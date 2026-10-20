@@ -5,7 +5,7 @@ import { gift, GIFTS_CHECKED, GIFTS_CHECKED_ISO } from "@/lib/giftCatalog";
 const SLUG = "black-friday-cyber-monday-recovery-deals";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-studio-bench-towels.png";
-const TITLE = "Black Friday & Cyber Monday Recovery Deals 2026: Price to Beat";
+const TITLE = "Black Friday & Cyber Monday Recovery Deals (2026)";
 const DESCRIPTION = "Normatec, Therabody JetBoots, Theragun, Hypervolt and HigherDOSE deals to watch this Black Friday and Cyber Monday, with today's Amazon price to beat for each.";
 
 export const metadata: Metadata = {

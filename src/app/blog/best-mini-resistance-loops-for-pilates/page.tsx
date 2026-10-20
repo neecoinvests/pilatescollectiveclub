@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Mini Resistance Loops for Pilates (2026): 5 Real Options Compared",
+  title: "Best Mini Resistance Loops for Pilates (2026): 5 Picks",
   description: "Five real, currently-sold mini resistance loop band sets for Pilates glute and hip activation — Fit Simplify, Synergee, Perform Better, WIKDAY, and Tribe — spanning every price tier from $4.99 to $19.97.",
   keywords: ["best mini resistance loops pilates", "glute bands pilates 2026", "mini resistance bands pilates", "hip activation bands pilates", "fit simplify mini bands", "synergee mini bands"],
   openGraph: {

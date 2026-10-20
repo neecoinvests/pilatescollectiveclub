@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Las Vegas, NV (2026) — Curated Guide",
+  title: "Best Pilates Studios in Las Vegas, NV (2026)",
   description: "The best Pilates studios in Las Vegas — top-rated independents, Henderson reformer studios and Club Pilates across the valley. Six verified picks, 2026.",
   robots: {
     index: true,

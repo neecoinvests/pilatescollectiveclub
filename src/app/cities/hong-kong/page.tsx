@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Hong Kong (2026) — Curated Guide",
+  title: "Best Pilates Studios in Hong Kong (2026)",
   description: "The best Pilates studios in Hong Kong — from Central reformer boutiques to studios in Wan Chai and Causeway Bay. Six curated picks, verified October 2026.",
   robots: {
     index: true,

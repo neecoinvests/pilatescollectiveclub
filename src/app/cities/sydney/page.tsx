@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Sydney (2026) — Curated Guide",
+  title: "Best Pilates Studios in Sydney (2026)",
   description: "The best Pilates studios in Sydney — reformer studios in Surry Hills, the North Shore, Manly and beyond. Six curated picks, verified October 2026.",
   robots: {
     index: true,

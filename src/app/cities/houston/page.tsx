@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Houston, TX (2026) — Curated Guide",
+  title: "Best Pilates Studios in Houston, TX (2026)",
   description: "The best Pilates studios in Houston — from River Oaks reformer boutiques to classical method in the Heights and Midtown. Six verified picks, 2026.",
   robots: {
     index: true,

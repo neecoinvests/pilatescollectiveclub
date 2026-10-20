@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates for Shoulder Pain (2026): Exercises for Rotator Cuff & Impingement",
+  title: "Pilates for Shoulder Pain (2026): Rotator Cuff Exercises",
   description: "Pilates for shoulder pain: scapular stability work that resolves impingement, rotator cuff programming, and the loaded positions to avoid during a flare.",
   keywords: ["pilates for shoulder pain", "pilates rotator cuff", "pilates shoulder impingement", "pilates scapular stability", "pilates frozen shoulder", "shoulder exercises pilates", "pilates serratus anterior", "pilates thoracic mobility shoulder", "pilates shoulder rehab", "shoulder pain pilates 2026"],
   openGraph: {

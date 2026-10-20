@@ -8,7 +8,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates for Office Workers & Desk Jobs (2026): Fix Posture, Reduce Pain",
+  title: "Pilates for Office Workers (2026): Fix Desk Posture & Pain",
   description: "Pilates for desk workers: the exercises that counteract sitting, tech neck, and hip flexor tightness. A practical guide for office workers with limited time.",
   keywords: ["pilates for office workers", "pilates desk job", "pilates for sitting all day", "pilates tech neck fix", "pilates sedentary lifestyle", "pilates work from home", "pilates for desk posture", "pilates lower back desk", "pilates hip flexors sitting", "office worker pilates 2026"],
   openGraph: {

@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Stretch Strap for Pilates (2026): 5 Real Options Compared",
+  title: "Best Stretch Strap for Pilates (2026): 5 Picks Compared",
   description: "The Gaiam Yoga Strap, OPTP Original Stretch Out Strap, Oak-Sports Strap, CTRL Sports Strap, and Acozycoo Strap are all live, currently-sold Amazon listings with verified prices and specs. Here's how they compare for Pilates flexibility work.",
   keywords: ["best stretch strap pilates", "gaiam yoga strap", "optp stretch out strap", "pilates stretch strap 2026", "flexibility strap pilates", "pilates hamstring strap"],
   openGraph: {

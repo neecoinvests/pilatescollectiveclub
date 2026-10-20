@@ -5,7 +5,7 @@ import { item, PRICES_CHECKED, PRICES_CHECKED_ISO } from "@/lib/reformerCatalog"
 const SLUG = "wood-vs-aluminium-pilates-reformer";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-white-reformer-plaster.png";
-const TITLE = "Wood vs Aluminium Pilates Reformer (2026): Which Frame Is Better?";
+const TITLE = "Wood vs Aluminium Pilates Reformer (2026): Which Is Better?";
 const DESCRIPTION = "Wood vs aluminium Pilates reformers compared on weight, feel, storage, care and price, with the best maple, walnut and aluminium reformers to buy now.";
 
 export const metadata: Metadata = {

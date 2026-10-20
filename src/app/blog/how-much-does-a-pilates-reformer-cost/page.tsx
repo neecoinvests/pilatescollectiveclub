@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "How Much Does a Pilates Reformer Cost? (2026 Complete Price Guide)",
+  title: "How Much Does a Pilates Reformer Cost? (2026 Price Guide)",
   description: "How much does a Pilates reformer cost in 2026? Budget cord ($350–$1.3K), budget spring ($296–$750), entry spring ($2.3K–$3.7K), and professional/clinical ($4.5K–$8K+) machines compared by price tier.",
   keywords: ["how much does a pilates reformer cost", "pilates reformer price", "pilates reformer cost 2026", "how much is a pilates reformer", "pilates reformer price range", "cheap pilates reformer cost", "studio pilates reformer price", "pilates reformer budget", "pilates reformer investment", "cost of pilates reformer"],
   openGraph: {

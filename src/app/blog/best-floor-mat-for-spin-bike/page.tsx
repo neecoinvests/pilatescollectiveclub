@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Floor Mat for Spin Bike (2026): Protect Your Floor & Absorb Sweat",
+  title: "Best Floor Mat for Spin Bike (2026): Top Picks Compared",
   description: "The best floor mats for spin bikes and indoor cycling — compared for thickness, sweat absorption, bike stability, and floor protection on hardwood, tile, and carpet.",
   keywords: ["best floor mat for spin bike", "exercise bike floor mat 2026", "indoor cycling mat hardwood", "peloton floor mat", "sweat mat spin bike", "bike mat for home gym", "equipment floor protector cycling"],
   openGraph: {

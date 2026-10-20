@@ -11,7 +11,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Lagree vs Pilates (2026): What's the Difference and Which Is Right for You?",
+  title: "Lagree vs Pilates (2026): Differences & Which to Choose",
   description: "Lagree vs. Pilates: Megaformer vs. reformer, intensity, muscle activation, and injury risk compared. Which method is better for your fitness goals?",
   keywords: [
     "lagree vs pilates",

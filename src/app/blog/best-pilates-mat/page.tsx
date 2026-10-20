@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -36,7 +38,7 @@ const PRODUCTS = [
     rank: "01",
     name: "Gaiam Premium Yoga Mat (6mm)",
     price: "$39.99",
-    verdict: "Our long-standing anchor pick — sold by Amazon.com",
+    verdict: "Our long-standing anchor pick, sold by Amazon.com",
     description:
       "Sold directly by Amazon.com, this is the mat this guide has recommended and verified before: a 6mm mat from Gaiam at $39.99. It sits at the commonly cited sweet spot for Pilates — firm enough for spinal feedback, with enough cushioning for sustained floor contact — and remains our default overall pick.",
     affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20",
@@ -45,10 +47,10 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Gaiam Essentials Thick Yoga Mat (10mm)",
-    price: "$25.43",
-    verdict: "More cushioning, same brand — sold by Amazon.com",
+    price: "$25.07",
+    verdict: "More cushioning, same brand, sold by Amazon.com",
     description:
-      "Also from Gaiam and sold by Amazon.com, this version steps up to 10mm — roughly two-thirds thicker than the Premium pick above. If you find 6mm too firm on your spine or joints during floor work, this is the same brand's answer at a moderately higher price, $25.43.",
+      "Also from Gaiam and sold by Amazon.com, this version steps up to 10mm — roughly two-thirds thicker than the Premium pick above. If you find 6mm too firm on your spine or joints during floor work, this is the same brand's answer at a moderately higher price, $25.07.",
     affiliateUrl: "https://www.amazon.com/dp/B07H9PZ6MH?tag=pilatescollective-20",
     tag: "Best Extra Cushioning",
   },
@@ -93,7 +95,7 @@ const jsonLd = {
       "description": "Five Pilates mats verified as real, in-stock Amazon listings, compared across thickness, material, and features — led by the Gaiam Premium Yoga Mat, 6mm.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-mat",
       "datePublished": "2026-05-14",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -127,7 +129,7 @@ const jsonLd = {
     "mainEntity": [
       { "@type": "Question", "name": "Can I use a yoga mat for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — a yoga mat works for beginners and casual practice. The limitation becomes apparent as your practice develops: softer yoga mats reduce the proprioceptive feedback that makes Pilates articulation exercises effective. If you're practising Pilates more than twice a week, a firmer mat generally improves the quality of your sessions." } },
       { "@type": "Question", "name": "What thickness mat is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "6mm is a commonly cited sweet spot — firm enough for spinal feedback, with enough cushioning for sustained floor contact. Practitioners with sensitive spines or vertebral conditions may prefer thicker mats. This is general guidance; check the exact thickness on any specific listing before buying." } },
-      { "@type": "Question", "name": "What's the best overall Pilates mat?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Premium Yoga Mat (6mm, $39.99) is our top overall pick — it sits at the commonly cited 6mm sweet spot for Pilates and is sold directly by Amazon.com. If you want more cushioning, the Gaiam Essentials Thick Yoga Mat (10mm, $25.43) from the same brand is a step up." } },
+      { "@type": "Question", "name": "What's the best overall Pilates mat?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Premium Yoga Mat (6mm, $39.99) is our top overall pick — it sits at the commonly cited 6mm sweet spot for Pilates and is sold directly by Amazon.com. If you want more cushioning, the Gaiam Essentials Thick Yoga Mat (10mm, $25.07) from the same brand is a step up." } },
       { "@type": "Question", "name": "How long should a Pilates mat last?", "acceptedAnswer": { "@type": "Answer", "text": "As a general rule, a well-cared-for mat should last several years of regular practice, while budget mats typically need replacement sooner. We don't have verified longevity data for a specific product to cite here, so treat this as general guidance rather than a claim about any single mat." } }
     ]
   },
@@ -150,7 +152,8 @@ export default function BestPilatesMatPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Mat<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Verified Picks</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 8 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Gaiam's 6mm Premium mat, sold by Amazon.com" url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               We checked five Pilates mats against live, in-stock Amazon listings — from our long-standing Gaiam Premium pick to a thicker Gaiam option, a mat with printed alignment lines, and two TPE mats. Here&apos;s how they compare on thickness, material, and features.
@@ -169,25 +172,7 @@ export default function BestPilatesMatPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Quick reference table */}
-            <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>At a Glance</p>
-              </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
-                  </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Buy →</a>
-                </div>
-              ))}
-            </div>
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: pr.verdict }))} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
@@ -249,7 +234,7 @@ export default function BestPilatesMatPage() {
                 {[
                   { q: "Can I use a yoga mat for Pilates?", a: "Yes — a yoga mat works for beginners and casual practice. The limitation becomes apparent as your practice develops: softer yoga mats reduce the proprioceptive feedback that makes Pilates articulation exercises effective. If you're practising Pilates more than twice a week, a firmer mat generally improves the quality of your sessions." },
                   { q: "What thickness mat is best for Pilates?", a: "6mm is a commonly cited sweet spot — firm enough for spinal feedback, with enough cushioning for sustained floor contact. Practitioners with sensitive spines or vertebral conditions may prefer thicker mats. This is general guidance; check the exact thickness on any specific listing before buying." },
-                  { q: "What's the best overall Pilates mat?", a: "The Gaiam Premium Yoga Mat (6mm, $39.99) is our top overall pick — it sits at the commonly cited 6mm sweet spot for Pilates and is sold directly by Amazon.com. If you want more cushioning, the Gaiam Essentials Thick Yoga Mat (10mm, $25.43) from the same brand is a step up." },
+                  { q: "What's the best overall Pilates mat?", a: "The Gaiam Premium Yoga Mat (6mm, $39.99) is our top overall pick — it sits at the commonly cited 6mm sweet spot for Pilates and is sold directly by Amazon.com. If you want more cushioning, the Gaiam Essentials Thick Yoga Mat (10mm, $25.07) from the same brand is a step up." },
                   { q: "How long should a Pilates mat last?", a: "As a general rule, a well-cared-for mat should last several years of regular practice, while budget mats typically need replacement sooner. We don't have verified longevity data for a specific product to cite here, so treat this as general guidance rather than a claim about any single mat." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

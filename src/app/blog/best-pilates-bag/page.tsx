@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -121,7 +123,7 @@ const jsonLd = {
       "description": "The best bags for Pilates studio sessions — compared for capacity, organisation, and studio-to-street carry.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-bag",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-10-04",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -177,7 +179,8 @@ export default function BestPilatesBagPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Bags<br /><span style={{ color: "#8b4a31" }}>(2026): Studio Totes Ranked</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 7 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
+            <TopPick label="Top value pick" name={PRODUCTS[5].name} price={PRODUCTS[5].price} note="24L gym tote with compartments, sold by BAGSMART on Amazon" url={PRODUCTS[5].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A good studio bag is one you barely notice — it holds everything, stays organised, and transitions from studio to street without announcing itself as gym kit. A bad one means tangled grip socks, a wet towel against clean clothes, and a ten-second locker-room excavation to find your card. These six bags have been selected for Pilates-specific use: the right capacity for a studio kit, the right organisation for changing quickly, and the durability to survive multiple sessions per week across years of practice.
@@ -196,24 +199,7 @@ export default function BestPilatesBagPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
-              </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
-                  </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Buy →</a>
-                </div>
-              ))}
-            </div>
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: /amazon\./.test(pr.affiliateUrl) ? pr.verdict : `${pr.verdict} · sold by the brand` }))} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
@@ -252,6 +238,9 @@ export default function BestPilatesBagPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory — five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Tote Bags (2026)" excerpt="Totes that carry a mat, socks and a change of clothes, ranked on size and price." href="/blog/best-pilates-tote-bag" category="Accessories" readTime="7 min read" date="October 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Mat Bags (2026)" excerpt="Mat carriers and slings that keep your mat clean between home and studio." href="/blog/best-pilates-mat-bag" category="Accessories" readTime="7 min read" date="October 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="What to Pack in Your Pilates Bag" excerpt="The studio checklist: grip socks, water, a towel and the small extras worth carrying." href="/blog/pilates-studio-bag-essentials" category="Guide" readTime="6 min read" date="October 2026" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
               </div>
             </div>
           </div>

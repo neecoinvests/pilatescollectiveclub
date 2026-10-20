@@ -72,3 +72,31 @@ export function cleanSchema<T>(jsonLd: T): T {
 export function jsonLdHtml(jsonLd: unknown): string {
   return JSON.stringify(cleanSchema(jsonLd));
 }
+
+// ItemList of Products with USD offers, matching the top guides' markup.
+// Descriptions are stripped of HTML; items without a usable price are dropped
+// by jsonLdHtml when the page renders.
+export function productItemList(name: string, items: { name: string; description?: string; price: string; url: string; inStock?: boolean }[]) {
+  const text = (s = "") => s.replace(/<[^>]+>/g, "").replace(/&apos;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, "&");
+  return {
+    "@type": "ItemList",
+    name,
+    numberOfItems: items.length,
+    itemListElement: items.map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Product",
+        name: p.name,
+        ...(p.description ? { description: text(p.description) } : {}),
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "USD",
+          price: p.price,
+          url: p.url,
+          ...(p.inStock === false ? {} : { availability: "https://schema.org/InStock" }),
+        },
+      },
+    })),
+  };
+}

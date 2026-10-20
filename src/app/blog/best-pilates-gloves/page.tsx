@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -48,7 +50,7 @@ const PRODUCTS = [
     rank: "01",
     name: "TAVI Half Finger Gym Gloves (Full Coverage Grips)",
     price: "$31.99",
-    verdict: "Best overall — from a dedicated Pilates/barre grip brand",
+    verdict: "Best overall: from a dedicated Pilates/barre grip brand",
     description: "TAVI is a dedicated Pilates and barre grip brand, and this half-finger glove pairs a full-coverage grip palm with open fingertips for reformer handles, straps and mat work. Sold on Amazon by The Active Footwear Store, TAVI's official distributor. At $31.99 it's the priciest glove here — the one to buy if you want a glove designed for the studio rather than the weights floor.",
     affiliateUrl: "https://www.amazon.com/dp/B09GPVMF86?tag=pilatescollective-20",
     tag: "Best Overall",
@@ -57,7 +59,7 @@ const PRODUCTS = [
     rank: "02",
     name: "Gaiam Grippy Yoga Gloves",
     price: "$7.65",
-    verdict: "Best budget — an established brand for under $8",
+    verdict: "Best budget: an established brand for under $8",
     description: "Gaiam is an established yoga and Pilates accessories brand, and its Grippy Yoga Gloves are the lowest-priced pair on this list at $7.65, sold by W&E Distribution. A sensible way to find out whether you like training in grip gloves before spending more.",
     affiliateUrl: "https://www.amazon.com/dp/B001VROVEM?tag=pilatescollective-20",
     tag: "Best Budget",
@@ -66,7 +68,7 @@ const PRODUCTS = [
     rank: "03",
     name: "oasymala Non-Slip Fingerless Yoga Gloves",
     price: "$13.98",
-    verdict: "Best fingerless — marketed specifically for Pilates and barre",
+    verdict: "Best fingerless: marketed specifically for Pilates and barre",
     description: "A non-slip fingerless glove sold by OasyMala and marketed for Pilates and barre. At $13.98 it sits between the budget Gaiam pair and the TAVI glove — a mid-priced option if you want a fingerless style aimed at studio work.",
     affiliateUrl: "https://www.amazon.com/dp/B0DHKLSXLY?tag=pilatescollective-20",
     tag: "Best Fingerless",
@@ -75,7 +77,7 @@ const PRODUCTS = [
     rank: "04",
     name: "Eurzom 2-Pairs Yoga Pilates Gloves with Grips",
     price: "$9.99",
-    verdict: "Best value 2-pack — two pairs for under $10",
+    verdict: "Best value 2-pack: two pairs for under $10",
     description: "Two pairs of yoga/Pilates grip gloves for $9.99, sold by Yaoshinegoup. Having a second pair means one can dry while you wear the other — useful if you practise several times a week.",
     affiliateUrl: "https://www.amazon.com/dp/B0DZ2CZS1J?tag=pilatescollective-20",
     tag: "Best Value 2-Pack",
@@ -84,7 +86,7 @@ const PRODUCTS = [
     rank: "05",
     name: "MhIL Workout Gloves for Women",
     price: "$8.99",
-    verdict: "Best wrist support — for Lagree and weighted work",
+    verdict: "Best wrist support: for Lagree and weighted work",
     description: "A breathable glove with wrist wrap support built in, sold by MhIL. The wrist wrap is a useful detail for Pilates practitioners who feel strain during plank and push-up work on the reformer box, and the breathable construction helps during sweaty Megaformer sessions.",
     affiliateUrl: "https://www.amazon.com/dp/B08R6CB2K6?tag=pilatescollective-20",
     tag: "Best Wrist Support",
@@ -100,7 +102,7 @@ const jsonLd = {
       description: "Five verified Pilates grip gloves for reformer, barre and mat — led by TAVI's half-finger glove — plus one wrist-support glove for Lagree and weighted work.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-gloves",
       datePublished: "2026-06-28",
-      dateModified: "2026-09-27",
+      dateModified: "2026-10-20",
       image: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -172,19 +174,18 @@ export default function BestPilatesGlovesPage() {
         {/* Hero */}
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <div className="flex gap-2 mb-6">
-              <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Equipment</span>
-              <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Accessories</span>
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
+              <span style={{ color: "#d9c2ba" }}>·</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#2d1f17" }}>
-              Best Pilates Gloves (2026): Grip Gloves for Reformer &amp; Lagree
+            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              Best Pilates Gloves (2026):<br /><span style={{ color: "#8b4a31" }}>Grip Gloves for Reformer &amp; Lagree</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Updated September 27, 2026 · 6 min read</p>
-            <div className="p-4 rounded-xl mb-8 text-sm" style={{ backgroundColor: "#f0ebe8", color: "#7a6358" }}>
-              <strong>Affiliate disclosure:</strong> We may earn a commission on purchases made through links on this page, at no extra cost to you. We only recommend products we have researched thoroughly.
-            </div>
-            <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
-            <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 6 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Half-finger grip glove from a dedicated Pilates and barre brand" url={PRODUCTS[0].affiliateUrl} />
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Most Pilates practitioners never think about gloves until their palms are raw after a sweaty Megaformer session or their wrists start complaining mid-plank. The right glove adds grip where you need it — footbar, carriage handles, push-through bar — without sacrificing the hand sensitivity that makes Pilates feedback so valuable. We checked five gloves against live Amazon listings and confirmed all five as real, currently-sold, in-stock products. Four are true Pilates grip gloves — fingerless or half-finger styles for reformer, barre and mat — from TAVI, Gaiam, oasymala and Eurzom, ranging from $7.65 to $31.99. The fifth, from MhIL, adds built-in wrist wraps for Lagree and weighted work.
             </p>
           </div>
@@ -209,25 +210,15 @@ export default function BestPilatesGlovesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             {/* Quick picks */}
-            <div className="rounded-2xl p-6 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
-              <h2 className="text-lg font-bold mb-4" style={{ color: "#2d1f17" }}>Quick Picks</h2>
-              <ul className="space-y-2 text-sm" style={{ color: "#5c4a3d" }}>
-                {PRODUCTS.map((p) => (
-                  <li key={p.rank} className="flex gap-3">
-                    <span className="font-bold" style={{ color: "#c4956a", minWidth: "28px" }}>{p.rank}</span>
-                    <span><a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="font-semibold hover:underline" style={{ color: "#2d1f17" }}>{p.name}</a> — {p.verdict}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: pr.verdict }))} />
             <AffiliateNote />
 
             {/* Product cards */}
             {PRODUCTS.map((p) => (
               <div key={p.rank} className="mb-10">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-3xl font-black" style={{ color: "#e8e0db" }}>{p.rank}</span>
-                  <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: "#f0ebe8", color: "#c4956a" }}>{p.tag}</span>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                  <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
                 </div>
                 <ProductCard
                   name={p.name}
@@ -252,22 +243,22 @@ export default function BestPilatesGlovesPage() {
 
             {/* Buyer's guide */}
             <div className="rounded-2xl p-8 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>How to Choose Pilates Gloves</h2>
-              <div className="space-y-5 text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to Choose Pilates Gloves</h2>
+              <div className="space-y-5 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 <div>
-                  <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Fingerless vs. full-finger</h3>
+                  <h3 className="font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Fingerless vs. full-finger</h3>
                   <p>Fingerless gloves dominate mat and classical reformer work — they protect palms while keeping fingertip sensitivity for strap adjustments. Full-finger designs suit Lagree, where sustained grip on the carriage handles matters more than dexterity.</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Wrist support</h3>
+                  <h3 className="font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Wrist support</h3>
                   <p>Most Pilates grip gloves offer no wrist support. If wrist strain is an issue during planks and push-up sequences on the box, or you do Lagree or weighted work, look for a glove with integrated wrap straps, like the MhIL pick above.</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Grip gloves vs. weight-lifting gloves</h3>
+                  <h3 className="font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Grip gloves vs. weight-lifting gloves</h3>
                   <p>Pilates grip gloves are thin, with a grippy palm, so you keep a feel for the handles and straps. Padded weight-lifting gloves are bulkier and built for barbells and dumbbells — they can make reformer work feel clumsy.</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Washability</h3>
+                  <h3 className="font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Washability</h3>
                   <p>Pilates gloves get sweaty fast. Look at the current listing for washing guidance for your specific pair, and let gloves air dry fully between sessions to protect the grip surface and padding.</p>
                 </div>
               </div>
@@ -275,12 +266,12 @@ export default function BestPilatesGlovesPage() {
 
             {/* FAQ */}
             <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Frequently Asked Questions</h2>
+              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {(jsonLd["@graph"][3] as { mainEntity: { name: string; acceptedAnswer: { text: string } }[] }).mainEntity.map((faq) => (
                   <div key={faq.name}>
-                    <h3 className="font-semibold mb-2" style={{ color: "#2d1f17" }}>{faq.name}</h3>
-                    <p className="text-base leading-relaxed" style={{ color: "#5c4a3d" }}>{faq.acceptedAnswer.text}</p>
+                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{faq.name}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{faq.acceptedAnswer.text}</p>
                   </div>
                 ))}
               </div>
@@ -288,7 +279,7 @@ export default function BestPilatesGlovesPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Further Reading</h2>
+              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category — clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
                 <ArticleCard title="Reformer Pilates Essentials" excerpt="What to wear, bring and buy for reformer class — and when a home reformer starts paying for itself." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="12 min read" date="September 2026" />

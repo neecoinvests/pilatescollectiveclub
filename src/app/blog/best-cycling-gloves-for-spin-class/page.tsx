@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Cycling Gloves for Spin Class (2026): Padded, Grip & Ventilated",
+  title: "Best Cycling Gloves for Spin Class (2026): Padded & Grip",
   description: "The best padded cycling gloves for indoor spin class — compared for palm cushioning, grip, breathability, and comfort during high-output handlebar-heavy sessions.",
   keywords: ["best cycling gloves for spin class", "padded cycling gloves 2026", "indoor cycling gloves review", "spin class gloves fingerless", "bike gloves for peloton", "handlebar grip gloves indoor cycling", "cycling gloves women men"],
   openGraph: {

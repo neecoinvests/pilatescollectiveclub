@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Megaformer Platform Extender (2026): Reformer Box & Riser Guide",
+  title: "Best Megaformer Platform Extender (2026): Boxes & Risers",
   description: "The best platform extenders, risers, and jump boards for Megaformer and Pilates reformer machines — compared for taller practitioners, advanced positions, and compatibility.",
   keywords: ["megaformer platform extender", "reformer platform extender 2026", "lagree platform riser", "pilates reformer jump board", "reformer box extender", "megaformer accessories for tall practitioners", "reformer platform extension"],
   openGraph: {

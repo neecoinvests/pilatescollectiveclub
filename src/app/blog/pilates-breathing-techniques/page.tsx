@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates Breathing Techniques (2026): Lateral Breathing Explained",
+  title: "Pilates Breathing Techniques (2026): Lateral Breathing",
   description: "How to breathe in Pilates: lateral ribcage breathing, why it differs from belly breathing, the exhale-on-effort rule, and the mistakes that stall progress.",
   keywords: ["pilates breathing", "pilates breathing techniques", "lateral breathing pilates", "how to breathe in pilates", "pilates breathing exercises", "intercostal breathing", "pilates breath pattern", "pilates breathing for beginners", "diaphragmatic vs lateral breathing", "pilates breathing 2026"],
   openGraph: {

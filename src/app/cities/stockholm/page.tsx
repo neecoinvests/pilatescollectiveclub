@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Stockholm (2026) — Curated Guide",
+  title: "Best Pilates Studios in Stockholm (2026)",
   description: "The best Pilates studios in Stockholm — reformer studios in Östermalm, Vasastan and Norrmalm. Four curated picks, verified October 2026.",
   robots: {
     index: true,

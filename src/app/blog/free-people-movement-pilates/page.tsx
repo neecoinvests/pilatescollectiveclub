@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Free People Movement for Pilates (2026): Best Pieces Reviewed",
+  title: "Free People Movement for Pilates (2026): Best Pieces",
   description: "Free People Movement for Pilates — Good Karma leggings, bra tops, and sets reviewed for reformer coverage, softness, and how they compare to Alo and Lululemon.",
   keywords: ["free people movement pilates", "free people pilates leggings review", "free people movement activewear pilates", "good karma legging pilates", "free people vs lululemon pilates", "free people movement pilates outfit 2026"],
   openGraph: {

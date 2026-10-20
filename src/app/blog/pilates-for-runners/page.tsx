@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates for Runners (2026): The Work That Actually Prevents Injury",
+  title: "Pilates for Runners (2026): Work That Prevents Injury",
   description: "Pilates for runners: hip stability, IT band relief, and cadence work via reformer and mat exercises. Training plans for 5K to marathon runners.",
   keywords: ["pilates for runners", "running pilates training", "pilates running injury prevention", "glute medius pilates runner", "pilates hip flexor runner", "pilates breathing running", "reformer pilates running", "pilates for marathon runners", "cross training pilates running", "pilates runner guide 2026"],
   openGraph: {

@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Shorts (2026): High-Waist & Biker Options Reviewed",
+  title: "Best Pilates Shorts (2026): High-Waist & Biker Reviewed",
   description: "The best shorts for Pilates class — biker shorts, high-waist options, and performance shorts reviewed for reformer coverage, compression, and fit.",
   openGraph: {
     title: "Best Pilates Shorts (2026): Biker Shorts & Beyond",

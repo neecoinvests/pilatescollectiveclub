@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates for Back Pain (2026): What the Research Actually Shows",
+  title: "Pilates for Back Pain (2026): What the Research Shows",
   description: "Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain. Evidence-based guidance from physios.",
   openGraph: {
     title: "Pilates for Back Pain: What the Research Shows",

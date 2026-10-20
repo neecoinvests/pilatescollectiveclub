@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Resistance Bands (2026): 5 Real Options Compared",
+  title: "Best Pilates Resistance Bands (2026): 5 Picks Compared",
   description: "Five real, currently-sold resistance band sets for Pilates — Fit Simplify, Synergee, Perform Better, WIKDAY, and Tribe — compared for resistance range, build quality, and price from $4.99 to $19.97.",
   keywords: ["best pilates resistance bands", "pilates resistance bands 2026", "resistance band pilates exercises", "fit simplify resistance bands", "synergee mini bands"],
   openGraph: {

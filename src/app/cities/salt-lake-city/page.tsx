@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Salt Lake City, UT (2026) — Curated Guide",
+  title: "Best Pilates Studios in Salt Lake City, UT (2026)",
   description: "The best Pilates studios in Salt Lake City — reformer and mat studios in Sugar House, the Granary District and downtown. Six verified picks, 2026.",
   robots: {
     index: true,

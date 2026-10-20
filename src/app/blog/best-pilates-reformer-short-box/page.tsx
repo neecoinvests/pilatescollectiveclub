@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Reformer Short Box (2026): 4 Real Options Compared",
+  title: "Best Pilates Reformer Short Box (2026): 4 Picks Compared",
   description: "The real, verified reformer short/sitting boxes sold on Amazon — Balanced Body's professional Sitting Box Lite plus real budget alternatives from VEVOR, WINDFOOT and Murago, all around $55-60 — an honest look at every price tier.",
   keywords: [
     "best pilates reformer short box",

@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Knee Pain (2026): Exercises & What to Avoid",
@@ -38,7 +40,7 @@ const jsonLd = {
       "description": "Evidence-based guide to Pilates for knee pain — conditions, exercises, modifications, and what the research shows about Pilates for knee osteoarthritis and patellofemoral pain.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-knee-pain",
       "datePublished": "2026-06-14",
-      "dateModified": "2026-06-14",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -68,14 +70,25 @@ const PRODUCTS = [
   { name: "Gaiam Premium Yoga Mat (6mm)", description: "6mm cushioning protects the knees during floor-based Pilates work — particularly important for exercises involving kneeling or side-lying leg series.", price: "$39.99", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
   { name: "TriggerPoint GRID 2.0 Foam Roller", description: "Used before Pilates to release IT band, quad, and calf tension that commonly aggravates knee pain. The textured GRID pattern provides deeper tissue access than smooth rollers.", price: "$74.99", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
   { name: "THERABAND Resistance Bands Set (Beginner Kit)", description: "Light-to-medium resistance bands for glute and hip strengthening — the key upstream intervention for most knee pain presentations.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
-  { name: "ProBody Pilates Ball, Small (9-inch)", description: "Used for inner thigh activation and knee alignment cues throughout the mat repertoire — a staple in clinical Pilates for knee conditions.", price: "$9.49", affiliateUrl: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20" },
-  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Provides resistance for hip adductor and abductor work — muscles that directly influence knee tracking and stability.", price: "$24.99", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
+  { name: "ProBody Pilates Ball, Small (9-inch)", description: "Used for inner thigh activation and knee alignment cues throughout the mat repertoire — a staple in clinical Pilates for knee conditions.", price: "$9.95", affiliateUrl: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Provides resistance for hip adductor and abductor work — muscles that directly influence knee tracking and stability.", price: "$19.78", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
 ];
+
+const KIT_NOTES = [
+  "6mm cushioning for kneeling and side-lying work",
+  "Releases IT band, quad and calf tension before class",
+  "Light-to-medium bands for glute and hip strengthening",
+  "Inner-thigh activation and knee alignment cues",
+  "Resistance for the hip muscles that steer knee tracking",
+];
+
+const ITEM_LIST = productItemList("Pilates for knee pain: recommended kit", PRODUCTS.map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForKneePainPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -88,7 +101,8 @@ export default function PilatesForKneePainPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates for Knee Pain:<br /><span style={{ color: "#8b4a31" }}>What Helps, What to Avoid</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note="Releases IT band, quad and calf tension before class" url={PRODUCTS[1].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Knee pain is the second most common musculoskeletal complaint after back pain — affecting runners, desk workers, older adults, and former athletes in roughly equal measure. Pilates addresses knee pain indirectly but effectively: by strengthening the hip and thigh muscles that control knee alignment, it removes the upstream cause of most non-traumatic knee conditions. Understanding which exercises help and which to avoid is the difference between recovery and aggravation.
@@ -107,7 +121,14 @@ export default function PilatesForKneePainPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-14 mt-4">
+            <QuickPicks
+              className="mb-6 mt-4"
+              subtitle="Check with your doctor or physiotherapist if your knee pain is new, sharp or follows an injury."
+              picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: KIT_NOTES[i] }))}
+            />
+            <AffiliateNote />
+
+            <div className="mb-14 mt-12">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why most knee pain is actually a hip and thigh problem</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 The knee joint itself is relatively simple — a hinge joint with limited degrees of freedom. What makes it vulnerable is its position in the kinetic chain: it sits between the hip above and the ankle below, and its alignment during movement is entirely determined by how well the muscles of both joints control it. When the glute medius (lateral hip) is weak, the femur internally rotates during weight-bearing — pulling the patella laterally and creating the friction and pain of patellofemoral syndrome. When the vastus medialis oblique (inner quad) is weak, the patella tracks laterally in the groove regardless of what the hip is doing.
@@ -213,8 +234,6 @@ export default function PilatesForKneePainPage() {
 
 
             {/* Equipment */}
-            <AffiliateNote />
-
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
@@ -230,6 +249,10 @@ export default function PilatesForKneePainPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Hip Pain" excerpt="Which Pilates exercises relieve hip flexor tightness, bursitis, and labral irritation." href="/blog/pilates-for-hip-pain" category="Health" readTime="11 min read" date="June 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
                 <ArticleCard title="Pilates for Runners" excerpt="Hip stability, IT band relief, and cadence work — the specific Pilates work that helps runners." href="/blog/pilates-for-runners" category="Performance" readTime="11 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
+                <ArticleCard title="Pilates for Osteoporosis" excerpt="Which Pilates exercises safely support bone density, and which to avoid." href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" date="October 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Pilates for Seniors" excerpt="How to adapt Pilates for older adults: safety, modifications and benefits." href="/blog/pilates-for-seniors" category="Health" readTime="10 min read" date="October 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Foam Rollers (2026)" excerpt="Verified foam rollers for pre-class release and recovery, from budget to premium." href="/blog/best-pilates-foam-roller" category="Equipment" readTime="7 min read" date="October 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Mats (2026)" excerpt="The best mats for home Pilates, ranked on thickness, grip and price." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="October 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
               </div>
             </div>
           </div>

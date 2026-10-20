@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Phoenix, AZ (2026) — Curated Guide",
+  title: "Best Pilates Studios in Phoenix, AZ (2026)",
   description: "The best Pilates studios in Phoenix — reformer boutiques in Scottsdale, Arcadia, and Paradise Valley. Six verified picks for every level, 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   keywords: ["pilates phoenix", "reformer pilates phoenix", "best pilates studios phoenix az", "pilates studio phoenix", "pilates classes phoenix", "arcadia pilates phoenix", "paradise valley pilates", "pilates arizona", "best reformer pilates phoenix", "pilates scottsdale az"],

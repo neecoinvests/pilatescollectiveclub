@@ -6,7 +6,7 @@ const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-retail-activewear.png";
 const CHECKED = "October 16, 2026";
 const CHECKED_ISO = "2026-10-16";
-const TITLE = "Best Lagree Workout Sets (2026): 5 Matching Outfits for Class";
+const TITLE = "Best Lagree Workout Sets (2026): 5 Matching Outfits";
 const DESCRIPTION = "Matching legging and bra sets for Lagree: Beyond Yoga, Varley, Sweaty Betty, CRZ YOGA and SUUKSESS, with set prices from $39.95 to $183.96 on Amazon.";
 
 const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;

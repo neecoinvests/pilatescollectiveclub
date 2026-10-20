@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Los Angeles (2026) — Curated Guide",
+  title: "Best Pilates Studios in Los Angeles (2026)",
   description: "The best Pilates studios in Los Angeles — from West Hollywood reformer boutiques to classical practices in Brentwood and Santa Monica. Six verified picks, 2026.",
   robots: {
     index: true,

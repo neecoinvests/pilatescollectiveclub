@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "How to Become a Pilates Instructor (2026): Training, Cost & Timeline",
+  title: "How to Become a Pilates Instructor (2026): Cost & Timeline",
   description: "Pilates teacher training explained: mat versus comprehensive certification, what the major schools cost, hours required, exams, and what the job actually pays.",
   keywords: ["how to become a pilates instructor", "pilates teacher training", "pilates certification", "pilates instructor course", "comprehensive pilates certification", "pilates teacher training cost", "NPCP certification", "balanced body teacher training", "BASI pilates training", "pilates instructor salary"],
   openGraph: {

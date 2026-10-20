@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Indianapolis, IN (2026) — Curated Guide",
+  title: "Best Pilates Studios in Indianapolis, IN (2026)",
   description: "The best Pilates studios in Indianapolis — small-group reformer in Nora, Downtown Indy and the northern suburbs. Verified 2026.",
   robots: {
     index: true,

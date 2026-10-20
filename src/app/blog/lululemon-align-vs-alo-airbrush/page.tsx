@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Lululemon Align vs Alo Airbrush (2026): Which is Better for Pilates?",
+  title: "Lululemon Align vs Alo Airbrush (2026): Best for Pilates?",
   description: "Lululemon Align vs Alo Airbrush legging compared for Pilates — fabric feel, compression, opacity on the reformer, waistband stability, and price value.",
   keywords: ["lululemon align vs alo airbrush", "align vs airbrush pilates 2026", "best legging for pilates lululemon vs alo", "alo airbrush vs lululemon align comparison", "which is better lululemon or alo pilates", "pilates legging showdown lululemon alo"],
   openGraph: {

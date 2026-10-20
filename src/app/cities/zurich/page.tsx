@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Zurich (2026) — Curated Guide",
+  title: "Best Pilates Studios in Zurich (2026)",
   description: "The best Pilates studios in Zurich — reformer boutiques in Seefeld, Hottingen, and the city centre. Six curated picks, verified June 2026.",
   robots: {
     index: true,

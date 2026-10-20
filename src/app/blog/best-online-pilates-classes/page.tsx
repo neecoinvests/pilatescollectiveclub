@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -87,11 +89,11 @@ const PRODUCTS = [
 
 const HOME_KIT = [
   { role: "Mat", name: "Gaiam Premium Yoga Mat (6mm)", price: "$39.99", url: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20", description: "A 6mm mat is the minimum cushioning for rolling and spinal work on a hard floor. Sold by Amazon.com." },
-  { role: "Mat for sensitive knees", name: "Gaiam Essentials Thick Yoga Mat (10mm)", price: "$25.46", url: "https://www.amazon.com/dp/B07H9PZ6MH?tag=pilatescollective-20", description: "10mm of foam with an easy-cinch carry strap — more forgiving for kneeling and rolling, a little less stable for standing work. Sold by Amazon.com." },
-  { role: "Ring", name: "Gaiam Pilates Ring (15\")", price: "$24.99", url: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20", description: "The magic circle used in most mat classes for inner-thigh, arm and core work. Sold by Amazon.com." },
-  { role: "Small ball", name: "ProBody Pilates Ball (9\")", price: "$9.49", url: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20", description: "The small, soft ball instructors use under the pelvis, between the knees or behind the back." },
+  { role: "Mat for sensitive knees", name: "Gaiam Essentials Thick Yoga Mat (10mm)", price: "$25.07", url: "https://www.amazon.com/dp/B07H9PZ6MH?tag=pilatescollective-20", description: "10mm of foam with an easy-cinch carry strap — more forgiving for kneeling and rolling, a little less stable for standing work. Sold by Amazon.com." },
+  { role: "Ring", name: "Gaiam Pilates Ring (15\")", price: "$19.78", url: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20", description: "The magic circle used in most mat classes for inner-thigh, arm and core work. Sold by Amazon.com." },
+  { role: "Small ball", name: "ProBody Pilates Ball (9\")", price: "$9.95", url: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20", description: "The small, soft ball instructors use under the pelvis, between the knees or behind the back." },
   { role: "Bands", name: "THERABAND Resistance Bands Set (Beginner Kit)", price: "$11.99", url: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20", description: "Three non-latex bands in light-to-medium resistances for footwork and arm series. Sold by Amazon.com." },
-  { role: "Grip socks", name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.99", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", description: "Grip socks stop your feet sliding on the mat in standing and side-lying work. Six pairs for under $8." },
+  { role: "Grip socks", name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", description: "Grip socks stop your feet sliding on the mat in standing and side-lying work. Six pairs for under $8." },
 ];
 const KIT_TOTAL = [0, 2, 3, 4].reduce((sum, i) => sum + parseFloat(HOME_KIT[i].price.replace(/[^0-9.]/g, "")), 0);
 
@@ -137,7 +139,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-10-04",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/best-online-pilates-classes",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-online-pilates-classes",
       "articleSection": "Brand Guide",
@@ -201,7 +203,8 @@ export default function BestOnlinePilatesClassesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Online Pilates Classes<br /><span style={{ color: "#8b4a31" }}>(2026): Platforms Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 20, 2026 · 9 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Thousands of classes, including the largest reformer library online" url={PRODUCTS[0].affiliateUrl} cta="Visit Site →" />
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*These platforms are not sold through Amazon — links go directly to each service&apos;s own site, not to an affiliate program.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -223,7 +226,10 @@ export default function BestOnlinePilatesClassesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-16">
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: pr.verdict, cta: "Visit Site →" }))} />
+            <AffiliateNote />
+
+            <div className="mb-16 mt-12">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to look for in a Pilates streaming platform</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
@@ -240,26 +246,6 @@ export default function BestOnlinePilatesClassesPage() {
               </div>
             </div>
 
-            {/* Quick reference table */}
-            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
-              </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
-                  </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Learn More →</a>
-                </div>
-              ))}
-            </div>
-            <AffiliateNote />
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Platforms · Compared Honestly</p>

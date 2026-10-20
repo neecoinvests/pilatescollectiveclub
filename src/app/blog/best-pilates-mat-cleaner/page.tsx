@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Mat Cleaner (2026): Sprays & Wipes for Every Mat",
+  title: "Best Pilates Mat Cleaner (2026): Sprays & Wipes",
   description: "The best Pilates mat cleaners for rubber, PU, TPE, and natural rubber mats — Manduka All Purpose Cleaner, Gaiam, Branch Basics, and more. What actually cleans without degrading your mat.",
   keywords: [
     "best pilates mat cleaner",

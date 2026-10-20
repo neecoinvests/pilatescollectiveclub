@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Cincinnati, OH (2026) — Curated Guide",
+  title: "Best Pilates Studios in Cincinnati, OH (2026)",
   description: "The best Pilates studios in Cincinnati — reformer boutiques and classical method practices across Hyde Park, Mount Lookout, and Downtown. Verified 2026.",
   robots: {
     index: true,

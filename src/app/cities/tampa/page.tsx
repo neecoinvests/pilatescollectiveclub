@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Tampa, FL (2026) — Curated Guide",
+  title: "Best Pilates Studios in Tampa, FL (2026)",
   description: "The best Pilates studios in Tampa — reformer boutiques in South Tampa, Hyde Park, and Westchase. Six verified picks for every level, 2026.",
   robots: {
     index: true,

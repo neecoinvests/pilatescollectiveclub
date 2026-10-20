@@ -8,7 +8,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates for Athletes (2026): Cross-Training That Actually Works",
+  title: "Pilates for Athletes (2026): Cross-Training That Works",
   description: "Pilates for athletes: reformer and mat exercises that build stability, correct imbalances, and improve performance for runners, cyclists, and team sports.",
   openGraph: {
     title: "Pilates for Athletes: Strength, Longevity, and the Competitive Edge",

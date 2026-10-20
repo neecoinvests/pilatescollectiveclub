@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Bags for Men (2026): Studio Duffels & Backpacks Ranked",
+  title: "Best Pilates Bags for Men (2026): Duffels & Backpacks",
   description: "The best bags for men attending Pilates — reviewed for capacity, studio organisation, and commute versatility in 2026.",
   keywords: ["best pilates bag men", "pilates gym bag men 2026", "mens pilates bag", "best duffel bag pilates men", "pilates backpack men", "mens studio bag pilates", "best gym bag reformer pilates", "lululemon pilates bag men"],
   openGraph: {

@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "BASI Systems Pilates (2026): Equipment Review, Honestly Assessed",
+  title: "BASI Systems Pilates (2026): Equipment Review",
   description: "BASI Systems reviewed — the reformer line associated with Rael Isacowitz, sold direct and through dealers rather than on Amazon, plus one real budget-tier Amazon alternative for buyers who want a purchase-today option.",
   keywords: ["basi systems pilates", "basi systems reformer", "basi pilates equipment", "rael isacowitz reformer", "basi systems review", "basi pilates reformer", "basi f2 system", "basi systems 2026", "budget pilates reformer amazon"],
   openGraph: {

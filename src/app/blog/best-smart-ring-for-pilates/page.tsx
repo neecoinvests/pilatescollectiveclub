@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Smart Ring for Pilates (2026): Oura Ring 5 & Budget Picks",
+  title: "Best Smart Ring for Pilates (2026): Oura & Budget Picks",
   description: "The best smart rings for Pilates — the premium Oura Ring 5 compared against four budget-friendly rings for heart rate, sleep and SpO2 tracking.",
   keywords: ["best smart ring for pilates", "oura ring 5 review", "smart ring for pilates practice", "budget smart ring fitness tracker", "smart ring heart rate sleep tracker", "no subscription smart ring", "pilates recovery tracker", "best fitness ring 2026"],
   openGraph: {

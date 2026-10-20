@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates for Cyclists (2026): How It Improves Power, Posture & Recovery",
+  title: "Pilates for Cyclists (2026): Power, Posture & Recovery",
   description: "How Pilates benefits cyclists — core stability on the bike, hip flexor and IT band relief, spinal extension for aggressive positions, and the best exercises to add to your training.",
   keywords: ["pilates for cyclists", "pilates cycling benefits", "pilates for road cycling", "pilates for mountain biking", "pilates hip flexor cyclists", "pilates core stability cycling", "cycling pilates exercises", "pilates for bike fit"],
   openGraph: {

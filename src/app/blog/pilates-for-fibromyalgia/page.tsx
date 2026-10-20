@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates for Fibromyalgia (2026): Benefits, Gentle Exercises & Tips",
+  title: "Pilates for Fibromyalgia (2026): Gentle Exercises & Tips",
   description: "How Pilates helps fibromyalgia — the evidence on pain reduction, fatigue management, and sleep improvement, plus gentle exercises and the equipment that makes practice more accessible.",
   keywords: ["pilates for fibromyalgia", "gentle pilates fibromyalgia", "pilates chronic pain", "pilates for fibromyalgia pain", "low impact exercise fibromyalgia", "pilates fibromyalgia fatigue", "reformer pilates fibromyalgia", "exercise for fibromyalgia"],
   openGraph: {

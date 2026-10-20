@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates for Sciatica (2026): Exercises That Help & What to Avoid",
+  title: "Pilates for Sciatica (2026): Safe Exercises & What to Avoid",
   description: "Pilates for sciatica: which exercises calm nerve pain, which aggravate a disc, and how the approach changes for piriformis syndrome versus stenosis.",
   keywords: ["pilates for sciatica", "sciatica pilates exercises", "pilates sciatic nerve pain", "pilates piriformis syndrome", "pilates herniated disc sciatica", "pilates spinal stenosis", "sciatica exercises to avoid", "pilates nerve glides", "pilates for leg pain", "sciatica relief pilates 2026"],
   openGraph: {

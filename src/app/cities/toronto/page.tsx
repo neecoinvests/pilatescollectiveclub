@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Toronto (2026) — Curated Guide",
+  title: "Best Pilates Studios in Toronto (2026)",
   description: "The best Pilates studios in Toronto — from Yorkville reformer boutiques to classical practices in Leslieville and Rosedale. Six curated picks, verified 2026.",
   robots: {
     index: true,

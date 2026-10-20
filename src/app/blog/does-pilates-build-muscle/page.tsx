@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Does Pilates Build Muscle? What the Science Actually Says (2026)",
+  title: "Does Pilates Build Muscle? What the Science Says (2026)",
   description: "Does Pilates build muscle? The honest, evidence-based answer — what Pilates does to your body, which muscles it targets, and how to add resistance for muscle gain.",
   keywords: ["does pilates build muscle", "can you build muscle with pilates", "pilates for muscle building", "pilates muscle gain", "pilates vs weights muscle", "reformer pilates muscle building", "pilates body transformation", "pilates strength training"],
   openGraph: {

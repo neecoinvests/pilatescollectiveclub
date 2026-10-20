@@ -10,7 +10,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Studios in Austin, TX (2026) — Curated & Verified",
+  title: "Best Pilates Studios in Austin, TX (2026)",
   description: "The best Pilates studios in Austin — from classical reformer boutiques on South Lamar to athletic Lagree studios near the Domain. Six verified picks, 2026.",
   robots: {
     index: true,

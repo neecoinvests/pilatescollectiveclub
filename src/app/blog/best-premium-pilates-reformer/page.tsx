@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Premium Pilates Reformer (2026): Available Now on Amazon",
+  title: "Best Premium Pilates Reformer (2026): On Amazon Now",
   description: "The best premium Pilates reformers you can actually buy today — Balanced Body, Merrithew, Align-Pilates and PersonalHour reviewed for professional-grade spring systems, carriage glide, and longevity.",
   openGraph: {
     title: "Best Premium Pilates Reformers (2026): $2,350–$4,700",

@@ -9,7 +9,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Exercise Sliders for Pilates (2026): 5 Real Options Compared",
+  title: "Best Exercise Sliders for Pilates (2026): 5 Picks Compared",
   description: "Five real, purpose-built core gliding discs for Pilates — Gaiam, A AZURELIFE, Elite Sportz, Gliding, and ZILLEEN — compared for Pilates mat work, from $6.99 to $19.99.",
   keywords: ["best exercise sliders pilates", "pilates sliders 2026", "exercise gliders pilates mat", "best gliding discs pilates", "core sliders pilates", "gaiam core sliding discs", "azurelife exercise sliders"],
   openGraph: {

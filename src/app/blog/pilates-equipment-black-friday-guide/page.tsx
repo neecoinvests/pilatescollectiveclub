@@ -11,7 +11,7 @@ import { jsonLdHtml } from "@/lib/schema";
 import { BF_GUIDES } from "@/lib/blackFriday";
 
 export const metadata: Metadata = {
-  title: "Pilates Equipment Black Friday Guide (2026): What Goes on Sale",
+  title: "Pilates Equipment Black Friday Guide (2026): Sale Picks",
   description: "Which Pilates equipment actually moves on price in November, which never does, and the list prices to measure any Black Friday claim against.",
   keywords: ["pilates black friday", "pilates equipment black friday", "pilates reformer black friday", "black friday pilates deals 2026", "cyber monday pilates", "pilates reformer sale", "when to buy a pilates reformer", "pilates equipment discount"],
   openGraph: {

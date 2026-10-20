@@ -6,7 +6,7 @@ import { GIFTS_CHECKED, GIFTS_CHECKED_ISO } from "@/lib/giftCatalog";
 const SLUG = "home-pilates-studio-christmas-gift";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-reformer-row-studio.png";
-const TITLE = "Home Pilates Studio Christmas Gift (2026): Reformers & Towers";
+const TITLE = "Home Pilates Studio Christmas Gift (2026): Reformers";
 const DESCRIPTION = "The ultimate Pilates Christmas gift: a home studio. Reformers with towers, a Cadillac, barrel and chair from Balanced Body and Merrithew, with live prices.";
 
 export const metadata: Metadata = {

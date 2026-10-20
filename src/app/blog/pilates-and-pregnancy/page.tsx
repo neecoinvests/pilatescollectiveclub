@@ -8,7 +8,7 @@ import ProductCard from "@/components/ProductCard";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates During Pregnancy (2026): Trimester-by-Trimester Guide",
+  title: "Pilates During Pregnancy (2026): Trimester Guide",
   description: "Pilates and pregnancy: safe exercises by trimester, modifications to avoid, and prenatal reformer guidelines from certified instructors. Full guide.",
   openGraph: {
     title: "Pilates and Pregnancy: A Complete Guide",

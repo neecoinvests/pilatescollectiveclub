@@ -5,7 +5,7 @@ import { item, PRICES_CHECKED, PRICES_CHECKED_ISO } from "@/lib/reformerCatalog"
 const SLUG = "best-pilates-reformer-under-5000";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-reformer-row-studio.png";
-const TITLE = "Best Pilates Reformer Under $5,000 (2026): Studio Machines Compared";
+const TITLE = "Best Pilates Reformer Under $5,000 (2026): Studio Picks";
 const DESCRIPTION = "The best Pilates reformers under $5,000: Balanced Body Studio, Rialto and Allegro Stretch, Merrithew SPX and Align C8-PRO, compared on specs and live prices.";
 
 export const metadata: Metadata = {
