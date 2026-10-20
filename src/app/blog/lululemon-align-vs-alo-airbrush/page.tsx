@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -161,6 +162,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
             >
               Updated May 2026 · 10 min read
             </p>
+            <TopPick name="lululemon Align High-Rise Pant 25-inch" price="$98.00" note="Sold on Amazon; Alo Airbrush is sold at aloyoga.com" url="https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20" />
 
 
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />

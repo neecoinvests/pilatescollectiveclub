@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
@@ -56,7 +59,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-pelvic-floor",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-pelvic-floor",
       "articleSection": "Health",
@@ -98,6 +101,13 @@ const jsonLd = {
   ],
 };
 
+const QUICK_PICKS = [
+  { name: "ProBody Pilates Ball Small (9-inch)", price: "$9.95", url: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20", note: "Small ball between the knees for pelvic floor work" },
+  { name: "Gaiam Pilates Ring Fitness Circle (15-inch)", price: "$19.78", url: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20", note: "Gentle inner-thigh resistance" },
+  { name: "Manduka PRO Yoga Mat (6mm)", price: "$144.00", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "A firm mat for supine pelvic floor work" },
+  { name: "THERABAND Resistance Bands Set (Beginner Kit)", price: "$11.99", url: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20", note: "Light bands for hip and glute work" },
+];
+
 export default function PilatesForPelvicFloorPage() {
   return (
     <>
@@ -112,10 +122,15 @@ export default function PilatesForPelvicFloorPage() {
           title={<>Pilates and the Pelvic Floor<br /><span style={{ color: "#8b4a31" }}>What Actually Works</span></>}
           date="Updated May 2026"
           readTime="10 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />}
         />
 
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={QUICK_PICKS} />
+            <AffiliateNote className="mb-12" />
+
 
 
             <section className="pb-20">

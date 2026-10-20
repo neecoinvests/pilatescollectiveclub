@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
@@ -32,7 +34,7 @@ const jsonLd = {
       "description": "The complete guide to setting up a home Pilates studio — what equipment to buy, in what order, for what budget, and how much space you actually need.",
       "url": "https://pilatescollectiveclub.com/blog/home-pilates-studio-setup",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -185,6 +187,14 @@ const FAQS = [
   },
 ];
 
+const QUICK_PICKS = [
+  { name: "Merrithew At Home SPX Reformer Package", price: "$3,349.00", url: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20", note: "Merrithew's home package, sold by Amazon.com" },
+  { name: "AeroPilates 287 Reformer", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20", note: "The established-brand budget reformer" },
+  { name: "TriggerPoint GRID 2.0 Foam Roller", price: "$74.99", url: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20", note: "Textured roller for release work" },
+  { name: "Gaiam Premium Yoga Mat (6mm)", price: "$39.99", url: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20", note: "6mm mat for the mat corner" },
+  { name: "Byrex Pilates Prop Kit (Ring, Ball, Bands & Sliders)", price: "$24.99", url: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20", note: "Small props in one kit" },
+];
+
 export default function HomePilatesStudioSetupPage() {
   return (
     <>
@@ -225,6 +235,7 @@ export default function HomePilatesStudioSetupPage() {
             >
               Updated May 2026 · 10 min read
             </p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
 
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
 
@@ -259,6 +270,8 @@ export default function HomePilatesStudioSetupPage() {
         {/* ── Main content ── */}
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote className="mb-8" />
 
             {/* Section A — Start here: the foundation before the reformer */}
             <div className="mb-16">
@@ -696,7 +709,6 @@ export default function HomePilatesStudioSetupPage() {
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", color: "#53433e", marginBottom: "32px", lineHeight: 1.7 }}>
               The core equipment list for a functional home Pilates space, from essential to aspirational.
             </p>
-            <AffiliateNote className="mb-8" />
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
               
                 <a href="https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>

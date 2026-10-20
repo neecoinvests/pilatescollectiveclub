@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
@@ -57,7 +59,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-weight-loss",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-weight-loss",
       "articleSection": "Health",
@@ -99,6 +101,14 @@ const jsonLd = {
   ],
 };
 
+const QUICK_PICKS = [
+  { name: "Manduka PRO Yoga Mat (6mm)", price: "$144.00", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "Dense mat for frequent home sessions" },
+  { name: "Sportneer Adjustable Ankle Weights (2-10 lb)", price: "$29.77", url: "https://www.amazon.com/dp/B07F25L7QK?tag=pilatescollective-20", note: "Adds progressive load to mat work" },
+  { name: "Byrex Pilates Kit (Ring, Ball, Bands & Sliders)", price: "$24.99", url: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20", note: "Props to keep home sessions varied" },
+  { name: "Polar H10 Heart Rate Monitor", price: "$104.65", url: "https://www.amazon.com/dp/B07PM54P4N?tag=pilatescollective-20", note: "Accurate heart rate for tracking effort" },
+  { name: "Etekcity Smart Scale", price: "$19.94", url: "https://www.amazon.com/dp/B095YJW56C?tag=pilatescollective-20", note: "Track weight and body fat at home" },
+];
+
 export default function PilatesForWeightLossPage() {
   return (
     <>
@@ -113,10 +123,15 @@ export default function PilatesForWeightLossPage() {
           title={<>Pilates for Weight Loss<br /><span style={{ color: "#8b4a31" }}>What the Evidence Says</span></>}
           date="Updated May 2026"
           readTime="10 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />}
         />
 
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={QUICK_PICKS} />
+            <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
 
 
             <section className="pb-20">
@@ -179,7 +194,6 @@ export default function PilatesForWeightLossPage() {
 
               <div className="mb-10 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment recommendations for home practice</h2>
-                <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For weight management through Pilates, a quality mat is the starting point. The{" "}
                   Manduka PRO mat{" "}

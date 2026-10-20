@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -168,9 +170,9 @@ const SECTIONS: Section[] = [
         tier: "Budget",
         tag: "Budget",
         name: "Muezna Pilates Grip Socks (6 pairs)",
-        price: "$7.99",
+        price: "$7.59",
         description:
-          "Six pairs for $7.99, sold by UISIC. Not the prettiest, but a multi-pack means a fresh pair is always clean when you have back-to-back classes, which is its own kind of luxury.",
+          "Six pairs for $7.59, sold by UISIC. Not the prettiest, but a multi-pack means a fresh pair is always clean when you have back-to-back classes, which is its own kind of luxury.",
         url: amazon("B0DQ53GSP5"),
       },
     ],
@@ -225,9 +227,9 @@ const SECTIONS: Section[] = [
         tier: "Best",
         tag: "Best — hair",
         name: "Kitsch 5\" Large Claw Clips (Black & Tort)",
-        price: "$11.87",
+        price: "$9.99",
         description:
-          "The claw clip is the signature detail of the look, and it is also the most functional: long hair tied up and off your neck stays out of the way for rolling, spine stretch and anything on the reformer. A large 5\" clip holds thick hair; the black and tortoiseshell pair covers every set. $11.87, sold by Kitsch LLC.",
+          "The claw clip is the signature detail of the look, and it is also the most functional: long hair tied up and off your neck stays out of the way for rolling, spine stretch and anything on the reformer. A large 5\" clip holds thick hair; the black and tortoiseshell pair covers every set. $9.99, sold by Kitsch LLC.",
         url: amazon("B09GYPV213"),
         glance: "Claw clip",
       },
@@ -245,9 +247,9 @@ const SECTIONS: Section[] = [
         tier: "Best",
         tag: "Best — the tote",
         name: "Sportsnew Tote Yoga Mat Gym Bag 20L",
-        price: "$21.56",
+        price: "$24.35",
         description:
-          "A tote that actually works as a Pilates bag: 20L of space, a separate shoe compartment so trainers stay away from your set, and a wet pocket for used grip socks. It is the functional answer to carrying a whole kit without looking like you are headed to the gym. $21.56, sold by Sportsnew.",
+          "A tote that actually works as a Pilates bag: 20L of space, a separate shoe compartment so trainers stay away from your set, and a wet pocket for used grip socks. It is the functional answer to carrying a whole kit without looking like you are headed to the gym. $24.35, sold by Sportsnew.",
         url: amazon("B0BHP38PNG"),
         glance: "Tote bag",
       },
@@ -340,9 +342,9 @@ const SECTIONS: Section[] = [
         tier: "Budget",
         tag: "Budget — the ring",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
-        price: "$24.99",
+        price: "$19.78",
         description:
-          "A larger 15\" ring from Gaiam for less. Perfectly fine for learning ring work at home. $24.99, sold by Amazon.com.",
+          "A larger 15\" ring from Gaiam for less. Perfectly fine for learning ring work at home. $19.78, sold by Amazon.com.",
         url: amazon("B086HNGNFZ"),
       },
     ],
@@ -514,7 +516,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-09-27",
-      "dateModified": "2026-09-27",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Style",
@@ -593,6 +595,15 @@ function KitList({ title, subtitle, items, total }: { title: string; subtitle: s
   );
 }
 
+const QUICK_PICKS = [
+  { name: "Varley Freesoft Piped Full Leggings (Marina)", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Soft, opaque leggings from a studio-favourite brand" },
+  { name: "Liforme Original Yoga Mat (alignment design)", price: "$165.00", url: "https://www.amazon.com/dp/B01CGLCGRA?tag=pilatescollective-20", note: "Alignment-marked mat with real grip" },
+  { name: "Bala Bangles Wrist & Ankle Weights, 1 lb (pair)", price: "$55.00", url: "https://www.amazon.com/dp/B0BQCJRL6Q?tag=pilatescollective-20", note: "1 lb wearable weights for mat and barre" },
+  { name: "STANLEY Quencher H2.0 Flow State Tumbler 40 oz (Cream)", price: "$39.99", url: "https://www.amazon.com/dp/B0CP9Y3152?tag=pilatescollective-20", note: "40 oz tumbler in cream" },
+  { name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Full-toe grip socks from the original studio brand" },
+  { name: "Therabody TheraGun Relief Massage Gun", price: "$159.99", url: "https://www.amazon.com/dp/B0CNS894RH?tag=pilatescollective-20", note: "Massage gun for after class" },
+];
+
 export default function PilatesPrincessEssentialsPage() {
   return (
     <>
@@ -609,7 +620,8 @@ export default function PilatesPrincessEssentialsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={h2Style}>
               Pilates Princess Essentials<br /><span style={{ color: "#8b4a31" }}>(2026): The Aesthetic Edit</span>
             </h1>
-            <p className="text-sm mb-6" style={mutedStyle}>Updated September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={mutedStyle}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ ...bodyStyle, fontWeight: 300 }}>
               The pilates princess aesthetic is soft colours, matching sets, slouchy grip socks, a claw clip and a beautiful water bottle. It is easy to buy the look and end up with leggings that go sheer on the footbar or a bra that slides every time you roll. This edit works the other way round: <strong style={{ fontWeight: 600 }}>performance first, pretty second</strong>. Every pick has a job in class, every price was checked against a live listing, and wherever a budget dupe does the job, we say so.
@@ -631,6 +643,9 @@ export default function PilatesPrincessEssentialsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) link directly to the brand&apos;s own website and are clearly marked. Prices were verified on 27 September 2026 and can change.</AffiliateNote>
+
             {/* At a glance */}
             <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
@@ -649,7 +664,6 @@ export default function PilatesPrincessEssentialsPage() {
                 </div>
               ))}
             </div>
-            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) link directly to the brand&apos;s own website and are clearly marked. Prices were verified on 27 September 2026 and can change.</AffiliateNote>
 
             {/* Principles */}
             <div className="mb-16 mt-4">

@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
@@ -56,7 +59,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/how-often-should-you-do-pilates",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/how-often-should-you-do-pilates",
       "articleSection": "Guide",
@@ -98,6 +101,14 @@ const jsonLd = {
   ],
 };
 
+const QUICK_PICKS = [
+  { name: "Manduka PRO Yoga Mat (6mm)", price: "$144.00", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "A dense home mat for the sessions between classes" },
+  { name: "THERABAND Resistance Bands Set (Beginner Kit)", price: "$11.99", url: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20", note: "Light-to-medium resistance for home sessions" },
+  { name: "Gaiam Pilates Ring Fitness Circle (15-inch)", price: "$19.78", url: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20", note: "Adds resistance to short home workouts" },
+  { name: "Gym Workout Journal (A5)", price: "$19.99", url: "https://www.amazon.com/dp/B0CNW2F8YC?tag=pilatescollective-20", note: "Track sessions to keep a steady routine" },
+  { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Enough grip socks for several classes a week" },
+];
+
 export default function HowOftenShouldYouDoPilatesPage() {
   return (
     <>
@@ -112,10 +123,15 @@ export default function HowOftenShouldYouDoPilatesPage() {
           title={<>How Often Should You<br /><span style={{ color: "#8b4a31" }}>Do Pilates?</span></>}
           date="Updated May 2026"
           readTime="7 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />}
         />
 
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={QUICK_PICKS} />
+            <AffiliateNote className="mb-12" />
+
 
 
             <section className="pb-20">

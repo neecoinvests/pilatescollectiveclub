@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
@@ -152,6 +153,7 @@ export default function PilatesVsGymPage() {
           title={<>Pilates vs Gym<br /><span style={{ color: "#8b4a31" }}>An Honest Comparison</span></>}
           date="Updated May 2026"
           readTime="10 min read"
+          topPick={<TopPick name="Arena Strength Fabric Booty Bands (Set of 3)" price="$29.00" note="Fabric bands that bring gym-style load to mat work" url="https://www.amazon.com/dp/B07D7KX9PX?tag=pilatescollective-20" />}
         />
 
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">

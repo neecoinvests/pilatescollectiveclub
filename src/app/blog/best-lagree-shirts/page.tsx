@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -203,7 +205,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-04",
-      "dateModified": "2026-10-04",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -245,7 +247,6 @@ const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
 const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
 const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
 const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const rowStyle = (i: number) => ({ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" });
 const strongStyle = { color: "#1b1c1c" };
 
 function TierCard({ p, n }: { p: Pick; n: number }) {
@@ -270,6 +271,15 @@ function Divider({ label }: { label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "CRZ YOGA Seamless T-Shirt (Hip Length)", price: "$24.00", url: "https://www.amazon.com/dp/B0CCS5S8MP?tag=pilatescollective-20", note: "Seamless fitted tee that stays put" },
+  { name: "CRZ YOGA Seamless Crop T-Shirt", price: "$24.00", url: "https://www.amazon.com/dp/B0D1GDXHT5?tag=pilatescollective-20", note: "Seamless crop tee" },
+  { name: "Under Armour Women's Tech Twist Short-Sleeve Crew", price: "$19.97", url: "https://www.amazon.com/dp/B0C12FMNZN?tag=pilatescollective-20", note: "Breathable twist-knit training tee" },
+  { name: "Dalavch Compression Crop Workout Shirts (4-Pack)", price: "$24.99", url: "https://www.amazon.com/dp/B0DQ84CJV9?tag=pilatescollective-20", note: "Four compression crop tops" },
+  { name: "Women's I Love Lagree V-Neck T-Shirt", price: "$18.99", url: "https://www.amazon.com/dp/B0CY81GT5X?tag=pilatescollective-20", note: "Lagree fan V-neck tee" },
+  { name: "I Love Lagree Pullover Hoodie", price: "$31.99", url: "https://www.amazon.com/dp/B0CY821PTP?tag=pilatescollective-20", note: "Lagree fan pullover hoodie" },
+];
+
 export default function LagreeShirtsPage() {
   return (
     <>
@@ -286,7 +296,8 @@ export default function LagreeShirtsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree Shirts &amp; Hoodies<br /><span style={{ color: "#8b4a31" }}>(2026): Fitted Tees &amp; Fan Merch</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 8 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               &ldquo;Lagree shirt&rdquo; means two different things. One is the shirt you actually wear on the Megaformer — and it has to be fitted, because a loose tee slides up your back in bear and falls over your face in plank. The other is the shirt that says you do Lagree: the fan tees and hoodies you wear to class, after class, or give to the friend who won&apos;t stop talking about it. Here are the best of both.
@@ -308,23 +319,11 @@ export default function LagreeShirtsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Quick picks */}
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The fan tees and hoodies below are unofficial designs, not Lagree Fitness products. Our picks are based on published specifications, not a hands-on test.</AffiliateNote>
 
-            <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Quick picks</h2>
-              <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-                {ALL_ITEMS.map((p, i) => (
-                  <a key={p.id} href={`#${p.id}`} className="flex items-center justify-between gap-4 px-5 py-3" style={{ ...rowStyle(i), textDecoration: "none" }}>
-                    <div>
-                      <p className="text-xs font-semibold uppercase tracking-widest" style={eyebrowStyle}>{p.badge}</p>
-                      <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.shortName}</p>
-                    </div>
-                    <span className="text-sm font-semibold shrink-0" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  </a>
-                ))}
-              </div>
-            </div>
+            {/* Quick picks */}
+
 
             {/* Rule */}
             <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>

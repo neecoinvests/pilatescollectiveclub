@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
@@ -57,7 +59,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-seniors",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-seniors",
       "articleSection": "Health",
@@ -99,6 +101,14 @@ const jsonLd = {
   ],
 };
 
+const QUICK_PICKS = [
+  { name: "Gaiam Essentials Thick Yoga Mat (10mm)", price: "$25.07", url: "https://www.amazon.com/dp/B07H9PZ6MH?tag=pilatescollective-20", note: "Extra 10mm cushioning for joints" },
+  { name: "THERABAND Resistance Bands Set (Beginner Kit)", price: "$11.99", url: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20", note: "Light, adjustable resistance" },
+  { name: "Gaiam Pilates Ring Fitness Circle (15-inch)", price: "$19.78", url: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20", note: "Gentle resistance for arms and legs" },
+  { name: "Black Mountain High Density Foam Roller (36-inch)", price: "$29.99", url: "https://www.amazon.com/dp/B00DL7BH2O?tag=pilatescollective-20", note: "Firm roller for gentle extension work" },
+  { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Non-slip socks for safer footing" },
+];
+
 export default function PilatesForSeniorsPage() {
   return (
     <>
@@ -113,10 +123,15 @@ export default function PilatesForSeniorsPage() {
           title={<>Pilates for Seniors<br /><span style={{ color: "#8b4a31" }}>Safe, Effective & Evidence-Based</span></>}
           date="Updated May 2026"
           readTime="10 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />}
         />
 
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={QUICK_PICKS} />
+            <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
 
 
             <section className="pb-20">
@@ -171,7 +186,6 @@ export default function PilatesForSeniorsPage() {
 
               <div className="mb-10 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended equipment for senior home practice</h2>
-                <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   A quality mat is essential — the{" "}
                   Manduka PRO{" "}

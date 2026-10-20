@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -119,7 +121,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-books",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-books",
       "articleSection": "Reading",
@@ -161,6 +163,13 @@ const jsonLd = {
   ],
 };
 
+const QUICK_PICKS = [
+  { name: "Return to Life Through Contrology", price: "$17.90", url: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20", note: "Joseph Pilates' own 1945 text" },
+  { name: "The Pilates Bible", price: "$26.48", url: "https://www.amazon.com/dp/0857836706?tag=pilatescollective-20", note: "The most comprehensive single guide" },
+  { name: "The Pilates Body", price: "$17.53", url: "https://www.amazon.com/dp/0593980441?tag=pilatescollective-20", note: "The classic at-home guide, revised" },
+  { name: "Pilates Anatomy", price: "$17.81", url: "https://www.amazon.com/dp/1492567701?tag=pilatescollective-20", note: "Anatomy behind each exercise" },
+];
+
 export default function BestPilatesBooksPage() {
   return (
     <>
@@ -175,12 +184,17 @@ export default function BestPilatesBooksPage() {
           title={<>Best Pilates Books<br /><span style={{ color: "#8b4a31" }}>(2026): Every Level</span></>}
           date="Updated May 2026"
           readTime="8 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />}
         />
 
         {/* Two-column layout */}
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           {/* Main article column */}
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={QUICK_PICKS} />
+            <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
 
             {/* Affiliate disclaimer */}
 
@@ -196,7 +210,6 @@ export default function BestPilatesBooksPage() {
                 </p>
               </div>
 
-              <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
               {/* Books */}
               <div className="mb-16">

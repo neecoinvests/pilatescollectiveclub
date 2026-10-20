@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -33,7 +35,7 @@ const jsonLd = {
       "description": "The complete Pilates apparatus guide — Reformer, Cadillac, Wunda Chair, barrels, mat, and more. What each apparatus does, who it's for, and how the full system fits together.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-apparatus-guide",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -226,6 +228,14 @@ const PRODUCTS = [
   { name: "TriggerPoint GRID 2.0 Foam Roller", description: "A real, durable foam roller (roller only, not massage balls) for the thoracic mobility and self-myofascial release work described above — used before sessions as mobilisation or after for recovery.", price: "$74.99", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
 ];
 
+const QUICK_PICKS = [
+  { name: "Balanced Body Pilates Arc (Spine Corrector)", price: "$189.99", url: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20", note: "Balanced Body's arc for spinal extension work" },
+  { name: "TriggerPoint GRID 2.0 Foam Roller", price: "$74.99", url: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20", note: "Textured roller for release work" },
+  { name: "Gaiam Premium Yoga Mat (6mm)", price: "$39.99", url: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20", note: "6mm mat for mat practice" },
+  { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", price: "$24.99", url: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20", note: "Ring, ball and bands in one kit" },
+  { name: "Muezna Pilates Grip Socks (6-Pair)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Six pairs of grip socks" },
+];
+
 export default function PilatesApparatusGuidePage() {
   return (
     <>
@@ -245,8 +255,9 @@ export default function PilatesApparatusGuidePage() {
               <span style={{ color: "#8b4a31" }}>Every Piece of Equipment Explained</span>
             </h1>
             <p style={{ fontSize: "13px", marginBottom: "32px", color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-              Updated May 2026 &middot; 12 min read
+              Prices checked October 20, 2026 &middot; 12 min read
             </p>
+              <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div style={{ width: "64px", height: "1px", backgroundColor: "#d9c2ba", marginBottom: "32px" }} />
             <p style={{ fontSize: "18px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Joseph Pilates designed a complete system — not just exercises, but a specific set of apparatus that work together to develop the body comprehensively. The mat is the foundation. The Reformer is the most versatile tool. The Cadillac, Chair, and Barrels each target qualities the other apparatus cannot. Understanding the full system helps practitioners make better choices about where to train and what equipment to invest in. This guide covers every major piece of Pilates apparatus, what it does, and who it is for.
@@ -272,6 +283,8 @@ export default function PilatesApparatusGuidePage() {
         {/* Main content */}
         <section style={{ paddingLeft: "24px", paddingRight: "24px", paddingBottom: "80px" }}>
           <div style={{ maxWidth: "768px", margin: "0 auto" }}>
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote />
 
             {/* How the system works */}
             <div style={{ marginBottom: "64px" }}>
@@ -437,7 +450,6 @@ export default function PilatesApparatusGuidePage() {
             </div>
 
             {/* Accessories to start with */}
-            <AffiliateNote />
 
             <div style={{ marginBottom: "64px" }}>
               <p style={{ fontSize: "10px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", marginBottom: "16px" }}>

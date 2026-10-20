@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -35,7 +37,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Under Armour Women's Infinity 2 High Impact Sports Bra",
-    price: "$47.85",
+    price: "$48.66",
     verdict: "Best high support — jump and lunge work",
     description:
       "If your studio programs jumping lunges, rebounder intervals or fast cardio blocks, start here. This is a bra Under Armour sells specifically as high impact, which is the support tier you want when the class stops being slow and controlled. Lagree is mostly slow tempo with long time under tension, but the moments that are not — a burst of jumps off the platform, a run of fast lunges — are exactly where an under-supportive bra becomes the only thing you can think about. It is sold and shipped by Amazon.com, which keeps returns simple if the band size is off. Before you commit, do the one check that matters for Lagree: lie back on the floor or a bench in it and see whether anything on the back presses into your spine, because a large share of the repertoire is performed supine on a firm carriage. If you only buy one supportive bra for Lagree, this is the one we would point most people to.",
@@ -65,7 +67,7 @@ const PRODUCTS = [
   {
     rank: "04",
     name: "Heathyoga High Impact Sports Bra (Padded Racerback)",
-    price: "$24.99",
+    price: "$19.98",
     verdict: "Best budget high support",
     description:
       "The budget way to get a high-impact bra into your rotation. Heathyoga sells this as a high-impact, padded racerback, which puts it in the same support tier as our top pick at roughly half the price. The racerback cut is useful in Lagree because it keeps the straps on your shoulders through plank series, bear crawls and overhead work, where standard straps tend to slide outward. The trade-off of any racerback is the join between the shoulder blades, so run a hand over it when it arrives: a flat, smooth join is fine on the carriage; a raised clasp or slider is something you will feel through every supine set. Removable padding, where present, is worth checking after washing too — pads that fold or shift are a common annoyance with budget bras. For a second or third high-support bra, or a first one on a tight budget, it is the obvious pick.",
@@ -111,7 +113,7 @@ const jsonLd = {
       "description": "Sports bras for Lagree and Megaformer classes, chosen by support level and by what sits on your back during supine carriage work.",
       "url": "https://pilatescollectiveclub.com/blog/best-sports-bra-for-lagree",
       "datePublished": "2026-09-12",
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -147,6 +149,8 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best high support, jump and lunge work", "Premium matching-set pick, light support", "Best overall value", "Best budget high support", "Best mid support", "Best longline and best budget"];
+
 export default function BestSportsBraForLagreePage() {
   return (
     <>
@@ -163,7 +167,8 @@ export default function BestSportsBraForLagreePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Sports Bras<br /><span style={{ color: "#8b4a31" }}>for Lagree (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Every product link on this page goes to Amazon. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you. Listings and prices were verified on October 2, 2026 and can change.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -192,24 +197,7 @@ export default function BestSportsBraForLagreePage() {
               </div>
             </div>
 
-            <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks — At a Glance</p>
-              </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</p>
-                  </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >Buy →</a>
-                </div>
-              ))}
-            </div>
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote />
 
             <div className="mb-16">

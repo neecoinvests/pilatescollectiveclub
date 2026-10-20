@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
@@ -40,7 +42,7 @@ const jsonLd = {
       "author": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" } },
       "datePublished": "2026-05-17",
-      "dateModified": "2026-09-22",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/merrithew-v2-max-review",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/merrithew-v2-max-review",
       "articleSection": "Equipment",
@@ -79,6 +81,13 @@ const jsonLd = {
   ],
 };
 
+const QUICK_PICKS = [
+  { name: "Merrithew At Home SPX Reformer Package", price: "$3,349.00", url: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20", note: "In stock; Merrithew's home package" },
+  { name: "Merrithew Rehab V2 Max Plus Reformer", price: "$8,199.00", url: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20", note: "Merrithew's clinical machine, made to order" },
+  { name: "Merrithew Jumpboard (22-inch, SPX/SPX Max)", price: "$470.00", url: "https://www.amazon.com/dp/B004ICZD2Q?tag=pilatescollective-20", note: "Adds jump work to SPX machines" },
+  { name: "Replacement Reformer Ropes with Clips", price: "$35.00", url: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20", note: "Replacement ropes for when they stretch" },
+];
+
 export default function MerrithewV2MaxReviewPage() {
   return (
     <>
@@ -93,10 +102,15 @@ export default function MerrithewV2MaxReviewPage() {
           title={<>Merrithew Rehab V2 Max Plus Review<br /><span style={{ color: "#8b4a31" }}>(2026): Worth the Upgrade?</span></>}
           date="Updated September 2026"
           readTime="11 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />}
         />
 
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={QUICK_PICKS} />
+            <AffiliateNote className="mt-4">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
 
 
             <section className="pb-20">
@@ -116,7 +130,6 @@ export default function MerrithewV2MaxReviewPage() {
                     Shop At Home SPX (lower price) →
                   </a>
                 </div>
-                <AffiliateNote className="mt-4">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
               </div>
 
               {/* Specs */}

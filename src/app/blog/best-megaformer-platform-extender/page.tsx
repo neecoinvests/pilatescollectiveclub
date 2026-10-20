@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -159,6 +160,7 @@ export default function BestPlatformExtenderPage() {
               Best Megaformer<br /><span style={{ color: "#8b4a31" }}>Platform Extender (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 8 min read</p>
+            <TopPick label="Top reformer add-on" name="Balanced Body Padded Jumpboard" price="$280.00" note="The closest reformer add-on sold on Amazon" url="https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20" />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Standard Megaformer platform dimensions don&apos;t always accommodate taller practitioners or the wide-base standing positions central to Lagree programming. This guide compares the six best platform extenders, jump boards, and risers for Megaformer and Pilates reformer machines in 2026 — covering authentic Lagree accessories, cross-brand options, and budget alternatives.

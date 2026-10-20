@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -206,6 +208,8 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best overall, sold by Lululemon", "Best for spin", "Best for Lagree, sold by Alo", "Best budget", "Best seamless, sold by Gymshark", "Best sustainable option"];
+
 export default function BestMoistureWickingTopPage() {
   return (
     <>
@@ -256,6 +260,7 @@ export default function BestMoistureWickingTopPage() {
             >
               Best Moisture-Wicking Tops for Pilates &amp; Spin (2026)
             </h1>
+            <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
 
             <p
               style={{
@@ -298,76 +303,7 @@ export default function BestMoistureWickingTopPage() {
         {/* Content */}
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            {/* Quick picks */}
-            <div
-              style={{
-                backgroundColor: "#faf7f4",
-                border: "1px solid #e8e0d6",
-                borderRadius: "4px",
-                padding: "28px 32px",
-                marginBottom: "48px",
-              }}
-            >
-              <h2
-                style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "11px",
-                  fontWeight: 500,
-                  letterSpacing: "0.2em",
-                  textTransform: "uppercase",
-                  color: "#9a9490",
-                  marginBottom: "20px",
-                }}
-              >
-                Quick Picks
-              </h2>
-              {PRODUCTS.map((p) => (
-                <div
-                  key={p.rank}
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "baseline",
-                    paddingBottom: "12px",
-                    marginBottom: "12px",
-                    borderBottom: "1px solid #ede6dc",
-                  }}
-                >
-                  <div>
-                    <span
-                      style={{
-                        fontFamily: "var(--font-sans)",
-                        fontSize: "10px",
-                        color: "#b5a99a",
-                        marginRight: "10px",
-                      }}
-                    >
-                      {p.rank}
-                    </span>
-                    <span
-                      style={{
-                        fontFamily: "var(--font-sans)",
-                        fontSize: "14px",
-                        fontWeight: 400,
-                        color: "#1a1714",
-                      }}
-                    >
-                      {p.name}
-                    </span>
-                  </div>
-                  <span
-                    style={{
-                      fontFamily: "var(--font-sans)",
-                      fontSize: "12px",
-                      fontWeight: 300,
-                      color: "#9a9490",
-                    }}
-                  >
-                    {p.verdict}
-                  </span>
-                </div>
-              ))}
-            </div>
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote>This page contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you.</AffiliateNote>
 
             {/* Product cards */}

@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -59,7 +62,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-12",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
       "articleSection": "Travel",
@@ -100,6 +103,13 @@ const jsonLd = {
     },
   ],
 };
+const QUICK_PICKS = [
+  { name: "Manduka PRO Yoga and Pilates Mat (71\")", price: "$144.00", url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20", note: "The dense studio-standard mat" },
+  { name: "OPTP PRO-ROLLER Foam Roller (36\")", price: "$62.99", url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20", note: "Full-length roller for recovery" },
+  { name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Grip socks most retreats ask for" },
+  { name: "Gaiam Cargo Yoga Mat Bag", price: "$19.99", url: "https://www.amazon.com/dp/B079W416C6?tag=pilatescollective-20", note: "Full-zip carrier for travel" },
+];
+
 export default function BestPilatesRetreatsEuropePage() {
   return (
     <>
@@ -114,12 +124,17 @@ export default function BestPilatesRetreatsEuropePage() {
           title={<>The Best Pilates Retreats<br /><span style={{ color: "#8b4a31" }}>in Europe</span></>}
           date="May 2026"
           readTime="8 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />}
         />
 
         {/* Two-column layout */}
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           {/* Main article column */}
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={QUICK_PICKS} />
+            <AffiliateNote className="mb-12" />
+
 
             <section className="pb-20">
               <Section title="What makes a retreat worth attending">

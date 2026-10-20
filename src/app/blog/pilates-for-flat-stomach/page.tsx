@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
@@ -57,7 +59,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-flat-stomach",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-flat-stomach",
       "articleSection": "Health",
@@ -108,6 +110,14 @@ const coreExercises = [
   { name: "Stomach Massage (reformer)", targets: "Deep abdominals, hip flexors, coordination", detail: "The reformer stomach massage series — round back, flat back, twist — is the most targeted abdominal training in the reformer repertoire. Unavailable without a machine." },
 ];
 
+const QUICK_PICKS = [
+  { name: "Manduka PRO Yoga Mat (6mm)", price: "$144.00", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "Dense mat for core-focused floor work" },
+  { name: "Gaiam Core Sliding Discs (Set of 2)", price: "$16.59", url: "https://www.amazon.com/dp/B0964G1N18?tag=pilatescollective-20", note: "Sliders that make core moves harder" },
+  { name: "ProBody Pilates Ball Small (9-inch)", price: "$9.95", url: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20", note: "Small ball for deep abdominal work" },
+  { name: "Byrex Pilates Kit (Ring, Ball, Bands & Sliders)", price: "$24.99", url: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20", note: "Ring, ball, bands and sliders in one kit" },
+  { name: "Sportneer Adjustable Ankle Weights (2-10 lb)", price: "$29.77", url: "https://www.amazon.com/dp/B07F25L7QK?tag=pilatescollective-20", note: "Adds load to leg and core series" },
+];
+
 export default function PilatesForFlatStomachPage() {
   return (
     <>
@@ -122,10 +132,15 @@ export default function PilatesForFlatStomachPage() {
           title={<>Pilates for a Flat Stomach<br /><span style={{ color: "#8b4a31" }}>What Works and What Doesn't</span></>}
           date="Updated May 2026"
           readTime="8 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />}
         />
 
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={QUICK_PICKS} />
+            <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
 
 
             <section className="pb-20">
@@ -171,7 +186,6 @@ export default function PilatesForFlatStomachPage() {
 
               <div className="mb-10 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment recommendations for core training at home</h2>
-                <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For home abdominal work, a{" "}
                   quality firm mat{" "}

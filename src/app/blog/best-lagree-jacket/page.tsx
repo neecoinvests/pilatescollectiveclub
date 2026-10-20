@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -183,7 +185,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-04",
-      "dateModified": "2026-10-04",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -225,7 +227,6 @@ const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
 const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
 const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
 const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const rowStyle = (i: number) => ({ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" });
 const strongStyle = { color: "#1b1c1c" };
 
 function TierCard({ p, n }: { p: Pick; n: number }) {
@@ -240,6 +241,15 @@ function TierCard({ p, n }: { p: Pick; n: number }) {
     </div>
   );
 }
+
+const QUICK_PICKS = [
+  { name: "CRZ YOGA Butterluxe Jacket (Waist Length)", price: "$48.00", url: "https://www.amazon.com/dp/B0BJ2G3JNW?tag=pilatescollective-20", note: "Fitted, buttery jacket that layers over a tank" },
+  { name: "CRZ YOGA Fleece-Lined Half-Zip Sweatshirt", price: "$48.00", url: "https://www.amazon.com/dp/B0FVDKBQKQ?tag=pilatescollective-20", note: "Fleece-lined half-zip for cold studios" },
+  { name: "90 Degree By Reflex Full-Zip Track Jacket", price: "$39.99", url: "https://www.amazon.com/dp/B0799P3C61?tag=pilatescollective-20", note: "Classic full-zip track jacket" },
+  { name: "Dalavch Cropped Full-Zip Workout Jacket (3-Pack)", price: "$32.99", url: "https://www.amazon.com/dp/B0GXBJSY47?tag=pilatescollective-20", note: "Three cropped full-zips for the price of one" },
+  { name: "IUGA Women's Lightweight Full-Zip Workout Jacket", price: "$18.04", url: "https://www.amazon.com/dp/B0FGXVD8XD?tag=pilatescollective-20", note: "Lightweight full-zip on a budget" },
+  { name: "THE GYM PEOPLE Fleece-Lined Full-Zip Crop Hoodie", price: "$19.99", url: "https://www.amazon.com/dp/B0BD51NP2R?tag=pilatescollective-20", note: "Fleece-lined cropped hoodie" },
+];
 
 export default function LagreeJacketPage() {
   return (
@@ -257,7 +267,8 @@ export default function LagreeJacketPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree Jacket<br /><span style={{ color: "#8b4a31" }}>(2026): The Define Jacket &amp; 6 Fitted Layers</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 8 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Nobody keeps a jacket on through a Lagree class — five minutes of slow lunges on the Megaformer and you&apos;re peeling it off. But you need one for the other two moments: waiting in a cool studio before class, and walking out drenched afterwards. That calls for a fitted zip layer that goes on fast over a damp top, keeps its shape and holds your phone. Here are seven, from the lululemon Define Jacket to a three-pack for about $33.
@@ -279,23 +290,11 @@ export default function LagreeJacketPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Quick picks */}
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on each product&apos;s published specifications and how a layer is used around a Lagree class, not a hands-on test.</AffiliateNote>
 
-            <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Quick picks</h2>
-              <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-                {PICKS.map((p, i) => (
-                  <a key={p.id} href={`#${p.id}`} className="flex items-center justify-between gap-4 px-5 py-3" style={{ ...rowStyle(i), textDecoration: "none" }}>
-                    <div>
-                      <p className="text-xs font-semibold uppercase tracking-widest" style={eyebrowStyle}>{p.badge}</p>
-                      <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.shortName}</p>
-                    </div>
-                    <span className="text-sm font-semibold shrink-0" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  </a>
-                ))}
-              </div>
-            </div>
+            {/* Quick picks */}
+
 
             {/* What to look for */}
             <div className="mb-16">

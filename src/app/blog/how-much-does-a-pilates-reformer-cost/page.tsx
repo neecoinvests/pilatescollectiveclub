@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -134,7 +136,7 @@ const jsonLd = {
       "description": "The complete 2026 Pilates reformer price guide — from $296 budget machines to $8,200+ clinical/studio machines.",
       "url": "https://pilatescollectiveclub.com/blog/how-much-does-a-pilates-reformer-cost",
       "datePublished": "2026-05-16",
-      "dateModified": "2026-05-16",
+      "dateModified": "2026-10-20",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg",
@@ -171,6 +173,14 @@ const PRODUCTS = [
   { name: "Gaiam Premium Yoga Mat (6mm)", description: "If a reformer is outside the current budget, a quality mat is the correct starting point. We could not verify a Manduka mat in this price range as a specific live listing; this Gaiam 6mm mat is a real, currently-sold alternative — marketed as a yoga mat, but a firm 6mm mat works for Pilates too.", price: "$39.99", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
   { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", description: "We could not verify a standalone TheraBand-branded set or Balanced Body magic circle as specific live Amazon listings. This kit bundles a ring, ball, and resistance bands — a genuine, currently-sold alternative that provides spring-like loading at minimal cost while saving towards a machine.", price: "$24.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
   { name: "Muezna Pilates Grip Socks (6-Pair)", description: "An inexpensive, genuinely useful accessory once you're working on a reformer — grip socks prevent foot slippage during standing exercises, which is a real safety consideration regardless of which price tier you buy into.", price: "$7.59", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
+];
+
+const QUICK_PICKS = [
+  { name: "Merrithew At Home SPX Reformer Package", price: "$3,349", url: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20", note: "Merrithew's home package, sold by Amazon.com" },
+  { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", price: "$419.99", url: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20", note: "Foldable spring reformer under $500" },
+  { name: "AeroPilates 287 Reformer (Budget Tier)", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20", note: "The established-brand budget tier" },
+  { name: "Gaiam Premium Yoga Mat (6mm)", price: "$39.99", url: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20", note: "6mm mat for mat practice" },
+  { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", price: "$24.99", url: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20", note: "Ring, ball and bands in one kit" },
 ];
 
 export default function HowMuchDoesAPilatesReformerCostPage() {
@@ -211,8 +221,9 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
               className="text-sm mb-8"
               style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
             >
-              Updated May 2026 · 8 min read
+              Prices checked October 20, 2026 · 8 min read
             </p>
+              <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
 
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
 
@@ -247,6 +258,8 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
         {/* ── Main content ── */}
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote />
 
             {/* ── Price tier breakdown ── */}
             <div className="mb-16 mt-4">
@@ -845,7 +858,6 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
             </div>
 
             {/* ── Real Amazon listings by tier ── */}
-            <AffiliateNote />
 
             <div className="mb-16">
               <p

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
@@ -140,7 +142,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/pilates-exercises-for-beginners",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-exercises-for-beginners",
       "articleSection": "Beginners",
@@ -182,6 +184,14 @@ const jsonLd = {
   ],
 };
 
+const QUICK_PICKS = [
+  { name: "Gaiam Premium Yoga Mat (6mm)", price: "$39.99", url: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20", note: "A cushioned 6mm mat to start on" },
+  { name: "Byrex Pilates Kit (Ring, Ball, Bands & Sliders)", price: "$24.99", url: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20", note: "The small props beginner classes use" },
+  { name: "THERABAND Resistance Bands Set (Beginner Kit)", price: "$11.99", url: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20", note: "Gentle resistance for first home sessions" },
+  { name: "Trideer 9-Inch Pilates Ball", price: "$7.99", url: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20", note: "Small ball for core and inner-thigh work" },
+  { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Grip socks for your first studio class" },
+];
+
 export default function PilatesExercisesForBeginnersPage() {
   return (
     <>
@@ -196,10 +206,15 @@ export default function PilatesExercisesForBeginnersPage() {
           title={<>10 Pilates Exercises<br /><span style={{ color: "#8b4a31" }}>for Beginners</span></>}
           date="Updated May 2026"
           readTime="11 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />}
         />
 
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={QUICK_PICKS} />
+            <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
 
 
             <section className="pb-20">
@@ -245,7 +260,6 @@ export default function PilatesExercisesForBeginnersPage() {
 
               <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment for your first Pilates kit</h2>
-                <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   These 10 exercises require only a mat. But as you build consistency, a few accessories enhance the experience significantly:
                 </p>
