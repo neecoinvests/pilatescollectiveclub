@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
 import Footer from "@/components/Footer";
 import StudioListing from "@/components/StudioListing";
 import CityCard from "@/components/CityCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Denver, CO (2026)",
@@ -172,9 +173,21 @@ const FURTHER_READING = [
   { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you actually need to build a consistent home practice, from a quality mat to the best reformer alternatives.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80" },
 ];
 
+const CITY_FAQS = [
+  { q: "What are the best Pilates studios in Denver?", a: "Our 6 curated picks are Whole Body Studios (Bonnie Brae / Washington Park), Axis Pilates Colorado (Congress Park / Capitol Hill), Boost Pilates RiNo (RiNo, River North Art District), Uncommon Practice Pilates (Highland, LoHi), Fierce45 (Highlands / Wash Park / Hilltop) and Pilates Evolution Cherry Creek (Cherry Creek). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "Which Denver neighbourhoods are best for Pilates?", a: "This guide covers Cherry Creek & Cherry Creek North, The Highlands, Washington Park & South Denver and RiNo / River North & Downtown. Cherry Creek & Cherry Creek North: Denver's most design-conscious neighbourhood is home to several of the city's best Pilates practices." },
+  { q: "What should I know about booking Pilates classes in Denver?", a: "Expect to pay $28–55 per class. Denver's Pilates market is meaningfully cheaper than the coastal US cities." },
+  { q: "What should I bring to a Pilates class in Denver?", a: "Grip socks are required at most reformer studios. Our gear list for Denver covers Pilates grip socks, Pilates mat, magic circle and resistance bands set." },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": CITY_FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+    },
+    productItemList("Pilates gear for classes in Denver", GEAR.filter((g) => /amazon\.[a-z.]+\/dp\//.test(g.url)).map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, description: g.note, price: g.price, url: g.url }))),
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -266,22 +279,7 @@ export default function DenverPage() {
               Denver studios require grip socks. Given Colorado winters and altitude, a mat and warm layers are also practical investments.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-              {GEAR.map((g) => (
-                <a key={g.name} href={g.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div className="rounded-xl p-5 h-full flex flex-col justify-between" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <div>
-                      <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{g.name}</h3>
-                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{g.note}</p>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.price}</span>
-                      <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Shop →</span>
-                    </div>
-                  </div>
-                </a>
-              ))}
-            </div>
+            <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
           </div>
         </section>
 
@@ -350,6 +348,20 @@ export default function DenverPage() {
                     </div>
                   </div>
                 </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="px-6 py-20">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+            <div className="space-y-6">
+              {CITY_FAQS.map((f) => (
+                <div key={f.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                  <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{f.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{f.a}</p>
+                </div>
               ))}
             </div>
           </div>

@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
 import Footer from "@/components/Footer";
 import StudioListing from "@/components/StudioListing";
 import CityCard from "@/components/CityCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Las Vegas, NV (2026)",
@@ -260,9 +261,21 @@ const FURTHER_READING = [
   },
 ];
 
+const CITY_FAQS = [
+  { q: "What are the best Pilates studios in Las Vegas?", a: "Our 6 curated picks are Solidity Studio (Las Vegas), ReformYou (Henderson), Pilates Land Las Vegas (East Sahara / Central), Club Pilates Green Valley (Green Valley / Henderson), Club Pilates Henderson (Henderson, Eastern Ave) and Club Pilates Spring Valley (Spring Valley / Southwest). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "Which Las Vegas neighbourhoods are best for Pilates?", a: "This guide covers Summerlin, Henderson, Downtown / Arts District and Spring Valley. Summerlin: Las Vegas's most affluent master-planned community, situated along the western edge of the valley with views toward Red Rock Canyon." },
+  { q: "What should I know about booking Pilates classes in Las Vegas?", a: "Avoid the midday heat — book early morning or evening classes. Las Vegas summers regularly exceed 110°F (43°C)." },
+  { q: "What should I bring to a Pilates class in Las Vegas?", a: "Grip socks are required at most reformer studios. Our gear list for Las Vegas covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": CITY_FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+    },
+    productItemList("Pilates gear for classes in Las Vegas", GEAR.filter((g) => /amazon\.[a-z.]+\/dp\//.test(g.url)).map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, description: g.note, price: g.price, url: g.url }))),
     {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -357,22 +370,7 @@ export default function LasVegasPage() {
               Gear Las Vegas instructors recommend.{" "}
               <Link href="/affiliate-disclosure" className="underline">Affiliate disclosure</Link>.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {GEAR.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  className="block rounded-xl p-5 border transition-shadow hover:shadow-md"
-                  style={{ borderColor: "#e8ddd6", backgroundColor: "#fff" }}
-                >
-                  <p className="font-semibold mb-1" style={{ color: "#2d2926" }}>{item.name}</p>
-                  <p className="text-sm mb-3" style={{ color: "#5c4f47" }}>{item.note}</p>
-                  <p className="text-sm font-semibold" style={{ color: "#b8977e" }}>{item.price} on Amazon →</p>
-                </a>
-              ))}
-            </div>
+            <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
           </div>
         </section>
 
@@ -477,6 +475,20 @@ export default function LasVegasPage() {
         </section>
 
         {/* Further Reading */}
+        <section className="px-6 py-20">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+            <div className="space-y-6">
+              {CITY_FAQS.map((f) => (
+                <div key={f.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                  <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{f.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{f.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section style={{ backgroundColor: "#f6f3f2" }} className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold mb-8" style={{ color: "#2d2926" }}>

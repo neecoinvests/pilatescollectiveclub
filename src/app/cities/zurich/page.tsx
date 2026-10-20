@@ -212,9 +212,32 @@ const FURTHER_READING = [
   },
 ];
 
+const CITY_FAQS = [
+  { q: "What are the best Pilates studios in Zurich?", a: "Our 6 curated picks are ProPilates (Seefeld), ilu move (Kreis 5), Form Studio Zurich (Wiedikon), Protagonist Zurich (Enge), Trunk Pilates (Oerlikon) and in2motion (Hottingen). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "Which Zurich neighbourhoods are best for Pilates?", a: "This guide covers Seefeld, Kreis 1 / Niederdorf, Kreis 4 / Langstrasse and Kreis 1 / Central. Seefeld: The upscale eastern lakeside district is home to Zurich's most polished studios." },
+  { q: "What should I know about booking Pilates classes in Zurich?", a: "Book early for morning slots. Quality studios in Zurich fill up fast." },
+  { q: "What should I bring to a Pilates class in Zurich?", a: "Grip socks are required at most reformer studios, and a mat, water bottle and small towel are useful for mat classes." },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Pilates Studios in Zurich (2026)",
+      "description": "The best Pilates studios in Zurich — reformer boutiques in Seefeld, Hottingen, and the city centre. Six curated picks, verified June 2026.",
+      "url": "https://pilatescollectiveclub.com/cities/zurich",
+      "datePublished": "2026-06-28",
+      "dateModified": "2026-10-20",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg" },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/cities/zurich" },
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": CITY_FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+    },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -439,6 +462,20 @@ export default function ZurichPage() {
         </section>
 
         {/* Related Cities */}
+        <section className="px-6 py-20">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+            <div className="space-y-6">
+              {CITY_FAQS.map((f) => (
+                <div key={f.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                  <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{f.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{f.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-5xl mx-auto">
             <h2

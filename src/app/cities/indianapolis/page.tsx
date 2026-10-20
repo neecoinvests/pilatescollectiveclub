@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
 import Footer from "@/components/Footer";
 import StudioListing from "@/components/StudioListing";
 import CityCard from "@/components/CityCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Indianapolis, IN (2026)",
@@ -240,9 +241,21 @@ const FURTHER_READING = [
   },
 ];
 
+const CITY_FAQS = [
+  { q: "What are the best Pilates studios in Indianapolis?", a: "Our 6 curated picks are Foundations Studio (Nora / Far North Side), Club Pilates Downtown Indy (Mass Ave / Downtown), Reforming Indy (Fall Creek / Northeast, Fishers area), Club Pilates North Indy (Keystone at the Crossing), Align Pilates Indy (Noblesville) and Club Pilates Zionsville (Zionsville). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "Which Indianapolis neighbourhoods are best for Pilates?", a: "This guide covers Mass Ave & Downtown, Broad Ripple & Near North, Nora & Far North Side and Carmel & North Suburbs. Mass Ave & Downtown: Indianapolis's most vibrant arts and entertainment corridor anchors the city's downtown Pilates scene." },
+  { q: "What should I know about booking Pilates classes in Indianapolis?", a: "Indianapolis rewards consistent practice through its winters. Indianapolis winters are cold, grey, and long, from November through March, outdoor movement is limited and the case for a consistent indoor practice is at its strongest." },
+  { q: "What should I bring to a Pilates class in Indianapolis?", a: "Grip socks are required at most reformer studios. Our gear list for Indianapolis covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": CITY_FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+    },
+    productItemList("Pilates gear for classes in Indianapolis", GEAR.filter((g) => /amazon\.[a-z.]+\/dp\//.test(g.url)).map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, description: g.note, price: g.price, url: g.url }))),
     {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -335,22 +348,7 @@ export default function IndianapolisPage() {
               Gear Indianapolis instructors recommend.{" "}
               <Link href="/affiliate-disclosure" className="underline">Affiliate disclosure</Link>.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {GEAR.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  className="block rounded-xl p-5 border transition-shadow hover:shadow-md"
-                  style={{ borderColor: "#e8ddd6", backgroundColor: "#fff" }}
-                >
-                  <p className="font-semibold mb-1" style={{ color: "#2d2926" }}>{item.name}</p>
-                  <p className="text-sm mb-3" style={{ color: "#5c4f47" }}>{item.note}</p>
-                  <p className="text-sm font-semibold" style={{ color: "#b8977e" }}>{item.price} on Amazon →</p>
-                </a>
-              ))}
-            </div>
+            <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
           </div>
         </section>
 
@@ -445,6 +443,20 @@ export default function IndianapolisPage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               {RELATED_CITIES.map((c) => (
                 <CityCard key={c.city} {...c} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="px-6 py-20">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+            <div className="space-y-6">
+              {CITY_FAQS.map((f) => (
+                <div key={f.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                  <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{f.q}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{f.a}</p>
+                </div>
               ))}
             </div>
           </div>
