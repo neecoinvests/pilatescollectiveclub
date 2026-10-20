@@ -64,13 +64,13 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Sweaty Betty Get It Together Bag",
-    price: "From $65",
-    verdict: "Best organised studio bag",
+    name: "Sweaty Betty Nimbus Cloud Tote Bag",
+    price: "$112.28",
+    verdict: "Best premium tote from a studio brand",
     description:
-      "Sweaty Betty's Get It Together Bag earns its name through exceptional internal organisation. The layout includes dedicated compartments for wet gear, a waterproof internal lining, and enough structured pockets to keep grip socks, cards, phone, and studio essentials separated without digging. The capacity is moderate — better suited for practitioners who travel light to class rather than those carrying a full kit change — but the thoughtful organisation makes it faster to locate items in the dim lighting of a studio changing room. The exterior is water-resistant and maintains its structure well through regular use.",
-    affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+studio+bag+tote&tag=pilatescollective-20",
-    tag: "Best Organisation",
+      "Sweaty Betty is one of the activewear labels you see most often in boutique Pilates studios, and the Nimbus Cloud is its tote bag, sold and shipped by Amazon.com. The listing describes it as insulated, which helps keep a water bottle or post-class snack cool between work and the studio. At $112.28 it is the premium pick in this guide; check the listing photos and dimensions to confirm it fits your mat and change of clothes before you buy.",
+    affiliateUrl: "https://www.amazon.com/dp/B0DFCXLG2Z?tag=pilatescollective-20",
+    tag: "Premium Pick",
   },
   {
     rank: "05",
