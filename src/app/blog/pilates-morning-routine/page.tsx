@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Morning Routine (2026): 10, 20 & 30-Minute Options",
@@ -37,7 +40,7 @@ const jsonLd = {
       "description": "Science-backed morning Pilates routines — from a 10-minute pre-work wake-up to a 30-minute full-body session, with equipment recommendations.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-morning-routine",
       "datePublished": "2026-06-14",
-      "dateModified": "2026-06-14",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -78,10 +81,15 @@ const PRODUCTS = [
   { name: "Trideer 9-inch Pilates Ball", description: "Used in breathing and proprioception exercises at the start of the morning routine. The ball's tactile feedback helps establish body awareness before the more demanding exercises.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Leave it unrolled to make mornings easier", "A gentle spinal opener to start the day", "Wakes up postural muscles before the day", "No set-up; adds resistance to morning core work", "For breathing and balance drills first thing"];
+
+const ITEM_LIST = productItemList("Pilates Morning Routine (2026): 10, 20 & 30-Minute Options", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesMorningRoutinePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -94,7 +102,8 @@ export default function PilatesMorningRoutinePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates Morning<br />Routine:<br /><span style={{ color: "#8b4a31" }}>10, 20 & 30 Minutes</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 10 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A morning Pilates practice is, for many people, the habit that makes all other healthy habits easier to maintain. The clarity, body awareness, and postural tone that a morning session produces carries into the entire working day — and the neuroscience behind why morning exercise is particularly effective is well-established. Here are three complete routines structured for how much time you actually have.
@@ -112,6 +121,9 @@ export default function PilatesMorningRoutinePage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why morning Pilates works differently</h2>

@@ -210,7 +210,6 @@ export default function PilatesForAthletesPage() {
                 <p>If you run, cycle, play tennis, swim competitively, or participate seriously in any physical sport — Pilates is not a luxury. It is, as the evidence increasingly suggests, one of the most valuable investments you can make in the longevity and quality of your athletic life.</p>
               </Section>
             </section>
-          </div>
 
 
             {/* Equipment */}
@@ -224,6 +223,7 @@ export default function PilatesForAthletesPage() {
                 ))}
               </div>
             </div>
+          </div>
 
           <BlogSidebar related={[
             { title: "Pilates for Back Pain", href: "/blog/pilates-for-back-pain", readTime: "9 min read", imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" },

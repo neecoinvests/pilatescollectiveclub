@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Buying a Used Pilates Reformer (2026): What to Inspect",
@@ -39,7 +41,7 @@ const jsonLd = {
       "description": "A practical guide to the secondhand reformer market: what to inspect, which faults are consumable and which are structural, what refurbishment costs, and how to price against current new machines.",
       "url": "https://pilatescollectiveclub.com/blog/buying-a-used-pilates-reformer",
       "datePublished": "2026-09-16",
-      "dateModified": "2026-09-16",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-reformer-loops-hooks.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -91,10 +93,15 @@ const PRODUCTS = [
   { name: "X-Protector Furniture Sliders (8-pack)", description: "Private sales never come with delivery. You are collecting a long, heavy machine from someone's studio or spare room, and a set of sliders turns that from a two-person struggle into something manageable without damaging either floor. Bring them with you rather than hoping the seller has some.", price: "$12.99", affiliateUrl: "https://www.amazon.com/dp/B075CR94J3?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Budget for new springs on any used machine", "The cheapest meaningful upgrade to a used reformer", "Clean the track before assuming bearing problems", "First clean for second-hand upholstery", "Grip for upholstery that is slick with age", "Move a privately bought reformer yourself"];
+
+const ITEM_LIST = productItemList("Buying a Used Pilates Reformer (2026): What to Inspect", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function BuyingAUsedPilatesReformerPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -107,7 +114,8 @@ export default function BuyingAUsedPilatesReformerPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Buying a Used<br /><span style={{ color: "#8b4a31" }}>Pilates Reformer</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated 16 September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A commercial reformer is a frame, a pair of rails and a set of consumables. The consumables wear out on a schedule and cost a few hundred dollars to renew. The frame and rails either are true or they are not, and that is the whole inspection. Get that distinction right and the used market is the best value in Pilates equipment. Get it wrong and you have bought a very heavy problem.
@@ -125,6 +133,9 @@ export default function BuyingAUsedPilatesReformerPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The rule</p>
@@ -222,7 +233,6 @@ export default function BuyingAUsedPilatesReformerPage() {
             </div>
 
             {/* Reformers */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>

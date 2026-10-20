@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -39,7 +41,7 @@ const jsonLd = {
       "description": "Itemised equipment budgets for a 3, 6 and 10 reformer Pilates studio, built from current list prices, plus the costs first-time owners typically omit.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-studio-equipment-cost-breakdown",
       "datePublished": "2026-09-16",
-      "dateModified": "2026-09-16",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-reformers-aerial-row.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -145,6 +147,8 @@ function BudgetTable({ rows, total, note }: { rows: { item: string; qty: string;
   );
 }
 
+const QP_NOTES = ["Rings, bands and balls in one studio kit", "Low-cost apparatus that carries a lot of teaching", "Adds cardio classes to existing reformers", "Wear items every studio budget should include", "A level, protective floor under apparatus", "Vinyl-safe cleaner that protects upholstery"];
+
 export default function PilatesStudioEquipmentCostBreakdownPage() {
   return (
     <>
@@ -162,6 +166,7 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
               Pilates Studio Equipment<br /><span style={{ color: "#8b4a31" }}>Cost Breakdown</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 12 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Three itemised budgets below, at three studio sizes, built from the list prices we publish across our equipment reviews. Every line is a real product at a real price so you can check the arithmetic and swap any row for the brand you prefer. What these tables give you is the shape of the number and the items people forget, which is what you need before you ask a supplier for a quote.
@@ -179,6 +184,9 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#f6f3f2" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>How to read these numbers</p>
@@ -288,7 +296,6 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             </div>
 
             {/* Reformers */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>

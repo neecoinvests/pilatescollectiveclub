@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Balanced Body vs Merrithew (2026): Studio vs At Home SPX",
@@ -39,7 +41,7 @@ const jsonLd = {
       "description": "A head-to-head comparison of the Balanced Body Studio Reformer and the Merrithew At Home SPX Reformer Package — the two commercial-brand machines actually sold on Amazon — across spring systems, frame material, accessory ecosystem and price.",
       "url": "https://pilatescollectiveclub.com/blog/balanced-body-allegro-2-vs-merrithew-spx-max",
       "datePublished": "2026-09-16",
-      "dateModified": "2026-09-22",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -112,10 +114,15 @@ const PRODUCTS = [
   { name: "STAR BRITE Ultimate Vinyl Clean", description: "A vinyl-safe cleaner for either machine's upholstery. Alcohol-heavy and bleach-based cleaners dry vinyl until it cracks; a vinyl-rated formula costs the same and doesn't. Sold by Amazon.com.", price: "$14.95", affiliateUrl: "https://www.amazon.com/dp/B01CZ2ZW4O?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Balanced Body's own jumpboard for the Studio Reformer line", "The Merrithew-specific jumpboard sized for the SPX and SPX Max carriage", "Opens the short box, long box and overhead series on the Studio Reformer", "Non-slip pads for standing and kneeling work on either machine's carriage", "Genuine Balanced Body replacement ropes for the Studio Reformer and Allegro line", "A vinyl-safe cleaner for either machine's upholstery"];
+
+const ITEM_LIST = productItemList("Balanced Body vs Merrithew (2026): Studio vs At Home SPX", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function Allegro2VsSpxMaxPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -128,7 +135,8 @@ export default function Allegro2VsSpxMaxPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Balanced Body vs<br /><span style={{ color: "#8b4a31" }}>Merrithew</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               These are the two commercial-brand reformers you can actually buy on Amazon today: Balanced Body&apos;s Studio Reformer and Merrithew&apos;s At Home SPX Reformer Package. They&apos;re not close on price — $4,700 against $3,349, a gap of about 40% — and neither one folds for storage, so this isn&apos;t a comparison of mechanisms. It&apos;s a comparison of what the extra $1,350 actually buys: frame material, spring feel, and how deep an accessory ecosystem you plug into.
@@ -146,6 +154,8 @@ export default function Allegro2VsSpxMaxPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote />
 
 

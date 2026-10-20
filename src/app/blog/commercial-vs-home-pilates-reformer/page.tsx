@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Commercial vs Home Pilates Reformer (2026): What Differs",
@@ -39,7 +41,7 @@ const jsonLd = {
       "description": "A technical comparison of commercial and home-grade Pilates reformers: frame construction, weight rating, warranty terms, duty cycle, serviceability and price.",
       "url": "https://pilatescollectiveclub.com/blog/commercial-vs-home-pilates-reformer",
       "datePublished": "2026-09-16",
-      "dateModified": "2026-09-16",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-reformer-spring-detail.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -126,10 +128,15 @@ const PRODUCTS = [
   { name: "Eccentfit Pilates Grip Pads (4-pack)", description: "A thin grip pad is the cheapest fix for a carriage that has become slick with use, and it makes standing and kneeling work feel secure on an older machine. Worth having on a home reformer where the upholstery is past its best but the frame is sound.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B0GGR4QXNH?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Replacement springs, the wear part on every reformer", "Replacement ropes, which stretch and fray over time", "Clean the wheel track to fix noise and a gritty glide", "Vinyl-safe cleaner for tired upholstery", "The cheapest way to add cardio to a reformer", "Grip pads for a carriage that has gone slick"];
+
+const ITEM_LIST = productItemList("Commercial vs Home Pilates Reformer (2026): What Differs", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function CommercialVsHomePilatesReformerPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
@@ -142,7 +149,8 @@ export default function CommercialVsHomePilatesReformerPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Commercial vs Home<br /><span style={{ color: "#8b4a31" }}>Pilates Reformer</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Commercial and home reformers look similar in photographs and they are not the same product. The differences that matter are not the ones the marketing leads with: the frame and the spring set are real, but the decisive ones are the warranty wording and whether the machine is designed to be repaired. Here is what separates the tiers, item by item, and the three situations where paying for commercial grade is the wrong call.
@@ -160,6 +168,9 @@ export default function CommercialVsHomePilatesReformerPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The short version</p>
@@ -271,7 +282,6 @@ export default function CommercialVsHomePilatesReformerPage() {
             </div>
 
             {/* Reformers */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>

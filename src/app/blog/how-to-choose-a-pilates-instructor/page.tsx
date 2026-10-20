@@ -249,7 +249,6 @@ export default function HowToChoosePilatesInstructorPage() {
                 <p>What matters most is not the lineage — it is the teacher&apos;s depth of training, their experience, and their genuine attentiveness to you as a mover. A highly trained and experienced teacher of either tradition will serve you far better than a superficially certified instructor of the other.</p>
               </Section>
             </section>
-          </div>
 
 
             {/* Equipment */}
@@ -263,6 +262,7 @@ export default function HowToChoosePilatesInstructorPage() {
                 ))}
               </div>
             </div>
+          </div>
 
           <BlogSidebar related={[
             { title: "Classical vs Contemporary Pilates", href: "/blog/classical-vs-contemporary-pilates", readTime: "7 min read", imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" },

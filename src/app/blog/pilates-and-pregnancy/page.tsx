@@ -210,7 +210,6 @@ export default function PilatesAndPregnancyPage() {
                 <p>Some physiotherapy clinics offer specialist pregnancy and postpartum Pilates programmes delivered by physiotherapists with Pilates training — this combination is particularly valuable if you have specific pelvic floor concerns or a history of diastasis recti. If you are unsure where to start, your midwife or GP can usually refer you to a women&apos;s health physiotherapist who can advise on appropriate exercise.</p>
               </Section>
             </section>
-          </div>
 
 
             {/* Equipment */}
@@ -224,6 +223,7 @@ export default function PilatesAndPregnancyPage() {
                 ))}
               </div>
             </div>
+          </div>
 
           <BlogSidebar related={[
             { title: "How to Choose a Pilates Instructor", href: "/blog/how-to-choose-a-pilates-instructor", readTime: "6 min read", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },

@@ -203,7 +203,6 @@ export default function PilatesVsYogaPage() {
                 </Section>
               </div>
             </section>
-          </div>
 
 
             {/* Equipment */}
@@ -217,6 +216,7 @@ export default function PilatesVsYogaPage() {
                 ))}
               </div>
             </div>
+          </div>
 
           <BlogSidebar related={[
             { title: "The Beginner's Guide to Reformer Pilates", href: "/blog/beginners-guide-to-reformer-pilates", readTime: "8 min read", imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" },

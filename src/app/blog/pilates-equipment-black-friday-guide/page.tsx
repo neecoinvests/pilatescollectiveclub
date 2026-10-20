@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -40,7 +42,7 @@ const jsonLd = {
       "description": "A buyer's guide to Pilates equipment in the Black Friday window: which categories discount and which do not, how to judge a claimed saving, and the published list prices to measure against.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-equipment-black-friday-guide",
       "datePublished": "2026-09-16",
-      "dateModified": "2026-09-16",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -147,6 +149,8 @@ function BaselineTable({ rows }: { rows: { item: string; tier: string; price: st
   );
 }
 
+const QP_NOTES = ["Props are the category most worth buying on sale", "The most-used piece of equipment you own", "Adds cardio if you already own a reformer", "Replacement ropes, a useful buy in a sale", "Recovery gear that discounts reliably", "Grip socks required by most studios"];
+
 export default function PilatesEquipmentBlackFridayGuidePage() {
   return (
     <>
@@ -164,6 +168,7 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
               Pilates Equipment<br /><span style={{ color: "#8b4a31" }}>Black Friday Guide</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated 16 September 2026 · 10 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Black Friday falls on 27 November 2026. This page is published early on purpose, because the single most useful thing you can do about a November sale is know the ordinary price of everything on your shortlist before the sale starts. Below is what genuinely tends to move on price in this category, what almost never does, and the current list prices to measure any claim against.
@@ -181,6 +186,9 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
             <div className="mb-12 mt-4 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Black Friday 2026 deal guides</p>
               <div className="flex flex-wrap gap-2">
@@ -300,7 +308,6 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
             </div>
 
             {/* Reformers */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>

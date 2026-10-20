@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -39,7 +41,7 @@ const jsonLd = {
       "description": "Reformer footprints by machine class, clearance requirements at each end and along the working side, ceiling height for tower and standing work, and how to measure a room before ordering.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-reformer-dimensions-and-space-requirements",
       "datePublished": "2026-09-16",
-      "dateModified": "2026-09-16",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-reformer-sunlit-minimal.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -111,6 +113,8 @@ const PRODUCTS = [
   { name: "Eccentfit Pilates Grip Pads, 4-Pack", description: "Cheap insurance in a small space: a grip pad on the carriage keeps standing and kneeling work secure and protects the upholstery, which is the first thing to look tired on a machine used in a tight footprint. Check dimensions against your carriage width before ordering.", price: "From $7.99", affiliateUrl: "https://www.amazon.com/dp/B0GGR4QXNH?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Protects a reformer kept in a living space", "Move a heavy reformer without damaging floors", "Measure doorways and room size before you order", "Spreads the reformer's weight over the floor", "Extra grip for working in a tight space"];
+
 export default function PilatesReformerDimensionsPage() {
   return (
     <>
@@ -128,6 +132,7 @@ export default function PilatesReformerDimensionsPage() {
               Reformer Dimensions &amp;<br /><span style={{ color: "#8b4a31" }}>Space Requirements</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The frame dimensions are the easy part and they are not what decides whether a reformer works in your room. What decides it is the clearance at each end, the ceiling height if you ever want tower work, and whether the machine can physically get from your front door to the room. Those three are the ones people measure after ordering. Here is how to measure them before.
@@ -145,6 +150,9 @@ export default function PilatesReformerDimensionsPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The number you actually need</p>
@@ -263,7 +271,6 @@ export default function PilatesReformerDimensionsPage() {
             </div>
 
             {/* Reformers */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>

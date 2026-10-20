@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -39,7 +41,7 @@ const jsonLd = {
       "description": "A comparison of the channels for buying a Pilates reformer: manufacturer direct, specialist dealers, general marketplaces and the used market, covering price, warranty, delivery and recourse.",
       "url": "https://pilatescollectiveclub.com/blog/where-to-buy-a-pilates-reformer",
       "datePublished": "2026-09-16",
-      "dateModified": "2026-09-16",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-studio-entryway.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -105,6 +107,8 @@ const PRODUCTS = [
   { name: "STAR BRITE Ultimate Vinyl Clean", description: "The first thing to do with any machine that has had a previous owner, and the right habit on a new one. Alcohol-heavy and bleach-based cleaners dry reformer upholstery until it cracks, so use a formula rated for vinyl and leatherette from the start rather than discovering the difference in year three.", price: "From $14.95", affiliateUrl: "https://www.amazon.com/dp/B01CZ2ZW4O?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Know replacement spring prices before you buy", "Replacement ropes, the other wear item", "Move a crated reformer safely at kerbside", "Measure doorways and stairs before you order", "Protects floors under the reformer's feet", "First clean for any previously owned machine"];
+
 export default function WhereToBuyAPilatesReformerPage() {
   return (
     <>
@@ -122,6 +126,7 @@ export default function WhereToBuyAPilatesReformerPage() {
               Where to Buy a<br /><span style={{ color: "#8b4a31" }}>Pilates Reformer</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated 16 September 2026 · 11 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The same reformer can differ by several hundred dollars delivered depending on where you buy it, and the cheapest listing is not always the cheapest purchase. Freight, configuration options, warranty validity and whether anyone brings the machine into the room all move with the channel. Here is what each one is actually good for.
@@ -139,6 +144,9 @@ export default function WhereToBuyAPilatesReformerPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote />
 
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The method that works</p>
@@ -244,7 +252,6 @@ export default function WhereToBuyAPilatesReformerPage() {
             </div>
 
             {/* Reformers */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
