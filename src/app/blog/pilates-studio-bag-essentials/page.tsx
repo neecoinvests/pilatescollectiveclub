@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -94,7 +96,7 @@ const jsonLd = {
       "author": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" } },
       "datePublished": "2026-06-01",
-      "dateModified": "2026-06-14",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/pilates-studio-bag-essentials",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-studio-bag-essentials",
       "articleSection": "Guide",
@@ -119,6 +121,11 @@ const jsonLd = {
   ],
 };
 
+const QUICK_PICKS = [
+  { name: "toesox Low Rise Half-Toe Grip Socks (2-Pack)", price: "$30.00", url: "https://www.amazon.com/dp/B08ZGNC7X6?tag=pilatescollective-20", note: "Half-toe grip socks, 2-pack" },
+  { name: "Hydro Flask 21 oz Standard Mouth Bottle", price: "$30.00", url: "https://www.amazon.com/dp/B0DG34PXZT?tag=pilatescollective-20", note: "21 oz insulated bottle" },
+];
+
 export default function PilatesStudioBagEssentialsPage() {
   return (
     <>
@@ -135,7 +142,8 @@ export default function PilatesStudioBagEssentialsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               What to Pack in Your<br /><span style={{ color: "#8b4a31" }}>Pilates Studio Bag (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 6 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 6 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Here&apos;s exactly what goes in a well-packed Pilates studio bag — from instructors who carry one five times a week. The short answer: it&apos;s a lot less than you think. Studios provide all equipment. You need grip socks, water, a towel, your kit, and a bag to put it all in. This guide covers each item, the specific products worth buying, and what you can safely leave at home.
@@ -154,8 +162,10 @@ export default function PilatesStudioBagEssentialsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* What studios provide */}
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
+            {/* What studios provide */}
 
             <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the studio provides (leave these at home)</h2>

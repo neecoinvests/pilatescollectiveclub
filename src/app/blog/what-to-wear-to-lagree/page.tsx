@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -147,7 +149,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-04",
-      "dateModified": "2026-10-04",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -212,6 +214,15 @@ function Divider({ label }: { label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "CRZ YOGA Butterluxe Leggings 25\"", price: "$32.00", url: "https://www.amazon.com/dp/B09P1G2952?tag=pilatescollective-20", note: "Opaque, buttery leggings for the carriage" },
+  { name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Premium leggings from a studio-favourite brand" },
+  { name: "CRZ YOGA Butterluxe U Back Sports Bra", price: "$28.00", url: "https://www.amazon.com/dp/B09ZP9VXLJ?tag=pilatescollective-20", note: "Medium-support bra that stays put" },
+  { name: "toesox Low Rise Grip Socks (Full Toe, 2-Pack)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Full-toe grip socks" },
+  { name: "CRZ YOGA Quick Dry Racerback Crop Tank", price: "$20.00", url: "https://www.amazon.com/dp/B0H1HV6YXB?tag=pilatescollective-20", note: "Quick-dry crop tank" },
+  { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Six pairs of grip socks on a budget" },
+];
+
 export default function WhatToWearToLagreePage() {
   return (
     <>
@@ -228,7 +239,8 @@ export default function WhatToWearToLagreePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               What to Wear to Lagree<br /><span style={{ color: "#8b4a31" }}>(2026): 3 Complete Outfits</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 10 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree looks gentle from the doorway — slow moves on a sliding machine — and then you&apos;re shaking in a plank on the Megaformer, drenched, with your top sliding up to your armpits. What you wear matters more than in most classes. Here are the five rules, three complete head-to-toe outfits at three budgets, what to bring, and what to leave at home.
@@ -250,8 +262,10 @@ export default function WhatToWearToLagreePage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {/* Outfits at a glance */}
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on published specifications and how Lagree is taught, not a hands-on test.</AffiliateNote>
+
+            {/* Outfits at a glance */}
 
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The three outfits at a glance</h2>

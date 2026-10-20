@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -280,7 +282,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -349,6 +351,15 @@ function Divider({ label }: { label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "Gaiam Core Sliding Discs (Set of 2)", price: "$16.59", url: "https://www.amazon.com/dp/B0964G1N18?tag=pilatescollective-20", note: "Core sliders for floor versions of Lagree moves" },
+  { name: "Bala Bangles Wrist & Ankle Weights (1 lb, pair)", price: "$55.00", url: "https://www.amazon.com/dp/B0BQCJRL6Q?tag=pilatescollective-20", note: "Wearable 1 lb weights for slow tempo work" },
+  { name: "Fit Simplify Resistance Loop Bands (Set of 5)", price: "$9.98", url: "https://www.amazon.com/dp/B01AVDVHTI?tag=pilatescollective-20", note: "Five loop bands for glute and leg work" },
+  { name: "Gaiam Essentials Thick Yoga Mat (10mm)", price: "$24.98", url: "https://www.amazon.com/dp/B07H9PZDQW?tag=pilatescollective-20", note: "Thick 10mm mat for floor circuits" },
+  { name: "Gymboss Interval Timer", price: "$20.95", url: "https://www.amazon.com/dp/B00CO8HO6O?tag=pilatescollective-20", note: "Interval timer for slow-tempo sets" },
+  { name: "The Micro by Lagree Fitness", price: "$990.00", url: "https://www.amazon.com/dp/B0BBT7YV93?tag=pilatescollective-20", note: "Lagree Fitness' own compact home machine" },
+];
+
 export default function LagreeExercisesPage() {
   return (
     <>
@@ -365,7 +376,8 @@ export default function LagreeExercisesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree Exercises<br /><span style={{ color: "#8b4a31" }}>(2026): The Signature Moves, Explained</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 12 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               &ldquo;Next: Catfish. Then Bear. Slower.&rdquo; If you have just started Lagree, half the class can feel like a foreign language. This guide translates the move names you will hear most and explains what each one works. It also gives the form cues that separate a move that burns from one that just hurts. At the end is a 20-minute Lagree-inspired floor workout for the days you cannot get to the studio, plus the kit for it.
@@ -386,6 +398,9 @@ export default function LagreeExercisesPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. This guide is educational and does not replace instruction from a certified Lagree instructor.</AffiliateNote>
 
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
               <Link href="/blog/lagree-for-beginners" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={hubStyle}>
@@ -532,7 +547,6 @@ export default function LagreeExercisesPage() {
                   <span>{fmt(FLOOR_TOTAL)}</span>
                 </div>
               </div>
-              <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. This guide is educational and does not replace instruction from a certified Lagree instructor.</AffiliateNote>
 
               <div className="space-y-8">
                 {FLOOR_KIT.map((p) => (

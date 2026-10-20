@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -335,7 +337,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -395,6 +397,15 @@ function GiftCard({ g }: { g: Gift }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "TAVI Half Finger Grip Gloves", price: "$31.99", url: "https://www.amazon.com/dp/B09GPVMF86?tag=pilatescollective-20", note: "Grip gloves from a dedicated Pilates and barre brand" },
+  { name: "TAVI Stacy Slouch Grip Socks 2-Pack", price: "$40.00", url: "https://www.amazon.com/dp/B0GFPGMWWS?tag=pilatescollective-20", note: "Premium slouch grip socks, 2-pack" },
+  { name: "Bala Bangles Wrist & Ankle Weights (1 lb, pair)", price: "$55.00", url: "https://www.amazon.com/dp/B0BQCJRL6Q?tag=pilatescollective-20", note: "1 lb wrist and ankle weights for home work" },
+  { name: "Manduka Yogitoes Hot Yoga Mat Towel 71\"", price: "$72.00", url: "https://www.amazon.com/dp/B0D5ZR3R1M?tag=pilatescollective-20", note: "Non-slip mat towel for sweaty classes" },
+  { name: "Owala FreeSip Insulated Water Bottle 32 oz", price: "$29.99", url: "https://www.amazon.com/dp/B085DVHQ57?tag=pilatescollective-20", note: "Insulated 32 oz bottle for class" },
+  { name: "Dr Teal's Arnica Body Relief Epsom Salt Soak (3 lb)", price: "$5.87", url: "https://www.amazon.com/dp/B0DTKLKYW8?tag=pilatescollective-20", note: "A post-class Epsom soak" },
+];
+
 export default function BestLagreeGiftsPage() {
   return (
     <>
@@ -411,7 +422,8 @@ export default function BestLagreeGiftsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The Best Lagree Gifts<br /><span style={{ color: "#8b4a31" }}>(2026): 18 Ideas for Every Budget</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Shopping for someone who talks about &ldquo;the shakes&rdquo; like it is a good thing? Lagree people are easy to buy for once you know the secret: they go through grip socks and towels fast, they are always a little sore, and they would never buy themselves the premium version of either. Here are 18 gifts they will actually use, sorted by budget, from a $6 stocking stuffer to the brand&apos;s own home machine.
@@ -432,6 +444,9 @@ export default function BestLagreeGiftsPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Every link on this page goes to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you.</AffiliateNote>
 
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
               {TIERS.map((t) => (
@@ -471,7 +486,6 @@ export default function BestLagreeGiftsPage() {
                 </div>
               ))}
             </div>
-            <AffiliateNote>Every link on this page goes to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you.</AffiliateNote>
 
             {/* How to choose */}
             <div className="mb-16">

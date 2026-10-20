@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -210,7 +212,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -279,6 +281,15 @@ function Divider({ label }: { label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "Hyperice Hypervolt Go 3", price: "$149.00", url: "https://www.amazon.com/dp/B0G82W9ZZK?tag=pilatescollective-20", note: "Compact massage gun from Hyperice" },
+  { name: "TheraGun Mini (3rd Gen)", price: "$219.99", url: "https://www.amazon.com/dp/B0DV7JN7ZD?tag=pilatescollective-20", note: "Therabody's mini massage gun" },
+  { name: "TriggerPoint GRID Foam Roller (13\")", price: "$28.96", url: "https://www.amazon.com/dp/B00BIBMB70?tag=pilatescollective-20", note: "Textured foam roller for legs and back" },
+  { name: "Hyperice Normatec 3 Legs (Standard)", price: "$899.00", url: "https://www.amazon.com/dp/B0B72QBWHC?tag=pilatescollective-20", note: "Compression boots for serious recovery" },
+  { name: "Kieba Massage Lacrosse Balls (Set of 2)", price: "$7.99", url: "https://www.amazon.com/dp/B017V7UKW2?tag=pilatescollective-20", note: "Lacrosse balls for glutes and feet" },
+  { name: "Dr Teal's Arnica Body Relief Epsom Salt Soak (3 lb)", price: "$5.87", url: "https://www.amazon.com/dp/B0DTKLKYW8?tag=pilatescollective-20", note: "Epsom salt soak after class" },
+];
+
 export default function LagreeRecoveryPage() {
   return (
     <>
@@ -295,7 +306,8 @@ export default function LagreeRecoveryPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Sore After Lagree?<br /><span style={{ color: "#8b4a31" }}>What Helps, and the Gear Worth Buying</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               You survived the class. You even enjoyed the shakes. Then you tried to sit down the next morning. Lagree has a reputation for next-day soreness that surprises even people who lift or run, and there is a good reason for it. This guide explains why it happens and how long it lasts. It covers what genuinely helps, which is less than marketing suggests, and the recovery tools worth your money at every budget.
@@ -316,6 +328,9 @@ export default function LagreeRecoveryPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. This article is general information, not medical advice.</AffiliateNote>
 
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
               <a href="#kit" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={hubStyle}>
@@ -454,7 +469,6 @@ export default function LagreeRecoveryPage() {
                   <span>{fmt(BASICS_TOTAL)}</span>
                 </div>
               </div>
-              <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. This article is general information, not medical advice.</AffiliateNote>
 
               <h3 className="text-2xl font-semibold mb-6" style={h2Style}>The basics</h3>
               <div className="space-y-8 mb-12">

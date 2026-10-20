@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -113,7 +115,7 @@ const jsonLd = {
       "description": "Elina Pilates' published models reviewed against their claimed specs, an honest check of Amazon availability, and three genuine wood-frame reformer alternatives that are actually sold on Amazon.",
       "url": "https://pilatescollectiveclub.com/blog/elina-pilates",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -155,6 +157,12 @@ const jsonLd = {
   ],
 };
 
+const QUICK_PICKS = [
+  { name: "DELAVIN Solid Wood Pilates Reformer", price: "$1,219.99", url: "https://www.amazon.com/dp/B0D2ZT4Z5H?tag=pilatescollective-20", note: "Solid wood reformer on Amazon" },
+  { name: "VEVOR Wooden Reformer with Sitting Box", price: "$1,309.90", url: "https://www.amazon.com/dp/B0F43LNJNM?tag=pilatescollective-20", note: "Wooden reformer with sitting box" },
+  { name: "PAETA Wooden Foldable Reformer with Sitting Box", price: "$699.98", url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20", note: "Foldable wooden reformer with sitting box" },
+];
+
 export default function ElinaPilatesPage() {
   return (
     <>
@@ -171,7 +179,8 @@ export default function ElinaPilatesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Elina Pilates<br /><span style={{ color: "#8b4a31" }}>(2026): Equipment Reviewed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 12 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <TopPick label="Top Amazon alternative" name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Elina Pilates markets itself as a European manufacturer offering studio-grade reformers, including wood-finish models aimed at the home market. Before publishing this guide we checked whether the models people search for are genuinely sold on Amazon — including a fresh, live Amazon catalog search for &quot;Elina Pilates reformer,&quot; which returned zero genuine Elina-brand results. We could not find live, verifiable Amazon listings for any of Elina&apos;s reformer or chair models covered here. Because Elina is known specifically for wood-framed reformers, we&apos;ve added three genuine wood-frame reformer alternatives that are actually sold on Amazon today, clearly disclosed as not being Elina products. This is an honest guide to what Elina publishes about its own equipment, plus real options for buyers who want that same material category with Amazon purchase protection.
@@ -190,7 +199,9 @@ export default function ElinaPilatesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>We could not verify live Amazon listings for Elina Pilates equipment — see the disclosure below. Four links on this page go to verified, non-Elina Amazon products, and we earn a small commission on qualifying purchases through them.</AffiliateNote>
+
 
             <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand overview</h2>

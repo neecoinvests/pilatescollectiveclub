@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -219,7 +221,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -288,6 +290,14 @@ function Divider({ label }: { label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "Polar H10 Heart Rate Monitor Chest Strap", price: "$104.65", url: "https://www.amazon.com/dp/B07PM54P4N?tag=pilatescollective-20", note: "Chest-strap heart rate accuracy for calorie tracking" },
+  { name: "WITHINGS Body Smart Scale", price: "$129.95", url: "https://www.amazon.com/dp/B0C3JNJPZ7?tag=pilatescollective-20", note: "Smart scale that tracks body composition" },
+  { name: "COOSPO H808S Heart Rate Monitor Chest Strap", price: "$29.99", url: "https://www.amazon.com/dp/B07R8741CN?tag=pilatescollective-20", note: "Budget heart rate chest strap" },
+  { name: "RENPHO Smart Body Measuring Tape", price: "$29.99", url: "https://www.amazon.com/dp/B082W886W9?tag=pilatescollective-20", note: "Smart tape to track measurements" },
+  { name: "Owala FreeSip Insulated Water Bottle 32 oz", price: "$29.99", url: "https://www.amazon.com/dp/B085DVHQ57?tag=pilatescollective-20", note: "Insulated 32 oz bottle for class" },
+];
+
 export default function LagreeForWeightLossPage() {
   return (
     <>
@@ -304,7 +314,8 @@ export default function LagreeForWeightLossPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree for Weight Loss<br /><span style={{ color: "#8b4a31" }}>(2026): What to Really Expect</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree has a reputation for changing how bodies look, and fast. Some of that is real and some is marketing. This guide gives you the honest version: what Lagree does well for weight loss and what it cannot do on its own. It also covers how often to go, why the scale can lie in the first month, and the simple tools that show you whether it is working.
@@ -325,6 +336,9 @@ export default function LagreeForWeightLossPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. This article is general information, not medical or nutrition advice. Talk to your doctor before starting a weight-loss plan.</AffiliateNote>
 
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
               <Link href="/blog/lagree-vs-pilates" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={hubStyle}>
@@ -455,7 +469,6 @@ export default function LagreeForWeightLossPage() {
                   <span>{fmt(STARTER_TOTAL)}</span>
                 </div>
               </div>
-              <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. This article is general information, not medical or nutrition advice. Talk to your doctor before starting a weight-loss plan.</AffiliateNote>
 
               <div className="space-y-8">
                 {TRACKING.map((p) => (

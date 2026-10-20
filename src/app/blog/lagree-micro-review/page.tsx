@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -250,7 +252,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-04",
-      "dateModified": "2026-10-04",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -319,6 +321,14 @@ function Divider({ label }: { label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "The Micro by Lagree Fitness", price: "$990.00", url: "https://www.amazon.com/dp/B0BBT7YV93?tag=pilatescollective-20", note: "Lagree Fitness' own compact home machine" },
+  { name: "Lagree Fitness Micro Rear Platform", price: "$290.00", url: "https://www.amazon.com/dp/B0BKN2LSWD?tag=pilatescollective-20", note: "Rear platform that unlocks more moves" },
+  { name: "Lagree Fitness Micro Handlebars (Pair)", price: "$190.00", url: "https://www.amazon.com/dp/B0BKMP89SH?tag=pilatescollective-20", note: "Handlebars for The Micro, sold as a pair" },
+  { name: "Lagree Fitness Micro Pulley Cables", price: "$230.00", url: "https://www.amazon.com/dp/B0BYMD4S91?tag=pilatescollective-20", note: "Pulley cables for upper-body work" },
+  { name: "Marcy Equipment Mat & Floor Protector (78\" x 36\")", price: "$42.29", url: "https://www.amazon.com/dp/B0041GQH3S?tag=pilatescollective-20", note: "Floor protector under the machine" },
+];
+
 export default function LagreeMicroReviewPage() {
   return (
     <>
@@ -335,7 +345,8 @@ export default function LagreeMicroReviewPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               The Lagree Micro<br /><span style={{ color: "#8b4a31" }}>(2026): Specs, Springs &amp; Real Cost</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 12 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The Micro is the only machine Lagree Fitness sells for the home, and its Amazon listing has one blunt line in the title: &ldquo;Not Pilates, it&apos;s Lagree.&rdquo; Before you spend {MICRO.price} on it, here is everything the spec sheet tells you — the exact size and weight, what each of the four springs does, how much floor you really need, which add-ons are worth it, and what a complete setup costs against a studio class pack.
@@ -356,6 +367,9 @@ export default function LagreeMicroReviewPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Product links on this page go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Lagree On Demand and lagreefitness.com links are not affiliate links. This review is based on Lagree Fitness&apos;s published specifications and listings, not a hands-on test.</AffiliateNote>
 
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
               <Link href="/blog/lagree-micro-vs-megaformer" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={hubStyle}>
@@ -381,7 +395,6 @@ export default function LagreeMicroReviewPage() {
             </div>
 
             {/* Spec sheet */}
-            <AffiliateNote>Product links on this page go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Lagree On Demand and lagreefitness.com links are not affiliate links. This review is based on Lagree Fitness&apos;s published specifications and listings, not a hands-on test.</AffiliateNote>
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The spec sheet</h2>

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -194,7 +196,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-04",
-      "dateModified": "2026-10-04",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -259,6 +261,14 @@ function Divider({ label }: { label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "Rhone Men's 5\" Pursuit Shorts (Lined)", price: "$84.00", url: "https://www.amazon.com/dp/B0F5YC8SKL?tag=pilatescollective-20", note: "Lined 5-inch shorts that stay put" },
+  { name: "Rhone Reign Men's Workout Shirt", price: "$54.40", url: "https://www.amazon.com/dp/B0CKC5XTNT?tag=pilatescollective-20", note: "Fitted training shirt from Rhone" },
+  { name: "Under Armour Men's HeatGear Armour Leggings", price: "$28.25", url: "https://www.amazon.com/dp/B0874W7Z7R?tag=pilatescollective-20", note: "Compression leggings under shorts" },
+  { name: "CoolMate Men's Grip Socks (4 Pairs)", price: "$14.99", url: "https://www.amazon.com/dp/B0F626LL9W?tag=pilatescollective-20", note: "Men's grip socks, 4 pairs" },
+  { name: "Under Armour Men's Tech 2.0 Short-Sleeve T-Shirt", price: "$19.60", url: "https://www.amazon.com/dp/B07D126W6P?tag=pilatescollective-20", note: "Lightweight training tee" },
+];
+
 export default function LagreeForMenPage() {
   return (
     <>
@@ -275,7 +285,8 @@ export default function LagreeForMenPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree for Men<br /><span style={{ color: "#8b4a31" }}>(2026): What to Wear &amp; What to Expect</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Plenty of men walk into their first Lagree class expecting a gentle stretch on a fancy machine, and walk out with shaking legs. The Megaformer is a strength workout built on slow, unbroken tension — and it rewards control, not ego. Here is what to expect, and exactly what to wear, because the standard men&apos;s gym kit of loose shorts and a baggy tee is the wrong choice for this class.
@@ -297,6 +308,9 @@ export default function LagreeForMenPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on published specifications and how Lagree is taught, not a hands-on test.</AffiliateNote>
+
             {/* Short answer */}
             <div className="mb-16 mt-4 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The short version</p>
@@ -308,7 +322,6 @@ export default function LagreeForMenPage() {
             </div>
 
             {/* Expect */}
-            <AffiliateNote>Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Our picks are based on published specifications and how Lagree is taught, not a hands-on test.</AffiliateNote>
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What to expect from your first class</h2>

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
@@ -106,7 +108,7 @@ const jsonLd = {
       "description": "Reviewed: six real, verified portable and foldable Pilates reformers in 2026, from a $295.99 budget generic-brand folding tier through professional-grade coil-spring machines.",
       "url": "https://pilatescollectiveclub.com/blog/best-portable-pilates-reformer",
       "datePublished": "2026-06-01",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-20",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -149,6 +151,14 @@ const jsonLd = {
 };
 
 
+const QUICK_PICKS = [
+  { name: "AeroPilates 701 Premier Reformer", price: "$555.99", url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20", note: "Established brand, folds for storage" },
+  { name: "WINDFOOT Foldable Pilates Reformer w/ Jump Board", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "Budget foldable reformer with jump board" },
+  { name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"", price: "$284.99", url: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20", note: "Cheapest foldable spring reformer" },
+  { name: "AeroPilates Pro XP 557 Reformer", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20", note: "AeroPilates' top home model" },
+  { name: "Balanced Body Metro IQ Reformer", price: "$2,330", url: "https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20", note: "Balanced Body's compact studio-grade option" },
+];
+
 export default function BestPortablePilatesReformerPage() {
   return (
     <>
@@ -165,7 +175,8 @@ export default function BestPortablePilatesReformerPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Portable<br />Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>2026 Reviews</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 10 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The home reformer market has matured significantly since 2020. Where early consumer-grade reformers were crude approximations of the studio experience, today&apos;s best portable reformers deliver genuine Pilates exercise capability — including most of the classical repertoire through intermediate level — in a format that stores in a closet and sets up in two minutes. Genuine, portable spring reformers also go further down the price range than many shoppers expect: the live Amazon catalog has budget generic-brand models that fold and ship for under $300. Here is what is worth buying in 2026, honestly labeled by brand tier.
@@ -183,6 +194,8 @@ export default function BestPortablePilatesReformerPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
 

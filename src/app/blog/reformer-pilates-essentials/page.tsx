@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -373,7 +375,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-09-27",
-      "dateModified": "2026-09-27",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Equipment",
@@ -464,6 +466,15 @@ function GuideLink({ href, label }: { href: string; label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Full-toe grip socks from the original studio brand" },
+  { name: "TAVI Half Finger Gym Gloves (Full-Coverage Grips)", price: "$31.99", url: "https://www.amazon.com/dp/B09GPVMF86?tag=pilatescollective-20", note: "Half-finger grip gloves" },
+  { name: "STANLEY Quencher H2.0 FlowState Tumbler, 40 oz (Cream)", price: "$39.99", url: "https://www.amazon.com/dp/B0CP9Y3152?tag=pilatescollective-20", note: "40 oz tumbler that fits most cup holders" },
+  { name: "Sportsnew Tote Yoga Mat Gym Bag 20L", price: "$24.35", url: "https://www.amazon.com/dp/B0BHP38PNG?tag=pilatescollective-20", note: "20L tote that carries a mat" },
+  { name: "TAVI Stacy Slouch Pilates Socks, 2-Pack", price: "$40.00", url: "https://www.amazon.com/dp/B0GFPGMWWS?tag=pilatescollective-20", note: "Premium slouch grip socks" },
+  { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Six pairs of grip socks on a budget" },
+];
+
 export default function ReformerPilatesEssentialsPage() {
   const glanceRows = STAGES.flatMap((s) => s.categories.map((c) => ({ stage: s.heading.split(":")[0], label: c.glanceLabel, item: c.items[0] })));
   glanceRows.push({ stage: "Taking it home", label: "Home reformer", item: REFORMERS[1] });
@@ -483,7 +494,8 @@ export default function ReformerPilatesEssentialsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: serif }}>
               Reformer Pilates Essentials<br /><span style={{ color: "#8b4a31" }}>(2026): What to Bring &amp; Wear</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: sans }}>Updated September 2026 · 12 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: sans }}>Prices checked October 20, 2026 · 12 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: sans, fontWeight: 300 }}>
               A reformer class asks more of your kit than a mat class does. The carriage moves, your feet press a metal footbar, your legs go up into straps, and you spend half the class lying on your back. The wrong socks slip, loose shorts catch, and a back clasp digs into your spine on the headrest.
@@ -511,6 +523,9 @@ export default function ReformerPilatesEssentialsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) are not sold on Amazon and link directly to the brand&apos;s own website; those are marked in the product description. Prices were verified on 27 September 2026 and can change.</AffiliateNote>
+
             {/* At a glance */}
             <div className="mb-16 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
@@ -528,7 +543,6 @@ export default function ReformerPilatesEssentialsPage() {
                 </div>
               ))}
             </div>
-            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) are not sold on Amazon and link directly to the brand&apos;s own website; those are marked in the product description. Prices were verified on 27 September 2026 and can change.</AffiliateNote>
 
             {/* The short answer */}
             <div className="mb-16">

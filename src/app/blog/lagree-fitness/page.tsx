@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -231,7 +233,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-09-28",
-      "dateModified": "2026-09-28",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -289,6 +291,14 @@ function TierCard({ p }: { p: Pick }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "The Micro by Lagree Fitness", price: "$990.00", url: "https://www.amazon.com/dp/B0BBT7YV93?tag=pilatescollective-20", note: "Lagree Fitness' own compact home machine" },
+  { name: "Lagree Fitness Micro Rear Platform", price: "$290.00", url: "https://www.amazon.com/dp/B0BKN2LSWD?tag=pilatescollective-20", note: "Rear platform that unlocks more moves" },
+  { name: "Lagree Fitness Micro Handlebars (Pair)", price: "$190.00", url: "https://www.amazon.com/dp/B0BKMP89SH?tag=pilatescollective-20", note: "Handlebars for The Micro, sold as a pair" },
+  { name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Full-toe grip socks for class" },
+  { name: "Impulse Yoga Knee Pad Cushion (1\")", price: "$20.72", url: "https://www.amazon.com/dp/B06WV6XVV9?tag=pilatescollective-20", note: "1-inch knee pad for kneeling work" },
+];
+
 export default function LagreeFitnessPage() {
   return (
     <>
@@ -305,7 +315,8 @@ export default function LagreeFitnessPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree Fitness<br /><span style={{ color: "#8b4a31" }}>(2026): The Micro, Megaformer &amp; What to Buy</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree Fitness is the company behind the Lagree method and the Megaformer, the spring-loaded machine you shake on in Lagree studios. What most people do not realise is that you can buy genuine Lagree-branded equipment for home: The Micro, Lagree Fitness&apos;s compact home machine, and its accessories are sold by Lagree Fitness through its own Amazon store. This guide covers who the brand is, how the method works, the machine family, and exactly what a full home setup costs.
@@ -327,6 +338,9 @@ export default function LagreeFitnessPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</AffiliateNote>
 
             {/* Related hubs */}
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
@@ -364,7 +378,6 @@ export default function LagreeFitnessPage() {
                 <span>{fmt(SETUP_TOTAL)}</span>
               </div>
             </div>
-            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</AffiliateNote>
 
             {/* What Lagree Fitness is */}
             <div className="mb-16">

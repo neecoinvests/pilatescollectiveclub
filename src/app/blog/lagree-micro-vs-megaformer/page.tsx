@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -242,7 +244,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-04",
-      "dateModified": "2026-10-04",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -312,6 +314,13 @@ function Divider({ label }: { label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "The Micro by Lagree Fitness", price: "$990.00", url: "https://www.amazon.com/dp/B0BBT7YV93?tag=pilatescollective-20", note: "Lagree Fitness' own compact home machine" },
+  { name: "Lagree Fitness Micro Rear Platform", price: "$290.00", url: "https://www.amazon.com/dp/B0BKN2LSWD?tag=pilatescollective-20", note: "Rear platform that unlocks more moves" },
+  { name: "Lagree Fitness Micro Handlebars (Pair)", price: "$190.00", url: "https://www.amazon.com/dp/B0BKMP89SH?tag=pilatescollective-20", note: "Handlebars for The Micro, sold as a pair" },
+  { name: "Lagree Fitness Micro Pulley Cables", price: "$230.00", url: "https://www.amazon.com/dp/B0BYMD4S91?tag=pilatescollective-20", note: "Pulley cables for upper-body work" },
+];
+
 export default function LagreeMicroVsMegaformerPage() {
   return (
     <>
@@ -328,7 +337,8 @@ export default function LagreeMicroVsMegaformerPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree Micro vs Megaformer<br /><span style={{ color: "#8b4a31" }}>(2026): Home Machine or Studio?</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Every Lagree regular eventually does the maths: three classes a week adds up fast, and Lagree Fitness sells a home machine. So is the Micro ({MICRO.price}) a substitute for the Megaformer you shake on in class? Not quite — but for the right person it is the best Lagree purchase there is. Here is exactly what each machine is for, what carries over at home and what doesn&apos;t, and the cost-per-workout numbers.
@@ -349,6 +359,9 @@ export default function LagreeMicroVsMegaformerPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Micro links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The Megaformer is not sold on Amazon; its link goes to lagreefitness.com and is not an affiliate link. This comparison is based on Lagree Fitness&apos;s published listings and information, not a hands-on test.</AffiliateNote>
 
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
               <Link href="/blog/lagree-micro-review" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={hubStyle}>
@@ -374,7 +387,6 @@ export default function LagreeMicroVsMegaformerPage() {
             </div>
 
             {/* Comparison table */}
-            <AffiliateNote>Micro links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The Megaformer is not sold on Amazon; its link goes to lagreefitness.com and is not an affiliate link. This comparison is based on Lagree Fitness&apos;s published listings and information, not a hands-on test.</AffiliateNote>
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Side by side</h2>

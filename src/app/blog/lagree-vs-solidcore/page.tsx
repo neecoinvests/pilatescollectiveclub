@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -198,7 +200,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-10-03",
-      "dateModified": "2026-10-03",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Lagree",
@@ -267,6 +269,14 @@ function Divider({ label }: { label: string }) {
   );
 }
 
+const QUICK_PICKS = [
+  { name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Full-toe grip socks for either studio" },
+  { name: "Under Armour Women's Infinity 2 High Impact Sports Bra", price: "$48.66", url: "https://www.amazon.com/dp/B0C12Q3L89?tag=pilatescollective-20", note: "High-support bra for intense classes" },
+  { name: "CRZ YOGA Butterluxe Biker Shorts 6\"", price: "$24.00", url: "https://www.amazon.com/dp/B0B28B34XX?tag=pilatescollective-20", note: "Biker shorts that stay put on the carriage" },
+  { name: "Shandali Stickyfiber Yoga Towel (24\" x 72\")", price: "$19.99", url: "https://www.amazon.com/dp/B011IU43WG?tag=pilatescollective-20", note: "Grippy towel for a sweaty carriage" },
+  { name: "The Micro by Lagree Fitness", price: "$990.00", url: "https://www.amazon.com/dp/B0BBT7YV93?tag=pilatescollective-20", note: "Lagree's own home machine" },
+];
+
 export default function LagreeVsSolidcorePage() {
   return (
     <>
@@ -283,7 +293,8 @@ export default function LagreeVsSolidcorePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree vs Solidcore<br /><span style={{ color: "#8b4a31" }}>(2026): What Actually Differs</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 10 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               From the doorway, a Lagree class and a Solidcore class look almost identical: a dim room, a row of long spring-loaded machines, people shaking through a lunge that seems to last forever. Underneath, they are two different businesses with two different machines and two different ideas about how a class should run. This guide explains the real differences, helps you pick the one that suits you, and lists the kit that works in both studios.
@@ -304,6 +315,9 @@ export default function LagreeVsSolidcorePage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. We are not affiliated with Lagree Fitness or [solidcore].</AffiliateNote>
 
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
               <Link href="/blog/lagree-fitness" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={hubStyle}>
@@ -447,7 +461,6 @@ export default function LagreeVsSolidcorePage() {
                   <span>{fmt(KIT_TOTAL)}</span>
                 </div>
               </div>
-              <AffiliateNote>Product links on this page go to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you. We are not affiliated with Lagree Fitness or [solidcore].</AffiliateNote>
 
               <div className="space-y-8">
                 {PICKS.map((p) => (

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -551,7 +553,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-09-28",
-      "dateModified": "2026-09-28",
+      "dateModified": "2026-10-20",
       "url": PAGE_URL,
       "mainEntityOfPage": PAGE_URL,
       "articleSection": "Equipment",
@@ -602,6 +604,15 @@ const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
 const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
 const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
 
+const QUICK_PICKS = [
+  { name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Full-toe grip socks from the original studio brand" },
+  { name: "TAVI Half Finger Gym Gloves", price: "$31.99", url: "https://www.amazon.com/dp/B09GPVMF86?tag=pilatescollective-20", note: "Half-finger grip gloves for the handles" },
+  { name: "CRZ YOGA Butterluxe Leggings 25\"", price: "$32.00", url: "https://www.amazon.com/dp/B09P1G2952?tag=pilatescollective-20", note: "Opaque, buttery leggings for the carriage" },
+  { name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Premium leggings from a studio-favourite brand" },
+  { name: "Impulse Yoga Knee Pad Cushion (1\" / 25mm)", price: "$20.72", url: "https://www.amazon.com/dp/B06WV6XVV9?tag=pilatescollective-20", note: "1-inch knee pad for kneeling work" },
+  { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Six pairs of grip socks on a budget" },
+];
+
 export default function LagreeEssentialsPage() {
   return (
     <>
@@ -618,7 +629,8 @@ export default function LagreeEssentialsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree Essentials<br /><span style={{ color: "#8b4a31" }}>(2026): What to Wear, Bring &amp; Buy</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Lagree looks like reformer Pilates from the doorway, but it trains differently: slow, controlled, continuous movement on a moving carriage, with time under tension until your muscles shake. That changes what you should wear and bring. This is our master list of Lagree essentials, with a best, budget and (where it is worth it) splurge pick in every category, from the grip socks in your bag to The Micro, Lagree Fitness&apos;s own home machine.
@@ -639,6 +651,9 @@ export default function LagreeEssentialsPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
+
+            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One item (the Lagree Megaformer) is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</AffiliateNote>
 
             {/* Related hubs */}
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
@@ -678,7 +693,6 @@ export default function LagreeEssentialsPage() {
                 );
               })}
             </div>
-            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One item (the Lagree Megaformer) is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</AffiliateNote>
 
             {/* Lagree-specific advice */}
             <div className="mb-16">
