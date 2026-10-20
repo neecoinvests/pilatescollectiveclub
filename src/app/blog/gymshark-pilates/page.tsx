@@ -123,7 +123,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best Overall", "Best Seamless", "Best Bra", "Best Tank", "Best Shorts"];
 
-const ITEM_LIST = productItemList("Gymshark for Pilates (2026): Best Leggings & Sets Reviewed", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Gymshark for Pilates (2026): Best Leggings & Sets Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function GymsharkPilatesPage() {
   return (

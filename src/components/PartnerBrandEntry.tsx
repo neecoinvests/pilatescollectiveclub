@@ -10,6 +10,8 @@ export type PartnerBrandEntryProps = {
   brandName: string;
   imageSrc: string;
   imageAlt: string;
+  // CSS object-position for the photo, e.g. "center 80%" to keep a low subject in frame.
+  imagePosition?: string;
   description: string;
   points: string[];
   pointsHeading: string;
@@ -56,7 +58,7 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
       >
         {/* Image */}
         <div className="relative w-full" style={{ height: isBrand ? "260px" : "230px" }}>
-          <Image src={props.imageSrc} alt={props.imageAlt} fill className="object-cover" style={{ filter: "brightness(0.92)" }} />
+          <Image src={props.imageSrc} alt={props.imageAlt} fill className="object-cover" style={{ filter: "brightness(0.92)", objectPosition: props.imagePosition ?? "center" }} />
         </div>
 
         <div className="p-8">

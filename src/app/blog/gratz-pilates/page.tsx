@@ -144,7 +144,7 @@ const jsonLd = {
 
 const QP_NOTES = ["The classical reformer benchmark", "Best classical chair for advanced work", "Best classical barrel accessory", "A real, currently-sold rope alternative, not Gratz leather straps", "A real aftermarket spring set, not Gratz's original classical springs"];
 
-const ITEM_LIST = productItemList("Gratz Pilates Equipment Review (2026): Classical Standard", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Gratz Pilates Equipment Review (2026): Classical Standard", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function GratzPilatesPage() {
   return (

@@ -121,7 +121,7 @@ const jsonLd = {
 
 const QP_NOTES = ["The flagship, and the right choice for most", "The best biker short for Pilates", "The cleanest silhouette for reformer", "Best for petite frames", "Best bra to complete the set"];
 
-const ITEM_LIST = productItemList("Lululemon Align Review (2026): Is It Opaque Enough?", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Lululemon Align Review (2026): Is It Opaque Enough?", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function LululemonAlignReviewPage() {
   return (

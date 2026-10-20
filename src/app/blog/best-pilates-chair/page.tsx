@@ -126,7 +126,7 @@ const jsonLd = {
 
 const QP_NOTES = ["The professional-grade single-pedal chair sold on Amazon", "A real, budget-tier split-pedal chair genuinely sold on Amazon", "Not sold on Amazon, genuine clinical/rehab chair, dealer-direct", "Not sold on Amazon, the classical single-pedal original, dealer-direct", "A real, verified kneeling-comfort option", "A real, verified way to stabilize the floor under the Chair"];
 
-const ITEM_LIST = productItemList("Best Pilates Chair (2026): Wunda & High Chairs Reviewed", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Best Pilates Chair (2026): Wunda & High Chairs Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BestPilatesChairPage() {
   return (

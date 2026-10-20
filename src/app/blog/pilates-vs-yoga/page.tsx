@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates vs Yoga (2026): Key Differences & How to Choose",
@@ -61,7 +63,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-12",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-vs-yoga",
       "articleSection": "Method",
@@ -110,10 +112,15 @@ const PRODUCTS = [
   { name: "ToeSox Grip Socks", description: "Useful for both Pilates studio sessions and yoga classes on slippery floors. The individual toe pockets that ToeSox uses improve balance and proprioception in both practices.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Works equally well for Pilates and yoga", "Adds the spring-style resistance yoga lacks", "Cork blocks used in both disciplines", "A Pilates prop with no yoga equivalent", "Grip for studio floors in either class"];
+
+const ITEM_LIST = productItemList("Pilates vs Yoga (2026): Key Differences & How to Choose", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesVsYogaPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero
@@ -124,12 +131,17 @@ export default function PilatesVsYogaPage() {
           title={<>Pilates vs Yoga:<br /><span style={{ color: "#8b4a31" }}>Key Differences and How to Choose</span></>}
           date="May 2026"
           readTime="7 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />}
         />
 
         {/* Two-column layout */}
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           {/* Main article column */}
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote className="mb-12" />
+
 
             <section className="px-0 pb-20 pt-0">
               <div className="max-w-none">
@@ -195,7 +207,6 @@ export default function PilatesVsYogaPage() {
 
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

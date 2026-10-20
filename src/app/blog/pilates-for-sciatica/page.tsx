@@ -76,7 +76,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["6mm cushioning for supine and side-lying work", "Piriformis and deep glute release", "Hamstring and nerve-glide work with a stable pelvis", "Light loops for the clam and side-lying series", "Gentle thoracic extension to spare the lower back"];
 
-const ITEM_LIST = productItemList("Pilates for Sciatica (2026): Safe Exercises & What to Avoid", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Sciatica (2026): Safe Exercises & What to Avoid", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForSciaticaPage() {
   return (

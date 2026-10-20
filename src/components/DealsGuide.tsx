@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import { jsonLdHtml } from "@/lib/schema";
 import { BF_DATES, BF_GUIDES, BF_PRICES_CHECKED, BF_PRICES_CHECKED_ISO } from "@/lib/blackFriday";
 import { CM_DATE, CM_GUIDES, XMAS_DATE, XMAS_GUIDES, SEASONAL_PRICES_CHECKED, SEASONAL_PRICES_CHECKED_ISO } from "@/lib/seasonalGuides";
@@ -57,7 +59,7 @@ const SEASONS = {
     checkedIso: BF_PRICES_CHECKED_ISO,
     disclaimer: "*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The prices shown are the current Amazon prices we checked, not sale prices — we are tracking these listings and will update this page as Black Friday deals go live.",
     dates: [{ label: "Black Friday", value: BF_DATES.blackFriday }, { label: "Cyber Monday", value: BF_DATES.cyberMonday }],
-    listLabel: "The watchlist — price to beat",
+    listLabel: "The watchlist: price to beat",
     cta: "Check price →",
     tipsHeading: "How to tell a real Black Friday deal",
     relatedHeading: "More Black Friday 2026 guides",
@@ -105,7 +107,6 @@ const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
 const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
 const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
 const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const rowStyle = (i: number) => ({ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" });
 
 export default function DealsGuide(props: DealsGuideProps) {
   const pageUrl = `${SITE}/blog/${props.slug}`;
@@ -183,6 +184,9 @@ export default function DealsGuide(props: DealsGuideProps) {
               {props.h1}<br /><span style={{ color: "#8b4a31" }}>{props.h1Accent}</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked {season.checked} · {props.readTime}</p>
+            {allItems[0] && (
+              <TopPick label="Top pick to watch" name={allItems[0].name} price={allItems[0].price} note={allItems[0].badge} url={amz(allItems[0].asin)} cta={season.cta} />
+            )}
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>{props.intro}</p>
           </div>
@@ -212,25 +216,9 @@ export default function DealsGuide(props: DealsGuideProps) {
               ))}
             </div>
 
-            <AffiliateNote>{season.disclaimer.replace(/^\*/, "")}</AffiliateNote>
-
-            {/* Watchlist table */}
-            <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>{season.listLabel}</p>
-              </div>
-              {allItems.map((p, i) => (
-                <div key={p.asin} className="flex items-center gap-3 sm:gap-4 px-6 py-3" style={rowStyle(i)}>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.badge} · now {p.price}</p>
-                  </div>
-                  <a href={amz(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                  >{season.cta}</a>
-                </div>
-              ))}
-            </div>
+            {/* Watchlist */}
+            <QuickPicks className="mb-6" title={season.listLabel} picks={allItems.map((p) => ({ name: p.name, price: p.price, url: amz(p.asin), note: p.badge, cta: season.cta }))} />
+            <AffiliateNote className="mb-16">{season.disclaimer.replace(/^\*/, "")}</AffiliateNote>
 
             {/* Sections */}
             {props.sections.map((s) => (

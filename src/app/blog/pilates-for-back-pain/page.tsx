@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Back Pain (2026): What the Research Shows",
@@ -81,7 +83,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-12",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-back-pain",
       "articleSection": "Health",
@@ -130,10 +132,15 @@ const PRODUCTS = [
   { name: "Gaiam Restore Lower Back Support", description: "A lumbar support cushion useful during mat work and seated recovery — helpful in the sub-acute phase when floor exercises require positioning support.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=gaiam+restore+lower+back+support+cushion&tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["The dense mat used in clinical Pilates settings", "Thoracic mobilisation and spinal articulation", "Light resistance for hip and glute activation", "Three resistance levels for back and core work", "Lumbar support for mat work and recovery"];
+
+const ITEM_LIST = productItemList("Pilates for Back Pain (2026): What the Research Shows", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesForBackPainPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero
@@ -143,12 +150,17 @@ export default function PilatesForBackPainPage() {
           title={<>Pilates for Back Pain:<br /><span style={{ color: "#8b4a31" }}>What the Research Shows</span></>}
           date="Updated May 2026"
           readTime="9 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />}
         />
 
         {/* Two-column layout */}
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           {/* Main article column */}
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote className="mb-8" />
+
 
             <article>
               {/* Medical disclaimer */}
@@ -231,7 +243,6 @@ export default function PilatesForBackPainPage() {
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
-              <AffiliateNote className="mb-8" />
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />

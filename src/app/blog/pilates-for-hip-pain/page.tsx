@@ -76,7 +76,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["Stable surface for side-lying and supine hip work", "Hip flexor, glute and IT band release before class", "Mini loops for clamshells and side-lying leg lifts", "Inner-thigh resistance to balance abductor work", "Full-length roller for spinal and thoracic work"];
 
-const ITEM_LIST = productItemList("Pilates for Hip Pain (2026): Exercises That Actually Help", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Hip Pain (2026): Exercises That Actually Help", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForHipPainPage() {
   return (

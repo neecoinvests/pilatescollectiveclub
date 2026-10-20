@@ -5,8 +5,8 @@ import type { GuideItem } from "@/components/EquipmentGuide";
 // badge/body/pros/cons for their own context. Reformers and studio apparatus
 // live in reformerCatalog.ts.
 
-export const GIFTS_CHECKED = "October 16, 2026";
-export const GIFTS_CHECKED_ISO = "2026-10-16";
+export const GIFTS_CHECKED = "October 20, 2026";
+export const GIFTS_CHECKED_ISO = "2026-10-20";
 
 const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
 

@@ -76,7 +76,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["71-inch length for men over six foot", "Men's sizing so the grip sits under a larger foot", "Thoracic and hip flexor release before a session", "Heavier fabric loops for stronger athletes", "A fitted top so your instructor can see alignment"];
 
-const ITEM_LIST = productItemList("Pilates for Men (2026): Benefits, First Class & How to Start", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Men (2026): Benefits, First Class & How to Start", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForMenPage() {
   return (

@@ -123,7 +123,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best Legging", "Best for Flow/Mat", "Best Light-Support Bra", "Best Short", "Best Post-Class Layer"];
 
-const ITEM_LIST = productItemList("Free People Movement for Pilates (2026): Best Pieces", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Free People Movement for Pilates (2026): Best Pieces", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function FreePeopleMovementPilatesPage() {
   return (

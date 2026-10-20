@@ -168,7 +168,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best Overall", "Most Stylish", "Best Budget Mini Ball", "Best Stability Ball", "Best Starter Bundle", "Premium Balance Upgrade"];
 
-const ITEM_LIST = productItemList("Best Pilates Ball (2026): 6 Picks, Mini to Stability", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Best Pilates Ball (2026): 6 Picks, Mini to Stability", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BestPilatesBallPage() {
   return (

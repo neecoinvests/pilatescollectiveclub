@@ -310,8 +310,9 @@ const PARTNER_ENTRY = (
       variant="brand"
       brandName="The Core Collab"
       logoSrc="/pictures/partners/the-core-collab-logo.png"
-      imageSrc="/pictures/partners/the-core-collab-sculptformer.jpg"
-      imageAlt="The Core Collab Sculptformer machine in black"
+      imageSrc="/pictures/partners/the-core-collab-queen-studio.webp"
+      imageAlt="The Core Collab Queen Studio Pilates Reformer with white frame and black upholstery"
+      imagePosition="center 80%"
       details={[
         { label: "Flagship", value: "The Core Collab Queen Studio Pilates Reformer" },
         { label: "Range", value: "Folding Eco, Queen Folding, Queen Studio and Full Track Queen Studio reformers, a reformer with tower, and the Lagree-style Sculptformer, plus studio equipment" },

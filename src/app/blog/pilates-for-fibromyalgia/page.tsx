@@ -120,7 +120,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best mat for pain-sensitive practice", "Best recovery tool for fibromyalgia", "Best light resistance tool for fibromyalgia", "Best for targeted tender point relief", "Best heat therapy for pre-session preparation"];
 
-const ITEM_LIST = productItemList("Pilates for Fibromyalgia (2026): Gentle Exercises & Tips", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Fibromyalgia (2026): Gentle Exercises & Tips", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForFibromyalgiaPage() {
   return (

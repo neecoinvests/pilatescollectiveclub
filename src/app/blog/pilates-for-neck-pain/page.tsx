@@ -76,7 +76,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["A stable mat that avoids compensatory tension", "Opens the thoracic spine behind most neck tension", "Under the head for gentle cervical decompression", "Scapular and rotator cuff strengthening", "Reinforces scapular retraction during desk hours"];
 
-const ITEM_LIST = productItemList("Pilates for Neck & Shoulder Pain (2026): Exercises That Help", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Neck & Shoulder Pain (2026): Exercises That Help", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForNeckPainPage() {
   return (

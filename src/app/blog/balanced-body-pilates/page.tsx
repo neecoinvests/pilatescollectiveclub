@@ -116,7 +116,7 @@ const jsonLd = {
 
 const QP_NOTES = ["The real Balanced Body flagship sold on Amazon", "The real, lower-priced Balanced Body reformer on Amazon", "The real Balanced Body spine corrector, sold on Amazon", "The genuine cardio add-on, sold on Amazon", "Keep a spare set on hand"];
 
-const ITEM_LIST = productItemList("Balanced Body Pilates (2026): Props to $4,700 Reformers", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Balanced Body Pilates (2026): Props to $4,700 Reformers", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BalancedBodyPilatesPage() {
   return (

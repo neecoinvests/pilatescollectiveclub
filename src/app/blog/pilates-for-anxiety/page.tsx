@@ -76,7 +76,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["A firm, non-slip surface for focused practice", "Supine chest opening for calming breath work", "Resistance work for home sessions", "Feedback that improves breath awareness", "Rhythmic engage-and-release work at home"];
 
-const ITEM_LIST = productItemList("Pilates for Anxiety & Stress (2026): How It Helps", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Anxiety & Stress (2026): How It Helps", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForAnxietyPage() {
   return (

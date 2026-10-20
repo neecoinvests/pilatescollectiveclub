@@ -120,7 +120,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best abdominal support for early recovery", "Best mat for floor-based recovery work", "Best resistance bands for DR rehab", "Best prop for breathing exercises", "Best structured recovery guide"];
 
-const ITEM_LIST = productItemList("Pilates for Diastasis Recti (2026): Safe Exercises", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Diastasis Recti (2026): Safe Exercises", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForDiastasisRectiPage() {
   return (

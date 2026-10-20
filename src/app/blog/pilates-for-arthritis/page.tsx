@@ -120,7 +120,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best mat for arthritic joints", "Best wrist support for hand and wrist arthritis", "Best knee support for Pilates", "Best low-impact prop for joint-friendly Pilates", "Best pre-session joint preparation"];
 
-const ITEM_LIST = productItemList("Pilates for Arthritis (2026): Safe Exercises & What to Avoid", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Arthritis (2026): Safe Exercises & What to Avoid", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForArthritisPage() {
   return (

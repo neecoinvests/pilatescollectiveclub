@@ -123,7 +123,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best mat for serious beginners", "Essential for studio attendance", "Best band set for home practice", "Best Pilates ring for beginners", "Best all-in-one beginner bundle"];
 
-const ITEM_LIST = productItemList("Best Pilates Starter Kit (2026): Everything a Beginner Needs", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Best Pilates Starter Kit (2026): Everything a Beginner Needs", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BestStarterKitPage() {
   return (

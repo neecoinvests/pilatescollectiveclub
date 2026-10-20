@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How to Build a Consistent Pilates Practice (2026)",
@@ -81,7 +83,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-12",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
       "articleSection": "Guide",
@@ -130,10 +132,15 @@ const PRODUCTS = [
   { name: "Balanced Body Magic Circle", description: "Compact, immediately available, and instantly challenging. A magic circle on the living room floor is more likely to get used than equipment that requires assembly or setup.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["A mat that makes home practice easy to start", "Meaningful home sessions in 15 to 20 minutes", "A 10-minute spinal opening any time", "Track sessions to stay consistent", "Compact and quick to pick up at home"];
+
+const ITEM_LIST = productItemList("How to Build a Consistent Pilates Practice (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function ConsistentPracticePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero
@@ -143,12 +150,17 @@ export default function ConsistentPracticePage() {
           title={<>How to Build a Consistent<br /><span style={{ color: "#8b4a31" }}>Pilates Practice</span></>}
           date="Updated May 2026"
           readTime="7 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />}
         />
 
         {/* Two-column layout */}
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           {/* Main article column */}
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote className="mb-8" />
+
 
             <article className="prose-custom">
 
@@ -191,7 +203,6 @@ export default function ConsistentPracticePage() {
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
-              <AffiliateNote className="mb-8" />
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />

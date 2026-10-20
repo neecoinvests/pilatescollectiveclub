@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -97,7 +99,7 @@ const jsonLd = {
       description: "The best interval timers for Lagree Fitness and Pilates studios — large displays, loud buzzers, and app-free setup compared.",
       url: "https://pilatescollectiveclub.com/blog/best-interval-timer-for-lagree",
       datePublished: "2026-06-28",
-      dateModified: "2026-06-28",
+      dateModified: "2026-10-20",
       image: "https://pilatescollectiveclub.com/pictures/stitch-studio-modern-row.png",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -149,6 +151,8 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best overall, the category leader", "Best rechargeable upgrade", "Best for mounting on equipment", "Best large-display option", "Best budget multifunction pick"];
+
 export default function BestIntervalTimerForLagreePage() {
   return (
     <>
@@ -164,7 +168,8 @@ export default function BestIntervalTimerForLagreePage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#2d1f17" }}>
               Best Interval Timer for Lagree &amp; Pilates (2026): Studio Clocks Ranked
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Updated June 28, 2026 · 6 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 6 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="p-4 rounded-xl mb-8 text-sm" style={{ backgroundColor: "#f0ebe8", color: "#7a6358" }}>
               <strong>Affiliate disclosure:</strong> We may earn a commission on purchases made through links on this page, at no extra cost to you. We only recommend products we have researched thoroughly.
             </div>
@@ -185,17 +190,7 @@ export default function BestIntervalTimerForLagreePage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <div className="rounded-2xl p-6 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
-              <h2 className="text-lg font-bold mb-4" style={{ color: "#2d1f17" }}>Quick Picks</h2>
-              <ul className="space-y-2 text-sm" style={{ color: "#5c4a3d" }}>
-                {PRODUCTS.map((p) => (
-                  <li key={p.rank} className="flex gap-3">
-                    <span className="font-bold" style={{ color: "#c4956a", minWidth: "28px" }}>{p.rank}</span>
-                    <span><a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="font-semibold hover:underline" style={{ color: "#2d1f17" }}>{p.name}</a> — {p.verdict}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote />
 
             {PRODUCTS.map((p) => (

@@ -145,7 +145,7 @@ const FAQS = [
 
 const QP_NOTES = ["Best Designer Tote", "Best Statement Bag", "Best Studio-to-Street Duffle", "Best Accessible Luxury", "Best Compact Bag", "Best Lightweight Carryall"];
 
-const ITEM_LIST = productItemList("Best Designer & Luxury Pilates Bags (2026)", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Best Designer & Luxury Pilates Bags (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BestDesignerPilatesBagPage() {
   return (

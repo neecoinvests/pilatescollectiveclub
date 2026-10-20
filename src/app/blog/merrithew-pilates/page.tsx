@@ -116,7 +116,7 @@ const jsonLd = {
 
 const QP_NOTES = ["The real SPX-family machine Merrithew sells on Amazon", "Merrithew's real clinical/professional machine, sold on Amazon", "The genuine Merrithew jumpboard, sold on Amazon", "A real, live sitting box, not Merrithew-branded", "Keep a spare set on hand"];
 
-const ITEM_LIST = productItemList("Merrithew Pilates (2026): At Home SPX vs V2 Max Reviewed", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Merrithew Pilates (2026): At Home SPX vs V2 Max Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function MerrithewPilatesPage() {
   return (

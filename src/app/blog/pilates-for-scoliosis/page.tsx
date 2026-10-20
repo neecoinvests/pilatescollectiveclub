@@ -78,7 +78,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["A consistent-density mat for precise lateral work", "Thoracic mobility and lateral curve release", "Asymmetric strengthening for the weaker side", "Lateral resistance you can apply to one side", "Lateral flexion work over the arc"];
 
-const ITEM_LIST = productItemList("Pilates for Scoliosis (2026): What Actually Works", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Scoliosis (2026): What Actually Works", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForScoliosisPage() {
   return (

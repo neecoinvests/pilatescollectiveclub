@@ -123,7 +123,7 @@ const jsonLd = {
 
 const QP_NOTES = ["The definitive Pilates legging", "Best Lululemon bra for Pilates", "Best Lululemon tank for Pilates", "Best Lululemon bra for dynamic classes", "Best Lululemon piece for between-class wear"];
 
-const ITEM_LIST = productItemList("Lululemon for Pilates (2026): Align vs Wunder Train", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Lululemon for Pilates (2026): Align vs Wunder Train", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function LululemonPilatesPage() {
   return (

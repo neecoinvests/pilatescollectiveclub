@@ -130,7 +130,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best for adding load to Pilates", "Best light dumbbell set for Pilates", "Best resistance bands for Pilates muscle work", "Best classic Pilates prop for muscle activation", "Best core intensifier for Pilates", "Best prop for deep muscle activation"];
 
-const ITEM_LIST = productItemList("Does Pilates Build Muscle? What the Science Says (2026)", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Does Pilates Build Muscle? What the Science Says (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function DoesPilatesBuildMusclePage() {
   return (

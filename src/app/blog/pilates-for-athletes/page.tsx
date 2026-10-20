@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Athletes (2026): Cross-Training That Works",
@@ -61,7 +63,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-12",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
       "articleSection": "Performance",
@@ -110,10 +112,15 @@ const PRODUCTS = [
   { name: "Balanced Body Pilates Arc", description: "The arc barrel supports spinal extension and hip flexor lengthening — the mobility work most athletes need but most training programmes neglect.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Recovery and release tool for athletes", "Sport-specific hip, shoulder and cuff work", "A high-density mat for intense practice", "Adds load to adductor and glute work", "Spinal extension and hip flexor lengthening"];
+
+const ITEM_LIST = productItemList("Pilates for Athletes (2026): Cross-Training That Works", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function PilatesForAthletesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero
@@ -124,12 +131,17 @@ export default function PilatesForAthletesPage() {
           title={<>Pilates for Athletes:<br /><span style={{ color: "#8b4a31" }}>Strength, Longevity, and the Competitive Edge</span></>}
           date="May 2026"
           readTime="7 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />}
         />
 
         {/* Two-column layout */}
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           {/* Main article column */}
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote className="mb-12" />
+
 
             <section className="pb-20">
               <Section title="Why elite athletes turn to Pilates">
@@ -202,7 +214,6 @@ export default function PilatesForAthletesPage() {
 
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

@@ -5,6 +5,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import { jsonLdHtml } from "@/lib/schema";
 
 // Long-form equipment buying guide / comparison template. Pages pass data;
@@ -68,7 +70,6 @@ const serif = "'Playfair Display', serif";
 const eyebrowStyle = { color: "#8b4a31", fontFamily: sans };
 const bodyStyle = { color: "#53433e", fontFamily: sans };
 const h2Style = { color: "#1b1c1c", fontFamily: serif };
-const rowStyle = (i: number) => ({ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" });
 
 const AVAILABILITY: Record<GuideItem["availability"], { label: string; schema: string }> = {
   "in-stock": { label: "In stock", schema: "https://schema.org/InStock" },
@@ -156,6 +157,13 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
   const allItems = props.blocks.flatMap((b) => (b.kind === "products" ? b.items : []));
   const itemById = new Map(allItems.map((it) => [it.id, it]));
   const rankById = new Map(allItems.map((it, i) => [it.id, i + 1]));
+  // Quick picks: the page's own list, or the first five ranked items.
+  const picks = (props.quickPicks && props.quickPicks.length > 0
+    ? props.quickPicks.map((qp) => ({ it: itemById.get(qp.itemId), label: qp.label }))
+    : allItems.slice(0, 5).map((it) => ({ it, label: it.badge }))
+  ).filter((x): x is { it: GuideItem; label: string } => Boolean(x.it));
+  const isAmazonProduct = (u: string) => /amazon\.[a-z.]+\/dp\//.test(u);
+  const top = picks.find((x) => isAmazonProduct(x.it.url)) ?? picks[0];
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -222,6 +230,10 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
               {props.h1}<br /><span style={{ color: "#8b4a31" }}>{props.h1Accent}</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: sans }}>{props.updatedLabel} · {props.readTime}</p>
+            {top && (
+              <TopPick name={top.it.name} price={top.it.price} url={top.it.url}
+                note={top.it.soldBy ? `${top.label} · sold by ${top.it.soldBy}` : top.label} />
+            )}
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             {props.intro.map((p, i) => (
               <p key={i} className={i === 0 ? "text-lg leading-relaxed mb-5" : "text-base leading-relaxed mb-5"} style={{ ...bodyStyle, fontWeight: i === 0 ? 300 : 400 }}>{p}</p>
@@ -245,31 +257,10 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            {props.quickPicks && props.quickPicks.length > 0 && (
-              <div className="mb-4 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Quick picks: at a glance</p>
-                </div>
-                {props.quickPicks.map((qp, i) => {
-                  const it = itemById.get(qp.itemId);
-                  if (!it) return null;
-                  return (
-                    <div key={qp.itemId} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={rowStyle(i)}>
-                      <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: serif }}>{String(rankById.get(qp.itemId)).padStart(2, "0")}</span>
-                      <div className="flex-1 min-w-0">
-                        <p className="text-xs font-semibold uppercase tracking-widest" style={eyebrowStyle}>{qp.label}</p>
-                        <a href={`#${it.id}`} className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: sans, textDecoration: "none" }}>{it.name}</a>
-                      </div>
-                      <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: sans }}>{it.price}</span>
-                      <a href={it.url} target="_blank" rel={it.availability === "direct" ? "noopener noreferrer" : "noopener noreferrer sponsored"}
-                        style={{ display: "block", fontFamily: sans, fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
-                      >Shop Now →</a>
-                    </div>
-                  );
-                })}
-              </div>
+            {picks.length > 0 && (
+              <QuickPicks className="mb-6 mt-4" picks={picks.map((x) => ({ name: x.it.name, price: x.it.price, url: x.it.url, note: x.label }))} />
             )}
-            <AffiliateNote className={props.quickPicks && props.quickPicks.length > 0 ? "mb-16" : "mb-10 mt-4"}>Some links on this page are affiliate links: we earn a small commission on qualifying purchases at no extra cost to you. Specifications are taken from each product&apos;s listing or the manufacturer, not from our own testing. Prices were checked live on Amazon on the date above and change often.</AffiliateNote>
+            <AffiliateNote className={picks.length > 0 ? "mb-16" : "mb-10 mt-4"}>Some links on this page are affiliate links: we earn a small commission on qualifying purchases at no extra cost to you. Specifications are taken from each product&apos;s listing or the manufacturer, not from our own testing. Prices were checked live on Amazon on the date above and change often.</AffiliateNote>
 
             {props.blocks.map((b, bi) => {
               switch (b.kind) {

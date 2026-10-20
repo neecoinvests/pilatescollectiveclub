@@ -120,7 +120,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best recovery tool between Pilates and cardio", "Best for Pilates activation before cardio", "Best flexibility tool post-cardio into Pilates", "Best mat for combined training days", "Best bag for gym-to-studio transitions"];
 
-const ITEM_LIST = productItemList("Pilates Before or After Cardio (2026): The Right Order", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates Before or After Cardio (2026): The Right Order", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesBeforeOrAfterCardioPage() {
   return (

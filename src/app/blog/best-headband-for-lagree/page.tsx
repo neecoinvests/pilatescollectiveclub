@@ -4,8 +4,8 @@ import EquipmentGuide, { type EquipmentGuideProps, type GuideItem } from "@/comp
 const SLUG = "best-headband-for-lagree";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-studio-round-mirror.png";
-const CHECKED = "October 16, 2026";
-const CHECKED_ISO = "2026-10-16";
+const CHECKED = "October 20, 2026";
+const CHECKED_ISO = "2026-10-20";
 const TITLE = "Best Headband for Lagree (2026): 6 Sweatproof, No-Slip Picks";
 const DESCRIPTION = "The best sweatproof, no-slip headbands for Lagree: Halo, Sweaty Bands, Nike, Under Armour, Bondi Band and a 6-pack, compared on grip and sweat control.";
 

@@ -6,8 +6,8 @@ export const XMAS_DATE = "Friday, December 25, 2026";
 
 // Date the baseline prices on the Cyber Monday and Christmas pages were last
 // checked against live Amazon listings. Update it whenever prices are refreshed.
-export const SEASONAL_PRICES_CHECKED = "October 14, 2026";
-export const SEASONAL_PRICES_CHECKED_ISO = "2026-10-14";
+export const SEASONAL_PRICES_CHECKED = "October 20, 2026";
+export const SEASONAL_PRICES_CHECKED_ISO = "2026-10-20";
 
 export type SeasonalGuide = {
   href: string;

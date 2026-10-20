@@ -144,7 +144,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best Pilates mat for men", "Best Pilates ring for men", "Best resistance bands for Pilates men", "Best foam roller for Pilates men", "Best Pilates arc barrel for men", "Best home reformer for men"];
 
-const ITEM_LIST = productItemList("Best Pilates Equipment for Men (2026): Reformers & Gear", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Best Pilates Equipment for Men (2026): Reformers & Gear", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BestPilatesEquipmentForMenPage() {
   return (

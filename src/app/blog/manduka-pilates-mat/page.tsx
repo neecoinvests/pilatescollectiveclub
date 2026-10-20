@@ -123,7 +123,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best for Serious Home Practice", "Best Natural Rubber Mat", "Best Travel/Studio Bag Mat", "Best Travel Mat", "Best Mat Care"];
 
-const ITEM_LIST = productItemList("Manduka PRO Mat Review (2026): Worth $144 for Pilates?", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Manduka PRO Mat Review (2026): Worth $144 for Pilates?", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function MandukaMatPage() {
   return (

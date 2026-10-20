@@ -93,7 +93,7 @@ const jsonLd = {
 
 const QP_NOTES = ["The one machine we can confirm ships with a built-in vertical frame", "Full tower compatibility confirmed, the tower itself is a separate, unconfirmed purchase", "The real, standalone full-apparatus alternative to a tower"];
 
-const ITEM_LIST = productItemList("Pilates Reformer with Tower (2026): What's Really on Amazon", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates Reformer with Tower (2026): What's Really on Amazon", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesReformerWithTowerPage() {
   return (

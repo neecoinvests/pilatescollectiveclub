@@ -78,7 +78,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["A quality mat for daily home practice", "Progressive bone-loading work at home", "Thoracic opening and self-myofascial release", "Inner-thigh and pelvic floor work", "For pelvic floor, hip and breathing exercises"];
 
-const ITEM_LIST = productItemList("Pilates for Menopause (2026): Bone Density & Hormones", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Menopause (2026): Bone Density & Hormones", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForMenopausePage() {
   return (

@@ -78,7 +78,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["A quality mat for Joseph Pilates' 34 exercises", "A foldable home reformer if space allows", "Brings reformer-style resistance to mat work", "Spring-like resistance for mat practice", "Spinal articulation and thoracic mobility work"];
 
-const ITEM_LIST = productItemList("Pilates Reformer vs Mat (2026): Key Differences Explained", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates Reformer vs Mat (2026): Key Differences Explained", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function ReformerVsMatPage() {
   return (

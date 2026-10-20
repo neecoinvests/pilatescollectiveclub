@@ -123,7 +123,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best Overall Legging", "Best Bra for Pilates", "Best Bra Top", "Best Short for Pilates", "Best Value Set"];
 
-const ITEM_LIST = productItemList("Girlfriend Collective for Pilates (2026): Picks Reviewed", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Girlfriend Collective for Pilates (2026): Picks Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function GirlfriendCollectivePilatesPage() {
   return (

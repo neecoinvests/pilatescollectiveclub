@@ -76,7 +76,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["The usual entry point for home reformer practice", "The one purchase that makes home mat practice viable", "The cheapest credible way into home practice", "Required at most studios; cheaper than front-desk pairs", "Progressive load for home mat work"];
 
-const ITEM_LIST = productItemList("How Much Does Pilates Cost? (2026 Price Guide)", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("How Much Does Pilates Cost? (2026 Price Guide)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function HowMuchDoesPilatesCostPage() {
   return (

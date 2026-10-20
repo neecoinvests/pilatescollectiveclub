@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How to Choose a Pilates Instructor (2026): Red Flags",
@@ -61,7 +63,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-12",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
       "articleSection": "Guide",
@@ -110,10 +112,15 @@ const PRODUCTS = [
   { name: "Under Armour Studio Lite Tote", description: "A dedicated bag for your instructor sessions — grip socks, mat, water, and whatever props your instructor recommends bringing. Being organised demonstrates commitment and respects the instructor's time.", price: "$40.64", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["Buy before you trial a new instructor", "For the home sessions your instructor suggests", "A reference for judging an instructor's grounding", "For the exercises your instructor prescribes", "Carries socks, mat, water and props"];
+
+const ITEM_LIST = productItemList("How to Choose a Pilates Instructor (2026): Red Flags", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function HowToChoosePilatesInstructorPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero
@@ -124,12 +131,17 @@ export default function HowToChoosePilatesInstructorPage() {
           title={<>How to Choose<br /><span style={{ color: "#8b4a31" }}>the Right Pilates Instructor</span></>}
           date="May 2026"
           readTime="6 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />}
         />
 
         {/* Two-column layout */}
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           {/* Main article column */}
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote className="mb-12" />
+
 
             <section className="pb-20">
               <Section title="The certification landscape">
@@ -241,7 +253,6 @@ export default function HowToChoosePilatesInstructorPage() {
 
 
             {/* Equipment */}
-            <AffiliateNote />
 
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>

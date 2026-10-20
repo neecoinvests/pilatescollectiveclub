@@ -123,7 +123,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best Pilates Legging Available", "Best Bra / Top", "Best Layer", "Best Value Option", "Best Shorts"];
 
-const ITEM_LIST = productItemList("Splits59 for Pilates (2026): Raquel Tight & Sets Reviewed", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Splits59 for Pilates (2026): Raquel Tight & Sets Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function Splits59PilatesPage() {
   return (

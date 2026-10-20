@@ -6,8 +6,8 @@ import { gift } from "@/lib/giftCatalog";
 const SLUG = "best-reformer-for-lagree-at-home";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-hands-on-carriage.png";
-const CHECKED = "October 16, 2026";
-const CHECKED_ISO = "2026-10-16";
+const CHECKED = "October 20, 2026";
+const CHECKED_ISO = "2026-10-20";
 const TITLE = "Best Reformer for Lagree at Home (2026): 9 Machines Compared";
 const DESCRIPTION = "The best machines for Lagree-style workouts at home, from the $990 Lagree Micro to reformers from $295.99 to $3,349, compared on length, springs and capacity.";
 

@@ -76,7 +76,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["The anatomy reference most training programmes assign", "Joseph Pilates' own 1945 text", "Functional anatomy that explains movement", "A 6mm mat for hundreds of training hours", "The small apparatus programmes expect you to own"];
 
-const ITEM_LIST = productItemList("How to Become a Pilates Instructor (2026): Cost & Timeline", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("How to Become a Pilates Instructor (2026): Cost & Timeline", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function HowToBecomeAPilatesInstructorPage() {
   return (

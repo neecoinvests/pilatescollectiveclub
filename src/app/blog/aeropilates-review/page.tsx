@@ -111,7 +111,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best AeroPilates model overall", "Best entry-level home reformer", "Best mid-tier AeroPilates model", "A standalone rebounder, unverified as its own live Amazon listing", "Genuine wear-item replacements, confirm the specific listing"];
 
-const ITEM_LIST = productItemList("AeroPilates Reformer Review (2026): Honest Verdict", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("AeroPilates Reformer Review (2026): Honest Verdict", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function AeroPilatesReviewPage() {
   return (

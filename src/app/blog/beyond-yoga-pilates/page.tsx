@@ -120,7 +120,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best Beyond Yoga piece for Pilates", "Best bra for Beyond Yoga sets", "Best Beyond Yoga short for Pilates", "Best for studio-to-street style", "Best top for Pilates"];
 
-const ITEM_LIST = productItemList("Beyond Yoga for Pilates (2026): Spacedye Sets Reviewed", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Beyond Yoga for Pilates (2026): Spacedye Sets Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BeyondYogaPilatesPage() {
   return (

@@ -117,7 +117,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["Required for every Club Pilates reformer class", "Home mat for practice between studio sessions", "Carries socks, mat, water and a change of clothes", "Repeat class resistance work at home", "Home reinforcement of class adductor and arm work"];
 
-const ITEM_LIST = productItemList("Club Pilates Review (2026): Is the Franchise Worth It?", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Club Pilates Review (2026): Is the Franchise Worth It?", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function ClubPilatesReviewPage() {
   return (

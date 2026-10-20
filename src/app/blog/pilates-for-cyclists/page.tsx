@@ -120,7 +120,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best recovery tool for cyclists", "Best for glute activation before rides", "Best for hip flexor and hamstring release", "Best mat for post-ride Pilates", "Best for targeted soft tissue release"];
 
-const ITEM_LIST = productItemList("Pilates for Cyclists (2026): Power, Posture & Recovery", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Cyclists (2026): Power, Posture & Recovery", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForCyclistsPage() {
   return (

@@ -129,7 +129,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best fitness tracker for Pilates calorie tracking", "Best slim tracker for studio use", "Most accurate calorie measurement", "Best for iPhone users", "Best budget tracker"];
 
-const ITEM_LIST = productItemList("How Many Calories Does Pilates Burn? (2026 Data)", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("How Many Calories Does Pilates Burn? (2026 Data)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function CaloriesPilatesPage() {
   return (

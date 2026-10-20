@@ -123,7 +123,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best low-cost upgrade for immediate impact", "The real Balanced Body jump board, genuinely sold on Amazon", "The real substitute for a Merrithew-branded box", "Best real maintenance upgrade", "A real, durable recovery accessory"];
 
-const ITEM_LIST = productItemList("Best Pilates Reformer Accessories (2026): Must-Have Add-Ons", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Best Pilates Reformer Accessories (2026): Must-Have Add-Ons", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BestReformerAccessoriesPage() {
   return (

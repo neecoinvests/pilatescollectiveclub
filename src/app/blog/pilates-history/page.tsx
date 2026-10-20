@@ -69,7 +69,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["Joseph Pilates' 1945 mat programme", "His first published book (1934)", "The modern anatomy reference for Pilates", "A mat for the original 34 exercises", "The prop Joseph Pilates himself invented"];
 
-const ITEM_LIST = productItemList("The History of Pilates: From Joseph Pilates to Today (2026)", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("The History of Pilates: From Joseph Pilates to Today (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesHistoryPage() {
   return (

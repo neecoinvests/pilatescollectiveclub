@@ -4,8 +4,8 @@ import type { GuideItem } from "@/components/EquipmentGuide";
 // checked 2026-10-12). Specs are taken from each listing. Pages spread an
 // entry and override badge/body/pros/cons for their own context.
 
-export const PRICES_CHECKED = "October 12, 2026";
-export const PRICES_CHECKED_ISO = "2026-10-12";
+export const PRICES_CHECKED = "October 20, 2026";
+export const PRICES_CHECKED_ISO = "2026-10-20";
 
 const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
 

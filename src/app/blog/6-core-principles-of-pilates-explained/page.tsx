@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "The 6 Core Principles of Pilates Explained",
@@ -114,7 +116,7 @@ const jsonLd = {
         },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-12",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
       "articleSection": "Method",
@@ -163,10 +165,15 @@ const PRODUCTS = [
   { name: "Return to Life Through Contrology", description: "The original text by Joseph Pilates — the primary source for understanding what the principles meant in their original context. Essential reading for any serious practitioner.", price: "$17.90", affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["A stable, consistent surface for mat practice", "Teaches centring, control and integration", "Spinal articulation and thoracic mobility work", "Resistance work to practise the principles at home", "Joseph Pilates' original text"];
+
+const ITEM_LIST = productItemList("The 6 Core Principles of Pilates Explained", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function SixPrinciplesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero
@@ -176,12 +183,17 @@ export default function SixPrinciplesPage() {
           title={<>The 6 Core Principles of Pilates,<br /><span style={{ color: "#8b4a31" }}>Explained</span></>}
           date="Updated May 2026"
           readTime="6 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />}
         />
 
         {/* Two-column layout */}
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           {/* Main article column */}
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote className="mb-8" />
+
 
             <article>
               <div className="mb-10 rounded-xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
@@ -223,7 +235,6 @@ export default function SixPrinciplesPage() {
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
-              <AffiliateNote className="mb-8" />
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />

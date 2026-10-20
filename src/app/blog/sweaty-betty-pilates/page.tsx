@@ -123,7 +123,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best Overall Legging", "Best for Mat Work", "Best Bra", "Best Lightweight", "Best Tank"];
 
-const ITEM_LIST = productItemList("Sweaty Betty for Pilates (2026): Best Leggings & Tops", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Sweaty Betty for Pilates (2026): Best Leggings & Tops", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function SweatyBettyPilatesPage() {
   return (

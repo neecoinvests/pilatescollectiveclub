@@ -177,7 +177,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best Leggings", "Best for Reformer", "Best Warm-Up Layer", "Best Sports Bra", "Essential Accessory"];
 
-const ITEM_LIST = productItemList("What to Wear to Pilates (2026): Complete Studio Outfit Guide", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("What to Wear to Pilates (2026): Complete Studio Outfit Guide", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function WhatToWearToPilatesPage() {
   return (

@@ -8,8 +8,8 @@ export const BF_DATES = {
 
 // Date the baseline prices on every Black Friday page were last checked
 // against live Amazon listings. Update it whenever prices are refreshed.
-export const BF_PRICES_CHECKED = "October 10, 2026";
-export const BF_PRICES_CHECKED_ISO = "2026-10-10";
+export const BF_PRICES_CHECKED = "October 20, 2026";
+export const BF_PRICES_CHECKED_ISO = "2026-10-20";
 
 export type BfGuide = {
   href: string;

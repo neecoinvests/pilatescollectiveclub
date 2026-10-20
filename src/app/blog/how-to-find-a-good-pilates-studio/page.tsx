@@ -78,7 +78,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["The first thing to buy before your first class", "Your own mat avoids studio rental fees", "Keeps socks, mat, water and clothes organised", "For home sessions between studio visits", "The prop most instructors suggest buying first"];
 
-const ITEM_LIST = productItemList("How to Find a Good Pilates Studio (2026): Green & Red Flags", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("How to Find a Good Pilates Studio (2026): Green & Red Flags", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function HowToFindStudioPage() {
   return (

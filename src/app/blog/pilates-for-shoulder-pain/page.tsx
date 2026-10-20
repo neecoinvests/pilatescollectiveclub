@@ -76,7 +76,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["Graded light resistance for rotator cuff work", "Lets the shoulders fall into extension", "Pectoral and posterior cuff release against a wall", "Reduce load on the shoulder in quadruped work", "A dense, non-slip mat for scapular drills"];
 
-const ITEM_LIST = productItemList("Pilates for Shoulder Pain (2026): Rotator Cuff Exercises", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Shoulder Pain (2026): Rotator Cuff Exercises", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForShoulderPainPage() {
   return (

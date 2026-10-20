@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 const URL = "https://pilatescollectiveclub.com/blog/best-pilates-leggings";
 const HERO = "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg";
-const CHECKED = "October 18, 2026";
+const CHECKED = "October 20, 2026";
 const TITLE = "Best Pilates Leggings (2026): 5 Picks for Reformer & Mat";
 const DESCRIPTION = "The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and CRZ YOGA, compared on waistband, length and fabric.";
 

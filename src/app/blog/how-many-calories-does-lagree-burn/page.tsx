@@ -5,8 +5,8 @@ import { gift } from "@/lib/giftCatalog";
 const SLUG = "how-many-calories-does-lagree-burn";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-pilates-essentials-logbook.png";
-const CHECKED = "October 16, 2026";
-const CHECKED_ISO = "2026-10-16";
+const CHECKED = "October 20, 2026";
+const CHECKED_ISO = "2026-10-20";
 const TITLE = "How Many Calories Does Lagree Burn? (2026 Honest Numbers)";
 const DESCRIPTION = "How many calories a 50-minute Lagree class burns: studio claims vs the research, a table by body weight and intensity, and how to measure your own burn.";
 

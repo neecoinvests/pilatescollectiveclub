@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -87,7 +89,7 @@ const jsonLd = {
       description: "\"Reformer pads\" covers at least two distinct product types — carriage/standing grip pads and shoulder-block covers. We checked for OEM shoulder rest, headrest and carriage pad listings from Balanced Body, Merrithew, AeroPilates and Align Pilates and none turned up as real, live Amazon listings, but real grip pads and shoulder block covers do exist — here's what we verified in both categories.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-pads",
       datePublished: "2026-06-28",
-      dateModified: "2026-09-23",
+      dateModified: "2026-10-20",
       image: "https://pilatescollectiveclub.com/pictures/stitch-reformer-spring-detail.png",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -144,6 +146,8 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["The real, verified grip/comfort pad accessory for reformers", "Real, verified shoulder-block covers, a different accessory from grip pads", "Real, verified cotton shoulder-block covers, a sweat-absorbing alternative", "A real, verified way to protect carriage padding between sessions"];
+
 export default function BestPilatesReformerPadsPage() {
   return (
     <>
@@ -159,7 +163,8 @@ export default function BestPilatesReformerPadsPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#2d1f17" }}>
               Best Pilates Reformer Pads (2026): Grip Pads &amp; Shoulder Block Covers
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Updated September 23, 2026 · 7 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 7 min read</p>
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="p-4 rounded-xl mb-8 text-sm" style={{ backgroundColor: "#f0ebe8", color: "#7a6358" }}>
               <strong>Affiliate disclosure:</strong> We may earn a commission on purchases made through links on this page, at no extra cost to you. We only recommend products we have researched thoroughly.
             </div>
@@ -180,17 +185,7 @@ export default function BestPilatesReformerPadsPage() {
 
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <div className="rounded-2xl p-6 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
-              <h2 className="text-lg font-bold mb-4" style={{ color: "#2d1f17" }}>Quick Picks</h2>
-              <ul className="space-y-2 text-sm" style={{ color: "#5c4a3d" }}>
-                {PRODUCTS.map((p) => (
-                  <li key={p.rank} className="flex gap-3">
-                    <span className="font-bold" style={{ color: "#c4956a", minWidth: "28px" }}>{p.rank}</span>
-                    <span><a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="font-semibold hover:underline" style={{ color: "#2d1f17" }}>{p.name}</a> — {p.verdict}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote />
 
             {PRODUCTS.map((p) => (

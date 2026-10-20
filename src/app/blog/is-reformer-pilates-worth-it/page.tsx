@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
 import Header from "@/components/Header";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import BlogHero from "@/components/BlogHero";
 import BlogSidebar from "@/components/BlogSidebar";
 import ProductCard from "@/components/ProductCard";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Is Reformer Pilates Worth It? (2026) Honest Guide",
@@ -58,7 +60,7 @@ const jsonLd = {
         "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" },
       },
       "datePublished": "2026-05-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-10-20",
       "url": "https://pilatescollectiveclub.com/blog/is-reformer-pilates-worth-it",
       "mainEntityOfPage": "https://pilatescollectiveclub.com/blog/is-reformer-pilates-worth-it",
       "articleSection": "Guide",
@@ -108,10 +110,15 @@ const PRODUCTS = [
   { name: "ToeSox Grip Socks", description: "The entry cost of reformer Pilates. Required by virtually every studio — a small investment that enables full participation in any reformer class regardless of studio.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
 ];
 
+const QP_NOTES = ["A home reformer that can pay for itself vs classes", "The lower-cost way to start with mat Pilates", "Test resistance-based Pilates at home", "The cheapest way to add resistance to mat work", "The entry cost of reformer class"];
+
+const ITEM_LIST = productItemList("Is Reformer Pilates Worth It? (2026) Honest Guide", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function IsReformerPilatesWorthItPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
         <BlogHero
@@ -122,10 +129,15 @@ export default function IsReformerPilatesWorthItPage() {
           title={<>Is Reformer Pilates<br /><span style={{ color: "#8b4a31" }}>Worth It?</span></>}
           date="Updated May 2026"
           readTime="9 min read"
+          dateLabel="Prices checked October 20, 2026"
+          topPick={<TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />}
         />
 
         <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 flex flex-col lg:flex-row gap-12 lg:items-start">
           <div className="flex-grow min-w-0" style={{ maxWidth: "720px" }}>
+            <QuickPicks className="mb-6" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+            <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
+
 
 
             <section className="pb-20">
@@ -228,7 +240,6 @@ export default function IsReformerPilatesWorthItPage() {
             <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
-              <AffiliateNote className="mb-8">Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />

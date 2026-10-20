@@ -120,7 +120,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best resistance bands for postnatal rehab", "Best mat for postnatal practice", "Best practical accessory for nursing mothers", "Best recovery tool for tight postpartum muscles", "Best postnatal exercise reference"];
 
-const ITEM_LIST = productItemList("Postnatal Pilates (2026): When to Start & How to Progress", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Postnatal Pilates (2026): When to Start & How to Progress", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PostnatalPilatesPage() {
   return (

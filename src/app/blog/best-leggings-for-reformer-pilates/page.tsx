@@ -124,7 +124,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best overall legging for reformer", "Best compressive legging", "Best premium legging", "Best for breathability", "Best budget legging"];
 
-const ITEM_LIST = productItemList("Best Leggings for Reformer Pilates (2026): Compared & Ranked", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Best Leggings for Reformer Pilates (2026): Compared & Ranked", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BestLeggingsForReformerPilatesPage() {
   return (

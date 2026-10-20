@@ -153,7 +153,7 @@ const jsonLd = {
 
 const QP_NOTES = ["Best overall men's Pilates short", "Best men's Pilates top", "Best brand-direct men's studio short", "Best brand-direct premium alternative", "Best mid-price men's short", "Best men's compression tights for reformer", "Best budget men's Pilates short"];
 
-const ITEM_LIST = productItemList("Best Pilates Clothes for Men (2026): What to Wear", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Best Pilates Clothes for Men (2026): What to Wear", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function BestPilatesClothesForMenPage() {
   return (

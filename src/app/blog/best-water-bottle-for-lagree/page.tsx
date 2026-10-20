@@ -4,8 +4,8 @@ import EquipmentGuide, { type EquipmentGuideProps, type GuideItem } from "@/comp
 const SLUG = "best-water-bottle-for-lagree";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-water-towel-bench.png";
-const CHECKED = "October 16, 2026";
-const CHECKED_ISO = "2026-10-16";
+const CHECKED = "October 20, 2026";
+const CHECKED_ISO = "2026-10-20";
 const TITLE = "Best Water Bottle for Lagree (2026): 5 Bottles Ranked";
 const DESCRIPTION = "The best water bottles for sweaty Lagree classes: LARQ, YETI, Owala and Stanley, compared on one-handed drinking and cold, plus LMNT electrolytes.";
 

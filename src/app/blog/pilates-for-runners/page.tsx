@@ -78,7 +78,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["The standard release tool for runners", "Glute and hip abductor strength between sessions", "Stable, high-density mat for hip and core work", "Lateral hip resistance runners usually lack", "Glute and adductor activation in bridging"];
 
-const ITEM_LIST = productItemList("Pilates for Runners (2026): Work That Prevents Injury", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates for Runners (2026): Work That Prevents Injury", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesForRunnersPage() {
   return (

@@ -76,7 +76,7 @@ const PRODUCTS = [
 
 const QP_NOTES = ["Tactile feedback that makes lateral breathing click", "Opens the ribcage for lateral breathing practice", "A reference point for where the breath should travel", "Classic drill linking arms, ribs and deep abdominals", "A 6mm mat for long stretches of floor breathing work"];
 
-const ITEM_LIST = productItemList("Pilates Breathing Techniques (2026): Lateral Breathing", PRODUCTS.filter((pr) => /amazon\./.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+const ITEM_LIST = productItemList("Pilates Breathing Techniques (2026): Lateral Breathing", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
 export default function PilatesBreathingTechniquesPage() {
   return (
