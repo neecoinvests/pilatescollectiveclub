@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
+import AffiliateNote from "@/components/AffiliateNote";
+import QuickPicks from "@/components/QuickPicks";
+import TopPick from "@/components/TopPick";
 import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
-import { jsonLdHtml } from "@/lib/schema";
+import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Gifts Under $100 (2026)",
@@ -119,7 +122,7 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "datePublished": "2026-07-29",
-      "dateModified": "2026-07-30",
+      "dateModified": "2026-10-20",
     },
     {
       "@type": "ItemList",
@@ -142,36 +145,39 @@ const jsonLd = {
   ],
 };
 
+const QP_NOTES = ["Best Under-$50 Gift", "Best Beginner-to-Intermediate Mat", "Best Recovery Gift", "Best Accessory Under $30", "Best Prop Investment", "Best Multi-Pack Gift"];
+
+const ITEM_LIST = productItemList("Best Pilates Gifts Under $100 (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
+
 export default function Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
 
-      <section className="pt-32 pb-16 px-6 pcc-page-header" style={{ backgroundColor: "#fcf9f8" }}>
+      <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
         <div className="max-w-3xl mx-auto">
-          <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31" }}>Guide</span>
-            <span style={{ width: "32px", height: "1px", backgroundColor: "#c5a882", display: "inline-block" }} />
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "#9a9490", letterSpacing: "0.1em" }}>8 min read</span>
+          <div className="flex items-center gap-3 mb-6">
+            <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
           </div>
-          <h1 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(2rem, 5vw, 3.2rem)", fontWeight: 400, color: "#1a1714", lineHeight: 1.15, marginBottom: "20px" }}>
+          <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
             Best Pilates Gifts Under $100
           </h1>
-          <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
+          <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+          <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
+          <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+          <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
             The best pilates gifts don't have to be expensive — they have to be right. This guide focuses on the sub-$100 tier where thoughtfulness matters more than price: the grip socks she reaches for every class, the foam roller she actually uses, the mat that finally replaces the studio's communal one. All picks are from brands the pilates community trusts, with guidance to help you choose the right one for her practice level and routine.
           </p>
-          <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ All under $100</span>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Amazon links confirmed</span>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Updated 2026</span>
-          </div>
         </div>
       </section>
 
       <section className="px-6" style={{ backgroundColor: "#fcf9f8" }}>
-        <div className="max-w-3xl mx-auto" style={{ position: "relative", height: "420px" }}>
-          <Image src="/pictures/stitch-studio-shelf-props.png" alt="Best Pilates Gifts Under $100" fill style={{ objectFit: "cover" }} />
+        <div className="max-w-5xl mx-auto">
+          <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <Image src="/pictures/stitch-studio-shelf-props.png" alt="Best Pilates Gifts Under $100" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+          </div>
         </div>
       </section>
 
@@ -179,22 +185,8 @@ export default function Page() {
         <div className="max-w-3xl mx-auto">
 
           {/* Quick picks table */}
-          <div style={{ marginBottom: "56px", border: "1px solid #ede9e3", overflow: "hidden" }}>
-            <div style={{ padding: "16px 24px", backgroundColor: "#faf8f5", borderBottom: "1px solid #ede9e3" }}>
-              <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks — At a Glance</p>
-            </div>
-            {PRODUCTS.map((p, i) => (
-              <div key={p.rank} style={{ display: "flex", alignItems: "center", gap: "16px", padding: "14px 24px", borderTop: i === 0 ? "none" : "1px solid #ede9e3", backgroundColor: "#ffffff", flexWrap: "wrap" }}>
-                <span style={{ fontFamily: "var(--font-serif)", fontSize: "12px", color: "#c5a882", minWidth: "28px", flexShrink: 0 }}>{p.rank}</span>
-                <div style={{ flex: 1, minWidth: "140px" }}>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#1a1714", margin: 0, lineHeight: 1.3 }}>{p.name}</p>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#8b4a31", margin: "2px 0 0" }}>{p.verdict}</p>
-                </div>
-                <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#9a9490", whiteSpace: "nowrap" }}>{p.price}</span>
-                <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "8px 14px", textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>Buy →</a>
-              </div>
-            ))}
-          </div>
+          <QuickPicks className="mb-6" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
+          <AffiliateNote className="mb-14" />
 
           {/* Products */}
           <div style={{ display: "flex", flexDirection: "column", gap: "52px" }}>
@@ -211,7 +203,7 @@ export default function Page() {
                   <span style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", display: "block", marginBottom: "12px" }}>{p.verdict}</span>
                   <p style={{ fontFamily: "var(--font-sans)", fontSize: "0.95rem", color: "#4a4540", lineHeight: 1.85, marginBottom: "20px" }}>{p.description}</p>
                   <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "12px 24px", textDecoration: "none" }}>
-                    Shop on Amazon →
+                    Shop Now →
                   </a>
                 </div>
               </div>
