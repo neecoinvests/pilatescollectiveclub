@@ -315,15 +315,15 @@ const PARTNER_ENTRY = (
       imagePosition="center 80%"
       details={[
         { label: "Flagship", value: "The Core Collab Queen Studio Pilates Reformer" },
-        { label: "Range", value: "Folding Eco, Queen Folding, Queen Studio and Full Track Queen Studio reformers, a reformer with tower, and the Lagree-style Sculptformer, plus studio equipment" },
+        { label: "Range", value: "The Core Collab Eco Folding Reformer, The Core Collab Queen Folding Reformer, The Core Collab Queen Studio Pilates Reformer and The Core Collab Full Track Queen Studio Reformer, a reformer with tower, and The Core Collab Sculptformer, its Lagree-style machine, plus studio equipment" },
         { label: "Best for", value: "Home practitioners and studio owners who want a customizable, studio-style machine" },
         { label: "Pricing", value: "From $2,399 (The Core Collab Eco Folding Reformer); The Core Collab Queen Studio Pilates Reformer is $2,999 and The Core Collab Sculptformer is $8,499." },
       ]}
-      description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from the Folding Eco and Queen Folding reformers, built for homes where the machine has to be put away, to the Queen Studio Pilates Reformer, The Core Collab Sculptformer, its Lagree-style machine, and full studio set-ups. Many models can be customized with your choice of frame finish and upholstery colour."
+      description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from The Core Collab Eco Folding Reformer and The Core Collab Queen Folding Reformer, built for homes where the machine has to be put away, to The Core Collab Queen Studio Pilates Reformer, The Core Collab Sculptformer, its Lagree-style machine, and full studio set-ups. Many models can be customized with your choice of frame finish and upholstery colour."
       pointsHeading="Key selling points"
       points={[
-        "Folding Eco and Queen Folding reformers for homes with limited space",
-        "Six springs on the Folding Eco, Queen Folding and Queen Studio reformers (3 heavy, 2 medium, 1 light on the Queen Studio), according to the brand",
+        "The Core Collab Eco Folding Reformer and The Core Collab Queen Folding Reformer for homes with limited space",
+        "Six springs on The Core Collab Eco Folding Reformer, The Core Collab Queen Folding Reformer and The Core Collab Queen Studio Pilates Reformer (3 heavy, 2 medium and 1 light on The Core Collab Queen Studio Pilates Reformer), according to the brand",
         "10-year frame warranty and 2-year warranty on moving parts, according to the brand",
         "Custom frame finish and upholstery colours, plus your studio logo for studio owners",
       ]}
