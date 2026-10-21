@@ -317,9 +317,9 @@ const PARTNER_ENTRY = (
         { label: "Flagship", value: "The Core Collab Queen Studio Pilates Reformer" },
         { label: "Range", value: "Folding Eco, Queen Folding, Queen Studio and Full Track Queen Studio reformers, a reformer with tower, and the Lagree-style Sculptformer, plus studio equipment" },
         { label: "Best for", value: "Home practitioners and studio owners who want a customizable, studio-style machine" },
-        { label: "Pricing", value: "From $2,399 (Folding Eco Pilates Reformer); the Queen Studio Pilates Reformer is $2,999 and the Sculptformer is $8,499" },
+        { label: "Pricing", value: "From $2,399 (The Core Collab Eco Folding Reformer); The Core Collab Queen Studio Pilates Reformer is $2,999 and The Core Collab Sculptformer is $8,499." },
       ]}
-      description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from the Folding Eco and Queen Folding reformers, built for homes where the machine has to be put away, to the Queen Studio Pilates Reformer, the Lagree-style Sculptformer and full studio set-ups. Many models can be customized with your choice of frame finish and upholstery colour."
+      description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from the Folding Eco and Queen Folding reformers, built for homes where the machine has to be put away, to the Queen Studio Pilates Reformer, The Core Collab Sculptformer, its Lagree-style machine, and full studio set-ups. Many models can be customized with your choice of frame finish and upholstery colour."
       pointsHeading="Key selling points"
       points={[
         "Folding Eco and Queen Folding reformers for homes with limited space",
