@@ -6,7 +6,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Studio Guides by City",
-  description: "Curated guides to the best Pilates studios in 45 cities worldwide — London, New York, Paris, Charlotte, Tampa, Las Vegas, Raleigh, Salt Lake City and more. Find the right studio before you book.",
+  description: "Curated guides to the best Pilates studios in 50 cities worldwide: London, New York, Paris, Madrid, Dublin, Vancouver, Honolulu and more. Find the right studio before you book.",
   keywords: ["pilates studios by city", "best pilates studios worldwide", "pilates city guides", "reformer pilates cities", "pilates london paris new york"],
   openGraph: {
     title: "Pilates Studio Guides by City — Pilates Collective Club",
@@ -39,6 +39,8 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Geneva", country: "Switzerland", region: "Europe", href: "/cities/geneva" },
   { city: "Lausanne", country: "Switzerland", region: "Europe", href: "/cities/lausanne" },
   { city: "Lisbon", country: "Portugal", region: "Europe", href: "/cities/lisbon" },
+  { city: "Dublin", country: "Ireland", region: "Europe", href: "/cities/dublin" },
+  { city: "Madrid", country: "Spain", region: "Europe", href: "/cities/madrid" },
   { city: "New York", country: "United States", region: "Americas", href: "/cities/new-york" },
   { city: "Los Angeles", country: "United States", region: "Americas", href: "/cities/los-angeles" },
   { city: "Miami", country: "United States", region: "Americas", href: "/cities/miami" },
@@ -65,6 +67,9 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Salt Lake City", country: "United States", region: "Americas", href: "/cities/salt-lake-city" },
   { city: "Tampa", country: "United States", region: "Americas", href: "/cities/tampa" },
   { city: "Raleigh", country: "United States", region: "Americas", href: "/cities/raleigh" },
+  { city: "Vancouver", country: "Canada", region: "Americas", href: "/cities/vancouver" },
+  { city: "Charleston", country: "United States", region: "Americas", href: "/cities/charleston" },
+  { city: "Honolulu", country: "United States", region: "Americas", href: "/cities/honolulu" },
   { city: "Dubai", country: "United Arab Emirates", region: "Middle East & Asia", href: "/cities/dubai" },
   { city: "Singapore", country: "Singapore", region: "Middle East & Asia", href: "/cities/singapore" },
   { city: "Hong Kong", country: "Hong Kong SAR", region: "Middle East & Asia", href: "/cities/hong-kong" },
