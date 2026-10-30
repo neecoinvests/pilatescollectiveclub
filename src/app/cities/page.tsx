@@ -6,7 +6,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Studio Guides by City",
-  description: "Curated guides to the best Pilates studios in 50 cities worldwide: London, New York, Paris, Madrid, Dublin, Vancouver, Honolulu and more. Find the right studio before you book.",
+  description: "Curated guides to the best Pilates studios in 55 cities worldwide: London, New York, Paris, Madrid, Munich, Montreal, Mexico City and more. Find the right studio before you book.",
   keywords: ["pilates studios by city", "best pilates studios worldwide", "pilates city guides", "reformer pilates cities", "pilates london paris new york"],
   openGraph: {
     title: "Pilates Studio Guides by City — Pilates Collective Club",
@@ -41,6 +41,7 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Lisbon", country: "Portugal", region: "Europe", href: "/cities/lisbon" },
   { city: "Dublin", country: "Ireland", region: "Europe", href: "/cities/dublin" },
   { city: "Madrid", country: "Spain", region: "Europe", href: "/cities/madrid" },
+  { city: "Munich", country: "Germany", region: "Europe", href: "/cities/munich" },
   { city: "New York", country: "United States", region: "Americas", href: "/cities/new-york" },
   { city: "Los Angeles", country: "United States", region: "Americas", href: "/cities/los-angeles" },
   { city: "Miami", country: "United States", region: "Americas", href: "/cities/miami" },
@@ -70,12 +71,16 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Vancouver", country: "Canada", region: "Americas", href: "/cities/vancouver" },
   { city: "Charleston", country: "United States", region: "Americas", href: "/cities/charleston" },
   { city: "Honolulu", country: "United States", region: "Americas", href: "/cities/honolulu" },
+  { city: "Montreal", country: "Canada", region: "Americas", href: "/cities/montreal" },
+  { city: "Palm Beach", country: "United States", region: "Americas", href: "/cities/palm-beach" },
+  { city: "Mexico City", country: "Mexico", region: "Americas", href: "/cities/mexico-city" },
   { city: "Dubai", country: "United Arab Emirates", region: "Middle East & Asia", href: "/cities/dubai" },
   { city: "Singapore", country: "Singapore", region: "Middle East & Asia", href: "/cities/singapore" },
   { city: "Hong Kong", country: "Hong Kong SAR", region: "Middle East & Asia", href: "/cities/hong-kong" },
   { city: "Tokyo", country: "Japan", region: "Middle East & Asia", href: "/cities/tokyo" },
   { city: "Sydney", country: "Australia", region: "Oceania", href: "/cities/sydney" },
   { city: "Melbourne", country: "Australia", region: "Oceania", href: "/cities/melbourne" },
+  { city: "Brisbane", country: "Australia", region: "Oceania", href: "/cities/brisbane" },
 ];
 
 const REGIONS = ["Europe", "Americas", "Middle East & Asia", "Oceania"];
