@@ -6,7 +6,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Studio Guides by City",
-  description: "Curated guides to the best Pilates studios in 55 cities worldwide: London, New York, Paris, Madrid, Munich, Montreal, Mexico City and more. Find the right studio before you book.",
+  description: "Curated guides to the best Pilates studios in 60 cities worldwide: London, New York, Paris, Vienna, Edinburgh, Auckland, Mexico City and more. Find the right studio before you book.",
   keywords: ["pilates studios by city", "best pilates studios worldwide", "pilates city guides", "reformer pilates cities", "pilates london paris new york"],
   openGraph: {
     title: "Pilates Studio Guides by City — Pilates Collective Club",
@@ -42,6 +42,8 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Dublin", country: "Ireland", region: "Europe", href: "/cities/dublin" },
   { city: "Madrid", country: "Spain", region: "Europe", href: "/cities/madrid" },
   { city: "Munich", country: "Germany", region: "Europe", href: "/cities/munich" },
+  { city: "Vienna", country: "Austria", region: "Europe", href: "/cities/vienna" },
+  { city: "Edinburgh", country: "United Kingdom", region: "Europe", href: "/cities/edinburgh" },
   { city: "New York", country: "United States", region: "Americas", href: "/cities/new-york" },
   { city: "Los Angeles", country: "United States", region: "Americas", href: "/cities/los-angeles" },
   { city: "Miami", country: "United States", region: "Americas", href: "/cities/miami" },
@@ -74,6 +76,8 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Montreal", country: "Canada", region: "Americas", href: "/cities/montreal" },
   { city: "Palm Beach", country: "United States", region: "Americas", href: "/cities/palm-beach" },
   { city: "Mexico City", country: "Mexico", region: "Americas", href: "/cities/mexico-city" },
+  { city: "Fort Lauderdale", country: "United States", region: "Americas", href: "/cities/fort-lauderdale" },
+  { city: "Boulder", country: "United States", region: "Americas", href: "/cities/boulder" },
   { city: "Dubai", country: "United Arab Emirates", region: "Middle East & Asia", href: "/cities/dubai" },
   { city: "Singapore", country: "Singapore", region: "Middle East & Asia", href: "/cities/singapore" },
   { city: "Hong Kong", country: "Hong Kong SAR", region: "Middle East & Asia", href: "/cities/hong-kong" },
@@ -81,6 +85,7 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Sydney", country: "Australia", region: "Oceania", href: "/cities/sydney" },
   { city: "Melbourne", country: "Australia", region: "Oceania", href: "/cities/melbourne" },
   { city: "Brisbane", country: "Australia", region: "Oceania", href: "/cities/brisbane" },
+  { city: "Auckland", country: "New Zealand", region: "Oceania", href: "/cities/auckland" },
 ];
 
 const REGIONS = ["Europe", "Americas", "Middle East & Asia", "Oceania"];
