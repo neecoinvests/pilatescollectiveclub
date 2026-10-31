@@ -12,30 +12,23 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Amsterdam (2026)",
-  description: "The best Pilates studios in Amsterdam — reformer boutiques in the Jordaan, De Pijp, and Zuid. Six curated picks verified June 2026.",
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-  },
-  keywords: ["pilates amsterdam", "reformer pilates amsterdam", "best pilates studios amsterdam", "pilates studio amsterdam", "pilates classes amsterdam", "amsterdam reformer studio", "pilates jordaan amsterdam", "pilates de pijp", "pilates netherlands"],
+  description: "The best Pilates studios in Amsterdam: reformer studios in De Pijp, Oud-Zuid, Oud-West and Oost, classical BASI training and Lagree. Six picks, checked 2026.",
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  keywords: ["pilates amsterdam", "reformer pilates amsterdam", "best pilates studios amsterdam", "pilates de pijp", "pilates oud-zuid", "lagree amsterdam", "basi pilates amsterdam", "pilates oost amsterdam", "pilates classes amsterdam"],
   openGraph: {
     title: "Best Pilates Studios in Amsterdam (2026)",
-    description: "Six curated Pilates studios in Amsterdam — reformer, classical, and Lagree across the Jordaan, De Pijp, and Zuid.",
+    description: "Six curated Pilates studios in Amsterdam: De Pijp, Oud-Zuid, Oud-West, Oost and the centre. Checked October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/amsterdam",
-    images: [{ url: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80", width: 1200, height: 630, alt: "Amsterdam city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1400&q=80", width: 1200, height: 630, alt: "Amsterdam Pilates guide, Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Amsterdam (2026)",
-    description: "Our curated guide to Amsterdam's best Pilates studios — six verified picks.",
-    images: ["https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&q=80"],
+    description: "Six curated Pilates studios in Amsterdam: De Pijp, Oud-Zuid, Oud-West, Oost and the centre. Checked October 2026.",
+    images: ["https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1400&q=80"],
   },
-  alternates: {
-    canonical: "https://pilatescollectiveclub.com/cities/amsterdam",
-  },
+  alternates: { canonical: "https://pilatescollectiveclub.com/cities/amsterdam" },
 };
 
 const STUDIOS = [
@@ -44,142 +37,88 @@ const STUDIOS = [
     name: "PILAT3S De Pijp",
     neighborhood: "De Pijp",
     priceLevel: "€€€",
-    review: "PILAT3S has chosen De Pijp for its Amsterdam flagship, and the neighbourhood — dense, international, and full of the kind of young professionals who treat fitness as a serious part of their week — fits the brand's proposition precisely. The studio design is bold and intentional: dark interiors, dramatic lighting, and an equipment floor that communicates investment in both the reformer experience and the aesthetic around it. Classes run to a tight 45-minute format, music-driven and efficiently choreographed, which suits De Pijp's working population. Instruction quality is consistent and the app-based booking system is one of the slickest in the city. It suits practitioners who want a reliable, high-energy reformer session without the variability of a smaller independent studio.",
-    address: "—",
-    bestFor: "High-production reformer boutique, efficient format",
-    signatureClass: "PILAT3S Signature 45",
-    bookingTip: "App booking; 8-hour cancellation policy enforced",
+    review: "PILAT3S opened its De Pijp studio on Ceintuurbaan in 2022: around 200 square metres with seventeen reformers and a coffee bar serving fresh matcha and collagen drinks. It is one of Amsterdam's best-known reformer brands, with a second studio in Oud-Zuid on Karperstraat.",
+    caveat: "a large, popular studio; great energy, less individual correction than a small boutique.",
+    address: "Ceintuurbaan 131h, 1072 GA Amsterdam",
+    bestFor: "Big, design-led reformer classes",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Stay for a matcha at the coffee bar after class.",
   },
   {
     number: "02",
     name: "Studio 191",
-    neighborhood: "Jordaan",
+    neighborhood: "De Pijp · West · Oost",
     priceLevel: "€€€",
-    review: "Studio 191 is the kind of studio that Amsterdam does particularly well: small, serious, beautifully located, and built around a genuine teaching philosophy rather than a brand concept. Positioned in the Jordaan — the city's most architecturally beautiful and intellectually engaged neighbourhood — the studio draws a clientele of artists, academics, and quietly affluent professionals who want depth over spectacle. Classes are capped at very small numbers, allowing instructors to provide the kind of individual attention that makes real progress possible, and the programming spans classical mat and apparatus work with unusual rigour. The physical space is warm and considered, making excellent use of the Dutch light that floods through canal-house windows. It suits practitioners at intermediate to advanced level who want to be genuinely challenged.",
-    address: "—",
-    bestFor: "Classical method, small groups, architectural setting",
-    signatureClass: "Studio 191 Classical Reformer",
-    bookingTip: "Join the waitlist; popular classes sell out weeks in advance",
+    review: "Studio 191 runs reformer and mat Pilates from three Amsterdam studios: Lutmastraat in De Pijp, Jan Hanzenstraat in Oud-West and Beukenweg in Oost. Its timetable includes prenatal classes, and it has its own booking app.",
+    caveat: "three studios with similar names, so check which one you have booked.",
+    address: "Lutmastraat 191B, 1074 TV Amsterdam",
+    bestFor: "Reformer and mat across three neighbourhoods",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Use the Studio 191 app to switch between locations.",
   },
   {
     number: "03",
     name: "BASI Pilates Academy Amsterdam",
-    neighborhood: "Oud-Zuid",
+    neighborhood: "Oud-West",
     priceLevel: "€€€",
-    review: "BASI Amsterdam carries the full weight of one of the world's most respected Pilates teacher-training organisations, and the studio practice reflects that pedigree in every session. Located in Oud-Zuid — Amsterdam's most established residential quarter, home to the Concertgebouw and Rijksmuseum — the studio attracts both serious practitioners and movement professionals seeking continuing education. The method is taught comprehensively, covering mat, reformer, cadillac, chair, and barrel work to a standard that makes this one of the few studios in the Netherlands where advanced practitioners can genuinely progress. Instructors hold BASI certification and the teaching culture is rigorous without being austere. It suits practitioners who understand that Pilates is a lifelong discipline and want to train somewhere that treats it as such.",
-    address: "—",
-    bestFor: "Comprehensive apparatus work, teacher-level rigour",
-    signatureClass: "BASI Comprehensive Reformer",
-    bookingTip: "Private and duet sessions bookable direct; call ahead",
+    review: "BASI Pilates Academy Amsterdam, formerly The Movement Practice, is the Amsterdam home of BASI, one of the world's best-known Pilates teacher-training organisations. Alongside classes, it trains and certifies instructors, which makes it the place to go for comprehensive, technique-led apparatus work.",
+    caveat: "teaching is precise and technical; choose it for depth rather than a sweaty workout.",
+    address: "Korte Schimmelstraat 18, 1053 SZ Amsterdam",
+    bestFor: "Comprehensive, teacher-level Pilates",
+    signatureClass: "BASI Pilates",
+    bookingTip: "Ask about private sessions if you want to learn the full apparatus.",
   },
   {
     number: "04",
     name: "Pilates 13",
-    neighborhood: "Amsterdam-Noord",
-    priceLevel: "€€",
-    review: "Pilates 13 has positioned itself well in Amsterdam-Noord, the post-industrial neighbourhood across the IJ that has become the city's most interesting creative quarter over the past decade. The studio is refreshingly straightforward — no concept branding, no elaborate retail, just well-taught reformer classes in a clean, comfortable space at prices that reflect Noord's more accessible rental environment. Instructors are personable and technically sound, class sizes are moderate, and the scheduling is thoughtfully constructed for a neighbourhood that still has a working-day rhythm rather than a flexible freelance one. The ferry connection makes it viable even for practitioners based in Centrum, and the North Amsterdam demographic adds a genuinely local energy to each session. It suits practitioners looking for excellent value who are open to crossing the water.",
-    address: "—",
-    bestFor: "Honest reformer, Noord creative community",
-    signatureClass: "Pilates 13 Reformer Classic",
-    bookingTip: "Factor in 10-min ferry crossing from Centraal Station",
+    neighborhood: "Oud-Zuid",
+    priceLevel: "€€€",
+    review: "Pilates 13 on Stadionweg in Oud-Zuid is one of Amsterdam's most-reviewed reformer studios, rated 4.8 by more than twelve thousand ClassPass users. It is a convenient choice near the Olympic Stadium and Zuid business district.",
+    caveat: "very popular, so peak classes fill early.",
+    address: "Stadionweg 153-H, Amsterdam",
+    bestFor: "Highly rated reformer in Oud-Zuid",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Book before-work classes a few days ahead.",
   },
   {
     number: "05",
     name: "Studio 9 Pilates",
-    neighborhood: "Oud-West",
+    neighborhood: "Oost (Watergraafsmeer)",
     priceLevel: "€€€",
-    review: "Studio 9 has earned a devoted following in Oud-West, the neighbourhood of independent shops, young families, and creative professionals that sits between the Vondelpark and the canal ring. The studio has a cohesive identity: warm without being casual, professional without being corporate, and deeply committed to the classical Pilates lineage in a way that rewards consistent attendance over occasional visits. Class sizes are kept to a level that allows instructors to offer meaningful correction, and the programming is designed to develop across a proper progression rather than simply offering a rotating series of equivalent sessions. The physical space is considered and calm. It particularly suits practitioners who want to feel genuinely known by their studio rather than processed through it.",
-    address: "—",
-    bestFor: "Classical progression, community-oriented studio",
-    signatureClass: "Studio 9 Reformer Journey",
-    bookingTip: "Regulars hold recurring slots; new spots open Mondays",
+    review: "Studio 9 is an atmospheric, spotless Pilates studio on Middenweg in Watergraafsmeer, founded by Manon Fakkeldij. It runs reformer classes for Oost residents who would rather not cross town for a good class.",
+    caveat: "a smaller studio with a shorter timetable than the big brands.",
+    address: "Middenweg 67F, Amsterdam",
+    bestFor: "Calm neighbourhood reformer in Oost",
+    signatureClass: "Reformer Pilates",
+    bookingTip: "Weekday daytime classes are the easiest to book.",
   },
   {
     number: "06",
     name: "CORE40",
-    neighborhood: "Centrum",
-    priceLevel: "€€",
-    review: "CORE40 occupies a smart strategic position in Amsterdam Centrum — the area of highest tourist and expat density — and has built a studio model designed to accommodate both visitors and regulars with equal competence. The 40-minute class format is unambiguous in its purpose: efficient, concentrated reformer work that fits into a busy schedule without sacrificing technical integrity. Instructors are multilingual, the onboarding for new clients is among the smoothest in the city, and the pricing makes it a realistic option for practitioners who want to train several times a week without significant financial commitment. The space is clean and functional rather than atmospheric, which is an honest trade-off for its location. It suits travelling practitioners and Amsterdam-based professionals who value access and flexibility above all else.",
-    address: "—",
-    bestFor: "Tourist and expat-friendly, flexible drop-in format",
-    signatureClass: "CORE40 Express Reformer",
-    bookingTip: "Drop-ins welcome; online pre-registration recommended",
-  }
-];
-
-const BOOKING_TIPS = [
-  { heading: "€20–40 per class is typical", body: "Amsterdam reformer studio pricing runs from around €20 at accessible studios to €40 at premium private session specialists. Class packs (strippenkaarten) offer the best per-class rate for regular practitioners." },
-  { heading: "English instruction is widely available", body: "Amsterdam's highly international population has driven most studios to offer English instruction as standard. Check when booking if you prefer Dutch-language classes." },
-  { heading: "iDEAL and bank transfer are common payment methods", body: "Many Amsterdam studios prefer iDEAL for online payments rather than credit card. Ensure your payment method is set up before trying to book for the first time." },
-  { heading: "Cycling to your studio is the norm", body: "Amsterdam's cycling infrastructure is world-class. Most studios have bike storage. Factor cycling time into your schedule — it often beats public transport and adds a pleasant ritual to the practice." },
-  { heading: "Book 2–3 days ahead", body: "Amsterdam studios are busy but rarely as oversubscribed as London or Paris. Two to three days' advance booking is usually sufficient for most sessions, with morning peak slots requiring more notice." },
-];
-
-const NEIGHBORHOODS = [
-  { name: "Jordaan & Canal Ring", description: "Amsterdam's most coveted neighbourhood is home to several of the city's finest independent studios. Beautiful settings, discerning clientele, and premium pricing — but the quality justifies it." },
-  { name: "De Pijp", description: "Young, international, and increasingly wellness-focused. De Pijp has seen significant studio growth and offers some of the best value-to-quality ratios in the city." },
-  { name: "Oud-Zuid & Museumkwartier", description: "The city's most prestigious residential district hosts Amsterdam's premium wellness addresses. Studios here skew toward private sessions and bespoke experiences." },
-  { name: "Amsterdam-Oost & West", description: "The city's eastern and western districts have developed strong independent studio scenes that serve local communities with excellent instruction at more accessible price points." },
-];
-
-const GEAR = [
-  {
-    name: "Pilates Grip Socks",
-    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at most reformer studios. Full-toe grip socks are the standard.",
-    price: "$30.00",
-    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
-  },
-  {
-    name: "Pilates Mat",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A quality 6mm mat is worth having for mat classes and home practice between studio sessions.",
-    price: "$144.00",
-    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
-  },
-  {
-    name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
-    price: "$35.00",
-    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
-  },
-  {
-    name: "Resistance Bands",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric resistance loops extend your home Pilates practice and support reformer spring work.",
-    price: "$29.00",
-    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
-  },
-  {
-    name: "Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Essential for fascial release and spinal mobility work before and after class.",
-    price: "$62.99",
-    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
-  },
-  {
-    name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "$699.98",
-    url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
+    neighborhood: "Centrum (Weteringschans) · Zuid · Noord",
+    priceLevel: "€€€",
+    review: "CORE40 teaches the Lagree method on the Megaformer, a slow, high-tension workout. Its studios include Weteringschans near the Rijksmuseum, Stadionweg in Zuid and Oslofjordweg in Noord, and it is one of the most-reviewed boutique studios in the city.",
+    caveat: "Lagree is not classical Pilates; it is a different machine and a tougher format.",
+    address: "Weteringschans 130-132, Amsterdam",
+    bestFor: "Lagree on the Megaformer",
+    signatureClass: "Lagree on the Megaformer",
+    bookingTip: "Arrive early for your first class to learn the machine.",
   },
 ];
 
+const BOOKING_TIPS = [{"heading": "Book through ClassPass, Urban Sports Club or OneFit", "body": "Most Amsterdam studios list on at least one of these platforms, which makes it easy to try several before choosing one."}, {"heading": "Book before-work and evening classes early", "body": "Peak reformer slots fill first, especially at popular studios in De Pijp and Zuid."}, {"heading": "Check which location you booked", "body": "Several brands run more than one Amsterdam studio. Confirm the address before you cycle over."}, {"heading": "Choose Pilates or Lagree", "body": "Reformer Pilates focuses on control and technique; Lagree on the Megaformer is a slower, tougher strength workout."}, {"heading": "Bring grip socks", "body": "Grip socks are required at almost every reformer studio in Amsterdam."}];
 
-const RELATED_CITIES = [
-  { city: "Berlin", country: "Germany", href: "/cities/berlin", studioCount: 6 },
-  { city: "Paris", country: "France", href: "/cities/paris", studioCount: 6 },
-  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 6 },
-  { city: "Barcelona", country: "Spain", href: "/cities/barcelona", studioCount: 6 },
-];
+const NEIGHBORHOODS = [{"name": "De Pijp", "description": "Large, design-led reformer studios around Ceintuurbaan and Lutmastraat, close to the Albert Cuyp market."}, {"name": "Oud-Zuid", "description": "Highly rated studios on Stadionweg and Karperstraat, convenient for Zuid offices and the Vondelpark."}, {"name": "Oud-West", "description": "A BASI teacher-training academy and neighbourhood reformer studios between the Vondelpark and the Kinkerstraat."}, {"name": "Oost & Centrum", "description": "Calm neighbourhood studios in Watergraafsmeer and Lagree on the Weteringschans near the Rijksmuseum."}];
 
-const FURTHER_READING = [
-  { title: "The Best Pilates Retreats in Europe", excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.", href: "/blog/best-pilates-retreats-europe", category: "Travel", readTime: "8 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1502224562085-639556652f33?w=800&q=80" },
-  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=800&q=80" },
-];
+const GEAR = [{"name": "Pilates Grip Socks", "note": "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at most reformer studios; full-toe grip socks are the standard.", "price": "$30.00", "url": "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20"}, {"name": "Pilates Mat", "note": "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A dense 6mm mat for mat classes and home practice between studio sessions.", "price": "$144.00", "url": "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20"}, {"name": "Magic Circle", "note": "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios use the magic circle; worth owning for home reinforcement work.", "price": "$35.00", "url": "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20"}, {"name": "Resistance Bands", "note": "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric loops that carry reformer leg and glute work into home sessions.", "price": "$29.00", "url": "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20"}, {"name": "Foam Roller", "note": "Our pick: OPTP PRO-Roller Foam Roller (36-inch). For spinal mobility and release work before and after class.", "price": "$62.99", "url": "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20"}, {"name": "Home Pilates Reformer", "note": "Our pick: PAETA Wooden Foldable Reformer. A folding home reformer to keep your practice going between studio classes.", "price": "$719.99", "url": "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20"}];
 
-const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Amsterdam?", a: "Our 6 curated picks are PILAT3S De Pijp (De Pijp), Studio 191 (Jordaan), BASI Pilates Academy Amsterdam (Oud-Zuid), Pilates 13 (Amsterdam-Noord), Studio 9 Pilates (Oud-West) and CORE40 (Centrum). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Amsterdam neighbourhoods are best for Pilates?", a: "This guide covers Jordaan & Canal Ring, De Pijp, Oud-Zuid & Museumkwartier and Amsterdam-Oost & West. Jordaan & Canal Ring: Amsterdam's most coveted neighbourhood is home to several of the city's finest independent studios." },
-  { q: "What should I know about booking Pilates classes in Amsterdam?", a: "€20–40 per class is typical. Amsterdam reformer studio pricing runs from around €20 at accessible studios to €40 at premium private session specialists." },
-  { q: "What should I bring to a Pilates class in Amsterdam?", a: "Grip socks are required at most reformer studios. Our gear list for Amsterdam covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
-];
+const RELATED_CITIES = [{"city": "Berlin", "country": "Germany", "href": "/cities/berlin", "studioCount": 6}, {"city": "Paris", "country": "France", "href": "/cities/paris", "studioCount": 6}, {"city": "London", "country": "United Kingdom", "href": "/cities/london", "studioCount": 6}, {"city": "Barcelona", "country": "Spain", "href": "/cities/barcelona", "studioCount": 6}];
+
+const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Megaformer Machine (2026)", "excerpt": "The machines behind Lagree classes, and what a home Megaformer setup really costs.", "href": "/blog/best-megaformer-machine", "category": "Lagree", "readTime": "12 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favourites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}];
+
+const CITY_FAQS = [{"q": "What are the best Pilates studios in Amsterdam?", "a": "Our 6 picks are PILAT3S De Pijp (De Pijp), Studio 191 (De Pijp · West · Oost), BASI Pilates Academy Amsterdam (Oud-West), Pilates 13 (Oud-Zuid), Studio 9 Pilates (Oost (Watergraafsmeer)) and CORE40 (Centrum (Weteringschans) · Zuid · Noord). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Amsterdam neighbourhoods are best for Pilates?", "a": "This guide covers De Pijp, Oud-Zuid, Oud-West and Oost & Centrum. Large, design-led reformer studios around Ceintuurbaan and Lutmastraat, close to the Albert Cuyp market."}, {"q": "What should I know about booking Pilates classes in Amsterdam?", "a": "Book through ClassPass, Urban Sports Club or OneFit. Book before-work and evening classes early. Check which location you booked."}, {"q": "What should I bring to a Pilates class in Amsterdam?", "a": "Grip socks are required at most reformer studios. Our gear list for Amsterdam covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Is there Lagree in Amsterdam?", "a": "Yes. CORE40 teaches the Lagree method on the Megaformer, with studios on Weteringschans, Stadionweg and in Noord."}];
+
+const gearName = (g: { name: string; note: string }) => g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name;
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -187,10 +126,10 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Amsterdam (2026)",
-      "description": "The best Pilates studios in Amsterdam — reformer boutiques in the Jordaan, De Pijp, and Zuid. Six curated picks verified June 2026.",
+      "description": "The best Pilates studios in Amsterdam: reformer studios in De Pijp, Oud-Zuid, Oud-West and Oost, classical BASI training and Lagree. Six picks, checked 2026.",
       "url": "https://pilatescollectiveclub.com/cities/amsterdam",
       "datePublished": "2026-06-28",
-      "dateModified": "2026-10-20",
+      "dateModified": "2026-10-31",
       "image": { "@type": "ImageObject", "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1400&q=80" },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -200,20 +139,20 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": CITY_FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
-    productItemList("Pilates gear for classes in Amsterdam", GEAR.filter((g) => /amazon\.[a-z.]+\/dp\//.test(g.url)).map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, description: g.note, price: g.price, url: g.url }))),
+    productItemList("Pilates gear for classes in Amsterdam", GEAR.map((g) => ({ name: gearName(g), description: g.note, price: g.price, url: g.url }))),
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilatescollectiveclub.com" },
-        { "@type": "ListItem", "position": 2, "name": "Amsterdam", "item": "https://pilatescollectiveclub.com/cities/amsterdam" },
+        { "@type": "ListItem", "position": 2, "name": "Cities", "item": "https://pilatescollectiveclub.com/cities" },
+        { "@type": "ListItem", "position": 3, "name": "Amsterdam", "item": "https://pilatescollectiveclub.com/cities/amsterdam" },
       ],
     },
     {
       "@type": "ItemList",
       "name": "Best Pilates Studios in Amsterdam",
-      "description": "Curated guide to the top 5 Pilates studios in Amsterdam.",
       "url": "https://pilatescollectiveclub.com/cities/amsterdam",
-      "numberOfItems": 6,
+      "numberOfItems": STUDIOS.length,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -221,12 +160,7 @@ const jsonLd = {
           "@type": "ExerciseGym",
           "name": s.name,
           "description": s.review.slice(0, 200),
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": s.address,
-            "addressLocality": "Amsterdam",
-            "addressCountry": "NL",
-          },
+          "address": { "@type": "PostalAddress", "streetAddress": s.address, "addressLocality": "Amsterdam", "addressCountry": "NL" },
         },
       })),
     },
@@ -247,57 +181,70 @@ export default function AmsterdamPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Netherlands</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in Amsterdam</span>
+              The Best Pilates Studios<br />
+              <span style={{ color: "#8b4a31" }}>in Amsterdam</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+              Studios checked October 2026 · 8 min read
+            </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Amsterdam's wellness culture has evolved considerably in recent years — and Pilates has been among the primary beneficiaries. The city's international population, strong cycling culture, and general openness to quality movement practices have produced a studio scene that punches well above its geographic size. This guide covers the six studios we rate most highly across the city's distinct neighbourhoods.
+              {"Amsterdam has one of Europe's busiest reformer scenes, with big, design-led studios in De Pijp, highly rated neighbourhood studios in Oud-Zuid and Oost, a BASI teacher-training academy in Oud-West and Lagree near the Weteringschans. This guide covers six studios with confirmed addresses, what each does best and how to book."}
             </p>
           </div>
         </section>
+
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1400&q=80" alt="Amsterdam canals" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1400&q=80" alt="Amsterdam canal houses" fill priority className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Amsterdam, Netherlands</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>A growing Pilates scene in Europe's most liveable city</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Reformer, classical and Lagree from De Pijp to Oost</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
-            <div className="space-y-8">{STUDIOS.map((s) => <StudioListing key={s.number} {...s} />)}</div>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+              {STUDIOS.length} Studios · Curated & Verified
+            </p>
+            <div className="space-y-8">
+              {STUDIOS.map((studio) => (
+                <StudioListing key={studio.number} {...studio} />
+              ))}
+            </div>
           </div>
         </section>
+
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Tips for booking Pilates in Amsterdam</h2>
             <div className="space-y-6">
-              {BOOKING_TIPS.map((t) => (
-                <div key={t.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+              {BOOKING_TIPS.map((tip) => (
+                <div key={tip.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
                   <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
                   <div>
-                    <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.heading}</h3>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{t.body}</p>
+                    <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{tip.heading}</h3>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{tip.body}</p>
                   </div>
                 </div>
               ))}
             </div>
           </div>
         </section>
+
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Amsterdam</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Amsterdam's neighbourhoods each have a distinct character that shapes the studios within them.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Where to look depending on where you live, work or stay.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
-                <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
+                <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>
                   <h3 className="text-base font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{n.name}</h3>
                   <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{n.description}</p>
                 </div>
@@ -305,18 +252,18 @@ export default function AmsterdamPage() {
             </div>
           </div>
         </section>
+
         {/* Studio Gear */}
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Amsterdam. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Amsterdam. These are our recommended picks, all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
-            <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
+            <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: gearName(g), price: g.price, url: g.url, note: g.name }))} />
           </div>
         </section>
-
 
         <section className="px-6 py-20">
           <div className="max-w-3xl mx-auto">
@@ -336,16 +283,31 @@ export default function AmsterdamPage() {
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Related city guides</h2>
             <p className="text-sm mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Explore our guides to other cities with thriving Pilates scenes.</p>
-            <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">{RELATED_CITIES.map((c) => <CityCard key={c.city} {...c} />)}</div>
+            <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">
+              {RELATED_CITIES.map((c) => (
+                <CityCard key={c.city} {...c} />
+              ))}
+            </div>
           </div>
         </section>
+
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">{FURTHER_READING.map((a) => <ArticleCard key={a.href} {...a} />)}</div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {FURTHER_READING.map((a) => (
+                <ArticleCard key={a.href} {...a} />
+              ))}
+            </div>
           </div>
         </section>
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best Pilates studios in Amsterdam…" />
+
+        <CTASection
+          title="Find Pilates near you"
+          subtitle="Explore our curated guides to the best studios in cities worldwide."
+          showSearch
+          searchPlaceholder="Ask: best reformer Pilates in Amsterdam…"
+        />
       </main>
       <Footer />
     </>

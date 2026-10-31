@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import QuickPicks from "@/components/QuickPicks";
 import Footer from "@/components/Footer";
@@ -12,188 +12,134 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Atlanta, GA (2026)",
-  description: "The best Pilates studios in Atlanta — from Buckhead reformer boutiques to Midtown method studios. Six verified picks for every level, 2026.",
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-  },
-  keywords: ["pilates atlanta", "reformer pilates atlanta", "best pilates studios atlanta", "pilates studio atlanta ga", "pilates classes atlanta", "buckhead pilates", "midtown atlanta pilates", "pilates georgia", "best reformer pilates atlanta"],
+  description: "The best Pilates studios in Atlanta: top-rated reformer studios in Buckhead, West Midtown and on the BeltLine in Virginia-Highland. Six picks, checked for 2026.",
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  keywords: ["pilates atlanta", "reformer pilates atlanta", "best pilates studios atlanta", "pilates buckhead", "pilates west midtown", "pilates beltline", "pilates virginia highland", "pilates classes atlanta"],
   openGraph: {
     title: "Best Pilates Studios in Atlanta, GA (2026)",
-    description: "Six curated Pilates studios in Atlanta — Buckhead reformer boutiques to Midtown method practices. Verified October 2026.",
+    description: "Six curated Pilates studios in Atlanta: Buckhead, West Midtown, Virginia-Highland and Emory Village. Checked October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/atlanta",
-    images: [{ url: "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1200&q=80", width: 1200, height: 630, alt: "Atlanta Georgia city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1400&q=80", width: 1200, height: 630, alt: "Atlanta Pilates guide, Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Atlanta (2026)",
-    description: "Six curated Pilates studios in Atlanta — verified picks for every level.",
-    images: ["https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1200&q=80"],
+    title: "Best Pilates Studios in Atlanta, GA (2026)",
+    description: "Six curated Pilates studios in Atlanta: Buckhead, West Midtown, Virginia-Highland and Emory Village. Checked October 2026.",
+    images: ["https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1400&q=80"],
   },
-  alternates: {
-    canonical: "https://pilatescollectiveclub.com/cities/atlanta",
-  },
+  alternates: { canonical: "https://pilatescollectiveclub.com/cities/atlanta" },
 };
 
 const STUDIOS = [
   {
     number: "01",
-    name: "Club Pilates Buckhead",
-    neighborhood: "Buckhead (Peachtree Battle)",
+    name: "The Daily Pilates Buckhead",
+    neighborhood: "Buckhead Village",
     priceLevel: "$$$",
-    review: "Club Pilates' first in-town Atlanta studio opened in February 2017 in the Peachtree Battle Shopping Center, in the heart of Buckhead. It runs the national Club Pilates group reformer format, so classes are levelled and standardised: a Level 1 Reformer Flow here follows the same structure as one anywhere else in the country, which makes it an easy, low-risk place to learn the reformer.",
-    caveat: "this is a franchise format — consistent and well-organised, but programming comes from a national curriculum rather than an individual owner-teacher, so it will not feel like a classical boutique.",
-    address: "2391 Peachtree Rd NE, Atlanta, GA 30305",
-    bestFor: "Beginners and regulars who want a structured, levelled reformer programme",
-    signatureClass: "Reformer Flow",
-    bookingTip: "New to Club Pilates? Book an intro class first — studios use it to fit you into the right level before you buy a membership.",
+    review: "The Daily Pilates is one of Atlanta's most-reviewed reformer studios, rated 4.9 by tens of thousands of ClassPass users. Its Buckhead studio on Pharr Road runs classes such as The Daily Sculpt on the reformer, and the brand has been expanding to new studios around metro Atlanta.",
+    caveat: "very popular, so peak classes fill quickly.",
+    address: "230 Pharr Rd NE, Atlanta, GA 30305",
+    bestFor: "Highly rated reformer in Buckhead",
+    signatureClass: "The Daily Sculpt (Reformer)",
+    bookingTip: "Park in the Buckhead Village deck on Pharr Road; the entrance is near F45.",
   },
   {
     number: "02",
-    name: "Intown Pilates",
-    neighborhood: "Amsterdam Walk (Virginia-Highland / Morningside)",
+    name: "The Studio Pilates",
+    neighborhood: "West Midtown · Emory Village",
     priceLevel: "$$$",
-    review: "Intown Pilates works across the full range of Pilates apparatus — reformer, Cadillac, towers, Wunda chairs and the ladder barrel — and builds customised programmes around them. Group options include mat and tower classes such as Pilates Sculpt, Pilates Pump and Tower Stretch, alongside private sessions, which makes it one of the more apparatus-complete independent studios in town.",
-    caveat: "group classes here lean toward mat and tower rather than big reformer rooms — if you specifically want a high-energy group reformer class, a reformer-focused studio will suit you better.",
-    address: "500 Amsterdam Ave NE, Suite L5, Atlanta, GA 30306",
-    bestFor: "Private sessions and tower work on the full range of Pilates apparatus",
-    signatureClass: "Tower Stretch",
-    bookingTip: "Scheduling runs through the Mindbody app — check it for private-session availability before you call.",
+    review: "The Studio Pilates opened its West Midtown studio on Trabert Avenue in 2024, with group reformer and tower classes plus semi-private and private training taught by certified instructors. It also has a studio in Emory Village on North Decatur Road.",
+    caveat: "rating figures quoted on its own site are self-reported.",
+    address: "763 Trabert Ave NW, Unit D, Atlanta, GA 30318",
+    bestFor: "Reformer and tower classes with certified instructors",
+    signatureClass: "Reformer + Tower",
+    bookingTip: "Start with the Two-Class Trial; free two-hour parking is in the back lot.",
   },
   {
     number: "03",
-    name: "The Studio Pilates — West Midtown",
-    neighborhood: "West Midtown",
+    name: "HIPfit",
+    neighborhood: "Virginia-Highland (on the BeltLine)",
     priceLevel: "$$$",
-    review: "Opened in 2024 on the Trabert Avenue corridor near Westside Provisions and the BeltLine Westside Trail, The Studio Pilates' West Midtown location is built around premium Balanced Body reformers. The layout covers every format: a 14-reformer group room, a four-person tower/reformer semi-private room, and a private room with a Cadillac and chair. Every group class is reformer-based and led by certified instructors.",
-    caveat: "a 14-reformer room is larger than a true boutique class — if you want very small groups, book the semi-private room or a private session instead.",
-    address: "763 Trabert Ave NW, Unit D, Atlanta, GA 30318",
-    bestFor: "Reformer classes with a step up to semi-private and private apparatus work",
-    signatureClass: "Group Reformer",
-    bookingTip: "The brand also runs a studio at 1583 N Decatur Rd near Emory — handy if West Midtown is out of your way.",
+    review: "HIPfit calls itself the first high-intensity Pilates studio directly on the BeltLine in Virginia-Highland, inside The Training Room on Ponce de Leon Place. It merges low-impact, high-intensity movement with targeted resistance training, and is rated 4.9 by thousands of ClassPass users.",
+    caveat: "a high-intensity format; not the place for slow classical technique.",
+    address: "742 Ponce de Leon Pl NE, Atlanta, GA 30306",
+    bestFor: "High-intensity Pilates on the BeltLine",
+    signatureClass: "HIPfit",
+    bookingTip: "Book the Sunday-morning introductory class if you are new.",
   },
   {
     number: "04",
-    name: "HIPfit",
-    neighborhood: "Virginia-Highland (on the BeltLine)",
-    priceLevel: "$$",
-    review: "HIPfit is a boutique studio inside The Training Room at 742 Ponce de Leon Place, directly on the Atlanta BeltLine in Virginia-Highland. Its classes blend the precision of Pilates with the intensity of modern conditioning, so expect more sweat and pace than in a traditional method class.",
-    caveat: "this is Pilates-inspired conditioning rather than classical Pilates — purists looking for traditional repertoire should look at Intown Pilates instead.",
-    address: "742 Ponce de Leon Pl NE, Atlanta, GA 30306",
-    bestFor: "Pilates-based conditioning with a BeltLine location",
-    signatureClass: "Pilates conditioning class",
-    bookingTip: "Read the studio's new-client page before your first class, and walk or bike in on the BeltLine to skip parking.",
+    name: "JETSET Pilates Buckhead",
+    neighborhood: "Buckhead (Piedmont Road)",
+    priceLevel: "$$$",
+    review: "JETSET's 50-minute, high-intensity, low-impact reformer workout arrived in Buckhead in 2026, in the Buckhead Landing centre on Piedmont Road. It is run by local franchisees Nick and Neo Celeste, who are also planning a Midtown studio.",
+    caveat: "a franchise format built for intensity rather than technique.",
+    address: "3330 Piedmont Rd NE, Atlanta, GA 30305",
+    bestFor: "Fast, high-intensity reformer",
+    signatureClass: "JETSET Reformer",
+    bookingTip: "Bring water and a towel; classes are sweaty.",
   },
   {
     number: "05",
-    name: "Club Pilates Decatur",
-    neighborhood: "North Decatur / Toco Hills",
-    priceLevel: "$$",
-    review: "Club Pilates Decatur sits on Church Street in the North Decatur and Toco Hills area, convenient for Decatur, Druid Hills and Emory-area residents. It offers the same levelled Club Pilates class system as the Buckhead studio, which suits people who want a predictable format and membership pricing.",
-    caveat: "despite the name, the studio is on Church Street toward Toco Hills rather than on Decatur Square — check the map before assuming it is walkable from downtown Decatur.",
-    address: "1605 Church St, Suite 660, Decatur, GA 30033",
-    bestFor: "East-side residents who want a levelled reformer programme",
-    signatureClass: "Reformer Flow",
-    bookingTip: "If you hold a Club Pilates membership, check whether your plan lets you book at other Atlanta-area studios too.",
+    name: "SculptHouse",
+    neighborhood: "Buckhead (Peachtree Road)",
+    priceLevel: "$$$",
+    review: "SculptHouse on Peachtree Road runs high-intensity Pilates-based formats such as CardioSculpt and StrengthSculpt. It suits anyone who wants a hard, music-driven workout with Pilates principles.",
+    caveat: "check class descriptions; not every class is on the reformer.",
+    address: "3167 Peachtree Rd, Suite Q, Atlanta, GA",
+    bestFor: "High-intensity sculpt classes",
+    signatureClass: "StrengthSculpt",
+    bookingTip: "Try a CardioSculpt class if you want maximum sweat.",
   },
   {
     number: "06",
-    name: "Club Pilates Sandy Springs",
-    neighborhood: "Sandy Springs (Exchange at Hammond)",
-    priceLevel: "$$$",
-    review: "Club Pilates Sandy Springs is in the Exchange at Hammond shopping centre on Roswell Road, serving the north-Atlanta residential corridor inside and just outside I-285. Like the other Club Pilates studios, it runs a levelled group reformer curriculum, which makes it a practical choice for people who want to train several times a week close to home.",
-    caveat: "a franchise studio rather than an independent — reliable structure, less individual programming.",
-    address: "5968 Roswell Rd, Sandy Springs, GA 30328",
-    bestFor: "North-Atlanta residents, consistent reformer programming, memberships",
+    name: "Club Pilates Buckhead",
+    neighborhood: "Peachtree Battle",
+    priceLevel: "$$",
+    review: "Club Pilates opened its first in-town Atlanta studio in the Peachtree Battle Shopping Center in 2017. It runs reformer-based classes in a structured, levelled system, which makes it a good-value option for regular weekly practice.",
+    caveat: "a franchise studio; consistent, but less intimate than a boutique.",
+    address: "2391 Peachtree Rd NE, Suite B3Ab, Atlanta, GA 30305",
+    bestFor: "Structured, good-value reformer",
     signatureClass: "Reformer Flow",
-    bookingTip: "Monthly memberships are the most cost-effective option if you plan to attend three or more times per week.",
+    bookingTip: "Start with an intro class so an instructor can set you up.",
   },
 ];
 
-const BOOKING_TIPS = [
-  { heading: "Expect to pay $28–55 per class", body: "Atlanta's Pilates market is meaningfully more accessible than coastal US cities. Drop-in rates run from around $28 at community studios to $55 at Buckhead premium practices. Monthly memberships bring per-class costs to $18–30 for regular practitioners — making Atlanta one of the more financially viable US cities for building a consistent practice." },
-  { heading: "Traffic in Atlanta is serious business", body: "Atlanta has some of the worst traffic congestion in the United States. The I-285 and I-75/I-85 corridors are genuinely impassable during rush hour. Choose a studio on your home or work commute route rather than the 'best' studio on the other side of the city — attendance consistency is the most important variable in practice development." },
-  { heading: "The studio market is neighbourhood-defined", body: "Atlanta's sprawl means the studio scene is more fragmented than comparable US cities. Buckhead, Midtown, and Decatur each have their own distinct studio cultures and clientele profiles. Spend a week exploring the Pilates offering nearest to where you spend most of your time before committing to a membership." },
-  { heading: "Summer heat affects scheduling preferences", body: "Atlanta's summers are extremely hot and humid. Pilates studios' climate-controlled environments make morning and early evening classes particularly popular in July and August — book those slots well in advance from May onwards." },
-  { heading: "Bring grip socks", body: "Most reformer studios in Atlanta require or strongly recommend grip socks. Buying a pair before your first class is usually cheaper than front-desk retail — check your studio's policy when you book." },
-];
+const BOOKING_TIPS = [{"heading": "Book Buckhead classes early", "body": "Buckhead's top reformer studios are some of the most-booked in the city. Reserve before-work and evening classes a few days ahead."}, {"heading": "Plan around traffic and parking", "body": "Atlanta traffic can turn a short trip into a long one. Choose a studio near home or work, and check parking instructions before your first class."}, {"heading": "Use intro offers", "body": "Many Atlanta studios run trials or intro classes for new clients. Use them to compare two or three before committing."}, {"heading": "Pick your intensity", "body": "Atlanta has many high-intensity reformer formats as well as studios with tower and private training. Choose based on your goal."}, {"heading": "Bring grip socks and water", "body": "Grip socks are required at most reformer studios, and Atlanta summers make water essential."}];
 
-const NEIGHBORHOODS = [
-  { name: "Buckhead", description: "Atlanta's wealthiest neighbourhood houses the city's most premium Pilates practices. Higher price points are matched by excellent instruction and a wellness-invested clientele that sets a high bar. The natural starting point for practitioners who prioritise quality above all other variables." },
-  { name: "Midtown", description: "Atlanta's cultural and professional centre supports a diverse range of studios serving the city's creative and corporate communities. Excellent MARTA access from most of the metro area makes Midtown studios genuinely practical for practitioners who don't drive into the city." },
-  { name: "Virginia-Highland, Inman Park & Candler Park", description: "The in-town residential neighbourhoods east of Midtown have developed excellent independent studio cultures — community-focused, intelligently taught, and priced for the neighbourhood demographic. Strong options for practitioners who live in or commute through this corridor." },
-  { name: "Decatur & Sandy Springs", description: "Atlanta's eastern and northern suburbs have increasingly strong Pilates offerings serving the city's sprawling professional class. Studios here are well-run and practically accessible for practitioners who live beyond the I-285 perimeter." },
-];
+const NEIGHBORHOODS = [{"name": "Buckhead", "description": "The centre of Atlanta's reformer scene, with highly rated studios around Buckhead Village, Piedmont Road and Peachtree Road."}, {"name": "West Midtown", "description": "Reformer and tower studios among the converted warehouses, with easy parking."}, {"name": "Virginia-Highland & the BeltLine", "description": "High-intensity Pilates right on the BeltLine, ideal before or after a walk on the trail."}, {"name": "Emory Village & Decatur", "description": "Neighbourhood studios for the east side, including a second studio from The Studio Pilates."}];
 
-const GEAR = [
-  {
-    name: "Pilates Grip Socks",
-    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every reformer studio in Atlanta. Full-toe grip socks are the universal standard.",
-    price: "$30.00",
-    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
-  },
-  {
-    name: "Pilates Mat",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A quality 6mm mat is essential for mat classes and home practice in Atlanta's climate-controlled studios.",
-    price: "$144.00",
-    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
-  },
-  {
-    name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Standard prop in many Atlanta classical studios. Useful for at-home reinforcement between sessions.",
-    price: "$35.00",
-    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
-  },
-  {
-    name: "Resistance Bands Set",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric-loop resistance bands extend your studio practice and are ideal for home use on days Atlanta traffic makes the commute impractical.",
-    price: "$29.00",
-    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
-  },
-  {
-    name: "Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Essential for post-class myofascial release — particularly useful after long commutes in Atlanta traffic.",
-    price: "$62.99",
-    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
-  },
-];
+const GEAR = [{"name": "Pilates Grip Socks", "note": "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at most reformer studios; full-toe grip socks are the standard.", "price": "$30.00", "url": "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20"}, {"name": "Pilates Mat", "note": "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A dense 6mm mat for mat classes and home practice between studio sessions.", "price": "$144.00", "url": "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20"}, {"name": "Magic Circle", "note": "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios use the magic circle; worth owning for home reinforcement work.", "price": "$35.00", "url": "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20"}, {"name": "Resistance Bands", "note": "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric loops that carry reformer leg and glute work into home sessions.", "price": "$29.00", "url": "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20"}, {"name": "Foam Roller", "note": "Our pick: OPTP PRO-Roller Foam Roller (36-inch). For spinal mobility and release work before and after class.", "price": "$62.99", "url": "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20"}, {"name": "Home Pilates Reformer", "note": "Our pick: PAETA Wooden Foldable Reformer. A folding home reformer to keep your practice going between studio classes.", "price": "$719.99", "url": "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20"}];
 
-const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
-  { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
-];
+const RELATED_CITIES = [{"city": "Nashville", "country": "United States", "href": "/cities/nashville", "studioCount": 6}, {"city": "Miami", "country": "United States", "href": "/cities/miami", "studioCount": 6}, {"city": "Washington DC", "country": "United States", "href": "/cities/washington-dc", "studioCount": 6}, {"city": "Austin", "country": "United States", "href": "/cities/austin", "studioCount": 6}];
 
-const RELATED_CITIES = [
-  { city: "Nashville", country: "United States", href: "/cities/nashville", studioCount: 6 },
-  { city: "Miami", country: "United States", href: "/cities/miami", studioCount: 6 },
-  { city: "Washington DC", country: "United States", href: "/cities/washington-dc", studioCount: 6 },
-  { city: "Austin", country: "United States", href: "/cities/austin", studioCount: 6 },
-];
+const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favourites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Equipment for Home Practice", "excerpt": "Everything you need between studio sessions, from a quality mat to resistance bands.", "href": "/blog/best-pilates-equipment-for-home-practice", "category": "Equipment", "readTime": "10 min read"}];
 
-const FURTHER_READING = [
-  { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class and how to choose a studio that fits your goals.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1616439069669-66dbe74bcdad?w=800&q=80" },
-  { title: "How to Find a Good Pilates Studio", excerpt: "What to look for in a studio, and the questions worth asking before you commit to a membership.", href: "/blog/how-to-find-a-good-pilates-studio", category: "Guide", readTime: "6 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&q=80" },
-];
+const CITY_FAQS = [{"q": "What are the best Pilates studios in Atlanta?", "a": "Our 6 picks are The Daily Pilates Buckhead (Buckhead Village), The Studio Pilates (West Midtown · Emory Village), HIPfit (Virginia-Highland (on the BeltLine)), JETSET Pilates Buckhead (Buckhead (Piedmont Road)), SculptHouse (Buckhead (Peachtree Road)) and Club Pilates Buckhead (Peachtree Battle). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Atlanta neighbourhoods are best for Pilates?", "a": "This guide covers Buckhead, West Midtown, Virginia-Highland & the BeltLine and Emory Village & Decatur. The centre of Atlanta's reformer scene, with highly rated studios around Buckhead Village, Piedmont Road and Peachtree Road."}, {"q": "What should I know about booking Pilates classes in Atlanta?", "a": "Book Buckhead classes early. Plan around traffic and parking. Use intro offers."}, {"q": "What should I bring to a Pilates class in Atlanta?", "a": "Grip socks are required at most reformer studios. Our gear list for Atlanta covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Which Atlanta Pilates studio has the most reviews?", "a": "The Daily Pilates in Buckhead is one of the most-reviewed reformer studios in Atlanta, rated 4.9 by tens of thousands of ClassPass users."}];
 
-const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Atlanta?", a: "Our 6 curated picks are Club Pilates Buckhead (Buckhead, Peachtree Battle), Intown Pilates (Amsterdam Walk, Virginia-Highland / Morningside), The Studio Pilates — West Midtown (West Midtown), HIPfit (Virginia-Highland, on the BeltLine), Club Pilates Decatur (North Decatur / Toco Hills) and Club Pilates Sandy Springs (Sandy Springs, Exchange at Hammond). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Atlanta neighbourhoods are best for Pilates?", a: "This guide covers Buckhead, Midtown, Virginia-Highland, Inman Park & Candler Park and Decatur & Sandy Springs. Buckhead: Atlanta's wealthiest neighbourhood houses the city's most premium Pilates practices." },
-  { q: "What should I know about booking Pilates classes in Atlanta?", a: "Expect to pay $28–55 per class. Atlanta's Pilates market is meaningfully more accessible than coastal US cities." },
-  { q: "What should I bring to a Pilates class in Atlanta?", a: "Grip socks are required at most reformer studios. Our gear list for Atlanta covers Pilates grip socks, Pilates mat, magic circle, resistance bands set and foam roller." },
-];
+const gearName = (g: { name: string; note: string }) => g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name;
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Article",
+      "headline": "Best Pilates Studios in Atlanta, GA (2026)",
+      "description": "The best Pilates studios in Atlanta: top-rated reformer studios in Buckhead, West Midtown and on the BeltLine in Virginia-Highland. Six picks, checked for 2026.",
+      "url": "https://pilatescollectiveclub.com/cities/atlanta",
+      "datePublished": "2026-06-01",
+      "dateModified": "2026-10-31",
+      "image": { "@type": "ImageObject", "url": "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1400&q=80" },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/cities/atlanta" },
+    },
+    {
       "@type": "FAQPage",
       "mainEntity": CITY_FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
-    productItemList("Pilates gear for classes in Atlanta", GEAR.filter((g) => /amazon\.[a-z.]+\/dp\//.test(g.url)).map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, description: g.note, price: g.price, url: g.url }))),
+    productItemList("Pilates gear for classes in Atlanta", GEAR.map((g) => ({ name: gearName(g), description: g.note, price: g.price, url: g.url }))),
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -205,9 +151,8 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Pilates Studios in Atlanta, GA",
-      "description": "Curated guide to the top Pilates studios in Atlanta, Georgia, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/atlanta",
-      "numberOfItems": 6,
+      "numberOfItems": STUDIOS.length,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -215,18 +160,9 @@ const jsonLd = {
           "@type": "ExerciseGym",
           "name": s.name,
           "description": s.review.slice(0, 200),
-          "address": { "@type": "PostalAddress", "addressLocality": "Atlanta", "addressRegion": "GA", "addressCountry": "US" },
+          "address": { "@type": "PostalAddress", "streetAddress": s.address, "addressLocality": "Atlanta", "addressCountry": "US" },
         },
       })),
-    },
-    {
-      "@type": "Article",
-      "headline": "The Best Pilates Studios in Atlanta, GA (2026)",
-      "description": "A curated guide to the six best Pilates studios in Atlanta, Georgia — verified October 2026.",
-      "url": "https://pilatescollectiveclub.com/cities/atlanta",
-      "dateModified": "2026-10-03",
-      "author": { "@type": "Organization", "name": "Pilates Collective Club" },
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
     },
   ],
 };
@@ -245,12 +181,15 @@ export default function AtlantaPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>United States</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in Atlanta, Georgia</span>
+              The Best Pilates Studios<br />
+              <span style={{ color: "#8b4a31" }}>in Atlanta, GA</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+              Studios checked October 2026 · 8 min read
+            </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Atlanta's Pilates scene has matured significantly over the past decade, shaped by the city's growing population of coastal transplants, a strong arts and performance culture, and an affluent professional class that invests seriously in wellness. The market spans genuine extremes — from structured franchise reformer studios in Buckhead and Sandy Springs to apparatus-rich independents and BeltLine conditioning studios in-town. Understanding which studio suits your level, budget, and commute radius matters more in Atlanta than in more compact cities. This guide covers the six studios that consistently deliver, verified October 2026.
+              {"Pilates has become one of Atlanta's favourite workouts, and Buckhead in particular now has some of the most-reviewed reformer studios in the South. This guide covers six studios with confirmed addresses, from Buckhead to West Midtown and the BeltLine, with what each does best and how to book."}
             </p>
           </div>
         </section>
@@ -258,48 +197,25 @@ export default function AtlantaPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1400&q=80" alt="Atlanta Georgia skyline" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=1400&q=80" alt="Atlanta skyline" fill priority className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
-                  <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Atlanta, Georgia</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>A maturing market spanning classical depth and community accessibility</p>
+                  <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Atlanta, GA, United States</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Reformer studios from Buckhead to West Midtown and the BeltLine</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#fdf5f3", borderTop: "1px solid rgba(139,74,49,0.2)", borderBottom: "1px solid rgba(139,74,49,0.2)" }}>
+        <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Before You Go</p>
-            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Atlanta studios require grip socks and appreciate a mat for mat-based work. Our top picks, available on Amazon.{" "}
-              <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+              {STUDIOS.length} Studios · Curated & Verified
             </p>
-            <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
-          </div>
-        </section>
-
-        <section className="px-6 py-20">
-          <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
-            <div className="space-y-8">{STUDIOS.map((s) => <StudioListing key={s.number} {...s} />)}</div>
-          </div>
-        </section>
-
-        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Tips for booking Pilates in Atlanta</h2>
-            <div className="space-y-6">
-              {BOOKING_TIPS.map((t) => (
-                <div key={t.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                  <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
-                  <div>
-                    <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.heading}</h3>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{t.body}</p>
-                  </div>
-                </div>
+            <div className="space-y-8">
+              {STUDIOS.map((studio) => (
+                <StudioListing key={studio.number} {...studio} />
               ))}
             </div>
           </div>
@@ -307,11 +223,28 @@ export default function AtlantaPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Tips for booking Pilates in Atlanta</h2>
+            <div className="space-y-6">
+              {BOOKING_TIPS.map((tip) => (
+                <div key={tip.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
+                  <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
+                  <div>
+                    <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{tip.heading}</h3>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{tip.body}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+          <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Atlanta</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Atlanta&apos;s sprawl makes neighbourhood choice as important as studio quality. Here&apos;s where to look.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Where to look depending on where you live, work or stay.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
-                <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
+                <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>
                   <h3 className="text-base font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{n.name}</h3>
                   <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{n.description}</p>
                 </div>
@@ -320,31 +253,15 @@ export default function AtlantaPage() {
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
+        {/* Studio Gear */}
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
-            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
+            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
-              <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
+              Grip socks are required at most reformer studios in Atlanta. These are our recommended picks, all available on Amazon.{" "}
+              <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-              {HOME_REFORMERS.map((g) => (
-                <a key={g.name} href={g.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div className="rounded-xl p-5 h-full flex flex-col justify-between" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <div>
-                      <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.tag}</p>
-                      <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{g.name}</h3>
-                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{g.note}</p>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.price}</span>
-                      <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Shop →</span>
-                    </div>
-                  </div>
-                </a>
-              ))}
-            </div>
+            <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: gearName(g), price: g.price, url: g.url, note: g.name }))} />
           </div>
         </section>
 
@@ -362,22 +279,35 @@ export default function AtlantaPage() {
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Related city guides</h2>
             <p className="text-sm mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Explore our guides to other cities with thriving Pilates scenes.</p>
-            <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">{RELATED_CITIES.map((c) => <CityCard key={c.city} {...c} />)}</div>
+            <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">
+              {RELATED_CITIES.map((c) => (
+                <CityCard key={c.city} {...c} />
+              ))}
+            </div>
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">{FURTHER_READING.map((a) => <ArticleCard key={a.href} {...a} />)}</div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {FURTHER_READING.map((a) => (
+                <ArticleCard key={a.href} {...a} />
+              ))}
+            </div>
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best classical Pilates in Atlanta…" />
+        <CTASection
+          title="Find Pilates near you"
+          subtitle="Explore our curated guides to the best studios in cities worldwide."
+          showSearch
+          searchPlaceholder="Ask: best reformer Pilates in Atlanta…"
+        />
       </main>
       <Footer />
     </>
