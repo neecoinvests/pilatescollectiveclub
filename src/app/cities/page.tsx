@@ -6,7 +6,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Studio Guides by City",
-  description: "Curated guides to the best Pilates studios in 60 cities worldwide: London, New York, Paris, Vienna, Edinburgh, Auckland, Mexico City and more. Find the right studio before you book.",
+  description: "Curated guides to the best Pilates studios in 65 cities worldwide: London, New York, Paris, Vienna, Edinburgh, Auckland, Mexico City and more. Find the right studio before you book.",
   keywords: ["pilates studios by city", "best pilates studios worldwide", "pilates city guides", "reformer pilates cities", "pilates london paris new york"],
   openGraph: {
     title: "Pilates Studio Guides by City — Pilates Collective Club",
@@ -44,6 +44,7 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Munich", country: "Germany", region: "Europe", href: "/cities/munich" },
   { city: "Vienna", country: "Austria", region: "Europe", href: "/cities/vienna" },
   { city: "Edinburgh", country: "United Kingdom", region: "Europe", href: "/cities/edinburgh" },
+  { city: "Manchester", country: "United Kingdom", region: "Europe", href: "/cities/manchester" },
   { city: "New York", country: "United States", region: "Americas", href: "/cities/new-york" },
   { city: "Los Angeles", country: "United States", region: "Americas", href: "/cities/los-angeles" },
   { city: "Miami", country: "United States", region: "Americas", href: "/cities/miami" },
@@ -71,6 +72,8 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Tampa", country: "United States", region: "Americas", href: "/cities/tampa" },
   { city: "Raleigh", country: "United States", region: "Americas", href: "/cities/raleigh" },
   { city: "Vancouver", country: "Canada", region: "Americas", href: "/cities/vancouver" },
+  { city: "Calgary", country: "Canada", region: "Americas", href: "/cities/calgary" },
+  { city: "Scottsdale", country: "United States", region: "Americas", href: "/cities/scottsdale" },
   { city: "Charleston", country: "United States", region: "Americas", href: "/cities/charleston" },
   { city: "Honolulu", country: "United States", region: "Americas", href: "/cities/honolulu" },
   { city: "Montreal", country: "Canada", region: "Americas", href: "/cities/montreal" },
@@ -86,6 +89,8 @@ const CITIES: { city: string; country: string; region: string; href: string }[] 
   { city: "Melbourne", country: "Australia", region: "Oceania", href: "/cities/melbourne" },
   { city: "Brisbane", country: "Australia", region: "Oceania", href: "/cities/brisbane" },
   { city: "Auckland", country: "New Zealand", region: "Oceania", href: "/cities/auckland" },
+  { city: "Perth", country: "Australia", region: "Oceania", href: "/cities/perth" },
+  { city: "Gold Coast", country: "Australia", region: "Oceania", href: "/cities/gold-coast" },
 ];
 
 const REGIONS = ["Europe", "Americas", "Middle East & Asia", "Oceania"];
