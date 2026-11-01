@@ -44,7 +44,7 @@ const STUDIOS = [
     neighborhood: "Seefeld",
     priceLevel: "CHF ··",
     review: "ProPilates has been the benchmark for classical instruction in Zurich for over a decade, operating from a light-filled studio in the residential Seefeld quarter where the city's lake-adjacent calm seems to enter through the windows. The teaching here is rooted in the Stott Pilates method and delivered by instructors who have accumulated real hours — this is not a studio that hires quickly or trains superficially. Equipment is comprehensive and impeccably maintained, and the programming ranges from beginner-appropriate mat work to demanding intermediate reformer sequences that reward consistent attendance. The clientele is largely made up of Zurich's business and medical community, many of whom have been coming for years and treat sessions here as non-negotiable in their weekly schedules. Newcomers are welcomed but the studio's soul belongs to its long-term members.",
-    address: "—",
+    address: "Kreuzstrasse 42, 8008 Zürich",
     bestFor: "Classical practitioners and long-term Zurich residents seeking rigour",
     signatureClass: "ProPilates Reformer Intensive",
     bookingTip: "Long-term members fill most slots; book at least a week ahead as a new client",
