@@ -54,14 +54,14 @@ const STUDIOS = [
   {
     number: "02",
     name: "The New Me",
-    neighborhood: "13 studios across Paris",
+    neighborhood: "16+ studios across Paris",
     priceLevel: "$$",
-    review: "The New Me has 13 Parisian studios and a fresh, upbeat take on reformer Pilates, including its own Newformer Pilates classes — the most convenient choice if you want a studio near home and work.",
+    review: "The New Me has more than 15 Parisian studios and a fresh, upbeat take on reformer Pilates, including its own Newformer Pilates classes — the most convenient choice if you want a studio near home and work.",
     caveat: "a large chain — consistent and accessible, but less intimate than a boutique.",
     address: "—",
     bestFor: "Accessible reformer with many locations",
     signatureClass: "Newformer Pilates",
-    bookingTip: "Check which of the 13 studios is closest before buying a membership.",
+    bookingTip: "Check which studio is closest before buying a membership.",
   },
   {
     number: "03",
@@ -70,7 +70,7 @@ const STUDIOS = [
     priceLevel: "$$$",
     review: "After building a following with yoga and Pilates, RIISE created its own reformer method, working the whole body in sync with music with passionate, experienced coaches. Its reformer studios are on Rue La Boétie in the 8th and in Boulogne.",
     caveat: "music-driven group classes — energetic rather than classical.",
-    address: "—",
+    address: "79 rue La Boétie, 75008 Paris",
     bestFor: "Music-driven reformer in the 8th and Boulogne",
     signatureClass: "RIISE Reformer",
     bookingTip: "Look for a discounted first session before buying a pack.",
@@ -78,11 +78,11 @@ const STUDIOS = [
   {
     number: "04",
     name: "YUJ",
-    neighborhood: "Paris",
+    neighborhood: "Louvre (1st arrondissement)",
     priceLevel: "$$$",
     review: "YUJ combines yoga with reformer Pilates, and its reformer classes are limited to five people, so the coach can follow and correct each participant's movement.",
-    caveat: "with five places per class, slots are limited — book ahead.",
-    address: "—",
+    caveat: "with five places per class, slots are limited — book ahead. Reformer classes run only at the Louvre studio.",
+    address: "68 rue Jean-Jacques Rousseau, 75001 Paris",
     bestFor: "Small reformer classes alongside yoga",
     signatureClass: "Reformer (max 5)",
     bookingTip: "Use the YUJ app for live availability.",
@@ -228,7 +228,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Paris?", a: "Our 6 curated picks are Reformation Pilates (Le Marais · Palais-Royal), The New Me (13 studios across Paris), RIISE Reformer (8th arrondissement · Boulogne), YUJ (Paris), Sense Club (Saint-Germain-des-Prés) and DNA Pilates (Paris). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Paris?", a: "Our 6 curated picks are Reformation Pilates (Le Marais · Palais-Royal), The New Me (16+ studios across Paris), RIISE Reformer (8th arrondissement · Boulogne), YUJ (Louvre, 1st arrondissement), Sense Club (Saint-Germain-des-Prés) and DNA Pilates (Paris). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Paris neighbourhoods are best for Pilates?", a: "This guide covers The Marais (3rd & 4th Arr.), Saint-Germain-des-Prés (6th Arr.), République & Oberkampf (10th & 11th Arr.) and 15th Arrondissement. The spiritual home of Paris's boutique wellness scene." },
   { q: "What should I know about booking Pilates classes in Paris?", a: "Reservations are essential. Paris studios do not operate a reliable walk-in culture." },
   { q: "What should I bring to a Pilates class in Paris?", a: "Grip socks are required at most reformer studios. Our gear list for Paris covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
