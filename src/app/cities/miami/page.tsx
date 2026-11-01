@@ -92,7 +92,7 @@ const STUDIOS = [
     priceLevel: "$$$",
     review: "Fuze House was named Best Pilates Studio in Miami New Times' Best of Miami 2025. Founded in Miami by Eli Kaylin after lockdown (it has since expanded to New York), it runs mat-based classes that mix Pilates and sculpt, warmed by infrared heat, in a spa-like space with natural and organic products.",
     caveat: "these are heated mat classes, not reformer — choose another studio if you want machine work.",
-    address: "—",
+    address: "1201 20th St, CU-8, Miami Beach, FL 33139",
     bestFor: "Infrared-heated mat Pilates and sculpt",
     signatureClass: "Heated Mat Pilates & Sculpt",
     bookingTip: "Arrive a few minutes early to acclimatise to the heat, and hydrate well.",

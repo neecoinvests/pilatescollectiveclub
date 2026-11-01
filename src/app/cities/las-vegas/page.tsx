@@ -53,11 +53,11 @@ const STUDIOS = [
   {
     number: "1",
     name: "Solidity Studio",
-    neighborhood: "Las Vegas",
+    neighborhood: "Henderson (St Rose Parkway)",
     priceLevel: "$$$",
     review: "Solidity Studio tops ClassPass's Las Vegas reformer ranking with a 4.97 rating. Its teaching philosophy is about what the reformer builds over time — structural strength, movement confidence and a practice whose benefits compound session after session.",
-    caveat: "we could not confirm the exact street address independently — check the booking app for directions.",
-    address: "—",
+    caveat: "it is in Henderson, about 20 minutes south of the Strip.",
+    address: "3455 St Rose Pkwy, Suite 110, Henderson, NV",
     bestFor: "Progressive, technique-focused reformer",
     signatureClass: "Reformer Pilates",
     bookingTip: "The top-rated studio in town fills fast — book a few days ahead.",
@@ -69,7 +69,7 @@ const STUDIOS = [
     priceLevel: "$$$",
     review: "ReformYou in Henderson focuses exclusively on reformer Pilates on professional-grade equipment, offering controlled, low-impact resistance training in group classes and private one-to-one sessions.",
     caveat: "reformer-only — no mat or broader apparatus programme.",
-    address: "—",
+    address: "650 E Horizon Dr, Suite 8, Henderson, NV 89015",
     bestFor: "Reformer-only group and private sessions in Henderson",
     signatureClass: "Group Reformer",
     bookingTip: "New clients should consider a private session before joining group classes.",
@@ -262,7 +262,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Las Vegas?", a: "Our 6 curated picks are Solidity Studio (Las Vegas), ReformYou (Henderson), Pilates Land Las Vegas (East Sahara / Central), Club Pilates Green Valley (Green Valley / Henderson), Club Pilates Henderson (Henderson, Eastern Ave) and Club Pilates Spring Valley (Spring Valley / Southwest). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Las Vegas?", a: "Our 6 curated picks are Solidity Studio (Henderson), ReformYou (Henderson), Pilates Land Las Vegas (East Sahara / Central), Club Pilates Green Valley (Green Valley / Henderson), Club Pilates Henderson (Henderson, Eastern Ave) and Club Pilates Spring Valley (Spring Valley / Southwest). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Las Vegas neighbourhoods are best for Pilates?", a: "This guide covers Summerlin, Henderson, Downtown / Arts District and Spring Valley. Summerlin: Las Vegas's most affluent master-planned community, situated along the western edge of the valley with views toward Red Rock Canyon." },
   { q: "What should I know about booking Pilates classes in Las Vegas?", a: "Avoid the midday heat — book early morning or evening classes. Las Vegas summers regularly exceed 110°F (43°C)." },
   { q: "What should I bring to a Pilates class in Las Vegas?", a: "Grip socks are required at most reformer studios. Our gear list for Las Vegas covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },

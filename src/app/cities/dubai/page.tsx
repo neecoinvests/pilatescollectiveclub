@@ -64,11 +64,11 @@ const STUDIOS = [
   {
     number: "03",
     name: "Studio14",
-    neighborhood: "Dubai",
+    neighborhood: "Al Quoz (Alserkal Avenue)",
     priceLevel: "$$$",
     review: "Studio14 is a boutique Pilates studio built around eco-friendly principles, including self-powered equipment, and it even has its own fitness-wear line. Small classes let instructors give real attention to beginners and enthusiasts alike, across Pilates, stretching and yoga.",
-    caveat: "we could not confirm the exact studio address independently — check the studio's website or Instagram before visiting.",
-    address: "—",
+    caveat: "it moved from Umm Al Sheif to Alserkal Avenue, so ignore older listings with the old address.",
+    address: "Alserkal Avenue, Al Quoz, Dubai",
     bestFor: "Small-group Pilates with an eco-conscious ethos",
     signatureClass: "Reformer Pilates",
     bookingTip: "Small classes fill quickly — book online 24–48 hours ahead.",
@@ -230,7 +230,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Dubai?", a: "Our 6 curated picks are Reform Athletica — DIFC (DIFC, ICD Brookfield Place), 11 Pilates (Jumeirah 1 / Dubai Marina), Studio14 (Dubai), Tula Studios — JBR (JBR, Jumeirah Beach Residence), Art of Pilates — Business Bay (Business Bay) and Revolution Studios DXB (Al Quoz). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Dubai?", a: "Our 6 curated picks are Reform Athletica — DIFC (DIFC, ICD Brookfield Place), 11 Pilates (Jumeirah 1 / Dubai Marina), Studio14 (Al Quoz), Tula Studios — JBR (JBR, Jumeirah Beach Residence), Art of Pilates — Business Bay (Business Bay) and Revolution Studios DXB (Al Quoz). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Dubai neighbourhoods are best for Pilates?", a: "This guide covers DIFC & Downtown Dubai, Jumeirah & Al Safa, Dubai Marina & JBR and City Walk & Business Bay. DIFC & Downtown Dubai: The financial heart of Dubai is also its premium wellness hub." },
   { q: "What should I know about booking Pilates classes in Dubai?", a: "Book at least 48–72 hours ahead for peak slots. Dubai's top Pilates studios fill quickly, particularly morning slots before 9am and evening slots from 6pm." },
   { q: "What should I bring to a Pilates class in Dubai?", a: "Grip socks are required at most reformer studios. Our gear list for Dubai covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
