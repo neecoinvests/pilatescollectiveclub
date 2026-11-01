@@ -94,7 +94,7 @@ const STUDIOS = [
     priceLevel: "$$",
     review: "FS8, an Australian-founded brand, runs a 50-minute fusion format in Fishtown that combines reformer, yoga and barre influences, alongside mat Pilates.",
     caveat: "a fusion workout rather than traditional Pilates.",
-    address: "—",
+    address: "2400 Frankford Ave, Philadelphia, PA 19125",
     bestFor: "Reformer–yoga–barre fusion in Fishtown",
     signatureClass: "FS8 Fusion (50 min)",
     bookingTip: "Try a mat class and a fusion class to see which suits you.",

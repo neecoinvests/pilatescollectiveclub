@@ -87,7 +87,7 @@ const STUDIOS = [
     priceLevel: "$$$",
     review: "IM=X Pilates pairs classical reformer methodology with the IM=X system, which adds functional strength and flexibility work. The Lake Oswego studio has close to 5,800 reviews on ClassPass with consistently high ratings.",
     caveat: "Lake Oswego is a drive from central Portland — best for south-side residents.",
-    address: "—",
+    address: "436 1st St, Lake Oswego, OR 97034",
     bestFor: "Reformer plus IM=X functional training",
     signatureClass: "IM=X Reformer",
     bookingTip: "Start with a beginner class to learn the IM=X format.",

@@ -55,7 +55,7 @@ const STUDIOS = [
     priceLevel: "$$$",
     review: "Gaia Pilates Roma is a boutique classical Pilates studio near the Botanical Garden in Trastevere, directed by owner Gaia Faggiani and featured in Gratz Pilates' Featured Studio Series. Programmes are designed around each client's needs and goals.",
     caveat: "classical teaching is precise and methodical — expect technique, not a high-energy class.",
-    address: "—",
+    address: "Largo Cristina di Svezia 17, 00165 Roma",
     bestFor: "Classical Pilates in Trastevere",
     signatureClass: "Classical Private Session",
     bookingTip: "Start with a private session so the programme can be built around you.",
