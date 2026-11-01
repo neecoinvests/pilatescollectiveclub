@@ -69,7 +69,7 @@ const STUDIOS = [
     priceLevel: "$$$",
     review:
       "Club Pilates South Tampa serves the area's large residential population with a well-run franchise studio that consistently meets the expectations of South Tampa's wellness-savvy clientele. The studio is clean, professionally staffed, and offers a schedule wide enough to accommodate the varied patterns of busy families and professionals. Instructors receive strong marks from regulars for their clear cueing and genuine investment in client progress.",
-    address: "3909 W Neptuno St, Tampa, FL 33629",
+    address: "940 S Howard Ave, Tampa, FL 33606",
     bestFor: "South Tampa professionals and families, high-frequency practitioners, memberships",
     signatureClass: "Reformer 1.5",
     bookingTip: "Monthly memberships cut per-class costs significantly — the intro offer is worth completing before committing.",
@@ -81,7 +81,7 @@ const STUDIOS = [
     priceLevel: "$$",
     review:
       "Club Pilates Westchase is one of Tampa Bay's busiest franchise locations, serving the area's dense population of professionals and young families with a consistent, well-run reformer program. The studio's flexible membership tiers and wide class schedule make it the practical choice for practitioners who want to train three or four times a week. Instructors are thorough with cueing and attentive to form corrections. An excellent base for building a regular Pilates habit in the northwest Tampa corridor.",
-    address: "12921 Sheldon Rd, Tampa, FL 33626",
+    address: "12125 W Linebaugh Ave, Suite 202, Tampa, FL 33626",
     bestFor: "Westchase and northwest Tampa residents, high-frequency practitioners, memberships",
     signatureClass: "Club Reformer 57",
     bookingTip: "The 6 AM and 7 PM weekday slots fill 48 hours out — plan accordingly.",
@@ -105,7 +105,7 @@ const STUDIOS = [
     priceLevel: "$$$",
     review:
       "Club Pilates St. Petersburg serves the growing downtown and midtown St. Pete population with consistent, high-quality reformer programming. The studio is one of the most popular in the Tampa Bay area, earning strong reviews from St. Pete's active, outdoor-lifestyle community. Instructors bring genuine attentiveness to the curriculum and the studio's welcoming atmosphere has made it a community anchor on the south side of the bay.",
-    address: "2701 4th St N, St. Petersburg, FL 33704",
+    address: "120 Central Ave, St. Petersburg, FL 33701",
     bestFor: "St. Pete residents, all levels, Tampa Bay south-side convenience",
     signatureClass: "Reformer Flow",
     bookingTip: "Book online — St. Pete's reputation for outdoor wellness means classes fill faster than you might expect.",
