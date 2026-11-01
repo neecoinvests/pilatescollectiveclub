@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import QuickPicks from "@/components/QuickPicks";
 import Footer from "@/components/Footer";
@@ -12,30 +12,23 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Boston, MA (2026)",
-  description: "The best Pilates studios in Boston — from Back Bay reformer boutiques to South End classical practices. Six verified picks for every level, 2026.",
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-  },
-  keywords: ["pilates boston", "reformer pilates boston", "best pilates studios boston", "pilates studio boston ma", "pilates classes boston", "back bay pilates", "south end pilates boston", "pilates massachusetts", "best reformer pilates boston", "pilates cambridge ma"],
+  description: "The best Pilates studios in Boston: classical Pilates in the South End and Jamaica Plain, boutique reformer in Back Bay and the North End. Six picks for 2026.",
+  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  keywords: ["pilates boston", "reformer pilates boston", "best pilates studios boston", "classical pilates boston", "pilates back bay", "pilates south end", "pilates jamaica plain", "pilates classes boston"],
   openGraph: {
     title: "Best Pilates Studios in Boston, MA (2026)",
-    description: "Six curated Pilates studios in Boston — Back Bay reformer boutiques to South End classical method. Verified October 2026.",
+    description: "Six curated Pilates studios in Boston: South End, Jamaica Plain, Back Bay and the Waterfront. Checked October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/boston",
-    images: [{ url: "https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80", width: 1200, height: 630, alt: "Boston Massachusetts city guide — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/boston.jpg", width: 1200, height: 630, alt: "Boston Pilates guide, Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Pilates Studios in Boston (2026)",
-    description: "Six curated Pilates studios in Boston — verified picks for every level.",
-    images: ["https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80"],
+    title: "Best Pilates Studios in Boston, MA (2026)",
+    description: "Six curated Pilates studios in Boston: South End, Jamaica Plain, Back Bay and the Waterfront. Checked October 2026.",
+    images: ["https://pilatescollectiveclub.com/pictures/boston.jpg"],
   },
-  alternates: {
-    canonical: "https://pilatescollectiveclub.com/cities/boston",
-  },
+  alternates: { canonical: "https://pilatescollectiveclub.com/cities/boston" },
 };
 
 const STUDIOS = [
@@ -44,162 +37,109 @@ const STUDIOS = [
     name: "Endurance Pilates and Yoga",
     neighborhood: "South End",
     priceLevel: "$$$",
-    review: "Endurance Pilates and Yoga was founded by Master Pilates Trainer Julie Erickson. It opened in Arlington in January 2010 and moved to Washington Street in the South End in January 2015. It is a classical studio built on Gratz apparatus, offering group reformer and tower classes, mat, and private and semi-private sessions. Its injury-informed teaching serves runners, athletes, post-rehab, prenatal and postnatal clients.",
-    caveat: "classical instruction is methodical and precise — if you want a fast, music-driven sculpt class, a contemporary studio will suit you better.",
+    review: "Endurance was founded by Master Pilates Trainer Julie Erickson, opened in Arlington in 2010 and moved to Washington Street in the South End. It focuses on classical Pilates, with mat, reformer and tower classes plus private and semi-private sessions on Gratz equipment, and also offers yoga.",
+    caveat: "a classical studio, so expect a set order of exercises rather than fast-paced fusion.",
     address: "1636 Washington St, Boston, MA 02118",
-    bestFor: "Classical Pilates on Gratz apparatus; athletes and post-rehab clients",
-    signatureClass: "Classical Reformer & Tower",
-    bookingTip: "Private sessions fill weeks ahead — start with a group reformer or tower class while you wait for a private slot.",
+    bestFor: "Classical Pilates on Gratz equipment",
+    signatureClass: "Classical Tower",
+    bookingTip: "Try a tower class if you have only done reformer before.",
   },
   {
     number: "02",
-    name: "Boston Pilates",
-    neighborhood: "Jamaica Plain",
-    priceLevel: "$$",
-    review: "Boston Pilates on Green Street is dedicated to preserving the philosophy, teachings and exercises of Joseph Pilates, and it offers reformer, mat and private training for all levels. It sits directly across from the Green Street stop on the Orange Line and has free parking, which makes it one of the easiest studios in Boston to reach by any mode.",
-    caveat: "a classical, method-focused studio — expect technique and precision rather than a high-energy boutique workout.",
-    address: "160 Green St, Jamaica Plain, MA 02130",
-    bestFor: "Classical Pilates with easy T access and parking",
-    signatureClass: "Classical Reformer",
-    bookingTip: "Book online ahead of time; driving is easy thanks to the free parking.",
-  },
-  {
-    number: "03",
-    name: "Boston Body Pilates — Back Bay",
-    neighborhood: "Back Bay",
-    priceLevel: "$$$",
-    review: "Boston Body Pilates is a multi-location group reformer studio with sites in the North End, the Back Bay near Newbury Street, Brookline, Natick, Belmont and beyond. The Back Bay studio on Arlington Street is the most central, and the network lets members train close to home or work across Greater Boston.",
-    caveat: "a larger multi-studio operation — consistent, but with less one-to-one attention than a private-session studio.",
-    address: "17 Arlington St, First Floor, Boston, MA 02116",
-    bestFor: "Group reformer classes in central Boston, multi-location access",
-    signatureClass: "Group Reformer",
-    bookingTip: "Book 3–5 days ahead for morning slots; intro packages give the best per-class value.",
-  },
-  {
-    number: "04",
-    name: "Boston Body Pilates — Waterfront",
-    neighborhood: "Waterfront / North End",
-    priceLevel: "$$$",
-    review: "Boston Body's waterfront studio sits on historic Commercial Wharf at the edge of the North End, convenient for the Financial District and waterfront residents. It runs the same group reformer programme as the brand's other studios, with early-morning and evening classes.",
-    caveat: "popular commuter slots fill quickly — plan ahead if you need a specific time.",
-    address: "34 Commercial Wharf, Boston, MA 02110",
-    bestFor: "Financial District and North End commuters",
-    signatureClass: "Group Reformer",
-    bookingTip: "Early-morning classes are the best fit before a downtown workday — book them as soon as the schedule opens.",
-  },
-  {
-    number: "05",
     name: "Pilates Back Bay",
     neighborhood: "Back Bay",
     priceLevel: "$$$",
-    review: "Pilates Back Bay is a fully equipped boutique studio on the third floor of 376 Boylston Street, open Monday to Saturday by appointment. Instructors are classically and contemporarily trained and build customised programmes for clients with specific needs — recovery from back pain or knee and hip replacement, prenatal and postnatal clients, and osteoporosis. Duet and trio sessions let you train with friends while keeping personal attention.",
-    caveat: "it is appointment-based private and small-group work, not a drop-in group class studio.",
+    review: "Pilates Back Bay is a fully equipped boutique studio on the third floor of 376 Boylston Street, and a Power Pilates studio teaching the classical method.",
+    caveat: "not to be confused with Club Pilates Back Bay on St James Avenue.",
     address: "376 Boylston St, 3rd Floor, Boston, MA 02116",
-    bestFor: "Private, duet and trio sessions; rehab, prenatal and osteoporosis clients",
-    signatureClass: "Private Reformer Session",
-    bookingTip: "It is a short walk from the Arlington T stop; book a private intro session first.",
+    bestFor: "Classical Pilates in Back Bay",
+    signatureClass: "Classical Private",
+    bookingTip: "Start with privates to learn the classical system.",
+  },
+  {
+    number: "03",
+    name: "Boston Pilates",
+    neighborhood: "Jamaica Plain",
+    priceLevel: "$$$",
+    review: "Boston Pilates on Green Street follows the teachings of Joseph Pilates, with small-group and private sessions on reformers, towers and chairs as well as mat classes. It is a Power Pilates studio near the Green Street stop on the Orange Line.",
+    caveat: "a small studio with limited class times.",
+    address: "160 Green St, Jamaica Plain, MA 02130",
+    bestFor: "Classical Pilates in Jamaica Plain",
+    signatureClass: "Small Group Apparatus",
+    bookingTip: "Take the Orange Line to Green Street.",
+  },
+  {
+    number: "04",
+    name: "Boston Body Pilates (Back Bay)",
+    neighborhood: "Back Bay",
+    priceLevel: "$$$",
+    review: "Boston Body Pilates runs reformer classes at 17 Arlington Street, next to the Arlington T stop at the end of Newbury Street, with a second studio on Commercial Wharf.",
+    caveat: "listings differ on which locations are current; confirm the studio when you book.",
+    address: "17 Arlington St, First Floor, Boston, MA 02116",
+    bestFor: "Boutique reformer by the Public Garden",
+    signatureClass: "Reformer",
+    bookingTip: "Take the Green Line to Arlington.",
+  },
+  {
+    number: "05",
+    name: "Boston Body Pilates (Waterfront)",
+    neighborhood: "Waterfront / North End",
+    priceLevel: "$$$",
+    review: "Boston Body's Commercial Wharf studio offers reformer classes on the Waterfront, convenient for the North End and the Financial District.",
+    caveat: "same brand as the Back Bay studio, so choose by location.",
+    address: "34 Commercial Wharf, Boston, MA 02110",
+    bestFor: "Reformer on the Waterfront",
+    signatureClass: "Reformer",
+    bookingTip: "Good for before-work classes if you work downtown.",
   },
   {
     number: "06",
     name: "Club Pilates Back Bay",
     neighborhood: "Back Bay",
     priceLevel: "$$",
-    review: "Club Pilates Back Bay on St. James Avenue offers the national Club Pilates levelled group reformer system, which makes it one of the most structured entry points to reformer Pilates in central Boston. Membership pricing generally works out cheaper per class than boutique drop-ins for people who train several times a week.",
-    caveat: "a franchise format — consistent and well-organised, but less personalised than Pilates Back Bay or Endurance.",
+    review: "Club Pilates Back Bay on St James Avenue runs the chain's levelled reformer programme and offers a free 30-minute introductory class. ClassPass users rate it highly across thousands of reviews.",
+    caveat: "franchise format with larger classes than the independents.",
     address: "31 St James Ave, Boston, MA 02116",
-    bestFor: "Structured, levelled reformer classes in Back Bay",
-    signatureClass: "Reformer Flow",
-    bookingTip: "Drop-in rates are steep — if you plan to go often, a membership is the better deal.",
+    bestFor: "Structured beginner reformer",
+    signatureClass: "CP Reformer Flow",
+    bookingTip: "Book the free intro class first.",
   },
 ];
 
-const BOOKING_TIPS = [
-  { heading: "Expect to pay $30–60 per class", body: "Boston's reformer market sits at the upper-middle end nationally. Drop-in rates run from $30 at community and neighbourhood studios to $60+ at private boutiques. Monthly memberships and session packs bring the per-class cost down to $22–38 for regular practitioners." },
-  { heading: "The university calendar affects class availability", body: "Boston's enormous student population thins out in summer and peaks in September and January. Studio class density and pricing can shift with the academic calendar — an advantage for year-round practitioners willing to experiment with new timeslots over the summer months." },
-  { heading: "Cambridge is its own market", body: "The Cambridge studio scene has its own distinct character — more academic in atmosphere, slightly more accessible in pricing, and served by a community of instructors who are often associated with the arts and performance scene connected to Harvard and MIT." },
-  { heading: "Cold winters reward advance planning", body: "Boston's January and February winters can disrupt scheduling discipline. Studios report higher attendance consistency among practitioners with standing bookings — commit in advance, especially for early morning slots." },
-  { heading: "Grip socks are non-negotiable", body: "Every reformer studio in Boston requires grip socks. The studios that sell them at the door price them at a meaningful premium over Amazon or specialty retailers. Buying a quality pair before your first class is a straightforward saving." },
-];
+const BOOKING_TIPS = [{"heading": "Try classical Pilates", "body": "Boston has several classical studios. A private session is the best way to learn the method behind every reformer class."}, {"heading": "Use the T", "body": "Most studios here are a short walk from a T stop. Parking in Back Bay and the South End is expensive."}, {"heading": "Book early mornings ahead", "body": "Before-work classes fill first in Back Bay. Book as soon as the schedule opens."}, {"heading": "Check the location", "body": "Some brands run more than one studio. Confirm the address before you go."}, {"heading": "Bring grip socks", "body": "Grip socks are required at most reformer studios."}];
 
-const NEIGHBORHOODS = [
-  { name: "South End & Back Bay", description: "Boston's two premier lifestyle districts house the city's most design-conscious and professionally staffed Pilates studios. Higher price points are matched by correspondingly strong instruction quality and beautiful spaces." },
-  { name: "Beacon Hill & Downtown", description: "The city's historic heart supports a small number of genuinely exceptional boutique practices serving Boston's most discerning practitioners. Studios here are typically small, appointment-based, and deeply focused on individual progression." },
-  { name: "Cambridge", description: "The academic community around Harvard and MIT has produced a studio scene that values intellectual rigour and accessible pricing in roughly equal measure. Worth exploring for practitioners who want quality without Back Bay price points." },
-  { name: "Jamaica Plain & South Boston", description: "These residential neighbourhoods have developed increasingly strong independent studio cultures in recent years — community-focused, honestly priced, and well-taught by instructors who chose neighbourhood over prestige." },
-];
+const NEIGHBORHOODS = [{"name": "Back Bay", "description": "Classical, boutique reformer and Club Pilates studios around Boylston Street and the Public Garden."}, {"name": "South End", "description": "A classical studio on Washington Street with tower and reformer classes."}, {"name": "Jamaica Plain", "description": "A small classical studio near the Green Street Orange Line stop."}, {"name": "Waterfront & North End", "description": "Boutique reformer on Commercial Wharf."}];
 
-const GEAR = [
-  {
-    name: "Pilates Grip Socks",
-    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every reformer studio in Boston. Full-toe grip socks are standard across the city.",
-    price: "$30.00",
-    url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
-  },
-  {
-    name: "Pilates Mat",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A quality 6mm mat is essential for mat classes and home practice during Boston's long winters.",
-    price: "$144.00",
-    url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
-  },
-  {
-    name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Standard in many Boston classical studios. Own one for home work between sessions.",
-    price: "$35.00",
-    url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
-  },
-  {
-    name: "Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Essential for pre-class warm-up and post-class fascial release — especially useful in winter.",
-    price: "$62.99",
-    url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
-  },
-  {
-    name: "Resistance Bands Set",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric-loop bands extend your studio Pilates practice on days you can't make it to class.",
-    price: "$29.00",
-    url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
-  },
-  {
-    name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
-    price: "$699.98",
-    url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
-  },
-];
+const GEAR = [{"name": "Pilates Grip Socks", "note": "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at most reformer studios; full-toe grip socks are the standard.", "price": "$30.00", "url": "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20"}, {"name": "Pilates Mat", "note": "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A dense 6mm mat for mat classes and home practice between studio sessions.", "price": "$144.00", "url": "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20"}, {"name": "Magic Circle", "note": "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios use the magic circle; worth owning for home reinforcement work.", "price": "$35.00", "url": "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20"}, {"name": "Resistance Bands", "note": "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric loops that carry reformer leg and glute work into home sessions.", "price": "$29.00", "url": "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20"}, {"name": "Foam Roller", "note": "Our pick: OPTP PRO-Roller Foam Roller (36-inch). For spinal mobility and release work before and after class.", "price": "$62.99", "url": "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20"}, {"name": "Home Pilates Reformer", "note": "Our pick: PAETA Wooden Foldable Reformer. A folding home reformer to keep your practice going between studio classes.", "price": "$719.99", "url": "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20"}];
 
-const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
-  { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
-];
+const RELATED_CITIES = [{"city": "New York", "country": "United States", "href": "/cities/new-york", "studioCount": 6}, {"city": "Washington DC", "country": "United States", "href": "/cities/washington-dc", "studioCount": 6}, {"city": "Chicago", "country": "United States", "href": "/cities/chicago", "studioCount": 6}, {"city": "London", "country": "United Kingdom", "href": "/cities/london", "studioCount": 6}];
 
-const RELATED_CITIES = [
-  { city: "New York", country: "United States", href: "/cities/new-york", studioCount: 6 },
-  { city: "Washington DC", country: "United States", href: "/cities/washington-dc", studioCount: 6 },
-  { city: "Chicago", country: "United States", href: "/cities/chicago", studioCount: 6 },
-  { city: "London", country: "United Kingdom", href: "/cities/london", studioCount: 6 },
-];
+const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favourites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Reformer Brands (2026)", "excerpt": "Every major reformer brand ranked, for home practitioners and studio owners.", "href": "/blog/best-pilates-reformer-brands", "category": "Equipment", "readTime": "18 min read"}];
 
-const FURTHER_READING = [
-  { title: "Classical vs Contemporary Pilates", excerpt: "The split between Joseph Pilates' original system and modern interpretations — what it means for your practice.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "8 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80" },
-  { title: "How to Choose the Right Pilates Instructor", excerpt: "What credentials, experience, and red flags to look for when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "6 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1569530142884-677f12a9ce1b?w=1200&q=80" },
-];
+const CITY_FAQS = [{"q": "What are the best Pilates studios in Boston?", "a": "Our 6 picks are Endurance Pilates and Yoga (South End), Pilates Back Bay (Back Bay), Boston Pilates (Jamaica Plain), Boston Body Pilates (Back Bay) (Back Bay), Boston Body Pilates (Waterfront) (Waterfront / North End) and Club Pilates Back Bay (Back Bay). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Boston neighbourhoods are best for Pilates?", "a": "This guide covers Back Bay, South End, Jamaica Plain and Waterfront & North End. Classical, boutique reformer and Club Pilates studios around Boylston Street and the Public Garden."}, {"q": "What should I know about booking Pilates classes in Boston?", "a": "Try classical Pilates. Use the T. Book early mornings ahead."}, {"q": "What should I bring to a Pilates class in Boston?", "a": "Grip socks are required at most reformer studios. Our gear list for Boston covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Is there classical Pilates in Boston?", "a": "Yes. Endurance Pilates and Yoga, Pilates Back Bay and Boston Pilates all teach the classical method."}];
 
-const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Boston?", a: "Our 6 curated picks are Endurance Pilates and Yoga (South End), Boston Pilates (Jamaica Plain), Boston Body Pilates — Back Bay (Back Bay), Boston Body Pilates — Waterfront (Waterfront / North End), Pilates Back Bay (Back Bay) and Club Pilates Back Bay (Back Bay). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Boston neighbourhoods are best for Pilates?", a: "This guide covers South End & Back Bay, Beacon Hill & Downtown, Cambridge and Jamaica Plain & South Boston. South End & Back Bay: Boston's two premier lifestyle districts house the city's most design-conscious and professionally staffed Pilates studios." },
-  { q: "What should I know about booking Pilates classes in Boston?", a: "Expect to pay $30–60 per class. Boston's reformer market sits at the upper-middle end nationally." },
-  { q: "What should I bring to a Pilates class in Boston?", a: "Grip socks are required at most reformer studios. Our gear list for Boston covers Pilates grip socks, Pilates mat, magic circle, foam roller, resistance bands set and home Pilates reformer." },
-];
+const gearName = (g: { name: string; note: string }) => g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name;
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Article",
+      "headline": "Best Pilates Studios in Boston, MA (2026)",
+      "description": "The best Pilates studios in Boston: classical Pilates in the South End and Jamaica Plain, boutique reformer in Back Bay and the North End. Six picks for 2026.",
+      "url": "https://pilatescollectiveclub.com/cities/boston",
+      "datePublished": "2026-06-01",
+      "dateModified": "2026-10-31",
+      "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/boston.jpg" },
+      "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pilatescollectiveclub.com/cities/boston" },
+    },
+    {
       "@type": "FAQPage",
       "mainEntity": CITY_FAQS.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
     },
-    productItemList("Pilates gear for classes in Boston", GEAR.filter((g) => /amazon\.[a-z.]+\/dp\//.test(g.url)).map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, description: g.note, price: g.price, url: g.url }))),
+    productItemList("Pilates gear for classes in Boston", GEAR.map((g) => ({ name: gearName(g), description: g.note, price: g.price, url: g.url }))),
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -211,9 +151,8 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Pilates Studios in Boston, MA",
-      "description": "Curated guide to the top Pilates studios in Boston, Massachusetts, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/boston",
-      "numberOfItems": 6,
+      "numberOfItems": STUDIOS.length,
       "itemListElement": STUDIOS.map((s, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -221,23 +160,9 @@ const jsonLd = {
           "@type": "ExerciseGym",
           "name": s.name,
           "description": s.review.slice(0, 200),
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Boston",
-            "addressRegion": "MA",
-            "addressCountry": "US",
-          },
+          "address": { "@type": "PostalAddress", "streetAddress": s.address, "addressLocality": "Boston", "addressCountry": "US" },
         },
       })),
-    },
-    {
-      "@type": "Article",
-      "headline": "The Best Pilates Studios in Boston, MA (2026)",
-      "description": "A curated guide to the six best Pilates studios in Boston, Massachusetts — verified October 2026.",
-      "url": "https://pilatescollectiveclub.com/cities/boston",
-      "dateModified": "2026-10-03",
-      "author": { "@type": "Organization", "name": "Pilates Collective Club" },
-      "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
     },
   ],
 };
@@ -248,7 +173,6 @@ export default function BostonPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        {/* Hero */}
         <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
@@ -257,62 +181,56 @@ export default function BostonPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>United States</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              The Best Pilates Studios<br /><span style={{ color: "#8b4a31" }}>in Boston, Massachusetts</span>
+              The Best Pilates Studios<br />
+              <span style={{ color: "#8b4a31" }}>in Boston, MA</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
+            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+              Studios checked October 2026 · 8 min read
+            </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Boston's Pilates scene reflects the city itself: historically grounded, intellectually demanding, and quietly excellent in ways that don't require announcement. The concentration of hospitals, universities, and healthcare professionals has produced a particularly strong culture of anatomically literate movement practice — instructors here tend to have more cross-disciplinary training than their counterparts in purely fashion-forward markets. From the South End's classical studios to Cambridge's academic-adjacent practices, the city offers range without compromise. These are the six studios worth your time, verified October 2026.
+              {"Boston has a strong classical Pilates tradition, with fully equipped studios in the South End, Jamaica Plain and Back Bay, alongside boutique reformer studios and Club Pilates. This guide covers six studios with confirmed addresses, what each does best and how to book."}
             </p>
           </div>
         </section>
 
-        {/* Hero Image */}
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/boston.jpg" alt="Boston Massachusetts skyline" fill unoptimized className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/boston.jpg" alt="Boston skyline" fill priority className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
-                  <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Boston, Massachusetts</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Anatomically serious, historically grounded, quietly excellent</p>
+                  <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Boston, MA, United States</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Classical Pilates, boutique reformer and Club Pilates from the South End to Back Bay</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Studios */}
-        <section className="py-20 px-6" style={{ backgroundColor: "#fdf5f3", borderTop: "1px solid rgba(139,74,49,0.2)", borderBottom: "1px solid rgba(139,74,49,0.2)" }}>
+        <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Before You Go</p>
-            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Boston studios require grip socks and appreciate a mat for mat-based work. Our top picks, all available on Amazon.{" "}
-              <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+              {STUDIOS.length} Studios · Curated & Verified
             </p>
-            <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
+            <div className="space-y-8">
+              {STUDIOS.map((studio) => (
+                <StudioListing key={studio.number} {...studio} />
+              ))}
+            </div>
           </div>
         </section>
 
-        <section className="px-6 py-20">
-          <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Studios · Curated & Verified</p>
-            <div className="space-y-8">{STUDIOS.map((s) => <StudioListing key={s.number} {...s} />)}</div>
-          </div>
-        </section>
-
-        {/* Booking Tips */}
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Tips for booking Pilates in Boston</h2>
             <div className="space-y-6">
-              {BOOKING_TIPS.map((t) => (
-                <div key={t.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+              {BOOKING_TIPS.map((tip) => (
+                <div key={tip.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
                   <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
                   <div>
-                    <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.heading}</h3>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{t.body}</p>
+                    <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{tip.heading}</h3>
+                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{tip.body}</p>
                   </div>
                 </div>
               ))}
@@ -320,14 +238,13 @@ export default function BostonPage() {
           </div>
         </section>
 
-        {/* Neighbourhoods */}
-        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Boston</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Boston's compact geography means neighbourhood choice matters more for commute time than studio quality. Here's where to look.</p>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Where to look depending on where you live, work or stay.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
-                <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
+                <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>
                   <h3 className="text-base font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{n.name}</h3>
                   <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{n.description}</p>
                 </div>
@@ -336,32 +253,15 @@ export default function BostonPage() {
           </div>
         </section>
 
-        {/* Related Cities */}
-        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
+        {/* Studio Gear */}
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
-            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
+            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
-              <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
+              Grip socks are required at most reformer studios in Boston. These are our recommended picks, all available on Amazon.{" "}
+              <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-              {HOME_REFORMERS.map((g) => (
-                <a key={g.name} href={g.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div className="rounded-xl p-5 h-full flex flex-col justify-between" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <div>
-                      <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.tag}</p>
-                      <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{g.name}</h3>
-                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{g.note}</p>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.price}</span>
-                      <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Shop →</span>
-                    </div>
-                  </div>
-                </a>
-              ))}
-            </div>
+            <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: gearName(g), price: g.price, url: g.url, note: g.name }))} />
           </div>
         </section>
 
@@ -379,23 +279,35 @@ export default function BostonPage() {
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Related city guides</h2>
             <p className="text-sm mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Explore our guides to other cities with thriving Pilates scenes.</p>
-            <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">{RELATED_CITIES.map((c) => <CityCard key={c.city} {...c} />)}</div>
+            <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">
+              {RELATED_CITIES.map((c) => (
+                <CityCard key={c.city} {...c} />
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* Further Reading */}
-        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
+        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">{FURTHER_READING.map((a) => <ArticleCard key={a.href} {...a} />)}</div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {FURTHER_READING.map((a) => (
+                <ArticleCard key={a.href} {...a} />
+              ))}
+            </div>
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best classical Pilates in Boston…" />
+        <CTASection
+          title="Find Pilates near you"
+          subtitle="Explore our curated guides to the best studios in cities worldwide."
+          showSearch
+          searchPlaceholder="Ask: best reformer Pilates in Boston…"
+        />
       </main>
       <Footer />
     </>
