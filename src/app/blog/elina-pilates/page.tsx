@@ -239,7 +239,7 @@ export default function ElinaPilatesPage() {
                       <span className="text-xs uppercase tracking-widest" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
                     </div>
                     {p.affiliateUrl ? (
-                      <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
+                      <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} showProductImage={p.name !== "Elina Pilates Baby Chair"} />
                     ) : (
                       <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "4px" }}>
                         <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", marginBottom: "10px" }}>{p.name}</h3>

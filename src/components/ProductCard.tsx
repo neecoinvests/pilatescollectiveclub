@@ -1,6 +1,13 @@
-"use client";
+import ProductCardView from "@/components/ProductCardView";
+import amazonImages from "@/data/amazon-images.json";
 
-import Image from "next/image";
+// Product photos come from the Amazon Creators API (ASIN -> image URL on Amazon's CDN, hotlinked, never rehosted).
+const IMAGES = amazonImages as Record<string, string>;
+
+function amazonImageFor(url?: string) {
+  const asin = url?.match(/amazon\.[a-z.]+\/(?:[^/?#]+\/)?(?:dp|gp\/product)\/([A-Z0-9]{10})/)?.[1];
+  return asin ? IMAGES[asin] : undefined;
+}
 
 interface ProductCardProps {
   name: string;
@@ -8,139 +15,14 @@ interface ProductCardProps {
   price?: string;
   affiliateUrl?: string;
   imageUrl?: string;
-  /** Square product photo (e.g. an Amazon image URL), shown beside the text on desktop and above it on mobile. */
   productImageUrl?: string;
   ctaLabel?: string;
+  /** Set to false when the link goes to a stand-in product, so its photo is not shown under another product's name. */
+  showProductImage?: boolean;
 }
 
-export default function ProductCard({ name, description, price, affiliateUrl = "#", imageUrl, productImageUrl, ctaLabel }: ProductCardProps) {
-  const buttonLabel = ctaLabel ?? (/amazon\.[a-z.]+\//.test(affiliateUrl) ? "Shop on Amazon" : "Shop Direct");
-  const linkRel = /amazon\./i.test(affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow";
-  if (productImageUrl) {
-    return (
-      <div className="flex flex-col sm:flex-row sm:items-start gap-6 sm:gap-8" style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "28px" }}>
-        <a
-          href={affiliateUrl}
-          target="_blank"
-          rel={linkRel}
-          aria-label={`${name} on Amazon`}
-          className="block relative w-full max-w-[280px] mx-auto sm:mx-0 sm:w-[200px] sm:max-w-none shrink-0 aspect-square"
-          style={{ backgroundColor: "#ffffff", border: "1px solid #ede9e3" }}
-        >
-          <Image
-            src={productImageUrl}
-            alt={name}
-            fill
-            unoptimized
-            sizes="(min-width: 640px) 200px, 280px"
-            className="object-contain"
-            style={{ padding: "14px" }}
-          />
-        </a>
-        <div className="flex-1 min-w-0 flex flex-col">
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", marginBottom: "10px" }}>
-            <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", lineHeight: 1.2, margin: 0 }}>
-              {name}
-            </h3>
-            {price && (
-              <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 400, color: "#c5a882", whiteSpace: "nowrap", textAlign: "right", letterSpacing: "0.05em" }}>
-                {price}
-              </span>
-            )}
-          </div>
-          <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75, marginBottom: "24px" }}>
-            {description}
-          </p>
-          <a
-            href={affiliateUrl}
-            target="_blank"
-            rel={linkRel}
-            style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "14px 20px", textAlign: "center", transition: "background-color 0.2s" }}
-            onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = "#c5a882"; }}
-            onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = "#0a0a0a"; }}
-          >
-            {buttonLabel}
-          </a>
-        </div>
-      </div>
-    );
-  }
-  return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      {imageUrl && (
-        <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", marginBottom: "0", backgroundColor: "#f0ece6" }}>
-          <Image
-            src={imageUrl}
-            alt={`${name}: Pilates equipment`}
-            fill
-            className="object-cover"
-          />
-        </div>
-      )}
-      <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "28px", flex: 1, display: "flex", flexDirection: "column" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", marginBottom: "10px" }}>
-          <h3 style={{
-            fontFamily: "var(--font-serif)",
-            fontSize: "20px",
-            fontWeight: 400,
-            color: "#0a0a0a",
-            lineHeight: 1.2,
-            margin: 0,
-          }}>
-            {name}
-          </h3>
-          {price && (
-            <span style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: "12px",
-              fontWeight: 400,
-              color: "#c5a882",
-              whiteSpace: price.length > 16 ? "normal" : "nowrap",
-              maxWidth: price.length > 16 ? "45%" : undefined,
-              textAlign: "right",
-              letterSpacing: "0.05em",
-            }}>
-              {price}
-            </span>
-          )}
-        </div>
-
-        <p style={{
-          fontFamily: "var(--font-sans)",
-          fontSize: "13px",
-          fontWeight: 300,
-          color: "#6b6560",
-          lineHeight: 1.75,
-          marginBottom: "24px",
-          flex: 1,
-        }}>
-          {description}
-        </p>
-
-        <a
-          href={affiliateUrl}
-          target="_blank"
-          rel={/amazon\./i.test(affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
-          style={{
-            display: "block",
-            fontFamily: "var(--font-sans)",
-            fontSize: "10px",
-            fontWeight: 500,
-            letterSpacing: "0.18em",
-            textTransform: "uppercase",
-            color: "#ffffff",
-            textDecoration: "none",
-            backgroundColor: "#0a0a0a",
-            padding: "14px 20px",
-            textAlign: "center",
-            transition: "background-color 0.2s",
-          }}
-          onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = "#c5a882"; }}
-          onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = "#0a0a0a"; }}
-        >
-          {buttonLabel}
-        </a>
-      </div>
-    </div>
-  );
+export default function ProductCard({ showProductImage = true, ...props }: ProductCardProps) {
+  // Cards that already carry their own lifestyle photo keep it; otherwise show the Amazon product photo when we have one.
+  const productImageUrl = !showProductImage ? undefined : props.productImageUrl ?? (props.imageUrl ? undefined : amazonImageFor(props.affiliateUrl));
+  return <ProductCardView {...props} productImageUrl={productImageUrl} />;
 }
