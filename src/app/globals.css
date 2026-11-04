@@ -152,3 +152,14 @@ h1, h2, h3, h4 {
   .pcc-blog-hero { height: 340px !important; }
   .pcc-blog-hero-content { padding: 0 20px 32px !important; }
 }
+
+/* Shop Gear panel */
+.pcc-mega-link { transition: color 0.15s; }
+.pcc-mega-link:hover { color: #8b4a31 !important; }
+.pcc-mega-card img { transition: transform 0.4s ease; }
+.pcc-mega-card:hover img { transform: scale(1.03); }
+.pcc-mega-grid { display: grid; grid-template-columns: 210px minmax(0, 1fr) 280px; gap: 48px; }
+@media (max-width: 1199px) {
+  .pcc-mega-grid { grid-template-columns: 180px minmax(0, 1fr); gap: 32px; }
+  .pcc-mega-feature { display: none; }
+}
