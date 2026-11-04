@@ -1,13 +1,5 @@
 import ProductCardView from "@/components/ProductCardView";
-import amazonImages from "@/data/amazon-images.json";
-
-// Product photos come from the Amazon Creators API (ASIN -> image URL on Amazon's CDN, hotlinked, never rehosted).
-const IMAGES = amazonImages as Record<string, string>;
-
-function amazonImageFor(url?: string) {
-  const asin = url?.match(/amazon\.[a-z.]+\/(?:[^/?#]+\/)?(?:dp|gp\/product)\/([A-Z0-9]{10})/)?.[1];
-  return asin ? IMAGES[asin] : undefined;
-}
+import { amazonImageFor } from "@/lib/amazonImages";
 
 interface ProductCardProps {
   name: string;

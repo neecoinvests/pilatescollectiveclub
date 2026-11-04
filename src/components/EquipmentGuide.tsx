@@ -8,6 +8,7 @@ import CTASection from "@/components/CTASection";
 import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
 import { jsonLdHtml } from "@/lib/schema";
+import ProductCard from "@/components/ProductCard";
 
 // Long-form equipment buying guide / comparison template. Pages pass data;
 // this renders the layout plus Article, Product ItemList, Breadcrumb and FAQ
@@ -89,64 +90,45 @@ function Eyebrow({ text }: { text?: string }) {
   );
 }
 
+// Same layout as the hand-built articles: rank and tag, the shared ProductCard
+// (with its Amazon photo), then specs and the Pros / Cons boxes.
 function ItemCard({ item, rank }: { item: GuideItem; rank: number }) {
-  const external = item.availability === "direct" ? "noopener noreferrer" : "noopener noreferrer sponsored";
   return (
-    <div id={item.id} className="scroll-mt-28 rounded-2xl overflow-hidden" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", boxShadow: "0 1px 8px rgba(0,0,0,0.05)" }}>
-      <div className="p-6 md:p-8">
-        <div className="flex items-start justify-between gap-4 mb-4">
-          <div>
-            <div className="flex flex-wrap items-center gap-3 mb-2">
-              <span className="text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center text-white" style={{ backgroundColor: "#1b1c1c", fontFamily: sans, fontSize: "10px" }}>{rank}</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.18em] px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: sans }}>{item.badge}</span>
-            </div>
-            <h3 className="text-2xl font-semibold" style={{ color: "#1b1c1c", fontFamily: serif }}>{item.name}</h3>
-          </div>
-          <span className="text-sm font-semibold whitespace-nowrap" style={{ color: "#c5a882", fontFamily: sans }}>{item.price}</span>
-        </div>
-        <p className="text-xs mb-4" style={{ color: "#86736d", fontFamily: sans }}>
+    <div id={item.id} className="scroll-mt-28">
+      <div className="flex items-center gap-3 mb-4">
+        <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: serif }}>{String(rank).padStart(2, "0")}</span>
+        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: sans }}>{item.badge}</span>
+      </div>
+      <ProductCard name={item.name} description={item.body} price={item.price} affiliateUrl={item.url} ctaLabel={item.ctaLabel} />
+      <div className="rounded-lg p-4" style={{ backgroundColor: "#f9f6f5", border: "1px solid rgba(217,194,186,0.3)" }}>
+        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: sans }}>Key specs (from the listing)</p>
+        <ul className="space-y-1">
+          {item.specs.map((sp) => <li key={sp} className="text-xs leading-relaxed" style={bodyStyle}>· {sp}</li>)}
+        </ul>
+        <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: sans }}>
           {AVAILABILITY[item.availability].label}{item.soldBy ? ` · Sold by ${item.soldBy}` : ""}
         </p>
-        <p className="text-sm leading-relaxed mb-5" style={bodyStyle}>{item.body}</p>
-
-        <div className="rounded-xl p-4 mb-5" style={{ backgroundColor: "#f9f6f5" }}>
-          <p className="text-xs font-semibold uppercase tracking-widest mb-2.5" style={{ color: "#8b4a31", fontFamily: sans }}>Key specs (from the listing)</p>
-          <ul className="space-y-1.5">
-            {item.specs.map((s) => (
-              <li key={s} className="text-xs leading-relaxed flex gap-2" style={bodyStyle}><span style={{ color: "#c5a882", flexShrink: 0 }}>·</span>{s}</li>
-            ))}
-          </ul>
-        </div>
-
-        {(item.pros || item.cons) && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-            {item.pros && (
-              <div className="rounded-xl p-4" style={{ backgroundColor: "#f6f8f5" }}>
-                <p className="text-xs font-semibold uppercase tracking-widest mb-2.5" style={{ color: "#536257", fontFamily: sans }}>Why buy it</p>
-                <ul className="space-y-1.5">
-                  {item.pros.map((p) => (
-                    <li key={p} className="text-xs leading-relaxed flex gap-2" style={bodyStyle}><span style={{ color: "#536257", flexShrink: 0 }}>+</span>{p}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {item.cons && (
-              <div className="rounded-xl p-4" style={{ backgroundColor: "#f9f6f5" }}>
-                <p className="text-xs font-semibold uppercase tracking-widest mb-2.5" style={{ color: "#7a6a64", fontFamily: sans }}>Think twice if</p>
-                <ul className="space-y-1.5">
-                  {item.cons.map((c) => (
-                    <li key={c} className="text-xs leading-relaxed flex gap-2" style={bodyStyle}><span style={{ color: "#c5a882", flexShrink: 0 }}>–</span>{c}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        )}
-
-        <a href={item.url} target="_blank" rel={external} className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: sans, textDecoration: "none" }}>
-          {item.ctaLabel ?? "Shop Now →"}
-        </a>
       </div>
+      {(item.pros || item.cons) && (
+        <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {item.pros && (
+            <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
+              <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: sans }}>Pros</p>
+              <ul className="space-y-1">
+                {item.pros.map((pro) => <li key={pro} className="text-xs" style={bodyStyle}>+ {pro}</li>)}
+              </ul>
+            </div>
+          )}
+          {item.cons && (
+            <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
+              <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: sans }}>Cons</p>
+              <ul className="space-y-1">
+                {item.cons.map((con) => <li key={con} className="text-xs" style={bodyStyle}>− {con}</li>)}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -278,7 +260,7 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
                       <Eyebrow text={b.eyebrow} />
                       <h2 className="text-3xl font-semibold mb-4" style={h2Style}>{b.heading}</h2>
                       {b.intro && <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>{b.intro}</p>}
-                      <div className="space-y-10">
+                      <div className="space-y-12">
                         {b.items.map((it) => <ItemCard key={it.id} item={it} rank={rankById.get(it.id) ?? 0} />)}
                       </div>
                     </div>
